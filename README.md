@@ -1,5 +1,5 @@
-The aim of this project is to convert Su Doree's "Just Enough Algebra" textbook into PreTeXt.
+# My Great Book
 
-Current structure:
-- The folder called "2012" has the original tex source files.
-- The folder called "pretext" will be the home for converted source files.
+Here is where the converted files will live.
+
+Visit <https://pretextbook.org/documentation.html> to learn more.

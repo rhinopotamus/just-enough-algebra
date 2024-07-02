@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="Solving_equationsWS" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>Solving equations</title>
+
+	<xi:include href="Formula3.ptx" />
+	<xi:include href="Solving_linear_equationsWS.ptx" /> 
+	<xi:include href="Solving_linear_inequalitiesWS.ptx" /> 
+	<xi:include href="Solving_power_equationsWS.ptx" /> 
+	<xi:include href="Solving_exponential_equationsWS.ptx" />
+	<xi:include href="Solving_quadratic_equationsWS.ptx" /> 
+	<xi:include href="PE3A.ptx" />
+	<xi:include href="PE3B.ptx" />
+
+</chapter>

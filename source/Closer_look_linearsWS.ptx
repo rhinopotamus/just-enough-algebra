@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="Closer_look_linearsWS" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>A closer look at linear equations</title>
+
+	<xi:include href="Modeling_linear_equationsWS.ptx" />
+	<xi:include href="Systems_linear_equationsWS.ptx" />
+	<xi:include href="InterceptsWS.ptx" />
+	<xi:include href="SlopesWS.ptx" />
+	<xi:include href="Fitting_lines_to_dataWS.ptx" />
+	<xi:include href="PE4A.ptx" />
+	<xi:include href="PE4B.ptx" />
+
+</chapter>

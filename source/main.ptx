@@ -6,13 +6,22 @@
 
   <book xml:id="my-great-book">
     <title>Just Enough Algebra</title>
-    <subtitle>beep boop</subtitle>
+    <subtitle>pretext workbook conversion</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
 
     <!-- Include chapters -->
-    <xi:include href="./ch-chapter-title.ptx" />
+    <xi:include href="./VariablesWS.ptx" />
+
+<!-- Not yet converted:
+    <xi:include href="./EquationsWS.ptx" />
+    <xi:include href="./Solving_equationsWS.ptx" />
+    <xi:include href="./Closer_look_linearsWS.ptx" />
+    <xi:include href="./Closer_look_exponentialsWS.ptx" />
+-->
+    <!-- final exams -->
+    <!-- formulafinal -->
 
 
     <!-- Include backmatter -->
