@@ -1,0 +1,278 @@
+
+
+\section{A first look at exponential equations}
+
+SU:  INTRODUCTORY EXAMPLE needs to be fixed, perhaps to rising health care costs
+
+Jocelyn was tired of driving so far to work and decided to buy a small house closer to downtown.  She paid \$235,000 for a cute 1920's bungalow.  Besides saving on commuting time and gas, it turned out to be a very profitable investment.  Neighborhood renovation efforts were paying off.  After one year her home had increased 15\% in value.  And, the next year it increased 21\%.  ``Not bad,'' her friend Russell said, ``a 36\% return in two years.''  But Jocelyn quickly corrected him.  ``Russ, it's even better than that!  Over 39\% return.''
+
+To understand Jocelyn's calculation, we need to remember how percents work.  We did a few examples in the last chapter, but since this section is all about percentage increase, let's review in a little more detail now.  Luckily, the word ``percent'' is very descriptive.  The ``cent'' part means ``hundred,'' like 100 cents in a dollar or 100 years in a century.  And, as usual, ``per'' means ``for each.''  So the number 15\% means 15 for each hundred.  Written as a fraction it is $\frac{15}{100}$.  As a decimal it's 0.15.  Thus 15\%, $\frac{15}{100}$, and 0.15 mean exactly the same thing. That is,
+
+$$15\% = \frac{15}{100} = 0.15$$
+
+In the first year, Jocelyn's \$235,000 investment rose 15\% in value.  That doesn't mean it was 0.15 more, but rather that it was 15\% of \$235,000 more.  To calculate 15\% of \$235,000 we multiply using the decimal form to get $$15\% \text{ of } \$235,000 = 0.15 \ast \$235,000 = \$35,250.$$  That's how much value the house gained in the first year.  By adding that amount to the original value we get $$\$235,000 + \$35,250 = \$270,250.$$  After one year Jocelyn's house was worth \$270,250.
+
+In the second year, the house value increased by 21\%.  This means the house value rose by 21\% from what it was just before the rise, that is, from the \$270,250 value it had at the beginning of the second year.  (The 21\% does not refer back to the original \$235,000 value.)  So, to calculate the gain, we take 21\% of \$270,250, which is $$21\% \text{ of } \$270,250 = 0.21 \ast \$270,250 = \$56,752.50.$$  By adding on this increase we get $$\$270,250 + \$56,752,50 = \$327,002.50.$$  After the second year Jocelyn's house was worth \$327,002.50.
+
+Since Jocelyn paid \$235,000 for her house, the net increase in value is the difference $$\$327,002.50 - \$235,000 = \$92,002.50.$$ The corresponding percentage increase was $$\text{percentage increase} = \frac{\text{net increase}}{\text{original value}} =\frac{\$92,002.50}{\$235,000}= 0.3915 = 39.15\%.$$  As Jocelyn said, that's over 39\% increase.
+
+What's going on here? Russell thought that 15\% and 21\% would be 36\% because $$15 + 21 = 36.$$ The reason it doesn't work that was is that while the 15\% is of the original \$235,000, the 21\% was actually calculated on the \$270,250.  So, we can't just combine percentages by adding.
+
+There's a quicker way to calculate the percentage increase and to combine percentages.  Notice that each time we figured out the value of Jocelyn's house, we did a two-step process.  First, we calculated the amount of the increase, and second we found the new value by adding on.  Notice that when we increase a number by 15\%, then what we'll have at the end is the 100\% we started with plus the 15\% more.  That is, we'll have 115\% of what we started with.  So we can just multiply by 1.15, which is 115\% written in decimal.  (Looks weird, works great.)  
+
+So, in our example, we can just do $$\$235,000 \ast 1.15 = \$270,250.$$  We can do the same thing for the next calculation $$\$270,250 \ast 1.21 = \$327,002.50.$$  Here we multiplied by 1.21 because after a 21\% increase you'll have 121\% of what you started with.  And 121\% in decimal form is just 1.21.
+
+There are a lot of important applications in which we'll consider repeated percentage increase.  So, hang on to your hat because we can combine both of these parts together.  In our example, we started with \$235,000.  Then we multiplied by 1.15, which gave us \$270,250.  And then we multiplied that answer by 1.21, to get our final answer of \$327,002.50.  So really we just did $$\$235,000 \ast 1.15 \ast 1.21 = \$327,002.50.$$  That's the same answer and with a lot less effort.
+
+And check it out, $$1.15 \times 1.21 = 1.3915.$$ That's where the 39.15\% is hidden. Cool.
+
+There are names for the different numbers we are using.  The percentage increase is called the \emph{growth rate} and the number we multiply in the one-step method is called the \emph{growth factor}.  For example, in calculating 15\% increase, the growth rate is 15\% and the growth factor is 1.14.
+
+To appreciate the power of what we've learned, look at what happens if Jocelyn's house continues to rise in value, say at the more conservative rate of 6\% each year.  Let's write an equation showing how the value of her house depends on how many more years she owns it.  Our variables are 
+
+\begin{tabular} {ll} \\
+Constant: & 8\% increase \\ \\
+Variables: & $V$ = the value of her house (\$), dep, $0 \le V \le 1,000,000$ \\ \\
+& $Y$ = time (years from now), indep, $0 \le Y \le 20$ \\ \\
+\end{tabular}
+
+\noindent We chose up to 20 years and up to \$1 million.  Even though those numbers might not be realistic, they are definitely large enough.
+
+Since 6\% = 0.06, the growth factor is 1.06.  That tells us that to find the effect of a 6\% increase, we can just multiply by 1.06.  Right now her house is worth \$327,002.50. One year from now it would be worth $$\$\text{327,002,50} \ast 1.06 = \$\text{346,622.65}.$$  Another year later it would be worth $$\$\text{346,622.65} \ast 1.06 \approx \$\text{367,420.10}.$$  And so on.  For each year we multiply by another 1.06.  For example, after ten more years her house would be worth $$\$ \text{327,002,50} \ast 1.06 \ast 1.06 \ast 1.06 \ast 1.06 \ast 1.06 \ast 1.06 \ast 1.06 \ast 1.06 \ast 1.06 \ast 1.06 \approx \$ \text{585,611.67}.$$
+
+A more economical way to write and calculate this product is with an exponent.  The value after ten more years would be $$\$\text{327,002,50} \ast 1.06^{10} \approx \$\text{585,611.67}.$$  On a calculator we can do this calculation in one step as $$32700250 \times 1.06 \wedge 10 = .$$  The order of operations on the calculator does the power before the multiplication, which is exactly what we want.
+
+Most calculators use the $\wedge$ symbol for exponents, as do most computer software packages. Two other notations calculators sometimes use are $y^x$ or $x^y$.  Sometimes that operation is accessible through the 2nd or shift key; something like SHIFT $\times$.  If you're not sure, ask a classmate or your instructor.
+
+We're so close to the equation now, we can smell it.  We just found the value of the house after 10 years.  It was $$\$\text{327,002,50} \ast 1.06^{10} \approx \$585,611.67.$$  We can generalize to get the equation by putting in $Y$ years (instead of 10) and $V$ for the value (instead of \$585,611.67).  When we do we get$$\$\text{327,002,50} \ast 1.06^{Y} = V.$$ Rewriting the equation to begin with the dependent variable we get $$ V = \$\text{327,002,50} \ast 1.06^{Y}.$$  By the way, there are two other standard ways of writing this equation  $$ V = \$\text{327,002,50} (1.06)^{Y} \text{ or also } V = \$\text{327,002,50}\left(1.06^{Y}\right).$$
+
+% SU is there some way to get less space after the commas? This is annoying.  I could make them text, I guess.  Sigh.
+
+Our equation is called an \emph{exponential} equation because the independent variable is in the exponent.  More specifically, for our purposes an exponential equation has the form
+
+\begin{center}
+dep.\ var.\ = starting amount $\left(\text{growth factor}\right)^{\text{indep.\ var.\ }}$
+\end{center}
+
+In any exponential equation, whenever the independent variable changes by one unit, the dependent variable changes by the same percentage, the growth rate.
+
+SU:  is there a graph of an exponential in this example?  If not, add it and add this comment:
+
+Exponential equations are not linear and so their graphs are not lines.  Sometimes the graph looks like a  line, especially if you only plot a few points.  So, be sure to plot at least 5 or more points to see the curve in the graph of an exponential equation.
+
+Matter of fact, why not add some rate of change calculation and interpolation to emphasize that it's not linear?
+
+SU:  also where do you go over the order of operations.  Should be earlier!
+
+SU:  are the terms ``growth rate'' and ``growth factor'' defined here.  If not, change the references in the exercises
+
+\newpage
+\subsection*{Practice exercises}
+
+\begin{enumerate}
+\item SU:  find worksheet problem.  No graph here, perhaps?
+
+\begin{enumerate}
+\item x  \vfill
+\item x  \vfill
+\item x  \vfill
+\item x  \vfill
+\item x  \vfill
+\end{enumerate}
+
+\newpage
+
+\item SU:  update year and data!  In 2006 there were about 5.2 million people living in the state of Minnesota.  Predicted growth rates vary, perhaps around 4\% per year. 
+
+\begin{enumerate}
+\item Based on these figures, about how many people will be living in the state of Minnesota in 2010?  In 2020?  \vfill
+\item Identify the variables and constants (if any), including the units, realistic domain and range, and dependence.    \vfill
+\item Write an equation showing how Minnesota's population is a function of the year.  \vfill
+\item Make a table of values showing the projected population every two years from 2006 to 2020.  \vfill
+\item Draw a graph illustrating the dependence.
+
+\begin{center}
+\scalebox {.8} {\includegraphics [width = 6in] {GraphPaper}}
+\end{center}
+\end{enumerate}
+
+\newpage
+
+\item Vladislav borrowed \$2,500 for the fall semester.  Mention interest rate for the student loan 6.2\%.  Be sure to have rate of change calculated.  \emph{Often interest is applied monthly, but because he's not paying it back we're just using the equivalent annual rate, aka APR.  More in section 6.x}
+
+\begin{enumerate}
+\item Questions here \vfill
+\item x \vfill
+\item x \vfill
+\item x \vfill
+\item  No graph for this one. \vfill
+\end{enumerate}
+
+\newpage
+
+\item Story here -- perhaps the number of bacteria doubling?  Say how it's 100\% growth.
+
+\begin{enumerate}
+\item Questions here \vfill
+\item x \vfill
+\item x \vfill
+\item x \vfill
+\item Draw a graph illustrating the function
+
+\begin{center}
+\scalebox {.8} {\includegraphics [width = 6in] {GraphPaper}}
+\end{center}
+\end{enumerate}
+
+\end{enumerate}
+
+\bigskip
+
+\noindent \textbf{Do you know \ldots}
+
+\begin{itemize}
+\item What percent means and how to convert between percents and decimal?
+\item How to find the growth factor if you know the percent increase?
+\item How to calculate percent increase, and compounded percent increase, in one step?
+\item What makes an equation exponential?
+\item Where the starting value and growth factor appear in the standard form of an exponential equation?
+\item When a function is exponential?
+\item How to calculate powers on your calculator?  SU did we do this earlier?
+\end{itemize}
+
+\noindent \emph{If you're not sure, work the rest of exercises and then return to these questions afterwards.  Or, ask your instructor or a classmate for help.}
+
+\subsection*{Exercises}
+
+SU:  bring in exercises from 2.2 082503 and also look at 1.8 to be sure.  Make sure there are rate of change problems here and interpolation.  Be sure to use the word function occasionally and NOT range.  Also, no approximations or solving yet.
+
+\begin{enumerate} 
+\setcounter{enumi}{4}
+
+\item NAME has been comparing student loans.  She plans to borrow \$15,000 and will not be able to start payments for four years.  Name the variables, including units, and write an equation for each annual percentage rate (APR) listed
+\begin{enumerate}
+\item 5\%
+\item 12\%
+\item 2.4\%
+\end{enumerate}
+
+\item Estimates of SOMETHING are given by the following equations.  SAY what variables mean.  In each case identify the percentage change and calculate the value in 10 years. 
+
+\begin{enumerate}
+\item $A=30(1.07)^Y$
+\item $A=30(1.017)^Y$
+\item $A=30(1.7)^Y$
+\end{enumerate}
+
+\item Sales in our small business have grown very well from \$138,495 in 2008, increasing 5.2\% in 2009, increasing 6\% in 2010, and 7.1\% increase in 2011.  
+\begin{itemize}
+\item Calculate the sales in 2011. \emph{Hint:  find 2009, then 2010 first} 
+\item Draw a graph illustrating the dependence.
+\item Calculate the rate of change for each year.  Explain how to ``see'' the rate of change on the graph.
+\item What does the rate of change estimate (linear interpolation) predict for 2012?  Based on the graph do you think sales will be higher or lower than the rate of change prediction?
+\end{itemize}
+
+\item Mai's salary was \$78,000 before she got a 6\% raise.  Now the economy was not doing as well and she got only a 1.5\% raise this year.
+\begin{enumerate}
+\item What was her salary after the second raise?
+\item Her colleague Deshawn started with a salary of \$78,000 but did not get a raise the first year like Mai did.  What percentage raise would he need now in order to have the same final salary as Mai?
+\item Would Mai's salary have been the more than, less than, or the same as now if she had received the 1.5\% raise first and then the 6\% raise?
+\item Which order would you rather have:  6\% then 1.5\% or 1.5\% then 6\%?  Why?
+\end{enumerate}
+
+\item There were 453 students at Elmwood Elementary school in 2010.  The number of students is expected to increase by 4\% each year. At that pace, how many students will there be in 2020?
+
+\item In 1990 it was estimated that 2.5 million households watched reality television at least once a week.  Executives predicted that number would increase by 7.2\% each year.  According to their estimates, how many millions of households watched reality television in 2000?  In 2010?  SU add real numbers??
+
+\item My grandmother bought a set of sterling silverware for \$800 in 1925.  It has increased in value by 3\% each year.  
+\begin{enumerate}
+\item What was it worth in 1957 when she handed it down to my mother as a wedding present?
+\item What was it worth in 1990 when my mother handed it down to me?
+\item In 2003 I took out insurance on the silverware for up to \$10,000 in value.  Was that enough then?  Is it still enough in 2010?
+\end{enumerate}
+
+\item At a local college full-time tuition costs \$37,000.  Is continues to rise at 11\% per year.
+\begin{itemize}
+\item What do you expect the tuition to be in five years?
+\item Name the variables, including units, and write an equation describing the dependence.
+\item Make a table of values showing the tuition now, in 5 years, 10 years, 20 years, and 50 years (even though that's not realistic).
+\item Draw a graph illustrating the function.
+\end{itemize}
+
+\item Repeat the previous problem assuming 10.5\% increase per year instead.  Add the graph to the previous graph.
+
+\item At 8:00 p.m. after his first beer, Tom's blood alcohol content (BAC) was already up to 0.04.  As Tom continued to drink, his BAC level rose 45\% per hour.
+\begin{enumerate}
+\item Name the variables, including units, and write an equation illustrating how Tom's BAC is a function of time.
+\item Make a table showing Tom's BAC at each hour from 8:00 p.m. to 2:00 a.m.
+\item At a BAC of 0.10 it is illegal for Tom to drive.  Approximately when does that happen?
+\end{enumerate}
+
+
+\item SU:  need more zobitz style problems.  More interesting names and relevant stories
+
+\item The Data One software company reported earnings of \$42.7 billion in 2007.  At that time executives projected 17\% increase in earnings annually.
+\begin{enumerate}
+\item Name the variables and find an equation relating them.
+\item According to your equation, what would Data One's earnings be in 2015.
+\item If Data One reports earnings of \$78.1 billion in 2015, would you say the projected rate of 17\% was too high or too low?  Explain.
+\end{enumerate}
+
+\item According to the U.S. Census, the population of the United States in 1990 was 248.7 million people.
+\begin{enumerate}
+\item If the population increased 2\% per year, what would it have been in the year 2000?  In 2010?
+\item The actual population (as measured by the U.S. Census) was reported as 281.4 million people.  Did the population increase at more than or less than the 2\% predicted?  
+\item Do you expect the reported population in 2010 to be higher or lower than your calculated value?
+\end{enumerate}
+
+\item The total number of people with AIDS in the United States ($A$) can be approximated by the exponential function $$A=100,000(1.4)^t$$ where $T$ is the number of years after 1989.
+\begin{enumerate}
+\item What is the annual growth factor used in this equation?  What is the corresponding percentage increase per year?
+\item According to this equation, how many people with AIDS were there in 1995?  In 2005?
+\end{enumerate}
+
+\item In a recent study of women who were 5'3'' tall, the weight $W$ of each woman measured in pounds was plotted against her age $A$ years.  These points fell approximately on the curve given by the formula $$W = 90(1.012)^A$$ 
+\begin{enumerate}
+\item According to this equation, what is the typical weight of 20 year old?  A 40 year old?
+\item What is the significance of the number 1.012 in the equation?
+\item According to the equation, what value is $W$ when $A =0$?  What does your answer mean in this context?  Is is reasonable?
+\item According to the equation, what value is $W$ when $A =80$?  What does your answer mean in this context?  Is is reasonable?
+\item What might possibly be a reasonable range of values of women in this study?
+\end{enumerate}
+
+\item The population of Buenos Aires, Argentina $T$ years after 1950 is approximated by the equation $$P=5.0(1.026)^T$$ where the population $P$ is measured in millions of people.
+\begin{enumerate}
+\item Make a table of values showing the population of Buenos Aires every 20th year from 1950 to 2030.
+\item According to the equation, by what percentage has the population been increasing each year?
+\item By how many people has the population been increasing during each 20 year period? Add these calculations to your table. \emph{Notice how this answer changes because the rate of change is not constant.}
+\item Draw a graph illustrating the function.
+\end{enumerate}
+
+\item Bus fares are up to \$1.40 per ride during rush hour.  SU: realistic?  Two different plans of increasing fares are being debated: 10\textcent per year or 3\% per year.
+\begin{enumerate}
+\item Make a table comparing these two plans over the next ten decade.  \emph{A decade is ten years.}
+\item As a city council representative, you want to support the plan that your constituents prefer.  If most of your constituents ride the bus, which plan should you support?
+\item If most of your constituents are members of the same union as the bus drivers (who count on solid earnings from the bus company to keep their jobs), then which plan should you support?
+\item Which type of equation is being used in each plan?
+\end{enumerate}
+
+
+SU:  maybe this is too many exercises.  If so, save some for Using equations or Approximating solutions or Solving equations later.
+\end{enumerate}
+
+SU:  check exercises on the word version of 2.1 are there more there?  Also, are there problems in the current 2.1 where the equation is given and we ask to interpret the slope, intercept from the equation????
+
+\bigskip
+
+\noindent \textbf{When you're done \ldots}
+
+\begin{itemize}
+\item Don't forget to check your answers with those in the back of the textbook. 
+\item Not sure if your answers are close enough? Compare with a classmate or ask the instructor.  
+\item Getting the wrong answers or stuck on a problem?  Re-read the section and try the problem again.   If you're still stuck, work with a classmate or go to your instructor's office hours.
+\item It's normal to find some parts of some problems difficult, but if all the problems are giving you grief, be sure to talk with your instructor or advisor about it.  They might be able to suggest strategies or support services that can help you succeed.
+\item Make a list of key ideas or processes to remember from the section.  The ``Do you know?'' questions can be a good starting point.
+\end{itemize}
+
+\today
+

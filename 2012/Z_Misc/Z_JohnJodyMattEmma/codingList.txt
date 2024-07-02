@@ -1,0 +1,117 @@
+citizen, everyday, fun, academic
+
+EXAM 1
+
+%%% Old 1.3, air quality, citizen
+%%% Old 1.3, volume?, everyday
+%%% Old 1.3, pop culture, fun
+%%% Old 1.3, public health, citizen
+%%% Old 1.3, technology, fun
+%%% Old 1.3, Minnesota, fun
+
+%%% Old 1.4, fuel efficiency, fun
+%%% Old 1.4, gas prices, fun
+%%% Old 1.4, sport, fun
+
+%%% Old 1.6, home, everyday
+%%% Old 1.6, home (construction), everyday
+
+%%% Old 1.7, physics (ice growth - not bicycle brakes!), fun
+%%% Old 1.7, physics, everyday
+
+%%% Old 1.8, health care, citizen
+%%% Old 1.8, population, citizen?
+%%% Old 1.8, food, citizen
+%%% Old 1.8, wedding, everyday
+
+
+EXAM 2
+%%% Old 2.2, technology, everyday
+%%% Old 2.2, vacation package, everyday
+
+%%% Old 2.3, waste, citizen
+%%% Old 2.3, population growth, citizen
+%%% Old 2.3, climate change, academic
+%%% Old 2.3, recycling, citizen
+
+%%% Old 2.4, sports, fun
+%%% Old 2.4, exercise, everyday
+%%% Old 2.4, oil changes, everyday
+
+%%% Old 2.5, energy bulbs, citizen
+%%% Old 2.5, car comparison, everyday
+
+%%% Old 2.6, technology (Kindle), everyday
+%%% Old 2.6, coffee, everyday
+
+
+EXAM 3
+%%% Old 3.1, biology, fun
+%%% Old 3.1, physics, fun
+
+%%% Old 3.3, population, citizen
+
+%%% Old 3.4, calculation, everyday
+
+%%% Old 3.5, biology, academic
+%%% Old 3.5, technology, everyday
+
+%%% Old 3.6, hybrid cars, citizen
+%%% Old 3.6, college tuition, everyday
+%%% Old 3.6, air pollution, citizen
+%%% Old 3.6, technology, fun
+%%% Old 3.6, health, citizen
+%%% Old 3.6, water use, citizen
+
+
+QUIZ 1
+%%% Old 1.1-1.2, technology, everyday
+%%% Old 1.1-1.2, cars, everyday
+%%% Old 1.1-1.2, biology (baby), everyday
+%%% Old 1.1-1.2, money/sales, everyday
+
+%%% Old 1.2-1.3, wedding, everyday
+%%% Old 1.2-1.3, home, everyday
+
+%%% Old 1.3, Minnesota, fun
+%%% Old 1.3, pop culture, fun
+
+%%% Old 1.4, sport, fun
+
+
+QUIZ 2
+%%% Old 2.1, biology, academic
+%%% Old 2.1, money, everyday
+%%% Old 2.1, energy, everyday
+%%% Old 2.1, home sales, everyday
+
+%%% Old 2.3, climate change, academic
+%%% Old 2.3, climate change, academic
+%%% Old 2.3, government, citizen
+%%% Old 2.3, sports, everyday
+
+%%% Old 2.4, sports, everyday
+%%% Old 2.4, biology, academic
+
+
+QUIZ 3
+%%% Old 3.2, money, everyday
+%%% Old 3.2, population, citizen
+%%% Old 3.2, climate change, academic
+%%% Old 3.2, technology, fun
+%%% Old 3.2, ethanol, citizen
+
+%%% Old 3.3, cell phones, citizen
+%%% Old 3.3, economy, citizen
+
+%%% Old 3.4, numeracy, everyday
+
+QUIZ 4
+%%% Old 2.7, national parks, citizen
+%%% Old 2.7, airline revenue, everyday
+%%% Old 2.7, climate change, academic
+%%% Old 2.7, stocks, everyday
+%%% Old 2.7, elder care, citizen
+
+%%% Old 2.8, physics, fun
+%%% Old 2.8, compact discs (sales), fun

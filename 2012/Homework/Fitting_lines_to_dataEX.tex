@@ -1,0 +1,135 @@
+%\section{Fitting lines to data}
+
+\input{GoDoWS}
+
+\noindent \textbf{Do you know \ldots}
+
+\begin{itemize} 
+\item What a scatter plot is? 
+\item Why we might begin the scale for a scatter plot somewhere other than 0?
+\item Why we would approximate data with a linear function? 
+\item How to decide visually whether a line is a reasonable approximation of the data? 
+\item The name for a point that falls very far away from an approximating line? 
+\item How to graph a line from its equation by creating a table first.
+\item Why even the best fitting line doesn't go through most of the data points?
+ \input{NotSure}   
+\end{itemize}
+
+\subsection*{Exercises}
+
+\begin{enumerate} 
+\setcounter{enumi}{4}
+
+\item Look back at Thanh's data in the section.
+\begin{enumerate}
+\item Check that the C-D line has equation $S=20.26L-\text{4,610}$
+\item Check that the H-R line has equation $S=8.71L+\text{3,130}$
+\item The best-fitting line (ignoring the outlier) had equation $S = 19.7L-\text{2,905}$.  Make a table of values for $L=600$ and $\text{1,000}$ lane miles and use these values to check the graph Thanh drew.  (They are highlighted on the graph.)
+\end{enumerate}
+
+\item Wild rice is a native plant that grows in lakes in the upper Midwest.  The table shows how the annual acreage of wild rice has varied with the average spring temperature in various years.  The variables are $T$ for the temperature measured in $^{\circ}$F and $W$ for the wild rice yield, measured in acres.  In case you're curious, the year is included as well, but it's not one of the variables we're interested in.
+\begin{center}
+\begin{tabular} {|c||c|c |c|c|c|c|c|}  \hline
+year & 1985 & 1989 & 1993 & 1997 & 2001 & 2005 & 2009  \\ \hline
+$T$ & 39 & 42 & 41 & 35 & 47 & 45 & 42
+ \\ \hline
+$W$& \text{2,300} & \text{1,950} & \text{1,425} & \text{2,015} & \text{1,233} & \text{1,256} & \text{1,345} \\ \hline
+\end{tabular}
+\end{center}
+\hfill \emph{Story also appears in 4.1 Exercises}
+\begin{enumerate}
+\item Make a scatter plot of the points.  Make your graph as large as possible by starting your temperature axis at 35$^{\circ}$F and your acreage axis at \text{1,000} acres.
+\item Find the equation of the line through the data from 1997 and 2001. Use $T$ for the average temperature (in $^{\circ}$F) and $W$ for the acres of wild rice.
+\item Based on your line, what might you expect the acreage of wild rice to be in a year when the average temperature is 46$^{\circ}$F?  40$^{\circ}$F?  Use your equation to answer the questions.
+\item Draw that line on your scatter plot.  Comment.
+\item The best fitting line has equation $$W=\text{5,072.2}-82.41T$$  Make a table of values and use it to graph that line as well.
+\item If you use the best fitting line, how would that change your estimate for the acreage of wild rice in a year when the average temperature is 46$^{\circ}$F?  40$^{\circ}$F?  
+\end{enumerate} % DATA is in Excel file: wildrice.xlsx
+
+\item The amount of garbage generated in the United States has increased steadily, from 88.1 million tons in 1960 to 254.2 million tons in 2006. Earlier we did linear model. 
+But, in fact, the amount of garbage has not increased exactly linearly.  The table shows data for select years, where $Y$ measures years since 1960 and $G$ is the amount of garbage (in millions of tons).
+\begin{center}
+\begin{tabular} {|c||c|c |c|c|c|c|c|c|c|}  \hline
+year & 1960 & 1970 & 1980 & 1990 & 2000 & 2006 & 2010 \\ \hline
+$Y$ & 0 & 10 & 20 & 30 & 40 & 46 & 50 \\ \hline
+$G$ & 88.1 & 121.1 & 151.6 & 205.2 & 239.1 & 254.2 & 249.0 \\ \hline
+\end{tabular}
+\end{center}
+\hfill \begin{footnotesize} Source:  Environmental Protection Agency \end{footnotesize}
+
+\hfill \emph{Story also appears in 4.4 Exercises.}
+
+\begin{enumerate}
+\item Make a large scatter plot of the points, beginning at the year 1960 and extending to at least 2030.  
+\item Draw in the line through the points from 1960 and 2006.  (We found that equation in 4.4 Exercises.)  
+\item Draw in the line through the points from 2000 and 2006.  Would this line predict that garbage will reach 300 million tons sooner or later than the previous prediction?  Use the graph to explain. 
+\end{enumerate}  
+
+\item My mechanic, Paye, believes that frequent oil changes reduce the amount of maintenance on a car.  To prove his point, Paye showed me a table of customers with the number of yearly oil changes and the cost of their engine repairs. 
+\begin{center} 
+\begin{tabular} {|c||c|c |c|c|c|c|c|}  \hline
+$N$& 1 & 2 & 3 & 4 & 5 & 6 & 7  \\ \hline
+$R$& 725 & 500 & 415 & 300 & 275 & 100 & 150  \\ \hline
+\end{tabular}
+\end{center}
+where $N$ is the number of oil changes per year and $R$ is the cost of repairs, in dollars.
+\begin{enumerate}
+\item Make a large scatter plot of the points. 
+\item Draw in the line through the points for 3 and 5 oil changes.  
+\item Write the equation for that line.  Use your equation to predict the cost of engine repairs for a customer who does no oil changes, and one who does 8 oil changes.
+\item The best fitting line has equation approximately $$R=732.86-95.179N$$
+Plot three points on that line and use them to draw it on your scatter plot.
+\item What does the best fitting line predict the cost of engine repairs for a customer who does no oil changes, and one who does 8 oil changes?
+\end{enumerate}  % DATA is in Excel file:  oilchanges.xlsx
+
+\item The table and scatterplot shows the estimated costs and earnings for various sports-themed movies.
+\begin{center}
+\begin{tabular} {|l|r|r|} \hline
+Movie & Estimated cost & Estimated earnings \\ \hline  \hline
+A League of Their Own & \$40 million & \$131 million \\ \hline
+Dodgeball & \$30 million & \$114 million \\ \hline
+Invictus & \$49 million & \$37 million \\ \hline
+Jerry Maguire & \$60 million & \$274 million \\ \hline
+Miracle & \$28 million & \$64 million \\ \hline
+%Moneyball & \$50 million & \$75 million \\ \hline
+Nacho Libre & \$32 million & \$80 million \\ \hline
+Remember the Titans & \$27 million & \$130 million \\ \hline
+Run Fatboy Run & \$10 million & \$6 million \\ \hline
+%Seabiscuit & \$86 million & \$120 million \\ \hline
+Secretariat & \$35 million & \$59 million \\ \hline
+The Blind Side & \$35 million & \$255 million \\ \hline
+The Rookie & \$22 million & \$77 million \\ \hline
+\end{tabular}
+\end{center}
+\begin{center}
+\scalebox {.8} {\includegraphics [width = 6in] {sportsmovies.png}}
+\end{center}
+\begin{enumerate}
+\item Draw the line (A)  that goes through the points for ``Remember the Titans'' and ``A League of Their Own''.  Explain why this line does not fit the data well.  
+\item Draw the line (B) that goes through the points for ``Run Fatboy Run'' and ``Jerry Maguire''. Explain why this line does not fit the data well.
+ \item Draw the line (C) that goes through the points for ``The Rookie'' and ``A League of Their Own''.  This line fits the data pretty well I think.
+\item Why might you expect the slope of good fitting line to be positive?
+\end{enumerate} % source: Good wikipedia page for listing of sports movies: http://en.wikipedia.org/wiki/List_of_sports_films Website for box office numbers: http://www.the-numbers.com/
+% DATA is in Excel file sportsmovies.xlsx
+
+\item The annual consumption of meat in millions of metric tons is given in the following table. Here $C$ is for chicken, $B$ is for beef, and $Y$ measures years since 1975.
+
+\hfill \begin{footnotesize} Source: U.S. Department of Agriculture \end{footnotesize}
+\begin{center}
+\begin{tabular} {|c| |c |c |c |c |c |c |c |c |c |c|}\hline
+year & 1975 & 1985 & 1990 & 1995 & 2000 & 2005 & 2009 & 2012\\ \hline
+$Y$ & 0 & 10 & 15 & 20 & 25 & 30 & 34 & 37\\ \hline
+$C$ & 3.6 & 6.1 & 7.7 &9.4 & 11.5 & 13.4 & 12.9 & 13.3\\ \hline
+$B$ & 12.1 & 11.8 & 11.0 & 11.7 & 12.5 & 12.7 & 12.2 & 11.4\\ \hline
+\end{tabular}
+\end{center}
+\begin{enumerate}
+\item Make a scatter plot of the chicken consumption (use $\ast$ to label each point) and red meat consumption (use $\circ$ to label each point).
+\item Sketch a line through each data set that seems to reasonably approximate the dependence.
+\item When were chicken and red meat consumption equal?
+\item The best fitting line for chicken is $$C =3.6375+.2854Y$$ and the best fitting line for beef is $$B=11.774+.007Y$$  Set up and solve a system of linear equations to find the year when  chicken and red meat consumption will likely be equal.  How does this answer compare to your estimate?
+\item The slope of the best fitting beef line is .007 million tons/year. What does that tell you about beef consumption over the past 40 years?
+\end{enumerate}  %Go to: http://www.earth-policy.org/data_center/C24  search for meat consumption to get excel spreadsheet of values collated from USDA http://www.freakonomics.com/2010/12/09/beef-or-chicken-a-look-at-u-s-meat-trends-in-the-last-century
+% DATA is in Excel file chickenorbeef?.xlsx
+
+\end{enumerate}

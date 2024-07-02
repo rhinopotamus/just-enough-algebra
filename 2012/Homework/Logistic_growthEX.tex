@@ -1,0 +1,84 @@
+%\section{Logistic and other growth models}  
+
+ \input{GoDoWS}
+
+\noindent \textbf{Do you know \ldots}  
+
+\begin{itemize}
+\item Why we might use a logistic or saturation model, instead of an exponential model?
+\item The difference between a logistic and saturation model?
+
+\item What the limiting value of a logistic function means in the story and what it tells us about the graph? 
+\item How to find the limiting value of a logistic function?  
+\item What the graph of a logistic function looks like? 
+
+\item What the limiting value of a saturation function means in the story and what it tells us about the graph? 
+\item How to find the limiting value of a saturation function?  
+\item What the graph of a saturation function looks like? 
+
+\input{NotSure}  
+\end{itemize}
+
+\subsection*{Exercises}
+
+%Narrative = lily pads on a pond?  STart with french school girls story with exponential, then try saturation model, then logistic.  Follow structure of Bolker
+
+\begin{enumerate} 
+\setcounter{enumi}{4}
+\item In our example in this section, we made several tables of values.  Go back and check that they are correct.
+
+\item Mari volunteers answering calls for in the office of her local state government representative.  The office has been receiving a lot of calls recently with about BPA, a chemical found in plastics.  The callers want their representative to support a bill banning BPA.  An equation that describes the number of total number of calls over time is the following:
+$$ C=\frac{837}{1+118\ast .8025^D}$$ % Logistic  NOTE:  cumulative count
+where $D$ is the time since January 1 (in days), and $C$ is the total number of calls.
+
+\begin{enumerate}
+\item According to this equation, how many calls (total) will Mari's office get by February 1 (day 31), March 1 (day 59), April 1 (day 90), May 1 (day 120), and Nov 8 (day 311)?
+\item During which months did most of the calls come in? 
+\item Draw a graph illustrating the function.
+\item Describe what happened over time.
+\end{enumerate}
+
+\item Even though all the callers support the bill, Mari isn't sure whether the calls represent the local constituents.  Perhaps only supporters are calling her office, for example.  So, she asks her pollster, Paul, to add this question to the list for his daily survey.  Based on that survey, Paul estimates the percentage $P$ of local constituents who support the bill on day $D$ by the equation $$P =100 - 87.3 \ast .992^D$$ %Saturating 
+\begin{enumerate}
+\item According to this equation, what percentage of callers supported the bill on January 1 (day 0), March 1 (day 59), Aug 1 (day 212), Oct 1 (day 273) and Nov 8 (day 311)?
+\item What does your equation say the percentage would be on day 500 (which probably isn't realistic in this problem)?  How about day \text{1,000}?
+\item Use successive approximations to estimate when the percentage supporting the bill first reached  majority (50\%).
+\item Set up and solve an equation to find  when the percentage supporting the bill first reached  majority (50\%).
+\end{enumerate}
+ 
+\item Infants are regularly checked to make sure they are growing accordingly.  The World Health Organization publishes growth charts to evaluate infant weight $W$ in kilograms at a given age $M$ in months since birth.  An equation that describes an average infant boy is the following:
+$$W=15-11.5\ast.932^M$$
+\begin{enumerate}
+\item According to this equation, what is the average infant boy weight at birth, 1 month, 4 months, and a year?
+\item Convert your answers to pounds and ounces using $$1 \text{ kilogram } \approx 2.2 \text{ pounds} \quad \text{ and } \quad 1 \text{ pound } = 16 \text{ ounces}$$
+\emph{Hint:  first convert to pounds.  Then convert just the decimal part to ounces.}
+\item The equation is valid for $0 \le M \le 36$, or up to three years old.  Draw a graph that includes your points from earlier and the values at 3, 4, 5, and 6 years.  Can you explain why the equation doesn't make sense after around 3 years?
+\end{enumerate}  
+
+\item The lake by Rodney's condo was stocked with bass (fish) 10 years ago.  There were initially 400 bass introduced.  The carrying capacity of the lake is estimated at \text{4,000} bass.  Two potential models for the number of bass ($B$) over time, where $Y$ measures the years from when the lake was stocked 10 years ago are
+
+\vspace{.05in} %VSPACE
+\begin{center}
+\begin{tabular} {ll} 
+ \textbf{saturation:} & $B=\text{4,000}-\text{3,600}\ast.78^Y$ \\ 
+ \begin{tiny} ~ \end{tiny} \\
+ \textbf{logistic:} & $\displaystyle B=\frac{\text{4,000}}{1+9 \ast .78^Y}$ \\
+\end{tabular}
+\end{center} 
+\vspace{.05in} %VSPACE
+
+\hfill \emph{Story also appears in 3.3 Exercises}
+
+\begin{enumerate}
+\item Make a table showing the bass population projected by each model, including 10 years ago, now, in 10 more years, in 20 more years, and in 30 more years.
+\item Draw a graph showing both curves.
+\item Which model shows the lake reaching (near) capacity sooner:  the saturation model or the logistic model?
+\item If the current bass population in the lake by Rodney's house is around \text{2,500} fish, which model is more realistic?
+\end{enumerate}
+
+
+\end{enumerate}
+
+
+
+

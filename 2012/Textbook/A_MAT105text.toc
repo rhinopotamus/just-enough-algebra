@@ -1,0 +1,72 @@
+\contentsline {section}{Preface}{v}{}%
+\contentsline {chapter}{\numberline {0}Prelude}{1}{}%
+\contentsline {section}{\numberline {0.1}Prelude: Approximation and Rounding}{2}{}%
+\contentsline {section}{\numberline {0.2}Prelude: Arithmetic Operations}{7}{}%
+\contentsline {section}{\numberline {0.3}Prelude: Percentages}{13}{}%
+\contentsline {section}{\numberline {0.4}Prelude: Order of Operations}{18}{}%
+\contentsline {section}{\numberline {0.5}Prelude: Fractions}{24}{}%
+\contentsline {section}{\numberline {0.6}Prelude: Powers and Roots}{28}{}%
+\contentsline {section}{\numberline {0.7}Prelude: Algebraic Notation}{33}{}%
+\contentsline {section}{\numberline {0.8}Prelude: Scientific Notation}{38}{}%
+\contentsline {section}{\numberline {0.9}Prelude: Logarithms}{43}{}%
+\contentsline {chapter}{\numberline {1}Variables}{47}{}%
+\contentsline {section}{\numberline {1.1}Variables and functions}{48}{}%
+\contentsline {section}{\numberline {1.2}Tables and graphs}{54}{}%
+\contentsline {section}{\numberline {1.3}Rate of change}{63}{}%
+\contentsline {section}{\numberline {1.4}Units}{69}{}%
+\contentsline {section}{\numberline {1.5}Metric prefixes and scientific notation}{75}{}%
+\contentsline {chapter}{\numberline {2}Equations}{85}{}%
+\contentsline {section}{\numberline {2.1}A first look at linear equations}{86}{}%
+\contentsline {section}{\numberline {2.2}A first look at exponential equations}{93}{}%
+\contentsline {section}{\numberline {2.3}Using equations}{101}{}%
+\contentsline {section}{\numberline {2.4}Approximating solutions of equations}{109}{}%
+\contentsline {section}{\numberline {2.5}Finance formulas}{116}{}%
+\contentsline {chapter}{\numberline {3}Solving equations}{125}{}%
+\contentsline {section}{\numberline {3.1}Solving linear equations }{126}{}%
+\contentsline {section}{\numberline {3.2}Solving linear inequalities }{133}{}%
+\contentsline {section}{\numberline {3.3}Solving power equations (and roots)}{140}{}%
+\contentsline {section}{\numberline {3.4}Solving exponential equations (and logs)}{148}{}%
+\contentsline {section}{\numberline {3.5}Solving quadratic equations}{155}{}%
+\contentsline {chapter}{\numberline {4}A closer look at linear equations}{165}{}%
+\contentsline {section}{\numberline {4.1}Modeling with linear equations}{166}{}%
+\contentsline {section}{\numberline {4.2}Systems of linear equations}{172}{}%
+\contentsline {section}{\numberline {4.3}Intercepts and direct proportionality}{179}{}%
+\contentsline {section}{\numberline {4.4}Slopes}{185}{}%
+\contentsline {section}{\numberline {4.5}Fitting lines to data}{192}{}%
+\contentsline {chapter}{\numberline {5}A closer look at exponential equations}{203}{}%
+\contentsline {section}{\numberline {5.1}Modeling with exponential equations}{204}{}%
+\contentsline {section}{\numberline {5.2}Exponential growth and decay}{210}{}%
+\contentsline {section}{\numberline {5.3}Growth factors}{216}{}%
+\contentsline {section}{\numberline {5.4}Linear vs.\ exponential models}{222}{}%
+\contentsline {section}{\numberline {5.5}Logistic and other growth models}{229}{}%
+\contentsline {chapter}{\numberline {A}Answers to exercises}{235}{}%
+\contentsline {section}{\numberline {A.1}Variables}{236}{}%
+\contentsline {subsection}{\numberline {A.1.1}Variables and functions -- Answers to exercises}{236}{}%
+\contentsline {subsection}{\numberline {A.1.2}Tables and graphs -- Answers to exercises}{236}{}%
+\contentsline {subsection}{\numberline {A.1.3}Rate of change -- Answers to exercises}{237}{}%
+\contentsline {subsection}{\numberline {A.1.4}Units -- Answers to exercises}{238}{}%
+\contentsline {subsection}{\numberline {A.1.5}Metric prefixes and scientific notation -- Answers to exercises}{238}{}%
+\contentsline {section}{\numberline {A.2}Equations}{239}{}%
+\contentsline {subsection}{\numberline {A.2.1}A first look at linear equations -- Answers to exercises}{239}{}%
+\contentsline {subsection}{\numberline {A.2.2}A first look at exponential equations -- Answers to exercises}{240}{}%
+\contentsline {subsection}{\numberline {A.2.3}Using equations -- Answers to exercises}{241}{}%
+\contentsline {subsection}{\numberline {A.2.4}Approximating solutions of equations -- Answers to exercises}{242}{}%
+\contentsline {subsection}{\numberline {A.2.5}Finance formulas -- Answers to exercises}{242}{}%
+\contentsline {section}{\numberline {A.3}Solving equations}{243}{}%
+\contentsline {subsection}{\numberline {A.3.1}Solving linear equations -- Answers to exercises}{243}{}%
+\contentsline {subsection}{\numberline {A.3.2}Solving linear inequalities -- Answers to exercises}{244}{}%
+\contentsline {subsection}{\numberline {A.3.3}Solving power equations (and roots) -- Answers to exercises}{244}{}%
+\contentsline {subsection}{\numberline {A.3.4}Solving exponential equations (and logs) -- Answers to exercises}{245}{}%
+\contentsline {subsection}{\numberline {A.3.5}Solving quadratic equations -- Answers to exercises}{245}{}%
+\contentsline {section}{\numberline {A.4}A closer look at linear equations}{246}{}%
+\contentsline {subsection}{\numberline {A.4.1}Modeling with linear equations -- Answers to exercises}{246}{}%
+\contentsline {subsection}{\numberline {A.4.2}Systems of linear equations -- Answers to exercises}{246}{}%
+\contentsline {subsection}{\numberline {A.4.3}Intercepts and direct proportionality -- Answers to exercises}{247}{}%
+\contentsline {subsection}{\numberline {A.4.4}Slopes -- Answers to exercises}{248}{}%
+\contentsline {subsection}{\numberline {A.4.5}Fitting lines to data -- Answers to exercises}{249}{}%
+\contentsline {section}{\numberline {A.5}A closer look at exponential equations}{250}{}%
+\contentsline {subsection}{\numberline {A.5.1}Modeling with exponential equations -- Answers to exercises}{250}{}%
+\contentsline {subsection}{\numberline {A.5.2}Exponential growth and decay -- Answers to exercises}{251}{}%
+\contentsline {subsection}{\numberline {A.5.3}Growth factors -- Answers to exercises}{252}{}%
+\contentsline {subsection}{\numberline {A.5.4}Linear vs.\ exponential models -- Answers to exercises}{253}{}%
+\contentsline {subsection}{\numberline {A.5.5}Logistic and other growth models -- Answers to exercises}{254}{}%

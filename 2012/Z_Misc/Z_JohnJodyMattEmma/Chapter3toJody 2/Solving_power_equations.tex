@@ -1,0 +1,124 @@
+
+\section{Solving power equations (and roots)}
+
+There's an old saying -- ``when life gives you lemons, make lemonade.''  But how many lemons do you need? It turns out a reasonable equation describing the juice from a single lemon is given by 
+$$J = .0056C^3$$ where % was 0.0185 this is more realistic
+\vspace{-.15in} %VSPACE
+\begin{center}
+\begin{tabular} {l} 
+$J=$ juice (tablespoons) $\sim$ dep \\
+$C= $ circumference (inches) $\sim$ indep \\ 
+\end{tabular}
+\end{center}
+In case you've forgotten, the \textbf{circumference} is the distance \emph{around} the lemon. Think of taking wrapping a piece of string around the middle part of the lemon. Then stretch it out on a ruler to see how long it is.  
+
+Recipes for lemonade vary widely, but for my recipe calls for 4 tablespoons of lemon juice for each 12 ounce glass.  The rest is a syrup made of hot water and sugar, mulled with a sweet herb like basil or mint, then finished with ice and cold water. Yum.  
+
+So, how large a lemon would yield 4 tablespoons of juice? Let's try to guess the answer.  
+For example, a small lemon 7 inches in circumference would yield 
+$$J = .0056 \ast 7^3 = .0056 \times \underline{7} \wedge 3 = 1.9208 \approx 2 \text{ tablespoons}$$ 
+% No rounding here.  Answers accurate to 4 dp.
+A medium size lemon 8 inches in circumference would yield
+$$J = .0056 \ast 8^3 = .0056 \times \underline{8} \wedge 3 = 2.8672 \approx 3 \text{ tablespoons}$$ 
+Bet 9 inches is a good next guess.  We get
+$$J = .0056 \ast 9^3 = .0056 \times \underline{9} \wedge 3 = 4.0824 \approx 4  \text{ tablespoons}$$ 
+That was quick!   A lemon 9 inches around should produce just over 4 tablespoons of juice.  %(That's 1/4 cup, if you're curious.)
+% SU can have table and graph in exercise 5
+
+Much as we have learned to love successive approximation, this chapter is all about solving equations.  Remember, $$J = .0056C^3$$ is a power equation because it fits the template  
+$$\text{dep} = k \ast \text{indep}^{n}$$
+with power $n=3$ and proportionality constant $k=.0056$.  Turns out we can solve any power equation symbolically.  
+
+Here's how.  We're looking for $J = 4$.  Use our equation $J=.0056C^3$ to get 
+$$.0056C^3=4$$ 
+We want to find the value of $C$, so we can divide both sides by .0056 to get 
+$$\frac{\cancel{.0056}C^3}{\cancel{.0056}}=\frac{4}{.0056}$$  
+which simplifies to $$C^3 = \frac{4}{.0056}= 4 \div .0056 = 714.2857\ldots$$ 
+
+We have found $C^3$.  How can we ``undo'' the $\wedge 3$ to find $C$?   The answer: take the cube root of each side.  (More about roots at the end of this section.)  That means
+ $$\sqrt[3]{C^3} = \sqrt[3]{714.2857\ldots}$$
+ which simplifies to 
+$$C = \sqrt[3]{714.2857\ldots} =3 \sqrt[x]{\text{\raisebox{.6em}{~\text{  }}}} 714.2857
+ = 8.9390\ldots \approx 8.9 \text{ inches}$$  
+as expected, just under 9 inches.  (More about the $\sqrt[x]{\text{\raisebox{.6em}{~\text{  }}}}$ key later too.)
+
+A look at the graph confirms our result.
+\begin{center}
+\scalebox {.8} {\includegraphics [width = 6in] {lemonade.png}}
+\end{center}
+
+Now, what goes better with lemonade than lemon cheesecake?  For that we need lemon zest.  Zest is what you get when you grate the lemon peel in long skinny strips.  As with juice, the amount of lemon zest depends on the size of the lemon.  Our variables are
+\begin{center}
+\begin{tabular} {l} 
+$Z=$ amount of lemon zest (tablespoons) $\sim$ dep \\
+$C= $ circumference (inches) $\sim$ indep  \quad \emph{as before}\\ 
+\end{tabular}
+\end{center}
+and an equation is $$Z=.018C^2$$ 
+We have another power equation, this time with power $n=2$ and proportionality constant $k=.018$.  If you're really into categorizing equations, because the exponent is 2, this equation is also an example of a quadratic equation with $a=.018$, $b = 0$, and $c=0$.  Not necessary for our purposes.  But, true.
+
+My lemon cheesecake recipe calls for 1\nicefrac{1}{2} tablespoons of zest.  There are various sized lemons at the store.  How large a lemon should I buy?  A small lemon of circumference 7 inches produces less than 1 tablespoon of zest because 
+$$Z=.018\ast7^2 = .018 \times \underline{7} \wedge 2 = .882 < 1$$
+so that's not large enough.  
+
+Let's use successive approximations, summarizing our guesses in a table.  Of course, we don't really need this precise an answer, but it's good practice. Notice $1\nicefrac{1}{2} = 1 + 1 \div 2 = 1.5$
+\begin{center}
+\begin{tabular} {|c| |c|c |c|c|c|c |c|c|} \hline
+$C$ & 7 & 8 & 9 & 10 & 9.5 & 9.3 & 9.2 & 9.1\\ \hline
+$Z$ & .882 & 1.152 & 1.458 & 1.8 & 1.6245 & 1.55682 & 1.52352 & 1.49058\\ \hline
+vs. 1.5 & low & high & low & high & high & high & high & low\\ \hline
+\end{tabular}
+\end{center}
+We need a large lemon, somewhere between 9.1 and 9.2  inches around.
+Truth is, I'll just buy the biggest lemon I can find because extra lemon zest looks wonderful on top of the cheesecake.
+
+We are supposed to be practicing solving the equation.  Here goes.  We want $Z=1.5$.  Use our equation $Z=.018C^2$ to get 
+$$.018C^2=1.5$$ 
+We want to find the value of $C$, so we can divide both sides by .018 to get 
+$$\frac{\cancel{.018}C^2}{\cancel{.018}}=\frac{1.5}{.018}$$  
+which simplifies to $$C^2 = \frac{1.5}{.018}= 1.5 \div .018 = 83.333333\ldots$$ 
+Take the square root of each side to get
+ $$\sqrt{C^2} = \sqrt{83.333333\ldots}$$
+ which simplifies to 
+$$C = \sqrt{83.333333\ldots} =\sqrt{\text{\raisebox{.6em}{~\text{  }}}} 83.333333
+ = 9.128709292\ldots \approx 9.13 \text{ inches}$$  
+as expected, between 9.1 and 9.2 inches.  
+
+As when solving linear equations, notice that we do the opposite operation in reverse order from the usual order of operations.  To evaluate a power equation we would first raise to the power and then multiply.  To solve a power equation we first divide (that is the opposite of multiplying) and then we take a root (that is the opposite of raising to a power).
+
+As promised, a brief discussion of roots is in order.  
+Here's the deal.  Roots essential ``undo'' powers.  What this means is, for example, we know $$10^2=10 \times 10 =100$$  but it's quicker to calculate it using powers as $$10^2 = 10 \wedge 2 = 100$$  We say 10 \textbf{squared} is 100.  The \textbf{square root} of a number is just whatever number you would square to get that number.  So, for example, $\sqrt{100} = 10$ because you would square 10 to get 100.  Many calculators have a special square root key that looks like $\sqrt{\text{\raisebox{.6em}{~\text{  }}}} $ so we get 
+$$\sqrt{100} = \sqrt{\text{\raisebox{.6em}{~\text{  }}}} 100 = 10$$  
+Your calculator might insert a parenthesis with the square root, in which case you should (but don't need to) close it before hitting $=$, like this
+$$\sqrt{100} = \sqrt{\text{\raisebox{.6em}{~\text{  }}}} ( 100 ) = 10$$ 
+Your calculator might not have this key, or might need the square root after the number.  Ask a classmate or your instructor or search online if you can't figure it out.
+
+The same idea works for higher powers.  Like $$10^3 =10 \times 10 \times 10 = \text{1,000}$$ That's really  $$10^3 = 10 \wedge 3 = \text{1,000}$$ and we say
+10 \textbf{cubed} is \text{1,000}.  The \textbf{cube root} of a number is whatever number you would cube to get that number.  So, for example, $\sqrt[3]{\text{1,000}} = 10$.  Many calculators have a special root key that looks like $\sqrt[x]{\text{\raisebox{.6em}{~\text{  }}}} $.  That $x$ looks similar to multiplication ($\times$), but it isn't.  The $x$ is like a placeholder for the real root you want -- for a cube root $x$ is just 3.  
+
+Here's how to use that root key. First you type in the root you want (3), second you use that key ($\sqrt[x]{\text{\raisebox{.6em}{~\text{  }}}} $), and last you type in the number you're taking the root of (\text{1,000}) like this
+$$\sqrt[3]{\text{1,000}} = 3\sqrt[x]{\text{\raisebox{.6em}{~\text{  }}}}\text{1,000}= 10$$
+Like with squareroots, your calculator might introduce a parenthesis, or you might do a slightly different order.  You might have to use a shift or second key to get to the root key.  On many graphing calculators the $\sqrt[x]{\text{\raisebox{.6em}{~\text{  }}}} $ key is one of the MATH functions, so you have to type something like MATH 5 to get it.  Again, ask if you need help figuring it out.  
+
+There is a small chance that your calculator doesn't have roots.  In that case there is a strange-looking alternative
+$$\sqrt[3]{\text{1,000}} = \text{1,000} \wedge (1 \div 3)= 10$$
+Note the necessary parentheses. This process works for square roots too.
+$$\sqrt{100} = \text{100} \wedge (1 \div 2)= 10$$
+
+Bet you see how this idea of roots generalizes.  The \textbf{$n$th root} of a number is whatever number you would raise to the $n$th power to get the number.  Stated in terms of equations we have
+
+ \bigskip
+ \framebox{
+ \begin{minipage}[c]{.85\textwidth}  
+~ \bigskip \\  \textsc{Root Formula:} \quad
+The equation $C^n=v$ has solution $C= \sqrt[n]{v}$
+\bigskip
+\end{minipage}
+}
+\bigskip
+
+%\newpage
+
+%SU consider adding more homework problems that include formulas from geometry or physics or something?
+
+%\input{Solving_power_equationsEX.tex}

@@ -1,0 +1,76 @@
+%!TEX root =  A_WS.tex
+
+\section{Logistic and other growth models -- Practice exercises}  
+
+\begin{enumerate}
+
+\item Corn farmers say that their crop is healthy if it is ``knee high by the Fourth of July.''  An equation that relates the height $H$ (in inches) of the corn crop $D$ is days since May 1 is $$H=106-100 \ast .989^{D} $$ %Saturating
+
+\begin{enumerate}
+\item According to this equation, how high is corn projected to be on June 1 (day 31)? \vfill
+\item According to this equation, how high is corn projected to be on the Fourth of July (day 64)?  Is that ``knee high'' (18 inches tall)?  \vfill
+\item With stronger corn these days, the rule ought to be ``chest high (52 inches) by the Fourth of July."  According to this equation, when is the corn projected to be that tall?  Use successive approximation to answer. \vfill
+\item The corn matures in 110 days.  How tall will it be then?  \vfill
+\item Draw a graph of the function.  Include when $D=0$.
+\begin{center}
+\scalebox {.8} {\includegraphics [width = 6in] {GraphPaper.jpg}}
+\end{center}
+\end{enumerate}
+
+\newpage %%%%%%
+
+\item An alternative equation for corn height is  $$H = \frac{200}{1+70\ast.965^D}$$ %Logistic
+\begin{enumerate}
+\item According to this new equation, how high is corn projected to be on June 1 (day 31)? \vfill
+\item According to this new equation, how high is corn projected to be on the Fourth of July (day 64)?  Is that ``knee high'' (18 inches tall)?  \vfill
+\item According to this new equation, on approximately what date is the corn projected to be ``chest high''  (52 inches tall)?  Use successive approximation to answer.  \vfill  \vfill
+\item The corn matures in 110 days.  How tall will it be then, according to this new equation?  \vfill 
+\item Add the graph of this function to your graph of the original equation on the previous problem.  Again, include when $D=0$.
+\end{enumerate}
+
+\newpage %%%%%%
+
+\item Back in 1975 when my aunt and uncle bought their house upstate New York, there was a small pond in the yard.  They enlarged it and stocked it with 10 small fish. The number of fish $F$ increased over time, approximately according to the equation
+$$ F=\frac{\text{1,000}}{1+99 \ast .65^Y}$$
+where $Y$ measures the years since 1975.
+
+\begin{enumerate}
+\item Make a table showing the fish population in 1975, 1990, 2000, and 2013. \vfill
+\item By the time there were over 500 fish in the pond, you could catch them with your bare hands.  In approximately what year did that happen? \vfill
+\item In approximately what year did the fish population reach its capacity?  Use successive approximations and display your calculations in a table. \vfill
+
+\end{enumerate}
+
+% \begin{enumerate}
+%\item How much radiation was detected at the start of the leak? At 8 hours later?  10 hours after?  16 hours?  24 hours? \vfill
+%\item Approximately when did the radiation level off? (Display your work in a table.) What was the largest amount of radiation at that time? \vfill
+%\item The normal level of radiation that a person is exposed to around 2.4 mSv during an entire  year.  What is that normal level of radiation measured in mSv/day?  Use $1 \text{ year} = 365 \text{ days}$. \hfill \begin{footnotesize} Source:  Wikipedia (Sievert) \end{footnotesize}  \vfill
+%\item At its largest amount (where it leveled off), did the radiation the exceed normal daily levels?  If so, by how many times normal?  
+%
+%\emph{That means divide your answer to (b) by your answer to (c).} \vfill
+%\end{enumerate}
+% Ask John if it's 1.62 or really .162.  They will be a little freaked out Helpful facts: Chest x-ray .05 milliSieverts, 2.4 milliSieverts = average amount of  natural radiation
+%near the Fukushima Daiichi 
+
+\newpage %%%%%%
+
+\item Jason works at a costume shop selling Halloween costumes.  The shop is busiest during the fall before Halloween.  An equation that describes the number of daily visitors $V$ the shop receives $D$ days from August 31 is the following:
+$$ V=\frac{430}{1+701\ast .81^D}$$ % Logistic
+An alternative equation is $$V = 700 - 690 \ast .985^D$$ %Saturating
+\begin{enumerate}
+\item Make a table showing what each equation predicts for August 31, September 15, September 30, October 15, October 25, October 28, and October 31. 
+
+\emph{Hint:  those days are numbered 0, 15, 30, 45, 55, 58, and 61.} \vfill \vfill
+\item Graph both functions on the same set of axes.
+\begin{center}
+\scalebox {.8} {\includegraphics [width = 6in] {GraphPaper.jpg}}
+\end{center}
+\bigskip
+\item Which function is more consistent with a major advertising campaign during the second week of September?  Explain. \vfill
+\end{enumerate}
+
+
+\end{enumerate}
+
+\input{Logistic_growth_end}
+

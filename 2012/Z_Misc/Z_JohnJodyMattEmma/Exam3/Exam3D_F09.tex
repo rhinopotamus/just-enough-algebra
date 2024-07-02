@@ -1,0 +1,183 @@
+
+\documentclass[12pt]{article}
+\pagestyle{empty}
+\setlength{\parskip}{0in}
+\setlength{\textwidth}{6.8in}
+\setlength{\topmargin}{-.5in}
+\setlength{\textheight}{9.3in}
+\setlength{\parindent}{0in}
+\setlength{\oddsidemargin}{-.7cm}
+\setlength{\evensidemargin}{-.7cm}
+
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amstext}
+
+\usepackage{graphicx}
+
+\begin{document}
+
+
+{\bf MAT 105 Exam Chapter 3 (tan) Fall 2009} \hspace{.4in} {\large Name} \hrulefill
+
+\hrulefill
+
+
+\begin{center}
+
+\begin{tabular}
+{|l|c|c|c|c|c|c|c|c|c|c|c|c|c|} \hline
+
+ Problems & \hspace{5 pt} 1 \hspace{5 pt}  & \hspace{5 pt} 2 \hspace{5 pt} & \hspace{5 pt} 3 \hspace{5 pt} & \hspace{5 pt} 4 \hspace{5 pt} & \hspace{5 pt} 5 \hspace{5 pt} &  \hspace{5 pt} 6 \hspace{5 pt} &  \hspace{5 pt} Total  \hspace{5 pt} & &  \hspace{5 pt} Grade \hspace{5 pt}  \\ \hline
+&&&&&&& &&\\  
+Points &&&&&&& &    \hspace{.8in}\% &  \\ 
+&&&&&& &&& \\  \hline
+Out of & 6 & 36  & 21 & 21 & 10 & 6 &100 & & \\ \hline
+
+\end {tabular}
+ 
+\end{center}
+
+\emph{Relax.  You have done problems like these before.  Even if these problems look a bit different, just do what you can.  If you're not sure of something, please ask! You may use your calculator.  Please show all of your work and write down as many steps as you can.  Don't spend too much time on any one problem.  Please leave the following grading key blank for me to use.  Do well.  And remember, ask me if you're not sure about something.}
+ 
+ \vspace{.1 in}
+ 
+ \emph{A few formulas from our book:}
+  \vspace{.2in}
+ 
+ \hrulefill
+ 
+  \begin{center}
+\textbf{Percentage Change Formula}
+\vspace{.1in}
+
+To get the result of increasing an amount by $r$\%, multiply by $1+\frac{r}{100}.$
+\vspace{.1in}
+
+To get the result of decreasing an amount by $r$\%, multiply by $1-\frac{r}{100}.$
+ \end{center}
+ 
+  \vspace{.1in}
+    \hrulefill
+ \vspace{.1in}
+ 
+ \begin{center}
+\textbf{The Growth Factor Formula}
+\vspace{.1in}
+
+If an amount is growing exponentially and the amount changes from from $P$ to $A$ \\ in $T$ time periods, then the growth factor $g$ is given by the formula $$g=\left(\frac{A}{P}\right)^{\left(\frac{1}{T}\right)}$$
+
+ \end{center}
+ 
+  \vspace{.1in}
+    \hrulefill
+ \vspace{.1in}
+ 
+ \begin{center}
+ \textbf{Log Divides Formula}
+ \vspace{.1 in}
+ 
+ The equation $b^T=v$ has solution $$T=\frac{\log(v)}{\log(b)}$$
+ 
+ \end{center}
+
+\hrulefill
+
+\newpage
+\begin{enumerate}
+%%% Old 3.4, calculation, everyday
+\item \begin{enumerate}
+\item Calculate $\displaystyle \frac{1.53 \times 10^{13}}{2.51 \times 10^{-56}} $
+\vfill
+\item Using the connection logarithms and scientific notation, what is an approximate value $\displaystyle \log \left( \frac{1.53 \times 10^{13}}{2.51 \times 10^{-56}} \right)$?  \emph{Be sure to explain your answer with a sentence.}
+\vfill
+\item Now use your calculator to determine  $\displaystyle \log \left(\frac{1.53 \times 10^{13}}{2.51 \times 10^{-56}}  \right)$. Please report your answer to 5 decimal places.  Does it agree with your approximation?
+\vfill
+\end{enumerate}
+
+%%% Old 3.5, technology, everyday
+\newpage
+\item The Conficker computer virus was feared to cause massive amounts of damage to computers this April 1.  Initial estimates indicated that 9 million computers in January were infected with the virus.  Through the distribution of antivirus updates, the number of infected computers has been decreasing by 15\% each week.  From an initial estimate of the 9 million computers involved, it has decreased to $V$ infected computers (in millions) after $W$ weeks since January 1 where $$V = 9(0.85)^W$$
+
+\begin{enumerate}
+\item Make a table of values showing the number of infected computers after 4 weeks, 8 weeks, 12 weeks, and 16 weeks.
+\vfill
+\item Draw a graph illustrating the dependence.  \emph{Be sure to include all the information given and space your axes evenly.}
+
+\vspace{.1in}
+\begin{center}
+\scalebox {.8} {\includegraphics [width = 6in] {../GraphPaper}}
+\end{center}
+\vspace{.1in}
+
+\newpage
+\hspace{-.5 in}\emph{The problem continues \ldots.}
+
+\item When will the virus have affected 1 million computers?  Approximate the answer from your graph and then refine your answer by successive approximation to the nearest week.
+\vfill
+\item Now show how to exactly solve the equation to calculate when the virus will have affected 1 million computers.
+\vfill
+\end{enumerate}
+
+
+
+
+\newpage
+
+%%% Old 3.6, water use, citizen
+%% http://www.earth-policy.org/index.php?/data_center/C26/
+\item Bottled water consumption has continued to increase.  In 1980, the average consumption of bottled water per person in the United States was 2.7 gallons.  In 1995 the average consumption was 11.6 gallons.  Let $B$ be the number of gallons of bottled water consumed per person and $Y$ the year since 1980.  Assume that the bottled water consumption has \textit{been growing at a constant rate.}
+
+\begin{enumerate}
+\item What is the annual increase in the number of gallons of bottled water consumed each year?
+\vfill
+\item Write an equation illustrating this model.
+\vfill
+\item According to this equation, how many gallons of bottled water will the average person consume in 2009?
+\vfill
+\item What type of equation is being used here?
+\vfill
+\end{enumerate}
+
+\newpage
+
+\item  Remember from the previous problem that in 1980, the average consumption of bottled water per person in the United States was 2.7 gallons.  In 1995 the average consumption was 11.6 gallons.  Let $B$ be the number of gallons of bottled water consumed per person and $Y$ the year since 1980.  For this problem assume instead that bottled water consumption was been growing \textit{at a constant percentage rate each year}.
+
+\begin{enumerate}
+\item What is the annual growth factor bottled water consumption increased each year?
+\vfill
+\item Write an equation illustrating this model.
+\vfill
+\item According to this equation, how many gallons of bottled water will the average person consume in 2009?
+\vfill
+\item What type of equation is being used here?
+\vfill
+\end{enumerate}
+
+
+
+
+\newpage
+%%% Old 3.1, physics, fun
+\item I recently changed the cleaning bag on my vacuum cleaner.  In the process I wanted to know how many particles of dust were in the bag.  The mass of a dust particle is 0.000000000753 kilograms.
+
+\begin{enumerate}
+\item Write the mass of a dust particle in scientific notation.
+\vfill
+\item Express dust particle mass as a conversion factor.  In other words, complete the following:
+\vspace{0.2in}
+\begin{center} 1 dust particle = \rule{1.5in}{.01in} kilograms \end{center}
+\vspace{0.2in}
+
+\item My vacuum bag weighed 3 pounds, Using your above conversion factor, how many dust particles were in the bag? Express your answer in scientific notation.  \emph{Use the fact that 1 kilogram $\approx$ 2.2 pounds.}
+\vfill
+\end{enumerate}
+
+%%% Old 3.3, population, citizen
+\item In 2009 the population of Spain is 40,525,002 people.  At that time it was expected that the population would increase 0.072\% annually.  Assuming this increase is exponential, what would the population of Spain be in 2019?  \emph{Test-taking tip: Be sure to name variables and identify all formulas used.}
+\vfill
+\end{enumerate}
+
+
+\end{document}
+

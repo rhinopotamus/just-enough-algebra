@@ -1,0 +1,108 @@
+
+
+\section{Growth factors}
+
+Obesity among children ages 6-11 continues to increase.  From 1994 to 2010, the proportion of children classified as obese rose from an average of 1.1 out of every ten children in 1994 to around 2 out of every ten children in 2010.
+%citation: http://www.berksmontnews.com/articles/2010/10/20/community_connection/news/doc4cbed761c7fcc149792696.txt  They credit centers for disease control.
+% CDC report is http://www.cdc.gov/nchs/data/hestat/obesity_child_07_08/obesity_child_07_08.htm
+Assuming that the prevalence of childhood obesity increases exponentially, what is the annual percent increase and what does the equation project for the year 2020? Well, unless we are able to make drastic improvements in how children eat and how much they exercise.
+
+Because we are told obesity is increasing exponentially we can use the template for an exponential equation.  
+$$\text{dep }=\text{ start } \ast \text{growth factor}^{\text{indep}}$$
+The variables are 
+\begin{center}
+\begin{tabular} {l} 
+$C=$ obese children (out of every ten) $\sim$ dep \\ 
+$Y =$ year (years since 1994) $\sim$ indep \\
+\end{tabular}
+\end{center}
+The starting amount  is 1.1 children out of every ten in 1994 so our equation is of the form $$C = 1.1 \ast g^Y$$
+Trouble is we don't actually know what the growth factor $g$ is.  Yet.  
+
+We do know that in 2010 we have $Y = 2010 - 1994 = 16$ years and $C = 2$.  We can put those values into our equation to get $$1.1 \ast g^{16}=2$$
+No good reason for switching sides, just wanted to have the variable on the left.
+That's supposed to be true but we don't know what number $g$ is so we can't check.  Argh.  
+
+Oh, wait a minute.  The only unknown in that equation is the growth factor $g$.  What if we solve for $g$?  First, divide each side by  1.1 to get
+$$ \frac{\cancel{1.1}\ast g^{16}}{\cancel{1.1}} = \frac{2}{1.1} $$
+which simplifies to $$g^{16} = \frac{2}{1.1} = 2 \div 1.1= 1.818181818\ldots$$
+Since we want to solve for the base (not the exponent), we have a power equation.  We use the \textsc{Root Formula} with power $n=16$ and value $v=1.818181818$ to get
+$$g = \sqrt[n]{v} = \sqrt[16]{1.818181818} = 16 \sqrt[x]{\text{\raisebox{.6em}{~\text{  }}}} 1.818181818 = 1.038071653 \approx 1.0381$$  
+
+Want a quicker way to find the growth factor?  Forget the entire calculation we just did.  %From ``Yet''
+It all boils down to two steps: $$\frac{2}{1.1} = 2 \div 1.1 = 1.818181818\ldots$$
+and then $$g =  \sqrt[16]{1.818181818} = 16 \sqrt[x]{\text{\raisebox{.6em}{~\text{  }}}} 1.818181818 = 1.038071653 \approx 1.0381$$
+We can do this calculation all at once as
+ $$g =  \sqrt[16]{\frac{2}{1.1}} = 16 \sqrt[x]{\text{\raisebox{.6em}{~\text{  }}}} (2 \div 1.1)= 1.038071653 \approx 1.0381$$
+Notice we added parentheses because the normal order of operations would do the root first and division second.  We wanted the division calculated before the root.  
+
+Here's the easy version in a formula.
+
+ \bigskip
+ \framebox{
+ \begin{minipage}[c]{.85\textwidth}  
+~ \bigskip \\  \textsc{Growth Factor Formula} \\ ~\\
+If a quantity is growing (or decaying) exponentially, then the growth (or decay) factor is 
+$$\displaystyle g = \sqrt[t]{\frac{a}{s}}$$ where $s$ is the starting amount and $a$ is the amount after $t$ time periods. \\
+\end{minipage}
+}
+  \bigskip
+
+\noindent  Let's check.  In our example, the number of obese children grew from the starting amount of $s=1.1$ to the amount of $a=2$ after $t=16$ years.  By the \textsc{Growth Factor Formula} we have 
+$$g =  \sqrt[t]{\frac{a}{s}} \\
+=  \sqrt[16]{\frac{2}{1.1}} \\
+= 16 \sqrt[x]{\text{\raisebox{.6em}{~\text{  }}}}  (2 \div 1.1) \\
+= 1.038071653 \approx 1.0381 \quad \checkmark$$
+
+Either way, we knew from the beginning that our equation was in the form
+$C = 1.1 \ast g^Y$.  Now that we found the growth factor $g \approx 1.0381$ we get our final equation $$C = 1.1 \ast 1.0381^Y$$
+For example, we can check that in 2010, we have $Y=16$ still and so 
+$$C = 1.1 \ast 1.0381^{16} = 1.1 \times 1.0381 \wedge \underline{16} =  2.000874004 \approx 2 \quad \checkmark$$ 
+
+You might wonder why we didn't just round off and use the equation $$C = 1.1 \ast 1.04^Y$$ 
+Look what happens when we evaluate at $Y=16$ then.  We would get
+$$C = 1.1 \ast1.04^{16} = 1.1 \times 1.04 \wedge \underline{16} = 2.06027937 \approx 2.1$$
+Not a big difference (2.1 vs.\ 2.0) but enough to encourage us to keep extra digits in the growth factor in our equation.  Lesson here is:  don't round off the growth factor too much.
+
+Back to the more reliable equation $$C = 1.1 \ast 1.0381^Y$$
+We can now answer the two questions. First, in 2020 we have $Y = 2020-1994 = 26$ and so $$C = 1.1 \ast 1.0381^{26} = 1.1 \times 1.0381 \wedge \underline{26} = 2.908115507 \approx 2.9$$
+According to our equation, by 2020 there would be approximately 2.9 obese children for every ten children.
+
+The other question was what the annual percent increase is.  Think back to an earlier example.  Remember that Jocelyn was analyzing health care costs?  They began at \$2.26 million and grew 6.7\% per year.  She had the equation 
+$$H=2.26\ast1.067^Y$$
+So the growth factor $g=1.067$ in the equation came from the growth rate $r=6.7\%=.067$.
+Our equation modeling childhood obesity is $$C = 1.1 \ast 1.0381^Y$$ 
+The growth factor of $g=1.0381$ in our equation must come must come from the growth rate $r= .0381=3.81\%$. Think of it as converting to percent $1.0381 = 103.81 \%$ and then ignoring the 100\% to see the 3.81\% increase.
+Childhood obesity has increased around 3.81\% each year.  Well, on average.
+ 
+Here's the general formula relating the growth rate and growth factor.
+
+ \bigskip
+ \framebox{
+ \begin{minipage}[c]{.85\textwidth}  
+~ \bigskip \\  \textsc{Percent Change Formula:} \hfill (updated version)
+\begin{itemize}
+\item   If a quantity changes by a percentage corresponding to growth rate $r$, then the growth factor is $$\displaystyle g=1+r$$
+\item If the growth factor is $g$, then the growth rate is $$r = g-1$$ ~
+\end{itemize}
+\end{minipage}
+}
+\bigskip
+
+\noindent Let's check.  We have $g=1.0381$ and so the growth rate is 
+$$r=g-1 = 1.0381-1 = .0381= 3.81\%$$
+Not sure we really need these formulas, but there you have it.
+
+By the way, formula works just fine if a quantity decreases by a fixed percent. One example we saw was Joe, who drank too much coffee.  The growth (or should I say decay) factor was $g=.87$.  That corresponds to a growth (decay) rate of 
+$$r=g-1=.87-1=-.13=-13\%$$
+Again, the negative means that we have a percent decrease.
+
+%Is that too many formulas all at once?  For the purpose of this section, you can forget about the \textsc{Root Formula} and just use \textsc{Growth Factor Formula} instead.  
+
+%Both the \textsc{Growth Factor Formula} and the \textsc{Percent Change Formula} tell us the growth (or decay) factor but they apply in separate situations.  We use the \textsc{Growth Factor Formula} when we know the starting and ending amount and are told the equation is exponential.  It's a good question how we know it's exponential in those situations, but don't forget there's often a combination of science and data behind the scenes.  We use the (much easier) \textsc{Percent Change Formula} when we are told (or are looking for) the percent increase or decrease.  
+
+%Don't forget that sometimes the story tells us the growth or decay factor in the story.  Like where three of you make a pact to each invite 10 friends to join your online group, and they each invite 10 friends, and so on.  There the equation was $$F = 3\ast10^N$$ which means the growth factor was $g=10$.  An example where the story told us the decay factor was with sheets of glass filtering out the light, only letting 75\% through.  There the equation was $$L = 100\ast .75^S$$ which means the decay factor was $g=.75$.  %SU check that these stories are actually in teh WORKSHEETS!
+
+%\newpage
+
+%\input{Growth_factorEX.tex}

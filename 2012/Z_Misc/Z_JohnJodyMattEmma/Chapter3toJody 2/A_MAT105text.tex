@@ -1,0 +1,200 @@
+%%%%%%%%%%%% GENERAL %%%%%%%%%%%
+
+% \item THE WHOLE BOOK
+% printed Textbook (smaller size, close bound) = narratives, exercises w/o room to work, DYK without room to write, practice exams renamed ``review problems'', answers to all (NO SOLNS)
+% printed Workbook (full sheet size, metal spiral bound) = worksheet style:  1-4, DYK, practice exams
+% inclass Recourses = few copies of printed solutions to worksheet and practice exams (they can go print online if need)
+% printable online Resources = workbook and also each homework problem available in worksheet style, and also practice exams and SOLUTIONS to worksheet, practice exams (.pdf of narratives available for disabilities only?)
+
+%
+%\item CONTENT/WRITING
+%\begin{enumerate}
+% NO future tense, unless trying to predict the future.
+%\item Use inequality notation more
+%\item Refer to the appendices as needed, if they are included   "blast from the past"?
+%\item Should "domain" be introduced and used throughout?
+%\item Replace "predictions" with "projections"
+% Use "template" to refer to the standard format of a linear equation, exponential equation, etc.  Love that word.
+% "from both sides" should be "from each side"  
+% Are you going to find lyrics or quotes to open each section?  
+% Also, would love to have a photo to go with each section.
+%\end{enumerate}
+
+%\item PROBLEMS
+%\begin{enumerate}
+%\item Some exercises where they are GIVEN the graph.
+% \item More problems of the type "How would the equation change if  . . . "
+%\item Domain
+%\item Rate of change
+%\item Graphs -- at least one practice exercise and two other exercises per section
+%\item  Inequality notation 
+%\item  Credit sources (see MA_approximation for model)
+% \item Check that \emph instructions always start on new line, if they don't fit at the end of a line.
+% Where does this information go:
+%\emph{There are two different types of exercises in this textbook.  For the ``Practice exercises,'' we have left space for you to write the solutions in the textbook.  Think of them as additional examples. We provide full solutions to the Practice Exercises at the end of the textbook.   For the regular ``Exercises'' you need to write your solutions separately.  We provide only the answers, not full solutions, to the Exercises at the end of the textbook.}
+% Also, where does the final instructions ``stuck'' go?
+% \item Make sure they are still doing evaluation and succ approx even when can solve.  But streamline it so that they are just given a graph or table, say.
+%\end{enumerate}
+
+%\item TYPESETTING TEXT:  
+%\begin{enumerate}
+%\item FILE > SET PROJECT ROOT > paste in this: A_MAT105text.tex
+%\item numbers with commas need \text
+%\item Try not to end sentences with a colon.
+%\item No period at the end of a sentence if it's a centered equation
+%\item Defined terms are TEXTBF and not EMPH
+%\item For cent mark \textcent \hspace{.05in}
+% \item For fractions with slanty line inline use \nicefrac{1}{2}
+%\end{enumerate}
+
+%
+%\item TYPESETTING EQUATIONS/CALCULATIONS
+%\begin{enumerate}
+%\item How identify things we type into a calculator?
+%\item MULTIPLY:  Use \ast in line, but \times for calculator
+%\item DIVIDES:  Use $\div$ (not /)
+%\item NEGATIVE:  Use \text{(-)} for minus within calculator keystrokes
+%\item ROOT:  \raisebox{.2em}{$\sqrt[n]{~\text{  }}$}
+%\item EVALUATE:  Underline number plugged into equation.
+% \item LOGS:  logs should all be \log.  
+% \item POWERS:  Powers should all be \wedge
+%\item Equations in exercises 1-4 are centered, 5-12 are not
+%\end{enumerate}
+%  
+
+%
+%\item TEMPLATES
+%\begin{enumerate}
+%\item Template:  Table 
+%\item Template:  Naming Variables 
+%\item Tmplate:  Solving equation
+%\item Template: Evaluating function
+%\item Template:  Stating formula
+%\item Template: Evaluating formula
+%\item Template:  Rate of change calculation 
+%\item Template:  Graphics 
+%\item Template:  Equations 
+%\end{enumerate}
+
+%\end{enumerate}
+
+%%%%%%%%%%%% SPECIFIC %%%%%%%%%%%
+
+%\begin{enumerate}
+%\item Are order of operations officially reviewed in chapter 1 somewhere?  See narrative in 3.1 on evaluating and order of operations. Probably should go in section 2.3 using equations
+% Be sure that section A.5 defines "evaluate"
+% In section 2.1 write an exercise like #6 in Section 2.2
+% 2.3 include more linear interpolation
+% In section 1.2 Look at Alejandro filling the pool from 11S Exam 1, also teen pregnancy from 11S Final Exam
+% In section 3.3 look at wind turbine example from 11S Exam 1
+% Chapter 3 on Solving -- be sure they're still doing everything too
+% SU both section 2.1 and 3.1/3.2 have travel to Cork Ireland.  Make sure it's the same story: Ciara and Seamus.
+%\end{enumerate}
+           
+%BOXES:
+% SU here's how you do boxes:
+%\framebox[5 in][c]{I'm all boxed in !!} SU how to put text in a box just once
+
+%\framebox{\begin{minipage}[c]{\textwidth} And now is the time for all good men to come to the aid of their country. But, seriously folks, I just flew in and boy are my arms tired.  This is silly. \end{minipage}}
+
+\documentclass[11pt]{book}
+
+\usepackage{AA}
+
+%\includeonly{Variables,Variables_and_functions,Tables_and_graphs,Rate_of_change,Units,Metric_system_and_scientific_notation,Practice_Exam_Variables}%VARIABLES Chapter 1
+%\includeonly{Equations,First_look_linear,First_look_exponential,Using_equations,Approx_solutions,Finance,Practice_Exam_Equations}% EQUATIONS Chapter 2
+
+\includeonly{Solving_equations,Solving_linear_equations,Solving_linear_inequalities,Solving_power_equations,Solving_exponential_equations,Solving_quadratic_equations,Practice_Exam_Solving} % SOLVING Chapter 3
+
+%\includeonly{First_look_linear,Solving_linear_equations,Solving_linear_inequalities ,Closer_look_linears,Modeling_linear_equations,Systems_linear_equations,Intercepts,Slopes,Fitting_lines_to_data,Practice_Exam_Linears} %LINEARS Chapter 4+
+
+%\includeonly{First_look_exponential,Solving_exponential_equations,Closer_look_exponentials,Modeling_exponential_equations,Exp_growth_decay,Growth_factor,Linear_vs_exponential,Logistic_growth,Practice_Exam_Exponentials} %EXPONENTIALS Chapter 5 +
+
+
+
+\begin{document}
+
+\frontmatter
+
+\title{Applied Algebra}
+\author{Dr.\ Suzanne Dor\'ee \\ Professor of Mathematics\\Augsburg College\\Minneapolis, MN 55454}
+\date{Fall 2012 edition (midJuly versions)}
+\maketitle
+
+\newpage
+
+~\vfill 
+\noindent \textbf{\copyright 2012} Suzanne Dor\'ee  
+
+\noindent All rights reserved.  No part of this publication may be reproduced, stored in a retrieval system, or transmitted, in any form or by any means, electronic, mechanical, photocopying, recording, or otherwisie, without the prior written permission of the author.  For information on obtaining permission for use of material in this work, please submit a written request via e-mail to \text{doree@augsburg.edu} or via mail to Suzanne Dor\'ee, Mathematics Department CB 61, Augsburg College, Riverside Avenue, Minneapolis, MN, 55454. 
+
+\tableofcontents
+
+% \include{Preface} % SU ADD BACK IN
+
+\mainmatter
+
+\include{Variables} 
+      \include{Variables_and_functions} 
+      \include{Tables_and_graphs} 
+      \include{Rate_of_change} 
+      \include{Units} 
+     \include{Metric_system_and_scientific_notation} 
+      %\include{Practice_Exam_Variables}
+      
+ \include{Equations}
+      \include{First_look_linear} 
+      \include{First_look_exponential} 
+      \include{Using_equations} 
+      \include{Approx_solutions} 
+      \include{Finance} 
+     % \include{Practice_Exam_Equations}
+      
+ \include{Solving_equations}
+      \include{Solving_linear_equations} 
+      \include{Solving_linear_inequalities} 
+            \include{Solving_power_equations} 
+      \include{Solving_exponential_equations}
+      \include{Solving_quadratic_equations} 
+     % \include{Practice_Exam_Solving}
+      
+ \include{Closer_look_linears}    
+      \include{Modeling_linear_equations}
+      \include{Systems_linear_equations}
+      \include{Intercepts}
+      \include{Slopes}
+      \include{Fitting_lines_to_data}
+     % \include{Practice_Exam_Linears}
+      
+ \include{Closer_look_exponentials}
+      \include{Modeling_exponential_equations} 
+      \include{Exp_growth_decay}
+      \include{Growth_factor}
+      \include{Linear_vs_exponential}
+      \include{Logistic_growth}
+     % \include{Practice_Exam_Exponentials}
+      
+     % \include{Practice_Final_Exam}
+      
+%\include{More_about}
+     % \include{Pretest_MA}
+      %\include{MA_approximation}
+      %\include{MA_arithmetic}
+     % \include{MA_percentages}
+     % \include{MA_exponents}
+     % \include{MA_order_of_operations}
+     % \include{MA_algebraic_notation}
+
+\backmatter
+
+\include{SolnPractice}
+
+\include{Answers}
+
+\end{document}
+
+
+
+
+
+

@@ -1,0 +1,110 @@
+\section{Prelude: Algebraic Notation}
+
+Minnesota had 35.5 inches of precipitation (rain and snow) in 2022, setting a new record.  It is difficult to predict the weather.  
+
+One report estimated that precipitation would increase an average of .2 inches per year.  If that report is accurate then in 2032 (after 10 years) we would expect total precipitation to be around $$35.5 + 10 \times .2 = 37.5 \text{ inches}$$
+We can use the letter $Y$ to represent the number of years in the future (since 2022).  
+
+After $Y$ years, we would expect total precipitation (in inches) to be around $$35.5 + Y \times .2$$
+This expression generalizes our earlier calculation, replacing the 10 years by the $Y$ years. This expression is often written as $$35.5 + .2Y$$
+Notice that we are writing the number (.2) before the letter ($Y$).  Also, we are not writing the multiplication symbol ($\times$) at all!  It is something you just need to know:  that $.2Y$ really means $.2 \times Y$.  That shorthand is an example of algebraic notation.
+
+Another report estimated that precipitation would increase about 0.5\% per year.  Notice that percentage is less than 1\%.  It is much more complicated to figure out what to expect in 2032 (after 10 years), but following some examples we saw in the last section, it turns out that we can calculate the predicted precipitation to be $$35.5 \times 1.005 \land 10 = 37.3154... \approx 37.3 \text{ inches}$$
+
+After $Y$ years, we would expect total precipitation (in inches) to be around $$35.5 \times 1.005 \land Y$$
+This expression generalizes our earlier calculation, replacing the 10 years by the $Y$ years.  This expression is often written as $$35.5*1.005^Y$$
+Notice that we are writing the exponent as a superscript (meaning raised up and a little smaller).  Also notice that we have replaced the usual multiplication symbol $\times$ with an alternative symbol $*$.  That's because $\times$ looks like the letter $X$ which is sometimes used in algebra.  This shorthand is another example of algebraic notation.  The expression can also be written without the $*$ symbol as  $$35.5(1.005^Y)$$
+where now we need to know that the number before the parentheses is multiplied.
+
+For a little more practice with algebraic notation, recall that Piadina's flatbread cost \$17.49 and is usually cut into 5 slides.  At that rate it cost $$17.49 \div 5 = \$3.50$$ per slice.  If there were $S$ slices, then we can replace the 5 slices by $S$ slices and calculate that the flatbread cost $$17.49 \div S$$ in dollars per slice.  In algebraic notation, we write the division as a fraction instead 
+$$ \frac{17.49}{S}$$
+
+One more piece of terminology.  When we have an expression, like $ \frac{17.49}{S}$ and we want to know the value when $S$ is a particular value, we say that we are \textbf{evaluating} the expression.  Suppose we want to know the price per slice if Piadina's cut their flatbread into 4 slices instead.  That means we want to evaluate the expression $ \frac{17.49}{S}$ when $S = 4$ slices.  
+
+The first step in the evaluation process is to replace the letter by its value and we write that value in parentheses.  Thus we would have $$\frac{17.49}{(4)}$$ The second step is to replace the algebraic notation with the arithmetic notation, which is usually what we enter into the calculator:
+$$17.49 \div (4)$$
+It turns out that we do not need the parentheses around the 4 so we can simply calculate $$ 17.49 \div 4 = 4.3725 \approx \$4.37 \text{ per slice}$$
+
+ \input{GoDoWS}
+
+\noindent \textbf{Do you know \ldots}
+
+\begin{itemize}
+\item Where multiplication can be hidden in algebraic notation? %\vfill
+\item How powers are written in algebraic notation?% \vfill
+\item How division is written in algebraic notation? %\vfill
+\item What the word evaluate means? %\vfill
+\item How to evaluate an algebraic expression on your calculator? %\vfill
+ \input{NotSure} 
+\end{itemize}
+
+\subsection*{Exercises}
+
+\begin{enumerate} 
+\setcounter{enumi}{4}
+
+\item There were two different predictions of total precipitation.
+\begin{enumerate}
+\item What does the first report predict for total precipitation in 2042 (when $Y=20$) using the expression $35.5 + .2Y$?
+\item What does the second report predict for total precipitation in 2042 (when $Y=20$) using the expression $35.5(1.005^Y)$?
+\end{enumerate}
+
+
+\item When the Nussbaums planted a walnut tree it was 5 feel tall. It has grown around 2 feet a year. If we know that it's been $Y$ years since they planted the tree, we can figure out that the height of the tree is $5+2Y$ feet.
+ 
+ \hfill \emph{Story also appears in 0.2 \#7, 0.4 textbook, and 1.1 \#5(a)}  
+\begin{enumerate}
+\item Use this expression to figure out the height of the tree after 18 years.
+\item What does $2Y$ mean in the expression $5+2Y$?
+\end{enumerate}
+
+\item A set of sterling silverware was valued at \$800 in 1920, and the value increased around 3\% per year thereafter.  We can calculate the value of the silverware after $Y$ years as $800 *1.03 ^ Y$. \hfill \emph{Story also appears in 0.6 \#8 and 5.1 textbook}
+\begin{enumerate}
+\item Use this expression to calculate the value of the silverware in 1990.  (Use $Y = 1990-1920 = 70$)
+\item What does the $1.03^Y$ mean in the expression $800 *1.03 ^ Y$?
+\item What does the symbol $*$ mean in the expression $800 *1.03 ^ Y$?
+\item There are other ways to write this expression including $800 (1.03 ^ Y)$ and $800 (1.03) ^ Y$.  Evaluate each of these expressions at $Y=70$. You might not need to type in the multiplication.  Experiment to see what your calculator needs.
+\end{enumerate}
+
+\item The lake by Rodney's condo was stocked with bass (fish) 10 years ago.  There were initially 400 bass introduced.   \hfill \emph{Story also appears in 3.3 Exercises and 5.5 \#9}
+
+\begin{enumerate}
+\item One potential expression for the number of bass after $Y$ years is $$4000 - 3600*.78^Y$$ What does this equation say the number of bass should be now? Hint: that means $Y = 10$ years.
+\item Another potential expression for the number of bass after $Y$ years is
+$$\frac{4000}{1 + 9*.78^Y}$$
+What does this equation say the number of bass should be now?  Since we're using a very different equation, we will get a very different answer.  Don't forget to put parentheses around the bottom of the fraction.
+\item If there are actually 2500 fish in the lake now, which expression is closer to correct?
+\end{enumerate}
+
+\item Zahra needs to complete 62 more hours of classroom observation before she is eligible to student teach.  She plans to observe at a local school on Thursdays from 8:00 AM-1:30 PM, which is 5.5 hours/week. After $W$ weeks, Zahra will have $62-5.5W$ hours left.  \hfill \emph{Story appears in 0.2 textbook}
+\begin{enumerate}
+\item How many hours will Zahra have left after 4 weeks? Evaluate this expression to find the answer.
+\item What does the $5.5W$ mean in the expression $62-5.5W$?
+\item What does the $-$ mean in the expression $62-5.5W$?  Remember there are two similar looking operations: subtraction and negation.
+\end{enumerate}
+
+\item Saboor is working on a needlepoint that will be 1 foot by 1 foot square. The mesh grid comes in different sizes.  For example, a 13-count mesh has 13 holes per inch which is $13 \times 12=156$ holes per foot.  If she uses a 13-count mesh, then the piece will have $156 \times 156 = 156 \land 2 = 24,336$ holes. There are other sizes mesh to choose from.  A $C$-count mesh has $12C$ holes per foot and $(12C)^2$ holes total. 
+
+\hfill \emph{Story also appears in 0.6 \#7}
+\begin{enumerate}
+\item Evaluate the expression $(12C)^2$ when $C=13$. Don't forget the units.
+\item Evaluate the expression $(12C)^2$ when $C=10$ to count the total number of holes in a 10-count mesh.
+\item What does the $12C$ mean in the expression $(12C)^2$?  
+\item If we forgot the parentheses and typed in $12 \times 10 \land 2$, what answer would we get and what is the calculator doing differently?
+\end{enumerate}
+
+\end{enumerate}
+
+\bigskip
+
+\noindent \textbf{When you're done \ldots}
+
+\begin{itemize}
+\item Don't forget to check your answers with those in the back of the textbook. 
+\item Not sure if your answers are close enough? Compare with a classmate or ask the instructor.  
+\item Getting the wrong answers or stuck on a problem?  Re-read the section and try the problem again.   If you're still stuck, work with a classmate or go to your instructor's office hours.
+\item It's normal to find some parts of some problems difficult, but if all the problems are giving you grief, be sure to talk with your instructor or advisor about it.  They might be able to suggest strategies or support services that can help you succeed.
+\item Make a list of key ideas or processes to remember from the section.  The ``Do you know?'' questions can be a good starting point.
+\end{itemize}
+
+
