@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="ws-Units" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>Units - Practice exercises</title>
+
+<!-- TODO: the exercisegroup is numbered 1 and the exercises are a, b, c and the tasks are i, ii -->
+	<exercisegroup>
+		<exercise workspace="1in">
+			<introduction>
+				<p>
+					Compare centimeters (cm) and inches, using that 1 inch <m>\approx</m> 2.54 cm.
+					<em>Use unit conversion fractions in all of your steps.</em>
+				</p>
+			</introduction>
+			<task>
+				<statement>
+					<p>
+						Which is longer: 1 inch or 1 centimeter?
+					</p>
+				</statement>
+			</task>
+			<task>
+				<statement>
+					<p>
+						Kamari is shopping at an internationally-based retail store. She is looking at a curtain rod that projects 10 cm from the wall. What is that in inches?
+					</p>
+				</statement>
+			</task>
+			<task>
+				<statement>
+					<p>
+						She also wants a basket no more than 1 foot wide or long to fit on her bookcase. How many centimeters are in a foot?
+					</p>
+				</statement>
+			</task>
+		</exercise>
+		<exercise workspace="1in">
+			<introduction>
+				<p>
+					Compare meters (m) and yards using that 1 yard <m>\approx</m> 0.9144 m.
+					<em>Use unit conversion fractions in all of your steps.</em>
+				</p>
+			</introduction>
+			<task>
+				<statement>
+					<p>
+						Which is longer: 1 yard or 1 meter?
+					</p>
+				</statement>
+			</task>
+			<task>
+				<statement>
+					<p>
+						Princeton was watching the Olympics and noticed everything was measured in meters. He is curious how long a football field (100 yards) is in meters.
+					</p>
+				</statement>
+			</task>
+			<task>
+				<statement>
+					<p>
+						Kamari found a really big bath towel she likes. 
+						It is 1 meter wide and 1.5 meters long. 
+						What are the dimensions in inches? Use that 1 yard = 3 feet.
+					</p>
+				</statement>
+			</task>
+		</exercise>
+
+		<exercise workspace="1in">
+			<introduction>
+				<p>
+					Compare kilometers (km) and miles using that 1 mile <m>\approx</m> 1.609 km. 
+					<em>Use unit conversion fractions in all of your steps.</em>
+				</p>
+			</introduction>
+			<task>
+				<statement>
+					<p>
+						Which is longer: 1 mile or 1 kilometer?
+					</p>
+				</statement>
+			</task>
+			<task>
+				<statement>
+					<p>
+						This weekend Princeton and Kamari are doing a 5K run. How many miles long is that? Note: <term>5K</term> is short for 5 kilometers.
+					</p>
+				</statement>
+			</task>
+			<task>
+				<statement>
+					<p>
+						Princeton is actually in training for a marathon. How many kilometers is that? Note: a <term>marathon</term> is approximately 26.2 miles.
+					</p>
+				</statement>
+			</task>
+		</exercise>
+	</exercisegroup>
+
+	<exercise workspace="1in">
+		<task>
+			<statement>
+				<p>
+					Yesterday Cameron worked for 2 hours and 15 minutes (that's 2:15) and then went home and studied for 7 hours and 57 minutes (that's 7:57). Convert each time into decimal hours.
+				</p>
+			</statement>
+			<hint>
+				<p>
+					7 hours and 57 minutes is not the same as 7.57 hours!
+				</p>
+			</hint>
+		</task>
+<!-- SUGGESTION: do something like 19.75 hours. -->
+		<task>
+			<statement>
+				<p>
+					Ephraim works at a plant that produces very delicate electronic switches. 
+					He measured the lifetime for one switch at 4.18 hours. 
+					Another had lifetime 19.50 hours. Convert each time into hours and minutes. 
+					<em>That means H:MM format.</em>
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Phillip measured his office using a digital measure. 
+					One wall is 21.8 feet. The other is 10.2 feet. 
+					How long is each wall measured in the more usual feet and inches?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					The couch Stetson wanted to buy is 92" long and 44" tall. 
+					Convert the length and height to feet and inches.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Abdi volunteers at a food bank. He noticed that the shelf on the back wall 
+					was bending so he measured its length at 12'5". 
+					The formula for load needs the length written as a decimal. 
+					Convert the length to a decimal number of feet.
+				</p>
+			</statement>
+			<hint>
+				<p>
+					The answer isn't 12.5 feet! (That would be 12'6".)
+				</p>
+			</hint>
+		</task>
+	</exercise>
+	<exercise workspace="1in">
+		<introduction>
+			<p>
+				Some people say we should drink 8 glasses of water (or other liquids) every day, 
+				where a glass is defined as 8 (liquid) ounces.
+			</p>
+		</introduction>
+		<task>
+			<statement>
+				<p>
+					Ingrid uses a 20 ounce unbreakable plastic bottle. 
+					How many of those bottles full of water does she need to drink each day?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Siri carries around a insulated water bottle that holds .6 liters. 
+					How many of those bottles full of water does she need to drink each day?
+					Use that 1 liter <m>\approx</m> 1.057 quarts and 1 quart = 32 (liquid) ounces.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					To meet the recommendation, how much water would one person drink in an entire year? 
+					Give the answer in gallons. Use 1 gallon = 4 quarts.
+				</p>
+			</statement>
+		</task>
+	</exercise>
+
+	<exercise workspace="1in">
+		<introduction>
+			<p>
+				Jenna is studying in Finland this term and rented an older car to drive.
+			</p>
+		</introduction>
+		<task>
+			<statement>
+				<p>
+					She learns that no matter what the road signs might say, 
+					the maximum speed limit in Finland in winter is never more than 100 km/hr. 
+					How fast is that in miles per hour (mph)? 
+					Use 1 mile <m>\approx</m> 1.609 km.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Jenna's car holds 62 liters of gasoline in its tank. How many gallons is that? 
+					Use 1 liter <m>\approx</m> 1.057 quarts and 1 gallon = 4 quarts.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Her car gets 7.6 km/liter. Convert to miles per gallon (mpg).
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Gas prices in Finland were 1.658 €/liter. 
+					What's the equivalent price in $/gal? 
+					The symbol € stands for euro. Use 1 € <m>\approx</m> $1.23.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					What would it cost Jenna, in euros, for a full tank of gas? 
+					How much is that in dollars?
+				</p>
+			</statement>
+		</task>
+	</exercise>
+
+	<xi:include href="ss-SectionNotes.ptx" />
+	<xi:include href="ss-Units_end.ptx" />
+
+
+
+
+</worksheet>

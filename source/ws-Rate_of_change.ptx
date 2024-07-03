@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="ws-Rate_of_change" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>Rate of change – Practice exercises</title>
+
+	<exercise workspace="1in">
+		<introduction>
+			<p>
+				Sweet Rose Bakery makes cakes and cupcakes. Here are their prices.
+			</p>
+			<sidebyside>
+				<table>
+					<title>Cake prices</title>
+					<tabular>
+					<row header="yes">
+						<cell halign="left">Servings</cell>
+						<cell halign="center">10</cell>
+						<cell halign="center">20</cell>
+						<cell halign="center">50</cell>
+					</row>
+					<row class="odd">
+						<cell halign="left">Cost</cell>
+						<cell halign="center">$11.95</cell>
+						<cell halign="center">$19.95</cell>
+						<cell halign="center">$40.95</cell>
+					</row>
+					</tabular>
+				</table>
+				<table>
+					<title>Cupcake prices</title>
+					<tabular>
+					<row header="yes">
+						<cell halign="left">Servings</cell>
+						<cell halign="center">12</cell>
+						<cell halign="center">24</cell>
+						<cell halign="center">48</cell>
+					</row>
+					<row class="odd">
+						<cell halign="left">Cost</cell>
+						<cell halign="center">$6.95</cell>
+						<cell halign="center">$13.90</cell>
+						<cell halign="center">$27.80</cell>
+					</row>
+					</tabular>
+				</table>
+			</sidebyside>
+		</introduction>
+		<task>
+			<statement>
+				<p>
+					Calculate the rate of change for cake prices, in $/person, 
+					if there are between 10 and 20 people. 
+					Repeat for between 20 and 50 people.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Calculate the rate of change for cupcake prices, in $/person, 
+					if there are between 12 and 24 people. 
+					Repeat for between 24 and 48 people.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					On the same set of axes, graph how the price depends on the number of people for cake and also for cupcakes. Connect each line or curve smoothly.
+				</p>
+			</statement>
+		</task>
+<!-- graph paper!!! -->
+		<task>
+			<statement>
+				<p>
+					The rate of change for cupcakes is constant. Any idea why?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					The rate of change for cakes is not constant. Any idea why?
+				</p>
+			</statement>
+		</task>
+	</exercise>
+
+	<exercise workspace="1in">
+		<introduction>
+			<p>
+				Anthony and Christina are trying to decide where to hold their wedding reception. 
+				The Metropolitan Club costs $1,300 for the space and then $92 per person. 
+				<em>(Story also appears in 1.2 #3 and 3.2 #3)</em>
+			</p>
+		</introduction>
+		<task>
+			<statement>
+				<p>
+					Make a table showing the cost for 20, 50, 75, or 100 people. 
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Calculate the extra cost for each additional person between 20 and 50 people.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Calculate the extra cost for each additional person between 75 and 100 people.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					What do you notice?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Explain why the graph of this cost function is a straight line.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Is the cost function increasing, decreasing, or neither?
+				</p>
+			</statement>
+		</task>
+	</exercise>
+
+	<exercise workspace="1in">
+		<introduction>
+			<p>
+				Rashad measured his heart rate several times after football practice. Right after practice his heart rate was 178 beats per minute. Two minutes later, it had dropped to 153 beats per minute, and by ten minutes after practice it was down to 120 beats per minute.
+			</p>
+		</introduction>
+		<task>
+			<statement>
+				<p>
+					Make a table showing Rashad's heart rate at each time.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Identify the variables, including units and dependence.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					How quickly was Rashad's heart rate dropping during the first two minutes following practice? <em>Hint: the units are beats per minute per minute.</em>
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					How quickly was his heart rate dropping during the next time period?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Rashad does not like hitting the showers until his heart rate is close to normal, 
+					or at least below 100. He usually waits 15 minutes after practice. 
+					Do you think that's long enough? Explain.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					During the time in this table, did Rashad's heart rate increase, decrease, or neither?
+				</p>
+			</statement>
+		</task>
+	</exercise>
+
+	<exercise workspace="1in">
+		<introduction>
+			<p>
+				Teen pregnancy rates for Minneapolis (pregnancies per thousand teens) are summarized in the graph and table.
+				<fn>Source: Minnesota Department of Health</fn>
+			</p>
+			<table>
+				<title></title>
+				<tabular>
+				<row header="yes">
+					<cell halign="center">Year</cell>
+					<cell halign="center">1999</cell>
+					<cell halign="center">2000</cell>
+					<cell halign="center">2001</cell>
+					<cell halign="center">2002</cell>
+					<cell halign="center">2003</cell>
+					<cell halign="center">2004</cell>
+					<cell halign="center">2005</cell>
+					<cell halign="center">2006</cell>
+					<cell halign="center">2007</cell>
+					<cell halign="center">2008</cell>
+					<cell halign="center">2009</cell>
+				</row>
+				<row class="odd">
+					<cell halign="center">Teen preg</cell>
+					<cell halign="center">76.0</cell>
+					<cell halign="center">73.5</cell>
+					<cell halign="center">54.9</cell>
+					<cell halign="center">58.2</cell>
+					<cell halign="center">55.7</cell>
+					<cell halign="center">49.9</cell>
+					<cell halign="center">45.1</cell>
+					<cell halign="center">53.3</cell>
+					<cell halign="center">49.4</cell>
+					<cell halign="center">43.5</cell>
+					<cell halign="center">34.0</cell>
+				</row>
+				</tabular>
+			</table>
+			<image source='teenpregnancy.png'/>
+		</introduction>
+		<task>
+			<statement>
+				<p>
+					What was the teen pregnancy rate in 2003?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Did the teen pregnancy rate increase or decrease from 2003 to 2004?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					While the teen pregnancy rate has generally decreased, 
+					from 2001 to 2002 it actually increased. 
+					Were there other times when it increased?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					When did the teen pregnancy rate first fall below 60 pregnancies per thousand teens?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					How fast was the teen pregnancy rate dropping on average per year from 2002 to 2005? 
+					How does that compare to 2006 to 2009?
+				</p>
+			</statement>
+		</task>
+		
+	</exercise>
+
+	<xi:include href="ss-SectionNotes.ptx" />
+	<xi:include href="ss-Rate_of_change_end.ptx" />
+
+</worksheet>
+

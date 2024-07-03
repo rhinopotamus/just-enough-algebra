@@ -3,8 +3,8 @@
 <worksheet xml:id="ws-Tables_and_graphs" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Tables and graphs – Practice exercises</title>
 
-	<exercise>
-		<statement>
+	<exercise workspace="1in">
+		<introduction>
 			<p>
 				My grandfather had $200 in savings bonds that matured in 1962 when he gave them to me. 
 				The bonds continue to earn interest at a fixed rate so I have yet to cash them in. 
@@ -42,52 +42,62 @@
 				</row>
 				</tabular>
 			</table>
-			<p>
-				<ol>
-					<li>
-						<p>
-							What do <m>T</m> and <m>B</m> stand for? 
-							Include the units and dependence.
-						</p>
-					</li>
-					<li>
-						<p>
-							What were the savings bonds worth in 1970?
-						</p>
-					</li>
-					<li>
-						<p>
-							When were the savings bonds worth $1,022.34?
-						</p>
-					</li>
-					<li>
-						<p>
-							Approximately when were the savings bonds worth $1,500?
-						</p>
-					</li>
-					<li>
-						<p>
-							What do you expect the savings bonds will be worth in 2020?
-						</p>
-					</li>
-					<li>
-						<p>
-							Graph the function using the information given in the table.
-						</p>
-<!-- Graph paper goes here! -->
-					</li>
-					<li>
-						<p>
-							Use the graph to check your answers to the questions.
-						</p>
-					</li>
-				</ol>
-			</p>
-		</statement>
+		</introduction>
+		<task>
+			<statement>
+				<p>
+					What do <m>T</m> and <m>B</m> stand for? 
+					Include the units and dependence.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					What were the savings bonds worth in 1970?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					When were the savings bonds worth $1,022.34?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Approximately when were the savings bonds worth $1,500?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					What do you expect the savings bonds will be worth in 2020?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Graph the function using the information given in the table.
+				</p>
+				<image source='GraphPaper.jpg'/>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Use the graph to check your answers to the questions.
+				</p>
+			</statement>
+		</task>
 	</exercise>
 
-	<exercise>
-		<statement>
+	<exercise workspace="1in">
+		<introduction>
 			<p>
 				How cold is it? An air temperature of 10<m>^\circ</m>F is cold but manageable. 
 				But add a 30 miles per hour wind and, brrr, it feels like it is -12<m>^\circ</m>F 
@@ -134,127 +144,154 @@
 				</row>
 				</tabular>
 			</table>
-		<p>
-			<ol>
-				<li>
-					<p>
-						At an air temperature of 10<m>^\circ</m>F with a 20 mph wind, 
-						what is the wind chill?
-					</p>
-				</li>
-				<li>
-					<p>
-						A <term>cold advisory</term> is issued whenever the wind chill 
-						falls below 0<m>^\circ</m>F. 
-						How fast does the wind need to be at an air temperature of 
-						10<m>^\circ</m>F to issue a cold advisory?
-					</p>
-				</li>
-				<li>
-					<p>
-						Between a wind chill of 0<m>^\circ</m>F and -15<m>^\circ</m>F, 
-						schools in our district are open but kids may not go outside for recess. 
-						What is the corresponding range of wind speeds at an air temperature of 10<m>^\circ</m>F?
-					</p>
-				</li>
-				<li>
-					<p>
-						Draw a graph showing how wind chill depends on wind speed and use it to check your answers. 
-						To graph both positive and negative numbers on the vertical axis, 
-						put the horizontal axis somewhere in the middle of the graph paper. 
-					</p>
-<!-- Graph paper goes here! -->
-				</li>
-			</ol>
-		</p>
-		</statement>
+		</introduction>
+		<task>
+			<statement>
+				<p>
+					Name the variables, including units and dependence.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					At an air temperature of 10<m>^\circ</m>F with a 20 mph wind, 
+					what is the wind chill?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					A <term>cold advisory</term> is issued whenever the wind chill 
+					falls below 0<m>^\circ</m>F. 
+					How fast does the wind need to be at an air temperature of 
+					10<m>^\circ</m>F to issue a cold advisory?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Between a wind chill of 0<m>^\circ</m>F and -15<m>^\circ</m>F, 
+					schools in our district are open but kids may not go outside for recess. 
+					What is the corresponding range of wind speeds at an air temperature of 10<m>^\circ</m>F?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Draw a graph showing how wind chill depends on wind speed and use it to check your answers. 
+					To graph both positive and negative numbers on the vertical axis, 
+					put the horizontal axis somewhere in the middle of the graph paper. 
+				</p>
+				<image source='GraphPaper.jpg'/>
+			</statement>
+		</task>
 	</exercise>
 
 	<exercise>
-	<statement>
-		<p>
-			Anthony and Christina are trying to decide where to hold their wedding reception. 
-			The Metropolitan Club costs $1,300 for the space and $92 per person.
-			<em>(Story also appears in 1.3 #2 and 3.2 #3)</em>
-		</p>
-		<p>
-			<ol>
-				<li>
-					<p>
-						Identify and name the variables, including units.
-					</p>
-				</li>
-				<li>
-					<p>
-						Explain the dependence using a sentence of the form "__ is a function of __".
-					</p>
-				</li>
-				<li>
-					<p>
-						Make a table showing the cost for 20, 50, 75, 100, or 150 people.
-					</p>
-				</li>
-				<li>
-					<p>
-						If Tony and Tina's budget is $8,000, 
+		<introduction>
+			<p>
+				Anthony and Christina are trying to decide where to hold their wedding reception. 
+				The Metropolitan Club costs $1,300 for the space and $92 per person.
+				<em>(Story also appears in 1.3 #2 and 3.2 #3)</em>
+			</p>
+		</introduction>
+		<task>
+			<statement>
+				<p>
+					Identify and name the variables, including units.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Explain the dependence using a sentence of the form "__ is a function of __".
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Make a table showing the cost for 20, 50, 75, 100, or 150 people.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					If Tony and Tina's budget is $8,000, 
 						<em>about</em> how many people can they invite to their wedding reception? 
 						Give a rough estimate from your table.
-					</p>
-				</li>
-				<li>
-					<p>
-						Graph the function.
-					</p>
-<!-- graph paper here!! -->
-				</li>
-				<li>
-					<p>
-						Does your estimate agree with your graph?  If not, revise.
-					</p>
-				</li>
-				<li>
-					<p>
-						Can you figure out from the story <em>exactly</em> how many guests 
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Graph the function.
+				</p>
+				<image source='GraphPaper.jpg'/>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Does your estimate agree with your graph?  If not, revise.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Can you figure out from the story <em>exactly</em> how many guests 
 						Tony and Tina can invite to their wedding reception 
 						and stay within their $8,000 budget?
-					</p>
-				</li>
-			</ol>
-		</p>
-	</statement>
+				</p>
+			</statement>
+		</task>
 	</exercise>
 
 	<exercise>
-	<statement>
-		<p>
-			A mug of coffee costs $3.45 at Juan's favorite cafe. 
-			<em>(Story also appears in 2.1 #4 and 4.2 #2)</em>
-		</p>
-		<p>
-		<ol>
-			<li>
+		<introduction>
+			<p>
+				A mug of coffee costs $3.45 at Juan's favorite cafe. 
+				<em>(Story also appears in 2.1 #4 and 4.2 #2)</em>
+			</p>
+		</introduction>
+		<task>
+			<statement>
 				<p>
 					Juan buys coffee on the way to work every day. 
 					How much does Juan spend on coffee in a month? 
 					Let's say that's 22 workdays.
 				</p>
-			</li>
-			<li>
+			</statement>
+		</task>
+		<task>
+			<statement>
 				<p>
 					If Juan pays $10 for a discount card, then coffee costs $2.90/mug instead. 
 					How much (total) would Juan spend on coffee in a month 
 					if he buys the discount card first? 
 					Still use 22 workdays. Include the $10.
 				</p>
-			</li>
-			<li>
+			</statement>
+		</task>
+		<task>
+			<statement>
 				<p>
 					Does the card pay for itself within the month? 
 					That means, is the total with the card (including the $10 for the card) 
 					less than the total without the card?
 				</p>
-			</li>
-			<li>
+			</statement>
+		</task>
+		<task>
+			<statement>
 				<p>
 					Complete the table, where <m>M</m> is the number of mugs of coffee 
 					Juan buys and <m>T</m> is the total cost, in dollars.
@@ -299,24 +336,26 @@
 					</row>
 					</tabular>
 				</table>
-			</li>
-			<li>
+			</statement>
+		</task>
+		<task>
+			<statement>
 				<p>
 					Draw a graph illustrating both functions.
 				</p>
-			</li>
-<!-- Graph paper!!!!! -->
-			<li>
+				<image source='GraphPaper.jpg'/>
+			</statement>
+		</task>
+		<task>
+			<statement>
 				<p>
 					What does the point where the two lines cross mean in terms of the story?
 				</p>
-			</li>
-		</ol>
-		</p>
-	</statement>
+			</statement>
+		</task>
 	</exercise>
 	
-	<xi:include href="SectionNotes.ptx" />
+	<xi:include href="ss-SectionNotes.ptx" />
 	<xi:include href="ss-Tables_and_graphs_end.ptx" />
 
 </worksheet>
