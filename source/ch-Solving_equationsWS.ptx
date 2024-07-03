@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="Solving_equationsWS" xmlns:xi="http://www.w3.org/2001/XInclude">
+<chapter xml:id="ch-Solving_equationsWS" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Solving equations</title>
 
 	<xi:include href="Formula3.ptx" />

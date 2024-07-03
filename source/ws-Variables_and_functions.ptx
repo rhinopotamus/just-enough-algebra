@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="ws-Variables_and_functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>Variables and functions – Practice exercises</title>
+	
+	<exercise>
+		<statement>
+			<p>
+				A 32 pound bag of dog food costs $29.97, but an 8 pound bag costs $11.28.
+			</p>
+			<p>
+				<ol>
+					<li>
+						<p>
+							Identify and name the variables, including the units.
+						</p>
+					</li>
+					<li>
+						<p>
+							Which variable is dependent and which is independent?
+						</p>
+					</li>
+					<li>
+						<p>
+							What might a 16 pound bag of dog food cost? Explain the reasoning behind your guess.
+						</p>
+					</li>
+				</ol>
+			</p>
+		</statement>
+	</exercise>
+
+	<exercise>
+		<statement>
+			<p>
+				Rent in the Riverside Neighborhood is expected to increase 7.2% each year. 
+				Average rent for an apartment is currently $830 per month. 
+				<em>(Story also appears in 3.4 #3)</em>
+			</p>
+			<p>
+				<ol>
+					<li>
+						<p>
+							Identify and name the variables, including the units.
+						</p>
+					</li>
+					<li>
+						<p>
+							Explain the dependence using a sentence of the form <q>__ is a function of __</q>.
+						</p>
+					</li>
+					<li>
+						<p>
+							Which number is a constant in this story: 
+							the percent increase (7.2) or the apartment rent (830)?
+						</p>
+					</li>
+					<li>
+						<p>
+							What is a realistic domain for this function? 
+							That means, for how many years might this sort of increase in rent continue? 
+							Express your answer as an inequality.
+						</p>
+					</li>
+					<li>
+						<p>
+							What is the average rent expected to be in 1 year? In 2 years? In 3 years? 
+							Note that <me>7.2\% = \frac{7.2}{100} = 7.2 \div 100 = 0.072</me>. Try figuring it out.
+						</p>
+					</li>
+				</ol>
+			</p>
+		</statement>
+	</exercise>
+
+	<exercise>
+		<statement>
+			<p>
+				Round each number up, down, or off to the precision indicated.
+			</p>
+			<p>
+				<em>For a discussion of rounding, see Prelude: approximation</em>
+			</p>
+			<p>
+				<ol>
+					<li>
+						<p>
+							My calculations show I need a cross brace around 9.388 feet long. 
+							I want the board to be long enough, so round up to the nearest foot.
+						</p>
+					</li>
+					<li>
+						<p>
+							Gas mileage is usually rounded down to the nearest one decimal place. 
+							What is the gas mileage for a car measured as getting 42.812 miles per gallon? 
+							What about a car getting 23.09 miles per gallon?
+						</p>
+					</li>
+					<li>
+						<p>
+							The original budget estimates for the new community center gym were 
+							rounded to the nearest hundred (that means ending in <m>00</m>), 
+							so we want to round our bid of $148,214.79 to the nearest hundred.
+						</p>
+					</li>
+					<li>
+						<p>
+							The population estimate was 4.2 million people, 
+							but revised estimates suggest 4,908,229 people. 
+							Report the revised estimate rounded appropriately.
+						</p>
+					</li>
+				</ol>
+			</p>
+		</statement>
+	</exercise>
+
+	<exercise>
+		<statement>
+			<p>
+				It's about time! In each story, time is one (or both) of the variables.  
+				Identify and name the variables, including units and dependence.  
+			</p>
+			<p>
+				<em>(Stories also appear in 1.1 Exercises.)</em>
+			</p>
+			<p>
+				<ol>
+					<li>
+						<p>
+							The Nussbaums planted a walnut tree years ago when they first bought their house. 
+							The tree was 5 feet tall then and has grown around 2 feet a year.
+						</p>
+					</li>
+					<li>
+						<p>
+							After his first beer, Stephen's blood alcohol content (BAC) was already 0.04, 
+							and as he continued to drink, his BAC level rose 45% per hour.
+							<em>(Story also appears in 2.4 Exercises and 3.4 #1.)</em>
+						</p>
+					</li>
+					<li>
+						<p>
+							When McKenna drives 60 mph (miles per hour), it takes her 20 minutes 
+							on the highway to get between exits, 
+							but when traffic is bad, it can take her an hour.
+						</p>
+					</li>
+					<li>
+						<p>
+							The sun set at 6:00 p.m. today and I heard on the radio 
+							that it sets about 2 minutes earlier each day this time of year. 
+							<em>(Hint: measure the sunset time in minutes after 6:00 p.m.)</em>
+						</p>
+					</li>
+				</ol>				
+			</p>
+		</statement>
+	</exercise>
+
+	<xi:include href="SectionNotes.ptx" />
+	<xi:include href="ss-Variables_and_functions_end.ptx" />
+</worksheet>

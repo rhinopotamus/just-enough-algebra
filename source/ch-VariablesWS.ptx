@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="VariablesWS" xmlns:xi="http://www.w3.org/2001/XInclude">
+<chapter xml:id="ch-VariablesWS" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Variables</title>
 
-	<xi:include href="Variables_and_functionsWS.ptx" />
+	<xi:include href="./ws-Variables_and_functions.ptx" />
+	<xi:include href="./ws-Tables_and_graphs.ptx" /> 
 
 <!-- Not yet converted: 
-	<xi:include href="Tables_and_graphsWS.ptx" /> 
+	
 	<xi:include href="Rate_of_changeWS.ptx" /> 
 	<xi:include href="UnitsWS.ptx" /> 
 	<xi:include href="Metric_system_and_scientific_notationWS.ptx" /> 

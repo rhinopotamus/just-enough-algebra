@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="EquationsWS" xmlns:xi="http://www.w3.org/2001/XInclude">
+<chapter xml:id="ch-EquationsWS" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Equations</title>
 
 	<xi:include href="Formula2.ptx" />
