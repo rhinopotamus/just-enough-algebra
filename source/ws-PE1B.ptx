@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="ws-PE1B" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>Practice Exam 1B</title>
+	<introduction>
+		<p>
+			Relax. You have done problems like these before. Even if these problems look a bit different, just do what you can. If you're not sure of something, please ask! You may use your calculator. Please show all of your work and write down as many steps as you can. Don't spend too much time on any one problem. Do well. And remember, ask me if you're not sure about something.
+		</p>
+
+		<p>
+			Try taking this version of the practice exam under testing conditions: no book, no notes, no classmate's help, no electronics (computer, cell phone, television). Give yourself one hour to work and wait until you have tried your best on all of the problems before checking any answers.
+		</p>
+
+		<p>
+			<em>As you work, make a <q>don't forget</q> list of any information you need to look up or ask about.</em>
+		</p>
+	</introduction>
+
+	<exercise workspace="1in">
+		<introduction>
+		<p>
+			The amount of money spent on nursing home care for seniors has continued to rise. The table shows the values for select years. Here <m>S</m> is the spending, measured in billions of dollars, and <m>T</m> is time, measured in years since 1960.
+		</p>
+			<table>
+				<title>Nursing home care costs</title>
+				<tabular>
+				<row header="yes">
+					<cell halign="center"><m>T</m></cell>
+					<cell halign="center">0</cell>
+					<cell halign="center">10</cell>
+					<cell halign="center">25</cell>
+					<cell halign="center">40</cell>
+					<cell halign="center">52</cell>
+				</row>
+				<row class="odd">
+					<cell halign="center"><m>S</m></cell>
+					<cell halign="center">1.0</cell>
+					<cell halign="center">3.3</cell>
+					<cell halign="center">33.7</cell>
+					<cell halign="center">96.6</cell>
+					<cell halign="center">170.3</cell>
+				</row>
+				</tabular>
+			</table>
+		</introduction>
+		<task>
+			<statement>
+				<p>
+					According to the table, what was the spending in 1970?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					According to the table, what was the spending in 1985?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Calculate the rate of change of spending over the period 1970 to 1985. Don't forget to state the units.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					In approximately what year did spending first pass $50 billion?
+				</p>
+			</statement>
+		</task>
+		
+	</exercise>
+
+	<exercise workspace="1in">
+		<introduction>
+			<p>
+				Trish is filling a swimming pool with water. The graph below shows how many gallons of water (<m>G</m>) are in the pool after <m>H</m> hours. Use the graph to answer the following questions.
+			</p>
+	
+			<image source='fillingtankNEW.png'/>
+		</introduction>
+		<task>
+			<statement>
+				<p>
+					How much water was in the swimming pool already when Trish began?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					How much water was in the swimming pool after 3 hours?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					After how many hours were there 1,000 gallons of water in the swimming pool?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Was Trish filling the pool faster at 2 hours or at 2.5 hours? Explain how you see that on the graph.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					After (about) how many hours did Trish stop filling the swimming pool? Explain how you see that on the graph.
+				</p>
+			</statement>
+		</task>
+	</exercise>
+	<exercise workspace="1in">
+		<introduction>
+			<p>
+				In 1990 the Lefèvre's property tax was $450, but it doubled every year thereafter.
+			</p>
+		</introduction>
+		<task>
+			<statement>
+				<p>
+					Name the variables, including units.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Which is the independent variable and which is the dependent variable?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Make a table showing the property tax each year from 1990 to 1994.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Draw a graph illustrating the dependence.
+				</p>
+				<image source='GraphPaper.jpg'/>
+			</statement>
+		</task>
+		
+	</exercise>
+
+	<exercise workspace="1in">
+		<introduction>
+			<p>
+				The distance from the Earth to the Moon is approximately 384,000,000 meters.
+				<fn>Source: Wikipedia (Lunar distance)</fn>
+			</p>
+		</introduction>
+		<task>
+			<statement>
+				<p>
+					Express this distance using scientific notation.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Express this distance in kilometers (km), using 1 km = 1,000 meters.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Express this distance in miles, using <m>1 \text{ mile} \approx 1.609 \text{ km}</m>.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					If you could drive to the moon at 55 mph, how long would it take to get there? Express your answer in terms of months, using <m>1 \text{ month} \approx 30 \text{ days}</m>.
+				</p>
+			</statement>
+		</task>
+	</exercise>
+</worksheet>

@@ -8,13 +8,7 @@
 	<xi:include href="./ws-Rate_of_change.ptx" />
 	<xi:include href="./ws-Units.ptx" />
 	<xi:include href="./ws-Metric_system_and_scientific_notation.ptx" />
-	 
-
-<!-- Not yet converted: 
-
-	 
-	<xi:include href="PE1A.ptx" />
-	<xi:include href="PE1B.ptx" />	
--->
+	<xi:include href="./ws-PE1A.ptx" />
+	<xi:include href="./ws-PE1B.ptx" />
 
 </chapter>
