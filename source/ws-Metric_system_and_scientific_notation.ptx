@@ -3,7 +3,7 @@
 <worksheet xml:id="ws-Metric_system_and_scientific_notation" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Metric prefixes and scientific notation - Practice exercises</title>
 
-	<exercise workspace="1in">
+	<page><exercise workspace="1in">
 		<introduction>
 			<p>
 				The GDP (gross domestic product) of the United States was approximately $15,596 billion in 2011 and the population of the United States was approximately 0.313 billion that year. 
@@ -55,9 +55,9 @@
 				</p>
 			</statement>
 		</task>
-	</exercise>
+	</exercise></page>
 
-	<exercise>
+	<page><exercise>
 		<introduction>
 			<p>
 				Edgar recently changed the cleaning bag on his vacuum cleaner. He became curious about how many particles of dust were in the bag. Edgar did a little research online and found out that the mass of a dust particle is .000 000 000 753 kilograms. 
@@ -154,9 +154,9 @@
 				</p>
 			</statement>
 		</task>
-	</exercise>
+	</exercise></page>
 
-	<exercise workspace="1in">
+	<page><exercise workspace="1in">
 		<introduction>
 			<p>
 				The list shows the (approximate) mass of the planets in our solar system.
@@ -222,8 +222,9 @@
 				</p>
 			</statement>
 		</task>
-	</exercise>
-	<exercise workspace="1in">
+	</exercise></page>
+
+	<page><exercise workspace="1in">
 		<introduction>
 			<p>
 				Souksavanh is setting up a patient's intravenous (IV) medication. She sets the drip at 42 drops/minute. The drip chamber size is 20 drops/mL. Recall
@@ -284,7 +285,7 @@
 				</p>
 			</statement>
 		</task>
-	</exercise>
+	</exercise></page>
 
 	<xi:include href="ss-SectionNotes.ptx" />
 	<xi:include href="ss-Metric_system_and_scientific_notation_end.ptx" />

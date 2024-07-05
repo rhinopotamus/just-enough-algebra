@@ -3,7 +3,7 @@
 <worksheet xml:id="ws-Units" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Units - Practice exercises</title>
 
-	<exercise workspace="1in">
+	<page><exercise workspace="1in">
 		<task>
 			<introduction>
 				<p>
@@ -94,9 +94,9 @@
 				</statement>
 			</task>
 		</task>
-	</exercise>
+	</exercise></page>
 
-	<exercise workspace="1in">
+	<page><exercise workspace="1in">
 		<task>
 			<statement>
 				<p>
@@ -152,8 +152,9 @@
 				</p>
 			</hint>
 		</task>
-	</exercise>
-	<exercise workspace="1in">
+	</exercise></page>
+
+	<page><exercise workspace="1in">
 		<introduction>
 			<p>
 				Some people say we should drink 8 glasses of water (or other liquids) every day, 
@@ -185,9 +186,9 @@
 				</p>
 			</statement>
 		</task>
-	</exercise>
+	</exercise></page>
 
-	<exercise workspace="1in">
+	<page><exercise workspace="1in">
 		<introduction>
 			<p>
 				Jenna is studying in Finland this term and rented an older car to drive.
@@ -235,7 +236,7 @@
 				</p>
 			</statement>
 		</task>
-	</exercise>
+	</exercise></page>
 
 	<xi:include href="ss-SectionNotes.ptx" />
 	<xi:include href="ss-Units_end.ptx" />

@@ -16,7 +16,7 @@
 		</p>
 	</introduction>
 
-	<exercise workspace="1in">
+	<page><exercise workspace="1in">
 		<introduction>
 		<p>
 			The amount of money spent on nursing home care for seniors has continued to rise. The table shows the values for select years. Here <m>S</m> is the spending, measured in billions of dollars, and <m>T</m> is time, measured in years since 1960.
@@ -69,9 +69,9 @@
 			</statement>
 		</task>
 		
-	</exercise>
+	</exercise></page>
 
-	<exercise workspace="1in">
+	<page><exercise workspace="1in">
 		<introduction>
 			<p>
 				Trish is filling a swimming pool with water. The graph below shows how many gallons of water (<m>G</m>) are in the pool after <m>H</m> hours. Use the graph to answer the following questions.
@@ -114,8 +114,9 @@
 				</p>
 			</statement>
 		</task>
-	</exercise>
-	<exercise workspace="1in">
+	</exercise></page>
+
+	<page><exercise workspace="1in">
 		<introduction>
 			<p>
 				In 1990 the Lefèvre's property tax was $450, but it doubled every year thereafter.
@@ -151,9 +152,9 @@
 			</statement>
 		</task>
 		
-	</exercise>
+	</exercise></page>
 
-	<exercise workspace="1in">
+	<page><exercise workspace="1in">
 		<introduction>
 			<p>
 				The distance from the Earth to the Moon is approximately 384,000,000 meters.
@@ -188,5 +189,6 @@
 				</p>
 			</statement>
 		</task>
-	</exercise>
+	</exercise></page>
+	
 </worksheet>

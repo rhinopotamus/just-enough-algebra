@@ -3,7 +3,7 @@
 <worksheet xml:id="ws-Tables_and_graphs" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Tables and graphs – Practice exercises</title>
 
-	<exercise workspace="1in">
+	<page><exercise workspace="1in">
 		<introduction>
 			<p>
 				My grandfather had $200 in savings bonds that matured in 1962 when he gave them to me. 
@@ -91,9 +91,9 @@
 				</p>
 			</statement>
 		</task>
-	</exercise>
+	</exercise></page>
 
-	<exercise workspace="1in">
+	<page><exercise workspace="1in">
 		<introduction>
 			<p>
 				How cold is it? An air temperature of 10<m>^\circ</m>F is cold but manageable. 
@@ -183,9 +183,9 @@
 				<image source='GraphPaper.jpg'/>
 			</statement>
 		</task>
-	</exercise>
+	</exercise></page>
 
-	<exercise>
+	<page><exercise workspace="1in">
 		<introduction>
 			<p>
 				Anthony and Christina are trying to decide where to hold their wedding reception. 
@@ -247,9 +247,9 @@
 				</p>
 			</statement>
 		</task>
-	</exercise>
+	</exercise></page>
 
-	<exercise>
+	<page><exercise workspace="1in">
 		<introduction>
 			<p>
 				A mug of coffee costs $3.45 at Juan's favorite cafe. 
@@ -330,7 +330,7 @@
 				</p>
 			</statement>
 		</task>
-	</exercise>
+	</exercise></page>
 	
 	<xi:include href="ss-SectionNotes.ptx" />
 	<xi:include href="ss-Tables_and_graphs_end.ptx" />

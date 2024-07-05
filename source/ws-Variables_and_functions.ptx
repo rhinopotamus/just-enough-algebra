@@ -3,7 +3,7 @@
 <worksheet xml:id="ws-Variables_and_functions" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Variables and functions – Practice exercises</title>
 	
-	<exercise workspace="1in">
+	<page><exercise workspace="1in">
 		<introduction>
 			<p>
 				A 32 pound bag of dog food costs $29.97, but an 8 pound bag costs $11.28.
@@ -30,9 +30,9 @@
 				</p>
 			</statement>
 		</task>
-	</exercise>
+	</exercise></page>
 
-	<exercise workspace="1in">
+	<page><exercise workspace="1in">
 		<introduction>
 			<p>
 				Rent in the Riverside Neighborhood is expected to increase 7.2% each year. 
@@ -81,9 +81,9 @@
 				</p>
 			</statement>
 		</task>
-	</exercise>
+	</exercise></page>
 
-	<exercise workspace="1in">
+	<page><exercise workspace="1in">
 		<introduction>
 			<p>
 				Round each number up, down, or off to the precision indicated.
@@ -127,9 +127,9 @@
 				</p>
 			</statement>
 		</task>
-	</exercise>
+	</exercise></page>
 
-	<exercise>
+	<page><exercise workspace="1in">
 		<introduction>
 			<p>
 				It's about time! In each story, time is one (or both) of the variables.  
@@ -172,7 +172,7 @@
 				</p>
 			</statement>
 		</task>
-	</exercise>
+	</exercise></page>
 
 	<xi:include href="ss-SectionNotes.ptx" />
 	<xi:include href="ss-Variables_and_functions_end.ptx" />
