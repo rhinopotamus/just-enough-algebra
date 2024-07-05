@@ -10,38 +10,35 @@
 				The bonds continue to earn interest at a fixed rate so I have yet to cash them in. 
 				The table shows some values. <em>(Story also appears in 4.1 #3 and 5.3 #1.)</em>
 			</p>
-			<table>
-				<title>hello</title>
-				<tabular>
-				<row header="yes">
-					<cell halign="center">year</cell>
-					<cell halign="center">1962</cell>
-					<cell halign="center">1970</cell>
-					<cell halign="center">1980</cell>
-					<cell halign="center">1990</cell>
-					<cell halign="center">2000</cell>
-					<cell halign="center">2010</cell>
-				</row>
-				<row class="odd">
-					<cell halign="center"><m>T</m></cell>
-					<cell halign="center">0</cell>
-					<cell halign="center">8</cell>
-					<cell halign="center">18</cell>
-					<cell halign="center">28</cell>
-					<cell halign="center">38</cell>
-					<cell halign="center">48</cell>
-				</row>
-				<row class="even">
-					<cell halign="center"><m>B</m></cell>
-					<cell halign="center">200.00</cell>
-					<cell halign="center">318.77</cell>
-					<cell halign="center">570.87</cell>
-					<cell halign="center">1,022.34</cell>
-					<cell halign="center">1,830.85</cell>
-					<cell halign="center">3,278.77</cell>
-				</row>
-				</tabular>
-			</table>
+			<tabular bottom="minor" top="minor">
+			<row left="minor"  header="yes">
+				<cell right="minor"  halign="center">year</cell>
+				<cell right="minor"  halign="center">1962</cell>
+				<cell right="minor"  halign="center">1970</cell>
+				<cell right="minor"  halign="center">1980</cell>
+				<cell right="minor"  halign="center">1990</cell>
+				<cell right="minor"  halign="center">2000</cell>
+				<cell right="minor"  halign="center">2010</cell>
+			</row>
+			<row left="minor"  class="odd">
+				<cell right="minor"  halign="center"><m>T</m></cell>
+				<cell right="minor"  halign="center">0</cell>
+				<cell right="minor"  halign="center">8</cell>
+				<cell right="minor"  halign="center">18</cell>
+				<cell right="minor"  halign="center">28</cell>
+				<cell right="minor"  halign="center">38</cell>
+				<cell right="minor"  halign="center">48</cell>
+			</row>
+			<row left="minor"  class="even">
+				<cell right="minor"  halign="center"><m>B</m></cell>
+				<cell right="minor"  halign="center">200.00</cell>
+				<cell right="minor"  halign="center">318.77</cell>
+				<cell right="minor"  halign="center">570.87</cell>
+				<cell right="minor"  halign="center">1,022.34</cell>
+				<cell right="minor"  halign="center">1,830.85</cell>
+				<cell right="minor"  halign="center">3,278.77</cell>
+			</row>
+			</tabular>
 		</introduction>
 		<task>
 			<statement>
@@ -107,43 +104,40 @@
 				10<m>^\circ</m>F. (<em>Story also appears in 4.1 #3</em>)
 				<fn>Source: National Weather Service</fn>
 			</p>
-			<table>
-				<title></title>
-				<tabular>
-				<row header="yes">
-					<cell halign="left">Wind (mph)</cell>
-					<cell halign="center">0</cell>
-					<cell halign="center">5</cell>
-					<cell halign="center">10</cell>
-					<cell halign="center">15</cell>
-					<cell halign="center">20</cell>
-					<cell halign="center">25</cell>
-					<cell halign="center">30</cell>
-					<cell halign="center">35</cell>
-					<cell halign="center">40</cell>
-					<cell halign="center">45</cell>
-					<cell halign="center">50</cell>
-					<cell halign="center">55</cell>
-					<cell halign="center">60</cell>
+			<tabular bottom="minor" top="minor"> <!-- row-headers="yes"> -->
+				<row left="minor" class="odd">
+					<cell right="minor"  halign="left">Wind (mph)</cell>
+					<cell right="minor"  halign="center">0</cell>
+					<cell right="minor"  halign="center">5</cell>
+					<cell right="minor"  halign="center">10</cell>
+					<cell right="minor"  halign="center">15</cell>
+					<cell right="minor"  halign="center">20</cell>
+					<cell right="minor"  halign="center">25</cell>
+					<cell right="minor"  halign="center">30</cell>
+					<cell right="minor"  halign="center">35</cell>
+					<cell right="minor"  halign="center">40</cell>
+					<cell right="minor"  halign="center">45</cell>
+					<cell right="minor"  halign="center">50</cell>
+					<cell right="minor"  halign="center">55</cell>
+					<cell right="minor"  halign="center">60</cell>
 				</row>
-				<row class="odd">
-					<cell halign="left">Wind chill (<m>^\circ</m>F)</cell>
-					<cell halign="center">10</cell>
-					<cell halign="center">1</cell>
-					<cell halign="center">-4</cell>
-					<cell halign="center">-7</cell>
-					<cell halign="center">-9</cell>
-					<cell halign="center">-11</cell>
-					<cell halign="center">-12</cell>
-					<cell halign="center">-14</cell>
-					<cell halign="center">-15</cell>
-					<cell halign="center">-16</cell>
-					<cell halign="center">-17</cell>
-					<cell halign="center">-18</cell>
-					<cell halign="center">-19</cell>
+				<row left="minor" class="even">
+					<cell right="minor"  halign="left">Wind chill (<m>^\circ</m>F)</cell>
+					<cell right="minor"  halign="center">10</cell>
+					<cell right="minor"  halign="center">1</cell>
+					<cell right="minor"  halign="center">-4</cell>
+					<cell right="minor"  halign="center">-7</cell>
+					<cell right="minor"  halign="center">-9</cell>
+					<cell right="minor"  halign="center">-11</cell>
+					<cell right="minor"  halign="center">-12</cell>
+					<cell right="minor"  halign="center">-14</cell>
+					<cell right="minor"  halign="center">-15</cell>
+					<cell right="minor"  halign="center">-16</cell>
+					<cell right="minor"  halign="center">-17</cell>
+					<cell right="minor"  halign="center">-18</cell>
+					<cell right="minor"  halign="center">-19</cell>
 				</row>
-				</tabular>
-			</table>
+			</tabular>
 		</introduction>
 		<task>
 			<statement>
@@ -296,46 +290,29 @@
 					Complete the table, where <m>M</m> is the number of mugs of coffee 
 					Juan buys and <m>T</m> is the total cost, in dollars.
 				</p>
-				<table>
-					<title></title>
-					<tabular>
-					<row header="yes">
-						<cell halign="center"><m>M</m></cell>
-						<cell halign="center">0</cell>
-						<cell halign="center">10</cell>
-						<cell halign="center">22</cell>
-						<cell halign="center">50</cell>
+				<tabular bottom="minor" top="minor">
+					<row left="minor"  class="even">
+						<cell right="minor"  halign="center"><m>M</m></cell>
+						<cell right="minor"  halign="center">0</cell>
+						<cell right="minor"  halign="center">10</cell>
+						<cell right="minor"  halign="center">22</cell>
+						<cell right="minor"  halign="center">50</cell>
 					</row>
-					<row class="odd">
-						<cell halign="center"><m>T</m> (regular)</cell>
-						<cell halign="center"></cell>
-						<cell halign="center"></cell>
-						<cell halign="center"></cell>
-						<cell halign="center"></cell>
+					<row left="minor"  class="odd">
+						<cell right="minor"  halign="center"><m>T</m> (regular)</cell>
+						<cell right="minor"  halign="center"></cell>
+						<cell right="minor"  halign="center"></cell>
+						<cell right="minor"  halign="center"></cell>
+						<cell right="minor"  halign="center"></cell>
 					</row>
-					<row class="even">
-						<cell halign="center"></cell>
-						<cell halign="center"></cell>
-						<cell halign="center"></cell>
-						<cell halign="center"></cell>
-						<cell halign="center"></cell>
+					<row left="minor"  class="odd">
+						<cell right="minor"  halign="center"><m>T</m> (with card)</cell>
+						<cell right="minor"  halign="center"></cell>
+						<cell right="minor"  halign="center"></cell>
+						<cell right="minor"  halign="center"></cell>
+						<cell right="minor"  halign="center"></cell>
 					</row>
-					<row class="odd">
-						<cell halign="center"><m>T</m> (with card)</cell>
-						<cell halign="center"></cell>
-						<cell halign="center"></cell>
-						<cell halign="center"></cell>
-						<cell halign="center"></cell>
-					</row>
-					<row class="even">
-						<cell halign="center"></cell>
-						<cell halign="center"></cell>
-						<cell halign="center"></cell>
-						<cell halign="center"></cell>
-						<cell halign="center"></cell>
-					</row>
-					</tabular>
-				</table>
+				</tabular>
 			</statement>
 		</task>
 		<task>

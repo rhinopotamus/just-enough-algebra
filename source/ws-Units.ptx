@@ -3,9 +3,8 @@
 <worksheet xml:id="ws-Units" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Units - Practice exercises</title>
 
-<!-- TODO: the exercisegroup is numbered 1 and the exercises are a, b, c and the tasks are i, ii -->
-	<exercisegroup>
-		<exercise workspace="1in">
+	<exercise workspace="1in">
+		<task>
 			<introduction>
 				<p>
 					Compare centimeters (cm) and inches, using that 1 inch <m>\approx</m> 2.54 cm.
@@ -33,8 +32,8 @@
 					</p>
 				</statement>
 			</task>
-		</exercise>
-		<exercise workspace="1in">
+		</task>
+		<task>
 			<introduction>
 				<p>
 					Compare meters (m) and yards using that 1 yard <m>\approx</m> 0.9144 m.
@@ -64,9 +63,9 @@
 					</p>
 				</statement>
 			</task>
-		</exercise>
+		</task>
 
-		<exercise workspace="1in">
+		<task>
 			<introduction>
 				<p>
 					Compare kilometers (km) and miles using that 1 mile <m>\approx</m> 1.609 km. 
@@ -94,8 +93,8 @@
 					</p>
 				</statement>
 			</task>
-		</exercise>
-	</exercisegroup>
+		</task>
+	</exercise>
 
 	<exercise workspace="1in">
 		<task>

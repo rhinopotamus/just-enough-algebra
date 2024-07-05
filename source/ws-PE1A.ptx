@@ -64,23 +64,20 @@
 				The table shows Henry's weight as a baby.
 			</p>
 	
-			<table>
-				<title>Henry's weight as a baby</title>
-				<tabular>
-				<row header="yes">
-					<cell halign="left">Age (weeks)</cell>
-					<cell halign="center">0</cell>
-					<cell halign="center">12</cell>
-					<cell halign="center">15</cell>
-				</row>
-				<row class="odd">
-					<cell halign="left">Weight (pounds)</cell>
-					<cell halign="center">8</cell>
-					<cell halign="center">14</cell>
-					<cell halign="center">16</cell>
-				</row>
-				</tabular>
-			</table>
+			<tabular bottom="minor" top="minor">
+			<row left="minor" class="even">
+				<cell right="minor" halign="left">Age (weeks)</cell>
+				<cell right="minor" halign="center">0</cell>
+				<cell right="minor" halign="center">12</cell>
+				<cell right="minor" halign="center">15</cell>
+			</row>
+			<row left="minor" class="odd">
+				<cell right="minor" halign="left">Weight (pounds)</cell>
+				<cell right="minor" halign="center">8</cell>
+				<cell right="minor" halign="center">14</cell>
+				<cell right="minor" halign="center">16</cell>
+			</row>
+			</tabular>
 		</introduction>
 		<task>
 			<statement>

@@ -9,40 +9,40 @@
 				Sweet Rose Bakery makes cakes and cupcakes. Here are their prices.
 			</p>
 			<sidebyside>
-				<table>
-					<title>Cake prices</title>
-					<tabular>
-					<row header="yes">
-						<cell halign="left">Servings</cell>
-						<cell halign="center">10</cell>
-						<cell halign="center">20</cell>
-						<cell halign="center">50</cell>
-					</row>
-					<row class="odd">
-						<cell halign="left">Cost</cell>
-						<cell halign="center">$11.95</cell>
-						<cell halign="center">$19.95</cell>
-						<cell halign="center">$40.95</cell>
-					</row>
+				<paragraphs>
+					<p>Cake prices</p>			
+					<tabular bottom="minor" top="minor">
+						<row left="minor" class="even">
+							<cell right="minor" halign="left">Servings</cell>
+							<cell right="minor" halign="center">10</cell>
+							<cell right="minor" halign="center">20</cell>
+							<cell right="minor" halign="center">50</cell>
+						</row>
+						<row left="minor" class="odd">
+							<cell right="minor" halign="left">Cost</cell>
+							<cell right="minor" halign="center">$11.95</cell>
+							<cell right="minor" halign="center">$19.95</cell>
+							<cell right="minor" halign="center">$40.95</cell>
+						</row>
 					</tabular>
-				</table>
-				<table>
-					<title>Cupcake prices</title>
-					<tabular>
-					<row header="yes">
-						<cell halign="left">Servings</cell>
-						<cell halign="center">12</cell>
-						<cell halign="center">24</cell>
-						<cell halign="center">48</cell>
-					</row>
-					<row class="odd">
-						<cell halign="left">Cost</cell>
-						<cell halign="center">$6.95</cell>
-						<cell halign="center">$13.90</cell>
-						<cell halign="center">$27.80</cell>
-					</row>
+				</paragraphs>
+				<paragraphs>
+					<p>Cupcake prices</p>
+					<tabular bottom="minor" top="minor">
+						<row left="minor" class="even">
+							<cell right="minor" halign="left">Servings</cell>
+							<cell right="minor" halign="center">12</cell>
+							<cell right="minor" halign="center">24</cell>
+							<cell right="minor" halign="center">48</cell>
+						</row>
+						<row left="minor" class="odd">
+							<cell right="minor" halign="left">Cost</cell>
+							<cell right="minor" halign="center">$6.95</cell>
+							<cell right="minor" halign="center">$13.90</cell>
+							<cell right="minor" halign="center">$27.80</cell>
+						</row>
 					</tabular>
-				</table>
+				</paragraphs>
 			</sidebyside>
 		</introduction>
 		<task>
@@ -197,39 +197,36 @@
 				Teen pregnancy rates for Minneapolis (pregnancies per thousand teens) are summarized in the graph and table.
 				<fn>Source: Minnesota Department of Health</fn>
 			</p>
-			<table>
-				<title></title>
-				<tabular>
-				<row header="yes">
-					<cell halign="center">Year</cell>
-					<cell halign="center">1999</cell>
-					<cell halign="center">2000</cell>
-					<cell halign="center">2001</cell>
-					<cell halign="center">2002</cell>
-					<cell halign="center">2003</cell>
-					<cell halign="center">2004</cell>
-					<cell halign="center">2005</cell>
-					<cell halign="center">2006</cell>
-					<cell halign="center">2007</cell>
-					<cell halign="center">2008</cell>
-					<cell halign="center">2009</cell>
-				</row>
-				<row class="odd">
-					<cell halign="center">Teen preg</cell>
-					<cell halign="center">76.0</cell>
-					<cell halign="center">73.5</cell>
-					<cell halign="center">54.9</cell>
-					<cell halign="center">58.2</cell>
-					<cell halign="center">55.7</cell>
-					<cell halign="center">49.9</cell>
-					<cell halign="center">45.1</cell>
-					<cell halign="center">53.3</cell>
-					<cell halign="center">49.4</cell>
-					<cell halign="center">43.5</cell>
-					<cell halign="center">34.0</cell>
-				</row>
-				</tabular>
-			</table>
+			<tabular bottom="minor" top="minor">
+			<row left="minor" class="even">
+				<cell right="minor" halign="center">Year</cell>
+				<cell right="minor" halign="center">1999</cell>
+				<cell right="minor" halign="center">2000</cell>
+				<cell right="minor" halign="center">2001</cell>
+				<cell right="minor" halign="center">2002</cell>
+				<cell right="minor" halign="center">2003</cell>
+				<cell right="minor" halign="center">2004</cell>
+				<cell right="minor" halign="center">2005</cell>
+				<cell right="minor" halign="center">2006</cell>
+				<cell right="minor" halign="center">2007</cell>
+				<cell right="minor" halign="center">2008</cell>
+				<cell right="minor" halign="center">2009</cell>
+			</row>
+			<row left="minor" class="odd">
+				<cell right="minor" halign="center">Teen preg</cell>
+				<cell right="minor" halign="center">76.0</cell>
+				<cell right="minor" halign="center">73.5</cell>
+				<cell right="minor" halign="center">54.9</cell>
+				<cell right="minor" halign="center">58.2</cell>
+				<cell right="minor" halign="center">55.7</cell>
+				<cell right="minor" halign="center">49.9</cell>
+				<cell right="minor" halign="center">45.1</cell>
+				<cell right="minor" halign="center">53.3</cell>
+				<cell right="minor" halign="center">49.4</cell>
+				<cell right="minor" halign="center">43.5</cell>
+				<cell right="minor" halign="center">34.0</cell>
+			</row>
+			</tabular>
 			<image source='teenpregnancy.png'/>
 		</introduction>
 		<task>
