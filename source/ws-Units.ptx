@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<worksheet xml:id="ws-Units" xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet xml:id="ws-Units" xmlns:xi="http://www.w3.org/2001/XInclude" margin="0.75in">
 	<title>Units - Practice exercises</title>
 
-	<page><exercise workspace="1in">
+	<page><exercise workspace="0.5in">
 		<task>
 			<introduction>
 				<p>
 					Compare centimeters (cm) and inches, using that 1 inch <m>\approx</m> 2.54 cm.
-					<em>Use unit conversion fractions in all of your steps.</em>
+					
 				</p>
 			</introduction>
 			<task>
@@ -37,7 +37,7 @@
 			<introduction>
 				<p>
 					Compare meters (m) and yards using that 1 yard <m>\approx</m> 0.9144 m.
-					<em>Use unit conversion fractions in all of your steps.</em>
+					
 				</p>
 			</introduction>
 			<task>
@@ -69,7 +69,7 @@
 			<introduction>
 				<p>
 					Compare kilometers (km) and miles using that 1 mile <m>\approx</m> 1.609 km. 
-					<em>Use unit conversion fractions in all of your steps.</em>
+					
 				</p>
 			</introduction>
 			<task>
@@ -86,7 +86,7 @@
 					</p>
 				</statement>
 			</task>
-			<task>
+			<task workspace="0in">
 				<statement>
 					<p>
 						Princeton is actually in training for a marathon. How many kilometers is that? Note: a <term>marathon</term> is approximately 26.2 miles.
@@ -154,7 +154,7 @@
 		</task>
 	</exercise></page>
 
-	<page><exercise workspace="1in">
+	<page><exercise workspace="2.5in">
 		<introduction>
 			<p>
 				Some people say we should drink 8 glasses of water (or other liquids) every day, 
@@ -188,7 +188,7 @@
 		</task>
 	</exercise></page>
 
-	<page><exercise workspace="1in">
+	<page><exercise workspace="1.5in">
 		<introduction>
 			<p>
 				Jenna is studying in Finland this term and rented an older car to drive.
@@ -228,7 +228,7 @@
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="0in">
 			<statement>
 				<p>
 					What would it cost Jenna, in euros, for a full tank of gas? 
@@ -238,8 +238,8 @@
 		</task>
 	</exercise></page>
 
-	<xi:include href="ss-SectionNotes.ptx" />
-	<xi:include href="ss-Units_end.ptx" />
+	<page><xi:include href="ss-SectionNotes.ptx" />
+	<xi:include href="ss-Units_end.ptx" /></page>
 
 
 

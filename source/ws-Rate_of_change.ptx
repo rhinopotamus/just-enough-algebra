@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<worksheet xml:id="ws-Rate_of_change" xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet xml:id="ws-Rate_of_change" xmlns:xi="http://www.w3.org/2001/XInclude" margin="0.75in">
 	<title>Rate of change – Practice exercises</title>
 
 	<page><exercise workspace="1in">
@@ -10,8 +10,8 @@
 			</p>
 			<sidebyside>
 				<stack>
-					<p>Cake prices</p>			
-					<tabular bottom="minor" top="minor">
+					<p>Cake prices</p>	
+					<p><tabular bottom="minor" top="minor">
 						<row left="minor" class="even">
 							<cell right="minor" halign="left">Servings</cell>
 							<cell right="minor" halign="center">10</cell>
@@ -24,11 +24,11 @@
 							<cell right="minor" halign="center">$19.95</cell>
 							<cell right="minor" halign="center">$40.95</cell>
 						</row>
-					</tabular>
+					</tabular></p>
 				</stack>
 				<stack>
 					<p>Cupcake prices</p>
-					<tabular bottom="minor" top="minor">
+					<p><tabular bottom="minor" top="minor">
 						<row left="minor" class="even">
 							<cell right="minor" halign="left">Servings</cell>
 							<cell right="minor" halign="center">12</cell>
@@ -41,7 +41,7 @@
 							<cell right="minor" halign="center">$13.90</cell>
 							<cell right="minor" halign="center">$27.80</cell>
 						</row>
-					</tabular>
+					</tabular></p>
 				</stack>
 			</sidebyside>
 		</introduction>
@@ -63,22 +63,22 @@
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="0in">
 			<statement>
 				<p>
 					On the same set of axes, graph how the price depends on the number of people for cake and also for cupcakes. Connect each line or curve smoothly.
 				</p>
-				<image source='GraphPaper.jpg'/>
+				<xi:include href="GraphPaper.ptx" />
 			</statement>
 		</task>
-		<task>
+		<task workspace="0.5in">
 			<statement>
 				<p>
 					The rate of change for cupcakes is constant. Any idea why?
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="0.5in">
 			<statement>
 				<p>
 					The rate of change for cakes is not constant. Any idea why?
@@ -95,7 +95,7 @@
 				<em>(Story also appears in 1.2 #3 and 3.2 #3)</em>
 			</p>
 		</introduction>
-		<task workspace="3in">
+		<task workspace="2in">
 			<statement>
 				<p>
 					Make a table showing the cost for 20, 50, 75, or 100 people. 
@@ -191,11 +191,13 @@
 		</task>
 	</exercise></page>
 
-	<page><exercise workspace="1in">
+<!-- mysterious blank page here -->
+
+	<page><exercise workspace="0.75in">
 		<introduction>
 			<p>
-				Teen pregnancy rates for Minneapolis (pregnancies per thousand teens) are summarized in the graph and table.
-				<fn>Source: Minnesota Department of Health</fn>
+				Teen pregnancy rates for Minneapolis<fn>Source: Minnesota Department of Health</fn>, measured in pregnancies per thousand teens, are summarized in the graph and table.
+				
 			</p>
 			<tabular bottom="minor" top="minor">
 			<row left="minor" class="even">
@@ -227,7 +229,7 @@
 				<cell right="minor" halign="center">34.0</cell>
 			</row>
 			</tabular>
-			<image source='teenpregnancy.png'/>
+			<image source='teenpregnancy.png' width="80%" />
 		</introduction>
 		<task>
 			<statement>
@@ -270,8 +272,10 @@
 		
 	</exercise></page>
 
+	<page>
 	<xi:include href="ss-SectionNotes.ptx" />
 	<xi:include href="ss-Rate_of_change_end.ptx" />
+	</page>
 
 </worksheet>
 

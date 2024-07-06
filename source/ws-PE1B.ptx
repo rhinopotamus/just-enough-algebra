@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<worksheet xml:id="ws-PE1B" xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet xml:id="ws-PE1B" xmlns:xi="http://www.w3.org/2001/XInclude" margin="0.75in">
 	<title>Practice Exam 1B</title>
 	<introduction>
 		<p>
@@ -54,7 +54,7 @@
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="2in">
 			<statement>
 				<p>
 					Calculate the rate of change of spending over the period 1970 to 1985. Don't forget to state the units.
@@ -71,7 +71,7 @@
 		
 	</exercise></page>
 
-	<page><exercise workspace="1in">
+	<page><exercise workspace="0.5in">
 		<introduction>
 			<p>
 				Trish is filling a swimming pool with water. The graph below shows how many gallons of water (<m>G</m>) are in the pool after <m>H</m> hours. Use the graph to answer the following questions.
@@ -116,7 +116,7 @@
 		</task>
 	</exercise></page>
 
-	<page><exercise workspace="1in">
+	<page><exercise workspace="1.5in">
 		<introduction>
 			<p>
 				In 1990 the Lefèvre's property tax was $450, but it doubled every year thereafter.
@@ -129,7 +129,7 @@
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="1in">
 			<statement>
 				<p>
 					Which is the independent variable and which is the dependent variable?
@@ -143,25 +143,25 @@
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="0in">
 			<statement>
 				<p>
 					Draw a graph illustrating the dependence.
 				</p>
-				<image source='GraphPaper.jpg'/>
+				<xi:include href="GraphPaper.ptx" />
 			</statement>
 		</task>
 		
 	</exercise></page>
 
-	<page><exercise workspace="1in">
+	<page><exercise workspace="2in">
 		<introduction>
 			<p>
 				The distance from the Earth to the Moon is approximately 384,000,000 meters.
 				<fn>Source: Wikipedia (Lunar distance)</fn>
 			</p>
 		</introduction>
-		<task>
+		<task workspace="1in">
 			<statement>
 				<p>
 					Express this distance using scientific notation.

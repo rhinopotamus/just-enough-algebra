@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<worksheet xml:id="ws-Metric_system_and_scientific_notation" xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet xml:id="ws-Metric_system_and_scientific_notation" xmlns:xi="http://www.w3.org/2001/XInclude" margin="0.75in">
 	<title>Metric prefixes and scientific notation - Practice exercises</title>
 
-	<page><exercise workspace="1in">
+	<page><exercise workspace="0.8in">
 		<introduction>
 			<p>
 				The GDP (gross domestic product) of the United States was approximately $15,596 billion in 2011 and the population of the United States was approximately 0.313 billion that year. 
@@ -57,7 +57,7 @@
 		</task>
 	</exercise></page>
 
-	<page><exercise>
+	<page><exercise workspace="0.75in">
 		<introduction>
 			<p>
 				Edgar recently changed the cleaning bag on his vacuum cleaner. He became curious about how many particles of dust were in the bag. Edgar did a little research online and found out that the mass of a dust particle is .000 000 000 753 kilograms. 
@@ -74,7 +74,7 @@
 			</statement>
 		</task>
 		<task>
-			<statement>
+			<introduction>
 				<p>
 					Recall that
 				</p>
@@ -82,7 +82,7 @@
 				<row class="odd">
 					<cell halign="left"><term>kilo</term></cell>
 					<cell halign="center"><m>=</m></cell>
-					<cell halign="left">1</cell>
+					<cell halign="left">1 thousand</cell>
 					<cell halign="center"><m>=</m></cell>
 					<cell halign="left"><m>\text{1,000}</m></cell>
 					<cell halign="center"><m>=</m></cell>
@@ -119,33 +119,35 @@
 				<p>
 					Express the mass of a dust particle in each of the given units:
 				</p>
-				<p><ol>
-					<li>
-							<p>
-								grams
-							</p>
-					</li>
-		
-					<li>
-							<p>
-								milligrams (mg)
-							</p>
-					</li>
-		
-					<li>
-							<p>
-								micrograms (<m>\mu</m>g)
-							</p>
-					</li>
-		
-					<li>
-							<p>
-								nanograms (ng)
-							</p>
-					</li>
-		
-				</ol></p>
-			</statement>
+			</introduction>
+			<task>
+				<statement>
+					<p>
+						grams
+					</p>
+				</statement>
+			</task>
+			<task>
+				<statement>
+					<p>
+						milligrams (mg)
+					</p>
+				</statement>
+			</task>
+			<task>
+				<statement>
+					<p>
+						micrograms (<m>\mu</m>g)
+					</p>
+				</statement>
+			</task>
+			<task>
+				<statement>
+					<p>
+						nanograms (ng)
+					</p>
+				</statement>
+			</task>
 		</task>
 		<task>
 			<statement>
@@ -156,7 +158,9 @@
 		</task>
 	</exercise></page>
 
-	<page><exercise workspace="1in">
+<!-- mystery blank page :( -->	
+
+	<page><exercise workspace="2in">
 		<introduction>
 			<p>
 				The list shows the (approximate) mass of the planets in our solar system.
@@ -224,7 +228,7 @@
 		</task>
 	</exercise></page>
 
-	<page><exercise workspace="1in">
+	<page><exercise workspace="1.25in">
 		<introduction>
 			<p>
 				Souksavanh is setting up a patient's intravenous (IV) medication. She sets the drip at 42 drops/minute. The drip chamber size is 20 drops/mL. Recall
@@ -287,8 +291,8 @@
 		</task>
 	</exercise></page>
 
-	<xi:include href="ss-SectionNotes.ptx" />
-	<xi:include href="ss-Metric_system_and_scientific_notation_end.ptx" />
+	<page><xi:include href="ss-SectionNotes.ptx" />
+	<xi:include href="ss-Metric_system_and_scientific_notation_end.ptx" /></page>
 
 
 

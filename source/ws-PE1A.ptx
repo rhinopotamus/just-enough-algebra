@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<worksheet xml:id="ws-PE1A" xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet xml:id="ws-PE1A" xmlns:xi="http://www.w3.org/2001/XInclude" margin="0.75in">
 	<title>Practice Exam 1A</title>
 
 	<introduction>
@@ -27,7 +27,7 @@
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="0.5in">
 			<statement>
 				<p>
 					Explain the dependence using a sentence of the form <q>___ is a function of ___.</q>
@@ -41,7 +41,7 @@
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="0.5in">
 			<statement>
 				<p>
 					Is the function increasing or decreasing?
@@ -100,12 +100,12 @@
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="0in">
 			<statement>
 				<p>
 					Draw a graph illustrating the dependence. Choose a scale that shows up to 20 weeks and 20 pounds.
 				</p>
-				<image source='GraphPaper.jpg'/>
+				<xi:include href="GraphPaper.ptx" />
 			</statement>
 		</task>
 		<task>
@@ -117,7 +117,7 @@
 		</task>
 	</exercise></page>
 
-	<page><exercise workspace="1in">
+	<page><exercise workspace="2.75in">
 		<introduction>
 			<p>
 				Pramesh's new car used 20.5 gallons of gas for a 715 mile trip.
@@ -147,7 +147,7 @@
 	</exercise></page>
 		
 
-	<page><exercise workspace="1in">
+	<page><exercise workspace="3in">
 		<introduction>
 			<p>
 				Ndwiga is reading an article in the paper about atoms. From his physics textbook he discovered that the size of an atom is 0.142 nanometers.
