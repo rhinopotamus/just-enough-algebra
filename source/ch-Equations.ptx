@@ -4,18 +4,11 @@
 	<title>Equations</title>
 
 	<xi:include href="ws-First_look_linear.ptx" />
-
-<!-- Not yet converted: 
-
-	<xi:include href="Formula2.ptx" />
-	<xi:include href="First_look_linearWS.ptx" /> 
-	<xi:include href="First_look_exponentialWS.ptx" /> 
-	<xi:include href="Using_equationsWS.ptx" /> 
-	<xi:include href="Approx_solutionsWS.ptx" /> 
-	<xi:include href="FinanceWS.ptx" /> 
-	<xi:include href="PE2A.ptx" />
-	<xi:include href="PE2B.ptx" />
-
--->
+	<xi:include href="ws-First_look_exponential.ptx" />
+	<xi:include href="ws-Using_equations.ptx" />
+	<xi:include href="ws-Approx_solutions.ptx" />
+	<xi:include href="ws-Finance.ptx" />
+	<xi:include href="ws-PE2A.ptx" />
+	<xi:include href="ws-PE2B.ptx" />
 
 </chapter>

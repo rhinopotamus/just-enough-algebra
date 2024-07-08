@@ -85,8 +85,8 @@
 				<p>
 					Draw a graph illustrating the function.
 				</p>
+				<xi:include href="GraphPaper.ptx" />
 			</statement>
-			<xi:include href="GraphPaper.ptx" />
 		</task>
 	</exercise>
 
@@ -129,8 +129,8 @@
 				<p>
 					Draw a graph showing my account balance over this coming year.
 				</p>
+				<xi:include href="GraphPaper.ptx" />
 			</statement>
-			<xi:include href="GraphPaper.ptx" />
 		</task>
 		<task>
 			<statement>
@@ -186,5 +186,8 @@
 			</hint>
 		</task>
 	</exercise>
+
+	<xi:include href="ss-SectionNotes.ptx" />
+	<xi:include href="ss-First_look_linear_end.ptx" />
 
 </worksheet>

@@ -144,7 +144,7 @@ end
 
 -- No <smallcaps> in PreTeXt.  <alert> can be searched for and changed case-by-case.
 function SmallCaps(s)
-  return '<alert>' .. s .. '<alert>'
+  return '<alert>' .. s .. '</alert>'
 end
 
 -- could also be "gone"
@@ -342,13 +342,13 @@ function Table(caption, aligns, widths, headers, rows)
   local empty_header = true
   for i, h in pairs(headers) do
     local align = html_align(aligns[i])
-    table.insert(header_row, tabsp..'<cell halign="' .. align .. '">' .. h .. '</cell>')
+    table.insert(header_row, tabsp..'<cell right="minor" halign="' .. align .. '">' .. h .. '</cell>')
     empty_header = empty_header and h == ""
   end
   if empty_header then
     head = ""
   else
-    add(tabs..'<row left="minor" header="yes">')
+    add(tabs..'<row left="minor" class="odd">')
     for _,h in pairs(header_row) do
       add(h)
     end
