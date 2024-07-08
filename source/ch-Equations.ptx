@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-EquationsWS" xmlns:xi="http://www.w3.org/2001/XInclude">
+<chapter xml:id="ch-Equations" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Equations</title>
+
+	<xi:include href="ws-First_look_linear.ptx" />
+
+<!-- Not yet converted: 
 
 	<xi:include href="Formula2.ptx" />
 	<xi:include href="First_look_linearWS.ptx" /> 
@@ -11,5 +15,7 @@
 	<xi:include href="FinanceWS.ptx" /> 
 	<xi:include href="PE2A.ptx" />
 	<xi:include href="PE2B.ptx" />
+
+-->
 
 </chapter>
