@@ -424,6 +424,969 @@ var ptx_lunr_docs = [
   "body": " The distance from the Earth to the Moon is approximately 384,000,000 meters. Source: Wikipedia (Lunar distance)    Express this distance using scientific notation.   Express this distance in kilometers (km), using 1 km = 1,000 meters.   Express this distance in miles, using .   If you could drive to the moon at 55 mph, how long would it take to get there? Express your answer in terms of months, using .  "
 },
 {
+  "id": "ws-First_look_linear",
+  "level": "1",
+  "url": "ws-First_look_linear.html",
+  "type": "Worksheet",
+  "number": "2.1",
+  "title": "A first look at linear equations – Practice exercises",
+  "body": " A first look at linear equations – Practice exercises   A truck hauling bags of grass seed pulls into a weigh station along the highway. Trucks are weighed to determine the amount of highway tax. This particular truck weighs pounds when it is empty. Each bag of grass seed it carries weighs 4.2 pounds. For example, a truck is carrying bags of grass seed weighs In official trucking lingo, we say the curb weight of pounds plus the load weight of pounds results in a gross weight of pounds. So, now you know. (Story also appears in 3.1 #1 and 3.2 #1)    Name the variables, including units.   Calculate the gross weight of the truck if it contains 2,000 bags of grass seed.   Write an equation showing how the gross weight of the truck is a function of the number of bags of grass seed.   Identify the slope and intercept, along with their units. Explain what each means in terms of the story.   The bags of grass seed are piled on wood pallets (sturdy platforms) to make them more stable for moving. How much does the truck weigh if it is carrying 12 pallets, where each pallet weighs 15 pounds and holds 96 bags of grass seed?   How much does one pallet of grass seed weigh?    The water in the local reservoir was 47 feet deep but there has been so little rain that the depth has fallen 18 inches a week over the past few months. Officials are worried if dry conditions continue the reservoir will not have enough water to supply the town. (Story also appears in 3.2 Exercises and 4.1 #3)    Name the variables and write an equation relating them. First convert 18 inches to feet.   Identify the slope and intercept, along with their units. Explain what each means in terms of the story.   Make a table of values showing the projected depth of the reservoir after 1 week, 5 weeks, 10 weeks, and 20 weeks if the current trend continues.   Draw a graph illustrating the function.     I was short on cash so I got a line of credit (short term loan) on my bank account, of which I spent $2,189.57. That means my account balance is . I will pay back the interest plus an extra $250 each month. When the loan is paid off, I plan to continue to deposit $250 per month to start saving. (Story also appears in 3.2 Exercises)    Name the variables, including units and dependence.   Write an equation showing my account balance in each number of months. Ignore the interest.   Identify the slope and intercept, along with their units. Explain what each means in terms of the story.   Make a table of values showing my account balance now, after 4 months, and at the end of a year.   Draw a graph showing my account balance over this coming year.     About how many months will it take to pay off my line of credit? Give an approximate answer from the graph.    A mug of coffee costs $3.45 at Juan's favorite cafe, unless he buys their discount card for $10, in which case each mug costs $2.90. (Story also appears in 1.2 #4 and 4.2 #2)    Name the variables, including units.   Write an equation describing how the total cost depends on how many mugs of coffee Juan buys, assuming he does not buy the discount card.   Write an equation describing how the total cost depends on how many mugs of coffee Juan buys, if he buys the discount card.   What is the slope, and what is the intercept?   How would the equation change if the cafe offers a new annual membership card that cost $59.99 that entitles Juan to buy coffee for only $1 per mug all year?   What is the slope, and what is the intercept?    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    How to generalize from an example to find an equation?    Where the dependent variable usually is in an equation?    What the slope of a linear function means in the story and what it tells us about the graph?    What the intercept of a linear function means in the story and what it tells us about the graph?    The template for a linear equation? Ask your instructor if you need to remember the template or if it will be provided during the exam.     Where the slope and intercept appear in the template for a linear equation?    What makes a function linear?    How to plot negative numbers on a graph?    What the graph of a linear function looks like?     Don’t forget!    "
+},
+{
+  "id": "ws-First_look_linear-2",
+  "level": "2",
+  "url": "ws-First_look_linear.html#ws-First_look_linear-2",
+  "type": "Worksheet Exercise",
+  "number": "2.1.1",
+  "title": "",
+  "body": " A truck hauling bags of grass seed pulls into a weigh station along the highway. Trucks are weighed to determine the amount of highway tax. This particular truck weighs pounds when it is empty. Each bag of grass seed it carries weighs 4.2 pounds. For example, a truck is carrying bags of grass seed weighs In official trucking lingo, we say the curb weight of pounds plus the load weight of pounds results in a gross weight of pounds. So, now you know. (Story also appears in 3.1 #1 and 3.2 #1)    Name the variables, including units.   Calculate the gross weight of the truck if it contains 2,000 bags of grass seed.   Write an equation showing how the gross weight of the truck is a function of the number of bags of grass seed.   Identify the slope and intercept, along with their units. Explain what each means in terms of the story.   The bags of grass seed are piled on wood pallets (sturdy platforms) to make them more stable for moving. How much does the truck weigh if it is carrying 12 pallets, where each pallet weighs 15 pounds and holds 96 bags of grass seed?   How much does one pallet of grass seed weigh?  "
+},
+{
+  "id": "ws-First_look_linear-3",
+  "level": "2",
+  "url": "ws-First_look_linear.html#ws-First_look_linear-3",
+  "type": "Worksheet Exercise",
+  "number": "2.1.2",
+  "title": "",
+  "body": " The water in the local reservoir was 47 feet deep but there has been so little rain that the depth has fallen 18 inches a week over the past few months. Officials are worried if dry conditions continue the reservoir will not have enough water to supply the town. (Story also appears in 3.2 Exercises and 4.1 #3)    Name the variables and write an equation relating them. First convert 18 inches to feet.   Identify the slope and intercept, along with their units. Explain what each means in terms of the story.   Make a table of values showing the projected depth of the reservoir after 1 week, 5 weeks, 10 weeks, and 20 weeks if the current trend continues.   Draw a graph illustrating the function.   "
+},
+{
+  "id": "ws-First_look_linear-4",
+  "level": "2",
+  "url": "ws-First_look_linear.html#ws-First_look_linear-4",
+  "type": "Worksheet Exercise",
+  "number": "2.1.3",
+  "title": "",
+  "body": " I was short on cash so I got a line of credit (short term loan) on my bank account, of which I spent $2,189.57. That means my account balance is . I will pay back the interest plus an extra $250 each month. When the loan is paid off, I plan to continue to deposit $250 per month to start saving. (Story also appears in 3.2 Exercises)    Name the variables, including units and dependence.   Write an equation showing my account balance in each number of months. Ignore the interest.   Identify the slope and intercept, along with their units. Explain what each means in terms of the story.   Make a table of values showing my account balance now, after 4 months, and at the end of a year.   Draw a graph showing my account balance over this coming year.     About how many months will it take to pay off my line of credit? Give an approximate answer from the graph.  "
+},
+{
+  "id": "ws-First_look_linear-5",
+  "level": "2",
+  "url": "ws-First_look_linear.html#ws-First_look_linear-5",
+  "type": "Worksheet Exercise",
+  "number": "2.1.4",
+  "title": "",
+  "body": " A mug of coffee costs $3.45 at Juan's favorite cafe, unless he buys their discount card for $10, in which case each mug costs $2.90. (Story also appears in 1.2 #4 and 4.2 #2)    Name the variables, including units.   Write an equation describing how the total cost depends on how many mugs of coffee Juan buys, assuming he does not buy the discount card.   Write an equation describing how the total cost depends on how many mugs of coffee Juan buys, if he buys the discount card.   What is the slope, and what is the intercept?   How would the equation change if the cafe offers a new annual membership card that cost $59.99 that entitles Juan to buy coffee for only $1 per mug all year?   What is the slope, and what is the intercept?  "
+},
+{
+  "id": "ws-First_look_linear-6-2",
+  "level": "2",
+  "url": "ws-First_look_linear.html#ws-First_look_linear-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-First_look_linear_end-3",
+  "level": "2",
+  "url": "ws-First_look_linear.html#ss-First_look_linear_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don’t forget! "
+},
+{
+  "id": "ws-First_look_exponential",
+  "level": "1",
+  "url": "ws-First_look_exponential.html",
+  "type": "Worksheet",
+  "number": "2.2",
+  "title": "A first look at exponential equations – Practice exercises",
+  "body": " A first look at exponential equations – Practice exercises   The comprehensive fee at a local private college is $37,000. The fee is projected to increase 5.8% per year.   Calculate the annual growth factor.   What do you expect the comprehensive fee will be in five years?   Name the variables, including units, and write an equation describing the dependence.   Make a table of values showing the comprehensive fee now, in 5 years, 10 years, 20 years, and 50 years (even though that's not realistic).   Draw a graph illustrating the function.     Bunnies, bunnies, everywhere. They eat the tops of my tulips in early spring and my lilies all summer long. Back in 2007 there were an estimated 1,800 rabbits in my neighborhood. Rabbits multiply quickly, 13% per year by one estimate. (Story also appears in 5.1#3)    Name the variables, including dependency.   Calculate the annual growth factor.   What does this story suggest the rabbit population was in 2010? In 2013?   Write an equation relating the variables.    A flu virus has been spreading through the college dormitories. Initially 8 students were diagnosed with the flu, but that number has been growing 16% per day. (Story also appears in 5.1 #2 and 5.5 textbook)    Calculate the daily growth factor and use it to write an equation describing the spread of the virus. Don't forget to name the variables too.   Make a table and graph for the six weeks following the initial diagnosis. (That means use 0, 7, 14, 21, 28, 35, and 42 days.)    What is a realistic domain? That means, for how many days do you think this model is reasonable? To keep a sense of scale, there are 1,094 students currently living in the dorms.    My savings account earns a modest amount of interest, the equivalent of 0.75% annually. I have $12,392.18 in the account now.   Name the variables, including units and dependence.   How much interest will I earn this year? What will my balance be at the end of the year?   What will my balance be in three years, assuming I neither deposit nor withdraw money?   Write an equation relating the variables.   What would the equation be if I moved all of my money into a certificate of deposit earning the equivalent of 0.92%?   What would the equation be if I moved $10,000 into that certificate of deposit, and kept the rest in savings?   Hint: to find the total balance, add the amounts.    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    How to find the growth factor if you know the percent increase?    How to calculate percent increase in one step?    What makes a function exponential?    The template for an exponential equation? Ask your instructor if you need to remember the template or if it will be provided during the exam.     Where the starting value and growth factor appear in the template for an exponential equation?    What the graph of an exponential function looks like?     Don't forget!    "
+},
+{
+  "id": "ws-First_look_exponential-2",
+  "level": "2",
+  "url": "ws-First_look_exponential.html#ws-First_look_exponential-2",
+  "type": "Worksheet Exercise",
+  "number": "2.2.1",
+  "title": "",
+  "body": " The comprehensive fee at a local private college is $37,000. The fee is projected to increase 5.8% per year.   Calculate the annual growth factor.   What do you expect the comprehensive fee will be in five years?   Name the variables, including units, and write an equation describing the dependence.   Make a table of values showing the comprehensive fee now, in 5 years, 10 years, 20 years, and 50 years (even though that's not realistic).   Draw a graph illustrating the function.   "
+},
+{
+  "id": "ws-First_look_exponential-3",
+  "level": "2",
+  "url": "ws-First_look_exponential.html#ws-First_look_exponential-3",
+  "type": "Worksheet Exercise",
+  "number": "2.2.2",
+  "title": "",
+  "body": " Bunnies, bunnies, everywhere. They eat the tops of my tulips in early spring and my lilies all summer long. Back in 2007 there were an estimated 1,800 rabbits in my neighborhood. Rabbits multiply quickly, 13% per year by one estimate. (Story also appears in 5.1#3)    Name the variables, including dependency.   Calculate the annual growth factor.   What does this story suggest the rabbit population was in 2010? In 2013?   Write an equation relating the variables.  "
+},
+{
+  "id": "ws-First_look_exponential-4",
+  "level": "2",
+  "url": "ws-First_look_exponential.html#ws-First_look_exponential-4",
+  "type": "Worksheet Exercise",
+  "number": "2.2.3",
+  "title": "",
+  "body": " A flu virus has been spreading through the college dormitories. Initially 8 students were diagnosed with the flu, but that number has been growing 16% per day. (Story also appears in 5.1 #2 and 5.5 textbook)    Calculate the daily growth factor and use it to write an equation describing the spread of the virus. Don't forget to name the variables too.   Make a table and graph for the six weeks following the initial diagnosis. (That means use 0, 7, 14, 21, 28, 35, and 42 days.)    What is a realistic domain? That means, for how many days do you think this model is reasonable? To keep a sense of scale, there are 1,094 students currently living in the dorms.  "
+},
+{
+  "id": "ws-First_look_exponential-5",
+  "level": "2",
+  "url": "ws-First_look_exponential.html#ws-First_look_exponential-5",
+  "type": "Worksheet Exercise",
+  "number": "2.2.4",
+  "title": "",
+  "body": " My savings account earns a modest amount of interest, the equivalent of 0.75% annually. I have $12,392.18 in the account now.   Name the variables, including units and dependence.   How much interest will I earn this year? What will my balance be at the end of the year?   What will my balance be in three years, assuming I neither deposit nor withdraw money?   Write an equation relating the variables.   What would the equation be if I moved all of my money into a certificate of deposit earning the equivalent of 0.92%?   What would the equation be if I moved $10,000 into that certificate of deposit, and kept the rest in savings?   Hint: to find the total balance, add the amounts.  "
+},
+{
+  "id": "ws-First_look_exponential-6-2",
+  "level": "2",
+  "url": "ws-First_look_exponential.html#ws-First_look_exponential-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-First_look_exponential_end-3",
+  "level": "2",
+  "url": "ws-First_look_exponential.html#ss-First_look_exponential_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
+  "id": "ws-Using_equations",
+  "level": "1",
+  "url": "ws-Using_equations.html",
+  "type": "Worksheet",
+  "number": "2.3",
+  "title": "Using equations – Practice exercises",
+  "body": " Using equations – Practice exercises   Dontrell and Kim borrowed money to buy a house on a 30-year mortgage. After months of making payments, Dontrell and Kim will still owe $ where  is also known as the payoff (how much they would need to pay to settle the debt). Story also appears in 3.4 #4    Name the variables and , including units and dependence.   How much did Dontrell and Kim originally borrow to buy their house? What value of did you evaluate at to answer the question?   Evaluate the equation at . What does this number mean in terms of the story?   After making half the payments, how much money will Dontrell and Kim still owe on the house? Will they have paid more or less (or exactly) half of the amount they originally borrowed?   Find the total number of payments by converting 30 years into months. Then, divide by 2 to find the halfway point. You'll need your answer to   The very last month they do not actually pay the regular monthly payment, just whatever balance is left on the loan. How much will that be?   Hint: they will have made all but one of the payments.     Rose gold is a mix of gold and copper. We start with 2 grams of an alloy that is equal parts gold and copper and add grams of pure gold to lighten the color. The percentage of gold in the resulting rose gold alloy, is given by For example, if we add 0.8 grams of pure gold, then and so the percentage is  (Story also appears in 4.1 Exercises)    Name the variables and , including units and dependence.   Calculate the percentage of gold in the alloy if we add 1.2 grams of pure gold.   Fill in all the missing values in this table.     0  0.4  0.8  1.2  1.6  2  3  4     50.0   64.3   72.2   80.0      Graph the function.    What do you think happens to the percentage of gold as we add more and more pure gold? Try adding 10 grams, and then try adding 100 grams to check.    Monty hopes to grow orchids but they are fragile plants. He will consider his greenhouse a success if at least nine of the ten orchids survive. Assuming the orchids each survive at rate , the probability his greenhouse is a success, , is given by  (Story also appears in 2.4 #3)    Name the variables and , including units and dependence.   If the orchids are perfect ( ), what is the probability of a successful greenhouse? Explain how this answer makes sense in the story.   If the orchids are complete duds ( ), what is the probability of a successful greenhouse? Explain how this answer makes sense in the story.   Make a table comparing the probability of a successful greenhouse if the orchids each survive at rate S = 0, 0.5, 0.8, 0.9, 0.95, or 1.   Draw a graph of the function.     Valerie plans to do a charity walk to raise money for breast cancer research, in honor of her aunt. Valerie's friends have pledged a total of $93 per mile.   Valerie hopes to walk all 50 miles of the event. If so, how much money will she raise?   She might have to stop sooner, however. Name variables and write an equation showing how the money Valerie raises is a function of how far she is able to walk.   How long will it take Valerie to walk the full 50 miles if she is able to keep a pace (speed) of 3.2 miles per hour? Write your answer in H:MM format.   Name the new variables and write a new equation showing how the time it takes Valerie to walk the full 50 miles depends on her pace.   Good news. Valerie walked the full 50 miles at a pace of 3.2 miles per hour. Way to go, girl! How much money did she raise each hour?   Use your answers from (a) and (c) as unit conversions to get $\/hour.    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    What it means to evaluate a function?    Why some numbers are underlined in our calculation?    How to evaluate an function when the independent variable occurs more than once?    How to generate a table or graph from an equation?    What graphs of different types of functions look like?    What a power, polynomial, or quadratic equation look like?     Don't forget!    "
+},
+{
+  "id": "ws-Using_equations-2",
+  "level": "2",
+  "url": "ws-Using_equations.html#ws-Using_equations-2",
+  "type": "Worksheet Exercise",
+  "number": "2.3.1",
+  "title": "",
+  "body": " Dontrell and Kim borrowed money to buy a house on a 30-year mortgage. After months of making payments, Dontrell and Kim will still owe $ where  is also known as the payoff (how much they would need to pay to settle the debt). Story also appears in 3.4 #4    Name the variables and , including units and dependence.   How much did Dontrell and Kim originally borrow to buy their house? What value of did you evaluate at to answer the question?   Evaluate the equation at . What does this number mean in terms of the story?   After making half the payments, how much money will Dontrell and Kim still owe on the house? Will they have paid more or less (or exactly) half of the amount they originally borrowed?   Find the total number of payments by converting 30 years into months. Then, divide by 2 to find the halfway point. You'll need your answer to   The very last month they do not actually pay the regular monthly payment, just whatever balance is left on the loan. How much will that be?   Hint: they will have made all but one of the payments.  "
+},
+{
+  "id": "ws-Using_equations-3",
+  "level": "2",
+  "url": "ws-Using_equations.html#ws-Using_equations-3",
+  "type": "Worksheet Exercise",
+  "number": "2.3.2",
+  "title": "",
+  "body": "  Rose gold is a mix of gold and copper. We start with 2 grams of an alloy that is equal parts gold and copper and add grams of pure gold to lighten the color. The percentage of gold in the resulting rose gold alloy, is given by For example, if we add 0.8 grams of pure gold, then and so the percentage is  (Story also appears in 4.1 Exercises)    Name the variables and , including units and dependence.   Calculate the percentage of gold in the alloy if we add 1.2 grams of pure gold.   Fill in all the missing values in this table.     0  0.4  0.8  1.2  1.6  2  3  4     50.0   64.3   72.2   80.0      Graph the function.    What do you think happens to the percentage of gold as we add more and more pure gold? Try adding 10 grams, and then try adding 100 grams to check.  "
+},
+{
+  "id": "ws-Using_equations-4",
+  "level": "2",
+  "url": "ws-Using_equations.html#ws-Using_equations-4",
+  "type": "Worksheet Exercise",
+  "number": "2.3.3",
+  "title": "",
+  "body": " Monty hopes to grow orchids but they are fragile plants. He will consider his greenhouse a success if at least nine of the ten orchids survive. Assuming the orchids each survive at rate , the probability his greenhouse is a success, , is given by  (Story also appears in 2.4 #3)    Name the variables and , including units and dependence.   If the orchids are perfect ( ), what is the probability of a successful greenhouse? Explain how this answer makes sense in the story.   If the orchids are complete duds ( ), what is the probability of a successful greenhouse? Explain how this answer makes sense in the story.   Make a table comparing the probability of a successful greenhouse if the orchids each survive at rate S = 0, 0.5, 0.8, 0.9, 0.95, or 1.   Draw a graph of the function.   "
+},
+{
+  "id": "ws-Using_equations-5",
+  "level": "2",
+  "url": "ws-Using_equations.html#ws-Using_equations-5",
+  "type": "Worksheet Exercise",
+  "number": "2.3.4",
+  "title": "",
+  "body": " Valerie plans to do a charity walk to raise money for breast cancer research, in honor of her aunt. Valerie's friends have pledged a total of $93 per mile.   Valerie hopes to walk all 50 miles of the event. If so, how much money will she raise?   She might have to stop sooner, however. Name variables and write an equation showing how the money Valerie raises is a function of how far she is able to walk.   How long will it take Valerie to walk the full 50 miles if she is able to keep a pace (speed) of 3.2 miles per hour? Write your answer in H:MM format.   Name the new variables and write a new equation showing how the time it takes Valerie to walk the full 50 miles depends on her pace.   Good news. Valerie walked the full 50 miles at a pace of 3.2 miles per hour. Way to go, girl! How much money did she raise each hour?   Use your answers from (a) and (c) as unit conversions to get $\/hour.  "
+},
+{
+  "id": "ws-Using_equations-6-2",
+  "level": "2",
+  "url": "ws-Using_equations.html#ws-Using_equations-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-Using_equations_end-3",
+  "level": "2",
+  "url": "ws-Using_equations.html#ss-Using_equations_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
+  "id": "ws-Approx_solutions",
+  "level": "1",
+  "url": "ws-Approx_solutions.html",
+  "type": "Worksheet",
+  "number": "2.4",
+  "title": "Approximating solutions of equations – Practice exercises",
+  "body": " Approximating solutions of equations – Practice exercises   The size of a round pizza is described by its diameter (distance across). Assuming a 16-inch diameter pizza serves four people, and with a little geometry to help us out, we calculated that a pizza of diameter inches serves people, where  (Story also appears in 3.3 #1 and 4.1 #3)    Confirm that a 16-inch pizza serves four people.   How many people does a 12-inch pizza serve? How about a 14-inch pizza?   Graph the function. Include what happens when .    A personal pizza is sized to serve one person. Use successive approximation to estimate the diameter of a personal pizza to the nearest inch.   What diameter should an extra large pizza be to serve 6 people? Answer to the nearest inch.    Suppose the gas tank of a car is designed to hold enough fuel to drive 350 miles. (That's fairly average.) A hybrid car with fuel efficiency of 50 miles per gallon (mpg) would only need a 7 gallon gas tank, but a recreational vehicle that gets only 10 mpg would need a 35 gallon gas tank. (Story also appears in 3.3 #3)    Name the variables, including units. The way the story is stated, the size tank is a function of the fuel efficiency.   Write an equation describing this function.   My Honda Accord's tank holds about 16 gallons. Approximate the corresponding fuel efficiency to one decimal place.   My ex-husband's Honda Civic's tank holds only 13 gallons. Approximate the corresponding fuel efficiency to one decimal place.   Draw a graph showing how the size tank depends on the fuel efficiency.     Monty hopes to grow orchids but they are fragile plants. He will consider his greenhouse a success if at least nine of the ten orchids survive. Assuming the orchids each survive at rate , the probability his greenhouse is a success, , is given by  (Story also appears in 2.3 #3)    Monty can buy orchids each with survival rate of . Is that enough to give probability of a successful greenhouse?   What quality of orchids would Monty need to have probability of a successful greenhouse? Report your answer accurate to two decimal places.   What quality of orchids would Monty need to have probability of a successful greenhouse? Report your answer accurate to three decimal places.    After China, India, and the United States, the next five most populous countries (in 2011) are Indonesia, Brazil, Pakistan, Nigeria, and Bangladesh. Their projected growth rates and corresponding equation are listed below. Source: CIA Factbook Here is the population measured in millions and is time measured in years since 2011.     Indonesia    pop. 248 million    growth rate 1.04%        Brazil  pop. 205 million  growth rate 1.10%      Pakistan  pop. 190 million  growth rate 1.55%      Nigeria  pop. 170 million  growth rate 2.55%      Bangladesh  pop. 161 million  growth rate 1.58%      Which of these countries is projected to have the largest population in 2020? In 2030? In 2050?   Explain why Bangladesh's population will not overtake Nigeria's, assuming these projections are accurate.   Approximately when will Brazil's population top 500 million? Will Nigeria get there first? Display your work in a successive approximation table.    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    What a solution to an equation is?    When you approximate a solution of an equation, as opposed to just evaluating?    How to use successive approximation, including organizing your work in a table?    How to get a reasonable first guess from a graph?    What to do if you do not have a reasonable first guess?    How precise your answer should be?    How to find numbers between given numbers, for example between 0.3 and 0.4?     Don't forget!    "
+},
+{
+  "id": "ws-Approx_solutions-2",
+  "level": "2",
+  "url": "ws-Approx_solutions.html#ws-Approx_solutions-2",
+  "type": "Worksheet Exercise",
+  "number": "2.4.1",
+  "title": "",
+  "body": " The size of a round pizza is described by its diameter (distance across). Assuming a 16-inch diameter pizza serves four people, and with a little geometry to help us out, we calculated that a pizza of diameter inches serves people, where  (Story also appears in 3.3 #1 and 4.1 #3)    Confirm that a 16-inch pizza serves four people.   How many people does a 12-inch pizza serve? How about a 14-inch pizza?   Graph the function. Include what happens when .    A personal pizza is sized to serve one person. Use successive approximation to estimate the diameter of a personal pizza to the nearest inch.   What diameter should an extra large pizza be to serve 6 people? Answer to the nearest inch.  "
+},
+{
+  "id": "ws-Approx_solutions-3",
+  "level": "2",
+  "url": "ws-Approx_solutions.html#ws-Approx_solutions-3",
+  "type": "Worksheet Exercise",
+  "number": "2.4.2",
+  "title": "",
+  "body": " Suppose the gas tank of a car is designed to hold enough fuel to drive 350 miles. (That's fairly average.) A hybrid car with fuel efficiency of 50 miles per gallon (mpg) would only need a 7 gallon gas tank, but a recreational vehicle that gets only 10 mpg would need a 35 gallon gas tank. (Story also appears in 3.3 #3)    Name the variables, including units. The way the story is stated, the size tank is a function of the fuel efficiency.   Write an equation describing this function.   My Honda Accord's tank holds about 16 gallons. Approximate the corresponding fuel efficiency to one decimal place.   My ex-husband's Honda Civic's tank holds only 13 gallons. Approximate the corresponding fuel efficiency to one decimal place.   Draw a graph showing how the size tank depends on the fuel efficiency.   "
+},
+{
+  "id": "ws-Approx_solutions-4",
+  "level": "2",
+  "url": "ws-Approx_solutions.html#ws-Approx_solutions-4",
+  "type": "Worksheet Exercise",
+  "number": "2.4.3",
+  "title": "",
+  "body": " Monty hopes to grow orchids but they are fragile plants. He will consider his greenhouse a success if at least nine of the ten orchids survive. Assuming the orchids each survive at rate , the probability his greenhouse is a success, , is given by  (Story also appears in 2.3 #3)    Monty can buy orchids each with survival rate of . Is that enough to give probability of a successful greenhouse?   What quality of orchids would Monty need to have probability of a successful greenhouse? Report your answer accurate to two decimal places.   What quality of orchids would Monty need to have probability of a successful greenhouse? Report your answer accurate to three decimal places.  "
+},
+{
+  "id": "ws-Approx_solutions-5",
+  "level": "2",
+  "url": "ws-Approx_solutions.html#ws-Approx_solutions-5",
+  "type": "Worksheet Exercise",
+  "number": "2.4.4",
+  "title": "",
+  "body": " After China, India, and the United States, the next five most populous countries (in 2011) are Indonesia, Brazil, Pakistan, Nigeria, and Bangladesh. Their projected growth rates and corresponding equation are listed below. Source: CIA Factbook Here is the population measured in millions and is time measured in years since 2011.     Indonesia    pop. 248 million    growth rate 1.04%        Brazil  pop. 205 million  growth rate 1.10%      Pakistan  pop. 190 million  growth rate 1.55%      Nigeria  pop. 170 million  growth rate 2.55%      Bangladesh  pop. 161 million  growth rate 1.58%      Which of these countries is projected to have the largest population in 2020? In 2030? In 2050?   Explain why Bangladesh's population will not overtake Nigeria's, assuming these projections are accurate.   Approximately when will Brazil's population top 500 million? Will Nigeria get there first? Display your work in a successive approximation table.  "
+},
+{
+  "id": "ws-Approx_solutions-6-2",
+  "level": "2",
+  "url": "ws-Approx_solutions.html#ws-Approx_solutions-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-Approx_solutions_end-3",
+  "level": "2",
+  "url": "ws-Approx_solutions.html#ss-Approx_solutions_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
+  "id": "ws-Finance",
+  "level": "1",
+  "url": "ws-Finance.html",
+  "type": "Worksheet",
+  "number": "2.5",
+  "title": "Finance formulas – Practice exercises",
+  "body": " Finance formulas – Practice exercises   Formulas for Chapter 2   Percent Change Formula: If a quantity increases by a percentage corresponding to growth rate , then the growth factor is    Compound Interest Formula:     Equivalent APR Formula:     Future Value Annuity Formula:     Loan Payment Formula:    where    = account balance or loan amount ($)    = initial deposit (principal), regular deposit, or regular payment ($)    = time invested (years)    = interest rate compounded monthly (as a decimal)      Use the indicated formulas to help Kiran figure out her finances.   Kiran deposited $2,500 in a money market account that earned 7% interest compounded monthly. Use the Compound Interest Formula to calculate her account balance after 4 years.   What is the equivalent APR on Kiran's money market account? Use the Equivalent APR Formula .   Kiran puts $400 a month in her retirement account that amazingly also earns 7% interest compounded monthly. Use the Future Value Annuity Formula to determine how much Kiran will have in her retirement account in 28 years.   Kiran would really like to buy a new hybrid car that sells for $. Sadly Kiran's credit rating is not very good, so the best the dealership offers is a loan at (you guessed it) 7% interest compouned monthly. Use the Loan Payment Formula to calculate her monthly car payments on a six year loan.    Tim and Josh are saving for their kids' college in fifteen years. The account pays the equivalent of 5.4% interest compounded monthly (taking into consideration various tax incentives)   Make a table comparing how much they will have after fifteen years if they contribute $100 per month vs. $500 per month vs. $1,000 per month. Use the Future Value Annuity Formula .   Tim's parents decide to put $15,000 into the account now. How much will that deposit be worth in fifteen years? Use the Compound Interest Formula .    Use the Equivalent APR Formula to find the APR for each of the following published interest rates (compounded monthly) offered by recent credit card companies.   9%   12.8%   20.19%    Cesar and Eliana are looking at three different houses to buy. The first is a large new townhouse priced at $240,000. The second is a small but charming bungalow priced at $260,000. The third is a large 2-story house down the block priced at $280,000.  Calculate the monthly payment for each house for a 30-year mortgage at 3.5% interest compounded monthly. Use the Loan Payment Formula .   Townhouse   Bungalow   2-Story   At this interest rate, if the house price goes up by $20,000, what happens to Cesar and Eliana's monthly payment?    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    How to determine which formula to use? Ask your instructor if you will be told which formula to use during the exam.     What the quantities , , , and from the formulas mean in the story?    How to evaluate the formulas on your calculator? Ask your instructor which formulas you need to remember, and whether any formulas will be provided during the exam.     Why parentheses are needed around the exponent, numerator, and denominator in most of the formulas?    What APR means, and why it is different from the (nominal) interest rate?     Don't forget!    "
+},
+{
+  "id": "formulas-for-chapter-2-2",
+  "level": "2",
+  "url": "ws-Finance.html#formulas-for-chapter-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Percent Change Formula: "
+},
+{
+  "id": "formulas-for-chapter-2-3",
+  "level": "2",
+  "url": "ws-Finance.html#formulas-for-chapter-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Compound Interest Formula: "
+},
+{
+  "id": "formulas-for-chapter-2-4",
+  "level": "2",
+  "url": "ws-Finance.html#formulas-for-chapter-2-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Equivalent APR Formula: "
+},
+{
+  "id": "formulas-for-chapter-2-5",
+  "level": "2",
+  "url": "ws-Finance.html#formulas-for-chapter-2-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Future Value Annuity Formula: "
+},
+{
+  "id": "formulas-for-chapter-2-6",
+  "level": "2",
+  "url": "ws-Finance.html#formulas-for-chapter-2-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Loan Payment Formula: "
+},
+{
+  "id": "ws-Finance-3",
+  "level": "2",
+  "url": "ws-Finance.html#ws-Finance-3",
+  "type": "Worksheet Exercise",
+  "number": "2.5.1",
+  "title": "",
+  "body": " Use the indicated formulas to help Kiran figure out her finances.   Kiran deposited $2,500 in a money market account that earned 7% interest compounded monthly. Use the Compound Interest Formula to calculate her account balance after 4 years.   What is the equivalent APR on Kiran's money market account? Use the Equivalent APR Formula .   Kiran puts $400 a month in her retirement account that amazingly also earns 7% interest compounded monthly. Use the Future Value Annuity Formula to determine how much Kiran will have in her retirement account in 28 years.   Kiran would really like to buy a new hybrid car that sells for $. Sadly Kiran's credit rating is not very good, so the best the dealership offers is a loan at (you guessed it) 7% interest compouned monthly. Use the Loan Payment Formula to calculate her monthly car payments on a six year loan.  "
+},
+{
+  "id": "ws-Finance-4",
+  "level": "2",
+  "url": "ws-Finance.html#ws-Finance-4",
+  "type": "Worksheet Exercise",
+  "number": "2.5.2",
+  "title": "",
+  "body": " Tim and Josh are saving for their kids' college in fifteen years. The account pays the equivalent of 5.4% interest compounded monthly (taking into consideration various tax incentives)   Make a table comparing how much they will have after fifteen years if they contribute $100 per month vs. $500 per month vs. $1,000 per month. Use the Future Value Annuity Formula .   Tim's parents decide to put $15,000 into the account now. How much will that deposit be worth in fifteen years? Use the Compound Interest Formula .  "
+},
+{
+  "id": "ws-Finance-5",
+  "level": "2",
+  "url": "ws-Finance.html#ws-Finance-5",
+  "type": "Worksheet Exercise",
+  "number": "2.5.3",
+  "title": "",
+  "body": " Use the Equivalent APR Formula to find the APR for each of the following published interest rates (compounded monthly) offered by recent credit card companies.   9%   12.8%   20.19%  "
+},
+{
+  "id": "ws-Finance-6",
+  "level": "2",
+  "url": "ws-Finance.html#ws-Finance-6",
+  "type": "Worksheet Exercise",
+  "number": "2.5.4",
+  "title": "",
+  "body": " Cesar and Eliana are looking at three different houses to buy. The first is a large new townhouse priced at $240,000. The second is a small but charming bungalow priced at $260,000. The third is a large 2-story house down the block priced at $280,000.  Calculate the monthly payment for each house for a 30-year mortgage at 3.5% interest compounded monthly. Use the Loan Payment Formula .   Townhouse   Bungalow   2-Story   At this interest rate, if the house price goes up by $20,000, what happens to Cesar and Eliana's monthly payment?  "
+},
+{
+  "id": "ws-Finance-7-2",
+  "level": "2",
+  "url": "ws-Finance.html#ws-Finance-7-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-Finance_end-3",
+  "level": "2",
+  "url": "ws-Finance.html#ss-Finance_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
+  "id": "ws-PE2A",
+  "level": "1",
+  "url": "ws-PE2A.html",
+  "type": "Worksheet",
+  "number": "2.6",
+  "title": "Practice Exam 2A",
+  "body": " Practice Exam 2A  Relax. You have done problems like these before. Even if these problems look a bit different, just do what you can. If you're not sure of something, please ask! You may use your calculator. Please show all of your work and write down as many steps as you can. Don't spend too much time on any one problem. Do well. And remember, ask me if you're not sure about something.   As you work, make a don't forget list of any information you need to look up or ask about.    United States ethanol production has been growing exponentially. In 1990, there were 0.9 billion gallons of ethanol produced. At that time it was estimated that production would increase 5.5% per year. Source: Renewable Fuels Association    Name the variables, including units.   What is the annual growth factor?   Write an equation that describes the function.   In 2008 actual production of ethanol was 9.0 billion gallons. Is that production level higher or lower than predicted from your equation? Explain.   When does your equation predict that ethanol production was 9.0 billion gallons? Use successive approximation. Display your guesses in a table. Report the actual year.    An insurance deductible is the amount you pay for any claim before the insurance company starts paying. Lee's automobile insurance deductible started at $500, but they take off $10 for each month where he has no accidents or tickets. For example, after 1 month his deductible was $490, after 2 months it was $480, and so on.   Name the variables, including units and dependence.   Make a table showing the deductible after 6 months, 1 year, or 3 years without an accident or ticket.   When would the deductible vanish ? (Meaning, when is it $0?)   Write an equation showing how the deductible decreases.   What is the slope and what does it mean in the story?   What is the intercept and what does it mean in the story?    Our investment club has been tracking the performance of a biofuel company's stock over the past year. Using an econometrics software package, we found the equation which describes the value of each share of stock $ as a function of time , measured in weeks starting exactly one year ago.   Name the variables and , including units and dependence.   Complete the following table of values.     0  13  26  39  52     31.00  21.08    16.86     Draw a graph showing how the value changed during the past year.    The problem continues …   According to the table, what was the value of the stock when we began tracking it? What is it worth now?   We are thinking about buying some stock now, and selling it in 10 weeks. Does the equation say that's a good idea? Explain.   10 weeks from now is not because we started counting weeks one year ago.   Looking back over the past year, how low did the value of the stock get? Use successive approximation to estimate to the nearest cent.    Cicely wants to buy a new car that costs $19,400. The dealership offers 6.18% compounded monthly for a 5 year loan.   What will Cicely's monthly payment be? Use the Loan Payment Formula .   What is the equivalent APR Cicely is paying? Use the Equivalent APR Formula . Don't forget to report the percentage.    Cicely is working on her monthly budget. She has only $230 per month left after those car payments. If she puts that money into a bank account each month earning 2.91% interest compounded monthly, how much will she have after 5 years when the car is paid off? Use the Future Value Annuity Formula .   In 2011, Cicely was cleaning out the basement and found some savings bonds with face value $1,600 that matured in 1972 and have been earning 3% interest compounded monthly ever since. What were they worth? Use the Compound Interest Formula .   "
+},
+{
+  "id": "ws-PE2A-4",
+  "level": "2",
+  "url": "ws-PE2A.html#ws-PE2A-4",
+  "type": "Worksheet Exercise",
+  "number": "2.6.1",
+  "title": "",
+  "body": " United States ethanol production has been growing exponentially. In 1990, there were 0.9 billion gallons of ethanol produced. At that time it was estimated that production would increase 5.5% per year. Source: Renewable Fuels Association    Name the variables, including units.   What is the annual growth factor?   Write an equation that describes the function.   In 2008 actual production of ethanol was 9.0 billion gallons. Is that production level higher or lower than predicted from your equation? Explain.   When does your equation predict that ethanol production was 9.0 billion gallons? Use successive approximation. Display your guesses in a table. Report the actual year.  "
+},
+{
+  "id": "ws-PE2A-5",
+  "level": "2",
+  "url": "ws-PE2A.html#ws-PE2A-5",
+  "type": "Worksheet Exercise",
+  "number": "2.6.2",
+  "title": "",
+  "body": " An insurance deductible is the amount you pay for any claim before the insurance company starts paying. Lee's automobile insurance deductible started at $500, but they take off $10 for each month where he has no accidents or tickets. For example, after 1 month his deductible was $490, after 2 months it was $480, and so on.   Name the variables, including units and dependence.   Make a table showing the deductible after 6 months, 1 year, or 3 years without an accident or ticket.   When would the deductible vanish ? (Meaning, when is it $0?)   Write an equation showing how the deductible decreases.   What is the slope and what does it mean in the story?   What is the intercept and what does it mean in the story?  "
+},
+{
+  "id": "ws-PE2A-6",
+  "level": "2",
+  "url": "ws-PE2A.html#ws-PE2A-6",
+  "type": "Worksheet Exercise",
+  "number": "2.6.3",
+  "title": "",
+  "body": " Our investment club has been tracking the performance of a biofuel company's stock over the past year. Using an econometrics software package, we found the equation which describes the value of each share of stock $ as a function of time , measured in weeks starting exactly one year ago.   Name the variables and , including units and dependence.   Complete the following table of values.     0  13  26  39  52     31.00  21.08    16.86     Draw a graph showing how the value changed during the past year.    The problem continues …   According to the table, what was the value of the stock when we began tracking it? What is it worth now?   We are thinking about buying some stock now, and selling it in 10 weeks. Does the equation say that's a good idea? Explain.   10 weeks from now is not because we started counting weeks one year ago.   Looking back over the past year, how low did the value of the stock get? Use successive approximation to estimate to the nearest cent.  "
+},
+{
+  "id": "ws-PE2A-7",
+  "level": "2",
+  "url": "ws-PE2A.html#ws-PE2A-7",
+  "type": "Worksheet Exercise",
+  "number": "2.6.4",
+  "title": "",
+  "body": " Cicely wants to buy a new car that costs $19,400. The dealership offers 6.18% compounded monthly for a 5 year loan.   What will Cicely's monthly payment be? Use the Loan Payment Formula .   What is the equivalent APR Cicely is paying? Use the Equivalent APR Formula . Don't forget to report the percentage.    Cicely is working on her monthly budget. She has only $230 per month left after those car payments. If she puts that money into a bank account each month earning 2.91% interest compounded monthly, how much will she have after 5 years when the car is paid off? Use the Future Value Annuity Formula .   In 2011, Cicely was cleaning out the basement and found some savings bonds with face value $1,600 that matured in 1972 and have been earning 3% interest compounded monthly ever since. What were they worth? Use the Compound Interest Formula .  "
+},
+{
+  "id": "ws-PE2B",
+  "level": "1",
+  "url": "ws-PE2B.html",
+  "type": "Worksheet",
+  "number": "2.7",
+  "title": "Practice Exam 2B",
+  "body": " Practice Exam 2B   Try taking this version of the practice exam under testing conditions: no book, no notes, no classmate's help, no electronics (computer, cell phone, television). Give yourself one hour to work and wait until you have tried your best on all of the problems before checking any answers.    The Skärstroms want to dig a new well for water for their lake cabin. The company charges $900 to bring the equipment on site and draw the permit and then $2 per foot to dig.   What would a 100 foot deep well cost?   Name the variables and write an equation relating them.   Make a table showing the total cost for a well 100, 250, or 400 feet deep.    Xander grows tomatoes in his garden. He's noticed that a typical plant yields 5 pounds of tomatoes. He's been experimenting with the impact of liquid food on plant yield and estimates that each drop increases yield by 14%.   Name the variables, including units and dependence.   Calculate the growth factor and write an equation showing how yield for each tomato plant depends on the number of drops of liquid food.   Xander uses 10 drops of food on one of his tomato plans and uses all of the tomatoes from that plant to make salsa. If each pound of tomatoes makes around a pint of salsa, how much salsa will Xander have (from that one plant)?   Convert your answer into gallons. Use 1 gallon = 4 quarts and 1 quart = 2 pints.   The problem continues …   Make a table showing Xander's projections for yield for each tomato plant if he uses 0, 1, 2, 5, or 10 drops of liquid food.   Graph the function.     Skye and her sister Clover started a t-shirt printing company. To produce a particular t-shirt it costs $350 in materials and labor to set up a silkscreen and then $7.50 for each shirt made to cover materials and printing. The average cost per t-shirt $ is a function of , the number of t-shirts printed. The equation for this function is    Evaluate this formula when . What does the resulting value of mean in the story?   Make a table showing the average cost per t-shirt if Skye and Clover make 1, 20, 50, 100, or 300 t-shirts.   Approximately how many t-shirts would they need to make to keep the average cost per shirt under $10? Use successive approximation and display your guesses in a table.   The problem continues …   Skye designs the shirts and runs the press. Clover is the brains behind sales. She would like to price the shirts at $12.95 each. The sisters will make a profit of $ where   This is a linear equation. What is the slope, what are its units, and what does it mean in the story?   What is the intercept, what are its units, and what does it mean in the story?   How many t-shirts do the sisters need to sell to make $1,000 profit? Use successive approximation and display your guesses in a table.    Kotoyo's uncle won $100,000 on a game show. If he invests it in a fund that is expected to earn 5.7% interest compounded monthly, how much will he have after 5 years? Use the Compound Interest Formula .   Kotoyo's grandmother has been contributing $150 a month into a college fund for Kotoyo for the past 8 years. The account pays 4% interest compounded monthly. How much is in the account now? Use the Future Value Annuity Formula .   Kotoyo owes $8,742 on her credit card. They charge her 16% interest compounded monthly. What would her monthly payment be if she wants to pay it off in 5 years? Use the Loan Payment Formula .   What is the equivalent annual percentage rate (APR) of Kotoyo's credit card? Use the Equivalent APR Formula . Don't forget to report the percentage.    "
+},
+{
+  "id": "ws-PE2B-3",
+  "level": "2",
+  "url": "ws-PE2B.html#ws-PE2B-3",
+  "type": "Worksheet Exercise",
+  "number": "2.7.1",
+  "title": "",
+  "body": " The Skärstroms want to dig a new well for water for their lake cabin. The company charges $900 to bring the equipment on site and draw the permit and then $2 per foot to dig.   What would a 100 foot deep well cost?   Name the variables and write an equation relating them.   Make a table showing the total cost for a well 100, 250, or 400 feet deep.  "
+},
+{
+  "id": "ws-PE2B-4",
+  "level": "2",
+  "url": "ws-PE2B.html#ws-PE2B-4",
+  "type": "Worksheet Exercise",
+  "number": "2.7.2",
+  "title": "",
+  "body": " Xander grows tomatoes in his garden. He's noticed that a typical plant yields 5 pounds of tomatoes. He's been experimenting with the impact of liquid food on plant yield and estimates that each drop increases yield by 14%.   Name the variables, including units and dependence.   Calculate the growth factor and write an equation showing how yield for each tomato plant depends on the number of drops of liquid food.   Xander uses 10 drops of food on one of his tomato plans and uses all of the tomatoes from that plant to make salsa. If each pound of tomatoes makes around a pint of salsa, how much salsa will Xander have (from that one plant)?   Convert your answer into gallons. Use 1 gallon = 4 quarts and 1 quart = 2 pints.   The problem continues …   Make a table showing Xander's projections for yield for each tomato plant if he uses 0, 1, 2, 5, or 10 drops of liquid food.   Graph the function.   "
+},
+{
+  "id": "ws-PE2B-5",
+  "level": "2",
+  "url": "ws-PE2B.html#ws-PE2B-5",
+  "type": "Worksheet Exercise",
+  "number": "2.7.3",
+  "title": "",
+  "body": " Skye and her sister Clover started a t-shirt printing company. To produce a particular t-shirt it costs $350 in materials and labor to set up a silkscreen and then $7.50 for each shirt made to cover materials and printing. The average cost per t-shirt $ is a function of , the number of t-shirts printed. The equation for this function is    Evaluate this formula when . What does the resulting value of mean in the story?   Make a table showing the average cost per t-shirt if Skye and Clover make 1, 20, 50, 100, or 300 t-shirts.   Approximately how many t-shirts would they need to make to keep the average cost per shirt under $10? Use successive approximation and display your guesses in a table.   The problem continues …   Skye designs the shirts and runs the press. Clover is the brains behind sales. She would like to price the shirts at $12.95 each. The sisters will make a profit of $ where   This is a linear equation. What is the slope, what are its units, and what does it mean in the story?   What is the intercept, what are its units, and what does it mean in the story?   How many t-shirts do the sisters need to sell to make $1,000 profit? Use successive approximation and display your guesses in a table.  "
+},
+{
+  "id": "ws-PE2B-6",
+  "level": "2",
+  "url": "ws-PE2B.html#ws-PE2B-6",
+  "type": "Worksheet Exercise",
+  "number": "2.7.4",
+  "title": "",
+  "body": " Kotoyo's uncle won $100,000 on a game show. If he invests it in a fund that is expected to earn 5.7% interest compounded monthly, how much will he have after 5 years? Use the Compound Interest Formula .   Kotoyo's grandmother has been contributing $150 a month into a college fund for Kotoyo for the past 8 years. The account pays 4% interest compounded monthly. How much is in the account now? Use the Future Value Annuity Formula .   Kotoyo owes $8,742 on her credit card. They charge her 16% interest compounded monthly. What would her monthly payment be if she wants to pay it off in 5 years? Use the Loan Payment Formula .   What is the equivalent annual percentage rate (APR) of Kotoyo's credit card? Use the Equivalent APR Formula . Don't forget to report the percentage.   "
+},
+{
+  "id": "ss-Formula3",
+  "level": "1",
+  "url": "ss-Formula3.html",
+  "type": "Subsection",
+  "number": "3.1",
+  "title": "Formulas for Chapter 3",
+  "body": " Formulas for Chapter 3   Root Formula: The equation has solution    Log-Divides Formula: The equation has solution    Quadratic Formula: The equation has solutions   "
+},
+{
+  "id": "ss-Formula3-2",
+  "level": "2",
+  "url": "ss-Formula3.html#ss-Formula3-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Root Formula: "
+},
+{
+  "id": "ss-Formula3-3",
+  "level": "2",
+  "url": "ss-Formula3.html#ss-Formula3-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Log-Divides Formula: "
+},
+{
+  "id": "ss-Formula3-4",
+  "level": "2",
+  "url": "ss-Formula3.html#ss-Formula3-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Quadratic Formula: "
+},
+{
+  "id": "ws-Solving_linear_equations",
+  "level": "1",
+  "url": "ws-Solving_linear_equations.html",
+  "type": "Worksheet",
+  "number": "3.2",
+  "title": "Solving linear equations - Practice exercises",
+  "body": " Solving linear equations - Practice exercises   A truck hauling bags of grass seed weighs 3,900 pounds when it is empty. Each bag of seed it carries weighs 4.2 pounds. The equation for the gross weight pounds is for bags of grass seed. (Story also appears in 2.1 #1 & 3.2 #1)    Set up and solve an equation to determine the number of bags of grass seed being carried by the truck with gross weight of 14,500 pounds.   Do the same for a truck with gross weight 8 tons. A ton is 2,000 pounds.    Is laughter really the best medicine? A study examined the impact of comedy on anxiety levels. Subjects' anxiety levels were rated on a scale of 1 to 5 before and after the study. Levels averaged 4.3 before the study. There was no significant change in subjects in the control group. Subjects who watched the comedy videos showed a noticeable difference, and it depended on the hours of comedy watched. Anxiety levels fell an average of 0.098 (on the 1 to 5 scale) for each hour of comedy watched.   Name the variables. Anxiety is measured on a unitless scale.   Make a table showing average anxiety levels for subjects who watched comedy videos for 0 hours (control group), 2 hours, 10 hours, and 20 hours, according to these findings.   Use successive approximation to guess the approximate number of hours watching comedy needed to lower the average anxiety level below 2 (on that scale of 1 to 5).   Write an equation relating the variables.   Solve your equation to determine the exact number of hours watching comedy needed to lower the average anxiety level below 2.    Lizbeth wants to send her mom truffles for Mother's Day. It cost $ to send a box of truffles where    Make a table of values showing the charges for a box of 8 truffles, 12 truffles, or 30 truffles.   What are the units on 1.90 and what does it mean in the story?   What are the units on 7.95 and what does it mean in the story?   Draw a graph illustrating the cost of sending truffles. Include .    If Lizbeth was charged $53.55 for the box of truffles she sent her mom, how many truffles were there? Set up and solve an equation to answer the question.    The local burger restaurant had a promotion this summer. They reduced the price on a bacon double cheeseburger by 2¢ for each degree in the daily high temperature. The equation is where $ is the price of the bacon double cheeseburger and is the daily high temperature, in °F. (Story also appears in 2.1 Exercises)    What is the usual price of a bacon double cheeseburger?   Ronald paid $5.34 for a bacon double cheeseburger on Tuesday. How hot was the temperature that day? Set up and solve an equation.   What was the high temperature on Sunday when Wendy bought a bacon double cheeseburger for only $5.70? Set up and solve an equation.   Leroy is holding out for a $5 burger. What temperature will make Leroy's wish to come true? Set up and solve an equation.    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    The difference between solving and evaluating an equation?    Why we do the same thing to each side of an equation when solving?    How to solve a linear equation?    The advantages and disadvantages of solving versus successive approximation?    How to check that a solution is correct using the equation?     Don't forget!    "
+},
+{
+  "id": "ws-Solving_linear_equations-2",
+  "level": "2",
+  "url": "ws-Solving_linear_equations.html#ws-Solving_linear_equations-2",
+  "type": "Worksheet Exercise",
+  "number": "3.2.1",
+  "title": "",
+  "body": " A truck hauling bags of grass seed weighs 3,900 pounds when it is empty. Each bag of seed it carries weighs 4.2 pounds. The equation for the gross weight pounds is for bags of grass seed. (Story also appears in 2.1 #1 & 3.2 #1)    Set up and solve an equation to determine the number of bags of grass seed being carried by the truck with gross weight of 14,500 pounds.   Do the same for a truck with gross weight 8 tons. A ton is 2,000 pounds.  "
+},
+{
+  "id": "ws-Solving_linear_equations-3",
+  "level": "2",
+  "url": "ws-Solving_linear_equations.html#ws-Solving_linear_equations-3",
+  "type": "Worksheet Exercise",
+  "number": "3.2.2",
+  "title": "",
+  "body": " Is laughter really the best medicine? A study examined the impact of comedy on anxiety levels. Subjects' anxiety levels were rated on a scale of 1 to 5 before and after the study. Levels averaged 4.3 before the study. There was no significant change in subjects in the control group. Subjects who watched the comedy videos showed a noticeable difference, and it depended on the hours of comedy watched. Anxiety levels fell an average of 0.098 (on the 1 to 5 scale) for each hour of comedy watched.   Name the variables. Anxiety is measured on a unitless scale.   Make a table showing average anxiety levels for subjects who watched comedy videos for 0 hours (control group), 2 hours, 10 hours, and 20 hours, according to these findings.   Use successive approximation to guess the approximate number of hours watching comedy needed to lower the average anxiety level below 2 (on that scale of 1 to 5).   Write an equation relating the variables.   Solve your equation to determine the exact number of hours watching comedy needed to lower the average anxiety level below 2.  "
+},
+{
+  "id": "ws-Solving_linear_equations-4",
+  "level": "2",
+  "url": "ws-Solving_linear_equations.html#ws-Solving_linear_equations-4",
+  "type": "Worksheet Exercise",
+  "number": "3.2.3",
+  "title": "",
+  "body": " Lizbeth wants to send her mom truffles for Mother's Day. It cost $ to send a box of truffles where    Make a table of values showing the charges for a box of 8 truffles, 12 truffles, or 30 truffles.   What are the units on 1.90 and what does it mean in the story?   What are the units on 7.95 and what does it mean in the story?   Draw a graph illustrating the cost of sending truffles. Include .    If Lizbeth was charged $53.55 for the box of truffles she sent her mom, how many truffles were there? Set up and solve an equation to answer the question.  "
+},
+{
+  "id": "ws-Solving_linear_equations-5",
+  "level": "2",
+  "url": "ws-Solving_linear_equations.html#ws-Solving_linear_equations-5",
+  "type": "Worksheet Exercise",
+  "number": "3.2.4",
+  "title": "",
+  "body": " The local burger restaurant had a promotion this summer. They reduced the price on a bacon double cheeseburger by 2¢ for each degree in the daily high temperature. The equation is where $ is the price of the bacon double cheeseburger and is the daily high temperature, in °F. (Story also appears in 2.1 Exercises)    What is the usual price of a bacon double cheeseburger?   Ronald paid $5.34 for a bacon double cheeseburger on Tuesday. How hot was the temperature that day? Set up and solve an equation.   What was the high temperature on Sunday when Wendy bought a bacon double cheeseburger for only $5.70? Set up and solve an equation.   Leroy is holding out for a $5 burger. What temperature will make Leroy's wish to come true? Set up and solve an equation.  "
+},
+{
+  "id": "ws-Solving_linear_equations-6-2",
+  "level": "2",
+  "url": "ws-Solving_linear_equations.html#ws-Solving_linear_equations-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-Solving_linear_equations_end-3",
+  "level": "2",
+  "url": "ws-Solving_linear_equations.html#ss-Solving_linear_equations_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
+  "id": "ws-Solving_linear_inequalities",
+  "level": "1",
+  "url": "ws-Solving_linear_inequalities.html",
+  "type": "Worksheet",
+  "number": "3.3",
+  "title": "Solving linear inequalities - Practice exercises",
+  "body": " Solving linear inequalities - Practice exercises   A truck hauling bags of grass seed weighs 3,900 pounds when it is empty. Each bag of seed it carries weighs 4.2 pounds. The equation for the gross weight pounds is for bags of grass seed. (Story also appears in 2.1 #1 and 3.1 #1)    The state highways have a 18,000 pound gross weight limit. How many bags of grass seed can the truck haul? Set up and solve an appropriate inequality.   Record your answer to part (a) in the table and graph the function.     0  1,000  2,000      3,900  8,100  12,300  18,000      We used our answer to part (a) to draw our graph, so how can we check that answer to make sense?   What shape should the graph be?    The altitude, feet above ground, of an airplane minutes after it begins its descent is given by the equation Answer each question by evaluating; setting up and solving an equation; or setting up and solving an inequality, whichever is most appropriate.   At what altitude does the plane begin its descent?   How fast is the airplane descending?   What is the airplane's altitude 3 minutes into its descent? 8 minutes? 20 minutes? Display your answers in a table.   Draw a graph illustrating the function.     The problem continues …    For how many minutes of its descent is the airplane above 20,000 feet?   The airplane might be asked to go into a holding pattern (that means flying in a circle instead of landing) when it is between 6,000 and 14,000 feet up. When will the plane be in that altitude range?   How long does it take the airplane to land, assuming it is not asked to go into a holding pattern?    Anthony and Christina are trying to decide where to hold their wedding reception. For each possible site, write an equation using for the total cost of their wedding reception (in dollars) and for the number of guests. Then set up and solve an inequality to calculate the number of guests Tony and Tina can afford on their $8,000 budget. (Story also appears in 1.2 #3 and 1.3 #2)    The Metropolitan Club costs $1,300 for the space and $92 per person.   equation:      inequality:      number of guests:    Black Elk Park charges $500 to rent the pavilion and the family can bring in picnic food for $65 per person.   equation:      inequality:      number of guests:    The Dabbling Duck Inn charges $1,400 for the space and $80 per person for their local specialties.   equation:      inequality:      number of guests:    Pranzo Ristorante has only a $300 room rental fee but averages $145 per person, including wine.   equation:      inequality:      number of guests:     One variety of blueberry plant yields an average of 130 blueberries per season but there is quite a bit of variability from plant to plant. One measure of this variability is the standard deviation, which is approximated at 16.4 berries. Given a plant yielding blueberries, we can calculate how usual or unusual that is by computing its (standard) z-score using the equation For example, a plant yielding blueberries has z-score of 0. A plant yielding blueberries has z-score of Answer each question by evaluating; setting up and solving an equation; or setting up and solving an inequality, whichever is appropriate.   Calculate the z-score of a plant yielding 140 blueberries.   If the z-score for a plant is -0.7, what is the corresponding yield?   Hint: the negative z-score tells us the answer is below average.    A plant with z-score above 1.96 is considered plentiful . What yields of blueberries would be considered plentiful?   A plant with z-score between -1 and +1 is considered ordinary . What yields of blueberries would be considered ordinary?    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    Common phrases that indicate an inequality?    How to represent the idea of between using a double-sided inequality?    Why we do the same thing to each side of an inequality when solving?    How to solve a linear inequality? A chain of inequalities?    Why the inequality sign is reversed if we switch sides of the equation?    When to solve an inequality, as opposed to solving an equation?     Don't forget!    "
+},
+{
+  "id": "ws-Solving_linear_inequalities-2",
+  "level": "2",
+  "url": "ws-Solving_linear_inequalities.html#ws-Solving_linear_inequalities-2",
+  "type": "Worksheet Exercise",
+  "number": "3.3.1",
+  "title": "",
+  "body": " A truck hauling bags of grass seed weighs 3,900 pounds when it is empty. Each bag of seed it carries weighs 4.2 pounds. The equation for the gross weight pounds is for bags of grass seed. (Story also appears in 2.1 #1 and 3.1 #1)    The state highways have a 18,000 pound gross weight limit. How many bags of grass seed can the truck haul? Set up and solve an appropriate inequality.   Record your answer to part (a) in the table and graph the function.     0  1,000  2,000      3,900  8,100  12,300  18,000      We used our answer to part (a) to draw our graph, so how can we check that answer to make sense?   What shape should the graph be?  "
+},
+{
+  "id": "ws-Solving_linear_inequalities-3",
+  "level": "2",
+  "url": "ws-Solving_linear_inequalities.html#ws-Solving_linear_inequalities-3",
+  "type": "Worksheet Exercise",
+  "number": "3.3.2",
+  "title": "",
+  "body": " The altitude, feet above ground, of an airplane minutes after it begins its descent is given by the equation Answer each question by evaluating; setting up and solving an equation; or setting up and solving an inequality, whichever is most appropriate.   At what altitude does the plane begin its descent?   How fast is the airplane descending?   What is the airplane's altitude 3 minutes into its descent? 8 minutes? 20 minutes? Display your answers in a table.   Draw a graph illustrating the function.     The problem continues …    For how many minutes of its descent is the airplane above 20,000 feet?   The airplane might be asked to go into a holding pattern (that means flying in a circle instead of landing) when it is between 6,000 and 14,000 feet up. When will the plane be in that altitude range?   How long does it take the airplane to land, assuming it is not asked to go into a holding pattern?  "
+},
+{
+  "id": "ws-Solving_linear_inequalities-4",
+  "level": "2",
+  "url": "ws-Solving_linear_inequalities.html#ws-Solving_linear_inequalities-4",
+  "type": "Worksheet Exercise",
+  "number": "3.3.3",
+  "title": "",
+  "body": " Anthony and Christina are trying to decide where to hold their wedding reception. For each possible site, write an equation using for the total cost of their wedding reception (in dollars) and for the number of guests. Then set up and solve an inequality to calculate the number of guests Tony and Tina can afford on their $8,000 budget. (Story also appears in 1.2 #3 and 1.3 #2)    The Metropolitan Club costs $1,300 for the space and $92 per person.   equation:      inequality:      number of guests:    Black Elk Park charges $500 to rent the pavilion and the family can bring in picnic food for $65 per person.   equation:      inequality:      number of guests:    The Dabbling Duck Inn charges $1,400 for the space and $80 per person for their local specialties.   equation:      inequality:      number of guests:    Pranzo Ristorante has only a $300 room rental fee but averages $145 per person, including wine.   equation:      inequality:      number of guests:   "
+},
+{
+  "id": "ws-Solving_linear_inequalities-5",
+  "level": "2",
+  "url": "ws-Solving_linear_inequalities.html#ws-Solving_linear_inequalities-5",
+  "type": "Worksheet Exercise",
+  "number": "3.3.4",
+  "title": "",
+  "body": " One variety of blueberry plant yields an average of 130 blueberries per season but there is quite a bit of variability from plant to plant. One measure of this variability is the standard deviation, which is approximated at 16.4 berries. Given a plant yielding blueberries, we can calculate how usual or unusual that is by computing its (standard) z-score using the equation For example, a plant yielding blueberries has z-score of 0. A plant yielding blueberries has z-score of Answer each question by evaluating; setting up and solving an equation; or setting up and solving an inequality, whichever is appropriate.   Calculate the z-score of a plant yielding 140 blueberries.   If the z-score for a plant is -0.7, what is the corresponding yield?   Hint: the negative z-score tells us the answer is below average.    A plant with z-score above 1.96 is considered plentiful . What yields of blueberries would be considered plentiful?   A plant with z-score between -1 and +1 is considered ordinary . What yields of blueberries would be considered ordinary?  "
+},
+{
+  "id": "ws-Solving_linear_inequalities-6-2",
+  "level": "2",
+  "url": "ws-Solving_linear_inequalities.html#ws-Solving_linear_inequalities-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-Solving_linear_inequalities_end-3",
+  "level": "2",
+  "url": "ws-Solving_linear_inequalities.html#ss-Solving_linear_inequalities_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
+  "id": "ws-Solving_power_equations",
+  "level": "1",
+  "url": "ws-Solving_power_equations.html",
+  "type": "Worksheet",
+  "number": "3.4",
+  "title": "Solving power equations (and roots) – Practice exercises",
+  "body": " Solving power equations (and roots) – Practice exercises   Root Formula: The equation has solution    A pizza of diameter inches serves people where  (Story also appears in 2.4 #1)    Set up and solve an equation using the Root Formula to find the diameter of a personal pizza ( ). Answer to the nearest inch.   Set up and solve an equation using the Root Formula to find the diameter of an extra large pizza to serve 6 people. Answer to the nearest inch.    The weight of a wood cube is a function of the length of the sides. A cube with sides each inches long has weight ounces according to the equation    What is the weight of a cube with sides 2 inches long? 3 inches?   Draw a graph showing how the weight depends on the side length. Include .    Set up and solve an equation to find the length of the side of a wood cube weighing 8 ounces.   Repeat for 1 pound (that is 16 ounces).    Suppose a car gas tank is designed to hold enough fuel to drive 350 miles. (That is fairly average.) That means the size tank, gallons, is a function of the fuel efficiency, miles per gallon (mpg), according to the equation  (Story also appears in 2.4 #2)    My Honda Accord's tank holds about 16 gallons. According to the equation, what is the corresponding fuel efficiency? Set up and solve the equation. Start solving by multiplying both sides by . Note: you will not need to take a root.    My ex-husband's Honda Civic's tank holds only 13 gallons. According to the equation, what is the corresponding fuel efficiency. Set up and solve the equation.    Moose bought a commemorative football jersey for $150 twelve years ago. Now he is planning to sell it and is interested in what the effective return (equivalent annual percent increase) on his investment might be for various prices. If $ is the current value of the jersey and is the annual growth factor, then For each part, first solve for using the Root Formula , then calculate . The effective return is written as a percentage.   Find the effective return if the current value is $290.   Find the effective return if the current value is $350.   Find the effective return if the current value is $400.    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    What a power equation is?    What we mean by square root, cube root, and th root?    How to calculate square roots, cube roots, and th roots on your calculator?    How to evaluate the Root Formula on your calculator?    When to use the Root Formula ? Ask your instructor if you need to remember the Root Formula or it will be provided during the exam.     How to solve a power equation?    What the graph of a power function looks like?     Don't forget!    "
+},
+{
+  "id": "ws-Solving_power_equations-2",
+  "level": "2",
+  "url": "ws-Solving_power_equations.html#ws-Solving_power_equations-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Root Formula: "
+},
+{
+  "id": "ws-Solving_power_equations-3",
+  "level": "2",
+  "url": "ws-Solving_power_equations.html#ws-Solving_power_equations-3",
+  "type": "Worksheet Exercise",
+  "number": "3.4.1",
+  "title": "",
+  "body": " A pizza of diameter inches serves people where  (Story also appears in 2.4 #1)    Set up and solve an equation using the Root Formula to find the diameter of a personal pizza ( ). Answer to the nearest inch.   Set up and solve an equation using the Root Formula to find the diameter of an extra large pizza to serve 6 people. Answer to the nearest inch.  "
+},
+{
+  "id": "ws-Solving_power_equations-4",
+  "level": "2",
+  "url": "ws-Solving_power_equations.html#ws-Solving_power_equations-4",
+  "type": "Worksheet Exercise",
+  "number": "3.4.2",
+  "title": "",
+  "body": " The weight of a wood cube is a function of the length of the sides. A cube with sides each inches long has weight ounces according to the equation    What is the weight of a cube with sides 2 inches long? 3 inches?   Draw a graph showing how the weight depends on the side length. Include .    Set up and solve an equation to find the length of the side of a wood cube weighing 8 ounces.   Repeat for 1 pound (that is 16 ounces).  "
+},
+{
+  "id": "ws-Solving_power_equations-5",
+  "level": "2",
+  "url": "ws-Solving_power_equations.html#ws-Solving_power_equations-5",
+  "type": "Worksheet Exercise",
+  "number": "3.4.3",
+  "title": "",
+  "body": " Suppose a car gas tank is designed to hold enough fuel to drive 350 miles. (That is fairly average.) That means the size tank, gallons, is a function of the fuel efficiency, miles per gallon (mpg), according to the equation  (Story also appears in 2.4 #2)    My Honda Accord's tank holds about 16 gallons. According to the equation, what is the corresponding fuel efficiency? Set up and solve the equation. Start solving by multiplying both sides by . Note: you will not need to take a root.    My ex-husband's Honda Civic's tank holds only 13 gallons. According to the equation, what is the corresponding fuel efficiency. Set up and solve the equation.  "
+},
+{
+  "id": "ws-Solving_power_equations-6",
+  "level": "2",
+  "url": "ws-Solving_power_equations.html#ws-Solving_power_equations-6",
+  "type": "Worksheet Exercise",
+  "number": "3.4.4",
+  "title": "",
+  "body": " Moose bought a commemorative football jersey for $150 twelve years ago. Now he is planning to sell it and is interested in what the effective return (equivalent annual percent increase) on his investment might be for various prices. If $ is the current value of the jersey and is the annual growth factor, then For each part, first solve for using the Root Formula , then calculate . The effective return is written as a percentage.   Find the effective return if the current value is $290.   Find the effective return if the current value is $350.   Find the effective return if the current value is $400.  "
+},
+{
+  "id": "ws-Solving_power_equations-7-2",
+  "level": "2",
+  "url": "ws-Solving_power_equations.html#ws-Solving_power_equations-7-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-Solving_power_equations_end-2",
+  "level": "2",
+  "url": "ws-Solving_power_equations.html#ss-Solving_power_equations_end-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Root Formula Root Formula Root Formula "
+},
+{
+  "id": "ss-Solving_power_equations_end-3",
+  "level": "2",
+  "url": "ws-Solving_power_equations.html#ss-Solving_power_equations_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
+  "id": "ws-Solving_exponential_equations",
+  "level": "1",
+  "url": "ws-Solving_exponential_equations.html",
+  "type": "Worksheet",
+  "number": "3.5",
+  "title": "Solving exponential equations (and logs) - Practice exercises",
+  "body": " Solving exponential equations (and logs) - Practice exercises   Log-Divides Formula: The equation has solution    After his first beer, Stephen's blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour. The equation is where is Stephen's BAC and is the time, measured in hours. (Story also appears in 1.1 #4 and 2.4 Exercises)    Make a table showing Stephen's BAC at the start of the story ( ) and each of the next four hours.   At a BAC of 0.10 it is illegal for Stephen to drive. When will that happen? Set up and solve an equation using the Log Divides Formula . Answer to the nearest minute.   Hopefully Stephen will stop drinking before he reaches a BAC of 0.20. If not, at the rate he is drinking, when would that be? Set up and solve an equation. Answer to the nearest minute.    Chlorine is used to disinfect water in swimming pools. The chlorine concentration decreases as the pool is used according to the equation where is the chlorine concentration in parts per million (ppm) and is the time in hours since the concentration was first measured. (Story also appears in 5.3 #3)    Make a table showing the chlorine concentration initially and after the swimming pool is used for 3 hours, 10 hours, 24 hours, and 48 hours.   Draw a graph illustrating the function.    Chlorine concentrations below 1.5 ppm do not disinfect properly so more chlorine needs to be added. According to your graph, approximately when will that happen?   The problem continues ...    Use successive approximation to find approximately when the concentration falls below 1.5 ppm.   Solve the equation to find exactly when the chlorine concentration falls below 1.5 ppm.   Solve the equation to find when the chlorine concentration would fall below 0.1 ppm (essentially no chlorine) assuming no chlorine was added earlier. Show how to solve the equation to find the answer (and check it!).   Report your answer to the nearest day.    Rent in the Riverside Neighborhood is expected to increase 7.2% each year. Average rent for an apartment is currently $830 per month. Earlier we identified the variables as for the monthly rent (in $) and for time in years. (Story also appears in 1.1 #2)    Find the annual growth factor.   Write an equation showing how rent is expected to change.   Use successive approximation to determine approximately when rent will pass $1,000\/month. Display your work in a table. Round to the appropriate year.   Show how to solve the equation to calculate exactly when rent will pass $1,000\/month. Round to the appropriate year.   Solve again to determine when rent will reach double what it is now, namely $1,660\/month, assuming this trend continues.    Dontrell and Kim borrowed money to buy a house on a 30-year mortgage. After months of making payments, Dontrell and Kim will still owe $ where  is also known as the payoff (how much they would need to pay to settle the debt). (Story also appears in 2.3 #3)    How much did Dontrell and Kim originally borrow to buy their house?   They have been in the house for 5 years now and due to a downturn in the housing market, their house is worth only $150,000. Are they underwater , meaning do they owe more than the house is worth?   How much longer would Dontrell and Kim need to stay in their house until they only owe $150,000? That means you need to solve the equation     When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    What log means?    The connection is between logs and scientific notation?    How to evaluate logs on your calculator?    How to evaluate the Log Divides Formula using your calcuator?    When to use the Log Divides Formula ? Ask your instructor if you need to remember the Log Divides Formula or if it will be provided during the exam.     How to solve an exponential equation?     Don't forget!    "
+},
+{
+  "id": "ws-Solving_exponential_equations-2",
+  "level": "2",
+  "url": "ws-Solving_exponential_equations.html#ws-Solving_exponential_equations-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Log-Divides Formula: "
+},
+{
+  "id": "ws-Solving_exponential_equations-3",
+  "level": "2",
+  "url": "ws-Solving_exponential_equations.html#ws-Solving_exponential_equations-3",
+  "type": "Worksheet Exercise",
+  "number": "3.5.1",
+  "title": "",
+  "body": " After his first beer, Stephen's blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour. The equation is where is Stephen's BAC and is the time, measured in hours. (Story also appears in 1.1 #4 and 2.4 Exercises)    Make a table showing Stephen's BAC at the start of the story ( ) and each of the next four hours.   At a BAC of 0.10 it is illegal for Stephen to drive. When will that happen? Set up and solve an equation using the Log Divides Formula . Answer to the nearest minute.   Hopefully Stephen will stop drinking before he reaches a BAC of 0.20. If not, at the rate he is drinking, when would that be? Set up and solve an equation. Answer to the nearest minute.  "
+},
+{
+  "id": "ws-Solving_exponential_equations-4",
+  "level": "2",
+  "url": "ws-Solving_exponential_equations.html#ws-Solving_exponential_equations-4",
+  "type": "Worksheet Exercise",
+  "number": "3.5.2",
+  "title": "",
+  "body": " Chlorine is used to disinfect water in swimming pools. The chlorine concentration decreases as the pool is used according to the equation where is the chlorine concentration in parts per million (ppm) and is the time in hours since the concentration was first measured. (Story also appears in 5.3 #3)    Make a table showing the chlorine concentration initially and after the swimming pool is used for 3 hours, 10 hours, 24 hours, and 48 hours.   Draw a graph illustrating the function.    Chlorine concentrations below 1.5 ppm do not disinfect properly so more chlorine needs to be added. According to your graph, approximately when will that happen?   The problem continues ...    Use successive approximation to find approximately when the concentration falls below 1.5 ppm.   Solve the equation to find exactly when the chlorine concentration falls below 1.5 ppm.   Solve the equation to find when the chlorine concentration would fall below 0.1 ppm (essentially no chlorine) assuming no chlorine was added earlier. Show how to solve the equation to find the answer (and check it!).   Report your answer to the nearest day.  "
+},
+{
+  "id": "ws-Solving_exponential_equations-5",
+  "level": "2",
+  "url": "ws-Solving_exponential_equations.html#ws-Solving_exponential_equations-5",
+  "type": "Worksheet Exercise",
+  "number": "3.5.3",
+  "title": "",
+  "body": " Rent in the Riverside Neighborhood is expected to increase 7.2% each year. Average rent for an apartment is currently $830 per month. Earlier we identified the variables as for the monthly rent (in $) and for time in years. (Story also appears in 1.1 #2)    Find the annual growth factor.   Write an equation showing how rent is expected to change.   Use successive approximation to determine approximately when rent will pass $1,000\/month. Display your work in a table. Round to the appropriate year.   Show how to solve the equation to calculate exactly when rent will pass $1,000\/month. Round to the appropriate year.   Solve again to determine when rent will reach double what it is now, namely $1,660\/month, assuming this trend continues.  "
+},
+{
+  "id": "ws-Solving_exponential_equations-6",
+  "level": "2",
+  "url": "ws-Solving_exponential_equations.html#ws-Solving_exponential_equations-6",
+  "type": "Worksheet Exercise",
+  "number": "3.5.4",
+  "title": "",
+  "body": " Dontrell and Kim borrowed money to buy a house on a 30-year mortgage. After months of making payments, Dontrell and Kim will still owe $ where  is also known as the payoff (how much they would need to pay to settle the debt). (Story also appears in 2.3 #3)    How much did Dontrell and Kim originally borrow to buy their house?   They have been in the house for 5 years now and due to a downturn in the housing market, their house is worth only $150,000. Are they underwater , meaning do they owe more than the house is worth?   How much longer would Dontrell and Kim need to stay in their house until they only owe $150,000? That means you need to solve the equation   "
+},
+{
+  "id": "ws-Solving_exponential_equations-7-2",
+  "level": "2",
+  "url": "ws-Solving_exponential_equations.html#ws-Solving_exponential_equations-7-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-Solving_exponential_equations_end-2",
+  "level": "2",
+  "url": "ws-Solving_exponential_equations.html#ss-Solving_exponential_equations_end-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Log Divides Formula Log Divides Formula Log Divides Formula "
+},
+{
+  "id": "ss-Solving_exponential_equations_end-3",
+  "level": "2",
+  "url": "ws-Solving_exponential_equations.html#ss-Solving_exponential_equations_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
+  "id": "ws-Solving_quadratic_equations",
+  "level": "1",
+  "url": "ws-Solving_quadratic_equations.html",
+  "type": "Worksheet",
+  "number": "3.6",
+  "title": "Solving quadratic equations - Practice exercises",
+  "body": " Solving quadratic equations - Practice exercises   Quadratic Formula: The equation has solutions    A high-jumper jumps so that the height, feet, of the point on his back that must clear the bar after seconds is given by the equation     When would the high-jumper hit the ground (if there were no pit)? Ouch! Use the Quadratic Formula to find the answer. Use the graph to check.   The problem continues …   The high jump pit is 2 feet off the ground. When does the high-jumper land in the pit? Use the Quadratic Formula to find the answer and the graph to check.   How high a bar can the high-jumper clear? Find the maximum height of that point above ground by evaluating at . Use the graph to check.    The art museum opened in 1920. After an initial rush to see the great holdings, attendance dropped for awhile. But then attendance began to rise again and has risen since. The number of annual visits is approximated by the equation where is time measured in years since 1920.   Calculate the missing values in the table.    year  1920  1925  1930  1935  1940  1945  1950     0  5  10  15  20  25  30     3,700   400  2,575  7,300   24,400     Draw a graph of the function.    In what year did the number of visitors first pass 30,000 in a year? Estimate the value from your graph. Then set up and solve a quadratic equation.   The problem continues ...   According to this equation, in what year was the number of annual visits the smallest? For that year, what were the number of visits? Use .   Explain why never equals 0.   What happens if you try to use the Quadratic Formula to solve for ?    The profit $ from selling tanks of milk is described by the equation    Here is a graph of the function:   Explain why negative numbers on the horizontal axis make sense in the story.   How much milk must be sold for the company to break even , meaning having $0 profit? Guess from the graph and check using the equation.   For practice, set up and solve a quadratic equation to find the break even point.   The problem continues …   How many tanks of milk would they need to sell to keep profits over $400,000? Set up and solve a quadratic equation to find the answer. Then check that it agrees with your graph. Your answer should be in the form of an inequality.     Urban community gardens are catching on. What was once an abandoned lot down the block is now a thriving 10' 25' vegetable and berry garden for the neighborhood. One neighbor volunteered to donate gravel to make a path around the garden. The path will be 3 inches deep and the same width all around.   The amount of gravel we need ( cubic feet) is given by the equation where is the width of the path in feet. For example, a path 4 feet wide requires 86 cubic feet of gravel, as you can check. (Story also appears in 2.3 and 2.4 Exercises)    If the neighbor donates 60 cubic feet of gravel, how wide a path can they build? Set up and solve a quadratic equation to find the answer in feet, accurate to two decimal places. Then convert your answer into inches.   Gravel is measured by the yard , which is short for cubic yard. There are 27 cubic feet in 1 yard of gravel. If the neighbor donates three yards of gravel, how wide a path can they build? Set up and solve a quadratic equation to find the answer in feet, accurate to two decimal places. Then convert your answer into inches.   What would it mean to solve the equation to find where ? Can you tell what the answer is from the equation (without actually solving)?    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    What a quadratic function is?    How to solve a quadratic equation?    When we use the Quadratic Formula ? Ask your instructor if you need to remember the Quadratic Formula or if it will be provided during the exam.     How to solve a quadratic equation when the function is not set equal to zero?    How to identify the values of in the formula?    How to evaluate the formula (using your calculator)?    Why there are (usually) two solutions to a quadratic equation?    How to decide which solution(s) from the Quadratic Formula are correct?    What the graph of a quadratic function looks like?    The value for the independent variable to find the highest (or lowest) value of a quadratic function?     Don't forget!    "
+},
+{
+  "id": "ws-Solving_quadratic_equations-2",
+  "level": "2",
+  "url": "ws-Solving_quadratic_equations.html#ws-Solving_quadratic_equations-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Quadratic Formula: "
+},
+{
+  "id": "ws-Solving_quadratic_equations-3",
+  "level": "2",
+  "url": "ws-Solving_quadratic_equations.html#ws-Solving_quadratic_equations-3",
+  "type": "Worksheet Exercise",
+  "number": "3.6.1",
+  "title": "",
+  "body": " A high-jumper jumps so that the height, feet, of the point on his back that must clear the bar after seconds is given by the equation     When would the high-jumper hit the ground (if there were no pit)? Ouch! Use the Quadratic Formula to find the answer. Use the graph to check.   The problem continues …   The high jump pit is 2 feet off the ground. When does the high-jumper land in the pit? Use the Quadratic Formula to find the answer and the graph to check.   How high a bar can the high-jumper clear? Find the maximum height of that point above ground by evaluating at . Use the graph to check.  "
+},
+{
+  "id": "ws-Solving_quadratic_equations-4",
+  "level": "2",
+  "url": "ws-Solving_quadratic_equations.html#ws-Solving_quadratic_equations-4",
+  "type": "Worksheet Exercise",
+  "number": "3.6.2",
+  "title": "",
+  "body": " The art museum opened in 1920. After an initial rush to see the great holdings, attendance dropped for awhile. But then attendance began to rise again and has risen since. The number of annual visits is approximated by the equation where is time measured in years since 1920.   Calculate the missing values in the table.    year  1920  1925  1930  1935  1940  1945  1950     0  5  10  15  20  25  30     3,700   400  2,575  7,300   24,400     Draw a graph of the function.    In what year did the number of visitors first pass 30,000 in a year? Estimate the value from your graph. Then set up and solve a quadratic equation.   The problem continues ...   According to this equation, in what year was the number of annual visits the smallest? For that year, what were the number of visits? Use .   Explain why never equals 0.   What happens if you try to use the Quadratic Formula to solve for ?  "
+},
+{
+  "id": "ws-Solving_quadratic_equations-5",
+  "level": "2",
+  "url": "ws-Solving_quadratic_equations.html#ws-Solving_quadratic_equations-5",
+  "type": "Worksheet Exercise",
+  "number": "3.6.3",
+  "title": "",
+  "body": " The profit $ from selling tanks of milk is described by the equation    Here is a graph of the function:   Explain why negative numbers on the horizontal axis make sense in the story.   How much milk must be sold for the company to break even , meaning having $0 profit? Guess from the graph and check using the equation.   For practice, set up and solve a quadratic equation to find the break even point.   The problem continues …   How many tanks of milk would they need to sell to keep profits over $400,000? Set up and solve a quadratic equation to find the answer. Then check that it agrees with your graph. Your answer should be in the form of an inequality.   "
+},
+{
+  "id": "ws-Solving_quadratic_equations-6",
+  "level": "2",
+  "url": "ws-Solving_quadratic_equations.html#ws-Solving_quadratic_equations-6",
+  "type": "Worksheet Exercise",
+  "number": "3.6.4",
+  "title": "",
+  "body": " Urban community gardens are catching on. What was once an abandoned lot down the block is now a thriving 10' 25' vegetable and berry garden for the neighborhood. One neighbor volunteered to donate gravel to make a path around the garden. The path will be 3 inches deep and the same width all around.   The amount of gravel we need ( cubic feet) is given by the equation where is the width of the path in feet. For example, a path 4 feet wide requires 86 cubic feet of gravel, as you can check. (Story also appears in 2.3 and 2.4 Exercises)    If the neighbor donates 60 cubic feet of gravel, how wide a path can they build? Set up and solve a quadratic equation to find the answer in feet, accurate to two decimal places. Then convert your answer into inches.   Gravel is measured by the yard , which is short for cubic yard. There are 27 cubic feet in 1 yard of gravel. If the neighbor donates three yards of gravel, how wide a path can they build? Set up and solve a quadratic equation to find the answer in feet, accurate to two decimal places. Then convert your answer into inches.   What would it mean to solve the equation to find where ? Can you tell what the answer is from the equation (without actually solving)?  "
+},
+{
+  "id": "ws-Solving_quadratic_equations-7-2",
+  "level": "2",
+  "url": "ws-Solving_quadratic_equations.html#ws-Solving_quadratic_equations-7-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-Solving_quadratic_equations_end-2",
+  "level": "2",
+  "url": "ws-Solving_quadratic_equations.html#ss-Solving_quadratic_equations_end-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Quadratic Formula Quadratic Formula Quadratic Formula "
+},
+{
+  "id": "ss-Solving_quadratic_equations_end-3",
+  "level": "2",
+  "url": "ws-Solving_quadratic_equations.html#ss-Solving_quadratic_equations_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
+  "id": "ws-PE3A",
+  "level": "1",
+  "url": "ws-PE3A.html",
+  "type": "Worksheet",
+  "number": "3.7",
+  "title": "Practice Exam 3A",
+  "body": " Practice Exam 3A  Relax. You have done problems like these before. Even if these problems look a bit different, just do what you can. If you're not sure of something, please ask! You may use your calculator. Please show all of your work and write down as many steps as you can. Don't spend too much time on any one problem. Do well. And remember, ask me if you're not sure about something.   Over 50 points on this exam are for solving equations and inequalities. Be sure you understand what you need to show for full credit. Using a different method will get little to no partial credit.    As you work, make a don't forget list of any information you need to look up or ask about.    The Skärstroms want to dig a new well for water for their lake cabin. The company charges $900 to bring the equipment on site and draw the permit and then $2 per foot to dig. That means where is the depth of the well (in feet) and is the cost of the well (in $).   In their neck of the woods, wells often run 200 feet deep. According to the equation, how much would that cost?   The Skärstroms have budgeted between $1,500 and $1,800 for the well. Set up and solve a chain of inequalities to find the corresponding range of depths.   No such luck. The company had to drill much deeper than hoped to find water. The final result, wonderfully cold and clear drinking water. And, a hefty bill for $2,072. How deep is their well? Set up and solve an equation.    Ceyda starts the day by downing two cans of Red Bull, containing a total of 160 mg of caffeine. Her body eliminates the caffeine at a rate of 12% each hour. That means the amount of caffeine ( mg) after hours is given by the equation graphed below     According to the equation, how much caffeine is in her body initially, after 2 hours, 5 hours, and 24 hours? Display your answers in table.   Show show to use successive approximation to find approximately when Ceyda's caffeine level first drops below 20 mg. Answer to the nearest hour.   Set up and solve an equation to determine exactly when Ceyda's caffeine level first drops below 20 mg. Round your answer to two decimal places.    Jorge deposited $1,500 in a high yield money market account and plans to leave it there for 5 years. The value of his account after 5 years, $ , will depend on the growth factor as given by the equation    Use the equation to complete the table.     1.02  1.03  1.05  1.10     1,656.12    2,415.77     Draw a graph showing how depends on the growth factor . Start the horizontal axis at 1.00, instead of 0.    Use your graph to estimate the growth factor if the value of Jorge's account after 5 years is $1,780.   Now set up and solve an equation to find the answer exactly .   What is the corresponding return on investment ? That means calculate . The return on investment is written as a percentage.    A rabbit jumps so that her height above ground is given by the formula where height of rabbit (feet above ground) and time (seconds).   At what height did the rabbit start her jump?   Can the rabbit jump over a 3 foot fence? Calculate the exact maximum height of the rabbit to decide.   How long does it take the rabbit to get 2 feet in the air, and when is she at that height again? Set up and solve the appropriate equation to find the answers.   "
+},
+{
+  "id": "ws-PE3A-3",
+  "level": "2",
+  "url": "ws-PE3A.html#ws-PE3A-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Over 50 points on this exam are for solving equations and inequalities. Be sure you understand what you need to show for full credit. Using a different method will get little to no partial credit. "
+},
+{
+  "id": "ws-PE3A-5",
+  "level": "2",
+  "url": "ws-PE3A.html#ws-PE3A-5",
+  "type": "Worksheet Exercise",
+  "number": "3.7.1",
+  "title": "",
+  "body": " The Skärstroms want to dig a new well for water for their lake cabin. The company charges $900 to bring the equipment on site and draw the permit and then $2 per foot to dig. That means where is the depth of the well (in feet) and is the cost of the well (in $).   In their neck of the woods, wells often run 200 feet deep. According to the equation, how much would that cost?   The Skärstroms have budgeted between $1,500 and $1,800 for the well. Set up and solve a chain of inequalities to find the corresponding range of depths.   No such luck. The company had to drill much deeper than hoped to find water. The final result, wonderfully cold and clear drinking water. And, a hefty bill for $2,072. How deep is their well? Set up and solve an equation.  "
+},
+{
+  "id": "ws-PE3A-6",
+  "level": "2",
+  "url": "ws-PE3A.html#ws-PE3A-6",
+  "type": "Worksheet Exercise",
+  "number": "3.7.2",
+  "title": "",
+  "body": " Ceyda starts the day by downing two cans of Red Bull, containing a total of 160 mg of caffeine. Her body eliminates the caffeine at a rate of 12% each hour. That means the amount of caffeine ( mg) after hours is given by the equation graphed below     According to the equation, how much caffeine is in her body initially, after 2 hours, 5 hours, and 24 hours? Display your answers in table.   Show show to use successive approximation to find approximately when Ceyda's caffeine level first drops below 20 mg. Answer to the nearest hour.   Set up and solve an equation to determine exactly when Ceyda's caffeine level first drops below 20 mg. Round your answer to two decimal places.  "
+},
+{
+  "id": "ws-PE3A-7",
+  "level": "2",
+  "url": "ws-PE3A.html#ws-PE3A-7",
+  "type": "Worksheet Exercise",
+  "number": "3.7.3",
+  "title": "",
+  "body": " Jorge deposited $1,500 in a high yield money market account and plans to leave it there for 5 years. The value of his account after 5 years, $ , will depend on the growth factor as given by the equation    Use the equation to complete the table.     1.02  1.03  1.05  1.10     1,656.12    2,415.77     Draw a graph showing how depends on the growth factor . Start the horizontal axis at 1.00, instead of 0.    Use your graph to estimate the growth factor if the value of Jorge's account after 5 years is $1,780.   Now set up and solve an equation to find the answer exactly .   What is the corresponding return on investment ? That means calculate . The return on investment is written as a percentage.  "
+},
+{
+  "id": "ws-PE3A-8",
+  "level": "2",
+  "url": "ws-PE3A.html#ws-PE3A-8",
+  "type": "Worksheet Exercise",
+  "number": "3.7.4",
+  "title": "",
+  "body": " A rabbit jumps so that her height above ground is given by the formula where height of rabbit (feet above ground) and time (seconds).   At what height did the rabbit start her jump?   Can the rabbit jump over a 3 foot fence? Calculate the exact maximum height of the rabbit to decide.   How long does it take the rabbit to get 2 feet in the air, and when is she at that height again? Set up and solve the appropriate equation to find the answers.  "
+},
+{
+  "id": "ws-PE3B",
+  "level": "1",
+  "url": "ws-PE3B.html",
+  "type": "Worksheet",
+  "number": "3.8",
+  "title": "Practice Exam 3B",
+  "body": " Practice Exam 3B   Try taking this version of the practice exam under testing conditions: no book, no notes, no classmate's help, no electronics (computer, cell phone, television). Give yourself one hour to work and wait until you have tried your best on all of the problems before checking any answers.    Caution: Usually more than half points on this exam are for solving equations and inequalities. Be sure you understand what you need to show for full credit. Using a different method, or not showing enough work might get little to no partial credit.   Goldie the Goldfish, Pinches the Lobster, Quackers the Duck, Speedy the Turtle These names are registered trademarked. . These first generation Beanie Babies toys were anticipated to increase in value according to the equation where is the value of Beanie Babies (in $) and is the time in years since 1994.   Make a table showing the anticipated value in 1994, 2004, 2010, and 2025.   Draw a graph showing how the value of the Beanie Babies increased.    The problem continues …   Set up and solve an equation to determine when will Beanie Babies made in 1994 were anticipated to be worth over $40. Report the actual year.    Best we can tell, the floor of our front porch was 7'2\" above ground when the house was built. It has been slowly sinking ever since. The contractor estimated that it's dropped 0.45 inches per year. The equation is where is the height of the porch (in inches) and is the age of the house (in years).   Make a table showing the height of the front porch when the house was built, when it was 20 years old, and when it was 50 years old.   The floor of our front porch is currently 48 inches above ground. Set up and solve an equation to figure out how old our house is.   Once the porch is below 40 inches, we will have to do something to fix it. Set up and solve an inequality to find when that will happen, answering to the nearest year. Hint: the house is already old. Report how many years from now.     In a shot put competition, athletes try to throw a heavy metal ball as far as possible. For one athlete the ball closely followed the parabolic arch given by the equation where was the distance the ball had travelled horizontally and was the height of the ball above ground, both in feet. The path of the ball is graphed below.    How far away did the ball land? Estimate the answer from the graph. Then show how to set up and solve an equation to find the answer to two decimal places.   How high up did the ball get? Show how to find the exact answer. Then compare to the graph.    The amount of snow in a snowball, cups, depends on the diameter (distance across) of the snowball, inches according to the equation    How many cups of snow are needed to make a snowball that is 3 inches across? 5 inches across?   How many cups of snow are needed to make a snowball that is 2 feet across? Give your answer in gallons. Use that 1 gallon = 4 quarts and 1 quart = 4 cups.   Karen has a 5 gallon paint bucket packed with snow and wants to make a giant snowball out of it. How big will the snowball be? Show how to use successive approximation to approximate the answer to the nearest inch. Display your calculations in a table.   Now set up and solve an equation to find the answer exactly , to the nearest inch.   "
+},
+{
+  "id": "ws-PE3B-3",
+  "level": "2",
+  "url": "ws-PE3B.html#ws-PE3B-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Caution: "
+},
+{
+  "id": "ws-PE3B-4",
+  "level": "2",
+  "url": "ws-PE3B.html#ws-PE3B-4",
+  "type": "Worksheet Exercise",
+  "number": "3.8.1",
+  "title": "",
+  "body": " Goldie the Goldfish, Pinches the Lobster, Quackers the Duck, Speedy the Turtle These names are registered trademarked. . These first generation Beanie Babies toys were anticipated to increase in value according to the equation where is the value of Beanie Babies (in $) and is the time in years since 1994.   Make a table showing the anticipated value in 1994, 2004, 2010, and 2025.   Draw a graph showing how the value of the Beanie Babies increased.    The problem continues …   Set up and solve an equation to determine when will Beanie Babies made in 1994 were anticipated to be worth over $40. Report the actual year.  "
+},
+{
+  "id": "ws-PE3B-5",
+  "level": "2",
+  "url": "ws-PE3B.html#ws-PE3B-5",
+  "type": "Worksheet Exercise",
+  "number": "3.8.2",
+  "title": "",
+  "body": " Best we can tell, the floor of our front porch was 7'2\" above ground when the house was built. It has been slowly sinking ever since. The contractor estimated that it's dropped 0.45 inches per year. The equation is where is the height of the porch (in inches) and is the age of the house (in years).   Make a table showing the height of the front porch when the house was built, when it was 20 years old, and when it was 50 years old.   The floor of our front porch is currently 48 inches above ground. Set up and solve an equation to figure out how old our house is.   Once the porch is below 40 inches, we will have to do something to fix it. Set up and solve an inequality to find when that will happen, answering to the nearest year. Hint: the house is already old. Report how many years from now.   "
+},
+{
+  "id": "ws-PE3B-6",
+  "level": "2",
+  "url": "ws-PE3B.html#ws-PE3B-6",
+  "type": "Worksheet Exercise",
+  "number": "3.8.3",
+  "title": "",
+  "body": " In a shot put competition, athletes try to throw a heavy metal ball as far as possible. For one athlete the ball closely followed the parabolic arch given by the equation where was the distance the ball had travelled horizontally and was the height of the ball above ground, both in feet. The path of the ball is graphed below.    How far away did the ball land? Estimate the answer from the graph. Then show how to set up and solve an equation to find the answer to two decimal places.   How high up did the ball get? Show how to find the exact answer. Then compare to the graph.  "
+},
+{
+  "id": "ws-PE3B-7",
+  "level": "2",
+  "url": "ws-PE3B.html#ws-PE3B-7",
+  "type": "Worksheet Exercise",
+  "number": "3.8.4",
+  "title": "",
+  "body": " The amount of snow in a snowball, cups, depends on the diameter (distance across) of the snowball, inches according to the equation    How many cups of snow are needed to make a snowball that is 3 inches across? 5 inches across?   How many cups of snow are needed to make a snowball that is 2 feet across? Give your answer in gallons. Use that 1 gallon = 4 quarts and 1 quart = 4 cups.   Karen has a 5 gallon paint bucket packed with snow and wants to make a giant snowball out of it. How big will the snowball be? Show how to use successive approximation to approximate the answer to the nearest inch. Display your calculations in a table.   Now set up and solve an equation to find the answer exactly , to the nearest inch.  "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
