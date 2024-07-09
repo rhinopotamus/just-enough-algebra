@@ -14,11 +14,12 @@
     <!-- Include chapters -->
     <xi:include href="./ch-Variables.ptx" />
     <xi:include href="./ch-Equations.ptx" />
+    <xi:include href="./ch-Solving_equations.ptx" />
 
 <!-- Not yet converted: -->
 <!-- 
     
-    <xi:include href="./ch-Solving_equationsWS.ptx" />
+    
     <xi:include href="./ch-Closer_look_linearsWS.ptx" />
     <xi:include href="./ch-Closer_look_exponentialsWS.ptx" />
 -->

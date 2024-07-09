@@ -359,7 +359,7 @@ function Table(caption, aligns, widths, headers, rows)
     class = (class == "even" and "odd") or "even"
     add(tabsp..'<row left="minor" class="' .. class .. '">')
     for i,c in pairs(row) do
-      add(tabsp..'<cell halign="' .. html_align(aligns[i]) .. '">' .. c .. '</cell>')
+      add(tabsp..'<cell right="minor" halign="' .. html_align(aligns[i]) .. '">' .. c .. '</cell>')
     end
     add(tabs..'</row>')
   end
