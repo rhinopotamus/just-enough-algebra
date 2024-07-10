@@ -1387,6 +1387,258 @@ var ptx_lunr_docs = [
   "body": " The amount of snow in a snowball, cups, depends on the diameter (distance across) of the snowball, inches according to the equation    How many cups of snow are needed to make a snowball that is 3 inches across? 5 inches across?   How many cups of snow are needed to make a snowball that is 2 feet across? Give your answer in gallons. Use that 1 gallon = 4 quarts and 1 quart = 4 cups.   Karen has a 5 gallon paint bucket packed with snow and wants to make a giant snowball out of it. How big will the snowball be? Show how to use successive approximation to approximate the answer to the nearest inch. Display your calculations in a table.   Now set up and solve an equation to find the answer exactly , to the nearest inch.  "
 },
 {
+  "id": "ws-Modeling_linear_equations",
+  "level": "1",
+  "url": "ws-Modeling_linear_equations.html",
+  "type": "Worksheet",
+  "number": "4.1",
+  "title": "Modeling with linear equations - Practice exercises",
+  "body": " Modeling with linear equations - Practice exercises   A solar heating system costs approximately $30,000 to install and $150 per year to run. By comparison, a gas heating system costs approximately $12,000 to install and $700 per year to run Source: Using Algebra by Ethan Bolker . (Story also appears in 4.2 Exercises)    What is the total cost for installing and running a gas heating system for 30 years?   Name variables and write a linear equation showing how the total cost for a gas heating system depends on the number of years you run it.   Name variables and write a linear equation showing how the total cost for a solar heating system depends on the number of years you run it.   If you install and run a solar heating system, how many years can you use it before it costs the same as installing and running a gas heating system for 30 years (your answer to part (a))? Set up and solve an equation.    Since a very popular e-book reader was released, the price has been decreasing at a constant rate. A blogger developed the following equation representing the price of the e-book reader months since it was released:    Make a table of values for the e-book reader price initially, after 10 months, and after 25 months.   What does the 359 mean in the story and what are its units?   What does the 12 mean in the story and what are its units?   Draw a graph illustrating the dependence.     The problem continues …   After approximately how many months was the price of the e-book reader expected to be down to $200? Set up and solve an equation.   Sareth decided to purchase a e-book reader when the price fell below $100. How many months after its release did the price of the e-book reader fall below that level? Set up and solve an inequality.   If you can believe what you read in blogs, the manufacturer will soon be giving away the e-book reader for free, since they make money on the e-book sales themselves. How many months after it was released would that happen, according to our equation? Set up and solve an equation.    Can you tell from the table which of these functions are linear? Use the rate of change to help you decide. Remember that these numbers may have been rounded.   Savings bonds from grandpa. (Story also appears in 1.2 #1 and 5.3 #1)     Year  1962  1970  1980  1990  2000  2010    Value bond ($)  200.00  318.77  570.87  1,022.34  1,830.85  3,278.77     Wind chill at 10 F. (Story also appears in 1.2 #2)     Wind (mph)  0  10  20  30  40    Wind chill (°F)  10  -4  -9  -12  -15     Pizza. (Story also appears in 2.4 #1 and 3.3 #1)     Size (inches)  8  14  16    People  1  3  4     Water in the reservoir. (Story also appears in 2.1 #2 and 3.2 Exercises)     Week  1  5  10  20    Depth (feet)  45.5  39.5  32  17      Plumbers are really expensive, so I have been comparing prices. James charges $50 to show up plus $120 per hour. Jo is just getting started in the business. She charges $45 to show up plus $55 per hour. Mario advertises no trip charge but his hourly rate is $90 per hour. Not to be outdone, Luigi offers to unclog any drain for $150, no matter how long it takes. For each plumber, the table lists the corresponding equation and several points. In each equation, the plumber charges $ for hours of work. (Story also appears in 2.1 Exercises)     Plumber  James  Jo  Mario  Luigi    Equation        0 hours  $50  $45  $0  $150    2 hours  $290  $155  $180  $150    4 hours  $530  $265  $360  $150     Use the points given to plot each of the four lines on the same set of axes. Label each line with the plumber's name.    What do you notice about Luigi's line?   List the plumbers in order from steepest to least steep line. What does that mean in terms of the story?   Now list the plumbers in order from smallest to largest intercept of their line. What does that mean in terms of the story?    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    What makes a function linear?    What the slope of a linear function means in the story and what it tells us about the graph?    What the intercept of a linear function means in the story and what it tells us about the graph?    The template for a linear equation? Ask your instructor if you need to remember the template or if it will be provided during the exam.     How to write a linear equation given the starting amount (intercept) and the rate of change (slope)?    Where the slope and intercept appear in the template of a linear equation?    What the graph of a linear function looks like?    How to solve a linear equation?    Why the rate of change of a linear function is constant?     Don't forget!    "
+},
+{
+  "id": "ws-Modeling_linear_equations-2",
+  "level": "2",
+  "url": "ws-Modeling_linear_equations.html#ws-Modeling_linear_equations-2",
+  "type": "Worksheet Exercise",
+  "number": "4.1.1",
+  "title": "",
+  "body": " A solar heating system costs approximately $30,000 to install and $150 per year to run. By comparison, a gas heating system costs approximately $12,000 to install and $700 per year to run Source: Using Algebra by Ethan Bolker . (Story also appears in 4.2 Exercises)    What is the total cost for installing and running a gas heating system for 30 years?   Name variables and write a linear equation showing how the total cost for a gas heating system depends on the number of years you run it.   Name variables and write a linear equation showing how the total cost for a solar heating system depends on the number of years you run it.   If you install and run a solar heating system, how many years can you use it before it costs the same as installing and running a gas heating system for 30 years (your answer to part (a))? Set up and solve an equation.  "
+},
+{
+  "id": "ws-Modeling_linear_equations-3",
+  "level": "2",
+  "url": "ws-Modeling_linear_equations.html#ws-Modeling_linear_equations-3",
+  "type": "Worksheet Exercise",
+  "number": "4.1.2",
+  "title": "",
+  "body": " Since a very popular e-book reader was released, the price has been decreasing at a constant rate. A blogger developed the following equation representing the price of the e-book reader months since it was released:    Make a table of values for the e-book reader price initially, after 10 months, and after 25 months.   What does the 359 mean in the story and what are its units?   What does the 12 mean in the story and what are its units?   Draw a graph illustrating the dependence.     The problem continues …   After approximately how many months was the price of the e-book reader expected to be down to $200? Set up and solve an equation.   Sareth decided to purchase a e-book reader when the price fell below $100. How many months after its release did the price of the e-book reader fall below that level? Set up and solve an inequality.   If you can believe what you read in blogs, the manufacturer will soon be giving away the e-book reader for free, since they make money on the e-book sales themselves. How many months after it was released would that happen, according to our equation? Set up and solve an equation.  "
+},
+{
+  "id": "ws-Modeling_linear_equations-4",
+  "level": "2",
+  "url": "ws-Modeling_linear_equations.html#ws-Modeling_linear_equations-4",
+  "type": "Worksheet Exercise",
+  "number": "4.1.3",
+  "title": "",
+  "body": " Can you tell from the table which of these functions are linear? Use the rate of change to help you decide. Remember that these numbers may have been rounded.   Savings bonds from grandpa. (Story also appears in 1.2 #1 and 5.3 #1)     Year  1962  1970  1980  1990  2000  2010    Value bond ($)  200.00  318.77  570.87  1,022.34  1,830.85  3,278.77     Wind chill at 10 F. (Story also appears in 1.2 #2)     Wind (mph)  0  10  20  30  40    Wind chill (°F)  10  -4  -9  -12  -15     Pizza. (Story also appears in 2.4 #1 and 3.3 #1)     Size (inches)  8  14  16    People  1  3  4     Water in the reservoir. (Story also appears in 2.1 #2 and 3.2 Exercises)     Week  1  5  10  20    Depth (feet)  45.5  39.5  32  17    "
+},
+{
+  "id": "ws-Modeling_linear_equations-5",
+  "level": "2",
+  "url": "ws-Modeling_linear_equations.html#ws-Modeling_linear_equations-5",
+  "type": "Worksheet Exercise",
+  "number": "4.1.4",
+  "title": "",
+  "body": " Plumbers are really expensive, so I have been comparing prices. James charges $50 to show up plus $120 per hour. Jo is just getting started in the business. She charges $45 to show up plus $55 per hour. Mario advertises no trip charge but his hourly rate is $90 per hour. Not to be outdone, Luigi offers to unclog any drain for $150, no matter how long it takes. For each plumber, the table lists the corresponding equation and several points. In each equation, the plumber charges $ for hours of work. (Story also appears in 2.1 Exercises)     Plumber  James  Jo  Mario  Luigi    Equation        0 hours  $50  $45  $0  $150    2 hours  $290  $155  $180  $150    4 hours  $530  $265  $360  $150     Use the points given to plot each of the four lines on the same set of axes. Label each line with the plumber's name.    What do you notice about Luigi's line?   List the plumbers in order from steepest to least steep line. What does that mean in terms of the story?   Now list the plumbers in order from smallest to largest intercept of their line. What does that mean in terms of the story?  "
+},
+{
+  "id": "ws-Modeling_linear_equations-6-2",
+  "level": "2",
+  "url": "ws-Modeling_linear_equations.html#ws-Modeling_linear_equations-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-Modeling_linear_equations_end-3",
+  "level": "2",
+  "url": "ws-Modeling_linear_equations.html#ss-Modeling_linear_equations_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
+  "id": "ws-Systems_linear_equations",
+  "level": "1",
+  "url": "ws-Systems_linear_equations.html",
+  "type": "Worksheet",
+  "number": "4.2",
+  "title": "Systems of linear equations - Practice exercises",
+  "body": " Systems of linear equations - Practice exercises   Madison wants to buy a new car, either Car A: a hybrid priced at $26,100, or Car B: a high-efficiency gas car priced at $23,700. Annual fuel costs for Car A are currently $1,100. For Car B annual fuel costs are currently $1,800. The total cost of each car will depend on how many years she keeps it.   Name the variables.   Write a linear equation for the total cost (including purchase price and fuel costs) of Car A as a function of how long she keeps it. Assume fuel costs are constant.   Write a linear equation for the total cost (including purchase price and fuel costs) of Car B as a function of how long she keeps it. Assume fuel costs are constant.   Make a table comparing the total costs for the two cars if Madison keeps the car she buys for 3, 5, or 10 years.   Set up and solve a system of linear equations to determine the payoff time , or the number of years for which the total costs of each car are equal.   Based on what you have learned, fill in the blank: The more expensive hybrid pays off if Madison is going to keep it for __ years or more.    A mug of coffee costs $3.45 at Juan's favorite cafe, unless he buys their discount card for $10 in which case a mug costs $2.90. Or, he can buy a membership for $59.99 and then coffee is only $1\/mug. If we let represent the number of mugs of coffee he buys and represent the total cost in dollars, then the equations are:    No card:     With card:     Member:      (Story also appears in 1.2 #4 and 2.1 #4)    Compare the total costs for all three options.    Mugs  0  10  20  30    No card        With card        Member         Draw a graph showing all three options.    Which option is least expensive if Juan plans to buy    A small number of mugs of coffee:    A medium number of mugs of coffee:    A large number of mugs of coffee:     The problem continues ...   Set up and solve a system of linear equations to compare total cost with no card to the total cost with the card.   Set up and solve a system of linear equation to compare the total cost with the card to the total cost with the membership.   Describe in words what you have learned.    Ahmed planted two shrubs in the backyard on May 1. The viburnum was 16.9 inches tall and expected to grow 0.4 inches each week this summer. The weigela was 20.3 inches tall but only expected to grow 0.2 inches per week. If we let represent the total height of the shrub in inches after weeks, then the equations are:    Viburnum:     Weigela:      (Story also appears in 4.1 exercises)    Compare the height of the shrubs on the given dates.    date  May 1  June 12  July 10  Sept 4     0  6  10  18    (viburnum)        (weigela)          Approximately when will the shrubs be the same height? Continue successive approximation to find the answer to the nearest week.   Set up and solve an equation to find exactly the day when the two shrubs are the same height. In what month does that happen?    The supply of flour is the amount of flour produced. It depends on the price of flour. A high price encourages producers to make more flour. If the price is low, they tend to make less of it. The dependence of the supply of flour (in loads) on the price (in $\/pound) is given by the equation   The demand of flour is the amount of flour consumers want to buy. It also depends on the price of flour. If flour sells for a high price, then consumers will buy less. If flour sells for a low price instead, then consumers will buy more. The dependence of the demand of flour (in loads) on the price (in $\/pound) is given by the equation   The equilibrium price of flour is the price where the supply equals the demand. Source: Using Algebra by Ethan Bolker    What happens if flour is priced at $1.00\/pound? That is, how much flour will be produced and how much will consumers demand?   What happens if flour is priced at $0.50\/pound? That is, how much flour will be produced and how much will consumers demand?   Graph each dependence on the same set of axes. Approximately what is the equilibrium price, according to your graph?     The problem continues …   Set up and solve an equation to find the equilibrium price of flour exactly .   When more of a product is produced than consumers want to buy, we have a surplus of the product. Solve an inequality to find the range of price values for which there will be a surplus of flour. Compare your answer to part (d).   When less of a product is produced than consumers want to buy, we have a shortage of the product. Solve an inequality to find the range of price values for which there will be a shortage of flour. Compare your answer to parts (d) and (e).    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    How to compare two linear functions using a table?    How to graph two linear functions on the same axes?    What the solution of a linear system means in terms of the story?    Where to look on a graph to see the solution of a linear system?    How to successively approximate the solution of a linear system?    How to solve a linear system?    When to use inequality instead of an equation for a linear system?     Don't forget!    "
+},
+{
+  "id": "ws-Systems_linear_equations-2",
+  "level": "2",
+  "url": "ws-Systems_linear_equations.html#ws-Systems_linear_equations-2",
+  "type": "Worksheet Exercise",
+  "number": "4.2.1",
+  "title": "",
+  "body": " Madison wants to buy a new car, either Car A: a hybrid priced at $26,100, or Car B: a high-efficiency gas car priced at $23,700. Annual fuel costs for Car A are currently $1,100. For Car B annual fuel costs are currently $1,800. The total cost of each car will depend on how many years she keeps it.   Name the variables.   Write a linear equation for the total cost (including purchase price and fuel costs) of Car A as a function of how long she keeps it. Assume fuel costs are constant.   Write a linear equation for the total cost (including purchase price and fuel costs) of Car B as a function of how long she keeps it. Assume fuel costs are constant.   Make a table comparing the total costs for the two cars if Madison keeps the car she buys for 3, 5, or 10 years.   Set up and solve a system of linear equations to determine the payoff time , or the number of years for which the total costs of each car are equal.   Based on what you have learned, fill in the blank: The more expensive hybrid pays off if Madison is going to keep it for __ years or more.  "
+},
+{
+  "id": "ws-Systems_linear_equations-3",
+  "level": "2",
+  "url": "ws-Systems_linear_equations.html#ws-Systems_linear_equations-3",
+  "type": "Worksheet Exercise",
+  "number": "4.2.2",
+  "title": "",
+  "body": " A mug of coffee costs $3.45 at Juan's favorite cafe, unless he buys their discount card for $10 in which case a mug costs $2.90. Or, he can buy a membership for $59.99 and then coffee is only $1\/mug. If we let represent the number of mugs of coffee he buys and represent the total cost in dollars, then the equations are:    No card:     With card:     Member:      (Story also appears in 1.2 #4 and 2.1 #4)    Compare the total costs for all three options.    Mugs  0  10  20  30    No card        With card        Member         Draw a graph showing all three options.    Which option is least expensive if Juan plans to buy    A small number of mugs of coffee:    A medium number of mugs of coffee:    A large number of mugs of coffee:     The problem continues ...   Set up and solve a system of linear equations to compare total cost with no card to the total cost with the card.   Set up and solve a system of linear equation to compare the total cost with the card to the total cost with the membership.   Describe in words what you have learned.  "
+},
+{
+  "id": "ws-Systems_linear_equations-4",
+  "level": "2",
+  "url": "ws-Systems_linear_equations.html#ws-Systems_linear_equations-4",
+  "type": "Worksheet Exercise",
+  "number": "4.2.3",
+  "title": "",
+  "body": " Ahmed planted two shrubs in the backyard on May 1. The viburnum was 16.9 inches tall and expected to grow 0.4 inches each week this summer. The weigela was 20.3 inches tall but only expected to grow 0.2 inches per week. If we let represent the total height of the shrub in inches after weeks, then the equations are:    Viburnum:     Weigela:      (Story also appears in 4.1 exercises)    Compare the height of the shrubs on the given dates.    date  May 1  June 12  July 10  Sept 4     0  6  10  18    (viburnum)        (weigela)          Approximately when will the shrubs be the same height? Continue successive approximation to find the answer to the nearest week.   Set up and solve an equation to find exactly the day when the two shrubs are the same height. In what month does that happen?  "
+},
+{
+  "id": "ws-Systems_linear_equations-5",
+  "level": "2",
+  "url": "ws-Systems_linear_equations.html#ws-Systems_linear_equations-5",
+  "type": "Worksheet Exercise",
+  "number": "4.2.4",
+  "title": "",
+  "body": " The supply of flour is the amount of flour produced. It depends on the price of flour. A high price encourages producers to make more flour. If the price is low, they tend to make less of it. The dependence of the supply of flour (in loads) on the price (in $\/pound) is given by the equation   The demand of flour is the amount of flour consumers want to buy. It also depends on the price of flour. If flour sells for a high price, then consumers will buy less. If flour sells for a low price instead, then consumers will buy more. The dependence of the demand of flour (in loads) on the price (in $\/pound) is given by the equation   The equilibrium price of flour is the price where the supply equals the demand. Source: Using Algebra by Ethan Bolker    What happens if flour is priced at $1.00\/pound? That is, how much flour will be produced and how much will consumers demand?   What happens if flour is priced at $0.50\/pound? That is, how much flour will be produced and how much will consumers demand?   Graph each dependence on the same set of axes. Approximately what is the equilibrium price, according to your graph?     The problem continues …   Set up and solve an equation to find the equilibrium price of flour exactly .   When more of a product is produced than consumers want to buy, we have a surplus of the product. Solve an inequality to find the range of price values for which there will be a surplus of flour. Compare your answer to part (d).   When less of a product is produced than consumers want to buy, we have a shortage of the product. Solve an inequality to find the range of price values for which there will be a shortage of flour. Compare your answer to parts (d) and (e).  "
+},
+{
+  "id": "ws-Systems_linear_equations-6-2",
+  "level": "2",
+  "url": "ws-Systems_linear_equations.html#ws-Systems_linear_equations-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-Systems_linear_equations_end-3",
+  "level": "2",
+  "url": "ws-Systems_linear_equations.html#ss-Systems_linear_equations_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
+  "id": "ws-Intercepts",
+  "level": "1",
+  "url": "ws-Intercepts.html",
+  "type": "Worksheet",
+  "number": "4.3",
+  "title": "Intercepts and direct proportionality - Practice exercises",
+  "body": " Intercepts and direct proportionality - Practice exercises   In each of the following stories, the temperature changes over time. It might be confusing to call either variable , so use for the time in hours and for the temperature in degrees (°F). In each case, time should be measured from the start of the story.   It was really cold at 8:30 this morning when Raina arrived at the office. Luckily the heating system warms things up very quickly, 4°F per hour. By 11:00 a.m. it was a very comfortable 72°F.   Figure out what the temperature was at 8:30 a.m.   Write an equation illustrating the function.   While 72°F is a perfectly good temperature for an office, not so for ballroom dancing. When Raina arrived for her practice at 5:30 that evening, she began to sweat before she even took the floor. Turns out the air conditioner had been running since 4:00 p.m. but it only cools down the room 3°F per hour.   Figure out what the temperature was at 4:00 p.m.   Write an equation illustrating the function.    Maryn is very happy. Her interior design business is finally showing a profit. She has logged a total of 471 billable hours at $35 per hour since she started her business. Accounting for start up costs, her net profit now totals $2,194.   Name the variables, including units and dependence.   What were Maryn's start up costs?   Identify the slope and intercept (including their units and sign) and explain what each means in terms of the story.   The intercept should probably be negative, and it's not 2,194.    Calculate what Maryn's profits will be once she has logged a total of 1,000 hours.   Write an equation relating the variables.   Graph the function.     For each story, find the initial weight of the person and use it to write an equation showing how the person's weight pounds depends on the time, weeks.   Jerome has gained weight since he took his power training to the next level ten weeks ago, at the rate of around 1 pound a week. He now weighs 198 pounds.   Vanessa's doctor put her on a sensible diet and exercise plan to get her back to a healthy weight. She will need to lose an average of 1.25 pounds a week to reach her goal weight of 148 pounds in a year. Use 1 year = 52 weeks.   After the past 6 weeks of terrible migrane headaches, Carlos is down to 158 pounds. He has lost 4 pounds a week.   Since she has been pregnant, Zoe has gained the recommended pound per week. Now 30 weeks pregnant and 168 pounds, she wonders if she will ever see her feet again.    Each story describes a situation that we are assuming is linear. Decide whether it is proportional , meaning the intercept equals zero. If it is proportional, explain why the intercept would be zero. If it is not proportional, explain what the intercept would mean in the story.   The price of kiwis (a kind of fruit) depends on how many kiwis you buy.   The price of a bag of tortillas depends on how many tortillas are in the bag.   The time it takes to vacuum a rug depends on the area of the rug.   The time it takes to wash dishes depends on how many dirty dishes there are.   The amount of laundry detergent I have left depends on how many loads of laundry I did.    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    What the intercept of a linear function means in the story and what it tells us about the graph?    How to calculate the intercept given the slope and an example (another point on the graph)?    Why an intercept might not make sense, for example if it's outside the domain of the function?    When a linear function is a direct proportion?    Why you cannot reason proportionally if the linear function is not a direct proportion?    What the graph of a direct proportion looks like?     Don't forget!    "
+},
+{
+  "id": "ws-Intercepts-2",
+  "level": "2",
+  "url": "ws-Intercepts.html#ws-Intercepts-2",
+  "type": "Worksheet Exercise",
+  "number": "4.3.1",
+  "title": "",
+  "body": " In each of the following stories, the temperature changes over time. It might be confusing to call either variable , so use for the time in hours and for the temperature in degrees (°F). In each case, time should be measured from the start of the story.   It was really cold at 8:30 this morning when Raina arrived at the office. Luckily the heating system warms things up very quickly, 4°F per hour. By 11:00 a.m. it was a very comfortable 72°F.   Figure out what the temperature was at 8:30 a.m.   Write an equation illustrating the function.   While 72°F is a perfectly good temperature for an office, not so for ballroom dancing. When Raina arrived for her practice at 5:30 that evening, she began to sweat before she even took the floor. Turns out the air conditioner had been running since 4:00 p.m. but it only cools down the room 3°F per hour.   Figure out what the temperature was at 4:00 p.m.   Write an equation illustrating the function.  "
+},
+{
+  "id": "ws-Intercepts-3",
+  "level": "2",
+  "url": "ws-Intercepts.html#ws-Intercepts-3",
+  "type": "Worksheet Exercise",
+  "number": "4.3.2",
+  "title": "",
+  "body": " Maryn is very happy. Her interior design business is finally showing a profit. She has logged a total of 471 billable hours at $35 per hour since she started her business. Accounting for start up costs, her net profit now totals $2,194.   Name the variables, including units and dependence.   What were Maryn's start up costs?   Identify the slope and intercept (including their units and sign) and explain what each means in terms of the story.   The intercept should probably be negative, and it's not 2,194.    Calculate what Maryn's profits will be once she has logged a total of 1,000 hours.   Write an equation relating the variables.   Graph the function.   "
+},
+{
+  "id": "ws-Intercepts-4",
+  "level": "2",
+  "url": "ws-Intercepts.html#ws-Intercepts-4",
+  "type": "Worksheet Exercise",
+  "number": "4.3.3",
+  "title": "",
+  "body": " For each story, find the initial weight of the person and use it to write an equation showing how the person's weight pounds depends on the time, weeks.   Jerome has gained weight since he took his power training to the next level ten weeks ago, at the rate of around 1 pound a week. He now weighs 198 pounds.   Vanessa's doctor put her on a sensible diet and exercise plan to get her back to a healthy weight. She will need to lose an average of 1.25 pounds a week to reach her goal weight of 148 pounds in a year. Use 1 year = 52 weeks.   After the past 6 weeks of terrible migrane headaches, Carlos is down to 158 pounds. He has lost 4 pounds a week.   Since she has been pregnant, Zoe has gained the recommended pound per week. Now 30 weeks pregnant and 168 pounds, she wonders if she will ever see her feet again.  "
+},
+{
+  "id": "ws-Intercepts-5",
+  "level": "2",
+  "url": "ws-Intercepts.html#ws-Intercepts-5",
+  "type": "Worksheet Exercise",
+  "number": "4.3.4",
+  "title": "",
+  "body": " Each story describes a situation that we are assuming is linear. Decide whether it is proportional , meaning the intercept equals zero. If it is proportional, explain why the intercept would be zero. If it is not proportional, explain what the intercept would mean in the story.   The price of kiwis (a kind of fruit) depends on how many kiwis you buy.   The price of a bag of tortillas depends on how many tortillas are in the bag.   The time it takes to vacuum a rug depends on the area of the rug.   The time it takes to wash dishes depends on how many dirty dishes there are.   The amount of laundry detergent I have left depends on how many loads of laundry I did.  "
+},
+{
+  "id": "ws-Intercepts-6-2",
+  "level": "2",
+  "url": "ws-Intercepts.html#ws-Intercepts-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-Intercepts_end-3",
+  "level": "2",
+  "url": "ws-Intercepts.html#ss-Intercepts_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
+  "id": "ws-Slopes",
+  "level": "1",
+  "url": "ws-Slopes.html",
+  "type": "Worksheet",
+  "number": "4.4",
+  "title": "Slopes - Practice exercises",
+  "body": " Slopes - Practice exercises   For his Oscars party, Harland had 70 chicken wings delivered for $51.25. For his Super Bowl bash, Harland had 125 chicken wings delivered for $83.70. In each case, the total cost includes the cost per wing and the fixed delivery charge.   Name the variables, including units and dependence.   Find the slope, including units, and explain what it means in the story.   Find the intercept, including units, and explain what it means in the story.   Write an equation for the function.   How many wings could Harland order for $100? Solve your equation.   Graph and check.     Jana is making belts out of leather strips and a metal clasp. A short belt (as shown) is 24.5 inches long and includes 7 leather strips. A long belt (not shown) is 37.3 inches long and includes 11 leather strips. Each belt includes one metal clasp that is part of the total length. All belts use the same length clasp.    Name the variables, including units.   How long is each leather strip?   How long is the metal clasp?   Write an equation relating the variables.   Solve your equation to find the number of leather strips in an extra long belt that is 43.7 inches long.    The local ski resort is trying to set the price for season passes. They know from past experience that they will sell around 14,000 passes if the season ticket price is $380. If the price is $400, they will sell fewer, perhaps only 11,000 passes. You can assume this decrease in demand is linear.   Name the variables, including units and dependence.   For every dollar increase in price, how many fewer people purchase season passes?   Find the intercept. Explain why this number does not make sense in the problem.   Why doesn't it make sense for the independent variable to be 0?   Write an equation for the function.    How many season passes will they sell if the price is reduced to $355?   The ski resort can compute the revenue (total amount of money they take in) by multiplying the ticket price times the number of tickets sold. Calculate the revenue when ticket prices are $355, $380, and $400.    Of these three prices, which yields the most revenue?    Boy, am I out of shape. Right now I can only press about 15 pounds. ( Press means lift weight off my chest. Literally.) My trainer says I should be able to press 50 pounds by the end of 10 weeks of serious lifting. I plan to increase the weight I press by a fixed amount each week.   Name the variables and write an equation for my trainer's projection. Hint: You already know the intercept.    Make a table showing my trainer's projection for after 0, 5, 10, 15, and 20 weeks.   Years ago I could press 90 pounds. At this rate, when will I be able to press at least 90 pounds again? Set up and solve an inequality.    The problem continues …   Draw a graph illustrating the function.    I am skeptical. I do not think I will be able to press 50 pounds by the end of 10 weeks. If I revise my equation, would my new slope be larger or smaller?   Try sketching in a possible revised line on your graph assuming that after 10 weeks I will press much less than 50 pounds.   Will my revised projections mean I will reach that 90-pound goal sooner or later than my trainer thinks? Explain. Hint: extend your graph.     When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    Which types of situations are linear?    What the slope of a linear function means in the story and what it tells us about the graph?    How to calculate the slope between two points?    What is means if the slope is negative?    How to find the equation of a line through two points?    How to find a linear function given two examples in a story?    If both the slope and intercept are unknown, which is easier to calculate first?     Don't forget!    "
+},
+{
+  "id": "ws-Slopes-2",
+  "level": "2",
+  "url": "ws-Slopes.html#ws-Slopes-2",
+  "type": "Worksheet Exercise",
+  "number": "4.4.1",
+  "title": "",
+  "body": " For his Oscars party, Harland had 70 chicken wings delivered for $51.25. For his Super Bowl bash, Harland had 125 chicken wings delivered for $83.70. In each case, the total cost includes the cost per wing and the fixed delivery charge.   Name the variables, including units and dependence.   Find the slope, including units, and explain what it means in the story.   Find the intercept, including units, and explain what it means in the story.   Write an equation for the function.   How many wings could Harland order for $100? Solve your equation.   Graph and check.   "
+},
+{
+  "id": "ws-Slopes-3",
+  "level": "2",
+  "url": "ws-Slopes.html#ws-Slopes-3",
+  "type": "Worksheet Exercise",
+  "number": "4.4.2",
+  "title": "",
+  "body": " Jana is making belts out of leather strips and a metal clasp. A short belt (as shown) is 24.5 inches long and includes 7 leather strips. A long belt (not shown) is 37.3 inches long and includes 11 leather strips. Each belt includes one metal clasp that is part of the total length. All belts use the same length clasp.    Name the variables, including units.   How long is each leather strip?   How long is the metal clasp?   Write an equation relating the variables.   Solve your equation to find the number of leather strips in an extra long belt that is 43.7 inches long.  "
+},
+{
+  "id": "ws-Slopes-4",
+  "level": "2",
+  "url": "ws-Slopes.html#ws-Slopes-4",
+  "type": "Worksheet Exercise",
+  "number": "4.4.3",
+  "title": "",
+  "body": " The local ski resort is trying to set the price for season passes. They know from past experience that they will sell around 14,000 passes if the season ticket price is $380. If the price is $400, they will sell fewer, perhaps only 11,000 passes. You can assume this decrease in demand is linear.   Name the variables, including units and dependence.   For every dollar increase in price, how many fewer people purchase season passes?   Find the intercept. Explain why this number does not make sense in the problem.   Why doesn't it make sense for the independent variable to be 0?   Write an equation for the function.    How many season passes will they sell if the price is reduced to $355?   The ski resort can compute the revenue (total amount of money they take in) by multiplying the ticket price times the number of tickets sold. Calculate the revenue when ticket prices are $355, $380, and $400.    Of these three prices, which yields the most revenue?  "
+},
+{
+  "id": "ws-Slopes-5",
+  "level": "2",
+  "url": "ws-Slopes.html#ws-Slopes-5",
+  "type": "Worksheet Exercise",
+  "number": "4.4.4",
+  "title": "",
+  "body": " Boy, am I out of shape. Right now I can only press about 15 pounds. ( Press means lift weight off my chest. Literally.) My trainer says I should be able to press 50 pounds by the end of 10 weeks of serious lifting. I plan to increase the weight I press by a fixed amount each week.   Name the variables and write an equation for my trainer's projection. Hint: You already know the intercept.    Make a table showing my trainer's projection for after 0, 5, 10, 15, and 20 weeks.   Years ago I could press 90 pounds. At this rate, when will I be able to press at least 90 pounds again? Set up and solve an inequality.    The problem continues …   Draw a graph illustrating the function.    I am skeptical. I do not think I will be able to press 50 pounds by the end of 10 weeks. If I revise my equation, would my new slope be larger or smaller?   Try sketching in a possible revised line on your graph assuming that after 10 weeks I will press much less than 50 pounds.   Will my revised projections mean I will reach that 90-pound goal sooner or later than my trainer thinks? Explain. Hint: extend your graph.   "
+},
+{
+  "id": "ws-Slopes-6-2",
+  "level": "2",
+  "url": "ws-Slopes.html#ws-Slopes-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-Slopes_end-3",
+  "level": "2",
+  "url": "ws-Slopes.html#ss-Slopes_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
