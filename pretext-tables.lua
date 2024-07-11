@@ -342,26 +342,26 @@ function Table(caption, aligns, widths, headers, rows)
   local empty_header = true
   for i, h in pairs(headers) do
     local align = html_align(aligns[i])
-    table.insert(header_row, tabsp..'<cell right="minor" halign="' .. align .. '">' .. h .. '</cell>')
+    table.insert(header_row, tabspp..'<cell right="minor" halign="' .. align .. '">' .. h .. '</cell>')
     empty_header = empty_header and h == ""
   end
   if empty_header then
     head = ""
   else
-    add(tabs..'<row left="minor" class="odd">')
+    add(tabsp..'<row left="minor" class="odd">')
     for _,h in pairs(header_row) do
       add(h)
     end
-    add(tabs..'</row>')
+    add(tabsp..'</row>')
   end
   local class = "even"
   for _, row in pairs(rows) do
     class = (class == "even" and "odd") or "even"
     add(tabsp..'<row left="minor" class="' .. class .. '">')
     for i,c in pairs(row) do
-      add(tabsp..'<cell right="minor" halign="' .. html_align(aligns[i]) .. '">' .. c .. '</cell>')
+      add(tabspp..'<cell right="minor" halign="' .. html_align(aligns[i]) .. '">' .. c .. '</cell>')
     end
-    add(tabs..'</row>')
+    add(tabsp..'</row>')
   end
   add(tabs..'</tabular>')
   return table.concat(buffer,'\n')

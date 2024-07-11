@@ -7,12 +7,8 @@
 	<xi:include href="ws-Systems_linear_equations.ptx" />
 	<xi:include href="ws-Intercepts.ptx" />
 	<xi:include href="ws-Slopes.ptx" />
-
-<!-- Not converted yet 
-	
-	<xi:include href="Fitting_lines_to_dataWS.ptx" />
-	<xi:include href="PE4A.ptx" />
-	<xi:include href="PE4B.ptx" />
--->
+	<xi:include href="ws-Fitting_lines_to_data.ptx" />
+	<xi:include href="ws-PE4A.ptx" />
+	<xi:include href="ws-PE4B.ptx" />
 
 </chapter>
