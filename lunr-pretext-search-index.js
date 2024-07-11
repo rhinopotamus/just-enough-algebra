@@ -1639,6 +1639,168 @@ var ptx_lunr_docs = [
   "body": "Don't forget! "
 },
 {
+  "id": "ws-Fitting_lines_to_data",
+  "level": "1",
+  "url": "ws-Fitting_lines_to_data.html",
+  "type": "Worksheet",
+  "number": "4.5",
+  "title": "Fitting lines to data – Practice exercises",
+  "body": " Fitting lines to data – Practice exercises   The scatter plot shows the total volume of wood, cubic feet, in managed forests of different ages, years.   For each line, state some reason why the fit is not good. (We know the line will not go through all, or even most, of the points, so that is not the problem. Instead look at slope\/steepness, intercept\/height, etc.)    LINE A   LINE B               LINE C   LINE D              Which of these four lines do you think fits best, and why?    Noel is considering investing in a company's stock so he looked up a few values.    Day  0  300  500    Value ($)  23.19  37.00  48.10     Calculate the daily rate of change of the stock's price during the first 300 days.   Calculate the daily rate of change of the stock's price from Day 300 to Day 500.   Is this growth linear? How do you know?   The scatter plot shows additional values of the stock Noel is considering buying.   Draw in a line through the points for Day 300 and Day 500. Label this line #1. Explain why that line does not fit the data well.   Draw in a line that fits the data better. It does not need to go through any of the points exactly. Label that line #2.    Is it true that students who work part-time have lower grades? Do the number of hours matter? The table shows the grade point average (GPA) of ten students compared to the number of hours per week each student works at a part time job. The variables we used are , for the time worked at job (hours\/week), and for the GPA, on the usual scale of 0.0 to 4.0.     0  0  10  12  14  15  16  18  20  20     3.72  3.91  3.43  2.79  3.08  2.62  2.44  3.17  3.00  2.55     Make a scatter plot of the points. Start the -axis at 2.0.    Find the equation of the line that goes through the first and last point listed.   Hint: the first point tells you the intercept.    Draw this line on your graph and label it line A.    The problem continues …   Use your equation for line A to figure out what you would expect for the GPA of a student working 30 hours per week.   It turns out, the best fitting line has equation . Make a table of values for this equation using hours.   Use that table of values to graph this best fitting line on that same set of axes. Label it line B.   According to line B, what is the greatest number of hours a student should work if they want to maintain a 3.5 GPA? Solve an equation, then check on your graph.    Mia and Mandi and opened a candy shop this January. The table shows their monthly sales profit. Except for some seasonal fluctuation, Mia and Mandi generally expect your profits to rise steadily while their business is getting established.    Month  Jan  Feb  Mar  Apr  May  Jun  Jul  Aug    Sales Profit ($)  3,394  4,702  3,683  4,840  5,632  4,432  4,649  4,590     Make a scatter plot. Begin the profit axis at $3,000.    Name the variables and write an equation for the line through January and August. Add this line (#1) to your graph. This line is too low.   The problem continues …   Write an equation for the line through March and July. Notice that you need to find the intercept this time. Add this line (#2) to your graph. This line is too steep.   Neither of these lines go anywhere near the data for February, April, and May, because those are outliers. Any idea why those months had much higher candy sales than the other months?   What does each equation give as an estimate for September's sales?   Explain why Mia and Mandi should not use either of these lines to estimate October's sales.    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    What a scatter plot is?    Why we might begin the scale for a scatter plot somewhere other than 0?    Why we would approximate data with a linear function?    How to decide visually whether a line is a reasonable approximation of the data?    The name for a point that falls very far away from an approximating line?    How to graph a line from its equation by creating a table first.    Why even the best fitting line doesn't go through most of the data points?     Don't forget!    "
+},
+{
+  "id": "ws-Fitting_lines_to_data-2",
+  "level": "2",
+  "url": "ws-Fitting_lines_to_data.html#ws-Fitting_lines_to_data-2",
+  "type": "Worksheet Exercise",
+  "number": "4.5.1",
+  "title": "",
+  "body": " The scatter plot shows the total volume of wood, cubic feet, in managed forests of different ages, years.   For each line, state some reason why the fit is not good. (We know the line will not go through all, or even most, of the points, so that is not the problem. Instead look at slope\/steepness, intercept\/height, etc.)    LINE A   LINE B               LINE C   LINE D              Which of these four lines do you think fits best, and why?  "
+},
+{
+  "id": "ws-Fitting_lines_to_data-3",
+  "level": "2",
+  "url": "ws-Fitting_lines_to_data.html#ws-Fitting_lines_to_data-3",
+  "type": "Worksheet Exercise",
+  "number": "4.5.2",
+  "title": "",
+  "body": " Noel is considering investing in a company's stock so he looked up a few values.    Day  0  300  500    Value ($)  23.19  37.00  48.10     Calculate the daily rate of change of the stock's price during the first 300 days.   Calculate the daily rate of change of the stock's price from Day 300 to Day 500.   Is this growth linear? How do you know?   The scatter plot shows additional values of the stock Noel is considering buying.   Draw in a line through the points for Day 300 and Day 500. Label this line #1. Explain why that line does not fit the data well.   Draw in a line that fits the data better. It does not need to go through any of the points exactly. Label that line #2.  "
+},
+{
+  "id": "ws-Fitting_lines_to_data-4",
+  "level": "2",
+  "url": "ws-Fitting_lines_to_data.html#ws-Fitting_lines_to_data-4",
+  "type": "Worksheet Exercise",
+  "number": "4.5.3",
+  "title": "",
+  "body": " Is it true that students who work part-time have lower grades? Do the number of hours matter? The table shows the grade point average (GPA) of ten students compared to the number of hours per week each student works at a part time job. The variables we used are , for the time worked at job (hours\/week), and for the GPA, on the usual scale of 0.0 to 4.0.     0  0  10  12  14  15  16  18  20  20     3.72  3.91  3.43  2.79  3.08  2.62  2.44  3.17  3.00  2.55     Make a scatter plot of the points. Start the -axis at 2.0.    Find the equation of the line that goes through the first and last point listed.   Hint: the first point tells you the intercept.    Draw this line on your graph and label it line A.    The problem continues …   Use your equation for line A to figure out what you would expect for the GPA of a student working 30 hours per week.   It turns out, the best fitting line has equation . Make a table of values for this equation using hours.   Use that table of values to graph this best fitting line on that same set of axes. Label it line B.   According to line B, what is the greatest number of hours a student should work if they want to maintain a 3.5 GPA? Solve an equation, then check on your graph.  "
+},
+{
+  "id": "ws-Fitting_lines_to_data-5",
+  "level": "2",
+  "url": "ws-Fitting_lines_to_data.html#ws-Fitting_lines_to_data-5",
+  "type": "Worksheet Exercise",
+  "number": "4.5.4",
+  "title": "",
+  "body": " Mia and Mandi and opened a candy shop this January. The table shows their monthly sales profit. Except for some seasonal fluctuation, Mia and Mandi generally expect your profits to rise steadily while their business is getting established.    Month  Jan  Feb  Mar  Apr  May  Jun  Jul  Aug    Sales Profit ($)  3,394  4,702  3,683  4,840  5,632  4,432  4,649  4,590     Make a scatter plot. Begin the profit axis at $3,000.    Name the variables and write an equation for the line through January and August. Add this line (#1) to your graph. This line is too low.   The problem continues …   Write an equation for the line through March and July. Notice that you need to find the intercept this time. Add this line (#2) to your graph. This line is too steep.   Neither of these lines go anywhere near the data for February, April, and May, because those are outliers. Any idea why those months had much higher candy sales than the other months?   What does each equation give as an estimate for September's sales?   Explain why Mia and Mandi should not use either of these lines to estimate October's sales.  "
+},
+{
+  "id": "ws-Fitting_lines_to_data-6-2",
+  "level": "2",
+  "url": "ws-Fitting_lines_to_data.html#ws-Fitting_lines_to_data-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-Fitting_lines_to_data_end-3",
+  "level": "2",
+  "url": "ws-Fitting_lines_to_data.html#ss-Fitting_lines_to_data_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
+  "id": "ws-PE4A",
+  "level": "1",
+  "url": "ws-PE4A.html",
+  "type": "Worksheet",
+  "number": "4.6",
+  "title": "Practice Exam 4A",
+  "body": " Practice Exam 4A  Relax. You have done problems like these before. Even if these problems look a bit different, just do what you can. If you're not sure of something, please ask! You may use your calculator. Please show all of your work and write down as many steps as you can. Don't spend too much time on any one problem. Do well. And remember, ask me if you're not sure about something.   As you work, make a don't forget list of any information you need to look up or ask about.    Forde collects miniature cars, each weighing 1.76 ounces. His car box weighs 4 ounces when empty. The total weight ounces of Forde's car box depends on the number of cars according to the equation    Make a table of values showing the weight if the box contains 1, 5, 12, or 20 cars.   Draw a graph illustrating the dependence.    How many cars can Forde fit in the box and stay under 3 pounds (that is 48 ounces)? Figure out the answer and mark the corresponding point on your graph.    Will women ever run the marathon as fast as men do? The world records are getting close. In 2012 the men's record was 2:03:38 and the women's record was 2:15:25, about 12 minutes apart! On the other hand, the record is changing very slowly. Estimates for the men's time shows about 13 seconds drop per year on average. Estimates for the women's time shows about 26 seconds drop per year on average. Source: Wikipedia (Marathon World Record Progression)    Write an equation for each function: men's and women's. The variables are marathon times (in seconds) and years (measured in years since 2012). Note that 2:03:38 = 7,418 seconds and 2:12:25 = 7,945 seconds.   Use successive approximate to estimate when the women's record might equal the men's record. Display your guesses in a table.   Set up and solve a system to find exactly when the women's record might equal the men's record.    An online music club charges a monthly enrollment fee plus $0.95 per album you download. Last month Andrew downloaded 31 albums for a total cost of $49.00.   What is the monthly enrollment fee?   Name the variables, including units, and write an equation relating them.   If Andrew's bill next month is for $87.95, how many albums did he download? Show how to solve the equation.    A report shows September sea-ice declining in the Northern hemisphere. In 1980 the extent of the sea-ice was 3.1 million square miles. By 2012, the sea-ice extended only 1.7 million square miles. For this problem, suppose that the area of sea-ice decreases linearly. Source: National Snow and Ice Data Center    Name the variables, including units.   What is the rate of sea ice decrease?   Write a linear equation relating your variables.   Scientists are concerned that if the September sea-ice falls between 200,000 and 500,000 square miles, then other climate feedbacks will lead to no more sea-ice in September. According to your equation, in what year is this expected to occur? Set up and solve an inequality to answer the question.    As people age they experience some hearing loss. A study was done to determine the comfort level of sound for people of different ages, meaning the loudest sound (in decibels) that the person could listen to comfortably. The data are given in the table.    Name  Akbar  Javier  Walter  Xang  Rolf  Derrick  Iago  Raheem    Age  45  45  55  65  75  75  85  85    Comfort level  58  61  63  71  75  80  82  79     Make a scatterplot showing the data. Scale your axes to start at 40 years and start the level at 55 decibels. Spread out your scale to get a large, detailed graph.    Draw the line through the points listed for Xang and Rolf. Explain why that line does not fit the data well. Label this line B.    The best-fitting line from statistics has equation where is the person's age (in years) and is the comfort level (in decibels). Make a table showing the values of when A = 40, 60, and 80. Use those points to add this best-fitting line to your graph.   "
+},
+{
+  "id": "ws-PE4A-4",
+  "level": "2",
+  "url": "ws-PE4A.html#ws-PE4A-4",
+  "type": "Worksheet Exercise",
+  "number": "4.6.1",
+  "title": "",
+  "body": " Forde collects miniature cars, each weighing 1.76 ounces. His car box weighs 4 ounces when empty. The total weight ounces of Forde's car box depends on the number of cars according to the equation    Make a table of values showing the weight if the box contains 1, 5, 12, or 20 cars.   Draw a graph illustrating the dependence.    How many cars can Forde fit in the box and stay under 3 pounds (that is 48 ounces)? Figure out the answer and mark the corresponding point on your graph.  "
+},
+{
+  "id": "ws-PE4A-5",
+  "level": "2",
+  "url": "ws-PE4A.html#ws-PE4A-5",
+  "type": "Worksheet Exercise",
+  "number": "4.6.2",
+  "title": "",
+  "body": " Will women ever run the marathon as fast as men do? The world records are getting close. In 2012 the men's record was 2:03:38 and the women's record was 2:15:25, about 12 minutes apart! On the other hand, the record is changing very slowly. Estimates for the men's time shows about 13 seconds drop per year on average. Estimates for the women's time shows about 26 seconds drop per year on average. Source: Wikipedia (Marathon World Record Progression)    Write an equation for each function: men's and women's. The variables are marathon times (in seconds) and years (measured in years since 2012). Note that 2:03:38 = 7,418 seconds and 2:12:25 = 7,945 seconds.   Use successive approximate to estimate when the women's record might equal the men's record. Display your guesses in a table.   Set up and solve a system to find exactly when the women's record might equal the men's record.  "
+},
+{
+  "id": "ws-PE4A-6",
+  "level": "2",
+  "url": "ws-PE4A.html#ws-PE4A-6",
+  "type": "Worksheet Exercise",
+  "number": "4.6.3",
+  "title": "",
+  "body": " An online music club charges a monthly enrollment fee plus $0.95 per album you download. Last month Andrew downloaded 31 albums for a total cost of $49.00.   What is the monthly enrollment fee?   Name the variables, including units, and write an equation relating them.   If Andrew's bill next month is for $87.95, how many albums did he download? Show how to solve the equation.  "
+},
+{
+  "id": "ws-PE4A-7",
+  "level": "2",
+  "url": "ws-PE4A.html#ws-PE4A-7",
+  "type": "Worksheet Exercise",
+  "number": "4.6.4",
+  "title": "",
+  "body": " A report shows September sea-ice declining in the Northern hemisphere. In 1980 the extent of the sea-ice was 3.1 million square miles. By 2012, the sea-ice extended only 1.7 million square miles. For this problem, suppose that the area of sea-ice decreases linearly. Source: National Snow and Ice Data Center    Name the variables, including units.   What is the rate of sea ice decrease?   Write a linear equation relating your variables.   Scientists are concerned that if the September sea-ice falls between 200,000 and 500,000 square miles, then other climate feedbacks will lead to no more sea-ice in September. According to your equation, in what year is this expected to occur? Set up and solve an inequality to answer the question.  "
+},
+{
+  "id": "ws-PE4A-8",
+  "level": "2",
+  "url": "ws-PE4A.html#ws-PE4A-8",
+  "type": "Worksheet Exercise",
+  "number": "4.6.5",
+  "title": "",
+  "body": " As people age they experience some hearing loss. A study was done to determine the comfort level of sound for people of different ages, meaning the loudest sound (in decibels) that the person could listen to comfortably. The data are given in the table.    Name  Akbar  Javier  Walter  Xang  Rolf  Derrick  Iago  Raheem    Age  45  45  55  65  75  75  85  85    Comfort level  58  61  63  71  75  80  82  79     Make a scatterplot showing the data. Scale your axes to start at 40 years and start the level at 55 decibels. Spread out your scale to get a large, detailed graph.    Draw the line through the points listed for Xang and Rolf. Explain why that line does not fit the data well. Label this line B.    The best-fitting line from statistics has equation where is the person's age (in years) and is the comfort level (in decibels). Make a table showing the values of when A = 40, 60, and 80. Use those points to add this best-fitting line to your graph.  "
+},
+{
+  "id": "ws-PE4B",
+  "level": "1",
+  "url": "ws-PE4B.html",
+  "type": "Worksheet",
+  "number": "4.7",
+  "title": "Practice Exam 4B",
+  "body": " Practice Exam 4B   Try taking this version of the practice exam under testing conditions: no book, no notes, no classmate's help, no electronics (computer, cell phone, television). Give yourself one hour to work and wait until you have tried your best on all of the problems before checking any answers.    The Vang family wants to buy a new washing machine. The first model costs $645 and then $13.29 per month to run. A more efficient model costs $940 and then $7.82 per month to run. If is the time in months and is the Vang family's total cost (in $), then the equations and some comparable values (to the nearest $) are:    First model:     Second model:        12  36  60    First model:  804.48  1,123.44  1,442.40    Second model:  1,033.84  1,221.52  1,409.20     Draw a graph illustrating both equations. Be sure to include the intercepts.     According to your graph, approximately what is the payback time (the number of months for which the total costs of each washing machine are equal)? Answer and indicate the point on the graph where you can check.   The problem continues …   Set up and solve a system of linear equations to find the payback time exactly .   If the manufacturer offers a $25 rebate on the more efficient model, how does that change the payback time? Adjust your equation and set up and solve a new system. Or carefully explain some other way of figuring it out.    It has been a long time since anyone broke the record for the men's long jump. In 1935 Jesse Owens jumped 8.13 meters. The record was next broken 25 years later, in 1960, by Ralph Boston who jumped 8.21 meters. He broke his own record several times over the next few years, including being surpassed briefly by Igor Ter-Ovanesyan. Ralph's final record was 8.35 meters in 1965. Not to be outdone, Igor tied the record in 1967. Then in 1968, Bob Beamon jumped 8.90 meters. That record held for 23 years, until Mike Powell jumped 8.95 meters in 1991, much to Carl Lewis' dismay. Powell's record still stood 21 years later, in 2012. Source: Wikipedia (Long Jump)     Draw in the line connecting the data from 1935 and 1991. Use it to predict the long jump record in 2020.   Draw in the line connecting the data from 1968 and 1991. Use it to predict the long jump record in 2020.   Which of your lines do you prefer, and why?    Arjun just graduated from college but is living with his uncle for the summer to save money. They agreed that Arjun would do chores and some light renovations instead of paying rent. Arjun has been doing around 5 hours of work a week for the past 8 weeks, but still owes his uncle another 30 hours of work.   What was the original agreement? That means, how many hours of work did Arjun originally promise his uncle?   Name the variables and write an equation relating them, assuming Arjun continues to do 5 hours a week of work.   How many more weeks will it take Arjun to finish the work he promised? Show how to solve the equation.    The local zoning commission is considering a plan to expand housing in the city, as measured in the number of residential units. But with more residential units come more shops, offices, schools, recreational facilities, churches, and other commercial property. Currently the city has 3,500 residential units and 1,575 acres of commercial property. If the proposal is passed and completed, the city will have a new total of 3,600 residential units and 1,620 acres of commercial property. You can assume this increase is linear.   Name the variables and summarize the given information in a table.   How many new acres of commercial property are there for each new residential unit built?   Write an equation relating the variables. Hint: first find the intercept.    If the city decides to limit the amount of land to 1,600 acres of commercial property, approximately how many residential units can there be? Use successive approximation, displaying your guesses in a table.   Now answer the question exactly by setting up and solving an inequality.   "
+},
+{
+  "id": "ws-PE4B-3",
+  "level": "2",
+  "url": "ws-PE4B.html#ws-PE4B-3",
+  "type": "Worksheet Exercise",
+  "number": "4.7.1",
+  "title": "",
+  "body": " The Vang family wants to buy a new washing machine. The first model costs $645 and then $13.29 per month to run. A more efficient model costs $940 and then $7.82 per month to run. If is the time in months and is the Vang family's total cost (in $), then the equations and some comparable values (to the nearest $) are:    First model:     Second model:        12  36  60    First model:  804.48  1,123.44  1,442.40    Second model:  1,033.84  1,221.52  1,409.20     Draw a graph illustrating both equations. Be sure to include the intercepts.     According to your graph, approximately what is the payback time (the number of months for which the total costs of each washing machine are equal)? Answer and indicate the point on the graph where you can check.   The problem continues …   Set up and solve a system of linear equations to find the payback time exactly .   If the manufacturer offers a $25 rebate on the more efficient model, how does that change the payback time? Adjust your equation and set up and solve a new system. Or carefully explain some other way of figuring it out.  "
+},
+{
+  "id": "ws-PE4B-4",
+  "level": "2",
+  "url": "ws-PE4B.html#ws-PE4B-4",
+  "type": "Worksheet Exercise",
+  "number": "4.7.2",
+  "title": "",
+  "body": " It has been a long time since anyone broke the record for the men's long jump. In 1935 Jesse Owens jumped 8.13 meters. The record was next broken 25 years later, in 1960, by Ralph Boston who jumped 8.21 meters. He broke his own record several times over the next few years, including being surpassed briefly by Igor Ter-Ovanesyan. Ralph's final record was 8.35 meters in 1965. Not to be outdone, Igor tied the record in 1967. Then in 1968, Bob Beamon jumped 8.90 meters. That record held for 23 years, until Mike Powell jumped 8.95 meters in 1991, much to Carl Lewis' dismay. Powell's record still stood 21 years later, in 2012. Source: Wikipedia (Long Jump)     Draw in the line connecting the data from 1935 and 1991. Use it to predict the long jump record in 2020.   Draw in the line connecting the data from 1968 and 1991. Use it to predict the long jump record in 2020.   Which of your lines do you prefer, and why?  "
+},
+{
+  "id": "ws-PE4B-5",
+  "level": "2",
+  "url": "ws-PE4B.html#ws-PE4B-5",
+  "type": "Worksheet Exercise",
+  "number": "4.7.3",
+  "title": "",
+  "body": " Arjun just graduated from college but is living with his uncle for the summer to save money. They agreed that Arjun would do chores and some light renovations instead of paying rent. Arjun has been doing around 5 hours of work a week for the past 8 weeks, but still owes his uncle another 30 hours of work.   What was the original agreement? That means, how many hours of work did Arjun originally promise his uncle?   Name the variables and write an equation relating them, assuming Arjun continues to do 5 hours a week of work.   How many more weeks will it take Arjun to finish the work he promised? Show how to solve the equation.  "
+},
+{
+  "id": "ws-PE4B-6",
+  "level": "2",
+  "url": "ws-PE4B.html#ws-PE4B-6",
+  "type": "Worksheet Exercise",
+  "number": "4.7.4",
+  "title": "",
+  "body": " The local zoning commission is considering a plan to expand housing in the city, as measured in the number of residential units. But with more residential units come more shops, offices, schools, recreational facilities, churches, and other commercial property. Currently the city has 3,500 residential units and 1,575 acres of commercial property. If the proposal is passed and completed, the city will have a new total of 3,600 residential units and 1,620 acres of commercial property. You can assume this increase is linear.   Name the variables and summarize the given information in a table.   How many new acres of commercial property are there for each new residential unit built?   Write an equation relating the variables. Hint: first find the intercept.    If the city decides to limit the amount of land to 1,600 acres of commercial property, approximately how many residential units can there be? Use successive approximation, displaying your guesses in a table.   Now answer the question exactly by setting up and solving an inequality.  "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
