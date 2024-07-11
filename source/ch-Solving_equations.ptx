@@ -2,8 +2,6 @@
 
 <chapter xml:id="ch-Solving_equations" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Solving equations</title>
-
-
 	<xi:include href="ss-Formula3.ptx" />
 	<xi:include href="ws-Solving_linear_equations.ptx" />
 	<xi:include href="ws-Solving_linear_inequalities.ptx" />
