@@ -4,13 +4,16 @@
 <worksheet xml:id="ws-PE2A" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Practice Exam 2A</title>
 
-	<p>
-		Relax. You have done problems like these before. Even if these problems look a bit different, just do what you can. If you're not sure of something, please ask! You may use your calculator. Please show all of your work and write down as many steps as you can. Don't spend too much time on any one problem. Do well. And remember, ask me if you're not sure about something.
-	</p>
-
-	<p>
-		<em>As you work, make a <q>don't forget</q> list of any information you need to look up or ask about.</em>
-	</p>
+	<introduction>
+		<p>
+			Relax. You have done problems like these before. Even if these problems look a bit different, just do what you can. If you're not sure of something, please ask! You may use your calculator. Please show all of your work and write down as many steps as you can. Don't spend too much time on any one problem. Do well. And remember, ask me if you're not sure about something.
+		</p>
+	
+		<p>
+			<em>As you work, make a <q>don't forget</q> list of any information you need to look up or ask about.</em>
+		</p>
+	</introduction>
+	
 
 	<exercise workspace="0.5in">
 		<introduction>

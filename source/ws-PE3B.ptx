@@ -3,14 +3,17 @@
 
 <worksheet xml:id="ws-PE3B" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Practice Exam 3B</title>
+	<introduction>
+		<p>
+			<em>Try taking this version of the practice exam under testing conditions: no book, no notes, no classmate's help, no electronics (computer, cell phone, television). Give yourself one hour to work and wait until you have tried your best on all of the problems before checking any answers.</em>
+		</p>
+	
+		<p>
+			<term>Caution:</term> Usually more than half points on this exam are for solving equations and inequalities. Be sure you understand what you need to show for full credit. Using a different method, or not showing enough work might get little to no partial credit.
+		</p>
+	</introduction>
 
-	<p>
-		<em>Try taking this version of the practice exam under testing conditions: no book, no notes, no classmate's help, no electronics (computer, cell phone, television). Give yourself one hour to work and wait until you have tried your best on all of the problems before checking any answers.</em>
-	</p>
-
-	<p>
-		<term>Caution:</term> Usually more than half points on this exam are for solving equations and inequalities. Be sure you understand what you need to show for full credit. Using a different method, or not showing enough work might get little to no partial credit.
-	</p>
+	
 
 	<exercise>
 		<introduction>

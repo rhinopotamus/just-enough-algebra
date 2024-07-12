@@ -5,9 +5,13 @@
 <worksheet xml:id="ws-PE4B" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Practice Exam 4B</title>
 
-	<p>
-		<em>Try taking this version of the practice exam under testing conditions: no book, no notes, no classmate's help, no electronics (computer, cell phone, television). Give yourself one hour to work and wait until you have tried your best on all of the problems before checking any answers.</em>
-	</p>
+	<introduction>
+		<p>
+			<em>Try taking this version of the practice exam under testing conditions: no book, no notes, no classmate's help, no electronics (computer, cell phone, television). Give yourself one hour to work and wait until you have tried your best on all of the problems before checking any answers.</em>
+		</p>
+	</introduction>
+
+	
 
 	<exercise>
 		<introduction>
