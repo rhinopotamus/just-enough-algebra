@@ -91,7 +91,7 @@
     <exercise>
         <introduction>
             <p>
-                Bunnies, bunnies, everywhere. Earlier we found the equation <me>B = \text{1,800}\ast 1.13^T</me> where <m>B</m> is the number of bunnies and <m>T</m> is the time in years since 2007. <em>(Story also appears in 2.2 #2)</em>
+                Bunnies, bunnies, everywhere. Earlier we found the equation <me>B = 1,800 \ast 1.13^T</me> where <m>B</m> is the number of bunnies and <m>T</m> is the time in years since 2007. <em>(Story also appears in 2.2 #2)</em>
             </p>
         </introduction>
         <task workspace="0.75in">

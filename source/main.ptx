@@ -12,6 +12,7 @@
     <xi:include href="./frontmatter.ptx" />
 
     <!-- Include chapters -->
+    <!-- <xi:include href="./ch-Prelude.ptx" /> -->
     <xi:include href="./ch-Variables.ptx" />
     <xi:include href="./ch-Equations.ptx" />
     <xi:include href="./ch-Solving_equations.ptx" />
@@ -19,7 +20,7 @@
     <xi:include href="./ch-Closer_look_exponentials.ptx" />
 
 <!-- Not yet converted: -->
-
+    
     <!-- final exams -->
     <!-- formulafinal -->
 

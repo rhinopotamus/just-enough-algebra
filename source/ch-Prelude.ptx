@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-Prelude" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>Prelude</title>
+
+	<xi:include href="ws-approximation_and_rounding.ptx" />
+    <xi:include href="ws-arithmetic_operations.ptx" />
+    <xi:include href="ws-percentages.ptx" />
+    <xi:include href="ws-order_of_operations.ptx" />
+    <xi:include href="ws-fractions.ptx" />
+    <xi:include href="ws-powers_and_roots.ptx" />
+    <xi:include href="ws-algebraic_notation.ptx" />
+    <xi:include href="ws-scientific_notation.ptx" />
+    <xi:include href="ws-logarithms.ptx" />
+
+</chapter>
