@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-Review" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Review</title>
+
+    <xi:include href="./ws-Review_exercisesA.ptx" />
+    <xi:include href="./ws-Review_exercisesB.ptx" />
+    
+    <xi:include href="./ss-Formulas_review.ptx" />
+    <xi:include href="./ss-Templates_review.ptx" />
+   
+
+    
+</chapter>
