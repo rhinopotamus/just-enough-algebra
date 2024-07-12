@@ -7,7 +7,7 @@
     <exercise>
         <introduction>
             <p>
-                The population of Buenos Aires, Argentina in 1950 was estimated<fn>Source: Mongabay</fn> at 5.0 million and expected to grow at 1.8% each year.
+                The population of Buenos Aires, Argentina in 1950 was estimated<aside>Source: Mongabay</aside> at 5.0 million and expected to grow at 1.8% each year.
             </p>
         </introduction>
         <task workspace="0.75in">
@@ -127,7 +127,7 @@
     <exercise workspace="1.2in">
         <introduction>
             <p>
-                Carbon dioxide is a greenhouse gas in our atmosphere. Increasing carbon dioxide concentrations are related to global climate change. In 1980, the carbon dioxide concentration was 338 ppm (parts per million). At that time it was assumed that carbon dioxide concentrations would increase 0.42% per year.<fn>Source: Earth Systems Research Laboratory, NOAA</fn>
+                Carbon dioxide is a greenhouse gas in our atmosphere. Increasing carbon dioxide concentrations are related to global climate change. In 1980, the carbon dioxide concentration was 338 ppm (parts per million). At that time it was assumed that carbon dioxide concentrations would increase 0.42% per year.<aside>Source: Earth Systems Research Laboratory, NOAA</aside>
             </p>
         </introduction>
         <task>

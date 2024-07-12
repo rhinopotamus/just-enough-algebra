@@ -7,7 +7,7 @@
 		<introduction>
 			<p>
 				The GDP (gross domestic product) of the United States was approximately $15,596 billion in 2011 and the population of the United States was approximately 0.313 billion that year. 
-				<fn>Source: U.S. Bureau of Economic Analysis, U.S. Census Bureau</fn>
+				<aside>Source: U.S. Bureau of Economic Analysis, U.S. Census Bureau</aside>
 			</p>
 		</introduction>
 		<task>
@@ -164,7 +164,7 @@
 		<introduction>
 			<p>
 				The list shows the (approximate) mass of the planets in our solar system.
-				<fn>Source: Wikipedia (Solar System)</fn>
+				<aside>Source: Wikipedia (Solar System)</aside>
 			</p>
 			<tabular>
 			<row class="odd">
