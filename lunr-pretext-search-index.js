@@ -874,47 +874,11 @@ var ptx_lunr_docs = [
   "body": " Kotoyo's uncle won $100,000 on a game show. If he invests it in a fund that is expected to earn 5.7% interest compounded monthly, how much will he have after 5 years? Use the Compound Interest Formula .   Kotoyo's grandmother has been contributing $150 a month into a college fund for Kotoyo for the past 8 years. The account pays 4% interest compounded monthly. How much is in the account now? Use the Future Value Annuity Formula .   Kotoyo owes $8,742 on her credit card. They charge her 16% interest compounded monthly. What would her monthly payment be if she wants to pay it off in 5 years? Use the Loan Payment Formula .   What is the equivalent annual percentage rate (APR) of Kotoyo's credit card? Use the Equivalent APR Formula . Don't forget to report the percentage.   "
 },
 {
-  "id": "ss-Formula3",
-  "level": "1",
-  "url": "ss-Formula3.html",
-  "type": "Subsection",
-  "number": "3.1",
-  "title": "Formulas for Chapter 3",
-  "body": " Formulas for Chapter 3   Root Formula: The equation has solution    Log-Divides Formula: The equation has solution    Quadratic Formula: The equation has solutions   "
-},
-{
-  "id": "ss-Formula3-2",
-  "level": "2",
-  "url": "ss-Formula3.html#ss-Formula3-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Root Formula: "
-},
-{
-  "id": "ss-Formula3-3",
-  "level": "2",
-  "url": "ss-Formula3.html#ss-Formula3-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Log-Divides Formula: "
-},
-{
-  "id": "ss-Formula3-4",
-  "level": "2",
-  "url": "ss-Formula3.html#ss-Formula3-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Quadratic Formula: "
-},
-{
   "id": "ws-Solving_linear_equations",
   "level": "1",
   "url": "ws-Solving_linear_equations.html",
   "type": "Worksheet",
-  "number": "3.2",
+  "number": "3.1",
   "title": "Solving linear equations - Practice exercises",
   "body": " Solving linear equations - Practice exercises   A truck hauling bags of grass seed weighs 3,900 pounds when it is empty. Each bag of seed it carries weighs 4.2 pounds. The equation for the gross weight pounds is for bags of grass seed. (Story also appears in 2.1 #1 & 3.2 #1)    Set up and solve an equation to determine the number of bags of grass seed being carried by the truck with gross weight of 14,500 pounds.   Do the same for a truck with gross weight 8 tons. A ton is 2,000 pounds.    Is laughter really the best medicine? A study examined the impact of comedy on anxiety levels. Subjects' anxiety levels were rated on a scale of 1 to 5 before and after the study. Levels averaged 4.3 before the study. There was no significant change in subjects in the control group. Subjects who watched the comedy videos showed a noticeable difference, and it depended on the hours of comedy watched. Anxiety levels fell an average of 0.098 (on the 1 to 5 scale) for each hour of comedy watched.   Name the variables. Anxiety is measured on a unitless scale.   Make a table showing average anxiety levels for subjects who watched comedy videos for 0 hours (control group), 2 hours, 10 hours, and 20 hours, according to these findings.   Use successive approximation to guess the approximate number of hours watching comedy needed to lower the average anxiety level below 2 (on that scale of 1 to 5).   Write an equation relating the variables.   Solve your equation to determine the exact number of hours watching comedy needed to lower the average anxiety level below 2.    Lizbeth wants to send her mom truffles for Mother's Day. It cost $ to send a box of truffles where    Make a table of values showing the charges for a box of 8 truffles, 12 truffles, or 30 truffles.   What are the units on 1.90 and what does it mean in the story?   What are the units on 7.95 and what does it mean in the story?   Draw a graph illustrating the cost of sending truffles. Include .    If Lizbeth was charged $53.55 for the box of truffles she sent her mom, how many truffles were there? Set up and solve an equation to answer the question.    The local burger restaurant had a promotion this summer. They reduced the price on a bacon double cheeseburger by 2¢ for each degree in the daily high temperature. The equation is where $ is the price of the bacon double cheeseburger and is the daily high temperature, in °F. (Story also appears in 2.1 Exercises)    What is the usual price of a bacon double cheeseburger?   Ronald paid $5.34 for a bacon double cheeseburger on Tuesday. How hot was the temperature that day? Set up and solve an equation.   What was the high temperature on Sunday when Wendy bought a bacon double cheeseburger for only $5.70? Set up and solve an equation.   Leroy is holding out for a $5 burger. What temperature will make Leroy's wish to come true? Set up and solve an equation.    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    The difference between solving and evaluating an equation?    Why we do the same thing to each side of an equation when solving?    How to solve a linear equation?    The advantages and disadvantages of solving versus successive approximation?    How to check that a solution is correct using the equation?     Don't forget!    "
 },
@@ -923,7 +887,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-Solving_linear_equations.html#ws-Solving_linear_equations-2",
   "type": "Worksheet Exercise",
-  "number": "3.2.1",
+  "number": "3.1.1",
   "title": "",
   "body": " A truck hauling bags of grass seed weighs 3,900 pounds when it is empty. Each bag of seed it carries weighs 4.2 pounds. The equation for the gross weight pounds is for bags of grass seed. (Story also appears in 2.1 #1 & 3.2 #1)    Set up and solve an equation to determine the number of bags of grass seed being carried by the truck with gross weight of 14,500 pounds.   Do the same for a truck with gross weight 8 tons. A ton is 2,000 pounds.  "
 },
@@ -932,7 +896,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-Solving_linear_equations.html#ws-Solving_linear_equations-3",
   "type": "Worksheet Exercise",
-  "number": "3.2.2",
+  "number": "3.1.2",
   "title": "",
   "body": " Is laughter really the best medicine? A study examined the impact of comedy on anxiety levels. Subjects' anxiety levels were rated on a scale of 1 to 5 before and after the study. Levels averaged 4.3 before the study. There was no significant change in subjects in the control group. Subjects who watched the comedy videos showed a noticeable difference, and it depended on the hours of comedy watched. Anxiety levels fell an average of 0.098 (on the 1 to 5 scale) for each hour of comedy watched.   Name the variables. Anxiety is measured on a unitless scale.   Make a table showing average anxiety levels for subjects who watched comedy videos for 0 hours (control group), 2 hours, 10 hours, and 20 hours, according to these findings.   Use successive approximation to guess the approximate number of hours watching comedy needed to lower the average anxiety level below 2 (on that scale of 1 to 5).   Write an equation relating the variables.   Solve your equation to determine the exact number of hours watching comedy needed to lower the average anxiety level below 2.  "
 },
@@ -941,7 +905,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-Solving_linear_equations.html#ws-Solving_linear_equations-4",
   "type": "Worksheet Exercise",
-  "number": "3.2.3",
+  "number": "3.1.3",
   "title": "",
   "body": " Lizbeth wants to send her mom truffles for Mother's Day. It cost $ to send a box of truffles where    Make a table of values showing the charges for a box of 8 truffles, 12 truffles, or 30 truffles.   What are the units on 1.90 and what does it mean in the story?   What are the units on 7.95 and what does it mean in the story?   Draw a graph illustrating the cost of sending truffles. Include .    If Lizbeth was charged $53.55 for the box of truffles she sent her mom, how many truffles were there? Set up and solve an equation to answer the question.  "
 },
@@ -950,7 +914,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-Solving_linear_equations.html#ws-Solving_linear_equations-5",
   "type": "Worksheet Exercise",
-  "number": "3.2.4",
+  "number": "3.1.4",
   "title": "",
   "body": " The local burger restaurant had a promotion this summer. They reduced the price on a bacon double cheeseburger by 2¢ for each degree in the daily high temperature. The equation is where $ is the price of the bacon double cheeseburger and is the daily high temperature, in °F. (Story also appears in 2.1 Exercises)    What is the usual price of a bacon double cheeseburger?   Ronald paid $5.34 for a bacon double cheeseburger on Tuesday. How hot was the temperature that day? Set up and solve an equation.   What was the high temperature on Sunday when Wendy bought a bacon double cheeseburger for only $5.70? Set up and solve an equation.   Leroy is holding out for a $5 burger. What temperature will make Leroy's wish to come true? Set up and solve an equation.  "
 },
@@ -977,7 +941,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "ws-Solving_linear_inequalities.html",
   "type": "Worksheet",
-  "number": "3.3",
+  "number": "3.2",
   "title": "Solving linear inequalities - Practice exercises",
   "body": " Solving linear inequalities - Practice exercises   A truck hauling bags of grass seed weighs 3,900 pounds when it is empty. Each bag of seed it carries weighs 4.2 pounds. The equation for the gross weight pounds is for bags of grass seed. (Story also appears in 2.1 #1 and 3.1 #1)    The state highways have a 18,000 pound gross weight limit. How many bags of grass seed can the truck haul? Set up and solve an appropriate inequality.   Record your answer to part (a) in the table and graph the function.     0  1,000  2,000      3,900  8,100  12,300  18,000      We used our answer to part (a) to draw our graph, so how can we check that answer to make sense?   What shape should the graph be?    The altitude, feet above ground, of an airplane minutes after it begins its descent is given by the equation Answer each question by evaluating; setting up and solving an equation; or setting up and solving an inequality, whichever is most appropriate.   At what altitude does the plane begin its descent?   How fast is the airplane descending?   What is the airplane's altitude 3 minutes into its descent? 8 minutes? 20 minutes? Display your answers in a table.   Draw a graph illustrating the function.     The problem continues …    For how many minutes of its descent is the airplane above 20,000 feet?   The airplane might be asked to go into a holding pattern (that means flying in a circle instead of landing) when it is between 6,000 and 14,000 feet up. When will the plane be in that altitude range?   How long does it take the airplane to land, assuming it is not asked to go into a holding pattern?    Anthony and Christina are trying to decide where to hold their wedding reception. For each possible site, write an equation using for the total cost of their wedding reception (in dollars) and for the number of guests. Then set up and solve an inequality to calculate the number of guests Tony and Tina can afford on their $8,000 budget. (Story also appears in 1.2 #3 and 1.3 #2)    The Metropolitan Club costs $1,300 for the space and $92 per person.   equation:      inequality:      number of guests:    Black Elk Park charges $500 to rent the pavilion and the family can bring in picnic food for $65 per person.   equation:      inequality:      number of guests:    The Dabbling Duck Inn charges $1,400 for the space and $80 per person for their local specialties.   equation:      inequality:      number of guests:    Pranzo Ristorante has only a $300 room rental fee but averages $145 per person, including wine.   equation:      inequality:      number of guests:     One variety of blueberry plant yields an average of 130 blueberries per season but there is quite a bit of variability from plant to plant. One measure of this variability is the standard deviation, which is approximated at 16.4 berries. Given a plant yielding blueberries, we can calculate how usual or unusual that is by computing its (standard) z-score using the equation For example, a plant yielding blueberries has z-score of 0. A plant yielding blueberries has z-score of Answer each question by evaluating; setting up and solving an equation; or setting up and solving an inequality, whichever is appropriate.   Calculate the z-score of a plant yielding 140 blueberries.   If the z-score for a plant is -0.7, what is the corresponding yield?   Hint: the negative z-score tells us the answer is below average.    A plant with z-score above 1.96 is considered plentiful . What yields of blueberries would be considered plentiful?   A plant with z-score between -1 and +1 is considered ordinary . What yields of blueberries would be considered ordinary?    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    Common phrases that indicate an inequality?    How to represent the idea of between using a double-sided inequality?    Why we do the same thing to each side of an inequality when solving?    How to solve a linear inequality? A chain of inequalities?    Why the inequality sign is reversed if we switch sides of the equation?    When to solve an inequality, as opposed to solving an equation?     Don't forget!    "
 },
@@ -986,7 +950,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-Solving_linear_inequalities.html#ws-Solving_linear_inequalities-2",
   "type": "Worksheet Exercise",
-  "number": "3.3.1",
+  "number": "3.2.1",
   "title": "",
   "body": " A truck hauling bags of grass seed weighs 3,900 pounds when it is empty. Each bag of seed it carries weighs 4.2 pounds. The equation for the gross weight pounds is for bags of grass seed. (Story also appears in 2.1 #1 and 3.1 #1)    The state highways have a 18,000 pound gross weight limit. How many bags of grass seed can the truck haul? Set up and solve an appropriate inequality.   Record your answer to part (a) in the table and graph the function.     0  1,000  2,000      3,900  8,100  12,300  18,000      We used our answer to part (a) to draw our graph, so how can we check that answer to make sense?   What shape should the graph be?  "
 },
@@ -995,7 +959,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-Solving_linear_inequalities.html#ws-Solving_linear_inequalities-3",
   "type": "Worksheet Exercise",
-  "number": "3.3.2",
+  "number": "3.2.2",
   "title": "",
   "body": " The altitude, feet above ground, of an airplane minutes after it begins its descent is given by the equation Answer each question by evaluating; setting up and solving an equation; or setting up and solving an inequality, whichever is most appropriate.   At what altitude does the plane begin its descent?   How fast is the airplane descending?   What is the airplane's altitude 3 minutes into its descent? 8 minutes? 20 minutes? Display your answers in a table.   Draw a graph illustrating the function.     The problem continues …    For how many minutes of its descent is the airplane above 20,000 feet?   The airplane might be asked to go into a holding pattern (that means flying in a circle instead of landing) when it is between 6,000 and 14,000 feet up. When will the plane be in that altitude range?   How long does it take the airplane to land, assuming it is not asked to go into a holding pattern?  "
 },
@@ -1004,7 +968,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-Solving_linear_inequalities.html#ws-Solving_linear_inequalities-4",
   "type": "Worksheet Exercise",
-  "number": "3.3.3",
+  "number": "3.2.3",
   "title": "",
   "body": " Anthony and Christina are trying to decide where to hold their wedding reception. For each possible site, write an equation using for the total cost of their wedding reception (in dollars) and for the number of guests. Then set up and solve an inequality to calculate the number of guests Tony and Tina can afford on their $8,000 budget. (Story also appears in 1.2 #3 and 1.3 #2)    The Metropolitan Club costs $1,300 for the space and $92 per person.   equation:      inequality:      number of guests:    Black Elk Park charges $500 to rent the pavilion and the family can bring in picnic food for $65 per person.   equation:      inequality:      number of guests:    The Dabbling Duck Inn charges $1,400 for the space and $80 per person for their local specialties.   equation:      inequality:      number of guests:    Pranzo Ristorante has only a $300 room rental fee but averages $145 per person, including wine.   equation:      inequality:      number of guests:   "
 },
@@ -1013,7 +977,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-Solving_linear_inequalities.html#ws-Solving_linear_inequalities-5",
   "type": "Worksheet Exercise",
-  "number": "3.3.4",
+  "number": "3.2.4",
   "title": "",
   "body": " One variety of blueberry plant yields an average of 130 blueberries per season but there is quite a bit of variability from plant to plant. One measure of this variability is the standard deviation, which is approximated at 16.4 berries. Given a plant yielding blueberries, we can calculate how usual or unusual that is by computing its (standard) z-score using the equation For example, a plant yielding blueberries has z-score of 0. A plant yielding blueberries has z-score of Answer each question by evaluating; setting up and solving an equation; or setting up and solving an inequality, whichever is appropriate.   Calculate the z-score of a plant yielding 140 blueberries.   If the z-score for a plant is -0.7, what is the corresponding yield?   Hint: the negative z-score tells us the answer is below average.    A plant with z-score above 1.96 is considered plentiful . What yields of blueberries would be considered plentiful?   A plant with z-score between -1 and +1 is considered ordinary . What yields of blueberries would be considered ordinary?  "
 },
@@ -1040,7 +1004,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "ws-Solving_power_equations.html",
   "type": "Worksheet",
-  "number": "3.4",
+  "number": "3.3",
   "title": "Solving power equations (and roots) – Practice exercises",
   "body": " Solving power equations (and roots) – Practice exercises   Root Formula: The equation has solution    A pizza of diameter inches serves people where  (Story also appears in 2.4 #1)    Set up and solve an equation using the Root Formula to find the diameter of a personal pizza ( ). Answer to the nearest inch.   Set up and solve an equation using the Root Formula to find the diameter of an extra large pizza to serve 6 people. Answer to the nearest inch.    The weight of a wood cube is a function of the length of the sides. A cube with sides each inches long has weight ounces according to the equation    What is the weight of a cube with sides 2 inches long? 3 inches?   Draw a graph showing how the weight depends on the side length. Include .    Set up and solve an equation to find the length of the side of a wood cube weighing 8 ounces.   Repeat for 1 pound (that is 16 ounces).    Suppose a car gas tank is designed to hold enough fuel to drive 350 miles. (That is fairly average.) That means the size tank, gallons, is a function of the fuel efficiency, miles per gallon (mpg), according to the equation  (Story also appears in 2.4 #2)    My Honda Accord's tank holds about 16 gallons. According to the equation, what is the corresponding fuel efficiency? Set up and solve the equation. Start solving by multiplying both sides by . Note: you will not need to take a root.    My ex-husband's Honda Civic's tank holds only 13 gallons. According to the equation, what is the corresponding fuel efficiency. Set up and solve the equation.    Moose bought a commemorative football jersey for $150 twelve years ago. Now he is planning to sell it and is interested in what the effective return (equivalent annual percent increase) on his investment might be for various prices. If $ is the current value of the jersey and is the annual growth factor, then For each part, first solve for using the Root Formula , then calculate . The effective return is written as a percentage.   Find the effective return if the current value is $290.   Find the effective return if the current value is $350.   Find the effective return if the current value is $400.    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    What a power equation is?    What we mean by square root, cube root, and th root?    How to calculate square roots, cube roots, and th roots on your calculator?    How to evaluate the Root Formula on your calculator?    When to use the Root Formula ? Ask your instructor if you need to remember the Root Formula or it will be provided during the exam.     How to solve a power equation?    What the graph of a power function looks like?     Don't forget!    "
 },
@@ -1058,7 +1022,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-Solving_power_equations.html#ws-Solving_power_equations-3",
   "type": "Worksheet Exercise",
-  "number": "3.4.1",
+  "number": "3.3.1",
   "title": "",
   "body": " A pizza of diameter inches serves people where  (Story also appears in 2.4 #1)    Set up and solve an equation using the Root Formula to find the diameter of a personal pizza ( ). Answer to the nearest inch.   Set up and solve an equation using the Root Formula to find the diameter of an extra large pizza to serve 6 people. Answer to the nearest inch.  "
 },
@@ -1067,7 +1031,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-Solving_power_equations.html#ws-Solving_power_equations-4",
   "type": "Worksheet Exercise",
-  "number": "3.4.2",
+  "number": "3.3.2",
   "title": "",
   "body": " The weight of a wood cube is a function of the length of the sides. A cube with sides each inches long has weight ounces according to the equation    What is the weight of a cube with sides 2 inches long? 3 inches?   Draw a graph showing how the weight depends on the side length. Include .    Set up and solve an equation to find the length of the side of a wood cube weighing 8 ounces.   Repeat for 1 pound (that is 16 ounces).  "
 },
@@ -1076,7 +1040,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-Solving_power_equations.html#ws-Solving_power_equations-5",
   "type": "Worksheet Exercise",
-  "number": "3.4.3",
+  "number": "3.3.3",
   "title": "",
   "body": " Suppose a car gas tank is designed to hold enough fuel to drive 350 miles. (That is fairly average.) That means the size tank, gallons, is a function of the fuel efficiency, miles per gallon (mpg), according to the equation  (Story also appears in 2.4 #2)    My Honda Accord's tank holds about 16 gallons. According to the equation, what is the corresponding fuel efficiency? Set up and solve the equation. Start solving by multiplying both sides by . Note: you will not need to take a root.    My ex-husband's Honda Civic's tank holds only 13 gallons. According to the equation, what is the corresponding fuel efficiency. Set up and solve the equation.  "
 },
@@ -1085,7 +1049,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-Solving_power_equations.html#ws-Solving_power_equations-6",
   "type": "Worksheet Exercise",
-  "number": "3.4.4",
+  "number": "3.3.4",
   "title": "",
   "body": " Moose bought a commemorative football jersey for $150 twelve years ago. Now he is planning to sell it and is interested in what the effective return (equivalent annual percent increase) on his investment might be for various prices. If $ is the current value of the jersey and is the annual growth factor, then For each part, first solve for using the Root Formula , then calculate . The effective return is written as a percentage.   Find the effective return if the current value is $290.   Find the effective return if the current value is $350.   Find the effective return if the current value is $400.  "
 },
@@ -1121,7 +1085,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "ws-Solving_exponential_equations.html",
   "type": "Worksheet",
-  "number": "3.5",
+  "number": "3.4",
   "title": "Solving exponential equations (and logs) - Practice exercises",
   "body": " Solving exponential equations (and logs) - Practice exercises   Log-Divides Formula: The equation has solution    After his first beer, Stephen's blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour. The equation is where is Stephen's BAC and is the time, measured in hours. (Story also appears in 1.1 #4 and 2.4 Exercises)    Make a table showing Stephen's BAC at the start of the story ( ) and each of the next four hours.   At a BAC of 0.10 it is illegal for Stephen to drive. When will that happen? Set up and solve an equation using the Log Divides Formula . Answer to the nearest minute.   Hopefully Stephen will stop drinking before he reaches a BAC of 0.20. If not, at the rate he is drinking, when would that be? Set up and solve an equation. Answer to the nearest minute.    Chlorine is used to disinfect water in swimming pools. The chlorine concentration decreases as the pool is used according to the equation where is the chlorine concentration in parts per million (ppm) and is the time in hours since the concentration was first measured. (Story also appears in 5.3 #3)    Make a table showing the chlorine concentration initially and after the swimming pool is used for 3 hours, 10 hours, 24 hours, and 48 hours.   Draw a graph illustrating the function.    Chlorine concentrations below 1.5 ppm do not disinfect properly so more chlorine needs to be added. According to your graph, approximately when will that happen?   The problem continues ...    Use successive approximation to find approximately when the concentration falls below 1.5 ppm.   Solve the equation to find exactly when the chlorine concentration falls below 1.5 ppm.   Solve the equation to find when the chlorine concentration would fall below 0.1 ppm (essentially no chlorine) assuming no chlorine was added earlier. Show how to solve the equation to find the answer (and check it!).   Report your answer to the nearest day.    Rent in the Riverside Neighborhood is expected to increase 7.2% each year. Average rent for an apartment is currently $830 per month. Earlier we identified the variables as for the monthly rent (in $) and for time in years. (Story also appears in 1.1 #2)    Find the annual growth factor.   Write an equation showing how rent is expected to change.   Use successive approximation to determine approximately when rent will pass $1,000\/month. Display your work in a table. Round to the appropriate year.   Show how to solve the equation to calculate exactly when rent will pass $1,000\/month. Round to the appropriate year.   Solve again to determine when rent will reach double what it is now, namely $1,660\/month, assuming this trend continues.    Dontrell and Kim borrowed money to buy a house on a 30-year mortgage. After months of making payments, Dontrell and Kim will still owe $ where  is also known as the payoff (how much they would need to pay to settle the debt). (Story also appears in 2.3 #3)    How much did Dontrell and Kim originally borrow to buy their house?   They have been in the house for 5 years now and due to a downturn in the housing market, their house is worth only $150,000. Are they underwater , meaning do they owe more than the house is worth?   How much longer would Dontrell and Kim need to stay in their house until they only owe $150,000? That means you need to solve the equation     When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    What log means?    The connection is between logs and scientific notation?    How to evaluate logs on your calculator?    How to evaluate the Log Divides Formula using your calcuator?    When to use the Log Divides Formula ? Ask your instructor if you need to remember the Log Divides Formula or if it will be provided during the exam.     How to solve an exponential equation?     Don't forget!    "
 },
@@ -1139,7 +1103,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-Solving_exponential_equations.html#ws-Solving_exponential_equations-3",
   "type": "Worksheet Exercise",
-  "number": "3.5.1",
+  "number": "3.4.1",
   "title": "",
   "body": " After his first beer, Stephen's blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour. The equation is where is Stephen's BAC and is the time, measured in hours. (Story also appears in 1.1 #4 and 2.4 Exercises)    Make a table showing Stephen's BAC at the start of the story ( ) and each of the next four hours.   At a BAC of 0.10 it is illegal for Stephen to drive. When will that happen? Set up and solve an equation using the Log Divides Formula . Answer to the nearest minute.   Hopefully Stephen will stop drinking before he reaches a BAC of 0.20. If not, at the rate he is drinking, when would that be? Set up and solve an equation. Answer to the nearest minute.  "
 },
@@ -1148,7 +1112,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-Solving_exponential_equations.html#ws-Solving_exponential_equations-4",
   "type": "Worksheet Exercise",
-  "number": "3.5.2",
+  "number": "3.4.2",
   "title": "",
   "body": " Chlorine is used to disinfect water in swimming pools. The chlorine concentration decreases as the pool is used according to the equation where is the chlorine concentration in parts per million (ppm) and is the time in hours since the concentration was first measured. (Story also appears in 5.3 #3)    Make a table showing the chlorine concentration initially and after the swimming pool is used for 3 hours, 10 hours, 24 hours, and 48 hours.   Draw a graph illustrating the function.    Chlorine concentrations below 1.5 ppm do not disinfect properly so more chlorine needs to be added. According to your graph, approximately when will that happen?   The problem continues ...    Use successive approximation to find approximately when the concentration falls below 1.5 ppm.   Solve the equation to find exactly when the chlorine concentration falls below 1.5 ppm.   Solve the equation to find when the chlorine concentration would fall below 0.1 ppm (essentially no chlorine) assuming no chlorine was added earlier. Show how to solve the equation to find the answer (and check it!).   Report your answer to the nearest day.  "
 },
@@ -1157,7 +1121,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-Solving_exponential_equations.html#ws-Solving_exponential_equations-5",
   "type": "Worksheet Exercise",
-  "number": "3.5.3",
+  "number": "3.4.3",
   "title": "",
   "body": " Rent in the Riverside Neighborhood is expected to increase 7.2% each year. Average rent for an apartment is currently $830 per month. Earlier we identified the variables as for the monthly rent (in $) and for time in years. (Story also appears in 1.1 #2)    Find the annual growth factor.   Write an equation showing how rent is expected to change.   Use successive approximation to determine approximately when rent will pass $1,000\/month. Display your work in a table. Round to the appropriate year.   Show how to solve the equation to calculate exactly when rent will pass $1,000\/month. Round to the appropriate year.   Solve again to determine when rent will reach double what it is now, namely $1,660\/month, assuming this trend continues.  "
 },
@@ -1166,7 +1130,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-Solving_exponential_equations.html#ws-Solving_exponential_equations-6",
   "type": "Worksheet Exercise",
-  "number": "3.5.4",
+  "number": "3.4.4",
   "title": "",
   "body": " Dontrell and Kim borrowed money to buy a house on a 30-year mortgage. After months of making payments, Dontrell and Kim will still owe $ where  is also known as the payoff (how much they would need to pay to settle the debt). (Story also appears in 2.3 #3)    How much did Dontrell and Kim originally borrow to buy their house?   They have been in the house for 5 years now and due to a downturn in the housing market, their house is worth only $150,000. Are they underwater , meaning do they owe more than the house is worth?   How much longer would Dontrell and Kim need to stay in their house until they only owe $150,000? That means you need to solve the equation   "
 },
@@ -1202,7 +1166,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "ws-Solving_quadratic_equations.html",
   "type": "Worksheet",
-  "number": "3.6",
+  "number": "3.5",
   "title": "Solving quadratic equations - Practice exercises",
   "body": " Solving quadratic equations - Practice exercises   Quadratic Formula: The equation has solutions    A high-jumper jumps so that the height, feet, of the point on his back that must clear the bar after seconds is given by the equation     When would the high-jumper hit the ground (if there were no pit)? Ouch! Use the Quadratic Formula to find the answer. Use the graph to check.   The problem continues …   The high jump pit is 2 feet off the ground. When does the high-jumper land in the pit? Use the Quadratic Formula to find the answer and the graph to check.   How high a bar can the high-jumper clear? Find the maximum height of that point above ground by evaluating at . Use the graph to check.    The art museum opened in 1920. After an initial rush to see the great holdings, attendance dropped for awhile. But then attendance began to rise again and has risen since. The number of annual visits is approximated by the equation where is time measured in years since 1920.   Calculate the missing values in the table.    year  1920  1925  1930  1935  1940  1945  1950     0  5  10  15  20  25  30     3,700   400  2,575  7,300   24,400     Draw a graph of the function.    In what year did the number of visitors first pass 30,000 in a year? Estimate the value from your graph. Then set up and solve a quadratic equation.   The problem continues ...   According to this equation, in what year was the number of annual visits the smallest? For that year, what were the number of visits? Use .   Explain why never equals 0.   What happens if you try to use the Quadratic Formula to solve for ?    The profit $ from selling tanks of milk is described by the equation    Here is a graph of the function:   Explain why negative numbers on the horizontal axis make sense in the story.   How much milk must be sold for the company to break even , meaning having $0 profit? Guess from the graph and check using the equation.   For practice, set up and solve a quadratic equation to find the break even point.   The problem continues …   How many tanks of milk would they need to sell to keep profits over $400,000? Set up and solve a quadratic equation to find the answer. Then check that it agrees with your graph. Your answer should be in the form of an inequality.     Urban community gardens are catching on. What was once an abandoned lot down the block is now a thriving 10' 25' vegetable and berry garden for the neighborhood. One neighbor volunteered to donate gravel to make a path around the garden. The path will be 3 inches deep and the same width all around.   The amount of gravel we need ( cubic feet) is given by the equation where is the width of the path in feet. For example, a path 4 feet wide requires 86 cubic feet of gravel, as you can check. (Story also appears in 2.3 and 2.4 Exercises)    If the neighbor donates 60 cubic feet of gravel, how wide a path can they build? Set up and solve a quadratic equation to find the answer in feet, accurate to two decimal places. Then convert your answer into inches.   Gravel is measured by the yard , which is short for cubic yard. There are 27 cubic feet in 1 yard of gravel. If the neighbor donates three yards of gravel, how wide a path can they build? Set up and solve a quadratic equation to find the answer in feet, accurate to two decimal places. Then convert your answer into inches.   What would it mean to solve the equation to find where ? Can you tell what the answer is from the equation (without actually solving)?    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    What a quadratic function is?    How to solve a quadratic equation?    When we use the Quadratic Formula ? Ask your instructor if you need to remember the Quadratic Formula or if it will be provided during the exam.     How to solve a quadratic equation when the function is not set equal to zero?    How to identify the values of in the formula?    How to evaluate the formula (using your calculator)?    Why there are (usually) two solutions to a quadratic equation?    How to decide which solution(s) from the Quadratic Formula are correct?    What the graph of a quadratic function looks like?    The value for the independent variable to find the highest (or lowest) value of a quadratic function?     Don't forget!    "
 },
@@ -1220,7 +1184,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-Solving_quadratic_equations.html#ws-Solving_quadratic_equations-3",
   "type": "Worksheet Exercise",
-  "number": "3.6.1",
+  "number": "3.5.1",
   "title": "",
   "body": " A high-jumper jumps so that the height, feet, of the point on his back that must clear the bar after seconds is given by the equation     When would the high-jumper hit the ground (if there were no pit)? Ouch! Use the Quadratic Formula to find the answer. Use the graph to check.   The problem continues …   The high jump pit is 2 feet off the ground. When does the high-jumper land in the pit? Use the Quadratic Formula to find the answer and the graph to check.   How high a bar can the high-jumper clear? Find the maximum height of that point above ground by evaluating at . Use the graph to check.  "
 },
@@ -1229,7 +1193,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-Solving_quadratic_equations.html#ws-Solving_quadratic_equations-4",
   "type": "Worksheet Exercise",
-  "number": "3.6.2",
+  "number": "3.5.2",
   "title": "",
   "body": " The art museum opened in 1920. After an initial rush to see the great holdings, attendance dropped for awhile. But then attendance began to rise again and has risen since. The number of annual visits is approximated by the equation where is time measured in years since 1920.   Calculate the missing values in the table.    year  1920  1925  1930  1935  1940  1945  1950     0  5  10  15  20  25  30     3,700   400  2,575  7,300   24,400     Draw a graph of the function.    In what year did the number of visitors first pass 30,000 in a year? Estimate the value from your graph. Then set up and solve a quadratic equation.   The problem continues ...   According to this equation, in what year was the number of annual visits the smallest? For that year, what were the number of visits? Use .   Explain why never equals 0.   What happens if you try to use the Quadratic Formula to solve for ?  "
 },
@@ -1238,7 +1202,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-Solving_quadratic_equations.html#ws-Solving_quadratic_equations-5",
   "type": "Worksheet Exercise",
-  "number": "3.6.3",
+  "number": "3.5.3",
   "title": "",
   "body": " The profit $ from selling tanks of milk is described by the equation    Here is a graph of the function:   Explain why negative numbers on the horizontal axis make sense in the story.   How much milk must be sold for the company to break even , meaning having $0 profit? Guess from the graph and check using the equation.   For practice, set up and solve a quadratic equation to find the break even point.   The problem continues …   How many tanks of milk would they need to sell to keep profits over $400,000? Set up and solve a quadratic equation to find the answer. Then check that it agrees with your graph. Your answer should be in the form of an inequality.   "
 },
@@ -1247,7 +1211,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-Solving_quadratic_equations.html#ws-Solving_quadratic_equations-6",
   "type": "Worksheet Exercise",
-  "number": "3.6.4",
+  "number": "3.5.4",
   "title": "",
   "body": " Urban community gardens are catching on. What was once an abandoned lot down the block is now a thriving 10' 25' vegetable and berry garden for the neighborhood. One neighbor volunteered to donate gravel to make a path around the garden. The path will be 3 inches deep and the same width all around.   The amount of gravel we need ( cubic feet) is given by the equation where is the width of the path in feet. For example, a path 4 feet wide requires 86 cubic feet of gravel, as you can check. (Story also appears in 2.3 and 2.4 Exercises)    If the neighbor donates 60 cubic feet of gravel, how wide a path can they build? Set up and solve a quadratic equation to find the answer in feet, accurate to two decimal places. Then convert your answer into inches.   Gravel is measured by the yard , which is short for cubic yard. There are 27 cubic feet in 1 yard of gravel. If the neighbor donates three yards of gravel, how wide a path can they build? Set up and solve a quadratic equation to find the answer in feet, accurate to two decimal places. Then convert your answer into inches.   What would it mean to solve the equation to find where ? Can you tell what the answer is from the equation (without actually solving)?  "
 },
@@ -1283,7 +1247,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "ws-PE3A.html",
   "type": "Worksheet",
-  "number": "3.7",
+  "number": "3.6",
   "title": "Practice Exam 3A",
   "body": " Practice Exam 3A  Relax. You have done problems like these before. Even if these problems look a bit different, just do what you can. If you're not sure of something, please ask! You may use your calculator. Please show all of your work and write down as many steps as you can. Don't spend too much time on any one problem. Do well. And remember, ask me if you're not sure about something.   Over 50 points on this exam are for solving equations and inequalities. Be sure you understand what you need to show for full credit. Using a different method will get little to no partial credit.    As you work, make a don't forget list of any information you need to look up or ask about.    The Skärstroms want to dig a new well for water for their lake cabin. The company charges $900 to bring the equipment on site and draw the permit and then $2 per foot to dig. That means where is the depth of the well (in feet) and is the cost of the well (in $).   In their neck of the woods, wells often run 200 feet deep. According to the equation, how much would that cost?   The Skärstroms have budgeted between $1,500 and $1,800 for the well. Set up and solve a chain of inequalities to find the corresponding range of depths.   No such luck. The company had to drill much deeper than hoped to find water. The final result, wonderfully cold and clear drinking water. And, a hefty bill for $2,072. How deep is their well? Set up and solve an equation.    Ceyda starts the day by downing two cans of Red Bull, containing a total of 160 mg of caffeine. Her body eliminates the caffeine at a rate of 12% each hour. That means the amount of caffeine ( mg) after hours is given by the equation graphed below     According to the equation, how much caffeine is in her body initially, after 2 hours, 5 hours, and 24 hours? Display your answers in table.   Show show to use successive approximation to find approximately when Ceyda's caffeine level first drops below 20 mg. Answer to the nearest hour.   Set up and solve an equation to determine exactly when Ceyda's caffeine level first drops below 20 mg. Round your answer to two decimal places.    Jorge deposited $1,500 in a high yield money market account and plans to leave it there for 5 years. The value of his account after 5 years, $ , will depend on the growth factor as given by the equation    Use the equation to complete the table.     1.02  1.03  1.05  1.10     1,656.12    2,415.77     Draw a graph showing how depends on the growth factor . Start the horizontal axis at 1.00, instead of 0.    Use your graph to estimate the growth factor if the value of Jorge's account after 5 years is $1,780.   Now set up and solve an equation to find the answer exactly .   What is the corresponding return on investment ? That means calculate . The return on investment is written as a percentage.    A rabbit jumps so that her height above ground is given by the formula where height of rabbit (feet above ground) and time (seconds).   At what height did the rabbit start her jump?   Can the rabbit jump over a 3 foot fence? Calculate the exact maximum height of the rabbit to decide.   How long does it take the rabbit to get 2 feet in the air, and when is she at that height again? Set up and solve the appropriate equation to find the answers.   "
 },
@@ -1301,7 +1265,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-PE3A.html#ws-PE3A-5",
   "type": "Worksheet Exercise",
-  "number": "3.7.1",
+  "number": "3.6.1",
   "title": "",
   "body": " The Skärstroms want to dig a new well for water for their lake cabin. The company charges $900 to bring the equipment on site and draw the permit and then $2 per foot to dig. That means where is the depth of the well (in feet) and is the cost of the well (in $).   In their neck of the woods, wells often run 200 feet deep. According to the equation, how much would that cost?   The Skärstroms have budgeted between $1,500 and $1,800 for the well. Set up and solve a chain of inequalities to find the corresponding range of depths.   No such luck. The company had to drill much deeper than hoped to find water. The final result, wonderfully cold and clear drinking water. And, a hefty bill for $2,072. How deep is their well? Set up and solve an equation.  "
 },
@@ -1310,7 +1274,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-PE3A.html#ws-PE3A-6",
   "type": "Worksheet Exercise",
-  "number": "3.7.2",
+  "number": "3.6.2",
   "title": "",
   "body": " Ceyda starts the day by downing two cans of Red Bull, containing a total of 160 mg of caffeine. Her body eliminates the caffeine at a rate of 12% each hour. That means the amount of caffeine ( mg) after hours is given by the equation graphed below     According to the equation, how much caffeine is in her body initially, after 2 hours, 5 hours, and 24 hours? Display your answers in table.   Show show to use successive approximation to find approximately when Ceyda's caffeine level first drops below 20 mg. Answer to the nearest hour.   Set up and solve an equation to determine exactly when Ceyda's caffeine level first drops below 20 mg. Round your answer to two decimal places.  "
 },
@@ -1319,7 +1283,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-PE3A.html#ws-PE3A-7",
   "type": "Worksheet Exercise",
-  "number": "3.7.3",
+  "number": "3.6.3",
   "title": "",
   "body": " Jorge deposited $1,500 in a high yield money market account and plans to leave it there for 5 years. The value of his account after 5 years, $ , will depend on the growth factor as given by the equation    Use the equation to complete the table.     1.02  1.03  1.05  1.10     1,656.12    2,415.77     Draw a graph showing how depends on the growth factor . Start the horizontal axis at 1.00, instead of 0.    Use your graph to estimate the growth factor if the value of Jorge's account after 5 years is $1,780.   Now set up and solve an equation to find the answer exactly .   What is the corresponding return on investment ? That means calculate . The return on investment is written as a percentage.  "
 },
@@ -1328,7 +1292,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-PE3A.html#ws-PE3A-8",
   "type": "Worksheet Exercise",
-  "number": "3.7.4",
+  "number": "3.6.4",
   "title": "",
   "body": " A rabbit jumps so that her height above ground is given by the formula where height of rabbit (feet above ground) and time (seconds).   At what height did the rabbit start her jump?   Can the rabbit jump over a 3 foot fence? Calculate the exact maximum height of the rabbit to decide.   How long does it take the rabbit to get 2 feet in the air, and when is she at that height again? Set up and solve the appropriate equation to find the answers.  "
 },
@@ -1337,7 +1301,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "ws-PE3B.html",
   "type": "Worksheet",
-  "number": "3.8",
+  "number": "3.7",
   "title": "Practice Exam 3B",
   "body": " Practice Exam 3B   Try taking this version of the practice exam under testing conditions: no book, no notes, no classmate's help, no electronics (computer, cell phone, television). Give yourself one hour to work and wait until you have tried your best on all of the problems before checking any answers.    Caution: Usually more than half points on this exam are for solving equations and inequalities. Be sure you understand what you need to show for full credit. Using a different method, or not showing enough work might get little to no partial credit.   Goldie the Goldfish, Pinches the Lobster, Quackers the Duck, Speedy the Turtle These names are registered trademarked. . These first generation Beanie Babies toys were anticipated to increase in value according to the equation where is the value of Beanie Babies (in $) and is the time in years since 1994.   Make a table showing the anticipated value in 1994, 2004, 2010, and 2025.   Draw a graph showing how the value of the Beanie Babies increased.    The problem continues …   Set up and solve an equation to determine when will Beanie Babies made in 1994 were anticipated to be worth over $40. Report the actual year.    Best we can tell, the floor of our front porch was 7'2\" above ground when the house was built. It has been slowly sinking ever since. The contractor estimated that it's dropped 0.45 inches per year. The equation is where is the height of the porch (in inches) and is the age of the house (in years).   Make a table showing the height of the front porch when the house was built, when it was 20 years old, and when it was 50 years old.   The floor of our front porch is currently 48 inches above ground. Set up and solve an equation to figure out how old our house is.   Once the porch is below 40 inches, we will have to do something to fix it. Set up and solve an inequality to find when that will happen, answering to the nearest year. Hint: the house is already old. Report how many years from now.     In a shot put competition, athletes try to throw a heavy metal ball as far as possible. For one athlete the ball closely followed the parabolic arch given by the equation where was the distance the ball had travelled horizontally and was the height of the ball above ground, both in feet. The path of the ball is graphed below.    How far away did the ball land? Estimate the answer from the graph. Then show how to set up and solve an equation to find the answer to two decimal places.   How high up did the ball get? Show how to find the exact answer. Then compare to the graph.    The amount of snow in a snowball, cups, depends on the diameter (distance across) of the snowball, inches according to the equation    How many cups of snow are needed to make a snowball that is 3 inches across? 5 inches across?   How many cups of snow are needed to make a snowball that is 2 feet across? Give your answer in gallons. Use that 1 gallon = 4 quarts and 1 quart = 4 cups.   Karen has a 5 gallon paint bucket packed with snow and wants to make a giant snowball out of it. How big will the snowball be? Show how to use successive approximation to approximate the answer to the nearest inch. Display your calculations in a table.   Now set up and solve an equation to find the answer exactly , to the nearest inch.   "
 },
@@ -1355,7 +1319,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-PE3B.html#ws-PE3B-4",
   "type": "Worksheet Exercise",
-  "number": "3.8.1",
+  "number": "3.7.1",
   "title": "",
   "body": " Goldie the Goldfish, Pinches the Lobster, Quackers the Duck, Speedy the Turtle These names are registered trademarked. . These first generation Beanie Babies toys were anticipated to increase in value according to the equation where is the value of Beanie Babies (in $) and is the time in years since 1994.   Make a table showing the anticipated value in 1994, 2004, 2010, and 2025.   Draw a graph showing how the value of the Beanie Babies increased.    The problem continues …   Set up and solve an equation to determine when will Beanie Babies made in 1994 were anticipated to be worth over $40. Report the actual year.  "
 },
@@ -1364,7 +1328,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-PE3B.html#ws-PE3B-5",
   "type": "Worksheet Exercise",
-  "number": "3.8.2",
+  "number": "3.7.2",
   "title": "",
   "body": " Best we can tell, the floor of our front porch was 7'2\" above ground when the house was built. It has been slowly sinking ever since. The contractor estimated that it's dropped 0.45 inches per year. The equation is where is the height of the porch (in inches) and is the age of the house (in years).   Make a table showing the height of the front porch when the house was built, when it was 20 years old, and when it was 50 years old.   The floor of our front porch is currently 48 inches above ground. Set up and solve an equation to figure out how old our house is.   Once the porch is below 40 inches, we will have to do something to fix it. Set up and solve an inequality to find when that will happen, answering to the nearest year. Hint: the house is already old. Report how many years from now.   "
 },
@@ -1373,7 +1337,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-PE3B.html#ws-PE3B-6",
   "type": "Worksheet Exercise",
-  "number": "3.8.3",
+  "number": "3.7.3",
   "title": "",
   "body": " In a shot put competition, athletes try to throw a heavy metal ball as far as possible. For one athlete the ball closely followed the parabolic arch given by the equation where was the distance the ball had travelled horizontally and was the height of the ball above ground, both in feet. The path of the ball is graphed below.    How far away did the ball land? Estimate the answer from the graph. Then show how to set up and solve an equation to find the answer to two decimal places.   How high up did the ball get? Show how to find the exact answer. Then compare to the graph.  "
 },
@@ -1382,7 +1346,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-PE3B.html#ws-PE3B-7",
   "type": "Worksheet Exercise",
-  "number": "3.8.4",
+  "number": "3.7.4",
   "title": "",
   "body": " The amount of snow in a snowball, cups, depends on the diameter (distance across) of the snowball, inches according to the equation    How many cups of snow are needed to make a snowball that is 3 inches across? 5 inches across?   How many cups of snow are needed to make a snowball that is 2 feet across? Give your answer in gallons. Use that 1 gallon = 4 quarts and 1 quart = 4 cups.   Karen has a 5 gallon paint bucket packed with snow and wants to make a giant snowball out of it. How big will the snowball be? Show how to use successive approximation to approximate the answer to the nearest inch. Display your calculations in a table.   Now set up and solve an equation to find the answer exactly , to the nearest inch.  "
 },
@@ -1799,6 +1763,483 @@ var ptx_lunr_docs = [
   "number": "4.7.4",
   "title": "",
   "body": " The local zoning commission is considering a plan to expand housing in the city, as measured in the number of residential units. But with more residential units come more shops, offices, schools, recreational facilities, churches, and other commercial property. Currently the city has 3,500 residential units and 1,575 acres of commercial property. If the proposal is passed and completed, the city will have a new total of 3,600 residential units and 1,620 acres of commercial property. You can assume this increase is linear.   Name the variables and summarize the given information in a table.   How many new acres of commercial property are there for each new residential unit built?   Write an equation relating the variables. Hint: first find the intercept.    If the city decides to limit the amount of land to 1,600 acres of commercial property, approximately how many residential units can there be? Use successive approximation, displaying your guesses in a table.   Now answer the question exactly by setting up and solving an inequality.  "
+},
+{
+  "id": "ws-Modeling_exponential_equations",
+  "level": "1",
+  "url": "ws-Modeling_exponential_equations.html",
+  "type": "Worksheet",
+  "number": "5.1",
+  "title": "Modeling with exponential equations - Practice exercises",
+  "body": " Modeling with exponential equations - Practice exercises   The population of Buenos Aires, Argentina in 1950 was estimated Source: Mongabay at 5.0 million and expected to grow at 1.8% each year.   Name the variables.   What is the annual growth factor?   Write an equation estimating the population of Buenos Aires over time.   Make a table of values showing the estimated population of Buenos Aires every 20th year from 1950 to 2030.   By approximately how many people has the population been increasing per year over each 20 year period? Add these numbers to your table. As expected, these numbers change because the rate of change is not constant.   In 2000 the actual population of Buenos Aires was around 12.6 million and by 2010 it was around 15.2 million. How do these data compare to the estimates?    A flu virus has been spreading through the college dormitories. Initially 8 students were diagnosed with the flu, but that number has been growing 16% per day. Earlier we found the equation where is the time in days (since the first diagnosis) and is the total number of students who had the flu. (Story also appears in 2.2 #3 and 5.5 textbook)    Use successive approximations to estimate when the number of infected students reaches 100. Display your guesses in a table.   Use the Log Divides Formula to find exactly when the number of infected students reaches 100.   There are 1,094 students currently living in the dorms. Suppose ultimately 250 students catch the flu. According to your equation, when would that happen? Show how to solve your equation.   It is not realistic to expect that everyone living in the dorms will catch the flu, but what does the equation say? Set up and solve an equation to find when all 1,094 students would have the flu. (Again, this is not realistic.)    Bunnies, bunnies, everywhere. Earlier we found the equation where is the number of bunnies and is the time in years since 2007. (Story also appears in 2.2 #2)    Make a table showing the number of bunnies in 2007, 2010, 2013, and 2020.   Draw a graph showing how the bunny population grew.     Approximately when will the population pass 5,000 bunnies? Guess from the graph. Then refine your answer using successive approximation.   Solve your equation and check that you get the same answer.    Carbon dioxide is a greenhouse gas in our atmosphere. Increasing carbon dioxide concentrations are related to global climate change. In 1980, the carbon dioxide concentration was 338 ppm (parts per million). At that time it was assumed that carbon dioxide concentrations would increase 0.42% per year. Source: Earth Systems Research Laboratory, NOAA    Name the variables including units.   Assuming the growth is exponential as predicted, write an equation that describes the increase in carbon dioxide concentrations.   The carbon dioxide concentration in 2008 was 385 ppm. Is that count higher or lower than predicted from your equation? Explain.   Does that mean that carbon dioxide increased at a higher or lower rate than 0.42%? Explain.    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    What makes a function exponential?    The template for an exponential equation? Ask your instructor if you need to remember the template or if it will be provided during the exam.     How to write an exponential equation given the starting amount and percent increase?    Where the growth factor and starting amount appear in the template of an exponential equation?    What the graph of an exponential function looks like?    How to solve an exponential equation using the Log Divides Formula ?   Ask your instructor if you need to remember the Log Divides Formula or if it will be provided during the exam.     How to calculate the rate of change of an exponential function?    Why the rate of change of an exponential function is not constant?     Don't forget!    "
+},
+{
+  "id": "ws-Modeling_exponential_equations-2",
+  "level": "2",
+  "url": "ws-Modeling_exponential_equations.html#ws-Modeling_exponential_equations-2",
+  "type": "Worksheet Exercise",
+  "number": "5.1.1",
+  "title": "",
+  "body": " The population of Buenos Aires, Argentina in 1950 was estimated Source: Mongabay at 5.0 million and expected to grow at 1.8% each year.   Name the variables.   What is the annual growth factor?   Write an equation estimating the population of Buenos Aires over time.   Make a table of values showing the estimated population of Buenos Aires every 20th year from 1950 to 2030.   By approximately how many people has the population been increasing per year over each 20 year period? Add these numbers to your table. As expected, these numbers change because the rate of change is not constant.   In 2000 the actual population of Buenos Aires was around 12.6 million and by 2010 it was around 15.2 million. How do these data compare to the estimates?  "
+},
+{
+  "id": "ws-Modeling_exponential_equations-3",
+  "level": "2",
+  "url": "ws-Modeling_exponential_equations.html#ws-Modeling_exponential_equations-3",
+  "type": "Worksheet Exercise",
+  "number": "5.1.2",
+  "title": "",
+  "body": " A flu virus has been spreading through the college dormitories. Initially 8 students were diagnosed with the flu, but that number has been growing 16% per day. Earlier we found the equation where is the time in days (since the first diagnosis) and is the total number of students who had the flu. (Story also appears in 2.2 #3 and 5.5 textbook)    Use successive approximations to estimate when the number of infected students reaches 100. Display your guesses in a table.   Use the Log Divides Formula to find exactly when the number of infected students reaches 100.   There are 1,094 students currently living in the dorms. Suppose ultimately 250 students catch the flu. According to your equation, when would that happen? Show how to solve your equation.   It is not realistic to expect that everyone living in the dorms will catch the flu, but what does the equation say? Set up and solve an equation to find when all 1,094 students would have the flu. (Again, this is not realistic.)  "
+},
+{
+  "id": "ws-Modeling_exponential_equations-4",
+  "level": "2",
+  "url": "ws-Modeling_exponential_equations.html#ws-Modeling_exponential_equations-4",
+  "type": "Worksheet Exercise",
+  "number": "5.1.3",
+  "title": "",
+  "body": " Bunnies, bunnies, everywhere. Earlier we found the equation where is the number of bunnies and is the time in years since 2007. (Story also appears in 2.2 #2)    Make a table showing the number of bunnies in 2007, 2010, 2013, and 2020.   Draw a graph showing how the bunny population grew.     Approximately when will the population pass 5,000 bunnies? Guess from the graph. Then refine your answer using successive approximation.   Solve your equation and check that you get the same answer.  "
+},
+{
+  "id": "ws-Modeling_exponential_equations-5",
+  "level": "2",
+  "url": "ws-Modeling_exponential_equations.html#ws-Modeling_exponential_equations-5",
+  "type": "Worksheet Exercise",
+  "number": "5.1.4",
+  "title": "",
+  "body": " Carbon dioxide is a greenhouse gas in our atmosphere. Increasing carbon dioxide concentrations are related to global climate change. In 1980, the carbon dioxide concentration was 338 ppm (parts per million). At that time it was assumed that carbon dioxide concentrations would increase 0.42% per year. Source: Earth Systems Research Laboratory, NOAA    Name the variables including units.   Assuming the growth is exponential as predicted, write an equation that describes the increase in carbon dioxide concentrations.   The carbon dioxide concentration in 2008 was 385 ppm. Is that count higher or lower than predicted from your equation? Explain.   Does that mean that carbon dioxide increased at a higher or lower rate than 0.42%? Explain.  "
+},
+{
+  "id": "ws-Modeling_exponential_equations-6-2",
+  "level": "2",
+  "url": "ws-Modeling_exponential_equations.html#ws-Modeling_exponential_equations-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-Modeling_exponential_equations_end-3",
+  "level": "2",
+  "url": "ws-Modeling_exponential_equations.html#ss-Modeling_exponential_equations_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
+  "id": "ws-Exp_growth_decay",
+  "level": "1",
+  "url": "ws-Exp_growth_decay.html",
+  "type": "Worksheet",
+  "number": "5.2",
+  "title": "Exponential growth and decay - Practice exercises",
+  "body": " Exponential growth and decay - Practice exercises   A signal is sent down a fiber optic cable. Its strength decreases by 2% each mile it travels. (Say it was one unit strong to start.)   Name the variables, including units.   Make a table showing the strength of the signal over the first five miles.   Write an equation relating the variables.   The signal will need a booster (something to make the signal stronger again) when it has fallen to under 0.75 units. How far along the cable should the booster be placed? Set up and solve an equation.   The problem continues …   What is the half-life (or should we say half-distance) of a signal? That means, how far can it travel without dropping below 50%? (That will not actually happen because we would boost the signal.) Again, set up and solve an equation.   Draw a graph illustrating the relationship.    Indicate the points on your graph where you can check your answers to parts (c) and (d).    A recent news report stated that cell phone usage is growing exponentially in developing countries. In one small country, 50,000 people owned a cell phone in the year 2000. It was estimated that usage would increase at 1.4% percent per year.   Name the variables including units.   Assuming the growth is exponential, write an equation for the function.   At this rate, how many years would it take for the number of people owning a cell phone to double? That is called the doubling time . Show how to set up and solve an equation to find the answer.   In 2011, about 682,000 people owned a cellphone. Is that count higher or lower than predicted from your equation? Explain.   Based on the 2011 data, would you say that cell phone usage was growing slower or faster than 1.4%?    If a person has a heart attack and their heart stops beating, the amount of time it takes paramedics to restart their heart with a defibrillator is critical. Each minute that passes decreases the person's chance of survival by 10%. Source: American Red Cross Assume that this statement means the decrease is exponential and that the survival rate is 100% if the defibrillator is used immediately.   Name the variables, including units, and write an equation.   If it takes the paramedics 2 minutes to use the defibrillator, what is the person's chance of survival?   Use successive approximation to estimate to the nearest minute when the survival rate drops below 50%. Display your guesses in a table.   Solve your equation to find exactly when the survival rate drops below 50%.    You and two buddies each invite 10 people to like your online group. Suppose everyone accepts and then they each invite 10 people. And then everyone accepts and they each invite 10 people. And so on. Of course, there is likely to be substantial overlap, but for the moment pretend that there is not any overlap.   There are 3 friends to start. In the first round they each invite 10 friends, so a total of 30 new people like your online group in the first round. How many new people like your group in the second round? The third?   Name the variables and write an equation showing how the number of new people increases in each round. Think of the original 3 friends as round 0.   Make a table showing this information. Continue your table to include the number of new people who like your group in the fourth and fifth rounds.   What is the total number of people who like your online group after five rounds? Hint: add    Comment on why our assumption is unrealistic.    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know …    How to write an exponential equation given the starting amount and percent decrease?    What half-life means?    What doubling time means?    What the graph of exponential growth and exponential decay look like?    Why the rate of change for exponential decay is negative?     Don't forget!    "
+},
+{
+  "id": "ws-Exp_growth_decay-2",
+  "level": "2",
+  "url": "ws-Exp_growth_decay.html#ws-Exp_growth_decay-2",
+  "type": "Worksheet Exercise",
+  "number": "5.2.1",
+  "title": "",
+  "body": " A signal is sent down a fiber optic cable. Its strength decreases by 2% each mile it travels. (Say it was one unit strong to start.)   Name the variables, including units.   Make a table showing the strength of the signal over the first five miles.   Write an equation relating the variables.   The signal will need a booster (something to make the signal stronger again) when it has fallen to under 0.75 units. How far along the cable should the booster be placed? Set up and solve an equation.   The problem continues …   What is the half-life (or should we say half-distance) of a signal? That means, how far can it travel without dropping below 50%? (That will not actually happen because we would boost the signal.) Again, set up and solve an equation.   Draw a graph illustrating the relationship.    Indicate the points on your graph where you can check your answers to parts (c) and (d).  "
+},
+{
+  "id": "ws-Exp_growth_decay-3",
+  "level": "2",
+  "url": "ws-Exp_growth_decay.html#ws-Exp_growth_decay-3",
+  "type": "Worksheet Exercise",
+  "number": "5.2.2",
+  "title": "",
+  "body": " A recent news report stated that cell phone usage is growing exponentially in developing countries. In one small country, 50,000 people owned a cell phone in the year 2000. It was estimated that usage would increase at 1.4% percent per year.   Name the variables including units.   Assuming the growth is exponential, write an equation for the function.   At this rate, how many years would it take for the number of people owning a cell phone to double? That is called the doubling time . Show how to set up and solve an equation to find the answer.   In 2011, about 682,000 people owned a cellphone. Is that count higher or lower than predicted from your equation? Explain.   Based on the 2011 data, would you say that cell phone usage was growing slower or faster than 1.4%?  "
+},
+{
+  "id": "ws-Exp_growth_decay-4",
+  "level": "2",
+  "url": "ws-Exp_growth_decay.html#ws-Exp_growth_decay-4",
+  "type": "Worksheet Exercise",
+  "number": "5.2.3",
+  "title": "",
+  "body": " If a person has a heart attack and their heart stops beating, the amount of time it takes paramedics to restart their heart with a defibrillator is critical. Each minute that passes decreases the person's chance of survival by 10%. Source: American Red Cross Assume that this statement means the decrease is exponential and that the survival rate is 100% if the defibrillator is used immediately.   Name the variables, including units, and write an equation.   If it takes the paramedics 2 minutes to use the defibrillator, what is the person's chance of survival?   Use successive approximation to estimate to the nearest minute when the survival rate drops below 50%. Display your guesses in a table.   Solve your equation to find exactly when the survival rate drops below 50%.  "
+},
+{
+  "id": "ws-Exp_growth_decay-5",
+  "level": "2",
+  "url": "ws-Exp_growth_decay.html#ws-Exp_growth_decay-5",
+  "type": "Worksheet Exercise",
+  "number": "5.2.4",
+  "title": "",
+  "body": " You and two buddies each invite 10 people to like your online group. Suppose everyone accepts and then they each invite 10 people. And then everyone accepts and they each invite 10 people. And so on. Of course, there is likely to be substantial overlap, but for the moment pretend that there is not any overlap.   There are 3 friends to start. In the first round they each invite 10 friends, so a total of 30 new people like your online group in the first round. How many new people like your group in the second round? The third?   Name the variables and write an equation showing how the number of new people increases in each round. Think of the original 3 friends as round 0.   Make a table showing this information. Continue your table to include the number of new people who like your group in the fourth and fifth rounds.   What is the total number of people who like your online group after five rounds? Hint: add    Comment on why our assumption is unrealistic.  "
+},
+{
+  "id": "ws-Exp_growth_decay-6-2",
+  "level": "2",
+  "url": "ws-Exp_growth_decay.html#ws-Exp_growth_decay-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-Exp_growth_decay_end-3",
+  "level": "2",
+  "url": "ws-Exp_growth_decay.html#ss-Exp_growth_decay_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
+  "id": "ws-Growth_factor",
+  "level": "1",
+  "url": "ws-Growth_factor.html",
+  "type": "Worksheet",
+  "number": "5.3",
+  "title": "Growth factors - Practice exercises",
+  "body": " Growth factors - Practice exercises    Percent Change Formula:     If a quantity changes by a percentage corresponding to growth rate , then the growth factor is     If the growth factor is , then the growth rate is      Growth Factor Formula:   If a quantity is growing (decaying) exponentially, then the growth (decay) factor is where is the starting amount and is the amount after time periods.    In 1962, my grandfather had savings bonds that matured to $200. He gave those to my mother to keep for me. These bonds have continued to earn interest at a fixed, guaranteed rate so I have yet to cash them in. The table lists the value at various times since then.    year  1962  1970  1980  1990  2000  2010    years since 1962  0  8  18  28  38  48    value  200.00  318.77  570.87  1,022.34  1,830.85  3,278.77     (Story also appears in 1.2 #1 and 4.1 #3)    Use the Growth Factor Formula to find the annual growth factor for the time period from 1962 to 1970.   Repeat for 1970 to 1980.   What do you notice? What in the story told you that would happen?   What is the corresponding interest rate?   Write an equation for the value of bonds over time.   Use your equation to check the information for 1990, 2000, and 2010.   The problem continues …   In what year will the bond be worth over $5,000? Set up and solve an equation to decide.   Draw a graph using the data in the table, but not your answer to part (g). Include another year that is later than your answer to part (g).    Does your answer to part (g) agree with your graph? If not, fix your work.    Have you read news stories about archaeological digs where a specimen (like a bone) is found that dates back thousands of years? How do scientists know how old something is? One method uses the radioactive decay of carbon. After an animal dies the carbon-14 in its body very slowly decays. By comparing how much carbon-14 remains in the bone to how much carbon-14 should have been in the bone when the animal was alive, scientist can estimate how long the animal has been dead. Clever, huh? Actually, it is so clever that Willard Libby won the Nobel Prize in Chemistry for it. The key information to know is that the half-life of carbon-14 (the amount of time it takes for half of the original amount of carbon-14 to decay) is about 5,730 years. Source: Wikipedia (Radiocarbon Dating) For this problem, suppose a bone were found that should have contained 300 milligrams of carbon-14 when the animal was alive.   Find the annual growth factor. Keep at least six digits after the decimal place for your calculations.   If the bone started off with 300 mg of carbon-14, how much carbon-14 would be left after 5,730 years?   Name the variables and write an equation describing the dependence.   How many milligrams of carbon-14 should remain in this bone after 1,000 years? After 10,000 years? After 100,000 years?   How many milligrams of carbon-14 should remain in this bone after 1 million years? Explain the scientific notation answer your calculator gives you.   The problem continues …   Draw a graph that shows up to 10,000 years.    If the bone is determined to have 100 milligrams of carbon-14, approximately how long ago did it die? Start by estimating the answer from your graph. Then revise your estimate using successive approximation. Display your guesses in a table.   Solve the equation exactly.    For each story, find the annual growth factor and annual growth rate as a percent.   Hint: First decide if you can use the Percent Change Formula or if you will need to use the Growth Factor Formula .    Don't forget to include the negative sign for decay rates.    Donations to the food shelf have increased 35% per year for the past few years.             People picking up food at the food shelf has increased exponentially too, from 120 per week in 2005 to 630 per week in 2011.             The crime rate has dropped 3% each year recently.             The new stop sign has decreased accidents exponentially, from 40 in 2008 to 17 in 2013.             The problem continues …   The creeping vine taking over Fiona's lawn will double in area each year.             Attendance at parent volunteer night has doubled every 3 years.             The number of people addicted to prescription drugs was estimated to have tripled in the past 5 years. Assume the number is increasing exponentially.             The number of high school students arrested for driving under the influence is half what it was 5 years ago. Assume the number is falling exponentially.              For each equation, find the growth rate and state its units. For example, something might grow 2% per year while something else might drop 7% per hour .   The number of households watching reality television (in millions) was estimated by the equation where is the time in years since 1990. (Story also appears in 5.1 Exercises)    Chlorine is often used to disinfect water in swimming pools, but the concentration of chlorine (in ppm) drops as the swimming pool is used for hours according to the equation  (Story also appears in 3.4 #2)    The number of players of a wildly popular mobile app drawing game has been growing exponentially according to the equation where is the number of players (in millions) and is the time in weeks since people started playing the game. (Story also appears in 5.1 Exercises)     When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    How to find the growth\/decay factor given the starting amount and another point of information?    How to find the growth\/decay factor given the doubling time or half-life?    When we use the Percent Change Formula , and when we use the Growth Factor Formula instead? Ask your instructor if you need to remember the Percent Change Formula and Growth Factor Formula or if they will be provided during the exam.     How to evaluate the Percent Change Formula and Growth Factor Formula using your calcuator?    How to read the starting amount and percent increase\/decrease from the equation?     Don't forget!    "
+},
+{
+  "id": "ws-Growth_factor-2-1",
+  "level": "2",
+  "url": "ws-Growth_factor.html#ws-Growth_factor-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Percent Change Formula: "
+},
+{
+  "id": "ws-Growth_factor-2-3",
+  "level": "2",
+  "url": "ws-Growth_factor.html#ws-Growth_factor-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Growth Factor Formula: "
+},
+{
+  "id": "ws-Growth_factor-3",
+  "level": "2",
+  "url": "ws-Growth_factor.html#ws-Growth_factor-3",
+  "type": "Worksheet Exercise",
+  "number": "5.3.1",
+  "title": "",
+  "body": " In 1962, my grandfather had savings bonds that matured to $200. He gave those to my mother to keep for me. These bonds have continued to earn interest at a fixed, guaranteed rate so I have yet to cash them in. The table lists the value at various times since then.    year  1962  1970  1980  1990  2000  2010    years since 1962  0  8  18  28  38  48    value  200.00  318.77  570.87  1,022.34  1,830.85  3,278.77     (Story also appears in 1.2 #1 and 4.1 #3)    Use the Growth Factor Formula to find the annual growth factor for the time period from 1962 to 1970.   Repeat for 1970 to 1980.   What do you notice? What in the story told you that would happen?   What is the corresponding interest rate?   Write an equation for the value of bonds over time.   Use your equation to check the information for 1990, 2000, and 2010.   The problem continues …   In what year will the bond be worth over $5,000? Set up and solve an equation to decide.   Draw a graph using the data in the table, but not your answer to part (g). Include another year that is later than your answer to part (g).    Does your answer to part (g) agree with your graph? If not, fix your work.  "
+},
+{
+  "id": "ws-Growth_factor-4",
+  "level": "2",
+  "url": "ws-Growth_factor.html#ws-Growth_factor-4",
+  "type": "Worksheet Exercise",
+  "number": "5.3.2",
+  "title": "",
+  "body": " Have you read news stories about archaeological digs where a specimen (like a bone) is found that dates back thousands of years? How do scientists know how old something is? One method uses the radioactive decay of carbon. After an animal dies the carbon-14 in its body very slowly decays. By comparing how much carbon-14 remains in the bone to how much carbon-14 should have been in the bone when the animal was alive, scientist can estimate how long the animal has been dead. Clever, huh? Actually, it is so clever that Willard Libby won the Nobel Prize in Chemistry for it. The key information to know is that the half-life of carbon-14 (the amount of time it takes for half of the original amount of carbon-14 to decay) is about 5,730 years. Source: Wikipedia (Radiocarbon Dating) For this problem, suppose a bone were found that should have contained 300 milligrams of carbon-14 when the animal was alive.   Find the annual growth factor. Keep at least six digits after the decimal place for your calculations.   If the bone started off with 300 mg of carbon-14, how much carbon-14 would be left after 5,730 years?   Name the variables and write an equation describing the dependence.   How many milligrams of carbon-14 should remain in this bone after 1,000 years? After 10,000 years? After 100,000 years?   How many milligrams of carbon-14 should remain in this bone after 1 million years? Explain the scientific notation answer your calculator gives you.   The problem continues …   Draw a graph that shows up to 10,000 years.    If the bone is determined to have 100 milligrams of carbon-14, approximately how long ago did it die? Start by estimating the answer from your graph. Then revise your estimate using successive approximation. Display your guesses in a table.   Solve the equation exactly.  "
+},
+{
+  "id": "ws-Growth_factor-5",
+  "level": "2",
+  "url": "ws-Growth_factor.html#ws-Growth_factor-5",
+  "type": "Worksheet Exercise",
+  "number": "5.3.3",
+  "title": "",
+  "body": " For each story, find the annual growth factor and annual growth rate as a percent.   Hint: First decide if you can use the Percent Change Formula or if you will need to use the Growth Factor Formula .    Don't forget to include the negative sign for decay rates.    Donations to the food shelf have increased 35% per year for the past few years.             People picking up food at the food shelf has increased exponentially too, from 120 per week in 2005 to 630 per week in 2011.             The crime rate has dropped 3% each year recently.             The new stop sign has decreased accidents exponentially, from 40 in 2008 to 17 in 2013.             The problem continues …   The creeping vine taking over Fiona's lawn will double in area each year.             Attendance at parent volunteer night has doubled every 3 years.             The number of people addicted to prescription drugs was estimated to have tripled in the past 5 years. Assume the number is increasing exponentially.             The number of high school students arrested for driving under the influence is half what it was 5 years ago. Assume the number is falling exponentially.            "
+},
+{
+  "id": "ws-Growth_factor-6",
+  "level": "2",
+  "url": "ws-Growth_factor.html#ws-Growth_factor-6",
+  "type": "Worksheet Exercise",
+  "number": "5.3.4",
+  "title": "",
+  "body": " For each equation, find the growth rate and state its units. For example, something might grow 2% per year while something else might drop 7% per hour .   The number of households watching reality television (in millions) was estimated by the equation where is the time in years since 1990. (Story also appears in 5.1 Exercises)    Chlorine is often used to disinfect water in swimming pools, but the concentration of chlorine (in ppm) drops as the swimming pool is used for hours according to the equation  (Story also appears in 3.4 #2)    The number of players of a wildly popular mobile app drawing game has been growing exponentially according to the equation where is the number of players (in millions) and is the time in weeks since people started playing the game. (Story also appears in 5.1 Exercises)   "
+},
+{
+  "id": "ws-Growth_factor-7-2",
+  "level": "2",
+  "url": "ws-Growth_factor.html#ws-Growth_factor-7-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-Growth_factor_end-2",
+  "level": "2",
+  "url": "ws-Growth_factor.html#ss-Growth_factor_end-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Percent Change Formula Growth Factor Formula Percent Change Formula Growth Factor Formula Percent Change Formula Growth Factor Formula "
+},
+{
+  "id": "ss-Growth_factor_end-3",
+  "level": "2",
+  "url": "ws-Growth_factor.html#ss-Growth_factor_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
+  "id": "ws-Linear_vs_exponential",
+  "level": "1",
+  "url": "ws-Linear_vs_exponential.html",
+  "type": "Worksheet",
+  "number": "5.4",
+  "title": "Linear vs. exponential models - Practice exercises",
+  "body": " Linear exponential models - Practice exercises    Linear equation template:     Rate of Change\/Slope (of Linear) Formula:     Exponential equation template:     Growth Factor Formula:   If a quantity is growing (decaying) exponentially, then the growth (decay) factor is where is the starting amount and is the amount after time periods.   Percent Change Formula:     If a quantity changes by a percentage corresponding to growth rate , then the growth factor is     If the growth factor is , then the growth rate is       My parents bought the house I grew up in for $35,000 and sold it 40 years later for $342,000. True story. (It was before the housing bubble burst.)   First, assume the value of the house increased exponentially.    Calculate the annual growth factor using the Growth Factor Formula .   In this model, by what percentage did the house value increase each year? Hint: use the Percent Change Formula .    Write an exponential equation showing how the value of the house increased. Don't forget to name the variables, including units. Hint: use the Exponential Equation Template .    Check that your equation gives the correct sold value.    The problem continues …    Next, assume the value of the house increased linearly instead.    In this model, by what fixed amount did the house value increase each year? Hint: calculate the slope using the Rate of Change\/Slope (of Linear) Formula .    Using the same variables, write a linear equation showing how the value of the house increased. Hint: use the Linear Equation Template .    Check that your equation gives the correct sold value.    The number of manufacturing jobs in the state has been declining for decades. In 1970, there were 1.2 million such jobs in the state but by 2010 there were only 0.6 million such jobs. Write for the number of manufacturing jobs (in millions) and for time in years since 1970.   First, assume the number of jobs decreased linearly.    Calculate the slope.   Write a linear equation showing how the number of jobs declined.   Check that your equation gives the correct value for 2010.    Next, assume the number of jobs decreased exponentially instead.    Calculate the growth factor.   Write an exponential equation showing how the number of jobs declined.   Check that your equation gives the correct value for 2010.    The problem continues …    Now, compare the models.    Complete the table of values.    year  1970  1990  2010  2020  2030     0  20  40  50  60    (if linear)         (if exponential)          Draw a graph showing both models.    Which model has better news for 2030?    In December 2010, a popular mobile app game featuring animated birds launched from slingshots had 50 million downloads. Five months later (May 2011), the game had 200 million downloads. Let denote the number of downloads of the game (in millions) and the time in months since December 2010.   Suppose that the number of downloads have been increasing at a constant rate each month . What type of equation is suggested here? Write that equation and use it to estimate the number of downloads in November 2011 (when T = 11).   Suppose that the number of downloads have been increasing at a fixed percentage each month . What type of equation is suggested here? Write that equation and use it to estimate the number of downloads in November 2011 (when T = 11).   Which of these two models do you think is more sensible, and why?    Bus fares are up to $2.25 per ride during rush hour. Two different plans of increasing fares are being debated: 10¢ per year or 2.5% per year.   Which type of equation is being suggested in each plan? Write the equations. Don't forget to name the variables, including units.    Make a table comparing these plans over the next decade (ten years).   Draw a graph showing both options.     The problem continues …    As a city council representative, you want to support the plan that your constituents prefer. If most of your constituents ride the bus, which plan should you support? Why?   If most of your constituents are members of the same union as the bus drivers (who count on solid earnings from the bus company to keep their jobs), then which plan should you support?    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    When we might think a model might be linear?    The template for a linear equation?    How to find the linear equation between two points (a start and end value)?    When we might think a model might be exponential?    The template for an exponential equation?    How to find the exponential equation between two points (a start and end value)?    Why we compare linear and exponential models?     Don't forget!    "
+},
+{
+  "id": "ws-Linear_vs_exponential-2-1",
+  "level": "2",
+  "url": "ws-Linear_vs_exponential.html#ws-Linear_vs_exponential-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Linear equation template: "
+},
+{
+  "id": "ws-Linear_vs_exponential-2-2",
+  "level": "2",
+  "url": "ws-Linear_vs_exponential.html#ws-Linear_vs_exponential-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Rate of Change\/Slope (of Linear) Formula: "
+},
+{
+  "id": "ws-Linear_vs_exponential-2-3",
+  "level": "2",
+  "url": "ws-Linear_vs_exponential.html#ws-Linear_vs_exponential-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Exponential equation template: "
+},
+{
+  "id": "ws-Linear_vs_exponential-2-4",
+  "level": "2",
+  "url": "ws-Linear_vs_exponential.html#ws-Linear_vs_exponential-2-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Growth Factor Formula: "
+},
+{
+  "id": "ws-Linear_vs_exponential-2-6",
+  "level": "2",
+  "url": "ws-Linear_vs_exponential.html#ws-Linear_vs_exponential-2-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Percent Change Formula: "
+},
+{
+  "id": "ws-Linear_vs_exponential-3",
+  "level": "2",
+  "url": "ws-Linear_vs_exponential.html#ws-Linear_vs_exponential-3",
+  "type": "Worksheet Exercise",
+  "number": "5.4.1",
+  "title": "",
+  "body": " My parents bought the house I grew up in for $35,000 and sold it 40 years later for $342,000. True story. (It was before the housing bubble burst.)   First, assume the value of the house increased exponentially.    Calculate the annual growth factor using the Growth Factor Formula .   In this model, by what percentage did the house value increase each year? Hint: use the Percent Change Formula .    Write an exponential equation showing how the value of the house increased. Don't forget to name the variables, including units. Hint: use the Exponential Equation Template .    Check that your equation gives the correct sold value.    The problem continues …    Next, assume the value of the house increased linearly instead.    In this model, by what fixed amount did the house value increase each year? Hint: calculate the slope using the Rate of Change\/Slope (of Linear) Formula .    Using the same variables, write a linear equation showing how the value of the house increased. Hint: use the Linear Equation Template .    Check that your equation gives the correct sold value.  "
+},
+{
+  "id": "ws-Linear_vs_exponential-4",
+  "level": "2",
+  "url": "ws-Linear_vs_exponential.html#ws-Linear_vs_exponential-4",
+  "type": "Worksheet Exercise",
+  "number": "5.4.2",
+  "title": "",
+  "body": " The number of manufacturing jobs in the state has been declining for decades. In 1970, there were 1.2 million such jobs in the state but by 2010 there were only 0.6 million such jobs. Write for the number of manufacturing jobs (in millions) and for time in years since 1970.   First, assume the number of jobs decreased linearly.    Calculate the slope.   Write a linear equation showing how the number of jobs declined.   Check that your equation gives the correct value for 2010.    Next, assume the number of jobs decreased exponentially instead.    Calculate the growth factor.   Write an exponential equation showing how the number of jobs declined.   Check that your equation gives the correct value for 2010.    The problem continues …    Now, compare the models.    Complete the table of values.    year  1970  1990  2010  2020  2030     0  20  40  50  60    (if linear)         (if exponential)          Draw a graph showing both models.    Which model has better news for 2030?  "
+},
+{
+  "id": "ws-Linear_vs_exponential-5",
+  "level": "2",
+  "url": "ws-Linear_vs_exponential.html#ws-Linear_vs_exponential-5",
+  "type": "Worksheet Exercise",
+  "number": "5.4.3",
+  "title": "",
+  "body": " In December 2010, a popular mobile app game featuring animated birds launched from slingshots had 50 million downloads. Five months later (May 2011), the game had 200 million downloads. Let denote the number of downloads of the game (in millions) and the time in months since December 2010.   Suppose that the number of downloads have been increasing at a constant rate each month . What type of equation is suggested here? Write that equation and use it to estimate the number of downloads in November 2011 (when T = 11).   Suppose that the number of downloads have been increasing at a fixed percentage each month . What type of equation is suggested here? Write that equation and use it to estimate the number of downloads in November 2011 (when T = 11).   Which of these two models do you think is more sensible, and why?  "
+},
+{
+  "id": "ws-Linear_vs_exponential-6",
+  "level": "2",
+  "url": "ws-Linear_vs_exponential.html#ws-Linear_vs_exponential-6",
+  "type": "Worksheet Exercise",
+  "number": "5.4.4",
+  "title": "",
+  "body": " Bus fares are up to $2.25 per ride during rush hour. Two different plans of increasing fares are being debated: 10¢ per year or 2.5% per year.   Which type of equation is being suggested in each plan? Write the equations. Don't forget to name the variables, including units.    Make a table comparing these plans over the next decade (ten years).   Draw a graph showing both options.     The problem continues …    As a city council representative, you want to support the plan that your constituents prefer. If most of your constituents ride the bus, which plan should you support? Why?   If most of your constituents are members of the same union as the bus drivers (who count on solid earnings from the bus company to keep their jobs), then which plan should you support?  "
+},
+{
+  "id": "ws-Linear_vs_exponential-7-2",
+  "level": "2",
+  "url": "ws-Linear_vs_exponential.html#ws-Linear_vs_exponential-7-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-Linear_vs_exponential_end-3",
+  "level": "2",
+  "url": "ws-Linear_vs_exponential.html#ss-Linear_vs_exponential_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
+  "id": "ws-Logistic_growth",
+  "level": "1",
+  "url": "ws-Logistic_growth.html",
+  "type": "Worksheet",
+  "number": "5.5",
+  "title": "Logistic and other growth models - Practice exercises",
+  "body": " Logistic and other growth models - Practice exercises   Corn farmers say that their crop is healthy if it is knee high by the Fourth of July. An equation that relates the height (in inches) of the corn crop days since May 1 is    According to this equation, how high is corn projected to be on June 1 (day 31)?   According to this equation, how high is corn projected to be on the Fourth of July (day 64)? Is that knee high (18 inches tall)?   With stronger corn these days, the rule ought to be chest high (52 inches) by the Fourth of July. According to this equation, approximately when is the corn projected to be that tall? Use successive approximation to answer.   The corn matures in 110 days. How tall will it be then?   Draw a graph of the function. Include when .     An alternative equation for corn height is    According to this new equation, how high is corn projected to be on June 1 (day 31)?   According to this new equation, how high is corn projected to be on the Fourth of July (day 64)? Is that knee high (18 inches tall)?   According to this new equation, on approximately what date is the corn projected to be chest high (52 inches tall)? Use successive approximation to answer.   The corn matures in 110 days. How tall will it be then, according to this new equation?   Add the graph of this function to your graph of the original equation on the previous problem. Again, include when .    Back in 1975 when my aunt and uncle bought their house upstate New York, there was a small pond in the yard. They enlarged it and stocked it with 10 small fish. The number of fish increased over time, approximately according to the equation where is time measured in years since 1975.   Make a table showing the fish population in 1975, 1990, 2000, and 2013.   By the time there were over 500 fish in the pond, you could catch them with your bare hands. In approximately what year did that happen? Use successive approximations and display your calculations in a table.   In approximately what year did the fish population reach its capacity? Use successive approximations and display your calculations in a table.    Jason works at a costume shop selling Halloween costumes. The shop is busiest during the fall before Halloween. An equation that describes the number of daily visitors the shop receives days from August 31 is the following: An alternative equation is     Make a table showing what each equation predicts for August 31, September 15, September 30, October 15, October 25, October 28, and October 31.   Hint: those days are numbered 0, 15, 30, 45, 55, 58, and 61.     Graph both functions on the same set of axes.    Which function is more consistent with a major advertising campaign during the second week of September? Explain.    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    Why we might use a logistic or saturation model, instead of an exponential model?    The difference between a logistic and saturation model?    What the limiting value of a logistic function means in the story and what it tells us about the graph?    How to find the limiting value of a logistic function?    What the graph of a logistic function looks like?    What the limiting value of a saturation function means in the story and what it tells us about the graph?    How to find the limiting value of a saturation function?    What the graph of a saturation function looks like?     Don't forget!    "
+},
+{
+  "id": "ws-Logistic_growth-2",
+  "level": "2",
+  "url": "ws-Logistic_growth.html#ws-Logistic_growth-2",
+  "type": "Worksheet Exercise",
+  "number": "5.5.1",
+  "title": "",
+  "body": " Corn farmers say that their crop is healthy if it is knee high by the Fourth of July. An equation that relates the height (in inches) of the corn crop days since May 1 is    According to this equation, how high is corn projected to be on June 1 (day 31)?   According to this equation, how high is corn projected to be on the Fourth of July (day 64)? Is that knee high (18 inches tall)?   With stronger corn these days, the rule ought to be chest high (52 inches) by the Fourth of July. According to this equation, approximately when is the corn projected to be that tall? Use successive approximation to answer.   The corn matures in 110 days. How tall will it be then?   Draw a graph of the function. Include when .   "
+},
+{
+  "id": "ws-Logistic_growth-3",
+  "level": "2",
+  "url": "ws-Logistic_growth.html#ws-Logistic_growth-3",
+  "type": "Worksheet Exercise",
+  "number": "5.5.2",
+  "title": "",
+  "body": " An alternative equation for corn height is    According to this new equation, how high is corn projected to be on June 1 (day 31)?   According to this new equation, how high is corn projected to be on the Fourth of July (day 64)? Is that knee high (18 inches tall)?   According to this new equation, on approximately what date is the corn projected to be chest high (52 inches tall)? Use successive approximation to answer.   The corn matures in 110 days. How tall will it be then, according to this new equation?   Add the graph of this function to your graph of the original equation on the previous problem. Again, include when .  "
+},
+{
+  "id": "ws-Logistic_growth-4",
+  "level": "2",
+  "url": "ws-Logistic_growth.html#ws-Logistic_growth-4",
+  "type": "Worksheet Exercise",
+  "number": "5.5.3",
+  "title": "",
+  "body": " Back in 1975 when my aunt and uncle bought their house upstate New York, there was a small pond in the yard. They enlarged it and stocked it with 10 small fish. The number of fish increased over time, approximately according to the equation where is time measured in years since 1975.   Make a table showing the fish population in 1975, 1990, 2000, and 2013.   By the time there were over 500 fish in the pond, you could catch them with your bare hands. In approximately what year did that happen? Use successive approximations and display your calculations in a table.   In approximately what year did the fish population reach its capacity? Use successive approximations and display your calculations in a table.  "
+},
+{
+  "id": "ws-Logistic_growth-5",
+  "level": "2",
+  "url": "ws-Logistic_growth.html#ws-Logistic_growth-5",
+  "type": "Worksheet Exercise",
+  "number": "5.5.4",
+  "title": "",
+  "body": " Jason works at a costume shop selling Halloween costumes. The shop is busiest during the fall before Halloween. An equation that describes the number of daily visitors the shop receives days from August 31 is the following: An alternative equation is     Make a table showing what each equation predicts for August 31, September 15, September 30, October 15, October 25, October 28, and October 31.   Hint: those days are numbered 0, 15, 30, 45, 55, 58, and 61.     Graph both functions on the same set of axes.    Which function is more consistent with a major advertising campaign during the second week of September? Explain.  "
+},
+{
+  "id": "ws-Logistic_growth-6-2",
+  "level": "2",
+  "url": "ws-Logistic_growth.html#ws-Logistic_growth-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-Logistic_growth_end-3",
+  "level": "2",
+  "url": "ws-Logistic_growth.html#ss-Logistic_growth_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
+  "id": "ws-PE5A",
+  "level": "1",
+  "url": "ws-PE5A.html",
+  "type": "Worksheet",
+  "number": "5.6",
+  "title": "Practice Exam 5A",
+  "body": " Practice Exam 5A   Relax. You have done problems like these before. Even if these problems look a bit different, just do what you can. If you're not sure of something, please ask! You may use your calculator. Please show all of your work and write down as many steps as you can. Don't spend too much time on any one problem. Do well. And remember, ask me if you're not sure about something.   As you work, make a don't forget list of any information you need to look up or ask about.     Leopard print hat. Originally 5 out of 1,000 women shopping at a major retail store even looked twice. But that number grew and grew, by my estimate around 40% a week, thanks to carefully placed ads in fashion magazines.   Write an equation illustrating the interest in leopard print hats using for the time (in weeks) and for the number of women interested in leopard print hats (women per thousand).   Make a table showing the number of women, per thousand female shoppers, who stop and look at the hat at the start, 1 week, 2 weeks, and 3 weeks after it hits the stores.   The leopard print hat is considered popular when more than 300 out of 1,000 women try it on. According to the equation, approximately when will the hat be considered popular? Use successive approximation to find the answer to the nearest week and display your guesses in a table.   The hat will be considered passé when over 750 out of 1,000 women try it on. I mean - everyone's got one! According to your equation, when will that happen? Set up and solve an equation, again answering to the nearest week.    HeeChan bought a classic car in 2003 for investment purposes and has been watching the value increase over the years. Based on the data, HeeChan came up with two possible equations      where is the time in years since 2003 and $ is the value of the car.   How much did HeeChan pay for the car in 2003?   What does each equation predict for the value of the car in 2013? In 2020?   What does each equation say will be the eventual value long term? Hint: if you are not sure try 100 years.     The number of geese in the Twin Cities metropolitan area increased from 480 in 1968 to 25,000 in 1994. Although population is sometimes modeled with exponential models, there are many factors that might make an exponential model inappropriate, such as changes in migration, wetlands, and hunting.   Name the variables, including units and dependence.   Write a linear equation modeling the goose population.   Now write an exponential equation modeling the goose population.    The problem continues ...    Compare the models' projections for 1968, 1975, 1984, 1994, 2000, 2010, and 2020. Summarize your findings in a table.   Graph each function over the period from 1968 to 2020 on the same set of axes.   Test-taking tip: even if you have trouble with the equations, you should be able to plot the information given in the story and sketch in the appropriate shape curves.     Research indicates that the Twin Cities metropolitan area could support 60,000 geese. Use your graphs to estimate when that will happen.   The actual goose population in 2010 was around 50,000. Which model was closer?    One of the toxic radioactive elements produced by nuclear power plants is strontium-90. A large amount of strontium-90 was released in the nuclear accident at Chernobyl in the 1980's. The clouds carried the strontium-90 great distances. The rain washed it down into the grass, which was eaten by cows. People then drank the milk from the cows. Unfortunately, strontium-90 causes cancer. Strontium-90 is particularly dangerous because it has a half-life of approximately 28 years, which means that every 28 years half of the existing strontium-90 changes into a safe product; the other half remains strontium-90. Suppose that a person drank milk containing 100 milligrams of strontium-90. Source: Explorations in College Algebra, by Kime and Clark    After 28 years, how many milligrams of strontium-90 remains in the person's body? After 56 years?   Both 28 and 56 are easy multiples of the half-life.    Find the annual percentage decrease of strontium-90.   Name the variables and write an equation relating them.   Suppose that any amount under 20 milligrams of strontium-90 is considered acceptable in humans. Will it have reached acceptable levels after 70 years?   "
+},
+{
+  "id": "ws-PE5A-3",
+  "level": "2",
+  "url": "ws-PE5A.html#ws-PE5A-3",
+  "type": "Worksheet Exercise",
+  "number": "5.6.1",
+  "title": "",
+  "body": " Leopard print hat. Originally 5 out of 1,000 women shopping at a major retail store even looked twice. But that number grew and grew, by my estimate around 40% a week, thanks to carefully placed ads in fashion magazines.   Write an equation illustrating the interest in leopard print hats using for the time (in weeks) and for the number of women interested in leopard print hats (women per thousand).   Make a table showing the number of women, per thousand female shoppers, who stop and look at the hat at the start, 1 week, 2 weeks, and 3 weeks after it hits the stores.   The leopard print hat is considered popular when more than 300 out of 1,000 women try it on. According to the equation, approximately when will the hat be considered popular? Use successive approximation to find the answer to the nearest week and display your guesses in a table.   The hat will be considered passé when over 750 out of 1,000 women try it on. I mean - everyone's got one! According to your equation, when will that happen? Set up and solve an equation, again answering to the nearest week.  "
+},
+{
+  "id": "ws-PE5A-4",
+  "level": "2",
+  "url": "ws-PE5A.html#ws-PE5A-4",
+  "type": "Worksheet Exercise",
+  "number": "5.6.2",
+  "title": "",
+  "body": " HeeChan bought a classic car in 2003 for investment purposes and has been watching the value increase over the years. Based on the data, HeeChan came up with two possible equations      where is the time in years since 2003 and $ is the value of the car.   How much did HeeChan pay for the car in 2003?   What does each equation predict for the value of the car in 2013? In 2020?   What does each equation say will be the eventual value long term? Hint: if you are not sure try 100 years.   "
+},
+{
+  "id": "ws-PE5A-5",
+  "level": "2",
+  "url": "ws-PE5A.html#ws-PE5A-5",
+  "type": "Worksheet Exercise",
+  "number": "5.6.3",
+  "title": "",
+  "body": " The number of geese in the Twin Cities metropolitan area increased from 480 in 1968 to 25,000 in 1994. Although population is sometimes modeled with exponential models, there are many factors that might make an exponential model inappropriate, such as changes in migration, wetlands, and hunting.   Name the variables, including units and dependence.   Write a linear equation modeling the goose population.   Now write an exponential equation modeling the goose population.    The problem continues ...    Compare the models' projections for 1968, 1975, 1984, 1994, 2000, 2010, and 2020. Summarize your findings in a table.   Graph each function over the period from 1968 to 2020 on the same set of axes.   Test-taking tip: even if you have trouble with the equations, you should be able to plot the information given in the story and sketch in the appropriate shape curves.     Research indicates that the Twin Cities metropolitan area could support 60,000 geese. Use your graphs to estimate when that will happen.   The actual goose population in 2010 was around 50,000. Which model was closer?  "
+},
+{
+  "id": "ws-PE5A-6",
+  "level": "2",
+  "url": "ws-PE5A.html#ws-PE5A-6",
+  "type": "Worksheet Exercise",
+  "number": "5.6.4",
+  "title": "",
+  "body": " One of the toxic radioactive elements produced by nuclear power plants is strontium-90. A large amount of strontium-90 was released in the nuclear accident at Chernobyl in the 1980's. The clouds carried the strontium-90 great distances. The rain washed it down into the grass, which was eaten by cows. People then drank the milk from the cows. Unfortunately, strontium-90 causes cancer. Strontium-90 is particularly dangerous because it has a half-life of approximately 28 years, which means that every 28 years half of the existing strontium-90 changes into a safe product; the other half remains strontium-90. Suppose that a person drank milk containing 100 milligrams of strontium-90. Source: Explorations in College Algebra, by Kime and Clark    After 28 years, how many milligrams of strontium-90 remains in the person's body? After 56 years?   Both 28 and 56 are easy multiples of the half-life.    Find the annual percentage decrease of strontium-90.   Name the variables and write an equation relating them.   Suppose that any amount under 20 milligrams of strontium-90 is considered acceptable in humans. Will it have reached acceptable levels after 70 years?  "
+},
+{
+  "id": "ws-PE5B",
+  "level": "1",
+  "url": "ws-PE5B.html",
+  "type": "Worksheet",
+  "number": "5.7",
+  "title": "Practice Exam 5B",
+  "body": " Practice Exam 5B    Try taking this version of the practice exam under testing conditions: no book, no notes, no classmate's help, no electronics (computer, cell phone, television). Give yourself one hour to work and wait until you have tried your best on all of the problems before checking any answers.     The number of school children in the district whose first language in not English has been on the rise. The equation describing the situation is where is the number of school children in the district whose first language is not English, and is time measured in years (from now).   Make a table showing the number of school children in the district whose first language is not English now, in one year, in two years, and in ten years. Don't forget now too.    What percent increase is implicit in this equation?   Use successive approximation to determine approximately when there will be over 1,700 school children in the district whose first language is not English. Display your work in a table. Round your answer to the nearest year.   Show how to solve the equation to calculate exactly when there will be over 1,700 school children in the district whose first language is not English.    The lottery jackpot started at $600,000. After 17 days the jackpot had increased to $2.1 million. The lottery is designed so that the jackpot grows exponentially.   Name the variables including units.   Write an equation describing the jackpot. Hint: find the daily growth factor.    By what percentage does the jackpot increase each day?   What will the jackpot be after 20 more days (after 37 days total)?    The creeping vine is taking over Fiona's front lawn. Write for the area covered by the vine (in square feet) and for time in years since she moved into her house.   When Fiona moved in, vine covered about 3 square feet. She believes it has doubled each year since. Write an exponential equation showing how the area covered by the vine is a function of time. Stuck? Try making a table first.    At some point the vine will take over the entire lawn, so perhaps a saturation model would be better. That equation might be Another equation would be a logistic model. Perhaps Fill in the corresponding rows of the table for each model.    years  0  1  2  3  4  5  6    area exponential           area saturation           area logistic             The problem continues ...    Draw a graph showing all three models on the same set of axes.     Many different agencies are working to lower infant mortality. Infant mortality is measured in deaths per thousand births. The world infant mortality rate in 1955 was around 52 (per thousand births). By the year 2000, it was down to around 23. Source: Wikipedia (Infant Mortality)    Name the variables, including units and dependence.   Write a linear equation modeling infant mortality.   Now write an exponential equation modeling infant mortality.   Compare the models' projections for 1955, 1970, 1990, 2000, 2010, and 2020. Summarize your findings in a table.   The actual rates were 40 deaths per thousand births in 1970 and 28 deaths per thousand births in 1990. Which model fits this additional data better?   "
+},
+{
+  "id": "ws-PE5B-3",
+  "level": "2",
+  "url": "ws-PE5B.html#ws-PE5B-3",
+  "type": "Worksheet Exercise",
+  "number": "5.7.1",
+  "title": "",
+  "body": " The number of school children in the district whose first language in not English has been on the rise. The equation describing the situation is where is the number of school children in the district whose first language is not English, and is time measured in years (from now).   Make a table showing the number of school children in the district whose first language is not English now, in one year, in two years, and in ten years. Don't forget now too.    What percent increase is implicit in this equation?   Use successive approximation to determine approximately when there will be over 1,700 school children in the district whose first language is not English. Display your work in a table. Round your answer to the nearest year.   Show how to solve the equation to calculate exactly when there will be over 1,700 school children in the district whose first language is not English.  "
+},
+{
+  "id": "ws-PE5B-4",
+  "level": "2",
+  "url": "ws-PE5B.html#ws-PE5B-4",
+  "type": "Worksheet Exercise",
+  "number": "5.7.2",
+  "title": "",
+  "body": " The lottery jackpot started at $600,000. After 17 days the jackpot had increased to $2.1 million. The lottery is designed so that the jackpot grows exponentially.   Name the variables including units.   Write an equation describing the jackpot. Hint: find the daily growth factor.    By what percentage does the jackpot increase each day?   What will the jackpot be after 20 more days (after 37 days total)?  "
+},
+{
+  "id": "ws-PE5B-5",
+  "level": "2",
+  "url": "ws-PE5B.html#ws-PE5B-5",
+  "type": "Worksheet Exercise",
+  "number": "5.7.3",
+  "title": "",
+  "body": " The creeping vine is taking over Fiona's front lawn. Write for the area covered by the vine (in square feet) and for time in years since she moved into her house.   When Fiona moved in, vine covered about 3 square feet. She believes it has doubled each year since. Write an exponential equation showing how the area covered by the vine is a function of time. Stuck? Try making a table first.    At some point the vine will take over the entire lawn, so perhaps a saturation model would be better. That equation might be Another equation would be a logistic model. Perhaps Fill in the corresponding rows of the table for each model.    years  0  1  2  3  4  5  6    area exponential           area saturation           area logistic             The problem continues ...    Draw a graph showing all three models on the same set of axes.   "
+},
+{
+  "id": "ws-PE5B-6",
+  "level": "2",
+  "url": "ws-PE5B.html#ws-PE5B-6",
+  "type": "Worksheet Exercise",
+  "number": "5.7.4",
+  "title": "",
+  "body": " Many different agencies are working to lower infant mortality. Infant mortality is measured in deaths per thousand births. The world infant mortality rate in 1955 was around 52 (per thousand births). By the year 2000, it was down to around 23. Source: Wikipedia (Infant Mortality)    Name the variables, including units and dependence.   Write a linear equation modeling infant mortality.   Now write an exponential equation modeling infant mortality.   Compare the models' projections for 1955, 1970, 1990, 2000, 2010, and 2020. Summarize your findings in a table.   The actual rates were 40 deaths per thousand births in 1970 and 28 deaths per thousand births in 1990. Which model fits this additional data better?  "
 },
 {
   "id": "backmatter-2",
