@@ -2809,6 +2809,312 @@ var ptx_lunr_docs = [
   "body": " Many different agencies are working to lower infant mortality. Infant mortality is measured in deaths per thousand births. The world infant mortality rate in 1955 was around 52 (per thousand births). By the year 2000, it was down to around 23. Source: Wikipedia (Infant Mortality)    Name the variables, including units and dependence.   Write a linear equation modeling infant mortality.   Now write an exponential equation modeling infant mortality.   Compare the models' projections for 1955, 1970, 1990, 2000, 2010, and 2020. Summarize your findings in a table.   The actual rates were 40 deaths per thousand births in 1970 and 28 deaths per thousand births in 1990. Which model fits this additional data better?  "
 },
 {
+  "id": "ws-Review_exercisesA",
+  "level": "1",
+  "url": "ws-Review_exercisesA.html",
+  "type": "Worksheet",
+  "number": "6.1",
+  "title": "Practice Final Exam A",
+  "body": " Practice Final Exam A   Relax. You have done problems like these before. Even if these problems look a bit different, just do what you can. If you're not sure of something, please ask! You may use your calculator. Please show all of your work and write down as many steps as you can. Don't spend too much time on any one problem. Do well. And remember, ask me if you're not sure about something.   As you work, make a don't forget list of any information you need to look up or ask about.    Caution: These review exercises do not include every possible problem you might be asked on a final exam. For example, there are no problems here from Sections 1.5, 2.5, 3.5, 4.5, or 5.5, so be sure to ask your instructor which of those sections are going to be on your final exam.    The graph shows the number of cars produced in North America (in millions\/year) during 1951-2011. Source: Ward's Automotive Yearbooks     Identify the variables, including units and dependence.    The problem continues ...    Approximately when did North American car production first pass 9 million\/year? Indicate the corresponding point on the graph.   In which year were the most cars produced? Again, also indicate the point.   Best as you can tell from your graph, what might be a reasonable estimate of North American car production in 2015? Just guess to the nearest million\/year.   Calculate the rate of change from 1958 when production was 4.57 million cars\/year to 1971 when it was 9.83 cars million\/year. What does that tell you about North American car production during 1958-1971?   Now calculate the rate of change of from 1984 when production was 9.03 million cars\/year to 2006 when it was 6.84 million cars\/year. What does that tell you about North American car production during 1984-2006?    Sarah and Koal are bringing a large basket of stuffed animals to the crisis nursery as gifts for the children. They estimate it will cost $ for stuffed animals where    Make a table showing the cost if Sarah and Koal include 10, 20, or 40 stuffed animals.   Included in the cost is a new toy box for the animals. What does it cost?   What does the 6.95 represent and what are its units?   Draw a detailed graph, starting at 0.     The problem continues ...    If Sarah and Koal spent $262.39, how many stuffed animals were in the toy box they gave to the crisis nursery? Show how to set up and solve an equation to answer the question.   Solve the inequality What does the answer mean in terms of the story?    My favorite little black dress is machine washable. Unfortunately each time I wash it the color fades a little. The intensity of black color remaining, , is a function of the number of times I have washed the dress, , according to the equation    It will still look new as long as the intensity stays above 90%. Set up and solve an equation to figure out how many times I can wash the dress and keep it looking new. Then check some other way.   By the time only 75% of the color remains, the dress will look too faded to wear formally. How many washes before then? Find the answer to the nearest number of washes by any method you prefer.   Draw a graph showing how the color of my favorite little black dress fades.     Brock is working as the equipment manager at a local gym. They need to replace several weight machines. One option will cost $475 per month to rent the machines plus a delivery\/removal fee of $300. The other option is to buy the machines for $23,600 and pay $92\/month for a service contract.   Name the variables and write an equation for each option.   What should Brock recommend if they plan to have the machines for 3 years?   Set up and solve a system of equations to determine when the options cost the same.   What does the answer tell Brock?    Dwight's company was doing great business in 2000, but a few years later sales began to drop, and have only gotten worse. Their sales $ in millions years from 2000 is given by the following equation     According to this equation, what were the company's sales in 2000, 2004, 2009? You may confirm your answers with the graph, but use the equation to calculate.    The company decided to declare bankruptcy when sales fell below $10 million. In what year was that? Find the answer to the nearest year, showing work to justify your answer. Also, indicate the point on the graph where you can check. You may use successive approximations or the appropriate formula.     Infants are regularly checked to make sure they are growing accordingly. The World Health Organization publishes growth charts to evaluate infant weight in kilograms at a given age in months since birth (for up to three years). An equation that describes an average infant boy is the following:    According to this equation, what is the average infant boy weight at birth, 4 months, a year, and 2 years?   Convert your answer for 4 months to pounds and ounces using  Hint: first convert to pounds. Then convert just the decimal part to ounces.     Gail calculated that number of pieces of fudge she can cut from a square that is inches on each edge is given by the formula    Make a table showing the number of pieces of fudge from a square with edge: 5 inches, 10 inches, and 2 feet. Include the value for a 0 inch square too.   Draw a graph showing how the number of pieces of fudge depends on the length of the edge of the square.    According to your graph, approximately what size square should Gail make if she wants 200 pieces of fudge?   Now set up and solve an equation to find the answer to the nearest one decimal place.    In 2000 there were an estimated 20,851,820 Texans. The population of Texas has grown around 1.89% per year since then. Source: United States Census Bureau    Name the variables and write an equation relating them.   According to your equation, what was the population of Texas in 2010?   The U.S. Census Bureau counted 25,145,561 Texans in 2010. Does that mean the actual growth rate was slightly more or slightly less than 1.89%? Explain.    Ericson has been lifting weight for the past 12 weeks. He has increased his curl weight by about 1.5 pounds per week and is up to 30 pounds.   What weight could Ericson curl 12 weeks ago?   Name the variables and write a linear equation relating them.   At this rate when will Ericson be able to curl his goal of at least 45 pounds? Set up and solve an inequality.    In the United States in 1970, the average person ate 2,169 calories per day. By 2008 that number had increased to 2,674 calories per day. Source: United States Department of Agriculture Let be the amount a typical person eats (in calories per day) and the number of years since 1970. Compare what the linear and exponential models project for the years 2015 and 2030. Include both equations and a graph showing both functions on the same axes.    "
+},
+{
+  "id": "ws-Review_exercisesA-2-3",
+  "level": "2",
+  "url": "ws-Review_exercisesA.html#ws-Review_exercisesA-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Caution: "
+},
+{
+  "id": "ws-Review_exercisesA-3",
+  "level": "2",
+  "url": "ws-Review_exercisesA.html#ws-Review_exercisesA-3",
+  "type": "Worksheet Exercise",
+  "number": "6.1.1",
+  "title": "",
+  "body": " The graph shows the number of cars produced in North America (in millions\/year) during 1951-2011. Source: Ward's Automotive Yearbooks     Identify the variables, including units and dependence.    The problem continues ...    Approximately when did North American car production first pass 9 million\/year? Indicate the corresponding point on the graph.   In which year were the most cars produced? Again, also indicate the point.   Best as you can tell from your graph, what might be a reasonable estimate of North American car production in 2015? Just guess to the nearest million\/year.   Calculate the rate of change from 1958 when production was 4.57 million cars\/year to 1971 when it was 9.83 cars million\/year. What does that tell you about North American car production during 1958-1971?   Now calculate the rate of change of from 1984 when production was 9.03 million cars\/year to 2006 when it was 6.84 million cars\/year. What does that tell you about North American car production during 1984-2006?  "
+},
+{
+  "id": "ws-Review_exercisesA-4",
+  "level": "2",
+  "url": "ws-Review_exercisesA.html#ws-Review_exercisesA-4",
+  "type": "Worksheet Exercise",
+  "number": "6.1.2",
+  "title": "",
+  "body": " Sarah and Koal are bringing a large basket of stuffed animals to the crisis nursery as gifts for the children. They estimate it will cost $ for stuffed animals where    Make a table showing the cost if Sarah and Koal include 10, 20, or 40 stuffed animals.   Included in the cost is a new toy box for the animals. What does it cost?   What does the 6.95 represent and what are its units?   Draw a detailed graph, starting at 0.     The problem continues ...    If Sarah and Koal spent $262.39, how many stuffed animals were in the toy box they gave to the crisis nursery? Show how to set up and solve an equation to answer the question.   Solve the inequality What does the answer mean in terms of the story?  "
+},
+{
+  "id": "ws-Review_exercisesA-5",
+  "level": "2",
+  "url": "ws-Review_exercisesA.html#ws-Review_exercisesA-5",
+  "type": "Worksheet Exercise",
+  "number": "6.1.3",
+  "title": "",
+  "body": " My favorite little black dress is machine washable. Unfortunately each time I wash it the color fades a little. The intensity of black color remaining, , is a function of the number of times I have washed the dress, , according to the equation    It will still look new as long as the intensity stays above 90%. Set up and solve an equation to figure out how many times I can wash the dress and keep it looking new. Then check some other way.   By the time only 75% of the color remains, the dress will look too faded to wear formally. How many washes before then? Find the answer to the nearest number of washes by any method you prefer.   Draw a graph showing how the color of my favorite little black dress fades.   "
+},
+{
+  "id": "ws-Review_exercisesA-6",
+  "level": "2",
+  "url": "ws-Review_exercisesA.html#ws-Review_exercisesA-6",
+  "type": "Worksheet Exercise",
+  "number": "6.1.4",
+  "title": "",
+  "body": " Brock is working as the equipment manager at a local gym. They need to replace several weight machines. One option will cost $475 per month to rent the machines plus a delivery\/removal fee of $300. The other option is to buy the machines for $23,600 and pay $92\/month for a service contract.   Name the variables and write an equation for each option.   What should Brock recommend if they plan to have the machines for 3 years?   Set up and solve a system of equations to determine when the options cost the same.   What does the answer tell Brock?  "
+},
+{
+  "id": "ws-Review_exercisesA-7",
+  "level": "2",
+  "url": "ws-Review_exercisesA.html#ws-Review_exercisesA-7",
+  "type": "Worksheet Exercise",
+  "number": "6.1.5",
+  "title": "",
+  "body": " Dwight's company was doing great business in 2000, but a few years later sales began to drop, and have only gotten worse. Their sales $ in millions years from 2000 is given by the following equation     According to this equation, what were the company's sales in 2000, 2004, 2009? You may confirm your answers with the graph, but use the equation to calculate.    The company decided to declare bankruptcy when sales fell below $10 million. In what year was that? Find the answer to the nearest year, showing work to justify your answer. Also, indicate the point on the graph where you can check. You may use successive approximations or the appropriate formula.   "
+},
+{
+  "id": "ws-Review_exercisesA-8",
+  "level": "2",
+  "url": "ws-Review_exercisesA.html#ws-Review_exercisesA-8",
+  "type": "Worksheet Exercise",
+  "number": "6.1.6",
+  "title": "",
+  "body": " Infants are regularly checked to make sure they are growing accordingly. The World Health Organization publishes growth charts to evaluate infant weight in kilograms at a given age in months since birth (for up to three years). An equation that describes an average infant boy is the following:    According to this equation, what is the average infant boy weight at birth, 4 months, a year, and 2 years?   Convert your answer for 4 months to pounds and ounces using  Hint: first convert to pounds. Then convert just the decimal part to ounces.   "
+},
+{
+  "id": "ws-Review_exercisesA-9",
+  "level": "2",
+  "url": "ws-Review_exercisesA.html#ws-Review_exercisesA-9",
+  "type": "Worksheet Exercise",
+  "number": "6.1.7",
+  "title": "",
+  "body": " Gail calculated that number of pieces of fudge she can cut from a square that is inches on each edge is given by the formula    Make a table showing the number of pieces of fudge from a square with edge: 5 inches, 10 inches, and 2 feet. Include the value for a 0 inch square too.   Draw a graph showing how the number of pieces of fudge depends on the length of the edge of the square.    According to your graph, approximately what size square should Gail make if she wants 200 pieces of fudge?   Now set up and solve an equation to find the answer to the nearest one decimal place.  "
+},
+{
+  "id": "ws-Review_exercisesA-10",
+  "level": "2",
+  "url": "ws-Review_exercisesA.html#ws-Review_exercisesA-10",
+  "type": "Worksheet Exercise",
+  "number": "6.1.8",
+  "title": "",
+  "body": " In 2000 there were an estimated 20,851,820 Texans. The population of Texas has grown around 1.89% per year since then. Source: United States Census Bureau    Name the variables and write an equation relating them.   According to your equation, what was the population of Texas in 2010?   The U.S. Census Bureau counted 25,145,561 Texans in 2010. Does that mean the actual growth rate was slightly more or slightly less than 1.89%? Explain.  "
+},
+{
+  "id": "ws-Review_exercisesA-11",
+  "level": "2",
+  "url": "ws-Review_exercisesA.html#ws-Review_exercisesA-11",
+  "type": "Worksheet Exercise",
+  "number": "6.1.9",
+  "title": "",
+  "body": " Ericson has been lifting weight for the past 12 weeks. He has increased his curl weight by about 1.5 pounds per week and is up to 30 pounds.   What weight could Ericson curl 12 weeks ago?   Name the variables and write a linear equation relating them.   At this rate when will Ericson be able to curl his goal of at least 45 pounds? Set up and solve an inequality.  "
+},
+{
+  "id": "ws-Review_exercisesA-12",
+  "level": "2",
+  "url": "ws-Review_exercisesA.html#ws-Review_exercisesA-12",
+  "type": "Worksheet Exercise",
+  "number": "6.1.10",
+  "title": "",
+  "body": " In the United States in 1970, the average person ate 2,169 calories per day. By 2008 that number had increased to 2,674 calories per day. Source: United States Department of Agriculture Let be the amount a typical person eats (in calories per day) and the number of years since 1970. Compare what the linear and exponential models project for the years 2015 and 2030. Include both equations and a graph showing both functions on the same axes.   "
+},
+{
+  "id": "ws-Review_exercisesB",
+  "level": "1",
+  "url": "ws-Review_exercisesB.html",
+  "type": "Worksheet",
+  "number": "6.2",
+  "title": "Practice Final Exam B",
+  "body": " Practice Final Exam B    Try taking this version of the practice exam under testing conditions: no book, no notes, no classmate's help, no electronics (computer, cell phone, television). Give yourself two hours to work and wait until you have tried your best on all of the problems before checking any answers.     I love coffee. But not when it gets cold. The graph shows how my cup of coffee cools.    Identify the variables, including units and dependence.   Answer each question and indicate the point on the graph you use.   How hot is my coffee right after I pour it (before it starts cooling)?   I simply will not drink my coffee once it is cooler than 150 F. How long does it take for my coffee to cool off that much?   I prefer to drink my coffee between 160 F and 180 F. What is the corresponding time period during which I should drink my coffee?    Jolene is driving up to Duluth to visit her aunt. Unfortunately it is snowing so traffic is going slowly. Her distance miles to Duluth is described by the equation where is the time in hours since 12:00 noon when Jolene started driving.   Identify the intercept, including units, and explain what it means in the story.   Identify the slope, including units, and explain what it means in the story.   Jolene plans to call her aunt once she is under 20 miles from Duluth. When will that be? Show how to set up and solve an inequality to answer the question. Find the exact time, to the nearest minute.    There sure are a lot of squirrels in my neighborhood. The equation estimates the number of squirrels ( ) where is the time in years since 2005.   Make a table showing the number of squirrels in 2005, 2008, 2013, and 2017.   Draw a graph showing how the squirrel population grew.     The problem continues ...     Approximately when will the population pass 10,000 squirrels? Guess from the graph. Then refine your answer using successive approximation.   Show how to solve the equation to determine exactly when there will be 10,000 squirrels.   There were 10,000 squirrels in 2011, so our equation is a bit off. Assuming there were still 4,000 squirrels in 2005, revise the equation. Hint: find the new growth factor.     Gail calculated that the number of calories in a cube of fudge depends on how large the cube is, say inches long on each edge. A possible equation is    How many calories are in a cube of fudge that is 1 inch on each edge?   What size cube of fudge has 200 calories? Answer to the nearest tenth (that means to 1 decimal place), showing work to justify your answer.   You may use successive approximations or the appropriate formula.     Convert your answer to millimeters (mm) using .   Test-taking tip: No answer for part (b)? Write down a guess and convert that.      The height feet of a ball seconds after it is thrown straight up in the air is given by the equation     According to the equation, how high up was the ball to start, after 0.5 seconds, and after 1 second? Use the equation to evaluate and check against the graph.    Calculate the speed (rate of change) between 0.7 seconds and 0.8 seconds.    The problem continues ...    Convert your answer from part (b) to mph. Use 1 mile = 5,280 feet.   Test-taking tip: No answer for part (b)? Write down a guess and convert that.    When will the ball hit the ground? Find the answer to the nearest hundredth (that means to 2 decimal places), showing work to justify your answer.   You may use successive approximations or the appropriate formula.     A local sporting goods store does custom embroidered jerseys for $29 each plus $1.75 per letter. Or you can order the same jerseys online for $18 each plus $2.35 per letter, but it costs another $4.95 for shipping per jersey. If we write for the number of letters on the jersey and for the total cost (in $), then those equations are     If a player named Redeisheimer (12 letters) wants a jersey, which option costs least?   Make a table showing the cost for players named: Buls (4 letters), Schaaf (6 letters), and Johnston (8 letters).   Set up and solve a system of equations to determine when the options cost the same.   Summarize your findings in words.    The problem continues ...    Graph both functions on the same set of axes. Don't forget 0 letters.     Indicate the point on your graph where you can check your solution to part (c). If it doesn't agree, check your work and\/or your graph again.    For their holiday party at the office, Adriana had a tray of 200 empanadas delivered for $196. They were so good that she had a tray of 72 empanadas delivered to bring to her sister's house on Christmas Eve, which cost $78.24. Assume that the total cost is a linear function of the number of empanadas.   Test-taking tip: Note sure about parts (b) and (c)? Try finding the equation first.    Name the variables, including units and dependence.   What does each empanada cost?   What is the delivery charge?   Write an equation for the function.    Light rail fares are currently $3.00 per ride during rush hour. Two different plans of increasing fares are being debated: 15¢ per year or 4.5% per year.   Name the variables, including units and dependence.   Write an equation describing light rail fares over the next few years, assuming they increase 15¢ per year. What is this type of function called?   Write an equation describing light rail fares over the next few years, assuming they increase 4.5% per year. What is this type of function called?    The problem continues ...    Compare what each equation tells you light rail fares would be in 1 year, 5 years, and 20 years. List your answers in a table.   Graph both options on the same set of axes. Don't forget now.     "
+},
+{
+  "id": "ws-Review_exercisesB-3",
+  "level": "2",
+  "url": "ws-Review_exercisesB.html#ws-Review_exercisesB-3",
+  "type": "Worksheet Exercise",
+  "number": "6.2.1",
+  "title": "",
+  "body": " I love coffee. But not when it gets cold. The graph shows how my cup of coffee cools.    Identify the variables, including units and dependence.   Answer each question and indicate the point on the graph you use.   How hot is my coffee right after I pour it (before it starts cooling)?   I simply will not drink my coffee once it is cooler than 150 F. How long does it take for my coffee to cool off that much?   I prefer to drink my coffee between 160 F and 180 F. What is the corresponding time period during which I should drink my coffee?  "
+},
+{
+  "id": "ws-Review_exercisesB-4",
+  "level": "2",
+  "url": "ws-Review_exercisesB.html#ws-Review_exercisesB-4",
+  "type": "Worksheet Exercise",
+  "number": "6.2.2",
+  "title": "",
+  "body": " Jolene is driving up to Duluth to visit her aunt. Unfortunately it is snowing so traffic is going slowly. Her distance miles to Duluth is described by the equation where is the time in hours since 12:00 noon when Jolene started driving.   Identify the intercept, including units, and explain what it means in the story.   Identify the slope, including units, and explain what it means in the story.   Jolene plans to call her aunt once she is under 20 miles from Duluth. When will that be? Show how to set up and solve an inequality to answer the question. Find the exact time, to the nearest minute.  "
+},
+{
+  "id": "ws-Review_exercisesB-5",
+  "level": "2",
+  "url": "ws-Review_exercisesB.html#ws-Review_exercisesB-5",
+  "type": "Worksheet Exercise",
+  "number": "6.2.3",
+  "title": "",
+  "body": " There sure are a lot of squirrels in my neighborhood. The equation estimates the number of squirrels ( ) where is the time in years since 2005.   Make a table showing the number of squirrels in 2005, 2008, 2013, and 2017.   Draw a graph showing how the squirrel population grew.     The problem continues ...     Approximately when will the population pass 10,000 squirrels? Guess from the graph. Then refine your answer using successive approximation.   Show how to solve the equation to determine exactly when there will be 10,000 squirrels.   There were 10,000 squirrels in 2011, so our equation is a bit off. Assuming there were still 4,000 squirrels in 2005, revise the equation. Hint: find the new growth factor.   "
+},
+{
+  "id": "ws-Review_exercisesB-6",
+  "level": "2",
+  "url": "ws-Review_exercisesB.html#ws-Review_exercisesB-6",
+  "type": "Worksheet Exercise",
+  "number": "6.2.4",
+  "title": "",
+  "body": " Gail calculated that the number of calories in a cube of fudge depends on how large the cube is, say inches long on each edge. A possible equation is    How many calories are in a cube of fudge that is 1 inch on each edge?   What size cube of fudge has 200 calories? Answer to the nearest tenth (that means to 1 decimal place), showing work to justify your answer.   You may use successive approximations or the appropriate formula.     Convert your answer to millimeters (mm) using .   Test-taking tip: No answer for part (b)? Write down a guess and convert that.    "
+},
+{
+  "id": "ws-Review_exercisesB-7",
+  "level": "2",
+  "url": "ws-Review_exercisesB.html#ws-Review_exercisesB-7",
+  "type": "Worksheet Exercise",
+  "number": "6.2.5",
+  "title": "",
+  "body": " The height feet of a ball seconds after it is thrown straight up in the air is given by the equation     According to the equation, how high up was the ball to start, after 0.5 seconds, and after 1 second? Use the equation to evaluate and check against the graph.    Calculate the speed (rate of change) between 0.7 seconds and 0.8 seconds.    The problem continues ...    Convert your answer from part (b) to mph. Use 1 mile = 5,280 feet.   Test-taking tip: No answer for part (b)? Write down a guess and convert that.    When will the ball hit the ground? Find the answer to the nearest hundredth (that means to 2 decimal places), showing work to justify your answer.   You may use successive approximations or the appropriate formula.   "
+},
+{
+  "id": "ws-Review_exercisesB-8",
+  "level": "2",
+  "url": "ws-Review_exercisesB.html#ws-Review_exercisesB-8",
+  "type": "Worksheet Exercise",
+  "number": "6.2.6",
+  "title": "",
+  "body": " A local sporting goods store does custom embroidered jerseys for $29 each plus $1.75 per letter. Or you can order the same jerseys online for $18 each plus $2.35 per letter, but it costs another $4.95 for shipping per jersey. If we write for the number of letters on the jersey and for the total cost (in $), then those equations are     If a player named Redeisheimer (12 letters) wants a jersey, which option costs least?   Make a table showing the cost for players named: Buls (4 letters), Schaaf (6 letters), and Johnston (8 letters).   Set up and solve a system of equations to determine when the options cost the same.   Summarize your findings in words.    The problem continues ...    Graph both functions on the same set of axes. Don't forget 0 letters.     Indicate the point on your graph where you can check your solution to part (c). If it doesn't agree, check your work and\/or your graph again.  "
+},
+{
+  "id": "ws-Review_exercisesB-9",
+  "level": "2",
+  "url": "ws-Review_exercisesB.html#ws-Review_exercisesB-9",
+  "type": "Worksheet Exercise",
+  "number": "6.2.7",
+  "title": "",
+  "body": " For their holiday party at the office, Adriana had a tray of 200 empanadas delivered for $196. They were so good that she had a tray of 72 empanadas delivered to bring to her sister's house on Christmas Eve, which cost $78.24. Assume that the total cost is a linear function of the number of empanadas.   Test-taking tip: Note sure about parts (b) and (c)? Try finding the equation first.    Name the variables, including units and dependence.   What does each empanada cost?   What is the delivery charge?   Write an equation for the function.  "
+},
+{
+  "id": "ws-Review_exercisesB-10",
+  "level": "2",
+  "url": "ws-Review_exercisesB.html#ws-Review_exercisesB-10",
+  "type": "Worksheet Exercise",
+  "number": "6.2.8",
+  "title": "",
+  "body": " Light rail fares are currently $3.00 per ride during rush hour. Two different plans of increasing fares are being debated: 15¢ per year or 4.5% per year.   Name the variables, including units and dependence.   Write an equation describing light rail fares over the next few years, assuming they increase 15¢ per year. What is this type of function called?   Write an equation describing light rail fares over the next few years, assuming they increase 4.5% per year. What is this type of function called?    The problem continues ...    Compare what each equation tells you light rail fares would be in 1 year, 5 years, and 20 years. List your answers in a table.   Graph both options on the same set of axes. Don't forget now.    "
+},
+{
+  "id": "ss-Formulas_review",
+  "level": "1",
+  "url": "ss-Formulas_review.html",
+  "type": "Section",
+  "number": "6.3",
+  "title": "Formulas",
+  "body": " Formulas   Formulas are used for many purposes, including finding constants or solving specific types of equations. Various disciplines, such as finance, have specific formulas to evaluate quantitiies.    Formulas used to find constants:   Rate of Change\/Slope (of Linear) Formula:     Intercept (of Linear) Formula:    Percent Change Formula:     If a quantity changes by a percentage corresponding to growth rate , then the growth factor is     If the growth factor is , then the growth rate is       Growth Factor Formula:   If a quantity is growing (decaying) exponentially, then the growth (decay) factor is where is the starting amount and is the amount after time periods.       Formulas used to solve specific types of equations:   Root Formula: The equation has solution    Log-Divides Formula: The equation has solution    Quadratic Formula: The equation has solutions     Formulas from finance:   Compound Interest Formula:     Equivalent APR Formula:     Future Value Annuity Formula:     Loan Payment Formula:    where    = account balance or loan amount ($)    = initial deposit (principal), regular deposit, or regular payment ($)    = time invested (years)    = interest rate compounded monthly (as a decimal)     "
+},
+{
+  "id": "formulas-used-to-find-constants-2",
+  "level": "2",
+  "url": "ss-Formulas_review.html#formulas-used-to-find-constants-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Rate of Change\/Slope (of Linear) Formula: "
+},
+{
+  "id": "formulas-used-to-find-constants-3",
+  "level": "2",
+  "url": "ss-Formulas_review.html#formulas-used-to-find-constants-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Intercept (of Linear) Formula: "
+},
+{
+  "id": "formulas-used-to-find-constants-4",
+  "level": "2",
+  "url": "ss-Formulas_review.html#formulas-used-to-find-constants-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Percent Change Formula: "
+},
+{
+  "id": "formulas-used-to-find-constants-6",
+  "level": "2",
+  "url": "ss-Formulas_review.html#formulas-used-to-find-constants-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Growth Factor Formula: "
+},
+{
+  "id": "formulas-used-to-solve-specific-types-of-equations-2",
+  "level": "2",
+  "url": "ss-Formulas_review.html#formulas-used-to-solve-specific-types-of-equations-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Root Formula: "
+},
+{
+  "id": "formulas-used-to-solve-specific-types-of-equations-3",
+  "level": "2",
+  "url": "ss-Formulas_review.html#formulas-used-to-solve-specific-types-of-equations-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Log-Divides Formula: "
+},
+{
+  "id": "formulas-used-to-solve-specific-types-of-equations-4",
+  "level": "2",
+  "url": "ss-Formulas_review.html#formulas-used-to-solve-specific-types-of-equations-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Quadratic Formula: "
+},
+{
+  "id": "formulas-from-finance-2",
+  "level": "2",
+  "url": "ss-Formulas_review.html#formulas-from-finance-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Compound Interest Formula: "
+},
+{
+  "id": "formulas-from-finance-3",
+  "level": "2",
+  "url": "ss-Formulas_review.html#formulas-from-finance-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Equivalent APR Formula: "
+},
+{
+  "id": "formulas-from-finance-4",
+  "level": "2",
+  "url": "ss-Formulas_review.html#formulas-from-finance-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Future Value Annuity Formula: "
+},
+{
+  "id": "formulas-from-finance-5",
+  "level": "2",
+  "url": "ss-Formulas_review.html#formulas-from-finance-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Loan Payment Formula: "
+},
+{
+  "id": "ss-Templates_review",
+  "level": "1",
+  "url": "ss-Templates_review.html",
+  "type": "Section",
+  "number": "6.4",
+  "title": "Templates",
+  "body": " Templates   Templates are used to write equations from given or calculated information, to read constants from the equations, or simply to identify the type of equation in order to use type-specific formulas or information.    Linear equation template:     Power equation template:     Quadratic equation template:     Exponential equation template:    "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
