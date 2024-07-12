@@ -10,6 +10,573 @@ var ptx_lunr_docs = [
   "body": "  My Website   copyright  "
 },
 {
+  "id": "ws-Approximation_and_rounding",
+  "level": "1",
+  "url": "ws-Approximation_and_rounding.html",
+  "type": "Worksheet",
+  "number": "0.1",
+  "title": "Prelude: Approximation and Rounding - Practice exercises",
+  "body": " Prelude: Approximation and Rounding - Practice exercises   Round each number up, down, or off to the precision indicated.   This problem also appears in Section 1.1 #3.    My calculations show I need a cross brace around 9.388 feet long. I want the board to be long enough, so round up to the nearest foot.   Gas mileage is usually rounded down to the nearest one decimal place. What is the gas mileage for a car measured as getting 42.812 miles per gallon? What about a car getting 23.09 miles per gallon?   The population estimate was 4.2 million people, but revised estimates suggest 4,908,229 people. Report the revised estimate rounded appropriately. What if a different estimate was 4,890,225? Would that change your answer?    The answer to the question should we round up, down, or off? is usually it depends!    Callista needs $117 cash for a mani-pedi at the local salon. The ATM allows her to withdraw multiples of $20. How much money should she withdraw and how many $20 bills is that? Did you round up, down, or off?   Bahari is buying some 8-packs of sparkling water for today's community hour. He expects up to 23 people to be there. He calculates that he will need 8-packs. How many 8-packs should he bring? Did you round up, down, or off?   Tzuf has $20 to buy apples for the new year's celebration. A bag of apples costs $3.49. Tsuf calculates that they can afford bags. How many bags can they buy? Did you round up, down, or off?   Eiji read that life expectancy in the United States is 77.28 years whereas in Japan it is 84.62 years. How might he describe these life expectancies in (whole) years? Did you round up, down, or off?    Round off the calculated numbers to give an answer that is reasonable and no more precise than the information given.   The snow removal budget for the city is currently at $8.3 million but the city council is requesting a reduction of $1.15 million per year. We calculate that after three years of cuts, the snow removal budget will be $4.8079... million.   A cup of cooked red lentils has around 190 calories and 6.4 grams of dietary fiber, while a cup of cooked chickpeas has around 172 calories and 12.0 grams of dietary fiber. We calculate that lentils provide 0.03368421... grams per calorie whereas chickpeas provide 0.06976744... grams per calorie.    Hibbing [Minnesota] is the former boyhood home of Bob Dylan, basketball great Kevin McHale and the location of the Hull-Rust-Mahoning Open Pit Iron Mine, which has the largest iron-ore pit in the world. Hibbing is also the birthplace of [baseball star] Roger Maris. (source: http:\/\/hibbing.areaconnect.com\/)    In 2000 the population of Hibbing, Minnesota was reported at just over 17,000 residents. Based on a projected 0.4% decrease per year, the 2010 population was calculated to be 16,332.110... people.    It is easiest to compare the size of decimal numbers when they are written the same precision. For example, $1.7 million is more money than $1.34 million because when we write both numbers to two decimal places we see The symbol means greater than; it points to the smaller number. Alternatively, when we expand both numbers we see In each story, write all of the decimal numbers given to the same precision and list the numbers from largest to smallest using signs.   Dawn tested a water sample from her apartment and found 21.19 ppm of sulfate. She volunteers at a local soup kitchen where the water sample tested at 21.3 ppm. (The abbreviation ppm stands for “parts per million. Not to worry - sulfate levels below 250 are considered safe for human consumption.)   There are approximately 1.084 million quarters in circulation in the United States, compared to 1.786 million dimes, 1.6 million $5 bills, and 1.42 million $10 bills.    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    What the symbol for approximately equal to is?    Why an approximate answer is often as good as we can get?    What the term precisely refers to?    What the saying I'd rather be approximately right than precisely wrong means?    What the difference is between rounding off, rounding up, and rounding down?    When to round your answer, and when to round your answer up or down (instead of off)?    How to round a decimal to the nearest whole number? To one decimal place? To two decimal places?    How precisely to round an answer?    How to compare sizes of decimal numbers?    What the symbol for greater than is?     Don't forget!    "
+},
+{
+  "id": "ws-Approximation_and_rounding-2",
+  "level": "2",
+  "url": "ws-Approximation_and_rounding.html#ws-Approximation_and_rounding-2",
+  "type": "Worksheet Exercise",
+  "number": "0.1.1",
+  "title": "",
+  "body": " Round each number up, down, or off to the precision indicated.   This problem also appears in Section 1.1 #3.    My calculations show I need a cross brace around 9.388 feet long. I want the board to be long enough, so round up to the nearest foot.   Gas mileage is usually rounded down to the nearest one decimal place. What is the gas mileage for a car measured as getting 42.812 miles per gallon? What about a car getting 23.09 miles per gallon?   The population estimate was 4.2 million people, but revised estimates suggest 4,908,229 people. Report the revised estimate rounded appropriately. What if a different estimate was 4,890,225? Would that change your answer?  "
+},
+{
+  "id": "ws-Approximation_and_rounding-3",
+  "level": "2",
+  "url": "ws-Approximation_and_rounding.html#ws-Approximation_and_rounding-3",
+  "type": "Worksheet Exercise",
+  "number": "0.1.2",
+  "title": "",
+  "body": " The answer to the question should we round up, down, or off? is usually it depends!    Callista needs $117 cash for a mani-pedi at the local salon. The ATM allows her to withdraw multiples of $20. How much money should she withdraw and how many $20 bills is that? Did you round up, down, or off?   Bahari is buying some 8-packs of sparkling water for today's community hour. He expects up to 23 people to be there. He calculates that he will need 8-packs. How many 8-packs should he bring? Did you round up, down, or off?   Tzuf has $20 to buy apples for the new year's celebration. A bag of apples costs $3.49. Tsuf calculates that they can afford bags. How many bags can they buy? Did you round up, down, or off?   Eiji read that life expectancy in the United States is 77.28 years whereas in Japan it is 84.62 years. How might he describe these life expectancies in (whole) years? Did you round up, down, or off?  "
+},
+{
+  "id": "ws-Approximation_and_rounding-4",
+  "level": "2",
+  "url": "ws-Approximation_and_rounding.html#ws-Approximation_and_rounding-4",
+  "type": "Worksheet Exercise",
+  "number": "0.1.3",
+  "title": "",
+  "body": " Round off the calculated numbers to give an answer that is reasonable and no more precise than the information given.   The snow removal budget for the city is currently at $8.3 million but the city council is requesting a reduction of $1.15 million per year. We calculate that after three years of cuts, the snow removal budget will be $4.8079... million.   A cup of cooked red lentils has around 190 calories and 6.4 grams of dietary fiber, while a cup of cooked chickpeas has around 172 calories and 12.0 grams of dietary fiber. We calculate that lentils provide 0.03368421... grams per calorie whereas chickpeas provide 0.06976744... grams per calorie.    Hibbing [Minnesota] is the former boyhood home of Bob Dylan, basketball great Kevin McHale and the location of the Hull-Rust-Mahoning Open Pit Iron Mine, which has the largest iron-ore pit in the world. Hibbing is also the birthplace of [baseball star] Roger Maris. (source: http:\/\/hibbing.areaconnect.com\/)    In 2000 the population of Hibbing, Minnesota was reported at just over 17,000 residents. Based on a projected 0.4% decrease per year, the 2010 population was calculated to be 16,332.110... people.  "
+},
+{
+  "id": "ws-Approximation_and_rounding-5",
+  "level": "2",
+  "url": "ws-Approximation_and_rounding.html#ws-Approximation_and_rounding-5",
+  "type": "Worksheet Exercise",
+  "number": "0.1.4",
+  "title": "",
+  "body": " It is easiest to compare the size of decimal numbers when they are written the same precision. For example, $1.7 million is more money than $1.34 million because when we write both numbers to two decimal places we see The symbol means greater than; it points to the smaller number. Alternatively, when we expand both numbers we see In each story, write all of the decimal numbers given to the same precision and list the numbers from largest to smallest using signs.   Dawn tested a water sample from her apartment and found 21.19 ppm of sulfate. She volunteers at a local soup kitchen where the water sample tested at 21.3 ppm. (The abbreviation ppm stands for “parts per million. Not to worry - sulfate levels below 250 are considered safe for human consumption.)   There are approximately 1.084 million quarters in circulation in the United States, compared to 1.786 million dimes, 1.6 million $5 bills, and 1.42 million $10 bills.  "
+},
+{
+  "id": "ws-Approximation_and_rounding-6-2",
+  "level": "2",
+  "url": "ws-Approximation_and_rounding.html#ws-Approximation_and_rounding-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-Approximation_and_rounding_end-3",
+  "level": "2",
+  "url": "ws-Approximation_and_rounding.html#ss-Approximation_and_rounding_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
+  "id": "ws-Arithmetic_operations",
+  "level": "1",
+  "url": "ws-Arithmetic_operations.html",
+  "type": "Worksheet",
+  "number": "0.2",
+  "title": "Prelude: Arithmetic Operations - Practice exercises",
+  "body": " Prelude: Arithmetic Operations - Practice exercises   On each problem, write down what you enter into your calculator and don't forget to write the units on your final answer. You are welcome to calculate the answer step-by-step but also challenge yourself to figure out the answer all at once, not hitting = on your calculator until the very end.    Tensia loves to garden but can't quite keep up with how many cucumbers are growing.    At the start of the week she had 8 cucumbers in her refrigerator.    Her son, Néstor took 3 home with him after dinner on Monday.    Tensia harvested another 7 cucumbers on Wednesday.    Her neighbor Sarah graciously took 4 cucumbers to make pickles.    Tensia herself ate 2 cucumbers during the week.    How many cucumbers does she have left over?    Brent's landlord charges $15 per day for late rent.   What will Brent's late fee be if he is 6 days late paying his rent?   If Brent got a bill showing $195 in late fees, how many days late did he pay his rent?    There are 2,624 students at a local university.   About of those students live on or within a mile of campus. How many students live on or within a mile of campus?   The university wants to support 40 hours a week of onsite tutoring (in mathematics, writing, etc.) for each the 32 weeks that classes are in session. It costs about $18\/hour to pay the tutors and staff administrators. What is the total cost of tutoring?   The university is considering adding a tutoring fee to cover the cost of tutoring. If they wanted to cover the total cost of tutoring, what would the cost per student be?    A truck hauling grass seed weighs 3,900 pounds when it is empty. Each bag of seed it carries weighs 4.2 pounds. The gross weight of the truck is the total weight including the truck and the bags of seed. (Story also appears in 2.1 #1, 3.2 #1, and 3.1 #1)    How much does 1,300 bags of grass seed weigh?   What is the gross weight of the truck if it carries 1,300 bags of grass seed?   You probably entered this calculation as . What happens if you skip the middle = sign and enter instead?   What answer does your calculator give you if you enter instead?   What does part (d) tell you about which operation your calculator did first: the or the ?    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know...    When to add, subtract, multiply, or divide numbers?    What is the difference between subtraction and negation?    How to add, subtract, negate, multiply, and divide on a calculator?    How multiplication is related to addition?    What the term per indicates?     Don't forget!    "
+},
+{
+  "id": "ws-Arithmetic_operations-3",
+  "level": "2",
+  "url": "ws-Arithmetic_operations.html#ws-Arithmetic_operations-3",
+  "type": "Worksheet Exercise",
+  "number": "0.2.1",
+  "title": "",
+  "body": " Tensia loves to garden but can't quite keep up with how many cucumbers are growing.    At the start of the week she had 8 cucumbers in her refrigerator.    Her son, Néstor took 3 home with him after dinner on Monday.    Tensia harvested another 7 cucumbers on Wednesday.    Her neighbor Sarah graciously took 4 cucumbers to make pickles.    Tensia herself ate 2 cucumbers during the week.    How many cucumbers does she have left over?  "
+},
+{
+  "id": "ws-Arithmetic_operations-4",
+  "level": "2",
+  "url": "ws-Arithmetic_operations.html#ws-Arithmetic_operations-4",
+  "type": "Worksheet Exercise",
+  "number": "0.2.2",
+  "title": "",
+  "body": " Brent's landlord charges $15 per day for late rent.   What will Brent's late fee be if he is 6 days late paying his rent?   If Brent got a bill showing $195 in late fees, how many days late did he pay his rent?  "
+},
+{
+  "id": "ws-Arithmetic_operations-5",
+  "level": "2",
+  "url": "ws-Arithmetic_operations.html#ws-Arithmetic_operations-5",
+  "type": "Worksheet Exercise",
+  "number": "0.2.3",
+  "title": "",
+  "body": " There are 2,624 students at a local university.   About of those students live on or within a mile of campus. How many students live on or within a mile of campus?   The university wants to support 40 hours a week of onsite tutoring (in mathematics, writing, etc.) for each the 32 weeks that classes are in session. It costs about $18\/hour to pay the tutors and staff administrators. What is the total cost of tutoring?   The university is considering adding a tutoring fee to cover the cost of tutoring. If they wanted to cover the total cost of tutoring, what would the cost per student be?  "
+},
+{
+  "id": "ws-Arithmetic_operations-6",
+  "level": "2",
+  "url": "ws-Arithmetic_operations.html#ws-Arithmetic_operations-6",
+  "type": "Worksheet Exercise",
+  "number": "0.2.4",
+  "title": "",
+  "body": " A truck hauling grass seed weighs 3,900 pounds when it is empty. Each bag of seed it carries weighs 4.2 pounds. The gross weight of the truck is the total weight including the truck and the bags of seed. (Story also appears in 2.1 #1, 3.2 #1, and 3.1 #1)    How much does 1,300 bags of grass seed weigh?   What is the gross weight of the truck if it carries 1,300 bags of grass seed?   You probably entered this calculation as . What happens if you skip the middle = sign and enter instead?   What answer does your calculator give you if you enter instead?   What does part (d) tell you about which operation your calculator did first: the or the ?  "
+},
+{
+  "id": "ws-Arithmetic_operations-7-2",
+  "level": "2",
+  "url": "ws-Arithmetic_operations.html#ws-Arithmetic_operations-7-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-Arithmetic_operations_end-3",
+  "level": "2",
+  "url": "ws-Arithmetic_operations.html#ss-Arithmetic_operations_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
+  "id": "ws-Percentages",
+  "level": "1",
+  "url": "ws-Percentages.html",
+  "type": "Worksheet",
+  "number": "0.3",
+  "title": "Prelude: Percentages - Practice exercises",
+  "body": " Prelude: Percentages - Practice exercises   On each problem, write down what you enter into your calculator and don't forget to write the units on your final answer. You are welcome to calculate the answer step-by-step but also challenge yourself to figure out the answer all at once, not hitting = on your calculator until the very end.    As I write this problem, the population of the world is 8,056,959,718 people (just over 8 billion). It changes by the second, so let's use the round figure of 8,100,000,000.   I read that the population of Brazil accounts for 2.69% of the world's population. According to that report, what is the population of Brazil? Round your answer to the nearest million.   If the population of the United States is currently around 334,000,000, what percentage of the world's population is in the United States?    In Minneapolis, apartment rent is expected to increase by 16% next year.   Astra lives in a 1-bedroom apartment where they pay $825 per month in rent. If their rent increased by 16% what would their new rent be?   Lucky for Astra, their building is subject to rent stabilization laws and so their rent cannot increase by more than 3%. What would their new rent be?    The intersection by my house is dangerous. One year there were 14 accidents there. The neighbors got together and petitioned to have 4-way stop signs installed.   The city estimated that the installed stop signs would reduce accidents at least 40%. If that happens, how many accidents would we expect the next year?   The national average shows that the new signs could reduce accidents up to 62%. If that happens instead, how many accidents would we expect the next year?   If there were 6 accidents the next year, is that in the range you figured out? What percent decrease does that correspond to?    My savings account earns a modest amount of interest, the equivalent of 0.75% annually. I have $12,392.18 in the account now. (Story also appears in 2.2 #4)    How much interest will I earn this year?   How much will my account balance be at the end of the year?    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    What the words per and cent mean in the word percent ?    How to convert a fraction or decimal to a percent?    How to convert a percent to a decimal?    How to calculate a percentage of a number?    How to calculate the result of a percent increase or a percent decrease?     Don't forget!    "
+},
+{
+  "id": "ws-Percentages-3",
+  "level": "2",
+  "url": "ws-Percentages.html#ws-Percentages-3",
+  "type": "Worksheet Exercise",
+  "number": "0.3.1",
+  "title": "",
+  "body": " As I write this problem, the population of the world is 8,056,959,718 people (just over 8 billion). It changes by the second, so let's use the round figure of 8,100,000,000.   I read that the population of Brazil accounts for 2.69% of the world's population. According to that report, what is the population of Brazil? Round your answer to the nearest million.   If the population of the United States is currently around 334,000,000, what percentage of the world's population is in the United States?  "
+},
+{
+  "id": "ws-Percentages-4",
+  "level": "2",
+  "url": "ws-Percentages.html#ws-Percentages-4",
+  "type": "Worksheet Exercise",
+  "number": "0.3.2",
+  "title": "",
+  "body": " In Minneapolis, apartment rent is expected to increase by 16% next year.   Astra lives in a 1-bedroom apartment where they pay $825 per month in rent. If their rent increased by 16% what would their new rent be?   Lucky for Astra, their building is subject to rent stabilization laws and so their rent cannot increase by more than 3%. What would their new rent be?  "
+},
+{
+  "id": "ws-Percentages-5",
+  "level": "2",
+  "url": "ws-Percentages.html#ws-Percentages-5",
+  "type": "Worksheet Exercise",
+  "number": "0.3.3",
+  "title": "",
+  "body": " The intersection by my house is dangerous. One year there were 14 accidents there. The neighbors got together and petitioned to have 4-way stop signs installed.   The city estimated that the installed stop signs would reduce accidents at least 40%. If that happens, how many accidents would we expect the next year?   The national average shows that the new signs could reduce accidents up to 62%. If that happens instead, how many accidents would we expect the next year?   If there were 6 accidents the next year, is that in the range you figured out? What percent decrease does that correspond to?  "
+},
+{
+  "id": "ws-Percentages-6",
+  "level": "2",
+  "url": "ws-Percentages.html#ws-Percentages-6",
+  "type": "Worksheet Exercise",
+  "number": "0.3.4",
+  "title": "",
+  "body": " My savings account earns a modest amount of interest, the equivalent of 0.75% annually. I have $12,392.18 in the account now. (Story also appears in 2.2 #4)    How much interest will I earn this year?   How much will my account balance be at the end of the year?  "
+},
+{
+  "id": "ws-Percentages-7-2",
+  "level": "2",
+  "url": "ws-Percentages.html#ws-Percentages-7-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-Percentages_end-3",
+  "level": "2",
+  "url": "ws-Percentages.html#ss-Percentages_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
+  "id": "ws-Order_of_operations",
+  "level": "1",
+  "url": "ws-Order_of_operations.html",
+  "type": "Worksheet",
+  "number": "0.4",
+  "title": "Prelude: Order of Operations - Practice exercises",
+  "body": " Prelude: Order of Operations - Practice exercises   On each problem, write down what you enter into your calculator and don't forget to write the units on your final answer. Challenge yourself to use one-line calculations. You are welcome to calculate the answer step-by-step to check.     Story also appears in 1.2 #4, 2.1 #4, and 4.2 #2    A mug of coffee costs $3.45 at Juan's favorite cafe. If Juan orders 25 coffees each month, how much will he pay (total) for the month?   The cafe offers a deal each month, where if you buy their $10 discount card, then you only pay $2.90 per mug of coffee during the month. If Juan buys the discount card and orders 25 coffees, how much will he pay (total) for the month?   Comparing answers to parts (a) and (b) is it worthwhile for Juan to buy the card? Explain.     Rose gold is a mix of gold and copper. (Story also appears in 2.3 #2 and 4.1 Exercises)    If we mix 2 grams of gold with 2 grams of copper, what is the percentage of gold in the resulting alloy?   If instead we mix 2 grams of gold with 7 grams of copper, what is the percentage of gold in the resulting alloy?     Stories also appear in 4.3 #3    Vanessa's doctor put her on a sensible diet and exercise plan to get her back to a healthy weight. She currently weighs 213 pounds. She will need to lose an average of 1.25 pounds a week to reach her goal weight in a year. What is her goal weight? Use 1 year = 52 weeks.   Since she has been pregnant, Zoe has gained the recommended pound per week. She weighed 153 at the start of her pregnancy. What does she weigh now at 30 weeks pregnant?     Stories also appear in 4.3 #3    Jerome has gained weight since he took his power training to the next level ten weeks ago, at the rate of around 1 pound a week. He is now 198 pounds. What was his original weight?   After the past 6 weeks of terrible migrane headaches, Carlos is down to 158 pounds. He has lost 4 pounds a week. What did Carlos weigh when 6 weeks ago?    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    How a calculator will evaluate an expression that has several different operations, such as ?    What is the order of operations in general?    A good way to remember PEMDAS?    Why you need to know what the order of operations is?    When might you need to override the order of operations?    How to override the order of operations using parentheses?     Don't forget!    "
+},
+{
+  "id": "ws-Order_of_operations-3",
+  "level": "2",
+  "url": "ws-Order_of_operations.html#ws-Order_of_operations-3",
+  "type": "Worksheet Exercise",
+  "number": "0.4.1",
+  "title": "",
+  "body": "  Story also appears in 1.2 #4, 2.1 #4, and 4.2 #2    A mug of coffee costs $3.45 at Juan's favorite cafe. If Juan orders 25 coffees each month, how much will he pay (total) for the month?   The cafe offers a deal each month, where if you buy their $10 discount card, then you only pay $2.90 per mug of coffee during the month. If Juan buys the discount card and orders 25 coffees, how much will he pay (total) for the month?   Comparing answers to parts (a) and (b) is it worthwhile for Juan to buy the card? Explain.  "
+},
+{
+  "id": "ws-Order_of_operations-4",
+  "level": "2",
+  "url": "ws-Order_of_operations.html#ws-Order_of_operations-4",
+  "type": "Worksheet Exercise",
+  "number": "0.4.2",
+  "title": "",
+  "body": "  Rose gold is a mix of gold and copper. (Story also appears in 2.3 #2 and 4.1 Exercises)    If we mix 2 grams of gold with 2 grams of copper, what is the percentage of gold in the resulting alloy?   If instead we mix 2 grams of gold with 7 grams of copper, what is the percentage of gold in the resulting alloy?  "
+},
+{
+  "id": "ws-Order_of_operations-5",
+  "level": "2",
+  "url": "ws-Order_of_operations.html#ws-Order_of_operations-5",
+  "type": "Worksheet Exercise",
+  "number": "0.4.3",
+  "title": "",
+  "body": "  Stories also appear in 4.3 #3    Vanessa's doctor put her on a sensible diet and exercise plan to get her back to a healthy weight. She currently weighs 213 pounds. She will need to lose an average of 1.25 pounds a week to reach her goal weight in a year. What is her goal weight? Use 1 year = 52 weeks.   Since she has been pregnant, Zoe has gained the recommended pound per week. She weighed 153 at the start of her pregnancy. What does she weigh now at 30 weeks pregnant?  "
+},
+{
+  "id": "ws-Order_of_operations-6",
+  "level": "2",
+  "url": "ws-Order_of_operations.html#ws-Order_of_operations-6",
+  "type": "Worksheet Exercise",
+  "number": "0.4.4",
+  "title": "",
+  "body": "  Stories also appear in 4.3 #3    Jerome has gained weight since he took his power training to the next level ten weeks ago, at the rate of around 1 pound a week. He is now 198 pounds. What was his original weight?   After the past 6 weeks of terrible migrane headaches, Carlos is down to 158 pounds. He has lost 4 pounds a week. What did Carlos weigh when 6 weeks ago?  "
+},
+{
+  "id": "ws-Order_of_operations-7-2",
+  "level": "2",
+  "url": "ws-Order_of_operations.html#ws-Order_of_operations-7-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-Order_of_operations_end-3",
+  "level": "2",
+  "url": "ws-Order_of_operations.html#ss-Order_of_operations_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
+  "id": "ws-Fractions",
+  "level": "1",
+  "url": "ws-Fractions.html",
+  "type": "Worksheet",
+  "number": "0.5",
+  "title": "Prelude: Fractions - Practice exercises",
+  "body": " Prelude: Fractions - Practice exercises   There are 2,624 students at a local university.   Of those students, 673 of those students placed into this algebra class. What fraction of students placed into algebra?   The Dean said that approximately 1 in 4 students, or of all students, placed into algebra. Is that correct? Check by determining if your answer to part (a) by comparing decimal approximations.    Gas mileage is usually rounded down to the nearest one decimal place. Gas mileage is measured in miles per gallon (mpg).   Xu does gig work delivering take-out food from local restaurants. He started the week with a full tank of gas and drove 319 miles. When he went to fill the tank, he needed 11.3 gallons. What was Xu's gas mileage?   Margaret and Cathy are on a cross-country trip. They've driven from Minnesota to Maine (approximately 1,430 miles). They have bought gas a few times along the way: 12.7 gallons, then 14.0 gallons, then 13.1 gallons, and then 12.4 gallons. What was Margaret and Cathy's gas mileage?   How could you do the calculation in part (b) in one line on your calculator by using parentheses?    In January 2015, Graham had 47 albums in his vinyl collection. By September 2023 (that's 8 years, 9 months later), he had 783 albums. Approximately how many albums per month did Graham buy?   Figure out the answer step by step.   Now try to combine all of your calculations into one line on your calculator. Hint: write as a fraction first.    It took Mariam 3 hours to complete the reading for her Religion class. The reading was 102 pages long.   How fast did she read measured in pages per hour? Write the answer as a fraction and as a decimal.   Reading speed is often measured in words per minute. Assuming there are approximately 500 words per page, calculate Mariam's reading speed step by step.   How could you do the calculation in part (b) one line on your calculator by using parentheses? Hint: the hours cancel!    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    How we represent a part of a whole as a fraction?    How to multiply fractions?    What canceling a factor means?    How fractions are related to division?    How to calculate the decimal approximation of a fraction?    How to compare two fractions using their decimal approximations?    How the units of a fraction are determined?    When we need to use parentheses around the top (numerator) and bottom (denominator) to evaluate a fraction?     Don't forget!    "
+},
+{
+  "id": "ws-Fractions-2",
+  "level": "2",
+  "url": "ws-Fractions.html#ws-Fractions-2",
+  "type": "Worksheet Exercise",
+  "number": "0.5.1",
+  "title": "",
+  "body": " There are 2,624 students at a local university.   Of those students, 673 of those students placed into this algebra class. What fraction of students placed into algebra?   The Dean said that approximately 1 in 4 students, or of all students, placed into algebra. Is that correct? Check by determining if your answer to part (a) by comparing decimal approximations.  "
+},
+{
+  "id": "ws-Fractions-3",
+  "level": "2",
+  "url": "ws-Fractions.html#ws-Fractions-3",
+  "type": "Worksheet Exercise",
+  "number": "0.5.2",
+  "title": "",
+  "body": " Gas mileage is usually rounded down to the nearest one decimal place. Gas mileage is measured in miles per gallon (mpg).   Xu does gig work delivering take-out food from local restaurants. He started the week with a full tank of gas and drove 319 miles. When he went to fill the tank, he needed 11.3 gallons. What was Xu's gas mileage?   Margaret and Cathy are on a cross-country trip. They've driven from Minnesota to Maine (approximately 1,430 miles). They have bought gas a few times along the way: 12.7 gallons, then 14.0 gallons, then 13.1 gallons, and then 12.4 gallons. What was Margaret and Cathy's gas mileage?   How could you do the calculation in part (b) in one line on your calculator by using parentheses?  "
+},
+{
+  "id": "ws-Fractions-4",
+  "level": "2",
+  "url": "ws-Fractions.html#ws-Fractions-4",
+  "type": "Worksheet Exercise",
+  "number": "0.5.3",
+  "title": "",
+  "body": " In January 2015, Graham had 47 albums in his vinyl collection. By September 2023 (that's 8 years, 9 months later), he had 783 albums. Approximately how many albums per month did Graham buy?   Figure out the answer step by step.   Now try to combine all of your calculations into one line on your calculator. Hint: write as a fraction first.  "
+},
+{
+  "id": "ws-Fractions-5",
+  "level": "2",
+  "url": "ws-Fractions.html#ws-Fractions-5",
+  "type": "Worksheet Exercise",
+  "number": "0.5.4",
+  "title": "",
+  "body": " It took Mariam 3 hours to complete the reading for her Religion class. The reading was 102 pages long.   How fast did she read measured in pages per hour? Write the answer as a fraction and as a decimal.   Reading speed is often measured in words per minute. Assuming there are approximately 500 words per page, calculate Mariam's reading speed step by step.   How could you do the calculation in part (b) one line on your calculator by using parentheses? Hint: the hours cancel!  "
+},
+{
+  "id": "ws-Fractions-6-2",
+  "level": "2",
+  "url": "ws-Fractions.html#ws-Fractions-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-Fractions_end-3",
+  "level": "2",
+  "url": "ws-Fractions.html#ss-Fractions_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
+  "id": "ws-Powers_and_roots",
+  "level": "1",
+  "url": "ws-Powers_and_roots.html",
+  "type": "Worksheet",
+  "number": "0.6",
+  "title": "Prelude: Powers and roots - Practice exercises",
+  "body": " Prelude: Powers and roots - Practice exercises   Jody is using small wooden balls to make noses for her knitted gnomes. She figured out that she can calculate the weight of each ball (in ounces) as where is the diameter of the ball (in inches).   What does a 2.5 inch diameter wooden ball weigh?   Jody is considering building a giant gnome for her office. The nose will be a wooden ball weighing 1 pound. She calculates that the diameter of the ball will be . How big is that?    The size of a round pizza is described by its diameter. It turns out that we can calculate how many people are served by a pizza of diameter inches as . For example, a 16-inch diameter pizza serves people. (The mysterious number 0.015625 comes from a little geometry and pizza science.)   (Story also appears in 2.4 #1 and 3.3 #1.)    How many people would be served by a 12-inch pizza?   A personal pizza is designed to serve one person. It turns out the diameter of a personal pizza is . Calculate the diameter of a personal pizza using the square root key (or just the root key) on your calculator.   An extra large pizza serves 6 people. It turns out the diameter of an extra large pizza is . Calculate the diameter of a personal pizza using the square root key (or just the root key) on your calculator.    A signal sent down a fiber optic cable decreases by 2% per mile. That means after miles, its strength is . What is the signal strength after 10 miles? After 20 miles? Note: your answers should be decimal numbers less than 1.    Otis invested $500,000 and estimates his investment will double in value every 10 years.   Calculate the value of Otis's investment after 10, 20, 30, and 40 years.   If Kricia invested $230,000 instead, what would her investment be worth after 40 years? Try to use a power to help answer the question. Hint: how many times will the value of her investment double?    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    What the square, cube, or higher power of a number means?    How to calculate powers of a number using a calculator?    What the square root, cube roots, or higher root of a number means?    How to calculate roots of a number using a calculator?     Don't forget!    "
+},
+{
+  "id": "ws-Powers_and_roots-2",
+  "level": "2",
+  "url": "ws-Powers_and_roots.html#ws-Powers_and_roots-2",
+  "type": "Worksheet Exercise",
+  "number": "0.6.1",
+  "title": "",
+  "body": " Jody is using small wooden balls to make noses for her knitted gnomes. She figured out that she can calculate the weight of each ball (in ounces) as where is the diameter of the ball (in inches).   What does a 2.5 inch diameter wooden ball weigh?   Jody is considering building a giant gnome for her office. The nose will be a wooden ball weighing 1 pound. She calculates that the diameter of the ball will be . How big is that?  "
+},
+{
+  "id": "ws-Powers_and_roots-3",
+  "level": "2",
+  "url": "ws-Powers_and_roots.html#ws-Powers_and_roots-3",
+  "type": "Worksheet Exercise",
+  "number": "0.6.2",
+  "title": "",
+  "body": " The size of a round pizza is described by its diameter. It turns out that we can calculate how many people are served by a pizza of diameter inches as . For example, a 16-inch diameter pizza serves people. (The mysterious number 0.015625 comes from a little geometry and pizza science.)   (Story also appears in 2.4 #1 and 3.3 #1.)    How many people would be served by a 12-inch pizza?   A personal pizza is designed to serve one person. It turns out the diameter of a personal pizza is . Calculate the diameter of a personal pizza using the square root key (or just the root key) on your calculator.   An extra large pizza serves 6 people. It turns out the diameter of an extra large pizza is . Calculate the diameter of a personal pizza using the square root key (or just the root key) on your calculator.  "
+},
+{
+  "id": "ws-Powers_and_roots-4",
+  "level": "2",
+  "url": "ws-Powers_and_roots.html#ws-Powers_and_roots-4",
+  "type": "Worksheet Exercise",
+  "number": "0.6.3",
+  "title": "",
+  "body": " A signal sent down a fiber optic cable decreases by 2% per mile. That means after miles, its strength is . What is the signal strength after 10 miles? After 20 miles? Note: your answers should be decimal numbers less than 1.  "
+},
+{
+  "id": "ws-Powers_and_roots-5",
+  "level": "2",
+  "url": "ws-Powers_and_roots.html#ws-Powers_and_roots-5",
+  "type": "Worksheet Exercise",
+  "number": "0.6.4",
+  "title": "",
+  "body": " Otis invested $500,000 and estimates his investment will double in value every 10 years.   Calculate the value of Otis's investment after 10, 20, 30, and 40 years.   If Kricia invested $230,000 instead, what would her investment be worth after 40 years? Try to use a power to help answer the question. Hint: how many times will the value of her investment double?  "
+},
+{
+  "id": "ws-Powers_and_roots-6-2",
+  "level": "2",
+  "url": "ws-Powers_and_roots.html#ws-Powers_and_roots-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-Powers_and_roots_end-3",
+  "level": "2",
+  "url": "ws-Powers_and_roots.html#ss-Powers_and_roots_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
+  "id": "ws-Algebraic_notation",
+  "level": "1",
+  "url": "ws-Algebraic_notation.html",
+  "type": "Worksheet",
+  "number": "0.7",
+  "title": "Prelude: Algebraic Notation - Practice exercises",
+  "body": " Prelude: Algebraic Notation - Practice exercises   Since she has been pregnant, Zoe has gained the recommended pound per week. She weighed 153 pounds at the start of her pregnancy. That means when she is weeks pregnant, that Zoe weighs What does this expression say Zoe will weigh when she's 40 weeks pregnant? (Story also appears in 0.4 #3 and 4.3 #3)     Jody is using small wooden balls to make noses for her knitted gnomes. She figured out that she can calculate the weight of each ball (in ounces) as . Write this expression in algebraic notation. (Story also appears in 0.6 #1)     Astra lives in a 1-bedroom apartment where they pay $825 per month in rent. Thanks to new rent stabilization laws, Astra's rent can only increase 3% per year. That means after years, their rent will be at most What does this expression say her rent could be in 5 years? (Story also appears in 0.3 #2)      Rose gold is a mix of gold and copper. If we mix 2 grams of gold with grams of copper, the percentage of the resulting alloy that is gold is given by the expression What does this expression say the percentage of gold will be if we add 7 grams of copper? (Story also appears in 0.4 #2, 2.3 #2, and 4.1 Exercises)     When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    Where multiplication can be hidden in algebraic notation?    How powers are written in algebraic notation?    How division is written in algebraic notation?    What the word evaluate means?    How to evaluate an algebraic expression on your calculator?     Don't forget!    "
+},
+{
+  "id": "ws-Algebraic_notation-2",
+  "level": "2",
+  "url": "ws-Algebraic_notation.html#ws-Algebraic_notation-2",
+  "type": "Worksheet Exercise",
+  "number": "0.7.1",
+  "title": "",
+  "body": " Since she has been pregnant, Zoe has gained the recommended pound per week. She weighed 153 pounds at the start of her pregnancy. That means when she is weeks pregnant, that Zoe weighs What does this expression say Zoe will weigh when she's 40 weeks pregnant? (Story also appears in 0.4 #3 and 4.3 #3)   "
+},
+{
+  "id": "ws-Algebraic_notation-3",
+  "level": "2",
+  "url": "ws-Algebraic_notation.html#ws-Algebraic_notation-3",
+  "type": "Worksheet Exercise",
+  "number": "0.7.2",
+  "title": "",
+  "body": " Jody is using small wooden balls to make noses for her knitted gnomes. She figured out that she can calculate the weight of each ball (in ounces) as . Write this expression in algebraic notation. (Story also appears in 0.6 #1)   "
+},
+{
+  "id": "ws-Algebraic_notation-4",
+  "level": "2",
+  "url": "ws-Algebraic_notation.html#ws-Algebraic_notation-4",
+  "type": "Worksheet Exercise",
+  "number": "0.7.3",
+  "title": "",
+  "body": " Astra lives in a 1-bedroom apartment where they pay $825 per month in rent. Thanks to new rent stabilization laws, Astra's rent can only increase 3% per year. That means after years, their rent will be at most What does this expression say her rent could be in 5 years? (Story also appears in 0.3 #2)   "
+},
+{
+  "id": "ws-Algebraic_notation-5",
+  "level": "2",
+  "url": "ws-Algebraic_notation.html#ws-Algebraic_notation-5",
+  "type": "Worksheet Exercise",
+  "number": "0.7.4",
+  "title": "",
+  "body": "  Rose gold is a mix of gold and copper. If we mix 2 grams of gold with grams of copper, the percentage of the resulting alloy that is gold is given by the expression What does this expression say the percentage of gold will be if we add 7 grams of copper? (Story also appears in 0.4 #2, 2.3 #2, and 4.1 Exercises)   "
+},
+{
+  "id": "ws-Algebraic_notation-6-2",
+  "level": "2",
+  "url": "ws-Algebraic_notation.html#ws-Algebraic_notation-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-Algebraic_notation-3",
+  "level": "2",
+  "url": "ws-Algebraic_notation.html#ss-Algebraic_notation-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
+  "id": "ws-Scientific_notation",
+  "level": "1",
+  "url": "ws-Scientific_notation.html",
+  "type": "Worksheet",
+  "number": "0.8",
+  "title": "Prelude: Scientific Notation - Practice exercises",
+  "body": " Prelude: Scientific Notation - Practice exercises   In each story, write out the highlighted numbers (with all the zeros).   Melvin was looking at populations based on the 2020 Census and saw the population of Saint Paul, MN listed as  people . Hint: you can check the answer to this part by evaluating on your calculator.   The gross domestic product (GDP) measures the market value of all final goods and services produced by an economy. The United States GDP is approximately . (Story also appears in 1.5 #1)    The Earth weighs approximately  kilograms . (Story also appears in 1.5 #3)     In each story, write out the highlighted numbers (with all the zeros).   Alpacas have very fine hairs which can be spun into yarn to make very soft sweaters. The width of an alpaca hair is around  meters . Hint: you can check the answer to this part by evaluating on your calculator.   A dust particle weighs approximately  grams . (Story also appears in 1.5 #2)    A proton (part of an atom) has mass of about  kilograms . (Story also appears in 1.5 #7)     In each story, evaluate the number and report your answer in scientific notation.   Bunnies, bunnies, everywhere. In 2007 there were 1800 and that number was predicted to increase 13% each year. I was trying to predict the number of rabbits in 2023 (after 16 years) but I accidentally typed in 166 years by mistake: Report the answer I got in scientific notation. (Yes, this is a gigantic number. The exponential model I used doesn't actually make sense for that many years.) Story also appears in 2.1 #2 and 5.1 #3    A signal is sent down a fiber optic cable. Its strength decreases by 2% each mile it travels. We can calculate the signal strength after 1000 miles by evaluating Report the answer you get in scientific notation. (Yes, this is a teeny number. In reality there would be signal booster installed along the route.) Story also appears in 5.2 #1     In each story, write out the highlighted number (with all the 0s). Note that million is short for , billion is short for , and trillion is short for .   There are approximately 1.084 million quarters in circulation in the United States. (Story also appears in 0.1 #4)    The population of the world is approximately 8.1 billion people . (Story also appears in 0.3 #1)    One way that the United States government can borrow money is by selling Treasury bonds (T-bonds). There are approximately $24 trillion worth of T-bonds currently.    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know...    What million, billion, and trillion mean?    Why scientific notation is used?    The standard format for scientific notation?    That a positive exponent corresponds to a big number and a negative exponent corresponds to a tiny number?    How to convert from scientific notation to decimal?    How your calculator reports numbers in scientific notation, and what (might be) different when you're reporting that number?     Don't forget!    "
+},
+{
+  "id": "ws-Scientific_notation-2",
+  "level": "2",
+  "url": "ws-Scientific_notation.html#ws-Scientific_notation-2",
+  "type": "Worksheet Exercise",
+  "number": "0.8.1",
+  "title": "",
+  "body": " In each story, write out the highlighted numbers (with all the zeros).   Melvin was looking at populations based on the 2020 Census and saw the population of Saint Paul, MN listed as  people . Hint: you can check the answer to this part by evaluating on your calculator.   The gross domestic product (GDP) measures the market value of all final goods and services produced by an economy. The United States GDP is approximately . (Story also appears in 1.5 #1)    The Earth weighs approximately  kilograms . (Story also appears in 1.5 #3)   "
+},
+{
+  "id": "ws-Scientific_notation-3",
+  "level": "2",
+  "url": "ws-Scientific_notation.html#ws-Scientific_notation-3",
+  "type": "Worksheet Exercise",
+  "number": "0.8.2",
+  "title": "",
+  "body": " In each story, write out the highlighted numbers (with all the zeros).   Alpacas have very fine hairs which can be spun into yarn to make very soft sweaters. The width of an alpaca hair is around  meters . Hint: you can check the answer to this part by evaluating on your calculator.   A dust particle weighs approximately  grams . (Story also appears in 1.5 #2)    A proton (part of an atom) has mass of about  kilograms . (Story also appears in 1.5 #7)   "
+},
+{
+  "id": "ws-Scientific_notation-4",
+  "level": "2",
+  "url": "ws-Scientific_notation.html#ws-Scientific_notation-4",
+  "type": "Worksheet Exercise",
+  "number": "0.8.3",
+  "title": "",
+  "body": " In each story, evaluate the number and report your answer in scientific notation.   Bunnies, bunnies, everywhere. In 2007 there were 1800 and that number was predicted to increase 13% each year. I was trying to predict the number of rabbits in 2023 (after 16 years) but I accidentally typed in 166 years by mistake: Report the answer I got in scientific notation. (Yes, this is a gigantic number. The exponential model I used doesn't actually make sense for that many years.) Story also appears in 2.1 #2 and 5.1 #3    A signal is sent down a fiber optic cable. Its strength decreases by 2% each mile it travels. We can calculate the signal strength after 1000 miles by evaluating Report the answer you get in scientific notation. (Yes, this is a teeny number. In reality there would be signal booster installed along the route.) Story also appears in 5.2 #1   "
+},
+{
+  "id": "ws-Scientific_notation-5",
+  "level": "2",
+  "url": "ws-Scientific_notation.html#ws-Scientific_notation-5",
+  "type": "Worksheet Exercise",
+  "number": "0.8.4",
+  "title": "",
+  "body": " In each story, write out the highlighted number (with all the 0s). Note that million is short for , billion is short for , and trillion is short for .   There are approximately 1.084 million quarters in circulation in the United States. (Story also appears in 0.1 #4)    The population of the world is approximately 8.1 billion people . (Story also appears in 0.3 #1)    One way that the United States government can borrow money is by selling Treasury bonds (T-bonds). There are approximately $24 trillion worth of T-bonds currently.  "
+},
+{
+  "id": "ws-Scientific_notation-6-2",
+  "level": "2",
+  "url": "ws-Scientific_notation.html#ws-Scientific_notation-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-Scientific_notation_end-3",
+  "level": "2",
+  "url": "ws-Scientific_notation.html#ss-Scientific_notation_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
+  "id": "ws-Logarithms",
+  "level": "1",
+  "url": "ws-Logarithms.html",
+  "type": "Worksheet",
+  "number": "0.9",
+  "title": "Prelude: Logarithms - Practice exercises",
+  "body": " Prelude: Logarithms - Practice exercises   The number of bacteria in a dish increases 10-fold each day. Note: 10-fold means . Suppose we had 1 microliter of bacteria at the start of the first day. That means after days there will be microliters of bacteria.   How many bacteria (in microliters) will there be after 1 day? After 2 days? After 3 days?   In how many days will the bacteria have reached 1 liter, which is 1 million microliters?   How can we use logs to find the answer?    The problem continues ...    Approximately how many days (from the start) does it take to reach the 25 millilter capacity of the petri dish, which is 25,000 microliters? Guess and check to find the answer to 1 decimal place.   How can we use logs to find the answer?   Convert your answer to days & hours format ( days and hours ).    The equation tells us the pH of a substance (on a scale from 0 to 14) based on its molar hydrogen ion concentration . Don't let the notation here scare you: is a single quantity and has nothing to do with exponents or adding.  For example, lemon juice has and so the pH of lemon juice is    Coca-Cola has . Find the pH of Coca-Cola. Note: the funny spaces are to help you read the number.   Hair shampoo has Find the pH of hair shampoo.   Household bleach has Find the pH of bleach.   Materials with pH values between 0-5 are acidic , between 9-14 are basic , and between 5-7 are neutral . Which of the above materials are acidic, basic, and neutral?    In Minneapolis, apartment rent is expected to increase by 16% next year. (Story also appears in 0.3 #2)    Astra lives in a 1-bedroom apartment where they pay $825 per month in rent. If their rent increased by 16%, in how many years would their rent be doubled to $1,650? As we'll see later, the answer is . Don't forget to close the parentheses.   Lucky for Astra, their building is subject to rent stabilization laws and so their rent cannot increase by more than 3%. In how many years would their rent double under this cap? The answer is .    When you're done ...    Check your solutions. Still confused? Work with a classmate, instructor, or tutor.    Try the Do you know questions. Not sure? Read the textbook and try again.    Make a list of key ideas and processes to remember under Don't forget!     Do the textbook exercises and check your answers. Not sure if you are close enough? Compare answers with a classmate or ask your instructor or tutor.    Getting the wrong answers or stuck? Re-read the section and try again. If you are still stuck, work with a classmate or go to your instructor’s office hours or tutor hours.    It is normal to find some parts of exercises difficult, but if most of them are a struggle, meet with your instructor or advisor about possible strategies or support services.      Do you know ...    What a logarithm (base 10) means?    How to evaluate logarithms (base 10) on a calculator?    Which size numbers have a positive log and which have a negative log (base 10)?    The connection between logarithms (base 10) and scientific notation?     Don't forget!    "
+},
+{
+  "id": "ws-Logarithms-2",
+  "level": "2",
+  "url": "ws-Logarithms.html#ws-Logarithms-2",
+  "type": "Worksheet Exercise",
+  "number": "0.9.1",
+  "title": "",
+  "body": " The number of bacteria in a dish increases 10-fold each day. Note: 10-fold means . Suppose we had 1 microliter of bacteria at the start of the first day. That means after days there will be microliters of bacteria.   How many bacteria (in microliters) will there be after 1 day? After 2 days? After 3 days?   In how many days will the bacteria have reached 1 liter, which is 1 million microliters?   How can we use logs to find the answer?  "
+},
+{
+  "id": "ws-Logarithms-3",
+  "level": "2",
+  "url": "ws-Logarithms.html#ws-Logarithms-3",
+  "type": "Worksheet Exercise",
+  "number": "0.9.2",
+  "title": "",
+  "body": " The problem continues ...    Approximately how many days (from the start) does it take to reach the 25 millilter capacity of the petri dish, which is 25,000 microliters? Guess and check to find the answer to 1 decimal place.   How can we use logs to find the answer?   Convert your answer to days & hours format ( days and hours ).  "
+},
+{
+  "id": "ws-Logarithms-4",
+  "level": "2",
+  "url": "ws-Logarithms.html#ws-Logarithms-4",
+  "type": "Worksheet Exercise",
+  "number": "0.9.3",
+  "title": "",
+  "body": " The equation tells us the pH of a substance (on a scale from 0 to 14) based on its molar hydrogen ion concentration . Don't let the notation here scare you: is a single quantity and has nothing to do with exponents or adding.  For example, lemon juice has and so the pH of lemon juice is    Coca-Cola has . Find the pH of Coca-Cola. Note: the funny spaces are to help you read the number.   Hair shampoo has Find the pH of hair shampoo.   Household bleach has Find the pH of bleach.   Materials with pH values between 0-5 are acidic , between 9-14 are basic , and between 5-7 are neutral . Which of the above materials are acidic, basic, and neutral?  "
+},
+{
+  "id": "ws-Logarithms-5",
+  "level": "2",
+  "url": "ws-Logarithms.html#ws-Logarithms-5",
+  "type": "Worksheet Exercise",
+  "number": "0.9.4",
+  "title": "",
+  "body": " In Minneapolis, apartment rent is expected to increase by 16% next year. (Story also appears in 0.3 #2)    Astra lives in a 1-bedroom apartment where they pay $825 per month in rent. If their rent increased by 16%, in how many years would their rent be doubled to $1,650? As we'll see later, the answer is . Don't forget to close the parentheses.   Lucky for Astra, their building is subject to rent stabilization laws and so their rent cannot increase by more than 3%. In how many years would their rent double under this cap? The answer is .  "
+},
+{
+  "id": "ws-Logarithms-6-2",
+  "level": "2",
+  "url": "ws-Logarithms.html#ws-Logarithms-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Do you know Don't forget! "
+},
+{
+  "id": "ss-Logarithms_end-3",
+  "level": "2",
+  "url": "ws-Logarithms.html#ss-Logarithms_end-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Don't forget! "
+},
+{
   "id": "ws-Variables_and_functions",
   "level": "1",
   "url": "ws-Variables_and_functions.html",
@@ -790,39 +1357,39 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "2.6",
   "title": "Practice Exam 2A",
-  "body": " Practice Exam 2A  Relax. You have done problems like these before. Even if these problems look a bit different, just do what you can. If you're not sure of something, please ask! You may use your calculator. Please show all of your work and write down as many steps as you can. Don't spend too much time on any one problem. Do well. And remember, ask me if you're not sure about something.   As you work, make a don't forget list of any information you need to look up or ask about.    United States ethanol production has been growing exponentially. In 1990, there were 0.9 billion gallons of ethanol produced. At that time it was estimated that production would increase 5.5% per year. Source: Renewable Fuels Association    Name the variables, including units.   What is the annual growth factor?   Write an equation that describes the function.   In 2008 actual production of ethanol was 9.0 billion gallons. Is that production level higher or lower than predicted from your equation? Explain.   When does your equation predict that ethanol production was 9.0 billion gallons? Use successive approximation. Display your guesses in a table. Report the actual year.    An insurance deductible is the amount you pay for any claim before the insurance company starts paying. Lee's automobile insurance deductible started at $500, but they take off $10 for each month where he has no accidents or tickets. For example, after 1 month his deductible was $490, after 2 months it was $480, and so on.   Name the variables, including units and dependence.   Make a table showing the deductible after 6 months, 1 year, or 3 years without an accident or ticket.   When would the deductible vanish ? (Meaning, when is it $0?)   Write an equation showing how the deductible decreases.   What is the slope and what does it mean in the story?   What is the intercept and what does it mean in the story?    Our investment club has been tracking the performance of a biofuel company's stock over the past year. Using an econometrics software package, we found the equation which describes the value of each share of stock $ as a function of time , measured in weeks starting exactly one year ago.   Name the variables and , including units and dependence.   Complete the following table of values.     0  13  26  39  52     31.00  21.08    16.86     Draw a graph showing how the value changed during the past year.    The problem continues …   According to the table, what was the value of the stock when we began tracking it? What is it worth now?   We are thinking about buying some stock now, and selling it in 10 weeks. Does the equation say that's a good idea? Explain.   10 weeks from now is not because we started counting weeks one year ago.   Looking back over the past year, how low did the value of the stock get? Use successive approximation to estimate to the nearest cent.    Cicely wants to buy a new car that costs $19,400. The dealership offers 6.18% compounded monthly for a 5 year loan.   What will Cicely's monthly payment be? Use the Loan Payment Formula .   What is the equivalent APR Cicely is paying? Use the Equivalent APR Formula . Don't forget to report the percentage.    Cicely is working on her monthly budget. She has only $230 per month left after those car payments. If she puts that money into a bank account each month earning 2.91% interest compounded monthly, how much will she have after 5 years when the car is paid off? Use the Future Value Annuity Formula .   In 2011, Cicely was cleaning out the basement and found some savings bonds with face value $1,600 that matured in 1972 and have been earning 3% interest compounded monthly ever since. What were they worth? Use the Compound Interest Formula .   "
+  "body": " Practice Exam 2A   Relax. You have done problems like these before. Even if these problems look a bit different, just do what you can. If you're not sure of something, please ask! You may use your calculator. Please show all of your work and write down as many steps as you can. Don't spend too much time on any one problem. Do well. And remember, ask me if you're not sure about something.   As you work, make a don't forget list of any information you need to look up or ask about.     United States ethanol production has been growing exponentially. In 1990, there were 0.9 billion gallons of ethanol produced. At that time it was estimated that production would increase 5.5% per year. Source: Renewable Fuels Association    Name the variables, including units.   What is the annual growth factor?   Write an equation that describes the function.   In 2008 actual production of ethanol was 9.0 billion gallons. Is that production level higher or lower than predicted from your equation? Explain.   When does your equation predict that ethanol production was 9.0 billion gallons? Use successive approximation. Display your guesses in a table. Report the actual year.    An insurance deductible is the amount you pay for any claim before the insurance company starts paying. Lee's automobile insurance deductible started at $500, but they take off $10 for each month where he has no accidents or tickets. For example, after 1 month his deductible was $490, after 2 months it was $480, and so on.   Name the variables, including units and dependence.   Make a table showing the deductible after 6 months, 1 year, or 3 years without an accident or ticket.   When would the deductible vanish ? (Meaning, when is it $0?)   Write an equation showing how the deductible decreases.   What is the slope and what does it mean in the story?   What is the intercept and what does it mean in the story?    Our investment club has been tracking the performance of a biofuel company's stock over the past year. Using an econometrics software package, we found the equation which describes the value of each share of stock $ as a function of time , measured in weeks starting exactly one year ago.   Name the variables and , including units and dependence.   Complete the following table of values.     0  13  26  39  52     31.00  21.08    16.86     Draw a graph showing how the value changed during the past year.    The problem continues …   According to the table, what was the value of the stock when we began tracking it? What is it worth now?   We are thinking about buying some stock now, and selling it in 10 weeks. Does the equation say that's a good idea? Explain.   10 weeks from now is not because we started counting weeks one year ago.   Looking back over the past year, how low did the value of the stock get? Use successive approximation to estimate to the nearest cent.    Cicely wants to buy a new car that costs $19,400. The dealership offers 6.18% compounded monthly for a 5 year loan.   What will Cicely's monthly payment be? Use the Loan Payment Formula .   What is the equivalent APR Cicely is paying? Use the Equivalent APR Formula . Don't forget to report the percentage.    Cicely is working on her monthly budget. She has only $230 per month left after those car payments. If she puts that money into a bank account each month earning 2.91% interest compounded monthly, how much will she have after 5 years when the car is paid off? Use the Future Value Annuity Formula .   In 2011, Cicely was cleaning out the basement and found some savings bonds with face value $1,600 that matured in 1972 and have been earning 3% interest compounded monthly ever since. What were they worth? Use the Compound Interest Formula .   "
 },
 {
-  "id": "ws-PE2A-4",
+  "id": "ws-PE2A-3",
   "level": "2",
-  "url": "ws-PE2A.html#ws-PE2A-4",
+  "url": "ws-PE2A.html#ws-PE2A-3",
   "type": "Worksheet Exercise",
   "number": "2.6.1",
   "title": "",
   "body": " United States ethanol production has been growing exponentially. In 1990, there were 0.9 billion gallons of ethanol produced. At that time it was estimated that production would increase 5.5% per year. Source: Renewable Fuels Association    Name the variables, including units.   What is the annual growth factor?   Write an equation that describes the function.   In 2008 actual production of ethanol was 9.0 billion gallons. Is that production level higher or lower than predicted from your equation? Explain.   When does your equation predict that ethanol production was 9.0 billion gallons? Use successive approximation. Display your guesses in a table. Report the actual year.  "
 },
 {
-  "id": "ws-PE2A-5",
+  "id": "ws-PE2A-4",
   "level": "2",
-  "url": "ws-PE2A.html#ws-PE2A-5",
+  "url": "ws-PE2A.html#ws-PE2A-4",
   "type": "Worksheet Exercise",
   "number": "2.6.2",
   "title": "",
   "body": " An insurance deductible is the amount you pay for any claim before the insurance company starts paying. Lee's automobile insurance deductible started at $500, but they take off $10 for each month where he has no accidents or tickets. For example, after 1 month his deductible was $490, after 2 months it was $480, and so on.   Name the variables, including units and dependence.   Make a table showing the deductible after 6 months, 1 year, or 3 years without an accident or ticket.   When would the deductible vanish ? (Meaning, when is it $0?)   Write an equation showing how the deductible decreases.   What is the slope and what does it mean in the story?   What is the intercept and what does it mean in the story?  "
 },
 {
-  "id": "ws-PE2A-6",
+  "id": "ws-PE2A-5",
   "level": "2",
-  "url": "ws-PE2A.html#ws-PE2A-6",
+  "url": "ws-PE2A.html#ws-PE2A-5",
   "type": "Worksheet Exercise",
   "number": "2.6.3",
   "title": "",
   "body": " Our investment club has been tracking the performance of a biofuel company's stock over the past year. Using an econometrics software package, we found the equation which describes the value of each share of stock $ as a function of time , measured in weeks starting exactly one year ago.   Name the variables and , including units and dependence.   Complete the following table of values.     0  13  26  39  52     31.00  21.08    16.86     Draw a graph showing how the value changed during the past year.    The problem continues …   According to the table, what was the value of the stock when we began tracking it? What is it worth now?   We are thinking about buying some stock now, and selling it in 10 weeks. Does the equation say that's a good idea? Explain.   10 weeks from now is not because we started counting weeks one year ago.   Looking back over the past year, how low did the value of the stock get? Use successive approximation to estimate to the nearest cent.  "
 },
 {
-  "id": "ws-PE2A-7",
+  "id": "ws-PE2A-6",
   "level": "2",
-  "url": "ws-PE2A.html#ws-PE2A-7",
+  "url": "ws-PE2A.html#ws-PE2A-6",
   "type": "Worksheet Exercise",
   "number": "2.6.4",
   "title": "",
@@ -835,7 +1402,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "2.7",
   "title": "Practice Exam 2B",
-  "body": " Practice Exam 2B   Try taking this version of the practice exam under testing conditions: no book, no notes, no classmate's help, no electronics (computer, cell phone, television). Give yourself one hour to work and wait until you have tried your best on all of the problems before checking any answers.    The Skärstroms want to dig a new well for water for their lake cabin. The company charges $900 to bring the equipment on site and draw the permit and then $2 per foot to dig.   What would a 100 foot deep well cost?   Name the variables and write an equation relating them.   Make a table showing the total cost for a well 100, 250, or 400 feet deep.    Xander grows tomatoes in his garden. He's noticed that a typical plant yields 5 pounds of tomatoes. He's been experimenting with the impact of liquid food on plant yield and estimates that each drop increases yield by 14%.   Name the variables, including units and dependence.   Calculate the growth factor and write an equation showing how yield for each tomato plant depends on the number of drops of liquid food.   Xander uses 10 drops of food on one of his tomato plans and uses all of the tomatoes from that plant to make salsa. If each pound of tomatoes makes around a pint of salsa, how much salsa will Xander have (from that one plant)?   Convert your answer into gallons. Use 1 gallon = 4 quarts and 1 quart = 2 pints.   The problem continues …   Make a table showing Xander's projections for yield for each tomato plant if he uses 0, 1, 2, 5, or 10 drops of liquid food.   Graph the function.     Skye and her sister Clover started a t-shirt printing company. To produce a particular t-shirt it costs $350 in materials and labor to set up a silkscreen and then $7.50 for each shirt made to cover materials and printing. The average cost per t-shirt $ is a function of , the number of t-shirts printed. The equation for this function is    Evaluate this formula when . What does the resulting value of mean in the story?   Make a table showing the average cost per t-shirt if Skye and Clover make 1, 20, 50, 100, or 300 t-shirts.   Approximately how many t-shirts would they need to make to keep the average cost per shirt under $10? Use successive approximation and display your guesses in a table.   The problem continues …   Skye designs the shirts and runs the press. Clover is the brains behind sales. She would like to price the shirts at $12.95 each. The sisters will make a profit of $ where   This is a linear equation. What is the slope, what are its units, and what does it mean in the story?   What is the intercept, what are its units, and what does it mean in the story?   How many t-shirts do the sisters need to sell to make $1,000 profit? Use successive approximation and display your guesses in a table.    Kotoyo's uncle won $100,000 on a game show. If he invests it in a fund that is expected to earn 5.7% interest compounded monthly, how much will he have after 5 years? Use the Compound Interest Formula .   Kotoyo's grandmother has been contributing $150 a month into a college fund for Kotoyo for the past 8 years. The account pays 4% interest compounded monthly. How much is in the account now? Use the Future Value Annuity Formula .   Kotoyo owes $8,742 on her credit card. They charge her 16% interest compounded monthly. What would her monthly payment be if she wants to pay it off in 5 years? Use the Loan Payment Formula .   What is the equivalent annual percentage rate (APR) of Kotoyo's credit card? Use the Equivalent APR Formula . Don't forget to report the percentage.    "
+  "body": " Practice Exam 2B    Try taking this version of the practice exam under testing conditions: no book, no notes, no classmate's help, no electronics (computer, cell phone, television). Give yourself one hour to work and wait until you have tried your best on all of the problems before checking any answers.     The Skärstroms want to dig a new well for water for their lake cabin. The company charges $900 to bring the equipment on site and draw the permit and then $2 per foot to dig.   What would a 100 foot deep well cost?   Name the variables and write an equation relating them.   Make a table showing the total cost for a well 100, 250, or 400 feet deep.    Xander grows tomatoes in his garden. He's noticed that a typical plant yields 5 pounds of tomatoes. He's been experimenting with the impact of liquid food on plant yield and estimates that each drop increases yield by 14%.   Name the variables, including units and dependence.   Calculate the growth factor and write an equation showing how yield for each tomato plant depends on the number of drops of liquid food.   Xander uses 10 drops of food on one of his tomato plans and uses all of the tomatoes from that plant to make salsa. If each pound of tomatoes makes around a pint of salsa, how much salsa will Xander have (from that one plant)?   Convert your answer into gallons. Use 1 gallon = 4 quarts and 1 quart = 2 pints.   The problem continues …   Make a table showing Xander's projections for yield for each tomato plant if he uses 0, 1, 2, 5, or 10 drops of liquid food.   Graph the function.     Skye and her sister Clover started a t-shirt printing company. To produce a particular t-shirt it costs $350 in materials and labor to set up a silkscreen and then $7.50 for each shirt made to cover materials and printing. The average cost per t-shirt $ is a function of , the number of t-shirts printed. The equation for this function is    Evaluate this formula when . What does the resulting value of mean in the story?   Make a table showing the average cost per t-shirt if Skye and Clover make 1, 20, 50, 100, or 300 t-shirts.   Approximately how many t-shirts would they need to make to keep the average cost per shirt under $10? Use successive approximation and display your guesses in a table.   The problem continues …   Skye designs the shirts and runs the press. Clover is the brains behind sales. She would like to price the shirts at $12.95 each. The sisters will make a profit of $ where   This is a linear equation. What is the slope, what are its units, and what does it mean in the story?   What is the intercept, what are its units, and what does it mean in the story?   How many t-shirts do the sisters need to sell to make $1,000 profit? Use successive approximation and display your guesses in a table.    Kotoyo's uncle won $100,000 on a game show. If he invests it in a fund that is expected to earn 5.7% interest compounded monthly, how much will he have after 5 years? Use the Compound Interest Formula .   Kotoyo's grandmother has been contributing $150 a month into a college fund for Kotoyo for the past 8 years. The account pays 4% interest compounded monthly. How much is in the account now? Use the Future Value Annuity Formula .   Kotoyo owes $8,742 on her credit card. They charge her 16% interest compounded monthly. What would her monthly payment be if she wants to pay it off in 5 years? Use the Loan Payment Formula .   What is the equivalent annual percentage rate (APR) of Kotoyo's credit card? Use the Equivalent APR Formula . Don't forget to report the percentage.    "
 },
 {
   "id": "ws-PE2B-3",
@@ -1249,48 +1816,48 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "3.6",
   "title": "Practice Exam 3A",
-  "body": " Practice Exam 3A  Relax. You have done problems like these before. Even if these problems look a bit different, just do what you can. If you're not sure of something, please ask! You may use your calculator. Please show all of your work and write down as many steps as you can. Don't spend too much time on any one problem. Do well. And remember, ask me if you're not sure about something.   Over 50 points on this exam are for solving equations and inequalities. Be sure you understand what you need to show for full credit. Using a different method will get little to no partial credit.    As you work, make a don't forget list of any information you need to look up or ask about.    The Skärstroms want to dig a new well for water for their lake cabin. The company charges $900 to bring the equipment on site and draw the permit and then $2 per foot to dig. That means where is the depth of the well (in feet) and is the cost of the well (in $).   In their neck of the woods, wells often run 200 feet deep. According to the equation, how much would that cost?   The Skärstroms have budgeted between $1,500 and $1,800 for the well. Set up and solve a chain of inequalities to find the corresponding range of depths.   No such luck. The company had to drill much deeper than hoped to find water. The final result, wonderfully cold and clear drinking water. And, a hefty bill for $2,072. How deep is their well? Set up and solve an equation.    Ceyda starts the day by downing two cans of Red Bull, containing a total of 160 mg of caffeine. Her body eliminates the caffeine at a rate of 12% each hour. That means the amount of caffeine ( mg) after hours is given by the equation graphed below     According to the equation, how much caffeine is in her body initially, after 2 hours, 5 hours, and 24 hours? Display your answers in table.   Show show to use successive approximation to find approximately when Ceyda's caffeine level first drops below 20 mg. Answer to the nearest hour.   Set up and solve an equation to determine exactly when Ceyda's caffeine level first drops below 20 mg. Round your answer to two decimal places.    Jorge deposited $1,500 in a high yield money market account and plans to leave it there for 5 years. The value of his account after 5 years, $ , will depend on the growth factor as given by the equation    Use the equation to complete the table.     1.02  1.03  1.05  1.10     1,656.12    2,415.77     Draw a graph showing how depends on the growth factor . Start the horizontal axis at 1.00, instead of 0.    Use your graph to estimate the growth factor if the value of Jorge's account after 5 years is $1,780.   Now set up and solve an equation to find the answer exactly .   What is the corresponding return on investment ? That means calculate . The return on investment is written as a percentage.    A rabbit jumps so that her height above ground is given by the formula where height of rabbit (feet above ground) and time (seconds).   At what height did the rabbit start her jump?   Can the rabbit jump over a 3 foot fence? Calculate the exact maximum height of the rabbit to decide.   How long does it take the rabbit to get 2 feet in the air, and when is she at that height again? Set up and solve the appropriate equation to find the answers.   "
+  "body": " Practice Exam 3A   Relax. You have done problems like these before. Even if these problems look a bit different, just do what you can. If you're not sure of something, please ask! You may use your calculator. Please show all of your work and write down as many steps as you can. Don't spend too much time on any one problem. Do well. And remember, ask me if you're not sure about something.   Over 50 points on this exam are for solving equations and inequalities. Be sure you understand what you need to show for full credit. Using a different method will get little to no partial credit.    As you work, make a don't forget list of any information you need to look up or ask about.     The Skärstroms want to dig a new well for water for their lake cabin. The company charges $900 to bring the equipment on site and draw the permit and then $2 per foot to dig. That means where is the depth of the well (in feet) and is the cost of the well (in $).   In their neck of the woods, wells often run 200 feet deep. According to the equation, how much would that cost?   The Skärstroms have budgeted between $1,500 and $1,800 for the well. Set up and solve a chain of inequalities to find the corresponding range of depths.   No such luck. The company had to drill much deeper than hoped to find water. The final result, wonderfully cold and clear drinking water. And, a hefty bill for $2,072. How deep is their well? Set up and solve an equation.    Ceyda starts the day by downing two cans of Red Bull, containing a total of 160 mg of caffeine. Her body eliminates the caffeine at a rate of 12% each hour. That means the amount of caffeine ( mg) after hours is given by the equation graphed below     According to the equation, how much caffeine is in her body initially, after 2 hours, 5 hours, and 24 hours? Display your answers in table.   Show show to use successive approximation to find approximately when Ceyda's caffeine level first drops below 20 mg. Answer to the nearest hour.   Set up and solve an equation to determine exactly when Ceyda's caffeine level first drops below 20 mg. Round your answer to two decimal places.    Jorge deposited $1,500 in a high yield money market account and plans to leave it there for 5 years. The value of his account after 5 years, $ , will depend on the growth factor as given by the equation    Use the equation to complete the table.     1.02  1.03  1.05  1.10     1,656.12    2,415.77     Draw a graph showing how depends on the growth factor . Start the horizontal axis at 1.00, instead of 0.    Use your graph to estimate the growth factor if the value of Jorge's account after 5 years is $1,780.   Now set up and solve an equation to find the answer exactly .   What is the corresponding return on investment ? That means calculate . The return on investment is written as a percentage.    A rabbit jumps so that her height above ground is given by the formula where height of rabbit (feet above ground) and time (seconds).   At what height did the rabbit start her jump?   Can the rabbit jump over a 3 foot fence? Calculate the exact maximum height of the rabbit to decide.   How long does it take the rabbit to get 2 feet in the air, and when is she at that height again? Set up and solve the appropriate equation to find the answers.   "
 },
 {
-  "id": "ws-PE3A-3",
+  "id": "ws-PE3A-2-2",
   "level": "2",
-  "url": "ws-PE3A.html#ws-PE3A-3",
+  "url": "ws-PE3A.html#ws-PE3A-2-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Over 50 points on this exam are for solving equations and inequalities. Be sure you understand what you need to show for full credit. Using a different method will get little to no partial credit. "
 },
 {
-  "id": "ws-PE3A-5",
+  "id": "ws-PE3A-3",
   "level": "2",
-  "url": "ws-PE3A.html#ws-PE3A-5",
+  "url": "ws-PE3A.html#ws-PE3A-3",
   "type": "Worksheet Exercise",
   "number": "3.6.1",
   "title": "",
   "body": " The Skärstroms want to dig a new well for water for their lake cabin. The company charges $900 to bring the equipment on site and draw the permit and then $2 per foot to dig. That means where is the depth of the well (in feet) and is the cost of the well (in $).   In their neck of the woods, wells often run 200 feet deep. According to the equation, how much would that cost?   The Skärstroms have budgeted between $1,500 and $1,800 for the well. Set up and solve a chain of inequalities to find the corresponding range of depths.   No such luck. The company had to drill much deeper than hoped to find water. The final result, wonderfully cold and clear drinking water. And, a hefty bill for $2,072. How deep is their well? Set up and solve an equation.  "
 },
 {
-  "id": "ws-PE3A-6",
+  "id": "ws-PE3A-4",
   "level": "2",
-  "url": "ws-PE3A.html#ws-PE3A-6",
+  "url": "ws-PE3A.html#ws-PE3A-4",
   "type": "Worksheet Exercise",
   "number": "3.6.2",
   "title": "",
   "body": " Ceyda starts the day by downing two cans of Red Bull, containing a total of 160 mg of caffeine. Her body eliminates the caffeine at a rate of 12% each hour. That means the amount of caffeine ( mg) after hours is given by the equation graphed below     According to the equation, how much caffeine is in her body initially, after 2 hours, 5 hours, and 24 hours? Display your answers in table.   Show show to use successive approximation to find approximately when Ceyda's caffeine level first drops below 20 mg. Answer to the nearest hour.   Set up and solve an equation to determine exactly when Ceyda's caffeine level first drops below 20 mg. Round your answer to two decimal places.  "
 },
 {
-  "id": "ws-PE3A-7",
+  "id": "ws-PE3A-5",
   "level": "2",
-  "url": "ws-PE3A.html#ws-PE3A-7",
+  "url": "ws-PE3A.html#ws-PE3A-5",
   "type": "Worksheet Exercise",
   "number": "3.6.3",
   "title": "",
   "body": " Jorge deposited $1,500 in a high yield money market account and plans to leave it there for 5 years. The value of his account after 5 years, $ , will depend on the growth factor as given by the equation    Use the equation to complete the table.     1.02  1.03  1.05  1.10     1,656.12    2,415.77     Draw a graph showing how depends on the growth factor . Start the horizontal axis at 1.00, instead of 0.    Use your graph to estimate the growth factor if the value of Jorge's account after 5 years is $1,780.   Now set up and solve an equation to find the answer exactly .   What is the corresponding return on investment ? That means calculate . The return on investment is written as a percentage.  "
 },
 {
-  "id": "ws-PE3A-8",
+  "id": "ws-PE3A-6",
   "level": "2",
-  "url": "ws-PE3A.html#ws-PE3A-8",
+  "url": "ws-PE3A.html#ws-PE3A-6",
   "type": "Worksheet Exercise",
   "number": "3.6.4",
   "title": "",
@@ -1303,48 +1870,48 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "3.7",
   "title": "Practice Exam 3B",
-  "body": " Practice Exam 3B   Try taking this version of the practice exam under testing conditions: no book, no notes, no classmate's help, no electronics (computer, cell phone, television). Give yourself one hour to work and wait until you have tried your best on all of the problems before checking any answers.    Caution: Usually more than half points on this exam are for solving equations and inequalities. Be sure you understand what you need to show for full credit. Using a different method, or not showing enough work might get little to no partial credit.   Goldie the Goldfish, Pinches the Lobster, Quackers the Duck, Speedy the Turtle These names are registered trademarked. . These first generation Beanie Babies toys were anticipated to increase in value according to the equation where is the value of Beanie Babies (in $) and is the time in years since 1994.   Make a table showing the anticipated value in 1994, 2004, 2010, and 2025.   Draw a graph showing how the value of the Beanie Babies increased.    The problem continues …   Set up and solve an equation to determine when will Beanie Babies made in 1994 were anticipated to be worth over $40. Report the actual year.    Best we can tell, the floor of our front porch was 7'2\" above ground when the house was built. It has been slowly sinking ever since. The contractor estimated that it's dropped 0.45 inches per year. The equation is where is the height of the porch (in inches) and is the age of the house (in years).   Make a table showing the height of the front porch when the house was built, when it was 20 years old, and when it was 50 years old.   The floor of our front porch is currently 48 inches above ground. Set up and solve an equation to figure out how old our house is.   Once the porch is below 40 inches, we will have to do something to fix it. Set up and solve an inequality to find when that will happen, answering to the nearest year. Hint: the house is already old. Report how many years from now.     In a shot put competition, athletes try to throw a heavy metal ball as far as possible. For one athlete the ball closely followed the parabolic arch given by the equation where was the distance the ball had travelled horizontally and was the height of the ball above ground, both in feet. The path of the ball is graphed below.    How far away did the ball land? Estimate the answer from the graph. Then show how to set up and solve an equation to find the answer to two decimal places.   How high up did the ball get? Show how to find the exact answer. Then compare to the graph.    The amount of snow in a snowball, cups, depends on the diameter (distance across) of the snowball, inches according to the equation    How many cups of snow are needed to make a snowball that is 3 inches across? 5 inches across?   How many cups of snow are needed to make a snowball that is 2 feet across? Give your answer in gallons. Use that 1 gallon = 4 quarts and 1 quart = 4 cups.   Karen has a 5 gallon paint bucket packed with snow and wants to make a giant snowball out of it. How big will the snowball be? Show how to use successive approximation to approximate the answer to the nearest inch. Display your calculations in a table.   Now set up and solve an equation to find the answer exactly , to the nearest inch.   "
+  "body": " Practice Exam 3B    Try taking this version of the practice exam under testing conditions: no book, no notes, no classmate's help, no electronics (computer, cell phone, television). Give yourself one hour to work and wait until you have tried your best on all of the problems before checking any answers.    Caution: Usually more than half points on this exam are for solving equations and inequalities. Be sure you understand what you need to show for full credit. Using a different method, or not showing enough work might get little to no partial credit.    Goldie the Goldfish, Pinches the Lobster, Quackers the Duck, Speedy the Turtle These names are registered trademarked. . These first generation Beanie Babies toys were anticipated to increase in value according to the equation where is the value of Beanie Babies (in $) and is the time in years since 1994.   Make a table showing the anticipated value in 1994, 2004, 2010, and 2025.   Draw a graph showing how the value of the Beanie Babies increased.    The problem continues …   Set up and solve an equation to determine when will Beanie Babies made in 1994 were anticipated to be worth over $40. Report the actual year.    Best we can tell, the floor of our front porch was 7'2\" above ground when the house was built. It has been slowly sinking ever since. The contractor estimated that it's dropped 0.45 inches per year. The equation is where is the height of the porch (in inches) and is the age of the house (in years).   Make a table showing the height of the front porch when the house was built, when it was 20 years old, and when it was 50 years old.   The floor of our front porch is currently 48 inches above ground. Set up and solve an equation to figure out how old our house is.   Once the porch is below 40 inches, we will have to do something to fix it. Set up and solve an inequality to find when that will happen, answering to the nearest year. Hint: the house is already old. Report how many years from now.     In a shot put competition, athletes try to throw a heavy metal ball as far as possible. For one athlete the ball closely followed the parabolic arch given by the equation where was the distance the ball had travelled horizontally and was the height of the ball above ground, both in feet. The path of the ball is graphed below.    How far away did the ball land? Estimate the answer from the graph. Then show how to set up and solve an equation to find the answer to two decimal places.   How high up did the ball get? Show how to find the exact answer. Then compare to the graph.    The amount of snow in a snowball, cups, depends on the diameter (distance across) of the snowball, inches according to the equation    How many cups of snow are needed to make a snowball that is 3 inches across? 5 inches across?   How many cups of snow are needed to make a snowball that is 2 feet across? Give your answer in gallons. Use that 1 gallon = 4 quarts and 1 quart = 4 cups.   Karen has a 5 gallon paint bucket packed with snow and wants to make a giant snowball out of it. How big will the snowball be? Show how to use successive approximation to approximate the answer to the nearest inch. Display your calculations in a table.   Now set up and solve an equation to find the answer exactly , to the nearest inch.   "
 },
 {
-  "id": "ws-PE3B-3",
+  "id": "ws-PE3B-2-2",
   "level": "2",
-  "url": "ws-PE3B.html#ws-PE3B-3",
+  "url": "ws-PE3B.html#ws-PE3B-2-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Caution: "
 },
 {
-  "id": "ws-PE3B-4",
+  "id": "ws-PE3B-3",
   "level": "2",
-  "url": "ws-PE3B.html#ws-PE3B-4",
+  "url": "ws-PE3B.html#ws-PE3B-3",
   "type": "Worksheet Exercise",
   "number": "3.7.1",
   "title": "",
   "body": " Goldie the Goldfish, Pinches the Lobster, Quackers the Duck, Speedy the Turtle These names are registered trademarked. . These first generation Beanie Babies toys were anticipated to increase in value according to the equation where is the value of Beanie Babies (in $) and is the time in years since 1994.   Make a table showing the anticipated value in 1994, 2004, 2010, and 2025.   Draw a graph showing how the value of the Beanie Babies increased.    The problem continues …   Set up and solve an equation to determine when will Beanie Babies made in 1994 were anticipated to be worth over $40. Report the actual year.  "
 },
 {
-  "id": "ws-PE3B-5",
+  "id": "ws-PE3B-4",
   "level": "2",
-  "url": "ws-PE3B.html#ws-PE3B-5",
+  "url": "ws-PE3B.html#ws-PE3B-4",
   "type": "Worksheet Exercise",
   "number": "3.7.2",
   "title": "",
   "body": " Best we can tell, the floor of our front porch was 7'2\" above ground when the house was built. It has been slowly sinking ever since. The contractor estimated that it's dropped 0.45 inches per year. The equation is where is the height of the porch (in inches) and is the age of the house (in years).   Make a table showing the height of the front porch when the house was built, when it was 20 years old, and when it was 50 years old.   The floor of our front porch is currently 48 inches above ground. Set up and solve an equation to figure out how old our house is.   Once the porch is below 40 inches, we will have to do something to fix it. Set up and solve an inequality to find when that will happen, answering to the nearest year. Hint: the house is already old. Report how many years from now.   "
 },
 {
-  "id": "ws-PE3B-6",
+  "id": "ws-PE3B-5",
   "level": "2",
-  "url": "ws-PE3B.html#ws-PE3B-6",
+  "url": "ws-PE3B.html#ws-PE3B-5",
   "type": "Worksheet Exercise",
   "number": "3.7.3",
   "title": "",
   "body": " In a shot put competition, athletes try to throw a heavy metal ball as far as possible. For one athlete the ball closely followed the parabolic arch given by the equation where was the distance the ball had travelled horizontally and was the height of the ball above ground, both in feet. The path of the ball is graphed below.    How far away did the ball land? Estimate the answer from the graph. Then show how to set up and solve an equation to find the answer to two decimal places.   How high up did the ball get? Show how to find the exact answer. Then compare to the graph.  "
 },
 {
-  "id": "ws-PE3B-7",
+  "id": "ws-PE3B-6",
   "level": "2",
-  "url": "ws-PE3B.html#ws-PE3B-7",
+  "url": "ws-PE3B.html#ws-PE3B-6",
   "type": "Worksheet Exercise",
   "number": "3.7.4",
   "title": "",
@@ -1672,48 +2239,48 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "4.6",
   "title": "Practice Exam 4A",
-  "body": " Practice Exam 4A  Relax. You have done problems like these before. Even if these problems look a bit different, just do what you can. If you're not sure of something, please ask! You may use your calculator. Please show all of your work and write down as many steps as you can. Don't spend too much time on any one problem. Do well. And remember, ask me if you're not sure about something.   As you work, make a don't forget list of any information you need to look up or ask about.    Forde collects miniature cars, each weighing 1.76 ounces. His car box weighs 4 ounces when empty. The total weight ounces of Forde's car box depends on the number of cars according to the equation    Make a table of values showing the weight if the box contains 1, 5, 12, or 20 cars.   Draw a graph illustrating the dependence.    How many cars can Forde fit in the box and stay under 3 pounds (that is 48 ounces)? Figure out the answer and mark the corresponding point on your graph.    Will women ever run the marathon as fast as men do? The world records are getting close. In 2012 the men's record was 2:03:38 and the women's record was 2:15:25, about 12 minutes apart! On the other hand, the record is changing very slowly. Estimates for the men's time shows about 13 seconds drop per year on average. Estimates for the women's time shows about 26 seconds drop per year on average. Source: Wikipedia (Marathon World Record Progression)    Write an equation for each function: men's and women's. The variables are marathon times (in seconds) and years (measured in years since 2012). Note that 2:03:38 = 7,418 seconds and 2:12:25 = 7,945 seconds.   Use successive approximate to estimate when the women's record might equal the men's record. Display your guesses in a table.   Set up and solve a system to find exactly when the women's record might equal the men's record.    An online music club charges a monthly enrollment fee plus $0.95 per album you download. Last month Andrew downloaded 31 albums for a total cost of $49.00.   What is the monthly enrollment fee?   Name the variables, including units, and write an equation relating them.   If Andrew's bill next month is for $87.95, how many albums did he download? Show how to solve the equation.    A report shows September sea-ice declining in the Northern hemisphere. In 1980 the extent of the sea-ice was 3.1 million square miles. By 2012, the sea-ice extended only 1.7 million square miles. For this problem, suppose that the area of sea-ice decreases linearly. Source: National Snow and Ice Data Center    Name the variables, including units.   What is the rate of sea ice decrease?   Write a linear equation relating your variables.   Scientists are concerned that if the September sea-ice falls between 200,000 and 500,000 square miles, then other climate feedbacks will lead to no more sea-ice in September. According to your equation, in what year is this expected to occur? Set up and solve an inequality to answer the question.    As people age they experience some hearing loss. A study was done to determine the comfort level of sound for people of different ages, meaning the loudest sound (in decibels) that the person could listen to comfortably. The data are given in the table.    Name  Akbar  Javier  Walter  Xang  Rolf  Derrick  Iago  Raheem    Age  45  45  55  65  75  75  85  85    Comfort level  58  61  63  71  75  80  82  79     Make a scatterplot showing the data. Scale your axes to start at 40 years and start the level at 55 decibels. Spread out your scale to get a large, detailed graph.    Draw the line through the points listed for Xang and Rolf. Explain why that line does not fit the data well. Label this line B.    The best-fitting line from statistics has equation where is the person's age (in years) and is the comfort level (in decibels). Make a table showing the values of when A = 40, 60, and 80. Use those points to add this best-fitting line to your graph.   "
+  "body": " Practice Exam 4A   Relax. You have done problems like these before. Even if these problems look a bit different, just do what you can. If you're not sure of something, please ask! You may use your calculator. Please show all of your work and write down as many steps as you can. Don't spend too much time on any one problem. Do well. And remember, ask me if you're not sure about something.   As you work, make a don't forget list of any information you need to look up or ask about.     Forde collects miniature cars, each weighing 1.76 ounces. His car box weighs 4 ounces when empty. The total weight ounces of Forde's car box depends on the number of cars according to the equation    Make a table of values showing the weight if the box contains 1, 5, 12, or 20 cars.   Draw a graph illustrating the dependence.    How many cars can Forde fit in the box and stay under 3 pounds (that is 48 ounces)? Figure out the answer and mark the corresponding point on your graph.    Will women ever run the marathon as fast as men do? The world records are getting close. In 2012 the men's record was 2:03:38 and the women's record was 2:15:25, about 12 minutes apart! On the other hand, the record is changing very slowly. Estimates for the men's time shows about 13 seconds drop per year on average. Estimates for the women's time shows about 26 seconds drop per year on average. Source: Wikipedia (Marathon World Record Progression)    Write an equation for each function: men's and women's. The variables are marathon times (in seconds) and years (measured in years since 2012). Note that 2:03:38 = 7,418 seconds and 2:12:25 = 7,945 seconds.   Use successive approximate to estimate when the women's record might equal the men's record. Display your guesses in a table.   Set up and solve a system to find exactly when the women's record might equal the men's record.    An online music club charges a monthly enrollment fee plus $0.95 per album you download. Last month Andrew downloaded 31 albums for a total cost of $49.00.   What is the monthly enrollment fee?   Name the variables, including units, and write an equation relating them.   If Andrew's bill next month is for $87.95, how many albums did he download? Show how to solve the equation.    A report shows September sea-ice declining in the Northern hemisphere. In 1980 the extent of the sea-ice was 3.1 million square miles. By 2012, the sea-ice extended only 1.7 million square miles. For this problem, suppose that the area of sea-ice decreases linearly. Source: National Snow and Ice Data Center    Name the variables, including units.   What is the rate of sea ice decrease?   Write a linear equation relating your variables.   Scientists are concerned that if the September sea-ice falls between 200,000 and 500,000 square miles, then other climate feedbacks will lead to no more sea-ice in September. According to your equation, in what year is this expected to occur? Set up and solve an inequality to answer the question.    As people age they experience some hearing loss. A study was done to determine the comfort level of sound for people of different ages, meaning the loudest sound (in decibels) that the person could listen to comfortably. The data are given in the table.    Name  Akbar  Javier  Walter  Xang  Rolf  Derrick  Iago  Raheem    Age  45  45  55  65  75  75  85  85    Comfort level  58  61  63  71  75  80  82  79     Make a scatterplot showing the data. Scale your axes to start at 40 years and start the level at 55 decibels. Spread out your scale to get a large, detailed graph.    Draw the line through the points listed for Xang and Rolf. Explain why that line does not fit the data well. Label this line B.    The best-fitting line from statistics has equation where is the person's age (in years) and is the comfort level (in decibels). Make a table showing the values of when A = 40, 60, and 80. Use those points to add this best-fitting line to your graph.   "
 },
 {
-  "id": "ws-PE4A-4",
+  "id": "ws-PE4A-3",
   "level": "2",
-  "url": "ws-PE4A.html#ws-PE4A-4",
+  "url": "ws-PE4A.html#ws-PE4A-3",
   "type": "Worksheet Exercise",
   "number": "4.6.1",
   "title": "",
   "body": " Forde collects miniature cars, each weighing 1.76 ounces. His car box weighs 4 ounces when empty. The total weight ounces of Forde's car box depends on the number of cars according to the equation    Make a table of values showing the weight if the box contains 1, 5, 12, or 20 cars.   Draw a graph illustrating the dependence.    How many cars can Forde fit in the box and stay under 3 pounds (that is 48 ounces)? Figure out the answer and mark the corresponding point on your graph.  "
 },
 {
-  "id": "ws-PE4A-5",
+  "id": "ws-PE4A-4",
   "level": "2",
-  "url": "ws-PE4A.html#ws-PE4A-5",
+  "url": "ws-PE4A.html#ws-PE4A-4",
   "type": "Worksheet Exercise",
   "number": "4.6.2",
   "title": "",
   "body": " Will women ever run the marathon as fast as men do? The world records are getting close. In 2012 the men's record was 2:03:38 and the women's record was 2:15:25, about 12 minutes apart! On the other hand, the record is changing very slowly. Estimates for the men's time shows about 13 seconds drop per year on average. Estimates for the women's time shows about 26 seconds drop per year on average. Source: Wikipedia (Marathon World Record Progression)    Write an equation for each function: men's and women's. The variables are marathon times (in seconds) and years (measured in years since 2012). Note that 2:03:38 = 7,418 seconds and 2:12:25 = 7,945 seconds.   Use successive approximate to estimate when the women's record might equal the men's record. Display your guesses in a table.   Set up and solve a system to find exactly when the women's record might equal the men's record.  "
 },
 {
-  "id": "ws-PE4A-6",
+  "id": "ws-PE4A-5",
   "level": "2",
-  "url": "ws-PE4A.html#ws-PE4A-6",
+  "url": "ws-PE4A.html#ws-PE4A-5",
   "type": "Worksheet Exercise",
   "number": "4.6.3",
   "title": "",
   "body": " An online music club charges a monthly enrollment fee plus $0.95 per album you download. Last month Andrew downloaded 31 albums for a total cost of $49.00.   What is the monthly enrollment fee?   Name the variables, including units, and write an equation relating them.   If Andrew's bill next month is for $87.95, how many albums did he download? Show how to solve the equation.  "
 },
 {
-  "id": "ws-PE4A-7",
+  "id": "ws-PE4A-6",
   "level": "2",
-  "url": "ws-PE4A.html#ws-PE4A-7",
+  "url": "ws-PE4A.html#ws-PE4A-6",
   "type": "Worksheet Exercise",
   "number": "4.6.4",
   "title": "",
   "body": " A report shows September sea-ice declining in the Northern hemisphere. In 1980 the extent of the sea-ice was 3.1 million square miles. By 2012, the sea-ice extended only 1.7 million square miles. For this problem, suppose that the area of sea-ice decreases linearly. Source: National Snow and Ice Data Center    Name the variables, including units.   What is the rate of sea ice decrease?   Write a linear equation relating your variables.   Scientists are concerned that if the September sea-ice falls between 200,000 and 500,000 square miles, then other climate feedbacks will lead to no more sea-ice in September. According to your equation, in what year is this expected to occur? Set up and solve an inequality to answer the question.  "
 },
 {
-  "id": "ws-PE4A-8",
+  "id": "ws-PE4A-7",
   "level": "2",
-  "url": "ws-PE4A.html#ws-PE4A-8",
+  "url": "ws-PE4A.html#ws-PE4A-7",
   "type": "Worksheet Exercise",
   "number": "4.6.5",
   "title": "",
@@ -1726,7 +2293,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "4.7",
   "title": "Practice Exam 4B",
-  "body": " Practice Exam 4B   Try taking this version of the practice exam under testing conditions: no book, no notes, no classmate's help, no electronics (computer, cell phone, television). Give yourself one hour to work and wait until you have tried your best on all of the problems before checking any answers.    The Vang family wants to buy a new washing machine. The first model costs $645 and then $13.29 per month to run. A more efficient model costs $940 and then $7.82 per month to run. If is the time in months and is the Vang family's total cost (in $), then the equations and some comparable values (to the nearest $) are:    First model:     Second model:        12  36  60    First model:  804.48  1,123.44  1,442.40    Second model:  1,033.84  1,221.52  1,409.20     Draw a graph illustrating both equations. Be sure to include the intercepts.     According to your graph, approximately what is the payback time (the number of months for which the total costs of each washing machine are equal)? Answer and indicate the point on the graph where you can check.   The problem continues …   Set up and solve a system of linear equations to find the payback time exactly .   If the manufacturer offers a $25 rebate on the more efficient model, how does that change the payback time? Adjust your equation and set up and solve a new system. Or carefully explain some other way of figuring it out.    It has been a long time since anyone broke the record for the men's long jump. In 1935 Jesse Owens jumped 8.13 meters. The record was next broken 25 years later, in 1960, by Ralph Boston who jumped 8.21 meters. He broke his own record several times over the next few years, including being surpassed briefly by Igor Ter-Ovanesyan. Ralph's final record was 8.35 meters in 1965. Not to be outdone, Igor tied the record in 1967. Then in 1968, Bob Beamon jumped 8.90 meters. That record held for 23 years, until Mike Powell jumped 8.95 meters in 1991, much to Carl Lewis' dismay. Powell's record still stood 21 years later, in 2012. Source: Wikipedia (Long Jump)     Draw in the line connecting the data from 1935 and 1991. Use it to predict the long jump record in 2020.   Draw in the line connecting the data from 1968 and 1991. Use it to predict the long jump record in 2020.   Which of your lines do you prefer, and why?    Arjun just graduated from college but is living with his uncle for the summer to save money. They agreed that Arjun would do chores and some light renovations instead of paying rent. Arjun has been doing around 5 hours of work a week for the past 8 weeks, but still owes his uncle another 30 hours of work.   What was the original agreement? That means, how many hours of work did Arjun originally promise his uncle?   Name the variables and write an equation relating them, assuming Arjun continues to do 5 hours a week of work.   How many more weeks will it take Arjun to finish the work he promised? Show how to solve the equation.    The local zoning commission is considering a plan to expand housing in the city, as measured in the number of residential units. But with more residential units come more shops, offices, schools, recreational facilities, churches, and other commercial property. Currently the city has 3,500 residential units and 1,575 acres of commercial property. If the proposal is passed and completed, the city will have a new total of 3,600 residential units and 1,620 acres of commercial property. You can assume this increase is linear.   Name the variables and summarize the given information in a table.   How many new acres of commercial property are there for each new residential unit built?   Write an equation relating the variables. Hint: first find the intercept.    If the city decides to limit the amount of land to 1,600 acres of commercial property, approximately how many residential units can there be? Use successive approximation, displaying your guesses in a table.   Now answer the question exactly by setting up and solving an inequality.   "
+  "body": " Practice Exam 4B    Try taking this version of the practice exam under testing conditions: no book, no notes, no classmate's help, no electronics (computer, cell phone, television). Give yourself one hour to work and wait until you have tried your best on all of the problems before checking any answers.     The Vang family wants to buy a new washing machine. The first model costs $645 and then $13.29 per month to run. A more efficient model costs $940 and then $7.82 per month to run. If is the time in months and is the Vang family's total cost (in $), then the equations and some comparable values (to the nearest $) are:    First model:     Second model:        12  36  60    First model:  804.48  1,123.44  1,442.40    Second model:  1,033.84  1,221.52  1,409.20     Draw a graph illustrating both equations. Be sure to include the intercepts.     According to your graph, approximately what is the payback time (the number of months for which the total costs of each washing machine are equal)? Answer and indicate the point on the graph where you can check.   The problem continues …   Set up and solve a system of linear equations to find the payback time exactly .   If the manufacturer offers a $25 rebate on the more efficient model, how does that change the payback time? Adjust your equation and set up and solve a new system. Or carefully explain some other way of figuring it out.    It has been a long time since anyone broke the record for the men's long jump. In 1935 Jesse Owens jumped 8.13 meters. The record was next broken 25 years later, in 1960, by Ralph Boston who jumped 8.21 meters. He broke his own record several times over the next few years, including being surpassed briefly by Igor Ter-Ovanesyan. Ralph's final record was 8.35 meters in 1965. Not to be outdone, Igor tied the record in 1967. Then in 1968, Bob Beamon jumped 8.90 meters. That record held for 23 years, until Mike Powell jumped 8.95 meters in 1991, much to Carl Lewis' dismay. Powell's record still stood 21 years later, in 2012. Source: Wikipedia (Long Jump)     Draw in the line connecting the data from 1935 and 1991. Use it to predict the long jump record in 2020.   Draw in the line connecting the data from 1968 and 1991. Use it to predict the long jump record in 2020.   Which of your lines do you prefer, and why?    Arjun just graduated from college but is living with his uncle for the summer to save money. They agreed that Arjun would do chores and some light renovations instead of paying rent. Arjun has been doing around 5 hours of work a week for the past 8 weeks, but still owes his uncle another 30 hours of work.   What was the original agreement? That means, how many hours of work did Arjun originally promise his uncle?   Name the variables and write an equation relating them, assuming Arjun continues to do 5 hours a week of work.   How many more weeks will it take Arjun to finish the work he promised? Show how to solve the equation.    The local zoning commission is considering a plan to expand housing in the city, as measured in the number of residential units. But with more residential units come more shops, offices, schools, recreational facilities, churches, and other commercial property. Currently the city has 3,500 residential units and 1,575 acres of commercial property. If the proposal is passed and completed, the city will have a new total of 3,600 residential units and 1,620 acres of commercial property. You can assume this increase is linear.   Name the variables and summarize the given information in a table.   How many new acres of commercial property are there for each new residential unit built?   Write an equation relating the variables. Hint: first find the intercept.    If the city decides to limit the amount of land to 1,600 acres of commercial property, approximately how many residential units can there be? Use successive approximation, displaying your guesses in a table.   Now answer the question exactly by setting up and solving an inequality.   "
 },
 {
   "id": "ws-PE4B-3",
