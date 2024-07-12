@@ -36,9 +36,11 @@
 				<xi:include href="GraphPaper.ptx" />
 			</statement>
 		</task>
-		<p>
-			<em>The problem continues …</em>
-		</p>
+		<introduction>
+			<p>
+				<em>The problem continues ...</em>
+			</p>
+		</introduction>
 		<task>
 			<statement>
 				<p>

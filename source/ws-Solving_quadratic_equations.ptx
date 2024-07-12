@@ -23,9 +23,11 @@
 				</p>
 			</statement>
 		</task>
-		<p>
-			<em>The problem continues …</em>
-		</p>
+		<introduction>
+			<p>
+				<em>The problem continues ...</em>
+			</p>
+		</introduction>
 		<task workspace="3in">
 			<statement>
 				<p>
@@ -102,9 +104,11 @@
 				</p>
 			</statement>
 		</task>
-		<p>
-			<em>The problem continues ...</em>
-		</p>
+		<introduction>
+			<p>
+				<em>The problem continues ...</em>
+			</p>
+		</introduction>
 		
 		<task workspace="2.5in">
 			<statement>
@@ -159,9 +163,11 @@
 				</p>
 			</statement>
 		</task>
-		<p>
-			<em>The problem continues …</em>
-		</p>
+		<introduction>
+			<p>
+				<em>The problem continues ...</em>
+			</p>
+		</introduction>
 		<task>
 			<statement>
 				<p>

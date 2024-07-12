@@ -62,11 +62,13 @@
 				<p>
 					Chlorine concentrations below 1.5 ppm do not disinfect properly so more chlorine needs to be added. According to your graph, <em>approximately</em> when will that happen? 
 				</p>
-				<p>
-					<em>The problem continues ...</em>
-				</p>
 			</statement>
 		</task>
+		<introduction>
+			<p>
+				<em>The problem continues ...</em>
+			</p>
+		</introduction>
 		<task workspace="1.5in">
 			<statement>
 				<p>
