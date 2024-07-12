@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="ss-Order_of_operations_end" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Do you know ...</title>
+
+    <p><ol>
+		<li>
+					<p>
+						How a calculator will evaluate an expression that has several different operations, such as <m>2.1 + 7 \times 1.1</m>?
+					</p>
+		</li>
+
+		<li>
+					<p>
+						What is the order of operations in general?
+					</p>
+		</li>
+
+		<li>
+					<p>
+						A good way to remember PEMDAS?
+					</p>
+		</li>
+
+		<li>
+					<p>
+						Why you need to know what the order of operations is?
+					</p>
+		</li>
+
+		<li>
+					<p>
+						When might you need to override the order of operations?
+					</p>
+		</li>
+
+		<li>
+					<p>
+						How to override the order of operations using parentheses?
+					</p>
+		</li>
+
+	</ol></p>
+
+	<p>
+		<term>Don't forget!</term>
+	</p>
+        
+
+    
+
+</subsection>
