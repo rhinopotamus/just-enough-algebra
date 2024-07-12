@@ -205,7 +205,7 @@
 		<task workspace="0.3in">
 			<statement>
 				<p>
-					Explain the dependence using a sentence of the form <q>__ is a function of __</q>.
+					Explain the dependence using a sentence of the form <q><fillin characters="3" /> is a function of <fillin characters="3" /></q>.
 				</p>
 			</statement>
 		</task>

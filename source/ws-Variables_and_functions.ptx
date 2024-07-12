@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <worksheet xml:id="ws-Variables_and_functions" xmlns:xi="http://www.w3.org/2001/XInclude" margin="0.75in">
-	<title>Variables and functions – Practice exercises</title>
+	<title>Variables and functions - Practice exercises</title>
 	
 	<page><exercise>
 		<introduction>
@@ -50,7 +50,7 @@
 		<task workspace="0.5in">
 			<statement>
 				<p>
-					Explain the dependence using a sentence of the form <q>__ is a function of __</q>.
+					Explain the dependence using a sentence of the form <q><fillin characters="3" /> is a function of <fillin characters="3" /></q>.
 				</p>
 			</statement>
 		</task>

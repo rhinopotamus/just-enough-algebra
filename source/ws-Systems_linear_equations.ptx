@@ -49,7 +49,7 @@
 			<statement>
 				<p>
 					Based on what you have learned, fill in the blank: 								
-					The more expensive hybrid pays off if Madison is going to keep it for __ years or more.
+					The more expensive hybrid pays off if Madison is going to keep it for <fillin characters="3"/> years or more.
 				</p>
 			</statement>
 		</task>
