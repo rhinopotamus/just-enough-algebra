@@ -7,7 +7,7 @@
 	<p>
 		<term>Log-Divides Formula:</term> The equation <m>g^Y = v</m> has solution <m>\displaystyle Y = \frac{\log (v)}{\log(g)}</m>
 	</p>
-	<exercise workspace="1.5in">
+	<exercise xml:id="bac-solving-exponential" workspace="1.5in">
 		<introduction>
 			<p>
 				After his first beer, Stephen's blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour. The equation is <me>S = 0.04 \ast 1.45^T</me> where <m>S</m> is Stephen's BAC and <m>T</m> is the time, measured in hours.
@@ -36,7 +36,7 @@
 			</statement>
 		</task>
 	</exercise>
-	<exercise>
+	<exercise xml:id="chlorine-pool-solving-exponential">
 		<introduction>
 			<p>
 				Chlorine is used to disinfect water in swimming pools. The chlorine concentration decreases as the pool is used according to the equation <me>C = 2.5 \ast 0.975^T</me> where <m>C</m> is the chlorine concentration in parts per million (ppm) and <m>T</m> is the time in hours since the concentration was first measured. <em>(Story also appears in 5.3 #3)</em>
@@ -98,7 +98,7 @@
 			</statement>
 		</task>
 	</exercise>
-	<exercise workspace="1.5in">
+	<exercise xml:id="riverside-rent-solving-exponential" workspace="1.5in">
 		<introduction>
 			<p>
 				Rent in the Riverside Neighborhood is expected to increase 7.2% each year. Average rent for an apartment is currently $830 per month. Earlier we identified the variables as <m>R</m> for the monthly rent (in $) and <m>T</m> for time in years. <em>(Story also appears in 1.1 #2)</em>
@@ -140,7 +140,7 @@
 			</statement>
 		</task>
 	</exercise>
-	<exercise workspace="1.2in">
+	<exercise xml:id="mortgage-payoff-solving-exponential" workspace="1.2in">
 		<introduction>
 			<p>
 				Dontrell and Kim borrowed money to buy a house on a 30-year mortgage. After <m>T</m> months of making payments, Dontrell and Kim will still owe $<m>D</m> where <me>D=236,000-56,000 \ast 1.004^T</me> <m>D</m> is also known as the <term>payoff</term> (how much they would need to pay to settle the debt). <em>(Story also appears in 2.3 #3)</em>

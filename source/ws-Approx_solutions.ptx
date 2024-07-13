@@ -3,7 +3,7 @@
 <worksheet xml:id="ws-Approx_solutions" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Approximating solutions of equations – Practice exercises</title>
 
-	<exercise>
+	<exercise xml:id="pizza-diameter-approx-solutions">
 		<introduction>
 			<p>
 				The size of a round pizza is described by its <term>diameter</term> (distance across). Assuming a 16-inch diameter pizza serves four people, and with a little geometry to help us out, we calculated that a pizza of diameter <m>D</m> inches serves <m>P</m> people, where 
@@ -50,7 +50,7 @@
 <!-- scaffold table? -->
 		</task>
 	</exercise>
-	<exercise workspace="0.5in">
+	<exercise xml:id="fuel-350-approx-solutions" workspace="0.5in">
 		<introduction>
 			<p>
 				Suppose the gas tank of a car is designed to hold enough fuel to drive 350 miles. (That's fairly average.) A hybrid car with fuel efficiency of 50 miles per gallon (mpg) would only need a 7 gallon gas tank, but a recreational vehicle that gets only 10 mpg would need a 35 gallon gas tank. <em>(Story also appears in 3.3 #3)</em>
@@ -94,7 +94,7 @@
 			</statement>
 		</task>
 	</exercise>
-	<exercise workspace="2in">
+	<exercise xml:id="monty-orchids-approx-solutions" workspace="2in">
 		<introduction>
 			<p>
 				Monty hopes to grow orchids but they are fragile plants. He will consider his greenhouse a success if at least nine of the ten orchids survive. Assuming the orchids each survive at rate <m>S</m>, the probability his greenhouse is a success, <m>P</m>, is given by <me>P= 10S^9-9S^{10}</me>

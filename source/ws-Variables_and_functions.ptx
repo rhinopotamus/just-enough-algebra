@@ -32,7 +32,7 @@
 		</task>
 	</exercise></page>
 
-	<page><exercise>
+	<page><exercise xml:id="riverside-rent-variables-functions">
 		<introduction>
 			<p>
 				Rent in the Riverside Neighborhood is expected to increase 7.2% each year. 
@@ -145,7 +145,7 @@
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task xml:id="bac-variables-functions">
 			<statement>
 				<p>
 					After his first beer, Stephen's blood alcohol content (BAC) was already 0.04, 

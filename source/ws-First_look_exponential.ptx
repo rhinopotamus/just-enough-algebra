@@ -48,7 +48,7 @@
 		</task>
 	</exercise>
 
-	<exercise workspace="1.5in">
+	<exercise xml:id="bunnies-first-look-exponential" workspace="1.5in">
 		<statement>
 			<p>
 				Bunnies, bunnies, everywhere. They eat the tops of my tulips in early spring and my lilies all summer long. Back in 2007 there were an estimated 1,800 rabbits in my neighborhood. Rabbits multiply quickly, 13% per year by one estimate.
@@ -87,7 +87,7 @@
 		</task>
 	</exercise>
 
-	<exercise>
+	<exercise xml:id="flu-dorm-first-look-exponential">
 		<statement>
 			<p>
 				A flu virus has been spreading through the college dormitories. Initially 8 students were diagnosed with the flu, but that number has been growing 16% per day. <em>(Story also appears in 5.1 #2 and 5.5 textbook)</em>
@@ -116,7 +116,7 @@
 			</statement>
 		</task>
 	</exercise>
-	<exercise workspace="0.75in">
+	<exercise xml:id="savings-interest-first-look-exponential" workspace="0.75in">
 		<introduction>
 			<p>
 				My savings account earns a modest amount of interest, the equivalent of 0.75% annually. I have $12,392.18 in the account now.

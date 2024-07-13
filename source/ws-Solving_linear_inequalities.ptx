@@ -6,7 +6,7 @@
 	
 	<title>Solving linear inequalities - Practice exercises</title>
 
-	<exercise>
+	<exercise xml:id="truck-grass-linear-ineq">
 		<introduction>
 			<p>
 				A truck hauling bags of grass seed weighs 3,900 pounds when it is empty. Each bag of seed it carries weighs 4.2 pounds. The equation for the gross weight <m>W</m> pounds is <me>W = 3,900 + 4.2B</me> for <m>B</m> bags of grass seed. <em>(Story also appears in 2.1 #1 and 3.1 #1)</em>
@@ -119,7 +119,7 @@
 		</task>
 	</exercise>
 
-	<exercise>
+	<exercise xml:id="wedding-rental-linear-ineq">
 		<introduction>
 			<p>
 				Anthony and Christina are trying to decide where to hold their wedding reception. For each possible site, write an <em>equation</em> using <m>T</m> for the total cost of their wedding reception (in dollars) and <m>G</m> for the number of guests. Then set up and solve an <em>inequality</em> to calculate the number of guests Tony and Tina can afford on their $8,000 budget. <em>(Story also appears in 1.2 #3 and 1.3 #2)</em>

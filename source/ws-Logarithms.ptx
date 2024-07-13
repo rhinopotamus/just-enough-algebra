@@ -100,10 +100,10 @@
             </statement>
         </task>
     </exercise>
-    <exercise workspace="0.6in">
+    <exercise xml:id="astra-rent-logarithms" workspace="0.6in">
         <introduction>
             <p>
-                In Minneapolis, apartment rent is expected to increase by 16% next year. <em>(Story also appears in 0.3 #2)</em>
+                In Minneapolis, apartment rent is expected to increase by 16% next year. <em>(Story also appears in 0.3 #2 and 0.6 #3)</em>
             </p>
         </introduction>
         <task>

@@ -5,10 +5,10 @@
 <worksheet xml:id="ws-First_look_linear" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>A first look at linear equations – Practice exercises</title>
 
-	<exercise>
+	<exercise xml:id="truck-grass-first-look-linear">
 		<introduction>
 			<p>
-				A truck hauling bags of grass seed pulls into a weigh station along the highway. Trucks are weighed to determine the amount of highway tax. This particular truck weighs pounds when it is empty. Each bag of grass seed it carries weighs 4.2 pounds. For example, a truck is carrying bags of grass seed weighs <me>\text{3,900 pounds } + \frac{4.2 \text{ pounds}}{\text{bag}} \ast \text{1,000  bags} = \text{3,900} + 4.2\times\text{1,000}=\text{8,100 pounds}</me> In official trucking lingo, we say the <term>curb weight</term> of pounds plus the <term>load weight</term> of pounds results in a <term>gross weight</term> of pounds. So, now you know. <em>(Story also appears in 3.1 #1 and 3.2 #1)</em>
+				A truck hauling bags of grass seed pulls into a weigh station along the highway. Trucks are weighed to determine the amount of highway tax. This particular truck weighs pounds when it is empty. Each bag of grass seed it carries weighs 4.2 pounds. For example, a truck is carrying bags of grass seed weighs <me>\text{3,900 pounds } + \frac{4.2 \text{ pounds}}{\text{bag}} \ast \text{1,000  bags} = \text{3,900} + 4.2\times\text{1,000}=\text{8,100 pounds}</me> In official trucking lingo, we say the <term>curb weight</term> of pounds plus the <term>load weight</term> of pounds results in a <term>gross weight</term> of pounds. So, now you know. <em>(Story also appears in 0.2 #?, 3.1 #1 and 3.2 #1)</em>
 			</p>
 		</introduction>
 		<task>
@@ -53,7 +53,7 @@
 		</task>
 	</exercise>
 
-	<exercise workspace="0.75in">
+	<exercise xml:id="reservoir-rain-first-look-linear" workspace="0.75in">
 		<introduction>
 			<p>
 				The water in the local reservoir was 47 feet deep but there has been so little rain that the depth has fallen 18 inches a week over the past few months. Officials are worried if dry conditions continue the reservoir will not have enough water to supply the town. <em>(Story also appears in 3.2 Exercises and 4.1 #3)</em>
@@ -90,7 +90,7 @@
 		</task>
 	</exercise>
 
-	<exercise>
+	<exercise xml:id="credit-line-first-look-linear">
 		<introduction>
 			<p>
 				I was short on cash so I got a <term>line of credit</term> (short term loan) on my bank account, of which I spent $2,189.57. That means my account balance is <m>-\$2,189.57</m>. I will pay back the interest plus an extra $250 each month. When the loan is paid off, I plan to continue to deposit $250 per month to start saving. <em>(Story also appears in 3.2 Exercises)</em>
@@ -141,7 +141,7 @@
 		</task>
 	</exercise>
 
-	<exercise workspace="1.5in"> 
+	<exercise xml:id="juan-coffee-first-look-linear" workspace="1.5in"> 
 		<introduction>
 			<p>
 				A mug of coffee costs $3.45 at Juan's favorite cafe, unless he buys their discount card for $10, in which case each mug costs $2.90. <em>(Story also appears in 1.2 #4 and 4.2 #2)</em>

@@ -19,13 +19,6 @@
     <xi:include href="./ch-Closer_look_linears.ptx" />
     <xi:include href="./ch-Closer_look_exponentials.ptx" />
     <xi:include href="./ch-Review.ptx" />
-    
-
-<!-- Not yet converted: -->
-    
-    <!-- final exams -->
-    <!-- formulafinal -->
-
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />

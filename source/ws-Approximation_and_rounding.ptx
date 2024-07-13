@@ -117,7 +117,7 @@
                 </p>
             </statement>
         </task>
-        <task>
+        <task xml:id="currency-approx-round">
             <statement>
                 <p>
                     There are approximately 1.084 million quarters in circulation in the United States, compared to 1.786 million dimes, 1.6 million $5 bills, and 1.42 million $10 bills.

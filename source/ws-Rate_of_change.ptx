@@ -87,7 +87,7 @@
 		</task>
 	</exercise></page>
 
-	<page><exercise workspace="1in">
+	<page><exercise xml:id="wedding-rental-rate-of-change" workspace="1in">
 		<introduction>
 			<p>
 				Anthony and Christina are trying to decide where to hold their wedding reception. 

@@ -4,10 +4,11 @@
 <worksheet xml:id="ws-Exp_growth_decay" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Exponential growth and decay - Practice exercises</title>
 
-    <exercise>
+    <exercise xml:id="fiber-optic-growth-decay">
         <introduction>
             <p>
                 A signal is sent down a fiber optic cable. Its strength decreases by 2% each mile it travels. (Say it was one unit strong to start.)
+                <em>Story also appears ....</em>
             </p>
         </introduction>
         <task workspace="0.75in">

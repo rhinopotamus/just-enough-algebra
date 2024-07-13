@@ -3,11 +3,12 @@
 <worksheet xml:id="ws-Metric_system_and_scientific_notation" xmlns:xi="http://www.w3.org/2001/XInclude" margin="0.75in">
 	<title>Metric prefixes and scientific notation - Practice exercises</title>
 
-	<page><exercise workspace="0.8in">
+	<page><exercise xml:id="gdp-scientific-notation" workspace="0.8in">
 		<introduction>
 			<p>
 				The GDP (gross domestic product) of the United States was approximately $15,596 billion in 2011 and the population of the United States was approximately 0.313 billion that year. 
 				<aside>Source: U.S. Bureau of Economic Analysis, U.S. Census Bureau</aside>
+				<em>(Story also appears ...)</em>
 			</p>
 		</introduction>
 		<task>
@@ -57,7 +58,7 @@
 		</task>
 	</exercise></page>
 
-	<page><exercise workspace="0.75in">
+	<page><exercise xml:id="dust-particle-scientific-notation" workspace="0.75in">
 		<introduction>
 			<p>
 				Edgar recently changed the cleaning bag on his vacuum cleaner. He became curious about how many particles of dust were in the bag. Edgar did a little research online and found out that the mass of a dust particle is .000 000 000 753 kilograms. 
@@ -160,7 +161,7 @@
 
 <!-- mystery blank page :( -->	
 
-	<page><exercise workspace="2in">
+	<page><exercise xml:id="planet-weight-scientific-notation" workspace="2in">
 		<introduction>
 			<p>
 				The list shows the (approximate) mass of the planets in our solar system.

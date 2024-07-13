@@ -8,7 +8,7 @@
             On each problem, write down what you enter into your calculator and don't forget to write the units on your final answer. Challenge yourself to use one-line calculations. You are welcome to calculate the answer step-by-step to check.
         </p>
     </introduction>
-    <exercise workspace="0.75in">
+    <exercise xml:id="juan-coffee-order-operations" workspace="0.75in">
         <introduction>
             <p>
                 <em>Story also appears in 1.2 #4, 2.1 #4, and 4.2 #2</em>
@@ -36,7 +36,7 @@
             </statement>
         </task>
     </exercise>
-    <exercise workspace="0.75in">
+    <exercise xml:id="rose-gold-order-operations" workspace="0.75in">
         <introduction>
             <p>
                 <q>Rose gold</q> is a mix of gold and copper.
@@ -58,10 +58,10 @@
             </statement>
         </task>
     </exercise>
-    <exercise workspace="1.25in">
+    <exercise xml:id="weight-change-order-operations" workspace="1.25in">
         <introduction>
             <p>
-                <em>Stories also appear in 4.3 #3</em>
+                <em>Stories also appear in 4.3 #3 and 0.7 #1</em>
             </p>
         </introduction>
         <task>

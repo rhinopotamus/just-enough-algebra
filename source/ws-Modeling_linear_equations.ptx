@@ -4,7 +4,7 @@
 <worksheet xml:id="ws-Modeling_linear_equations" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Modeling with linear equations - Practice exercises</title>
 
-	<exercise workspace="1in">
+	<exercise xml:id="solar-heating-modeling-linear" workspace="1in">
 		<introduction>
 			<p>
 				A solar heating system costs approximately $30,000 to install and $150 per year to run. By comparison, a gas heating system costs approximately $12,000 to install and $700 per year to run<aside>Source: <q>Using Algebra</q> by Ethan Bolker</aside>. <em>(Story also appears in 4.2 Exercises)</em>
@@ -107,7 +107,7 @@
 				Can you tell from the table which of these functions are linear? Use the rate of change to help you decide. Remember that these numbers may have been rounded.
 			</p>
 		</introduction>
-		<task>
+		<task xml:id="grandfather-bonds-modeling-linear">
 			<statement>
 				<p>
 					Savings bonds from grandpa. <em>(Story also appears in 1.2 #1 and 5.3 #1)</em>
@@ -134,10 +134,10 @@
 				</tabular>
 			</statement>
 		</task>
-		<task>
+		<task xml:id="wind-chill-modeling-linear">
 			<statement>
 				<p>
-					Wind chill at 10<m>^\circ</m>F. <em>(Story also appears in 1.2 #2)</em>
+					Wind chill at 10<degree/>F. <em>(Story also appears in 1.2 #2)</em>
 				</p>
 				<tabular bottom="minor" top="minor">
 					<row left="minor" class="odd">
@@ -159,7 +159,7 @@
 				</tabular>
 			</statement>
 		</task>
-		<task>
+		<task xml:id="pizza-diameter-modeling-linear">
 			<statement>
 				<p>
 					Pizza. <em>(Story also appears in 2.4 #1 and 3.3 #1)</em>
@@ -180,7 +180,7 @@
 				</tabular>
 			</statement>
 		</task>
-		<task>
+		<task xml:id="reservoir-rain-modeling-linear">
 			<statement>
 				<p>
 					Water in the reservoir. <em>(Story also appears in 2.1 #2 and 3.2 Exercises)</em>
@@ -204,7 +204,7 @@
 			</statement>
 		</task>
 	</exercise>
-	<exercise>
+	<exercise xml:id="plumber-rates-modeling-linear">
 		<introduction>
 			<p>
 				Plumbers are really expensive, so I have been comparing prices. James charges $50 to show up plus $120 per hour. Jo is just getting started in the business. She charges $45 to show up plus $55 per hour. Mario advertises <q>no trip charge</q> but his hourly rate is $90 per hour. Not to be outdone, Luigi offers to unclog any drain for $150, no matter how long it takes. For each plumber, the table lists the corresponding equation and several points. In each equation, the plumber charges $<m>P</m> for <m>T</m> hours of work. <em>(Story also appears in 2.1 Exercises)</em>

@@ -54,25 +54,21 @@
 			</statement>
 		</task>
 	</exercise>
-	<exercise>
+	<exercise xml:id="juan-coffee-systems-linear">
 		<introduction>
 			<p>
 				A mug of coffee costs $3.45 at Juan's favorite cafe, unless he buys their discount card for $10 in which case a mug costs $2.90. Or, he can buy a membership for $59.99 and then coffee is only $1/mug. If we let <m>M</m> represent the number of mugs of coffee he buys and <m>T</m> represent the total cost in dollars, then the equations are:
+				<me>
+					\textbf{No card:} \quad T = 3.45M
+				</me>
+				<me>
+					\textbf{With card:} \quad T = 10.00 + 2.90M
+				</me>
+				<me>
+					\textbf{Member:} \quad T=59.99+1.00M
+				</me>
+				
 			</p>
-			<tabular>
-				<row class="odd">
-					<cell  halign="left"><term>No card:</term></cell>
-					<cell  halign="left"><m>T = 3.45M</m></cell>
-				</row>
-					<row class="even">
-					<cell  halign="left"><term>With card:</term></cell>
-					<cell  halign="left"><m>T = 10.00 + 2.90M</m></cell>
-				</row>
-					<row class="odd">
-					<cell  halign="left"><term>Member:</term></cell>
-					<cell  halign="left"><m>T=59.99+1.00M</m></cell>
-				</row>
-			</tabular>
 			<p>
 				<em>(Story also appears in 1.2 #4 and 2.1 #4)</em>
 			</p>
@@ -178,7 +174,7 @@
 		</task>
 	</exercise>
 
-	<exercise>
+	<exercise xml:id="shrub-growth-systems-linear">
 		<introduction>
 			<p>
 				Ahmed planted two shrubs in the backyard on May 1. The viburnum was 16.9 inches tall and expected to grow 0.4 inches each week this summer. The weigela was 20.3 inches tall but only expected to grow 0.2 inches per week. If we let <m>S</m> represent the total height of the shrub in inches after <m>T</m> weeks, then the equations are:

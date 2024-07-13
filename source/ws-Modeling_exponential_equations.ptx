@@ -53,7 +53,7 @@
             </statement>
         </task>
     </exercise>
-    <exercise workspace="1.2in">
+    <exercise xml:id="flu-dorm-modeling-exponential" workspace="1.2in">
         <introduction>
             <p>
                 A flu virus has been spreading through the college dormitories. Initially 8 students were diagnosed with the flu, but that number has been growing 16% per day. Earlier we found the equation <me>N=8 \ast1.16^T</me> where <m>T</m> is the time in days (since the first diagnosis) and <m>N</m> is the total number of students who had the flu. <em>(Story also appears in 2.2 #3 and 5.5 textbook)</em>
@@ -88,7 +88,7 @@
             </statement>
         </task>
     </exercise>
-    <exercise>
+    <exercise xml:id="bunnies-modeling-exponential">
         <introduction>
             <p>
                 Bunnies, bunnies, everywhere. Earlier we found the equation <me>B = 1,800 \ast 1.13^T</me> where <m>B</m> is the number of bunnies and <m>T</m> is the time in years since 2007. <em>(Story also appears in 2.2 #2)</em>

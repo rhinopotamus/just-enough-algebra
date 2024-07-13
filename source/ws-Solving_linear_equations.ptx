@@ -4,7 +4,7 @@
 	
 	<title>Solving linear equations - Practice exercises</title>
 
-	<exercise>
+	<exercise xml:id="truck-grass-solving-linear">
 		<introduction>
 			<p>
 				A truck hauling bags of grass seed weighs 3,900 pounds when it is empty. Each bag of seed it carries weighs 4.2 pounds. The equation for the gross weight <m>W</m> pounds is <me>W = 3,900 + 4.2B</me> for <m>B</m> bags of grass seed. <em>(Story also appears in 2.1 #1 &amp; 3.2 #1)</em>
@@ -110,7 +110,7 @@
 			</statement>
 		</task>
 	</exercise> 
-	<exercise workspace="1.2in">
+	<exercise xml:id="burger-temp-solving-linear" workspace="1.2in">
 		<introduction>
 			<p>
 				The local burger restaurant had a promotion this summer. They reduced the price on a bacon double cheeseburger by 2¢ for each degree in the daily high temperature. The equation is <me>B = 7.16 - 0.02H</me> where $<m>B</m> is the price of the bacon double cheeseburger and <m>H</m> is the daily high temperature, in °F. <em>(Story also appears in 2.1 Exercises)</em>

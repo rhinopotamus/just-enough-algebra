@@ -3,13 +3,13 @@
 
 
 <worksheet xml:id="ws-Solving_power_equations" xmlns:xi="http://www.w3.org/2001/XInclude">
-	<title>Solving power equations (and roots) – Practice exercises</title>
+	<title>Solving power equations (and roots) - Practice exercises</title>
 
 	<p>
 		<term>Root Formula:</term> The equation <m>C^n=v</m> has solution <m>C= \sqrt[n]{v}</m>
 	</p>
 
-	<exercise workspace="2.5in">
+	<exercise xml:id="pizza-diameter-solving-power" workspace="2.5in">
 		<introduction>
 			<p>
 				A pizza of diameter <m>D</m> inches serves <m>P</m> people where <me>P = .015625\, D^2</me>
@@ -67,7 +67,7 @@
 			</statement>
 		</task>
 	</exercise>
-	<exercise workspace="2.5in">
+	<exercise xml:id="fuel-350-solving-power" workspace="2.5in">
 		<introduction>
 			<p>
 				Suppose a car gas tank is designed to hold enough fuel to drive 350 miles. (That is fairly average.) That means the size tank, <m>G</m> gallons, is a function of the fuel efficiency, <m>F</m> miles per gallon (mpg), according to the equation

@@ -4,10 +4,10 @@
 <worksheet xml:id="ws-Powers_and_roots" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Prelude: Powers and roots - Practice exercises</title>
     
-    <exercise workspace="0.75in">
+    <exercise xml:id="wooden-balls-powers-roots" workspace="0.75in">
         <introduction>
             <p>
-                Jody is using small wooden balls to make noses for her knitted gnomes. She figured out that she can calculate the weight of each ball (in ounces) as <m>0.2 \times B \land 3</m> where <m>B</m> is the diameter of the ball (in inches).
+                Jody is using small wooden balls to make noses for her knitted gnomes. She figured out that she can calculate the weight of each ball (in ounces) as <m>0.2 \times B \land 3</m> where <m>B</m> is the diameter of the ball (in inches). <em>Story also appears in 0.7 #2</em>
             </p>
         </introduction>
         <task>
@@ -25,13 +25,13 @@
             </statement>
         </task>
     </exercise>
-    <exercise workspace="0.75in">
+    <exercise xml:id="pizza-diameter-powers-roots" workspace="0.75in">
         <introduction>
             <p>
                 The size of a round pizza is described by its diameter. It turns out that we can calculate how many people are served by a pizza of diameter <m>D</m> inches as <m>0.015625 \times D \land 2=</m>. For example, a 16-inch diameter pizza serves <m>0.015625 \times 16 \land 2 = 4</m> people. (The mysterious number 0.015625 comes from a little geometry and pizza science.)
             </p>
             <p>
-                <em>(Story also appears in 2.4 #1 and 3.3 #1.)</em>
+                <em>(Story also appears in 2.4 #1,  3.3 #1, and 4.1 #3)</em>
             </p>
         </introduction>
         <task>

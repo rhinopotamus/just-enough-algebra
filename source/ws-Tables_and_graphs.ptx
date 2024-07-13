@@ -3,7 +3,7 @@
 <worksheet xml:id="ws-Tables_and_graphs" xmlns:xi="http://www.w3.org/2001/XInclude" margin="0.75in">
 	<title>Tables and graphs – Practice exercises</title>
 
-	<page><exercise>
+	<page><exercise xml:id="grandfather-bonds-tables-graphs">
 		<introduction>
 			<p>
 				My grandfather had $200 in savings bonds that matured in 1962 when he gave them to me. 
@@ -95,7 +95,7 @@
 
 <!-- There's a blank page here in the pdf output that I don't know why. -->
 
-	<page><exercise>
+	<page><exercise xml:id="wind-chill-tables-graphs">
 		<introduction>
 			<p>
 				How cold is it? An air temperature of 10<m>^\circ</m>F is cold but manageable. 
@@ -187,7 +187,7 @@
 		</task>
 	</exercise></page>
 
-	<page><exercise>
+	<page><exercise xml:id="wedding-rental-tables-graphs">
 		<introduction>
 			<p>
 				Anthony and Christina are trying to decide where to hold their wedding reception. 
@@ -251,7 +251,7 @@
 		</task>
 	</exercise></page>
 
-	<page><exercise workspace="0.5in">
+	<page><exercise xml:id="juan-coffee-tables-graphs" workspace="0.5in">
 		<introduction>
 			<p>
 				A mug of coffee costs $3.45 at Juan's favorite cafe. 
