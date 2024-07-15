@@ -99,8 +99,8 @@
 					<row left="minor" class="even">
 						<cell right="minor" halign="center"><m>A</m></cell>
 						<cell right="minor" halign="center">1,656.12</cell>
-						<cell right="minor" halign="center"></cell>
-						<cell right="minor" halign="center"></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
 						<cell right="minor" halign="center">2,415.77</cell>
 					</row>
 				</tabular>

@@ -30,7 +30,7 @@
 						<cell right="minor" halign="center">0</cell>
 						<cell right="minor" halign="center">1,000</cell>
 						<cell right="minor" halign="center">2,000</cell>
-						<cell right="minor" halign="center"></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
 					</row>
 					<row left="minor" class="odd">
 						<cell right="minor" halign="center"><m>W</m></cell>

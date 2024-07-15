@@ -111,33 +111,33 @@
                     </row>
                     <row left="minor" class="odd">
                         <cell right="minor" halign="center"><p>area</p><p>exponential</p></cell>
-                        <cell right="minor" halign="center"></cell>
-                        <cell right="minor" halign="center"></cell>
-                        <cell right="minor" halign="center"></cell>
-                        <cell right="minor" halign="center"></cell>
-                        <cell right="minor" halign="center"></cell>
-                        <cell right="minor" halign="center"></cell>
-                        <cell right="minor" halign="center"></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
                     </row>
                     <row left="minor" class="even">
                         <cell right="minor" halign="center"><p>area</p><p>saturation</p></cell>
-                        <cell right="minor" halign="center"></cell>
-                        <cell right="minor" halign="center"></cell>
-                        <cell right="minor" halign="center"></cell>
-                        <cell right="minor" halign="center"></cell>
-                        <cell right="minor" halign="center"></cell>
-                        <cell right="minor" halign="center"></cell>
-                        <cell right="minor" halign="center"></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
                     </row>
                     <row left="minor" class="odd">
                         <cell right="minor" halign="center"><p>area</p><p>logistic</p></cell>
-                        <cell right="minor" halign="center"></cell>
-                        <cell right="minor" halign="center"></cell>
-                        <cell right="minor" halign="center"></cell>
-                        <cell right="minor" halign="center"></cell>
-                        <cell right="minor" halign="center"></cell>
-                        <cell right="minor" halign="center"></cell>
-                        <cell right="minor" halign="center"></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
                     </row>
                 </tabular>
             </statement>

@@ -79,11 +79,11 @@
 					<row left="minor" class="even">
 						<cell right="minor" halign="center"><m>N</m></cell>
 						<cell right="minor" halign="center">3,700</cell>
-						<cell right="minor" halign="center"></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
 						<cell right="minor" halign="center">400</cell>
 						<cell right="minor" halign="center">2,575</cell>
 						<cell right="minor" halign="center">7,300</cell>
-						<cell right="minor" halign="center"></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
 						<cell right="minor" halign="center">24,400</cell>
 					</row>
 				</tabular>

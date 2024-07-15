@@ -88,24 +88,24 @@
 					</row>
 					<row left="minor" class="even">
 						<cell right="minor" halign="left">No card</cell>
-						<cell right="minor" halign="center"></cell>
-						<cell right="minor" halign="center"></cell>
-						<cell right="minor" halign="center"></cell>
-						<cell right="minor" halign="center"></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
 					</row>
 					<row left="minor" class="odd">
 						<cell right="minor" halign="left">With card</cell>
-						<cell right="minor" halign="center"></cell>
-						<cell right="minor" halign="center"></cell>
-						<cell right="minor" halign="center"></cell>
-						<cell right="minor" halign="center"></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
 					</row>
 					<row left="minor" class="even">
 						<cell right="minor" halign="left">Member</cell>
-						<cell right="minor" halign="center"></cell>
-						<cell right="minor" halign="center"></cell>
-						<cell right="minor" halign="center"></cell>
-						<cell right="minor" halign="center"></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
 					</row>
 				</tabular>
 			</statement>
@@ -215,17 +215,17 @@
 					</row>
 					<row left="minor" class="even">
 						<cell right="minor" halign="left"><m>S</m> (viburnum)</cell>
-						<cell right="minor" halign="right"></cell>
-						<cell right="minor" halign="right"></cell>
-						<cell right="minor" halign="right"></cell>
-						<cell right="minor" halign="right"></cell>
+						<cell right="minor" halign="right"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+						<cell right="minor" halign="right"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+						<cell right="minor" halign="right"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+						<cell right="minor" halign="right"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
 					</row>
 					<row left="minor" class="odd">
 						<cell right="minor" halign="left"><m>S</m> (weigela)</cell>
-						<cell right="minor" halign="right"></cell>
-						<cell right="minor" halign="right"></cell>
-						<cell right="minor" halign="right"></cell>
-						<cell right="minor" halign="right"></cell>
+						<cell right="minor" halign="right"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+						<cell right="minor" halign="right"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+						<cell right="minor" halign="right"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+						<cell right="minor" halign="right"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
 					</row>
 				</tabular>
 			</statement>

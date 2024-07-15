@@ -138,8 +138,8 @@
 						<cell right="minor" halign="center"><m>V</m></cell>
 						<cell right="minor" halign="center">31.00</cell>
 						<cell right="minor" halign="center">21.08</cell>
-						<cell right="minor" halign="center"></cell>
-						<cell right="minor" halign="center"></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
 						<cell right="minor" halign="center">16.86</cell>
 					</row>
 				</tabular>
