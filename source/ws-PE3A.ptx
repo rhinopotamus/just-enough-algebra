@@ -5,6 +5,7 @@
 <worksheet xml:id="ws-PE3A" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Practice Exam 3A</title>
 
+<page>
 	<introduction>
 		<p>
 			Relax. You have done problems like these before. Even if these problems look a bit different, just do what you can. If you're not sure of something, please ask! You may use your calculator. Please show all of your work and write down as many steps as you can. Don't spend too much time on any one problem. Do well. And remember, ask me if you're not sure about something.
@@ -20,7 +21,7 @@
 	</introduction>
 	
 
-	<exercise>
+	<exercise xml:id="well-linear-PE3A">
 		<introduction>
 			<p>
 				The Skärstroms want to dig a new well for water for their lake cabin. The company charges $900 to bring the equipment on site and draw the permit and then $2 per foot to dig. That means <me>W=900+2F</me> where <m>F</m> is the depth of the well (in feet) and <m>W</m> is the cost of the well (in $).
@@ -48,7 +49,10 @@
 			</statement>
 		</task>
 	</exercise>
-	<exercise>
+</page>
+
+<page>
+	<exercise xml:id="caffeine-PE3A">
 		<introduction>
 			<p>
 				Ceyda starts the day by downing two cans of Red Bull, containing a total of 160 mg of caffeine. Her body eliminates the caffeine at a rate of 12% each hour. That means the amount of caffeine (<m>C</m> mg) after <m>H</m> hours is given by the equation graphed below <me>C= 160\ast 0.88^H</me>
@@ -77,7 +81,10 @@
 			</statement>
 		</task>
 	</exercise>
-	<exercise>
+</page>
+
+<page>
+	<exercise xml:id="money-market-PE3A">
 		<introduction>
 			<p>
 				Jorge deposited $1,500 in a high yield money market account and plans to leave it there for 5 years. The value of his account after 5 years, $<m>A</m>, will depend on the growth factor <m>g</m> as given by the equation <me>A = 1,500\, g^5</me>
@@ -136,7 +143,10 @@
 			</statement>
 		</task>
 	</exercise>
-	<exercise>
+</page>
+
+<page>
+	<exercise xml:id="rabbit-jump-PE3A">
 		<introduction>
 			<p>
 				A rabbit jumps so that her height above ground is given by the formula <me>R = 17.6T - 22T^2</me> where <m>R=</m> height of rabbit (feet above ground) and <m>T=</m> time (seconds).
@@ -165,4 +175,6 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
+
 </worksheet>

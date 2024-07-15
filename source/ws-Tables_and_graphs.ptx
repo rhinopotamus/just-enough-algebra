@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<worksheet xml:id="ws-Tables_and_graphs" xmlns:xi="http://www.w3.org/2001/XInclude" margin="0.75in">
-	<title>Tables and graphs – Practice exercises</title>
+<worksheet xml:id="ws-Tables_and_graphs" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>Tables and graphs - Practice exercises</title>
 
 	<page><exercise xml:id="grandfather-bonds-tables-graphs">
 		<introduction>

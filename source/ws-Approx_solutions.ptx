@@ -3,6 +3,7 @@
 <worksheet xml:id="ws-Approx_solutions" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Approximating solutions of equations – Practice exercises</title>
 
+<page>
 	<exercise xml:id="pizza-diameter-approx-solutions">
 		<introduction>
 			<p>
@@ -50,6 +51,9 @@
 <!-- scaffold table? -->
 		</task>
 	</exercise>
+</page>
+
+<page>
 	<exercise xml:id="fuel-350-approx-solutions" workspace="0.5in">
 		<introduction>
 			<p>
@@ -94,6 +98,9 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
+
+<page>
 	<exercise xml:id="monty-orchids-approx-solutions" workspace="2in">
 		<introduction>
 			<p>
@@ -122,10 +129,11 @@
 				</p>
 			</statement>
 		</task>
-		
 	</exercise>
+</page>
 
-	<exercise>
+<page>
+	<exercise xml:id="population-growth-approx-solutions">
 		<introduction>
 			<p>
 				After China, India, and the United States, the next five most populous countries (in 2011) are Indonesia, Brazil, Pakistan, Nigeria, and Bangladesh. Their projected growth rates and corresponding equation are listed below.<aside>Source: CIA Factbook</aside> Here <m>Q</m> is the population measured in millions and <m>T</m> is time measured in years since 2011.
@@ -190,6 +198,7 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
 
 	<xi:include href="ss-SectionNotes.ptx" />
 	<xi:include href="ss-Approx_solutions_end.ptx" />

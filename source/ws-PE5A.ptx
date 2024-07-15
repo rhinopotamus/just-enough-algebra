@@ -4,6 +4,7 @@
 <worksheet xml:id="ws-PE5A" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Practice Exam 5A</title>
 
+<page>
     <introduction>
         <p>
             Relax. You have done problems like these before. Even if these problems look a bit different, just do what you can. If you're not sure of something, please ask! You may use your calculator. Please show all of your work and write down as many steps as you can. Don't spend too much time on any one problem. Do well. And remember, ask me if you're not sure about something.
@@ -14,7 +15,7 @@
         </p>
     </introduction>
 
-    <exercise>
+    <exercise xml:id="leopard-hat-PE5A">
         <introduction>
             <p>
                 Leopard print hat. Originally 5 out of 1,000 women shopping at a major retail store even looked twice. But that number grew and grew, by my estimate around 40% a week, thanks to carefully placed ads in fashion magazines.
@@ -49,7 +50,10 @@
             </statement>
         </task>
     </exercise>
-    <exercise workspace="2in">
+</page>
+
+<page>
+    <exercise xml:id="car-investment-PE5A" workspace="2in">
         <introduction>
             <p>
                 HeeChan bought a classic car in 2003 for investment purposes and has been watching the value increase over the years. Based on the data, HeeChan came up with two possible equations <me>\textbf{Logistic:} \quad C= \frac{41,000}{1+4\ast0.81^T}</me>
@@ -85,7 +89,10 @@
             </statement>
         </task>
     </exercise>
-    <exercise>
+</page>
+
+    <exercise xml:id="twin-cities-geese-PE5A">
+    <page>
         <introduction>
             <p>
                 The number of geese in the Twin Cities metropolitan area increased from 480 in 1968 to 25,000 in 1994. Although population is sometimes modeled with exponential models, there are many factors that might make an exponential model inappropriate, such as changes in migration, wetlands, and hunting.
@@ -112,6 +119,8 @@
                 </p>
             </statement>
         </task>
+    </page>
+    <page>
         <introduction>
             <p>
                 <em>The problem continues ...</em>
@@ -149,8 +158,11 @@
                 </p>
             </statement>
         </task>
+    </page>
     </exercise>
-    <exercise>
+
+<page>
+    <exercise xml:id="strontium-90-PE5A">
         <introduction>
             <p>
                 One of the toxic radioactive elements produced by nuclear power plants is strontium-90. A large amount of strontium-90 was released in the nuclear accident at Chernobyl in the 1980's. The clouds carried the strontium-90 great distances. The rain washed it down into the grass, which was eaten by cows. People then drank the milk from the cows. Unfortunately, strontium-90 causes cancer. Strontium-90 is particularly dangerous because it has a half-life of approximately 28 years, which means that every 28 years half of the existing strontium-90 changes into a safe product; the other half remains strontium-90. Suppose that a person drank milk containing 100 milligrams of strontium-90.<aside>Source: <q>Explorations in College Algebra,</q> by Kime and Clark</aside>
@@ -190,4 +202,6 @@
             </statement>
         </task>
     </exercise>
+</page>
+
 </worksheet>

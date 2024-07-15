@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<worksheet xml:id="ws-PE1B" xmlns:xi="http://www.w3.org/2001/XInclude" margin="0.75in">
+<worksheet xml:id="ws-PE1B" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Practice Exam 1B</title>
 	<introduction>
 		<p>
@@ -16,7 +16,7 @@
 		</p>
 	</introduction>
 
-	<page><exercise workspace="1in">
+	<page><exercise xml:id="nursing-costs-PE1B" workspace="1in">
 		<introduction>
 		<p>
 			The amount of money spent on nursing home care for seniors has continued to rise. The table shows the values for select years. Here <m>S</m> is the spending, measured in billions of dollars, and <m>T</m> is time, measured in years since 1960.
@@ -71,7 +71,7 @@
 		
 	</exercise></page>
 
-	<page><exercise workspace="0.5in">
+	<page><exercise xml:id="swimming-pool-PE1B" workspace="0.5in">
 		<introduction>
 			<p>
 				Trish is filling a swimming pool with water. The graph below shows how many gallons of water (<m>G</m>) are in the pool after <m>H</m> hours. Use the graph to answer the following questions.
@@ -116,7 +116,7 @@
 		</task>
 	</exercise></page>
 
-	<page><exercise workspace="1.5in">
+	<page><exercise xml:id="property-tax-PE1B" workspace="1.5in">
 		<introduction>
 			<p>
 				In 1990 the Lefèvre's property tax was $450, but it doubled every year thereafter.
@@ -154,7 +154,7 @@
 		
 	</exercise></page>
 
-	<page><exercise workspace="2in">
+	<page><exercise xml:id="earth-moon-PE1B" workspace="2in">
 		<introduction>
 			<p>
 				The distance from the Earth to the Moon is approximately 384,000,000 meters.

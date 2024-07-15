@@ -4,7 +4,8 @@
 <worksheet xml:id="ws-Systems_linear_equations" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Systems of linear equations - Practice exercises</title>
 
-	<exercise workspace="0.75in">
+<page>
+	<exercise xml:id="car-comparison-systems-linear" workspace="0.75in">
 		<introduction>
 			<p>
 				Madison wants to buy a new car, either Car A: a hybrid priced at $26,100, or Car B: a high-efficiency gas car priced at $23,700. Annual fuel costs for Car A are currently $1,100. For Car B annual fuel costs are currently $1,800. The total cost of each car will depend on how many years she keeps it.
@@ -54,6 +55,9 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
+
+<page>
 	<exercise xml:id="juan-coffee-systems-linear">
 		<introduction>
 			<p>
@@ -173,7 +177,9 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
 
+<page>
 	<exercise xml:id="shrub-growth-systems-linear">
 		<introduction>
 			<p>
@@ -245,8 +251,10 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
 
-	<exercise>
+	<exercise xml:id="supply-demand-systems-linear">
+	<page>
 		<introduction>
 			<p>
 				The <term>supply</term> of flour is the amount of flour produced. It depends on the price of flour. A high price encourages producers to make more flour. If the price is low, they tend to make less of it. The dependence of the supply of flour <m>S</m> (in loads) on the price <m>P</m> (in $/pound) is given by the equation
@@ -286,6 +294,8 @@
 				<xi:include href="GraphPaper.ptx" />
 			</statement>
 		</task>
+	</page>	
+	<page>
 		<introduction>
 			<p>
 				<em>The problem continues ...</em>
@@ -312,6 +322,7 @@
 				</p>
 			</statement>
 		</task>
+	</page>
 	</exercise>
 
 	<xi:include href="ss-SectionNotes.ptx" />

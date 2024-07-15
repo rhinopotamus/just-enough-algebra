@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<worksheet xml:id="ws-Variables_and_functions" xmlns:xi="http://www.w3.org/2001/XInclude" margin="0.75in">
+<worksheet xml:id="ws-Variables_and_functions" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Variables and functions - Practice exercises</title>
 	
-	<page><exercise>
+	<page><exercise xml:id="dog-food-variables-functions">
 		<introduction>
 			<p>
 				A 32 pound bag of dog food costs $29.97, but an 8 pound bag costs $11.28.
@@ -83,7 +83,7 @@
 		</task>
 	</exercise></page>
 
-	<page><exercise workspace="1.75in">
+	<page><exercise xml:id="rounding-variables-functions" workspace="1.75in">
 		<introduction>
 			<p>
 				Round each number up, down, or off to the precision indicated.
@@ -129,7 +129,7 @@
 		</task>
 	</exercise></page>
 
-	<page><exercise workspace="1.75in">
+	<page><exercise xml:id="time-variables-functions" workspace="1.75in">
 		<introduction>
 			<p>
 				It's about time! In each story, time is one (or both) of the variables.  

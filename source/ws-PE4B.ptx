@@ -11,9 +11,8 @@
 		</p>
 	</introduction>
 
-	
-
-	<exercise>
+	<exercise xml:id="washing-machine-PE4B">
+	<page>
 		<introduction>
 			<p>
 				The Vang family wants to buy a new washing machine. The first model costs $645 and then $13.29 per month to run. A more efficient model costs $940 and then $7.82 per month to run. If <m>T</m> is the time in months and <m>V</m> is the Vang family's total cost (in $), then the equations and some comparable values (to the nearest $) are:
@@ -64,6 +63,8 @@
 				</p>
 			</statement>
 		</task>
+	</page>
+	<page>
 		<introduction>
 			<p>
 				<em>The problem continues ...</em>
@@ -83,8 +84,11 @@
 				</p>
 			</statement>
 		</task>
+	</page>
 	</exercise>
-	<exercise workspace="0.75in">
+
+<page>
+	<exercise xml:id="long-jump-PE4B" workspace="0.75in">
 		<introduction>
 			<p>
 				It has been a long time since anyone broke the record for the men's long jump. In 1935 Jesse Owens jumped 8.13 meters. The record was next broken 25 years later, in 1960, by Ralph Boston who jumped 8.21 meters. He broke his own record several times over the next few years, including being surpassed briefly by Igor Ter-Ovanesyan. Ralph's final record was 8.35 meters in 1965. Not to be outdone, Igor tied the record in 1967. Then in 1968, Bob Beamon jumped 8.90 meters. That record held for 23 years, until Mike Powell jumped 8.95 meters in 1991, much to Carl Lewis' dismay. Powell's record still stood 21 years later, in 2012.<aside>Source: Wikipedia (Long Jump)</aside>
@@ -113,8 +117,10 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
 
-	<exercise workspace="1.5in">
+<page>
+	<exercise xml:id="rent-agreement-PE4B" workspace="1.5in">
 		<introduction>
 			<p>
 				Arjun just graduated from college but is living with his uncle for the summer to save money. They agreed that Arjun would do chores and some light renovations instead of paying rent. Arjun has been doing around 5 hours of work a week for the past 8 weeks, but still owes his uncle another 30 hours of work.
@@ -142,7 +148,10 @@
 			</statement>
 		</task>
 	</exercise>
-	<exercise workspace="0.75in">
+</page>
+
+<page>
+	<exercise xml:id="zoning-PE4B" workspace="0.75in">
 		<introduction>
 			<p>
 				The local zoning commission is considering a plan to expand housing in the city, as measured in the number of residential units. But with more residential units come more shops, offices, schools, recreational facilities, churches, and other commercial property. Currently the city has 3,500 residential units and 1,575 acres of commercial property. If the proposal is passed and completed, the city will have a new total of 3,600 residential units and 1,620 acres of commercial property. You can assume this increase is linear.
@@ -184,4 +193,6 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
+
 </worksheet>

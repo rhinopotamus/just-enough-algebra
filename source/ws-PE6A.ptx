@@ -4,6 +4,7 @@
 <worksheet xml:id="ws-Review_exercisesA" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Practice Final Exam A</title>
 
+
     <introduction>
         <p>
             Relax. You have done problems like these before. Even if these problems look a bit different, just do what you can. If you're not sure of something, please ask! You may use your calculator. Please show all of your work and write down as many steps as you can. Don't spend too much time on any one problem. Do well. And remember, ask me if you're not sure about something.
@@ -18,7 +19,8 @@
         </p>
     </introduction>
 
-    <exercise>
+    <exercise xml:id="car-production-PE6A">
+	<page>
         <introduction>
             <p>
                 The graph shows the number of cars produced in North America (in millions/year) during 1951-2011.<aside>Source: Ward's Automotive Yearbooks</aside>
@@ -32,6 +34,8 @@
                 </p>
             </statement>
         </task>
+	</page>
+	<page>
         <introduction>
             <p>
                 <em>The problem continues ...</em>
@@ -72,9 +76,11 @@
 				</p>
 			</statement>
 		</task>
+	</page>
     </exercise>
 
-	<exercise workspace="1in">
+	<exercise xml:id="stuffed-animals-PE6A" workspace="1in">
+	<page>
 		<introduction>
 			<p>
 				Sarah and Koal are bringing a large basket of stuffed animals to the crisis nursery as gifts for the children. They estimate it will cost $<m>T</m> for <m>S</m> stuffed animals where <me>T = 39.99 + 6.95S</me>
@@ -109,6 +115,8 @@
 				<xi:include href="GraphPaper.ptx" />
 			</statement>
 		</task>
+	</page>
+	<page>
 		<introduction>
 			<p>
 				<em>The problem continues ...</em>
@@ -128,9 +136,11 @@
 				</p>
 			</statement>
 		</task>
+	</page>
 	</exercise>
 
-	<exercise workspace="1.2in">
+<page>
+	<exercise xml:id="lbd-PE6A" workspace="1.2in">
 		<introduction>
 			<p>
 				My favorite little black dress is machine washable. Unfortunately each time I wash it the color fades a little. The intensity of black color remaining, <m>B</m>, is a function of the number of times I have washed the dress, <m>W</m>, according to the equation <me>B=100 \ast 0.985^W</me>
@@ -159,8 +169,10 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
 
-	<exercise>
+<page>
+	<exercise xml:id="gym-machines-PE6A">
 		<introduction>
 			<p>
 				Brock is working as the equipment manager at a local gym. They need to replace several weight machines. One option will cost $475 per month to rent the machines plus a delivery/removal fee of $300. The other option is to buy the machines for $23,600 and pay $92/month for a service contract.
@@ -195,8 +207,10 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
 
-	<exercise>
+<page>
+	<exercise xml:id="business-sales-PE6A">
 		<introduction>
 			<p>
 				Dwight's company was doing great business in 2000, but a few years later sales began to drop, and have only gotten worse. Their sales $<m>S</m> in millions <m>T</m> years from 2000 is given by the following equation <me>S = 78.1+5.75T-0.7T^2</me>
@@ -219,8 +233,10 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
 
-	<exercise>
+<page>
+	<exercise xml:id="infant-weight-PE6A">
 		<introduction>
 			<p>
 				Infants are regularly checked to make sure they are growing accordingly. The World Health Organization publishes growth charts to evaluate infant weight <m>W</m> in kilograms at a given age <m>A</m> in months since birth (for up to three years). An equation that describes an average infant boy is the following: <me>W=15-11.5\ast0.932^A</me>
@@ -241,8 +257,10 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
 
-	<exercise workspace="0.75in">
+<page>
+	<exercise xml:id="fudge-square-PE6A" workspace="0.75in">
 		<introduction>
 			<p>
 				Gail calculated that number of pieces of fudge <m>F</m> she can cut from a square that is <m>D</m> inches on each edge is given by the formula <me>F=1.5625\, D^2</me>
@@ -278,8 +296,10 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
 
-	<exercise>
+<page>
+	<exercise xml:id="texas-population-PE6A">
 		<introduction>
 			<p>
 				In 2000 there were an estimated 20,851,820 Texans. The population of Texas has grown around 1.89% per year since then.<aside>Source: United States Census Bureau</aside>
@@ -307,8 +327,10 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
 
-	<exercise workspace="2.5in">
+<page>
+	<exercise xml:id="curl-weight-PE6A" workspace="2.5in">
 		<introduction>
 			<p>
 				Ericson has been lifting weight for the past 12 weeks. He has increased his curl weight by about 1.5 pounds per week and is up to 30 pounds.
@@ -336,8 +358,10 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
 
-	<exercise>
+<page>
+	<exercise xml:id="calories-PE6A">
 		<introduction>
 			<p>
 				In the United States in 1970, the average person ate 2,169 calories per day. By 2008 that number had increased to 2,674 calories per day.<aside>Source: United States Department of Agriculture</aside> Let <m>C</m> be the amount a typical person eats (in calories per day) and <m>T</m> the number of years since 1970. Compare what the linear and exponential models project for the years 2015 and 2030. Include both equations and a graph showing both functions on the same axes.
@@ -345,4 +369,6 @@
 			<xi:include href="GraphPaper.ptx" />
 		</introduction>
 	</exercise>
+</page>	
+
 </worksheet>

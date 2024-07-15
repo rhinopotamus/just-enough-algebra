@@ -4,7 +4,8 @@
 <worksheet xml:id="ws-Fractions" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Prelude: Fractions - Practice exercises</title>
 
-    <exercise workspace="0.75in">
+<page>
+    <exercise xml:id="students-fractions" workspace="0.75in">
         <introduction>
             <p>
                 There are 2,624 students at a local university.
@@ -25,7 +26,7 @@
             </statement>
         </task>
     </exercise>
-    <exercise workspace="0.75in">
+    <exercise xml:id="gas-mileage-fractions" workspace="0.75in">
         <introduction>
             <p>
                 Gas mileage is usually rounded down to the nearest one decimal place. Gas mileage is measured in miles per gallon (mpg).
@@ -53,8 +54,10 @@
             </statement>
         </task>
     </exercise>
+</page>
 
-    <exercise>
+<page>
+    <exercise xml:id="vinyl-fractions">
         <introduction>
             <p>
                 In January 2015, Graham had 47 albums in his vinyl collection. By September 2023 (that's 8 years, 9 months later), he had 783 albums. Approximately how many albums per month did Graham buy?
@@ -75,7 +78,7 @@
             </statement>
         </task>
     </exercise>
-    <exercise>
+    <exercise xml:id="reading-fractions">
         <introduction>
             <p>
                 It took Mariam 3 hours to complete the reading for her Religion class. The reading was 102 pages long.
@@ -103,6 +106,7 @@
             </statement>
         </task>
     </exercise>
+</page>
 
     <xi:include href="ss-SectionNotes.ptx" />
     <xi:include href="ss-Fractions_end.ptx" />

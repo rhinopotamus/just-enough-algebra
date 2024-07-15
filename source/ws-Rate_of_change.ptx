@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<worksheet xml:id="ws-Rate_of_change" xmlns:xi="http://www.w3.org/2001/XInclude" margin="0.75in">
+<worksheet xml:id="ws-Rate_of_change" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Rate of change – Practice exercises</title>
 
-	<page><exercise workspace="1in">
+	<page><exercise xml:id="bakery-rate-of-change" workspace="1in">
 		<introduction>
 			<p>
 				Sweet Rose Bakery makes cakes and cupcakes. Here are their prices.
@@ -139,7 +139,7 @@
 		</task>
 	</exercise></page>
 
-	<page><exercise workspace="1in">
+	<page><exercise xml:id="heart-rate-of-change" workspace="1in">
 		<introduction>
 			<p>
 				Rashad measured his heart rate several times after football practice. Right after practice his heart rate was 178 beats per minute. Two minutes later, it had dropped to 153 beats per minute, and by ten minutes after practice it was down to 120 beats per minute.
@@ -193,7 +193,7 @@
 
 <!-- mysterious blank page here -->
 
-	<page><exercise workspace="0.75in">
+	<page><exercise xml:id="teen-pregnancy-rate-of-change" workspace="0.75in">
 		<introduction>
 			<p>
 				Teen pregnancy rates for Minneapolis<aside>Source: Minnesota Department of Health</aside>, measured in pregnancies per thousand teens, are summarized in the graph and table.

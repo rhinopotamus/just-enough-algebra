@@ -4,9 +4,13 @@
 <worksheet xml:id="ws-Solving_exponential_equations" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Solving exponential equations (and logs) - Practice exercises</title>
 
-	<p>
-		<term>Log-Divides Formula:</term> The equation <m>g^Y = v</m> has solution <m>\displaystyle Y = \frac{\log (v)}{\log(g)}</m>
-	</p>
+	<introduction>
+		<p>
+			<term>Log-Divides Formula:</term> The equation <m>g^Y = v</m> has solution <m>\displaystyle Y = \frac{\log (v)}{\log(g)}</m>
+		</p>
+	</introduction>
+	
+<page>
 	<exercise xml:id="bac-solving-exponential" workspace="1.5in">
 		<introduction>
 			<p>
@@ -36,7 +40,10 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
+
 	<exercise xml:id="chlorine-pool-solving-exponential">
+	<page>
 		<introduction>
 			<p>
 				Chlorine is used to disinfect water in swimming pools. The chlorine concentration decreases as the pool is used according to the equation <me>C = 2.5 \ast 0.975^T</me> where <m>C</m> is the chlorine concentration in parts per million (ppm) and <m>T</m> is the time in hours since the concentration was first measured. <em>(Story also appears in 5.3 #3)</em>
@@ -64,6 +71,8 @@
 				</p>
 			</statement>
 		</task>
+	</page>
+	<page>
 		<introduction>
 			<p>
 				<em>The problem continues ...</em>
@@ -97,7 +106,10 @@
 				</p>
 			</statement>
 		</task>
+	</page>
 	</exercise>
+
+<page>
 	<exercise xml:id="riverside-rent-solving-exponential" workspace="1.5in">
 		<introduction>
 			<p>
@@ -140,6 +152,9 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
+
+<page>
 	<exercise xml:id="mortgage-payoff-solving-exponential" workspace="1.2in">
 		<introduction>
 			<p>
@@ -168,6 +183,8 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
+
 	<xi:include href="ss-SectionNotes.ptx" />
 	<xi:include href="ss-Solving_exponential_equations_end.ptx" />
 </worksheet>

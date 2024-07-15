@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<worksheet xml:id="ws-Metric_system_and_scientific_notation" xmlns:xi="http://www.w3.org/2001/XInclude" margin="0.75in">
+<worksheet xml:id="ws-Metric_system_and_scientific_notation" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Metric prefixes and scientific notation - Practice exercises</title>
 
 	<page><exercise xml:id="gdp-scientific-notation" workspace="0.8in">
@@ -229,7 +229,7 @@
 		</task>
 	</exercise></page>
 
-	<page><exercise workspace="1.25in">
+	<page><exercise xml:id="iv-drip-scientific-notation" workspace="1.25in">
 		<introduction>
 			<p>
 				Souksavanh is setting up a patient's intravenous (IV) medication. She sets the drip at 42 drops/minute. The drip chamber size is 20 drops/mL. Recall

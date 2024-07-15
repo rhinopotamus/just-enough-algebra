@@ -3,13 +3,16 @@
 
 <worksheet xml:id="ws-Arithmetic_operations" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Prelude: Arithmetic Operations - Practice exercises</title>
+
+<page> <!-- How do pages play with titles? -->
     <introduction>
         <p>
             On each problem, write down what you enter into your calculator and don't forget to write the units on your final answer. You are welcome to calculate the answer step-by-step but also challenge yourself to figure out the answer all at once, not hitting = on your calculator until the very end.
         </p>
     </introduction>
 
-    <exercise workspace="1.5in">
+
+    <exercise xml:id="cucumbers-arithmetic-operations" workspace="1.5in">
         <statement>
             <p>
                 Tensia loves to garden but can't quite keep up with how many cucumbers are growing.
@@ -53,7 +56,7 @@
             </p>
         </statement>
     </exercise>
-    <exercise workspace="1.5in">
+    <exercise xml:id="late-rent-arithmetic-operations" workspace="1.5in">
         <introduction>
             <p>
                 Brent's landlord charges $15 per day for late rent.
@@ -74,7 +77,10 @@
             </statement>
         </task>
     </exercise>
-    <exercise workspace="0.5in">
+</page>
+
+<page>
+    <exercise xml:id="students-arithmetic-operations" workspace="0.5in">
         <introduction>
             <p>
                 There are 2,624 students at a local university.
@@ -144,6 +150,7 @@
             </statement>
         </task>
     </exercise>
+</page>
 
     <xi:include href="ss-SectionNotes.ptx" />
 	<xi:include href="ss-Arithmetic_operations_end.ptx" />

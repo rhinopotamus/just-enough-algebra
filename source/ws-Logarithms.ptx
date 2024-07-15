@@ -3,8 +3,8 @@
 
 <worksheet xml:id="ws-Logarithms" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Prelude: Logarithms - Practice exercises</title>
-
-    <exercise workspace="0.8in">
+<page>
+    <exercise xml:id="bacteria-logarithms" workspace="0.8in">
         <introduction>
             <p>
                 The number of bacteria in a dish increases 10-fold each day. Note: 10-fold means <m>\times 10</m>. Suppose we had 1 microliter of bacteria at the start of the first day. That means after <m>T</m> days there will be <m>10^T</m> microliters of bacteria.
@@ -60,8 +60,10 @@
             </statement>
         </task>
     </exercise>
-    
-    <exercise workspace="0.6in">
+</page>
+
+<page>
+    <exercise xml:id="pH-logarithms" workspace="0.6in">
         <introduction>
             <p>
                 The equation <m>pH = -\log(H^+)</m> tells us the pH of a substance (on a scale from 0 to 14) based on its molar hydrogen ion concentration <m>H^+</m>. Don't let the notation here scare you: <m>pH</m> is a single quantity and <m>H^+</m> has nothing to do with exponents or adding.
@@ -121,6 +123,7 @@
             </statement>
         </task>
     </exercise>
+</page>
 
     <xi:include href="ss-SectionNotes.ptx" />
     <xi:include href="ss-Logarithms_end.ptx" />

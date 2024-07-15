@@ -4,7 +4,7 @@
 
 <worksheet xml:id="ws-First_look_linear" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>A first look at linear equations – Practice exercises</title>
-
+<page>
 	<exercise xml:id="truck-grass-first-look-linear">
 		<introduction>
 			<p>
@@ -52,7 +52,9 @@
 			</hint>
 		</task>
 	</exercise>
+</page>
 
+<page>
 	<exercise xml:id="reservoir-rain-first-look-linear" workspace="0.75in">
 		<introduction>
 			<p>
@@ -89,35 +91,37 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
 
+<page>
 	<exercise xml:id="credit-line-first-look-linear">
 		<introduction>
 			<p>
 				I was short on cash so I got a <term>line of credit</term> (short term loan) on my bank account, of which I spent $2,189.57. That means my account balance is <m>-\$2,189.57</m>. I will pay back the interest plus an extra $250 each month. When the loan is paid off, I plan to continue to deposit $250 per month to start saving. <em>(Story also appears in 3.2 Exercises)</em>
 			</p>
 		</introduction>
-		<task>
+		<task workspace="1cm">
 			<statement>
 				<p>
 					Name the variables, including units and dependence. 
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="1cm">
 			<statement>
 				<p>
 					Write an equation showing my account balance in each number of months. Ignore the interest.
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="1cm">
 			<statement>
 				<p>
 					Identify the slope and intercept, along with their units. Explain what each means in terms of the story.
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="2cm">
 			<statement>
 				<p>
 					Make a table of values showing my account balance now, after 4 months, and at the end of a year.
@@ -140,7 +144,9 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
 
+<page>
 	<exercise xml:id="juan-coffee-first-look-linear" workspace="1.5in"> 
 		<introduction>
 			<p>
@@ -186,6 +192,7 @@
 			</hint>
 		</task>
 	</exercise>
+</page>
 
 	<xi:include href="ss-SectionNotes.ptx" />
 	<xi:include href="ss-First_look_linear_end.ptx" />

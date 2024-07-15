@@ -4,7 +4,8 @@
 <worksheet xml:id="ws-First_look_exponential" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>A first look at exponential equations – Practice exercises</title>
 
-	<exercise workspace="0.75in">
+<page>
+	<exercise xml:id="private-college-first-look-exponential" workspace="0.75in">
 		<introduction>
 			<p>
 				The comprehensive fee at a local private college is $37,000. The fee is projected to increase 5.8% per year.
@@ -47,7 +48,9 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
 
+<page>
 	<exercise xml:id="bunnies-first-look-exponential" workspace="1.5in">
 		<statement>
 			<p>
@@ -86,7 +89,9 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
 
+<page>
 	<exercise xml:id="flu-dorm-first-look-exponential">
 		<statement>
 			<p>
@@ -116,6 +121,9 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
+
+<page>
 	<exercise xml:id="savings-interest-first-look-exponential" workspace="0.75in">
 		<introduction>
 			<p>
@@ -170,6 +178,8 @@
 			</hint>
 		</task>
 	</exercise>
+</page>
+
 	<xi:include href="ss-SectionNotes.ptx" />
 	<xi:include href="ss-First_look_exponential_end.ptx" />
 </worksheet>

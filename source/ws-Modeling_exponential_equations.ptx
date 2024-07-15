@@ -4,7 +4,8 @@
 <worksheet xml:id="ws-Modeling_exponential_equations" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Modeling with exponential equations - Practice exercises</title>
 
-    <exercise>
+<page>
+    <exercise xml:id="buenos-aires-modeling-exponential">
         <introduction>
             <p>
                 The population of Buenos Aires, Argentina in 1950 was estimated<aside>Source: Mongabay</aside> at 5.0 million and expected to grow at 1.8% each year.
@@ -53,6 +54,9 @@
             </statement>
         </task>
     </exercise>
+</page>
+
+<page>
     <exercise xml:id="flu-dorm-modeling-exponential" workspace="1.2in">
         <introduction>
             <p>
@@ -88,6 +92,9 @@
             </statement>
         </task>
     </exercise>
+</page>
+
+<page>
     <exercise xml:id="bunnies-modeling-exponential">
         <introduction>
             <p>
@@ -124,7 +131,10 @@
             </statement>
         </task>
     </exercise>
-    <exercise workspace="1.2in">
+</page>
+
+<page>
+    <exercise xml:id="greenhouse-co2-modeling-exponential" workspace="1.2in">
         <introduction>
             <p>
                 Carbon dioxide is a greenhouse gas in our atmosphere. Increasing carbon dioxide concentrations are related to global climate change. In 1980, the carbon dioxide concentration was 338 ppm (parts per million). At that time it was assumed that carbon dioxide concentrations would increase 0.42% per year.<aside>Source: Earth Systems Research Laboratory, NOAA</aside>
@@ -159,6 +169,8 @@
             </statement>
         </task>
     </exercise>
+</page>
+
     <xi:include href="ss-SectionNotes.ptx" />
     <xi:include href="ss-Modeling_exponential_equations_end.ptx" />
 </worksheet>

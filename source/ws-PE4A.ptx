@@ -4,6 +4,7 @@
 <worksheet xml:id="ws-PE4A" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Practice Exam 4A</title>
 
+<page>
 	<introduction>
 		<p>
 			Relax. You have done problems like these before. Even if these problems look a bit different, just do what you can. If you're not sure of something, please ask! You may use your calculator. Please show all of your work and write down as many steps as you can. Don't spend too much time on any one problem. Do well. And remember, ask me if you're not sure about something.
@@ -14,8 +15,7 @@
 		</p>
 	</introduction>
 
-
-	<exercise>
+	<exercise xml:id="mini-cars-PE4A">
 		<introduction>
 			<p>
 				Forde collects miniature cars, each weighing 1.76 ounces. His car box weighs 4 ounces when empty. The total weight <m>T</m> ounces of Forde's car box depends on the number of cars <m>C</m> according to the equation <me>T=4+1.76C</me>
@@ -44,8 +44,10 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
 
-	<exercise workspace="1.75in">
+<page>
+	<exercise xml:id="marathon-records-PE4A" workspace="1.75in">
 		<introduction>
 			<p>
 				Will women ever run the marathon as fast as men do? The world records are getting close. In 2012 the men's record was 2:03:38 and the women's record was 2:15:25, about 12 minutes apart! On the other hand, the record is changing very slowly. Estimates for the men's time shows about 13 seconds drop per year on average. Estimates for the women's time shows about 26 seconds drop per year on average.<aside>Source: Wikipedia (Marathon World Record Progression)</aside>
@@ -73,8 +75,10 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
 
-	<exercise workspace="2in">
+<page>
+	<exercise xml:id="download-albums-PE4A" workspace="2in">
 		<introduction>
 			<p>
 				An online music club charges a monthly enrollment fee plus $0.95 per album you download. Last month Andrew downloaded 31 albums for a total cost of $49.00.
@@ -102,8 +106,10 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
 	
-	<exercise workspace="1.5in">
+<page>
+	<exercise xml:id="sea-ice-PE4A" workspace="1.5in">
 		<introduction>
 			<p>
 				A report shows September sea-ice declining in the Northern hemisphere. In 1980 the extent of the sea-ice was 3.1 million square miles. By 2012, the sea-ice extended only 1.7 million square miles. For this problem, suppose that the area of sea-ice decreases linearly.<aside>Source: National Snow and Ice Data Center</aside>
@@ -138,7 +144,10 @@
 			</statement>
 		</task>
 	</exercise>
-	<exercise>
+</page>
+
+<page>
+	<exercise label="sound-comfort-PE4A">
 		<introduction>
 			<p>
 				As people age they experience some hearing loss. A study was done to determine the <term>comfort level of sound</term> for people of different ages, meaning the loudest sound (in decibels) that the person could listen to comfortably. The data are given in the table.
@@ -202,4 +211,6 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
+
 </worksheet>

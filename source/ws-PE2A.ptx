@@ -14,8 +14,8 @@
 		</p>
 	</introduction>
 	
-
-	<exercise workspace="0.5in">
+<page>
+	<exercise xml:id="ethanol-PE2A" workspace="0.5in">
 		<introduction>
 			<p>
 				United States ethanol production has been growing exponentially. In 1990, there were 0.9 billion gallons of ethanol produced. At that time it was estimated that production would increase 5.5% per year.<aside>Source: Renewable Fuels Association</aside>
@@ -57,8 +57,10 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
 
-	<exercise workspace="0.9in">
+<page>
+	<exercise xml:id="deductible-linear-PE2A" workspace="0.9in">
 		<introduction>
 			<p>
 				An insurance <term>deductible</term> is the amount you pay for any claim before the insurance company starts paying. Lee's automobile insurance deductible started at $500, but they take off $10 for each month where he has no accidents or tickets. For example, after 1 month his deductible was $490, after 2 months it was $480, and so on.
@@ -107,7 +109,10 @@
 			</statement>
 		</task>
 	</exercise>
-	<exercise>
+</page>
+
+<page>
+	<exercise xml:id="stock-price-PE2A">
 		<introduction>
 			<p>
 				Our investment club has been tracking the performance of a biofuel company's stock over the past year. Using an econometrics software package, we found the equation <me>V =0.00004T^3 + 0.01T^2 - 0.9T + 31</me> which describes the value of each share of stock $<m>V</m> as a function of time <m>T</m>, measured in weeks starting exactly one year ago.
@@ -185,8 +190,10 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
 
-	<exercise workspace="1.25in">
+<page>
+	<exercise xml:id="car-loan-PE2A" workspace="1.25in">
 		<introduction>
 			<p>
 				Cicely wants to buy a new car that costs $19,400. The dealership offers 6.18% compounded monthly for a 5 year loan.
@@ -221,4 +228,6 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
+
 </worksheet>

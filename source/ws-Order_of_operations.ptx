@@ -3,6 +3,8 @@
 
 <worksheet xml:id="ws-Order_of_operations" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Prelude: Order of Operations - Practice exercises</title>
+
+<page>
     <introduction>
         <p>
             On each problem, write down what you enter into your calculator and don't forget to write the units on your final answer. Challenge yourself to use one-line calculations. You are welcome to calculate the answer step-by-step to check.
@@ -58,6 +60,9 @@
             </statement>
         </task>
     </exercise>
+</page>
+
+<page>
     <exercise xml:id="weight-change-order-operations" workspace="1.25in">
         <introduction>
             <p>
@@ -79,7 +84,7 @@
             </statement>
         </task>
     </exercise>
-    <exercise workspace="1.25in">
+    <exercise workspace="1.25in"> <!-- no id bc they're a continuation of same stories -->
         <introduction>
             <p>
                 <em>Stories also appear in 4.3 #3</em>
@@ -100,6 +105,7 @@
             </statement>
         </task>
     </exercise>
+</page>
 
     <xi:include href="ss-SectionNotes.ptx" />
     <xi:include href="ss-Order_of_operations_end.ptx" />

@@ -4,6 +4,7 @@
 <worksheet xml:id="ws-Powers_and_roots" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Prelude: Powers and roots - Practice exercises</title>
     
+<page>
     <exercise xml:id="wooden-balls-powers-roots" workspace="0.75in">
         <introduction>
             <p>
@@ -56,7 +57,9 @@
             </statement>
         </task>
     </exercise>
-    
+</page>
+
+<page>    
     <exercise workspace="2in">
         <statement>
             <p>
@@ -64,7 +67,7 @@
             </p>
         </statement>
     </exercise>
-    <exercise workspace="2in">
+    <exercise xml:id="investment-powers-roots" workspace="2in">
         <introduction>
             <p>
                 Otis invested $500,000 and estimates his investment will double in value every 10 years.
@@ -85,6 +88,7 @@
             </statement>
         </task>
     </exercise>
+</page>
 
     <xi:include href="ss-SectionNotes.ptx" />
     <xi:include href="ss-Powers_and_roots_end.ptx" />

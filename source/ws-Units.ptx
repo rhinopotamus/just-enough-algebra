@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<worksheet xml:id="ws-Units" xmlns:xi="http://www.w3.org/2001/XInclude" margin="0.75in">
+<worksheet xml:id="ws-Units" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Units - Practice exercises</title>
 
-	<page><exercise workspace="0.5in">
+	<page><exercise xml:id="compare-lengths-units" workspace="0.5in">
 		<task>
 			<introduction>
 				<p>
@@ -96,7 +96,7 @@
 		</task>
 	</exercise></page>
 
-	<page><exercise workspace="1in">
+	<page><exercise xml:id="decimal-hours-lengths-units" workspace="1in">
 		<task>
 			<statement>
 				<p>
@@ -154,7 +154,7 @@
 		</task>
 	</exercise></page>
 
-	<page><exercise workspace="2.5in">
+	<page><exercise xml:id="drink-water-units" workspace="2.5in">
 		<introduction>
 			<p>
 				Some people say we should drink 8 glasses of water (or other liquids) every day, 
@@ -172,7 +172,7 @@
 		<task>
 			<statement>
 				<p>
-					Siri carries around a insulated water bottle that holds .6 liters. 
+					Siri carries around a insulated water bottle that holds 0.6 liters. 
 					How many of those bottles full of water does she need to drink each day?
 					Use that 1 liter <m>\approx</m> 1.057 quarts and 1 quart = 32 (liquid) ounces.
 				</p>
@@ -188,7 +188,7 @@
 		</task>
 	</exercise></page>
 
-	<page><exercise workspace="1.5in">
+	<page><exercise xml:id="finland-units" workspace="1.5in">
 		<introduction>
 			<p>
 				Jenna is studying in Finland this term and rented an older car to drive.

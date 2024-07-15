@@ -4,6 +4,7 @@
 <worksheet xml:id="ws-Percentages" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Prelude: Percentages - Practice exercises</title>
 
+<page>
     <introduction>
         <p>
             On each problem, write down what you enter into your calculator and don't forget to write the units on your final answer. You are welcome to calculate the answer step-by-step but also challenge yourself to figure out the answer all at once, not hitting = on your calculator until the very end.
@@ -51,8 +52,10 @@
             </statement>
         </task>
     </exercise>
-    
-    <exercise workspace="1in">
+</page>
+
+<page>    
+    <exercise xml:id="intersection-percentages" workspace="1in">
         <introduction>
             <p>
                 The intersection by my house is dangerous. One year there were 14 accidents there. The neighbors got together and petitioned to have 4-way stop signs installed.
@@ -101,6 +104,7 @@
             </statement>
         </task>
     </exercise>
+</page>
     
     <xi:include href="ss-SectionNotes.ptx" />
     <xi:include href="ss-Percentages_end.ptx" />

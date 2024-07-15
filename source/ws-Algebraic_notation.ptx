@@ -5,6 +5,7 @@
 <worksheet xml:id="ws-Algebraic_notation" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Prelude: Algebraic Notation - Practice exercises</title>
 
+<page>
     <exercise xml:id="weight-change-algebraic-notation" workspace="2.8in">
         <statement>
             <p>
@@ -19,8 +20,10 @@
             </p>
         </statement>
     </exercise>
+</page>
 
-    <exercise xml:id="astra-rent-algebraic-notation" workspace="2.6in">
+<page>
+    <exercise xml:id="astra-rent-algebraic-notation" workspace="2.5in">
         <statement>
             <p>
                 Astra lives in a 1-bedroom apartment where they pay $825 per month in rent. Thanks to new rent stabilization laws, Astra's rent can only increase 3% per year. That means after <m>T</m> years, their rent will be at most <me>825(1.03^T)</me> What does this expression say her rent could be in 5 years? <em>(Story also appears in 0.3 #2)</em>
@@ -28,13 +31,14 @@
         </statement>
     </exercise>
 
-    <exercise xml:id="rose-gold-algebraic-notation" workspace="2.6in">
+    <exercise xml:id="rose-gold-algebraic-notation" workspace="2.5in">
         <statement>
             <p>
                 <q>Rose gold</q> is a mix of gold and copper. If we mix 2 grams of gold with <m>C</m> grams of copper, the percentage of the resulting alloy that is gold is given by the expression <me>\frac{200}{2 +C}</me> What does this expression say the percentage of gold will be if we add 7 grams of copper? <em>(Story also appears in 0.4 #2, 2.3 #2, and 4.1 Exercises)</em>
             </p>
         </statement>
     </exercise>
+</page>
 
     <xi:include href="ss-SectionNotes.ptx" />
     <xi:include href="ss-Algebraic_notation.ptx" />

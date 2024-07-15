@@ -4,7 +4,8 @@
 <worksheet xml:id="ws-Logistic_growth" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Logistic and other growth models - Practice exercises</title>
 
-    <exercise workspace="0.5in">
+<page>
+    <exercise xml:id="corn-growth-saturation-logistic" workspace="0.5in">
         <introduction>
             <p>
                 Corn farmers say that their crop is healthy if it is <q>knee high by the Fourth of July.</q> An equation that relates the height <m>H</m> (in inches) of the corn crop <m>T</m> days since May 1 is <me>H=106-100 \ast 0.989^{T}</me>
@@ -47,7 +48,10 @@
             </statement>
         </task>
     </exercise>
-    <exercise workspace="1in">
+</page>
+
+<page>
+    <exercise xml:id="corn-growth-logistic" workspace="1in">
         <introduction>
             <p>
                 An alternative equation for corn height is <me>H = \frac{200}{1+70\ast0.965^T}</me>
@@ -89,7 +93,10 @@
             </statement>
         </task>
     </exercise>
-    <exercise workspace="1.75in">
+</page>
+
+<page>
+    <exercise xml:id="fish-pond-logistic" workspace="1.75in">
         <introduction>
             <p>
                 Back in 1975 when my aunt and uncle bought their house upstate New York, there was a small pond in the yard. They enlarged it and stocked it with 10 small fish. The number of fish <m>F</m> increased over time, approximately according to the equation <me>F=\frac{1,000}{1+99 \ast 0.65^T}</me> where <m>T</m> is time measured in years since 1975.
@@ -117,7 +124,10 @@
             </statement>
         </task>
     </exercise>
-    <exercise>
+</page>
+
+<page>
+    <exercise xml:id="halloween-costumes-logistic">
         <introduction>
             <p>
                 Jason works at a costume shop selling Halloween costumes. The shop is busiest during the fall before Halloween. An equation that describes the number of daily visitors <m>V</m> the shop receives <m>T</m> days from August 31 is the following: <me>V=\frac{430}{1+701\ast 0.81^T}</me> An alternative equation is <me>V = 700 - 690 \ast 0.985^T</me>
@@ -152,6 +162,8 @@
             </statement>
         </task>
     </exercise>
+</page>
+
     <xi:include href="ss-SectionNotes.ptx" />
     <xi:include href="ss-Logistic_growth_end.ptx" />
 </worksheet>

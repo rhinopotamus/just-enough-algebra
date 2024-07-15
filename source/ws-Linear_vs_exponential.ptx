@@ -45,7 +45,8 @@
         </ul></p>
     </introduction>
 
-    <exercise>
+    <exercise xml:id="parents-house-linear-exponential">
+    <page>
         <introduction>
             <p>
                 My parents bought the house I grew up in for $35,000 and sold it 40 years later for $342,000. True story. (It was before the housing bubble burst.)
@@ -82,6 +83,8 @@
                 </p>
             </statement>
         </task>
+    </page>
+    <page>
         <introduction>
             <p>
                 <em>The problem continues ...</em>
@@ -112,9 +115,11 @@
                 </p>
             </statement>
         </task>
+    </page>
     </exercise>
 
-    <exercise>
+    <exercise xml:id="manufacturing-jobs-linear-exponential">
+    <page>
         <introduction>
             <p>
                 The number of manufacturing jobs in the state has been declining for decades. In 1970, there were 1.2 million such jobs in the state but by 2010 there were only 0.6 million such jobs. Write <m>J</m> for the number of manufacturing jobs (in millions) and <m>T</m> for time in years since 1970.
@@ -170,6 +175,8 @@
                 </p>
             </statement>
         </task>
+    </page>
+    <page>
         <introduction>
             <p>
                 <em>The problem continues ...</em>
@@ -234,11 +241,15 @@
                 </p>
             </statement>
         </task>
+    </page>
     </exercise>
-    <exercise workspace="2.5in">
+
+<page>
+    <exercise xml:id="angry-birds-linear-exponential" workspace="2.5in">
         <introduction>
             <p>
                 In December 2010, a popular mobile app game featuring animated birds launched from slingshots had 50 million downloads. Five months later (May 2011), the game had 200 million downloads. Let <m>D</m> denote the number of downloads of the game (in millions) and <m>T</m> the time in months since December 2010.
+                <em>story also appears ......</em>
             </p>
         </introduction>
         <task>
@@ -263,7 +274,10 @@
             </statement>
         </task>
     </exercise>
-    <exercise>
+</page>
+
+    <exercise xml:id="bus-fares-linear-exponential">
+    <page>
         <introduction>
             <p>
                 Bus fares are up to $2.25 per ride during rush hour. Two different plans of increasing fares are being debated: 10¢ per year or 2.5% per year.
@@ -291,6 +305,8 @@
                 <xi:include href="GraphPaper.ptx" />
             </statement>
         </task>
+    </page>
+    <page>
         <introduction>
             <p>
                 <em>The problem continues ...</em>
@@ -309,8 +325,10 @@
                     If most of your constituents are members of the same union as the bus drivers (who count on solid earnings from the bus company to keep their jobs), then which plan should you support?
                 </p>
             </statement>
-        </task>        
+        </task>
+    </page>        
     </exercise>
+    
     <xi:include href="ss-SectionNotes.ptx" />
     <xi:include href="ss-Linear_vs_exponential_end.ptx" />
 </worksheet>

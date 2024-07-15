@@ -4,13 +4,14 @@
 <worksheet xml:id="ws-PE5B" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Practice Exam 5B</title>
 
+<page>
     <introduction>
         <p>
             <em>Try taking this version of the practice exam under testing conditions: no book, no notes, no classmate's help, no electronics (computer, cell phone, television). Give yourself one hour to work and wait until you have tried your best on all of the problems before checking any answers.</em>
         </p>
     </introduction>
 	
-    <exercise>
+    <exercise xml:id="ELLs-PE5B">
         <introduction>
             <p>
                 The number of school children in the district whose first language in not English has been on the rise. The equation describing the situation is <me>C=673(1.043)^T</me> where <m>C</m> is the number of school children in the district whose first language is not English, and <m>T</m> is time measured in years (from now).
@@ -45,7 +46,10 @@
             </statement>
         </task>
     </exercise>
-    <exercise workspace="1.5in">
+</page>
+
+<page>
+    <exercise xml:id="lottery-PE5B" workspace="1.5in">
         <introduction>
             <p>
                 The lottery jackpot started at $600,000. After 17 days the jackpot had increased to $2.1 million. The lottery is designed so that the jackpot grows exponentially.
@@ -80,7 +84,10 @@
             </statement>
         </task>
     </exercise>
-    <exercise>
+</page>
+
+    <exercise xml:id="creeping-vine-PE5B">
+    <page>
         <introduction>
             <p>
                 The creeping vine is taking over Fiona's front lawn. Write <m>V</m> for the area covered by the vine (in square feet) and <m>T</m> for time in years since she moved into her house.
@@ -142,6 +149,8 @@
                 </tabular>
             </statement>
         </task>
+    </page>
+    <page>
         <introduction>
             <p>
                 <em>The problem continues ...</em>
@@ -155,8 +164,11 @@
                 <xi:include href="GraphPaper.ptx" />
             </statement>
         </task>
+    </page>
     </exercise>
-    <exercise workspace="1.75in">
+
+<page>
+    <exercise xml:id="infant-mortality-PE5B" workspace="1.75in">
         <introduction>
             <p>
                 Many different agencies are working to lower infant mortality. Infant mortality is measured in deaths per thousand births. The world infant mortality rate in 1955 was around 52 (per thousand births). By the year 2000, it was down to around 23.<aside>Source: Wikipedia (Infant Mortality)</aside>
@@ -198,4 +210,6 @@
             </statement>
         </task>
     </exercise>
+</page>
+
 </worksheet>

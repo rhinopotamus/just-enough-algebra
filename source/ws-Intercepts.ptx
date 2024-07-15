@@ -3,7 +3,9 @@
 
 <worksheet xml:id="ws-Intercepts" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Intercepts and direct proportionality - Practice exercises</title>
-	<exercise>
+
+<page>
+	<exercise xml:id="temperature-intercepts">
 		<introduction>
 			<p>
 				In each of the following stories, the temperature changes over time. It might be confusing to call either variable <m>T</m>, so use <m>H</m> for the time in hours and <m>D</m> for the temperature in degrees (°F). In each case, time should be measured from the start of the story.
@@ -52,8 +54,10 @@
 			</task>
 		</task>
 	</exercise>
+</page>
 	
-	<exercise workspace="0.75in">
+<page>
+	<exercise xml:id="design-business-intercepts" workspace="0.75in">
 		<introduction>
 			<p>
 				Maryn is very happy. Her interior design business is finally showing a profit. She has logged a total of 471 billable hours at $35 per hour since she started her business. Accounting for start up costs, her net profit now totals $2,194.
@@ -108,6 +112,9 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
+
+<page>
 	<exercise xml:id="weight-change-intercepts" workspace="1.5in">
 		<introduction>
 			<p>
@@ -143,7 +150,10 @@
 			</statement>
 		</task>
 	</exercise>
-	<exercise workspace="1in">
+</page>
+
+<page>
+	<exercise xml:id="proportional-intercepts" workspace="1in">
 		<introduction>
 			<p>
 				Each story describes a situation that we are assuming is linear. Decide whether it is <term>proportional</term>, meaning the intercept equals zero. If it is proportional, explain why the intercept would be zero. If it is not proportional, explain what the intercept would mean in the story.
@@ -185,6 +195,8 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
+
 	<xi:include href="ss-SectionNotes.ptx" />
 	<xi:include href="ss-Intercepts_end.ptx" />
 </worksheet>

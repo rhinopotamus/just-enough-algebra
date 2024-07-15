@@ -3,7 +3,9 @@
 
 <worksheet xml:id="ws-Slopes" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Slopes - Practice exercises</title>
-	<exercise workspace="0.5in">
+
+<page>
+	<exercise xml:id="wings-delivery-slopes" workspace="0.5in">
 		<introduction>
 			<p>
 				For his Oscars party, Harland had 70 chicken wings delivered for $51.25. For his Super Bowl bash, Harland had 125 chicken wings delivered for $83.70. In each case, the total cost includes the cost per wing and the fixed delivery charge.
@@ -53,7 +55,10 @@
 			</statement>
 		</task>
 	</exercise>
-	<exercise workspace="0.75in">
+</page>
+
+<page>
+	<exercise xml:id="leather-belts-slopes" workspace="0.75in">
 		<introduction>
 			<p>
 				Jana is making belts out of leather strips and a metal clasp. A short belt (as shown) is 24.5 inches long and includes 7 leather strips. A long belt (not shown) is 37.3 inches long and includes 11 leather strips. Each belt includes one metal clasp that is part of the total length. All belts use the same length clasp.
@@ -96,7 +101,10 @@
 			</statement>
 		</task>
 	</exercise>
-	<exercise workspace="0.75in">
+</page>
+
+<page>
+	<exercise xml:id="ski-passes-slopes" workspace="0.75in">
 		<introduction>
 			<p>
 				The local ski resort is trying to set the price for season passes. They know from past experience that they will sell around 14,000 passes if the season ticket price is $380. If the price is $400, they will sell fewer, perhaps only 11,000 passes. You can assume this decrease in demand is linear.
@@ -161,7 +169,10 @@
 			</statement>
 		</task>
 	</exercise>
-	<exercise workspace="2in">
+</page>
+
+	<exercise xml:id="press-weight-slopes" workspace="2in">
+	<page>
 		<introduction>
 			<p>
 				Boy, am I out of shape. Right now I can only press about 15 pounds. (<term>Press</term> means lift weight off my chest. Literally.) My trainer says I should be able to press 50 pounds by the end of 10 weeks of serious lifting. I plan to increase the weight I press by a fixed amount each week.
@@ -188,6 +199,8 @@
 				</p>
 			</statement>
 		</task>
+	</page>
+	<page>
 		<introduction>
 			<p>
 				<em>The problem continues ...</em>
@@ -220,7 +233,9 @@
 				</p>
 			</statement>
 		</task>
+	</page>
 	</exercise>
+	
 	<xi:include href="ss-SectionNotes.ptx" />
 	<xi:include href="ss-Slopes_end.ptx" />
 </worksheet>

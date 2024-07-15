@@ -33,6 +33,7 @@
     </introduction>
 
     <exercise xml:id="grandfather-bonds-growth-factor" workspace="0.7in">
+    <page>
         <introduction>
             <p>
                 In 1962, my grandfather had savings bonds that matured to $200. He gave those to my mother to keep for me. These bonds have continued to earn interest at a fixed, guaranteed rate so I have yet to cash them in. The table lists the value at various times since then.
@@ -112,6 +113,8 @@
                 </p>
             </statement>
         </task>
+    </page>
+    <page>
         <introduction>
 			<p>
 				<em>The problem continues ...</em>
@@ -139,8 +142,11 @@
                 </p>
             </statement>
         </task>
+    </page>
     </exercise>
-	<exercise workspace="1in">
+
+	<exercise xml:id="carbon-14-growth-factor" workspace="1in">
+    <page>
         <introduction>
             <p>
                 Have you read news stories about archaeological digs where a specimen (like a bone) is found that dates back thousands of years? How do scientists know how old something is? One method uses the radioactive decay of carbon. After an animal dies the carbon-14 in its body very slowly decays. By comparing how much carbon-14 remains in the bone to how much carbon-14 should have been in the bone when the animal was alive, scientist can estimate how long the animal has been dead. Clever, huh? Actually, it is so clever that Willard Libby won the Nobel Prize in Chemistry for it. The key information to know is that the <term>half-life</term> of carbon-14 (the amount of time it takes for half of the original amount of carbon-14 to decay) is about 5,730 years.<aside>Source: Wikipedia (Radiocarbon Dating)</aside> For this problem, suppose a bone were found that should have contained 300 milligrams of carbon-14 when the animal was alive.
@@ -179,6 +185,8 @@
                 </p>
             </statement>
         </task>
+    </page>
+    <page>
         <introduction>
 			<p>
 				<em>The problem continues ...</em>
@@ -206,8 +214,12 @@
                 </p>
             </statement>
         </task>
+    </page>
     </exercise>
-    <exercise>
+
+
+    <exercise xml:id="find-growth-factor">
+    <page>
         <introduction>
             <p>
                 For each story, find the annual growth factor <m>g</m> and annual growth rate <m>r</m> as a percent.
@@ -317,6 +329,8 @@
                 </sidebyside>
             </statement>
         </task>
+    </page>
+    <page>
         <introduction>
 			<p>
 				<em>The problem continues ...</em>
@@ -418,7 +432,10 @@
                 </sidebyside>
             </statement>
         </task>
+    </page>
     </exercise>
+
+<page>
     <exercise workspace="1.5in">
         <introduction>
             <p>
@@ -447,6 +464,8 @@
             </statement>
         </task>
     </exercise>
+</page>
+
     <xi:include href="ss-SectionNotes.ptx" />
     <xi:include href="ss-Growth_factor_end.ptx" />
 </worksheet>

@@ -3,6 +3,8 @@
 
 <worksheet xml:id="ws-PE3B" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Practice Exam 3B</title>
+
+<page>
 	<introduction>
 		<p>
 			<em>Try taking this version of the practice exam under testing conditions: no book, no notes, no classmate's help, no electronics (computer, cell phone, television). Give yourself one hour to work and wait until you have tried your best on all of the problems before checking any answers.</em>
@@ -15,7 +17,7 @@
 
 	
 
-	<exercise>
+	<exercise xml:id="beanie-babies-PE3B">
 		<introduction>
 			<p>
 				Goldie the Goldfish, Pinches the Lobster, Quackers the Duck, Speedy the Turtle<aside>These names are registered trademarked.</aside>. These first generation Beanie Babies toys were anticipated to increase in value according to the equation <me>B = 6\ast 1.08^T</me> where <m>B</m> is the value of Beanie Babies (in $) and <m>T</m> is the time in years since 1994.
@@ -49,7 +51,10 @@
 			</statement>
 		</task>
 	</exercise>
-	<exercise>
+</page>
+
+<page>
+	<exercise xml:id="porch-linear-PE3B">
 		<introduction>
 			<p>
 				Best we can tell, the floor of our front porch was 7'2" above ground when the house was built. It has been slowly sinking ever since. The contractor estimated that it's dropped 0.45 inches per year. The equation is <me>P = 86-0.45A</me> where <m>P</m> is the height of the porch (in inches) and <m>A</m> is the age of the house (in years).
@@ -77,7 +82,10 @@
 			</statement>
 		</task>
 	</exercise>
-	<exercise>
+</page>
+
+<page>
+	<exercise xml:id="shot-put-PE3B">
 		<introduction>
 			<p>
 				In a <term>shot put</term> competition, athletes try to throw a heavy metal ball as far as possible. For one athlete the ball closely followed the parabolic arch given by the equation <me>H = -0.015D^{2}+1.04D+5.9</me> where <m>D</m> was the distance the ball had travelled horizontally and <m>H</m> was the height of the ball above ground, both in feet. The path of the ball is graphed below.
@@ -99,8 +107,10 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
 
-	<exercise>
+<page>
+	<exercise xml:id="volume-snowball-PE3B">
 		<introduction>
 			<p>
 				The amount of snow in a snowball, <m>C</m> cups, depends on the <term>diameter</term> (distance across) of the snowball, <m>D</m> inches according to the equation <me>C = 0.036\, D^3</me>
@@ -135,4 +145,6 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
+
 </worksheet>

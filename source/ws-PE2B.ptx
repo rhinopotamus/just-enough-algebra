@@ -10,8 +10,8 @@
 		</p>
 	</introduction>
 	
-
-	<exercise>
+<page>
+	<exercise xml:id="well-linear-PE2B">
 		<introduction>
 			<p>
 				The Skärstroms want to dig a new well for water for their lake cabin. The company charges $900 to bring the equipment on site and draw the permit and then $2 per foot to dig.
@@ -39,7 +39,10 @@
 			</statement>
 		</task>
 	</exercise>
-	<exercise workspace="2in">
+</page>
+
+<page>
+	<exercise xml:id="tomato-food-PE2B" workspace="2in">
 		<introduction>
 			<p>
 				Xander grows tomatoes in his garden. He's noticed that a typical plant yields 5 pounds of tomatoes. He's been experimenting with the impact of liquid food on plant yield and estimates that each drop increases yield by 14%.
@@ -94,8 +97,10 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
 
-	<exercise workspace="1.5in">
+<page>
+	<exercise xml:id="t-shirt-printing-PE2B" workspace="1.5in">
 		<introduction>
 			<p>
 				Skye and her sister Clover started a t-shirt printing company. To produce a particular t-shirt it costs $350 in materials and labor to set up a silkscreen and then $7.50 for each shirt made to cover materials and printing. The average cost per t-shirt $<m>C</m> is a function of <m>N</m>, the number of t-shirts printed. The equation for this function is <me>C = \frac{350+7.50N}{N}</me>
@@ -152,8 +157,10 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
 
-	<exercise workspace="1in">
+<page>
+	<exercise xml:id="kotoyo-finance-PE2B" workspace="1in">
 		<task>
 			<statement>
 				<p>
@@ -183,4 +190,6 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
+
 </worksheet>

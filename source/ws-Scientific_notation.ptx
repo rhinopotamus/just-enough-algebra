@@ -3,13 +3,14 @@
 <worksheet xml:id="ws-Scientific_notation" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Prelude: Scientific Notation - Practice exercises</title>
 
+<page>
     <exercise workspace="0.75in">
         <introduction>
             <p>
                 In each story, write out the highlighted numbers (with all the zeros).
             </p>
         </introduction>
-        <task>
+        <task xml:id="population-prelude-scientific-notation">
             <statement>
                 <p>
                     Melvin was looking at populations based on the 2020 Census and saw the population of Saint Paul, MN listed as <m>\mathbf{3.10942 \times 10^{5}}</m> <term>people</term>. Hint: you can check the answer to this part by evaluating on your calculator.
@@ -37,7 +38,7 @@
                 In each story, write out the highlighted numbers (with all the zeros).
             </p>
         </introduction>
-        <task>
+        <task xml:id="alpaca-prelude-scientific-notation">
             <statement>
                 <p>
                     Alpacas have very fine hairs which can be spun into yarn to make very soft sweaters. The width of an alpaca hair is around <m>\mathbf{2.5 \times 10^{-7}}</m> <term>meters</term>. Hint: you can check the answer to this part by evaluating on your calculator.
@@ -59,6 +60,9 @@
             </statement>
         </task>
     </exercise>
+</page>
+
+<page>
     <exercise workspace="0.65in">
         <introduction>
             <p>
@@ -101,7 +105,7 @@
                 </p>
             </statement>
         </task>
-        <task>
+        <task xml:id="t-bonds-prelude-scientific-notation">
             <statement>
                 <p>
                     One way that the United States government can borrow money is by selling Treasury bonds (T-bonds). There are approximately <term>$24 trillion</term> worth of T-bonds currently.
@@ -109,6 +113,7 @@
             </statement>
         </task>        
     </exercise>
+</page>
 
     <xi:include href="ss-SectionNotes.ptx" />
     <xi:include href="ss-Scientific_notation_end.ptx" />

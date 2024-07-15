@@ -5,10 +5,13 @@
 <worksheet xml:id="ws-Solving_power_equations" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Solving power equations (and roots) - Practice exercises</title>
 
-	<p>
-		<term>Root Formula:</term> The equation <m>C^n=v</m> has solution <m>C= \sqrt[n]{v}</m>
-	</p>
-
+	<introduction>
+		<p>
+			<term>Root Formula:</term> The equation <m>C^n=v</m> has solution <m>C= \sqrt[n]{v}</m>
+		</p>
+	</introduction>
+	
+<page>
 	<exercise xml:id="pizza-diameter-solving-power" workspace="2.5in">
 		<introduction>
 			<p>
@@ -31,7 +34,10 @@
 			</statement>
 		</task>
 	</exercise>
-	<exercise workspace="1in">
+</page>
+
+<page>
+	<exercise xml:id="weight-cube-solving-power" workspace="1in">
 		<introduction>
 			<p>
 				The weight of a wood cube is a function of the length of the sides. A cube with sides each <m>E</m> inches long has weight <m>W</m> ounces according to the equation<me>W = 0.76\, E^3</me>
@@ -67,6 +73,9 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
+
+<page>
 	<exercise xml:id="fuel-350-solving-power" workspace="2.5in">
 		<introduction>
 			<p>
@@ -92,7 +101,10 @@
 			</statement>
 		</task>
 	</exercise>
-	<exercise workspace="2in">
+</page>
+
+<page>
+	<exercise xml:id="effective-return-solving-power" workspace="2in">
 		<introduction>
 			<p>
 				Moose bought a commemorative football jersey for $150 twelve years ago. Now he is planning to sell it and is interested in what the <term>effective return</term> (equivalent annual percent increase) on his investment might be for various prices. If $<m>J</m> is the current value of the jersey and <m>g</m> is the annual growth factor, then <me>J=150\, g^{12}</me> For each part, first solve for <m>g</m> using the <term>Root Formula</term>, then calculate <m>r=g-1</m>. The effective return is <m>r</m> written as a percentage.
@@ -120,6 +132,8 @@
 			</statement>
 		</task>
 	</exercise>
+</page>
+
 	<xi:include href="ss-SectionNotes.ptx" />
 	<xi:include href="ss-Solving_power_equations_end.ptx" />
 </worksheet>
