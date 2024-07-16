@@ -41,7 +41,7 @@
 				</row>
 			</tabular>
 		</introduction>
-		<task workspace="1.5cm">
+		<task workspace="1cm">
 			<statement>
 				<p>
 					What do <m>T</m> and <m>B</m> stand for? 
@@ -49,28 +49,28 @@
 				</p>
 			</statement>
 		</task>
-		<task workspace="0.5cm">
+		<task >
 			<statement>
 				<p>
 					What were the savings bonds worth in 1970?
 				</p>
 			</statement>
 		</task>
-		<task  workspace="0.5cm">
+		<task  >
 			<statement>
 				<p>
 					When were the savings bonds worth $1,022.34?
 				</p>
 			</statement>
 		</task>
-		<task  workspace="0.5cm">
+		<task  >
 			<statement>
 				<p>
 					Approximately when were the savings bonds worth $1,500?
 				</p>
 			</statement>
 		</task>
-		<task  workspace="0.5cm">
+		<task  >
 			<statement>
 				<p>
 					What do you expect the savings bonds would be worth in 2020?
