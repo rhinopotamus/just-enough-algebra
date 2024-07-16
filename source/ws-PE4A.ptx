@@ -50,7 +50,8 @@
 	<exercise xml:id="marathon-records-PE4A" workspace="1.75in">
 		<introduction>
 			<p>
-				Will women ever run the marathon as fast as men do? The world records are getting close. In 2012 the men's record was 2:03:38 and the women's record was 2:15:25, about 12 minutes apart! On the other hand, the record is changing very slowly. Estimates for the men's time shows about 13 seconds drop per year on average. Estimates for the women's time shows about 26 seconds drop per year on average.<aside>Source: Wikipedia (Marathon World Record Progression)</aside>
+				Will women ever run the marathon as fast as men do? The world records are getting close. In 2012 the men's record was 2:03:38 and the women's record was 2:15:25, about 12 minutes apart! On the other hand, the record is changing very slowly. Estimates for the men's time shows about 13 seconds drop per year on average. Estimates for the women's time shows about 26 seconds drop per year on average.
+				<!-- <aside>Source: Wikipedia (Marathon World Record Progression)</aside> -->
 			</p>
 		</introduction>
 		<task>
@@ -112,7 +113,8 @@
 	<exercise xml:id="sea-ice-PE4A" workspace="1.4in">
 		<introduction>
 			<p>
-				A report shows September sea-ice declining in the Northern hemisphere. In 1980 the extent of the sea-ice was 3.1 million square miles. By 2012, the sea-ice extended only 1.7 million square miles. For this problem, suppose that the area of sea-ice decreases linearly.<aside>Source: National Snow and Ice Data Center</aside>
+				A report shows September sea-ice declining in the Northern hemisphere. In 1980 the extent of the sea-ice was 3.1 million square miles. By 2012, the sea-ice extended only 1.7 million square miles. For this problem, suppose that the area of sea-ice decreases linearly.
+				<!-- <aside>Source: National Snow and Ice Data Center</aside> -->
 			</p>
 		</introduction>
 		<task>

@@ -41,7 +41,7 @@
 				</row>
 			</tabular>
 		</introduction>
-		<task workspace="1cm">
+		<task workspace="1.5cm">
 			<statement>
 				<p>
 					What do <m>T</m> and <m>B</m> stand for? 
@@ -49,21 +49,21 @@
 				</p>
 			</statement>
 		</task>
-		<task >
+		<task>
 			<statement>
 				<p>
 					What were the savings bonds worth in 1970?
 				</p>
 			</statement>
 		</task>
-		<task  >
+		<task>
 			<statement>
 				<p>
 					When were the savings bonds worth $1,022.34?
 				</p>
 			</statement>
 		</task>
-		<task  >
+		<task>
 			<statement>
 				<p>
 					Approximately when were the savings bonds worth $1,500?
@@ -77,7 +77,7 @@
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="0cm">
 			<statement>
 				<p>
 					Graph the function using the information given in the table.
@@ -85,7 +85,7 @@
 				<xi:include href="GraphPaper.ptx" />
 			</statement>
 		</task>
-		<task>
+		<task workspace="0cm">
 			<statement>
 				<p>
 					Use the graph to check your answers to the questions.
@@ -105,7 +105,7 @@
 				with a 30 mph wind is -12<m>^\circ</m>F. 
 				The table lists the wind chill for various wind speeds at an air temperature of 
 				10<m>^\circ</m>F. (<em>Story also appears in 4.1 #3</em>)
-				<aside>Source: National Weather Service</aside>
+				<!-- <aside>Source: National Weather Service</aside> -->
 			</p>
 			<tabular bottom="minor" top="minor"> <!-- row-headers="yes"> -->
 				<row left="minor" class="odd">
