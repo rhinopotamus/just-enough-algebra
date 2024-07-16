@@ -76,7 +76,7 @@
 	<exercise xml:id="truffles-solving-linear">
 		<introduction>
 			<p>
-				Lizbeth wants to send her mom truffles for Mother's Day. It cost $<m>C</m> to send a box of <m>T</m> truffles where <me>C = 1.90T+7.95</me>
+				Lizbeth wants to send her mom truffles for Mother's Day. It costs $<m>C</m> to send a box of <m>T</m> truffles where <me>C = 1.90T+7.95</me>
 			</p>
 		</introduction>
 		<task workspace="0.75in">

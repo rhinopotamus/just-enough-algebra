@@ -158,11 +158,9 @@
 				<xi:include href="GraphPaper.ptx" />
 			</statement>
 		</task>
-		<introduction>
-			<p>
-				<em>The problem continues ...</em>
-			</p>
-		</introduction>
+		<p>
+			<em>The problem continues ...</em>
+		</p>
 		<task workspace="1in">
 			<statement>
 				<p>

@@ -82,12 +82,12 @@
 				<p>
 					Identify the slope and intercept (including their units and sign) and explain what each means in terms of the story.
 				</p>
-				<hint>
-					<p>
-						The intercept should probably be negative, and it's not 2,194.
-					</p>
-				</hint>
 			</statement>
+			<hint>
+				<p>
+					The intercept should probably be negative, and it's not 2,194.
+				</p>
+			</hint>
 		</task>
 		<task>
 			<statement>

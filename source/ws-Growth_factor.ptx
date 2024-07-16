@@ -115,11 +115,9 @@
         </task>
     </page>
     <page>
-        <introduction>
-			<p>
-				<em>The problem continues ...</em>
-			</p>
-		</introduction>
+        <p>
+			<em>The problem continues ...</em>
+		</p>
         <task workspace="3in">
             <statement>
                 <p>
@@ -187,11 +185,9 @@
         </task>
     </page>
     <page>
-        <introduction>
-			<p>
-				<em>The problem continues ...</em>
-			</p>
-		</introduction>
+        <p>
+			<em>The problem continues ...</em>
+		</p>
         <task workspace="0in">
             <statement>
                 <p>
@@ -331,11 +327,9 @@
         </task>
     </page>
     <page>
-        <introduction>
-			<p>
-				<em>The problem continues ...</em>
-			</p>
-		</introduction>
+        <p>
+			<em>The problem continues ...</em>
+		</p>
         <task>
             <statement>
                 <p>

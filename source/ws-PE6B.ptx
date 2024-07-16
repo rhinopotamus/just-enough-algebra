@@ -112,11 +112,9 @@
 		</task>
 	</page>
 	<page>
-		<introduction>
-			<p>
-				<em>The problem continues ...</em>
-			</p>
-		</introduction>
+		<p>
+			<em>The problem continues ...</em>
+		</p>
 		<task>
 			<statement>
 				<p>
@@ -207,11 +205,9 @@
 		</task>
 	</page>
 	<page>
-		<introduction>
-			<p>
-				<em>The problem continues ...</em>
-			</p>
-		</introduction>
+		<p>
+			<em>The problem continues ...</em>
+		</p>
 		<task workspace="2in">
 			<statement>
 				<p>
@@ -280,11 +276,9 @@
 		</task>
 	</page>
 	<page>
-		<introduction>
-			<p>
-				<em>The problem continues ...</em>
-			</p>
-		</introduction>
+		<p>
+			<em>The problem continues ...</em>
+		</p>
 		<task>
 			<statement>
 				<p>
@@ -375,11 +369,9 @@
 		</task>
 	</page>
 	<page>
-		<introduction>
-			<p>
-				<em>The problem continues ...</em>
-			</p>
-		</introduction>
+		<p>
+			<em>The problem continues ...</em>
+		</p>
 		<task workspace="2.8in">
 			<statement>
 				<p>
