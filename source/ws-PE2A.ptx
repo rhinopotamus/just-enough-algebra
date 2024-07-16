@@ -158,12 +158,11 @@
 				<xi:include href="GraphPaper.ptx" />
 			</statement>
 		</task>
-<!-- This might need a manual edit. -->
-		<p>
-			<em>The problem continues ...</em>
-		</p>
 		<task workspace="1in">
 			<statement>
+				<p>
+					<em>The problem continues ...</em>
+				</p>
 				<p>
 					According to the table, what was the value of the stock when we began tracking it? What is it worth now?
 				</p>

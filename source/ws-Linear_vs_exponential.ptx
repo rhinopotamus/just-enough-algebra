@@ -45,8 +45,8 @@
         </ul></p>
     </introduction>
 
+<page>
     <exercise xml:id="parents-house-linear-exponential">
-    <page>
         <introduction>
             <p>
                 My parents bought the house I grew up in for $35,000 and sold it 40 years later for $342,000. True story. (It was before the housing bubble burst.)
@@ -83,19 +83,14 @@
                 </p>
             </statement>
         </task>
-    </page>
-    <page>
-        <introduction>
-            <p>
-                <em>The problem continues ...</em>
-            </p>
-            <p>
-                <alert>Next, assume the value of the house increased linearly instead.</alert>
-            </p>
-        </introduction>
         <task workspace="2.5in">
             <statement>
-                
+                <p>
+                    <em>The problem continues ...</em>
+                </p>
+                <p>
+                    <alert>Next, assume the value of the house increased linearly instead.</alert>
+                </p>
                 <p>
                     In this model, by what fixed amount did the house value increase each year? <em>Hint: calculate the slope using the <term>Rate of Change/Slope (of Linear) Formula</term>.</em>
                 </p>
@@ -115,11 +110,11 @@
                 </p>
             </statement>
         </task>
-    </page>
     </exercise>
+</page>
 
+<page>
     <exercise xml:id="manufacturing-jobs-linear-exponential">
-    <page>
         <introduction>
             <p>
                 The number of manufacturing jobs in the state has been declining for decades. In 1970, there were 1.2 million such jobs in the state but by 2010 there were only 0.6 million such jobs. Write <m>J</m> for the number of manufacturing jobs (in millions) and <m>T</m> for time in years since 1970.
@@ -149,13 +144,11 @@
                 </p>
             </statement>
         </task>
-        <introduction>
-            <p>
-                <alert>Next, assume the number of jobs decreased exponentially instead.</alert>
-            </p>
-        </introduction>
         <task workspace="1in">
             <statement>
+                <p>
+                    <alert>Next, assume the number of jobs decreased exponentially instead.</alert>
+                </p>
                 <p>
                     Calculate the growth factor.
                 </p>
@@ -175,18 +168,14 @@
                 </p>
             </statement>
         </task>
-    </page>
-    <page>
-        <introduction>
-            <p>
-                <em>The problem continues ...</em>
-            </p>
-            <p>
-                <alert>Now, compare the models.</alert>
-            </p>
-        </introduction>
         <task>
             <statement>
+                <p>
+                    <em>The problem continues ...</em>
+                </p>
+                <p>
+                    <alert>Now, compare the models.</alert>
+                </p>
                 <p>
                     Complete the table of values.
                 </p>
@@ -241,8 +230,8 @@
                 </p>
             </statement>
         </task>
-    </page>
     </exercise>
+</page>
 
 <page>
     <exercise xml:id="angry-birds-linear-exponential" workspace="2.5in">
@@ -276,8 +265,8 @@
     </exercise>
 </page>
 
+<page>
     <exercise xml:id="bus-fares-linear-exponential">
-    <page>
         <introduction>
             <p>
                 Bus fares are up to $2.25 per ride during rush hour. Two different plans of increasing fares are being debated: 10¢ per year or 2.5% per year.
@@ -305,15 +294,11 @@
                 <xi:include href="GraphPaper.ptx" />
             </statement>
         </task>
-    </page>
-    <page>
-        <introduction>
-            <p>
-                <em>The problem continues ...</em>
-            </p>
-        </introduction>
         <task workspace="2in">
             <statement>
+                <p>
+                    <em>The problem continues ...</em>
+                </p>
                 <p>
                     As a city council representative, you want to support the plan that your constituents prefer. If most of your constituents ride the bus, which plan should you support? Why?
                 </p>
@@ -326,8 +311,8 @@
                 </p>
             </statement>
         </task>
-    </page>        
     </exercise>
+</page>
     
     <xi:include href="ss-SectionNotes.ptx" />
     <xi:include href="ss-Linear_vs_exponential_end.ptx" />

@@ -4,8 +4,8 @@
 <worksheet xml:id="ws-Exp_growth_decay" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Exponential growth and decay - Practice exercises</title>
 
+<page>
     <exercise xml:id="fiber-optic-growth-decay">
-    <page>
         <introduction>
             <p>
                 A signal is sent down a fiber optic cable. Its strength decreases by 2% each mile it travels. (Say it was one unit strong to start.)
@@ -40,15 +40,11 @@
                 </p>
             </statement>
         </task>
-    </page>
-    <page>
-        <introduction>
-            <p>
-                <em>The problem continues ...</em>
-            </p>
-        </introduction>
         <task workspace="3in">
             <statement>
+                <p>
+                    <em>The problem continues ...</em>
+                </p>
                 <p>
                     What is the half-life (or should we say half-distance) of a signal? That means, how far can it travel without dropping below 50%? (That will not actually happen because we would boost the signal.) Again, set up and solve an equation.
                 </p>
@@ -69,8 +65,8 @@
                 </p>
             </statement>
         </task>
-    </page>
     </exercise>
+</page>
 
 <page>
     <exercise xml:id="cellphone-doubling-growth-decay" workspace="0.75in">

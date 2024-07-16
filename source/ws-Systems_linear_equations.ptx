@@ -150,11 +150,11 @@
 				</ul></p>
 			</statement>
 		</task>
-		<p>
-			<em>The problem continues ...</em>
-		</p>
 		<task workspace="2.5in">
 			<statement>
+				<p>
+					<em>The problem continues ...</em>
+				</p>
 				<p>
 					Set up and solve a system of linear equations to compare total cost with no card to the total cost with the card.
 				</p>
@@ -251,8 +251,8 @@
 	</exercise>
 </page>
 
+<page>
 	<exercise xml:id="supply-demand-systems-linear">
-	<page>
 		<introduction>
 			<p>
 				The <term>supply</term> of flour is the amount of flour produced. It depends on the price of flour. A high price encourages producers to make more flour. If the price is low, they tend to make less of it. The dependence of the supply of flour <m>S</m> (in loads) on the price <m>P</m> (in $/pound) is given by the equation
@@ -292,13 +292,11 @@
 				<xi:include href="GraphPaper.ptx" />
 			</statement>
 		</task>
-	</page>	
-	<page>
-		<p>
-			<em>The problem continues ...</em>
-		</p>
 		<task workspace="2in">
 			<statement>
+				<p>
+					<em>The problem continues ...</em>
+				</p>
 				<p>
 					Set up and solve an equation to find the equilibrium price of flour <em>exactly</em>.
 				</p>
@@ -318,8 +316,8 @@
 				</p>
 			</statement>
 		</task>
-	</page>
 	</exercise>
+</page>
 
 	<xi:include href="ss-SectionNotes.ptx" />
 	<xi:include href="ss-Systems_linear_equations_end.ptx" />

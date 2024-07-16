@@ -11,8 +11,8 @@
 		</p>
 	</introduction>
 
+<page>
 	<exercise xml:id="washing-machine-PE4B">
-	<page>
 		<introduction>
 			<p>
 				The Vang family wants to buy a new washing machine. The first model costs $645 and then $13.29 per month to run. A more efficient model costs $940 and then $7.82 per month to run. If <m>T</m> is the time in months and <m>V</m> is the Vang family's total cost (in $), then the equations and some comparable values (to the nearest $) are:
@@ -63,13 +63,11 @@
 				</p>
 			</statement>
 		</task>
-	</page>
-	<page>
-		<p>
-			<em>The problem continues ...</em>
-		</p>
 		<task workspace="2.5in">
 			<statement>
+				<p>
+					<em>The problem continues ...</em>
+				</p>
 				<p>
 					Set up and solve a system of linear equations to find the payback time <em>exactly</em>.
 				</p>
@@ -84,6 +82,7 @@
 		</task>
 	</page>
 	</exercise>
+</page>
 
 <page>
 	<exercise xml:id="long-jump-PE4B" workspace="0.75in">

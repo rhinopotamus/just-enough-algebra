@@ -96,11 +96,11 @@
 				<xi:include href="GraphPaper.ptx" />
 			</statement>
 		</task>
-		<p>
-			<em>The problem continues ...</em>
-		</p>
 		<task workspace="2in">
 			<statement>
+				<p>
+					<em>The problem continues ...</em>
+				</p>
 				<p>
 					For how many minutes of its descent is the airplane above 20,000 feet?
 				</p>

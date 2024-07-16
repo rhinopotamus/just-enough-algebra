@@ -86,8 +86,8 @@
     </exercise>
 </page>
 
+<page>
     <exercise xml:id="creeping-vine-PE5B">
-    <page>
         <introduction>
             <p>
                 The creeping vine is taking over Fiona's front lawn. Write <m>V</m> for the area covered by the vine (in square feet) and <m>T</m> for time in years since she moved into her house.
@@ -149,23 +149,19 @@
                 </tabular>
             </statement>
         </task>
-    </page>
-    <page>
-        <introduction>
-            <p>
-                <em>The problem continues ...</em>
-            </p>
-        </introduction>
         <task>
             <statement>
+                <p>
+                    <em>The problem continues ...</em>
+                </p>
                 <p>
                     Draw a graph showing all three models on the same set of axes.
                 </p>
                 <xi:include href="GraphPaper.ptx" />
             </statement>
         </task>
-    </page>
     </exercise>
+</page>
 
 <page>
     <exercise xml:id="infant-mortality-PE5B" workspace="1.75in">

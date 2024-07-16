@@ -42,8 +42,8 @@
 	</exercise>
 </page>
 
+<page>
 	<exercise xml:id="ebook-reader-modeling-linear" workspace="0.75in">
-	<page>
 		<introduction>
 			<p>
 				Since a very popular e-book reader was released, the price has been decreasing at a constant rate. A blogger developed the following equation representing the price <m>E</m> of the e-book reader <m>T</m> months since it was released: <me>E = 359 - 12T</me>
@@ -78,13 +78,11 @@
 				<xi:include href="GraphPaper.ptx" />
 			</statement>
 		</task>
-	</page>
-	<page>
-		<p>
-			<em>The problem continues ...</em>
-		</p>
 		<task workspace="2in">
 			<statement>
+				<p>
+					<em>The problem continues ...</em>
+				</p>
 				<p>
 					After approximately how many months was the price of the e-book reader expected to be down to $200? Set up and solve an equation.
 				</p>
@@ -104,8 +102,8 @@
 				</p>
 			</statement>
 		</task>
-	</page>
 	</exercise>
+</page>
 
 <page>
 	<exercise workspace="1in">

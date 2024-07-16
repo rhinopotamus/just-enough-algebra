@@ -171,8 +171,8 @@
 	</exercise>
 </page>
 
+<page>
 	<exercise xml:id="press-weight-slopes" workspace="2in">
-	<page>
 		<introduction>
 			<p>
 				Boy, am I out of shape. Right now I can only press about 15 pounds. (<term>Press</term> means lift weight off my chest. Literally.) My trainer says I should be able to press 50 pounds by the end of 10 weeks of serious lifting. I plan to increase the weight I press by a fixed amount each week.
@@ -199,13 +199,11 @@
 				</p>
 			</statement>
 		</task>
-	</page>
-	<page>
-		<p>
-			<em>The problem continues ...</em>
-		</p>
 		<task workspace="0in">
 			<statement>
+				<p>
+					<em>The problem continues ...</em>
+				</p>
 				<p>
 					Draw a graph illustrating the function.
 				</p>
@@ -231,9 +229,9 @@
 				</p>
 			</statement>
 		</task>
-	</page>
 	</exercise>
-	
+</page>
+
 	<xi:include href="ss-SectionNotes.ptx" />
 	<xi:include href="ss-Slopes_end.ptx" />
 </worksheet>

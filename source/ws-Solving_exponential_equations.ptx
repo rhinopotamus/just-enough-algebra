@@ -42,8 +42,8 @@
 	</exercise>
 </page>
 
+<page>
 	<exercise xml:id="chlorine-pool-solving-exponential">
-	<page>
 		<introduction>
 			<p>
 				Chlorine is used to disinfect water in swimming pools. The chlorine concentration decreases as the pool is used according to the equation <me>C = 2.5 \ast 0.975^T</me> where <m>C</m> is the chlorine concentration in parts per million (ppm) and <m>T</m> is the time in hours since the concentration was first measured. <em>(Story also appears in 5.3 #3)</em>
@@ -71,13 +71,11 @@
 				</p>
 			</statement>
 		</task>
-	</page>
-	<page>
-		<p>
-			<em>The problem continues ...</em>
-		</p>
 		<task workspace="1.5in">
 			<statement>
+				<p>
+					<em>The problem continues ...</em>
+				</p>
 				<p>
 					Use successive approximation to find <em>approximately</em> when the concentration falls below 1.5 ppm.
 				</p>
@@ -104,8 +102,8 @@
 				</p>
 			</statement>
 		</task>
-	</page>
 	</exercise>
+</page>
 
 <page>
 	<exercise xml:id="riverside-rent-solving-exponential" workspace="1.5in">

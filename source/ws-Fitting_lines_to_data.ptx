@@ -121,8 +121,8 @@
 	</exercise>
 </page>
 
+<page>
 	<exercise xml:id="work-gpa-fitting-lines">
-	<page>
 		<introduction>
 			<p>
 				Is it true that students who work part-time have lower grades? Do the number of hours matter? The table shows the grade point average (GPA) of ten students compared to the number of hours per week each student works at a part time job. The variables we used are <m>T</m>, for the time worked at job (hours/week), and <m>G</m> for the GPA, on the usual scale of 0.0 to 4.0.
@@ -181,13 +181,11 @@
 				</p>
 			</statement>
 		</task>
-	</page>
-	<page>
-		<p>
-			<em>The problem continues ...</em>
-		</p>
 		<task workspace="1in">
 			<statement>
+				<p>
+					<em>The problem continues ...</em>
+				</p>
 				<p>
 					Use your equation for line A to figure out what you would expect for the GPA of a student working 30 hours per week.
 				</p>
@@ -214,12 +212,11 @@
 				</p>
 			</statement>
 		</task>
-	</page>
 	</exercise>
+</page>
 
-
+<page>
 	<exercise xml:id="candy-shop-fitting-lines">
-	<page>
 		<introduction>
 			<p>
 				Mia and Mandi and opened a candy shop this January. The table shows their monthly sales profit. Except for some seasonal fluctuation, Mia and Mandi generally expect your profits to rise steadily while their business is getting established.
@@ -264,13 +261,11 @@
 				</p>
 			</statement>
 		</task>
-	</page>
-	<page>
-		<p>
-			<em>The problem continues ...</em>
-		</p>
 		<task workspace="3in">
 			<statement>
+				<p>
+					<em>The problem continues ...</em>
+				</p>
 				<p>
 					Write an equation for the line through March and July. Notice that you need to find the intercept this time. Add this line (#2) to your graph. This line is too steep.
 				</p>
@@ -297,8 +292,8 @@
 				</p>
 			</statement>
 		</task>
-	</page>
 	</exercise>
+</page>
 	
 	<xi:include href="ss-SectionNotes.ptx" />
 	<xi:include href="ss-Fitting_lines_to_data_end.ptx" />

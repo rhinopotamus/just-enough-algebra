@@ -91,8 +91,8 @@
     </exercise>
 </page>
 
+<page>
     <exercise xml:id="twin-cities-geese-PE5A">
-    <page>
         <introduction>
             <p>
                 The number of geese in the Twin Cities metropolitan area increased from 480 in 1968 to 25,000 in 1994. Although population is sometimes modeled with exponential models, there are many factors that might make an exponential model inappropriate, such as changes in migration, wetlands, and hunting.
@@ -119,15 +119,11 @@
                 </p>
             </statement>
         </task>
-    </page>
-    <page>
-        <introduction>
-            <p>
-                <em>The problem continues ...</em>
-            </p>
-        </introduction>
         <task workspace="1in">
             <statement>
+                <p>
+                    <em>The problem continues ...</em>
+                </p>
                 <p>
                     Compare the models' projections for 1968, 1975, 1984, 1994, 2000, 2010, and 2020. Summarize your findings in a table.
                 </p>
@@ -158,8 +154,8 @@
                 </p>
             </statement>
         </task>
-    </page>
     </exercise>
+</page>
 
 <page>
     <exercise xml:id="strontium-90-PE5A">

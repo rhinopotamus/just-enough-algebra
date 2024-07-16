@@ -38,11 +38,11 @@
 				<xi:include href="GraphPaper.ptx" />
 			</statement>
 		</task>
-		<p>
-			<em>The problem continues ...</em>
-		</p>
 		<task>
 			<statement>
+				<p>
+					<em>The problem continues ...</em>
+				</p>
 				<p>
 					Set up and solve an equation to determine when will Beanie Babies made in 1994 were anticipated to be worth over $40. Report the actual year.
 				</p>

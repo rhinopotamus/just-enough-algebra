@@ -19,8 +19,8 @@
         </p>
     </introduction>
 
+<page>
     <exercise xml:id="car-production-PE6A">
-	<page>
         <introduction>
             <p>
                 The graph shows the number of cars produced in North America (in millions/year) during 1951-2011.<aside>Source: Ward's Automotive Yearbooks</aside>
@@ -34,15 +34,11 @@
                 </p>
             </statement>
         </task>
-	</page>
-	<page>
-        <introduction>
-            <p>
-                <em>The problem continues ...</em>
-            </p>
-        </introduction>
         <task workspace="0.75in">
             <statement>
+				<p>
+					<em>The problem continues ...</em>
+				</p>
                 <p>
                     Approximately when did North American car production first pass 9 million/year? Indicate the corresponding point on the graph. 
                 </p>
@@ -76,11 +72,11 @@
 				</p>
 			</statement>
 		</task>
-	</page>
     </exercise>
+</page>
 
+<page>
 	<exercise xml:id="stuffed-animals-PE6A" workspace="1in">
-	<page>
 		<introduction>
 			<p>
 				Sarah and Koal are bringing a large basket of stuffed animals to the crisis nursery as gifts for the children. They estimate it will cost $<m>T</m> for <m>S</m> stuffed animals where <me>T = 39.99 + 6.95S</me>
@@ -115,13 +111,11 @@
 				<xi:include href="GraphPaper.ptx" />
 			</statement>
 		</task>
-	</page>
-	<page>
-		<p>
-			<em>The problem continues ...</em>
-		</p>
 		<task workspace="3.5in">
 			<statement>
+				<p>
+					<em>The problem continues ...</em>
+				</p>
 				<p>
 					If Sarah and Koal spent $262.39, how many stuffed animals were in the toy box they gave to the crisis nursery? Show how to set up and solve an equation to answer the question.
 				</p>
@@ -134,8 +128,8 @@
 				</p>
 			</statement>
 		</task>
-	</page>
 	</exercise>
+</page>
 
 <page>
 	<exercise xml:id="lbd-PE6A" workspace="1.2in">
