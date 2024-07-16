@@ -4,7 +4,7 @@
 	<title>Rate of change – Practice exercises</title>
 
 <page>
-	<exercise xml:id="bakery-rate-of-change" workspace="0.75in">
+	<exercise xml:id="bakery-rate-of-change" workspace="1cm">
 		<introduction>
 			<p>
 				Sweet Rose Bakery makes cakes and cupcakes. Here are their prices.
@@ -72,14 +72,14 @@
 				<xi:include href="GraphPaper.ptx" />
 			</statement>
 		</task>
-		<task workspace="0.25in">
+		<task workspace="0.1cm">
 			<statement>
 				<p>
 					The rate of change for cupcakes is constant. Any idea why?
 				</p>
 			</statement>
 		</task>
-		<task workspace="0.25in">
+		<task workspace="0.1cm">
 			<statement>
 				<p>
 					The rate of change for cakes is not constant. Any idea why?

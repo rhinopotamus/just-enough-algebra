@@ -94,14 +94,14 @@
 				There sure are a lot of squirrels in my neighborhood. The equation <me>S = 4,000\ast 1.12^T</me> estimates the number of squirrels (<m>S</m>) where <m>T</m> is the time in years since 2005.
 			</p>
 		</introduction>
-		<task>
+		<task workspace="2.5in">
 			<statement>
 				<p>
 					Make a table showing the number of squirrels in 2005, 2008, 2013, and 2017.
 				</p>
 			</statement>
 		</task>
-		<task workspace="0in">
+		<task workspace="1in">
 			<statement>
 				<p>
 					Draw a graph showing how the squirrel population grew.
@@ -192,7 +192,7 @@
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="2in">
 			<statement>
 				<p>
 					Calculate the speed (rate of change) between 0.7 seconds and 0.8 seconds.
@@ -291,7 +291,7 @@
 </page>
 
 <page>
-	<exercise xml:id="empanadas-PE6B" workspace="1.6in">
+	<exercise xml:id="empanadas-PE6B" workspace="1.5in">
 		<introduction>
 			<p>
 				For their holiday party at the office, Adriana had a tray of 200 empanadas delivered for $196. They were so good that she had a tray of 72 empanadas delivered to bring to her sister's house on Christmas Eve, which cost $78.24. Assume that the total cost is a linear function of the number of empanadas.
@@ -332,7 +332,7 @@
 </page>
 
 <page>
-	<exercise xml:id="light-rail-PE6B" workspace="2.5in">
+	<exercise xml:id="light-rail-PE6B" workspace="2.25in">
 		<introduction>
 			<p>
 				Light rail fares are currently $3.00 per ride during rush hour. Two different plans of increasing fares are being debated: 15¢ per year or 4.5% per year.

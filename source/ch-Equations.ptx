@@ -2,11 +2,6 @@
 
 <chapter xml:id="ch-Equations" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Equations</title>
-	<worksheet xml:id="ws-sdlkf"> <!-- this is a crappy hack for getting the page to break right-->
-		<page>
-			<nbsp/>
-		</page>
-	</worksheet>
 
 	<xi:include href="ws-First_look_linear.ptx" />
 	<xi:include href="ws-First_look_exponential.ptx" />

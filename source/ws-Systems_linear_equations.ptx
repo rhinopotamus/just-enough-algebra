@@ -62,7 +62,21 @@
 		<introduction>
 			<p>
 				A mug of coffee costs $3.45 at Juan's favorite cafe, unless he buys their discount card for $10 in which case a mug costs $2.90. Or, he can buy a membership for $59.99 and then coffee is only $1/mug. If we let <m>M</m> represent the number of mugs of coffee he buys and <m>T</m> represent the total cost in dollars, then the equations are:
-				<me>
+				<tabular>
+					<row>
+						<cell><em>No card:</em></cell>
+						<cell><m>T=3.45M</m></cell>
+					</row>
+					<row>
+						<cell><em>With card:</em></cell>
+						<cell><m>T=10.00+2.90M</m></cell>
+					</row>
+					<row>
+						<cell><em>Member:</em></cell>
+						<cell><m>T=59.99+1.00M</m></cell>
+					</row>
+				</tabular>
+				<!-- <me>
 					\textbf{No card:} \quad T = 3.45M
 				</me>
 				<me>
@@ -71,7 +85,7 @@
 				<me>
 					\textbf{Member:} \quad T=59.99+1.00M
 				</me>
-				
+				 -->
 			</p>
 			<p>
 				<em>(Story also appears in 1.2 #4 and 2.1 #4)</em>
@@ -92,24 +106,24 @@
 					</row>
 					<row left="minor" class="even">
 						<cell right="minor" halign="left">No card</cell>
-						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
-						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
-						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
-						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
 					</row>
 					<row left="minor" class="odd">
 						<cell right="minor" halign="left">With card</cell>
-						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
-						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
-						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
-						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
 					</row>
 					<row left="minor" class="even">
 						<cell right="minor" halign="left">Member</cell>
-						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
-						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
-						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
-						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
 					</row>
 				</tabular>
 			</statement>
@@ -219,17 +233,17 @@
 					</row>
 					<row left="minor" class="even">
 						<cell right="minor" halign="left"><m>S</m> (viburnum)</cell>
-						<cell right="minor" halign="right"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
-						<cell right="minor" halign="right"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
-						<cell right="minor" halign="right"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
-						<cell right="minor" halign="right"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+						<cell right="minor" halign="right"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+						<cell right="minor" halign="right"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+						<cell right="minor" halign="right"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+						<cell right="minor" halign="right"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
 					</row>
 					<row left="minor" class="odd">
 						<cell right="minor" halign="left"><m>S</m> (weigela)</cell>
-						<cell right="minor" halign="right"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
-						<cell right="minor" halign="right"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
-						<cell right="minor" halign="right"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
-						<cell right="minor" halign="right"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+						<cell right="minor" halign="right"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+						<cell right="minor" halign="right"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+						<cell right="minor" halign="right"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+						<cell right="minor" halign="right"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
 					</row>
 				</tabular>
 			</statement>

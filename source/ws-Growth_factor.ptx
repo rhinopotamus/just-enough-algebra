@@ -3,6 +3,7 @@
 <worksheet xml:id="ws-Growth_factor" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Growth factors - Practice exercises</title>
 
+<page>
     <introduction>
         <p>
             <term>Percent Change Formula:</term>
@@ -31,6 +32,7 @@
             If a quantity is growing (decaying) exponentially, then the growth (decay) factor is <me>\displaystyle g = \sqrt[t]{\frac{a}{s}}</me> where <m>s</m> is the starting amount and <m>a</m> is the amount after <m>t</m> time periods.
         </p>
     </introduction>
+</page>
 
 <page>
     <exercise xml:id="grandfather-bonds-growth-factor" workspace="0.7in">
@@ -131,7 +133,7 @@
                 <xi:include href="GraphPaper.ptx" />
             </statement>
         </task>
-        <task>
+        <task workspace="0in">
             <statement>
                 <p>
                     Does your answer to part (g) agree with your graph? If not, fix your work.
@@ -211,7 +213,7 @@
 </page>
 
 <page>
-    <exercise xml:id="find-growth-factor">
+    <exercise xml:id="find-growth-factor" workspace="1.75cm">
         <introduction>
             <p>
                 For each story, find the annual growth factor <m>g</m> and annual growth rate <m>r</m> as a percent.

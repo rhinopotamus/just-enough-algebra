@@ -28,7 +28,7 @@
             </p>
             <image source='CarProduction.png'/>
         </introduction>
-        <task>
+        <task workspace="1.75in">
             <statement>
                 <p>
                     Identify the variables, including units and dependence.
@@ -77,7 +77,7 @@
 </page>
 
 <page>
-	<exercise xml:id="stuffed-animals-PE6A" workspace="1in">
+	<exercise xml:id="stuffed-animals-PE6A" workspace="0.9in">
 		<introduction>
 			<p>
 				Sarah and Koal are bringing a large basket of stuffed animals to the crisis nursery as gifts for the children. They estimate it will cost $<m>T</m> for <m>S</m> stuffed animals where <me>T = 39.99 + 6.95S</me>
@@ -344,7 +344,7 @@
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="0in">
 			<statement>
 				<p>
 					At this rate when will Ericson be able to curl his goal of at least 45 pounds? Set up and solve an inequality.

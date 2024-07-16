@@ -57,19 +57,12 @@
 </page>
 	
 <page>
-	<exercise xml:id="design-business-intercepts" workspace="0.6in">
+	<exercise xml:id="design-business-intercepts" workspace="1.5cm">
 		<introduction>
 			<p>
 				Maryn is very happy. Her interior design business is finally showing a profit. She has logged a total of 471 billable hours at $35 per hour since she started her business. Accounting for start up costs, her net profit now totals $2,194.
 			</p>
 		</introduction>
-		<task workspace="0.3in">
-			<statement>
-				<p>
-					Name the variables, including units and dependence.
-				</p>
-			</statement>
-		</task>
 		<task>
 			<statement>
 				<p>
@@ -99,7 +92,7 @@
 		<task>
 			<statement>
 				<p>
-					Write an equation relating the variables.
+					Name the variables and write an equation relating them.
 				</p>
 			</statement>
 		</task>

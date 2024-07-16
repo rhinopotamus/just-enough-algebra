@@ -53,7 +53,7 @@
 </page>
 
 <page>
-    <exercise xml:id="car-investment-PE5A" workspace="2in">
+    <exercise xml:id="car-investment-PE5A" workspace="1.75in">
         <introduction>
             <p>
                 HeeChan bought a classic car in 2003 for investment purposes and has been watching the value increase over the years. Based on the data, HeeChan came up with two possible equations <me>\textbf{Logistic:} \quad C= \frac{41,000}{1+4\ast0.81^T}</me>
@@ -112,7 +112,7 @@
                 </p>
             </statement>
         </task>
-        <task>
+        <task workspace="2.5in">
             <statement>
                 <p>
                     Now write an exponential equation modeling the goose population.
@@ -168,13 +168,8 @@
         <task workspace="0.75in">
             <statement>
                 <p>
-                    After 28 years, how many milligrams of strontium-90 remains in the person's body? After 56 years?
+                    After 28 years, how many milligrams of strontium-90 remains in the person's body? After 56 years? <em>Hint: Both 28 and 56 are easy multiples of the half-life.</em>
                 </p>
-                <hint>
-                    <p>
-                        Both 28 and 56 are easy multiples of the half-life.
-                    </p>
-                </hint>
             </statement>
         </task>
         <task workspace="1.5in">

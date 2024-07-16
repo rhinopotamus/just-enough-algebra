@@ -56,14 +56,14 @@
 				<em>(Story also appears in 4.1 Exercises)</em>
 			</p>
 		</introduction>
-		<task workspace="0.75in">
+		<task workspace="0.5cm">
 			<statement>
 				<p>
 					Name the variables <m>A</m> and <m>R</m>, including units and dependence.
 				</p>
 			</statement>
 		</task>
-		<task workspace="0.75in">
+		<task workspace="0.5cm">
 			<statement>
 				<p>
 					Calculate the percentage of gold in the alloy if we add 1.2 grams of pure gold.
@@ -90,13 +90,13 @@
 					<row left="minor" class="even">
 						<cell right="minor" halign="center"><m>R</m></cell>
 						<cell right="minor" halign="center">50.0</cell>
-						<cell right="minor" halign="center"></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int" /></m></cell>
 						<cell right="minor" halign="center">64.3</cell>
-						<cell right="minor" halign="center"></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int" /></m></cell>
 						<cell right="minor" halign="center">72.2</cell>
-						<cell right="minor" halign="center"></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int" /></m></cell>
 						<cell right="minor" halign="center">80.0</cell>
-						<cell right="minor" halign="center"></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int" /></m></cell>
 					</row>
 				</tabular>
 			</statement>
@@ -121,7 +121,7 @@
 </page>
 
 <page>
-	<exercise xml:id="monty-orchids-using-equations">
+	<exercise xml:id="monty-orchids-using-equations" workspace="0.9cm">
 		<introduction>
 			<p>
 				Monty hopes to grow orchids but they are fragile plants. He will consider his greenhouse a success if at least nine of the ten orchids survive. Assuming the orchids each survive at rate <m>S</m>, the probability his greenhouse is a success, <m>P</m>, is given by
@@ -131,35 +131,35 @@
 				<em>(Story also appears in 2.4 #3)</em>
 			</p>
 		</introduction>
-		<task workspace="0.5in">
+		<task>
 			<statement>
 				<p>
 					Name the variables <m>S</m> and <m>P</m>, including units and dependence.
 				</p>
 			</statement>
 		</task>
-		<task workspace="0.5in">
+		<task>
 			<statement>
 				<p>
 					If the orchids are perfect (<m>S=1</m>), what is the probability of a successful greenhouse? Explain how this answer makes sense in the story.
 				</p>
 			</statement>
 		</task>
-		<task workspace="0.5in">
+		<task>
 			<statement>
 				<p>
 					If the orchids are complete duds (<m>S=0</m>), what is the probability of a successful greenhouse? Explain how this answer makes sense in the story.
 				</p>
 			</statement>
 		</task>
-		<task workspace="0.75in">
+		<task workspace="1.5cm">
 			<statement>
 				<p>
 					Make a table comparing the probability of a successful greenhouse if the orchids each survive at rate S = 0, 0.5, 0.8, 0.9, 0.95, or 1.
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="0cm">
 			<statement>
 				<p>
 					Draw a graph of the function.

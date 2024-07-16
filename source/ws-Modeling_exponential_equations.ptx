@@ -135,7 +135,7 @@
 </page>
 
 <page>
-    <exercise xml:id="greenhouse-co2-modeling-exponential" workspace="1.2in">
+    <exercise xml:id="greenhouse-co2-modeling-exponential" workspace="1.4in">
         <introduction>
             <p>
                 Carbon dioxide is a greenhouse gas in our atmosphere. Increasing carbon dioxide concentrations are related to global climate change. In 1980, the carbon dioxide concentration was 338 ppm (parts per million). At that time it was assumed that carbon dioxide concentrations would increase 0.42% per year.

@@ -8,25 +8,27 @@
 		<introduction>
 			<p>
 				The size of a round pizza is described by its <term>diameter</term> (distance across). Assuming a 16-inch diameter pizza serves four people, and with a little geometry to help us out, we calculated that a pizza of diameter <m>D</m> inches serves <m>P</m> people, where 
-				<me>P = 0.015625\ D^2</me>
-				<em>(Story also appears in 3.3 #1 and 4.1 #3)</em>
+				<me>
+					P = 0.015625\ D^2
+					\qquad\qquad \textit{(Story also appears in 3.3 \#1 and 4.1 \#3)}
+				</me>
 			</p>
 		</introduction>
-		<task workspace="0.5in">
+		<task workspace="0.5cm">
 			<statement>
 				<p>
 					Confirm that a 16-inch pizza serves four people.
 				</p>
 			</statement>
 		</task>
-		<task workspace="0.75in">
+		<task workspace="1cm">
 			<statement>
 				<p>
 					How many people does a 12-inch pizza serve? How about a 14-inch pizza?
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="0cm">
 			<statement>
 				<p>
 					Graph the function. Include what happens when <m>D=0</m>.
@@ -34,7 +36,7 @@
 				<xi:include href="GraphPaper.ptx" />
 			</statement>
 		</task>
-		<task workspace="0.5in">
+		<task workspace="1cm">
 			<statement>
 				<p>
 					A <term>personal</term> pizza is sized to serve one person. Use successive approximation to estimate the diameter of a personal pizza to the nearest inch.
@@ -42,7 +44,7 @@
 			</statement>
 <!-- scaffold table? -->
 		</task>
-		<task>
+		<task workspace="0cm">
 			<statement>
 				<p>
 					What diameter should an extra large pizza be to serve 6 people? Answer to the nearest inch.
@@ -54,7 +56,7 @@
 </page>
 
 <page>
-	<exercise xml:id="fuel-350-approx-solutions" workspace="0.5in">
+	<exercise xml:id="fuel-350-approx-solutions" workspace="1.25cm">
 		<introduction>
 			<p>
 				Suppose the gas tank of a car is designed to hold enough fuel to drive 350 miles. (That's fairly average.) A hybrid car with fuel efficiency of 50 miles per gallon (mpg) would only need a 7 gallon gas tank, but a recreational vehicle that gets only 10 mpg would need a 35 gallon gas tank. <em>(Story also appears in 3.3 #3)</em>
@@ -191,7 +193,7 @@
 				</p>
 			</statement>
 		</task>
-		<task workspace="1in">
+		<task workspace="1.5in">
 			<statement>
 				<p>
 					Approximately when will Brazil's population top 500 million? Will Nigeria get there first? Display your work in a successive approximation table.

@@ -19,7 +19,7 @@
 			</p>
 			<image source='highjumper.png'/>
 		</introduction>
-		<task>
+		<task workspace="3in">
 			<statement>
 				<p>
 					When would the high-jumper hit the ground (if there were no pit)? Ouch! Use the <term>Quadratic Formula</term> to find the answer. Use the graph to check.
@@ -82,11 +82,11 @@
 					<row left="minor" class="even">
 						<cell right="minor" halign="center"><m>N</m></cell>
 						<cell right="minor" halign="center">3,700</cell>
-						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
 						<cell right="minor" halign="center">400</cell>
 						<cell right="minor" halign="center">2,575</cell>
 						<cell right="minor" halign="center">7,300</cell>
-						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
 						<cell right="minor" halign="center">24,400</cell>
 					</row>
 				</tabular>
@@ -100,14 +100,14 @@
 				<xi:include href="GraphPaper.ptx" />
 			</statement>
 		</task>
-		<task>
+		<task workspace="2in">
 			<statement>
 				<p>
 					In what year did the number of visitors first pass 30,000 in a year? Estimate the value from your graph. Then set up and solve a quadratic equation.
 				</p>
 			</statement>
 		</task>
-		<task workspace="2.5in">
+		<task workspace="2in">
 			<statement>
 				<p>
 					<em>The problem continues ...</em>
@@ -117,14 +117,14 @@
 				</p>
 			</statement>
 		</task>
-		<task workspace="2.5in">
+		<task workspace="2in">
 			<statement>
 				<p>
 					Explain why <m>N</m> never equals 0.
 				</p>
 			</statement>
 		</task>
-		<task workspace="2.5in">
+		<task workspace="2in">
 			<statement>
 				<p>
 					What happens if you try to use the <term>Quadratic Formula</term> to solve for <m>N=0</m>?
@@ -141,14 +141,14 @@
 				The profit $<m>P</m> from selling <m>M</m> tanks of milk is described by the equation <me>P=-2M^2+2,000M-80,000</me>
 			</p>
 		</introduction>
-		<task>
+		<task workspace="0.5in">
 			<statement>
 				<p>
 					Here is a graph of the function:
 				</p>
 				<image source='milk.png'/>	
 				<p>
-					Explain why negative numbers on the horizontal axis make sense in the story.
+					Explain why negative numbers on the vertical axis make sense in the story.
 				</p>
 			</statement>
 		</task>
@@ -159,7 +159,7 @@
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="2in">
 			<statement>
 				<p>
 					For practice, set up and solve a quadratic equation to find the break even point.

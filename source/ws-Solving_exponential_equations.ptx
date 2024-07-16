@@ -64,7 +64,7 @@
 				<xi:include href="GraphPaper.ptx" />
 			</statement>
 		</task>
-		<task>
+		<task workspace="1in">
 			<statement>
 				<p>
 					Chlorine concentrations below 1.5 ppm do not disinfect properly so more chlorine needs to be added. According to your graph, <em>approximately</em> when will that happen? 

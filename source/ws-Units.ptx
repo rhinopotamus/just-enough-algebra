@@ -9,10 +9,9 @@
 			<introduction>
 				<p>
 					Compare centimeters (cm) and inches, using that 1 inch <m>\approx</m> 2.54 cm.
-					
 				</p>
 			</introduction>
-			<task>
+			<task workspace="0cm">
 				<statement>
 					<p>
 						Which is longer: 1 inch or 1 centimeter?
@@ -41,7 +40,7 @@
 					
 				</p>
 			</introduction>
-			<task>
+			<task workspace="0cm">
 				<statement>
 					<p>
 						Which is longer: 1 yard or 1 meter?
@@ -65,7 +64,6 @@
 				</statement>
 			</task>
 		</task>
-
 		<task>
 			<introduction>
 				<p>
@@ -73,7 +71,7 @@
 					
 				</p>
 			</introduction>
-			<task>
+			<task workspace="0cm">
 				<statement>
 					<p>
 						Which is longer: 1 mile or 1 kilometer?
@@ -99,7 +97,7 @@
 </page>
 
 <page> <!-- This one might just require a manual edit. -->
-	<exercise xml:id="decimal-hours-lengths-units" workspace="0.75in">
+	<exercise xml:id="decimal-hours-lengths-units" workspace="1in">
 		<task>
 			<statement>
 				<p>
@@ -140,7 +138,7 @@
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="0in">
 			<statement>
 				<p>
 					Abdi volunteers at a food bank. He noticed that the shelf on the back wall 

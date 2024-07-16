@@ -5,22 +5,25 @@
 	<title>Finance formulas - Practice exercises</title>
 <page>
 	<introduction>
-		<title>Formulas for Chapter 2</title>
-
-		<p>
-			<term>Percent Change Formula:</term> If a quantity increases by a percentage corresponding to growth rate <m>r</m>, then the growth factor is <me>\displaystyle g=1+r</me>
-		</p>
-
 		<p>
 			<term>Compound Interest Formula:</term> <m>\displaystyle a = p \left( 1 + \frac{r}{12}\right) ^{12y}</m>
+		</p>
+		<p>
+			<nbsp/>
 		</p>
 
 		<p>
 			<term>Equivalent APR Formula:</term> <m>\displaystyle \text{APR} = \left(1+\frac{r}{12}\right)^{12}-1</m>
 		</p>
+		<p>
+			<nbsp/>
+		</p>
 
 		<p>
 			<term>Future Value Annuity Formula:</term> <m>\displaystyle a = p \ast \frac{\left( 1 + \frac{r}{12}\right) ^{12y}-1}{\frac{r}{12}}</m>
+		</p>
+		<p>
+			<nbsp/>
 		</p>
 
 		<p>
@@ -79,7 +82,7 @@
 		<task>
 			<statement>
 				<p>
-					Kiran would really like to buy a new hybrid car that sells for $. Sadly Kiran's credit rating is not very good, so the best the dealership offers is a loan at (you guessed it) 7% interest compouned monthly. Use the <term>Loan Payment Formula</term> to calculate her monthly car payments on a six year loan.
+					Kiran would really like to buy a new hybrid car that sells for $23,500. Sadly Kiran's credit rating is not very good, so the best the dealership offers is a loan at (you guessed it) 7% interest compouned monthly. Use the <term>Loan Payment Formula</term> to calculate her monthly car payments on a six year loan.
 				</p>
 			</statement>
 		</task>

@@ -113,7 +113,7 @@
 </page>
 
 <page>
-	<exercise xml:id="property-tax-PE1B" workspace="1.5in">
+	<exercise xml:id="property-tax-PE1B" workspace="1.4in">
 		<introduction>
 			<p>
 				In 1990 the Lefèvre's property tax was $450, but it doubled every year thereafter.
@@ -126,7 +126,7 @@
 				</p>
 			</statement>
 		</task>
-		<task workspace="1in">
+		<task workspace="0.5in">
 			<statement>
 				<p>
 					Which is the independent variable and which is the dependent variable?
@@ -181,7 +181,7 @@
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="0in">
 			<statement>
 				<p>
 					If you could drive to the moon at 55 mph, how long would it take to get there? Express your answer in terms of months, using <m>1 \text{ month} \approx 30 \text{ days}</m>.

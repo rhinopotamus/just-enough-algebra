@@ -5,19 +5,12 @@
 	<title>Slopes - Practice exercises</title>
 
 <page>
-	<exercise xml:id="wings-delivery-slopes" workspace="0.5in">
+	<exercise xml:id="wings-delivery-slopes" workspace="1cm">
 		<introduction>
 			<p>
 				For his Oscars party, Harland had 70 chicken wings delivered for $51.25. For his Super Bowl bash, Harland had 125 chicken wings delivered for $83.70. In each case, the total cost includes the cost per wing and the fixed delivery charge.
 			</p>
 		</introduction>
-		<task>
-			<statement>
-				<p>
-					Name the variables, including units and dependence.
-				</p>
-			</statement>
-		</task>
 		<task>
 			<statement>
 				<p>
@@ -35,11 +28,11 @@
 		<task>
 			<statement>
 				<p>
-					Write an equation for the function.
+					Name the variables and write an equation for the function.
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="2cm">
 			<statement>
 				<p>
 					How many wings could Harland order for $100? Solve your equation.
@@ -210,7 +203,7 @@
 				<xi:include href="GraphPaper.ptx" />
 			</statement>
 		</task>
-		<task workspace="1in">
+		<task workspace="1.5in">
 			<statement>
 				<p>
 					I am skeptical. I do not think I will be able to press 50 pounds by the end of 10 weeks. If I revise my equation, would my new slope be larger or smaller?
@@ -220,7 +213,7 @@
 				</p>
 			</statement>
 		</task>
-		<task workspace="1in">
+		<task workspace="1.5in">
 			<statement>
 				<p>
 					Will my revised projections mean I will reach that 90-pound goal sooner or later than my trainer thinks? Explain. <em>Hint: extend your graph.</em>

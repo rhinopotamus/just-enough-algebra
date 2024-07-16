@@ -3,6 +3,7 @@
  
 <worksheet xml:id="ws-Linear_vs_exponential" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Linear <vs/> exponential models - Practice exercises</title>
+<page>
     <introduction>
         
         <p>
@@ -44,6 +45,8 @@
 
         </ul></p>
     </introduction>
+</page>
+
 
 <page>
     <exercise xml:id="parents-house-linear-exponential">
@@ -76,7 +79,7 @@
                 </p>
             </statement>
         </task>
-        <task>
+        <task workspace="1in">
             <statement>
                 <p>
                     Check that your equation gives the correct sold value.
@@ -137,7 +140,7 @@
                 </p>
             </statement>
         </task>
-        <task>
+        <task workspace="0.25in">
             <statement>
                 <p>
                     Check that your equation gives the correct value for 2010.
@@ -161,7 +164,7 @@
                 </p>
             </statement>
         </task>
-        <task>
+        <task workspace="0.25in">
             <statement>
                 <p>
                     Check that your equation gives the correct value for 2010.
@@ -198,19 +201,19 @@
                     </row>
                     <row left="minor" class="even">
                         <cell right="minor" halign="center"><m>J</m> (if linear)</cell>
-                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
-                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
-                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
-                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
-                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{cc}xxxx\\xxxx\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{cc}xxxx\\xxxx\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{cc}xxxx\\xxxx\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{cc}xxxx\\xxxx\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{cc}xxxx\\xxxx\end{array}"/></m></cell>
                     </row>
                     <row left="minor" class="odd">
                         <cell right="minor" halign="center"><m>J</m> (if exponential)</cell>
-                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
-                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
-                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
-                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
-                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{cc}xxxx\\xxxx\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{cc}xxxx\\xxxx\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{cc}xxxx\\xxxx\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{cc}xxxx\\xxxx\end{array}"/></m></cell>
+                        <cell right="minor" halign="center"><m><fillin fill="\begin{array}{cc}xxxx\\xxxx\end{array}"/></m></cell>
                     </row>
                 </tabular>
             </statement>
@@ -255,7 +258,7 @@
                 </p>
             </statement>
         </task>
-        <task>
+        <task workspace="0in">
             <statement>
                 <p>
                     Which of these two models do you think is more sensible, and why?
@@ -286,7 +289,7 @@
                 </p>
             </statement>
         </task>
-        <task>
+        <task workspace="0.25in">
             <statement>
                 <p>
                     Draw a graph showing both options.
@@ -294,7 +297,7 @@
                 <xi:include href="GraphPaper.ptx" />
             </statement>
         </task>
-        <task workspace="2in">
+        <task workspace="3in">
             <statement>
                 <p>
                     <em>The problem continues ...</em>
@@ -304,7 +307,7 @@
                 </p>
             </statement>
         </task>
-        <task workspace="2in">
+        <task workspace="3.5in">
             <statement>
                 <p>
                     If most of your constituents are members of the same union as the bus drivers (who count on solid earnings from the bus company to keep their jobs), then which plan should you support?

@@ -12,7 +12,7 @@
                 <em>Story also appears ....</em>
             </p>
         </introduction>
-        <task workspace="0.75in">
+        <task workspace="1in">
             <statement>
                 <p>
                     Name the variables, including units.
@@ -33,7 +33,7 @@
                 </p>
             </statement>
         </task>
-        <task>
+        <task workspace="1.5in">
             <statement>
                 <p>
                     The signal will need a <term>booster</term> (something to make the signal stronger again) when it has fallen to under 0.75 units. How far along the cable should the booster be placed? Set up and solve an equation.
@@ -187,7 +187,7 @@
                 </p>
             </statement>
         </task>
-        <task workspace="0in">
+        <task>
             <statement>
                 <p>
                     Comment on why our assumption is unrealistic.

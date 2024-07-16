@@ -16,35 +16,49 @@
 				<p>
 					For each line, state some reason why the fit is not good. (We know the line will not go through all, or even most, of the points, so that is not the problem. Instead look at slope/steepness, intercept/height, etc.)
 				</p>
-				<tabular>
-					<row class="odd">
-						<cell halign="left">LINE A</cell>
-						<cell halign="center"></cell>
-						<cell halign="left">LINE B</cell>
-					</row>
-					<row class="even">
-						<cell halign="left"><image source='woodforestA.png'/></cell>
-						<cell halign="center"> </cell>
-						<cell halign="left"><image source='woodforestC.png'/></cell>
-					</row>
-				</tabular>
+				<sidebyside>
+					<stack>
+						<p>Line A</p>	
+						<image source='woodforestA.png'/>
+					</stack>
+					<stack>
+						<p>Line B</p>
+						<image source='woodforestC.png'/>
+					</stack>
+				</sidebyside>
 				<p>
-					
+					<nbsp/>
 				</p>
-				<tabular>
-					<row class="odd">
-						<cell halign="left">LINE C</cell>
-						<cell halign="center"></cell>
-						<cell halign="left">LINE D</cell>
-					</row>
-					<row class="even">
-						<cell halign="left"><image source='woodforestD.png'/></cell>
-						<cell halign="center"> </cell>
-						<cell halign="left"><image source='woodforestE.png'/></cell>
-					</row>
-				</tabular>
 				<p>
-					
+					<nbsp/>
+				</p>
+				<p>
+					<nbsp/>
+				</p>
+				<p>
+					<nbsp/>
+				</p>
+				<sidebyside>
+					<stack>
+						<p>Line C</p>	
+						<image source='woodforestD.png'/>
+					</stack>
+					<stack>
+						<p>Line D</p>
+						<image source='woodforestE.png'/>
+					</stack>
+				</sidebyside>
+				<p>
+					<nbsp/>
+				</p>
+				<p>
+					<nbsp/>
+				</p>
+				<p>
+					<nbsp/>
+				</p>
+				<p>
+					<nbsp/>
 				</p>
 			</statement>
 		</task>
@@ -164,7 +178,7 @@
 				<xi:include href="GraphPaper.ptx" />
 			</statement>
 		</task>
-		<task workspace="2in">
+		<task workspace="2.5in">
 			<statement>
 				<p>
 					Find the equation of the line that goes through the first and last point listed.
@@ -254,7 +268,7 @@
 				<xi:include href="GraphPaper.ptx" />
 			</statement>
 		</task>
-		<task>
+		<task workspace="8cm">
 			<statement>
 				<p>
 					Name the variables and write an equation for the line through January and August. Add this line (#1) to your graph. This line is too low.
@@ -285,7 +299,7 @@
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="1in">
 			<statement>
 				<p>
 					Explain why Mia and Mandi should not use either of these lines to estimate October's sales.
