@@ -59,7 +59,7 @@
 </page>
 
 <page>
-	<exercise xml:id="stock-price-fitting-lines" workspace="0.75in">
+	<exercise xml:id="stock-price-fitting-lines" workspace="0.7in">
 		<introduction>
 			<p>
 				Noel is considering investing in a company's stock so he looked up a few values.

@@ -32,7 +32,7 @@
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="1in">
 			<statement>
 				<p>
 					Hopefully Stephen will stop drinking before he reaches a BAC of 0.20. If not, at the rate he is drinking, when would that be? Set up and solve an equation. Answer to the nearest minute.
@@ -106,20 +106,20 @@
 </page>
 
 <page>
-	<exercise xml:id="riverside-rent-solving-exponential" workspace="1.5in">
+	<exercise xml:id="riverside-rent-solving-exponential" workspace="1.2in">
 		<introduction>
 			<p>
 				Rent in the Riverside Neighborhood is expected to increase 7.2% each year. Average rent for an apartment is currently $830 per month. Earlier we identified the variables as <m>R</m> for the monthly rent (in $) and <m>T</m> for time in years. <em>(Story also appears in 1.1 #2)</em>
 			</p>
 		</introduction>
-		<task workspace="1in">
+		<task workspace="0.75in">
 			<statement>
 				<p>
 					Find the annual growth factor.
 				</p>
 			</statement>
 		</task>
-		<task workspace="1in">
+		<task workspace="0.75in">
 			<statement>
 				<p>
 					Write an equation showing how rent is expected to change.
@@ -151,7 +151,7 @@
 </page>
 
 <page>
-	<exercise xml:id="mortgage-payoff-solving-exponential" workspace="1.2in">
+	<exercise xml:id="mortgage-payoff-solving-exponential" workspace="1.5in">
 		<introduction>
 			<p>
 				Dontrell and Kim borrowed money to buy a house on a 30-year mortgage. After <m>T</m> months of making payments, Dontrell and Kim will still owe $<m>D</m> where <me>D=236,000-56,000 \ast 1.004^T</me> <m>D</m> is also known as the <term>payoff</term> (how much they would need to pay to settle the debt). <em>(Story also appears in 2.3 #3)</em>

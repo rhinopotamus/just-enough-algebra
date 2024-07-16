@@ -130,11 +130,11 @@
 					Find the intercept. Explain why this number does not make sense in the problem.
 				</p>
 			</statement>
-			<hint>
+			<!-- <hint>
 				<p>
 					Why doesn't it make sense for the independent variable to be 0?
 				</p>
-			</hint>
+			</hint> -->
 		</task>
 		<task>
 			<statement>
@@ -192,7 +192,7 @@
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="2.2in">
 			<statement>
 				<p>
 					Years ago I could press 90 pounds. At this rate, when will I be able to press at least 90 pounds again? Set up and solve an inequality.
@@ -215,12 +215,10 @@
 				<p>
 					I am skeptical. I do not think I will be able to press 50 pounds by the end of 10 weeks. If I revise my equation, would my new slope be larger or smaller?
 				</p>
-			</statement>
-			<hint>
 				<p>
-					Try sketching in a possible revised line on your graph assuming that after 10 weeks I will press much less than 50 pounds.
+					<em>Hint: Try sketching in a possible revised line on your graph assuming that after 10 weeks I will press much less than 50 pounds.</em>
 				</p>
-			</hint>
+			</statement>
 		</task>
 		<task workspace="1in">
 			<statement>

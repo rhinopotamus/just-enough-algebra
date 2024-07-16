@@ -28,7 +28,7 @@
 </page>
 
 <page>
-	<exercise xml:id="comedy-anxiety-solving-linear" workspace="1in">
+	<exercise xml:id="comedy-anxiety-solving-linear" workspace="0.8in">
 		<introduction>
 			<p>
 				Is laughter really the best medicine? A study examined the impact of comedy on anxiety levels. Subjects' anxiety levels were rated on a scale of 1 to 5 before and after the study. Levels averaged 4.3 before the study. There was no significant change in subjects in the control group. Subjects who watched the comedy videos showed a noticeable difference, and it depended on the hours of comedy watched. Anxiety levels fell an average of 0.098 (on the 1 to 5 scale) for each hour of comedy watched.
@@ -51,7 +51,7 @@
 		<task>
 			<statement>
 				<p>
-					Use successive approximation to guess the <em>approximate</em> number of hours watching comedy needed to lower the average anxiety level below 2 (on that scale of 1 to 5).
+					Use successive approximation to guess the <em>approximate</em> number of hours watching comedy needed to lower the average anxiety level below 2.
 				</p>
 			</statement>
 		</task>

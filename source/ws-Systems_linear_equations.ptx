@@ -267,17 +267,18 @@
 				</me>
 			</p>
 			<p>
-				The <term>equilibrium price</term> of flour is the price where the supply equals the demand.<aside>Source: <q>Using Algebra</q> by Ethan Bolker</aside>
+				The <term>equilibrium price</term> of flour is the price where the supply equals the demand.
+				<!-- <aside>Source: <q>Using Algebra</q> by Ethan Bolker</aside> -->
 			</p>
 		</introduction>
-		<task>
+		<task workspace="1cm">
 			<statement>
 				<p>
 					What happens if flour is priced at $1.00/pound? That is, how much flour will be produced and how much will consumers demand?
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="1cm">
 			<statement>
 				<p>
 					What happens if flour is priced at $0.50/pound? That is, how much flour will be produced and how much will consumers demand?

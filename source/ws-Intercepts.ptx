@@ -57,13 +57,13 @@
 </page>
 	
 <page>
-	<exercise xml:id="design-business-intercepts" workspace="0.75in">
+	<exercise xml:id="design-business-intercepts" workspace="0.6in">
 		<introduction>
 			<p>
 				Maryn is very happy. Her interior design business is finally showing a profit. She has logged a total of 471 billable hours at $35 per hour since she started her business. Accounting for start up costs, her net profit now totals $2,194.
 			</p>
 		</introduction>
-		<task workspace="0.5in">
+		<task workspace="0.3in">
 			<statement>
 				<p>
 					Name the variables, including units and dependence.
@@ -73,7 +73,7 @@
 		<task>
 			<statement>
 				<p>
-					What were Maryn's start up costs?
+					How much were Maryn's start up costs?
 				</p>
 			</statement>
 		</task>
@@ -83,11 +83,11 @@
 					Identify the slope and intercept (including their units and sign) and explain what each means in terms of the story.
 				</p>
 			</statement>
-			<hint>
+			<!-- <hint>
 				<p>
 					The intercept should probably be negative, and it's not 2,194.
 				</p>
-			</hint>
+			</hint> -->
 		</task>
 		<task>
 			<statement>
@@ -103,7 +103,7 @@
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="0in">
 			<statement>
 				<p>
 					Graph the function.
@@ -115,7 +115,7 @@
 </page>
 
 <page>
-	<exercise xml:id="weight-change-intercepts" workspace="1.5in">
+	<exercise xml:id="weight-change-intercepts" workspace="1.3in">
 		<introduction>
 			<p>
 				For each story, find the initial weight of the person and use it to write an equation showing how the person's weight <m>W</m> pounds depends on the time, <m>T</m> weeks.
