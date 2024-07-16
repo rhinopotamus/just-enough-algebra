@@ -298,8 +298,8 @@
 	</exercise>
 </page>
 
-	<page><xi:include href="ss-SectionNotes.ptx" />
-	<xi:include href="ss-Metric_system_and_scientific_notation_end.ptx" /></page>
+	<xi:include href="ss-SectionNotes.ptx" />
+	<xi:include href="ss-Metric_system_and_scientific_notation_end.ptx" />
 
 
 

@@ -2,7 +2,7 @@
     "xml.fileAssociations": [
         {
             "pattern": "**/source/**.ptx",
-            "systemId": "C:\\Users\\calibaan\\.ptx\\schema\\pretext-dev.rng"
+            "systemId": "C:\\Users\\sbagley\\.ptx\\2.5.1\\core\\schema\\pretext.rng"
         }
     ]
 }

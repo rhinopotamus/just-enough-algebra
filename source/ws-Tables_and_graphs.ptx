@@ -340,7 +340,7 @@
 	</exercise>
 </page>
 	
-	<page><xi:include href="ss-SectionNotes.ptx" />
-	<xi:include href="ss-Tables_and_graphs_end.ptx" /></page>
+	<xi:include href="ss-SectionNotes.ptx" />
+	<xi:include href="ss-Tables_and_graphs_end.ptx" />
 
 </worksheet>

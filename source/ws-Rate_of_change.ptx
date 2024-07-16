@@ -279,10 +279,8 @@
 	</exercise>
 </page>
 
-	<page>
 	<xi:include href="ss-SectionNotes.ptx" />
 	<xi:include href="ss-Rate_of_change_end.ptx" />
-	</page>
 
 </worksheet>
 

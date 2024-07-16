@@ -246,8 +246,8 @@
 	</exercise>
 </page>
 
-	<page><xi:include href="ss-SectionNotes.ptx" />
-	<xi:include href="ss-Units_end.ptx" /></page>
+	<xi:include href="ss-SectionNotes.ptx" />
+	<xi:include href="ss-Units_end.ptx" />
 
 
 

@@ -182,8 +182,8 @@
 	</exercise>
 </page>
 
-	<page>
+	
 	<xi:include href="ss-SectionNotes.ptx" />
 	<xi:include href="ss-Variables_and_functions_end.ptx" />
-	</page>
+	
 </worksheet>
