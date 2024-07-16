@@ -4,7 +4,7 @@
 <worksheet xml:id="ws-Logarithms" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Prelude: Logarithms - Practice exercises</title>
 <page>
-    <exercise xml:id="bacteria-logarithms" workspace="0.8in">
+    <exercise xml:id="bacteria-logarithms" workspace="0.6in">
         <introduction>
             <p>
                 The number of bacteria in a dish increases 10-fold each day. Note: 10-fold means <m>\times 10</m>. Suppose we had 1 microliter of bacteria at the start of the first day. That means after <m>T</m> days there will be <m>10^T</m> microliters of bacteria.
@@ -32,7 +32,7 @@
             </statement>
         </task>
     </exercise>
-    <exercise workspace="0.8in">
+    <exercise workspace="0.6in">
         <introduction>
             <p>
                 The problem continues ...
@@ -55,7 +55,7 @@
         <task>
             <statement>
                 <p>
-                    Convert your answer to days &amp; hours format (<q><fillin/> days and <fillin/> hours</q>).
+                    Convert your answer to days &amp; hours format (<q><fillin characters="2"/> days and <fillin characters="2"/> hours</q>).
                 </p>
             </statement>
         </task>
@@ -63,7 +63,7 @@
 </page>
 
 <page>
-    <exercise xml:id="pH-logarithms" workspace="0.6in">
+    <exercise xml:id="pH-logarithms" workspace="0.4in">
         <introduction>
             <p>
                 The equation <m>pH = -\log(H^+)</m> tells us the pH of a substance (on a scale from 0 to 14) based on its molar hydrogen ion concentration <m>H^+</m>. Don't let the notation here scare you: <m>pH</m> is a single quantity and <m>H^+</m> has nothing to do with exponents or adding.
@@ -102,7 +102,7 @@
             </statement>
         </task>
     </exercise>
-    <exercise xml:id="astra-rent-logarithms" workspace="0.6in">
+    <exercise xml:id="astra-rent-logarithms" workspace="0.4in">
         <introduction>
             <p>
                 In Minneapolis, apartment rent is expected to increase by 16% next year. <em>(Story also appears in 0.3 #2 and 0.6 #3)</em>

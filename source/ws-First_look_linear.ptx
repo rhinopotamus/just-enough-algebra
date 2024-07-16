@@ -5,7 +5,7 @@
 <worksheet xml:id="ws-First_look_linear" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>A first look at linear equations – Practice exercises</title>
 <page>
-	<exercise xml:id="truck-grass-first-look-linear">
+	<exercise xml:id="truck-grass-first-look-linear" workspace="0.75in"> 
 		<introduction>
 			<p>
 				A truck hauling bags of grass seed pulls into a weigh station along the highway. Trucks are weighed to determine the amount of highway tax. This particular truck weighs pounds when it is empty. Each bag of grass seed it carries weighs 4.2 pounds. For example, a truck is carrying bags of grass seed weighs <me>\text{3,900 pounds } + \frac{4.2 \text{ pounds}}{\text{bag}} \ast \text{1,000  bags} = \text{3,900} + 4.2\times\text{1,000}=\text{8,100 pounds}</me> In official trucking lingo, we say the <term>curb weight</term> of pounds plus the <term>load weight</term> of pounds results in a <term>gross weight</term> of pounds. So, now you know. <em>(Story also appears in 0.2 #?, 3.1 #1 and 3.2 #1)</em>
@@ -39,17 +39,17 @@
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="0.25in">
 			<statement>
 				<p>
 					The bags of grass seed are piled on wood <term>pallets</term> (sturdy platforms) to make them more stable for moving. How much does the truck weigh if it is carrying 12 pallets, where each pallet weighs 15 pounds and holds 96 bags of grass seed?
 				</p>
 			</statement>
-			<hint>
+			<!-- <hint>
 				<p>
 					How much does one pallet of grass seed weigh?
 				</p>
-			</hint>
+			</hint> -->
 		</task>
 	</exercise>
 </page>
@@ -173,11 +173,11 @@
 					Write an equation describing how the total cost depends on how many mugs of coffee Juan buys, if he buys the discount card.
 				</p>
 			</statement>
-			<hint>
+			<!-- <hint>
 				<p>
 					What is the slope, and what is the intercept?
 				</p>
-			</hint>
+			</hint> -->
 		</task>
 		<task>
 			<statement>
@@ -185,11 +185,11 @@
 					How would the equation change if the cafe offers a new annual membership card that cost $59.99 that entitles Juan to buy coffee for only $1 per mug all year?
 				</p>
 			</statement>
-			<hint>
+			<!-- <hint>
 				<p>
 					What is the slope, and what is the intercept?
 				</p>
-			</hint>
+			</hint> -->
 		</task>
 	</exercise>
 </page>

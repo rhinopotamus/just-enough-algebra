@@ -176,21 +176,21 @@
 				</row>
 			</tabular>
 		</introduction>
-		<task>
+		<task workspace="2in">
 			<statement>
 				<p>
 					Which of these countries is projected to have the largest population in 2020? In 2030? In 2050?
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="1in">
 			<statement>
 				<p>
 					Explain why Bangladesh's population will not overtake Nigeria's, assuming these projections are accurate.
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="1in">
 			<statement>
 				<p>
 					Approximately when will Brazil's population top 500 million? Will Nigeria get there first? Display your work in a successive approximation table.

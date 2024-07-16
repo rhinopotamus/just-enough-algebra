@@ -3,7 +3,8 @@
 <worksheet xml:id="ws-Units" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Units - Practice exercises</title>
 
-	<page><exercise xml:id="compare-lengths-units" workspace="0.5in">
+<page> <!-- This one might just require a manual edit. -->
+	<exercise xml:id="compare-lengths-units" workspace="1cm">
 		<task>
 			<introduction>
 				<p>
@@ -94,20 +95,22 @@
 				</statement>
 			</task>
 		</task>
-	</exercise></page>
+	</exercise>
+</page>
 
-	<page><exercise xml:id="decimal-hours-lengths-units" workspace="1in">
+<page> <!-- This one might just require a manual edit. -->
+	<exercise xml:id="decimal-hours-lengths-units" workspace="0.75in">
 		<task>
 			<statement>
 				<p>
 					Yesterday Cameron worked for 2 hours and 15 minutes (that's 2:15) and then went home and studied for 7 hours and 57 minutes (that's 7:57). Convert each time into decimal hours.
 				</p>
 			</statement>
-			<hint>
+			<!-- <hint>
 				<p>
 					7 hours and 57 minutes is not the same as 7.57 hours!
 				</p>
-			</hint>
+			</hint> -->
 		</task>
 <!-- SUGGESTION: do something like 19.75 hours. -->
 		<task>
@@ -146,22 +149,24 @@
 					Convert the length to a decimal number of feet.
 				</p>
 			</statement>
-			<hint>
+			<!-- <hint>
 				<p>
 					The answer isn't 12.5 feet! (That would be 12'6".)
 				</p>
-			</hint>
+			</hint> -->
 		</task>
-	</exercise></page>
+	</exercise>
+</page>
 
-	<page><exercise xml:id="drink-water-units" workspace="2.5in">
+<page>
+	<exercise xml:id="drink-water-units">
 		<introduction>
 			<p>
 				Some people say we should drink 8 glasses of water (or other liquids) every day, 
 				where a glass is defined as 8 (liquid) ounces.
 			</p>
 		</introduction>
-		<task>
+		<task  workspace="2in">
 			<statement>
 				<p>
 					Ingrid uses a 20 ounce unbreakable plastic bottle. 
@@ -169,7 +174,7 @@
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="2in">
 			<statement>
 				<p>
 					Siri carries around a insulated water bottle that holds 0.6 liters. 
@@ -186,9 +191,11 @@
 				</p>
 			</statement>
 		</task>
-	</exercise></page>
+	</exercise>
+</page>
 
-	<page><exercise xml:id="finland-units" workspace="1.5in">
+<page>
+	<exercise xml:id="finland-units" workspace="1in">
 		<introduction>
 			<p>
 				Jenna is studying in Finland this term and rented an older car to drive.
@@ -228,7 +235,7 @@
 				</p>
 			</statement>
 		</task>
-		<task workspace="0in">
+		<task>
 			<statement>
 				<p>
 					What would it cost Jenna, in euros, for a full tank of gas? 
@@ -236,7 +243,8 @@
 				</p>
 			</statement>
 		</task>
-	</exercise></page>
+	</exercise>
+</page>
 
 	<page><xi:include href="ss-SectionNotes.ptx" />
 	<xi:include href="ss-Units_end.ptx" /></page>

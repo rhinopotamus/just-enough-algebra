@@ -13,7 +13,8 @@
 		</p>
 	</introduction>
 
-	<page><exercise xml:id="hiking-PE1A" workspace="1in">
+<page>
+	<exercise xml:id="hiking-PE1A" workspace="1in">
 		<introduction>
 			<p>
 				Arva and Ellie began hiking at an elevation of 1,500 feet and climbed at the steady rate of 600 vertical feet per hour.
@@ -56,9 +57,11 @@
 			</statement>
 		</task>
 		
-	</exercise></page>
+	</exercise>
+</page>
 
-	<page><exercise xml:id="baby-weight-PE1A" workspace="1in">
+<page>
+	<exercise xml:id="baby-weight-PE1A" workspace="0.5in">
 		<introduction>
 			<p>
 				The table shows Henry's weight as a baby.
@@ -115,9 +118,11 @@
 				</p>
 			</statement>
 		</task>
-	</exercise></page>
+	</exercise>
+</page>
 
-	<page><exercise xml:id="gas-PE1A" workspace="2.75in">
+<page>
+	<exercise xml:id="gas-PE1A" workspace="2in">
 		<introduction>
 			<p>
 				Pramesh's new car used 20.5 gallons of gas for a 715 mile trip.
@@ -144,10 +149,12 @@
 				</p>
 			</statement>
 		</task>
-	</exercise></page>
+	</exercise>
+</page>
 		
 
-	<page><exercise xml:id="atoms-PE1A" workspace="3in">
+<page>
+	<exercise xml:id="atoms-PE1A" workspace="3in">
 		<introduction>
 			<p>
 				Ndwiga is reading an article in the paper about atoms. From his physics textbook he discovered that the size of an atom is 0.142 nanometers.
@@ -167,7 +174,8 @@
 				</p>
 			</statement>
 		</task>
-	</exercise></page>
+	</exercise>
+</page>
 
 
 

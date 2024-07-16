@@ -4,7 +4,8 @@
 <worksheet xml:id="ws-Approximation_and_rounding" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Prelude: Approximation and Rounding - Practice exercises</title>
 
-    <page><exercise xml:id="up-down-off-approx-round" workspace="1.75in">
+<page>
+    <exercise xml:id="up-down-off-approx-round" workspace="1.75in">
         <introduction>
             <p>
                 Round each number up, down, or off to the precision indicated. 
@@ -34,9 +35,11 @@
                 </p>
             </statement>
         </task>
-    </exercise></page>
+    </exercise>
+</page>
 
-    <page><exercise xml:id="depends-appprox-rounding" workspace="1.4in">
+<page>
+    <exercise xml:id="depends-appprox-rounding" workspace="1.25in">
         <introduction>
             <p>
                 The answer to the question <q>should we round up, down, or off?</q> is usually <q>it depends!</q>
@@ -70,9 +73,11 @@
                 </p>
             </statement>
         </task>
-    </exercise></page>
+    </exercise>
+</page>
 
-    <page><exercise xml:id="round-calculated-approx-rounding" workspace="1.5in">
+<page>
+    <exercise xml:id="round-calculated-approx-rounding" workspace="1.5in">
         <introduction>
             <p>
                 Round off the <alert>calculated numbers</alert> to give an answer that is reasonable and no more precise than the information given.
@@ -104,9 +109,11 @@
                 </p>
             </statement>
         </task>
-    </exercise></page>
+    </exercise>
+</page>
 
-    <page><exercise xml:id="round-compare-approx-rounding" workspace="2in">
+<page>
+    <exercise xml:id="round-compare-approx-rounding" workspace="2in">
         <introduction>
             <p>
                 It is easiest to compare the size of decimal numbers when they are written the same precision. For example, $1.7 million is more money than $1.34 million because when we write both numbers to two decimal places we see <me>1.7 = 1.70 &gt; 1.34</me> The symbol <m>&gt;</m> means <q>greater than;</q> it points to the smaller number. Alternatively, when we expand both numbers we see <me>1,700,000  &gt; 1,340,000</me>
@@ -127,7 +134,8 @@
                 </p>
             </statement>
         </task>
-    </exercise></page>
+    </exercise>
+</page>
 
     <xi:include href="ss-SectionNotes.ptx" />
     <xi:include href="ss-Approximation_and_rounding_end.ptx" />

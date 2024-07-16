@@ -143,14 +143,14 @@
 						<cell right="minor" halign="center"><m>V</m></cell>
 						<cell right="minor" halign="center">31.00</cell>
 						<cell right="minor" halign="center">21.08</cell>
-						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
-						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}xxxx\\xxxx\end{array}"/></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}xxxx\\xxxx\end{array}"/></m></cell>
 						<cell right="minor" halign="center">16.86</cell>
 					</row>
 				</tabular>
 			</statement>
 		</task>
-		<task>
+		<task workspace="1in">
 			<statement>
 				<p>
 					Draw a graph showing how the value changed during the past year.
@@ -158,6 +158,7 @@
 				<xi:include href="GraphPaper.ptx" />
 			</statement>
 		</task>
+<!-- This might need a manual edit. -->
 		<p>
 			<em>The problem continues ...</em>
 		</p>

@@ -2,7 +2,7 @@
 
 <chapter xml:id="ch-Prelude" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Prelude</title>
-
+<!-- manual pagebreak here probably? -->
 	<xi:include href="ws-Approximation_and_rounding.ptx" />
     <xi:include href="ws-Arithmetic_operations.ptx" />
     <xi:include href="ws-Percentages.ptx" />

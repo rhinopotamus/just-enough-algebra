@@ -3,7 +3,8 @@
 <worksheet xml:id="ws-Rate_of_change" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Rate of change – Practice exercises</title>
 
-	<page><exercise xml:id="bakery-rate-of-change" workspace="1in">
+<page>
+	<exercise xml:id="bakery-rate-of-change" workspace="0.75in">
 		<introduction>
 			<p>
 				Sweet Rose Bakery makes cakes and cupcakes. Here are their prices.
@@ -71,23 +72,25 @@
 				<xi:include href="GraphPaper.ptx" />
 			</statement>
 		</task>
-		<task workspace="0.5in">
+		<task workspace="0.25in">
 			<statement>
 				<p>
 					The rate of change for cupcakes is constant. Any idea why?
 				</p>
 			</statement>
 		</task>
-		<task workspace="0.5in">
+		<task workspace="0.25in">
 			<statement>
 				<p>
 					The rate of change for cakes is not constant. Any idea why?
 				</p>
 			</statement>
 		</task>
-	</exercise></page>
+	</exercise>
+</page>
 
-	<page><exercise xml:id="wedding-rental-rate-of-change" workspace="1in">
+<page>
+	<exercise xml:id="wedding-rental-rate-of-change" workspace="0.75in">
 		<introduction>
 			<p>
 				Anthony and Christina are trying to decide where to hold their wedding reception. 
@@ -95,7 +98,7 @@
 				<em>(Story also appears in 1.2 #3 and 3.2 #3)</em>
 			</p>
 		</introduction>
-		<task workspace="2in">
+		<task workspace="1.5in">
 			<statement>
 				<p>
 					Make a table showing the cost for 20, 50, 75, or 100 people. 
@@ -137,9 +140,11 @@
 				</p>
 			</statement>
 		</task>
-	</exercise></page>
+	</exercise>
+</page>
 
-	<page><exercise xml:id="heart-rate-of-change" workspace="1in">
+<page>
+	<exercise xml:id="heart-rate-of-change" workspace="0.75in">
 		<introduction>
 			<p>
 				Rashad measured his heart rate several times after football practice. Right after practice his heart rate was 178 beats per minute. Two minutes later, it had dropped to 153 beats per minute, and by ten minutes after practice it was down to 120 beats per minute.
@@ -189,14 +194,15 @@
 				</p>
 			</statement>
 		</task>
-	</exercise></page>
+	</exercise>
+</page>
 
-<!-- mysterious blank page here -->
-
-	<page><exercise xml:id="teen-pregnancy-rate-of-change" workspace="0.75in">
+<page>
+	<exercise xml:id="teen-pregnancy-rate-of-change" workspace="0.5in">
 		<introduction>
 			<p>
-				Teen pregnancy rates for Minneapolis<aside>Source: Minnesota Department of Health</aside>, measured in pregnancies per thousand teens, are summarized in the graph and table.
+				Teen pregnancy rates for Minneapolis, measured in pregnancies per thousand teens, are summarized in the graph and table.
+				<!-- <aside>Source: Minnesota Department of Health</aside> -->
 				
 			</p>
 			<tabular bottom="minor" top="minor">
@@ -270,7 +276,8 @@
 			</statement>
 		</task>
 		
-	</exercise></page>
+	</exercise>
+</page>
 
 	<page>
 	<xi:include href="ss-SectionNotes.ptx" />

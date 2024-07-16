@@ -4,19 +4,12 @@
 	<title>Practice Exam 1B</title>
 	<introduction>
 		<p>
-			Relax. You have done problems like these before. Even if these problems look a bit different, just do what you can. If you're not sure of something, please ask! You may use your calculator. Please show all of your work and write down as many steps as you can. Don't spend too much time on any one problem. Do well. And remember, ask me if you're not sure about something.
-		</p>
-
-		<p>
-			Try taking this version of the practice exam under testing conditions: no book, no notes, no classmate's help, no electronics (computer, cell phone, television). Give yourself one hour to work and wait until you have tried your best on all of the problems before checking any answers.
-		</p>
-
-		<p>
-			<em>As you work, make a <q>don't forget</q> list of any information you need to look up or ask about.</em>
+			<em>Try taking this version of the practice exam under testing conditions: no book, no notes, no classmate's help, no electronics (computer, cell phone, television). Give yourself one hour to work and wait until you have tried your best on all of the problems before checking any answers.</em>
 		</p>
 	</introduction>
 
-	<page><exercise xml:id="nursing-costs-PE1B" workspace="1in">
+<page>
+	<exercise xml:id="nursing-costs-PE1B" workspace="1in">
 		<introduction>
 		<p>
 			The amount of money spent on nursing home care for seniors has continued to rise. The table shows the values for select years. Here <m>S</m> is the spending, measured in billions of dollars, and <m>T</m> is time, measured in years since 1960.
@@ -54,7 +47,7 @@
 				</p>
 			</statement>
 		</task>
-		<task workspace="2in">
+		<task workspace="1.5in">
 			<statement>
 				<p>
 					Calculate the rate of change of spending over the period 1970 to 1985. Don't forget to state the units.
@@ -69,9 +62,11 @@
 			</statement>
 		</task>
 		
-	</exercise></page>
+	</exercise>
+</page>
 
-	<page><exercise xml:id="swimming-pool-PE1B" workspace="0.5in">
+<page>
+	<exercise xml:id="swimming-pool-PE1B" workspace="0.7cm">
 		<introduction>
 			<p>
 				Trish is filling a swimming pool with water. The graph below shows how many gallons of water (<m>G</m>) are in the pool after <m>H</m> hours. Use the graph to answer the following questions.
@@ -114,9 +109,11 @@
 				</p>
 			</statement>
 		</task>
-	</exercise></page>
+	</exercise>
+</page>
 
-	<page><exercise xml:id="property-tax-PE1B" workspace="1.5in">
+<page>
+	<exercise xml:id="property-tax-PE1B" workspace="1.5in">
 		<introduction>
 			<p>
 				In 1990 the Lefèvre's property tax was $450, but it doubled every year thereafter.
@@ -152,9 +149,11 @@
 			</statement>
 		</task>
 		
-	</exercise></page>
+	</exercise>
+</page>
 
-	<page><exercise xml:id="earth-moon-PE1B" workspace="2in">
+<page>
+	<exercise xml:id="earth-moon-PE1B" workspace="1.5in">
 		<introduction>
 			<p>
 				The distance from the Earth to the Moon is approximately 384,000,000 meters.
@@ -189,6 +188,7 @@
 				</p>
 			</statement>
 		</task>
-	</exercise></page>
+	</exercise>
+</page>
 	
 </worksheet>

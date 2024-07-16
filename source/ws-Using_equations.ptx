@@ -34,26 +34,16 @@
 		<task>
 			<statement>
 				<p>
-					After making half the payments, how much money will Dontrell and Kim still owe on the house? Will they have paid more or less (or exactly) half of the amount they originally borrowed?
+					After making half the payments, how much money will Dontrell and Kim still owe on the house? Will they have paid more or less (or exactly) half of the amount they originally borrowed? <em>Hint: Find the total number of payments by converting 30 years into months. Then, divide by 2 to find the halfway point.</em>
 				</p>
 			</statement>
-			<hint>
-				<p>
-					Find the total number of payments by converting 30 years into months. Then, divide by 2 to find the halfway point. You'll need your answer to 
-				</p>
-			</hint>
 		</task>
-		<task>
+		<task workspace="0.25in">
 			<statement>
 				<p>
-					The very last month they do not actually pay the regular monthly payment, just whatever balance is left on the loan. How much will that be? 
+					The very last month they do not actually pay the regular monthly payment, just whatever balance is left on the loan. How much will that be? <em>Hint: they will have made all but one of the payments.</em>
 				</p>
 			</statement>
-			<hint>
-				<p>
-					Hint: they will have made all but one of the payments.
-				</p>
-			</hint>
 		</task>
 	</exercise>
 </page>
@@ -132,7 +122,7 @@
 
 <page>
 	<exercise xml:id="monty-orchids-using-equations">
-		<statement>
+		<introduction>
 			<p>
 				Monty hopes to grow orchids but they are fragile plants. He will consider his greenhouse a success if at least nine of the ten orchids survive. Assuming the orchids each survive at rate <m>S</m>, the probability his greenhouse is a success, <m>P</m>, is given by
 				<me>
@@ -140,7 +130,7 @@
 				</me>
 				<em>(Story also appears in 2.4 #3)</em>
 			</p>
-		</statement>
+		</introduction>
 		<task workspace="0.5in">
 			<statement>
 				<p>
@@ -181,7 +171,7 @@
 </page>
 
 <page>
-	<exercise xml:id="charity-walk-using-equations">
+	<exercise xml:id="charity-walk-using-equations" workspace="1.25in">
 		<introduction>
 			<p>
 				Valerie plans to do a charity walk to raise money for breast cancer research, in honor of her aunt. Valerie's friends have pledged a total of $93 per mile.
@@ -194,21 +184,21 @@
 				</p>
 			</statement>
 		</task>
-		<task workspace="1.5in">
+		<task>
 			<statement>
 				<p>
 					She might have to stop sooner, however. Name variables and write an equation showing how the money Valerie raises is a function of how far she is able to walk.
 				</p>
 			</statement>
 		</task>
-		<task workspace="1.5in">
+		<task>
 			<statement>
 				<p>
 					How long will it take Valerie to walk the full 50 miles if she is able to keep a pace (speed) of 3.2 miles per hour? Write your answer in H:MM format.
 				</p>
 			</statement>
 		</task>
-		<task workspace="1.5in">
+		<task>
 			<statement>
 				<p>
 					Name the new variables and write a new equation showing how the time it takes Valerie to walk the full 50 miles depends on her pace.
@@ -218,14 +208,9 @@
 		<task workspace="0.5in">
 			<statement>
 				<p>
-					Good news. Valerie walked the full 50 miles at a pace of 3.2 miles per hour. Way to go, girl! How much money did she raise each hour?
+					Good news. Valerie walked the full 50 miles at a pace of 3.2 miles per hour. Way to go, girl! How much money did she raise each hour? <em>Hint: Use your answers from (a) and (c) as unit conversions to get $/hour.</em>
 				</p>
 			</statement>
-			<hint>
-				<p>
-					Use your answers from (a) and (c) as unit conversions to get $/hour.
-				</p>
-			</hint>
 		</task>
 	</exercise>
 </page>
