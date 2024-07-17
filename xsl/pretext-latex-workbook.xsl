@@ -94,6 +94,7 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
 </xsl:template>
 
 <!-- make it so chapters get a pagebreak -->
+<!-- look for <xsl:text>\newpage&#xa;</xsl:text> -->
 <xsl:template match="chapter" mode="environment">
     <!-- for specialized divisions we always make a numbered -->
     <!-- and unnumbered version, with the latter happening   -->
