@@ -9,7 +9,7 @@
 			<p>
 				The GDP (gross domestic product) of the United States was approximately $15,596 billion in 2011 and the population of the United States was approximately 0.313 billion that year. 
 				<!-- <aside>Source: U.S. Bureau of Economic Analysis, U.S. Census Bureau</aside> -->
-				<em>(Story also appears ...)</em>
+				<em>(Story also appears in <xref ref="gdp-prelude-scientific-notation" />)</em>
 			</p>
 		</introduction>
 		<task>
@@ -65,6 +65,7 @@
 		<introduction>
 			<p>
 				Edgar recently changed the cleaning bag on his vacuum cleaner. He became curious about how many particles of dust were in the bag. Edgar did a little research online and found out that the mass of a dust particle is .000 000 000 753 kilograms. 
+				<em>(Story also appears in <xref ref="dust-particle-prelude-scientific-notation" />)</em>
 			</p>
 			<line>
 				(The strange-looking spaces are to help you see that there are 9 zeros in the number.)
@@ -169,6 +170,7 @@
 			<p>
 				The list shows the (approximate) mass of the planets in our solar system.
 				<!-- <aside>Source: Wikipedia (Solar System)</aside> -->
+				<em>(Story also appears in <xref ref="earth-weight-prelude-scientific-notation"/>)</em>
 			</p>
 			<tabular>
 			<row class="odd">

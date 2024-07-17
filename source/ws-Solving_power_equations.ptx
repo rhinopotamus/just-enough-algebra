@@ -16,7 +16,12 @@
 		<introduction>
 			<p>
 				A pizza of diameter <m>D</m> inches serves <m>P</m> people where <me>P = .015625\, D^2</me>
-				<em>(Story also appears in 2.4 #1)</em>
+				<em>
+                    (Story also appears in
+                    <xref ref="pizza-diameter-powers-roots"/>, 
+                    <xref ref="pizza-diameter-approx-solutions"/>, and 
+                    <xref ref="pizza-diameter-modeling-linear"/>)
+                </em>
 			</p>
 		</introduction>
 		<task>
@@ -83,7 +88,7 @@
 				<me>
 					\displaystyle G = \frac{350}{F}
 				</me>
-				<em>(Story also appears in 2.4 #2)</em>
+				<em>(Story also appears in <xref ref="fuel-350-approx-solutions"/>)</em>
 			</p>
 		</introduction>
 		<task>

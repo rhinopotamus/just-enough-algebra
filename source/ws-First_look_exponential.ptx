@@ -55,7 +55,12 @@
 		<introduction>
 			<p>
 				Bunnies, bunnies, everywhere. They eat the tops of my tulips in early spring and my lilies all summer long. Back in 2007 there were an estimated 1,800 rabbits in my neighborhood. Rabbits multiply quickly, 13% per year by one estimate.
-				<em>(Story also appears in 5.1#3)</em>
+				<em>
+					(Story also appears in 
+					<xref ref="bunnies-prelude-scientific-notation"/>
+					and 
+					<xref ref="bunnies-modeling-exponential"/>)
+				</em>
 			</p>
 		</introduction>
 		<task>
@@ -95,7 +100,7 @@
 	<exercise xml:id="flu-dorm-first-look-exponential">
 		<introduction>
 			<p>
-				A flu virus has been spreading through the college dormitories. Initially 8 students were diagnosed with the flu, but that number has been growing 16% per day. <em>(Story also appears in 5.1 #2 and 5.5 textbook)</em>
+				A flu virus has been spreading through the college dormitories. Initially 8 students were diagnosed with the flu, but that number has been growing 16% per day. <em>(Story also appears in <xref ref="flu-dorm-modeling-exponential"/> and 5.5 textbook)</em>
 			</p>
 		</introduction>
 		<task workspace="1in">
@@ -128,6 +133,7 @@
 		<introduction>
 			<p>
 				My savings account earns a modest amount of interest, the equivalent of 0.75% annually. I have $12,392.18 in the account now.
+				<em>(Story also appears in <xref ref="savings-interest-percentages" />)</em>
 			</p>
 		</introduction>
 		<task>

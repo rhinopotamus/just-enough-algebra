@@ -13,7 +13,12 @@
     <exercise xml:id="juan-coffee-order-operations" workspace="0.75in">
         <introduction>
             <p>
-                <em>Story also appears in 1.2 #4, 2.1 #4, and 4.2 #2</em>
+                <em>
+                    (Story also appears in 
+                    <xref ref="juan-coffee-tables-graphs" />, 
+                    <xref ref="juan-coffee-first-look-linear" />, and 
+                    <xref ref="juan-coffee-systems-linear"/>)
+                </em>
             </p>
         </introduction>
         <task>
@@ -42,7 +47,12 @@
         <introduction>
             <p>
                 <q>Rose gold</q> is a mix of gold and copper.
-                <em>(Story also appears in 2.3 #2 and 4.1 Exercises)</em>
+                <em>
+                    (Story also appears in
+                    <xref ref="rose-gold-algebraic-notation" />,
+                    <xref ref="rose-gold-using-equations" />, 
+                    and 4.1 Exercises)
+                </em>
             </p>
         </introduction>
         <task>
@@ -66,7 +76,11 @@
     <exercise xml:id="weight-change-order-operations" workspace="1.25in">
         <introduction>
             <p>
-                <em>Stories also appear in 4.3 #3 and 0.7 #1</em>
+                <em>
+                    (Stories also appear in
+                    <xref ref="weight-change-algebraic-notation"/> and 
+                    <xref ref="weight-change-intercepts"/>)
+                </em>
             </p>
         </introduction>
         <task>
@@ -87,7 +101,11 @@
     <exercise workspace="1.25in"> <!-- no id bc they're a continuation of same stories -->
         <introduction>
             <p>
-                <em>Stories also appear in 4.3 #3</em>
+                <em>
+                    (Stories also appear in
+                    <xref ref="weight-change-algebraic-notation"/> and 
+                    <xref ref="weight-change-intercepts"/>)
+                </em>
             </p>
         </introduction>
         <task>

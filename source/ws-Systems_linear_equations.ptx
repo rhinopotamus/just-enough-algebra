@@ -76,19 +76,14 @@
 						<cell><m>T=59.99+1.00M</m></cell>
 					</row>
 				</tabular>
-				<!-- <me>
-					\textbf{No card:} \quad T = 3.45M
-				</me>
-				<me>
-					\textbf{With card:} \quad T = 10.00 + 2.90M
-				</me>
-				<me>
-					\textbf{Member:} \quad T=59.99+1.00M
-				</me>
-				 -->
 			</p>
 			<p>
-				<em>(Story also appears in 1.2 #4 and 2.1 #4)</em>
+				<em>
+                    (Story also appears in 
+                    <xref ref="juan-coffee-order-operations" />, 
+                    <xref ref="juan-coffee-tables-graphs" />, and 
+                    <xref ref="juan-coffee-systems-linear"/>)
+                </em>
 			</p>
 		</introduction>
 		<task>

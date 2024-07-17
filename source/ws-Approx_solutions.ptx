@@ -10,8 +10,18 @@
 				The size of a round pizza is described by its <term>diameter</term> (distance across). Assuming a 16-inch diameter pizza serves four people, and with a little geometry to help us out, we calculated that a pizza of diameter <m>D</m> inches serves <m>P</m> people, where 
 				<me>
 					P = 0.015625\ D^2
-					\qquad\qquad \textit{(Story also appears in 3.3 \#1 and 4.1 \#3)}
 				</me>
+				<!-- 	\qquad \qquad 
+					\textit{(Story also appears in
+						<xref ref="pizza-diameter-powers-roots"/>, 
+						<xref ref="pizza-diameter-modeling-linear"/>, and 
+						<xref ref="pizza-diameter-solving-power"/>)}
+				</me> -->
+
+				<em>(Story also appears in
+					<xref ref="pizza-diameter-powers-roots"/>, 
+					<xref ref="pizza-diameter-modeling-linear"/>, and 
+					<xref ref="pizza-diameter-solving-power"/>)</em>
 			</p>
 		</introduction>
 		<task workspace="0.5cm">
@@ -59,7 +69,7 @@
 	<exercise xml:id="fuel-350-approx-solutions" workspace="1.25cm">
 		<introduction>
 			<p>
-				Suppose the gas tank of a car is designed to hold enough fuel to drive 350 miles. (That's fairly average.) A hybrid car with fuel efficiency of 50 miles per gallon (mpg) would only need a 7 gallon gas tank, but a recreational vehicle that gets only 10 mpg would need a 35 gallon gas tank. <em>(Story also appears in 3.3 #3)</em>
+				Suppose the gas tank of a car is designed to hold enough fuel to drive 350 miles. (That's fairly average.) A hybrid car with fuel efficiency of 50 miles per gallon (mpg) would only need a 7 gallon gas tank, but a recreational vehicle that gets only 10 mpg would need a 35 gallon gas tank. <em>(Story also appears in <xref ref="fuel-350-solving-power"/>)</em>
 			</p>
 		</introduction>
 		<task>
@@ -107,7 +117,7 @@
 		<introduction>
 			<p>
 				Monty hopes to grow orchids but they are fragile plants. He will consider his greenhouse a success if at least nine of the ten orchids survive. Assuming the orchids each survive at rate <m>S</m>, the probability his greenhouse is a success, <m>P</m>, is given by <me>P= 10S^9-9S^{10}</me>
-					<em>(Story also appears in 2.3 #3)</em>
+					<em>(Story also appears in <xref ref="monty-orchids-using-equations"/>)</em>
 			</p>
 		</introduction>
 		<task workspace="1in">

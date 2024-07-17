@@ -112,6 +112,11 @@
 		<introduction>
 			<p>
 				For each story, find the initial weight of the person and use it to write an equation showing how the person's weight <m>W</m> pounds depends on the time, <m>T</m> weeks.
+				<em>
+                    (Stories also appear in
+                    <xref ref="weight-change-order-operations" /> and 
+                    <xref ref="weight-change-algebraic-notation"/>)
+                </em>
 			</p>
 		</introduction>
 		<task>

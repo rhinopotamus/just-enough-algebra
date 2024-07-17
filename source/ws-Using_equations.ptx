@@ -6,7 +6,7 @@
 	<exercise xml:id="mortgage-payoff-using-equations" workspace="0.75in">
 		<introduction>
 			<p>
-				Dontrell and Kim borrowed money to buy a house on a 30-year mortgage. After <m>T</m> months of making payments, Dontrell and Kim will still owe $<m>D</m> where <me>D=236,000-56,000 \ast 1.004^T</me> <m>D</m> is also known as the <term>payoff</term> (how much they would need to pay to settle the debt). <em>Story also appears in 3.4 #4</em>
+				Dontrell and Kim borrowed money to buy a house on a 30-year mortgage. After <m>T</m> months of making payments, Dontrell and Kim will still owe $<m>D</m> where <me>D=236,000-56,000 \ast 1.004^T</me> <m>D</m> is also known as the <term>payoff</term> (how much they would need to pay to settle the debt). <em>Story also appears in <xref ref="mortgage-payoff-solving-exponential"/></em>
 
 			</p>
 		</introduction>
@@ -53,7 +53,12 @@
 		<introduction>
 			<p>
 				<q>Rose gold</q> is a mix of gold and copper. We start with 2 grams of an alloy that is equal parts gold and copper and add <m>A</m> grams of pure gold to lighten the color. The percentage of gold in the resulting rose gold alloy, <m>R</m> is given by <me>R = 100\left(\frac{1+A}{2+A}\right)</me> For example, if we add 0.8 grams of pure gold, then <m>A=0.8</m> and so the percentage is <me>R=100\left(\frac{1+0.8}{2+0.8}\right)= 100 \times (1 + \underline{0.8})\div(2+\underline{0.8})=64.28571428\ldots \approx 64.3\%</me>
-				<em>(Story also appears in 4.1 Exercises)</em>
+				<em>
+                    (Story also appears in
+					<xref ref="rose-gold-order-operations" />, 
+                    <xref ref="rose-gold-algebraic-notation" />, 
+                    and 4.1 Exercises)
+                </em>
 			</p>
 		</introduction>
 		<task workspace="0.5cm">
@@ -128,7 +133,7 @@
 				<me>
 					P= 10S^9-9S^{10}
 				</me>
-				<em>(Story also appears in 2.4 #3)</em>
+				<em>(Story also appears in <xref ref="monty-orchids-approx-solutions"/>)</em>
 			</p>
 		</introduction>
 		<task>

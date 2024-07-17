@@ -116,7 +116,12 @@
 		<task xml:id="grandfather-bonds-modeling-linear">
 			<statement>
 				<p>
-					Savings bonds from grandpa. <em>(Story also appears in 1.2 #1 and 5.3 #1)</em>
+					Savings bonds from grandpa. 
+					<em>
+						(Story also appears in 
+						<xref ref="grandfather-bonds-tables-graphs" /> and 
+						<xref ref="grandfather-bonds-growth-factor" />)
+					</em>
 				</p>
 				<tabular bottom="minor" top="minor">
 					<row left="minor" class="odd">
@@ -143,7 +148,7 @@
 		<task xml:id="wind-chill-modeling-linear">
 			<statement>
 				<p>
-					Wind chill at 10<degree/>F. <em>(Story also appears in 1.2 #2)</em>
+					Wind chill at 10<degree/>F. <em>(Story also appears in <xref ref="wind-chill-tables-graphs" />)</em>
 				</p>
 				<tabular bottom="minor" top="minor">
 					<row left="minor" class="odd">
@@ -168,7 +173,12 @@
 		<task xml:id="pizza-diameter-modeling-linear">
 			<statement>
 				<p>
-					Pizza. <em>(Story also appears in 2.4 #1 and 3.3 #1)</em>
+					Pizza. <em>
+						(Story also appears in
+						<xref ref="pizza-diameter-powers-roots"/>, 
+						<xref ref="pizza-diameter-approx-solutions"/>, and 
+						<xref ref="pizza-diameter-solving-power"/>)
+					</em>
 				</p>
 				<tabular bottom="minor" top="minor">
 					<row left="minor" class="odd">
@@ -189,7 +199,7 @@
 		<task xml:id="reservoir-rain-modeling-linear">
 			<statement>
 				<p>
-					Water in the reservoir. <em>(Story also appears in 2.1 #2 and 3.2 Exercises)</em>
+					Water in the reservoir. <em>(Story also appears in <xref ref="reservoir-rain-first-look-linear"/> and 3.2 Exercises)</em>
 				</p>
 				<tabular bottom="minor" top="minor">
 					<row left="minor" class="odd">

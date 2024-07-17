@@ -34,7 +34,12 @@
     <exercise xml:id="astra-rent-percentages" workspace="1in">
         <introduction>
             <p>
-                In Minneapolis, apartment rent is expected to increase by 16% next year. <em>(Story also appears in sdlkfjsdklfjskld)</em>
+                In Minneapolis, apartment rent is expected to increase by 16% next year. 
+                <em>
+                    (Story also appears in 
+                    <xref ref="astra-rent-algebraic-notation" /> and 
+                    <xref ref="astra-rent-logarithms" />)
+                </em>
             </p>
         </introduction>
         <task>
@@ -86,7 +91,8 @@
     <exercise xml:id="savings-interest-percentages" workspace="1in">
         <introduction>
             <p>
-                My savings account earns a modest amount of interest, the equivalent of 0.75% annually. I have $12,392.18 in the account now. <em>(Story also appears in 2.2 #4)</em>
+                My savings account earns a modest amount of interest, the equivalent of 0.75% annually. I have $12,392.18 in the account now. 
+                <em>(Story also appears in <xref ref="savings-interest-first-look-exponential" />)</em>
             </p>
         </introduction>
         <task>

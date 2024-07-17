@@ -111,7 +111,13 @@
     <exercise xml:id="truck-grass-arithmetic-operations" workspace="0.3in">
         <introduction>
             <p>
-                A truck hauling grass seed weighs 3,900 pounds when it is empty. Each bag of seed it carries weighs 4.2 pounds. The <term>gross weight</term> of the truck is the total weight including the truck and the bags of seed. <em>(Story also appears in 2.1 #1, 3.2 #1, and 3.1 #1)</em>
+                A truck hauling grass seed weighs 3,900 pounds when it is empty. Each bag of seed it carries weighs 4.2 pounds. The <term>gross weight</term> of the truck is the total weight including the truck and the bags of seed. 
+                <em>
+                    (Story also appears in 
+                    <xref ref="truck-grass-first-look-linear" />, 
+                    <xref ref="truck-grass-solving-linear" />, and 
+                    <xref ref="truck-grass-linear-ineq" />)
+                </em>
             </p>
         </introduction>
         <task>

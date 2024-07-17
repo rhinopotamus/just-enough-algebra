@@ -95,7 +95,11 @@
 			<p>
 				Anthony and Christina are trying to decide where to hold their wedding reception. 
 				The Metropolitan Club costs $1,300 for the space and then $92 per person. 
-				<em>(Story also appears in 1.2 #3 and 3.2 #3)</em>
+				<em>
+					(Story also appears in 
+					<xref ref="wedding-rental-tables-graphs" /> and 
+					<xref ref="wedding-rental-linear-ineq" />)
+				</em>
 			</p>
 		</introduction>
 		<task workspace="1.5in">

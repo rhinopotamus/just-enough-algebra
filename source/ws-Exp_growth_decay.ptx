@@ -9,7 +9,7 @@
         <introduction>
             <p>
                 A signal is sent down a fiber optic cable. Its strength decreases by 2% each mile it travels. (Say it was one unit strong to start.)
-                <em>Story also appears ....</em>
+                <em>Story also appears in <xref ref="fiber-optic-prelude-scientific-notation"/></em>
             </p>
         </introduction>
         <task workspace="1in">

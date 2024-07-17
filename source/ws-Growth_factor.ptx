@@ -70,7 +70,11 @@
                 </row>
             </tabular>
             <p>
-                <em>(Story also appears in 1.2 #1 and 4.1 #3)</em>
+                <em>
+					(Story also appears in 
+                    <xref ref="grandfather-bonds-tables-graphs"/> and 
+					<xref ref="grandfather-bonds-modeling-linear" />)
+				</em>
             </p>
         </introduction>
         <task>
@@ -442,7 +446,7 @@
         <task xml:id="chlorine-pool-growth-factor">
             <statement>
                 <p>
-                    Chlorine is often used to disinfect water in swimming pools, but the concentration of chlorine <m>C</m> (in ppm) drops as the swimming pool is used for <m>T</m> hours according to the equation <me>C = 2.5 \ast 0.975^T</me> <em>(Story also appears in 3.4 #2)</em>
+                    Chlorine is often used to disinfect water in swimming pools, but the concentration of chlorine <m>C</m> (in ppm) drops as the swimming pool is used for <m>T</m> hours according to the equation <me>C = 2.5 \ast 0.975^T</me> <em>(Story also appears in <xref ref="chlorine-pool-solving-exponential"/>)</em>
                 </p>
             </statement>
         </task>

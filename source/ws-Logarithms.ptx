@@ -105,7 +105,12 @@
     <exercise xml:id="astra-rent-logarithms" workspace="0.4in">
         <introduction>
             <p>
-                In Minneapolis, apartment rent is expected to increase by 16% next year. <em>(Story also appears in 0.3 #2 and 0.6 #3)</em>
+                In Minneapolis, apartment rent is expected to increase by 16% next year. 
+                <em>
+                    (Story also appears in 
+                    <xref ref="astra-rent-percentages" /> and 
+                    <xref ref="astra-rent-algebraic-notation" />)
+                </em>
             </p>
         </introduction>
         <task>

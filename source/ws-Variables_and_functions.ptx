@@ -40,7 +40,7 @@
 			<p>
 				Rent in the Riverside Neighborhood is expected to increase 7.2% each year. 
 				Average rent for an apartment is currently $830 per month. 
-				<em>(Story also appears in 3.4 #3)</em>
+				<em>(Story also appears in <xref ref="riverside-rent-solving-exponential"/>)</em>
 			</p>
 		</introduction>
 		<task workspace="1.5in">
@@ -94,7 +94,9 @@
 				Round each number up, down, or off to the precision indicated.
 			</p>
 			<p>
-				<em>For a discussion of rounding, see Prelude: approximation</em>
+				<em>For a discussion of rounding, see Prelude: approximation. 
+					Stories also appear in <xref ref="up-down-off-approx-round"/>.
+				</em>
 			</p>
 		</introduction>
 		<task>

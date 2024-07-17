@@ -9,7 +9,12 @@
 			<p>
 				My grandfather had $200 in savings bonds that matured in 1962 when he gave them to me. 
 				The bonds continue to earn interest at a fixed rate so I have yet to cash them in. 
-				The table shows some values. <em>(Story also appears in 4.1 #3 and 5.3 #1.)</em>
+				The table shows some values. 
+				<em>
+					(Story also appears in 
+					<xref ref="grandfather-bonds-modeling-linear" /> and 
+					<xref ref="grandfather-bonds-growth-factor" />)
+				</em>
 			</p>
 			<tabular bottom="minor" top="minor">
 				<row left="minor"  header="yes">
@@ -104,7 +109,7 @@
 				(12 below zero). We say the <term>wind chill</term> of 10<m>^\circ</m>F 
 				with a 30 mph wind is -12<m>^\circ</m>F. 
 				The table lists the wind chill for various wind speeds at an air temperature of 
-				10<m>^\circ</m>F. (<em>Story also appears in 4.1 #3</em>)
+				10<m>^\circ</m>F. <em>(Story also appears in <xref ref="wind-chill-modeling-linear"/> )</em>
 				<!-- <aside>Source: National Weather Service</aside> -->
 			</p>		
 			<tabular bottom="minor" top="minor"> <!-- row-headers="yes"> -->
@@ -195,7 +200,11 @@
 			<p>
 				Anthony and Christina are trying to decide where to hold their wedding reception. 
 				The Metropolitan Club costs $1,300 for the space and $92 per person.
-				<em>(Story also appears in 1.3 #2 and 3.2 #3)</em>
+				<em>
+					(Story also appears in 
+					<xref ref="wedding-rental-rate-of-change" /> and 
+					<xref ref="wedding-rental-linear-ineq" />)
+				</em>
 			</p>
 		</introduction>
 		<task workspace="0.5in">
@@ -260,7 +269,12 @@
 		<introduction>
 			<p>
 				A mug of coffee costs $3.45 at Juan's favorite cafe. 
-				<em>(Story also appears in 2.1 #4 and 4.2 #2)</em>
+				<em>
+                    (Story also appears in 
+                    <xref ref="juan-coffee-order-operations" />, 
+                    <xref ref="juan-coffee-first-look-linear" />, and  
+                    <xref ref="juan-coffee-systems-linear"/>)
+                </em>
 			</p>
 		</introduction>
 		<task>

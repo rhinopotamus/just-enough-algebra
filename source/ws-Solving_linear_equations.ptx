@@ -7,7 +7,13 @@
 	<exercise xml:id="truck-grass-solving-linear">
 		<introduction>
 			<p>
-				A truck hauling bags of grass seed weighs 3,900 pounds when it is empty. Each bag of seed it carries weighs 4.2 pounds. The equation for the gross weight <m>W</m> pounds is <me>W = 3,900 + 4.2B</me> for <m>B</m> bags of grass seed. <em>(Story also appears in 2.1 #1 &amp; 3.2 #1)</em>
+				A truck hauling bags of grass seed weighs 3,900 pounds when it is empty. Each bag of seed it carries weighs 4.2 pounds. The equation for the gross weight <m>W</m> pounds is <me>W = 3,900 + 4.2B</me> for <m>B</m> bags of grass seed. 
+				<em>
+                    (Story also appears in
+                    <xref ref="truck-grass-arithmetic-operations" />, 
+                    <xref ref="truck-grass-first-look-linear" />, and 
+                    <xref ref="truck-grass-linear-ineq" />)
+                </em>
 			</p>
 		</introduction>
 		<task workspace="2in">
