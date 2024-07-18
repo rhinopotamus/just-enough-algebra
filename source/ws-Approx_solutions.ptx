@@ -6,18 +6,22 @@
 <page>
 	<exercise xml:id="pizza-diameter-approx-solutions">
 		<introduction>
-			<p>
+			<p component="latex">
 				The size of a round pizza is described by its <term>diameter</term> (distance across). Assuming a 16-inch diameter pizza serves four people, and with a little geometry to help us out, we calculated that a pizza of diameter <m>D</m> inches serves <m>P</m> people, where 
 				<me>
 					P = 0.015625\ D^2
-				</me>
-				<!-- 	\qquad \qquad 
+					\qquad \qquad 
 					\textit{(Story also appears in
 						<xref ref="pizza-diameter-powers-roots"/>, 
 						<xref ref="pizza-diameter-modeling-linear"/>, and 
 						<xref ref="pizza-diameter-solving-power"/>)}
-				</me> -->
-
+				</me>
+			</p>
+			<p component="web">
+				The size of a round pizza is described by its <term>diameter</term> (distance across). Assuming a 16-inch diameter pizza serves four people, and with a little geometry to help us out, we calculated that a pizza of diameter <m>D</m> inches serves <m>P</m> people, where 
+				<me>
+					P = 0.015625\ D^2
+				</me>
 				<em>(Story also appears in
 					<xref ref="pizza-diameter-powers-roots"/>, 
 					<xref ref="pizza-diameter-modeling-linear"/>, and 
