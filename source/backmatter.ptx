@@ -8,7 +8,7 @@
 <backmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="backmatter">
   <title>Appendices</title>
 
-  <xi:include href="./workbook/ch-Prelude.ptx" />
+  <!-- <xi:include href="./workbook/ch-Prelude.ptx" /> -->
 
   <!-- <solutions divisional="hint"> <title>Selected Hints</title> </solutions> -->
 

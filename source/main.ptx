@@ -15,22 +15,23 @@
      <part xml:id="textbook">
       <title>Textbook</title>
       
-      <!-- Include textbook chapters -->
        <xi:include href="./textbook/ch-Variables.ptx" />
+       <xi:include href="./textbook/ch-Equations.ptx" />
+       <xi:include href="./textbook/ch-Solving_equations.ptx" />
+       <xi:include href="./textbook/ch-Closer_look_linear.ptx" />
+       <xi:include href="./textbook/ch-Closer_look_exponential.ptx" />
      </part>
 
     <!-- Workbook part -->
     <part xml:id="workbook">
       <title>Workbook</title>
 
-      <!-- Include workbook chapters -->
-      <!-- <xi:include href="./ch-Prelude.ptx" /> MOVED TO APPENDIX -->
-      <xi:include href="./workbook/ch-Variables.ptx" />
+      <!-- <xi:include href="./workbook/ch-Variables.ptx" />
       <xi:include href="./workbook/ch-Equations.ptx" />
       <xi:include href="./workbook/ch-Solving_equations.ptx" />
       <xi:include href="./workbook/ch-Closer_look_linears.ptx" />
       <xi:include href="./workbook/ch-Closer_look_exponentials.ptx" />
-      <xi:include href="./workbook/ch-Review.ptx" />
+      <xi:include href="./workbook/ch-Review.ptx" /> -->
     </part>
 
     <!-- Include backmatter -->
