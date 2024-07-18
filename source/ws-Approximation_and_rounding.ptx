@@ -63,7 +63,7 @@
         <task>
             <statement>
                 <p>
-                    Tzuf has $20 to buy apples for the new year's celebration. A bag of apples costs $3.49. Tsuf calculates that they can afford <m>20 \div 3.49 = 5.7306...</m> bags. How many bags can they buy? Did you round up, down, or off?
+                    Tzuf has $20 to buy apples for the new year's celebration. A bag of apples costs $3.49. Tsuf calculates that they can afford <m>20 \div 3.49 = 5.7306\ldots</m> bags. How many bags can they buy? Did you round up, down, or off?
                 </p>
             </statement>
         </task>
@@ -87,14 +87,14 @@
         <task>
             <statement>
                 <p>
-                    The snow removal budget for the city is currently at $8.3 million but the city council is requesting a reduction of $1.15 million per year. We calculate that after three years of cuts, the snow removal budget will be <alert>$4.8079...</alert>  million.
+                    The snow removal budget for the city is currently at $8.3 million but the city council is requesting a reduction of $1.15 million per year. We calculate that after three years of cuts, the snow removal budget will be <m>\mathbf{\$4.8079\ldots}</m>  million.
                 </p>
             </statement>
         </task>
         <task>
             <statement>
                 <p>
-                    A cup of cooked red lentils has around 190 calories and 6.4 grams of dietary fiber, while a cup of cooked chickpeas has around 172 calories and 12.0 grams of dietary fiber. We calculate that lentils provide <alert>0.03368421...</alert> grams per calorie whereas chickpeas provide <alert>0.06976744...</alert> grams per calorie.
+                    A cup of cooked red lentils has around 190 calories and 6.4 grams of dietary fiber, while a cup of cooked chickpeas has around 172 calories and 12.0 grams of dietary fiber. We calculate that lentils provide <m>\mathbf{0.03368421\ldots}</m> grams per calorie whereas chickpeas provide <m>\mathbf{0.06976744\ldots}</m> grams per calorie.
                 </p>
             </statement>
         </task>
@@ -107,7 +107,7 @@
                     </p>
                 </blockquote>
                 <p>
-                    In 2000 the population of Hibbing, Minnesota was reported at just over 17,000 residents. Based on a projected 0.4% decrease per year, the 2010 population was calculated to be <alert>16,332.110...</alert> people.
+                    In 2000 the population of Hibbing, Minnesota was reported at just over 17,000 residents. Based on a projected 0.4% decrease per year, the 2010 population was calculated to be <m>\mathbf{16,332.110\ldots}</m> people.
                 </p>
             </statement>
         </task>
@@ -125,7 +125,7 @@
         <task>
             <statement>
                 <p>
-                    Dawn tested a water sample from her apartment and found 21.19 ppm of sulfate. She volunteers at a local soup kitchen where the water sample tested at 21.3 ppm. (The abbreviation <term>ppm</term> stands for “parts per million. Not to worry - sulfate levels below 250 are considered safe for human consumption.)
+                    Dawn tested a water sample from her apartment and found 21.19 ppm of sulfate. She volunteers at a local soup kitchen where the water sample tested at 21.3 ppm. (The abbreviation <term>ppm</term> stands for <q>parts per million</q>. Not to worry - sulfate levels below 250 are considered safe for human consumption.)
                 </p>
             </statement>
         </task>

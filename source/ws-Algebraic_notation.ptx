@@ -9,7 +9,9 @@
     <exercise xml:id="weight-change-algebraic-notation" workspace="2.8in">
         <statement>
             <p>
-                Since she has been pregnant, Zoe has gained the recommended <m>\sfrac{1}{2}</m> pound per week. She weighed 153 pounds at the start of her pregnancy. That means when she is <m>T</m> weeks pregnant, that Zoe weighs <me>153 + \frac{1}{2}T</me> What does this expression say Zoe will weigh when she's 40 weeks pregnant? 
+                Since she has been pregnant, Zoe has gained the recommended <m>\sfrac{1}{2}</m> pound per week. She weighed 153 pounds at the start of her pregnancy. That means when she is <m>T</m> weeks pregnant, that Zoe weighs <me>153 + \frac{1}{2}T</me> What does this expression say Zoe will weigh when she's 40 weeks pregnant?
+            </p>
+            <p>
                 <em>
                     (Story also appears in
                     <xref ref="weight-change-order-operations" /> and 
@@ -32,6 +34,8 @@
         <statement>
             <p>
                 Astra lives in a 1-bedroom apartment where they pay $825 per month in rent. Thanks to new rent stabilization laws, Astra's rent can only increase 3% per year. That means after <m>T</m> years, their rent will be at most <me>825(1.03^T)</me> What does this expression say her rent could be in 5 years?
+            </p>
+            <p>
                 <em>
                     (Story also appears in 
                     <xref ref="astra-rent-percentages" /> and 

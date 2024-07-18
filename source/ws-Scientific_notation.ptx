@@ -4,7 +4,7 @@
     <title>Prelude: Scientific Notation - Practice exercises</title>
 
 <page>
-    <exercise workspace="0.6in">
+    <exercise workspace="0.5in">
         <introduction>
             <p>
                 In each story, write out the highlighted numbers (with all the zeros).
@@ -28,12 +28,15 @@
         <task xml:id="earth-weight-prelude-scientific-notation">
             <statement>
                 <p>
-                    The Earth weighs approximately <m>\mathbf{5.972 \times 10^{24}}</m> <term>kilograms</term>. <em>(Story also appears in <xref ref="planet-weight-scientific-notation" />)</em>
+                    The Earth weighs approximately <m>\mathbf{5.972 \times 10^{24}}</m> <term>kilograms</term>.
+                </p>
+                <p>
+                    <em>(Story also appears in <xref ref="planet-weight-scientific-notation" />)</em>
                 </p>
             </statement>
         </task>
     </exercise>
-    <exercise workspace="0.6in">
+    <exercise workspace="0.5in">
         <introduction>
             <p>
                 In each story, write out the highlighted numbers (with all the zeros).
@@ -49,14 +52,20 @@
         <task xml:id="dust-particle-prelude-scientific-notation">
             <statement>
                 <p>
-                    A dust particle weighs approximately <m>\mathbf{7.53 \times 10^{-10}}</m> <term>grams</term>. <em>(Story also appears in <xref ref="dust-particle-scientific-notation"/>)</em>
+                    A dust particle weighs approximately <m>\mathbf{7.53 \times 10^{-10}}</m> <term>grams</term>. 
+                </p>
+                <p>
+                    <em>(Story also appears in <xref ref="dust-particle-scientific-notation"/>)</em>
                 </p>
             </statement>
         </task>
         <task xml:id="proton-mass-prelude-scientific-notation">
             <statement>
                 <p>
-                    A proton (part of an atom) has mass of about <m>\mathbf{1.67262 \times 10^{-27}}</m> <term>kilograms</term>. <em>(Story also appears in 1.5 Exercises)</em>
+                    A proton (part of an atom) has mass of about <m>\mathbf{1.67262 \times 10^{-27}}</m> <term>kilograms</term>. 
+                </p>
+                <p>
+                    <em>(Story also appears in 1.5 Exercises)</em>
                 </p>
             </statement>
         </task>
@@ -74,6 +83,8 @@
             <statement>
                 <p>
                     Bunnies, bunnies, everywhere. In 2007 there were 1800 and that number was predicted to increase 13% each year. I was trying to predict the number of rabbits in 2023 (after 16 years) but I accidentally typed in 166 years by mistake: <me>1800 \ast 1.13 \wedge 166=</me> Report the answer I got in scientific notation. (Yes, this is a gigantic number. The exponential model I used doesn't actually make sense for that many years.) 
+                </p>
+                <p>
                     <em>
                         (Story also appears in 
                         <xref ref="bunnies-first-look-exponential"/> and 
@@ -85,7 +96,10 @@
         <task xml:id="fiber-optic-prelude-scientific-notation">
             <statement>
                 <p>
-                    A signal is sent down a fiber optic cable. Its strength decreases by 2% each mile it travels. We can calculate the signal strength after 1000 miles by evaluating <me>0.98 \wedge 1000=</me> Report the answer you get in scientific notation. (Yes, this is a teeny number. In reality there would be signal booster installed along the route.) <em>Story also appears in <xref ref="fiber-optic-growth-decay"/></em>
+                    A signal is sent down a fiber optic cable. Its strength decreases by 2% each mile it travels. We can calculate the signal strength after 1000 miles by evaluating <me>0.98 \wedge 1000=</me> Report the answer you get in scientific notation. (Yes, this is a teeny number. In reality there would be signal booster installed along the route.) 
+                </p>
+                <p>
+                    <em>Story also appears in <xref ref="fiber-optic-growth-decay"/></em>
                 </p>
             </statement>
         </task>
@@ -110,7 +124,7 @@
                 </p>
             </statement>
         </task>
-        <task xml:id="t-bonds-prelude-scientific-notation">
+        <task xml:id="t-bonds-prelude-scientific-notation" workspace="0in">
             <statement>
                 <p>
                     One way that the United States government can borrow money is by selling Treasury bonds (T-bonds). There are approximately <term>$24 trillion</term> worth of T-bonds currently.

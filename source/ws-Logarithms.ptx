@@ -106,6 +106,8 @@
         <introduction>
             <p>
                 In Minneapolis, apartment rent is expected to increase by 16% next year. 
+            </p>
+            <p>
                 <em>
                     (Story also appears in 
                     <xref ref="astra-rent-percentages" /> and 
@@ -120,7 +122,7 @@
                 </p>
             </statement>
         </task>
-        <task>
+        <task workspace="0in">
             <statement>
                 <p>
                     Lucky for Astra, their building is subject to rent stabilization laws and so their rent cannot increase by more than 3%. In how many years would their rent double under this cap? The answer is <m>\displaystyle \frac{\log(2)}{\log(1.03)}</m>.

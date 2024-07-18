@@ -47,6 +47,8 @@
         <introduction>
             <p>
                 <q>Rose gold</q> is a mix of gold and copper.
+            </p>
+            <p>
                 <em>
                     (Story also appears in
                     <xref ref="rose-gold-algebraic-notation" />,
@@ -62,7 +64,7 @@
                 </p>
             </statement>
         </task>
-        <task>
+        <task workspace="0in">
             <statement>
                 <p>
                     If instead we mix 2 grams of gold with 7 grams of copper, what is the percentage of gold in the resulting alloy?

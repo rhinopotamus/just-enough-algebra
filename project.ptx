@@ -9,10 +9,14 @@
             format="pdf" 
             publication="publication-latex.ptx"
             xsl="pretext-latex-workbook.xsl" 
-            latex-engine="pdflatex" />
+            latex-engine="pdflatex">
+      <stringparams latex.preamble.early="\usepackage{parskip}" />
+    </target>
     <target name="latex" 
             format="latex" 
             publication="publication-latex.ptx"
-            xsl="pretext-latex-workbook.xsl" />
+            xsl="pretext-latex-workbook.xsl">
+      <stringparams latex.preamble.early="\usepackage{parskip}" />
+    </target>
   </targets>
 </project>
