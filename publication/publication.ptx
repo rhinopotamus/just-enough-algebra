@@ -73,7 +73,7 @@
     <page right-alignment="flush" bottom-alignment="ragged">
       <!-- Add content to \geometry{}: -->
       <geometry>
-        includehead, showframe,
+        includehead,
         marginparwidth=1.25in,
         width=6in, right=1.5in
       </geometry>
