@@ -3,7 +3,12 @@
 <project ptx-version="2">
   <targets>
     <target name="web" format="html" />
-    <target name="print" format="pdf" xsl="pretext-latex-workbook.xsl" />
-    <target name="latex" format="latex" xsl="pretext-latex-workbook.xsl" />
+    <target name="print" 
+            format="pdf" 
+            xsl="pretext-latex-workbook.xsl" 
+            latex-engine="pdflatex" />
+    <target name="latex" 
+            format="latex" 
+            xsl="pretext-latex-workbook.xsl" />
   </targets>
 </project>
