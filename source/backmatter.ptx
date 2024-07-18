@@ -6,7 +6,9 @@
 <!-- solutions in the next. Then there is an appendix -->
 <!-- with all notation generated, and finally the index. -->
 <backmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="backmatter">
-  <title>Backmatter</title>
+  <title>Appendices</title>
+
+  <xi:include href="./workbook/ch-Prelude.ptx" />
 
   <!-- <solutions divisional="hint"> <title>Selected Hints</title> </solutions> -->
 

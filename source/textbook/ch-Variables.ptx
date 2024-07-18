@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-tx-Variables" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Variables</title>
+
+    <xi:include href="./sec-Variables_and_functions.ptx" />
+
+    
+
+</chapter>

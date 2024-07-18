@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-wb-Closer_look_exponentials" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>A closer look at exponential equations</title>
+	
+	<!-- <xi:include href="ss-Formula5.ptx" /> -->
+	<xi:include href="ws-Modeling_exponential_equations.ptx" />
+	<xi:include href="ws-Exp_growth_decay.ptx" />
+	<xi:include href="ws-Growth_factor.ptx" />
+	<xi:include href="ws-Linear_vs_exponential.ptx" />
+	<xi:include href="ws-Logistic_growth.ptx" />
+	<xi:include href="ws-PE5A.ptx" />
+	<xi:include href="ws-PE5B.ptx" />
+
+
+</chapter>

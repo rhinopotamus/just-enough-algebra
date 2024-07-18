@@ -4,21 +4,34 @@
   <!-- we first include a file which contains the docinfo element: -->
   <xi:include href="./docinfo.ptx" />
 
-  <book xml:id="just-enough-algebra-wb">
+  <book xml:id="just-enough-algebra">
     <title>Just Enough Algebra</title>
-    <subtitle>pretext workbook conversion</subtitle>
+    <!-- <subtitle>pretext workbook conversion</subtitle> -->
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
 
-    <!-- Include chapters -->
-    <xi:include href="./ch-Prelude.ptx" />
-    <xi:include href="./ch-Variables.ptx" />
-    <xi:include href="./ch-Equations.ptx" />
-    <xi:include href="./ch-Solving_equations.ptx" />
-    <xi:include href="./ch-Closer_look_linears.ptx" />
-    <xi:include href="./ch-Closer_look_exponentials.ptx" />
-    <xi:include href="./ch-Review.ptx" />
+    <!-- Textbook part -->
+     <part xml:id="textbook">
+      <title>Textbook</title>
+      
+      <!-- Include textbook chapters -->
+       <xi:include href="./textbook/ch-Variables.ptx" />
+     </part>
+
+    <!-- Workbook part -->
+    <part xml:id="workbook">
+      <title>Workbook</title>
+
+      <!-- Include workbook chapters -->
+      <!-- <xi:include href="./ch-Prelude.ptx" /> MOVED TO APPENDIX -->
+      <xi:include href="./workbook/ch-Variables.ptx" />
+      <xi:include href="./workbook/ch-Equations.ptx" />
+      <xi:include href="./workbook/ch-Solving_equations.ptx" />
+      <xi:include href="./workbook/ch-Closer_look_linears.ptx" />
+      <xi:include href="./workbook/ch-Closer_look_exponentials.ptx" />
+      <xi:include href="./workbook/ch-Review.ptx" />
+    </part>
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
