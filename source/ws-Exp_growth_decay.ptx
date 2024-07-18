@@ -118,7 +118,7 @@
         <introduction>
             <p>
                 If a person has a heart attack and their heart stops beating, the amount of time it takes paramedics to restart their heart with a defibrillator is critical. Each minute that passes decreases the person's chance of survival by 10%. Assume that this statement means the decrease is exponential and that the survival rate is 100% if the defibrillator is used immediately.
-                <!-- <aside>Source: American Red Cross</aside> -->
+                <aside><p>Source: American Red Cross</p></aside>
             </p>
         </introduction>
         <task workspace="1in">

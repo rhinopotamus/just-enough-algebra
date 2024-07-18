@@ -110,7 +110,7 @@
 				with a 30 mph wind is -12<m>^\circ</m>F. 
 				The table lists the wind chill for various wind speeds at an air temperature of 
 				10<m>^\circ</m>F. <em>(Story also appears in <xref ref="wind-chill-modeling-linear"/> )</em>
-				<!-- <aside>Source: National Weather Service</aside> -->
+				<aside><p>Source: National Weather Service</p></aside>
 			</p>		
 			<tabular bottom="minor" top="minor"> <!-- row-headers="yes"> -->
 				<row left="minor" class="odd">

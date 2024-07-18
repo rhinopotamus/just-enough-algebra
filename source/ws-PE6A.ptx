@@ -24,7 +24,7 @@
         <introduction>
             <p>
                 The graph shows the number of cars produced in North America (in millions/year) during 1951-2011.
-				<!-- <aside>Source: Ward's Automotive Yearbooks</aside> -->
+				<aside><p>Source: Ward's Automotive Yearbooks</p></aside>
             </p>
             <image source='CarProduction.png'/>
         </introduction>
@@ -296,7 +296,7 @@
 		<introduction>
 			<p>
 				In 2000 there were an estimated 20,851,820 Texans. The population of Texas has grown around 1.89% per year since then.
-				<!-- <aside>Source: United States Census Bureau</aside> -->
+				<aside><p>Source: United States Census Bureau</p></aside>
 			</p>
 		</introduction>
 		<task workspace="3.5in">
@@ -359,7 +359,7 @@
 		<introduction>
 			<p>
 				In the United States in 1970, the average person ate 2,169 calories per day. By 2008 that number had increased to 2,674 calories per day. Let <m>C</m> be the amount a typical person eats (in calories per day) and <m>T</m> the number of years since 1970. Compare what the linear and exponential models project for the years 2015 and 2030. Include both equations and a graph showing both functions on the same axes.
-				<!-- <aside>Source: United States Department of Agriculture</aside> -->
+				<aside><p>Source: United States Department of Agriculture</p></aside>
 			</p>
 			<xi:include href="GraphPaper.ptx" />
 		</introduction>

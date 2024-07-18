@@ -168,7 +168,7 @@
         <introduction>
             <p>
                 Many different agencies are working to lower infant mortality. Infant mortality is measured in deaths per thousand births. The world infant mortality rate in 1955 was around 52 (per thousand births). By the year 2000, it was down to around 23.
-                <!-- <aside>Source: Wikipedia (Infant Mortality)</aside> -->
+                <aside><p>Source: Wikipedia (Infant Mortality)</p></aside>
             </p>
         </introduction>
         <task workspace="0.5in">

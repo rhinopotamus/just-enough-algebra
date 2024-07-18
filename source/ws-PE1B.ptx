@@ -157,7 +157,7 @@
 		<introduction>
 			<p>
 				The distance from the Earth to the Moon is approximately 384,000,000 meters.
-				<!-- <aside>Source: Wikipedia (Lunar distance)</aside> -->
+				<aside><p>Source: Wikipedia (Lunar distance)</p></aside>
 			</p>
 		</introduction>
 		<task workspace="1in">
