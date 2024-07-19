@@ -119,13 +119,30 @@
 			In this chapter we've seen how to solve linear, power, and exponential equations. Let's solve this equation too. By the way, our function is quadratic because <me>H = 3+15T-16T^2</me> fits the template for a quadratic equation.
 		</p>
 
+		<definition xml:id="def-quadratic-equation-template">
+			<title>Quadratic equation template</title>
+			
+			
+			<statement>
+				<me>\text{dep} = a \ast \text{indep}^2 + b \ast\text{indep} + c</me>
+			</statement>
+		</definition>
+
 		<p>
 			with constants <me>a = -16 \quad b = 15 \quad c = 3</me> (More on how we found those numbers in a moment.)
 		</p>
 
 		<p>
-			Back to our juggler. We are trying to figure out when <m>H=0</m>. Using our equation <m>H=3+15T-16T^2</m>, we get <me>3+15T-16T^2=0</me> We want to solve for <m>T</m>. Notice that because <m>T</m> occurs twice in the equation, nothing we have seen to do to each side of the equation can knock it down to just one <m>T</m>. That means none of our methods so far work. Luckily there's a way to solve any quadratic equation using the aptly-named <alert>Quadratic Formula</alert>.
+			Back to our juggler. We are trying to figure out when <m>H=0</m>. Using our equation <m>H=3+15T-16T^2</m>, we get <me>3+15T-16T^2=0</me> We want to solve for <m>T</m>. Notice that because <m>T</m> occurs twice in the equation, nothing we have seen to do to each side of the equation can knock it down to just one <m>T</m>. That means none of our methods so far work. Luckily there's a way to solve any quadratic equation using the aptly-named <term>Quadratic Formula</term>.
 		</p>
+
+		<definition xml:id="def-quadratic-formula">
+			<statement>
+				<p>
+					The equation <m>aT^2+bT+c=0</m> has solutions <me>T = \frac{-b}{2a} \pm \frac{\sqrt{b^2-4ac}}{2a}</me>
+				</p>
+			</statement>
+		</definition>
 
 		<p>
 			Oh my! First thing to understand in this complicated formula is that we actually get two possible answers <me>T = \frac{-b}{2a}+ \frac{\sqrt{b^2-4ac}}{2a} \quad \text{and} \quad T = \frac{-b}{2a} - \frac{\sqrt{b^2-4ac}}{2a}</me> Sometimes one answer makes sense in the story, other times they both might. Stay tuned.
@@ -224,9 +241,7 @@ H &amp;= &amp;3 + 15 \ast 0.46875-16 \ast 0.46875^2 \\
 		</p>
 
 
-		<p>
-			(1,0)300
-		</p>
+
 
 	</section>
 

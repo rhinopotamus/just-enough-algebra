@@ -149,18 +149,31 @@
 			By the way, our first equation <me>B = 0.04 \ast S^2</me> is a <term>power equation</term> because the independent variable is being raised to a power, <m>n=2</m>, and then scaled by a <term>proportionality constant</term>, <m>k=0.04</m>. Any power equation fits this template.
 		</p>
 
+		<definition xml:id="def-power-equation-template">
+			<statement>
+				<me>\text{dep} = k \ast \text{indep}^{n}</me>
+			</statement>
+		</definition>
+
 		<p>
 			Our second equation <me>D=0.04S^2 + 1.47S</me> is a <term>polynomial equation</term> because includes both a linear and powers. The exercises introduce more polynomial equations. Polynomials can have any powers, but in this equation the highest power happens to be 2. This type of polynomial equation has a special name. It is a <term>quadratic equation</term>. Any quadratic equation fits this template.
 		</p>
+
+		<definition xml:id="def-quadratic-equation-template-2.3">
+			<title>Quadratic equation template</title>
+			
+			
+			<statement>
+				<me>\text{dep} = a \ast \text{indep}^2 + b \ast\text{indep} + c</me>
+			</statement>
+		</definition>
 
 		<p>
 			For our equation <m>a=0.04</m>, <m>b=1.47</m>, and the mysteriously missing <m>c=0</m>.
 		</p>
 
 
-		<p>
-			(1,0)300
-		</p>
+
 
 	</section>
 

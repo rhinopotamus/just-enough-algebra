@@ -15,23 +15,23 @@
      <part xml:id="textbook" component="textbook">
       <title>Textbook</title>
       
-       <xi:include href="./textbook/ch-Variables.ptx" />
-       <xi:include href="./textbook/ch-Equations.ptx" />
-       <xi:include href="./textbook/ch-Solving_equations.ptx" />
-       <xi:include href="./textbook/ch-Closer_look_linear.ptx" />
-       <xi:include href="./textbook/ch-Closer_look_exponential.ptx" />
+       <xi:include href="./textbook/ch-tx-Variables.ptx" />
+       <xi:include href="./textbook/ch-tx-Equations.ptx" />
+       <xi:include href="./textbook/ch-tx-Solving_equations.ptx" />
+       <xi:include href="./textbook/ch-tx-Closer_look_linear.ptx" />
+       <xi:include href="./textbook/ch-tx-Closer_look_exponential.ptx" />
      </part>
 
     <!-- Workbook part -->
     <part xml:id="workbook" component="workbook">
       <title>Workbook</title>
 
-      <xi:include href="./workbook/ch-Variables.ptx" />
-      <xi:include href="./workbook/ch-Equations.ptx" />
-      <xi:include href="./workbook/ch-Solving_equations.ptx" />
-      <xi:include href="./workbook/ch-Closer_look_linears.ptx" />
-      <xi:include href="./workbook/ch-Closer_look_exponentials.ptx" />
-      <xi:include href="./workbook/ch-Review.ptx" />
+      <xi:include href="./workbook/ch-wb-Variables.ptx" />
+      <xi:include href="./workbook/ch-wb-Equations.ptx" />
+      <xi:include href="./workbook/ch-wb-Solving_equations.ptx" />
+      <xi:include href="./workbook/ch-wb-Closer_look_linears.ptx" />
+      <xi:include href="./workbook/ch-wb-Closer_look_exponentials.ptx" />
+      <xi:include href="./workbook/ch-wb-Review.ptx" />
     </part>
 
     <!-- Backmatter -->
@@ -39,8 +39,8 @@
     <backmatter xml:id="backmatter">
       <title>Appendices</title>
     
-      <xi:include href="./workbook/ch-Prelude.ptx" component="workbook" />
-      
+      <xi:include href="./workbook/ch-wb-Prelude.ptx"/>
+
       <colophon>
         <p> This book was authored in <pretext />. </p>
       </colophon>

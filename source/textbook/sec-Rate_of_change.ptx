@@ -72,6 +72,17 @@
 		In our story, we calculated the speed of the diver. In general, that number is the <term>rate of change</term> of the function over that interval of values.
 	</p>
 
+	<definition xml:id="def-rate-of-change">
+		<title>Rate of change formula</title>
+		
+		
+		<statement>
+			<p>
+				<me>\text{rate of change = }\frac{\text{change dep}}{\text{change indep}}</me>
+			</p>
+		</statement>
+	</definition>
+
 	<p>
 		Notice how the change in dependent variable (height, in meters) is on top of the fraction and the change in independent variable (time, in seconds) is on the bottom. That makes sense in our example because speed is measured in meters/second. The units can help you keep that straight. <me>\text{units for rate of change} = \frac{\text{units for dep}}{\text{units for indep}}</me>
 	</p>

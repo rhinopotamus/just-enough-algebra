@@ -122,6 +122,38 @@
 		Here's the full list of the <term>order of operations</term>, the priority ranking for arithmetic operations.
 	</p>
 
+	<definition xml:id="def-order-operations">
+		<title>Order of operations</title>
+		
+		
+		<statement>
+			<p>
+				<ul>
+					<li>
+						<p>
+							First, calculate anything inside <term>P</term>arentheses.
+						</p>
+					</li>
+					<li>
+						<p>
+							Next, calculate <term>E</term>xponents <m>\wedge</m>, in order from left to right.
+						</p>
+					</li>
+					<li>
+						<p>
+							Then, <term>M</term>ultiply <m>\times</m> and <term>D</term>ivide <m>\div</m>, in order from left to right.
+						</p>
+					</li>
+					<li>
+						<p>
+							Last, <term>A</term>dd <m>+</m> and <term>S</term>ubtract <m>-</m>, in order from left to right.
+						</p>
+					</li>
+				</ul>
+			</p>
+		</statement>
+	</definition>
+
 	<p>
 		We highlighted the letters PEMDAS which often helps people remember this order. (<q>Please Excuse My Dear Aunt Sally</q> is how I learned it.) The good news is that your calculator does the operations in exactly this order. And if you want something in a different order, all you need to do is use parentheses around quantities you want calculated first.
 	</p>

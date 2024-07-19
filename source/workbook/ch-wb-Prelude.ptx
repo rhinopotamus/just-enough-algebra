@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<appendix xml:id="ch-wb-Prelude" xmlns:xi="http://www.w3.org/2001/XInclude">
+<appendix xml:id="ch-wb-Prelude" xmlns:xi="http://www.w3.org/2001/XInclude" component="workbook">
 	<title>Prelude</title>
 	<xi:include href="ws-Approximation_and_rounding.ptx" />
     <xi:include href="ws-Arithmetic_operations.ptx" />
