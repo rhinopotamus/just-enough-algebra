@@ -17,6 +17,12 @@
 		</p>
     </introduction>
 
+	<xi:include href="./sec-Modeling_exponential_equations.ptx" />
+	<xi:include href="./sec-Exp_growth_decay.ptx" />
+	<xi:include href="./sec-Growth_factor.ptx" />
+	<xi:include href="./sec-Linear_vs_exponential.ptx" />
+	<xi:include href="./sec-Logistic_growth.ptx" />
+
     
 
 </chapter>

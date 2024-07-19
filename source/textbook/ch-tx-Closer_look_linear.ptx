@@ -21,6 +21,12 @@
 		</p>
     </introduction>
 
+	<xi:include href="./sec-Modeling_linear_equations.ptx" />
+	<xi:include href="./sec-Systems_linear_equations.ptx" />
+	<xi:include href="./sec-Intercepts.ptx" />
+	<xi:include href="./sec-Slopes.ptx" />
+	<xi:include href="./sec-Fitting_lines_to_data.ptx" />
+
     
 
 </chapter>

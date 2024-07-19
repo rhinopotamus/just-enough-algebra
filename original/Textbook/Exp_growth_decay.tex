@@ -1,4 +1,4 @@
- ~\vspace{.1in}
+ ~\vspace{0.1in}
  
  \section{Exponential growth and decay}
 
@@ -8,23 +8,23 @@ First things first:  staying up that late to study is probably a bad idea.  I me
 $$5 \text{ mugs} \ast \frac{200 \text{ mg}}{\text{mug}} = 5 \times 200 = \text{1,000 mg}$$
 which is a lot of caffeine, probably more than he needed to stay awake.  
 
-At this point Joe is stuck so let's help him. Let's say that at 2:00 a.m.\ he has \text{1,000} mg of caffeine in his blood.  Joe searches online and discovers that 13\% of the caffeine should leave his body each hour and below 300 mg he should be fine.  When will that happen?
+At this point Joe is stuck so let's help him. Let's say that at 2:00 a.m.\ he has 1,000 mg of caffeine in his blood.  Joe searches online and discovers that 13\% of the caffeine should leave his body each hour and below 300 mg he should be fine.  When will that happen?
 
 We know how percent increase works, but here the caffiene is leaving his body according to a percent decrease.  I guess we need to figure it out one step at a time.  After one hour (by 3:00 a.m.), Joe will have 
-$$  \text{1,000} \text{ mg} - 13 \% \text{ of }  \text{1,000} \text{ mg} =  \text{1,000}- .13 \times  \text{1,000} =  \text{1,000} - 130 = 870 \text{ mg}$$
+$$  1,000 \text{ mg} - 13 \% \text{ of }  1,000 \text{ mg} =  1,000- 0.13 \times  1,000 =  1,000 - 130 = 870 \text{ mg}$$
 By 4:00 a.m.\ (after 2 hours), Joe will have
-$$ 870 \text{ mg} - 13 \% \text{ of } 870 \text{ mg} = 870 - .13 \times 870 = 870 - 113.1 =  756.9 \text{ mg}$$
+$$ 870 \text{ mg} - 13 \% \text{ of } 870 \text{ mg} = 870 - 0.13 \times 870 = 870 - 113.1 =  756.9 \text{ mg}$$
 
-Wait a minute.  When we calculated 13\% decrease on  \text{1,000} mg we got 870 mg.  That's 87\% of \text{1,000}.  Yeah, that's right, take off 13\% and you should be left with 87\% of what you started with because $100\% - 13\% = 87\%$.
+Wait a minute.  When we calculated 13\% decrease on  1,000 mg we got 870 mg.  That's 87\% of 1,000.  Yeah, that's right, take off 13\% and you should be left with 87\% of what you started with because $100\% - 13\% = 87\%$.
 So we could have calculated 
-$$ .87 \times \text{1,000} = 870 \text{ mg}$$
-and then $$.87 \times 870 = 756.9 \text{ mg}$$
-Aha, to find the amount after a 13\% decrease we just multiply by .87.
+$$ 0.87 \times 1,000 = 870 \text{ mg}$$
+and then $$0.87 \times 870 = 756.9 \text{ mg}$$
+Aha, to find the amount after a 13\% decrease we just multiply by 0.87.
 
-Still nowhere near 300 mg so fast-forward.  For example, after 5 hours (at 7:00 a.m.), we need to multiply  \text{1,000} by .87 five times
-$$1000 \ast .87 \ast .87 \ast .87 \ast .87 \ast .87=  \text{1,000} \ast .87^5$$
+Still nowhere near 300 mg so fast-forward.  For example, after 5 hours (at 7:00 a.m.), we need to multiply  1,000 by 0.87 five times
+$$1000 \ast 0.87 \ast 0.87 \ast 0.87 \ast 0.87 \ast 0.87=  1,000 \ast 0.87^5$$
 where we use a power to abbreviate repeatedly multiplying.  So
-$$1000 \ast .87^5 =  \text{1,000} \times .87 \wedge 5 = 498.420920\ldots \approx 498.4 \text{ mg}$$
+$$1000 \ast 0.87^5 =  1,000 \times 0.87 \wedge 5 = 498.420920\ldots \approx 498.4 \text{ mg}$$
 
 The bad news is that it's 7:00 a.m.\ and Joe is still too jittery to sleep. 
 The good news is that we can write the equation.  The variables are 
@@ -34,36 +34,36 @@ $J=$ Joe's caffeine level (mg) $\sim$ dep \\
 $H =$ time (hours since 2:00 a.m.) $\sim$ indep \\
 \end{tabular}
 \end{center}
-Our equation must be $$ J = \text{1,000} \ast.87^H$$
+Our equation must be $$ J = 1,000 \ast0.87^H$$
 Notice this equation fits our template for an exponential equation.
 $$\text{dep }=\text{ start } \ast \text{growth factor}^{\text{indep}}$$
 
-A little terminology here. When a function is exponential but decreasing, it's called \textbf{exponential decay}.  It sounds a little odd to say ``growth factor'' if the quantity is getting smaller so we sometimes say \textbf{decay factor} instead.   We know from the \textsc{Percent Change Formula} that the growth factor ($g$) can be found from the growth rate (r) by the formula $g=1+r$.  If we think of 13\% decrease as negative growth rate, $r=-13\%=-.13$, then the formula still works to find the decay factor ($g$)
-$$g= 1 + r = 1 + -.13 = 1-.13 = .87$$  
+A little terminology here. When a function is exponential but decreasing, it's called \textbf{exponential decay}.  It sounds a little odd to say ``growth factor'' if the quantity is getting smaller so we sometimes say \textbf{decay factor} instead.   We know from the \textsc{Percent Change Formula} that the growth factor ($g$) can be found from the growth rate (r) by the formula $g=1+r$.  If we think of 13\% decrease as negative growth rate, $r=-13\%=-0.13$, then the formula still works to find the decay factor ($g$)
+$$g= 1 + r = 1 + -0.13 = 1-0.13 = 0.87$$  
 
 Back to jittery Joe.  Let's summarize what we've found and add a few more times to see when Joe's caffeine level should fall below 300 mg.  
 \begin{center}
 \begin{tabular} {|c| |c |c |c |c |c |c |c |c |c |c|}\hline
 time & 2:00 & 3:00  & 4:00 & 5:00  & 6:00  & 7:00 & 8:00 & 9:00 & 10:00 & 11:00 \\ \hline
 $H$ & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9\\ \hline
-$J$ & \text{1,000} & 870 & 756.9 & 658.5 & 572.9 & 498.4 & 433.6 & 377.3 & 328.2 & 285.5 \\ \hline
+$J$ & 1,000 & 870 & 756.9 & 658.5 & 572.9 & 498.4 & 433.6 & 377.3 & 328.2 & 285.5 \\ \hline
 vs.\ 300 & high & high& high& high& high& high& high& high& high& low\\ \hline
 \end{tabular}
 \end{center}
 That means Joe should be able to fall asleep by around 11:00 a.m.  Exactly when his exam starts.  Sorry, Joe.
 
-We could have solved the equation instead.  We were looking for $J = 300$.  Using our equation $J = \text{1,000} \ast .87^H$ we get
-$$ \text{1,000} \ast .87^H=300$$
-Divide each side \text{1,000} to get
-$$ \frac{\cancel{\text{1,000}} \ast .87^H}{\cancel{\text{1,000}}}= \frac{300}{\text{1,000}}$$
-which simplifies to $$.87^H = \frac{300}{\text{1,000}} = 300 \div \text{1,000} = .3$$
+We could have solved the equation instead.  We were looking for $J = 300$.  Using our equation $J = 1,000 \ast 0.87^H$ we get
+$$ 1,000 \ast 0.87^H=300$$
+Divide each side 1,000 to get
+$$ \frac{\cancel{1,000} \ast 0.87^H}{\cancel{1,000}}= \frac{300}{1,000}$$
+which simplifies to $$0.87^H = \frac{300}{1,000} = 300 \div 1,000 = 0.3$$
 
 We find ourselves in the familiar situation -- solving to find the exponent.  Logs to the rescue.  By the
-\textsc{The Log-Divides Formula} with growth factor $g=.87$ and value $v= .3$ we get $$Y =  \frac{\log (v)}{\log(g)}=  \frac{\log (.3)}{\log(.87)} =  \log (.3) \div \log (.87) =  8.64537506\ldots \approx 9 $$ 
+\textsc{The Log-Divides Formula} with growth factor $g=0.87$ and value $v= 0.3$ we get $$Y =  \frac{\log (v)}{\log(g)}=  \frac{\log (0.3)}{\log(0.87)} =  \log (0.3) \div \log (0.87) =  8.64537506\ldots \approx 9 $$ 
 which corresponds to 11:00 a.m.  Same answer.  Much quicker.
 
 Quick side note.  We could have rounded to 8.64 hours and then converted units to get
-$$.64 \text{ hours} \ast \frac{60 \text{ minutes}}{1 \text{ hour}} = .64 \times 60 = 38.4 \approx 39 \text{ minutes}$$
+$$0.64 \text{ hours} \ast \frac{60 \text{ minutes}}{1 \text{ hour}} = 0.64 \times 60 = 38.4 \approx 39 \text{ minutes}$$
 Counting from  2:00 a.m., we see that Joe's caffeine levels drop below 300 mg at 10:39 a.m.  Since we are approximating throughout the problem, we should round to 11:00 a.m.\  anyway.
 
 Let's calculate the rate of change and think about what it means.  During the first hour,
@@ -76,15 +76,15 @@ Joe's caffeine level was dropping faster at first and is not dropping as fast no
 
 A glance at the graph confirms our findings.
  \begin{center}
-\scalebox {.8} {\includegraphics [width = 6in] {caffeine.png}}
+\scalebox {0.8} {\includegraphics [width = 6in] {caffeine.png}}
 \end{center}
 
-One last thing.  There's another way to describe the decrease here.  When our story began Joe's caffeine level was around \text{1,000} mg and after 5 hours is was at 498.4 mg.  That's just about 500 mg, or half of what he started with.  We say the \textbf{half-life} of caffeine is around 5 hours.  
+One last thing.  There's another way to describe the decrease here.  When our story began Joe's caffeine level was around 1,000 mg and after 5 hours is was at 498.4 mg.  That's just about 500 mg, or half of what he started with.  We say the \textbf{half-life} of caffeine is around 5 hours.  
 
-Doesn't sound very important but check this out.  Start with \text{1,000} mg.  After 5 hours, there's 500 mg left.  (Okay, approximately.)  Now go another 5 hours, which means 10 hours total.  Evaluate our equation $J = \text{1,000} \ast .87^H$ when $H =10$ to get
- $$ J = \text{1,000} \ast .87^{10} = \text{1,000} \ast .87 \wedge \underline{10} = 248.423414\ldots \approx 250 \text{ mg}$$ 
+Doesn't sound very important but check this out.  Start with 1,000 mg.  After 5 hours, there's 500 mg left.  (Okay, approximately.)  Now go another 5 hours, which means 10 hours total.  Evaluate our equation $J = 1,000 \ast 0.87^H$ when $H =10$ to get
+ $$ J = 1,000 \ast 0.87^{10} = 1,000 \ast 0.87 \wedge \underline{10} = 248.423414\ldots \approx 250 \text{ mg}$$ 
 That means half of what was left is now gone.  Go another 5 hours. Lose another half. Check for yourself:
-$$ J = \text{1,000} \ast .87^{15} = \text{1,000} \ast .87 \wedge \underline{15} = 123.819426\ldots \approx 125 \text{ mg}$$ 
+$$ J = 1,000 \ast 0.87^{15} = 1,000 \ast 0.87 \wedge \underline{15} = 123.819426\ldots \approx 125 \text{ mg}$$ 
 And so on.  Cool.
 
  \input{../Homework/Exp_growth_decayEX.tex}

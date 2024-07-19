@@ -142,8 +142,11 @@
 	</p>
 
 	<definition xml:id="def-power-equation-template">
+		<title>Power equation template</title>
+		
+		
 		<statement>
-			<me>\text{dep} = k \ast \text{indep}^{n}</me>
+			<p><me>\text{dep} = k \ast \text{indep}^{n}</me></p>
 		</statement>
 	</definition>
 
@@ -156,7 +159,7 @@
 			
 			
 		<statement>
-			<me>\text{dep} = a \ast \text{indep}^2 + b \ast\text{indep} + c</me>
+			<p><me>\text{dep} = a \ast \text{indep}^2 + b \ast\text{indep} + c</me></p>
 		</statement>
 	</definition>
 

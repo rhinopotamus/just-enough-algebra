@@ -21,6 +21,12 @@
         </p>
     </introduction>
 
+    <xi:include href="./sec-Solving_linear_equations.ptx" />
+    <xi:include href="./sec-Solving_linear_inequalities.ptx" />
+    <xi:include href="./sec-Solving_power_equations.ptx" />
+    <xi:include href="./sec-Solving_exponential_equations.ptx" />
+    <xi:include href="./sec-Solving_quadratic_equations.ptx" />
+
 
 
 
