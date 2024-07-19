@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Metric prefixes and scientific notation</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Just Enough Algebra">
+<meta property="book:author" content="Dr. Suzanne Dorée">
+<meta property="book:author" content="Dr. Spencer Bagley">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<style>
+#Variables_and_functions_end-3-1 { counter-set: Variables_and_functions_end-3-1 0; }
+#Variables_and_functions_end-3-1 > li::marker { content: ""counter(Variables_and_functions_end-3-1,decimal)"."; }
+#Variables_and_functions_end-3-1 > li { counter-increment: Variables_and_functions_end-3-1; }
+#ss-Rate_of_change_end-2-1 { counter-set: ss-Rate_of_change_end-2-1 0; }
+#ss-Rate_of_change_end-2-1 > li::marker { content: ""counter(ss-Rate_of_change_end-2-1,decimal)"."; }
+#ss-Rate_of_change_end-2-1 > li { counter-increment: ss-Rate_of_change_end-2-1; }
+#ss-Units_end-2-1 { counter-set: ss-Units_end-2-1 0; }
+#ss-Units_end-2-1 > li::marker { content: ""counter(ss-Units_end-2-1,decimal)"."; }
+#ss-Units_end-2-1 > li { counter-increment: ss-Units_end-2-1; }
+#ss-Metric_system_and_scientific_notation_end-2-1 { counter-set: ss-Metric_system_and_scientific_notation_end-2-1 0; }
+#ss-Metric_system_and_scientific_notation_end-2-1 > li::marker { content: ""counter(ss-Metric_system_and_scientific_notation_end-2-1,decimal)"."; }
+#ss-Metric_system_and_scientific_notation_end-2-1 > li { counter-increment: ss-Metric_system_and_scientific_notation_end-2-1; }
+#ss-First_look_linear_end-2-1 { counter-set: ss-First_look_linear_end-2-1 0; }
+#ss-First_look_linear_end-2-1 > li::marker { content: ""counter(ss-First_look_linear_end-2-1,decimal)"."; }
+#ss-First_look_linear_end-2-1 > li { counter-increment: ss-First_look_linear_end-2-1; }
+#ss-First_look_exponential_end-2-1 { counter-set: ss-First_look_exponential_end-2-1 0; }
+#ss-First_look_exponential_end-2-1 > li::marker { content: ""counter(ss-First_look_exponential_end-2-1,decimal)"."; }
+#ss-First_look_exponential_end-2-1 > li { counter-increment: ss-First_look_exponential_end-2-1; }
+#ss-Using_equations_end-2-1 { counter-set: ss-Using_equations_end-2-1 0; }
+#ss-Using_equations_end-2-1 > li::marker { content: ""counter(ss-Using_equations_end-2-1,decimal)"."; }
+#ss-Using_equations_end-2-1 > li { counter-increment: ss-Using_equations_end-2-1; }
+#ss-Approx_solutions_end-2-1 { counter-set: ss-Approx_solutions_end-2-1 0; }
+#ss-Approx_solutions_end-2-1 > li::marker { content: ""counter(ss-Approx_solutions_end-2-1,decimal)"."; }
+#ss-Approx_solutions_end-2-1 > li { counter-increment: ss-Approx_solutions_end-2-1; }
+#ss-Finance_end-2-1 { counter-set: ss-Finance_end-2-1 0; }
+#ss-Finance_end-2-1 > li::marker { content: ""counter(ss-Finance_end-2-1,decimal)"."; }
+#ss-Finance_end-2-1 > li { counter-increment: ss-Finance_end-2-1; }
+#ss-Solving_linear_equations_end-2-1 { counter-set: ss-Solving_linear_equations_end-2-1 0; }
+#ss-Solving_linear_equations_end-2-1 > li::marker { content: ""counter(ss-Solving_linear_equations_end-2-1,decimal)"."; }
+#ss-Solving_linear_equations_end-2-1 > li { counter-increment: ss-Solving_linear_equations_end-2-1; }
+#ss-Solving_linear_inequalities_end-2-1 { counter-set: ss-Solving_linear_inequalities_end-2-1 0; }
+#ss-Solving_linear_inequalities_end-2-1 > li::marker { content: ""counter(ss-Solving_linear_inequalities_end-2-1,decimal)"."; }
+#ss-Solving_linear_inequalities_end-2-1 > li { counter-increment: ss-Solving_linear_inequalities_end-2-1; }
+#ss-Solving_power_equations_end-2-1 { counter-set: ss-Solving_power_equations_end-2-1 0; }
+#ss-Solving_power_equations_end-2-1 > li::marker { content: ""counter(ss-Solving_power_equations_end-2-1,decimal)"."; }
+#ss-Solving_power_equations_end-2-1 > li { counter-increment: ss-Solving_power_equations_end-2-1; }
+#ss-Solving_exponential_equations_end-2-1 { counter-set: ss-Solving_exponential_equations_end-2-1 0; }
+#ss-Solving_exponential_equations_end-2-1 > li::marker { content: ""counter(ss-Solving_exponential_equations_end-2-1,decimal)"."; }
+#ss-Solving_exponential_equations_end-2-1 > li { counter-increment: ss-Solving_exponential_equations_end-2-1; }
+#ss-Solving_quadratic_equations_end-2-1 { counter-set: ss-Solving_quadratic_equations_end-2-1 0; }
+#ss-Solving_quadratic_equations_end-2-1 > li::marker { content: ""counter(ss-Solving_quadratic_equations_end-2-1,decimal)"."; }
+#ss-Solving_quadratic_equations_end-2-1 > li { counter-increment: ss-Solving_quadratic_equations_end-2-1; }
+#ss-Modeling_linear_equations_end-2-1 { counter-set: ss-Modeling_linear_equations_end-2-1 0; }
+#ss-Modeling_linear_equations_end-2-1 > li::marker { content: ""counter(ss-Modeling_linear_equations_end-2-1,decimal)"."; }
+#ss-Modeling_linear_equations_end-2-1 > li { counter-increment: ss-Modeling_linear_equations_end-2-1; }
+#ss-Systems_linear_equations_end-2-1 { counter-set: ss-Systems_linear_equations_end-2-1 0; }
+#ss-Systems_linear_equations_end-2-1 > li::marker { content: ""counter(ss-Systems_linear_equations_end-2-1,decimal)"."; }
+#ss-Systems_linear_equations_end-2-1 > li { counter-increment: ss-Systems_linear_equations_end-2-1; }
+#ss-Intercepts_end-2-1 { counter-set: ss-Intercepts_end-2-1 0; }
+#ss-Intercepts_end-2-1 > li::marker { content: ""counter(ss-Intercepts_end-2-1,decimal)"."; }
+#ss-Intercepts_end-2-1 > li { counter-increment: ss-Intercepts_end-2-1; }
+#ss-Slopes_end-2-1 { counter-set: ss-Slopes_end-2-1 0; }
+#ss-Slopes_end-2-1 > li::marker { content: ""counter(ss-Slopes_end-2-1,decimal)"."; }
+#ss-Slopes_end-2-1 > li { counter-increment: ss-Slopes_end-2-1; }
+#ss-Fitting_lines_to_data_end-2-1 { counter-set: ss-Fitting_lines_to_data_end-2-1 0; }
+#ss-Fitting_lines_to_data_end-2-1 > li::marker { content: ""counter(ss-Fitting_lines_to_data_end-2-1,decimal)"."; }
+#ss-Fitting_lines_to_data_end-2-1 > li { counter-increment: ss-Fitting_lines_to_data_end-2-1; }
+#ss-Modeling_exponential_equations_end-2-1 { counter-set: ss-Modeling_exponential_equations_end-2-1 0; }
+#ss-Modeling_exponential_equations_end-2-1 > li::marker { content: ""counter(ss-Modeling_exponential_equations_end-2-1,decimal)"."; }
+#ss-Modeling_exponential_equations_end-2-1 > li { counter-increment: ss-Modeling_exponential_equations_end-2-1; }
+#ss-Exp_growth_decay_end-2-1 { counter-set: ss-Exp_growth_decay_end-2-1 0; }
+#ss-Exp_growth_decay_end-2-1 > li::marker { content: ""counter(ss-Exp_growth_decay_end-2-1,decimal)"."; }
+#ss-Exp_growth_decay_end-2-1 > li { counter-increment: ss-Exp_growth_decay_end-2-1; }
+#ss-Growth_factor_end-2-1 { counter-set: ss-Growth_factor_end-2-1 0; }
+#ss-Growth_factor_end-2-1 > li::marker { content: ""counter(ss-Growth_factor_end-2-1,decimal)"."; }
+#ss-Growth_factor_end-2-1 > li { counter-increment: ss-Growth_factor_end-2-1; }
+#ss-Linear_vs_exponential_end-2-1 { counter-set: ss-Linear_vs_exponential_end-2-1 0; }
+#ss-Linear_vs_exponential_end-2-1 > li::marker { content: ""counter(ss-Linear_vs_exponential_end-2-1,decimal)"."; }
+#ss-Linear_vs_exponential_end-2-1 > li { counter-increment: ss-Linear_vs_exponential_end-2-1; }
+#ss-Logistic_growth_end-2-1 { counter-set: ss-Logistic_growth_end-2-1 0; }
+#ss-Logistic_growth_end-2-1 > li::marker { content: ""counter(ss-Logistic_growth_end-2-1,decimal)"."; }
+#ss-Logistic_growth_end-2-1 > li { counter-increment: ss-Logistic_growth_end-2-1; }
+#ss-Approximation_and_rounding_end-2-1 { counter-set: ss-Approximation_and_rounding_end-2-1 0; }
+#ss-Approximation_and_rounding_end-2-1 > li::marker { content: ""counter(ss-Approximation_and_rounding_end-2-1,decimal)"."; }
+#ss-Approximation_and_rounding_end-2-1 > li { counter-increment: ss-Approximation_and_rounding_end-2-1; }
+#ss-Arithmetic_operations_end-2-1 { counter-set: ss-Arithmetic_operations_end-2-1 0; }
+#ss-Arithmetic_operations_end-2-1 > li::marker { content: ""counter(ss-Arithmetic_operations_end-2-1,decimal)"."; }
+#ss-Arithmetic_operations_end-2-1 > li { counter-increment: ss-Arithmetic_operations_end-2-1; }
+#ss-Percentages_end-2-1 { counter-set: ss-Percentages_end-2-1 0; }
+#ss-Percentages_end-2-1 > li::marker { content: ""counter(ss-Percentages_end-2-1,decimal)"."; }
+#ss-Percentages_end-2-1 > li { counter-increment: ss-Percentages_end-2-1; }
+#ss-Order_of_operations_end-2-1 { counter-set: ss-Order_of_operations_end-2-1 0; }
+#ss-Order_of_operations_end-2-1 > li::marker { content: ""counter(ss-Order_of_operations_end-2-1,decimal)"."; }
+#ss-Order_of_operations_end-2-1 > li { counter-increment: ss-Order_of_operations_end-2-1; }
+#ss-Fractions_end-2-1 { counter-set: ss-Fractions_end-2-1 0; }
+#ss-Fractions_end-2-1 > li::marker { content: ""counter(ss-Fractions_end-2-1,decimal)"."; }
+#ss-Fractions_end-2-1 > li { counter-increment: ss-Fractions_end-2-1; }
+#ss-Powers_and_roots_end-2-1 { counter-set: ss-Powers_and_roots_end-2-1 0; }
+#ss-Powers_and_roots_end-2-1 > li::marker { content: ""counter(ss-Powers_and_roots_end-2-1,decimal)"."; }
+#ss-Powers_and_roots_end-2-1 > li { counter-increment: ss-Powers_and_roots_end-2-1; }
+#ss-Algebraic_notation_end-2-1 { counter-set: ss-Algebraic_notation_end-2-1 0; }
+#ss-Algebraic_notation_end-2-1 > li::marker { content: ""counter(ss-Algebraic_notation_end-2-1,decimal)"."; }
+#ss-Algebraic_notation_end-2-1 > li { counter-increment: ss-Algebraic_notation_end-2-1; }
+#ss-Scientific_notation_end-2-1 { counter-set: ss-Scientific_notation_end-2-1 0; }
+#ss-Scientific_notation_end-2-1 > li::marker { content: ""counter(ss-Scientific_notation_end-2-1,decimal)"."; }
+#ss-Scientific_notation_end-2-1 > li { counter-increment: ss-Scientific_notation_end-2-1; }
+#ss-Logarithms_end-2-1 { counter-set: ss-Logarithms_end-2-1 0; }
+#ss-Logarithms_end-2-1 > li::marker { content: ""counter(ss-Logarithms_end-2-1,decimal)"."; }
+#ss-Logarithms_end-2-1 > li { counter-increment: ss-Logarithms_end-2-1; }
+</style>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="just-enough-algebra.html"><span class="title">Just Enough Algebra</span></a></h1>
+<p class="byline">Dr. Suzanne Dorée, Dr. Spencer Bagley</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-Units.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-tx-Variables.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-tx-Equations.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth3 parts"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="wb-preface.html" class="internal"><span class="title">Preface to workbook</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-part contains-active">
+<div class="toc-title-box"><a href="textbook.html" class="internal"><span class="codenumber">I</span> <span class="title">Textbook</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-tx-Variables.html" class="internal"><span class="codenumber">1</span> <span class="title">Variables</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Variables_and_functions.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Variables and functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Tables_and_graphs.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Tables and graphs</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Rate_of_change.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Rate of change</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Units.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Units</span></a></div></li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-Metric_system_and_scientific_notation.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Metric prefixes and scientific notation</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-tx-Equations.html" class="internal"><span class="codenumber">2</span> <span class="title">Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-tx-Solving_equations.html" class="internal"><span class="codenumber">3</span> <span class="title">Solving equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-tx-Closer_look_linear.html" class="internal"><span class="codenumber">4</span> <span class="title">A closer look at linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-tx-Closer_look_exponential.html" class="internal"><span class="codenumber">5</span> <span class="title">A closer look at exponential functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="workbook.html" class="internal"><span class="codenumber">II</span> <span class="title">Workbook</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-wb-Variables.html" class="internal"><span class="codenumber">1</span> <span class="title">Variables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Variables_and_functions.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Variables and functions - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Variables_and_functions.html#ws-Variables_and_functions-6" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Variables_and_functions.html#Variables_and_functions_end" class="internal"><span class="title"></span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Tables_and_graphs.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Tables and graphs - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Tables_and_graphs.html#ws-Tables_and_graphs-6" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Tables_and_graphs.html#ss-Tables_and_graphs_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Rate_of_change.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Rate of change - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Rate_of_change.html#ws-Rate_of_change-6" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Rate_of_change.html#ss-Rate_of_change_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Units.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Units - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Units.html#ws-Units-6" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Units.html#ss-Units_end" class="internal"><span class="title">Do you know...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Metric_system_and_scientific_notation.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Metric prefixes and scientific notation - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Metric_system_and_scientific_notation.html#ws-Metric_system_and_scientific_notation-6" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Metric_system_and_scientific_notation.html#ss-Metric_system_and_scientific_notation_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-PE1A.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Practice Exam 1A</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-PE1B.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-wb-Equations.html" class="internal"><span class="codenumber">2</span> <span class="title">Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-First_look_linear.html#ws-First_look_linear-6" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-First_look_linear.html#ss-First_look_linear_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-First_look_exponential.html#ws-First_look_exponential-6" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-First_look_exponential.html#ss-First_look_exponential_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Using_equations.html#ws-Using_equations-6" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Using_equations.html#ss-Using_equations_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Approx_solutions.html#ws-Approx_solutions-6" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Approx_solutions.html#ss-Approx_solutions_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Finance.html#ws-Finance-6" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Finance.html#ss-Finance_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-PE2A.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-PE2B.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-wb-Solving_equations.html" class="internal"><span class="codenumber">3</span> <span class="title">Solving equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Solving_linear_equations.html#ws-Solving_linear_equations-6" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Solving_linear_equations.html#ss-Solving_linear_equations_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Solving_linear_inequalities.html#ws-Solving_linear_inequalities-6" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Solving_linear_inequalities.html#ss-Solving_linear_inequalities_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots) - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Solving_power_equations.html#ws-Solving_power_equations-7" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Solving_power_equations.html#ss-Solving_power_equations_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs) - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Solving_exponential_equations.html#ws-Solving_exponential_equations-7" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Solving_exponential_equations.html#ss-Solving_exponential_equations_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Solving_quadratic_equations.html#ws-Solving_quadratic_equations-7" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Solving_quadratic_equations.html#ss-Solving_quadratic_equations_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-PE3A.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-PE3B.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-wb-Closer_look_linears.html" class="internal"><span class="codenumber">4</span> <span class="title">A closer look at linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Modeling_linear_equations.html#ws-Modeling_linear_equations-6" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Modeling_linear_equations.html#ss-Modeling_linear_equations_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Systems_linear_equations.html#ws-Systems_linear_equations-6" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Systems_linear_equations.html#ss-Systems_linear_equations_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Intercepts.html#ws-Intercepts-6" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Intercepts.html#ss-Intercepts_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Slopes.html#ws-Slopes-6" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Slopes.html#ss-Slopes_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Fitting_lines_to_data.html#ws-Fitting_lines_to_data-6" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Fitting_lines_to_data.html#ss-Fitting_lines_to_data_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-PE4A.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-PE4B.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-wb-Closer_look_exponentials.html" class="internal"><span class="codenumber">5</span> <span class="title">A closer look at exponential equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Modeling_exponential_equations.html#ws-Modeling_exponential_equations-6" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Modeling_exponential_equations.html#ss-Modeling_exponential_equations_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Exp_growth_decay.html#ws-Exp_growth_decay-6" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Exp_growth_decay.html#ss-Exp_growth_decay_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Growth_factor.html#ws-Growth_factor-7" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Growth_factor.html#ss-Growth_factor_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Linear_vs_exponential.html#ws-Linear_vs_exponential-7" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Linear_vs_exponential.html#ss-Linear_vs_exponential_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Logistic_growth.html#ws-Logistic_growth-6" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Logistic_growth.html#ss-Logistic_growth_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-PE5A.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-PE5B.html" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-wb-Review.html" class="internal"><span class="codenumber">6</span> <span class="title">Review</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-Review_exercisesA.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Practice Final Exam A</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-PE6B.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Practice Final Exam B</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="ss-Formulas_review.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Formulas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ss-Formulas_review.html#formulas-used-to-find-constants" class="internal"><span class="title">Formulas used to find constants:</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ss-Formulas_review.html#formulas-used-to-solve-specific-types-of-equations" class="internal"><span class="title">Formulas used to solve specific types of equations:</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ss-Formulas_review.html#formulas-from-finance" class="internal"><span class="title">Formulas from finance:</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ss-Templates_review.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Templates</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="ch-wb-Prelude.html" class="internal"><span class="codenumber">A</span> <span class="title">Prelude</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Approximation_and_rounding.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Prelude: Approximation &amp; rounding - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Approximation_and_rounding.html#ws-Approximation_and_rounding-6" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Approximation_and_rounding.html#ss-Approximation_and_rounding_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Arithmetic_operations.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Prelude: Arithmetic Operations - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Arithmetic_operations.html#ws-Arithmetic_operations-4" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Arithmetic_operations.html#ss-Arithmetic_operations_end" class="internal"><span class="title">Do you know...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Percentages.html" class="internal"><span class="codenumber">A.3</span> <span class="title">Prelude: Percentages - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Percentages.html#ws-Percentages-4" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Percentages.html#ss-Percentages_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Order_of_operations.html" class="internal"><span class="codenumber">A.4</span> <span class="title">Prelude: Order of Operations - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Order_of_operations.html#ws-Order_of_operations-4" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Order_of_operations.html#ss-Order_of_operations_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Fractions.html" class="internal"><span class="codenumber">A.5</span> <span class="title">Prelude: Fractions - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Fractions.html#ws-Fractions-4" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Fractions.html#ss-Fractions_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Powers_and_roots.html" class="internal"><span class="codenumber">A.6</span> <span class="title">Prelude: Powers and roots - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Powers_and_roots.html#ws-Powers_and_roots-4" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Powers_and_roots.html#ss-Powers_and_roots_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Algebraic_notation.html" class="internal"><span class="codenumber">A.7</span> <span class="title">Prelude: Algebraic Notation - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Algebraic_notation.html#ws-Algebraic_notation-4" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Algebraic_notation.html#ss-Algebraic_notation_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Scientific_notation.html" class="internal"><span class="codenumber">A.8</span> <span class="title">Prelude: Scientific Notation - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Scientific_notation.html#ws-Scientific_notation-4" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Scientific_notation.html#ss-Scientific_notation_end" class="internal"><span class="title">Do you know...</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet">
+<div class="toc-title-box"><a href="ws-Logarithms.html" class="internal"><span class="codenumber">A.9</span> <span class="title">Prelude: Logarithms - Practice exercises</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Logarithms.html#ws-Logarithms-4" class="internal"><span class="title">When you’re done ...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ws-Logarithms.html#ss-Logarithms_end" class="internal"><span class="title">Do you know ...</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Metric_system_and_scientific_notation"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">1.5</span><span class="space"> </span><span class="title">Metric prefixes and scientific notation</span>
+</h2>
+<div class="para" id="sec-Metric_system_and_scientific_notation-2">Tara is working on a big project at work. She wants to back up her files to her online drop box. The site says she has 72 GB of memory remaining. Tara has about 200 files at an average of 42.3 MB each that she would like to upload. Will she have room?</div>
+<div class="para" id="sec-Metric_system_and_scientific_notation-3">To answer Tara’s question we need to know that GB is short for “gigabyte” and MB is short for “megabyte.” A <dfn class="terminology">byte</dfn> is a very small unit of computer memory storage space just enough for about one letter. You may have heard the word “mega” used to mean “really big.” There’s a reason for that. <dfn class="terminology">Mega</dfn> is short for 1 million. That’s pretty big. But <dfn class="terminology">giga</dfn> stands for 1 billion, so that’s even bigger. (Maybe it’s time for a gigamall?)</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines"><dfn class="terminology">mega</dfn></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(=\)</span></td>
+<td class="l m b1 r1 l0 t1 lines">1 <dfn class="terminology">million</dfn>
+</td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(=\)</span></td>
+<td class="r m b1 r1 l0 t1 lines"><span class="process-math">\(\text{1,000,000}\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><dfn class="terminology">giga</dfn></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(=\)</span></td>
+<td class="l m b1 r1 l0 t0 lines">1 <dfn class="terminology">billion</dfn>
+</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(=\)</span></td>
+<td class="r m b1 r1 l0 t0 lines"><span class="process-math">\(\text{1,000,000,000}\)</span></td>
+</tr>
+</table></div>
+<div class="para logical" id="sec-Metric_system_and_scientific_notation-5">
+<div class="para">What all this means is Tara has</div>
+<div class="displaymath process-math">
+\begin{equation*}
+72\text{ GB} = 72 \text{ billion bytes} = \text{72,000,000,000 bytes}
+\end{equation*}
+</div>
+<div class="para">of memory remaining. She would like to save 200 files at 42.3 MB each which comes to</div>
+<div class="displaymath process-math">
+\begin{equation*}
+200 \times 42.3 = \text{8,460 MB}
+\end{equation*}
+</div>
+<div class="para">which is really</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{8,460 MB} = \text{8,460 million bytes} = \text{8,460,000,000} \text{ bytes}
+\end{equation*}
+</div>
+<div class="para">Finding it hard to compare all those zeros? Try this.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{8,460 MB} = \text{8,460,000,000 bytes} = 8.46 \text{ GB } &lt; 9 \text{ GB}
+\end{equation*}
+</div>
+<div class="para">So Tara wants to store less than 9 GB of information and she has 72 GB remaining. She has plenty of room. Save away.</div>
+</div>
+<div class="para" id="sec-Metric_system_and_scientific_notation-6">Tara also needs to download about 700 MB of rather high quality photos. Her computer downloads photos at 187 kbps. How long will it take? (And does she have time to run for a coffee?) The mysterious <dfn class="terminology">kbps</dfn> stands for kilobits (Kb) per second. Like mega and giga, the word “kilo” stands for a large number, in this case .</div>
+<div class="tabular-box natural-width"><table class="tabular"><tr>
+<td class="l m b1 r1 l1 t1 lines"><dfn class="terminology">kilo</dfn></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(=\)</span></td>
+<td class="l m b1 r1 l0 t1 lines">1 <dfn class="terminology">thousand</dfn>
+</td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(=\)</span></td>
+<td class="r m b1 r1 l0 t1 lines"><span class="process-math">\(\text{1,000}\)</span></td>
+</tr></table></div>
+<div class="para" id="sec-Metric_system_and_scientific_notation-8">That’s the same word “kilo” as in kilometer (about mile) or kilogram (about pound) and there’s good reason for that as</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines"><dfn class="terminology">kilometer</dfn></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(=\)</span></td>
+<td class="l m b1 r1 l0 t1 lines"><span class="process-math">\(\text{1,000 meters}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"></td>
+<td class="r m b1 r1 l0 t1 lines"></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><dfn class="terminology">kilogram</dfn></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(=\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(\text{1,000 gram}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="r m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div>
+<div class="para" id="sec-Metric_system_and_scientific_notation-10">Perhaps you’ve seen the letter <dfn class="terminology">K</dfn> as short for a thousand? That’s where it comes from.</div>
+<div class="para" id="sec-Metric_system_and_scientific_notation-11">(Okay, I have to mention something here. Kilo by itself is pronounced “KEE-loh,” but kilogram is pronounced “KIL-uh gram,” and kilometer is pronounced “ki-LOM-i-ter.” Well, around these parts at least.)</div>
+<div class="para logical" id="sec-Metric_system_and_scientific_notation-12">
+<div class="para">Back to Tara. Her download speed is 187 kilobits per second. Perhaps this is the right moment to mention that a <dfn class="terminology">bit</dfn> is even smaller than a <dfn class="terminology">byte</dfn>.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+1 \text{ byte} = 8 \text{ bits}
+\end{equation*}
+</div>
+<div class="para">How long will it take Tara to download 700 MB? We can think of this calculation as a unit conversion by imagining</div>
+<div class="displaymath process-math">
+\begin{equation*}
+187 \text{ kilobits} = 1 \text{ second}
+\end{equation*}
+</div>
+<div class="para">Watch.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+700 \cancel{\text{ MB}} 
+\ast \frac{\text{1,000,000 \cancel{\text{ bytes}}}}{1 \cancel{\text{ \text{ MB}}}}
+\ast \frac{8 \cancel{\text{ bits}}}{1 \cancel{\text{ byte}}} 
+\ast \frac{ 1 \cancel{\text{ kilobit}}}{\text{1,000 \cancel{\text{ bits}}}}
+\ast \frac{\text{second}} {187 \cancel{\text{ kilobits}}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= 700 \times \text{1,000,000} \times 8 \div \text{1,000} \div 187
+= 29,946.524\ldots\text{ seconds}
+\end{equation*}
+</div>
+<div class="para">Let’s convert to a more reasonable unit.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{29,946.524\ldots \cancel{\text{ seconds}}}
+\ast \frac{1 \cancel{\text{ minute}}}{60 \cancel{\text{ seconds}}} 
+\ast \frac{1 \text{ hour}}{60 \cancel{\text{ minutes}}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= 29,946.524\ldots \div 60 \div 60 = 8.318\ldots \approx 8.32 \text{ hours}
+\end{equation*}
+</div>
+<div class="para">It will take Tara over 8 hours to download those photos. Perhaps Tara should compress the photos into a zip file or use lower resolution or find a way to download faster. Or, she can just set it up to download overnight.</div>
+</div>
+<div class="para" id="sec-Metric_system_and_scientific_notation-13">Quick note. The <dfn class="terminology">metric system of measurement</dfn>, or <dfn class="terminology">international system of units (ISU)</dfn>, is the official system of nearly all countries, the United States being a notable exception. Science, international trade, and most international sporting events like the Olympics are based in the metric system. In the United States system (known officially at the <dfn class="terminology">British system</dfn> or, since the British stopped using it, the <dfn class="terminology">imperial system of measurement</dfn>), we have all sorts of difficult to remember conversions. One notable feature of the metric system is that most units come in sizes ranging from small to large: the <dfn class="terminology">(metric) prefixes</dfn> like kilo, mega, or giga tell us which size.</div>
+<div class="para" id="sec-Metric_system_and_scientific_notation-14">Really large numbers, like , are awkward to read and awkward to work with. We have seen how metric prefixes allow us to rewrite these large numbers in a way that’s much easier both to read and to work with. There’s another option that’s used often in the sciences (and by your calculator). To explain it we need to understand powers of 10.</div>
+<div class="para logical" id="sec-Metric_system_and_scientific_notation-15">
+<div class="para">Perhaps you know what happens when we multiply a number by 10, like <span class="process-math">\(5 \times 10 = 50\)</span> or, more appropriate to our example,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+8.46 \times 10 = 84.6
+\end{equation*}
+</div>
+<div class="para">The effect of multiplying by 10 is to move the decimal point one place to the right. When we multiply by we get <span class="process-math">\(5 \times \text{1,000} = \text{5,000}\)</span> or, for our example,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+8.46 \times \text{1,000} = \text{8,460}
+\end{equation*}
+</div>
+<div class="para">The effect of multiplying by is to move the decimal point three places to the right. The connection is that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+10 \times 10 \times 10  =\text{1,000}
+\end{equation*}
+</div>
+<div class="para">Each <span class="process-math">\(\times 10\)</span> has the effect of moving the decimal point one place to the right so <span class="process-math">\(\times \text{1,000}\)</span> has the same effect as multiplying by 10 three times, so the decimal point moves three places to the right. That means</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{aligned}
+\text{8,460,000,000} &amp; = &amp; 8.46 \underbrace{\hbox{$\times 10 \times 10  \times 10  \times 10  \times 10  \times 10  \times 10  \times 10  \times 10 $}}_{\hbox{9 times}}  \\  %HSPACE
+&amp; = &amp; 8.46 \ast 10^ 9 \\  
+\end{aligned}
+\end{equation*}
+</div>
+</div>
+<div class="para" id="sec-Metric_system_and_scientific_notation-16">Since we’re multiplying by the same number (10) over and over again, it’s easier to use <dfn class="terminology">exponential notation</dfn>. Here 10 is the <dfn class="terminology">base</dfn> and 9 is the <dfn class="terminology">exponent</dfn> (or <dfn class="terminology">power</dfn>). In this context, the exponent is also called the <dfn class="terminology">order of magnitude</dfn>.</div>
+<div class="para logical" id="sec-Metric_system_and_scientific_notation-17">
+<div class="para">The point of this calculation was that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{8,460,000,000} = 8.46\ast10^9
+\end{equation*}
+</div>
+<div class="para">This shorthand is called <dfn class="terminology">scientific notation</dfn>. The base is always 10. The exponent is always a whole number. The number out front, like 8.46 in our example, is always between 1 and 10, which means there’s exactly one digit before the decimal point (and any others must come afterwards). It is customary to use <span class="process-math">\(\times\)</span> instead of <span class="process-math">\(\ast\)</span> in scientific notation, so we should write</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{8,460,000,000} = 8.46\times10^9
+\end{equation*}
+</div>
+<div class="para">As another example, we saw earlier that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{5,000} = 5 \times \text{1,000} = 5 \times 10^3
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="sec-Metric_system_and_scientific_notation-18">
+<div class="para">Most calculators use the <span class="process-math">\(\wedge\)</span> symbol for exponents, as do most computer software packages. Two other notations calculators sometimes use are <span class="process-math">\(y^x\)</span> or <span class="process-math">\(x^y\text{.}\)</span> Sometimes that operation is accessible through the 2nd or shift key; something like SHIFT <span class="process-math">\(\times\text{.}\)</span> If you’re not sure, ask a classmate or your instructor. For practice, check that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+5 \times 10^3 = 5 \times 10 \wedge 3 = \text{5,000} \quad \checkmark
+\end{equation*}
+</div>
+<div class="para">Notice that the order of operations is exactly what we wanted here: <span class="process-math">\(5 \times 10 \wedge 3\)</span> first raises 10 to the <span class="process-math">\(3^{\text{rd}}\)</span> power and then multiplies by 5. So we can enter it all at once without needing parentheses.</div>
+</div>
+<div class="para" id="sec-Metric_system_and_scientific_notation-19">Here’s the full list of the <dfn class="terminology">order of operations</dfn>, the priority ranking for arithmetic operations.</div>
+<article class="definition definition-like" id="def-order-operations"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.5.1</span><span class="period">.</span><span class="space"> </span><span class="title">Order of operations.</span>
+</h3> <div class="para logical" id="def-order-operations-2-1"><ul class="disc" id="def-order-operations-2-1-1">
+<li id="def-order-operations-2-1-1-1"><div class="para" id="def-order-operations-2-1-1-1-1">First, calculate anything inside <dfn class="terminology">P</dfn>arentheses.</div></li>
+<li id="def-order-operations-2-1-1-2"><div class="para" id="def-order-operations-2-1-1-2-1">Next, calculate <dfn class="terminology">E</dfn>xponents <span class="process-math">\(\wedge\text{,}\)</span> in order from left to right.</div></li>
+<li id="def-order-operations-2-1-1-3"><div class="para" id="def-order-operations-2-1-1-3-1">Then, <dfn class="terminology">M</dfn>ultiply <span class="process-math">\(\times\)</span> and <dfn class="terminology">D</dfn>ivide <span class="process-math">\(\div\text{,}\)</span> in order from left to right.</div></li>
+<li id="def-order-operations-2-1-1-4"><div class="para" id="def-order-operations-2-1-1-4-1">Last, <dfn class="terminology">A</dfn>dd <span class="process-math">\(+\)</span> and <dfn class="terminology">S</dfn>ubtract <span class="process-math">\(-\text{,}\)</span> in order from left to right.</div></li>
+</ul></div></article><div class="para" id="sec-Metric_system_and_scientific_notation-21">We highlighted the letters PEMDAS which often helps people remember this order. (“Please Excuse My Dear Aunt Sally” is how I learned it.) The good news is that your calculator does the operations in exactly this order. And if you want something in a different order, all you need to do is use parentheses around quantities you want calculated first.</div>
+<div class="para logical" id="sec-Metric_system_and_scientific_notation-22">
+<div class="para">Back to our large number. Enter</div>
+<div class="displaymath process-math">
+\begin{equation*}
+8.46 \times 10 \wedge 9=
+\end{equation*}
+</div>
+<div class="para">What do you see? Some calculators correctly list out <span class="process-math">\(\text{8,460,000,000}\)</span> while others report the number back in scientific notation, which is not particularly useful. (Sigh.)</div>
+</div>
+<div class="para logical" id="sec-Metric_system_and_scientific_notation-23">
+<div class="para">Let’s try a number so big that (nearly) every calculator will switch to scientific notation. Enter</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2.7\times 10 \wedge 30=
+\end{equation*}
+</div>
+<div class="para">Look carefully at the screen. Your calculator might display something like</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\boxed{~2.70000000 \quad \text{\begin{footnotesize}E \end{footnotesize}}~30~} \text{ \quad or \quad } \boxed{~2.70000000 \quad _{ \times \text{\begin{tiny}10 \end{tiny}}}~30~}
+\end{equation*}
+</div>
+<div class="para">Whatever shorthand your calculator uses, you should write</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2.7 \times 10^{30}
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="sec-Metric_system_and_scientific_notation-24">
+<div class="para">Interested in what that number is in our usual decimal notation? It’s</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2, \underbrace{ \hbox{$\text{700,000,000,000,000,000,000,000,000,000} $}}_{\hbox{\begin{tiny} decimal point moves 30 places \end{tiny}}}
+\end{equation*}
+</div>
+</div>
+<div class="para" id="sec-Metric_system_and_scientific_notation-25">Enough of that. Poor Tara is pulling her hair out over this project. Well, not literally, but she is quite frustrated over how slowly the project is going. She wonders: how thick is a human hair? And, how many hairs would you need to lay out to span an inch?</div>
+<div class="para" id="sec-Metric_system_and_scientific_notation-26">Turns out that a typical human hair is about <span class="process-math">\(0.00012\)</span> meters across. Very small numbers are also awkward to read and awkward to work with. In this section, we write <span class="process-math">\(0.000~12\)</span> where the strange-looking space is to help you read the number. Of course, a better solution is to use metric prefixes to get more appropriate units, just as we did for large numbers.</div>
+<div class="para" id="sec-Metric_system_and_scientific_notation-27">For example, <dfn class="terminology">centi</dfn> is short for 1 in a hundred, or <span class="process-math">\(0.01\text{.}\)</span> Not surprising since one cent is $0.01, or one percent is 1%=0.01. That’s the same word “centi” as in centimeter (about inch) and there’s good reason for that as</div>
+<div class="tabular-box natural-width"><table class="tabular"><tr>
+<td class="l m b1 r1 l1 t1 lines"><span class="process-math">\(\text{1 meter}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(=\)</span></td>
+<td class="l m b1 r1 l0 t1 lines">100 <dfn class="terminology">centimeter</dfn>
+</td>
+<td class="c m b1 r1 l0 t1 lines"></td>
+<td class="r m b1 r1 l0 t1 lines"></td>
+</tr></table></div>
+<div class="para" id="sec-Metric_system_and_scientific_notation-29">Similarly, <dfn class="terminology">milli</dfn> is short for 1 in a thousand and <dfn class="terminology">micro</dfn> is short for 1 in a million.</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines"><dfn class="terminology">centi</dfn></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(=\)</span></td>
+<td class="l m b1 r1 l0 t1 lines">1 in a hundred</td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(=\)</span></td>
+<td class="r m b1 r1 l0 t1 lines">0.01</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><dfn class="terminology">milli</dfn></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(=\)</span></td>
+<td class="l m b1 r1 l0 t0 lines">1 in a thousand</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(=\)</span></td>
+<td class="r m b1 r1 l0 t0 lines">0.001</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><dfn class="terminology">micro</dfn></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(=\)</span></td>
+<td class="l m b1 r1 l0 t0 lines">1 in a million</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(=\)</span></td>
+<td class="r m b1 r1 l0 t0 lines">0.000 001</td>
+</tr>
+</table></div>
+<div class="para logical" id="sec-Metric_system_and_scientific_notation-31">
+<div class="para">What about that human hair? It is convenient to measure in micrometers using that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+1 \text{ meter} = \text{1,000,000 micrometers}
+\end{equation*}
+</div>
+<div class="para">The width of a human hair in micrometers (abbreviated <span class="process-math">\(\mu m\)</span> in the sciences) is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+0.000~12 \cancel{\text{ meters} } \ast \frac{\text{1,000,000 } \mu \text{m}}{1 \cancel{\text{ meter}}} =  0.000~12 \times \text{1,000,000} = 120 \mu \text{m}
+\end{equation*}
+</div>
+<div class="para">The <span class="process-math">\(\mu\)</span> symbol is the Greek letter <em class="emphasis">mu</em>, but we’ll just read <span class="process-math">\(\mu m\)</span> as micrometers.</div>
+</div>
+<div class="para logical" id="sec-Metric_system_and_scientific_notation-32">
+<div class="para">To answer Tara’s question about how many hairs in an inch, we recall that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+1 \text{ inch} \approx 2.54 \text{ cm}
+\end{equation*}
+</div>
+<div class="para">where cm is short for centimeter. Ready to convert?</div>
+<div class="displaymath process-math">
+\begin{equation*}
+1 \cancel{\text{ inch}} 
+\ast \frac{ 2.54 \cancel{\text{ cm}} }{1 \cancel{\text{ inch}}}
+\ast \frac{1 \cancel{\text{ meter}}}{100 \cancel{\text{ cm}}}
+\ast \frac{\text{1,000,000  \cancel{\mu m}}}{1 \cancel{\text{ meter}}}
+\ast \frac{1 \text{ hair}}{120 \cancel{\mu m}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= 2.54 \div 100 \times \text{1,000,000} \div 120 
+= 211.66666\ldots \approx 200 \text{ hairs}
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="sec-Metric_system_and_scientific_notation-33">
+<div class="para">We can also describe really small numbers using scientific notation. Perhaps you know what happens when we divide a number by 10, like <span class="process-math">\(50 \div 10 = 5\)</span> or, more appropriate to our example,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+1.2 \div 10 = 0.12
+\end{equation*}
+</div>
+<div class="para">The effect of dividing by 10 is to move the decimal point one place to the left. If we divide by instead, we get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+1.2 \div \text{1,000,000} = 0.100~001~2
+\end{equation*}
+</div>
+<div class="para">The connection is that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{1,000,000} = 10 \wedge 6
+\end{equation*}
+</div>
+<div class="para">and so dividing by moves the decimal point six places to the left. Notice that we have to introduce zeros as placeholders.</div>
+</div>
+<div class="para logical" id="sec-Metric_system_and_scientific_notation-34">
+<div class="para">The width of a hair was 0.00012 meters. To get that number from 1.2, we need to move the decimal point 4 places to the left.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+1.2 \div 10^4 = 1.2 \div \text{10,000} = 0.000~12
+\end{equation*}
+</div>
+<div class="para">The shorthand for dividing by a power is to use negative exponents. For example</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\div 10^4 = \times 10^{-4}
+\end{equation*}
+</div>
+<div class="para">It has nothing to do with negative numbers. It’s just a shorthand. The point of this calculation was that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+0.00012= 1.2\ast10^{-4}
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="sec-Metric_system_and_scientific_notation-35">
+<div class="para">Once again we have scientific notation. The base is still 10. The exponent is still a whole number, although now it’s negative. The number out front, like 1.2 in our example, is still between 1 and 10, which means there’s exactly one digit before the decimal point (and any others must come afterwards). As before it customary to use <span class="process-math">\(\times\)</span> instead of <span class="process-math">\(\ast\)</span> in scientific notation, so we should write</div>
+<div class="displaymath process-math">
+\begin{equation*}
+0.000~12= 1.2 \times 10^{-4}
+\end{equation*}
+</div>
+<div class="para">When you see a number written in scientific notation, the power of 10 tells you a lot. For example, <span class="process-math">\(6.7 \times 10^4 = 67,000\)</span> and <span class="process-math">\(6.7 \times 10^{-3} = 0.006~7\text{.}\)</span> A positive power of 10 says you have a big number, and a negative power of 10 says you’re dealing with a very small number.</div>
+</div></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec-Units.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-tx-Equations.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
