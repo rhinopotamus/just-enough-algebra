@@ -29,24 +29,24 @@
 	</p>
 
 	<p>
-		Of course, 9.8 feet might sound like a funny answer. We're much more used to a whole number of feet and then the fraction in inches. It's 9 feet and some number of inches. To figure out the inches we look at the decimal part <m>9.8-9=.8</m>. That's the part we need to convert to inches. Since there are 12 inches in a foot, we use the (exact) conversion <me>1 \text{ foot} = 12 \text{ inches}</me> to get <me>.8 \text{ \cancel{feet}} \ast \frac{12 \text{ inches}}{1 \text{ \cancel{foot}}} = .8 \times 12 = 9.6 \text{ inches} \approx 10 \text{ inches}</me>
+		Of course, 9.8 feet might sound like a funny answer. We're much more used to a whole number of feet and then the fraction in inches. It's 9 feet and some number of inches. To figure out the inches we look at the decimal part <m>9.8-9=0.8</m>. That's the part we need to convert to inches. Since there are 12 inches in a foot, we use the (exact) conversion <me>1 \text{ foot} = 12 \text{ inches}</me> to get <me>0.8 \text{ \cancel{feet}} \ast \frac{12 \text{ inches}}{1 \text{ \cancel{foot}}} = 0.8 \times 12 = 9.6 \text{ inches} \approx 10 \text{ inches}</me>
 	</p>
 
 	<p>
-		Quick caution here. We rounded off 9.843 to get 9.8 and then just used the .8 to find the extra inches. Maybe we should have used the .843 instead. Here's what happens. <me>.843 \text{ \cancel{feet}} \ast \frac{12 \text{ inches}}{1 \text{ \cancel{foot}}} = .843 \times 12 = 10.116 \text{ inches} \approx 10 \text{ inches}</me> Phew! Either way, the board is about 9 feet and 10 inches high. The common shorthand for this answer is 9'10". (That's pronounced <em>9 foot 10</em>, as in our team's new center is <em>6 foot 7</em>.) The ' symbol indicates feet and " indicates inches.
+		Quick caution here. We rounded off 9.843 to get 9.8 and then just used the 0.8 to find the extra inches. Maybe we should have used the 0.843 instead. Here's what happens. <me>0.843 \text{ \cancel{feet}} \ast \frac{12 \text{ inches}}{1 \text{ \cancel{foot}}} = 0.843 \times 12 = 10.116 \text{ inches} \approx 10 \text{ inches}</me> Phew! Either way, the board is about 9 feet and 10 inches high. The common shorthand for this answer is 9'10". (That's pronounced <em>9 foot 10</em>, as in our team's new center is <em>6 foot 7</em>.) The ' symbol indicates feet and " indicates inches.
 	</p>
 
 	<p>
 		The highest height we had recorded for the diver was 4.48 meters. Now we know that's <me>4.48 \text{ \cancel{meters}}  \ast \frac{3.281 \text{ feet}}{1 \text{ \cancel{meter}}} 
-=4.48 \times 3.281= 14.69888\ldots \text{ feet} \approx 14.7 \text{ feet}</me> In feet and inches, that's about 14 feet, 8 inches because <me>.69888 \text{ \cancel{feet}} \ast \frac{12 \text{ inches}}{1 \text{ \cancel{foot}}} = .69888 \times 12 = 8.38656 \text{ inches} \approx 8 \text{ inches}</me> The diver's highest height was around 14'8".
+=4.48 \times 3.281= 14.69888\ldots \text{ feet} \approx 14.7 \text{ feet}</me> In feet and inches, that's about 14 feet, 8 inches because <me>0.69888 \text{ \cancel{feet}} \ast \frac{12 \text{ inches}}{1 \text{ \cancel{foot}}} = 0.69888 \times 12 = 8.38656 \text{ inches} \approx 8 \text{ inches}</me> The diver's highest height was around 14'8".
 	</p>
 
 	<p>
-		You might have guessed that 14.7 feet would be 14'7". I mean, that sort of looks obvious. The reason it's not is because decimal numbers are based on 10. The .7 really means <m>\frac{7}{10}</m>. But inches are based on 12. Seven inches means <me>7''=\frac{7}{12}=7 \div 12 = .58333\ldots \approx .6</me> We wanted .7 so that's not it. Our answer of 8" worked just fine since <me>8" = \frac{8}{12} = 8 \div 12 = .66666\ldots \approx .7</me>
+		You might have guessed that 14.7 feet would be 14'7". I mean, that sort of looks obvious. The reason it's not is because decimal numbers are based on 10. The 0.7 really means <m>\frac{7}{10}</m>. But inches are based on 12. Seven inches means <me>7''=\frac{7}{12}=7 \div 12 = 0.78333\ldots \approx 0.7</me> We wanted 0.7 so that's not it. Our answer of 8" worked just fine since <me>8'' = \frac{8}{12} = 8 \div 12 = 0.76666\ldots \approx 0.7</me>
 	</p>
 
 	<p>
-		What about the diver's speed? During the first .2 seconds we calculated her speed as 4.4 meters per second. How fast is that? We can certainly convert to feet per second. <me>\frac{4.4 \text{ \cancel{meters}}}{\text{second}} \ast \frac{3.281 \text{ feet}}{1 \text{  \cancel{meter}}} = 4.4 \times 3.281 = \frac{14.4364 \text{ feet}}{\text{second}}</me> Does that help us understand how fast she's going? Maybe a little. But, we're probably most familiar with speeds measured in miles per hour, that's what <term>mph</term> stands for.
+		What about the diver's speed? During the first 0.2 seconds we calculated her speed as 4.4 meters per second. How fast is that? We can certainly convert to feet per second. <me>\frac{4.4 \text{ \cancel{meters}}}{\text{second}} \ast \frac{3.281 \text{ feet}}{1 \text{  \cancel{meter}}} = 4.4 \times 3.281 = \frac{14.4364 \text{ feet}}{\text{second}}</me> Does that help us understand how fast she's going? Maybe a little. But, we're probably most familiar with speeds measured in miles per hour, that's what <term>mph</term> stands for.
 	</p>
 
 	<p>
@@ -77,9 +77,5 @@
 		If you're having trouble setting up unit conversions, remember to write down the units so you can see how they cancel. If you can't remember a number for a unit conversion, like feet for one mile, try searching online.
 	</p>
 
-<!-- div attr= class="center"-->
-	<p>
-		(1,0)300
-	</p><!--</div attr= class="center">-->
 
 </section>

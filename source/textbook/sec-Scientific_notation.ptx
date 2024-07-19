@@ -13,10 +13,10 @@
 		</p>
 
 		<p>
-			To answer Tara’s question we need to know that GB is short for <q>gigabyte</q> and MB is short for <q>megabyte.</q> A <term>byte</term> is a very small unit of computer memory storage space just enough for about one letter. You may have heard the word <q>mega</q> used to mean <q>really big.</q> There’s a reason for that. <term>Mega</term> is short for 1 million. That’s pretty big. But <term>giga</term> stands for 1 billion, so that’s even bigger. So, really
+			To answer Tara's question we need to know that GB is short for <q>gigabyte</q> and MB is short for <q>megabyte.</q> A <term>byte</term> is a very small unit of computer memory storage space just enough for about one letter. You may have heard the word <q>mega</q> used to mean <q>really big.</q> There's a reason for that. <term>Mega</term> is short for 1 million. That's pretty big. But <term>giga</term> stands for 1 billion, so that's even bigger. So, really
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="left"><term>megabyte</term></cell>
@@ -32,14 +32,14 @@
 				<cell right="minor" halign="center"><m>=</m></cell>
 				<cell right="minor" halign="right"><m>\text{1,000,000,000 bytes}</m></cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
 			What all this means is Tara has <me>72\text{ GB} = 72 \text{ billion bytes} = \text{72,000,000,000 bytes}</me> of memory remaining. She would like to save 200 files at 42.3 MB each which comes to <me>200 \times 42.3 = \text{8,460 MB}</me> which is really <me>\text{8,460 MB} = \text{8,460 million bytes} = \text{8,460,000,000} \text{ bytes}</me> <me>= 8.46 \text{ billion bytes} = 8.46 \text{ GB }</me> So Tara wants to store less than 9 GB of information and she has 72 GB remaining. She has plenty of room. Save away!
 		</p>
 
 		<p>
-			Really large numbers, like , are awkward to read and awkward to work with. Words like million and billion or metric prefixes (words like mega and giga) allow us to rewrite these large numbers in a way that’s much easier both to read and to work with. There’s another option that’s used often in the sciences (and by your calculator). To explain it we need to understand powers of 10.
+			Really large numbers, like , are awkward to read and awkward to work with. Words like million and billion or metric prefixes (words like mega and giga) allow us to rewrite these large numbers in a way that's much easier both to read and to work with. There's another option that's used often in the sciences (and by your calculator). To explain it we need to understand powers of 10.
 		</p>
 
 		<p>
@@ -50,7 +50,7 @@
 		</p>
 
 		<p>
-			This shorthand is called <term>scientific notation</term>. The base is always 10. The exponent is always a whole number. The number out front, like 8.46 in our example, is always between 1 and 10, which means there’s exactly one digit before the decimal point (and any others must come afterwards). It is customary to use <m>\times</m> instead of <m>\ast</m> in scientific notation, so we should write <me>8.46\times10^9</me>
+			This shorthand is called <term>scientific notation</term>. The base is always 10. The exponent is always a whole number. The number out front, like 8.46 in our example, is always between 1 and 10, which means there's exactly one digit before the decimal point (and any others must come afterwards). It is customary to use <m>\times</m> instead of <m>\ast</m> in scientific notation, so we should write <me>8.46\times10^9</me>
 		</p>
 
 		<p>
@@ -62,11 +62,11 @@
 		</p>
 
 		<p>
-			Let’s try a number so big that (nearly) every calculator will switch to scientific notation. Enter <me>2.7\times 10 \wedge 30=</me> Look carefully at the screen. Your calculator might display something like <me>\boxed{~2.70000000 \quad \text{\begin{footnotesize}E \end{footnotesize}}~30~} \text{ \quad or \quad } \boxed{~2.70000000 \quad _{ \times \text{\begin{tiny}10 \end{tiny}}}~30~}</me> Whatever shorthand your calculator uses, you should write <me>2.7 \times 10^{30}</me>
+			Let's try a number so big that (nearly) every calculator will switch to scientific notation. Enter <me>2.7\times 10 \wedge 30=</me> Look carefully at the screen. Your calculator might display something like <me>\boxed{~2.70000000 \quad \text{\begin{footnotesize}E \end{footnotesize}}~30~} \text{ \quad or \quad } \boxed{~2.70000000 \quad _{ \times \text{\begin{tiny}10 \end{tiny}}}~30~}</me> Whatever shorthand your calculator uses, you should write <me>2.7 \times 10^{30}</me>
 		</p>
 
 		<p>
-			Interested in what that number is in our usual decimal notation? It’s <me>2, \underbrace{ \hbox{$\text{700,000,000,000,000,000,000,000,000,000} $}}_{\hbox{\begin{tiny} decimal point moves 30 places \end{tiny}}}</me>
+			Interested in what that number is in our usual decimal notation? It's <me>2, \underbrace{ \hbox{$\text{700,000,000,000,000,000,000,000,000,000} $}}_{\hbox{\begin{tiny} decimal point moves 30 places \end{tiny}}}</me>
 		</p>
 
 		<p>
@@ -74,23 +74,23 @@
 		</p>
 
 		<p>
-			Turns out that a typical human hair is about <m>.00012</m> meters across. Very small numbers are also awkward to read and awkward to work with. In this section, we write <m>.000~12</m> where the strange-looking space is to help you read the number.
+			Turns out that a typical human hair is about <m>0.00012</m> meters across. Very small numbers are also awkward to read and awkward to work with. In this section, we write <m>0.000~12</m> where the strange-looking space is to help you read the number.
 		</p>
 
 		<p>
-			We can also describe really small numbers using scientific notation. Perhaps you know what happens when we divide a number by 10, like <m>50 \div 10 = 5</m> or, more appropriate to our example, <me>1.2 \div 10 = .12</me> The effect of dividing by 10 is to move the decimal point one place to the left. If we divide by instead, we get <me>1.2 \div \text{1,000,000} = .000~001~2</me> The connection is that <me>\text{1,000,000} = 10 \wedge 6</me> and so dividing by moves the decimal point six places to the left. Notice that we have to introduce zeros as placeholders.
+			We can also describe really small numbers using scientific notation. Perhaps you know what happens when we divide a number by 10, like <m>50 \div 10 = 5</m> or, more appropriate to our example, <me>1.2 \div 10 = 0.12</me> The effect of dividing by 10 is to move the decimal point one place to the left. If we divide by instead, we get <me>1.2 \div \text{1,000,000} = 0.100~001~2</me> The connection is that <me>\text{1,000,000} = 10 \wedge 6</me> and so dividing by moves the decimal point six places to the left. Notice that we have to introduce zeros as placeholders.
 		</p>
 
 		<p>
-			The width of a hair was .00012 meters. To get that number from 1.2, we need to move the decimal point 4 places to the left. <me>1.2 \div 10^4 = 1.2 \div \text{10,000} = .000~12</me> The shorthand for dividing by a power is to use negative exponents. For example <me>\div 10^4 = \times 10^{-4}</me> It has nothing to do with negative numbers. It’s just a shorthand. The point of this calculation was that <me>.00012= 1.2 \ast10^{-4}</me> Use your calculator to check!
+			The width of a hair was 0.00012 meters. To get that number from 1.2, we need to move the decimal point 4 places to the left. <me>1.2 \div 10^4 = 1.2 \div \text{10,000} = 0.000~12</me> The shorthand for dividing by a power is to use negative exponents. For example <me>\div 10^4 = \times 10^{-4}</me> It has nothing to do with negative numbers. It's just a shorthand. The point of this calculation was that <me>0.00012= 1.2 \ast10^{-4}</me> Use your calculator to check!
 		</p>
 
 		<p>
-			Once again we have scientific notation. The base is still 10. The exponent is still a whole number, although now it’s negative. The number out front, like 1.2 in our example, is still between 1 and 10, which means there’s exactly one digit before the decimal point (and any others must come afterwards). As before, we’ll write <m>\times</m> instead of <m>\ast</m> to get: <me>1.2 \times 10^{-4}</me>
+			Once again we have scientific notation. The base is still 10. The exponent is still a whole number, although now it's negative. The number out front, like 1.2 in our example, is still between 1 and 10, which means there's exactly one digit before the decimal point (and any others must come afterwards). As before, we'll write <m>\times</m> instead of <m>\ast</m> to get: <me>1.2 \times 10^{-4}</me>
 		</p>
 
 		<p>
-			When you see a number written in scientific notation, the power of 10 tells you a lot. For example, we saw that <m>8.46 \times 10^ 9 = \text{8,460,000,000}</m> and <m>1.2 \times10^{-4} = .000~12</m>. A positive power of 10 says you have a big number, and a negative power of 10 says you’re dealing with a very small number.
+			When you see a number written in scientific notation, the power of 10 tells you a lot. For example, we saw that <m>8.46 \times 10^ 9 = \text{8,460,000,000}</m> and <m>1.2 \times10^{-4} = 0.000~12</m>. A positive power of 10 says you have a big number, and a negative power of 10 says you're dealing with a very small number.
 		</p>
 
 		<p>
@@ -130,13 +130,13 @@
 
 			<li>
 					<p>
-						How your calculator reports numbers in scientific notation, and what (might be) different when you’re reporting that number?
+						How your calculator reports numbers in scientific notation, and what (might be) different when you're reporting that number?
 					</p>
 			</li>
 
 			<li>
 					<p>
-						<term>If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</term>
+						<term>If you're not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</term>
 					</p>
 			</li>
 
@@ -167,7 +167,7 @@
 				
 								<li>
 											<p>
-												<em>Bonus question:</em> On what date were you or will you be 1 billion seconds old? Don’t forget leap years!
+												<em>Bonus question:</em> On what date were you or will you be 1 billion seconds old? Don't forget leap years!
 											</p>
 								
 								<!-- div attr= class="footnotesize"-->
@@ -237,7 +237,7 @@
 							<p><ol>
 								<li>
 											<p>
-												How many cells are in Rayka’s body? Hint: this is a unit conversion question asking you to convert 140 pounds to cells. Write your answer in scientific notation.
+												How many cells are in Rayka's body? Hint: this is a unit conversion question asking you to convert 140 pounds to cells. Write your answer in scientific notation.
 											</p>
 								</li>
 				
@@ -253,13 +253,13 @@
 			</ol></p>
 
 			<p>
-				<term>When you’re done …</term>
+				<term>When you're done …</term>
 			</p>
 
 			<p><ul>
 				<li>
 							<p>
-								Don’t forget to check your answers with those in the back of the textbook.
+								Don't forget to check your answers with those in the back of the textbook.
 							</p>
 				</li>
 
@@ -271,13 +271,13 @@
 
 				<li>
 							<p>
-								Getting the wrong answers or stuck on a problem? Re-read the section and try the problem again. If you’re still stuck, work with a classmate or go to your instructor’s office hours.
+								Getting the wrong answers or stuck on a problem? Re-read the section and try the problem again. If you're still stuck, work with a classmate or go to your instructor's office hours.
 							</p>
 				</li>
 
 				<li>
 							<p>
-								It’s normal to find some parts of some problems difficult, but if all the problems are giving you grief, be sure to talk with your instructor or advisor about it. They might be able to suggest strategies or support services that can help you succeed.
+								It's normal to find some parts of some problems difficult, but if all the problems are giving you grief, be sure to talk with your instructor or advisor about it. They might be able to suggest strategies or support services that can help you succeed.
 							</p>
 				</li>
 

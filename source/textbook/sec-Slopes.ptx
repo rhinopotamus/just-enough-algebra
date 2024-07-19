@@ -17,10 +17,10 @@
 		</p>
 
 		<p>
-			What to do? We can name the variables and put the information we are given into a table. That’s a start. The variables must be
+			What to do? We can name the variables and put the information we are given into a table. That's a start. The variables must be
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="left"><m>C=</m> total charge ($) <m>\sim</m> dep</cell>
@@ -28,13 +28,13 @@
 			<row left="minor" class="even">
 				<cell right="minor" halign="left"><m>N =</m> number of cases delivered (cases) <m>\sim</m> indep</cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
 			and we know
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="center"><m>N</m></cell>
@@ -46,10 +46,10 @@
 				<cell right="minor" halign="center">534.87</cell>
 				<cell right="minor" halign="center">814.80</cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
-			Let’s see. The fixed delivery fee that we don’t know is the intercept. The per case cost that we also don’t know is the slope. To write the linear equation we need to know both.
+			Let's see. The fixed delivery fee that we don't know is the intercept. The per case cost that we also don't know is the slope. To write the linear equation we need to know both.
 		</p>
 
 		<p>
@@ -79,23 +79,23 @@
 		</p>
 
 		<p>
-			The equation is linear so it fits our template <me>\text{dep} = \text{start} + \text{slope} * \text{indep}</me> and now that we know the slope and intercept, we can put those in to get our equation. <me>C = 15 + 39.99N</me> Let’s check. When <m>N = 13</m> we get <me>C=15 + 39.99 \ast 13 = 15 + 39.99 \times \underline{13} = \$534.87 \quad \checkmark</me> and when <m>N=20</m> we get <me>C=15 + 39.99 \ast 20 = 15 + 39.99 \times \underline{20} = \$814.80 \quad \checkmark</me> You can also check that the graph goes through the original two points we were given. The intercept is $15, but because of the scale it shows up as barely above $0 on our graph.
+			The equation is linear so it fits our template <me>\text{dep} = \text{start} + \text{slope} * \text{indep}</me> and now that we know the slope and intercept, we can put those in to get our equation. <me>C = 15 + 39.99N</me> Let's check. When <m>N = 13</m> we get <me>C=15 + 39.99 \ast 13 = 15 + 39.99 \times \underline{13} = \$534.87 \quad \checkmark</me> and when <m>N=20</m> we get <me>C=15 + 39.99 \ast 20 = 15 + 39.99 \times \underline{20} = \$814.80 \quad \checkmark</me> You can also check that the graph goes through the original two points we were given. The intercept is $15, but because of the scale it shows up as barely above $0 on our graph.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<p>
 			<image source='casesofpaper.png'/>
-		</p><!--</div attr= class="center">-->
-
-		<p>
-			The supplier also picks up recyclable paper and boxes. The normally charge $18 per pickup but under a new reuse incentive program, they discount a little for each box that’s in good enough condition to use again. This week’s recycling charge was only $7.60 because we returned the previous 13 boxes all in good shape.
 		</p>
 
 		<p>
-			Now we’re interested in how the recycling charge depends on the number of boxes in good condition that we return. The new variables are
+			The supplier also picks up recyclable paper and boxes. The normally charge $18 per pickup but under a new reuse incentive program, they discount a little for each box that's in good enough condition to use again. This week's recycling charge was only $7.60 because we returned the previous 13 boxes all in good shape.
 		</p>
 
-<!-- div attr= class="center"-->
+		<p>
+			Now we're interested in how the recycling charge depends on the number of boxes in good condition that we return. The new variables are
+		</p>
+
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="left"><m>R=</m> recycling charge ($) <m>\sim</m> dep</cell>
@@ -103,13 +103,13 @@
 			<row left="minor" class="even">
 				<cell right="minor" halign="left"><m>B =</m> number of boxes returned (boxes) <m>\sim</m> indep</cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
 			and we know
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="center"><m>B</m></cell>
@@ -121,40 +121,40 @@
 				<cell right="minor" halign="center">18</cell>
 				<cell right="minor" halign="center">7.60</cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
 			See how we used <m>B=0</m> for the situation where no boxes are returned? Clever.
 		</p>
 
 		<p>
-			We can draw the graph using just these two points. (But we’ll check later, once we have the equation, to be sure.)
+			We can draw the graph using just these two points. (But we'll check later, once we have the equation, to be sure.)
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<p>
 			<image source='recyclepaper.png'/>
-		</p><!--</div attr= class="center">-->
+		</p>
 
 		<p>
 			Since there is a fixed discount per box, we again have a linear function. We know the intercept is the normal recycling fee of $18. We need to find the slope. <me>\begin{aligned}
 \text{slope} &amp; = &amp; \text{rate of change} = \frac{\text{change dep}}{\text{change indep}} = \frac{\$7.60-\$18}{13-0 \text{ cases}} \\
-&amp; = &amp; (7.60-18)\div(13-0)= -\$.80 \text{ per box}\\
+&amp; = &amp; (7.60-18)\div(13-0)= -\$0.80 \text{ per box}\\
 \end{aligned}</me>
 		</p>
 
 		<p>
-			It might look funny to get a negative, but it’s to be expected. They are subtracting for each good box returned. The discount is 80 per box and so the equation is <me>R = 18 - .8B</me> Check when <m>B=13</m> we have <me>R = 18 -.8*13 = 18-.8 \times \underline{13} = \$7.60 \quad \checkmark</me>
+			It might look funny to get a negative, but it's to be expected. They are subtracting for each good box returned. The discount is 80 per box and so the equation is <me>R = 18 - 0.8B</me> Check when <m>B=13</m> we have <me>R = 18 -0.8*13 = 18-0.8 \times \underline{13} = \$7.60 \quad \checkmark</me>
 		</p>
 
 		<p>
-			What’s the most boxes you could get credit for? Probably the most they discount is the full $18, which would mean that <m>R=0</m>. That means we want to solve <m>18 -.8B = 0</m>. Check that we get <m>B = 22.5 \text{ boxes}</m>, which means that 22 boxes would be almost $0 and for 23 boxes, they should pick up for free. We can check that 22 boxes gives <me>R = 18-.8\ast22=18-.8 \times \underline{22} = \$.40</me> and 23 boxes gives <me>R = 18-.8\ast23=18-.8 \times \underline{23} = -\$.40 \implies \text{free}</me> Well, unless they’re nice and give us cash back.
+			What's the most boxes you could get credit for? Probably the most they discount is the full $18, which would mean that <m>R=0</m>. That means we want to solve <m>18 -0.8B = 0</m>. Check that we get <m>B = 22.5 \text{ boxes}</m>, which means that 22 boxes would be almost $0 and for 23 boxes, they should pick up for free. We can check that 22 boxes gives <me>R = 18-0.8\ast22=18-0.8 \times \underline{22} = \$0.80</me> and 23 boxes gives <me>R = 18-0.8\ast23=18-0.8 \times \underline{23} = -\$0.80 \implies \text{free}</me> Well, unless they're nice and give us cash back.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<p>
 			(1,0)300
-		</p><!--</div attr= class="center">-->
+		</p>
 
 	</section>
 
@@ -214,7 +214,7 @@
 
 			<li>
 					<p>
-						<term>If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</term>
+						<term>If you're not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</term>
 					</p>
 			</li>
 
@@ -227,7 +227,7 @@
 			<p><ol>
 				<li>
 							<p>
-								I just saw an advertisement for the same paper we use at the office for only $4.25 per ream at a supply store. (Ream? Yes. That’s 500 sheets of paper, usually wrapped in paper.) Is that a good deal?
+								I just saw an advertisement for the same paper we use at the office for only $4.25 per ream at a supply store. (Ream? Yes. That's 500 sheets of paper, usually wrapped in paper.) Is that a good deal?
 							</p>
 				
 							<p><ol>
@@ -239,7 +239,7 @@
 				
 								<li>
 											<p>
-												I’m not sure I want to go get a case of paper myself because a case of paper is pretty heavy to lift. Paper is sold by the weight. Thick, heavier paper is considered fancier than lighter paper. The office uses a multipurpose paper called <q>92</q> meaning it weighs 92 grams per square meter which comes out to around 5 grams per sheet. How much does a case weigh? Use <m>1 \text{ kilogram} \approx 2.2 \text{ pounds}</m>.
+												I'm not sure I want to go get a case of paper myself because a case of paper is pretty heavy to lift. Paper is sold by the weight. Thick, heavier paper is considered fancier than lighter paper. The office uses a multipurpose paper called <q>92</q> meaning it weighs 92 grams per square meter which comes out to around 5 grams per sheet. How much does a case weigh? Use <m>1 \text{ kilogram} \approx 2.2 \text{ pounds}</m>.
 											</p>
 								</li>
 				
@@ -326,7 +326,7 @@
 
 				<li>
 							<p>
-								Now that he is retired, Elmer gets a pension check from the Railroad Company each month. There’s a set amount he gets each month but the company deducts a fixed percentage of whatever outside income he earns. Elmer works part-time at the local hardware store. In February he earned $444.10 at the hardware store and his pension check that month was $886.23. In March he worked much less, earning only $179.30 at the hardware store; his pension check that month was $912.71
+								Now that he is retired, Elmer gets a pension check from the Railroad Company each month. There's a set amount he gets each month but the company deducts a fixed percentage of whatever outside income he earns. Elmer works part-time at the local hardware store. In February he earned $444.10 at the hardware store and his pension check that month was $886.23. In March he worked much less, earning only $179.30 at the hardware store; his pension check that month was $912.71
 							</p>
 				
 							<p><ol>
@@ -338,13 +338,13 @@
 				
 								<li>
 											<p>
-												If Elmer doesn’t work in April, how much will his pension check be?
+												If Elmer doesn't work in April, how much will his pension check be?
 											</p>
 								</li>
 				
 								<li>
 											<p>
-												Write an equation showing how Elmer’s pension check is affected by his income from the hardware store. Use <m>H</m> for his income from the hardware store and <m>P</m> for his pension check, both in dollars.
+												Write an equation showing how Elmer's pension check is affected by his income from the hardware store. Use <m>H</m> for his income from the hardware store and <m>P</m> for his pension check, both in dollars.
 											</p>
 								</li>
 				
@@ -374,7 +374,7 @@
 								Your local truck rental agency lists what it costs to rent a truck (for one day) based on the number of miles you drive the truck. They use a linear pricing model.
 							</p>
 				
-				<!-- div attr= class="center"-->
+				
 							<tabular bottom="minor" top="minor">
 								<row left="minor" class="odd">
 									<cell right="minor" halign="center">distance driven (miles)</cell>
@@ -390,7 +390,7 @@
 									<cell right="minor" halign="center">72.50</cell>
 									<cell right="minor" halign="center">90.00</cell>
 								</row>
-							</tabular><!--</div attr= class="center">-->
+							</tabular>
 				
 							<p>
 								If you rent a truck and drive it 10 miles, how much do you think it will cost? As part of your work, name the variables and write a linear equation relating them.

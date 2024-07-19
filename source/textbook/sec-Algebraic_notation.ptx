@@ -13,11 +13,11 @@
 		</p>
 
 		<p>
-			One report estimated that precipitation would increase an average of .2 inches per year. If that report is accurate then in 2032 (after 10 years) we would expect total precipitation to be around <me>35.5 + 10 \times .2 = 37.5 \text{ inches}</me> We can use the letter <m>Y</m> to represent the number of years in the future (since 2022).
+			One report estimated that precipitation would increase an average of 0.2 inches per year. If that report is accurate then in 2032 (after 10 years) we would expect total precipitation to be around <me>35.5 + 10 \times 0.2 = 37.5 \text{ inches}</me> We can use the letter <m>Y</m> to represent the number of years in the future (since 2022).
 		</p>
 
 		<p>
-			After <m>Y</m> years, we would expect total precipitation (in inches) to be around <me>35.5 + Y \times .2</me> This expression generalizes our earlier calculation, replacing the 10 years by the <m>Y</m> years. This expression is often written as <me>35.5 + .2Y</me> Notice that we are writing the number (.2) before the letter (<m>Y</m>). Also, we are not writing the multiplication symbol (<m>\times</m>) at all! It is something you just need to know: that <m>.2Y</m> really means <m>.2 \times Y</m>. That shorthand is an example of algebraic notation.
+			After <m>Y</m> years, we would expect total precipitation (in inches) to be around <me>35.5 + Y \times 0.2</me> This expression generalizes our earlier calculation, replacing the 10 years by the <m>Y</m> years. This expression is often written as <me>35.5 + 0.2Y</me> Notice that we are writing the number (0.2) before the letter (<m>Y</m>). Also, we are not writing the multiplication symbol (<m>\times</m>) at all! It is something you just need to know: that <m>0.2Y</m> really means <m>0.2 \times Y</m>. That shorthand is an example of algebraic notation.
 		</p>
 
 		<p>
@@ -25,25 +25,25 @@
 		</p>
 
 		<p>
-			After <m>Y</m> years, we would expect total precipitation (in inches) to be around <me>35.5 \times 1.005 \land Y</me> This expression generalizes our earlier calculation, replacing the 10 years by the <m>Y</m> years. This expression is often written as <me>35.5*1.005^Y</me> Notice that we are writing the exponent as a superscript (meaning raised up and a little smaller). Also notice that we have replaced the usual multiplication symbol <m>\times</m> with an alternative symbol <m>*</m>. That’s because <m>\times</m> looks like the letter <m>X</m> which is sometimes used in algebra. This shorthand is another example of algebraic notation. The expression can also be written without the <m>*</m> symbol as <me>35.5(1.005^Y)</me> where now we need to know that the number before the parentheses is multiplied.
+			After <m>Y</m> years, we would expect total precipitation (in inches) to be around <me>35.5 \times 1.005 \land Y</me> This expression generalizes our earlier calculation, replacing the 10 years by the <m>Y</m> years. This expression is often written as <me>35.5*1.005^Y</me> Notice that we are writing the exponent as a superscript (meaning raised up and a little smaller). Also notice that we have replaced the usual multiplication symbol <m>\times</m> with an alternative symbol <m>*</m>. That's because <m>\times</m> looks like the letter <m>X</m> which is sometimes used in algebra. This shorthand is another example of algebraic notation. The expression can also be written without the <m>*</m> symbol as <me>35.5(1.005^Y)</me> where now we need to know that the number before the parentheses is multiplied.
 		</p>
 
 		<p>
-			For a little more practice with algebraic notation, recall that Piadina’s flatbread cost $17.49 and is usually cut into 5 slides. At that rate it cost <me>17.49 \div 5 = \$3.50</me> per slice. If there were <m>S</m> slices, then we can replace the 5 slices by <m>S</m> slices and calculate that the flatbread cost <me>17.49 \div S</me> in dollars per slice. In algebraic notation, we write the division as a fraction instead <me>\frac{17.49}{S}</me>
+			For a little more practice with algebraic notation, recall that Piadina's flatbread cost $17.49 and is usually cut into 5 slides. At that rate it cost <me>17.49 \div 5 = \$3.50</me> per slice. If there were <m>S</m> slices, then we can replace the 5 slices by <m>S</m> slices and calculate that the flatbread cost <me>17.49 \div S</me> in dollars per slice. In algebraic notation, we write the division as a fraction instead <me>\frac{17.49}{S}</me>
 		</p>
 
 		<p>
-			One more piece of terminology. When we have an expression, like <m>\frac{17.49}{S}</m> and we want to know the value when <m>S</m> is a particular value, we say that we are <term>evaluating</term> the expression. Suppose we want to know the price per slice if Piadina’s cut their flatbread into 4 slices instead. That means we want to evaluate the expression <m>\frac{17.49}{S}</m> when <m>S = 4</m> slices.
+			One more piece of terminology. When we have an expression, like <m>\frac{17.49}{S}</m> and we want to know the value when <m>S</m> is a particular value, we say that we are <term>evaluating</term> the expression. Suppose we want to know the price per slice if Piadina's cut their flatbread into 4 slices instead. That means we want to evaluate the expression <m>\frac{17.49}{S}</m> when <m>S = 4</m> slices.
 		</p>
 
 		<p>
 			The first step in the evaluation process is to replace the letter by its value and we write that value in parentheses. Thus we would have <me>\frac{17.49}{(4)}</me> The second step is to replace the algebraic notation with the arithmetic notation, which is usually what we enter into the calculator: <me>17.49 \div (4)</me> It turns out that we do not need the parentheses around the 4 so we can simply calculate <me>17.49 \div 4 = 4.3725 \approx \$4.37 \text{ per slice}</me>
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<p>
 			(1,0)300
-		</p><!--</div attr= class="center">-->
+		</p>
 
 	</section>
 
@@ -91,7 +91,7 @@
 
 			<li>
 					<p>
-						<term>If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</term>
+						<term>If you're not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</term>
 					</p>
 			</li>
 
@@ -110,7 +110,7 @@
 							<p><ol>
 								<li>
 											<p>
-												What does the first report predict for total precipitation in 2042 (when <m>Y=20</m>) using the expression <m>35.5 + .2Y</m>?
+												What does the first report predict for total precipitation in 2042 (when <m>Y=20</m>) using the expression <m>35.5 + 0.2Y</m>?
 											</p>
 								</li>
 				
@@ -125,7 +125,7 @@
 
 				<li>
 							<p>
-								When the Nussbaums planted a walnut tree it was 5 feel tall. It has grown around 2 feet a year. If we know that it’s been <m>Y</m> years since they planted the tree, we can figure out that the height of the tree is <m>5+2Y</m> feet.
+								When the Nussbaums planted a walnut tree it was 5 feel tall. It has grown around 2 feet a year. If we know that it's been <m>Y</m> years since they planted the tree, we can figure out that the height of the tree is <m>5+2Y</m> feet.
 							</p>
 				
 							<p>
@@ -183,19 +183,19 @@
 
 				<li>
 							<p>
-								The lake by Rodney’s condo was stocked with bass (fish) 10 years ago. There were initially 400 bass introduced. <em>Story also appears in 3.3 Exercises and 5.5 #9</em>
+								The lake by Rodney's condo was stocked with bass (fish) 10 years ago. There were initially 400 bass introduced. <em>Story also appears in 3.3 Exercises and 5.5 #9</em>
 							</p>
 				
 							<p><ol>
 								<li>
 											<p>
-												One potential expression for the number of bass after <m>Y</m> years is <me>4000 - 3600*.78^Y</me> What does this equation say the number of bass should be now? Hint: that means <m>Y = 10</m> years.
+												One potential expression for the number of bass after <m>Y</m> years is <me>4000 - 3600*0.78^Y</me> What does this equation say the number of bass should be now? Hint: that means <m>Y = 10</m> years.
 											</p>
 								</li>
 				
 								<li>
 											<p>
-												Another potential expression for the number of bass after <m>Y</m> years is <me>\frac{4000}{1 + 9*.78^Y}</me> What does this equation say the number of bass should be now? Since we’re using a very different equation, we will get a very different answer. Don’t forget to put parentheses around the bottom of the fraction.
+												Another potential expression for the number of bass after <m>Y</m> years is <me>\frac{4000}{1 + 9*0.78^Y}</me> What does this equation say the number of bass should be now? Since we're using a very different equation, we will get a very different answer. Don't forget to put parentheses around the bottom of the fraction.
 											</p>
 								</li>
 				
@@ -247,7 +247,7 @@
 							<p><ol>
 								<li>
 											<p>
-												Evaluate the expression <m>(12C)^2</m> when <m>C=13</m>. Don’t forget the units.
+												Evaluate the expression <m>(12C)^2</m> when <m>C=13</m>. Don't forget the units.
 											</p>
 								</li>
 				
@@ -275,13 +275,13 @@
 			</ol></p>
 
 			<p>
-				<term>When you’re done …</term>
+				<term>When you're done …</term>
 			</p>
 
 			<p><ul>
 				<li>
 							<p>
-								Don’t forget to check your answers with those in the back of the textbook.
+								Don't forget to check your answers with those in the back of the textbook.
 							</p>
 				</li>
 
@@ -293,13 +293,13 @@
 
 				<li>
 							<p>
-								Getting the wrong answers or stuck on a problem? Re-read the section and try the problem again. If you’re still stuck, work with a classmate or go to your instructor’s office hours.
+								Getting the wrong answers or stuck on a problem? Re-read the section and try the problem again. If you're still stuck, work with a classmate or go to your instructor's office hours.
 							</p>
 				</li>
 
 				<li>
 							<p>
-								It’s normal to find some parts of some problems difficult, but if all the problems are giving you grief, be sure to talk with your instructor or advisor about it. They might be able to suggest strategies or support services that can help you succeed.
+								It's normal to find some parts of some problems difficult, but if all the problems are giving you grief, be sure to talk with your instructor or advisor about it. They might be able to suggest strategies or support services that can help you succeed.
 							</p>
 				</li>
 

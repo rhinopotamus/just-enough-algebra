@@ -13,11 +13,11 @@
 		</p>
 
 		<p>
-			To calculate Collier’s free throw percentage, we need to remember how percents work. Luckily, the word <q>percent</q> is very descriptive. The <q>cent</q> part means <q>hundred,</q> like 100 cents in a dollar or 100 years in a century. And, as usual, <q>per</q> means <q>for each.</q> Together, <term>percent</term> means <q>per hundred.</q> For example, the number 20% means 20 for each hundred. Written as a fraction it is <m>\frac{20}{100}</m>. Divide to get the decimal <m>20 \div 100 = .20.</m> <me>\text{Think money:  }20\%\text{ is like }20\text{\textcent , and }.20\text{ is like }\$.20</me> Bottom line: 20%, <m>\frac{20}{100}</m>, and .20 mean exactly the same number. <me>20\% = \frac{20}{100} = 20 \div 100 = .20</me> Since we divided by 100 to go from percentage to decimal, we can reverse this process and go from decimal to percentage by multiplying by 100. Check it out: <me>.20 \times 100 = 20\%</me>
+			To calculate Collier's free throw percentage, we need to remember how percents work. Luckily, the word <q>percent</q> is very descriptive. The <q>cent</q> part means <q>hundred,</q> like 100 cents in a dollar or 100 years in a century. And, as usual, <q>per</q> means <q>for each.</q> Together, <term>percent</term> means <q>per hundred.</q> For example, the number 20% means 20 for each hundred. Written as a fraction it is <m>\frac{20}{100}</m>. Divide to get the decimal <m>20 \div 100 = 0.20.</m> <me>\text{Think money:  }20\%\text{ is like }20\text{\textcent , and }0.20\text{ is like }\$0.20</me> Bottom line: 20%, <m>\frac{20}{100}</m>, and 0.20 mean exactly the same number. <me>20\% = \frac{20}{100} = 20 \div 100 = 0.20</me> Since we divided by 100 to go from percentage to decimal, we can reverse this process and go from decimal to percentage by multiplying by 100. Check it out: <me>0.20 \times 100 = 20\%</me>
 		</p>
 
 		<p>
-			Back to Collier. She made 11 out of 16 free throws, which was <m>0.6875</m> of her free throws. Now we know <me>0.6875 \times 100 = 68.75 \approx 68.8\%</me> Her free throw percentage that game was 68.8%. Collier’s free throw percentage for the season is actually much lower, at 48.1%. How many free throws out of 16 would we have expected she would make? We need to figure out what 48.1% of 16 is. First, we convert 48.1 to decimal by dividing by 100: <me>48.1 \div 100 = .481</me> Next, we multiply that proportion by 16: <me>.481 \times 16 = 7.696</me> We can even do this calculation in just one step: <me>48.1 \div 100 \times 16 = 7.696</me> Either way, would have expected Collier to make 7 or 8 of her free throws. So, 11 was a really good night. Turns out she scored 29 points that game with 7 rebounds.
+			Back to Collier. She made 11 out of 16 free throws, which was <m>0.6875</m> of her free throws. Now we know <me>0.6875 \times 100 = 68.75 \approx 68.8\%</me> Her free throw percentage that game was 68.8%. Collier's free throw percentage for the season is actually much lower, at 48.1%. How many free throws out of 16 would we have expected she would make? We need to figure out what 48.1% of 16 is. First, we convert 48.1 to decimal by dividing by 100: <me>48.1 \div 100 = 0.481</me> Next, we multiply that proportion by 16: <me>0.481 \times 16 = 7.696</me> We can even do this calculation in just one step: <me>48.1 \div 100 \times 16 = 7.696</me> Either way, would have expected Collier to make 7 or 8 of her free throws. So, 11 was a really good night. Turns out she scored 29 points that game with 7 rebounds.
 		</p>
 
 		<p>
@@ -25,17 +25,17 @@
 		</p>
 
 		<p>
-			Thang’s ticket was good for 10% off the purchase of Lynx merchandise from their website and there was free shipping, so she decided to buy a jersey normally priced at $99. Since 10% of $99 is <me>.10 \times 99 = 9.9</me> she knows that her discount will be $9.90. (I added the extra 0 at the end because $9.9 looked strange.) The net price for the jersey will be <me>\$99 - \$9.90 = 99 - 9.9 = 89.1 = \$89.10</me> With the discount, Thang can buy the jersey for $89.10.
+			Thang's ticket was good for 10% off the purchase of Lynx merchandise from their website and there was free shipping, so she decided to buy a jersey normally priced at $99. Since 10% of $99 is <me>0.10 \times 99 = 9.9</me> she knows that her discount will be $9.90. (I added the extra 0 at the end because $9.9 looked strange.) The net price for the jersey will be <me>\$99 - \$9.90 = 99 - 9.9 = 89.1 = \$89.10</me> With the discount, Thang can buy the jersey for $89.10.
 		</p>
 
 		<p>
-			In general, we can find the result of a <term>percent increase</term>, like Thang’s sandwich plus tip, by calculating the percent and adding it to the original amount. And we can find the result of a <term>percent decrease</term>, like Thang’s on-sale jersey, by calculating the percent and subtracting it from the original amount.
+			In general, we can find the result of a <term>percent increase</term>, like Thang's sandwich plus tip, by calculating the percent and adding it to the original amount. And we can find the result of a <term>percent decrease</term>, like Thang's on-sale jersey, by calculating the percent and subtracting it from the original amount.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<p>
 			(1,0)300
-		</p><!--</div attr= class="center">-->
+		</p>
 
 	</section>
 
@@ -83,14 +83,14 @@
 
 			<li>
 					<p>
-						<term>If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</term>
+						<term>If you're not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</term>
 					</p>
 			</li>
 
 		</ul></p>
 
 		<p>
-			<term>If you’re not sure, work the rest of exercises and then return to these questions afterwards. Or, ask your instructor or a classmate for help.</term>
+			<term>If you're not sure, work the rest of exercises and then return to these questions afterwards. Or, ask your instructor or a classmate for help.</term>
 		</p>
 
 
@@ -98,7 +98,7 @@
 			<title>Exercises</title>
 
 			<p>
-				On each problem, write down what you enter into your calculator and don’t forget to write the units on your final answer. You are welcome to calculate the answer step-by-step but challenge yourself to figure out the answer all at once, not hitting <m>=</m> on your calculator until the very end.
+				On each problem, write down what you enter into your calculator and don't forget to write the units on your final answer. You are welcome to calculate the answer step-by-step but challenge yourself to figure out the answer all at once, not hitting <m>=</m> on your calculator until the very end.
 			</p>
 
 			<p><ol>
@@ -106,13 +106,13 @@
 							<p><ol>
 								<li>
 											<p>
-												Check for yourself that the tip of Thang’s $14.59 sandwich would be $1.46 if she had chosen 10%, $2.19 if she had chosen 15%, and $2.92 when she chose 20%.
+												Check for yourself that the tip of Thang's $14.59 sandwich would be $1.46 if she had chosen 10%, $2.19 if she had chosen 15%, and $2.92 when she chose 20%.
 											</p>
 								</li>
 				
 								<li>
 											<p>
-												What would the net cost of Thang’s jersey be if she had a 20% discount (off the $99 price) instead?
+												What would the net cost of Thang's jersey be if she had a 20% discount (off the $99 price) instead?
 											</p>
 								</li>
 				
@@ -158,7 +158,7 @@
 
 				<li>
 							<p>
-								Tenzin bought a house for $291,900 but the housing market collapsed and his house value dropped 4.1% since he bought it. What is Tenzin’s house worth now?
+								Tenzin bought a house for $291,900 but the housing market collapsed and his house value dropped 4.1% since he bought it. What is Tenzin's house worth now?
 							</p>
 				
 							<p>
@@ -174,7 +174,7 @@
 							<p><ol>
 								<li>
 											<p>
-												Mai’s salary was $78,000 before she got a 6% raise. What was her salary after the raise?
+												Mai's salary was $78,000 before she got a 6% raise. What was her salary after the raise?
 											</p>
 								</li>
 				
@@ -190,13 +190,13 @@
 			</ol></p>
 
 			<p>
-				<term>When you’re done …</term>
+				<term>When you're done …</term>
 			</p>
 
 			<p><ul>
 				<li>
 							<p>
-								Don’t forget to check your answers with those in the back of the textbook.
+								Don't forget to check your answers with those in the back of the textbook.
 							</p>
 				</li>
 
@@ -208,13 +208,13 @@
 
 				<li>
 							<p>
-								Getting the wrong answers or stuck on a problem? Re-read the section and try the problem again. If you’re still stuck, work with a classmate or go to your instructor’s office hours.
+								Getting the wrong answers or stuck on a problem? Re-read the section and try the problem again. If you're still stuck, work with a classmate or go to your instructor's office hours.
 							</p>
 				</li>
 
 				<li>
 							<p>
-								It’s normal to find some parts of some problems difficult, but if all the problems are giving you grief, be sure to talk with your instructor or advisor about it. They might be able to suggest strategies or support services that can help you succeed.
+								It's normal to find some parts of some problems difficult, but if all the problems are giving you grief, be sure to talk with your instructor or advisor about it. They might be able to suggest strategies or support services that can help you succeed.
 							</p>
 				</li>
 

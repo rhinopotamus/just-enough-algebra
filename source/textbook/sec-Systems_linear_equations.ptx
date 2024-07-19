@@ -13,7 +13,7 @@
 		<title>Systems of linear equations</title>
 
 		<p>
-			A local factory produces small locks for industrial use. The old machine has seen better days and Quia Xun, the manager, is shopping around for a new machine. She’s narrowed it down to two options. The first option is replace the old machine with a new model (Machine #1) for $. The second is a larger unit (Machine #2) priced at $. In each case, the price includes installation and the standard service contract. The reason she is considering the more expensive machine is Machine #2 runs at a cost of only $.80 per lock, whereas the replacement Machine #1 runs at a cost of $1.25 per lock.
+			A local factory produces small locks for industrial use. The old machine has seen better days and Quia Xun, the manager, is shopping around for a new machine. She's narrowed it down to two options. The first option is replace the old machine with a new model (Machine #1) for $. The second is a larger unit (Machine #2) priced at $. In each case, the price includes installation and the standard service contract. The reason she is considering the more expensive machine is Machine #2 runs at a cost of only $0.80 per lock, whereas the replacement Machine #1 runs at a cost of $1.25 per lock.
 		</p>
 
 		<p>
@@ -24,7 +24,7 @@
 			Since Quia Xun is interested in how the total expenditure, including both the purchase price and the running cost, depend on the number of locks produced, the variables are
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="left"><m>L=</m> amount produced (locks) <m>\sim</m> indep</cell>
@@ -32,23 +32,23 @@
 			<row left="minor" class="even">
 				<cell right="minor" halign="left"><m>E=</m> total expenditure ($) <m>\sim</m> dep</cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
-			She recognizes that total expenditure is a linear function of the purchase price and the running cost for each machine. In each case, the starting amount (intercept) is the purchase price: $ for Machine #1 and $ for Machine #2. The slope (rate of change) is the constant running cost: $.80 per lock for Machine #1 and $1.25 per lock for Machine #2. Using the template for a linear equation <me>\text{dep }=\text{ start } + \text{ slope} \ast {\text{indep}}</me> she writes the equations
+			She recognizes that total expenditure is a linear function of the purchase price and the running cost for each machine. In each case, the starting amount (intercept) is the purchase price: $ for Machine #1 and $ for Machine #2. The slope (rate of change) is the constant running cost: $0.80 per lock for Machine #1 and $1.25 per lock for Machine #2. Using the template for a linear equation <me>\text{dep }=\text{ start } + \text{ slope} \ast {\text{indep}}</me> she writes the equations
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="left"><me>\textbf{Machine \#1:} &amp; E  =\text{ 3,200} + 1.25L</me></cell>
 				<cell right="minor" halign="left"></cell>
 			</row>
 			<row left="minor" class="even">
-				<cell right="minor" halign="left"><me>\textbf{Machine \#2:} &amp; E  =\text{ 5,400} + \hspace{.07in}.80L</me></cell>
+				<cell right="minor" halign="left"><me>\textbf{Machine \#2:} &amp; E  =\text{ 5,400} + \hspace{0.07in}0.00L</me></cell>
 				<cell right="minor" halign="left"></cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
 			Since there are two linear equations and we are interested in a comparison, we have a <term>system (of linear equations)</term>.
@@ -58,7 +58,7 @@
 			To begin the comparison, Quia Xun starts with figuring out what the expenditure to produce locks would be for each machine.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="left"><term>Machine #1:</term></cell>
@@ -68,13 +68,13 @@
 				<cell right="minor" halign="left"><term>Machine #2:</term></cell>
 				<cell right="minor" halign="left"><m>E  =\text{5,400} + 0.80 \times \underline{\text{2,000}}=\$\text{7,000}</m></cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
 			If the factory were only going to make only locks, then Machine #2 would not be worth it. She calculates a few more examples to see what the cutoff would be.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="center"><m>L</m></cell>
@@ -100,26 +100,26 @@
 				<cell right="minor" halign="center"></cell>
 				<cell right="minor" halign="center"></cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
 			Even at locks, Machine #1 is the better deal. By locks, Machine #2 becomes the better deal. Somewhere in between it switches.
 		</p>
 
 		<p>
-			Quia Xun makes a quick graph to see what’s going on. On the graph, whichever line is lower corresonds to the lower total expenditure and whichever line is higher corresponds to the higher total expenditure. As suspected, for a smaller number of locks the line for Machine #1 is lower on the graph, so that’s the better deal. For a larger number of locks it switches and the line for Machine #2 is lower on the graph, since that’s the better deal instead. Where they switch corresponds to the point on the graph where the two lines cross, somewhere around locks.
+			Quia Xun makes a quick graph to see what's going on. On the graph, whichever line is lower corresonds to the lower total expenditure and whichever line is higher corresponds to the higher total expenditure. As suspected, for a smaller number of locks the line for Machine #1 is lower on the graph, so that's the better deal. For a larger number of locks it switches and the line for Machine #2 is lower on the graph, since that's the better deal instead. Where they switch corresponds to the point on the graph where the two lines cross, somewhere around locks.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<p>
 			<image source='locks.png'/>
-		</p><!--</div attr= class="center">-->
+		</p>
 
 		<p>
 			A quick successive approximation narrows down the answer.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="center"><m>L</m></cell>
@@ -165,42 +165,42 @@
 				<cell right="minor" halign="center"></cell>
 				<cell right="minor" halign="center"></cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
 			So the choice changes somewhere between and locks.
 		</p>
 
 		<p>
-			There is a way for Quia Xun to solve the problem symbolically; we refer to this process as <term>solving the system</term>. She wants to find the number of locks where <me>\text{cost of Machine \#1} = \text{cost of Machine \#2}</me> Using her equations <m>E  =\text{3,200} + 1.25L</m> for Machine #1 and <m>E  =\text{5,400} + .80L</m> for Machine #2 she has <me>\text{3,200} + 1.25L=\text{5,400} + .80L</me> She wants to find the value of <m>L</m> that makes both sides the same number. To solve, Quia Xun subtracts , the smaller of the two purchase prices, from each side to get <me>\begin{aligned}
-\cancel{\text{3,200}} + 1.25L &amp; = &amp; \text{5,400} + .80L \\
--\cancel{\text{3,200}} \hspace{.5 in} &amp; &amp; -\text{3,200}  \\ %HSPACE
+			There is a way for Quia Xun to solve the problem symbolically; we refer to this process as <term>solving the system</term>. She wants to find the number of locks where <me>\text{cost of Machine \#1} = \text{cost of Machine \#2}</me> Using her equations <m>E  =\text{3,200} + 1.25L</m> for Machine #1 and <m>E  =\text{5,400} + 0.80L</m> for Machine #2 she has <me>\text{3,200} + 1.25L=\text{5,400} + 0.80L</me> She wants to find the value of <m>L</m> that makes both sides the same number. To solve, Quia Xun subtracts , the smaller of the two purchase prices, from each side to get <me>\begin{aligned}
+\cancel{\text{3,200}} + 1.25L &amp; = &amp; \text{5,400} + 0.80L \\
+-\cancel{\text{3,200}} \hspace{0.5 in} &amp; &amp; -\text{3,200}  \\ %HSPACE
 \end{aligned}</me>
 		</p>
 
 		<p>
-			which simplifies to <me>1.25L = \text{2,200} + .80L</me> Pause for a minute. What does that $ mean in the story? It’s the extra cost of buying Machine #2 because <m>\$\text{5,400} - \$\text{3,200} = \$\text{2,200}</m>.
+			which simplifies to <me>1.25L = \text{2,200} + 0.80L</me> Pause for a minute. What does that $ mean in the story? It's the extra cost of buying Machine #2 because <m>\$\text{5,400} - \$\text{3,200} = \$\text{2,200}</m>.
 		</p>
 
 		<p>
-			What next? This equation has the variable <m>L</m> on each side. Quia Xun needs to combine them somehow. Here’s how to do that. Subtract <m>.80L</m> from each side. Look closely. She is subtracting <m>.80L</m>, not just <m>.80</m>. We get <me>\begin{aligned}
-1.25L &amp; = &amp; \text{2,200} + \cancel{.80L}\\
--.80L &amp; &amp; \hspace{.4in}-\cancel{.80L}  \\ %HSPACE
+			What next? This equation has the variable <m>L</m> on each side. Quia Xun needs to combine them somehow. Here's how to do that. Subtract <m>0.80L</m> from each side. Look closely. She is subtracting <m>0.80L</m>, not just <m>0.80</m>. We get <me>\begin{aligned}
+1.25L &amp; = &amp; \text{2,200} + \cancel{0.80L}\\
+-0.80L &amp; &amp; \hspace{0.8in}-\cancel{0.80L}  \\ %HSPACE
 \end{aligned}</me>
 		</p>
 
 		<p>
-			How do we simplify <m>1.25L-.80L</m>? Think about what these numbers represent in the story. The cost was $1.25 per lock versus $.80 per lock. The difference is $1.25-$.80 = $.45 per lock. So that means <me>1.25L -.80L = .45L</me> Think: 125 apples <m>-</m> 80 apples <m>=</m> 45 apples. She can now simplify her equation to get <me>.45L = \text{2,200}</me> Ah, she can solve this equation just by dividing each side by .45 to get <me>\frac{\cancel{.45}L}{\cancel{.45}}= \frac{\text{2,200}}{.45}</me> which simplifies to <me>L = \frac{\text{2,200}}{.45}= \text{2,200} \div .45 = 4888.88888\ldots \approx \text{4,889} \text{ locks}</me> If they plan to produce 4,889 locks or more, Quia Xun should go ahead and buy the more expensive machine, Machine #2. Yeah, that’s what we guessed – just under locks is the payoff.
+			How do we simplify <m>1.25L-0.80L</m>? Think about what these numbers represent in the story. The cost was $1.25 per lock versus $0.80 per lock. The difference is $1.25-$0.80 = $0.85 per lock. So that means <me>1.25L -0.80L = 0.85L</me> Think: 125 apples <m>-</m> 80 apples <m>=</m> 45 apples. She can now simplify her equation to get <me>0.85L = \text{2,200}</me> Ah, she can solve this equation just by dividing each side by 0.85 to get <me>\frac{\cancel{0.85}L}{\cancel{0.85}}= \frac{\text{2,200}}{0.85}</me> which simplifies to <me>L = \frac{\text{2,200}}{0.85}= \text{2,200} \div 0.85 = 4888.88888\ldots \approx \text{4,889} \text{ locks}</me> If they plan to produce 4,889 locks or more, Quia Xun should go ahead and buy the more expensive machine, Machine #2. Yeah, that's what we guessed - just under locks is the payoff.
 		</p>
 
 		<p>
 			She solved an equation here, but Quia Xun really wanted to know when <me>\text{Machine \#1} \ge \text{Machine \#2}</me> so she could have solved the inequality <me>\text{3,200} + 1.25L \ge \text{5,400} + 0.80L</me> instead. Check that the same steps give <me>L \ge 4,889 \text{ locks}</me>
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<p>
 			(1,0)300
-		</p><!--</div attr= class="center">-->
+		</p>
 
 	</section>
 
@@ -260,7 +260,7 @@
 
 			<li>
 					<p>
-						<term>If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</term>
+						<term>If you're not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</term>
 					</p>
 			</li>
 
@@ -273,20 +273,20 @@
 			<p><ol>
 				<li>
 							<p>
-								Just when Quia Xun thought she had things figured out, another possible option emerged. She can outsource her lock production to a different plant at the cost of $1.55 per lock. While that’s more expensive per lock, it avoids having to buy a machine at all. Recall her first two options were
+								Just when Quia Xun thought she had things figured out, another possible option emerged. She can outsource her lock production to a different plant at the cost of $1.55 per lock. While that's more expensive per lock, it avoids having to buy a machine at all. Recall her first two options were
 							</p>
 				
-				<!-- div attr= class="center"-->
+				
 							<tabular bottom="minor" top="minor">
 								<row left="minor" class="odd">
 									<cell right="minor" halign="left"><me>\textbf{Machine \#1:} &amp; E  =\text{ 3,200} + 1.25L</me></cell>
 									<cell right="minor" halign="left"></cell>
 								</row>
 								<row left="minor" class="even">
-									<cell right="minor" halign="left"><me>\textbf{Machine \#2:} &amp; E  =\text{ 5,400} + .80L</me></cell>
+									<cell right="minor" halign="left"><me>\textbf{Machine \#2:} &amp; E  =\text{ 5,400} + 0.80L</me></cell>
 									<cell right="minor" halign="left"></cell>
 								</row>
-							</tabular><!--</div attr= class="center">-->
+							</tabular>
 				
 							<p>
 								where <m>E</m> is the total expenditure to produce <m>L</m> locks on that machine.
@@ -316,7 +316,7 @@
 
 				<li>
 							<p>
-								Don’t ask why I know this, but it takes me 80 seconds per square foot to wash a floor using a rag. If I use a mop, it’s slightly quicker at 75 seconds per square foot, but another 3 minutes at the end to wring out the mop. (The rag just pops in the washing machine.)
+								Don't ask why I know this, but it takes me 80 seconds per square foot to wash a floor using a rag. If I use a mop, it's slightly quicker at 75 seconds per square foot, but another 3 minutes at the end to wring out the mop. (The rag just pops in the washing machine.)
 							</p>
 				
 							<p><ol>
@@ -338,7 +338,7 @@
 				
 								<li>
 											<p>
-												What do you suggest for each room? (Note: find the area by multiplying the length times the width.) My bathroom floor is 5’<m>\times</m>5’. My kitchen floor is 8’<m>\times</m>10’. The laundry room is 10’<m>\times</m>14’.
+												What do you suggest for each room? (Note: find the area by multiplying the length times the width.) My bathroom floor is 5'<m>\times</m>5'. My kitchen floor is 8'<m>\times</m>10'. The laundry room is 10'<m>\times</m>14'.
 											</p>
 								</li>
 				
@@ -347,7 +347,7 @@
 
 				<li>
 							<p>
-								Maria needed to replace the light bulb in the hallway. When she went to the home improvement store she was overwhelmed with the choices of light bulbs. One option is a compact fluorescent light (CFL) bulb. A CFL bulb costs $1. This fixture will cost $.95 per month to run with a CFL bulb. A different option Maria is considering is a light-emitting diode (LED) instead of a bulb. A LED costs $24 but reduces the cost for the fixture to $.60 per month.
+								Maria needed to replace the light bulb in the hallway. When she went to the home improvement store she was overwhelmed with the choices of light bulbs. One option is a compact fluorescent light (CFL) bulb. A CFL bulb costs $1. This fixture will cost $0.95 per month to run with a CFL bulb. A different option Maria is considering is a light-emitting diode (LED) instead of a bulb. A LED costs $24 but reduces the cost for the fixture to $0.90 per month.
 							</p>
 				
 							<p><ol>
@@ -377,7 +377,7 @@
 				
 								<li>
 											<p>
-												Based on what you’ve learned, fill in the blank and circle the correct word.
+												Based on what you've learned, fill in the blank and circle the correct word.
 											</p>
 								
 											<blockquote>
@@ -395,7 +395,7 @@
 								The community center offers exercise classes on a pay-as-you-go basis. It normally costs $20 to register and then $15 per exercise class. Alternatively, you can pay $150 to become a member, and then $10 per exercise class. If we let <m>E</m> represent the number of exercise classes I attend and <m>T</m> represent the total cost in dollars, then the equations are:
 							</p>
 				
-				<!-- div attr= class="center"-->
+				
 							<tabular bottom="minor" top="minor">
 								<row left="minor" class="odd">
 									<cell right="minor" halign="left"><term>Pay as-you-go:</term></cell>
@@ -405,7 +405,7 @@
 									<cell right="minor" halign="left"><term>Member:</term></cell>
 									<cell right="minor" halign="left"><m>T= 150 + 10E</m></cell>
 								</row>
-							</tabular><!--</div attr= class="center">-->
+							</tabular>
 				
 							<p><ol>
 								<li>
@@ -434,7 +434,7 @@
 				
 								<li>
 											<p>
-												Describe in words what you’ve learned about whether or not to buy membership.
+												Describe in words what you've learned about whether or not to buy membership.
 											</p>
 								</li>
 				
@@ -446,7 +446,7 @@
 								The weekly supply <m>S</m> and demand <m>D</m> for corn-on-the-cob (in hundreds) at a local market are given by the equations
 							</p>
 				
-				<!-- div attr= class="center"-->
+				
 							<tabular bottom="minor" top="minor">
 								<row left="minor" class="odd">
 									<cell right="minor" halign="left"><term>Supply:</term></cell>
@@ -454,9 +454,9 @@
 								</row>
 								<row left="minor" class="even">
 									<cell right="minor" halign="left"><term>Demand:</term></cell>
-									<cell right="minor" halign="left"><m>D= 11 - .9P</m></cell>
+									<cell right="minor" halign="left"><m>D= 11 - 0.9P</m></cell>
 								</row>
-							</tabular><!--</div attr= class="center">-->
+							</tabular>
 				
 							<p>
 								where <m>P</m> is the price per unit, in dollars per dozen.
@@ -465,7 +465,7 @@
 							<p><ol>
 								<li>
 											<p>
-												Is there a shortage or surplus if corn is priced at $3.25/dozen? What if it’s priced at $1.75/dozen?
+												Is there a shortage or surplus if corn is priced at $3.25/dozen? What if it's priced at $1.75/dozen?
 											</p>
 								</li>
 				
@@ -489,7 +489,7 @@
 								A solar heating system costs approximately $ to install and $150 per year to run. By comparison, a gas heating system costs approximately $ to install and $700 per year to run. Earlier we wrote equations showing how the total cost $<m>T</m> depends on the time, <m>Y</m> years.
 							</p>
 				
-				<!-- div attr= class="center"-->
+				
 							<tabular bottom="minor" top="minor">
 								<row left="minor" class="odd">
 									<cell right="minor" halign="left"><term>Solar:</term></cell>
@@ -499,7 +499,7 @@
 									<cell right="minor" halign="left"><term>Gas:</term></cell>
 									<cell right="minor" halign="left"><m>T  = \text{12,000} + 700Y</m></cell>
 								</row>
-							</tabular><!--</div attr= class="center">-->
+							</tabular>
 				
 							<p>
 								<em>Story also appears in 4.1 #1</em>

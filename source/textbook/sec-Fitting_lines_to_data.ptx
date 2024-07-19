@@ -20,7 +20,7 @@
 			One data set compares road salt usage per county. Thanh learned from county officials that road salt use varies widely from county to county, but, not surprisingly, it depends heavily on the length of road in the county. So, the variables are
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="left"><m>L=</m> road length (lane miles) <m>\sim</m> indep</cell>
@@ -28,7 +28,7 @@
 			<row left="minor" class="even">
 				<cell right="minor" halign="left"><m>S=</m> road salt applied (tons per year) <m>\sim</m> dep</cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
 			A <term>lane mile</term> is the area of road one mile long and one lane wide. Now you know.
@@ -38,7 +38,7 @@
 			Thanh also learned that while road salt use is a function of lane miles, it is not proportional as there are more complicated factors involved. Still, he would like to model road salt use as a function of road length. Here are the data for counties in the metro area.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="center">County</cell>
@@ -70,13 +70,13 @@
 				<cell right="minor" halign="center"></cell>
 				<cell right="minor" halign="center"></cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
 			To develop his model Thanh imagined a new county, County X, that had 600 lane miles of road. In looking at the data, he finds two counties with close to 600 lane miles.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="center"></cell>
@@ -96,7 +96,7 @@
 				<cell right="minor" halign="center">?</cell>
 				<cell right="minor" halign="center"></cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
 			Based on this data, Thanh expects County X would use between and tons/year of road salt. Since 600 is closer to 510 than to 710, he starts with a guess of around tons/year of road salt.
@@ -121,7 +121,7 @@
 			Next, Thanh imagines another new county, County Y, that has 500 lane miles of road. He looks to the data for counties with close to 500 lane miles.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="center"></cell>
@@ -141,70 +141,70 @@
 				<cell right="minor" halign="center">?</cell>
 				<cell right="minor" halign="center"></cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
-			Wait a minute. The county with fewer roads used more salt? That doesn’t make sense.
+			Wait a minute. The county with fewer roads used more salt? That doesn't make sense.
 		</p>
 
 		<p>
 			Thanh decides to look at all the data at once in a scatter plot.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<p>
 			<image source='roadsaltSCATTER.png'/>
-		</p><!--</div attr= class="center">-->
-
-		<p>
-			When Thanh was using the nearby points to estimate for Counties X and Y, it’s as if he were connecting the dots with line segments on the graph. Notice that the line that goes through 500 lane miles is decreasing, just like Thanh saw in his table.
 		</p>
 
-<!-- div attr= class="center"-->
+		<p>
+			When Thanh was using the nearby points to estimate for Counties X and Y, it's as if he were connecting the dots with line segments on the graph. Notice that the line that goes through 500 lane miles is decreasing, just like Thanh saw in his table.
+		</p>
+
+
 		<p>
 			<image source='roadsaltCONNECTDOTS.png'/>
-		</p><!--</div attr= class="center">-->
+		</p>
 
 		<p>
 			Thanh suspects that this connect-the-dots model is too heavily influenced by individual county road-salting habits. He would like a way to get one line to use for everything, knowing full well that one line cannot possibly go through all of the data points.
 		</p>
 
 		<p>
-			Which line to use? One option would be to stick with the line he found through the points for Counties T and A. He redraws the scatter plot to show that line. Because the intercept is negative, it doesn’t show up on his graph. The line seems to be too low at first and too high later. The problem is that this line is too steep (has too large a slope).
+			Which line to use? One option would be to stick with the line he found through the points for Counties T and A. He redraws the scatter plot to show that line. Because the intercept is negative, it doesn't show up on his graph. The line seems to be too low at first and too high later. The problem is that this line is too steep (has too large a slope).
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<p>
 			  <image source='roadsaltTAline.png'/>
-		</p><!--</div attr= class="center">-->
-
-		<p>
-			Thanh decides to try a line that is less steep. After drawing in a few lines, he decides to try the line between the points for Counties C and D instead, which has equation <me>\textbf{C-D line:} \quad S = 20.26L-\text{4,610}</me> Unfortunately this line seems too low. (Again the negative intercept isn’t visible.)
 		</p>
 
-<!-- div attr= class="center"-->
+		<p>
+			Thanh decides to try a line that is less steep. After drawing in a few lines, he decides to try the line between the points for Counties C and D instead, which has equation <me>\textbf{C-D line:} \quad S = 20.26L-\text{4,610}</me> Unfortunately this line seems too low. (Again the negative intercept isn't visible.)
+		</p>
+
+
 		<p>
 			<image source='roadsaltCDline.png'/>
-		</p><!--</div attr= class="center">-->
+		</p>
 
 		<p>
 			Neither of these lines came close to the point for County H on the far right, so Thanh considers one more line, this time through County H and County R, which has equation <me>\textbf{H-R line:} \quad S = 8.71L+\text{3,130}</me> This line has a positive intercept just above tons/year, as you can see on the graph.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<p>
 			  <image source='roadsaltHRline.png'/>
-		</p><!--</div attr= class="center">-->
+		</p>
 
 		<p>
 			Thanh thinks the H-R line is reasonable, but it makes him wonder how to decide if one line is better than another. Generally speaking the <term>best fitting line</term> makes the space between the line and the data points as small as possible. (There is actually a much more official definition.) After using a little statistical software, Thanh determines that for this data set, the official best fitting line has equation <me>\textbf{Best fitting line:} \quad S = 10.0L+\text{2,741}</me>
 		</p>
 
 		<p>
-			Thanh wants to add this line to his graph so first he calculates a few values. While it’s true that any two points would do, he played it safe and plotted three points, being sure to use 0 in order to find the intercept.
+			Thanh wants to add this line to his graph so first he calculates a few values. While it's true that any two points would do, he played it safe and plotted three points, being sure to use 0 in order to find the intercept.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="center"><m>L</m></cell>
@@ -218,34 +218,34 @@
 				<cell right="minor" halign="center"></cell>
 				<cell right="minor" halign="center"></cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
-			He graphs this line and notices it is very similar to the H-R line, just a tiny bit higher and a tiny bit steeper. The points from the table are highlighted on the graph just to help you see how we graphed the line. Remember, those aren’t actual data points.
+			He graphs this line and notices it is very similar to the H-R line, just a tiny bit higher and a tiny bit steeper. The points from the table are highlighted on the graph just to help you see how we graphed the line. Remember, those aren't actual data points.
 		</p>
 
-<!-- div attr= class="center"-->
-		<p>
-			<image source='roadsaltbestfit.png'/>
-		</p><!--</div attr= class="center">-->
 
 		<p>
-			Thanh is bothered by the fact that County H seems to be off on its own. The largest city in this area is in County H. Between the budget crunch and the nature of the urban landscape, the city tends to use much less road salt than the surrounding areas. So County H really isn’t very typical at all. In statistics, this sort of value is known by the descriptive term <term>outlier</term> (as in <q>it lies way out there.</q>)
+			<image source='roadsaltbestfit.png'/>
+		</p>
+
+		<p>
+			Thanh is bothered by the fact that County H seems to be off on its own. The largest city in this area is in County H. Between the budget crunch and the nature of the urban landscape, the city tends to use much less road salt than the surrounding areas. So County H really isn't very typical at all. In statistics, this sort of value is known by the descriptive term <term>outlier</term> (as in <q>it lies way out there.</q>)
 		</p>
 
 		<p>
 			So Thanh decides to look at the statistically best-fitting line ignoring County H this time. Back to his software and he finds <me>\textbf{Best fitting line (ignoring outlier):} \quad S = 19.7L-\text{2,905}</me> This line is less steep than the T-A line and higher than the C-D line. Seems perfect.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<p>
 			<image source='roadsaltbestfitwoOutlier.png'/>
-		</p><!--</div attr= class="center">-->
+		</p>
 
-<!-- div attr= class="center"-->
+
 		<p>
 			(1,0)300
-		</p><!--</div attr= class="center">-->
+		</p>
 
 	</section>
 
@@ -299,13 +299,13 @@
 
 			<li>
 					<p>
-						Why even the best fitting line doesn’t go through most of the data points?
+						Why even the best fitting line doesn't go through most of the data points?
 					</p>
 			</li>
 
 			<li>
 					<p>
-						<term>If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</term>
+						<term>If you're not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</term>
 					</p>
 			</li>
 
@@ -318,7 +318,7 @@
 			<p><ol>
 				<li>
 							<p>
-								Look back at Thanh’s data in the section.
+								Look back at Thanh's data in the section.
 							</p>
 				
 							<p><ol>
@@ -345,10 +345,10 @@
 
 				<li>
 							<p>
-								Wild rice is a native plant that grows in lakes in the upper Midwest. The table shows how the annual acreage of wild rice has varied with the average spring temperature in various years. The variables are <m>T</m> for the temperature measured in <m>^{\circ}</m>F and <m>W</m> for the wild rice yield, measured in acres. In case you’re curious, the year is included as well, but it’s not one of the variables we’re interested in.
+								Wild rice is a native plant that grows in lakes in the upper Midwest. The table shows how the annual acreage of wild rice has varied with the average spring temperature in various years. The variables are <m>T</m> for the temperature measured in <m>^{\circ}</m>F and <m>W</m> for the wild rice yield, measured in acres. In case you're curious, the year is included as well, but it's not one of the variables we're interested in.
 							</p>
 				
-				<!-- div attr= class="center"-->
+				
 							<tabular bottom="minor" top="minor">
 								<row left="minor" class="odd">
 									<cell right="minor" halign="center">year</cell>
@@ -380,7 +380,7 @@
 									<cell right="minor" halign="center"></cell>
 									<cell right="minor" halign="center"></cell>
 								</row>
-							</tabular><!--</div attr= class="center">-->
+							</tabular>
 				
 							<p>
 								<em>Story also appears in 4.1 Exercises</em>
@@ -431,7 +431,7 @@
 								The amount of garbage generated in the United States has increased steadily, from 88.1 million tons in 1960 to 254.2 million tons in 2006. Earlier we did linear model. But, in fact, the amount of garbage has not increased exactly linearly. The table shows data for select years, where <m>Y</m> measures years since 1960 and <m>G</m> is the amount of garbage (in millions of tons).
 							</p>
 				
-				<!-- div attr= class="center"-->
+				
 							<tabular bottom="minor" top="minor">
 								<row left="minor" class="odd">
 									<cell right="minor" halign="center">year</cell>
@@ -469,7 +469,7 @@
 									<cell right="minor" halign="center"></cell>
 									<cell right="minor" halign="center"></cell>
 								</row>
-							</tabular><!--</div attr= class="center">-->
+							</tabular>
 				
 				<!-- div attr= class="footnotesize"-->
 							<p>
@@ -507,7 +507,7 @@
 								My mechanic, Paye, believes that frequent oil changes reduce the amount of maintenance on a car. To prove his point, Paye showed me a table of customers with the number of yearly oil changes and the cost of their engine repairs.
 							</p>
 				
-				<!-- div attr= class="center"-->
+				
 							<tabular bottom="minor" top="minor">
 								<row left="minor" class="odd">
 									<cell right="minor" halign="center"><m>N</m></cell>
@@ -529,7 +529,7 @@
 									<cell right="minor" halign="center">100</cell>
 									<cell right="minor" halign="center">150</cell>
 								</row>
-							</tabular><!--</div attr= class="center">-->
+							</tabular>
 				
 							<p>
 								where <m>N</m> is the number of oil changes per year and <m>R</m> is the cost of repairs, in dollars.
@@ -574,7 +574,7 @@
 								The table and scatterplot shows the estimated costs and earnings for various sports-themed movies.
 							</p>
 				
-				<!-- div attr= class="center"-->
+				
 							<tabular bottom="minor" top="minor">
 								<row left="minor" class="odd">
 									<cell right="minor" halign="left">Movie</cell>
@@ -636,12 +636,12 @@
 									<cell right="minor" halign="right">$22 million</cell>
 									<cell right="minor" halign="right">$77 million</cell>
 								</row>
-							</tabular><!--</div attr= class="center">-->
+							</tabular>
 				
-				<!-- div attr= class="center"-->
+				
 							<p>
 								<image source='sportsmovies.png'/>
-							</p><!--</div attr= class="center">-->
+							</p>
 				
 							<p><ol>
 								<li>
@@ -681,7 +681,7 @@
 								Source: U.S. Department of Agriculture
 							</p><!--</div attr= class="footnotesize">-->
 				
-				<!-- div attr= class="center"-->
+				
 							<tabular bottom="minor" top="minor">
 								<row left="minor" class="odd">
 									<cell right="minor" halign="center">year</cell>
@@ -735,7 +735,7 @@
 									<cell right="minor" halign="center"></cell>
 									<cell right="minor" halign="center"></cell>
 								</row>
-							</tabular><!--</div attr= class="center">-->
+							</tabular>
 				
 							<p><ol>
 								<li>
@@ -758,13 +758,13 @@
 				
 								<li>
 											<p>
-												The best fitting line for chicken is <me>C =3.6375+.2854Y</me> and the best fitting line for beef is <me>B=11.774+.007Y</me> Set up and solve a system of linear equations to find the year when chicken and red meat consumption will likely be equal. How does this answer compare to your estimate?
+												The best fitting line for chicken is <me>C =3.6375+0.2854Y</me> and the best fitting line for beef is <me>B=11.774+0.207Y</me> Set up and solve a system of linear equations to find the year when chicken and red meat consumption will likely be equal. How does this answer compare to your estimate?
 											</p>
 								</li>
 				
 								<li>
 											<p>
-												The slope of the best fitting beef line is .007 million tons/year. What does that tell you about beef consumption over the past 40 years?
+												The slope of the best fitting beef line is 0.007 million tons/year. What does that tell you about beef consumption over the past 40 years?
 											</p>
 								</li>
 				

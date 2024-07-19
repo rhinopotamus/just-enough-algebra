@@ -21,23 +21,23 @@
 		</p>
 
 		<p>
-			Suppose we wanted to determine when 5,000 people had heard of <q>puzzlaxing</q>. That means we want a number <m>W</m> where <m>10^W = \text{5,000}</m>. Now what? The answer is somewhere between 3 and 4 weeks because <m>10^3=\text{1,000}</m> and <m>10^4=\text{10,000}</m>. That’s probably a good enough answer – between 3 and 4 weeks, but suppose we want the exact moment.
+			Suppose we wanted to determine when 5,000 people had heard of <q>puzzlaxing</q>. That means we want a number <m>W</m> where <m>10^W = \text{5,000}</m>. Now what? The answer is somewhere between 3 and 4 weeks because <m>10^3=\text{1,000}</m> and <m>10^4=\text{10,000}</m>. That's probably a good enough answer - between 3 and 4 weeks, but suppose we want the exact moment.
 		</p>
 
 		<p>
-			Let’s try guessing. How about 3.5 weeks? <me>10^{3.5} =10 \wedge 3.5 = \text{3,162.27...}</me> which is much smaller than 5,000. How about 3.7 weeks? <me>10^{3.7} =10 \wedge 3.7 = \text{5,011.87..}</me> which is slightly bigger than 5,000. I want to find the answer here so let’s try <me>10^{3.69}=10 \wedge 3.69= \text{4,897.78...}</me> or finally <me>10^{3.699}=10 \wedge 3.699= \text{5,000.34...}</me> That’s as close as I’m gonna guess.
+			Let's try guessing. How about 3.5 weeks? <me>10^{3.5} =10 \wedge 3.5 = \text{3,162.27...}</me> which is much smaller than 5,000. How about 3.7 weeks? <me>10^{3.7} =10 \wedge 3.7 = \text{5,011.87..}</me> which is slightly bigger than 5,000. I want to find the answer here so let's try <me>10^{3.69}=10 \wedge 3.69= \text{4,897.78...}</me> or finally <me>10^{3.699}=10 \wedge 3.699= \text{5,000.34...}</me> That's as close as I'm gonna guess.
 		</p>
 
 		<p>
-			Okay, I’m curious. Is there an exact power of 10 that gives 5,000? Your calculator should have a key that says <q>log</q> or maybe <q>LOG</q>. Try typing <me>\log(5000)=  3.6989700043...</me> A small note here about parentheses. Some calculators give the first parenthesis for free when you type log but you have to type the closing parenthesis in yourself.
+			Okay, I'm curious. Is there an exact power of 10 that gives 5,000? Your calculator should have a key that says <q>log</q> or maybe <q>LOG</q>. Try typing <me>\log(5000)=  3.6989700043...</me> A small note here about parentheses. Some calculators give the first parenthesis for free when you type log but you have to type the closing parenthesis in yourself.
 		</p>
 
 		<p>
-			Check it out, that’s the answer we were looking for <me>10^{3.6989700043} =10 \wedge 3.6989700043 = \text{4,999.999~999~5853...} \approx \text{5,000}</me> If we had kept more digits it would have been actually 5,000.
+			Check it out, that's the answer we were looking for <me>10^{3.6989700043} =10 \wedge 3.6989700043 = \text{4,999.999~999~5853...} \approx \text{5,000}</me> If we had kept more digits it would have been actually 5,000.
 		</p>
 
 		<p>
-			What is this log key doing? First, log is short for logarithm base 10. There are other bases, but 10 is what we’ll focus on in this course. Try these calculations:
+			What is this log key doing? First, log is short for logarithm base 10. There are other bases, but 10 is what we'll focus on in this course. Try these calculations:
 		</p>
 
 		<p>
@@ -52,11 +52,11 @@
 		</p>
 
 		<p>
-			What do you see? In each case the logarithm is the number of zeros or, equivalently, it’s the power of 10. For example, 10,000 has 4 zeros and <m>10^4= \text{10,000}</m> and <m>\log(\text{10,000}) = \log(10^4)=4</m>. In other words, a logarithm is just an exponent. And logarithms help us find the exponent. Makes sense.
+			What do you see? In each case the logarithm is the number of zeros or, equivalently, it's the power of 10. For example, 10,000 has 4 zeros and <m>10^4= \text{10,000}</m> and <m>\log(\text{10,000}) = \log(10^4)=4</m>. In other words, a logarithm is just an exponent. And logarithms help us find the exponent. Makes sense.
 		</p>
 
 		<p>
-			What logs of numbers that aren’t just powers of 10? Here are some examples. <me>\begin{aligned}
+			What logs of numbers that aren't just powers of 10? Here are some examples. <me>\begin{aligned}
 \log (25) &amp; = &amp; 1.3979\ldots \\
 \log (250) &amp; = &amp; 2.3979\ldots \\
 \log (\text{2,500}) &amp; = &amp; 3.3979\ldots \\
@@ -65,17 +65,17 @@
 		</p>
 
 		<p>
-			To see what’s happening we want to involve powers of 10. Scientific notation will do that for us. Let’s write these numbers in scientific notation and see what we learn. For example <m>\text{25,000} = 2.5 \times 10^4</m> and <me>\log( \text{25,000})=\log(2.5 \times 10 ^4)=4.3979\ldots \approx 4</me> Before we write down a general rule, let’s check more numbers.
+			To see what's happening we want to involve powers of 10. Scientific notation will do that for us. Let's write these numbers in scientific notation and see what we learn. For example <m>\text{25,000} = 2.5 \times 10^4</m> and <me>\log( \text{25,000})=\log(2.5 \times 10 ^4)=4.3979\ldots \approx 4</me> Before we write down a general rule, let's check more numbers.
 		</p>
 
 		<p>
-			<me>\log(\text{7,420,000}) = \log(7.42 \times 10^6)=6.870403905\ldots \approx 6</me> <me>\log (\text{4})=\log(4 \times 10^0)=0.602059991\ldots \approx 0</me> <me>\log (\text{.00917})= \log(9.17 \times 10^{-3}) = -2.037630664\ldots \approx -3</me> In every case we are rounding down, but it’s always the same:
+			<me>\log(\text{7,420,000}) = \log(7.42 \times 10^6)=6.870403905\ldots \approx 6</me> <me>\log (\text{4})=\log(4 \times 10^0)=0.602059991\ldots \approx 0</me> <me>\log (\text{0.00917})= \log(9.17 \times 10^{-3}) = -2.037630664\ldots \approx -3</me> In every case we are rounding down, but it's always the same:
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<p>
 			log(number) <m>\approx</m> power of 10 in the scientific notation for that number.
-		</p><!--</div attr= class="center">-->
+		</p>
 
 		<p>
 			<term>Do you know …</term>
@@ -108,7 +108,7 @@
 
 			<li>
 					<p>
-						<term>If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</term>
+						<term>If you're not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</term>
 					</p>
 			</li>
 
@@ -133,7 +133,7 @@
 				
 								<li>
 											<p>
-												Guess to try to find the answer, the number <m>W</m> where <m>10^W = 30,000</m>. It’s okay to get the answer to one decimal place.
+												Guess to try to find the answer, the number <m>W</m> where <m>10^W = 30,000</m>. It's okay to get the answer to one decimal place.
 											</p>
 								</li>
 				
@@ -166,7 +166,7 @@
 				
 								<li>
 											<p>
-												Many young adults are at high risk of hearing loss because they crank the volume of music they’re listening to, often to 2 trillion times the level humans can hear. Calculate that intensity in decimals using the formula <m>10\log(2 \ast10^{12})</m>. Prolonged sound above 70 decibels may damage your hearing and any loud noise above 120 decibels can cause immediate harm to hearing.
+												Many young adults are at high risk of hearing loss because they crank the volume of music they're listening to, often to 2 trillion times the level humans can hear. Calculate that intensity in decimals using the formula <m>10\log(2 \ast10^{12})</m>. Prolonged sound above 70 decibels may damage your hearing and any loud noise above 120 decibels can cause immediate harm to hearing.
 											</p>
 								</li>
 				
@@ -187,7 +187,7 @@
 				
 								<li>
 											<p>
-												If she continues to leave the debt unpaid, when will her debt pass $10,000? As we’ll see later, the answer is <m>\displaystyle \frac{\log(2)}{\log(1.207)}</m> years after 2020. Don’t forget to the close the parentheses.
+												If she continues to leave the debt unpaid, when will her debt pass $10,000? As we'll see later, the answer is <m>\displaystyle \frac{\log(2)}{\log(1.207)}</m> years after 2020. Don't forget to the close the parentheses.
 											</p>
 								</li>
 				
@@ -206,13 +206,13 @@
 							<p><ol>
 								<li>
 											<p>
-												What percentage of the color will be remain after Darcy washes her hair three times? Calculate the percentage using the formula <m>100 \ast .92^3</m>.
+												What percentage of the color will be remain after Darcy washes her hair three times? Calculate the percentage using the formula <m>100 \ast 0.92^3</m>.
 											</p>
 								</li>
 				
 								<li>
 											<p>
-												After how many shampoos will half of the color be gone? As we’ll see later, the answer is <m>\displaystyle \frac{\log(.5)}{\log(.92)}</m>. Don’t forget to the close the parentheses.
+												After how many shampoos will half of the color be gone? As we'll see later, the answer is <m>\displaystyle \frac{\log(0.5)}{\log(0.52)}</m>. Don't forget to the close the parentheses.
 											</p>
 								</li>
 				
@@ -222,13 +222,13 @@
 			</ol></p>
 
 			<p>
-				<term>When you’re done …</term>
+				<term>When you're done …</term>
 			</p>
 
 			<p><ul>
 				<li>
 							<p>
-								Don’t forget to check your answers with those in the back of the textbook.
+								Don't forget to check your answers with those in the back of the textbook.
 							</p>
 				</li>
 
@@ -240,13 +240,13 @@
 
 				<li>
 							<p>
-								Getting the wrong answers or stuck on a problem? Re-read the section and try the problem again. If you’re still stuck, work with a classmate or go to your instructor’s office hours.
+								Getting the wrong answers or stuck on a problem? Re-read the section and try the problem again. If you're still stuck, work with a classmate or go to your instructor's office hours.
 							</p>
 				</li>
 
 				<li>
 							<p>
-								It’s normal to find some parts of some problems difficult, but if all the problems are giving you grief, be sure to talk with your instructor or advisor about it. They might be able to suggest strategies or support services that can help you succeed.
+								It's normal to find some parts of some problems difficult, but if all the problems are giving you grief, be sure to talk with your instructor or advisor about it. They might be able to suggest strategies or support services that can help you succeed.
 							</p>
 				</li>
 

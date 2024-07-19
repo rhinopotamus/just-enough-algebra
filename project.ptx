@@ -5,6 +5,12 @@
     <target name="web" 
             format="html" 
             publication="publication-web.ptx" />
+    <target name="web-textbook"
+            format="html"
+            publication="publication-web-textbook.ptx" />
+    <target name="web-workbook"
+            format="html"
+            publication="publication-web-workbook.ptx" />
     <target name="print" 
             format="pdf" 
             publication="publication-latex.ptx"

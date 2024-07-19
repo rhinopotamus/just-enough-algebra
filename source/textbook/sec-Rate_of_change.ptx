@@ -13,10 +13,10 @@
 		<row left="minor" class="odd">
 			<cell right="minor" halign="center"><m>T</m></cell>
 			<cell right="minor" halign="center">0</cell>
-			<cell right="minor" halign="center">.2</cell>
-			<cell right="minor" halign="center">.4</cell>
-			<cell right="minor" halign="center">.6</cell>
-			<cell right="minor" halign="center">.8</cell>
+			<cell right="minor" halign="center">0.2</cell>
+			<cell right="minor" halign="center">0.4</cell>
+			<cell right="minor" halign="center">0.6</cell>
+			<cell right="minor" halign="center">0.8</cell>
 			<cell right="minor" halign="center">1.0</cell>
 			<cell right="minor" halign="center">1.2</cell>
 			<cell right="minor" halign="center">1.4</cell>
@@ -53,15 +53,15 @@
 	</p>
 
 	<p>
-		How fast is she moving? The diver starts at 3 meters, which is the height of the springboard, and .2 seconds later she's up to 3.88 meters. That means during the first .2 seconds, the diver went up <me>3.88-3 = .88 \text{ meters}</me> Her speed is <me>\frac{.88 \text{ meters}}{.2 \text{ seconds}} = 0.88 \div .2 = 4.4 \text{ meters/sec}</me>
+		How fast is she moving? The diver starts at 3 meters, which is the height of the springboard, and 0.2 seconds later she's up to 3.88 meters. That means during the first 0.2 seconds, the diver went up <me>3.88-3 = 0.88 \text{ meters}</me> Her speed is <me>\frac{0.88 \text{ meters}}{0.2 \text{ seconds}} = 0.88 \div 0.2 = 4.4 \text{ meters/sec}</me>
 	</p>
 
 	<p>
-		What about during the next .2 seconds? Does she move faster, slower, or the same? During this time, her height changed from 3.88 meters to 4.38 meters. In these .2 seconds she rose <me>4.38-3.88 = .50 \text{ meters}</me> That's less than before (since <m>.50 &lt; .88</m>), which means so she is going slower. Let's double check by calculating her speed. <me>\frac{.50 \text{ meters}}{.2 \text{ seconds}} = .50 \div .2 = 2.5 \text{ meters/sec}</me> Yup, slower.
+		What about during the next 0.2 seconds? Does she move faster, slower, or the same? During this time, her height changed from 3.88 meters to 4.38 meters. In these 0.2 seconds she rose <me>4.38-3.88 = 0.50 \text{ meters}</me> That's less than before (since <m>0.50 &lt; 0.88</m>), which means so she is going slower. Let's double check by calculating her speed. <me>\frac{0.50 \text{ meters}}{0.2 \text{ seconds}} = 0.50 \div 0.2 = 2.5 \text{ meters/sec}</me> Yup, slower.
 	</p>
 
 	<p>
-		Let's take a look at this calculation again. Here's what we did. <me>\text{speed} =  \frac{4.38-3.88 \text{ meters}}{.4-.2 \text{ seconds}} = \frac{.50 \text{ meters}}{.2 \text{ seconds}} = .50 \div .2 = 2.5 \text{ meters/sec}</me> There is a way to do the entire calculation at once on your calculator. <me>(4.38-3.88) \div (.4-.2)=2.5 \text{ meters/sec}</me> See how we put parentheses around both the top and bottom of the fraction? We needed them to force the calculator to do the subtractions first and division second. The usual order of operations would do it the other way around: multiplication and division before addition and subtraction. (If you need a reminder, the full list of the order of operations appears later, in Section 1.5.) Because the top and bottom of the fraction each have meaning in the story, we continue to calculate them separately, but feel free to do the whole calculation at once if you prefer.
+		Let's take a look at this calculation again. Here's what we did. <me>\text{speed} =  \frac{4.38-3.88 \text{ meters}}{0.4-0.2 \text{ seconds}} = \frac{0.50 \text{ meters}}{0.2 \text{ seconds}} = 0.50 \div 0.2 = 2.5 \text{ meters/sec}</me> There is a way to do the entire calculation at once on your calculator. <me>(4.38-3.88) \div (0.4-0.2)=2.5 \text{ meters/sec}</me> See how we put parentheses around both the top and bottom of the fraction? We needed them to force the calculator to do the subtractions first and division second. The usual order of operations would do it the other way around: multiplication and division before addition and subtraction. (If you need a reminder, the full list of the order of operations appears later, in Section 1.5.) Because the top and bottom of the fraction each have meaning in the story, we continue to calculate them separately, but feel free to do the whole calculation at once if you prefer.
 	</p>
 
 	<p>
@@ -77,11 +77,11 @@
 	</p>
 
 	<p>
-		Back to our diver. During the next time interval she's moving even slower. <me>\text{speed} = \frac{4.48-4.38 \text{ meters}}{.6-.4 \text{ seconds}}= \frac{.1 \text{ meters}}{.2 \text{ seconds}} = .1 \div .2 = .5 \text{ meters/sec.}</me> And look what happens when we calculate her speed during the next time interval. <me>\text{speed} = \frac{4.20-4.48 \text{ meters}}{.8-.6 \text{ seconds}} =  \frac{-.28 \text{ meters}}{.2 \text{ seconds}} = \text{(-)}.28 \div .2 = -1.4 \text{ meters/sec}</me> What does a negative speed mean? During this time interval her height drops. She's headed down towards the water. Her speed is 1.4 meters/sec downward. The negative tells us her height is falling. What goes up, must come down. Sure enough.
+		Back to our diver. During the next time interval she's moving even slower. <me>\text{speed} = \frac{4.48-4.38 \text{ meters}}{0.6-0.4 \text{ seconds}}= \frac{0.1 \text{ meters}}{0.2 \text{ seconds}} = 0.1 \div 0.2 = 0.5 \text{ meters/sec.}</me> And look what happens when we calculate her speed during the next time interval. <me>\text{speed} = \frac{4.20-4.48 \text{ meters}}{0.8-0.6 \text{ seconds}} =  \frac{-0.28 \text{ meters}}{0.2 \text{ seconds}} = \text{(-)}0.28 \div 0.2 = -1.4 \text{ meters/sec}</me> What does a negative speed mean? During this time interval her height drops. She's headed down towards the water. Her speed is 1.4 meters/sec downward. The negative tells us her height is falling. What goes up, must come down. Sure enough.
 	</p>
 
 	<p>
-		You may notice that the signs for subtraction and negation each look like <m>-</m>. On the calculator these are two different keys. The subtraction key reads just <m>-</m>. The negation key often reads and is done before the number. This does not mean you type in parentheses, just hit the one key that is labeled already. (If your calculator does not have a key labeled (-), look for a key labeled <m>\text{+/-}</m> instead. That is not three keys, just one labeled <m>\text{+/-}</m> Often that key needs to follow the number, so enter <me>.28\text{ +/- } \div .2 =</me> You should get -1.4 meters/sec again.)
+		You may notice that the signs for subtraction and negation each look like <m>-</m>. On the calculator these are two different keys. The subtraction key reads just <m>-</m>. The negation key often reads and is done before the number. This does not mean you type in parentheses, just hit the one key that is labeled already. (If your calculator does not have a key labeled (-), look for a key labeled <m>\text{+/-}</m> instead. That is not three keys, just one labeled <m>\text{+/-}</m> Often that key needs to follow the number, so enter <me>0.28\text{ +/- } \div 0.2 =</me> You should get -1.4 meters/sec again.)
 	</p>
 
 	<p>
@@ -93,10 +93,10 @@
 		<row left="minor" class="odd">
 			<cell right="minor" halign="center"><m>T</m></cell>
 			<cell right="minor" halign="center">0</cell>
-			<cell right="minor" halign="center">.2</cell>
-			<cell right="minor" halign="center">.4</cell>
-			<cell right="minor" halign="center">.6</cell>
-			<cell right="minor" halign="center">.8</cell>
+			<cell right="minor" halign="center">0.2</cell>
+			<cell right="minor" halign="center">0.4</cell>
+			<cell right="minor" halign="center">0.6</cell>
+			<cell right="minor" halign="center">0.8</cell>
 			<cell right="minor" halign="center">1.0</cell>
 			<cell right="minor" halign="center">1.2</cell>
 			<cell right="minor" halign="center">1.4</cell>
@@ -117,7 +117,7 @@
 			<cell right="minor" halign="center"></cell>
 			<cell right="minor" halign="center"><m>\to</m> 4.4</cell>
 			<cell right="minor" halign="center"><m>\to</m> 2.5</cell>
-			<cell right="minor" halign="center"><m>\to</m> .5</cell>
+			<cell right="minor" halign="center"><m>\to</m> 0.5</cell>
 			<cell right="minor" halign="center"><m>\to</m> -1.4</cell>
 			<cell right="minor" halign="center"><m>\to</m> -3.4</cell>
 			<cell right="minor" halign="center"><m>\to</m> -5.35</cell>
@@ -147,16 +147,10 @@
 	</p>
 
 	<p>
-		A little more vocabulary here. For the uphill portion of the graph, from 0 to just before .6 seconds, the rate of change is positive. The function is <term>increasing</term> there: as the independent variable gets larger, so does the dependent variable. After about .6 seconds, the graph is downhill and the rate of change is negative. The function is <term>decreasing</term> there: as the independent variable gets larger, the dependent variable gets smaller.
+		A little more vocabulary here. For the uphill portion of the graph, from 0 to just before 0.6 seconds, the rate of change is positive. The function is <term>increasing</term> there: as the independent variable gets larger, so does the dependent variable. After about 0.6 seconds, the graph is downhill and the rate of change is negative. The function is <term>decreasing</term> there: as the independent variable gets larger, the dependent variable gets smaller.
 	</p>
 
 	<p>
-		When does the diver's height stop increasing and start decreasing? When she's at the highest height, some time just before .6 seconds into her dive. Before then her rate of change is positive. After that time her rate of change is negative. So, at the highest height her rate of change is probably equal to zero. Does that make sense? Think about watching a diver on film in very slow motion. Up, up she goes, then almost a pause at the top, and then down, down, into the water. At the top of her dive it's as if she stands still for an instant. That would correspond to zero speed.
+		When does the diver's height stop increasing and start decreasing? When she's at the highest height, some time just before 0.6 seconds into her dive. Before then her rate of change is positive. After that time her rate of change is negative. So, at the highest height her rate of change is probably equal to zero. Does that make sense? Think about watching a diver on film in very slow motion. Up, up she goes, then almost a pause at the top, and then down, down, into the water. At the top of her dive it's as if she stands still for an instant. That would correspond to zero speed.
 	</p>
-
-
-	<p>
-		(1,0)300
-	</p>
-
 </section>

@@ -13,10 +13,10 @@
 		</p>
 
 		<p>
-			The most direct way to calculate Cole’s balance would be step-by-step.
+			The most direct way to calculate Cole's balance would be step-by-step.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="left"><m>529.16-200 = \underline{329.16}</m></cell>
@@ -33,17 +33,17 @@
 			<row left="minor" class="odd">
 				<cell right="minor" halign="left"><m>384.51+618.25=\underline{1002.76}</m></cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
-			The underlined numbers are what the calculator will show. Cole doesn’t type those numbers.
+			The underlined numbers are what the calculator will show. Cole doesn't type those numbers.
 		</p>
 
 		<p>
 			We can avoid typing in answers (which can lead to errors) by continuing one big calculation instead.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="left"><m>529.16-200 =\underline{329.16}</m></cell>
@@ -60,7 +60,7 @@
 			<row left="minor" class="odd">
 				<cell right="minor" halign="left"><m>+618.25=\underline{1002.76}</m></cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
 			Cole found an even quicker way to check the balance. He did not hit <m>=</m> until the very end of the calculation. He just did the calculation all in one line. <me>529.16 - 200 + 42.78 + 30 - 17.43 + 618.25 = \$1002.76</me>
@@ -71,7 +71,7 @@
 		</p>
 
 		<p>
-			By the way, the word <term>priority</term> means of higher importance and, therefore, coming before. For example, doing your math homework should be a higher priority than watching random videos online. But getting a good night’s sleep should be a higher priority than studying for a test. (You’ll have to trust me on that one.)
+			By the way, the word <term>priority</term> means of higher importance and, therefore, coming before. For example, doing your math homework should be a higher priority than watching random videos online. But getting a good night's sleep should be a higher priority than studying for a test. (You'll have to trust me on that one.)
 		</p>
 
 		<p>
@@ -83,7 +83,7 @@
 		</p>
 
 		<p>
-			Inspired by Cole’s one-line calculation, let’s do this calculation all in one line. One option is <me>18 \times 2 + 5=</me> Notice we are only hitting the <m>=</m> key at the end. We get 41 feet, again.
+			Inspired by Cole's one-line calculation, let's do this calculation all in one line. One option is <me>18 \times 2 + 5=</me> Notice we are only hitting the <m>=</m> key at the end. We get 41 feet, again.
 		</p>
 
 		<p>
@@ -94,7 +94,7 @@
 			Something strange is happening. Either the calculator is reading your mind (probably not possible yet, but Artificial Intelligence is making great progress), or the calculator has a secret order of operations. The calculator is not just working from left to right because that would be
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="left"><m>5+18=\underline{23}</m></cell>
@@ -102,14 +102,14 @@
 			<row left="minor" class="even">
 				<cell right="minor" halign="left"><m>\times 2=\underline{46}</m> Oops!</cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
 			That is not what the calculator did. The calculator first did the multiplication (<m>18 \times 2 = 36</m>) and then did the addition (<m>5+36=41</m>). It turns out that multiplication (<m>\times</m>) is higher priority than addition (<m>+</m>) and subtraction (<m>-</m>) in the order of operations.
 		</p>
 
 		<p>
-			You will need to know the full order of operations so that you know when the calculator is doing what you want. Here’s the full list of the <term>order of operations</term>, the priority ranking for arithmetic operations.
+			You will need to know the full order of operations so that you know when the calculator is doing what you want. Here's the full list of the <term>order of operations</term>, the priority ranking for arithmetic operations.
 		</p>
 
 		<p>
@@ -121,10 +121,10 @@
 		</p>
 
 		<p>
-			According to the order of operations, the calculator did the exponent (<m>\land</m>) first and then the division (<m>\div</m>) second. Let’s check it out:
+			According to the order of operations, the calculator did the exponent (<m>\land</m>) first and then the division (<m>\div</m>) second. Let's check it out:
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="left"><m>1.93 \land 2 =\underline{3.7249}</m></cell>
@@ -132,18 +132,18 @@
 			<row left="minor" class="even">
 				<cell right="minor" halign="left"><m>91.625 \div 3.7249=\underline{24.7479...}</m></cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
-			That’s correct because exponents (<m>\land</m>) are higher priority in the order of operations than the other arithmetic operations (<m>\times, \div, +, -</m>).
+			That's correct because exponents (<m>\land</m>) are higher priority in the order of operations than the other arithmetic operations (<m>\times, \div, +, -</m>).
 		</p>
 
 		<p>
-			Remember that <m>1.93 \land 2</m> is short for <m>1.93\times 1.93</m>. Don’t believe me? Try both on your calculator to see. Your calculator may have a key marked <m>\land</m> or it might be marked <m>y^x</m>. We will come back to exponents in more depth later.
+			Remember that <m>1.93 \land 2</m> is short for <m>1.93\times 1.93</m>. Don't believe me? Try both on your calculator to see. Your calculator may have a key marked <m>\land</m> or it might be marked <m>y^x</m>. We will come back to exponents in more depth later.
 		</p>
 
 		<p>
-			What can we do if we want the calculator to work in a different order? For example, suppose in the Asian student association that there are 3 students Chinese students, 15 Hmong students, 11 Vietnamese students, and 5 students who do not identify with any of these ethnicities. We’d like to report the percentage of students in the group who are Hmong.
+			What can we do if we want the calculator to work in a different order? For example, suppose in the Asian student association that there are 3 students Chinese students, 15 Hmong students, 11 Vietnamese students, and 5 students who do not identify with any of these ethnicities. We'd like to report the percentage of students in the group who are Hmong.
 		</p>
 
 		<p>
@@ -155,17 +155,17 @@
 		</p>
 
 		<p>
-			We wanted the calculator to do the addition (<m>+</m>) first. That’s not the order of operations the calculator will use. What can we do to fix that? Parentheses to the rescue! Parentheses have the highest priority in the order of operations, meaning the calculator will evaluate inside the parentheses before doing any other operations. So we can do this calculation all in one line by using parentheses as <me>15 \div (3 + 15 + 11 + 5) \times 100= 44.11... \text{ Whew!}</me>
+			We wanted the calculator to do the addition (<m>+</m>) first. That's not the order of operations the calculator will use. What can we do to fix that? Parentheses to the rescue! Parentheses have the highest priority in the order of operations, meaning the calculator will evaluate inside the parentheses before doing any other operations. So we can do this calculation all in one line by using parentheses as <me>15 \div (3 + 15 + 11 + 5) \times 100= 44.11... \text{ Whew!}</me>
 		</p>
 
 		<p>
 			As you work through the exercises, challenge yourself to find one-line calculations to use. You are always welcome to do the slower step-by-step method to check.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<p>
 			(1,0)300
-		</p><!--</div attr= class="center">-->
+		</p>
 
 	</section>
 
@@ -219,7 +219,7 @@
 
 			<li>
 					<p>
-						<term>If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</term>
+						<term>If you're not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</term>
 					</p>
 			</li>
 
@@ -230,7 +230,7 @@
 			<title>Exercises</title>
 
 			<p>
-				On each problem, write down what you enter into your calculator and don’t forget to write the units on your final answer. Challenge yourself to use one-line calculations. You are welcome to calculate the answer step-by-step to check.
+				On each problem, write down what you enter into your calculator and don't forget to write the units on your final answer. Challenge yourself to use one-line calculations. You are welcome to calculate the answer step-by-step to check.
 			</p>
 
 			<p><ol>
@@ -242,13 +242,13 @@
 
 				<li>
 							<p>
-								Patience has been saving for a trip. She started her savings account with a deposit of $300. For the past 18 months she’s been adding $250 per month. Unfortunately she needed to withdraw $1,080 for an unexpected car repair. She has earned a total of $43 interest. How much is in Patience’s account now?
+								Patience has been saving for a trip. She started her savings account with a deposit of $300. For the past 18 months she's been adding $250 per month. Unfortunately she needed to withdraw $1,080 for an unexpected car repair. She has earned a total of $43 interest. How much is in Patience's account now?
 							</p>
 				</li>
 
 				<li>
 							<p>
-								Mike Powell has held the men’s long jump record since 1991. He jumped an amazing 29 feet, 4<m>\frac{1}{4}</m> inches. We would like to write this length as a decimal number of feet.
+								Mike Powell has held the men's long jump record since 1991. He jumped an amazing 29 feet, 4<m>\frac{1}{4}</m> inches. We would like to write this length as a decimal number of feet.
 							</p>
 				
 							<p><ol>
@@ -278,7 +278,7 @@
 				
 								<li>
 											<p>
-												Add one set of parentheses to correct Valentina’s work.
+												Add one set of parentheses to correct Valentina's work.
 											</p>
 								</li>
 				
@@ -317,7 +317,7 @@
 				
 								<li>
 											<p>
-												Add one set of parentheses to correct Cadde’s work.
+												Add one set of parentheses to correct Cadde's work.
 											</p>
 								</li>
 				
@@ -327,13 +327,13 @@
 			</ol></p>
 
 			<p>
-				<term>When you’re done …</term>
+				<term>When you're done …</term>
 			</p>
 
 			<p><ul>
 				<li>
 							<p>
-								Don’t forget to check your answers with those in the back of the textbook.
+								Don't forget to check your answers with those in the back of the textbook.
 							</p>
 				</li>
 
@@ -345,13 +345,13 @@
 
 				<li>
 							<p>
-								Getting the wrong answers or stuck on a problem? Re-read the section and try the problem again. If you’re still stuck, work with a classmate or go to your instructor’s office hours.
+								Getting the wrong answers or stuck on a problem? Re-read the section and try the problem again. If you're still stuck, work with a classmate or go to your instructor's office hours.
 							</p>
 				</li>
 
 				<li>
 							<p>
-								It’s normal to find some parts of some problems difficult, but if all the problems are giving you grief, be sure to talk with your instructor or advisor about it. They might be able to suggest strategies or support services that can help you succeed.
+								It's normal to find some parts of some problems difficult, but if all the problems are giving you grief, be sure to talk with your instructor or advisor about it. They might be able to suggest strategies or support services that can help you succeed.
 							</p>
 				</li>
 

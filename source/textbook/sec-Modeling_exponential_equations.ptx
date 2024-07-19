@@ -21,14 +21,14 @@
 		</p>
 
 		<p>
-			Over the years, the sterling has increased in value, let’s say by around 3% per year. In 1957, my grandmother handed it down to my mother as a wedding present. In 1990, I married and my mother handed the sterling down to me. What was it was it worth at those times, and how much should it be insured for through 2015?
+			Over the years, the sterling has increased in value, let's say by around 3% per year. In 1957, my grandmother handed it down to my mother as a wedding present. In 1990, I married and my mother handed the sterling down to me. What was it was it worth at those times, and how much should it be insured for through 2015?
 		</p>
 
 		<p>
-			Let’s write the equation to answer these questions. The variables should be
+			Let's write the equation to answer these questions. The variables should be
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="left"><m>S=</m> value of sterling ($) <m>\sim</m> dep</cell>
@@ -36,10 +36,10 @@
 			<row left="minor" class="even">
 				<cell right="minor" halign="left"><m>Y =</m> time (years since 1920) <m>\sim</m> indep</cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
-			We’re saying that the sterling increased 3% per year in value. For example, in 1921, the sterling was worth <me>\$800 + 3\% \text{ of } \$800 = 800 + .03 \times 800 = 800 + 24= \$824</me> Remember the shortcut here? <me>800 \times 1.03 = 824</me> The idea is after one year we have the original $800 plus 3% more for a grand total of 103% of what we had before. And 103% = 1.03.
+			We're saying that the sterling increased 3% per year in value. For example, in 1921, the sterling was worth <me>\$800 + 3\% \text{ of } \$800 = 800 + 0.03 \times 800 = 800 + 24= \$824</me> Remember the shortcut here? <me>800 \times 1.03 = 824</me> The idea is after one year we have the original $800 plus 3% more for a grand total of 103% of what we had before. And 103% = 1.03.
 		</p>
 
 		<p>
@@ -51,18 +51,18 @@
 		</p>
 
 		<p>
-			Quick recap. A function is <term>exponential</term> if it corresponds to a fixed percent increase (or decrease). The percent increase is the <term>growth rate</term>; in our example, the growth rate is <m>r=3\%=.03</m>. The number we multiply by is the <term>growth factor</term> and it is also the base of the power in the equation; in our example, the growth factor is <m>g =  1.03</m>. The <alert>Percent Change Formula</alert> from Section 2.2 reminds us that <me>g=1 + r = 1+.03 =1.03</me>
+			Quick recap. A function is <term>exponential</term> if it corresponds to a fixed percent increase (or decrease). The percent increase is the <term>growth rate</term>; in our example, the growth rate is <m>r=3\%=0.03</m>. The number we multiply by is the <term>growth factor</term> and it is also the base of the power in the equation; in our example, the growth factor is <m>g =  1.03</m>. The <alert>Percent Change Formula</alert> from Section 2.2 reminds us that <me>g=1 + r = 1+0.03 =1.03</me>
 		</p>
 
 		<p>
-			Let’s answer those questions. In 1957, we had <m>Y = 1957 - 1920 = 37</m> years and so <me>S = 800\ast1.03^{37} = 800 \times 1.03 \wedge \underline{37}= 2388.18134\ldots \approx \$\text{2,388}</me> By 1990, we had <m>Y = 1990 - 1920 = 70</m> years and so <me>S = 800\ast1.03^{70} = 800 \times 1.03 \wedge \underline{70}= 6334.2575\ldots \approx \$\text{6,334}</me> By 2015, we have <m>Y = 2015 - 1920 = 95</m> years and so <me>S = 800\ast1.03^{95} = 800 \times 1.03 \wedge \underline{95}= 13262.5286\ldots \approx \$\text{13,262}</me>
+			Let's answer those questions. In 1957, we had <m>Y = 1957 - 1920 = 37</m> years and so <me>S = 800\ast1.03^{37} = 800 \times 1.03 \wedge \underline{37}= 2388.18134\ldots \approx \$\text{2,388}</me> By 1990, we had <m>Y = 1990 - 1920 = 70</m> years and so <me>S = 800\ast1.03^{70} = 800 \times 1.03 \wedge \underline{70}= 6334.2575\ldots \approx \$\text{6,334}</me> By 2015, we have <m>Y = 2015 - 1920 = 95</m> years and so <me>S = 800\ast1.03^{95} = 800 \times 1.03 \wedge \underline{95}= 13262.5286\ldots \approx \$\text{13,262}</me>
 		</p>
 
 		<p>
-			Let’s summarize this information in a table and draw a graph.
+			Let's summarize this information in a table and draw a graph.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="center">year</cell>
@@ -91,12 +91,12 @@
 				<cell right="minor" halign="center"></cell>
 				<cell right="minor" halign="center"></cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
-<!-- div attr= class="center"-->
+
 		<p>
 			<image source='grandmasterling.png'/>
-		</p><!--</div attr= class="center">-->
+		</p>
 
 		<p>
 			Actually, the insurance policy allows for up to $. The curve we drew suggests that the value will be $ just past <m>Y=100</m> (the year 2020), probably somewhere around <m>Y=110</m> (the year 2030).
@@ -106,7 +106,7 @@
 			We can use successive approximation to improve our answer.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="center">year</cell>
@@ -136,7 +136,7 @@
 				<cell right="minor" halign="center">high</cell>
 				<cell right="minor" halign="center">low</cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
 			Seems to around the year 2029, where <m>Y=109</m>, as we had guessed.
@@ -151,13 +151,13 @@
 		</p>
 
 		<p>
-			Were we supposed to get different numbers here? Well, the graph’s not a line and it’s not a linear equation. That tells us the rate of change isn’t going to be constant. So, sure, different numbers are fine. Does it make sense that the rate of change would itself increase? That the value increases at an increasing rate? Yes. Although we are always just adding on 3%, we’re taking 3% of larger numbers each year. So more is added each year.
+			Were we supposed to get different numbers here? Well, the graph's not a line and it's not a linear equation. That tells us the rate of change isn't going to be constant. So, sure, different numbers are fine. Does it make sense that the rate of change would itself increase? That the value increases at an increasing rate? Yes. Although we are always just adding on 3%, we're taking 3% of larger numbers each year. So more is added each year.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<p>
 			(1,0)300
-		</p><!--</div attr= class="center">-->
+		</p>
 
 	</section>
 
@@ -261,7 +261,7 @@
 
 				<li>
 							<p>
-								Mrs. Nystrom’s Social Security benefit was $746.17/month when she retired from teaching in 2009. She had taught in elementary school since I was a girl. Benefits have increased by 4% per year. <em>Story also appears in 1.1 and 1.2 Exercises</em>
+								Mrs. Nystrom's Social Security benefit was $746.17/month when she retired from teaching in 2009. She had taught in elementary school since I was a girl. Benefits have increased by 4% per year. <em>Story also appears in 1.1 and 1.2 Exercises</em>
 							</p>
 				
 							<p><ol>
@@ -327,13 +327,13 @@
 
 				<li>
 							<p>
-								In 2006 there were about 5.2 million people living in the state of Minnesota. Predicted growth rates vary, perhaps around .5% per year.
+								In 2006 there were about 5.2 million people living in the state of Minnesota. Predicted growth rates vary, perhaps around 0.5% per year.
 							</p>
 				
 							<p><ol>
 								<li>
 											<p>
-												What is the annual growth factor? Careful, the growth rate is .5%
+												What is the annual growth factor? Careful, the growth rate is 0.5%
 											</p>
 								</li>
 				
@@ -345,7 +345,7 @@
 				
 								<li>
 											<p>
-												Write an equation showing how Minnesota’s population is a function of the year. Don’t forget to name the variables.
+												Write an equation showing how Minnesota's population is a function of the year. Don't forget to name the variables.
 											</p>
 								</li>
 				
@@ -363,7 +363,7 @@
 				
 								<li>
 											<p>
-												Set up and solve an equation to determine when Minnesota’s population is expected to be double the population from 2006.
+												Set up and solve an equation to determine when Minnesota's population is expected to be double the population from 2006.
 											</p>
 								</li>
 				
@@ -372,13 +372,13 @@
 
 				<li>
 							<p>
-								Um Archivo data consultant group reported earnings of $42.7 billion in 2012. At that time executives projected 17% increase in earnings annually. Based on that information, we wrote the equation <me>U = 42.7 \ast 1.17^Y</me> where <m>U</m> is Um Archivo’s reported earnings (in $billions) and <m>Y</m> is the years since 2012. <em>Story also appears in 2.2 Exercises</em>
+								Um Archivo data consultant group reported earnings of $42.7 billion in 2012. At that time executives projected 17% increase in earnings annually. Based on that information, we wrote the equation <me>U = 42.7 \ast 1.17^Y</me> where <m>U</m> is Um Archivo's reported earnings (in $billions) and <m>Y</m> is the years since 2012. <em>Story also appears in 2.2 Exercises</em>
 							</p>
 				
 							<p><ol>
 								<li>
 											<p>
-												According to your equation, in what year would Um Archivo’s reported earnings pass $60 billion? Set up and solve an equation. Then check your answer.
+												According to your equation, in what year would Um Archivo's reported earnings pass $60 billion? Set up and solve an equation. Then check your answer.
 											</p>
 								</li>
 				

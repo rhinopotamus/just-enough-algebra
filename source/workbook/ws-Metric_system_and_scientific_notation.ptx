@@ -64,7 +64,7 @@
 	<exercise xml:id="dust-particle-scientific-notation" workspace="1.5cm">
 		<introduction>
 			<p>
-				Edgar recently changed the cleaning bag on his vacuum cleaner. He became curious about how many particles of dust were in the bag. Edgar did a little research online and found out that the mass of a dust particle is .000 000 000 753 kilograms. 
+				Edgar recently changed the cleaning bag on his vacuum cleaner. He became curious about how many particles of dust were in the bag. Edgar did a little research online and found out that the mass of a dust particle is 0.000 000 000 753 kilograms. 
 				<em>(Story also appears in <xref ref="dust-particle-prelude-scientific-notation" />)</em>
 			</p>
 			<line>
@@ -98,7 +98,7 @@
 					<cell halign="center"><m>=</m></cell>
 					<cell halign="left">1 in a thousand</cell>
 					<cell halign="center"><m>=</m></cell>
-					<cell halign="left">.001</cell>
+					<cell halign="left">0.001</cell>
 					<cell halign="center"><m>=</m></cell>
 					<cell halign="left"><m>10^{-3}</m></cell>
 				</row>
@@ -107,7 +107,7 @@
 					<cell halign="center"><m>=</m></cell>
 					<cell halign="left">1 in a million</cell>
 					<cell halign="center"><m>=</m></cell>
-					<cell halign="left">.000001</cell>
+					<cell halign="left">0.000001</cell>
 					<cell halign="center"><m>=</m></cell>
 					<cell halign="left"><m>10^{-6}</m></cell>
 				</row>
@@ -116,7 +116,7 @@
 					<cell halign="center"><m>=</m></cell>
 					<cell halign="left">1 in a billion</cell>
 					<cell halign="center"><m>=</m></cell>
-					<cell halign="left">.000 000 001</cell>
+					<cell halign="left">0.000 000 001</cell>
 					<cell halign="center"><m>=</m></cell>
 					<cell halign="left"><m>10^{-9}</m></cell>
 				</row>
@@ -247,7 +247,7 @@
 				<cell halign="center"><m>=</m></cell>
 				<cell halign="left">1 in a thousand</cell>
 				<cell halign="center"><m>=</m></cell>
-				<cell halign="left">.001</cell>
+				<cell halign="left">0.001</cell>
 				<cell halign="center"><m>=</m></cell>
 				<cell halign="left"><m>10^{-3}</m></cell>
 			</row>
@@ -256,7 +256,7 @@
 				<cell halign="center"><m>=</m></cell>
 				<cell halign="left">1 in a million</cell>
 				<cell halign="center"><m>=</m></cell>
-				<cell halign="left">.000001</cell>
+				<cell halign="left">0.000001</cell>
 				<cell halign="center"><m>=</m></cell>
 				<cell halign="left"><m>10^{-6}</m></cell>
 			</row>

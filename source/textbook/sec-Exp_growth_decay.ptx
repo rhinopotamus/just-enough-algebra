@@ -13,7 +13,7 @@
 		<title>Exponential growth and decay</title>
 
 		<p>
-			It is 2:00 a.m. and Joe is up studying. The dorm has quieted down, but Joe’s feeling mighty jittery. He drank 5 large mugs of coffee in the past few hours and all that caffeine is peaking in his system now. At around 200 mg per mug, Joe wonders when his caffeine levels will drop down to where he can sleep a little.
+			It is 2:00 a.m. and Joe is up studying. The dorm has quieted down, but Joe's feeling mighty jittery. He drank 5 large mugs of coffee in the past few hours and all that caffeine is peaking in his system now. At around 200 mg per mug, Joe wonders when his caffeine levels will drop down to where he can sleep a little.
 		</p>
 
 		<p>
@@ -21,48 +21,48 @@
 		</p>
 
 		<p>
-			At this point Joe is stuck so let’s help him. Let’s say that at 2:00 a.m. he has mg of caffeine in his blood. Joe searches online and discovers that 13% of the caffeine should leave his body each hour and below 300 mg he should be fine. When will that happen?
+			At this point Joe is stuck so let's help him. Let's say that at 2:00 a.m. he has mg of caffeine in his blood. Joe searches online and discovers that 13% of the caffeine should leave his body each hour and below 300 mg he should be fine. When will that happen?
 		</p>
 
 		<p>
-			We know how percent increase works, but here the caffiene is leaving his body according to a percent decrease. I guess we need to figure it out one step at a time. After one hour (by 3:00 a.m.), Joe will have <me>\text{1,000} \text{ mg} - 13 \% \text{ of }  \text{1,000} \text{ mg} =  \text{1,000}- .13 \times  \text{1,000} =  \text{1,000} - 130 = 870 \text{ mg}</me> By 4:00 a.m. (after 2 hours), Joe will have <me>870 \text{ mg} - 13 \% \text{ of } 870 \text{ mg} = 870 - .13 \times 870 = 870 - 113.1 =  756.9 \text{ mg}</me>
+			We know how percent increase works, but here the caffiene is leaving his body according to a percent decrease. I guess we need to figure it out one step at a time. After one hour (by 3:00 a.m.), Joe will have <me>\text{1,000} \text{ mg} - 13 \% \text{ of }  \text{1,000} \text{ mg} =  \text{1,000}- 0.13 \times  \text{1,000} =  \text{1,000} - 130 = 870 \text{ mg}</me> By 4:00 a.m. (after 2 hours), Joe will have <me>870 \text{ mg} - 13 \% \text{ of } 870 \text{ mg} = 870 - 0.13 \times 870 = 870 - 113.1 =  756.9 \text{ mg}</me>
 		</p>
 
 		<p>
-			Wait a minute. When we calculated 13% decrease on mg we got 870 mg. That’s 87% of . Yeah, that’s right, take off 13% and you should be left with 87% of what you started with because <m>100\% - 13\% = 87\%</m>. So we could have calculated <me>.87 \times \text{1,000} = 870 \text{ mg}</me> and then <me>.87 \times 870 = 756.9 \text{ mg}</me> Aha, to find the amount after a 13% decrease we just multiply by .87.
+			Wait a minute. When we calculated 13% decrease on mg we got 870 mg. That's 87% of . Yeah, that's right, take off 13% and you should be left with 87% of what you started with because <m>100\% - 13\% = 87\%</m>. So we could have calculated <me>0.87 \times \text{1,000} = 870 \text{ mg}</me> and then <me>0.87 \times 870 = 756.9 \text{ mg}</me> Aha, to find the amount after a 13% decrease we just multiply by 0.87.
 		</p>
 
 		<p>
-			Still nowhere near 300 mg so fast-forward. For example, after 5 hours (at 7:00 a.m.), we need to multiply by .87 five times <me>1000 \ast .87 \ast .87 \ast .87 \ast .87 \ast .87=  \text{1,000} \ast .87^5</me> where we use a power to abbreviate repeatedly multiplying. So <me>1000 \ast .87^5 =  \text{1,000} \times .87 \wedge 5 = 498.420920\ldots \approx 498.4 \text{ mg}</me>
+			Still nowhere near 300 mg so fast-forward. For example, after 5 hours (at 7:00 a.m.), we need to multiply by 0.87 five times <me>1000 \ast 0.87 \ast 0.87 \ast 0.87 \ast 0.87 \ast 0.87=  \text{1,000} \ast 0.87^5</me> where we use a power to abbreviate repeatedly multiplying. So <me>1000 \ast 0.87^5 =  \text{1,000} \times 0.87 \wedge 5 = 498.420920\ldots \approx 498.4 \text{ mg}</me>
 		</p>
 
 		<p>
-			The bad news is that it’s 7:00 a.m. and Joe is still too jittery to sleep. The good news is that we can write the equation. The variables are
+			The bad news is that it's 7:00 a.m. and Joe is still too jittery to sleep. The good news is that we can write the equation. The variables are
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
-				<cell right="minor" halign="left"><m>J=</m> Joe’s caffeine level (mg) <m>\sim</m> dep</cell>
+				<cell right="minor" halign="left"><m>J=</m> Joe's caffeine level (mg) <m>\sim</m> dep</cell>
 			</row>
 			<row left="minor" class="even">
 				<cell right="minor" halign="left"><m>H =</m> time (hours since 2:00 a.m.) <m>\sim</m> indep</cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
-			Our equation must be <me>J = \text{1,000} \ast.87^H</me> Notice this equation fits our template for an exponential equation. <me>\text{dep }=\text{ start } \ast \text{growth factor}^{\text{indep}}</me>
+			Our equation must be <me>J = \text{1,000} \ast0.87^H</me> Notice this equation fits our template for an exponential equation. <me>\text{dep }=\text{ start } \ast \text{growth factor}^{\text{indep}}</me>
 		</p>
 
 		<p>
-			A little terminology here. When a function is exponential but decreasing, it’s called <term>exponential decay</term>. It sounds a little odd to say <q>growth factor</q> if the quantity is getting smaller so we sometimes say <term>decay factor</term> instead. We know from the <alert>Percent Change Formula</alert> that the growth factor (<m>g</m>) can be found from the growth rate (r) by the formula <m>g=1+r</m>. If we think of 13% decrease as negative growth rate, <m>r=-13\%=-.13</m>, then the formula still works to find the decay factor (<m>g</m>) <me>g= 1 + r = 1 + -.13 = 1-.13 = .87</me>
+			A little terminology here. When a function is exponential but decreasing, it's called <term>exponential decay</term>. It sounds a little odd to say <q>growth factor</q> if the quantity is getting smaller so we sometimes say <term>decay factor</term> instead. We know from the <alert>Percent Change Formula</alert> that the growth factor (<m>g</m>) can be found from the growth rate (r) by the formula <m>g=1+r</m>. If we think of 13% decrease as negative growth rate, <m>r=-13\%=-0.13</m>, then the formula still works to find the decay factor (<m>g</m>) <me>g= 1 + r = 1 + -0.13 = 1-0.13 = 0.17</me>
 		</p>
 
 		<p>
-			Back to jittery Joe. Let’s summarize what we’ve found and add a few more times to see when Joe’s caffeine level should fall below 300 mg.
+			Back to jittery Joe. Let's summarize what we've found and add a few more times to see when Joe's caffeine level should fall below 300 mg.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="center">time</cell>
@@ -116,50 +116,50 @@
 				<cell right="minor" halign="center">high</cell>
 				<cell right="minor" halign="center">low</cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
 			That means Joe should be able to fall asleep by around 11:00 a.m. Exactly when his exam starts. Sorry, Joe.
 		</p>
 
 		<p>
-			We could have solved the equation instead. We were looking for <m>J = 300</m>. Using our equation <m>J = \text{1,000} \ast .87^H</m> we get <me>\text{1,000} \ast .87^H=300</me> Divide each side to get <me>\frac{\cancel{\text{1,000}} \ast .87^H}{\cancel{\text{1,000}}}= \frac{300}{\text{1,000}}</me> which simplifies to <me>.87^H = \frac{300}{\text{1,000}} = 300 \div \text{1,000} = .3</me>
+			We could have solved the equation instead. We were looking for <m>J = 300</m>. Using our equation <m>J = \text{1,000} \ast 0.87^H</m> we get <me>\text{1,000} \ast 0.87^H=300</me> Divide each side to get <me>\frac{\cancel{\text{1,000}} \ast 0.87^H}{\cancel{\text{1,000}}}= \frac{300}{\text{1,000}}</me> which simplifies to <me>0.87^H = \frac{300}{\text{1,000}} = 300 \div \text{1,000} = 0.8</me>
 		</p>
 
 		<p>
-			We find ourselves in the familiar situation – solving to find the exponent. Logs to the rescue. By the <alert>The Log-Divides Formula</alert> with growth factor <m>g=.87</m> and value <m>v= .3</m> we get <me>Y =  \frac{\log (v)}{\log(g)}=  \frac{\log (.3)}{\log(.87)} =  \log (.3) \div \log (.87) =  8.64537506\ldots \approx 9</me> which corresponds to 11:00 a.m. Same answer. Much quicker.
+			We find ourselves in the familiar situation - solving to find the exponent. Logs to the rescue. By the <alert>The Log-Divides Formula</alert> with growth factor <m>g=0.87</m> and value <m>v= 0.8</m> we get <me>Y =  \frac{\log (v)}{\log(g)}=  \frac{\log (0.8)}{\log(0.87)} =  \log (0.8) \div \log (0.87) =  8.64537506\ldots \approx 9</me> which corresponds to 11:00 a.m. Same answer. Much quicker.
 		</p>
 
 		<p>
-			Quick side note. We could have rounded to 8.64 hours and then converted units to get <me>.64 \text{ hours} \ast \frac{60 \text{ minutes}}{1 \text{ hour}} = .64 \times 60 = 38.4 \approx 39 \text{ minutes}</me> Counting from 2:00 a.m., we see that Joe’s caffeine levels drop below 300 mg at 10:39 a.m. Since we are approximating throughout the problem, we should round to 11:00 a.m. anyway.
+			Quick side note. We could have rounded to 8.64 hours and then converted units to get <me>0.64 \text{ hours} \ast \frac{60 \text{ minutes}}{1 \text{ hour}} = 0.64 \times 60 = 38.4 \approx 39 \text{ minutes}</me> Counting from 2:00 a.m., we see that Joe's caffeine levels drop below 300 mg at 10:39 a.m. Since we are approximating throughout the problem, we should round to 11:00 a.m. anyway.
 		</p>
 
 		<p>
-			Let’s calculate the rate of change and think about what it means. During the first hour, <me>\text{rate of change} =  \frac{\text{change dep}}{\text{change indep}} 
-= \frac{870-\text{1,000 mg}}{\text{3:00 a.m.} - \text{2:00 a.m.}} = \frac{-130 \text{ mg}}{1 \text{ hour}} = -130 \text{ mg/hour}</me> Was the rate of change supposed to be negative? Sure. Joe’s caffeine level is dropping. Any decreasing function has a negative rate of change. And, as exam time approaches, <me>\text{rate of change} =  \frac{\text{change dep}}{\text{change indep}}  = \frac{285.5-328.2 \text{ mg}}{\text{11:00 a.m.} - \text{10:00 a.m.}} = \frac{-42.7 \text{ mg}}{1 \text{ hour}} \approx -43 \text{ mg/hour}</me> Joe’s caffeine level was dropping faster at first and is not dropping as fast now.
+			Let's calculate the rate of change and think about what it means. During the first hour, <me>\text{rate of change} =  \frac{\text{change dep}}{\text{change indep}} 
+= \frac{870-\text{1,000 mg}}{\text{3:00 a.m.} - \text{2:00 a.m.}} = \frac{-130 \text{ mg}}{1 \text{ hour}} = -130 \text{ mg/hour}</me> Was the rate of change supposed to be negative? Sure. Joe's caffeine level is dropping. Any decreasing function has a negative rate of change. And, as exam time approaches, <me>\text{rate of change} =  \frac{\text{change dep}}{\text{change indep}}  = \frac{285.5-328.2 \text{ mg}}{\text{11:00 a.m.} - \text{10:00 a.m.}} = \frac{-42.7 \text{ mg}}{1 \text{ hour}} \approx -43 \text{ mg/hour}</me> Joe's caffeine level was dropping faster at first and is not dropping as fast now.
 		</p>
 
 		<p>
 			A glance at the graph confirms our findings.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<p>
 			<image source='caffeine.png'/>
-		</p><!--</div attr= class="center">-->
-
-		<p>
-			One last thing. There’s another way to describe the decrease here. When our story began Joe’s caffeine level was around mg and after 5 hours is was at 498.4 mg. That’s just about 500 mg, or half of what he started with. We say the <term>half-life</term> of caffeine is around 5 hours.
 		</p>
 
 		<p>
-			Doesn’t sound very important but check this out. Start with mg. After 5 hours, there’s 500 mg left. (Okay, approximately.) Now go another 5 hours, which means 10 hours total. Evaluate our equation <m>J = \text{1,000} \ast .87^H</m> when <m>H =10</m> to get <me>J = \text{1,000} \ast .87^{10} = \text{1,000} \ast .87 \wedge \underline{10} = 248.423414\ldots \approx 250 \text{ mg}</me> That means half of what was left is now gone. Go another 5 hours. Lose another half. Check for yourself: <me>J = \text{1,000} \ast .87^{15} = \text{1,000} \ast .87 \wedge \underline{15} = 123.819426\ldots \approx 125 \text{ mg}</me> And so on. Cool.
+			One last thing. There's another way to describe the decrease here. When our story began Joe's caffeine level was around mg and after 5 hours is was at 498.4 mg. That's just about 500 mg, or half of what he started with. We say the <term>half-life</term> of caffeine is around 5 hours.
 		</p>
 
-<!-- div attr= class="center"-->
+		<p>
+			Doesn't sound very important but check this out. Start with mg. After 5 hours, there's 500 mg left. (Okay, approximately.) Now go another 5 hours, which means 10 hours total. Evaluate our equation <m>J = \text{1,000} \ast 0.87^H</m> when <m>H =10</m> to get <me>J = \text{1,000} \ast 0.87^{10} = \text{1,000} \ast 0.87 \wedge \underline{10} = 248.423414\ldots \approx 250 \text{ mg}</me> That means half of what was left is now gone. Go another 5 hours. Lose another half. Check for yourself: <me>J = \text{1,000} \ast 0.87^{15} = \text{1,000} \ast 0.87 \wedge \underline{15} = 123.819426\ldots \approx 125 \text{ mg}</me> And so on. Cool.
+		</p>
+
+
 		<p>
 			(1,0)300
-		</p><!--</div attr= class="center">-->
+		</p>
 
 	</section>
 
@@ -207,7 +207,7 @@
 
 			<li>
 					<p>
-						<term>If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</term>
+						<term>If you're not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</term>
 					</p>
 			</li>
 
@@ -220,7 +220,7 @@
 			<p><ol>
 				<li>
 							<p>
-								Joe’s girlfriend Ceyda starts the day by downing two cans of Red Bull, containing a total of 160 mg of caffeine. Her body eliminates the caffeine at a slightly slower rate of 12% each hour.
+								Joe's girlfriend Ceyda starts the day by downing two cans of Red Bull, containing a total of 160 mg of caffeine. Her body eliminates the caffeine at a slightly slower rate of 12% each hour.
 							</p>
 				
 							<p><ol>
@@ -232,7 +232,7 @@
 				
 								<li>
 											<p>
-												What’s the half-life of caffeine for Ceyda? Set up and solve an equation.
+												What's the half-life of caffeine for Ceyda? Set up and solve an equation.
 											</p>
 								</li>
 				
@@ -310,7 +310,7 @@
 				
 								<li>
 											<p>
-												At this rate, how many years would it take for the value of Tenzin’s house to drop below $240,000? Use successive approximation to guess the year.
+												At this rate, how many years would it take for the value of Tenzin's house to drop below $240,000? Use successive approximation to guess the year.
 											</p>
 								</li>
 				
@@ -364,7 +364,7 @@
 
 				<li>
 							<p>
-								Hibbing, Minnesota is the hometown of baseball star Roger Maris, basketball great Kevin McHale, the Greyhound Bus lines, the Hull-Rust-Mahoning Open Pit Iron Mine and, perhaps most famously, the childhood home of songwriter Bob Dylan. It is not a big town. In 2000 the population was reported at residents, with an expected decrease of around .4% per year.
+								Hibbing, Minnesota is the hometown of baseball star Roger Maris, basketball great Kevin McHale, the Greyhound Bus lines, the Hull-Rust-Mahoning Open Pit Iron Mine and, perhaps most famously, the childhood home of songwriter Bob Dylan. It is not a big town. In 2000 the population was reported at residents, with an expected decrease of around 0.4% per year.
 							</p>
 				
 							<p><ol>
@@ -388,7 +388,7 @@
 				
 								<li>
 											<p>
-												The actual 2010 U.S. Census estimate of Hibbing’s population was people. Was the decrease slower or faster than expected? Was the decay rate more or less than .4%? Explain.
+												The actual 2010 U.S. Census estimate of Hibbing's population was people. Was the decrease slower or faster than expected? Was the decay rate more or less than 0.4%? Explain.
 											</p>
 								</li>
 				
@@ -403,7 +403,7 @@
 							<p><ol>
 								<li>
 											<p>
-												Name the variables, measuring time since last year. (Yes, it’s a little awkward.)
+												Name the variables, measuring time since last year. (Yes, it's a little awkward.)
 											</p>
 								</li>
 				

@@ -12,7 +12,7 @@
     <xi:include href="./frontmatter.ptx" />
 
     <!-- Textbook part -->
-     <part xml:id="textbook">
+     <part xml:id="textbook" component="textbook">
       <title>Textbook</title>
       
        <xi:include href="./textbook/ch-Variables.ptx" />
@@ -23,19 +23,28 @@
      </part>
 
     <!-- Workbook part -->
-    <part xml:id="workbook">
+    <part xml:id="workbook" component="workbook">
       <title>Workbook</title>
 
-      <!-- <xi:include href="./workbook/ch-Variables.ptx" />
+      <xi:include href="./workbook/ch-Variables.ptx" />
       <xi:include href="./workbook/ch-Equations.ptx" />
       <xi:include href="./workbook/ch-Solving_equations.ptx" />
       <xi:include href="./workbook/ch-Closer_look_linears.ptx" />
       <xi:include href="./workbook/ch-Closer_look_exponentials.ptx" />
-      <xi:include href="./workbook/ch-Review.ptx" /> -->
+      <xi:include href="./workbook/ch-Review.ptx" />
     </part>
 
-    <!-- Include backmatter -->
-    <xi:include href="./backmatter.ptx" />
+    <!-- Backmatter -->
+
+    <backmatter xml:id="backmatter">
+      <title>Appendices</title>
+    
+      <xi:include href="./workbook/ch-Prelude.ptx" component="workbook" />
+      
+      <colophon>
+        <p> This book was authored in <pretext />. </p>
+      </colophon>
+    </backmatter>
 
   </book>
 </pretext>

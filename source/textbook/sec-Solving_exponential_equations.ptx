@@ -16,7 +16,7 @@
 			Remember Jocelyn? She was asked to analyze information on rising health care costs. In 2007 the United States spent $2.26 trillion on health care and costs were projected to increase at an average of 6.7% annually for the subsequent decade. For the variables
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="left"><m>H=</m> health care costs ($ trillions) <m>\sim</m> dep</cell>
@@ -24,7 +24,7 @@
 			<row left="minor" class="even">
 				<cell right="minor" halign="left"><m>Y=</m> time (years since 2007) <m>\sim</m> indep</cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
 			she found the exponential equation <me>H = 2.26\ast 1.067^{Y}</me>
@@ -34,7 +34,7 @@
 			In what year did health care costs first pass $3 trillion? We can use successive approximation to find the answer, starting with the values she found earlier.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="center">year</cell>
@@ -68,13 +68,13 @@
 				<cell right="minor" halign="center">high</cell>
 				<cell right="minor" halign="center">high</cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
-			The answer must be between 2009 and 2017. Let’s split the difference and guess 2013. For that year, <m>Y = 2013-2007 = 6</m> and so <me>H = 2.26 \ast 1.067^6 = 2.26 \times 1.067 \wedge \underline{6} = 3.334993223 \approx \$3.33 \text{ trillion}</me> which is already over $3 trillion. What about 2011? Use <m>Y=4</m> to check that <m>H  \approx \$2.93 \text{ trillion}</m>, which is almost, but not quite there. Must be 2012 was the year. Sure enough when <m>Y=5</m> we get <m>H \approx \$3.12 \text{ trillion}</m>. That’s it. Health care costs first passed $3 trillion in 2012. Well, at least according to our equation. As usual, we summarize the numbers in a table.
+			The answer must be between 2009 and 2017. Let's split the difference and guess 2013. For that year, <m>Y = 2013-2007 = 6</m> and so <me>H = 2.26 \ast 1.067^6 = 2.26 \times 1.067 \wedge \underline{6} = 3.334993223 \approx \$3.33 \text{ trillion}</me> which is already over $3 trillion. What about 2011? Use <m>Y=4</m> to check that <m>H  \approx \$2.93 \text{ trillion}</m>, which is almost, but not quite there. Must be 2012 was the year. Sure enough when <m>Y=5</m> we get <m>H \approx \$3.12 \text{ trillion}</m>. That's it. Health care costs first passed $3 trillion in 2012. Well, at least according to our equation. As usual, we summarize the numbers in a table.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="center">year</cell>
@@ -108,18 +108,18 @@
 				<cell right="minor" halign="center">low</cell>
 				<cell right="minor" halign="center">high</cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
-			Successive approximation gives us the answer fairly quickly. But there is an even quicker way – solving the exponential equation. Start with what we’re looking for, which is <m>H= 3</m>. Use the equation <m>H=2.26\ast1.067^Y</m> to get <me>2.26\ast1.067^Y=3</me> We want to find the value of <m>Y</m>, so divide each side by 2.26 to get <me>\frac{\cancel{2.26}\ast1.067^Y}{\cancel{2.26}}= \frac{3} {2.26}</me> which simplifies to <me>1.067^Y=\frac{3}{2.26}=3 \div 2.26 = 1.327433628\ldots</me> When the dust settles we’re left with <me>1.067^Y = 1.327433628\ldots</me>
+			Successive approximation gives us the answer fairly quickly. But there is an even quicker way - solving the exponential equation. Start with what we're looking for, which is <m>H= 3</m>. Use the equation <m>H=2.26\ast1.067^Y</m> to get <me>2.26\ast1.067^Y=3</me> We want to find the value of <m>Y</m>, so divide each side by 2.26 to get <me>\frac{\cancel{2.26}\ast1.067^Y}{\cancel{2.26}}= \frac{3} {2.26}</me> which simplifies to <me>1.067^Y=\frac{3}{2.26}=3 \div 2.26 = 1.327433628\ldots</me> When the dust settles we're left with <me>1.067^Y = 1.327433628\ldots</me>
 		</p>
 
 		<p>
-			Hmm. How do we find <m>Y</m> here? We saw how to use roots to solve power equations. In our lemonade example we had <m>C^3 = 714.2857\ldots</m>. We knew the exponent (3) and wanted to find the number being raised to that power (<m>C</m>). That’s when we took the cube root to get <me>C = \sqrt[3]{714.2857\ldots} =3 \sqrt[x]{\text{\raisebox{.6em}{~\text{  }}}} 714.2857 = 8.9390\ldots \approx 8.9 \text{ inches}</me> That approach is not going to work here because it’s backwards now – we know the number being raised to a power (1.067) and are on the hunt for the exponent (<m>Y</m>) instead.
+			Hmm. How do we find <m>Y</m> here? We saw how to use roots to solve power equations. In our lemonade example we had <m>C^3 = 714.2857\ldots</m>. We knew the exponent (3) and wanted to find the number being raised to that power (<m>C</m>). That's when we took the cube root to get <me>C = \sqrt[3]{714.2857\ldots} =3 \sqrt[x]{\text{\raisebox{0.6em}{~\text{  }}}} 714.2857 = 8.9390\ldots \approx 8.9 \text{ inches}</me> That approach is not going to work here because it's backwards now - we know the number being raised to a power (1.067) and are on the hunt for the exponent (<m>Y</m>) instead.
 		</p>
 
 		<p>
-			Turns out there’s a different formula for solving for the exponent that uses <term>logarithms</term> (nickname: <term>logs</term>). More about logs in a minute, but first let’s write down the formula and practice working with it. The formula is
+			Turns out there's a different formula for solving for the exponent that uses <term>logarithms</term> (nickname: <term>logs</term>). More about logs in a minute, but first let's write down the formula and practice working with it. The formula is
 		</p>
 
 		<p>
@@ -136,11 +136,11 @@ Y &amp; = &amp;  \frac{\log (v)}{\log(g)}\\
 		</p>
 
 		<p>
-			This answer of 4.37 means that costs are projected to exceed $3 trillion just over 4 years after 2007. That’s some time during 2011, or by 2012 for sure. Same answer as before.
+			This answer of 4.37 means that costs are projected to exceed $3 trillion just over 4 years after 2007. That's some time during 2011, or by 2012 for sure. Same answer as before.
 		</p>
 
 		<p>
-			Let’s practice. Suppose instead we want to know when health care costs would exceed $10 trillion instead. (By the way – wow!) That means <m>H = 10</m>. Using our equation <m>H=2.26\ast1.067^Y</m> we get <me>2.26\ast1.067^Y=10</me> Before we can use the Log-Divides Formula, we need to get rid of that 2.26. To do so, we can divide both sides by 2.26 <me>\frac{\cancel{2.26}\ast1.067^Y}{\cancel{2.26}}=\frac{10}{2.26}=10 \div 2.26 = 4.424778761\ldots</me> That means <me>1.067^Y=4.424778761\ldots</me> Now our equation fits the format <m>g^Y=v</m> for the <alert>Log Divides Formula</alert> with new value <m>v=4.424778761\ldots</m> (and the growth factor is <m>g=1.067</m> still). So the answer is
+			Let's practice. Suppose instead we want to know when health care costs would exceed $10 trillion instead. (By the way - wow!) That means <m>H = 10</m>. Using our equation <m>H=2.26\ast1.067^Y</m> we get <me>2.26\ast1.067^Y=10</me> Before we can use the Log-Divides Formula, we need to get rid of that 2.26. To do so, we can divide both sides by 2.26 <me>\frac{\cancel{2.26}\ast1.067^Y}{\cancel{2.26}}=\frac{10}{2.26}=10 \div 2.26 = 4.424778761\ldots</me> That means <me>1.067^Y=4.424778761\ldots</me> Now our equation fits the format <m>g^Y=v</m> for the <alert>Log Divides Formula</alert> with new value <m>v=4.424778761\ldots</m> (and the growth factor is <m>g=1.067</m> still). So the answer is
 		</p>
 
 		<p>
@@ -157,7 +157,7 @@ Y &amp; = &amp;  \frac{\log (v)}{\log(g)}\\
 		</p>
 
 		<p>
-			Time to fill you in a bit more about logs. Look at these examples. Don’t take my word for it; calculate them yourself. <me>\begin{aligned}
+			Time to fill you in a bit more about logs. Look at these examples. Don't take my word for it; calculate them yourself. <me>\begin{aligned}
 \log (10) &amp; = &amp; 1 \\
 \log (100) &amp; = &amp; 2 \\
 \log (\text{1,000}) &amp; = &amp; 3 \\
@@ -174,7 +174,7 @@ Y &amp; = &amp;  \frac{\log (v)}{\log(g)}\\
 		</p>
 
 		<p>
-			What about logs of numbers that aren’t just powers of 10? Here are some examples. <me>\begin{aligned}
+			What about logs of numbers that aren't just powers of 10? Here are some examples. <me>\begin{aligned}
 \log (25) &amp; = &amp; 1.3979\ldots \\
 \log (250) &amp; = &amp; 2.3979\ldots \\
 \log (\text{2,500}) &amp; = &amp; 3.3979\ldots \\
@@ -183,23 +183,23 @@ Y &amp; = &amp;  \frac{\log (v)}{\log(g)}\\
 		</p>
 
 		<p>
-			To see what’s happening we want to involve powers of 10. Scientific notation will do that for us. Let’s write these numbers in scientific notation and see what we learn. For example. <me>\text{25,000} = 2.5 \times 10^4 \text{ and } \log( \text{25,000})=4.3979\ldots \approx 4</me> We are back to the power of 10. Well, approximately. Let’s check another number.
+			To see what's happening we want to involve powers of 10. Scientific notation will do that for us. Let's write these numbers in scientific notation and see what we learn. For example. <me>\text{25,000} = 2.5 \times 10^4 \text{ and } \log( \text{25,000})=4.3979\ldots \approx 4</me> We are back to the power of 10. Well, approximately. Let's check another number.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="left"><m>250=2.5 \times 10^2</m></cell>
 				<cell right="minor" halign="center">and</cell>
 				<cell right="minor" halign="left"><m>\log(\text{250})=2.3979\ldots \approx 2</m></cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
-			Before we write down a general rule, let’s check more numbers.
+			Before we write down a general rule, let's check more numbers.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="left">7,420,000 =<m>7.42 \times 10^6</m></cell>
@@ -212,25 +212,25 @@ Y &amp; = &amp;  \frac{\log (v)}{\log(g)}\\
 				<cell right="minor" halign="left"><m>\log (\text{4})=0.602059991\ldots \approx 0</m></cell>
 			</row>
 			<row left="minor" class="odd">
-				<cell right="minor" halign="left">.00917 = <m>9.17 \times 10^{-3}</m></cell>
+				<cell right="minor" halign="left">0.00917 = <m>9.17 \times 10^{-3}</m></cell>
 				<cell right="minor" halign="center">and</cell>
-				<cell right="minor" halign="left"><m>\log (\text{.00917})=-2.037630664\ldots \approx -3</m></cell>
+				<cell right="minor" halign="left"><m>\log (\text{0.00917})=-2.037630664\ldots \approx -3</m></cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
-			In every case we are rounding down, but it’s always the same.
+			In every case we are rounding down, but it's always the same.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<p>
 			log(number) <m>\approx</m> power of 10 in the scientific notation for that number.
-		</p><!--</div attr= class="center">-->
+		</p>
 
-<!-- div attr= class="center"-->
+
 		<p>
 			(1,0)300
-		</p><!--</div attr= class="center">-->
+		</p>
 
 	</section>
 
@@ -284,7 +284,7 @@ Y &amp; = &amp;  \frac{\log (v)}{\log(g)}\\
 
 			<li>
 					<p>
-						<term>If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</term>
+						<term>If you're not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</term>
 					</p>
 			</li>
 
@@ -361,7 +361,7 @@ Y &amp; = &amp;  \frac{\log (v)}{\log(g)}\\
 
 				<li>
 							<p>
-								Suppose a special kind of window glass is 1 inch thick and lets through only 75% of the light. If we use <m>W</m> inches of window glass, it lets <m>L\%</m> of the light through where <me>L = 100\ast .75^W</me> <em>Story also appears in 2.4 and 5.3 Exercises</em>
+								Suppose a special kind of window glass is 1 inch thick and lets through only 75% of the light. If we use <m>W</m> inches of window glass, it lets <m>L\%</m> of the light through where <me>L = 100\ast 0.75^W</me> <em>Story also appears in 2.4 and 5.3 Exercises</em>
 							</p>
 				
 							<p><ol>
@@ -418,7 +418,7 @@ Y &amp; = &amp;  \frac{\log (v)}{\log(g)}\\
 
 				<li>
 							<p>
-								Darcy likes to use temporary hair color in wild colors. Good thing it washes out. Her best guess is that 8% of the color washes out each time she washes her hair. That means the percentage of color remaining, <m>C</m>, is a function of the number of times she washes her hair, <m>W</m>, according to the equation <me>C=100 \ast .92^W</me>
+								Darcy likes to use temporary hair color in wild colors. Good thing it washes out. Her best guess is that 8% of the color washes out each time she washes her hair. That means the percentage of color remaining, <m>C</m>, is a function of the number of times she washes her hair, <m>W</m>, according to the equation <me>C=100 \ast 0.92^W</me>
 							</p>
 				
 							<p><ol>
@@ -430,13 +430,13 @@ Y &amp; = &amp;  \frac{\log (v)}{\log(g)}\\
 				
 								<li>
 											<p>
-												By the time only 10% of the color remains you really can’t tell anymore if it was pink or orange or blue. So, she might as well switch to a new color then. How many washes before only 10% remains? Again, first solve. Then check.
+												By the time only 10% of the color remains you really can't tell anymore if it was pink or orange or blue. So, she might as well switch to a new color then. How many washes before only 10% remains? Again, first solve. Then check.
 											</p>
 								</li>
 				
 								<li>
 											<p>
-												Draw a graph showing how the color washes out of Darcy’s hair.
+												Draw a graph showing how the color washes out of Darcy's hair.
 											</p>
 								</li>
 				

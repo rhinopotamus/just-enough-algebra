@@ -13,15 +13,15 @@
 		</p>
 
 		<p>
-			Noah’s mom also enjoys handicrafts and would like to build a small glass box to hold some of Noah’s beads. To keep things simple she has decided that the box will be a cube, meaning it will have the same length, width, and height. Plus, the cube has long been the symbol of regeneration and stability but also of limitations and boundaries – a fitting recovery gift.
+			Noah's mom also enjoys handicrafts and would like to build a small glass box to hold some of Noah's beads. To keep things simple she has decided that the box will be a cube, meaning it will have the same length, width, and height. Plus, the cube has long been the symbol of regeneration and stability but also of limitations and boundaries - a fitting recovery gift.
 		</p>
 
 		<p>
-			She could make a small box that’s <m>2 \times 2 \times 2</m>. That’s pronounced <q>2 by 2 by 2</q> and means 2 inches long, 2 inches wide, and 2 inches tall. Such a small box would hold <m>2 \times 2 \times 2 =  8</m> cubic inches of beads, which is around 2/3rd of a cup (not much).
+			She could make a small box that's <m>2 \times 2 \times 2</m>. That's pronounced <q>2 by 2 by 2</q> and means 2 inches long, 2 inches wide, and 2 inches tall. Such a small box would hold <m>2 \times 2 \times 2 =  8</m> cubic inches of beads, which is around 2/3rd of a cup (not much).
 		</p>
 
 		<p>
-			What if Noah’s mom made a box that was <m>5 \times 5 \times 5</m> instead? That box would hold <m>5 \times 5 \times 5 = 125</m> cubic inches of beads, which is just over 2 liters of beads. Similarly a <m>10 \times 10 \times 10</m> box would hold <m>10 \times 10 \times 10 = 1000</m> cubic inches of beads, or about 4 gallons of beads. In case you’re curious about the units here, there’s about 14.4 cubic inches per cup, 61 cubic inches per liter, and 231 cubic inches per gallon.
+			What if Noah's mom made a box that was <m>5 \times 5 \times 5</m> instead? That box would hold <m>5 \times 5 \times 5 = 125</m> cubic inches of beads, which is just over 2 liters of beads. Similarly a <m>10 \times 10 \times 10</m> box would hold <m>10 \times 10 \times 10 = 1000</m> cubic inches of beads, or about 4 gallons of beads. In case you're curious about the units here, there's about 14.4 cubic inches per cup, 61 cubic inches per liter, and 231 cubic inches per gallon.
 		</p>
 
 		<p>
@@ -29,7 +29,7 @@
 		</p>
 
 		<p>
-			On a calculator we can use the <m>\land</m> key. Try for yourself: <me>2 \land 3 = \underbrace{2 \times 2 \times 2}_{3 \text{ times}} = 8</me> <me>5 \land 3 = \underbrace{5 \times 5 \times 5}_{3 \text{ times}} = 125</me> <me>10 \land 3 = \underbrace{10 \times 10 \times 10}_{3 \text{ times}} = 1000</me> No key marked <m>\land</m>? Look for a key marked <m>x^y</m> or <m>y^x</m> instead. Can’t find that either? Ask a classmate or your instructor for help.
+			On a calculator we can use the <m>\land</m> key. Try for yourself: <me>2 \land 3 = \underbrace{2 \times 2 \times 2}_{3 \text{ times}} = 8</me> <me>5 \land 3 = \underbrace{5 \times 5 \times 5}_{3 \text{ times}} = 125</me> <me>10 \land 3 = \underbrace{10 \times 10 \times 10}_{3 \text{ times}} = 1000</me> No key marked <m>\land</m>? Look for a key marked <m>x^y</m> or <m>y^x</m> instead. Can't find that either? Ask a classmate or your instructor for help.
 		</p>
 
 		<p>
@@ -41,15 +41,15 @@
 		</p>
 
 		<p>
-			Noah would like the box to hold 1 gallon of beads which is about 231 cubic inches. What size cube box should his mom make? She wants a number, let’s call it <m>n</m>, so that an <m>n \times n \times n</m> box will hold 231 cubic inches. That means she needs <me>n \times n \times n = 231</me> or, equivalently, <me>n \land 3 = 231</me>
+			Noah would like the box to hold 1 gallon of beads which is about 231 cubic inches. What size cube box should his mom make? She wants a number, let's call it <m>n</m>, so that an <m>n \times n \times n</m> box will hold 231 cubic inches. That means she needs <me>n \times n \times n = 231</me> or, equivalently, <me>n \land 3 = 231</me>
 		</p>
 
 		<p>
-			Noah’s mom can try to guess what number <m>n</m> should be. She wants a box that’s bigger than <m>5  \times 5 \times 5</m> but smaller than <m>10 \times 10 \times 10</m>. Her first guess is <m>n=7</m> inches, meaning the box will be <m>7 \times 7 \times 7</m>. That box would hold <me>7 \times 7 \times 7 = 7 \land 3 = 343 \text{ cubic inches}</me> which is too big. How about <m>n = 6.5</m> inches so the box would hold <me>6.5 \times 6.5 \times 6.5 = 6.5 \land 3  \approx 274 \text{ cubic inches}</me> which is still too big. After a few more guesses she tries <m>n = 6.2</m> so the box would hold <me>6.2 \times 6.2 \times 6.2 = 6.2 \land 3 \approx 238 \text{ cubic inches}</me> Aha! She will make a box that’s approximately <m>6.2 \times 6.2 \times 6.2</m>.
+			Noah's mom can try to guess what number <m>n</m> should be. She wants a box that's bigger than <m>5  \times 5 \times 5</m> but smaller than <m>10 \times 10 \times 10</m>. Her first guess is <m>n=7</m> inches, meaning the box will be <m>7 \times 7 \times 7</m>. That box would hold <me>7 \times 7 \times 7 = 7 \land 3 = 343 \text{ cubic inches}</me> which is too big. How about <m>n = 6.5</m> inches so the box would hold <me>6.5 \times 6.5 \times 6.5 = 6.5 \land 3  \approx 274 \text{ cubic inches}</me> which is still too big. After a few more guesses she tries <m>n = 6.2</m> so the box would hold <me>6.2 \times 6.2 \times 6.2 = 6.2 \land 3 \approx 238 \text{ cubic inches}</me> Aha! She will make a box that's approximately <m>6.2 \times 6.2 \times 6.2</m>.
 		</p>
 
 		<p>
-			That was a lot of guessing. Turns out there’s a name for the answer. We write <me>n = \sqrt[3]231</me> and say that the dimension we are looking for is the 3rd <term>root</term> of 231.
+			That was a lot of guessing. Turns out there's a name for the answer. We write <me>n = \sqrt[3]231</me> and say that the dimension we are looking for is the 3rd <term>root</term> of 231.
 		</p>
 
 		<p>
@@ -57,7 +57,7 @@
 		</p>
 
 		<p>
-			For practice, try evaluating the following roots on your calculator. Feel free to ask a classmate or your instructor for help if you can’t figure it out.
+			For practice, try evaluating the following roots on your calculator. Feel free to ask a classmate or your instructor for help if you can't figure it out.
 		</p>
 
 		<p>
@@ -72,10 +72,10 @@
 			Similarly, <m>n \land 2</m> is called <m>n</m> <term>squared</term> and <m>\sqrt{~}</m> (which is shorthand for <m>\sqrt[2]{~}</m>) is referred to as the <term>square root</term>. Some calculators have a separate key for the square root. That terminology comes from the fact that an <m>n \times n</m> square has area <m>n \times n = n \land 2</m>. And a square that was <m>n \times n</m> in inches would have area measured in inches <m>\times</m> inches, which are called <term>square inches</term>.
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<p>
 			(1,0)300
-		</p><!--</div attr= class="center">-->
+		</p>
 
 	</section>
 
@@ -117,7 +117,7 @@
 
 			<li>
 					<p>
-						<term>If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</term>
+						<term>If you're not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</term>
 					</p>
 			</li>
 
@@ -130,13 +130,13 @@
 			<p><ol>
 				<li>
 							<p>
-								Remember Noah’s mom from our story? She was making a glass box that is <m>n \times n \times n</m> where the length <m>n</m> is measured in inches.
+								Remember Noah's mom from our story? She was making a glass box that is <m>n \times n \times n</m> where the length <m>n</m> is measured in inches.
 							</p>
 				
 							<p><ol>
 								<li>
 											<p>
-												How many cubic inches of beads would the box hold if it’s <m>8 \times 8 \times 8</m>? What if the box were <m>7.5 \times 7.5 \times 7.5</m> instead? You can first find the answers by multiplying on your calculator, but then challenge yourself to use the power key.
+												How many cubic inches of beads would the box hold if it's <m>8 \times 8 \times 8</m>? What if the box were <m>7.5 \times 7.5 \times 7.5</m> instead? You can first find the answers by multiplying on your calculator, but then challenge yourself to use the power key.
 											</p>
 								</li>
 				
@@ -190,19 +190,19 @@
 							<p><ol>
 								<li>
 											<p>
-												What was the value in 1921? Remember, to find 3% of a number we multiply by <m>3 \div 100 = .03</m>.
+												What was the value in 1921? Remember, to find 3% of a number we multiply by <m>3 \div 100 = 0.03</m>.
 											</p>
 								</li>
 				
 								<li>
 											<p>
-												What was the value in 1922? Don’t forget to use your answer to part (a) to calculate the new increase in value.
+												What was the value in 1922? Don't forget to use your answer to part (a) to calculate the new increase in value.
 											</p>
 								</li>
 				
 								<li>
 											<p>
-												It turns out there’s a quicker way to find the answers to parts (a) and (b). Calculate <m>800 \times 1.03=</m> and <m>800 \times 1.03 \times 1.03 =</m>. Note: we will discuss this shortcut in greater detail in Section 2.2
+												It turns out there's a quicker way to find the answers to parts (a) and (b). Calculate <m>800 \times 1.03=</m> and <m>800 \times 1.03 \times 1.03 =</m>. Note: we will discuss this shortcut in greater detail in Section 2.2
 											</p>
 								</li>
 				
@@ -230,13 +230,13 @@
 			</ol></p>
 
 			<p>
-				<term>When you’re done …</term>
+				<term>When you're done …</term>
 			</p>
 
 			<p><ul>
 				<li>
 							<p>
-								Don’t forget to check your answers with those in the back of the textbook.
+								Don't forget to check your answers with those in the back of the textbook.
 							</p>
 				</li>
 
@@ -248,13 +248,13 @@
 
 				<li>
 							<p>
-								Getting the wrong answers or stuck on a problem? Re-read the section and try the problem again. If you’re still stuck, work with a classmate or go to your instructor’s office hours.
+								Getting the wrong answers or stuck on a problem? Re-read the section and try the problem again. If you're still stuck, work with a classmate or go to your instructor's office hours.
 							</p>
 				</li>
 
 				<li>
 							<p>
-								It’s normal to find some parts of some problems difficult, but if all the problems are giving you grief, be sure to talk with your instructor or advisor about it. They might be able to suggest strategies or support services that can help you succeed.
+								It's normal to find some parts of some problems difficult, but if all the problems are giving you grief, be sure to talk with your instructor or advisor about it. They might be able to suggest strategies or support services that can help you succeed.
 							</p>
 				</li>
 

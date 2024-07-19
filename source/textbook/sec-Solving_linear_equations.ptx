@@ -13,32 +13,32 @@
 		<title>Solving linear equations </title>
 
 		<p>
-			Your kitchen sink keeps getting clogged. Very annoying. Last time the plumber was able to fix it pretty quickly. But now the sink is clogged again. This time when the plumber comes and unclogs the sink, he suggests redoing the trap and a few other things that were causing the problem. You are pretty tired of it clogging up and tell him to <q>go ahead.</q> While you’re glad that the sink works when he’s done, you’re a bit shocked when his bill arrives a few days later for parts plus $278.75 in labor. Does that seem right?
+			Your kitchen sink keeps getting clogged. Very annoying. Last time the plumber was able to fix it pretty quickly. But now the sink is clogged again. This time when the plumber comes and unclogs the sink, he suggests redoing the trap and a few other things that were causing the problem. You are pretty tired of it clogging up and tell him to <q>go ahead.</q> While you're glad that the sink works when he's done, you're a bit shocked when his bill arrives a few days later for parts plus $278.75 in labor. Does that seem right?
 		</p>
 
 		<p>
 			Remember our plumber charged $100 for just showing up and then $75 per hour for the service. Using the variables
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="left"><m>T=</m> time plumber takes (hours) <m>\sim</m> indep</cell>
 			</row>
 			<row left="minor" class="even">
-				<cell right="minor" halign="left"><m>P=</m> total plumber’s charge ($) <m>\sim</m> dep</cell>
+				<cell right="minor" halign="left"><m>P=</m> total plumber's charge ($) <m>\sim</m> dep</cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
 			we found that the equation was <me>P=100+75T</me>
 		</p>
 
 		<p>
-			Let’s figure out how many hours of work would add up to a bill of $278.75. Our first approach might be to look at a table. From earlier we had
+			Let's figure out how many hours of work would add up to a bill of $278.75. Our first approach might be to look at a table. From earlier we had
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="left"><m>T</m></cell>
@@ -58,17 +58,17 @@
 				<cell right="minor" halign="center">325.00</cell>
 				<cell right="minor" halign="center"></cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
 			Since $278.75 is between $250.00 and $325.00, we see that the time must be between 2 and 3 hours. You remember the plumber being there over 2 hours, so this is certainly a reasonable answer. Well, a lot of money, but mathematically it makes sense.
 		</p>
 
 		<p>
-			Still curious, you’d like to know exactly how many hours and minutes he worked. We could use successive approximations. For example, for 2.5 hours the bill would have been <me>P=100 + 75 \ast 2.5 = 100+75\times \underline{2.5}=\$287.50</me> which is more than the charge. Continuing to guess and check we get
+			Still curious, you'd like to know exactly how many hours and minutes he worked. We could use successive approximations. For example, for 2.5 hours the bill would have been <me>P=100 + 75 \ast 2.5 = 100+75\times \underline{2.5}=\$287.50</me> which is more than the charge. Continuing to guess and check we get
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="left"><m>T</m></cell>
@@ -106,10 +106,10 @@
 				<cell right="minor" halign="center">close enough</cell>
 				<cell right="minor" halign="center"></cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
-			The plumber worked approximately 2.38 hours. Converting units we calculate <me>.38 \text{ \cancel{hours}} \ast  \frac{60 \text{ minutes}}{1 \text{ \cancel{hour}}} = .38 \times 60 = 22.8 \approx 23 \text{ minutes}</me> The plumber took about 2 hours, 23 minutes. Thinking back, the plumber had arrived around 10:30 in the morning and stayed past lunch, probably until around 1:00 p.m. That’s about right.
+			The plumber worked approximately 2.38 hours. Converting units we calculate <me>0.38 \text{ \cancel{hours}} \ast  \frac{60 \text{ minutes}}{1 \text{ \cancel{hour}}} = 0.38 \times 60 = 22.8 \approx 23 \text{ minutes}</me> The plumber took about 2 hours, 23 minutes. Thinking back, the plumber had arrived around 10:30 in the morning and stayed past lunch, probably until around 1:00 p.m. That's about right.
 		</p>
 
 		<p>
@@ -117,17 +117,17 @@
 		</p>
 
 		<p>
-			That worked well. But, can we figure out this sort of calculation in other problems? What is the general method we’re using? Can we write down our method in an organized fashion so that someone else could follow our thinking here? Turns out there is a formal way to show this calculation, called <term>(symbolically) solving</term> the equation. Officially <em>any</em> method of getting a solution to an equation is considered solving the equation, but in the rest of this book, and in most places that use algebra, when we refer to <q>solving the equation</q> or give the instruction to <term>solve</term>, we mean <em>symbolically</em>.
+			That worked well. But, can we figure out this sort of calculation in other problems? What is the general method we're using? Can we write down our method in an organized fashion so that someone else could follow our thinking here? Turns out there is a formal way to show this calculation, called <term>(symbolically) solving</term> the equation. Officially <em>any</em> method of getting a solution to an equation is considered solving the equation, but in the rest of this book, and in most places that use algebra, when we refer to <q>solving the equation</q> or give the instruction to <term>solve</term>, we mean <em>symbolically</em>.
 		</p>
 
 		<p>
-			Here’s how it works. We want to figure out when <m>P=278.75</m>. We know from our equation that <m>P = 100 + 75T</m>. So we want to find the time <m>T</m> where <me>100 + 75T=278.75</me> Remember that the equal sign indicates that the two sides are the same number. On the left-hand side we have <m>100 + 75T</m>. On the right-hand side we have <m>278.75</m>. Looks different, but same thing. We are looking for the value of <m>T</m> that makes these two sides equal.
+			Here's how it works. We want to figure out when <m>P=278.75</m>. We know from our equation that <m>P = 100 + 75T</m>. So we want to find the time <m>T</m> where <me>100 + 75T=278.75</me> Remember that the equal sign indicates that the two sides are the same number. On the left-hand side we have <m>100 + 75T</m>. On the right-hand side we have <m>278.75</m>. Looks different, but same thing. We are looking for the value of <m>T</m> that makes these two sides equal.
 		</p>
 
 		<p>
 			The first thing we did was subtract the $100 trip charge. In this formal method, we subtract 100 from each side of our equation. If the left-hand side and the right-hand side are the same number, then they will still be equal when we take away 100 from each side. We get <me>\begin{aligned}
 \cancel{100} +75T &amp; = &amp; 278.75\\
--\cancel{100}\hspace{.4in}~&amp; &amp;  -100 \\  %HSPACE
+-\cancel{100}\hspace{0.4in}~&amp; &amp;  -100 \\  %HSPACE
 \end{aligned}</me>
 		</p>
 
@@ -136,26 +136,26 @@
 		</p>
 
 		<p>
-			The next thing we did to figure out the answer was divide by the $75/hour charge. In this formal method, we can divide each side of our equation by 75. Again, if the left-hand side and right-hand side are the same number, then they will still be equal when we divide by 75. Here goes. <me>\frac{\cancel{75}T}{\cancel{75}}=\frac{178.75}{75}</me> Notice that we wrote the division in fraction form (instead of using <m>\div</m>). To understand why the 75’s cancelled, remember that <m>75T</m> is short for <m>75\ast T</m> and so <me>\frac{75T}{75} = \frac{75\ast T}{75} = 75 \times T \div 75=T</me> because the <m>\times 75</m> and <m>\div 75</m> cancelled. So we have <me>T = \frac{178.75}{75} = 178.75 \div 75 = 2.3883333\ldots</me> as before. Yet again, our answer is around 2 hours, 23 minutes.
+			The next thing we did to figure out the answer was divide by the $75/hour charge. In this formal method, we can divide each side of our equation by 75. Again, if the left-hand side and right-hand side are the same number, then they will still be equal when we divide by 75. Here goes. <me>\frac{\cancel{75}T}{\cancel{75}}=\frac{178.75}{75}</me> Notice that we wrote the division in fraction form (instead of using <m>\div</m>). To understand why the 75's cancelled, remember that <m>75T</m> is short for <m>75\ast T</m> and so <me>\frac{75T}{75} = \frac{75\ast T}{75} = 75 \times T \div 75=T</me> because the <m>\times 75</m> and <m>\div 75</m> cancelled. So we have <me>T = \frac{178.75}{75} = 178.75 \div 75 = 2.3883333\ldots</me> as before. Yet again, our answer is around 2 hours, 23 minutes.
 		</p>
 
 		<p>
-			Let’s practice working with this symbolic way of solving equations. Suppose instead the plumber went to my neighbor’s house and billed her for $160 in labor costs. How long did the plumber work at my neighbor’s? As before, we begin with our equation <me>P = 100 + 75T</me> and we are looking for <m>P=160</m>. Put these together to get <me>100+75T =160</me> Subtract 100 from each side to get <me>\begin{aligned}
+			Let's practice working with this symbolic way of solving equations. Suppose instead the plumber went to my neighbor's house and billed her for $160 in labor costs. How long did the plumber work at my neighbor's? As before, we begin with our equation <me>P = 100 + 75T</me> and we are looking for <m>P=160</m>. Put these together to get <me>100+75T =160</me> Subtract 100 from each side to get <me>\begin{aligned}
 \cancel{100} +75T &amp; = &amp; 160\\
--\cancel{100}\hspace{.4in}~&amp; &amp;  -100 \\  %HSPACE
+-\cancel{100}\hspace{0.4in}~&amp; &amp;  -100 \\  %HSPACE
 \end{aligned}</me>
 		</p>
 
 		<p>
-			which simplifes to <me>75T=160-100=60</me> Last, divide each side by 75 to get <me>\frac{\cancel{75}T}{\cancel{75}}=\frac{60}{75}</me> which simplifies to <me>T = \frac{60}{75} = 60\div75=.8 \text{ hours}</me>
+			which simplifes to <me>75T=160-100=60</me> Last, divide each side by 75 to get <me>\frac{\cancel{75}T}{\cancel{75}}=\frac{60}{75}</me> which simplifies to <me>T = \frac{60}{75} = 60\div75=0.8 \text{ hours}</me>
 		</p>
 
 		<p>
-			We have solved the equation, but it would make more sense to report our answer in minutes so we convert <me>.8 \text{ \cancel{hours}} \ast \frac{60 \text{ minutes}}{1 \text{ \cancel{hour}}} = .8 \times 60 = 48 \text{ minutes}</me> The plumber worked for 48 minutes at my neighbor’s house.
+			We have solved the equation, but it would make more sense to report our answer in minutes so we convert <me>0.8 \text{ \cancel{hours}} \ast \frac{60 \text{ minutes}}{1 \text{ \cancel{hour}}} = 0.8 \times 60 = 48 \text{ minutes}</me> The plumber worked for 48 minutes at my neighbor's house.
 		</p>
 
 		<p>
-			Let’s quick check. Since <m>T</m> is measured in hours we need to go back and use <m>T= .8</m> hours, not 48 which is in minutes. Evaluating in our original equation we get <me>P=100 + 75 \ast .8 = 100+75\times\underline{.8}= 160 \quad \checkmark</me>
+			Let's quick check. Since <m>T</m> is measured in hours we need to go back and use <m>T= 0.8</m> hours, not 48 which is in minutes. Evaluating in our original equation we get <me>P=100 + 75 \ast 0.8 = 100+75\times\underline{0.8}= 160 \quad \checkmark</me>
 		</p>
 
 		<p>
@@ -166,10 +166,10 @@
 			It turns out that when solving an equation we do the <em>opposite</em> operations in the <em>reverse</em> order from the usual order of operations for evaluating. To evaluate a linear equation we would first multiply and then add. To solve a linear equation we first subtract (that is the opposite of adding) and then we divide (that is the opposite of multiplying).
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<p>
 			(1,0)300
-		</p><!--</div attr= class="center">-->
+		</p>
 
 	</section>
 
@@ -217,7 +217,7 @@
 
 			<li>
 					<p>
-						<term>If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</term>
+						<term>If you're not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</term>
 					</p>
 			</li>
 
@@ -269,7 +269,7 @@
 
 				<li>
 							<p>
-								Abduwali has just opened a restaurant. He spent $ to get started but hopes to earn back $ each month. Earlier we determined that <me>A = \text{6,300}M - \text{82,500}</me> describes how Abduwali’s profit $<m>A</m> is a function of how long he works (<m>M</m> months).
+								Abduwali has just opened a restaurant. He spent $ to get started but hopes to earn back $ each month. Earlier we determined that <me>A = \text{6,300}M - \text{82,500}</me> describes how Abduwali's profit $<m>A</m> is a function of how long he works (<m>M</m> months).
 							</p>
 				
 							<p>
@@ -285,7 +285,7 @@
 				
 								<li>
 											<p>
-												Aduwali will consider the restaurant a success once he’s earned $. According to our equation, when will that be?
+												Aduwali will consider the restaurant a success once he's earned $. According to our equation, when will that be?
 											</p>
 								</li>
 				
@@ -358,7 +358,7 @@
 
 				<li>
 							<p>
-								The more expensive something is, the less likely we are to buy it. Well, if we have a choice. For example, when strawberries are in the peak of season, they cost about $2.50 per pint at my neighborhood farmer’s market and demand is approximately 180 pints. (That means, people want to buy about 180 pints at that price.) We approximate that the demand, <m>D</m> pints, depends on the price, $<m>P</m>, as described by the equation <me>D = 305 - 50P</me>
+								The more expensive something is, the less likely we are to buy it. Well, if we have a choice. For example, when strawberries are in the peak of season, they cost about $2.50 per pint at my neighborhood farmer's market and demand is approximately 180 pints. (That means, people want to buy about 180 pints at that price.) We approximate that the demand, <m>D</m> pints, depends on the price, $<m>P</m>, as described by the equation <me>D = 305 - 50P</me>
 							</p>
 				
 							<p><ol>
@@ -376,13 +376,13 @@
 				
 								<li>
 											<p>
-												Draw a graph illustrating the function. Start at $0/pint even though that’s not realistic.
+												Draw a graph illustrating the function. Start at $0/pint even though that's not realistic.
 											</p>
 								</li>
 				
 								<li>
 											<p>
-												It’s been a great week for strawberries and there are 240 pints to be sold at my neighborhood farmer’s. What price should the farmer charge for her strawberries in order to sell them all? Estimate your answer from the graph. Then set up and solve an equation to answer the question.
+												It's been a great week for strawberries and there are 240 pints to be sold at my neighborhood farmer's. What price should the farmer charge for her strawberries in order to sell them all? Estimate your answer from the graph. Then set up and solve an equation to answer the question.
 											</p>
 								</li>
 				
@@ -397,13 +397,13 @@
 							<p><ol>
 								<li>
 											<p>
-												Significant slowdown are expected if traffic levels exceed cars per hour. When do they expect that will happen? Set up and solve an equation. Don’t forget to check your answer by evaluating.
+												Significant slowdown are expected if traffic levels exceed cars per hour. When do they expect that will happen? Set up and solve an equation. Don't forget to check your answer by evaluating.
 											</p>
 								</li>
 				
 								<li>
 											<p>
-												If traffic levels exceed the county plans to install control lights at the on ramps. When is that expected to happen? Set up and solve an equation. Don’t forget to check your answer by evaluating.
+												If traffic levels exceed the county plans to install control lights at the on ramps. When is that expected to happen? Set up and solve an equation. Don't forget to check your answer by evaluating.
 											</p>
 								</li>
 				

@@ -15,7 +15,7 @@
 	<exercise xml:id="pizza-diameter-solving-power" workspace="2.5in">
 		<introduction>
 			<p>
-				A pizza of diameter <m>D</m> inches serves <m>P</m> people where <me>P = .015625\, D^2</me>
+				A pizza of diameter <m>D</m> inches serves <m>P</m> people where <me>P = 0.015625\, D^2</me>
 				<em>
                     (Story also appears in
                     <xref ref="pizza-diameter-powers-roots"/>, 

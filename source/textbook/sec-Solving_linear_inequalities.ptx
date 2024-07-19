@@ -17,14 +17,14 @@
 		</p>
 
 		<p>
-			In the sciences, medicine, and most other countries, temperatures are measured in Celsius, denoted <m>^\circ</m>C. (For those of us who grew up in the 1960s or earlier, <q>Celsius</q> is the temperature scale formerly known as <q>centigrade.</q>) For comparison’s sake, it’s useful to know that water freezes at <m>0^\circ</m>C and boils at <m>100^\circ</m>C. Not coincidentally – it was set up that way. Room temperature is <m>20^\circ</m>C whereas now average human body temperature is <m>37^\circ</m>C. And those brownies?
+			In the sciences, medicine, and most other countries, temperatures are measured in Celsius, denoted <m>^\circ</m>C. (For those of us who grew up in the 1960s or earlier, <q>Celsius</q> is the temperature scale formerly known as <q>centigrade.</q>) For comparison's sake, it's useful to know that water freezes at <m>0^\circ</m>C and boils at <m>100^\circ</m>C. Not coincidentally - it was set up that way. Room temperature is <m>20^\circ</m>C whereas now average human body temperature is <m>37^\circ</m>C. And those brownies?
 		</p>
 
 		<p>
 			A common conversion is given by the equation <me>F = 1.8C+32</me> where
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="left"><m>F=</m> Fahrenheit temperature (<m>^\circ</m>F) <m>\sim</m> dep</cell>
@@ -32,18 +32,18 @@
 			<row left="minor" class="even">
 				<cell right="minor" halign="left"><m>C=</m> Celsius temperature (<m>^\circ</m>C) <m>\sim</m> indep</cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
 			You may have seen this equation before with fractions in it: <m>F = \frac{9}{5}C + 32</m>. Just another way to write the equation, since <m>\frac{9}{5} = 9 \div 5 = 1.8</m>. For example, when <m>C=100</m> we have <me>F= 1.8 \ast 100 + 32 =1.8 \times \underline{100}+32= 212 \quad \checkmark</me> You can (and should check) the other examples in our story.
 		</p>
 
 		<p>
-			What about those chocolate brownies? We are looking for <m>F=350</m>. That’s the dependent variable, so you can practice your linear equation solving skills to find the independent variable, <m>C</m>. It turns out that chocolate brownies bake at around <m>177^\circ C</m>.
+			What about those chocolate brownies? We are looking for <m>F=350</m>. That's the dependent variable, so you can practice your linear equation solving skills to find the independent variable, <m>C</m>. It turns out that chocolate brownies bake at around <m>177^\circ C</m>.
 		</p>
 
 		<p>
-			But, actually, chocolate brownies just need to bake in a <term>moderate oven</term>, which means between <m>325^\circ F</m> and <m>375^\circ F</m>. Let’s first figure out when the oven temperature is under <m>375^\circ F</m>. We want to know when <me>F \le 375</me> so we have an inequality instead of an equation. Remember <m>\le</m> stands for <term>less than or equal to</term>. Using <m>F=1.8C+32</m> we get <me>1.8C+32 \le 375</me> We’re looking for values of <m>C</m> that make the left-hand side a number that’s smaller than, or maybe as large as, 375, but no larger. Quick vocabulary: equations have equal signs (=). When we have inequality signs (<m>\le</m>, <m>\ge</m>, <m>&gt;</m>, or <m>&lt;</m>), it’s called an <term>inequality</term> instead.
+			But, actually, chocolate brownies just need to bake in a <term>moderate oven</term>, which means between <m>325^\circ F</m> and <m>375^\circ F</m>. Let's first figure out when the oven temperature is under <m>375^\circ F</m>. We want to know when <me>F \le 375</me> so we have an inequality instead of an equation. Remember <m>\le</m> stands for <term>less than or equal to</term>. Using <m>F=1.8C+32</m> we get <me>1.8C+32 \le 375</me> We're looking for values of <m>C</m> that make the left-hand side a number that's smaller than, or maybe as large as, 375, but no larger. Quick vocabulary: equations have equal signs (=). When we have inequality signs (<m>\le</m>, <m>\ge</m>, <m>&gt;</m>, or <m>&lt;</m>), it's called an <term>inequality</term> instead.
 		</p>
 
 		<p>
@@ -66,7 +66,7 @@
 		</p>
 
 		<p>
-			To understand why the inequality stays the same when we divide, again think of the inequality as <q>little</q> <m>\le</m> <q>big.</q> If one number is littler than the other, the same will be true when we divide each number by the same divisor. For example, <m>6 \le 9</m>, which we imagined as my having $6 and your having $9 after we each bought a movie ticket. While we’re making up stories, suppose we each have three children who want some money from us for treats. We each divide our remaining cash among our three children, respectively. My kids each get <m>\$6\div3 =\$2</m> and your kids each get <m>\$9\div 3 = \$3</m>. And <m>2 \le 3</m> still.
+			To understand why the inequality stays the same when we divide, again think of the inequality as <q>little</q> <m>\le</m> <q>big.</q> If one number is littler than the other, the same will be true when we divide each number by the same divisor. For example, <m>6 \le 9</m>, which we imagined as my having $6 and your having $9 after we each bought a movie ticket. While we're making up stories, suppose we each have three children who want some money from us for treats. We each divide our remaining cash among our three children, respectively. My kids each get <m>\$6\div3 =\$2</m> and your kids each get <m>\$9\div 3 = \$3</m>. And <m>2 \le 3</m> still.
 		</p>
 
 		<p>
@@ -74,35 +74,35 @@
 		</p>
 
 		<p>
-			For example, we can swap sides of an equation, but if we swap sides of an inequality then the direction of the sign reverses. In this brownie example, we want <me>F \ge 325</me> Remember <m>\ge</m> stands for <term>greater than or equal to</term>. That’s like <q>big</q> <m>\ge</m> <q>little.</q> We can rewrite that inequality as <q>little</q> <m>\le</m> `̀big,” or equivalently <me>325 \le F</me> In each case, <m>325</m> is <q>little</q> and <m>F</m> is <q>big</q>. Make sense?
+			For example, we can swap sides of an equation, but if we swap sides of an inequality then the direction of the sign reverses. In this brownie example, we want <me>F \ge 325</me> Remember <m>\ge</m> stands for <term>greater than or equal to</term>. That's like <q>big</q> <m>\ge</m> <q>little.</q> We can rewrite that inequality as <q>little</q> <m>\le</m> `̀big,” or equivalently <me>325 \le F</me> In each case, <m>325</m> is <q>little</q> and <m>F</m> is <q>big</q>. Make sense?
 		</p>
 
 		<p>
-			Multiplying or dividing each side of an inequality by a negative number switches the inequality sign as well. Watch out for that with decreasing functions because that’s where the slope is negative. And the number we’re dividing by is actually the slope.
+			Multiplying or dividing each side of an inequality by a negative number switches the inequality sign as well. Watch out for that with decreasing functions because that's where the slope is negative. And the number we're dividing by is actually the slope.
 		</p>
 
 		<p>
-			Remember that the recipe for chocolate brownies says to bake in a moderate oven, between <m>325^\circ F</m> and <m>375^\circ F</m>. We just figured out that <m>F \le 375</m> corresponds to <m>C \le 190</m>. But that’s only half of the story. We also wanted <m>F \ge 325</m>. While we could solve that inequality separately, it turns out there’s an easier way.
+			Remember that the recipe for chocolate brownies says to bake in a moderate oven, between <m>325^\circ F</m> and <m>375^\circ F</m>. We just figured out that <m>F \le 375</m> corresponds to <m>C \le 190</m>. But that's only half of the story. We also wanted <m>F \ge 325</m>. While we could solve that inequality separately, it turns out there's an easier way.
 		</p>
 
 		<p>
 			Inequalities are a very useful notation for indicating <q>between</q>. We want between <m>325^\circ F</m> and <m>375^\circ F</m> to bake the brownies. We can write <me>325 \le F \le 375</me> which is read
 		</p>
 
-<!-- div attr= class="center"-->
-		<p>
-			<q><m>F</m> is between 325 and 375 (inclusive)</q>
-		</p><!--</div attr= class="center">-->
 
 		<p>
-			The word <term>inclusive</term> indicates that we’re allowing <m>F=325</m> or <m>F=375</m>.
+			<q><m>F</m> is between 325 and 375 (inclusive)</q>
+		</p>
+
+		<p>
+			The word <term>inclusive</term> indicates that we're allowing <m>F=325</m> or <m>F=375</m>.
 		</p>
 
 		<p>
 			The good news is that we can solve this chain of inequalities all at once using the same steps as before but now being sure to do the same thing to all <em>three</em> sides. <q><em>Three</em> sides?</q> you ask. Yes, <q>three,</q> I confirm. Watch how this works. Start with<me>325 \le F \le 375</me> Using <m>F=1.8C + 32</m> we get <me>325 \le 1.8C + 32 \le 375</me> Subtract 32 from each of the three sides to get
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="center">325</cell>
@@ -118,7 +118,7 @@
 				<cell right="minor" halign="center"></cell>
 				<cell right="minor" halign="center">-32</cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
 			which simplifies to <me>293 \le 1.8C \le 343</me>
@@ -128,7 +128,7 @@
 			Next, divide all three sides by 1.8 to get
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="center"><m>\displaystyle\frac{293}{1.8}</m></cell>
@@ -137,25 +137,25 @@
 				<cell right="minor" halign="center"><m>\le</m></cell>
 				<cell right="minor" halign="center"><m>\displaystyle\frac{343}{1.8}</m></cell>
 			</row>
-		</tabular><!--</div attr= class="center">-->
+		</tabular>
 
 		<p>
-			which simplifies to <me>293\div 1.8 \le C \le 343 \div 1.8</me> so, <me>162.777777... \le C \le 190.555555...</me> Probably best to say <me>163 \le C \le 190</me> Chocolate brownies bake between <m>163^\circ C</m> and <m>190^\circ C</m>. Oven actually aren’t that precise, so somewhere between <m>170^\circ C</m> and <m>190^\circ C</m> should do the job.
+			which simplifies to <me>293\div 1.8 \le C \le 343 \div 1.8</me> so, <me>162.777777... \le C \le 190.555555...</me> Probably best to say <me>163 \le C \le 190</me> Chocolate brownies bake between <m>163^\circ C</m> and <m>190^\circ C</m>. Oven actually aren't that precise, so somewhere between <m>170^\circ C</m> and <m>190^\circ C</m> should do the job.
 		</p>
 
 		<p>
 			If we graph our linear function <m>F = 1.8C+32</m>, we can check our answer for the right temperature range for our brownies. Since we want <m>F</m> between 325 and 375 we start on the vertical axis and then use the graph to find the right range on the horizontal axis. You can see from the highlighted region that our answer is reasonable. Now, who wants brownies?
 		</p>
 
-<!-- div attr= class="center"-->
+
 		<p>
 			<image source='fahrenheitcelsius.png'/>
-		</p><!--</div attr= class="center">-->
+		</p>
 
-<!-- div attr= class="center"-->
+
 		<p>
 			(1,0)300
-		</p><!--</div attr= class="center">-->
+		</p>
 
 	</section>
 
@@ -209,7 +209,7 @@
 
 			<li>
 					<p>
-						<term>If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</term>
+						<term>If you're not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</term>
 					</p>
 			</li>
 
@@ -240,7 +240,7 @@
 				
 								<li>
 											<p>
-												You’re planning a trip to Norway over Christmas and have heard it’s will be around 10<m>^\circ</m>C. What sort of jacket will you need? Convert to Fahrenheit to decide.
+												You're planning a trip to Norway over Christmas and have heard it's will be around 10<m>^\circ</m>C. What sort of jacket will you need? Convert to Fahrenheit to decide.
 											</p>
 								</li>
 				
@@ -323,7 +323,7 @@
 
 				<li>
 							<p>
-								A manufacturer makes family-sized bags of potato chips, advertised as containing 200 grams each. In fact it’s difficult to control the exact weight of a bag of potato chips, so it varies. The standard deviation is rather high, about 3.8 grams per bag. The company would rather have bags too heavy than too light, lest they be accused of false advertising, so their average bag actually weighs 207 grams. It turns out that approximately 97% of all bags of chips weigh 200 grams or more. We can compute the standard <m>Z</m>-score of a given bag of chips weighing <m>B</m> grams using the equation <me>Z = \frac{B-207}{3.8}</me>
+								A manufacturer makes family-sized bags of potato chips, advertised as containing 200 grams each. In fact it's difficult to control the exact weight of a bag of potato chips, so it varies. The standard deviation is rather high, about 3.8 grams per bag. The company would rather have bags too heavy than too light, lest they be accused of false advertising, so their average bag actually weighs 207 grams. It turns out that approximately 97% of all bags of chips weigh 200 grams or more. We can compute the standard <m>Z</m>-score of a given bag of chips weighing <m>B</m> grams using the equation <me>Z = \frac{B-207}{3.8}</me>
 							</p>
 				
 							<p><ol>
@@ -335,7 +335,7 @@
 				
 								<li>
 											<p>
-												About of all bags of chips will have <m>Z \ge -.67</m>. What weight bag has <m>Z</m>-score of <m>-.67</m>? Set up and solve an inequality.
+												About of all bags of chips will have <m>Z \ge -0.67</m>. What weight bag has <m>Z</m>-score of <m>-0.67</m>? Set up and solve an inequality.
 											</p>
 								</li>
 				
@@ -356,7 +356,7 @@
 
 				<li>
 							<p>
-								The cost of vacation to Cork, Ireland from the Minneapolis/St. Paul airport for two people is given by the equation formula <me>C = \text{2,828} + 310N</me> where <m>C</m> is the total cost in U.S. dollars and <m>N</m> is the number of days. Ciara wants to take her boyfriend Seamus to Cork to meet Ciara’s grandmother.
+								The cost of vacation to Cork, Ireland from the Minneapolis/St. Paul airport for two people is given by the equation formula <me>C = \text{2,828} + 310N</me> where <m>C</m> is the total cost in U.S. dollars and <m>N</m> is the number of days. Ciara wants to take her boyfriend Seamus to Cork to meet Ciara's grandmother.
 							</p>
 				
 							<p><ol>

@@ -34,7 +34,7 @@
 		</ul></p>
 
 		<p>
-			<term>When you’re done …</term>
+			<term>When you're done …</term>
 		</p>
 
 		<p><ul>
@@ -46,13 +46,13 @@
 
 			<li>
 					<p>
-						Getting the wrong answers or stuck on a problem? Re-read the section and try the problem again. If you’re still stuck, work with a classmate or go to your instructor’s office hours.
+						Getting the wrong answers or stuck on a problem? Re-read the section and try the problem again. If you're still stuck, work with a classmate or go to your instructor's office hours.
 					</p>
 			</li>
 
 			<li>
 					<p>
-						It’s normal to find some parts of some problems difficult, but if all the problems are giving you grief, be sure to talk with your instructor or advisor about it. They might be able to suggest strategies or support services that can help you succeed.
+						It's normal to find some parts of some problems difficult, but if all the problems are giving you grief, be sure to talk with your instructor or advisor about it. They might be able to suggest strategies or support services that can help you succeed.
 					</p>
 			</li>
 
@@ -70,7 +70,7 @@
 
 
 			<subsubsection xml:id="variables-and-functions-answers-to-exercises">
-				<title>Variables and functions – Answers to exercises</title>
+				<title>Variables and functions - Answers to exercises</title>
 
 <!-- div attr= class="multicols"-->
 				<p>
@@ -134,7 +134,7 @@
 									<p><ol>
 										<li>
 														<p>
-															<m>S =</m> Mrs. Nystrom’s social security benefit ($) <m>\sim</m> dep<!-- linebreak --><m>Y=</m> time (years since 2009) <m>\sim</m> indep
+															<m>S =</m> Mrs. Nystrom's social security benefit ($) <m>\sim</m> dep<!-- linebreak --><m>Y=</m> time (years since 2009) <m>\sim</m> indep
 														</p>
 										</li>
 					
@@ -180,7 +180,7 @@
 									<p><ol>
 										<li>
 														<p>
-															<m>M=</m> car’s mileage (thousands of miles) <m>\sim</m> indep<!-- linebreak --><m>C=</m> value of Sofía’s car ($) <m>\sim</m> dep
+															<m>M=</m> car's mileage (thousands of miles) <m>\sim</m> indep<!-- linebreak --><m>C=</m> value of Sofía's car ($) <m>\sim</m> dep
 														</p>
 										</li>
 					
@@ -230,15 +230,15 @@
 
 				</ol></p><!--</div attr= class="multicols">-->
 
-<!-- div attr= class="center"-->
+
 				<p>
 					(1,0)300
-				</p><!--</div attr= class="center">-->
+				</p>
 
 			</subsubsection>
 
 			<subsubsection xml:id="tables-and-graphs-answers-to-exercises">
-				<title>Tables and graphs – Answers to exercises</title>
+				<title>Tables and graphs - Answers to exercises</title>
 
 <!-- div attr= class="multicols"-->
 				<p>
@@ -508,15 +508,15 @@
 				</tabular></dd>
 				</dl>
 
-<!-- div attr= class="center"-->
+
 				<p>
 					(1,0)300
-				</p><!--</div attr= class="center">-->
+				</p>
 
 			</subsubsection>
 
 			<subsubsection xml:id="rate-of-change-answers-to-exercises">
-				<title>Rate of change – Answers to exercises</title>
+				<title>Rate of change - Answers to exercises</title>
 
 <!-- div attr= class="multicols"-->
 				<p>
@@ -700,15 +700,15 @@
 
 				</ol></p><!--</div attr= class="multicols">-->
 
-<!-- div attr= class="center"-->
+
 				<p>
 					(1,0)300
-				</p><!--</div attr= class="center">-->
+				</p>
 
 			</subsubsection>
 
 			<subsubsection xml:id="units-answers-to-exercises">
-				<title>Units – Answers to exercises</title>
+				<title>Units - Answers to exercises</title>
 
 <!-- div attr= class="multicols"-->
 				<p>
@@ -897,15 +897,15 @@
 				</tabular></dd>
 				</dl>
 
-<!-- div attr= class="center"-->
+
 				<p>
 					(1,0)300
-				</p><!--</div attr= class="center">-->
+				</p>
 
 			</subsubsection>
 
 			<subsubsection xml:id="metric-prefixes-and-scientific-notation-answers-to-exercises">
-				<title>Metric prefixes and scientific notation – Answers to exercises</title>
+				<title>Metric prefixes and scientific notation - Answers to exercises</title>
 
 <!-- div attr= class="multicols"-->
 				<p>
@@ -1044,7 +1044,7 @@
 					
 										<li>
 														<p>
-															<q>Jared, you’re right on the upper limit for normal BMI.</q>
+															<q>Jared, you're right on the upper limit for normal BMI.</q>
 														</p>
 										</li>
 					
@@ -1064,10 +1064,10 @@
 				</p></dd>
 				</dl>
 
-<!-- div attr= class="center"-->
+
 				<p>
 					(1,0)300
-				</p><!--</div attr= class="center">-->
+				</p>
 
 			</subsubsection>
 		</subsection>
@@ -1077,7 +1077,7 @@
 
 
 			<subsubsection xml:id="a-first-look-at-linear-equations-answers-to-exercises">
-				<title>A first look at linear equations – Answers to exercises</title>
+				<title>A first look at linear equations - Answers to exercises</title>
 
 <!-- div attr= class="multicols"-->
 				<p>
@@ -1124,13 +1124,13 @@
 					
 										<li>
 														<p>
-															<m>A=</m> Abduwali’s profit ($) <m>\sim</m> dep<!-- linebreak --><m>M=</m> time (months) <m>\sim</m> indep<!-- linebreak --><m>A = \text{6,300}M-\text{82,500}</m>
+															<m>A=</m> Abduwali's profit ($) <m>\sim</m> dep<!-- linebreak --><m>M=</m> time (months) <m>\sim</m> indep<!-- linebreak --><m>A = \text{6,300}M-\text{82,500}</m>
 														</p>
 										</li>
 					
 										<li>
 														<p>
-															Slope is $/month; it’s how much money he earns in a month.<!-- linebreak -->Intercept is -$; it’s his start up costs.
+															Slope is $/month; it's how much money he earns in a month.<!-- linebreak -->Intercept is -$; it's his start up costs.
 														</p>
 										</li>
 					
@@ -1159,7 +1159,7 @@
 					
 										<li>
 														<p>
-															Slope is 125 cal/mile; it’s the rate at which Gretchen burns calories.<!-- linebreak -->Intercept is 0; it’s how many calories she burns walking 0 miles.
+															Slope is 125 cal/mile; it's the rate at which Gretchen burns calories.<!-- linebreak -->Intercept is 0; it's how many calories she burns walking 0 miles.
 														</p>
 										</li>
 					
@@ -1393,15 +1393,15 @@
 				</tabular></dd>
 				</dl>
 
-<!-- div attr= class="center"-->
+
 				<p>
 					(1,0)300
-				</p><!--</div attr= class="center">-->
+				</p>
 
 			</subsubsection>
 
 			<subsubsection xml:id="a-first-look-at-exponential-equations-answers-to-exercises">
-				<title>A first look at exponential equations – Answers to exercises</title>
+				<title>A first look at exponential equations - Answers to exercises</title>
 
 <!-- div attr= class="multicols"-->
 				<p>
@@ -1599,7 +1599,7 @@
 					
 										<li>
 														<p>
-															It’s just a little lower than the equation predicted (<m>\approx</m> $22.1 million)
+															It's just a little lower than the equation predicted (<m>\approx</m> $22.1 million)
 														</p>
 										</li>
 					
@@ -1614,15 +1614,15 @@
 
 				</ol></p><!--</div attr= class="multicols">-->
 
-<!-- div attr= class="center"-->
+
 				<p>
 					(1,0)300
-				</p><!--</div attr= class="center">-->
+				</p>
 
 			</subsubsection>
 
 			<subsubsection xml:id="using-equations-answers-to-exercises">
-				<title>Using equations – Answers to exercises</title>
+				<title>Using equations - Answers to exercises</title>
 
 <!-- div attr= class="multicols"-->
 				<p>
@@ -1756,7 +1756,7 @@
 					
 										<li>
 														<p>
-															It takes about 8 minutes to grill a piece of fish that’s only .25 inch. For a piece of fish 1 inch thick it takes about 12 minutes. For 1.5 inches it takes about 16 minutes and for 2 inches it takes about 20 minutes.
+															It takes about 8 minutes to grill a piece of fish that's only .25 inch. For a piece of fish 1 inch thick it takes about 12 minutes. For 1.5 inches it takes about 16 minutes and for 2 inches it takes about 20 minutes.
 														</p>
 										</li>
 					
@@ -1800,15 +1800,15 @@
 
 				</ol></p><!--</div attr= class="multicols">-->
 
-<!-- div attr= class="center"-->
+
 				<p>
 					(1,0)300
-				</p><!--</div attr= class="center">-->
+				</p>
 
 			</subsubsection>
 
 			<subsubsection xml:id="approximating-solutions-of-equations-answers-to-exercises">
-				<title>Approximating solutions of equations – Answers to exercises</title>
+				<title>Approximating solutions of equations - Answers to exercises</title>
 
 <!-- div attr= class="multicols"-->
 				<p>
@@ -1978,7 +1978,7 @@
 					
 										<li>
 														<p>
-															<m>\approx</m> 2’11" Yes
+															<m>\approx</m> 2'11" Yes
 														</p>
 										</li>
 					
@@ -2013,15 +2013,15 @@
 				</tabular></dd>
 				</dl>
 
-<!-- div attr= class="center"-->
+
 				<p>
 					(1,0)300
-				</p><!--</div attr= class="center">-->
+				</p>
 
 			</subsubsection>
 
 			<subsubsection xml:id="finance-formulas-answers-to-exercises">
-				<title>Finance formulas – Answers to exercises</title>
+				<title>Finance formulas - Answers to exercises</title>
 
 <!-- div attr= class="multicols"-->
 				<p>
@@ -2068,7 +2068,7 @@
 					
 										<li>
 														<p>
-															<m>R=</m> interest rate <m>\sim</m> indep<!-- linebreak --><m>A=</m> Ayah’s account balance ($) <m>\sim</m> dep<!-- linebreak -->See <term>Table G</term>, below. Graph
+															<m>R=</m> interest rate <m>\sim</m> indep<!-- linebreak --><m>A=</m> Ayah's account balance ($) <m>\sim</m> dep<!-- linebreak -->See <term>Table G</term>, below. Graph
 														</p>
 										</li>
 					
@@ -2108,7 +2108,7 @@
 					
 										<li>
 														<p>
-															<m>Y=</m> time (years) <m>\sim</m> indep<!-- linebreak --><m>K=</m> Kurt’s balance ($) <m>\sim</m> dep<!-- linebreak -->Graph
+															<m>Y=</m> time (years) <m>\sim</m> indep<!-- linebreak --><m>K=</m> Kurt's balance ($) <m>\sim</m> dep<!-- linebreak -->Graph
 														</p>
 										</li>
 					
@@ -2192,10 +2192,10 @@
 				</tabular></dd>
 				</dl>
 
-<!-- div attr= class="center"-->
+
 				<p>
 					(1,0)300
-				</p><!--</div attr= class="center">-->
+				</p>
 
 			</subsubsection>
 		</subsection>
@@ -2205,7 +2205,7 @@
 
 
 			<subsubsection xml:id="solving-linear-equations-answers-to-exercises">
-				<title>Solving linear equations – Answers to exercises</title>
+				<title>Solving linear equations - Answers to exercises</title>
 
 <!-- div attr= class="multicols"-->
 				<p>
@@ -2429,15 +2429,15 @@
 				</tabular></dd>
 				</dl>
 
-<!-- div attr= class="center"-->
+
 				<p>
 					(1,0)300
-				</p><!--</div attr= class="center">-->
+				</p>
 
 			</subsubsection>
 
 			<subsubsection xml:id="solving-linear-inequalities-answers-to-exercises">
-				<title>Solving linear inequalities – Answers to exercises</title>
+				<title>Solving linear inequalities - Answers to exercises</title>
 
 <!-- div attr= class="multicols"-->
 				<p>
@@ -2586,15 +2586,15 @@
 
 				</ol></p><!--</div attr= class="multicols">-->
 
-<!-- div attr= class="center"-->
+
 				<p>
 					(1,0)300
-				</p><!--</div attr= class="center">-->
+				</p>
 
 			</subsubsection>
 
 			<subsubsection xml:id="solving-power-equations-and-roots-answers-to-exercises">
-				<title>Solving power equations (and roots) – Answers to exercises</title>
+				<title>Solving power equations (and roots) - Answers to exercises</title>
 
 <!-- div attr= class="multicols"-->
 				<p>
@@ -2646,13 +2646,13 @@
 									<p><ol>
 										<li>
 														<p>
-															<m>\approx</m> 1.2 feet, or 1’2"
+															<m>\approx</m> 1.2 feet, or 1'2"
 														</p>
 										</li>
 					
 										<li>
 														<p>
-															<m>\approx</m> 1.7 feet, or 1’8"
+															<m>\approx</m> 1.7 feet, or 1'8"
 														</p>
 										</li>
 					
@@ -2755,15 +2755,15 @@
 
 				</ol></p><!--</div attr= class="multicols">-->
 
-<!-- div attr= class="center"-->
+
 				<p>
 					(1,0)300
-				</p><!--</div attr= class="center">-->
+				</p>
 
 			</subsubsection>
 
 			<subsubsection xml:id="solving-exponential-equations-and-logs-answers-to-exercises">
-				<title>Solving exponential equations (and logs) – Answers to exercises</title>
+				<title>Solving exponential equations (and logs) - Answers to exercises</title>
 
 <!-- div attr= class="multicols"-->
 				<p>
@@ -2888,15 +2888,15 @@
 
 				</ol></p><!--</div attr= class="multicols">-->
 
-<!-- div attr= class="center"-->
+
 				<p>
 					(1,0)300
-				</p><!--</div attr= class="center">-->
+				</p>
 
 			</subsubsection>
 
 			<subsubsection xml:id="solving-quadratic-equations-answers-to-exercises">
-				<title>Solving quadratic equations – Answers to exercises</title>
+				<title>Solving quadratic equations - Answers to exercises</title>
 
 <!-- div attr= class="multicols"-->
 				<p>
@@ -2914,13 +2914,13 @@
 					
 										<li>
 														<p>
-															The calculator says ERROR because there’s a square root of a negative number. The max height of the beanbag was 6’6", so it is never 8’ up.
+															The calculator says ERROR because there's a square root of a negative number. The max height of the beanbag was 6'6", so it is never 8' up.
 														</p>
 										</li>
 					
 										<li>
 														<p>
-															6.0625 feet, just over 6’
+															6.0625 feet, just over 6'
 														</p>
 										</li>
 					
@@ -3061,10 +3061,10 @@
 
 				</ol></p><!--</div attr= class="multicols">-->
 
-<!-- div attr= class="center"-->
+
 				<p>
 					(1,0)300
-				</p><!--</div attr= class="center">-->
+				</p>
 
 			</subsubsection>
 		</subsection>
@@ -3074,7 +3074,7 @@
 
 
 			<subsubsection xml:id="modeling-with-linear-equations-answers-to-exercises">
-				<title>Modeling with linear equations – Answers to exercises</title>
+				<title>Modeling with linear equations - Answers to exercises</title>
 
 <!-- div attr= class="multicols"-->
 				<p>
@@ -3115,13 +3115,13 @@
 					
 										<li>
 														<p>
-															Slope is $870/credit; it’s how much each credit hour costs.
+															Slope is $870/credit; it's how much each credit hour costs.
 														</p>
 										</li>
 					
 										<li>
 														<p>
-															Intercept is $560; it’s the one-time fee.
+															Intercept is $560; it's the one-time fee.
 														</p>
 										</li>
 					
@@ -3158,13 +3158,13 @@
 					
 										<li>
 														<p>
-															Slope is $415/credit; it’s how much each credit hour costs.
+															Slope is $415/credit; it's how much each credit hour costs.
 														</p>
 										</li>
 					
 										<li>
 														<p>
-															Intercept is $0 because there’s no fee.
+															Intercept is $0 because there's no fee.
 														</p>
 										</li>
 					
@@ -3230,7 +3230,7 @@
 					
 										<li>
 														<p>
-															nonlinear: it’s increasing, then decreasing, then increasing …
+															nonlinear: it's increasing, then decreasing, then increasing …
 														</p>
 										</li>
 					
@@ -3283,7 +3283,7 @@
 					
 										<li>
 														<p>
-															<m>B=</m> size of Shanille’s collection (book) <m>\sim</m> dep<!-- linebreak --><m>M=</m> time (months) <m>\sim</m> indep<!-- linebreak --><m>B = 382 + 3M</m>
+															<m>B=</m> size of Shanille's collection (book) <m>\sim</m> dep<!-- linebreak --><m>M=</m> time (months) <m>\sim</m> indep<!-- linebreak --><m>B = 382 + 3M</m>
 														</p>
 										</li>
 					
@@ -3304,15 +3304,15 @@
 
 				</ol></p><!--</div attr= class="multicols">-->
 
-<!-- div attr= class="center"-->
+
 				<p>
 					(1,0)300
-				</p><!--</div attr= class="center">-->
+				</p>
 
 			</subsubsection>
 
 			<subsubsection xml:id="systems-of-linear-equations-answers-to-exercises">
-				<title>Systems of linear equations – Answers to exercises</title>
+				<title>Systems of linear equations - Answers to exercises</title>
 
 <!-- div attr= class="multicols"-->
 				<p>
@@ -3429,7 +3429,7 @@
 					
 										<li>
 														<p>
-															If you’re going to take at least 26 classes, it is worth it to buy the membership. That’s just 2 times a week for about 3 months.
+															If you're going to take at least 26 classes, it is worth it to buy the membership. That's just 2 times a week for about 3 months.
 														</p>
 										</li>
 					
@@ -3589,15 +3589,15 @@
 				</tabular></dd>
 				</dl>
 
-<!-- div attr= class="center"-->
+
 				<p>
 					(1,0)300
-				</p><!--</div attr= class="center">-->
+				</p>
 
 			</subsubsection>
 
 			<subsubsection xml:id="intercepts-and-direct-proportionality-answers-to-exercises">
-				<title>Intercepts and direct proportionality – Answers to exercises</title>
+				<title>Intercepts and direct proportionality - Answers to exercises</title>
 
 <!-- div attr= class="multicols"-->
 				<p>
@@ -3703,7 +3703,7 @@
 					
 										<li>
 														<p>
-															Slope is -3.75 feet/year; it’s how much beach depth is lost to erosion each year<!-- linebreak -->Intercept is 435 feet; it’s how deep the beach was 60 years ago.
+															Slope is -3.75 feet/year; it's how much beach depth is lost to erosion each year<!-- linebreak -->Intercept is 435 feet; it's how deep the beach was 60 years ago.
 														</p>
 										</li>
 					
@@ -3755,7 +3755,7 @@
 					
 										<li>
 														<p>
-															No, it’s just a discounted rate of 64.75  per ride.
+															No, it's just a discounted rate of 64.75  per ride.
 														</p>
 										</li>
 					
@@ -3790,7 +3790,7 @@
 					
 										<li>
 														<p>
-															Slope is 12 minutes/batch; it’s how long each batch bakes.<!-- linebreak -->Intercept is 18 minutes; it’s how long it takes to prepare the dough.
+															Slope is 12 minutes/batch; it's how long each batch bakes.<!-- linebreak -->Intercept is 18 minutes; it's how long it takes to prepare the dough.
 														</p>
 										</li>
 					
@@ -3799,15 +3799,15 @@
 
 				</ol></p><!--</div attr= class="multicols">-->
 
-<!-- div attr= class="center"-->
+
 				<p>
 					(1,0)300
-				</p><!--</div attr= class="center">-->
+				</p>
 
 			</subsubsection>
 
 			<subsubsection xml:id="slopes-answers-to-exercises">
-				<title>Slopes – Answers to exercises</title>
+				<title>Slopes - Answers to exercises</title>
 
 <!-- div attr= class="multicols"-->
 				<p>
@@ -4058,15 +4058,15 @@
 
 				</ol></p><!--</div attr= class="multicols">-->
 
-<!-- div attr= class="center"-->
+
 				<p>
 					(1,0)300
-				</p><!--</div attr= class="center">-->
+				</p>
 
 			</subsubsection>
 
 			<subsubsection xml:id="fitting-lines-to-data-answers-to-exercises">
-				<title>Fitting lines to data – Answers to exercises</title>
+				<title>Fitting lines to data - Answers to exercises</title>
 
 <!-- div attr= class="multicols"-->
 				<p>
@@ -4200,7 +4200,7 @@
 					
 										<li>
 														<p>
-															Graph, later because it’s not as steep a line. That means it will take longer to increase to 300 million tons.
+															Graph, later because it's not as steep a line. That means it will take longer to increase to 300 million tons.
 														</p>
 										</li>
 					
@@ -4331,10 +4331,10 @@
 
 				</ol></p><!--</div attr= class="multicols">-->
 
-<!-- div attr= class="center"-->
+
 				<p>
 					(1,0)300
-				</p><!--</div attr= class="center">-->
+				</p>
 
 			</subsubsection>
 		</subsection>
@@ -4344,7 +4344,7 @@
 
 
 			<subsubsection xml:id="modeling-with-exponential-equations-answers-to-exercises">
-				<title>Modeling with exponential equations – Answers to exercises</title>
+				<title>Modeling with exponential equations - Answers to exercises</title>
 
 <!-- div attr= class="multicols"-->
 				<p>
@@ -4379,7 +4379,7 @@
 									<p><ol>
 										<li>
 														<p>
-															<m>S =</m> Mrs. Nystrom’s social security benefit ($) <m>\sim</m> dep<!-- linebreak --><m>Y=</m> time (years since 2009) <m>\sim</m> indep<!-- linebreak --><m>S=746.17 \ast 1.04^Y</m>
+															<m>S =</m> Mrs. Nystrom's social security benefit ($) <m>\sim</m> dep<!-- linebreak --><m>Y=</m> time (years since 2009) <m>\sim</m> indep<!-- linebreak --><m>S=746.17 \ast 1.04^Y</m>
 														</p>
 										</li>
 					
@@ -4551,15 +4551,15 @@
 				</tabular></dd>
 				</dl>
 
-<!-- div attr= class="center"-->
+
 				<p>
 					(1,0)300
-				</p><!--</div attr= class="center">-->
+				</p>
 
 			</subsubsection>
 
 			<subsubsection xml:id="exponential-growth-and-decay-answers-to-exercises">
-				<title>Exponential growth and decay – Answers to exercises</title>
+				<title>Exponential growth and decay - Answers to exercises</title>
 
 <!-- div attr= class="multicols"-->
 				<p>
@@ -4583,7 +4583,7 @@
 					
 										<li>
 														<p>
-															The caffeine would leave quicker, so it wouldn’t take as long to get rid of half of it. So, the half-life would be shorter.
+															The caffeine would leave quicker, so it wouldn't take as long to get rid of half of it. So, the half-life would be shorter.
 														</p>
 										</li>
 					
@@ -4641,7 +4641,7 @@
 									<p><ol>
 										<li>
 														<p>
-															<m>Y=</m> time (years since he bought house <m>\sim</m> indep<!-- linebreak --><m>H=</m> value of Tenzin’s house ($) <m>\sim</m> dep<!-- linebreak --><m>H=\text{291,900} \ast .959^Y</m>
+															<m>Y=</m> time (years since he bought house <m>\sim</m> indep<!-- linebreak --><m>H=</m> value of Tenzin's house ($) <m>\sim</m> dep<!-- linebreak --><m>H=\text{291,900} \ast .959^Y</m>
 														</p>
 										</li>
 					
@@ -4815,15 +4815,15 @@
 				</tabular></dd>
 				</dl>
 
-<!-- div attr= class="center"-->
+
 				<p>
 					(1,0)300
-				</p><!--</div attr= class="center">-->
+				</p>
 
 			</subsubsection>
 
 			<subsubsection xml:id="growth-factors-answers-to-exercises">
-				<title>Growth factors – Answers to exercises</title>
+				<title>Growth factors - Answers to exercises</title>
 
 <!-- div attr= class="multicols"-->
 				<p>
@@ -4893,7 +4893,7 @@
 					
 										<li>
 														<p>
-															<m>V=</m> value of Whitney’s table ($) <m>\sim</m> dep<!-- linebreak --><m>A=</m> age of table (years) <m>\sim</m> indep<!-- linebreak --><m>V=560 \ast 1.065^A</m><!-- linebreak --><m>\approx</m> $
+															<m>V=</m> value of Whitney's table ($) <m>\sim</m> dep<!-- linebreak --><m>A=</m> age of table (years) <m>\sim</m> indep<!-- linebreak --><m>V=560 \ast 1.065^A</m><!-- linebreak --><m>\approx</m> $
 														</p>
 										</li>
 					
@@ -5031,15 +5031,15 @@
 				</tabular></dd>
 				</dl>
 
-<!-- div attr= class="center"-->
+
 				<p>
 					(1,0)300
-				</p><!--</div attr= class="center">-->
+				</p>
 
 			</subsubsection>
 
 			<subsubsection xml:id="linear-vs.-exponential-models-answers-to-exercises">
-				<title>Linear vs. exponential models – Answers to exercises</title>
+				<title>Linear vs. exponential models - Answers to exercises</title>
 
 <!-- div attr= class="multicols"-->
 				<p>
@@ -5226,15 +5226,15 @@
 
 				</ol></p><!--</div attr= class="multicols">-->
 
-<!-- div attr= class="center"-->
+
 				<p>
 					(1,0)300
-				</p><!--</div attr= class="center">-->
+				</p>
 
 			</subsubsection>
 
 			<subsubsection xml:id="logistic-and-other-growth-models-answers-to-exercises">
-				<title>Logistic and other growth models – Answers to exercises</title>
+				<title>Logistic and other growth models - Answers to exercises</title>
 
 <!-- div attr= class="multicols"-->
 				<p>
@@ -5478,10 +5478,10 @@
 				</tabular></dd>
 				</dl>
 
-<!-- div attr= class="center"-->
+
 				<p>
 					(1,0)300
-				</p><!--</div attr= class="center">-->
+				</p>
 			</subsubsection>
 
 		</subsection>
