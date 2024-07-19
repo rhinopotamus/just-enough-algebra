@@ -24,5 +24,6 @@
 
     <xi:include href="./sec-First_look_linear.ptx" />
     <xi:include href="./sec-First_look_exponential.ptx" />
+    <xi:include href="./sec-Using_equations.ptx" />
 
 </chapter>

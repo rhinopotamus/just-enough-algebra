@@ -21,7 +21,7 @@
 	</p>
 
 	<p>
-		You might wonder how we knew to put the feet on the top and the meters on the bottom. One reminder for how this works is to think fractions. It's like the meters on the top and bottom cancel, leaving the units as feet. <me>\frac{3 \text{ \cancel{meters}}}{1} \ast  \frac{3.281 \text{ feet}}{1 \text{ \cancel{meter}}} = 3 \times 3.281 \approx 9.8 \text{ feet}</me>
+		You might wonder how we knew to put the feet on the top and the meters on the bottom. One reminder for how this works is to think fractions. It's like the meters on the top and bottom cancel, leaving the units as feet. <me>\frac{3 \cancel{\text{ meters}}}{1} \ast  \frac{3.281 \text{ feet}}{1 \cancel{\text{ meter}}} = 3 \times 3.281 \approx 9.8 \text{ feet}</me>
 	</p>
 
 	<p>
@@ -29,16 +29,16 @@
 	</p>
 
 	<p>
-		Of course, 9.8 feet might sound like a funny answer. We're much more used to a whole number of feet and then the fraction in inches. It's 9 feet and some number of inches. To figure out the inches we look at the decimal part <m>9.8-9=0.8</m>. That's the part we need to convert to inches. Since there are 12 inches in a foot, we use the (exact) conversion <me>1 \text{ foot} = 12 \text{ inches}</me> to get <me>0.8 \text{ \cancel{feet}} \ast \frac{12 \text{ inches}}{1 \text{ \cancel{foot}}} = 0.8 \times 12 = 9.6 \text{ inches} \approx 10 \text{ inches}</me>
+		Of course, 9.8 feet might sound like a funny answer. We're much more used to a whole number of feet and then the fraction in inches. It's 9 feet and some number of inches. To figure out the inches we look at the decimal part <m>9.8-9=0.8</m>. That's the part we need to convert to inches. Since there are 12 inches in a foot, we use the (exact) conversion <me>1 \text{ foot} = 12 \text{ inches}</me> to get <me>0.8 \cancel{\text{ feet}} \ast \frac{12 \text{ inches}}{1 \cancel{\text{ foot}}} = 0.8 \times 12 = 9.6 \text{ inches} \approx 10 \text{ inches}</me>
 	</p>
 
 	<p>
-		Quick caution here. We rounded off 9.843 to get 9.8 and then just used the 0.8 to find the extra inches. Maybe we should have used the 0.843 instead. Here's what happens. <me>0.843 \text{ \cancel{feet}} \ast \frac{12 \text{ inches}}{1 \text{ \cancel{foot}}} = 0.843 \times 12 = 10.116 \text{ inches} \approx 10 \text{ inches}</me> Phew! Either way, the board is about 9 feet and 10 inches high. The common shorthand for this answer is 9'10". (That's pronounced <em>9 foot 10</em>, as in our team's new center is <em>6 foot 7</em>.) The ' symbol indicates feet and " indicates inches.
+		Quick caution here. We rounded off 9.843 to get 9.8 and then just used the 0.8 to find the extra inches. Maybe we should have used the 0.843 instead. Here's what happens. <me>0.843 \cancel{\text{ feet}} \ast \frac{12 \text{ inches}}{1 \cancel{\text{ foot}}} = 0.843 \times 12 = 10.116 \text{ inches} \approx 10 \text{ inches}</me> Phew! Either way, the board is about 9 feet and 10 inches high. The common shorthand for this answer is 9'10". (That's pronounced <em>9 foot 10</em>, as in our team's new center is <em>6 foot 7</em>.) The ' symbol indicates feet and " indicates inches.
 	</p>
 
 	<p>
-		The highest height we had recorded for the diver was 4.48 meters. Now we know that's <me>4.48 \text{ \cancel{meters}}  \ast \frac{3.281 \text{ feet}}{1 \text{ \cancel{meter}}} 
-=4.48 \times 3.281= 14.69888\ldots \text{ feet} \approx 14.7 \text{ feet}</me> In feet and inches, that's about 14 feet, 8 inches because <me>0.69888 \text{ \cancel{feet}} \ast \frac{12 \text{ inches}}{1 \text{ \cancel{foot}}} = 0.69888 \times 12 = 8.38656 \text{ inches} \approx 8 \text{ inches}</me> The diver's highest height was around 14'8".
+		The highest height we had recorded for the diver was 4.48 meters. Now we know that's <me>4.48 \cancel{\text{ meters}}  \ast \frac{3.281 \text{ feet}}{1 \cancel{\text{ meter}}} 
+=4.48 \times 3.281= 14.69888\ldots \text{ feet} \approx 14.7 \text{ feet}</me> In feet and inches, that's about 14 feet, 8 inches because <me>0.69888 \cancel{\text{ feet}} \ast \frac{12 \text{ inches}}{1 \cancel{\text{ foot}}} = 0.69888 \times 12 = 8.38656 \text{ inches} \approx 8 \text{ inches}</me> The diver's highest height was around 14'8".
 	</p>
 
 	<p>
@@ -46,31 +46,52 @@
 	</p>
 
 	<p>
-		What about the diver's speed? During the first 0.2 seconds we calculated her speed as 4.4 meters per second. How fast is that? We can certainly convert to feet per second. <me>\frac{4.4 \text{ \cancel{meters}}}{\text{second}} \ast \frac{3.281 \text{ feet}}{1 \text{  \cancel{meter}}} = 4.4 \times 3.281 = \frac{14.4364 \text{ feet}}{\text{second}}</me> Does that help us understand how fast she's going? Maybe a little. But, we're probably most familiar with speeds measured in miles per hour, that's what <term>mph</term> stands for.
+		What about the diver's speed? During the first 0.2 seconds we calculated her speed as 4.4 meters per second. How fast is that? We can certainly convert to feet per second. <me>\frac{4.4 \cancel{\text{ meters}}}{\text{second}} \ast \frac{3.281 \text{ feet}}{1 \cancel{\text{ meter}}} = 4.4 \times 3.281 = \frac{14.4364 \text{ feet}}{\text{second}}</me> Does that help us understand how fast she's going? Maybe a little. But, we're probably most familiar with speeds measured in miles per hour, that's what <term>mph</term> stands for.
 	</p>
 
 	<p>
-		Let's convert to miles per hour. First, use that <me>1 \text{ minute} = 60 \text{ seconds}</me> to get <me>\frac{14.4364  \text{ feet}}{\text{ \cancel{second}}} \ast \frac{60 \text{  \cancel{seconds}}}{1\text{ minute}} =  14.4364 \times 60 = \frac{866.184 \text{ feet}}{\text{minute}}</me> The larger number makes sense here because she can go more feet in a minute than in just one second.
+		Let's convert to miles per hour. First, use that <me>1 \text{ minute} = 60 \text{ seconds}</me> to get <me>\frac{14.4364  \text{ feet}}{\cancel{\text{ second}}} \ast \frac{60 \cancel{\text{ seconds}}}{1\text{ minute}} =  14.4364 \times 60 = \frac{866.184 \text{ feet}}{\text{minute}}</me> The larger number makes sense here because she can go more feet in a minute than in just one second.
 	</p>
 
 	<p>
-		Next, use that <me>1 \text{ hour} = 60 \text{ minutes}</me> to get <me>\frac{866.184 \text{ feet}}{\text{ \cancel{minute}}}\ast  \frac{60 \text{ \cancel{minutes}}}{1\text{ hour}} = 866.184 \times 60 = \frac{ \text{51,971.04 feet}}{\text{hour}}</me> Again, the larger number makes sense because she can go more feet in an hour than in just one minute.
+		Next, use that <me>1 \text{ hour} = 60 \text{ minutes}</me> to get <me>\frac{866.184 \text{ feet}}{\cancel{\text{ minute}}}\ast  \frac{60 \cancel{\text{ minutes}}}{1\text{ hour}} = 866.184 \times 60 = \frac{ \text{51,971.04 feet}}{\text{hour}}</me> Again, the larger number makes sense because she can go more feet in an hour than in just one minute.
 	</p>
 
 	<p>
-		Last, we need to convert to miles. Turns out that <me>1 \text{ mile} = \text{5,280 feet}</me> and so <me>\frac{ \text{51,971.04 \cancel{feet}}}{\text{hour}}\ast  \frac{1 \text{ mile}}{\text{5,280 \cancel{feet}}} = 51,971.04 \div \text{5,280} = \frac{9.843 \text{ miles}}{\text{hour}} \approx 10 \text{ mph}.</me> This time we got a smaller number because she can go a lot fewer miles in an hour compared to feet in an hour. Notice how we needed to divide by . Numbers on top of the fraction multiply. Those on the bottom divide.
+		Last, we need to convert to miles. Turns out that <me>1 \text{ mile} = \text{5,280 feet}</me> and so 
+		<me>
+			\frac{51,971.04 \cancel{\text{ feet}}}{\text{hour}}
+			\ast  \frac{1 \text{ mile}}{\cancel{\text{ feet}}} 
+			= 51,971.04 \div 5,280
+			= \frac{9.843 \text{ miles}}{\text{hour}} 
+			\approx 10 \text{ mph}.
+		</me> 
+		This time we got a smaller number because she can go a lot fewer miles in an hour compared to feet in an hour. Notice how we needed to divide by . Numbers on top of the fraction multiply. Those on the bottom divide.
 	</p>
 
 	<p>
-		We can do this entire calculation all at once. Notice how all of the units cancel to leave us with miles per hour. <me>\frac{4.4 \text{ \cancel{meters}}}{\text{\cancel{second}}} \ast \frac{3.281 \text{ \cancel{feet}}}{1 \text{ \cancel{meter}}}  \ast \frac{60 \text{ \cancel{seconds}}}{1 \text{ \cancel{minute}}}\ast  \frac{60 \text{ \cancel{minutes}}}{1\text{ hour}}\ast  \frac{1 \text{ mile}}{5,280\text{ \cancel{feet}}}</me> <me>= 4.4 \times 3.281 \times 60 \times 60 \div \text{5,280} = 9.843 \text{ mph} \approx 10 \text{ mph}.</me>
+		We can do this entire calculation all at once. Notice how all of the units cancel to leave us with miles per hour. 
+		<me>
+			\frac{4.4 \cancel{\text{ meters}}}{\cancel{\text{ second}}} 
+			\ast \frac{3.281 \cancel{\text{ feet}}}{1 \cancel{\text{ meter}}}  
+			\ast \frac{60 \cancel{\text{ seconds}}}{1 \cancel{\text{ minute}}}
+			\ast \frac{60 \cancel{\text{ minutes}}}{1\text{ hour}}
+			\ast \frac{1 \text{ mile}}{5,280\cancel{\text{ feet}}}
+		</me> 
+		<me>= 4.4 \times 3.281 \times 60 \times 60 \div \text{5,280} = 9.843 \text{ mph} \approx 10 \text{ mph}.</me>
 	</p>
 
 	<p>
 		Right before the diver hit the water she was going around 7.25 meters per second. How fast is that in mph? Ready for it all in one line? Here it is.
-	</p>
-
-	<p>
-		<me>\frac{7.25 \text{ \cancel{meters}}}{\text{\cancel{second}}} \ast \frac{3.281 \text{ \cancel{feet}}}{1 \text{ \cancel{meter}}}  \ast \frac{60 \text{ \cancel{seconds}}}{1 \text{ \cancel{minute}}}\ast  \frac{60 \text{ \cancel{minutes}}}{1\text{ hour}}\ast  \frac{1 \text{ mile}}{5,280\text{ \cancel{feet}}}</me> <me>=7.25 \times 3.281 \times 60 \times 60 \div 5,280 = 16.2185\ldots \approx 16 \text{ mph}</me>
+		<me>
+			\frac{7.25 \cancel{\text{ meters}}}{\cancel{\text{ second}}} 
+			\ast \frac{3.281 \cancel{\text{ feet}}}{1 \cancel{\text{ meter}}}  
+			\ast \frac{60 \cancel{\text{ seconds}}}{1 \cancel{\text{ minute}}}
+			\ast \frac{60 \cancel{\text{ minutes}}}{1\text{ hour}}
+			\ast \frac{1 \text{ mile}}{5,280\cancel{\text{ feet}}}
+		</me> 
+		<me>=7.25 \times 3.281 \times 60 \times 60 \div 5,280 = 16.2185\ldots \approx 16 \text{ mph}
+		</me>
 	</p>
 
 	<p>

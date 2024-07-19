@@ -145,7 +145,7 @@
 		
 		
 		<statement>
-			<me>\text{dep} = \text{start} \ast \text{growth factor} ^ {\text{indep}}</me>
+			<p><me>\text{dep} = \text{start} \ast \text{growth factor} ^ {\text{indep}}</me></p>
 		</statement>
 	</definition>
 

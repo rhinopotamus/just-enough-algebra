@@ -81,14 +81,25 @@
 	</p>
 
 	<p>
-		Back to Tara. Her download speed is 187 kilobits per second. Perhaps this is the right moment to mention that a <term>bit</term> is even smaller than a <term>byte</term>. <me>1 \text{ byte} = 8 \text{ bits}</me> How long will it take Tara to download 700 MB? We can think of this calculation as a unit conversion by imagining. <me>187 \text{ kilobits} = 1 \text{ second}</me> Watch. <me>700 \text{ \cancel{MB}} 
-\ast \frac{\text{1,000,000 \cancel{bytes}}}{1 \text{\cancel{MB}}}
-\ast \frac{8 \text{ \cancel{bits}}}{1 \text{ \cancel{byte}}} 
-\ast \frac{ 1 \text{ \cancel{kilobit}}}{\text{1,000 \cancel{bits}}}
-\ast \frac{\text{second}} {187 \text{ \cancel{kilobits}}}</me> <me>= 700 \times \text{1,000,000} \times 8 \div \text{1,000} \div 187
-= 29,946.524\ldots\text{ seconds}</me> Let's convert to a more reasonable unit. <me>\text{29,946.524\ldots \cancel{seconds}} 
-\ast \frac{1 \text{ \cancel{minute}}}{60 \text{ \cancel{seconds}}} 
-\ast \frac{1 \text{ hour}}{60 \text{ \cancel{minutes}}}</me> <me>= 29,946.524\ldots \div 60 \div 60 = 8.318\ldots \approx 8.32 \text{ hours}</me> It will take Tara over 8 hours to download those photos. Perhaps Tara should compress the photos into a zip file or use lower resolution or find a way to download faster. Or, she can just set it up to download overnight.
+		Back to Tara. Her download speed is 187 kilobits per second. Perhaps this is the right moment to mention that a <term>bit</term> is even smaller than a <term>byte</term>. <me>1 \text{ byte} = 8 \text{ bits}</me> How long will it take Tara to download 700 MB? We can think of this calculation as a unit conversion by imagining <me>187 \text{ kilobits} = 1 \text{ second}</me> Watch. 
+		<me>
+			700 \cancel{\text{ MB}} 
+			\ast \frac{\text{1,000,000 \cancel{\text{ bytes}}}}{1 \cancel{\text{ \text{ MB}}}}
+			\ast \frac{8 \cancel{\text{ bits}}}{1 \cancel{\text{ byte}}} 
+			\ast \frac{ 1 \cancel{\text{ kilobit}}}{\text{1,000 \cancel{\text{ bits}}}}
+			\ast \frac{\text{second}} {187 \cancel{\text{ kilobits}}}</me> <me>= 700 \times \text{1,000,000} \times 8 \div \text{1,000} \div 187
+				= 29,946.524\ldots\text{ seconds}
+		</me> 
+		Let's convert to a more reasonable unit. 
+		<me>
+			\text{29,946.524\ldots \cancel{\text{ seconds}}}
+			\ast \frac{1 \cancel{\text{ minute}}}{60 \cancel{\text{ seconds}}} 
+			\ast \frac{1 \text{ hour}}{60 \cancel{\text{ minutes}}}
+		</me> 
+		<me>
+			= 29,946.524\ldots \div 60 \div 60 = 8.318\ldots \approx 8.32 \text{ hours}
+		</me> 
+		It will take Tara over 8 hours to download those photos. Perhaps Tara should compress the photos into a zip file or use lower resolution or find a way to download faster. Or, she can just set it up to download overnight.
 	</p>
 
 	<p>
@@ -223,14 +234,22 @@
 	</tabular>
 
 	<p>
-		What about that human hair? It is convenient to measure in micrometers using that <me>1 \text{ meter} = \text{1,000,000 micrometers}</me> The width of a human hair in micrometers (abbreviated <m>\mu m</m> in the sciences) is <me>0.000~12 \text{ \cancel{meters} } \ast \frac{\text{1,000,000 } \mu \text{m}}{1 \text{ \cancel{meter}}} =  0.000~12 \times \text{1,000,000} = 120 \mu \text{m}</me> The <m>\mu</m> symbol is the Greek letter <em>mu</em>, but we'll just read <m>\mu m</m> as micrometers.
+		What about that human hair? It is convenient to measure in micrometers using that <me>1 \text{ meter} = \text{1,000,000 micrometers}</me> The width of a human hair in micrometers (abbreviated <m>\mu m</m> in the sciences) is <me>0.000~12 \cancel{\text{ meters} } \ast \frac{\text{1,000,000 } \mu \text{m}}{1 \cancel{\text{ meter}}} =  0.000~12 \times \text{1,000,000} = 120 \mu \text{m}</me> The <m>\mu</m> symbol is the Greek letter <em>mu</em>, but we'll just read <m>\mu m</m> as micrometers.
 	</p>
 
 	<p>
-		To answer Tara's question about how many hairs in an inch, we recall that <me>1 \text{ inch} \approx 2.54 \text{ cm}</me> where cm is short for centimeter. Ready to convert? <me>1 \text{ \cancel{inch}} \ast \frac{ 2.54 \text{ \cancel{cm}} }{1 \text{ \cancel{inch}}}
-\ast \frac{1 \text{ \cancel{meter}}}{100 \text{ \cancel{cm}}} 
-\ast \frac{\text{1,000,000  \cancel{$\mu$m}}}{1 \text{ \cancel{meter}}} 
-\ast \frac{1 \text{ hair}}{120 \text{ \cancel{$\mu$m}}}</me> <me>= 2.54 \div 100 \times \text{1,000,000} \div 120 = 211.66666\ldots \approx 200 \text{ hairs}</me>
+		To answer Tara's question about how many hairs in an inch, we recall that <me>1 \text{ inch} \approx 2.54 \text{ cm}</me> where cm is short for centimeter. Ready to convert? 
+		<me>
+			1 \cancel{\text{ inch}} 
+			\ast \frac{ 2.54 \cancel{\text{ cm}} }{1 \cancel{\text{ inch}}}
+			\ast \frac{1 \cancel{\text{ meter}}}{100 \cancel{\text{ cm}}}
+			\ast \frac{\text{1,000,000  \cancel{\mu m}}}{1 \cancel{\text{ meter}}}
+			\ast \frac{1 \text{ hair}}{120 \cancel{\mu m}}
+		</me> 
+		<me>
+			= 2.54 \div 100 \times \text{1,000,000} \div 120 
+			= 211.66666\ldots \approx 200 \text{ hairs}
+		</me>
 	</p>
 
 	<p>

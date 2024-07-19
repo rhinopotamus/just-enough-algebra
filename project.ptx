@@ -17,7 +17,7 @@
             xsl="pretext-latex-workbook.xsl" 
             latex-engine="pdflatex">
       <stringparams latex.preamble.early="\usepackage{parskip}" />
-    </target>
+    </target> <!-- NB we don't want parskip in the textbook! -->
     <target name="latex" 
             format="latex" 
             publication="publication-latex.ptx"

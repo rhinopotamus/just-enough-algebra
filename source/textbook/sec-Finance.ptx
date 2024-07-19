@@ -58,7 +58,7 @@
 		</definition>
 
 		<p>
-			If you're curious, this equation fits the template for an exponential equation. <me>\text{dep} = \text{start} \ast \text{growth factor} ^ {\text{indep}}</me> The starting amount is <m>p</m>. The annual growth rate is <m>r</m>, which means the monthly growth rate is <m>\frac{r}{12}</m>, and so the monthly growth factor is <me>g=1+\frac{r}{12}</me> Since the interest is added each month, it would make sense to measure time in months. It is customary, however, to measure time in years instead. No big deal. After 3 years, for example, we have <me>3 \text{ \cancel{years}} \ast \frac{12 \text{ months}}{1\text{ \cancel{year}}} = 3 \times 12 = 36 \text{ months}</me> Yup, just multiply the years by 12 to get the months. In the general formula, the number of years is <m>y</m> and so the number of months is <m>12y</m>.
+			If you're curious, this equation fits the template for an exponential equation. <me>\text{dep} = \text{start} \ast \text{growth factor} ^ {\text{indep}}</me> The starting amount is <m>p</m>. The annual growth rate is <m>r</m>, which means the monthly growth rate is <m>\frac{r}{12}</m>, and so the monthly growth factor is <me>g=1+\frac{r}{12}</me> Since the interest is added each month, it would make sense to measure time in months. It is customary, however, to measure time in years instead. No big deal. After 3 years, for example, we have <me>3 \cancel{\text{ years}} \ast \frac{12 \text{ months}}{1\cancel{\text{ year}}} = 3 \times 12 = 36 \text{ months}</me> Yup, just multiply the years by 12 to get the months. In the general formula, the number of years is <m>y</m> and so the number of months is <m>12y</m>.
 		</p>
 
 		<p>
@@ -155,7 +155,7 @@ a &amp; = &amp;  p \left( 1 + \frac{r}{12}\right) ^{12y}\\
 		</definition>
 
 		<p>
-			Notice that <m>p</m> now represents the regular, monthly deposit instead of the initial deposit. In either case think: <m>p</m> stands for <q>put in.</q> In Hector's situation, we have <m>p=\$\text{1,000}</m> and <m>r=4.5\% =4.5 \div 100 =0.045</m>. To check his balance after 3 months, we need to convert to years. Here goes. <me>3 \text{ \cancel{months} }  \frac{1 \text{ year}}{12 \text{ \cancel{months}}} =3 \div 12= 0.05 \text{ years}</me> so <m>y = 0.05</m>. From the <alert>Future Value Annuity Formula</alert>, his balance is <me>\begin{aligned}
+			Notice that <m>p</m> now represents the regular, monthly deposit instead of the initial deposit. In either case think: <m>p</m> stands for <q>put in.</q> In Hector's situation, we have <m>p=\$\text{1,000}</m> and <m>r=4.5\% =4.5 \div 100 =0.045</m>. To check his balance after 3 months, we need to convert to years. Here goes. <me>3 \cancel{\text{ months} }  \frac{1 \text{ year}}{12 \cancel{\text{ months}}} =3 \div 12= 0.05 \text{ years}</me> so <m>y = 0.05</m>. From the <alert>Future Value Annuity Formula</alert>, his balance is <me>\begin{aligned}
 a &amp; = &amp;  p \ast \frac{\left( 1 + \frac{r}{12}\right) ^{12y}-1}{\frac{r}{12}}\\
 &amp; = &amp;    \text{1,000} \ast \frac{\left( 1 + \frac{0.045}{12}\right) ^{12\ast0.05}-1}{\frac{0.045}{12}}\\
 &amp; =  &amp;  \text{1,000} \times (( 1 + 0.045 \div 12) \wedge (12 \times 0.05)-1) \div (0.045 \div 12)\\
@@ -168,7 +168,7 @@ a &amp; = &amp;  p \ast \frac{\left( 1 + \frac{r}{12}\right) ^{12y}-1}{\frac{r}{
 		</p>
 
 		<p>
-			And how much will Hector have if he continues to save for a full 2 years? Use the <alert>Future Value Annuity Formula</alert> (now with <m>y=2</m>) to get the answer of $. Wow. He'll be buying his own house in no time. By the way, if he just stuck that $ in a shoebox under his bed (meaning earning no interest) he'd have <me>\frac{\$\text{1,000}}{\cancel{\text{month}}} \ast \frac{12 \text{ \cancel{months}}}{\text{ \cancel{years}}} \ast 2 \text{ \cancel{years}}= \text{1,000} \times 12 \times 2 = \$\text{24,000}</me> The $ in his account represents a total of $ in interest. The bank is better than the shoebox.
+			And how much will Hector have if he continues to save for a full 2 years? Use the <alert>Future Value Annuity Formula</alert> (now with <m>y=2</m>) to get the answer of $. Wow. He'll be buying his own house in no time. By the way, if he just stuck that $ in a shoebox under his bed (meaning earning no interest) he'd have <me>\frac{\$\text{1,000}}{\cancel{\text{month}}} \ast \frac{12 \cancel{\text{ months}}}{\cancel{\text{ years}}} \ast 2 \cancel{\text{ years}}= \text{1,000} \times 12 \times 2 = \$\text{24,000}</me> The $ in his account represents a total of $ in interest. The bank is better than the shoebox.
 		</p>
 
 		<p>
