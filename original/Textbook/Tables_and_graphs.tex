@@ -12,29 +12,29 @@ The table showing the smoking rate for select years.   The smoking rate is the a
 \begin{center}
 \begin{tabular} {|c| |c|c|c|c|c|c|c|c|c|c|} \hline
 Year & 1900 & 1915 & 1930 & 1940 & 1950 & 1965 & 1975 & 1990 & 2000 & 2006 \\ \hline
-Smoking rate & 54 & 285 & \text{1,485}& \text{1,976} & \text{3,552} &  \text{4,258} &  \text{4,122} &  \text{2,834} &  \text{2,049} &  \text{1,619} \\ \hline
+Smoking rate & 54 & 285 & 1,485& 1,976 & 3,552 &  4,258 &  4,122 &  2,834 &  2,049 &  1,619 \\ \hline
 \end{tabular}
 \end{center}
 \hfill \begin{footnotesize} Source:  Center for Disease Control and Prevention \end{footnotesize}
 %http://www.cdc.gov/tobacco/data_statistics/tables/economics/consumption/  
 \bigskip 
 
-To make sense of these numbers, suppose there are five friends.  Three don't smoke at all, so that is 0 cigarettes in a year.  Another smokes only occasionally, maybe 100 cigarettes a year.  The fifth smokes ``a pack a day,''  which adds up to \text{7,300} cigarettes in a year because
+To make sense of these numbers, suppose there are five friends.  Three don't smoke at all, so that is 0 cigarettes in a year.  Another smokes only occasionally, maybe 100 cigarettes a year.  The fifth smokes ``a pack a day,''  which adds up to 7,300 cigarettes in a year because
 $$\frac{1\text{ pack}}{\text{day}} \ast \frac{20\text{ cigarettes}}{\text{pack}} 
 \ast \frac{365 \text{ days}}{\text{year}} 
 =20 \times 365
 = \frac{\text{7,300 cigarettes}}{\text{year}} $$
 (Not sure about this calculation?  Not to worry.  More about unit conversions in \S1.4.) % SECTION NUMBER
-These five people smoke a total of $$0+0+0+100+\text{7,300}=\text{7,400 cigarettes per year}$$
+These five people smoke a total of $$0+0+0+100+7,300=\text{7,400 cigarettes per year}$$
 so when we divide by the number of people we get
-$$\frac{\text{7,400 cigarettes per year}}{5 \text{ people}} = \text{7,400} \div 5 = \text{1,480 cigarettes per year per person}$$
-which is less than the average of \text{1,619} cigarettes per year per person for 2006 (the last year the CDC published the data), which is the way things seem to be heading. 
+$$\frac{\text{7,400 cigarettes per year}}{5 \text{ people}} = 7,400 \div 5 = \text{1,480 cigarettes per year per person}$$
+which is less than the average of 1,619 cigarettes per year per person for 2006 (the last year the CDC published the data), which is the way things seem to be heading. 
 
-We can tell a lot of information from this table.  For example, what was the smoking rate in 1965, and how does that compare to 2006?  The answers appears in the table, a whopping \text{4,258} cigarettes per person in 1965 and \text{1,619} cigarettes per person in 2006.
+We can tell a lot of information from this table.  For example, what was the smoking rate in 1965, and how does that compare to 2006?  The answers appears in the table, a whopping 4,258 cigarettes per person in 1965 and 1,619 cigarettes per person in 2006.
 
-When did the consumption first pass \text{3,000}?  That answer does not appear in the table, but we can use the information in the table to make a good guess.  In 1940, there were an average of \text{1,976} cigarettes per person per year and by 1950, there were \text{3,552}.  Somewhere between 1940 and 1950 the number first climbed above \text{3,000}.  More specifically, the number we're looking for (\text{3,000}) is a lot closer to the 1950 figure (\text{3,552}) than to the 1940 figure (\text{1,976}).  So, it would be reasonable to guess close to 1950.  I'd say 1947.  Of course, you might guess 1946 or 1948, or even 1949 and those would be good guesses too.  
+When did the consumption first pass 3,000?  That answer does not appear in the table, but we can use the information in the table to make a good guess.  In 1940, there were an average of 1,976 cigarettes per person per year and by 1950, there were 3,552.  Somewhere between 1940 and 1950 the number first climbed above 3,000.  More specifically, the number we're looking for (3,000) is a lot closer to the 1950 figure (3,552) than to the 1940 figure (1,976).  So, it would be reasonable to guess close to 1950.  I'd say 1947.  Of course, you might guess 1946 or 1948, or even 1949 and those would be good guesses too.  
 
-When did the consumption drop below \text{3,000} again?  This answer also does not appear in the table, but falls somewhere between 1975 when consumption was \text{4,122} and 1990 when consumption was  \text{2,834} .  Here I'd guess just before 1990, say in 1989.   
+When did the consumption drop below 3,000 again?  This answer also does not appear in the table, but falls somewhere between 1975 when consumption was 4,122 and 1990 when consumption was  2,834 .  Here I'd guess just before 1990, say in 1989.   
 
 What's changing are the number of cigarettes smoked per person per year and the year.  Those are our variables.  The smoking rate is a function of year, and it's what we care about, so it's the dependent variable.  Time, as measured in years, is the independent variable.   
 \begin{center}
@@ -48,7 +48,7 @@ Quick note on how we deal with actual years.  Since the year 0 doesn't make sens
 \begin{center}
 \begin{tabular} {|c| |c|c|c|c|c|c|c|c|c|c|} \hline
 $Y$ & 0 & 15 & 30 & 40 & 50 & 65 & 75 & 90 & 100 & 106 \\ \hline
-$S$ & 54 & 285 & \text{1,485}& \text{1,976} & \text{3,552} &  \text{4,258} &  \text{4,122} &  \text{2,834} &  \text{2,049} &  \text{1,619} \\ \hline
+$S$ & 54 & 285 & 1,485& 1,976 & 3,552 &  4,258 &  4,122 &  2,834 &  2,049 &  1,619 \\ \hline
 \end{tabular}
 \end{center}
 
@@ -113,11 +113,11 @@ What we have so far is a \textbf{scatter plot} of points.  Can you see why it's 
 \scalebox {.9} {\includegraphics [width = 6in] {CigCurve.png}}
 \end{center}
 
-When we draw in this smooth curve for the graph, what we are really doing is making a whole lot of guesses all at once.  For example, from the table we guessed that the smoking rate passed  \text{3,000} in around 1947, and dropped back to that level in around 1989.  What does the graph show?  If we look where the horizontal gridline for \text{3,000} crosses our graph, it crosses in two places.  First, between the vertical gridlines for 40 and 50, and perhaps slightly closer to 50.  I'd say $Y \approx 47$, in the year 1947.  Sure.  The second time is between the gridlines for 80 and 90, much closer to 90.  Looks like $Y \approx 88$, in the year 1988. We guessed 1989.  Close enough.
+When we draw in this smooth curve for the graph, what we are really doing is making a whole lot of guesses all at once.  For example, from the table we guessed that the smoking rate passed  3,000 in around 1947, and dropped back to that level in around 1989.  What does the graph show?  If we look where the horizontal gridline for 3,000 crosses our graph, it crosses in two places.  First, between the vertical gridlines for 40 and 50, and perhaps slightly closer to 50.  I'd say $Y \approx 47$, in the year 1947.  Sure.  The second time is between the gridlines for 80 and 90, much closer to 90.  Looks like $Y \approx 88$, in the year 1988. We guessed 1989.  Close enough.
 
 Don't forget that when we drew in that curve it was really just a guess.  We're sure about the points we plotted, but we're only guessing about where to draw the curve in.  That means we're not sure about the other points.  If we knew a lot more points we could have a more accurate graph. 
 
-Turns out  more data is available from the CDC.  The full table of data from the CDC shows that consumption first topped \text{3,000} as early as 1944.  Here's an example where the history tells you more than the mathematics as cigarette consumption rose sharply during World War II.  Our guess about 1988 or 1989 was spot on.  Look at how the graph from the full data (the dotted line) compares to our guess.  
+Turns out  more data is available from the CDC.  The full table of data from the CDC shows that consumption first topped 3,000 as early as 1944.  Here's an example where the history tells you more than the mathematics as cigarette consumption rose sharply during World War II.  Our guess about 1988 or 1989 was spot on.  Look at how the graph from the full data (the dotted line) compares to our guess.  
 
 \begin{center}
 \scalebox {1.1} {\includegraphics [width = 6in] {CigCompare.png}}

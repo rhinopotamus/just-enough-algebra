@@ -29,7 +29,7 @@
 		</p>
 
 		<p>
-			For example, suppose we read that the comprehensive fee at a local university is around $ and projected to increase by 12% per year. We want to calculate the comprehensive fee in 4 years. As we'll learn later in this course, the answer is <me>\text{36,190.945}\ldots</me> The dots indicate that we have not copied all the digits from the calculator. We could round to the nearest penny and say <q>around $.</q> Or, we could round to the nearest dollar and say <q>around $36,191.</q> The numbers we are given ($ and 12%) have only two digits that matter, however, so we should actually round off and say <q>just over $.</q>
+			For example, suppose we read that the comprehensive fee at a local university is around $ and projected to increase by 12% per year. We want to calculate the comprehensive fee in 4 years. As we'll learn later in this course, the answer is <me>36,190.945\ldots</me> The dots indicate that we have not copied all the digits from the calculator. We could round to the nearest penny and say <q>around $.</q> Or, we could round to the nearest dollar and say <q>around $36,191.</q> The numbers we are given ($ and 12%) have only two digits that matter, however, so we should actually round off and say <q>just over $.</q>
 		</p>
 
 		<p>

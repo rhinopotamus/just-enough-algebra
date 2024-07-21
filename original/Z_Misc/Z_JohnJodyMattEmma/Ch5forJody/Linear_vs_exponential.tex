@@ -1,7 +1,7 @@
 
 \section{Linear vs.\ exponential models}
 
-Sof\'{i}a bought her car new for \$\text{22,500}.  Now the car is fairly old and just passed \text{109,000} miles. Sof\'{i}a looked online and estimates the car is still worth \$\text{5,700}.  She wonders when the car would be practically worthless, meaning under \$500.  
+Sof\'{i}a bought her car new for \$22,500.  Now the car is fairly old and just passed 109,000 miles. Sof\'{i}a looked online and estimates the car is still worth \$5,700.  She wonders when the car would be practically worthless, meaning under \$500.  
 
 We can describe the variables in this story.
 \begin{center}
@@ -14,8 +14,8 @@ Notice we are measuring the mileage in thousands.
 The information we are given is
 \begin{center}
 \begin{tabular} {|c| |c  |c |}\hline
-$M$ & 0 & \text{109} \\ \hline
-$C$ & \text{22,500} & \text{5,700}  \\ \hline
+$M$ & 0 & 109 \\ \hline
+$C$ & 22,500 & 5,700  \\ \hline
 \end{tabular}
 \end{center}
 But what's the equation?  Hmm.  Don't know for sure what type of equation might work here.  Tell you what, let's compare what a linear and exponential model would tell us about the value of the car.
@@ -23,68 +23,68 @@ But what's the equation?  Hmm.  Don't know for sure what type of equation might 
 %% BEGIN LINEAR HERE
 First, linear. The template is
 $$\textsc{Linear Equation Template: \quad} \text{dep} = \text{start}+\text{slope}\ast\text{indep}$$
-The starting value of Sof\'{i}a's car is \$\text{22,500} so we just need to find the slope.  We expect the slope to be negative because her car is worth less the more she drives it.
+The starting value of Sof\'{i}a's car is \$22,500 so we just need to find the slope.  We expect the slope to be negative because her car is worth less the more she drives it.
 \begin{eqnarray*}
- \text{slope} & = &\text{rate of change} = \frac{\text{change dep}}{\text{change indep}} = \frac{\$\text{5,700}-\$\text{22,500}}{109 \text{ thousand miles}} =   \frac{-\$\text{16,800}}{109\text{ thousand miles}}\\ \\
+ \text{slope} & = &\text{rate of change} = \frac{\text{change dep}}{\text{change indep}} = \frac{\$5,700-\$22,500}{109 \text{ thousand miles}} =   \frac{-\$16,800}{109\text{ thousand miles}}\\ \\
  & = & \text{(-)16,800} \div 109 = -154.1284404\ldots \approx -\$\text{154/thousand miles} \\
-\end{eqnarray*}  % JODY -- should this be the standard for slope, or should the all-at-once be:  $(\text{5,700}-\text{22,500}) \div 109=$
+\end{eqnarray*}  % JODY -- should this be the standard for slope, or should the all-at-once be:  $(5,700-22,500) \div 109=$
 \vspace{-.35in} %VSPACE
 
 \noindent
 Her car loses value at a rate of around \$154 for each thousand miles she drives.  
 
 We are ready to write the linear equation.  
-$$\textbf{linear:} \quad C = \text{22,500} - 154M$$  
+$$\textbf{linear:} \quad C = 22,500 - 154M$$  
 As usual we wrote subtract, instead of adding the negative slope.
-Quick check -- when $M=109$ we get $$C =  \text{22,500} - 154\ast 109 =  \text{22,500} - 154\times \underline{109}= \text{5,714} \approx \$\text{5,700} \quad \checkmark$$
+Quick check -- when $M=109$ we get $$C =  22,500 - 154\ast 109 =  22,500 - 154\times \underline{109}= 5,714 \approx \$5,700 \quad \checkmark$$
 Remember we don't expect the exact answer because we rounded off the slope.  
 
 When will Sof\'{i}a's car be worth under \$500 according to this linear equation?  Let's solve the equation to find out.  When $C=500$, use our linear equation to get  % Do I need to comment that we're not showing every single step?  Tell them:  Fill in the details. ??
-$$ \text{22,500} - 154M =500$$
-Subtract \text{22,500} from each side and simplify to get
-$$-154M= -\text{22,000}$$
+$$ 22,500 - 154M =500$$
+Subtract 22,500 from each side and simplify to get
+$$-154M= -22,000$$
 %Two negatives too negative for you?  Not to worry.  Just go ahead and  % Seems to babyish for end of course
  Now divide each side by -154 and simplify to get
-$$M = \frac{-\text{22,000}}{-154} = \text{(-) 22,000} \div  \text{(-)}154= 142.738095\ldots \approx 143$$
-According to the linear equation, Sof\'{i}a's car will be worth under \$500 at about \text{143,000} miles.  Since her car already has \text{109,000} miles on it, that means in another $\text{143,000}-\text{109,000} = \text{34,000 miles}$.  For a typical driver that's two or three more years.
+$$M = \frac{-22,000}{-154} = \text{(-) 22,000} \div  \text{(-)}154= 142.738095\ldots \approx 143$$
+According to the linear equation, Sof\'{i}a's car will be worth under \$500 at about 143,000 miles.  Since her car already has 109,000 miles on it, that means in another $143,000-109,000 = \text{34,000 miles}$.  For a typical driver that's two or three more years.
 
 % BEGIN EXPONENTIAL HERE
 Next, let's take a look at the exponential model.  Here goes.  The template is $$\textsc{Exponential Equation Template:} \quad \text{dep }=\text{ start } \ast \text{growth factor}^{\text{indep}}$$
-We know everything except the growth factor.   We expect it to be less than 1 because her car is worth less the more she drives it.  Perhaps we should say ``decay'' factor here since the function is decreasing. The starting amount is $s=\text{22,500}$ and the ending amount is $a=\text{5,700}$ after $t=109$ thousand miles.  By the  \textsc{Growth Factor Formula} we have
-$$g = \sqrt[t]{\frac{a}{s}} = \sqrt[109]{\frac{\text{5,700}}{\text{22,500}}}
-= 109  \sqrt[x]{\text{\raisebox{.6em}{~\text{  }}}}( \text{5,700} \div \text{22,500})= 0.98748222\ldots \approx .9875$$
+We know everything except the growth factor.   We expect it to be less than 1 because her car is worth less the more she drives it.  Perhaps we should say ``decay'' factor here since the function is decreasing. The starting amount is $s=22,500$ and the ending amount is $a=5,700$ after $t=109$ thousand miles.  By the  \textsc{Growth Factor Formula} we have
+$$g = \sqrt[t]{\frac{a}{s}} = \sqrt[109]{\frac{5,700}{22,500}}
+= 109  \sqrt[x]{\text{\raisebox{.6em}{~\text{  }}}}( 5,700 \div 22,500)= 0.98748222\ldots \approx .9875$$
 
 We are ready to write the exponential equation.  
-$$\textbf{exponential:} \quad C = \text{22,500} \ast .9875^M$$
-Quick check -- when $M=109$ we get $$C =  \text{22,500} \ast .9875^{109} =  \text{22,500} \times .9875 \wedge\underline{109}= 5711.19365\ldots \approx \$\text{5,700} \quad \checkmark$$
+$$\textbf{exponential:} \quad C = 22,500 \ast .9875^M$$
+Quick check -- when $M=109$ we get $$C =  22,500 \ast .9875^{109} =  22,500 \times .9875 \wedge\underline{109}= 5711.19365\ldots \approx \$5,700 \quad \checkmark$$
 Again, we don't expect the exact answer because we rounded off the decay factor.  
 
 When will Sof\'{i}a's car be worth under \$500 according to this exponential equation?  Let's solve the equation to find out.  When $C=500$, use our exponential equation to get  % Do I need to comment that we're not showing every single step?  Tell them:  Fill in the details. ??
-$$ \text{22,500} \ast .9875^M =500$$
-Divide each side by \text{22,500} and simplify to get
-$$.9875^M= \frac{500}{\text{22,500}} = 500 \div \text{22,500} = .02222222\ldots$$
+$$ 22,500 \ast .9875^M =500$$
+Divide each side by 22,500 and simplify to get
+$$.9875^M= \frac{500}{22,500} = 500 \div 22,500 = .02222222\ldots$$
 By the \textsc{The Log-Divides Formula} with growth factor $g=.9875$ and the value $v= .02222222$ we get 
 $$M =  \frac{\log (v)}{\log(g)}=  \frac{\log (.022222222)}{\log(.9875)} =  \log (.02222222) \div \log (.9875) = 302.6256856 \approx 300$$
-According to the exponential equation, Sof\'{i}a's car will be worth under \$500 at about \text{300,000} miles.  Hard to imagine the car would last that long.  Essentially the exponential model says the car will always be worth at least \$500, if only for parts, I guess.  Quite different from our answer from the linear equation.
+According to the exponential equation, Sof\'{i}a's car will be worth under \$500 at about 300,000 miles.  Hard to imagine the car would last that long.  Essentially the exponential model says the car will always be worth at least \$500, if only for parts, I guess.  Quite different from our answer from the linear equation.
 
 %COMPARING LINEAR VS EXPONENTIAL HERE
 Time to compare models.  Which one makes more sense?  First things first, the car already has a lot of miles on it.  Don't know what make or model the car is, but another couple of years seems a reasonable time until is worth under \$500.  That's what the linear  equation projects.  On the other hand, the exponential model project it will hold that value for a long time, essentially for parts.  That makes sense too.
 
-Wait a minute.  Does a car lose the same value for each thousand miles it's driven?  That's what it means to be linear. Every thousand miles, same decrease.  Nah, that's not right.  Once the car is old, another \text{1,000} miles or so probably won't affect the value at all. Also, when a car is new, once you drive it off the lot and then that strange vinyl smell wears off and it's officially ``used,'' the car is worth a lot less.  Even if it hasn't been driven much at all. What would each model say the car was worth soon after Sof\'{i}a bought it, say with \text{10,000} miles on it? With $M=10$, the estimates are
- $$\textbf{linear:} \quad C =  \text{22,500} - 154 \ast 10 = \text{22,500} - 154 \times \underline{10} = \$\text{20,960}$$ 
-$$\textbf{exponential:} \quad C=  \text{22,500} \ast .9875^{10}=  \text{22,500} \times .9875 \wedge\underline{10}
+Wait a minute.  Does a car lose the same value for each thousand miles it's driven?  That's what it means to be linear. Every thousand miles, same decrease.  Nah, that's not right.  Once the car is old, another 1,000 miles or so probably won't affect the value at all. Also, when a car is new, once you drive it off the lot and then that strange vinyl smell wears off and it's officially ``used,'' the car is worth a lot less.  Even if it hasn't been driven much at all. What would each model say the car was worth soon after Sof\'{i}a bought it, say with 10,000 miles on it? With $M=10$, the estimates are
+ $$\textbf{linear:} \quad C =  22,500 - 154 \ast 10 = 22,500 - 154 \times \underline{10} = \$20,960$$ 
+$$\textbf{exponential:} \quad C=  22,500 \ast .9875^{10}=  22,500 \times .9875 \wedge\underline{10}
 %= \text{19,840.543\ldots}
- \approx \$\text{19,841}$$
+ \approx \$19,841$$
 The lower value, from the exponential equation, seems more reasonable.
 
-Here are a few more values and the graph. The graph is shows both the line and exponential curve have intercept just over \$\text{22,000}, which should be \$\text{22,500}.  The line and curve intersect again between \text{100,000} and \text{120,000} miles (close to the exact mileage of \text{109,000}) at right under \$\text{6,000} (close to the exact value of \$\text{5,700}).
+Here are a few more values and the graph. The graph is shows both the line and exponential curve have intercept just over \$22,000, which should be \$22,500.  The line and curve intersect again between 100,000 and 120,000 miles (close to the exact mileage of 109,000) at right under \$6,000 (close to the exact value of \$5,700).
 \begin{center}
 \begin{tabular} {|c| |c |c |c |c |c |c |c|}\hline
 $M$ & 0 & 10 & 50 & 80 & 109 & 200 & 250\\ \hline
-$C$ (if linear) & \text{22,500} & \text{20,960} & \text{14,800} & \text{10,180} 
-& \text{5,714} & \cancel{- \text{8,300}} & \cancel{-\text{16,000}} \\ \hline
-$C$ (if exponential) &  \text{22,500} & \text{19,841} & \text{11,996} & \text{8,225}
-& \text{5,711} & \text{1,818} & \text{969}\\ \hline
+$C$ (if linear) & 22,500 & 20,960 & 14,800 & 10,180 
+& 5,714 & \cancel{- 8,300} & \cancel{-16,000} \\ \hline
+$C$ (if exponential) &  22,500 & 19,841 & 11,996 & 8,225
+& 5,711 & 1,818 & 969\\ \hline
 \end{tabular}
 \end{center}
 \begin{center}

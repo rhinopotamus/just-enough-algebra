@@ -8,7 +8,7 @@
 	<exercise xml:id="truck-grass-first-look-linear" workspace="0.75in"> 
 		<introduction>
 			<p>
-				A truck hauling bags of grass seed pulls into a weigh station along the highway. Trucks are weighed to determine the amount of highway tax. This particular truck weighs pounds when it is empty. Each bag of grass seed it carries weighs 4.2 pounds. For example, a truck is carrying bags of grass seed weighs <me>\text{3,900 pounds } + \frac{4.2 \text{ pounds}}{\text{bag}} \ast \text{1,000  bags} = \text{3,900} + 4.2\times\text{1,000}=\text{8,100 pounds}</me> In official trucking lingo, we say the <term>curb weight</term> of pounds plus the <term>load weight</term> of pounds results in a <term>gross weight</term> of pounds. So, now you know. 
+				A truck hauling bags of grass seed pulls into a weigh station along the highway. Trucks are weighed to determine the amount of highway tax. This particular truck weighs pounds when it is empty. Each bag of grass seed it carries weighs 4.2 pounds. For example, a truck is carrying bags of grass seed weighs <me>\text{3,900 pounds } + \frac{4.2 \text{ pounds}}{\text{bag}} \ast \text{1,000  bags} = 3,900 + 4.2\times1,000=\text{8,100 pounds}</me> In official trucking lingo, we say the <term>curb weight</term> of pounds plus the <term>load weight</term> of pounds results in a <term>gross weight</term> of pounds. So, now you know. 
 				<em>
                     (Story also appears in
                     <xref ref="truck-grass-arithmetic-operations" />,  

@@ -58,7 +58,7 @@
 	</p>
 
 	<p>
-		Last, we need to convert to miles. Turns out that <me>1 \text{ mile} = \text{5,280 feet}</me> and so 
+		Last, we need to convert to miles. Turns out that <me>1 \text{ mile} = 5,280 \text{ feet}</me> and so 
 		<me>
 			\frac{51,971.04 \cancel{\text{ feet}}}{\text{hour}}
 			\ast  \frac{1 \text{ mile}}{\cancel{\text{ feet}}} 
@@ -78,7 +78,7 @@
 			\ast \frac{60 \cancel{\text{ minutes}}}{1\text{ hour}}
 			\ast \frac{1 \text{ mile}}{5,280\cancel{\text{ feet}}}
 		</me> 
-		<me>= 4.4 \times 3.281 \times 60 \times 60 \div \text{5,280} = 9.843 \text{ mph} \approx 10 \text{ mph}.</me>
+		<me>= 4.4 \times 3.281 \times 60 \times 60 \div 5,280 = 9.843 \text{ mph} \approx 10 \text{ mph}.</me>
 	</p>
 
 	<p>
@@ -97,6 +97,65 @@
 	<p>
 		If you're having trouble setting up unit conversions, remember to write down the units so you can see how they cancel. If you can't remember a number for a unit conversion, like feet for one mile, try searching online.
 	</p>
+	<subsection xml:id="dyk-units">
+		<title>Do you know ...</title>
+		<p><ul>
+			<li>
+				<p>
+					How to convert from one unit of measurement to another?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					What a unit conversion fraction is?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					Why multiplying by a unit conversion fraction doesn't change the amount, just the units?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					How to connect repeated conversions into one calculation?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					Why if we convert an amount to a larger unit, we use a smaller number?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					How many seconds in a minute, minutes in an hour, hours in a day, days in a year, inches in a foot, feet in a mile, and other common conversions?
+				</p>
+			
+				<p>
+					<em>Ask your instructor which common conversions you need to remember, and whether any conversion formulas will be provided during the exam.</em>
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					How to convert between English and metric measurements?
+				</p>
+			
+				<p>
+					<em>Again, ask your instructor which metric conversions you need to remember, and whether any conversion formulas will be provided during the exam.</em>
+				</p>
+			</li>
+	
+		</ul></p>
+		<xi:include href="./NotSure.ptx" />
+		
+	</subsection>
+
+	<xi:include href="./homework/ex-Units.ptx" />
 
 
 </section>

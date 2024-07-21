@@ -7,7 +7,7 @@ Even families earning above minimum can struggle to rent an apartment for less t
 
  \hfill \begin{footnotesize} Source:  U.S. Department of Housing and Urban Development \end{footnotesize} % Source used U.S. Department of Housing and Urban Development (HUD) retreived from http://www.hud.gov/offices/cpd/affordablehousing/ on June 20, 2012
 
-In our city there are about \text{64,100} apartments considered affordable.  So the city partnered with local developers to build \text{7,800} more apartments each year.    Our variables are
+In our city there are about 64,100 apartments considered affordable.  So the city partnered with local developers to build 7,800 more apartments each year.    Our variables are
 \begin{center}
 \begin{tabular} {l} 
 $A=$ affordable housing (apartments) $\sim$ dep \\
@@ -15,48 +15,48 @@ $Y=$ time (years from now) $\sim$ indep \\
 \end{tabular}
 \end{center}
 Assuming things proceed as planned, after 5 years there would be 
-$$\text{64,100 apts } + 5 \text{ years} \ast \frac{\text{7,800 apts}}{\text{year}}=\text{64,100}+\underline{5} \times \text{7,800} =  \text{103,100} \text{ apartments}$$
-Generalizing, we get our equation $$\text{64,100}+Y\ast \text{7,800} =  A$$
-which can be rewritten as $$A = \text{64,100} + \text{7,800}Y$$
+$$\text{64,100 apts } + 5 \text{ years} \ast \frac{\text{7,800 apts}}{\text{year}}=64,100+\underline{5} \times 7,800 =  103,100 \text{ apartments}$$
+Generalizing, we get our equation $$64,100+Y\ast 7,800 =  A$$
+which can be rewritten as $$A = 64,100 + 7,800Y$$
 This equation fits our template for a linear equation 
 $$\text{dep }=\text{ start } + \text{slope} \ast {\text{indep}}$$
 
-Quick recap.  A function is \textbf{linear} if its graph is a line, and \textbf{nonlinear} otherwise.  The rate of change measures the steepness of the graph for any function, but a line is the same steepness everywhere, so the rate of change, or \textbf{slope} of a line is constant.   Our example is linear because the slope of \text{7,800} apartments per year is constant.  Our starting or fixed amount is the \textbf{intercept}.  In our example it's  \text{64,100} apartments.  The dependent variable and the intercept always have the same units -- apartments in our example.  But $$\text{units for slope} =\frac{\text{units for dep}}{\text{units for indep}}$$ so, in our example slope is measured in apartments \emph{per year}.
+Quick recap.  A function is \textbf{linear} if its graph is a line, and \textbf{nonlinear} otherwise.  The rate of change measures the steepness of the graph for any function, but a line is the same steepness everywhere, so the rate of change, or \textbf{slope} of a line is constant.   Our example is linear because the slope of 7,800 apartments per year is constant.  Our starting or fixed amount is the \textbf{intercept}.  In our example it's  64,100 apartments.  The dependent variable and the intercept always have the same units -- apartments in our example.  But $$\text{units for slope} =\frac{\text{units for dep}}{\text{units for indep}}$$ so, in our example slope is measured in apartments \emph{per year}.
 These units can help you identify the slope and intercept in a story -- so keep a look out.
 
-How many years will it take the city to reach \text{150,000} apartments at this rate?  After ten years, for example, there would still not be enough affordable apartments because $$A = \text{64,100}+\text{7,800} \ast 10 = \text{64,100}+  \text{7,800}\times \underline{10}=  \text{142,100} \text{ apartments}$$
+How many years will it take the city to reach 150,000 apartments at this rate?  After ten years, for example, there would still not be enough affordable apartments because $$A = 64,100+7,800 \ast 10 = 64,100+  7,800\times \underline{10}=  142,100 \text{ apartments}$$
 Continuing successive approximation we get
 \begin{center}
 \begin{tabular} {|c| |c |c |c |c |c|}\hline
 $Y$ & 0 & 5 & 10 & 11 & 12\\ \hline
-$A$ & \text{64,100} & \text{103,100} & \text{142,100} & \text{149,900} & \text{157,700} \\ \hline
-vs.\ \text{150,000}& low & low & low & low& high\\ \hline
+$A$ & 64,100 & 103,100 & 142,100 & 149,900 & 157,700 \\ \hline
+vs.\ 150,000& low & low & low & low& high\\ \hline
 \end{tabular}
 \end{center}
-This city will reach \text{150,000} affordable apartments within 12 years.
+This city will reach 150,000 affordable apartments within 12 years.
 
-Of course, we could solve a linear equation instead.  We want $A=\text{150,000}$.  
-Using our equation $A=\text{64,100} + \text{7,800} Y$ we get
-$$ \text{64,100} + \text{7,800}Y = \text{150,000}$$
-However, since we want \emph{at least} \text{150,000} affordable apartments, an inequality is even better.  Let's practice that.
- $$ \text{64,100} + \text{7,800}Y \ge \text{150,000}$$
- Subtract \text{64,100} from each side to get
+Of course, we could solve a linear equation instead.  We want $A=150,000$.  
+Using our equation $A=64,100 + 7,800 Y$ we get
+$$ 64,100 + 7,800Y = 150,000$$
+However, since we want \emph{at least} 150,000 affordable apartments, an inequality is even better.  Let's practice that.
+ $$ 64,100 + 7,800Y \ge 150,000$$
+ Subtract 64,100 from each side to get
   \begin{eqnarray*}
-\cancel{\text{64,100}} + \text{7,800}Y & \ge &\text{150,000}  \\
--\cancel{\text{64,100}} \hspace{.6 in} & & -\text{64,100}  \\ % SU awkward to use hspace!
+\cancel{64,100} + 7,800Y & \ge &150,000  \\
+-\cancel{64,100} \hspace{.6 in} & & -64,100  \\ % SU awkward to use hspace!
 \end{eqnarray*}
 \vspace{-.5in} %VSPACE
 
-\noindent which simplifies to $$ \text{7,800}Y\ge \text{85,900}$$
-Divide each side by \text{7,800} to get
-$$\frac{\cancel{\text{7,800}}~Y}{\cancel{\text{7,800}}} \ge \frac{\text{85,900}}{\text{7,800}}$$
-which simplifies to $$Y \ge   \frac{\text{85,900}}{\text{7,800}} = \text{85,900} \div \text{7,800} = 11.0128205...$$
+\noindent which simplifies to $$ 7,800Y\ge 85,900$$
+Divide each side by 7,800 to get
+$$\frac{\cancel{7,800}~Y}{\cancel{7,800}} \ge \frac{85,900}{7,800}$$
+which simplifies to $$Y \ge   \frac{85,900}{7,800} = 85,900 \div 7,800 = 11.0128205...$$
 To be sure $Y \ge 11.0128205...$ we need to round up to get $$Y \ge 12$$
 
 Let's confirm our findings on the graph.
 \begin{center}
 \scalebox {.8} {\includegraphics [width = 6in] {apartments.png}}
 \end{center}
-As expected, the graph is a line.  And we see that the city should reach its goal of \text{150,000} affordable apartments in 12 years, or slightly before then.
+As expected, the graph is a line.  And we see that the city should reach its goal of 150,000 affordable apartments in 12 years, or slightly before then.
 
  \input{../Homework/Modeling_linear_equationsEX.tex}

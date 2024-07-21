@@ -192,7 +192,7 @@
 					
 										<li>
 														<p>
-															maybe <m>0 \le M \le \text{250,000}</m>
+															maybe <m>0 \le M \le 250,000</m>
 														</p>
 										</li>
 					
@@ -940,7 +940,7 @@
 									<p><ol>
 										<li>
 														<p>
-															<m>\approx 11</m> days, <m>\approx 32</m> years, <m>\approx \text{32,000}</m> years
+															<m>\approx 11</m> days, <m>\approx 32</m> years, <m>\approx 32,000</m> years
 														</p>
 										</li>
 					
@@ -1124,7 +1124,7 @@
 					
 										<li>
 														<p>
-															<m>A=</m> Abduwali's profit ($) <m>\sim</m> dep<!-- linebreak --><m>M=</m> time (months) <m>\sim</m> indep<!-- linebreak --><m>A = \text{6,300}M-\text{82,500}</m>
+															<m>A=</m> Abduwali's profit ($) <m>\sim</m> dep<!-- linebreak --><m>M=</m> time (months) <m>\sim</m> indep<!-- linebreak --><m>A = 6,300M-82,500</m>
 														</p>
 										</li>
 					
@@ -1249,7 +1249,7 @@
 					
 										<li>
 														<p>
-															<m>B = \text{1,466,000}-\text{16,000}Y</m>
+															<m>B = 1,466,000-16,000Y</m>
 														</p>
 										</li>
 					
@@ -1278,7 +1278,7 @@
 									<p><ol>
 										<li>
 														<p>
-															<m>C=</m> traffic (cars/hour)<m>\sim</m> dep<!-- linebreak --><m>W=</m> time (weeks) <m>\sim</m> indep<!-- linebreak --><m>C = \text{1,450} + 130W</m>
+															<m>C=</m> traffic (cars/hour)<m>\sim</m> dep<!-- linebreak --><m>W=</m> time (weeks) <m>\sim</m> indep<!-- linebreak --><m>C = 1,450 + 130W</m>
 														</p>
 										</li>
 					
@@ -1454,7 +1454,7 @@
 					
 										<li>
 														<p>
-															<m>Y=</m> time (years since 2010) <m>\sim</m> indep<!-- linebreak --><m>C=</m> number of children from single parent households <m>\sim</m> dep<!-- linebreak --><m>C = \text{1,290} \ast 1.03^Y</m>
+															<m>Y=</m> time (years since 2010) <m>\sim</m> indep<!-- linebreak --><m>C=</m> number of children from single parent households <m>\sim</m> dep<!-- linebreak --><m>C = 1,290 \ast 1.03^Y</m>
 														</p>
 										</li>
 					
@@ -3086,13 +3086,13 @@
 									<p><ol>
 										<li>
 														<p>
-															<m>A=\text{64,100}+\text{6,200}Y</m><!-- linebreak -->14 years
+															<m>A=64,100+6,200Y</m><!-- linebreak -->14 years
 														</p>
 										</li>
 					
 										<li>
 														<p>
-															<m>A=\text{48,700}+\text{6,200}Y</m><!-- linebreak -->17 years
+															<m>A=48,700+6,200Y</m><!-- linebreak -->17 years
 														</p>
 										</li>
 					
@@ -3983,7 +3983,7 @@
 					
 										<li>
 														<p>
-															<m>Y=</m> time (years since 2008) <m>\sim</m> indep<!-- linebreak --><m>M=</m> median household income ($) <m>\sim</m> dep<!-- linebreak --><m>M = \text{50,303}-429Y</m>
+															<m>Y=</m> time (years since 2008) <m>\sim</m> indep<!-- linebreak --><m>M=</m> median household income ($) <m>\sim</m> dep<!-- linebreak --><m>M = 50,303-429Y</m>
 														</p>
 										</li>
 					
@@ -4130,7 +4130,7 @@
 					
 										<li>
 														<p>
-															<m>W = \text{4,296}-65.17T</m>
+															<m>W = 4,296-65.17T</m>
 														</p>
 										</li>
 					
@@ -4606,7 +4606,7 @@
 					
 										<li>
 														<p>
-															<m>B=\text{2,000} \ast 3^D</m>
+															<m>B=2,000 \ast 3^D</m>
 														</p>
 										</li>
 					
@@ -4641,7 +4641,7 @@
 									<p><ol>
 										<li>
 														<p>
-															<m>Y=</m> time (years since he bought house <m>\sim</m> indep<!-- linebreak --><m>H=</m> value of Tenzin's house ($) <m>\sim</m> dep<!-- linebreak --><m>H=\text{291,900} \ast .959^Y</m>
+															<m>Y=</m> time (years since he bought house <m>\sim</m> indep<!-- linebreak --><m>H=</m> value of Tenzin's house ($) <m>\sim</m> dep<!-- linebreak --><m>H=291,900 \ast .959^Y</m>
 														</p>
 										</li>
 					
@@ -4705,7 +4705,7 @@
 					
 										<li>
 														<p>
-															<m>H=</m> population Hibbing (people) <m>\sim</m> dep<!-- linebreak --><m>Y=</m> time (years since 2000) <m>\sim</m> indep<!-- linebreak --><m>H = \text{17,071} \ast .996^Y</m>
+															<m>H=</m> population Hibbing (people) <m>\sim</m> dep<!-- linebreak --><m>Y=</m> time (years since 2000) <m>\sim</m> indep<!-- linebreak --><m>H = 17,071 \ast .996^Y</m>
 														</p>
 										</li>
 					
@@ -4732,7 +4732,7 @@
 					
 										<li>
 														<p>
-															<m>L=\text{3,400} \ast 1.35^T</m>
+															<m>L=3,400 \ast 1.35^T</m>
 														</p>
 										</li>
 					
@@ -4957,7 +4957,7 @@
 					
 										<li>
 														<p>
-															<m>M=</m> time (months) <m>\sim</m> indep<!-- linebreak --><m>U=</m> number of unemployed adults <m>\sim</m> dep<!-- linebreak --><m>U = \text{20,517} \ast 1.0665051^M</m>
+															<m>M=</m> time (months) <m>\sim</m> indep<!-- linebreak --><m>U=</m> number of unemployed adults <m>\sim</m> dep<!-- linebreak --><m>U = 20,517 \ast 1.0665051^M</m>
 														</p>
 										</li>
 					
@@ -5205,7 +5205,7 @@
 									<p><ol>
 										<li>
 														<p>
-															<m>H=17+\text{11,501}Y</m><!-- linebreak --><m>\approx</m> cars sold
+															<m>H=17+11,501Y</m><!-- linebreak --><m>\approx</m> cars sold
 														</p>
 										</li>
 					

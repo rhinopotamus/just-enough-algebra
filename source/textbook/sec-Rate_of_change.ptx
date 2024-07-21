@@ -39,12 +39,12 @@
 	</p>
 
 
-	<tabular bottom="minor" top="minor">
-		<row left="minor" class="odd">
-			<cell right="minor" halign="left"><m>H=</m> diver's height (meters) <m>\sim</m> dep</cell>
+	<tabular >
+		<row class="odd">
+			<cell halign="left"><m>H=</m> diver's height (meters) <m>\sim</m> dep</cell>
 		</row>
-		<row left="minor" class="even">
-			<cell right="minor" halign="left"><m>T=</m> time (seconds) <m>\sim</m> indep</cell>
+		<row class="even">
+			<cell halign="left"><m>T=</m> time (seconds) <m>\sim</m> indep</cell>
 		</row>
 	</tabular>
 
@@ -164,4 +164,48 @@
 	<p>
 		When does the diver's height stop increasing and start decreasing? When she's at the highest height, some time just before 0.6 seconds into her dive. Before then her rate of change is positive. After that time her rate of change is negative. So, at the highest height her rate of change is probably equal to zero. Does that make sense? Think about watching a diver on film in very slow motion. Up, up she goes, then almost a pause at the top, and then down, down, into the water. At the top of her dive it's as if she stands still for an instant. That would correspond to zero speed.
 	</p>
+	<subsection xml:id="dyk-rate-of-change">
+		<title>Do you know ...</title>
+		<p><ul>
+			<li>
+				<p>
+					How to calculate rate of change between two points? <em>Ask your instructor if you need to remember the formula or if it will be provided during the exam.</em>
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					What the rate of change means in the story?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					How we can use the rate of change to estimate values?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					When a function is increasing or decreasing, and the connection to the rate of change?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					Why the rate of change is zero at the maximum (or minimum) value of a function?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					What the connection is between rate of change and the steepness of the graph?
+				</p>
+			</li>
+	
+		</ul></p>
+		<xi:include href="./NotSure.ptx" />
+		
+	</subsection>
+	<xi:include href="./homework/ex-Rate_of_change.ptx" />
 </section>

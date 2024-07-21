@@ -154,7 +154,7 @@
 		</row>
 		<row left="minor" class="odd">
 			<cell right="minor" halign="center"><m>F</m> (<term>exponential</term>)</cell>
-			<cell right="minor" halign="center"><m>\cancel{\approx \text{59,000}}</m></cell>
+			<cell right="minor" halign="center"><m>\cancel{\approx 59,000}</m></cell>
 			<cell right="minor" halign="center"><m>\cancel{\approx \text{22 million}}</m></cell>
 			<cell right="minor" halign="center"><m>\cancel{\approx 1.35 \times 10^{33}}</m></cell>
 		</row>

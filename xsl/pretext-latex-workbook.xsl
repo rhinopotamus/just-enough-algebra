@@ -95,6 +95,7 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
 
 <!-- make it so chapters get a pagebreak -->
 <!-- look for <xsl:text>\newpage&#xa;</xsl:text> -->
+<!-- Should see whether this works with <introduction>s in the textbook -->
 <xsl:template match="chapter" mode="environment">
     <!-- for specialized divisions we always make a numbered -->
     <!-- and unnumbered version, with the latter happening   -->
@@ -161,18 +162,12 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
 </xsl:template>
 
 <!-- aside formatting  -->
+<!-- this could work for all aside-like -->
+<!-- but I only use aside -->
 <xsl:template match="aside" mode="environment">
-    <!-- Names of various pieces use the element name -->
-    <xsl:variable name="environment-name">
-        <xsl:value-of select="local-name(.)"/>
-    </xsl:variable>
-    <xsl:text>%% </xsl:text>
-    <xsl:value-of select="$environment-name"/>
-    <xsl:text>: un-numbered margin note&#xa;</xsl:text>
+    <xsl:text>%% aside: un-numbered margin note&#xa;</xsl:text>
     <xsl:text>\usepackage{marginnote}&#xa;</xsl:text>
-    <xsl:text>\tcbset{ </xsl:text>
-    <xsl:value-of select="$environment-name"/>
-    <xsl:text>style/.style={&#xa;</xsl:text>
+    <xsl:text>\tcbset{ asidestyle/.style={&#xa;</xsl:text>
     <xsl:text>enhanced jigsaw, size=fbox,&#xa;</xsl:text>
     <xsl:text>colframe=black, colback=white,&#xa;</xsl:text>
     <xsl:text>boxrule=1pt, leftrule=0pt, rightrule=0pt,&#xa;</xsl:text>

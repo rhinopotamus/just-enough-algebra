@@ -39,14 +39,14 @@
 			<cell right="minor" halign="center">Smoking rate</cell>
 			<cell right="minor" halign="center">54</cell>
 			<cell right="minor" halign="center">285</cell>
-			<cell right="minor" halign="center"></cell>
-			<cell right="minor" halign="center"></cell>
-			<cell right="minor" halign="center"></cell>
-			<cell right="minor" halign="center"></cell>
-			<cell right="minor" halign="center"></cell>
-			<cell right="minor" halign="center"></cell>
-			<cell right="minor" halign="center"></cell>
-			<cell right="minor" halign="center"></cell>
+			<cell right="minor" halign="center">1,485</cell>
+			<cell right="minor" halign="center">1,976</cell>
+			<cell right="minor" halign="center">3,552</cell>
+			<cell right="minor" halign="center">4,258</cell>
+			<cell right="minor" halign="center">4,122</cell>
+			<cell right="minor" halign="center">2,834</cell>
+			<cell right="minor" halign="center">2,049</cell>
+			<cell right="minor" halign="center">1,619</cell>
 		</row>
 	</tabular>
 
@@ -57,22 +57,22 @@
 	</aside>
 
 	<p>
-		To make sense of these numbers, suppose there are five friends. Three don't smoke at all, so that is 0 cigarettes in a year. Another smokes only occasionally, maybe 100 cigarettes a year. The fifth smokes <q>a pack a day,</q> which adds up to cigarettes in a year because <me>\frac{1\text{ pack}}{\text{day}} \ast \frac{20\text{ cigarettes}}{\text{pack}} 
+		To make sense of these numbers, suppose there are five friends. Three don't smoke at all, so that is 0 cigarettes in a year. Another smokes only occasionally, maybe 100 cigarettes a year. The fifth smokes <q>a pack a day,</q> which adds up to 7,300 cigarettes in a year because <me>\frac{1\text{ pack}}{\text{day}} \ast \frac{20\text{ cigarettes}}{\text{pack}} 
 \ast \frac{365 \text{ days}}{\text{year}} 
 =20 \times 365
-= \frac{\text{7,300 cigarettes}}{\text{year}}</me> (Not sure about this calculation? Not to worry. More about unit conversions in §1.4.) These five people smoke a total of <me>0+0+0+100+\text{7,300}=\text{7,400 cigarettes per year}</me> so when we divide by the number of people we get <me>\frac{\text{7,400 cigarettes per year}}{5 \text{ people}} = \text{7,400} \div 5 = \text{1,480 cigarettes per year per person}</me> which is less than the average of cigarettes per year per person for 2006 (the last year the CDC published the data), which is the way things seem to be heading.
+= \frac{7,300 \text{ cigarettes}}{\text{year}}</me> (Not sure about this calculation? Not to worry. More about unit conversions in §1.4.) These five people smoke a total of <me>0+0+0+100+7,300=7,400 \text{ cigarettes per year}</me> so when we divide by the number of people we get <me>\frac{7,400 \text{ cigarettes per year}}{5 \text{ people}} = 7,400 \div 5 =1,480 \text{ cigarettes per year per person}</me> which is less than the average of 1,619 cigarettes per year per person for 2006 (the last year the CDC published the data), which is the way things seem to be heading.
 	</p>
 
 	<p>
-		We can tell a lot of information from this table. For example, what was the smoking rate in 1965, and how does that compare to 2006? The answers appears in the table, a whopping cigarettes per person in 1965 and cigarettes per person in 2006.
+		We can tell a lot of information from this table. For example, what was the smoking rate in 1965, and how does that compare to 2006? The answers appears in the table, a whopping 4,258 cigarettes per person in 1965 and 1,619 cigarettes per person in 2006.
 	</p>
 
 	<p>
-		When did the consumption first pass ? That answer does not appear in the table, but we can use the information in the table to make a good guess. In 1940, there were an average of cigarettes per person per year and by 1950, there were . Somewhere between 1940 and 1950 the number first climbed above . More specifically, the number we're looking for () is a lot closer to the 1950 figure () than to the 1940 figure (). So, it would be reasonable to guess close to 1950. I'd say 1947. Of course, you might guess 1946 or 1948, or even 1949 and those would be good guesses too.
+		When did the consumption first pass 3,000? That answer does not appear in the table, but we can use the information in the table to make a good guess. In 1940, there were an average of 1,976 cigarettes per person per year and by 1950, there were 3,552. Somewhere between 1940 and 1950 the number first climbed above 3,000. More specifically, the number we're looking for (3,000) is a lot closer to the 1950 figure (3,552) than to the 1940 figure (1,976). So, it would be reasonable to guess close to 1950. I'd say 1947. Of course, you might guess 1946 or 1948, or even 1949 and those would be good guesses too.
 	</p>
 
 	<p>
-		When did the consumption drop below again? This answer also does not appear in the table, but falls somewhere between 1975 when consumption was and 1990 when consumption was . Here I'd guess just before 1990, say in 1989.
+		When did the consumption drop below 3,000 again? This answer also does not appear in the table, but falls somewhere between 1975 when consumption was 4,122 and 1990 when consumption was 2,834. Here I'd guess just before 1990, say in 1989.
 	</p>
 
 	<p>
@@ -80,12 +80,12 @@
 	</p>
 
 
-	<tabular bottom="minor" top="minor">
-		<row left="minor" class="odd">
-			<cell right="minor" halign="left"><m>S=</m> smoking rate (cigarettes per year per person) <m>\sim</m> dep</cell>
+	<tabular>
+		<row >
+			<cell  halign="left"><m>S=</m> smoking rate (cigarettes per year per person) <m>\sim</m> dep</cell>
 		</row>
-		<row left="minor" class="even">
-			<cell right="minor" halign="left"><m>Y=</m> year (years since 1900) <m>\sim</m> indep</cell>
+		<row >
+			<cell halign="left"><m>Y=</m> year (years since 1900) <m>\sim</m> indep</cell>
 		</row>
 	</tabular>
 
@@ -97,29 +97,29 @@
 	<tabular bottom="minor" top="minor">
 		<row left="minor" class="odd">
 			<cell right="minor" halign="center"><m>Y</m></cell>
-			<cell right="minor" halign="center">0</cell>
-			<cell right="minor" halign="center">15</cell>
-			<cell right="minor" halign="center">30</cell>
-			<cell right="minor" halign="center">40</cell>
-			<cell right="minor" halign="center">50</cell>
-			<cell right="minor" halign="center">65</cell>
-			<cell right="minor" halign="center">75</cell>
-			<cell right="minor" halign="center">90</cell>
-			<cell right="minor" halign="center">100</cell>
-			<cell right="minor" halign="center">106</cell>
+			<cell right="minor" halign="center">1900</cell>
+			<cell right="minor" halign="center">1915</cell>
+			<cell right="minor" halign="center">1930</cell>
+			<cell right="minor" halign="center">1940</cell>
+			<cell right="minor" halign="center">1950</cell>
+			<cell right="minor" halign="center">1965</cell>
+			<cell right="minor" halign="center">1975</cell>
+			<cell right="minor" halign="center">1990</cell>
+			<cell right="minor" halign="center">2000</cell>
+			<cell right="minor" halign="center">2006</cell>
 		</row>
 		<row left="minor" class="odd">
 			<cell right="minor" halign="center"><m>S</m></cell>
 			<cell right="minor" halign="center">54</cell>
 			<cell right="minor" halign="center">285</cell>
-			<cell right="minor" halign="center"></cell>
-			<cell right="minor" halign="center"></cell>
-			<cell right="minor" halign="center"></cell>
-			<cell right="minor" halign="center"></cell>
-			<cell right="minor" halign="center"></cell>
-			<cell right="minor" halign="center"></cell>
-			<cell right="minor" halign="center"></cell>
-			<cell right="minor" halign="center"></cell>
+			<cell right="minor" halign="center">1,485</cell>
+			<cell right="minor" halign="center">1,976</cell>
+			<cell right="minor" halign="center">3,552</cell>
+			<cell right="minor" halign="center">4,258</cell>
+			<cell right="minor" halign="center">4,122</cell>
+			<cell right="minor" halign="center">2,834</cell>
+			<cell right="minor" halign="center">2,049</cell>
+			<cell right="minor" halign="center">1,619</cell>
 		</row>
 	</tabular>
 
@@ -131,8 +131,60 @@
 		Where the variables go in a table is not something you can figure out. It's a <term>convention</term> - a custom, practice, or standard used within the mathematical community. Though based on reason, it often involves some arbitrary choice, which is why we can't figure it out. So, whenever some practice is introduced to you as a <q>convention,</q> you need to memorize it.
 	</p>
 
+	<sidebyside>
+		<stack>
+			<p>
+				Horizontal table format:
+			</p>
+			<tabular bottom="minor" top="minor">
+				<row left="minor"> 
+					<cell right="minor">indep</cell>
+					<cell right="minor"></cell>
+					<cell right="minor"></cell>
+					<cell right="minor"></cell>
+					<cell right="minor"></cell>
+				</row>
+				<row left="minor"> 
+					<cell right="minor">dep</cell>
+					<cell right="minor"></cell>
+					<cell right="minor"></cell>
+					<cell right="minor"></cell>
+					<cell right="minor"></cell>
+				</row>
+			</tabular>
+		</stack>
+		
+		<stack>
+			<p>
+				Vertical table format:
+			</p>
+			<tabular bottom="minor" top="minor">
+				<row left="minor"> 
+					<cell right="minor">indep</cell>
+					<cell right="minor">dep</cell>
+				</row>
+				<row left="minor"> 
+					<cell right="minor"></cell>
+					<cell right="minor"></cell>
+				</row>
+				<row left="minor"> 
+					<cell right="minor"></cell>
+					<cell right="minor"></cell>
+				</row>
+				<row left="minor"> 
+					<cell right="minor"></cell>
+					<cell right="minor"></cell>
+				</row>
+				<row left="minor"> 
+					<cell right="minor"></cell>
+					<cell right="minor"></cell>
+				</row>
+			</tabular>
+		</stack>
+	</sidebyside>
 
 
+<!-- Example horizontal table layout and vertical table layout -->
 
 	<p>
 		Tables are useful because they contain specific numbers, but it can be difficult to guess or see general trends. For that, a picture is worth a thousand words - or numbers, in this case. By <q>picture</q> we mean a graph of the function.
@@ -186,7 +238,7 @@
 	</p>
 
 	<p>
-		When we draw in this smooth curve for the graph, what we are really doing is making a whole lot of guesses all at once. For example, from the table we guessed that the smoking rate passed in around 1947, and dropped back to that level in around 1989. What does the graph show? If we look where the horizontal gridline for crosses our graph, it crosses in two places. First, between the vertical gridlines for 40 and 50, and perhaps slightly closer to 50. I'd say <m>Y \approx 47</m>, in the year 1947. Sure. The second time is between the gridlines for 80 and 90, much closer to 90. Looks like <m>Y \approx 88</m>, in the year 1988. We guessed 1989. Close enough.
+		When we draw in this smooth curve for the graph, what we are really doing is making a whole lot of guesses all at once. For example, from the table we guessed that the smoking rate passed 3,000 in around 1947, and dropped back to that level in around 1989. What does the graph show? If we look where the horizontal gridline for 3,000 crosses our graph, it crosses in two places. First, between the vertical gridlines for 40 and 50, and perhaps slightly closer to 50. I'd say <m>Y \approx 47</m>, in the year 1947. Sure. The second time is between the gridlines for 80 and 90, much closer to 90. Looks like <m>Y \approx 88</m>, in the year 1988. We guessed 1989. Close enough.
 	</p>
 
 	<p>
@@ -194,12 +246,70 @@
 	</p>
 
 	<p>
-		Turns out more data is available from the CDC. The full table of data from the CDC shows that consumption first topped as early as 1944. Here's an example where the history tells you more than the mathematics as cigarette consumption rose sharply during World War II. Our guess about 1988 or 1989 was spot on. Look at how the graph from the full data (the dotted line) compares to our guess.
+		Turns out more data is available from the CDC. The full table of data from the CDC shows that consumption first topped 3,000 as early as 1944. Here's an example where the history tells you more than the mathematics as cigarette consumption rose sharply during World War II. Our guess about 1988 or 1989 was spot on. Look at how the graph from the full data (the dotted line) compares to our guess.
 	</p>
 
 
 	<p>
 		<image source='CigCompare.png'/>
 	</p>
+
+	<subsection xml:id="dyk-tables-graphs">
+		<title>Do you know ...</title>
+		<p><ul>
+			<li>
+				<p>
+					Where the independent and dependent variables appear in a table and in a graph?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					How to guess values from a table or from a graph?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					How to make a graph from a table?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					Why we start each axis at 0?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					What we mean by scaling an axis evenly?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					How to make a table and then a graph from a story?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					Why we draw in a smooth line or curve connecting the points?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					What type of graphing technology, if any, you're allowed to use? <em>Ask your instructor.</em>
+				</p>
+			</li>
+	
+		</ul></p>
+		<xi:include href="./NotSure.ptx" />
+		
+	</subsection>
+
+	<xi:include href="./homework/ex-Tables_and_graphs.ptx" />
 
 </section>

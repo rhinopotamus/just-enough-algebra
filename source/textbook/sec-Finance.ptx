@@ -213,8 +213,8 @@
 		Notice that <m>p</m> now represents the regular, monthly payment and <m>a</m> is the loan amount. In Hector's situation <m>a = \$16,700</m> and <m>r=5.75\%=5.75 \div 100=0.0575</m>. he would like to pay off the student loan in the next two years before he buys that house, so <m>y=2</m> years. The monthly payment from the <alert>Loan Payment Formula</alert> would be 
 		<md>
 			<mrow>p \amp \frac{a  \ast \frac{r}{12}}{1-\left( 1 + \frac{r}{12}\right) ^{-12y}}</mrow>
-			<mrow> \amp = \frac{16,700 \ast \frac{.0575}{12}}{1-\left( 1 + \frac{.0575}{12}\right) ^{-12\ast 2}}</mrow>
-			<mrow> \amp = \left(16,700 \times .0575 \div 12 \right) \div \left(1-(1+.0575 \div 12) \wedge (\text{(-)}12 \times 2)\right)</mrow>
+			<mrow> \amp = \frac{16,700 \ast \frac{0.0575}{12}}{1-\left( 1 + \frac{0.0575}{12}\right) ^{-12\ast 2}}</mrow>
+			<mrow> \amp = \left(16,700 \times 0.0575 \div 12 \right) \div \left(1-(1+0.0575 \div 12) \wedge (\text{(-)}12 \times 2)\right)</mrow>
 			<mrow> \amp = 738.2743896\ldots  \approx \$738.28</mrow>
 		</md>
 		Oh boy. If Hector has to pay $738.28 per month for his student loan, that's really going to cut into how much he can save for that down payment on a condo. (And forget about a house.) Know why we round up? Banks always do, and then the very last payment is a tiny bit less to make up for all that round up.

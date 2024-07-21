@@ -2,7 +2,7 @@
 
 \section{Logistic and other growth models}
 
-A flu virus has been spreading through the college dormitories. Initially 8 students were diagnosed with the flu, but that number has been growing rapidly.  After 2 weeks, there were 64 students with the flu.   We are interested in predicting how many students will catch the flu over the next 6 weeks or so.  To get a sense of scale, there are \text{1,094} students currently living in the dorms. 
+A flu virus has been spreading through the college dormitories. Initially 8 students were diagnosed with the flu, but that number has been growing rapidly.  After 2 weeks, there were 64 students with the flu.   We are interested in predicting how many students will catch the flu over the next 6 weeks or so.  To get a sense of scale, there are 1,094 students currently living in the dorms. 
 
 The variables are
 \begin{center}
@@ -21,11 +21,11 @@ We rounded the numbers in our table to the nearest person.
 \begin{center}
 \begin{tabular} {|c| |c|c|c |c|c |c|c|}\hline
 $D$ & 0 & 7 & 14 & 21 & 28 & 35 & 42 \\ \hline
-$F$ (\textbf{exponential}) & 8 & 23 & 64 & 181 & 510 & \text{1,442} & \text{4,077} \\ \hline
+$F$ (\textbf{exponential}) & 8 & 23 & 64 & 181 & 510 & 1,442 & 4,077 \\ \hline
 \end{tabular}
 \end{center}
 
-While at first the exponential model seems reasonable, it quickly gets too large to make sense.  After all, there are only  \text{1,094} students currently living in the dorms so the numbers we found at 5 and 6 weeks (also known as 35 and 42 days) are totally unrealistic.   The exponential model is based on the assumption that the rate of change of the number of new cases is proportional to the number of \textbf{infected} students: those who already have the flu.  
+While at first the exponential model seems reasonable, it quickly gets too large to make sense.  After all, there are only  1,094 students currently living in the dorms so the numbers we found at 5 and 6 weeks (also known as 35 and 42 days) are totally unrealistic.   The exponential model is based on the assumption that the rate of change of the number of new cases is proportional to the number of \textbf{infected} students: those who already have the flu.  
 
 There are both advantages and disadvantages of the exponential model.  To it's credit, the exponential model captures the reality of the first few weeks, where the flu spreads very rapidly.  But, the exponential model misses several basic facts.  First, as more students catch the flu, the number of new cases decreases in part because sick people are already surrounded by sick people so there aren't new people to get sick.  Second, for whatever reasons, not everyone is going to catch the flu no matter how exposed they are.  We would like to have an alternative model that keeps what works (rapid increase at first) but deals better with the long term (the growth slows down and not everyone catches the flu).  There are two different models we consider that have these properties:  saturation and logistic.
 
@@ -68,13 +68,13 @@ Here are all three models on the same graph.
 \begin{center}
 \scalebox {1} {\includegraphics [width = 6in] {flumodels.png}}
 \end{center}
-As you can see from the graph, both the saturation and logistic curves level off as expected.  One way to estimate those \textbf{limiting values} (or \textbf{carrying capacity}) is to evaluate the functions at large values, say 60 days, 100 days, and (the unrealistic) \text{1,000} days.
+As you can see from the graph, both the saturation and logistic curves level off as expected.  One way to estimate those \textbf{limiting values} (or \textbf{carrying capacity}) is to evaluate the functions at large values, say 60 days, 100 days, and (the unrealistic) 1,000 days.
 
 \vspace{.05in} %VSPACE
 \begin{center}
 \begin{tabular} {|c| |c |c |c|}\hline
-$D$ & 60 & 100 & \text{1,000}\\ \hline
-$F$ (\textbf{exponential})  & $\cancel{\approx \text{59,000}}$ & $\cancel{\approx \text{22 million}}$ & $\cancel{\approx 1.35 \times 10^{33}}$\\ \hline
+$D$ & 60 & 100 & 1,000\\ \hline
+$F$ (\textbf{exponential})  & $\cancel{\approx 59,000}$ & $\cancel{\approx \text{22 million}}$ & $\cancel{\approx 1.35 \times 10^{33}}$\\ \hline
 $F$ (\textbf{saturation})  & 94.86 & 95.94 & 96.00\\ \hline
 $F$ (\textbf{logistic}) & 128.98 & 128.99 & 129.00\\ \hline
 \end{tabular}

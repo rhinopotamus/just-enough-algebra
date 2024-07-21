@@ -245,9 +245,9 @@
 											<p>
 												Find the number of yards by calculating <me>\frac{3}{4} \text{ miles}
 								\star
-								  \frac{\text{5,280} \text{ feet}}{1 \text{ mile}}
+								  \frac{5,280 \text{ feet}}{1 \text{ mile}}
 								\star
-								  \frac{\text{1} \text{ yard}}{3 \text{ feet}} = \frac{3 \times 5280}{4 \times 3}</me>
+								  \frac{1 \text{ yard}}{3 \text{ feet}} = \frac{3 \times 5280}{4 \times 3}</me>
 											</p>
 								</li>
 				

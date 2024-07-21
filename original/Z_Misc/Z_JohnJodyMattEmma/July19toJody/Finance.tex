@@ -3,7 +3,7 @@
 
 Hector is trying to figure out his finances -- finding a good investment for his tax refund, saving for a down payment on a house, and dealing with his student loans.  While there are various online tools that will ``do the math'' for him, Hector would really like to work out the formulas for himself.
 
-First that tax refund.  What a relief:  \$\text{1,040} back this year.  Much as Hector is tempted to spend the money on something fun, he knows he should save it.  His local bank offers him two choices:  a savings account paying 1.2\% interest compounded monthly or a 3-year certificate of deposit paying 3\% interest compounded monthly.  
+First that tax refund.  What a relief:  \$1,040 back this year.  Much as Hector is tempted to spend the money on something fun, he knows he should save it.  His local bank offers him two choices:  a savings account paying 1.2\% interest compounded monthly or a 3-year certificate of deposit paying 3\% interest compounded monthly.  
 
 The description \textbf{compounded monthly} means that the bank will pay him 1/12th of the annual interest each month, and then use that new balance in computing his interest in the month that follows.  For example, that savings account would pay 1.2\% interest compounded monthly, so  that's $$\frac{1.2\%}{12}= 1.2\% \div 12 = .1\%$$ interest each month.  Rather than figuring out Hector's balance by hand, we use this formula.
 
@@ -35,22 +35,22 @@ Since the interest is added each month, it would make sense to measure time in m
 $$3 \text{ \cancel{years}} \ast \frac{12 \text{ months}}{1\text{ \cancel{year}}} = 3 \times 12 = 36 \text{ months}$$  
 Yup, just multiply the years by 12 to get the months.  In the general formula, the number of years is $y$ and so the number of months is $12y$.
 
-Let's figure out how much Hector would have in his account for each choice.  For the savings account we have $p=\$\text{1,040}$, $r=1.2\% = 1.2 \div 100 = .012$, and $y = 3$ years so we use the \textsc{Compound Interest Formula} to get
+Let's figure out how much Hector would have in his account for each choice.  For the savings account we have $p=\$1,040$, $r=1.2\% = 1.2 \div 100 = .012$, and $y = 3$ years so we use the \textsc{Compound Interest Formula} to get
 \begin{eqnarray*}
 a & = &  p \left( 1 + \frac{r}{12}\right) ^{12y}\\
-& = &   \text{1,040} \left( 1 + \frac{.012}{12}\right) ^{12\ast 3}\\
-& =  &  \text{1,040} \times ( 1 + .012 \div 12 ) \wedge (12 \times 3) \\
-& =  & 1078.10269\ldots  \approx \$\text{1,078.10} 
+& = &   1,040 \left( 1 + \frac{.012}{12}\right) ^{12\ast 3}\\
+& =  &  1,040 \times ( 1 + .012 \div 12 ) \wedge (12 \times 3) \\
+& =  & 1078.10269\ldots  \approx \$1,078.10 
 \end{eqnarray*}
 See the parentheses?  The parentheses around the base were already in the equation.  They make sure that the inside quantity gets calculated before it's raised to the power.  We inserted the parentheses around the exponent to override the order of operations again.  This time we wanted the product ($12 \times 3=36$) calculated first.  
 
-Of course, Hector might want to choose that certificate of deposit instead.  That pays 3\% interest compounded monthly, so the only change is  $r=3\% = 3 \div 100 = .03$.  Your turn.  Check that using the \textsc{Compound Interest Formula} you get \$\text{1,137.81}.
+Of course, Hector might want to choose that certificate of deposit instead.  That pays 3\% interest compounded monthly, so the only change is  $r=3\% = 3 \div 100 = .03$.  Your turn.  Check that using the \textsc{Compound Interest Formula} you get \$1,137.81.
 %We get
 %\begin{eqnarray*}
 %a & = &  p \left( 1 + \frac{r}{12}\right) ^{12y}\\
-%& = &   \text{1,040} \left( 1 + \frac{.03}{12}\right) ^{12\ast 3}\\
-%& =  &  \text{1,040} \times ( 1 + .03 \div 12 ) \wedge (12 \times 3) \\
-%& =  & 1137.81345\ldots  \approx \$\text{1,137.81}
+%& = &   1,040 \left( 1 + \frac{.03}{12}\right) ^{12\ast 3}\\
+%& =  &  1,040 \times ( 1 + .03 \div 12 ) \wedge (12 \times 3) \\
+%& =  & 1137.81345\ldots  \approx \$1,137.81
 %\end{eqnarray*}
 
 It looks like the certificate of deposit is a clear winner, but there is a catch.  If Hector wants his money before the three year term is up, he loses all (or most) of the interest earned. Ouch.  So Hector should decide not only based on what the accounts pay: \$1,078.10 in the savings account versus \$1,137.81 in the certificate of deposit, but also on whether he is comfortable leaving the money alone for three years or not.
@@ -93,20 +93,20 @@ For example, the CD pays 3\% compounded monthly, so $r=3\% = 3 \div 100 = .01$. 
 & = & .0304 \times 100\% = 3.04\% \text{ APR}
 \end{eqnarray*}
 
-All this thinking about savings reminds Hector that he wants to own his own place someday.  he promised hisself that he would start putting away some money each month to save for a down payment on a condo, or maybe even a house.  Sharing an apartment with three friends, postponing buying his first car, and bringing lunch from home most days leaves Hector nearly \$\text{1,000} per month to save.  His bank offers a special savings account paying 4.5\% compounded monthly if he commits to making a deposit every month for at least two years.
+All this thinking about savings reminds Hector that he wants to own his own place someday.  he promised hisself that he would start putting away some money each month to save for a down payment on a condo, or maybe even a house.  Sharing an apartment with three friends, postponing buying his first car, and bringing lunch from home most days leaves Hector nearly \$1,000 per month to save.  His bank offers a special savings account paying 4.5\% compounded monthly if he commits to making a deposit every month for at least two years.
 
-Suppose Hector deposits \$\text{1,000} to the account at the end of every month.  Two things happen at the end of each month -- first, the interest is added to the account and, second, Hector puts another \$\text{1,000} into the account. Let's do a couple quick examples.  At the end of the first month he just has the \$\text{1,000}.  What is his balance at the end of the second month? From the \textsc{Compound Interest Formula} (with $p=\$\text{1,000}$, $r=4.5\% = 4.5 \div 100 = .045$, and $12y=1$) he has \$\text{1,003.75} to which he adds another \$\text{1,000} for a grand total of 
-$$ \$\text{1,003.75}+  \$\text{1,000}= \$\text{2,003.75}$$
-At the end of the third month from the \textsc{Compound Interest Formula} (now with $p=\$\text{2,003.75}$ but still $r=.045$ and $12y=1$) he has \$\text{2,011.26} to which he adds another \$\text{1,000} for a grand total of 
-$$\$\text{2,011.26} + \$\text{1,000} = \$\text{3,011.26}$$
+Suppose Hector deposits \$1,000 to the account at the end of every month.  Two things happen at the end of each month -- first, the interest is added to the account and, second, Hector puts another \$1,000 into the account. Let's do a couple quick examples.  At the end of the first month he just has the \$1,000.  What is his balance at the end of the second month? From the \textsc{Compound Interest Formula} (with $p=\$1,000$, $r=4.5\% = 4.5 \div 100 = .045$, and $12y=1$) he has \$1,003.75 to which he adds another \$1,000 for a grand total of 
+$$ \$1,003.75+  \$1,000= \$2,003.75$$
+At the end of the third month from the \textsc{Compound Interest Formula} (now with $p=\$2,003.75$ but still $r=.045$ and $12y=1$) he has \$2,011.26 to which he adds another \$1,000 for a grand total of 
+$$\$2,011.26 + \$1,000 = \$3,011.26$$
 
 %at the end of the second month he hasinte
 %Noting that $4.5\% = 4.5 \div 100 = .045$, we see that at the end of the second month, by the \textsc{Compound Interest Formula}, his account has 
-%$$a = p \left( 1 + \frac{r}{12}\right) ^{12y} = \text{1,000} \left( 1 + \frac{.045}{12}\right) ^1= \text{1,000}  \times ( 1 + .045 \div 12 )=  \$\text{1,003.75} $$
-%but then he adds in another \$\text{1,000} so his grand total is 
-%$$ \$\text{1,003.75}+  \$\text{1,000}= \$\text{2,003.75}$$
+%$$a = p \left( 1 + \frac{r}{12}\right) ^{12y} = 1,000 \left( 1 + \frac{.045}{12}\right) ^1= 1,000  \times ( 1 + .045 \div 12 )=  \$1,003.75 $$
+%but then he adds in another \$1,000 so his grand total is 
+%$$ \$1,003.75+  \$1,000= \$2,003.75$$
 %At the end of the third month he has
-%$$\text{2,003.75} \times ( 1 + .045 \div 12 ) + \text{1,000} \approx \$\text{3,011.26}$$
+%$$2,003.75 \times ( 1 + .045 \div 12 ) + 1,000 \approx \$3,011.26$$
 
 It would take too long to keep calculating one month at a time.  Any sequence of regular deposits is an \textbf{annuity}.  Luckily there's a formula for the (future) balance of an annuity. 
 
@@ -130,32 +130,32 @@ $r$ = interest rate compounded monthly (as a decimal) \\
 }
 \bigskip
 
-Notice that $p$ now represents the regular, reoccuring deposit instead of the initial deposit.  In either case think:  $p$ stands for ``put in.''  In Hector's situation, we have $p=\$\text{1,000}$ and $r=4.5\% =4.5 \div 100 =.045$.  To check his balance after 3 months, we need to convert to years.  Here goes. 
+Notice that $p$ now represents the regular, reoccuring deposit instead of the initial deposit.  In either case think:  $p$ stands for ``put in.''  In Hector's situation, we have $p=\$1,000$ and $r=4.5\% =4.5 \div 100 =.045$.  To check his balance after 3 months, we need to convert to years.  Here goes. 
  $$3 \text{ \cancel{months} }  \frac{1 \text{ year}}{12 \text{ \cancel{months}}} =3 \div 12= .25 \text{ years}$$
  so $y = .25$.   From the  \textsc{Future Value Annuity Formula}, his balance is
 \begin{eqnarray*}
 a & = &  p \ast \frac{\left( 1 + \frac{r}{12}\right) ^{12y}-1}{\frac{r}{12}}\\
-& = &    \text{1,000} \ast \frac{\left( 1 + \frac{.045}{12}\right) ^{12\ast.25}-1}{\frac{.045}{12}}\\
-& =  &  \text{1,000} \times (( 1 + .045 \div 12) \wedge (12 \times .25)-1) \div (.045 \div 12)\\
-& =  & \text{3,011.2640625}\ldots  \approx \$\text{3,011.26}
+& = &    1,000 \ast \frac{\left( 1 + \frac{.045}{12}\right) ^{12\ast.25}-1}{\frac{.045}{12}}\\
+& =  &  1,000 \times (( 1 + .045 \div 12) \wedge (12 \times .25)-1) \div (.045 \div 12)\\
+& =  & 3,011.2640625\ldots  \approx \$3,011.26
 \end{eqnarray*}
 as we expected.
 
 Notice how we need parentheses not only where they appear in the formula, but also around the entire numerator (top) of the fraction, around the entire denominator (bottom) of the fraction, and around the exponent.  That's going to take some practice to get used to.  Especially since There are actually two open parentheses in a row. 
 
-And how much will Hector have if he continues to save for a full 2 years?  Use the   \textsc{Future Value Annuity Formula} (now with $y=2$) to get the answer of \$\text{25,064}.
-%If Hector saves that \$\text{1,000} per month for two years, how much will he have? The only thing that changes is $y=2$ so 
+And how much will Hector have if he continues to save for a full 2 years?  Use the   \textsc{Future Value Annuity Formula} (now with $y=2$) to get the answer of \$25,064.
+%If Hector saves that \$1,000 per month for two years, how much will he have? The only thing that changes is $y=2$ so 
 %\begin{eqnarray*}
 %a & = &  p \ast \frac{\left( 1 + \frac{r}{12}\right) ^{12y}-1}{\frac{r}{12}}\\
-%& = &    \text{1,000} \ast \frac{\left( 1 + \frac{.045}{12}\right) ^{12\ast 2}-1}{\frac{.045}{12}}\\
-%& =  &  \text{1,000} \times (( 1 + .045 \div 12) \wedge (12 \times 2)-1) \div (.045 \div 12)\\
-%& =  & \text{25,064.03136158}\ldots  \approx \$\text{25,064}
+%& = &    1,000 \ast \frac{\left( 1 + \frac{.045}{12}\right) ^{12\ast 2}-1}{\frac{.045}{12}}\\
+%& =  &  1,000 \times (( 1 + .045 \div 12) \wedge (12 \times 2)-1) \div (.045 \div 12)\\
+%& =  & 25,064.03136158\ldots  \approx \$25,064
 %\end{eqnarray*}
-Wow.  He'll be buying his own house in no time.  By the way, if he just stuck that \$\text{1,000} in a shoebox under his bed (meaning earning no interest) he'd have 
-$$\frac{\$\text{1,000}}{\cancel{\text{month}}} \ast \frac{12 \text{ \cancel{months}}}{\text{ \cancel{years}}} \ast 2 \text{ \cancel{years}}= \text{1,000} \times 12 \times 2 = \$\text{24,000}$$
-The \$\text{25,064} in his account represents a total of \$\text{1,064} in interest.  The bank is better than the shoebox.
+Wow.  He'll be buying his own house in no time.  By the way, if he just stuck that \$1,000 in a shoebox under his bed (meaning earning no interest) he'd have 
+$$\frac{\$1,000}{\cancel{\text{month}}} \ast \frac{12 \text{ \cancel{months}}}{\text{ \cancel{years}}} \ast 2 \text{ \cancel{years}}= 1,000 \times 12 \times 2 = \$24,000$$
+The \$25,064 in his account represents a total of \$1,064 in interest.  The bank is better than the shoebox.
 
-Oh, but wait, there's those looming student loans.  Hector currently owes \$\text{16,700} at 5.75\% interest compounded monthly.  He's ready to start paying some of that loan off every month, which means this loan repayment is another example of an annuity.  Again, two things happen at the end of each month -- first, the interest is added to the account and, second, the payment is subtracted.  Instead of trying examples by hand, let's fast forward to the formula.  The formula that gives the payment due for a loan (or any annuity) is
+Oh, but wait, there's those looming student loans.  Hector currently owes \$16,700 at 5.75\% interest compounded monthly.  He's ready to start paying some of that loan off every month, which means this loan repayment is another example of an annuity.  Again, two things happen at the end of each month -- first, the interest is added to the account and, second, the payment is subtracted.  Instead of trying examples by hand, let's fast forward to the formula.  The formula that gives the payment due for a loan (or any annuity) is
 
  \bigskip
  \framebox{
@@ -178,11 +178,11 @@ $r$ = interest rate compounded monthly (as a decimal) \\
 \bigskip
 
 Notice that $p$ now represents the regular payment and $a$ is the loan amount.
-In Hector's situation $a = \$\text{16,700}$ and $r=5.75\%=5.75 \div 100=.0575$. he would like to pay off the student loan in the next two years before he buys that house, so $y=2$ years.  The monthly payment from the  \textsc{Loan Payment Formula} would be
+In Hector's situation $a = \$16,700$ and $r=5.75\%=5.75 \div 100=.0575$. he would like to pay off the student loan in the next two years before he buys that house, so $y=2$ years.  The monthly payment from the  \textsc{Loan Payment Formula} would be
 \begin{eqnarray*}
 p & = &   \frac{a  \ast \frac{r}{12}}{1-\left( 1 + \frac{r}{12}\right) ^{-12y}} \\
-& = &    \frac{\text{16,700} \ast \frac{.0575}{12}}{1-\left( 1 + \frac{.0575}{12}\right) ^{-12\ast 2}}\\
-& =  & \left(\text{16,700} \times .0575 \div 12 \right) \div \left(1-(1+.0575 \div 12) \wedge (\text{(-)}12 \times 2)\right) \\
+& = &    \frac{16,700 \ast \frac{.0575}{12}}{1-\left( 1 + \frac{.0575}{12}\right) ^{-12\ast 2}}\\
+& =  & \left(16,700 \times .0575 \div 12 \right) \div \left(1-(1+.0575 \div 12) \wedge (\text{(-)}12 \times 2)\right) \\
 & =  & 738.2743896\ldots  \approx \$738.28
 \end{eqnarray*}
 Oh boy.  If Hector has to pay \$738.28 per month for his student loan, that's really going to cut into how much he can save for that down payment on a condo.  (And forget about a house.) Know why we round up?  Banks always do, and then the very last payment is a tiny bit less to make up for all that round up.
@@ -192,19 +192,19 @@ This calculation is our most complicated so far. See the negative in the exponen
 Back to poor Hector. Luckily the student loan is not due in 2 years.  He's allowed 10 years to pay it back.  Let's recalculate his monthly payment assuming he takes the full 10 years instead. From the  \textsc{Loan Payment Formula} (now with $y=10$ instead), we find his new monthly payment would be \$183.32.  (Check!)
 %\begin{eqnarray*}
 %p & = &   \frac{a  \ast \frac{r}{12}}{1-\left( 1 + \frac{r}{12}\right) ^{-12y}} \\
-%& = &    \frac{\text{16,700} \ast \frac{.0575}{12}}{1-\left( 1 + \frac{.0575}{12}\right) ^{-12\ast 10}}\\
-%& =  & \left(\text{16,700} \times .0575 \div 12 \right) \div \left(1-(1+.0575 \div 12) \wedge (\text{(-)}12 \times 10)\right) \\
+%& = &    \frac{16,700 \ast \frac{.0575}{12}}{1-\left( 1 + \frac{.0575}{12}\right) ^{-12\ast 10}}\\
+%& =  & \left(16,700 \times .0575 \div 12 \right) \div \left(1-(1+.0575 \div 12) \wedge (\text{(-)}12 \times 10)\right) \\
 %& =  & 183.3145975\ldots  \approx \$183.32
 %\end{eqnarray*}
 %his new monthly payment would be \$183.32.  
-Much more realistic.  That means he would have $$\text{1,000} - \$183.32 = \$816.68$$ to save each month towards that condo.  Two years probably isn't going to be enough time, so suppose he saves for three years instead. Notice that now we're saving money so we went back to the \textsc{Future Value Annuity Formula} with the regular deposit of $p=\$816.58$, monthly interest rate of $4.5\% = 4.5 \div 100 = .045$, and $y=3$ years.  
-Go for it.  Did you get $ \approx \$\text{31,410}$?  Good.  And, great news for Hector.
+Much more realistic.  That means he would have $$1,000 - \$183.32 = \$816.68$$ to save each month towards that condo.  Two years probably isn't going to be enough time, so suppose he saves for three years instead. Notice that now we're saving money so we went back to the \textsc{Future Value Annuity Formula} with the regular deposit of $p=\$816.58$, monthly interest rate of $4.5\% = 4.5 \div 100 = .045$, and $y=3$ years.  
+Go for it.  Did you get $ \approx \$31,410$?  Good.  And, great news for Hector.
 %Let's do it.
 %\begin{eqnarray*}
 %a & = &  p \ast \frac{\left( 1 + \frac{r}{12}\right) ^{12y}-1}{\frac{r}{12}}\\
 %& = &  816.58 \ast \frac{\left( 1 + \frac{.045}{12}\right) ^{12\ast 3}-1}{\frac{.045}{12}}\\
 %& =  &  816.58\times (( 1 + .045 \div 12) \wedge (12 \times 3)-1) \div (.045 \div 12)\\
-%& =  & \text{31,410.6386191}\ldots  \approx \$\text{31,410}
+%& =  & 31,410.6386191\ldots  \approx \$31,410
 %\end{eqnarray*}
 %Sounds great.
 
