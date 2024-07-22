@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This is the publication file for a newly generated PreTeXt book.     -->
+<!-- By changing the values of attributes here, you can change how        -->
+<!-- the output looks and functions.  For the complete documentation      -->
+<!-- of publication-file options, see                                     -->
+<!-- https://pretextbook.org/doc/guide/html/publisher-file-reference.html -->
+
+<common>
+  <!-- Level at which are html files generated (chapter/section/etc): -->
+  <chunking level="3" />
+  <!-- Depth for table of contents.  0 means no TOC -->
+  <tableofcontents level="3" />
+  <!-- Visibility of exercise components where they first appear.          -->
+  <!-- There are four components (statement/hint/answer/solution) for each -->
+  <!-- of five exercise types (inline/divisional/worksheet/reading/        -->
+  <!-- project). Some examples:                                            -->
+  <exercise-inline statement="yes" hint="yes" answer="no" solution="no" />
+  <exercise-divisional statement="yes" hint="yes" />
+  <!-- Style of fill-in-the-blanks: -->
+  <fillin textstyle="underline" mathstyle="shade" />
+  <!-- You can set a watermark: -->
+  <!-- <watermark scale="0.5">DRAFT</watermark> -->
+</common>
