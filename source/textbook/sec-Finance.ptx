@@ -63,7 +63,7 @@
 	</p>
 
 	<p>
-		Of course, Hector might want to choose that certificate of deposit instead. That pays 3% interest compounded monthly, so the only change is <m>r=3\% = 3 \div 100 = 0.03</m>. Your turn. Check that using the <xref ref="compound-interest-formula" text="title"/> you get $.
+		Of course, Hector might want to choose that certificate of deposit instead. That pays 3% interest compounded monthly, so the only change is <m>r=3\% = 3 \div 100 = 0.03</m>. Your turn. Check that using the <xref ref="compound-interest-formula" text="title"/> you get $1,137.81.
 	</p>
 
 	<p>
@@ -174,8 +174,9 @@
 		<title>Loan Payment Formula</title>
 			
 			
-		<p>where
+		<p>
 			<me>p = \frac{a  \ast \frac{r}{12}}{1-\left( 1 + \frac{r}{12}\right) ^{-12y}}</me>
+			where
 			<ul>
 				<li>
 					<p>
@@ -206,7 +207,7 @@
 		<md>
 			<mrow>p \amp \frac{a  \ast \frac{r}{12}}{1-\left( 1 + \frac{r}{12}\right) ^{-12y}}</mrow>
 			<mrow> \amp = \frac{16,700 \ast \frac{0.0575}{12}}{1-\left( 1 + \frac{0.0575}{12}\right) ^{-12\ast 2}}</mrow>
-			<mrow> \amp = \left(16,700 \times 0.0575 \div 12 \right) \div \left(1-(1+0.0575 \div 12) \wedge (\text{(-)}12 \times 2)\right)</mrow>
+			<mrow> \amp = \left(16,700 \times 0.0575 \div 12 \right) \div \text{<kbd name="obelus"/>} \left(1-(1+0.0575 \div 12) \wedge (\text{(-)}12 \times 2)\right)</mrow>
 			<mrow> \amp = 738.2743896\ldots  \approx \$738.28</mrow>
 		</md>
 		Oh boy. If Hector has to pay $738.28 per month for his student loan, that's really going to cut into how much he can save for that down payment on a condo. (And forget about a house.) Know why we round up? Banks always do, and then the very last payment is a tiny bit less to make up for all that round up.
@@ -227,4 +228,40 @@
 	<p>
 		A short disclaimer is in order. These formulas only work if the interest is compounded <em>monthly</em>. Can you guess how to change the formulas if the interest is paid at some other interval? Just trade out the 12s for monthly and use how ever many times per year the interest is paid instead, usually called <m>n</m> in other textbooks.
 	</p>
+
+	<subsection xml:id="dyk-finance">
+		<title>Do you know ...</title>
+
+	<p><ul>
+		<li>
+			<p>
+				How to determine which formula to use? <em>Ask your instructor if you will be told which formula to use during the exam.</em>
+			</p>
+		</li>
+		<li>
+			<p>
+				What the quantities <m>a</m>, <m>p</m>, <m>y</m>, and <m>r</m> from the formulas mean in the story?
+			</p>
+		</li>
+		<li>
+			<p>
+				How to evaluate the formulas on your calculator?  <em>Ask your instructor which formulas you need to remember, and whether any formulas will be provided during the exam.</em>
+			</p>
+		</li>
+		<li>
+			<p>
+				Why parentheses are needed around the exponent, numerator, and denominator in most of the formulas?
+			</p>
+		</li>
+		<li>
+			<p>
+				What APR means, and why it is different from the (nominal) interest rate?
+			</p>
+		</li>
+	</ul></p>
+
+
+		
+	</subsection>
+	<xi:include href="./homework/ex-FinanceEX.ptx" />
 </section>

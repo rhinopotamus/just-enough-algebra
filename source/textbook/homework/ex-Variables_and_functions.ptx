@@ -4,11 +4,7 @@
 <worksheet xml:id="exercises-variables-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<!-- <xi:include href="./GoDoWS.ptx" /> -->
 
-	<introduction>
-		<p>
-			Workbook problems
-		</p>
-	</introduction>
+	<xi:include href="wbx-header.ptx" />
 	
 	<page>
 		<exercise xml:id="dog-food-variables-functions">
@@ -191,11 +187,7 @@
 		</exercise>
 	</page>
 
-	<interlude>
-		<p>
-			Textbook problems
-		</p>
-	</interlude>
+	<xi:include href="tbx-header.ptx" />
 
 	<exercise xml:id="time-variables-functions-tx">
 		<introduction>

@@ -116,5 +116,66 @@
 		The second constant is 75 and though it's tempting to say it is measured in dollars, it is really measured in $ per hour. This number is the rate of change and in the context of linear equations it gets its own name too. Its called the <term>slope</term>. Since the rate of change measures the steepness of any curve or line, the word <q>slope</q>, like mountain slope, makes sense. In our plumber example the intercept was $100 and the slope was $75/hour.
 	</p>
 
+	<subsection xml:id="dyk-first-look-linear">
+		<title>Do you know...</title>
+
+		<p><ul>
+		<li>
+			<p>
+				How to generalize from an example to find an equation?
+			</p>
+		</li>
+
+		<li>
+			<p>
+				Where the dependent variable usually is in an equation?
+			</p>
+		</li>
+
+		<li>
+			<p>
+				What the slope of a linear function means in the story and what it tells us about the graph?
+			</p>
+		</li>
+
+		<li>
+			<p>
+				What the intercept of a linear function means in the story and what it tells us about the graph?
+			</p>
+		</li>
+
+		<li>
+			<p>
+				The template for a linear equation? <em>Ask your instructor if you need to remember the template or if it will be provided during the exam.</em>
+			</p>
+		</li>
+
+		<li>
+			<p>
+				Where the slope and intercept appear in the template for a linear equation?
+			</p>
+		</li>
+
+		<li>
+			<p>
+				What makes a function linear?
+			</p>
+		</li>
+
+		<li>
+			<p>
+				How to plot negative numbers on a graph?
+			</p>
+		</li>
+
+		<li>
+			<p>
+				What the graph of a linear function looks like?
+			</p>
+		</li>
+
+	</ul></p>
+		
+	</subsection>
 
 </section>

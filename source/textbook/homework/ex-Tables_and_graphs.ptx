@@ -4,11 +4,7 @@
 <worksheet xml:id="ex-Tables_and_graphs" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<!-- <xi:include href="./GoDoWS.ptx" /> -->
 
-	<introduction>
-		<p>
-			Workbook exercises
-		</p>
-	</introduction>
+	<xi:include href="wbx-header.ptx" />
 
 <page>
 	<exercise xml:id="grandfather-bonds-tables-graphs">
@@ -364,11 +360,7 @@
 	</exercise>
 </page>
 
-	<interlude>
-		<p>
-			Textbook exercises
-		</p>
-	</interlude>
+	<xi:include href="tbx-header.ptx" />
 
 	<exercise xml:id="earth-population-tables-graphs-tx">
 		<introduction>

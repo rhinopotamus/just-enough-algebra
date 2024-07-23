@@ -3,11 +3,7 @@
 
 <exercises xml:id="ex-Rate_of_change" xmlns:xi="http://www.w3.org/2001/XInclude">
 
-	<introduction>
-		<p>
-			Workbook problems
-		</p>
-	</introduction>
+	<xi:include href="wbx-header.ptx" />
 
 <page>
 	<exercise xml:id="bakery-rate-of-change" workspace="1cm">
@@ -289,11 +285,7 @@
 	</exercise>
 </page>
 
-	<interlude>
-		<p>
-			Textbook problems
-		</p>
-	</interlude>
+	<xi:include href="tbx-header.ptx" />
 
 	<exercise xml:id="diver-rate-of-change-tx">
 		<introduction>
