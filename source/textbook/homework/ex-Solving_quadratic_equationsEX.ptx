@@ -23,7 +23,7 @@
 
 		<li>
 			<p>
-				When we use the <alert>Quadratic Formula</alert>? <em>Ask your instructor if you need to remember the <alert>Quadratic Formula</alert> or if it will be provided during the exam.</em>
+				When we use the <xref ref="quadratic-formula" text="title"/>? <em>Ask your instructor if you need to remember the <xref ref="quadratic-formula" text="title"/> or if it will be provided during the exam.</em>
 			</p>
 		</li>
 
@@ -53,7 +53,7 @@
 
 		<li>
 			<p>
-				How to decide which solution(s) from the <alert>Quadratic Formula</alert> are correct?
+				How to decide which solution(s) from the <xref ref="quadratic-formula" text="title"/> are correct?
 			</p>
 		</li>
 
@@ -84,13 +84,13 @@
 					<p><ol>
 						<li>
 								<p>
-									Use the <alert>Quadratic Formula</alert> to find when is the bean bag is 5 feet above ground? Why do both answers make sense in the story?
+									Use the <xref ref="quadratic-formula" text="title"/> to find when is the bean bag is 5 feet above ground? Why do both answers make sense in the story?
 								</p>
 						</li>
 			
 						<li>
 								<p>
-									When is the beanbag 8 feet above ground? Try to use the <alert>Quadratic Formula</alert> to find the answer. What happens? Explain why it makes sense in the story that you can't solve this quadratic equation.
+									When is the beanbag 8 feet above ground? Try to use the <xref ref="quadratic-formula" text="title"/> to find the answer. What happens? Explain why it makes sense in the story that you can't solve this quadratic equation.
 								</p>
 						</li>
 			
@@ -121,7 +121,7 @@
 			
 						<li>
 								<p>
-									Show how to use the <alert>Quadratic Formula</alert> to solve the equation.
+									Show how to use the <xref ref="quadratic-formula" text="title"/> to solve the equation.
 								</p>
 						</li>
 			
@@ -192,13 +192,13 @@
 					<p><ol>
 						<li>
 								<p>
-									The company decided to declare bankruptcy when sales fell below $20 billion. In what year was that? Show how to solve using the <alert>Quadratic Formula.</alert>
+									The company decided to declare bankruptcy when sales fell below $20 billion. In what year was that? Show how to solve using the <xref ref="quadratic-formula" text="title"/>.
 								</p>
 						</li>
 			
 						<li>
 								<p>
-									An analyst had suggested that they close down shop earlier, once sales were below $50 billion. In what year did sales fall that low? Show how to solve using the <alert>Quadratic Formula.</alert>
+									An analyst had suggested that they close down shop earlier, once sales were below $50 billion. In what year did sales fall that low? Show how to solve using the <xref ref="quadratic-formula" text="title"/>.
 								</p>
 						</li>
 			

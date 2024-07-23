@@ -52,7 +52,7 @@
 	</p>
 
 	<p>
-		Let's figure out how much Hector would have in his account for each choice. For the savings account we have <m>p=\$1,040</m>, <m>r=1.2\% = 1.2 \div 100 = 0.012</m>, and <m>y = 3</m> years so we use the <alert>Compound Interest Formula</alert> to get 
+		Let's figure out how much Hector would have in his account for each choice. For the savings account we have <m>p=\$1,040</m>, <m>r=1.2\% = 1.2 \div 100 = 0.012</m>, and <m>y = 3</m> years so we use the <xref ref="compound-interest-formula" text="title"/> to get 
 		<md>
 			<mrow>a \amp = p \left( 1 + \frac{r}{12}\right) ^{12y} </mrow>
 			<mrow> \amp = 1,040 \left( 1 + \frac{0.012}{12}\right) ^{12\ast 3} </mrow>
@@ -63,7 +63,7 @@
 	</p>
 
 	<p>
-		Of course, Hector might want to choose that certificate of deposit instead. That pays 3% interest compounded monthly, so the only change is <m>r=3\% = 3 \div 100 = 0.03</m>. Your turn. Check that using the <alert>Compound Interest Formula</alert> you get $.
+		Of course, Hector might want to choose that certificate of deposit instead. That pays 3% interest compounded monthly, so the only change is <m>r=3\% = 3 \div 100 = 0.03</m>. Your turn. Check that using the <xref ref="compound-interest-formula" text="title"/> you get $.
 	</p>
 
 	<p>
@@ -75,7 +75,7 @@
 	</p>
 
 	<p>
-		The acronymn <term>APR</term> stands for <term>annual percentage rate</term>. It means that 1.2% interest compounded monthly has the same net effect as paying 1.207% at the end of each year. where does that number come from? Imagine $1 in the account (<m>p=1</m>) for one year (<m>y=1</m>) with at 1.2% interest (so <m>r=0.012</m> again). Silly, yes, but watch what we learn. The balance from the <alert>Compound Interest Formula</alert> would be around $1.01207, as you can (and should) check. That means the annual growth factor is <m>g=1.01207</m> which corresponds to the equivalent of annual growth rate of <me>r=g-1=1.01207-1 = 0.01207 = 1.207\% \text{ APR}</me> There's a formula for this too.
+		The acronymn <term>APR</term> stands for <term>annual percentage rate</term>. It means that 1.2% interest compounded monthly has the same net effect as paying 1.207% at the end of each year. where does that number come from? Imagine $1 in the account (<m>p=1</m>) for one year (<m>y=1</m>) with at 1.2% interest (so <m>r=0.012</m> again). Silly, yes, but watch what we learn. The balance from the <xref ref="compound-interest-formula" text="title"/> would be around $1.01207, as you can (and should) check. That means the annual growth factor is <m>g=1.01207</m> which corresponds to the equivalent of annual growth rate of <me>r=g-1=1.01207-1 = 0.01207 = 1.207\% \text{ APR}</me> There's a formula for this too.
 	</p>
 
 	<assemblage xml:id="equivalent-apr-formula">
@@ -89,7 +89,7 @@
 	</assemblage>
 
 	<p>
-		For example, the CD pays 3% compounded monthly, so <m>r=3\% = 3 \div 100 = 0.03</m>. Using the <alert>Equivalent APR Formula</alert> we get 
+		For example, the CD pays 3% compounded monthly, so <m>r=3\% = 3 \div 100 = 0.03</m>. Using the <xref ref="equivalent-apr-formula" text="title"/> we get 
 		
 		<md>
 			<mrow>\text{APR} \amp= \left(1+\frac{r}{12}\right)^{12}-1 </mrow>
@@ -105,9 +105,9 @@
 	</p>
 
 	<p>
-		Suppose Hector deposits $1,000 to the account at the end of every month. Two things happen at the end of each month - first, the interest is added to the account and, second, Hector puts another $1,000 into the account. Let's do a couple quick examples. At the end of the first month he just has the $1,000. What is his balance at the end of the second month? From the <alert>Compound Interest Formula</alert> (with <m>p=\$1,000</m>, <m>r=4.5\% = 4.5 \div 100 = 0.045</m>, and <m>12y=1</m>) he has $1,003.75 to which he adds another $1,000 for a grand total of 
+		Suppose Hector deposits $1,000 to the account at the end of every month. Two things happen at the end of each month - first, the interest is added to the account and, second, Hector puts another $1,000 into the account. Let's do a couple quick examples. At the end of the first month he just has the $1,000. What is his balance at the end of the second month? From the <xref ref="compound-interest-formula" text="title"/> (with <m>p=\$1,000</m>, <m>r=4.5\% = 4.5 \div 100 = 0.045</m>, and <m>12y=1</m>) he has $1,003.75 to which he adds another $1,000 for a grand total of 
 		<me>\$1,003.75+  \$1,000= \$2,003.75</me> 
-		At the end of the third month from the <alert>Compound Interest Formula</alert> (now with <m>p=\$2,003.75</m> but still <m>r=0.045</m> and <m>12y=1</m>) he has $2,011.26 to which he adds another $1,000 for a grand total of <me>\$2,011.26 + \$1,000 = \$3,011.26</me>
+		At the end of the third month from the <xref ref="compound-interest-formula" text="title"/> (now with <m>p=\$2,003.75</m> but still <m>r=0.045</m> and <m>12y=1</m>) he has $2,011.26 to which he adds another $1,000 for a grand total of <me>\$2,011.26 + \$1,000 = \$3,011.26</me>
 	</p>
 
 	<p>
@@ -147,7 +147,7 @@
 	</assemblage>
 
 	<p>
-		Notice that <m>p</m> now represents the regular, monthly deposit instead of the initial deposit. In either case think: <m>p</m> stands for <q>put in.</q> In Hector's situation, we have <m>p=\$1,000</m> and <m>r=4.5\% =4.5 \div 100 =0.045</m>. To check his balance after 3 months, we need to convert to years. Here goes. <me>3 \cancel{\text{ months} } \ast \frac{1 \text{ year}}{12 \cancel{\text{ months}}} =3 \div 12= 0.25 \text{ years}</me> so <m>y = 0.25</m>. From the <alert>Future Value Annuity Formula</alert>, his balance is 
+		Notice that <m>p</m> now represents the regular, monthly deposit instead of the initial deposit. In either case think: <m>p</m> stands for <q>put in.</q> In Hector's situation, we have <m>p=\$1,000</m> and <m>r=4.5\% =4.5 \div 100 =0.045</m>. To check his balance after 3 months, we need to convert to years. Here goes. <me>3 \cancel{\text{ months} } \ast \frac{1 \text{ year}}{12 \cancel{\text{ months}}} =3 \div 12= 0.25 \text{ years}</me> so <m>y = 0.25</m>. From the <xref ref="future-value-annuity-formula" text="title"/>, his balance is 
 		<md>
 			<mrow> a \amp=  p \ast \frac{\left( 1 + \frac{r}{12}\right) ^{12y}-1}{\frac{r}{12}}</mrow>
 			<mrow> \amp = 1,000 \ast \frac{\left( 1 + \frac{0.045}{12}\right) ^{12\ast0.25}-1}{\frac{0.045}{12}}</mrow>
@@ -163,7 +163,7 @@
 	</p>
 
 	<p>
-		And how much will Hector have if he continues to save for a full 2 years? Use the <alert>Future Value Annuity Formula</alert> (now with <m>y=2</m>) to get the answer of $25,064. Wow. He'll be buying his own house in no time. By the way, if he just stuck that $1,000 in a shoebox under his bed (meaning earning no interest) he'd have <me>\frac{\$1,000}{\cancel{\text{month}}} \ast \frac{12 \cancel{\text{ months}}}{\cancel{\text{ years}}} \ast 2 \cancel{\text{ years}}= 1,000 \times 12 \times 2 = \$24,000</me> The $25,064 in his account represents a total of $1,064 in interest. The bank is better than the shoebox.
+		And how much will Hector have if he continues to save for a full 2 years? Use the <xref ref="future-value-annuity-formula" text="title"/> (now with <m>y=2</m>) to get the answer of $25,064. Wow. He'll be buying his own house in no time. By the way, if he just stuck that $1,000 in a shoebox under his bed (meaning earning no interest) he'd have <me>\frac{\$1,000}{\cancel{\text{month}}} \ast \frac{12 \cancel{\text{ months}}}{\cancel{\text{ years}}} \ast 2 \cancel{\text{ years}}= 1,000 \times 12 \times 2 = \$24,000</me> The $25,064 in his account represents a total of $1,064 in interest. The bank is better than the shoebox.
 	</p>
 
 	<p>
@@ -202,7 +202,7 @@
 	</assemblage>
 
 	<p>
-		Notice that <m>p</m> now represents the regular, monthly payment and <m>a</m> is the loan amount. In Hector's situation <m>a = \$16,700</m> and <m>r=5.75\%=5.75 \div 100=0.0575</m>. he would like to pay off the student loan in the next two years before he buys that house, so <m>y=2</m> years. The monthly payment from the <alert>Loan Payment Formula</alert> would be 
+		Notice that <m>p</m> now represents the regular, monthly payment and <m>a</m> is the loan amount. In Hector's situation <m>a = \$16,700</m> and <m>r=5.75\%=5.75 \div 100=0.0575</m>. he would like to pay off the student loan in the next two years before he buys that house, so <m>y=2</m> years. The monthly payment from the <xref ref="loan-payment-formula" text="title"/> would be 
 		<md>
 			<mrow>p \amp \frac{a  \ast \frac{r}{12}}{1-\left( 1 + \frac{r}{12}\right) ^{-12y}}</mrow>
 			<mrow> \amp = \frac{16,700 \ast \frac{0.0575}{12}}{1-\left( 1 + \frac{0.0575}{12}\right) ^{-12\ast 2}}</mrow>
@@ -217,7 +217,7 @@
 	</p>
 
 	<p>
-		Back to poor Hector. Luckily the student loan is not due in 2 years. He's allowed 10 years to pay it back. Let's recalculate his monthly payment assuming he takes the full 10 years instead. From the <alert>Loan Payment Formula</alert> (now with <m>y=10</m> instead), we find his new monthly payment would be $183.32. (Check!) Much more realistic. That means he would have <me>\$1,000 - \$183.32 = \$816.68</me> to save each month towards that condo. Two years probably isn't going to be enough time, so suppose he saves for three years instead. Notice that now we're saving money so we went back to the <alert>Future Value Annuity Formula</alert> with the regular deposit of <m>p=\$816.58</m>, monthly interest rate of <m>4.5\% = 4.5 \div 100 = 0.045</m>, and <m>y=3</m> years. Go for it. Did you get <m>\approx \$31,410</m>? Good. And, great news for Hector.
+		Back to poor Hector. Luckily the student loan is not due in 2 years. He's allowed 10 years to pay it back. Let's recalculate his monthly payment assuming he takes the full 10 years instead. From the <xref ref="loan-payment-formula" text="title"/> (now with <m>y=10</m> instead), we find his new monthly payment would be $183.32. (Check!) Much more realistic. That means he would have <me>\$1,000 - \$183.32 = \$816.68</me> to save each month towards that condo. Two years probably isn't going to be enough time, so suppose he saves for three years instead. Notice that now we're saving money so we went back to the <xref ref="future-value-annuity-formula" text="title"/> with the regular deposit of <m>p=\$816.58</m>, monthly interest rate of <m>4.5\% = 4.5 \div 100 = 0.045</m>, and <m>y=3</m> years. Go for it. Did you get <m>\approx \$31,410</m>? Good. And, great news for Hector.
 	</p>
 
 	<p>

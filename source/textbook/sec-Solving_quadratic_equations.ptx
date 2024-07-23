@@ -165,7 +165,7 @@
 	</p>
 
 	<p>
-		Wait a minute! Any good juggler isn't about to let the beanbag fall on the ground. He's going to catch it again, perhaps at about <m>3\tfrac12</m> feet above ground. That means we're looking for <m>H=3.5</m>. Using our equation <m>H=3+15T-16T^2</m>, we get <me>3+15T-16T^2=3.5</me> The <alert>Quadratic Formula</alert> only works if the equation has <m>=0</m>, but we have <m>=3.5</m>. It might seem that we're out of luck, but it's an easy fix. Just subtract 3.5 from each side.
+		Wait a minute! Any good juggler isn't about to let the beanbag fall on the ground. He's going to catch it again, perhaps at about <m>3\tfrac12</m> feet above ground. That means we're looking for <m>H=3.5</m>. Using our equation <m>H=3+15T-16T^2</m>, we get <me>3+15T-16T^2=3.5</me> The <xref ref="quadratic-formula" text="title"/> only works if the equation has <m>=0</m>, but we have <m>=3.5</m>. It might seem that we're out of luck, but it's an easy fix. Just subtract 3.5 from each side.
 		<me>
 			\begin{array}{lcr}
 				\phantom{-3.}3+1.5T-16T^2 \amp = \amp \cancel{3.5} \\
@@ -178,7 +178,7 @@
 	</p>
 
 	<p>
-		We can write the new equation as <me>-16T^2 + 15T -0.5= 0</me> from which we see that <me>a = -16 \quad b = 15</me> as before, but now we have a new value <me>c=-0.5</me> We're all set to use the <alert>Quadratic Formula</alert>.
+		We can write the new equation as <me>-16T^2 + 15T -0.5= 0</me> from which we see that <me>a = -16 \quad b = 15</me> as before, but now we have a new value <me>c=-0.5</me> We're all set to use the <xref ref="quadratic-formula" text="title"/>.
 	</p>
 
 	<p>
@@ -218,7 +218,7 @@
 	</p>
 
 	<p>
-		In general, the graph of <m>H = aT^2+bT+c</m> is a <term>parabola</term>. The two solutions from the <alert>Quadratic Formula</alert> are both places where <m>H=0</m> and, so, the graph crosses the <m>T</m>-axis there. Might not make sense in the real problem, but the equation and formula don't know that. (Okay, equations and formulas don't actually <q>know</q> anything. But you get my point.) Turns out the graph is symmetric about the highest point, so that must be midway in between the roots which is exactly where <me>T =\frac{-b}{2a}</me> Because <m>a</m> is negative, the answer we got by adding is to the left and the answer we got by subtracting is to the right.
+		In general, the graph of <m>H = aT^2+bT+c</m> is a <term>parabola</term>. The two solutions from the <xref ref="quadratic-formula" text="title"/> are both places where <m>H=0</m> and, so, the graph crosses the <m>T</m>-axis there. Might not make sense in the real problem, but the equation and formula don't know that. (Okay, equations and formulas don't actually <q>know</q> anything. But you get my point.) Turns out the graph is symmetric about the highest point, so that must be midway in between the roots which is exactly where <me>T =\frac{-b}{2a}</me> Because <m>a</m> is negative, the answer we got by adding is to the left and the answer we got by subtracting is to the right.
 	</p>
 
 

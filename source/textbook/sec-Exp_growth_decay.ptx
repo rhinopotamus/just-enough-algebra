@@ -47,7 +47,7 @@
 	</p>
 
 	<p>
-		A little terminology here. When a function is exponential but decreasing, it's called <term>exponential decay</term>. It sounds a little odd to say <q>growth factor</q> if the quantity is getting smaller so we sometimes say <term>decay factor</term> instead. We know from the <alert>Percent Change Formula</alert> that the growth factor (<m>g</m>) can be found from the growth rate (r) by the formula <m>g=1+r</m>. If we think of 13% decrease as negative growth rate, <m>r=-13\%=-0.13</m>, then the formula still works to find the decay factor (<m>g</m>) <me>g= 1 + r = 1 + -0.13 = 1-0.13 = 0.87</me>
+		A little terminology here. When a function is exponential but decreasing, it's called <term>exponential decay</term>. It sounds a little odd to say <q>growth factor</q> if the quantity is getting smaller so we sometimes say <term>decay factor</term> instead. We know from the <xref ref="percent-change-formula" text="title"/> that the growth factor (<m>g</m>) can be found from the growth rate (r) by the formula <m>g=1+r</m>. If we think of 13% decrease as negative growth rate, <m>r=-13\%=-0.13</m>, then the formula still works to find the decay factor (<m>g</m>) <me>g= 1 + r = 1 + -0.13 = 1-0.13 = 0.87</me>
 	</p>
 
 	<p>
@@ -119,7 +119,7 @@
 	</p>
 
 	<p>
-		We find ourselves in the familiar situation – solving to find the exponent. Logs to the rescue. By the <alert>The Log-Divides Formula</alert> with growth factor <m>g=0.87</m> and value <m>v= 0.3</m> we get <me>Y =  \frac{\log (v)}{\log(g)}=  \frac{\log (0.3)}{\log(0.87)} =  \log (0.3) \div \log (0.87) =  8.64537506\ldots \approx 9</me> which corresponds to 11:00 a.m. Same answer. Much quicker.
+		We find ourselves in the familiar situation – solving to find the exponent. Logs to the rescue. By the <xref ref="log-divides-formula" text="title"/> with growth factor <m>g=0.87</m> and value <m>v= 0.3</m> we get <me>Y =  \frac{\log (v)}{\log(g)}=  \frac{\log (0.3)}{\log(0.87)} =  \log (0.3) \div \log (0.87) =  8.64537506\ldots \approx 9</me> which corresponds to 11:00 a.m. Same answer. Much quicker.
 	</p>
 
 	<p>

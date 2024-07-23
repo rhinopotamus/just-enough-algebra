@@ -29,13 +29,13 @@
 
 		<li>
 			<p>
-				How to evaluate the <alert>Root Formula</alert> on your calculator?
+				How to evaluate the <xref ref="root-formula" text="title"/> on your calculator?
 			</p>
 		</li>
 
 		<li>
 			<p>
-				When to use the <alert>Root Formula</alert>? <em>Ask your instructor if you need to remember the <alert>Root Formula</alert> or it will be provided during the exam.</em>
+				When to use the <xref ref="root-formula" text="title"/>? <em>Ask your instructor if you need to remember the <xref ref="root-formula" text="title"/> or it will be provided during the exam.</em>
 			</p>
 		</li>
 
@@ -133,7 +133,7 @@
 
 			<li>
 					<p>
-						The lake by Rodney's condo was stocked with bass (fish) 10 years ago. There were initially 400 bass introduced. Rodney wonders what the annual percent increase of the bass has been and realizes he can calculate it from the number of fish now. He will use the equation <me>B=400 g^{10}</me> where <m>B</m> is the number of bass in the lake now and <m>g</m> is the annual growth factor. For each number of bass, first solve for <m>g</m> using the <alert>Root Formula</alert>, then calculate <m>r=g-1</m>. The percent increase is <m>r</m> written as a percent.
+						The lake by Rodney's condo was stocked with bass (fish) 10 years ago. There were initially 400 bass introduced. Rodney wonders what the annual percent increase of the bass has been and realizes he can calculate it from the number of fish now. He will use the equation <me>B=400 g^{10}</me> where <m>B</m> is the number of bass in the lake now and <m>g</m> is the annual growth factor. For each number of bass, first solve for <m>g</m> using the <xref ref="root-formula" text="title"/>, then calculate <m>r=g-1</m>. The percent increase is <m>r</m> written as a percent.
 					</p>
 			
 					<p>

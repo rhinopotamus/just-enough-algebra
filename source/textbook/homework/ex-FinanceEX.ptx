@@ -54,25 +54,25 @@
 					<p><ol>
 						<li>
 								<p>
-									Check that if Hector deposits $1,040 into a certificate of deposit earning 3% interest compounded monthly, then at the end of three years he will have $1,137.81. Use the <alert>Compound Interest Formula</alert>.
+									Check that if Hector deposits $1,040 into a certificate of deposit earning 3% interest compounded monthly, then at the end of three years he will have $1,137.81. Use the <xref ref="compound-interest-formula" text="title"/>.
 								</p>
 						</li>
 			
 						<li>
 								<p>
-									Check that if Hector takes 10 years to pay back his student loan of $16,700 at 5.75% interest compounded monthly, then his monthly payment will be $183.32. Use the <alert>Loan Payment Formula</alert>.
+									Check that if Hector takes 10 years to pay back his student loan of $16,700 at 5.75% interest compounded monthly, then his monthly payment will be $183.32. Use the <xref href="loan-payment-formula" text="title"/>.
 								</p>
 						</li>
 			
 						<li>
 								<p>
-									Check that if Hector deposits $816.58 each month into an account earning 4.5% interest compounded monthly for 3 years, then his balance will be $31,410. Use the <alert>Future Value Annuity Formula</alert>.
+									Check that if Hector deposits $816.58 each month into an account earning 4.5% interest compounded monthly for 3 years, then his balance will be $31,410. Use the <xref ref="future-value-annuity-formula" text="title"/>.
 								</p>
 						</li>
 			
 						<li>
 								<p>
-									What is the equivalent APR of 4.5% interest compounded monthly? Use the <alert>Equivalent APR Formula</alert>.
+									What is the equivalent APR of 4.5% interest compounded monthly? Use the <xref ref="equivalent-apr-formula" text="title"/>.
 								</p>
 						</li>
 			
@@ -83,7 +83,7 @@
 					<p><ol>
 						<li>
 								<p>
-									If Ayah invests $35,000 for three years, how much will she have if her money earns each of the following rates compounded monthly? Use the <alert>Compound Interest Formula</alert>.
+									If Ayah invests $35,000 for three years, how much will she have if her money earns each of the following rates compounded monthly? Use the <xref ref="compound-interest-formula" text="title"/>.
 								</p>
 						
 						<!-- div attr= class="multicols"-->
@@ -124,7 +124,7 @@
 
 			<li>
 					<p>
-						Lue's family bought a house three years ago and owes $192,000 on their mortgage. In reality, their monthly payment will include taxes, insurance, and money for escrow but let's ignore those amounts for this problem. In each part of this problem, use the <alert>Loan Payment Formula</alert>.
+						Lue's family bought a house three years ago and owes $192,000 on their mortgage. In reality, their monthly payment will include taxes, insurance, and money for escrow but let's ignore those amounts for this problem. In each part of this problem, use the <xref href="loan-payment-formula" text="title"/>.
 					</p>
 			
 					<p><ol>
@@ -153,7 +153,7 @@
 					<p><ol>
 						<li>
 								<p>
-									Make a table showing the balance now, after 1 year, after 5 years, and after 12 years if Kurt invests $50,000 in a certificate of deposit earning 4.77% interest compounded monthly. Use the <alert>Compound Interest Formula</alert>.
+									Make a table showing the balance now, after 1 year, after 5 years, and after 12 years if Kurt invests $50,000 in a certificate of deposit earning 4.77% interest compounded monthly. Use the <xref ref="compound-interest-formula" text="title"/>.
 								</p>
 						</li>
 			
@@ -168,7 +168,7 @@
 
 			<li>
 					<p>
-						Soo Jin is borrowing more money for college. Compare the APR for each choice, using the <alert>Equivalent APR Formula</alert>.
+						Soo Jin is borrowing more money for college. Compare the APR for each choice, using the <xref ref="equivalent-apr-formula" text="title"/>.
 					</p>
 			
 					<p><ol>

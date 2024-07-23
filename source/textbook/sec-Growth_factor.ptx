@@ -40,7 +40,7 @@
 	</p>
 
 	<p>
-		Oh, wait a minute. The only unknown in that equation is the growth factor <m>g</m>. What if we solve for <m>g</m>? First, divide each side by 1.1 to get <me>\frac{\cancel{1.1}\ast g^{16}}{\cancel{1.1}} = \frac{2}{1.1}</me> which simplifies to <me>g^{16} = \frac{2}{1.1} = 2 \div 1.1= 1.818181818\ldots</me> Since we want to solve for the base (not the exponent), we have a power equation. We use the <alert>Root Formula</alert> with power <m>n=16</m> and value <m>v=1.818181818</m> to get <me>g = \sqrt[n]{v} = \sqrt[16]{1.818181818} = 16 \sqrt[x]{~\text{  }} 1.818181818 = 1.038071653 \approx 1.0381</me>
+		Oh, wait a minute. The only unknown in that equation is the growth factor <m>g</m>. What if we solve for <m>g</m>? First, divide each side by 1.1 to get <me>\frac{\cancel{1.1}\ast g^{16}}{\cancel{1.1}} = \frac{2}{1.1}</me> which simplifies to <me>g^{16} = \frac{2}{1.1} = 2 \div 1.1= 1.818181818\ldots</me> Since we want to solve for the base (not the exponent), we have a power equation. We use the <xref ref="root-formula" text="title"/> with power <m>n=16</m> and value <m>v=1.818181818</m> to get <me>g = \sqrt[n]{v} = \sqrt[16]{1.818181818} = 16 \sqrt[x]{~\text{  }} 1.818181818 = 1.038071653 \approx 1.0381</me>
 	</p>
 
 	<p>

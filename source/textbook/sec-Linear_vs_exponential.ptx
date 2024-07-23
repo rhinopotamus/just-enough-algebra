@@ -62,7 +62,7 @@
 	</p>
 
 	<p>
-		Next, let's take a look at the exponential model. Here goes. The template is <me>\textbf{Exponential Equation Template:} \quad \text{dep }=\text{ start } \ast \text{growth factor}^{\text{indep}}</me> We know everything except the growth factor. We expect it to be less than 1 because her car is worth less the more she drives it. Perhaps we should say <q>decay</q> factor here since the function is decreasing. The starting amount is <m>s=22,500</m> and the ending amount is <m>a=5,700</m> after <m>t=109</m> thousand miles. By the <alert>Growth Factor Formula</alert> we have <me>g = \sqrt[t]{\frac{a}{s}} = \sqrt[109]{\frac{5,700}{22,500}}
+		Next, let's take a look at the exponential model. Here goes. The template is <me>\textbf{Exponential Equation Template:} \quad \text{dep }=\text{ start } \ast \text{growth factor}^{\text{indep}}</me> We know everything except the growth factor. We expect it to be less than 1 because her car is worth less the more she drives it. Perhaps we should say <q>decay</q> factor here since the function is decreasing. The starting amount is <m>s=22,500</m> and the ending amount is <m>a=5,700</m> after <m>t=109</m> thousand miles. By the <xref ref="growth-factor-formula" text="title"/> we have <me>g = \sqrt[t]{\frac{a}{s}} = \sqrt[109]{\frac{5,700}{22,500}}
  109  \sqrt[x]{~\text{  }}( 5,700 \div 22,500)= 0.98748222\ldots \approx 0.9875</me>
 	</p>
 
@@ -71,7 +71,7 @@
 	</p>
 
 	<p>
-		When will Sofía's car be worth under $500 according to this exponential equation? Let's solve to find out. When <m>C=500</m>, use our exponential equation to get <me>22,500 \ast 0.9875^M =500</me> Divide each side by 22,500 and simplify to get <me>0.9875^M= \frac{500}{22,500} = 500 \div 22,500 = 0.02222222\ldots</me> By the <alert>The Log-Divides Formula</alert> with growth factor <m>g=0.9875</m> and the value <m>v= 0.02222222</m> we get <me>M =  \frac{\log (v)}{\log(g)}=  \frac{\log (0.022222222)}{\log(0.9875)} =  \log (0.02222222) \div \log (0.9875) = 302.6256856 \approx 300</me> According to the exponential equation, Sofía's car will be worth under $500 at about 300,000 miles. Hard to imagine the car would last that long. Essentially the exponential model says the car will always be worth at least $500, if only for parts, I guess. Quite different from our answer from the linear equation.
+		When will Sofía's car be worth under $500 according to this exponential equation? Let's solve to find out. When <m>C=500</m>, use our exponential equation to get <me>22,500 \ast 0.9875^M =500</me> Divide each side by 22,500 and simplify to get <me>0.9875^M= \frac{500}{22,500} = 500 \div 22,500 = 0.02222222\ldots</me> By the <xref ref="log-divides-formula" text="title"/> with growth factor <m>g=0.9875</m> and the value <m>v= 0.02222222</m> we get <me>M =  \frac{\log (v)}{\log(g)}=  \frac{\log (0.022222222)}{\log(0.9875)} =  \log (0.02222222) \div \log (0.9875) = 302.6256856 \approx 300</me> According to the exponential equation, Sofía's car will be worth under $500 at about 300,000 miles. Hard to imagine the car would last that long. Essentially the exponential model says the car will always be worth at least $500, if only for parts, I guess. Quite different from our answer from the linear equation.
 	</p>
 
 	<p>
