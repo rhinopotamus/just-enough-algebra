@@ -59,14 +59,12 @@
 		By the way, Muna's equation <m>T = 7D</m> is a <term>direct proportionality</term> because the only thing happening is that the independent variable is being scaled by a <term>proportionality constant</term>, <m>k=7</m>. Any direct proportionality fits this template.
 	</p>
 
-	<definition xml:id="def-direct-prop-template">
+	<assemblage xml:id="direct-prop-template">
 		<title>Direct proportionality template</title>
 			
 			
-		<statement>
-			<me>\text{dep} = k \ast \text{indep}</me>
-		</statement>
-	</definition>
+		<me>\text{dep} = k \ast \text{indep}</me>
+	</assemblage>
 
 	<p>
 		To understand the proportionality, recall that Muna can run 2.8 miles in 19.6 minutes. What happens if she goes for a run twice as long? Then she would be running <m>2 \times 2.8 = 5.6</m> miles. Her time would be <me>T = 7 \ast 5.6 = 7 \times \underline{5.6} = 39.2 \text{ minutes}</me> Notice that <m>2 \times 19.6 = 39.2</m>. So, it would take her twice the time to run twice the distance. This general idea - that you get twice the value of the dependent variable if you have twice the value of the independent variable - characterizes direct proportions. We sometimes say that Muna's time is <term>proportional</term> to how far she runs. Nothing special about twice here, as it would take her three times the time to run three times the distance, etc.

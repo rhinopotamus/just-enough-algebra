@@ -16,38 +16,36 @@
 		The description <term>compounded monthly</term> means that the bank will pay him of the annual interest each month, and then use that new balance in computing his interest in the month that follows. For example, that savings account would pay 1.2% interest compounded monthly, so that's <me>\frac{1.2\%}{12}= 1.2\% \div 12 = 0.1\%</me> interest each month. Rather than figuring out Hector's balance one month at a time, we can use this formula.
 	</p>
 
-	<definition xml:id="def-compound-interest-formula">
+	<assemblage xml:id="compound-interest-formula">
 		<title>Compound Interest Formula</title>
 			
 			
-		<statement>
-			<p>
-				<me>a = p \left( 1 + \frac{r}{12}\right) ^{12y}</me> where
-				<ul>
-					<li>
-						<p>
-							<m>a</m> = account balance ($)
-						</p>
-					</li>
-					<li>
-						<p>
-							<m>y</m> = time invested (years)
-						</p>
-					</li>
-					<li>
-						<p>
-							<m>p</m> = initial deposit or <q>principal</q>
-						</p>
-					</li>
-					<li>
-						<p>
-							<m>r</m> = interest rate compounded monthly (as a decimal)
-						</p>
-					</li>
-				</ul>
-			</p>
-		</statement>
-	</definition>
+		<p>
+			<me>a = p \left( 1 + \frac{r}{12}\right) ^{12y}</me> where
+			<ul>
+				<li>
+					<p>
+						<m>a</m> = account balance ($)
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>y</m> = time invested (years)
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>p</m> = initial deposit or <q>principal</q>
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>r</m> = interest rate compounded monthly (as a decimal)
+					</p>
+				</li>
+			</ul>
+		</p>
+	</assemblage>
 
 	<p>
 		If you're curious, this equation fits the template for an exponential equation. <me>\text{dep} = \text{start} \ast \text{growth factor} ^ {\text{indep}}</me> The starting amount is <m>p</m>. The annual growth rate is <m>r</m>, which means the monthly growth rate is <m>\frac{r}{12}</m>, and so the monthly growth factor is <me>g=1+\frac{r}{12}</me> Since the interest is added each month, it would make sense to measure time in months. It is customary, however, to measure time in years instead. No big deal. After 3 years, for example, we have <me>3 \cancel{\text{ years}} \ast \frac{12 \text{ months}}{1\cancel{\text{ year}}} = 3 \times 12 = 36 \text{ months}</me> Yup, just multiply the years by 12 to get the months. In the general formula, the number of years is <m>y</m> and so the number of months is <m>12y</m>.
@@ -80,17 +78,15 @@
 		The acronymn <term>APR</term> stands for <term>annual percentage rate</term>. It means that 1.2% interest compounded monthly has the same net effect as paying 1.207% at the end of each year. where does that number come from? Imagine $1 in the account (<m>p=1</m>) for one year (<m>y=1</m>) with at 1.2% interest (so <m>r=0.012</m> again). Silly, yes, but watch what we learn. The balance from the <alert>Compound Interest Formula</alert> would be around $1.01207, as you can (and should) check. That means the annual growth factor is <m>g=1.01207</m> which corresponds to the equivalent of annual growth rate of <me>r=g-1=1.01207-1 = 0.01207 = 1.207\% \text{ APR}</me> There's a formula for this too.
 	</p>
 
-	<definition xml:id="def-equivalent-apr-formula">
+	<assemblage xml:id="equivalent-apr-formula">
 		<title>Equivalent APR Formula</title>
 			
 			
-		<statement>
-			<p>
-				<me>\text{APR} = \left(1+\frac{r}{12}\right)^{12}-1</me>
-				where <m>r</m> = interest rate compounded monthly (as a decimal)
-			</p>
-		</statement>
-	</definition>
+		<p>
+			<me>\text{APR} = \left(1+\frac{r}{12}\right)^{12}-1</me>
+			where <m>r</m> = interest rate compounded monthly (as a decimal)
+		</p>
+	</assemblage>
 
 	<p>
 		For example, the CD pays 3% compounded monthly, so <m>r=3\% = 3 \div 100 = 0.03</m>. Using the <alert>Equivalent APR Formula</alert> we get 
@@ -118,39 +114,37 @@
 		It would take too long to keep calculating one month at a time. Any sequence of regular deposits is an <term>annuity</term>. Luckily there's a formula for the (future) value of an annuity.
 	</p>
 
-	<definition xml:id="def-future-value-annuity-formula">
+	<assemblage xml:id="future-value-annuity-formula">
 		<title>Future Value Annuity Formula</title>
 			
 			
-		<statement>
-			<p>
-				<me>a = p \ast \frac{\left( 1 + \frac{r}{12}\right) ^{12y}-1}{\frac{r}{12}}</me>
-				where
-				<ul>
-					<li>
-						<p>
-							<m>a</m> = account balance ($)
-						</p>
-					</li>
-					<li>
-						<p>
-							<m>y</m> = time invested (years)
-						</p>
-					</li>
-					<li>
-						<p>
-							<m>p</m> = regular (monthly) deposits ($)
-						</p>
-					</li>
-					<li>
-						<p>
-							<m>r</m> = interest rate compounded monthly (as a decimal)
-						</p>
-					</li>
-				</ul>
-			</p>
-		</statement>
-	</definition>
+		<p>
+			<me>a = p \ast \frac{\left( 1 + \frac{r}{12}\right) ^{12y}-1}{\frac{r}{12}}</me>
+			where
+			<ul>
+				<li>
+					<p>
+						<m>a</m> = account balance ($)
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>y</m> = time invested (years)
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>p</m> = regular (monthly) deposits ($)
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>r</m> = interest rate compounded monthly (as a decimal)
+					</p>
+				</li>
+			</ul>
+		</p>
+	</assemblage>
 
 	<p>
 		Notice that <m>p</m> now represents the regular, monthly deposit instead of the initial deposit. In either case think: <m>p</m> stands for <q>put in.</q> In Hector's situation, we have <m>p=\$1,000</m> and <m>r=4.5\% =4.5 \div 100 =0.045</m>. To check his balance after 3 months, we need to convert to years. Here goes. <me>3 \cancel{\text{ months} } \ast \frac{1 \text{ year}}{12 \cancel{\text{ months}}} =3 \div 12= 0.25 \text{ years}</me> so <m>y = 0.25</m>. From the <alert>Future Value Annuity Formula</alert>, his balance is 
@@ -176,38 +170,36 @@
 		Oh, but wait, there's those looming student loans. Hector currently owes $16,700 at 5.75% interest compounded monthly. He's ready to start paying some of that loan off every month, which means this loan repayment is another example of an annuity. Again, two things happen at the end of each month - first, the interest is added to the account and, second, the payment is subtracted. Instead of trying examples by hand, let's fast forward to the formula. The formula that gives the (monthly) payment for a loan (or any annuity) is
 	</p>
 
-	<definition xml:id="def-loan-payment-formula">
+	<assemblage xml:id="loan-payment-formula">
 		<title>Loan Payment Formula</title>
 			
 			
-		<statement>
-			<p>
-				<me>p = \frac{a  \ast \frac{r}{12}}{1-\left( 1 + \frac{r}{12}\right) ^{-12y}}</me>
-				<ul>
-					<li>
-						<p>
-							<m>a</m> = loan amount ($)
-						</p>
-					</li>
-					<li>
-						<p>
-							<m>y</m> = time invested (years)
-						</p>
-					</li>
-					<li>
-						<p>
-							<m>p</m> = regular (monthly) payment ($)
-						</p>
-					</li>
-					<li>
-						<p>
-							<m>r</m> = interest rate compounded monthly (as a decimal)
-						</p>
-					</li>
-				</ul>
-			</p>
-		</statement>
-	</definition>
+		<p>where
+			<me>p = \frac{a  \ast \frac{r}{12}}{1-\left( 1 + \frac{r}{12}\right) ^{-12y}}</me>
+			<ul>
+				<li>
+					<p>
+						<m>a</m> = loan amount ($)
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>y</m> = time invested (years)
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>p</m> = regular (monthly) payment ($)
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>r</m> = interest rate compounded monthly (as a decimal)
+					</p>
+				</li>
+			</ul>
+		</p>
+	</assemblage>
 
 	<p>
 		Notice that <m>p</m> now represents the regular, monthly payment and <m>a</m> is the loan amount. In Hector's situation <m>a = \$16,700</m> and <m>r=5.75\%=5.75 \div 100=0.0575</m>. he would like to pay off the student loan in the next two years before he buys that house, so <m>y=2</m> years. The monthly payment from the <alert>Loan Payment Formula</alert> would be 

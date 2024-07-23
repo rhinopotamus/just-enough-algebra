@@ -114,16 +114,14 @@
 		Turns out there's a different formula for solving for the exponent that uses <term>logarithms</term> (nickname: <term>logs</term>). More about logs in a minute, but first let's write down the formula and practice working with it. The formula is
 	</p>
 
-	<definition xml:id="def-log-divides-formula">
+	<assemblage xml:id="log-divides-formula">
 		<title>Log-Divides Formula</title>
 			
 			
-		<statement>
-			<p>
-				The equation <m>g^Y = v</m> has solution <me>Y = \frac{\log (v)}{\log(g)}</me>
-			</p>
-		</statement>
-	</definition>
+		<p>
+			The equation <m>g^Y = v</m> has solution <me>Y = \frac{\log (v)}{\log(g)}</me>
+		</p>
+	</assemblage>
 
 	<p>
 		Quick aside about the name. Some formulas have well-known names. Not this one. We call it the <q>Log-Divides Formula</q> because it has logs and divides in it. Perhaps you already guessed that. Other math books do not have an name for this formula, although it is related to something called the <q>change of base formula</q>.

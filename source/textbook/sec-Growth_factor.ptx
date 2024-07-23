@@ -51,17 +51,14 @@
 		Here's the easy version in a formula.
 	</p>
 
-	<definition xml:id="def-growth-factor-formula">
+	<assemblage xml:id="growth-factor-formula">
 		<title>Growth Factor Formula</title>
 			
 			
-		<statement>
-			<p>
-				If a quantity is growing (or decaying) exponentially, then the growth (or decay) factor is <me>\displaystyle g = \sqrt[t]{\frac{a}{s}}</me> where <m>s</m> is the starting amount and <m>a</m> is the amount after <m>t</m> time periods.
-
-			</p>
-		</statement>
-	</definition>
+		<p>
+			If a quantity is growing (or decaying) exponentially, then the growth (or decay) factor is <me>\displaystyle g = \sqrt[t]{\frac{a}{s}}</me> where <m>s</m> is the starting amount and <m>a</m> is the amount after <m>t</m> time periods.
+		</p>
+	</assemblage>
 
 	<p>
 		We knew from the beginning that our equation was in the form <m>C = 1.1 \ast g^Y</m>. Now that we found the growth factor <m>g \approx 1.0381</m> we get our final equation <me>C = 1.1 \ast 1.0381^Y</me> For example, we can check that in 2010, we have <m>Y=16</m> still and so <me>C = 1.1 \ast 1.0381^{16} = 1.1 \times 1.0381 \wedge \underline{16} =  2.000874004 \approx 2 \quad \checkmark</me>
@@ -83,27 +80,25 @@
 		Here's the general formula relating the growth rate and growth factor.
 	</p>
 
-	<definition xml:id="def-percent-change-formula-2">
+	<assemblage xml:id="percent-change-formula-2">
 		<title>Percent Change Formula (updated version)</title>
 			
 			
-		<statement>
-			<p>
-				<ul>
-					<li>
-						<p>
-							If a quantity changes by a percentage corresponding to growth rate <m>r</m>, then the growth factor is <me>\displaystyle g=1+r</me>
-						</p>
-					</li>
-					<li>
-						<p>
-							If the growth factor is <m>g</m>, then the growth rate is <me>r = g-1</me>
-						</p>
-					</li>
-				</ul>
-			</p>
-		</statement>
-	</definition>
+		<p>
+			<ul>
+				<li>
+					<p>
+						If a quantity changes by a percentage corresponding to growth rate <m>r</m>, then the growth factor is <me>\displaystyle g=1+r</me>
+					</p>
+				</li>
+				<li>
+					<p>
+						If the growth factor is <m>g</m>, then the growth rate is <me>r = g-1</me>
+					</p>
+				</li>
+			</ul>
+		</p>
+	</assemblage>
 
 	<p>
 		Let's check. We have <m>g=1.0381</m> and so the growth rate is <me>r=g-1 = 1.0381-1 = 0.0381= 3.81\%</me> Not sure we really need these formulas, but there you have it.

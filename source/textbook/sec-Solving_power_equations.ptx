@@ -157,16 +157,14 @@
 		Bet you see how this idea of roots generalizes. The <term><m>n</m>th root</term> of a number is whatever number you would raise to the <m>n</m>th power to get the number. Stated in terms of equations we have
 	</p>
 
-	<definition xml:id="def-root-formula">
+	<assemblage xml:id="root-formula">
 		<title>Root Formula</title>
 			
 			
-		<statement>
-			<p>
-				The equation <m>C^n=v</m> has solution <me>C= \sqrt[n]{v}</me>
-			</p>
-		</statement>
-	</definition>
+		<p>
+			The equation <m>C^n=v</m> has solution <me>C= \sqrt[n]{v}</me>
+		</p>
+	</assemblage>
 
 
 

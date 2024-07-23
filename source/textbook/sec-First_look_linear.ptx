@@ -101,14 +101,12 @@
 		Look back at our equation. <me>P = 100 + 75T</me> Any linear equation fits this template.
 	</p>
 
-	<definition xml:id="def-linear-eq-template">
+	<assemblage xml:id="linear-eq-template">
 		<title>Linear equation template</title>
-		<statement>
-			<p>
-				dep = start + slope <m>\ast</m> indep
-			</p>
-		</statement>
-	</definition>
+		<p>
+			dep = start + slope <m>\ast</m> indep
+		</p>
+	</assemblage>
 
 	<p>
 		Notice our two variables are in our equation and there are two <term>constants</term>. Each constant has its own meaning. The first constant is 100 and it is measured in dollars. It is the trip charge, the fixed amount we would owe the plumber even if he does 0 hours work. In our standard form we refer to this quantity as the <term>starting value</term> (or <term>start</term> for short), but it's official name is <term>intercept</term>. On the graph it's where the line crosses the vertical axis. Think of a football player (running along the vertical axis) intercepting a pass (coming in the line). We can find the intercept from our equation by plugging in <m>T = 0</m> so that <me>P = 100 + 75 \times 0 = 100</me>

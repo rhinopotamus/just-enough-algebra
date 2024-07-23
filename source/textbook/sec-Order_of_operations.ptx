@@ -112,37 +112,35 @@
 			You will need to know the full order of operations so that you know when the calculator is doing what you want. Here's the full list of the <term>order of operations</term>, the priority ranking for arithmetic operations.
 		</p>
 
-		<definition xml:id="def-order-operations-prelude">
+		<assemblage xml:id="order-operations-prelude">
 			<title>Order of operations</title>
 			
 			
-			<statement>
-				<p>
-					<ul>
-						<li>
-							<p>
-								First, calculate anything inside <term>P</term>arentheses.
-							</p>
-						</li>
-						<li>
-							<p>
-								Next, calculate <term>E</term>xponents <m>\wedge</m>, in order from left to right.
-							</p>
-						</li>
-						<li>
-							<p>
-								Then, <term>M</term>ultiply <m>\times</m> and <term>D</term>ivide <m>\div</m>, in order from left to right.
-							</p>
-						</li>
-						<li>
-							<p>
-								Last, <term>A</term>dd <m>+</m> and <term>S</term>ubtract <m>-</m>, in order from left to right.
-							</p>
-						</li>
-					</ul>
-				</p>
-			</statement>
-		</definition>
+			<p>
+				<ul>
+					<li>
+						<p>
+							First, calculate anything inside <term>P</term>arentheses.
+						</p>
+					</li>
+					<li>
+						<p>
+							Next, calculate <term>E</term>xponents <m>\wedge</m>, in order from left to right.
+						</p>
+					</li>
+					<li>
+						<p>
+							Then, <term>M</term>ultiply <m>\times</m> and <term>D</term>ivide <m>\div</m>, in order from left to right.
+						</p>
+					</li>
+					<li>
+						<p>
+							Last, <term>A</term>dd <m>+</m> and <term>S</term>ubtract <m>-</m>, in order from left to right.
+						</p>
+					</li>
+				</ul>
+			</p>
+		</assemblage>
 
 		<p>
 			We highlighted the letters PEMDAS which often helps people remember this order. (<q>Please Excuse My Dear Aunt Sally</q> is how I learned it.) Outside of the United States this rule has names such as BEDMAS, BIDMAS, BODMAS, PODMAS, PIDMAS, or even GEMDAS. Notice that multiplication (<m>\times</m>) and division (<m>\div</m>) are tied for priority just like addition (<m>+</m>) and subtraction (<m>-</m>) were.
