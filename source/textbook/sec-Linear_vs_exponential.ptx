@@ -12,7 +12,6 @@
 		We can describe the variables in this story.
 	</p>
 
-!-- div attr= class="center"-->
 	<tabular bottom="minor" top="minor">
 		<row left="minor" class="odd">
 			<cell right="minor" halign="left"><m>M =</m> mileage (thousand miles) <m>\sim</m> indep</cell>
@@ -82,7 +81,6 @@
 		Wait a minute. Does a car lose the same value for each thousand miles it's driven? That's what it means to be linear. Every thousand miles, same decrease. Nah, that's not right. Once the car is old, another 1,000 miles or so probably won't affect the value at all. Also, when a car is new, once you drive it off the lot and then that strange vinyl smell wears off and it's officially <q>used,</q> the car is worth a lot less. Even if it hasn't been driven much at all. What would each model say the car was worth soon after Sofía bought it, say with 10,000 miles on it? With <m>M=10</m>, the estimates are
 	</p>
 
-!-- div attr= class="center"-->
 	<tabular bottom="minor" top="minor">
 		<row left="minor" class="odd">
 			<cell right="minor" halign="left"><term>linear:</term></cell>
@@ -102,7 +100,6 @@
 		Here are a few more values and the graph. The graph is shows both the line and exponential curve have intercept just over $22,000, which should be $22,500. The line and curve intersect again between 100,000 and 120,000 miles (close to the exact mileage of 109,000) at right under $6,000 (close to the exact value of $5,700).
 	</p>
 
-!-- div attr= class="center"-->
 	<tabular bottom="minor" top="minor">
 		<row left="minor" class="odd">
 			<cell right="minor" halign="center"><m>M</m></cell>
@@ -136,7 +133,7 @@
 		</row>
 	</tabular><!--</div attr= class="center">-->
 
-!-- div attr= class="center"-->
+
 	<p>
 		<image source='carvalue.png'/>
 	</p><!--</div attr= class="center">-->
@@ -144,4 +141,54 @@
 	<p>
 		There's no way of knowing whether the function is linear or exponential. It is probably not exactly either one. But if we have to pick, the exponential model seems closer to reality.
 	</p>
+
+	<subsection xml:id="dyk-linear-exponential">
+		<title>Do you know ...</title>
+		<p><ul>
+			<li>
+				<p>
+					When we might think a model might be linear?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					The template for a linear equation?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					How to find the linear equation between two points (a start and end value)?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					When we might think a model might be exponential?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					The template for an exponential equation?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					How to find the exponential equation between two points (a start and end value)?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					Why we compare linear and exponential models?
+				</p>
+			</li>
+		
+		</ul></p>
+		
+	</subsection>
+	<xi:include href="./homework/ex-Linear_vs_exponential.ptx" />
 </section>

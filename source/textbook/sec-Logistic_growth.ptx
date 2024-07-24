@@ -187,7 +187,62 @@
 		The limiting values were there all along!
 	</p>
 
+	<subsection xml:id="dyk-logistic-growth">
+		<title>Do you know ...</title>
+		<p><ul>
+			<li>
+				<p>
+					Why we might use a logistic or saturation model, instead of an exponential model?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					The difference between a logistic and saturation model?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					What the limiting value of a logistic function means in the story and what it tells us about the graph?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					How to find the limiting value of a logistic function?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					What the graph of a logistic function looks like?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					What the limiting value of a saturation function means in the story and what it tells us about the graph?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					How to find the limiting value of a saturation function?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					What the graph of a saturation function looks like?
+				</p>
+			</li>
+		
+		</ul></p>
+		
+	</subsection>
 
+	<xi:include href="./homework/ex-Logistic_growthEX.ptx" />
 
 
 </section>

@@ -156,4 +156,43 @@
 	<p>
 		Doesn't sound very important but check this out. Start with 1,000 mg. After 5 hours, there's 500 mg left. (Okay, approximately.) Now go another 5 hours, which means 10 hours total. Evaluate our equation <m>J = 1,000 \ast 0.87^H</m> when <m>H =10</m> to get <me>J = 1,000 \ast 0.87^{10} = 1,000 \ast 0.87 \wedge \underline{10} = 248.423414\ldots \approx 250 \text{ mg}</me> That means half of what was left is now gone. Go another 5 hours. Lose another half. Check for yourself: <me>J = 1,000 \ast 0.87^{15} = 1,000 \ast 0.87 \wedge \underline{15} = 123.819426\ldots \approx 125 \text{ mg}</me> And so on. Cool.
 	</p>
+
+	<subsection xml:id="dyk-growth-decay">
+		<title>Do you know ...</title>
+		<p><ul>
+			<li>
+				<p>
+					How to write an exponential equation given the starting amount and percent decrease?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					What <q>half-life</q> means?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					What <q>doubling time</q> means?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					What the graph of exponential growth and exponential decay look like?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					Why the rate of change for exponential decay is negative?
+				</p>
+			</li>
+		
+		</ul></p>
+		
+	</subsection>
+
+	<xi:include href="./homework/ex-Exp_growth_decay.ptx" />
 </section>

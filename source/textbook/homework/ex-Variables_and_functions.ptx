@@ -146,7 +146,7 @@
 				<p>
 					It's about time! In each story, time is one (or both) of the variables.  
 					Identify and name the variables, including units and dependence.
-					<em>(Stories also appear in 1.1 Exercises.)</em>
+					<em>(Stories also appear in <xref ref="time-2-variables-functions"/>)</em>
 				</p>
 			</introduction>
 			<task>
@@ -189,13 +189,13 @@
 
 	<xi:include href="tbx-header.ptx" />
 
-	<exercise xml:id="time-variables-functions">
+	<exercise xml:id="time-2-variables-functions">
 		<introduction>
 			<p>
 				It's about time! For each story, try to figure out the answer to the question(s).
 			</p>
 			<p>
-				<em>Stories also appear in 1.1 #4</em>
+				<em>Stories also appear in <xref ref="time-variables-functions"/> </em>
 			</p>
 		</introduction>
 					
