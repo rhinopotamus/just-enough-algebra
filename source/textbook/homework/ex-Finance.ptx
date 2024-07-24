@@ -204,7 +204,7 @@
 		<task>
 			<statement>
 				<p>
-					Check that if Hector takes 10 years to pay back his student loan of $16,700 at 5.75% interest compounded monthly, then his monthly payment will be $183.32. Use the <xref href="loan-payment-formula" text="title"/>.
+					Check that if Hector takes 10 years to pay back his student loan of $16,700 at 5.75% interest compounded monthly, then his monthly payment will be $183.32. Use the <xref ref="loan-payment-formula" text="title"/>.
 				</p>
 			</statement>
 		</task>
@@ -266,7 +266,7 @@
 	<exercise xml:id="mortgage-payments-finance">
 		<introduction>
 			<p>
-				Lue's family bought a house three years ago and owes $192,000 on their mortgage. In reality, their monthly payment will include taxes, insurance, and money for escrow but let's ignore those amounts for this problem. In each part of this problem, use the <xref href="loan-payment-formula" text="title"/>.
+				Lue's family bought a house three years ago and owes $192,000 on their mortgage. In reality, their monthly payment will include taxes, insurance, and money for escrow but let's ignore those amounts for this problem. In each part of this problem, use the <xref ref="loan-payment-formula" text="title"/>.
 			</p>
 		</introduction>	
 		<task>
