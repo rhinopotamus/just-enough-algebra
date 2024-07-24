@@ -115,6 +115,7 @@ window.MathJax = {
 \newcommand{\amp}{&amp;}
 \definecolor{fillinmathshade}{gray}{0.9}
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
 \)</span></div>
 <div class="ptx-page">
 <div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
@@ -168,44 +169,237 @@ window.MathJax = {
 <li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-tx-Equations.html" class="internal"><span class="codenumber">2</span> <span class="title">Equations</span></a></div>
 <ul class="structural toc-item-list contains-active">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div></li>
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-First_look_linear.html#dyk-first-look-linear" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Do you know...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_linear.html#ex-First_look_linear" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-First_look_exponential.html#dyk-first-look-exponential" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Do you know...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_exponential.html#ex-First_look_exponentialEX" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="sec-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Using_equations.html#dyk-using-equations" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Using_equations.html#ex-Using_equations" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Approx_solutions.html#dyk-approx-solutions" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approx_solutions.html#ex-Approx_solutions" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Finance.html#dyk-finance" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Finance.html#ex-Finance" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-tx-Solving_equations.html" class="internal"><span class="codenumber">3</span> <span class="title">Solving equations</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html#dyk-solving-linear" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html#ex-Solving_linear_equations" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html#dyk-solving-linear-ineq" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html#ex-Solving_linear_inequalitiesEX" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_power_equations.html#dyk-solving-power" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_power_equations.html#ex-Solving_power_equations" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html#dyk-solving-exponential" class="internal"><span class="codenumber">3.4.1</span> <span class="title">dyk-solving-exponential</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html#ex-Solving_exponential_equations" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html#dyk-solving-quadratic" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html#ex-Solving_quadratic_equations" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-tx-Closer_look_linear.html" class="internal"><span class="codenumber">4</span> <span class="title">A closer look at linear equations</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html#dyk-modeling-linear" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html#ex-Modeling_linear_equations" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html#dyk-systems-linear" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html#ex-Systems_linear_equations" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Intercepts.html#dyk-intercepts" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Intercepts.html#ex-Intercepts" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Slopes.html#dyk-slopes" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Slopes.html#ex-Slopes" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html#dyk-fitting-lines" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html#ex-Fitting_lines_to_data" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-tx-Closer_look_exponential.html" class="internal"><span class="codenumber">5</span> <span class="title">A closer look at exponential functions</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html#dyk-modeling-exponential" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html#ex-Modeling_exponential_equations" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html#dyk-growth-decay" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html#ex-Exp_growth_decay" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Growth_factor.html#dyk-growth-factor" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Growth_factor.html#ex-Growth_factor" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html#dyk-linear-exponential" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html#ex-Linear_vs_exponential" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Logistic_growth.html#dyk-logistic-growth" class="internal"><span class="codenumber">5.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logistic_growth.html#ex-Logistic_growth" class="internal"><span class="codenumber">5.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="ch-tx-Prelude.html" class="internal"><span class="codenumber">A</span> <span class="title">Prelude</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approximation_and_rounding.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Prelude: Approximation and Rounding</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Approximation_and_rounding.html#dyk-approximation-rounding" class="internal"><span class="codenumber">A.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approximation_and_rounding.html#ex-Approximation_and_rounding" class="internal"><span class="codenumber">A.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Arithmetic_operations.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Prelude: Arithmetic Operations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Arithmetic_operations.html#dyk-arithmetic-operations" class="internal"><span class="codenumber">A.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Arithmetic_operations.html#ex-Arithmetic_operations" class="internal"><span class="codenumber">A.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Percentages.html" class="internal"><span class="codenumber">A.3</span> <span class="title">Prelude: Percentages</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Percentages.html#dyk-percentages" class="internal"><span class="codenumber">A.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Percentages.html#ex-Percentages" class="internal"><span class="codenumber">A.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Order_of_operations.html" class="internal"><span class="codenumber">A.4</span> <span class="title">Prelude: Order of Operations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Order_of_operations.html#dyk-order-operations" class="internal"><span class="codenumber">A.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Order_of_operations.html#ex-Order_of_operations" class="internal"><span class="codenumber">A.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fractions.html" class="internal"><span class="codenumber">A.5</span> <span class="title">Prelude: Fractions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fractions.html#dyk-fractions" class="internal"><span class="codenumber">A.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fractions.html#ex-Fractions" class="internal"><span class="codenumber">A.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Powers_and_roots.html" class="internal"><span class="codenumber">A.6</span> <span class="title">Prelude: Powers and Roots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Powers_and_roots.html#dyk-powers-roots" class="internal"><span class="codenumber">A.6.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Powers_and_roots.html#ex-Powers_and_roots" class="internal"><span class="codenumber">A.6.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Algebraic_notation.html" class="internal"><span class="codenumber">A.7</span> <span class="title">Prelude: Algebraic Notation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Algebraic_notation.html#dyk-algebraic-notation" class="internal"><span class="codenumber">A.7.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Algebraic_notation.html#ex-Algebraic-notation" class="internal"><span class="codenumber">A.7.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Scientific_notation.html" class="internal"><span class="codenumber">A.8</span> <span class="title">Prelude: Scientific Notation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Scientific_notation.html#dyk-prelude-scientific-notation" class="internal"><span class="codenumber">A.8.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Scientific_notation.html#ex-Scientific_notation" class="internal"><span class="codenumber">A.8.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logarithms.html" class="internal"><span class="codenumber">A.9</span> <span class="title">Prelude: Logarithms</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Logarithms.html#dyk-logarithms" class="internal"><span class="codenumber">A.9.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logarithms.html#ex-Logarithms" class="internal"><span class="codenumber">A.9.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Using_equations"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">2.3</span><span class="space"> </span><span class="title">Using equations</span>
@@ -390,9 +584,8 @@ B = 0.04 \ast S^2
 </div>
 <div class="para">is a <dfn class="terminology">power equation</dfn> because the independent variable is being raised to a power, <span class="process-math">\(n=2\text{,}\)</span> and then scaled by a <dfn class="terminology">proportionality constant</dfn>, <span class="process-math">\(k=0.04\text{.}\)</span> Any power equation fits this template.</div>
 </div>
-<article class="definition definition-like" id="def-power-equation-template"><h3 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.3.1</span><span class="period">.</span><span class="space"> </span><span class="title">Power equation template.</span>
-</h3> <div class="para logical" id="def-power-equation-template-2-1"><div class="displaymath process-math">
+<article class="assemblage assemblage-like" id="power-equation-template"><h3 class="heading"><span class="title">Power equation template.</span></h3>
+<div class="para logical" id="power-equation-template-2"><div class="displaymath process-math">
 \begin{equation*}
 \text{dep} = k \ast \text{indep}^{n}
 \end{equation*}
@@ -405,14 +598,203 @@ D=0.04S^2 + 1.47S
 </div>
 <div class="para">is a <dfn class="terminology">polynomial equation</dfn> because includes both a linear and powers. The exercises introduce more polynomial equations. Polynomials can have any powers, but in this equation the highest power happens to be 2. This type of polynomial equation has a special name. It is a <dfn class="terminology">quadratic equation</dfn>. Any quadratic equation fits this template.</div>
 </div>
-<article class="definition definition-like" id="def-quadratic-equation-template-2-3"><h3 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.3.2</span><span class="period">.</span><span class="space"> </span><span class="title">Quadratic equation template.</span>
-</h3> <div class="para logical" id="def-quadratic-equation-template-2-3-2-1"><div class="displaymath process-math">
+<article class="assemblage assemblage-like" id="quadratic-equation-template-2-3"><h3 class="heading"><span class="title">Quadratic equation template.</span></h3>
+<div class="para logical" id="quadratic-equation-template-2-3-2"><div class="displaymath process-math">
 \begin{equation*}
 \text{dep} = a \ast \text{indep}^2 + b \ast\text{indep} + c
 \end{equation*}
 </div></div></article><div class="para" id="sec-Using_equations-27">For our equation <span class="process-math">\(a=0.04\text{,}\)</span> <span class="process-math">\(b=1.47\text{,}\)</span> and the mysteriously missing <span class="process-math">\(c=0\text{.}\)</span>
-</div></section></div>
+</div>
+<section class="subsection" id="dyk-using-equations"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.3.1</span><span class="space"> </span><span class="title">Do you know ...</span>
+</h3>
+<div class="para logical" id="dyk-using-equations-2"><ul class="disc" id="dyk-using-equations-2-1">
+<li id="dyk-using-equations-2-1-1"><div class="para" id="dyk-using-equations-2-1-1-1">What it means to “evaluate” a function?</div></li>
+<li id="dyk-using-equations-2-1-2"><div class="para" id="dyk-using-equations-2-1-2-1">Why some numbers are underlined in our calculation?</div></li>
+<li id="dyk-using-equations-2-1-3"><div class="para" id="dyk-using-equations-2-1-3-1">How to evaluate an function when the independent variable occurs more than once?</div></li>
+<li id="dyk-using-equations-2-1-4"><div class="para" id="dyk-using-equations-2-1-4-1">How to generate a table or graph from an equation?</div></li>
+<li id="dyk-using-equations-2-1-5"><div class="para" id="dyk-using-equations-2-1-5-1">What graphs of different types of functions look like?</div></li>
+<li id="dyk-using-equations-2-1-6"><div class="para" id="dyk-using-equations-2-1-6-1">What a power, polynomial, or quadratic equation look like?</div></li>
+</ul></div></section><section class="exercises" id="ex-Using_equations"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">2.3.2</span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<section class="introduction" id="ex-Using_equations-2"><div class="para" id="ex-Using_equations-2-1">Workbook exercises</div></section><article class="exercise exercise-like" id="mortgage-payoff-using-equations"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="introduction" id="mortgage-payoff-using-equations-1"><div class="para logical" id="mortgage-payoff-using-equations-1-1">
+<div class="para">Dontrell and Kim borrowed money to buy a house on a 30-year mortgage. After <span class="process-math">\(T\)</span> months of making payments, Dontrell and Kim will still owe $<span class="process-math">\(D\)</span> where</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/mortgage-payoff-solving-exponential.html">
+\begin{equation*}
+D=236,000-56,000 \ast 1.004^T
+\end{equation*}
+</div>
+<div class="para">
+<span class="process-math">\(D\)</span> is also known as the <dfn class="terminology">payoff</dfn> (how much they would need to pay to settle the debt). <em class="emphasis">Story also appears in <a href="sec-Solving_exponential_equations.html#mortgage-payoff-solving-exponential" class="xref" data-knowl="./knowl/xref/mortgage-payoff-solving-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.4.2.4">3.4.2.4</a></em>
+</div>
+</div></div>
+<article class="task exercise-like" id="mortgage-payoff-using-equations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="mortgage-payoff-using-equations-2-1-1">Name the variables <span class="process-math">\(T\)</span> and <span class="process-math">\(D\text{,}\)</span> including units and dependence.</div></article><article class="task exercise-like" id="dontrell-kim-orig"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="dontrell-kim-orig-1-1">How much did Dontrell and Kim originally borrow to buy their house? What value of <span class="process-math">\(T\)</span> did you evaluate at to answer the question?</div></article><article class="task exercise-like" id="mortgage-payoff-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="mortgage-payoff-using-equations-4-1-1">Evaluate the equation at <span class="process-math">\(T=12\text{.}\)</span> What does this number mean in terms of the story?</div></article><article class="task exercise-like" id="mortgage-payoff-using-equations-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="mortgage-payoff-using-equations-5-1-1">After making half the payments, how much money will Dontrell and Kim still owe on the house? Will they have paid more or less (or exactly) half of the amount they originally borrowed? <em class="emphasis">Hint: Find the total number of payments by converting 30 years into months. Then, divide by 2 to find the halfway point.</em>
+</div></article><article class="task exercise-like" id="mortgage-payoff-using-equations-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="mortgage-payoff-using-equations-6-1-1">The very last month they do not actually pay the regular monthly payment, just whatever balance is left on the loan. How much will that be? <em class="emphasis">Hint: they will have made all but one of the payments.</em>
+</div></article></article><article class="exercise exercise-like" id="rose-gold-using-equations"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="introduction" id="rose-gold-using-equations-1"><div class="para logical" id="rose-gold-using-equations-1-1">
+<div class="para">“Rose gold” is a mix of gold and copper. We start with 2 grams of an alloy that is equal parts gold and copper and add <span class="process-math">\(A\)</span> grams of pure gold to lighten the color. The percentage of gold in the resulting rose gold alloy, <span class="process-math">\(R\)</span> is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/rose-gold-order-operations.html ./knowl/xref/rose-gold-algebraic-notation.html">
+\begin{equation*}
+R = 100\left(\frac{1+A}{2+A}\right)
+\end{equation*}
+</div>
+<div class="para">For example, if we add 0.8 grams of pure gold, then <span class="process-math">\(A=0.8\)</span> and so the percentage is</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/rose-gold-order-operations.html ./knowl/xref/rose-gold-algebraic-notation.html">
+\begin{equation*}
+R=100\left(\frac{1+0.8}{2+0.8}\right)= 100 \times (1 + \underline{0.8})\div(2+\underline{0.8})=64.28571428\ldots \approx 64.3\%
+\end{equation*}
+</div>
+<div class="para"><em class="emphasis">(Story also appears in <a href="sec-Order_of_operations.html#rose-gold-order-operations" class="xref" data-knowl="./knowl/xref/rose-gold-order-operations.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise A.4.2.2">A.4.2.2</a>, <a href="sec-Algebraic_notation.html#rose-gold-algebraic-notation" class="xref" data-knowl="./knowl/xref/rose-gold-algebraic-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise A.7.2.4">A.7.2.4</a>, and 4.1 Exercises)</em></div>
+</div></div>
+<article class="task exercise-like" id="rose-gold-using-equations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="rose-gold-using-equations-2-1-1">Name the variables <span class="process-math">\(A\)</span> and <span class="process-math">\(R\text{,}\)</span> including units and dependence.</div></article><article class="task exercise-like" id="rose-gold-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="rose-gold-using-equations-3-1-1">Calculate the percentage of gold in the alloy if we add 1.2 grams of pure gold.</div></article><article class="task exercise-like" id="rose-gold-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="rose-gold-using-equations-4-1-1">Fill in all the missing values in this table.</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(P\)</span></td>
+<td class="c m b1 r1 l0 t1 lines">0</td>
+<td class="c m b1 r1 l0 t1 lines">0.4</td>
+<td class="c m b1 r1 l0 t1 lines">0.8</td>
+<td class="c m b1 r1 l0 t1 lines">1.2</td>
+<td class="c m b1 r1 l0 t1 lines">1.6</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+<td class="c m b1 r1 l0 t1 lines">3</td>
+<td class="c m b1 r1 l0 t1 lines">4</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(R\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">50.0</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">64.3</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">72.2</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">80.0</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int}\)</span></td>
+</tr>
+</table></div></article><article class="task exercise-like" id="rose-gold-using-equations-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="rose-gold-using-equations-5-1-1">Graph the function.</div> <div class="image-box" style="width: 90%; margin-left: 5%; margin-right: 5%;"><img src="external/GraphPaper.jpg" class="contained"></div></article><article class="task exercise-like" id="rose-gold-using-equations-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="rose-gold-using-equations-6-1-1">What do you think happens to the percentage of gold as we add more and more pure gold? Try adding 10 grams, and then try adding 100 grams to check.</div></article></article><article class="exercise exercise-like" id="monty-orchids-using-equations"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="monty-orchids-using-equations-1"><div class="para logical" id="monty-orchids-using-equations-1-1">
+<div class="para">Monty hopes to grow orchids but they are fragile plants. He will consider his greenhouse a success if at least nine of the ten orchids survive. Assuming the orchids each survive at rate <span class="process-math">\(S\text{,}\)</span> the probability his greenhouse is a success, <span class="process-math">\(P\text{,}\)</span> is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/monty-orchids-approx-solutions.html">
+\begin{equation*}
+P= 10S^9-9S^{10}
+\end{equation*}
+</div>
+<div class="para"><em class="emphasis">(Story also appears in <a href="sec-Approx_solutions.html#monty-orchids-approx-solutions" class="xref" data-knowl="./knowl/xref/monty-orchids-approx-solutions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.4.2.3">2.4.2.3</a>)</em></div>
+</div></div>
+<article class="task exercise-like" id="monty-orchids-using-equations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="monty-orchids-using-equations-2-1-1">Name the variables <span class="process-math">\(S\)</span> and <span class="process-math">\(P\text{,}\)</span> including units and dependence.</div></article><article class="task exercise-like" id="monty-orchids-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="monty-orchids-using-equations-3-1-1">If the orchids are perfect (<span class="process-math">\(S=1\)</span>), what is the probability of a successful greenhouse? Explain how this answer makes sense in the story.</div></article><article class="task exercise-like" id="monty-orchids-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="monty-orchids-using-equations-4-1-1">If the orchids are complete duds (<span class="process-math">\(S=0\)</span>), what is the probability of a successful greenhouse? Explain how this answer makes sense in the story.</div></article><article class="task exercise-like" id="monty-orchids-using-equations-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="monty-orchids-using-equations-5-1-1">Make a table comparing the probability of a successful greenhouse if the orchids each survive at rate S = 0, 0.5, 0.8, 0.9, 0.95, or 1.</div></article><article class="task exercise-like" id="monty-orchids-using-equations-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="monty-orchids-using-equations-6-1-1">Draw a graph of the function.</div> <div class="image-box" style="width: 90%; margin-left: 5%; margin-right: 5%;"><img src="external/GraphPaper.jpg" class="contained"></div></article></article><article class="exercise exercise-like" id="charity-walk-using-equations"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="charity-walk-using-equations-1"><div class="para" id="charity-walk-using-equations-1-1">Valerie plans to do a charity walk to raise money for breast cancer research, in honor of her aunt. Valerie’s friends have pledged a total of $93 per mile.</div></div>
+<article class="task exercise-like" id="charity-walk-using-equations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="charity-walk-using-equations-2-1-1">Valerie hopes to walk all 50 miles of the event. If so, how much money will she raise?</div></article><article class="task exercise-like" id="charity-walk-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="charity-walk-using-equations-3-1-1">She might have to stop sooner, however. Name variables and write an equation showing how the money Valerie raises is a function of how far she is able to walk.</div></article><article class="task exercise-like" id="charity-walk-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="charity-walk-using-equations-4-1-1">How long will it take Valerie to walk the full 50 miles if she is able to keep a pace (speed) of 3.2 miles per hour? Write your answer in H:MM format.</div></article><article class="task exercise-like" id="charity-walk-using-equations-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="charity-walk-using-equations-5-1-1">Name the new variables and write a new equation showing how the time it takes Valerie to walk the full 50 miles depends on her pace.</div></article><article class="task exercise-like" id="charity-walk-using-equations-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="charity-walk-using-equations-6-1-1">Good news. Valerie walked the full 50 miles at a pace of 3.2 miles per hour. Way to go, girl! How much money did she raise each hour? <em class="emphasis">Hint: Use your answers from (a) and (c) as unit conversions to get $/hour.</em>
+</div></article></article><div class="para interlude" id="ex-Using_equations-7-1">Textbook exercises</div>
+<article class="exercise exercise-like" id="braking-distance-using-equations"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="introduction" id="braking-distance-using-equations-1"><div class="para logical" id="braking-distance-using-equations-1-1">
+<div class="para">The 2002 Chevrolet Tahoe 4WD will take about 158.1 feet to stop when traveling at 60 mph in normal highway conditions. Let <span class="process-math">\(S\)</span> be the speed at which the vehicle is traveling, in miles per hour (mph), and <span class="process-math">\(D\)</span> the distance it takes to stop, in feet. This information together with a little physics gives the equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+D = 0.0439S^2 + 1.47S
+\end{equation*}
+</div>
+</div></div>
+<article class="task exercise-like" id="braking-distance-using-equations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="braking-distance-using-equations-2-1-1">According to this equation, how many feet does it take to stop the Tahoe when traveling 80 miles per hour?</div></article><article class="task exercise-like" id="braking-distance-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="braking-distance-using-equations-3-1-1">In driver’s training classes they teach the “two-second rule” for safety: you should follow no closer than two seconds behind the car in front of you. If you are traveling 80 miles per hour, how many feet can you travel in two seconds? <em class="emphasis">Hint: convert to feet per second, then multiply by two seconds.</em>
+</div></article><article class="task exercise-like" id="braking-distance-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="braking-distance-using-equations-4-1-1">Compare your results from parts (a) and (b) to decide if the “two-second rule” is adequate for safety at 80 miles per hour. That is, if you are following two seconds behind the car in front of you and calamity strikes that car, will you be able to stop before hitting it?</div></article><article class="task exercise-like" id="braking-distance-using-equations-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="braking-distance-using-equations-5-1-1">Is the “two-second rule” adequate at 50 mph?</div></article></article><article class="exercise exercise-like" id="lamp-intensity-using-equations"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="introduction" id="lamp-intensity-using-equations-1"><div class="para logical" id="lamp-intensity-using-equations-1-1">
+<div class="para">Mom always said to sit close to the lamp when I was reading. The intensity of light <span class="process-math">\(L\text{,}\)</span> measured in percentage (%) that you see from a lamp depends on your distance from the lamp, <span class="process-math">\(F\)</span> feet as described by the formula</div>
+<div class="displaymath process-math">
+\begin{equation*}
+L=\frac{100}{F^2}
+\end{equation*}
+</div>
+<div class="para"><em class="emphasis">Story also appears in 1.1 and 3.3 Exercises</em></div>
+</div></div>
+<article class="task exercise-like" id="lamp-intensity-using-equations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="lamp-intensity-using-equations-2-1-1">Calculate the intensity when I sit 1 foot, 2 feet, or 3 feet away.</div></article><article class="task exercise-like" id="lamp-intensity-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="lamp-intensity-using-equations-3-1-1">The other day I was sitting 27 inches from the lamp. What was the intensity of the light there?</div></article><article class="task exercise-like" id="lamp-intensity-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="lamp-intensity-using-equations-4-1-1">Calculate the rate of change of light intensity between 2 feet and 27 inches. What does that tell you in terms of the story?</div></article><article class="task exercise-like" id="lamp-intensity-using-equations-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="lamp-intensity-using-equations-5-1-1">Draw a graph illustrating the function.</div></article></article><article class="exercise exercise-like" id="gravel-path-using-equations"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="introduction" id="gravel-path-using-equations-1">
+<div class="para" id="gravel-path-using-equations-1-1">Urban community gardens are catching on. What was once an abandoned lot down the block is now a thriving 10’<span class="process-math">\(\times\)</span>25’ vegetable and berry garden for the neighborhood. (Remember ’ stands for “feet,” so the garden is 10 feet wide and 25 feet long.) One neighbor volunteered to donate gravel to make a path around the garden. The path will be 3 inches deep and the same width all around.</div> <div class="para" id="gravel-path-using-equations-1-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/GravelPath.png" class="contained"></div></div> <div class="para" id="gravel-path-using-equations-1-3"><em class="emphasis">Story also appears in 2.4 Exercises and 3.5 #4</em></div>
+</div>
+<article class="task exercise-like" id="gravel-path-using-equations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="gravel-path-using-equations-2-1-1">The other measurements are in feet, so convert the depth of the path (3 inches) into feet also.</div></article><article class="task exercise-like" id="gravel-path-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="gravel-path-using-equations-3-1-1">Suppose for the moment that the path will be 4 feet wide. Calculate the area of the path. Here’s one way to do it: first, find the area of the outer rectangle, then subtract the area of the garden itself.</div> <div class="para" id="gravel-path-using-equations-3-1-2"><em class="emphasis">Hint: the length of that outer rectangle includes the 25 feet of garden plus the width of the path on each side. Same for the width of that outer rectangle.</em></div></article><article class="task exercise-like" id="gravel-path-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="gravel-path-using-equations-4-1-1">Figure out how much gravel they would need (in cubic feet) for a 4 foot wide path by multiplying your answers to (a) and (b).</div></article><article class="task exercise-like" id="gravel-path-using-equations-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para logical" id="gravel-path-using-equations-5-1-1">
+<div class="para">Actually, they aren’t sure how wide the path should be and how much gravel they can get. Let’s write <span class="process-math">\(W\)</span> = width of path (feet) and <span class="process-math">\(G\)</span> = amount of gravel (cubic feet). It turns out that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+G = W^2 + 17.5W
+\end{equation*}
+</div>
+<div class="para">Check that when you evaluate at <span class="process-math">\(W=4\)</span> you get the same answer as in (c).</div>
+</div></article><article class="task exercise-like" id="gravel-path-using-equations-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="gravel-path-using-equations-6-1-1">How many cubic feet of gravel would they need to make the path 2 feet wide? 3 feet wide? 42 inches?</div></article></article><article class="exercise exercise-like" id="newspapers-using-equations"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="introduction" id="newspapers-using-equations-1"><div class="para logical" id="newspapers-using-equations-1-1">
+<div class="para">One measure of the diversity of our news source is the count of the number of different daily newspapers in circulation. A reasonable equation estimating this count over the past century is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+N = -0.0021T^3+0.34T^2-20T+ 2,226
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(N\)</span> is the number of daily newspapers in circulation in the United States <span class="process-math">\(T\)</span> years after 1900.</div>
+</div></div>
+<article class="task exercise-like" id="newspapers-using-equations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="newspapers-using-equations-2-1-1">Based on this equation, how many daily newspapers were in circulation in 1920? In 1955? In 1995? In 2010?</div></article><article class="task exercise-like" id="newspapers-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="newspapers-using-equations-3-1-1">During which period were the number of newspapers in circulation dropping faster: 1900 to 1920 or 1995 to 2010?</div></article><article class="task exercise-like" id="newspapers-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="newspapers-using-equations-4-1-1">Draw a graph illustrating the dependence.</div></article></article><article class="exercise exercise-like" id="grilling-fish-using-equations"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="introduction" id="grilling-fish-using-equations-1">
+<div class="para logical" id="grilling-fish-using-equations-1-1">
+<div class="para">Mrs. Weber’s cooking class came up with the equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+M = 1.2F^2+4F+7
+\end{equation*}
+</div>
+<div class="para">to approximate the grilling time of a piece of fish depending on its thickness. Here <span class="process-math">\(M\)</span> is the number of minutes to grill the fish and <span class="process-math">\(F\)</span> is the thickness of the fish (in inches).</div>
+</div> <div class="para" id="grilling-fish-using-equations-1-2"><em class="emphasis">Story also appears in 1.1 and 3.5 Exercises</em></div>
+</div>
+<article class="task exercise-like" id="grilling-fish-using-equations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="grilling-fish-using-equations-2-1-1">Evaluate the equation at <span class="process-math">\(F=0.25, 1, 1.5,\)</span> and <span class="process-math">\(2\text{.}\)</span>
+</div></article><article class="task exercise-like" id="grilling-fish-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="grilling-fish-using-equations-3-1-1">What do the answers you found say about cooking fish?</div></article><article class="task exercise-like" id="grilling-fish-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="grilling-fish-using-equations-4-1-1">Draw a graph showing how the cooking time depends on the thickness of the fish.</div></article><article class="task exercise-like" id="grilling-fish-using-equations-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="grilling-fish-using-equations-5-1-1">Your graph should show that the function is increasing. Explain how that makes sense in terms of the story.</div></article></article><article class="exercise exercise-like" id="salary-using-equations"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<div class="introduction" id="salary-using-equations-1">
+<div class="para logical" id="salary-using-equations-1-1">
+<div class="para">Wynter has a pretty decent job. He is paid a salary of $780 per week but his hours vary week-to-week. Even though Wynter is not paid by the hour, he can figure out what his hourly wage would be depending on the number of hours he works. For example, in a week where Wynter works 40 hours, he’s earning the equivalent of $19.50/hr because</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\$780}{40 \text{ hours}} = 780 \div 40 =\$19.50\text{/hour}
+\end{equation*}
+</div>
+</div> <div class="para" id="salary-using-equations-1-2"><em class="emphasis">Story also appears in 3.3 Exercises</em></div>
+</div>
+<article class="task exercise-like" id="salary-using-equations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="salary-using-equations-2-1-1">What’s Wynter’s equivalent hourly wage in a week when he works 50 hours? 60 hours?</div></article><article class="task exercise-like" id="salary-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="salary-using-equations-3-1-1">Name the variables and write an equation relating them.</div></article><article class="task exercise-like" id="salary-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="salary-using-equations-4-1-1">Explain why this function is decreasing.</div></article></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-First_look_exponential.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-Approx_solutions.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

@@ -115,6 +115,7 @@ window.MathJax = {
 \newcommand{\amp}{&amp;}
 \definecolor{fillinmathshade}{gray}{0.9}
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
 \)</span></div>
 <div class="ptx-page">
 <div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
@@ -168,44 +169,237 @@ window.MathJax = {
 <li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-tx-Equations.html" class="internal"><span class="codenumber">2</span> <span class="title">Equations</span></a></div>
 <ul class="structural toc-item-list contains-active">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div></li>
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-First_look_linear.html#dyk-first-look-linear" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Do you know...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_linear.html#ex-First_look_linear" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-First_look_exponential.html#dyk-first-look-exponential" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Do you know...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_exponential.html#ex-First_look_exponentialEX" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Using_equations.html#dyk-using-equations" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Using_equations.html#ex-Using_equations" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="sec-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Approx_solutions.html#dyk-approx-solutions" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approx_solutions.html#ex-Approx_solutions" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Finance.html#dyk-finance" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Finance.html#ex-Finance" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-tx-Solving_equations.html" class="internal"><span class="codenumber">3</span> <span class="title">Solving equations</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html#dyk-solving-linear" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html#ex-Solving_linear_equations" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html#dyk-solving-linear-ineq" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html#ex-Solving_linear_inequalitiesEX" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_power_equations.html#dyk-solving-power" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_power_equations.html#ex-Solving_power_equations" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html#dyk-solving-exponential" class="internal"><span class="codenumber">3.4.1</span> <span class="title">dyk-solving-exponential</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html#ex-Solving_exponential_equations" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html#dyk-solving-quadratic" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html#ex-Solving_quadratic_equations" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-tx-Closer_look_linear.html" class="internal"><span class="codenumber">4</span> <span class="title">A closer look at linear equations</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html#dyk-modeling-linear" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html#ex-Modeling_linear_equations" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html#dyk-systems-linear" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html#ex-Systems_linear_equations" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Intercepts.html#dyk-intercepts" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Intercepts.html#ex-Intercepts" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Slopes.html#dyk-slopes" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Slopes.html#ex-Slopes" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html#dyk-fitting-lines" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html#ex-Fitting_lines_to_data" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-tx-Closer_look_exponential.html" class="internal"><span class="codenumber">5</span> <span class="title">A closer look at exponential functions</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html#dyk-modeling-exponential" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html#ex-Modeling_exponential_equations" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html#dyk-growth-decay" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html#ex-Exp_growth_decay" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Growth_factor.html#dyk-growth-factor" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Growth_factor.html#ex-Growth_factor" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html#dyk-linear-exponential" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html#ex-Linear_vs_exponential" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Logistic_growth.html#dyk-logistic-growth" class="internal"><span class="codenumber">5.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logistic_growth.html#ex-Logistic_growth" class="internal"><span class="codenumber">5.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="ch-tx-Prelude.html" class="internal"><span class="codenumber">A</span> <span class="title">Prelude</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approximation_and_rounding.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Prelude: Approximation and Rounding</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Approximation_and_rounding.html#dyk-approximation-rounding" class="internal"><span class="codenumber">A.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approximation_and_rounding.html#ex-Approximation_and_rounding" class="internal"><span class="codenumber">A.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Arithmetic_operations.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Prelude: Arithmetic Operations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Arithmetic_operations.html#dyk-arithmetic-operations" class="internal"><span class="codenumber">A.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Arithmetic_operations.html#ex-Arithmetic_operations" class="internal"><span class="codenumber">A.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Percentages.html" class="internal"><span class="codenumber">A.3</span> <span class="title">Prelude: Percentages</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Percentages.html#dyk-percentages" class="internal"><span class="codenumber">A.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Percentages.html#ex-Percentages" class="internal"><span class="codenumber">A.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Order_of_operations.html" class="internal"><span class="codenumber">A.4</span> <span class="title">Prelude: Order of Operations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Order_of_operations.html#dyk-order-operations" class="internal"><span class="codenumber">A.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Order_of_operations.html#ex-Order_of_operations" class="internal"><span class="codenumber">A.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fractions.html" class="internal"><span class="codenumber">A.5</span> <span class="title">Prelude: Fractions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fractions.html#dyk-fractions" class="internal"><span class="codenumber">A.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fractions.html#ex-Fractions" class="internal"><span class="codenumber">A.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Powers_and_roots.html" class="internal"><span class="codenumber">A.6</span> <span class="title">Prelude: Powers and Roots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Powers_and_roots.html#dyk-powers-roots" class="internal"><span class="codenumber">A.6.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Powers_and_roots.html#ex-Powers_and_roots" class="internal"><span class="codenumber">A.6.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Algebraic_notation.html" class="internal"><span class="codenumber">A.7</span> <span class="title">Prelude: Algebraic Notation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Algebraic_notation.html#dyk-algebraic-notation" class="internal"><span class="codenumber">A.7.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Algebraic_notation.html#ex-Algebraic-notation" class="internal"><span class="codenumber">A.7.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Scientific_notation.html" class="internal"><span class="codenumber">A.8</span> <span class="title">Prelude: Scientific Notation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Scientific_notation.html#dyk-prelude-scientific-notation" class="internal"><span class="codenumber">A.8.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Scientific_notation.html#ex-Scientific_notation" class="internal"><span class="codenumber">A.8.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logarithms.html" class="internal"><span class="codenumber">A.9</span> <span class="title">Prelude: Logarithms</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Logarithms.html#dyk-logarithms" class="internal"><span class="codenumber">A.9.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logarithms.html#ex-Logarithms" class="internal"><span class="codenumber">A.9.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Approx_solutions"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">2.4</span><span class="space"> </span><span class="title">Approximating solutions of equations</span>
@@ -396,7 +590,192 @@ P=1.205 \ast 1.0131^{50} = 1.205 \times 1.0131 \wedge \underline{50} = 2.3122324
 <div class="para" id="sec-Approx_solutions-23"><em class="alert">I’d rather be approximately right than precisely wrong.</em></div>
 <div class="para" id="sec-Approx_solutions-24">Okay, enough digression. Let’s check our answer using the graph.</div>
 <div class="para" id="sec-Approx_solutions-25"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/indiapop.png" class="contained"></div></div>
-<div class="para" id="sec-Approx_solutions-26">It looks like 1.5 billion corresponds to just before the unlabeled gridline halfway between 15 and 20. That line would be 17.5, so the answer of 17 (which was year 2028) looks perfect.</div></section></div>
+<div class="para" id="sec-Approx_solutions-26">It looks like 1.5 billion corresponds to just before the unlabeled gridline halfway between 15 and 20. That line would be 17.5, so the answer of 17 (which was year 2028) looks perfect.</div>
+<section class="subsection" id="dyk-approx-solutions"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.4.1</span><span class="space"> </span><span class="title">Do you know ...</span>
+</h3>
+<div class="para logical" id="dyk-approx-solutions-2"><ul class="disc" id="dyk-approx-solutions-2-1">
+<li id="dyk-approx-solutions-2-1-1"><div class="para" id="dyk-approx-solutions-2-1-1-1">What a solution to an equation is?</div></li>
+<li id="dyk-approx-solutions-2-1-2"><div class="para" id="dyk-approx-solutions-2-1-2-1">When you approximate a solution of an equation, as opposed to just evaluating?</div></li>
+<li id="dyk-approx-solutions-2-1-3"><div class="para" id="dyk-approx-solutions-2-1-3-1">How to use successive approximation, including organizing your work in a table?</div></li>
+<li id="dyk-approx-solutions-2-1-4"><div class="para" id="dyk-approx-solutions-2-1-4-1">How to get a reasonable first guess from a graph?</div></li>
+<li id="dyk-approx-solutions-2-1-5"><div class="para" id="dyk-approx-solutions-2-1-5-1">What to do if you do not have a reasonable first guess?</div></li>
+<li id="dyk-approx-solutions-2-1-6"><div class="para" id="dyk-approx-solutions-2-1-6-1">How precise your answer should be?</div></li>
+<li id="dyk-approx-solutions-2-1-7"><div class="para" id="dyk-approx-solutions-2-1-7-1">How to find numbers between given numbers, for example between 0.3 and 0.4?</div></li>
+</ul></div></section><section class="exercises" id="ex-Approx_solutions"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">2.4.2</span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<section class="introduction" id="ex-Approx_solutions-2"><div class="para" id="ex-Approx_solutions-2-1">Workbook exercises</div></section><article class="exercise exercise-like" id="pizza-diameter-approx-solutions"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="introduction" id="pizza-diameter-approx-solutions-1"><div class="para logical" id="pizza-diameter-approx-solutions-1-1">
+<div class="para">The size of a round pizza is described by its <dfn class="terminology">diameter</dfn> (distance across). Assuming a 16-inch diameter pizza serves four people, and with a little geometry to help us out, we calculated that a pizza of diameter <span class="process-math">\(D\)</span> inches serves <span class="process-math">\(P\)</span> people, where</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/pizza-diameter-powers-roots.html ./knowl/xref/pizza-diameter-modeling-linear.html ./knowl/xref/pizza-diameter-solving-power.html">
+\begin{equation*}
+P = 0.015625\ D^2
+\end{equation*}
+</div>
+<div class="para"><em class="emphasis">(Story also appears in <a href="sec-Powers_and_roots.html#pizza-diameter-powers-roots" class="xref" data-knowl="./knowl/xref/pizza-diameter-powers-roots.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise A.6.2.2">A.6.2.2</a>, <a href="sec-Modeling_linear_equations.html#pizza-diameter-modeling-linear" class="xref" data-knowl="./knowl/xref/pizza-diameter-modeling-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 4.1.2.3.c">4.1.2.3.c</a>, and <a href="sec-Solving_power_equations.html#pizza-diameter-solving-power" class="xref" data-knowl="./knowl/xref/pizza-diameter-solving-power.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.3.2.1">3.3.2.1</a>)</em></div>
+</div></div>
+<article class="task exercise-like" id="pizza-diameter-approx-solutions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="pizza-diameter-approx-solutions-2-1-1">Confirm that a 16-inch pizza serves four people.</div></article><article class="task exercise-like" id="pizza-diameter-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="pizza-diameter-approx-solutions-3-1-1">How many people does a 12-inch pizza serve? How about a 14-inch pizza?</div></article><article class="task exercise-like" id="pizza-diameter-approx-solutions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="pizza-diameter-approx-solutions-4-1-1">Graph the function. Include what happens when <span class="process-math">\(D=0\text{.}\)</span>
+</div> <div class="image-box" style="width: 90%; margin-left: 5%; margin-right: 5%;"><img src="external/GraphPaper.jpg" class="contained"></div></article><article class="task exercise-like" id="pizza-diameter-approx-solutions-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="pizza-diameter-approx-solutions-5-1-1">A <dfn class="terminology">personal</dfn> pizza is sized to serve one person. Use successive approximation to estimate the diameter of a personal pizza to the nearest inch.</div></article><article class="task exercise-like" id="pizza-diameter-approx-solutions-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="pizza-diameter-approx-solutions-6-1-1">What diameter should an extra large pizza be to serve 6 people? Answer to the nearest inch.</div></article></article><article class="exercise exercise-like" id="fuel-350-approx-solutions"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="introduction" id="fuel-350-approx-solutions-1"><div class="para" id="fuel-350-approx-solutions-1-1">Suppose the gas tank of a car is designed to hold enough fuel to drive 350 miles. (That’s fairly average.) A hybrid car with fuel efficiency of 50 miles per gallon (mpg) would only need a 7 gallon gas tank, but a recreational vehicle that gets only 10 mpg would need a 35 gallon gas tank. <em class="emphasis">(Story also appears in <a href="sec-Solving_power_equations.html#fuel-350-solving-power" class="xref" data-knowl="./knowl/xref/fuel-350-solving-power.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.3.2.3">3.3.2.3</a>)</em>
+</div></div>
+<article class="task exercise-like" id="fuel-350-approx-solutions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="fuel-350-approx-solutions-2-1-1">Name the variables, including units. The way the story is stated, the size tank is a function of the fuel efficiency.</div></article><article class="task exercise-like" id="fuel-350-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="fuel-350-approx-solutions-3-1-1">Write an equation describing this function.</div></article><article class="task exercise-like" id="fuel-350-approx-solutions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="fuel-350-approx-solutions-4-1-1">My Honda Accord’s tank holds about 16 gallons. Approximate the corresponding fuel efficiency to one decimal place.</div></article><article class="task exercise-like" id="fuel-350-approx-solutions-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="fuel-350-approx-solutions-5-1-1">My ex-husband’s Honda Civic’s tank holds only 13 gallons. Approximate the corresponding fuel efficiency to one decimal place.</div></article><article class="task exercise-like" id="fuel-350-approx-solutions-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="fuel-350-approx-solutions-6-1-1">Draw a graph showing how the size tank depends on the fuel efficiency.</div> <div class="image-box" style="width: 90%; margin-left: 5%; margin-right: 5%;"><img src="external/GraphPaper.jpg" class="contained"></div></article></article><article class="exercise exercise-like" id="monty-orchids-approx-solutions"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="monty-orchids-approx-solutions-1"><div class="para logical" id="monty-orchids-approx-solutions-1-1">
+<div class="para">Monty hopes to grow orchids but they are fragile plants. He will consider his greenhouse a success if at least nine of the ten orchids survive. Assuming the orchids each survive at rate <span class="process-math">\(S\text{,}\)</span> the probability his greenhouse is a success, <span class="process-math">\(P\text{,}\)</span> is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/monty-orchids-using-equations.html">
+\begin{equation*}
+P= 10S^9-9S^{10}
+\end{equation*}
+</div>
+<div class="para"><em class="emphasis">(Story also appears in <a href="sec-Using_equations.html#monty-orchids-using-equations" class="xref" data-knowl="./knowl/xref/monty-orchids-using-equations.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.3.2.3">2.3.2.3</a>)</em></div>
+</div></div>
+<article class="task exercise-like" id="monty-orchids-approx-solutions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="monty-orchids-approx-solutions-2-1-1">Monty can buy orchids each with survival rate of <span class="process-math">\(S=0.8\text{.}\)</span> Is that enough to give probability <span class="process-math">\(P\ge 0.8\)</span> of a successful greenhouse?</div></article><article class="task exercise-like" id="monty-orchids-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="monty-orchids-approx-solutions-3-1-1">What quality of orchids would Monty need to have probability <span class="process-math">\(P\ge 0.8\)</span> of a successful greenhouse? Report your answer accurate to two decimal places.</div></article><article class="task exercise-like" id="monty-orchids-approx-solutions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="monty-orchids-approx-solutions-4-1-1">What quality of orchids would Monty need to have probability <span class="process-math">\(P\ge 0.95\)</span> of a successful greenhouse? Report your answer accurate to three decimal places.</div></article></article><article class="exercise exercise-like" id="population-growth-approx-solutions"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="population-growth-approx-solutions-1">
+<div class="para" id="population-growth-approx-solutions-1-1">After China, India, and the United States, the next five most populous countries (in 2011) are Indonesia, Brazil, Pakistan, Nigeria, and Bangladesh. Their projected growth rates and corresponding equation are listed below. Here <span class="process-math">\(Q\)</span> is the population measured in millions and <span class="process-math">\(T\)</span> is time measured in years since 2011. <aside class="aside aside-like" id="population-growth-approx-solutions-1-1-3"><div class="para" id="population-growth-approx-solutions-1-1-3-1">Source: CIA Factbook</div></aside>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(4^{\text{th}}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">Indonesia  </td>
+<td class="l m b0 r0 l0 t0 lines">pop. 248 million  </td>
+<td class="l m b0 r0 l0 t0 lines">growth rate 1.04%  </td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(Q= 248 \ast 1.0104^T\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(5^{\text{th}}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">Brazil</td>
+<td class="l m b0 r0 l0 t0 lines">pop. 205 million</td>
+<td class="l m b0 r0 l0 t0 lines">growth rate 1.10%</td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(Q = 205  \ast 1.0110^T\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(6^{\text{th}}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">Pakistan</td>
+<td class="l m b0 r0 l0 t0 lines">pop. 190 million</td>
+<td class="l m b0 r0 l0 t0 lines">growth rate 1.55%</td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(Q = 190 \ast 1.0155^T\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(7^{\text{th}}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">Nigeria</td>
+<td class="l m b0 r0 l0 t0 lines">pop. 170 million</td>
+<td class="l m b0 r0 l0 t0 lines">growth rate 2.55%</td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(Q = 170 \ast 1.0255^T\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(8^{\text{th}}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">Bangladesh</td>
+<td class="l m b0 r0 l0 t0 lines">pop. 161 million</td>
+<td class="l m b0 r0 l0 t0 lines">growth rate 1.58%</td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(Q = 161\ast 1.0158^T\)</span></td>
+</tr>
+</table></div>
+</div>
+<article class="task exercise-like" id="population-growth-approx-solutions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="population-growth-approx-solutions-2-1-1">Which of these countries is projected to have the largest population in 2020? In 2030? In 2050?</div></article><article class="task exercise-like" id="population-growth-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="population-growth-approx-solutions-3-1-1">Explain why Bangladesh’s population will not overtake Nigeria’s, assuming these projections are accurate.</div></article><article class="task exercise-like" id="population-growth-approx-solutions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="population-growth-approx-solutions-4-1-1">Approximately when will Brazil’s population top 500 million? Will Nigeria get there first? Display your work in a successive approximation table.</div></article></article><div class="para interlude" id="ex-Approx_solutions-7-1">Textbook exercises</div>
+<article class="exercise exercise-like" id="pop-china-approx-solutions"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="introduction" id="pop-china-approx-solutions-1">
+<div class="para logical" id="pop-china-approx-solutions-1-1">
+<div class="para">The population of China in 2011 was approximately 1.343 billion and growing at around 0.48% per year. An equation estimating the population of China is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+P = 1.343 \ast 1.0048^Y
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(P\)</span> is the population of China (measured in billions) and <span class="process-math">\(Y\)</span> is the years since 2011.</div>
+</div> <aside class="aside aside-like" id="pop-china-approx-solutions-1-2"><div class="para" id="pop-china-approx-solutions-1-2-1">Source: CIA Factbook</div></aside>
+</div>
+<article class="task exercise-like" id="pop-china-approx-solutions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="pop-china-approx-solutions-2-1-1">In what year is China’s population projected to reach 1.5 billion?</div></article><article class="task exercise-like" id="pop-china-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="pop-china-approx-solutions-3-1-1">In what year is India’s population expected to pass China’s? Remember that we discussed India’s population in this section.</div></article><article class="task exercise-like" id="pop-china-approx-solutions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="pop-china-approx-solutions-4-1-1">Explain how we got the equation for China.</div></article><article class="task exercise-like" id="pop-china-approx-solutions-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="pop-china-approx-solutions-5-1-1">Draw graph showing both equations.</div></article></article><article class="exercise exercise-like" id="electronics-sales-approx-solutions"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="introduction" id="electronics-sales-approx-solutions-1"><div class="para logical" id="electronics-sales-approx-solutions-1-1">
+<div class="para">A company who makes electronics was doing great business in 1996, but sales quickly slid after 2000. Their sales <span class="process-math">\(M\)</span> in millions of $ <span class="process-math">\(Y\)</span> years from 1996 is given by the following equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+M = 104.4+11.5Y-1.4Y^2
+\end{equation*}
+</div>
+<div class="para"><em class="emphasis">Story appears in 3.5 Exercises</em></div>
+</div></div>
+<article class="task exercise-like" id="electronics-sales-approx-solutions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="electronics-sales-approx-solutions-2-1-1">What were the company’s sales in 1996, 2000, 2005?</div></article><article class="task exercise-like" id="electronics-sales-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="electronics-sales-approx-solutions-3-1-1">The company decided to declare bankruptcy when sales fell below $20 billion. In what year was that? Show how to use successive approximations to estimate the answer to the nearest year.</div></article><article class="task exercise-like" id="electronics-sales-approx-solutions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="electronics-sales-approx-solutions-4-1-1">An analyst had suggested that they close down shop earlier, once sales were below $50 billion. In what year did sales fall that low? Again, use successive approximation.</div></article></article><article class="exercise exercise-like" id="window-glass-approx-solutions"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="introduction" id="window-glass-approx-solutions-1"><div class="para logical" id="window-glass-approx-solutions-1-1">
+<div class="para">Suppose a special kind of window glass is 1 inch thick and lets through only 75% of the light. If two thicknesses of this glass are used, the product is 2 inches thick and lets in 56.25% since</div>
+<div class="displaymath process-math">
+\begin{equation*}
+75\% \text{ of } 75\% = (0.75)(0.75) = 0.5625 = 56.25\%
+\end{equation*}
+</div>
+<div class="para"><em class="emphasis">Story also appears in 3.4 and 5.4 Exercises</em></div>
+</div></div>
+<article class="task exercise-like" id="window-glass-approx-solutions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="window-glass-approx-solutions-2-1-1">If three thickness of this glass is used, explain why the product is 3 inches think and lets in about 42.19% of the light.</div></article><article class="task exercise-like" id="window-glass-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="window-glass-approx-solutions-3-1-1">If four thickness of this glass is used, how thick will the product be and what percentage (%) of the light will be let through?</div></article><article class="task exercise-like" id="window-glass-approx-solutions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="window-glass-approx-solutions-4-1-1">Identify and name the variables, including their units, and write an equation relating them.</div></article><article class="task exercise-like" id="window-glass-approx-solutions-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="window-glass-approx-solutions-5-1-1">Use successive approximation to figure out what thickness glass should be used to let through less than 10% of the light. Display your work in a table.</div></article><article class="task exercise-like" id="window-glass-approx-solutions-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="window-glass-approx-solutions-6-1-1">Graph the function.</div></article></article><article class="exercise exercise-like" id="wind-turbines-approx-solutions"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="introduction" id="wind-turbines-approx-solutions-1">
+<div class="para logical" id="wind-turbines-approx-solutions-1-1">
+<div class="para">Wind turbines are used to generate electricity. For a particular wind turbine, the equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+W = 2.4 S^3
+\end{equation*}
+</div>
+<div class="para">can be used to calculate the amount of electricity generated (<span class="process-math">\(W\)</span> watts) for a given wind speed (<span class="process-math">\(S\)</span> mph), over a fixed period of time.</div>
+</div> <div class="para" id="wind-turbines-approx-solutions-1-2"><em class="emphasis">Story also appears in 1.1, 1.3, and 3.3 Exercises</em></div>
+</div>
+<article class="task exercise-like" id="wind-turbines-approx-solutions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="wind-turbines-approx-solutions-2-1-1">Make a table showing the amount of electricity produced when the wind speed is 10 mph, 25 mph, and 40 mph.</div></article><article class="task exercise-like" id="wind-turbines-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="wind-turbines-approx-solutions-3-1-1">Draw a graph illustrating this equation.</div></article><article class="task exercise-like" id="wind-turbines-approx-solutions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="wind-turbines-approx-solutions-4-1-1">Approximate the wind speed that will generate 12,500 watts of electricity.</div></article></article><article class="exercise exercise-like" id="bac-approx-solutions"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="introduction" id="bac-approx-solutions-1">
+<div class="para logical" id="bac-approx-solutions-1-1">
+<div class="para">After his first beer, Stephen’s blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour. The equation is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+S = 0.04 \ast 1.45^H
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(S\)</span> is Stephen’s BAC and <span class="process-math">\(H\)</span> is the time, measured in hours.</div>
+</div> <div class="para" id="bac-approx-solutions-1-2"><em class="emphasis">Story also appears in 1.1 #4 and 3.4 #1</em></div>
+</div>
+<article class="task exercise-like" id="bac-approx-solutions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="bac-approx-solutions-2-1-1">Make a table showing Stephen’s BAC at the start of the problem and each of the next four hours.</div></article><article class="task exercise-like" id="bac-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="bac-approx-solutions-3-1-1">Draw a graph showing how Stephen’s BAC changed over time.</div></article><article class="task exercise-like" id="bac-approx-solutions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="bac-approx-solutions-4-1-1">At a BAC of 0.10 it is illegal for Stephen to drive. Approximately when does that happen?</div></article></article><article class="exercise exercise-like" id="gravel-path-approx-solutions"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<div class="introduction" id="gravel-path-approx-solutions-1">
+<div class="para logical" id="gravel-path-approx-solutions-1-1">
+<div class="para">Urban community gardens are catching on. What was once an abandoned lot down the block is now a thriving 10’<span class="process-math">\(\times\)</span>25’ vegetable and berry garden for the neighborhood. One neighbor volunteered to donate gravel to make a path around the garden. The path will be 3 inches deep and the same width all around. The amount of gravel they need (<span class="process-math">\(G\)</span> cubic feet) is given by the equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+G = W^2 + 17.5W
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(W\)</span> is the width of the path in feet.</div>
+</div> <div class="para" id="gravel-path-approx-solutions-1-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/GravelPath.png" class="contained"></div></div> <div class="para" id="gravel-path-approx-solutions-1-3"><em class="emphasis">Story also appears in 2.3 Exercises and 3.5 #4</em></div>
+</div>
+<article class="task exercise-like" id="gravel-path-approx-solutions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="gravel-path-approx-solutions-2-1-1">If the neighbor donates 60 cubic feet of gravel, how wide a path can they build? Report your answer to two decimal places.</div></article><article class="task exercise-like" id="gravel-path-approx-solutions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="gravel-path-approx-solutions-3-1-1">Convert your answer to feet and inches. Do you think that’s a wide enough path?</div></article></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-Using_equations.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-Finance.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

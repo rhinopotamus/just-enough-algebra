@@ -115,6 +115,7 @@ window.MathJax = {
 \newcommand{\amp}{&amp;}
 \definecolor{fillinmathshade}{gray}{0.9}
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
 \)</span></div>
 <div class="ptx-page">
 <div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
@@ -168,44 +169,237 @@ window.MathJax = {
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-tx-Equations.html" class="internal"><span class="codenumber">2</span> <span class="title">Equations</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-First_look_linear.html#dyk-first-look-linear" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Do you know...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_linear.html#ex-First_look_linear" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-First_look_exponential.html#dyk-first-look-exponential" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Do you know...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_exponential.html#ex-First_look_exponentialEX" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Using_equations.html#dyk-using-equations" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Using_equations.html#ex-Using_equations" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Approx_solutions.html#dyk-approx-solutions" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approx_solutions.html#ex-Approx_solutions" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Finance.html#dyk-finance" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Finance.html#ex-Finance" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-tx-Solving_equations.html" class="internal"><span class="codenumber">3</span> <span class="title">Solving equations</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html#dyk-solving-linear" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html#ex-Solving_linear_equations" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html#dyk-solving-linear-ineq" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html#ex-Solving_linear_inequalitiesEX" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_power_equations.html#dyk-solving-power" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_power_equations.html#ex-Solving_power_equations" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html#dyk-solving-exponential" class="internal"><span class="codenumber">3.4.1</span> <span class="title">dyk-solving-exponential</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html#ex-Solving_exponential_equations" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html#dyk-solving-quadratic" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html#ex-Solving_quadratic_equations" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-tx-Closer_look_linear.html" class="internal"><span class="codenumber">4</span> <span class="title">A closer look at linear equations</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html#dyk-modeling-linear" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html#ex-Modeling_linear_equations" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html#dyk-systems-linear" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html#ex-Systems_linear_equations" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Intercepts.html#dyk-intercepts" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Intercepts.html#ex-Intercepts" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Slopes.html#dyk-slopes" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Slopes.html#ex-Slopes" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html#dyk-fitting-lines" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html#ex-Fitting_lines_to_data" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-tx-Closer_look_exponential.html" class="internal"><span class="codenumber">5</span> <span class="title">A closer look at exponential functions</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html#dyk-modeling-exponential" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html#ex-Modeling_exponential_equations" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html#dyk-growth-decay" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html#ex-Exp_growth_decay" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Growth_factor.html#dyk-growth-factor" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Growth_factor.html#ex-Growth_factor" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html#dyk-linear-exponential" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html#ex-Linear_vs_exponential" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Logistic_growth.html#dyk-logistic-growth" class="internal"><span class="codenumber">5.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logistic_growth.html#ex-Logistic_growth" class="internal"><span class="codenumber">5.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="ch-tx-Prelude.html" class="internal"><span class="codenumber">A</span> <span class="title">Prelude</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approximation_and_rounding.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Prelude: Approximation and Rounding</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Approximation_and_rounding.html#dyk-approximation-rounding" class="internal"><span class="codenumber">A.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approximation_and_rounding.html#ex-Approximation_and_rounding" class="internal"><span class="codenumber">A.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Arithmetic_operations.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Prelude: Arithmetic Operations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Arithmetic_operations.html#dyk-arithmetic-operations" class="internal"><span class="codenumber">A.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Arithmetic_operations.html#ex-Arithmetic_operations" class="internal"><span class="codenumber">A.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Percentages.html" class="internal"><span class="codenumber">A.3</span> <span class="title">Prelude: Percentages</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Percentages.html#dyk-percentages" class="internal"><span class="codenumber">A.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Percentages.html#ex-Percentages" class="internal"><span class="codenumber">A.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Order_of_operations.html" class="internal"><span class="codenumber">A.4</span> <span class="title">Prelude: Order of Operations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Order_of_operations.html#dyk-order-operations" class="internal"><span class="codenumber">A.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Order_of_operations.html#ex-Order_of_operations" class="internal"><span class="codenumber">A.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fractions.html" class="internal"><span class="codenumber">A.5</span> <span class="title">Prelude: Fractions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fractions.html#dyk-fractions" class="internal"><span class="codenumber">A.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fractions.html#ex-Fractions" class="internal"><span class="codenumber">A.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Powers_and_roots.html" class="internal"><span class="codenumber">A.6</span> <span class="title">Prelude: Powers and Roots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Powers_and_roots.html#dyk-powers-roots" class="internal"><span class="codenumber">A.6.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Powers_and_roots.html#ex-Powers_and_roots" class="internal"><span class="codenumber">A.6.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Algebraic_notation.html" class="internal"><span class="codenumber">A.7</span> <span class="title">Prelude: Algebraic Notation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Algebraic_notation.html#dyk-algebraic-notation" class="internal"><span class="codenumber">A.7.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Algebraic_notation.html#ex-Algebraic-notation" class="internal"><span class="codenumber">A.7.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Scientific_notation.html" class="internal"><span class="codenumber">A.8</span> <span class="title">Prelude: Scientific Notation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Scientific_notation.html#dyk-prelude-scientific-notation" class="internal"><span class="codenumber">A.8.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Scientific_notation.html#ex-Scientific_notation" class="internal"><span class="codenumber">A.8.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logarithms.html" class="internal"><span class="codenumber">A.9</span> <span class="title">Prelude: Logarithms</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Logarithms.html#dyk-logarithms" class="internal"><span class="codenumber">A.9.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logarithms.html#ex-Logarithms" class="internal"><span class="codenumber">A.9.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Rate_of_change"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">1.3</span><span class="space"> </span><span class="title">Rate of change</span>
@@ -297,9 +491,8 @@ window.MathJax = {
 <div class="para">so we don’t want to mix units because that would be like taking cookies away from children.</div>
 </div>
 <div class="para" id="sec-Rate_of_change-11">In our story, we calculated the speed of the diver. In general, that number is the <dfn class="terminology">rate of change</dfn> of the function over that interval of values.</div>
-<article class="definition definition-like" id="def-rate-of-change"><h3 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.3.1</span><span class="period">.</span><span class="space"> </span><span class="title">Rate of change formula.</span>
-</h3> <div class="para logical" id="def-rate-of-change-2-1"><div class="displaymath process-math">
+<article class="assemblage assemblage-like" id="rate-of-change"><h3 class="heading"><span class="title">Rate of change formula.</span></h3>
+<div class="para logical" id="rate-of-change-2"><div class="displaymath process-math">
 \begin{equation*}
 \text{rate of change = }\frac{\text{change dep}}{\text{change indep}}
 \end{equation*}
@@ -400,7 +593,7 @@ window.MathJax = {
 <div class="para" id="dyk-rate-of-change-3"><em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em></div></section><section class="exercises" id="ex-Rate_of_change"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber">1.3.2</span><span class="space"> </span><span class="title">Exercises</span>
 </h3>
-<section class="introduction" id="ex-Rate_of_change-1"><div class="para" id="ex-Rate_of_change-1-1">Workbook problems</div></section><article class="exercise exercise-like" id="bakery-rate-of-change"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<section class="introduction" id="ex-Rate_of_change-1"><div class="para" id="ex-Rate_of_change-1-1">Workbook exercises</div></section><article class="exercise exercise-like" id="bakery-rate-of-change"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
 <div class="introduction" id="bakery-rate-of-change-1">
 <div class="para" id="bakery-rate-of-change-1-1">Sweet Rose Bakery makes cakes and cupcakes. Here are their prices.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
 <div class="sbspanel top" style="width:50%;">
@@ -500,14 +693,14 @@ window.MathJax = {
 <div class="para" id="teen-pregnancy-rate-of-change-3-1-1">Did the teen pregnancy rate increase or decrease from 2003 to 2004?</div></article><article class="task exercise-like" id="teen-pregnancy-rate-of-change-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="teen-pregnancy-rate-of-change-4-1-1">While the teen pregnancy rate has generally decreased, from 2001 to 2002 it actually increased. Were there other times when it increased?</div></article><article class="task exercise-like" id="teen-pregnancy-rate-of-change-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
 <div class="para" id="teen-pregnancy-rate-of-change-5-1-1">When did the teen pregnancy rate first fall below 60 pregnancies per thousand teens?</div></article><article class="task exercise-like" id="teen-pregnancy-rate-of-change-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="teen-pregnancy-rate-of-change-6-1-1">How fast was the teen pregnancy rate dropping on average per year from 2002 to 2005? How does that compare to 2006 to 2009?</div></article></article><div class="para interlude" id="ex-Rate_of_change-6-1">Textbook problems</div>
-<article class="exercise exercise-like" id="diver-rate-of-change-tx"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
-<div class="introduction" id="diver-rate-of-change-tx-1"><div class="para" id="diver-rate-of-change-tx-1-1">Look back at the springboard diver example in this section.</div></div>
-<article class="task exercise-like" id="diver-rate-of-change-tx-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="diver-rate-of-change-tx-2-1-1">Check the other rates of change given in the table.</div></article><article class="task exercise-like" id="diver-rate-of-change-tx-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="diver-rate-of-change-tx-3-1-1">Approximately how fast is the diver moving as she enters the water? Use that her height at 1.4 seconds is 1 foot above water (given earlier), but also her height at 1.5 seconds is just 0.12 feet above water.</div></article></article><article class="exercise exercise-like" id="truck-rental-rate-of-change-tx"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
-<div class="introduction" id="truck-rental-rate-of-change-tx-1">
-<div class="para" id="truck-rental-rate-of-change-tx-1-1">Your local truck rental agency lists what it costs to rent a truck (for one day) based on the number of miles you drive the truck.</div> <div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="teen-pregnancy-rate-of-change-6-1-1">How fast was the teen pregnancy rate dropping on average per year from 2002 to 2005? How does that compare to 2006 to 2009?</div></article></article><div class="para interlude" id="ex-Rate_of_change-6-1">Textbook exercises</div>
+<article class="exercise exercise-like" id="diver-rate-of-change"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="introduction" id="diver-rate-of-change-1"><div class="para" id="diver-rate-of-change-1-1">Look back at the springboard diver example in this section.</div></div>
+<article class="task exercise-like" id="diver-rate-of-change-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="diver-rate-of-change-2-1-1">Check the other rates of change given in the table.</div></article><article class="task exercise-like" id="diver-rate-of-change-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="diver-rate-of-change-3-1-1">Approximately how fast is the diver moving as she enters the water? Use that her height at 1.4 seconds is 1 foot above water (given earlier), but also her height at 1.5 seconds is just 0.12 feet above water.</div></article></article><article class="exercise exercise-like" id="truck-rental-rate-of-change"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="introduction" id="truck-rental-rate-of-change-1">
+<div class="para" id="truck-rental-rate-of-change-1-1">Your local truck rental agency lists what it costs to rent a truck (for one day) based on the number of miles you drive the truck.</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b1 r1 l1 t1 lines">Distance driven (miles)</td>
 <td class="c m b1 r1 l0 t1 lines">50</td>
@@ -522,14 +715,14 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines">72.50</td>
 <td class="c m b1 r1 l0 t0 lines">90.00</td>
 </tr>
-</table></div> <div class="para" id="truck-rental-rate-of-change-tx-1-3"><em class="emphasis">Story also appears in 1.2 and 4.4 Exercises</em></div>
+</table></div> <div class="para" id="truck-rental-rate-of-change-1-3"><em class="emphasis">Story also appears in 1.2 and 4.4 Exercises</em></div>
 </div>
-<article class="task exercise-like" id="truck-rental-rate-of-change-tx-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="truck-rental-rate-of-change-tx-2-1-1">Calculate the rate of change for each time period.</div></article><article class="task exercise-like" id="truck-rental-rate-of-change-tx-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="truck-rental-rate-of-change-tx-3-1-1">Can you use figure out what it probably costs to rent a truck to drive 75 miles?</div></article><article class="task exercise-like" id="truck-rental-rate-of-change-tx-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="truck-rental-rate-of-change-tx-4-1-1">There must be some sort of fixed price plus a per mile price. Can you figure out what that fixed price must be?</div></article></article><article class="exercise exercise-like" id="wind-turbine-rate-of-change-tx"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
-<div class="introduction" id="wind-turbine-rate-of-change-tx-1">
-<div class="para" id="wind-turbine-rate-of-change-tx-1-1">Wind turbines are used to generate electricity. A few values are recorded in the table.</div> <div class="tabular-box natural-width"><table class="tabular">
+<article class="task exercise-like" id="truck-rental-rate-of-change-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="truck-rental-rate-of-change-2-1-1">Calculate the rate of change for each time period.</div></article><article class="task exercise-like" id="truck-rental-rate-of-change-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="truck-rental-rate-of-change-3-1-1">Can you use figure out what it probably costs to rent a truck to drive 75 miles?</div></article><article class="task exercise-like" id="truck-rental-rate-of-change-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="truck-rental-rate-of-change-4-1-1">There must be some sort of fixed price plus a per mile price. Can you figure out what that fixed price must be?</div></article></article><article class="exercise exercise-like" id="wind-turbine-rate-of-change"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="introduction" id="wind-turbine-rate-of-change-1">
+<div class="para" id="wind-turbine-rate-of-change-1-1">Wind turbines are used to generate electricity. A few values are recorded in the table.</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines">wind speed (mph)</td>
 <td class="c m b1 r1 l0 t1 lines">0</td>
@@ -544,15 +737,15 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines">19,200</td>
 <td class="c m b1 r1 l0 t0 lines">64,800</td>
 </tr>
-</table></div> <div class="para" id="wind-turbine-rate-of-change-tx-1-3"><em class="emphasis">Story also appears in 1.1, 2.4, and 3.3 Exercises</em></div>
+</table></div> <div class="para" id="wind-turbine-rate-of-change-1-3"><em class="emphasis">Story also appears in 1.1, 2.4, and 3.3 Exercises</em></div>
 </div>
-<article class="task exercise-like" id="wind-turbine-rate-of-change-tx-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="wind-turbine-rate-of-change-tx-2-1-1">Name the variables, including units and dependence.</div></article><article class="task exercise-like" id="wind-turbine-rate-of-change-tx-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="wind-turbine-rate-of-change-tx-3-1-1">Plot the points from the table on a graph.</div></article><article class="task exercise-like" id="wind-turbine-rate-of-change-tx-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="wind-turbine-rate-of-change-tx-4-1-1">Calculate the rate of change in electricity as a function of wind speeds from 0 to 10 mph. Sketch in the line segment connecting those two points on the graph.</div></article><article class="task exercise-like" id="wind-turbine-rate-of-change-tx-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="wind-turbine-rate-of-change-tx-5-1-1">Repeat for wind speeds from 10 to 20 mph. Is the electricity produced increasing faster or increasing slower than for lower wind speeds.</div></article><article class="task exercise-like" id="wind-turbine-rate-of-change-tx-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="wind-turbine-rate-of-change-tx-6-1-1">Repeat for wind speeds from 20 to 30 mph. Comment again on how the rate of change compares to earlier rates of change.</div></article></article><article class="exercise exercise-like" id="earth-population-rate-of-change-tx"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
-<div class="para" id="earth-population-rate-of-change-tx-1-1">The table lists estimates of Earth’s population, in billions, for select years since 1800.</div> <aside class="aside aside-like" id="earth-population-rate-of-change-tx-1-2"><div class="para" id="earth-population-rate-of-change-tx-1-2-1">Source: “The World at Six Billion” United Nations report, 1999</div></aside> <div class="tabular-box natural-width"><table class="tabular">
+<article class="task exercise-like" id="wind-turbine-rate-of-change-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="wind-turbine-rate-of-change-2-1-1">Name the variables, including units and dependence.</div></article><article class="task exercise-like" id="wind-turbine-rate-of-change-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="wind-turbine-rate-of-change-3-1-1">Plot the points from the table on a graph.</div></article><article class="task exercise-like" id="wind-turbine-rate-of-change-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="wind-turbine-rate-of-change-4-1-1">Calculate the rate of change in electricity as a function of wind speeds from 0 to 10 mph. Sketch in the line segment connecting those two points on the graph.</div></article><article class="task exercise-like" id="wind-turbine-rate-of-change-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="wind-turbine-rate-of-change-5-1-1">Repeat for wind speeds from 10 to 20 mph. Is the electricity produced increasing faster or increasing slower than for lower wind speeds.</div></article><article class="task exercise-like" id="wind-turbine-rate-of-change-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="wind-turbine-rate-of-change-6-1-1">Repeat for wind speeds from 20 to 30 mph. Comment again on how the rate of change compares to earlier rates of change.</div></article></article><article class="exercise exercise-like" id="earth-population-rate-of-change"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="para" id="earth-population-rate-of-change-1-1">The table lists estimates of Earth’s population, in billions, for select years since 1800.</div> <aside class="aside aside-like" id="earth-population-rate-of-change-1-2"><div class="para" id="earth-population-rate-of-change-1-2-1">Source: “The World at Six Billion” United Nations report, 1999</div></aside> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b1 r1 l1 t1 lines">year</td>
 <td class="c m b1 r1 l0 t1 lines">1800</td>
@@ -573,18 +766,18 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines">5.27</td>
 <td class="c m b1 r1 l0 t0 lines">6.06</td>
 </tr>
-</table></div> <div class="para" id="earth-population-rate-of-change-tx-1-4"><em class="emphasis">Story also appears in 1.2 Exercises</em></div> <div class="para" id="earth-population-rate-of-change-tx-1-5">During which period of time was the Earth’s population increasing the fastest? Calculate the rates of change for each time period to decide. (Or, explain some other way of deciding.)</div></article><article class="exercise exercise-like" id="backpacks-rate-of-change-tx"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
-<div class="introduction" id="backpacks-rate-of-change-tx-1"><div class="para" id="backpacks-rate-of-change-tx-1-1">A company produces backpacks. The more they make, the less it costs for each one. For example, if they produce 10 backpack it would cost $39 each. For 40 backpacks, they would cost $18 each. By 70 backpacks, the unit cost is down to $15 each. At 100 backpacks, the unit cost is $30 each. <em class="emphasis">Story also appears in 3.5 Exercises</em>
+</table></div> <div class="para" id="earth-population-rate-of-change-1-4"><em class="emphasis">Story also appears in 1.2 Exercises</em></div> <div class="para" id="earth-population-rate-of-change-1-5">During which period of time was the Earth’s population increasing the fastest? Calculate the rates of change for each time period to decide. (Or, explain some other way of deciding.)</div></article><article class="exercise exercise-like" id="backpacks-rate-of-change"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="introduction" id="backpacks-rate-of-change-1"><div class="para" id="backpacks-rate-of-change-1-1">A company produces backpacks. The more they make, the less it costs for each one. For example, if they produce 10 backpack it would cost $39 each. For 40 backpacks, they would cost $18 each. By 70 backpacks, the unit cost is down to $15 each. At 100 backpacks, the unit cost is $30 each. <em class="emphasis">Story also appears in 3.5 Exercises</em>
 </div></div>
-<article class="task exercise-like" id="backpacks-rate-of-change-tx-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="backpacks-rate-of-change-tx-2-1-1">Name the variables and summarize the information in a table.</div></article><article class="task exercise-like" id="backpacks-rate-of-change-tx-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="backpacks-rate-of-change-tx-3-1-1">Calculate the rates of change between 10 and 40 backpacks, between 40 and 70 backpacks, and between 70 and 100 backpacks.</div></article><article class="task exercise-like" id="backpacks-rate-of-change-tx-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="backpacks-rate-of-change-tx-4-1-1">For which range of values does the cost per backpack decrease?</div></article><article class="task exercise-like" id="backpacks-rate-of-change-tx-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="backpacks-rate-of-change-tx-5-1-1">Any ideas why the cost might increase?</div></article><article class="task exercise-like" id="backpacks-rate-of-change-tx-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="backpacks-rate-of-change-tx-6-1-1">Draw a graph illustrating the dependence. Try for a nice, smooth curve.</div></article><article class="task exercise-like" id="backpacks-rate-of-change-tx-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
-<div class="para" id="backpacks-rate-of-change-tx-7-1-1">Approximately how many backpacks does the company have to make to keep the cost per backpack as small as possible?</div></article></article><article class="exercise exercise-like" id="beach-erosion-rate-of-change-tx"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
-<div class="introduction" id="beach-erosion-rate-of-change-tx-1">
-<div class="para" id="beach-erosion-rate-of-change-tx-1-1">The public beach near Paloma’s house has lost depth (measured from the dunes to the high water mark) due to erosion since they started keeping records 60 years ago. The table shows a few values. There <span class="process-math">\(D\)</span> is the depth of the beach in feet, and <span class="process-math">\(Y\)</span> is the year, measured since 60 years ago.</div> <div class="tabular-box natural-width"><table class="tabular">
+<article class="task exercise-like" id="backpacks-rate-of-change-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="backpacks-rate-of-change-2-1-1">Name the variables and summarize the information in a table.</div></article><article class="task exercise-like" id="backpacks-rate-of-change-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="backpacks-rate-of-change-3-1-1">Calculate the rates of change between 10 and 40 backpacks, between 40 and 70 backpacks, and between 70 and 100 backpacks.</div></article><article class="task exercise-like" id="backpacks-rate-of-change-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="backpacks-rate-of-change-4-1-1">For which range of values does the cost per backpack decrease?</div></article><article class="task exercise-like" id="backpacks-rate-of-change-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="backpacks-rate-of-change-5-1-1">Any ideas why the cost might increase?</div></article><article class="task exercise-like" id="backpacks-rate-of-change-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="backpacks-rate-of-change-6-1-1">Draw a graph illustrating the dependence. Try for a nice, smooth curve.</div></article><article class="task exercise-like" id="backpacks-rate-of-change-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="backpacks-rate-of-change-7-1-1">Approximately how many backpacks does the company have to make to keep the cost per backpack as small as possible?</div></article></article><article class="exercise exercise-like" id="beach-erosion-rate-of-change"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<div class="introduction" id="beach-erosion-rate-of-change-1">
+<div class="para" id="beach-erosion-rate-of-change-1-1">The public beach near Paloma’s house has lost depth (measured from the dunes to the high water mark) due to erosion since they started keeping records 60 years ago. The table shows a few values. There <span class="process-math">\(D\)</span> is the depth of the beach in feet, and <span class="process-math">\(Y\)</span> is the year, measured since 60 years ago.</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines">year</td>
 <td class="c m b1 r1 l0 t1 lines">60 years ago</td>
@@ -606,13 +799,13 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines">247.5</td>
 <td class="c m b1 r1 l0 t0 lines">210</td>
 </tr>
-</table></div> <div class="para" id="beach-erosion-rate-of-change-tx-1-3"><em class="emphasis">Story also appears in 4.3 Exercises</em></div>
+</table></div> <div class="para" id="beach-erosion-rate-of-change-1-3"><em class="emphasis">Story also appears in 4.3 Exercises</em></div>
 </div>
-<article class="task exercise-like" id="beach-erosion-rate-of-change-tx-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="beach-erosion-rate-of-change-tx-2-1-1">Calculate the rates of change for each time period.</div></article><article class="task exercise-like" id="beach-erosion-rate-of-change-tx-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="beach-erosion-rate-of-change-tx-3-1-1">Explain why the rates of change should be negative.</div></article><article class="task exercise-like" id="beach-erosion-rate-of-change-tx-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="beach-erosion-rate-of-change-tx-4-1-1">Approximately how many feet a year is the beach eroding?</div></article><article class="task exercise-like" id="beach-erosion-rate-of-change-tx-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="beach-erosion-rate-of-change-tx-5-1-1">Draw a graph showing how the beach depth has changed over the past 60 years.</div></article></article></section></section></div>
+<article class="task exercise-like" id="beach-erosion-rate-of-change-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="beach-erosion-rate-of-change-2-1-1">Calculate the rates of change for each time period.</div></article><article class="task exercise-like" id="beach-erosion-rate-of-change-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="beach-erosion-rate-of-change-3-1-1">Explain why the rates of change should be negative.</div></article><article class="task exercise-like" id="beach-erosion-rate-of-change-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="beach-erosion-rate-of-change-4-1-1">Approximately how many feet a year is the beach eroding?</div></article><article class="task exercise-like" id="beach-erosion-rate-of-change-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="beach-erosion-rate-of-change-5-1-1">Draw a graph showing how the beach depth has changed over the past 60 years.</div></article></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-Tables_and_graphs.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-Units.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

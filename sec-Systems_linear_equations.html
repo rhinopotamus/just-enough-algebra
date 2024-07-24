@@ -115,6 +115,7 @@ window.MathJax = {
 \newcommand{\amp}{&amp;}
 \definecolor{fillinmathshade}{gray}{0.9}
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
 \)</span></div>
 <div class="ptx-page">
 <div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
@@ -168,44 +169,237 @@ window.MathJax = {
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-tx-Equations.html" class="internal"><span class="codenumber">2</span> <span class="title">Equations</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-First_look_linear.html#dyk-first-look-linear" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Do you know...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_linear.html#ex-First_look_linear" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-First_look_exponential.html#dyk-first-look-exponential" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Do you know...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_exponential.html#ex-First_look_exponentialEX" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Using_equations.html#dyk-using-equations" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Using_equations.html#ex-Using_equations" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Approx_solutions.html#dyk-approx-solutions" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approx_solutions.html#ex-Approx_solutions" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Finance.html#dyk-finance" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Finance.html#ex-Finance" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-tx-Solving_equations.html" class="internal"><span class="codenumber">3</span> <span class="title">Solving equations</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html#dyk-solving-linear" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html#ex-Solving_linear_equations" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html#dyk-solving-linear-ineq" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html#ex-Solving_linear_inequalitiesEX" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_power_equations.html#dyk-solving-power" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_power_equations.html#ex-Solving_power_equations" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html#dyk-solving-exponential" class="internal"><span class="codenumber">3.4.1</span> <span class="title">dyk-solving-exponential</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html#ex-Solving_exponential_equations" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html#dyk-solving-quadratic" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html#ex-Solving_quadratic_equations" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-tx-Closer_look_linear.html" class="internal"><span class="codenumber">4</span> <span class="title">A closer look at linear equations</span></a></div>
 <ul class="structural toc-item-list contains-active">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div></li>
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html#dyk-modeling-linear" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html#ex-Modeling_linear_equations" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="sec-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html#dyk-systems-linear" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html#ex-Systems_linear_equations" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Intercepts.html#dyk-intercepts" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Intercepts.html#ex-Intercepts" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Slopes.html#dyk-slopes" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Slopes.html#ex-Slopes" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html#dyk-fitting-lines" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html#ex-Fitting_lines_to_data" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-tx-Closer_look_exponential.html" class="internal"><span class="codenumber">5</span> <span class="title">A closer look at exponential functions</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html#dyk-modeling-exponential" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html#ex-Modeling_exponential_equations" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html#dyk-growth-decay" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html#ex-Exp_growth_decay" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Growth_factor.html#dyk-growth-factor" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Growth_factor.html#ex-Growth_factor" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html#dyk-linear-exponential" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html#ex-Linear_vs_exponential" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Logistic_growth.html#dyk-logistic-growth" class="internal"><span class="codenumber">5.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logistic_growth.html#ex-Logistic_growth" class="internal"><span class="codenumber">5.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="ch-tx-Prelude.html" class="internal"><span class="codenumber">A</span> <span class="title">Prelude</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approximation_and_rounding.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Prelude: Approximation and Rounding</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Approximation_and_rounding.html#dyk-approximation-rounding" class="internal"><span class="codenumber">A.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approximation_and_rounding.html#ex-Approximation_and_rounding" class="internal"><span class="codenumber">A.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Arithmetic_operations.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Prelude: Arithmetic Operations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Arithmetic_operations.html#dyk-arithmetic-operations" class="internal"><span class="codenumber">A.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Arithmetic_operations.html#ex-Arithmetic_operations" class="internal"><span class="codenumber">A.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Percentages.html" class="internal"><span class="codenumber">A.3</span> <span class="title">Prelude: Percentages</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Percentages.html#dyk-percentages" class="internal"><span class="codenumber">A.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Percentages.html#ex-Percentages" class="internal"><span class="codenumber">A.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Order_of_operations.html" class="internal"><span class="codenumber">A.4</span> <span class="title">Prelude: Order of Operations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Order_of_operations.html#dyk-order-operations" class="internal"><span class="codenumber">A.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Order_of_operations.html#ex-Order_of_operations" class="internal"><span class="codenumber">A.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fractions.html" class="internal"><span class="codenumber">A.5</span> <span class="title">Prelude: Fractions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fractions.html#dyk-fractions" class="internal"><span class="codenumber">A.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fractions.html#ex-Fractions" class="internal"><span class="codenumber">A.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Powers_and_roots.html" class="internal"><span class="codenumber">A.6</span> <span class="title">Prelude: Powers and Roots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Powers_and_roots.html#dyk-powers-roots" class="internal"><span class="codenumber">A.6.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Powers_and_roots.html#ex-Powers_and_roots" class="internal"><span class="codenumber">A.6.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Algebraic_notation.html" class="internal"><span class="codenumber">A.7</span> <span class="title">Prelude: Algebraic Notation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Algebraic_notation.html#dyk-algebraic-notation" class="internal"><span class="codenumber">A.7.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Algebraic_notation.html#ex-Algebraic-notation" class="internal"><span class="codenumber">A.7.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Scientific_notation.html" class="internal"><span class="codenumber">A.8</span> <span class="title">Prelude: Scientific Notation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Scientific_notation.html#dyk-prelude-scientific-notation" class="internal"><span class="codenumber">A.8.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Scientific_notation.html#ex-Scientific_notation" class="internal"><span class="codenumber">A.8.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logarithms.html" class="internal"><span class="codenumber">A.9</span> <span class="title">Prelude: Logarithms</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Logarithms.html#dyk-logarithms" class="internal"><span class="codenumber">A.9.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logarithms.html#ex-Logarithms" class="internal"><span class="codenumber">A.9.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Systems_linear_equations"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">4.2</span><span class="space"> </span><span class="title">Systems of linear equations</span>
@@ -410,7 +604,248 @@ L = \frac{2,200}{0.45}= 2,200 \div 0.45 = 4888.88888\ldots \approx 4,889 \text{ 
 L \ge 4,889 \text{ locks}\text{.}
 \end{equation*}
 </div>
-</div></section></div>
+</div>
+<section class="subsection" id="dyk-systems-linear"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.2.1</span><span class="space"> </span><span class="title">Do you know ...</span>
+</h3>
+<div class="para logical" id="dyk-systems-linear-2"><ul class="disc" id="dyk-systems-linear-2-1">
+<li id="dyk-systems-linear-2-1-1"><div class="para" id="dyk-systems-linear-2-1-1-1">How to compare two linear functions using a table?</div></li>
+<li id="dyk-systems-linear-2-1-2"><div class="para" id="dyk-systems-linear-2-1-2-1">How to graph two linear functions on the same axes?</div></li>
+<li id="dyk-systems-linear-2-1-3"><div class="para" id="dyk-systems-linear-2-1-3-1">What the solution of a linear system means in terms of the story?</div></li>
+<li id="dyk-systems-linear-2-1-4"><div class="para" id="dyk-systems-linear-2-1-4-1">Where to look on a graph to see the solution of a linear system?</div></li>
+<li id="dyk-systems-linear-2-1-5"><div class="para" id="dyk-systems-linear-2-1-5-1">How to successively approximate the solution of a linear system?</div></li>
+<li id="dyk-systems-linear-2-1-6"><div class="para" id="dyk-systems-linear-2-1-6-1">How to solve a linear system?</div></li>
+<li id="dyk-systems-linear-2-1-7"><div class="para" id="dyk-systems-linear-2-1-7-1">When to use inequality instead of an equation for a linear system?</div></li>
+</ul></div></section><section class="exercises" id="ex-Systems_linear_equations"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">4.2.2</span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<section class="introduction" id="ex-Systems_linear_equations-2"><div class="para" id="ex-Systems_linear_equations-2-1">Workbook exercises</div></section><article class="exercise exercise-like" id="car-comparison-systems-linear"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="introduction" id="car-comparison-systems-linear-1"><div class="para" id="car-comparison-systems-linear-1-1">Madison wants to buy a new car, either Car A: a hybrid priced at $26,100, or Car B: a high-efficiency gas car priced at $23,700. Annual fuel costs for Car A are currently $1,100. For Car B annual fuel costs are currently $1,800. The total cost of each car will depend on how many years she keeps it.</div></div>
+<article class="task exercise-like" id="car-comparison-systems-linear-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="car-comparison-systems-linear-2-1-1">Name the variables.</div></article><article class="task exercise-like" id="car-comparison-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="car-comparison-systems-linear-3-1-1">Write a linear equation for the total cost (including purchase price and fuel costs) of <dfn class="terminology">Car A</dfn> as a function of how long she keeps it. Assume fuel costs are constant.</div></article><article class="task exercise-like" id="car-comparison-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="car-comparison-systems-linear-4-1-1">Write a linear equation for the total cost (including purchase price and fuel costs) of <dfn class="terminology">Car B</dfn> as a function of how long she keeps it. Assume fuel costs are constant.</div></article><article class="task exercise-like" id="car-comparison-systems-linear-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="car-comparison-systems-linear-5-1-1">Make a table comparing the total costs for the two cars if Madison keeps the car she buys for 3, 5, or 10 years.</div></article><article class="task exercise-like" id="car-comparison-systems-linear-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="car-comparison-systems-linear-6-1-1">Set up and solve a system of linear equations to determine the <dfn class="terminology">payoff time</dfn>, or the number of years for which the total costs of each car are equal.</div></article><article class="task exercise-like" id="car-comparison-systems-linear-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="car-comparison-systems-linear-7-1-1">Based on what you have learned, fill in the blank: The more expensive hybrid pays off if Madison is going to keep it for <span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span> years or more.</div></article></article><article class="exercise exercise-like" id="juan-coffee-systems-linear"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="introduction" id="juan-coffee-systems-linear-1">
+<div class="para" id="juan-coffee-systems-linear-1-1">A mug of coffee costs $3.45 at Juan’s favorite cafe, unless he buys their discount card for $10 in which case a mug costs $2.90. Or, he can buy a membership for $59.99 and then coffee is only $1/mug. If we let <span class="process-math">\(M\)</span> represent the number of mugs of coffee he buys and <span class="process-math">\(T\)</span> represent the total cost in dollars, then the equations are: <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">No card:</em></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(T=3.45M\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">With card:</em></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(T=10.00+2.90M\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">Member:</em></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(T=59.99+1.00M\)</span></td>
+</tr>
+</table></div>
+</div> <div class="para" id="juan-coffee-systems-linear-1-2"><em class="emphasis">(Story also appears in <a href="sec-Order_of_operations.html#juan-coffee-order-operations" class="xref" data-knowl="./knowl/xref/juan-coffee-order-operations.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise A.4.2.1">A.4.2.1</a>, <a href="sec-Tables_and_graphs.html#juan-coffee-tables-graphs" class="xref" data-knowl="./knowl/xref/juan-coffee-tables-graphs.html" data-reveal-label="Reveal" data-close-label="Close" title="Worksheet Exercise 1.2.2.4">1.2.2.4</a>, and <a href="sec-Systems_linear_equations.html#juan-coffee-systems-linear" class="xref" data-knowl="./knowl/xref/juan-coffee-systems-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 4.2.2.2">4.2.2.2</a>)</em></div>
+</div>
+<article class="task exercise-like" id="juan-coffee-systems-linear-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="juan-coffee-systems-linear-2-1-1">Compare the total costs for all three options.</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines">Mugs</td>
+<td class="c m b1 r1 l0 t1 lines">0</td>
+<td class="c m b1 r1 l0 t1 lines">10</td>
+<td class="c m b1 r1 l0 t1 lines">20</td>
+<td class="c m b1 r1 l0 t1 lines">30</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">No card</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">With card</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Member</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
+</tr>
+</table></div></article><article class="task exercise-like" id="juan-coffee-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="juan-coffee-systems-linear-3-1-1">Draw a graph showing all three options.</div> <div class="image-box" style="width: 90%; margin-left: 5%; margin-right: 5%;"><img src="external/GraphPaper.jpg" class="contained"></div></article><article class="task exercise-like" id="juan-coffee-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="juan-coffee-systems-linear-4-1-1">Which option is least expensive if Juan plans to buy</div> <div class="para logical" id="juan-coffee-systems-linear-4-1-2"><ul class="disc" id="juan-coffee-systems-linear-4-1-2-1">
+<li id="juan-coffee-systems-linear-4-1-2-1-1"><div class="para" id="juan-coffee-systems-linear-4-1-2-1-1-1">A small number of mugs of coffee:</div></li>
+<li id="juan-coffee-systems-linear-4-1-2-1-2"><div class="para" id="juan-coffee-systems-linear-4-1-2-1-2-1">A medium number of mugs of coffee:</div></li>
+<li id="juan-coffee-systems-linear-4-1-2-1-3"><div class="para" id="juan-coffee-systems-linear-4-1-2-1-3-1">A large number of mugs of coffee:</div></li>
+</ul></div></article><article class="task exercise-like" id="juan-coffee-systems-linear-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="juan-coffee-systems-linear-5-1-1"><em class="emphasis">The problem continues ...</em></div> <div class="para" id="juan-coffee-systems-linear-5-1-2">Set up and solve a system of linear equations to compare total cost with no card to the total cost with the card.</div></article><article class="task exercise-like" id="juan-coffee-systems-linear-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="juan-coffee-systems-linear-6-1-1">Set up and solve a system of linear equation to compare the total cost with the card to the total cost with the membership.</div></article><article class="task exercise-like" id="juan-coffee-systems-linear-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="juan-coffee-systems-linear-7-1-1">Describe in words what you have learned.</div></article></article><article class="exercise exercise-like" id="shrub-growth-systems-linear"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="shrub-growth-systems-linear-1">
+<div class="para" id="shrub-growth-systems-linear-1-1">Ahmed planted two shrubs in the backyard on May 1. The viburnum was 16.9 inches tall and expected to grow 0.4 inches each week this summer. The weigela was 20.3 inches tall but only expected to grow 0.2 inches per week. If we let <span class="process-math">\(S\)</span> represent the total height of the shrub in inches after <span class="process-math">\(T\)</span> weeks, then the equations are:</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">Viburnum:</dfn></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(S=16.9+0.4T\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">Weigela:</dfn></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(S=20.3+0.2T\)</span></td>
+</tr>
+</table></div> <div class="para" id="shrub-growth-systems-linear-1-3"><em class="emphasis">(Story also appears in 4.1 exercises)</em></div>
+</div>
+<article class="task exercise-like" id="shrub-growth-systems-linear-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="shrub-growth-systems-linear-2-1-1">Compare the height of the shrubs on the given dates.</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines">date</td>
+<td class="r m b1 r1 l0 t1 lines">May 1</td>
+<td class="r m b1 r1 l0 t1 lines">June 12</td>
+<td class="r m b1 r1 l0 t1 lines">July 10</td>
+<td class="r m b1 r1 l0 t1 lines">Sept 4</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(T\)</span></td>
+<td class="r m b1 r1 l0 t0 lines">0</td>
+<td class="r m b1 r1 l0 t0 lines">6</td>
+<td class="r m b1 r1 l0 t0 lines">10</td>
+<td class="r m b1 r1 l0 t0 lines">18</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">
+<span class="process-math">\(S\)</span> (viburnum)</td>
+<td class="r m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
+<td class="r m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
+<td class="r m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
+<td class="r m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">
+<span class="process-math">\(S\)</span> (weigela)</td>
+<td class="r m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
+<td class="r m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
+<td class="r m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
+<td class="r m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
+</tr>
+</table></div></article><article class="task exercise-like" id="shrub-growth-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="shrub-growth-systems-linear-3-1-1">
+<em class="emphasis">Approximately</em> when will the shrubs be the same height? Continue successive approximation to find the answer to the nearest week.</div></article><article class="task exercise-like" id="shrub-growth-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="shrub-growth-systems-linear-4-1-1">Set up and solve an equation to find <em class="emphasis">exactly</em> the day when the two shrubs are the same height. In what month does that happen?</div></article></article><article class="exercise exercise-like" id="supply-demand-systems-linear"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="supply-demand-systems-linear-1">
+<div class="para logical" id="supply-demand-systems-linear-1-1">
+<div class="para">The <dfn class="terminology">supply</dfn> of flour is the amount of flour produced. It depends on the price of flour. A high price encourages producers to make more flour. If the price is low, they tend to make less of it. The dependence of the supply of flour <span class="process-math">\(S\)</span> (in loads) on the price <span class="process-math">\(P\)</span> (in $/pound) is given by the equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\textbf{Supply: } S = 0.8P + 0.5
+\end{equation*}
+</div>
+</div> <div class="para logical" id="supply-demand-systems-linear-1-2">
+<div class="para">The <dfn class="terminology">demand</dfn> of flour is the amount of flour consumers want to buy. It also depends on the price of flour. If flour sells for a high price, then consumers will buy less. If flour sells for a low price instead, then consumers will buy more. The dependence of the demand of flour <span class="process-math">\(D\)</span> (in loads) on the price <span class="process-math">\(P\)</span> (in $/pound) is given by the equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\textbf{Demand: } D = 1.5 - 0.4 P
+\end{equation*}
+</div>
+</div> <div class="para" id="supply-demand-systems-linear-1-3">The <dfn class="terminology">equilibrium price</dfn> of flour is the price where the supply equals the demand. <aside class="aside aside-like" id="supply-demand-systems-linear-1-3-2"><div class="para" id="supply-demand-systems-linear-1-3-2-1">Source: “Using Algebra” by Ethan Bolker</div></aside>
+</div>
+</div>
+<article class="task exercise-like" id="supply-demand-systems-linear-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="supply-demand-systems-linear-2-1-1">What happens if flour is priced at $1.00/pound? That is, how much flour will be produced and how much will consumers demand?</div></article><article class="task exercise-like" id="supply-demand-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="supply-demand-systems-linear-3-1-1">What happens if flour is priced at $0.50/pound? That is, how much flour will be produced and how much will consumers demand?</div></article><article class="task exercise-like" id="supply-demand-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="supply-demand-systems-linear-4-1-1">Graph each dependence on the same set of axes. <em class="emphasis">Approximately</em> what is the equilibrium price, according to your graph?</div> <div class="image-box" style="width: 90%; margin-left: 5%; margin-right: 5%;"><img src="external/GraphPaper.jpg" class="contained"></div></article><article class="task exercise-like" id="supply-demand-systems-linear-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="supply-demand-systems-linear-5-1-1"><em class="emphasis">The problem continues ...</em></div> <div class="para" id="supply-demand-systems-linear-5-1-2">Set up and solve an equation to find the equilibrium price of flour <em class="emphasis">exactly</em>.</div></article><article class="task exercise-like" id="supply-demand-systems-linear-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="supply-demand-systems-linear-6-1-1">When more of a product is produced than consumers want to buy, we have a <dfn class="terminology">surplus</dfn> of the product. Solve an inequality to find the range of price values for which there will be a surplus of flour. Compare your answer to part (d).</div></article><article class="task exercise-like" id="supply-demand-systems-linear-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="supply-demand-systems-linear-7-1-1">When less of a product is produced than consumers want to buy, we have a <dfn class="terminology">shortage</dfn> of the product. Solve an inequality to find the range of price values for which there will be a shortage of flour. Compare your answer to parts (d) and (e).</div></article></article><div class="para interlude" id="ex-Systems_linear_equations-7-1">Textbook exercises</div>
+<article class="exercise exercise-like" id="lock-machines-systems-linear"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="introduction" id="lock-machines-systems-linear-1">
+<div class="para" id="lock-machines-systems-linear-1-1">Just when Quia Xun thought she had things figured out, another possible option emerged. She can outsource her lock production to a different plant at the cost of $1.55 per lock. While that’s more expensive per lock, it avoids having to buy a machine at all. Recall her first two options were</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines"><div class="displaymath process-math">
+\begin{equation*}
+\textbf{Machine \#1:} &amp; E  =3,200 + 1.25L
+\end{equation*}
+</div></td>
+<td class="l m b1 r1 l0 t1 lines"></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><div class="displaymath process-math">
+\begin{equation*}
+\textbf{Machine \#2:} &amp; E  =5,400 + 0.80L
+\end{equation*}
+</div></td>
+<td class="l m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div> <div class="para" id="lock-machines-systems-linear-1-3">where <span class="process-math">\(E\)</span> is the total expenditure to produce <span class="process-math">\(L\)</span> locks on that machine.</div>
+</div>
+<article class="task exercise-like" id="lock-machines-systems-linear-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="lock-machines-systems-linear-2-1-1">Write an equation showing how <span class="process-math">\(E\)</span> depends on <span class="process-math">\(L\)</span> if Quia Xun decides to outsource lock production.</div></article><article class="task exercise-like" id="lock-machines-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="lock-machines-systems-linear-3-1-1">For what number of locks does outsourcing make financial sense versus Machine #1? Set up and solve a system of equations.</div></article><article class="task exercise-like" id="lock-machines-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="lock-machines-systems-linear-4-1-1">Repeat for Machine #2.</div></article></article><article class="exercise exercise-like" id="wash-floor-systems-linear"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="introduction" id="wash-floor-systems-linear-1"><div class="para" id="wash-floor-systems-linear-1-1">Don’t ask why I know this, but it takes me 80 seconds per square foot to wash a floor using a rag. If I use a mop, it’s slightly quicker at 75 seconds per square foot, but another 3 minutes at the end to wring out the mop. (The rag just pops in the washing machine.)</div></div>
+<article class="task exercise-like" id="wash-floor-systems-linear-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="wash-floor-systems-linear-2-1-1">Name the variables and write an equation for each option: rag versus mop.</div> <div class="para" id="wash-floor-systems-linear-2-1-2"><em class="emphasis">Hint: time is the dependent variable</em></div></article><article class="task exercise-like" id="wash-floor-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="wash-floor-systems-linear-3-1-1">Set up and solve the system to determine the area of a room where either option takes the same amount of total time.</div></article><article class="task exercise-like" id="wash-floor-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="wash-floor-systems-linear-4-1-1">What do you suggest for each room? (Note: find the area by multiplying the length times the width.) My bathroom floor is 5’<span class="process-math">\(\times\)</span>5’. My kitchen floor is 8’<span class="process-math">\(\times\)</span>10’. The laundry room is 10’<span class="process-math">\(\times\)</span>14’.</div></article></article><article class="exercise exercise-like" id="light-bulbs-systems-linear"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="introduction" id="light-bulbs-systems-linear-1"><div class="para" id="light-bulbs-systems-linear-1-1">Maria needed to replace the light bulb in the hallway. When she went to the home improvement store she was overwhelmed with the choices of light bulbs. One option is a compact fluorescent light (CFL) bulb. A CFL bulb costs $1. This fixture will cost $0.95 per month to run with a CFL bulb. A different option Maria is considering is a light-emitting diode (LED) instead of a bulb. A LED costs $24 but reduces the cost for the fixture to $0.60 per month.</div></div>
+<article class="task exercise-like" id="light-bulbs-systems-linear-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="light-bulbs-systems-linear-2-1-1">Name the variables and write an equation for each option: LED versus CFL.</div></article><article class="task exercise-like" id="light-bulbs-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="light-bulbs-systems-linear-3-1-1">Compare the total cost for each bulb for 1, 6, 18, and 36 months.</div></article><article class="task exercise-like" id="light-bulbs-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="light-bulbs-systems-linear-4-1-1">Draw a graph showing both functions on the same axes.</div></article><article class="task exercise-like" id="light-bulbs-systems-linear-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="light-bulbs-systems-linear-5-1-1">Set up and solve a system of linear equations to determine the payback time.</div></article><article class="task exercise-like" id="light-bulbs-systems-linear-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="light-bulbs-systems-linear-6-1-1">Based on what you’ve learned, fill in the blank and circle the correct word.</div> <blockquote class="blockquote" id="light-bulbs-systems-linear-6-1-2"><div class="para" id="light-bulbs-systems-linear-6-1-2-1">The more expensive LED pays off if Maria is going to use it for <span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span> or more months.</div></blockquote></article></article><article class="exercise exercise-like" id="exercise-classes-systems-linear"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="introduction" id="exercise-classes-systems-linear-1">
+<div class="para" id="exercise-classes-systems-linear-1-1">The community center offers exercise classes on a pay-as-you-go basis. It normally costs $20 to register and then $15 per exercise class. Alternatively, you can pay $150 to become a member, and then $10 per exercise class. If we let <span class="process-math">\(E\)</span> represent the number of exercise classes I attend and <span class="process-math">\(T\)</span> represent the total cost in dollars, then the equations are:</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines"><dfn class="terminology">Pay as-you-go:</dfn></td>
+<td class="l m b1 r1 l0 t1 lines"><span class="process-math">\(T = 20 + 15E\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><dfn class="terminology">Member:</dfn></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(T= 150 + 10E\)</span></td>
+</tr>
+</table></div>
+</div>
+<article class="task exercise-like" id="exercise-classes-systems-linear-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="exercise-classes-systems-linear-2-1-1">Create a table of reasonable values and draw a graph showing both options.</div></article><article class="task exercise-like" id="exercise-classes-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="exercise-classes-systems-linear-3-1-1">According to your graph, what is the break even point?</div></article><article class="task exercise-like" id="exercise-classes-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="exercise-classes-systems-linear-4-1-1">Use successive approximations to find the break even point.</div></article><article class="task exercise-like" id="exercise-classes-systems-linear-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="exercise-classes-systems-linear-5-1-1">Set up and solve a system of linear equations to determine the exact break even point</div></article><article class="task exercise-like" id="exercise-classes-systems-linear-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="exercise-classes-systems-linear-6-1-1">Describe in words what you’ve learned about whether or not to buy membership.</div></article></article><article class="exercise exercise-like" id="supply-demand-corn-systems-linear"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="introduction" id="supply-demand-corn-systems-linear-1">
+<div class="para" id="supply-demand-corn-systems-linear-1-1">The weekly supply <span class="process-math">\(S\)</span> and demand <span class="process-math">\(D\)</span> for corn-on-the-cob (in hundreds) at a local market are given by the equations</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines"><dfn class="terminology">Supply:</dfn></td>
+<td class="l m b1 r1 l0 t1 lines"><span class="process-math">\(S = 1.5P+6\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><dfn class="terminology">Demand:</dfn></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(D= 11 - 0.9P\)</span></td>
+</tr>
+</table></div> <div class="para" id="supply-demand-corn-systems-linear-1-3">where <span class="process-math">\(P\)</span> is the price per unit, in dollars per dozen.</div>
+</div>
+<article class="task exercise-like" id="supply-demand-corn-systems-linear-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="supply-demand-corn-systems-linear-2-1-1">Is there a shortage or surplus if corn is priced at $3.25/dozen? What if it’s priced at $1.75/dozen?</div></article><article class="task exercise-like" id="supply-demand-corn-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="supply-demand-corn-systems-linear-3-1-1">Set up and solve an equation to find the equilibrium price of corn.</div></article><article class="task exercise-like" id="supply-demand-corn-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="supply-demand-corn-systems-linear-4-1-1">Make a small table of values and graph. Does your answer to (b) agree with your graph? Explain.</div></article></article><article class="exercise exercise-like" id="solar-heating-systems-linear"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<div class="introduction" id="solar-heating-systems-linear-1">
+<div class="para" id="solar-heating-systems-linear-1-1">A solar heating system costs approximately $30,000 to install and $150 per year to run. By comparison, a gas heating system costs approximately $12,000 to install and $700 per year to run. Earlier we wrote equations showing how the total cost $<span class="process-math">\(T\)</span> depends on the time, <span class="process-math">\(Y\)</span> years.</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines"><dfn class="terminology">Solar:</dfn></td>
+<td class="l m b1 r1 l0 t1 lines"><span class="process-math">\(T  =30,000 + 150Y\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><dfn class="terminology">Gas:</dfn></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(T  = 12,000 + 700Y\)</span></td>
+</tr>
+</table></div> <div class="para" id="solar-heating-systems-linear-1-3"><em class="emphasis">Story also appears in <a href="sec-Modeling_linear_equations.html#solar-heating-modeling-linear" class="xref" data-knowl="./knowl/xref/solar-heating-modeling-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 4.1.2.1">4.1.2.1</a></em></div>
+</div>
+<article class="task exercise-like" id="solar-heating-systems-linear-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="solar-heating-systems-linear-2-1-1">Set up an solve a system to determine the payback time of installing the solar heating system.</div></article><article class="task exercise-like" id="solar-heating-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="solar-heating-systems-linear-3-1-1">How does the payback time change if the state offers a $7,000 rebate? That means, in effect, that the solar system costs $7,000 less to install. Write a new equation for the solar heating system. Then set up and solve the new system.</div></article><article class="task exercise-like" id="solar-heating-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="solar-heating-systems-linear-4-1-1">How high a rebate would the state have to offer to insure a payback time of 15 years? <em class="emphasis">Hint: compare the costs of gas and solar heating systems at 15 years.</em>
+</div></article></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-Modeling_linear_equations.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-Intercepts.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

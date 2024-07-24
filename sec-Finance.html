@@ -115,6 +115,7 @@ window.MathJax = {
 \newcommand{\amp}{&amp;}
 \definecolor{fillinmathshade}{gray}{0.9}
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
 \)</span></div>
 <div class="ptx-page">
 <div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
@@ -168,44 +169,237 @@ window.MathJax = {
 <li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-tx-Equations.html" class="internal"><span class="codenumber">2</span> <span class="title">Equations</span></a></div>
 <ul class="structural toc-item-list contains-active">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div></li>
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-First_look_linear.html#dyk-first-look-linear" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Do you know...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_linear.html#ex-First_look_linear" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-First_look_exponential.html#dyk-first-look-exponential" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Do you know...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_exponential.html#ex-First_look_exponentialEX" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Using_equations.html#dyk-using-equations" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Using_equations.html#ex-Using_equations" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Approx_solutions.html#dyk-approx-solutions" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approx_solutions.html#ex-Approx_solutions" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="sec-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Finance.html#dyk-finance" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Finance.html#ex-Finance" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-tx-Solving_equations.html" class="internal"><span class="codenumber">3</span> <span class="title">Solving equations</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html#dyk-solving-linear" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html#ex-Solving_linear_equations" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html#dyk-solving-linear-ineq" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html#ex-Solving_linear_inequalitiesEX" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_power_equations.html#dyk-solving-power" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_power_equations.html#ex-Solving_power_equations" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html#dyk-solving-exponential" class="internal"><span class="codenumber">3.4.1</span> <span class="title">dyk-solving-exponential</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html#ex-Solving_exponential_equations" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html#dyk-solving-quadratic" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html#ex-Solving_quadratic_equations" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-tx-Closer_look_linear.html" class="internal"><span class="codenumber">4</span> <span class="title">A closer look at linear equations</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html#dyk-modeling-linear" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html#ex-Modeling_linear_equations" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html#dyk-systems-linear" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html#ex-Systems_linear_equations" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Intercepts.html#dyk-intercepts" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Intercepts.html#ex-Intercepts" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Slopes.html#dyk-slopes" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Slopes.html#ex-Slopes" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html#dyk-fitting-lines" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html#ex-Fitting_lines_to_data" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-tx-Closer_look_exponential.html" class="internal"><span class="codenumber">5</span> <span class="title">A closer look at exponential functions</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html#dyk-modeling-exponential" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html#ex-Modeling_exponential_equations" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html#dyk-growth-decay" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html#ex-Exp_growth_decay" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Growth_factor.html#dyk-growth-factor" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Growth_factor.html#ex-Growth_factor" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html#dyk-linear-exponential" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html#ex-Linear_vs_exponential" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Logistic_growth.html#dyk-logistic-growth" class="internal"><span class="codenumber">5.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logistic_growth.html#ex-Logistic_growth" class="internal"><span class="codenumber">5.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="ch-tx-Prelude.html" class="internal"><span class="codenumber">A</span> <span class="title">Prelude</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approximation_and_rounding.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Prelude: Approximation and Rounding</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Approximation_and_rounding.html#dyk-approximation-rounding" class="internal"><span class="codenumber">A.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approximation_and_rounding.html#ex-Approximation_and_rounding" class="internal"><span class="codenumber">A.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Arithmetic_operations.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Prelude: Arithmetic Operations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Arithmetic_operations.html#dyk-arithmetic-operations" class="internal"><span class="codenumber">A.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Arithmetic_operations.html#ex-Arithmetic_operations" class="internal"><span class="codenumber">A.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Percentages.html" class="internal"><span class="codenumber">A.3</span> <span class="title">Prelude: Percentages</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Percentages.html#dyk-percentages" class="internal"><span class="codenumber">A.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Percentages.html#ex-Percentages" class="internal"><span class="codenumber">A.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Order_of_operations.html" class="internal"><span class="codenumber">A.4</span> <span class="title">Prelude: Order of Operations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Order_of_operations.html#dyk-order-operations" class="internal"><span class="codenumber">A.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Order_of_operations.html#ex-Order_of_operations" class="internal"><span class="codenumber">A.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fractions.html" class="internal"><span class="codenumber">A.5</span> <span class="title">Prelude: Fractions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fractions.html#dyk-fractions" class="internal"><span class="codenumber">A.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fractions.html#ex-Fractions" class="internal"><span class="codenumber">A.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Powers_and_roots.html" class="internal"><span class="codenumber">A.6</span> <span class="title">Prelude: Powers and Roots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Powers_and_roots.html#dyk-powers-roots" class="internal"><span class="codenumber">A.6.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Powers_and_roots.html#ex-Powers_and_roots" class="internal"><span class="codenumber">A.6.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Algebraic_notation.html" class="internal"><span class="codenumber">A.7</span> <span class="title">Prelude: Algebraic Notation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Algebraic_notation.html#dyk-algebraic-notation" class="internal"><span class="codenumber">A.7.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Algebraic_notation.html#ex-Algebraic-notation" class="internal"><span class="codenumber">A.7.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Scientific_notation.html" class="internal"><span class="codenumber">A.8</span> <span class="title">Prelude: Scientific Notation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Scientific_notation.html#dyk-prelude-scientific-notation" class="internal"><span class="codenumber">A.8.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Scientific_notation.html#ex-Scientific_notation" class="internal"><span class="codenumber">A.8.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logarithms.html" class="internal"><span class="codenumber">A.9</span> <span class="title">Prelude: Logarithms</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Logarithms.html#dyk-logarithms" class="internal"><span class="codenumber">A.9.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logarithms.html#ex-Logarithms" class="internal"><span class="codenumber">A.9.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Finance"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">2.5</span><span class="space"> </span><span class="title">Finance formulas</span>
@@ -221,23 +415,22 @@ window.MathJax = {
 </div>
 <div class="para">interest each month. Rather than figuring out Hector’s balance one month at a time, we can use this formula.</div>
 </div>
-<article class="definition definition-like" id="def-compound-interest-formula"><h3 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.5.1</span><span class="period">.</span><span class="space"> </span><span class="title">Compound Interest Formula.</span>
-</h3> <div class="para logical" id="def-compound-interest-formula-2-1">
+<article class="assemblage assemblage-like" id="compound-interest-formula"><h3 class="heading"><span class="title">Compound Interest Formula.</span></h3>
+<div class="para logical" id="compound-interest-formula-2">
 <div class="displaymath process-math">
 \begin{equation*}
 a = p \left( 1 + \frac{r}{12}\right) ^{12y}
 \end{equation*}
 </div>
 <div class="para">where</div>
-<ul class="disc" id="def-compound-interest-formula-2-1-2">
-<li id="def-compound-interest-formula-2-1-2-1"><div class="para" id="def-compound-interest-formula-2-1-2-1-1">
+<ul class="disc" id="compound-interest-formula-2-2">
+<li id="compound-interest-formula-2-2-1"><div class="para" id="compound-interest-formula-2-2-1-1">
 <span class="process-math">\(a\)</span> = account balance ($)</div></li>
-<li id="def-compound-interest-formula-2-1-2-2"><div class="para" id="def-compound-interest-formula-2-1-2-2-1">
+<li id="compound-interest-formula-2-2-2"><div class="para" id="compound-interest-formula-2-2-2-1">
 <span class="process-math">\(y\)</span> = time invested (years)</div></li>
-<li id="def-compound-interest-formula-2-1-2-3"><div class="para" id="def-compound-interest-formula-2-1-2-3-1">
+<li id="compound-interest-formula-2-2-3"><div class="para" id="compound-interest-formula-2-2-3-1">
 <span class="process-math">\(p\)</span> = initial deposit or “principal”</div></li>
-<li id="def-compound-interest-formula-2-1-2-4"><div class="para" id="def-compound-interest-formula-2-1-2-4-1">
+<li id="compound-interest-formula-2-2-4"><div class="para" id="compound-interest-formula-2-2-4-1">
 <span class="process-math">\(r\)</span> = interest rate compounded monthly (as a decimal)</div></li>
 </ul>
 </div></article><div class="para logical" id="sec-Finance-6">
@@ -263,8 +456,8 @@ g=1+\frac{r}{12}
 </div>
 </div>
 <div class="para logical" id="sec-Finance-7">
-<div class="para">Let’s figure out how much Hector would have in his account for each choice. For the savings account we have <span class="process-math">\(p=\$1,040\text{,}\)</span> <span class="process-math">\(r=1.2\% = 1.2 \div 100 = 0.012\text{,}\)</span> and <span class="process-math">\(y = 3\)</span> years so we use the <em class="alert">Compound Interest Formula</em> to get</div>
-<div class="displaymath process-math" id="sec-Finance-7-5">
+<div class="para">Let’s figure out how much Hector would have in his account for each choice. For the savings account we have <span class="process-math">\(p=\$1,040\text{,}\)</span> <span class="process-math">\(r=1.2\% = 1.2 \div 100 = 0.012\text{,}\)</span> and <span class="process-math">\(y = 3\)</span> years so we use the <a href="sec-Finance.html#compound-interest-formula" class="xref" data-knowl="./knowl/xref/compound-interest-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Compound Interest Formula">Compound Interest Formula</a> to get</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/compound-interest-formula.html" id="sec-Finance-7-5">
 \begin{align*}
 a \amp = p \left( 1 + \frac{r}{12}\right) ^{12y} \\
 \amp = 1,040 \left( 1 + \frac{0.012}{12}\right) ^{12\ast 3} \\
@@ -274,21 +467,20 @@ a \amp = p \left( 1 + \frac{r}{12}\right) ^{12y} \\
 </div>
 <div class="para">See the parentheses? The parentheses around the base were already in the equation. They make sure that the inside quantity gets calculated before it’s raised to the power. We inserted the parentheses around the exponent to override the order of operations again. This time we wanted the product (<span class="process-math">\(12 \times 3=36\)</span>) calculated first.</div>
 </div>
-<div class="para" id="sec-Finance-8">Of course, Hector might want to choose that certificate of deposit instead. That pays 3% interest compounded monthly, so the only change is <span class="process-math">\(r=3\% = 3 \div 100 = 0.03\text{.}\)</span> Your turn. Check that using the <em class="alert">Compound Interest Formula</em> you get $.</div>
+<div class="para" id="sec-Finance-8">Of course, Hector might want to choose that certificate of deposit instead. That pays 3% interest compounded monthly, so the only change is <span class="process-math">\(r=3\% = 3 \div 100 = 0.03\text{.}\)</span> Your turn. Check that using the <a href="sec-Finance.html#compound-interest-formula" class="xref" data-knowl="./knowl/xref/compound-interest-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Compound Interest Formula">Compound Interest Formula</a> you get $1,137.81.</div>
 <div class="para" id="sec-Finance-9">It looks like the certificate of deposit is a clear winner, but there is a catch. If Hector wants his money before the three year term is up, he loses all (or most) of the interest earned. Ouch. So Hector should decide not only based on what the accounts pay: $1,078.10 in the savings account versus $1,137.81 in the certificate of deposit, but also on whether he is comfortable leaving the money alone for three years or not.</div>
 <div class="para" id="sec-Finance-10">Unimpressed by the $59.71 difference and uncomfortable locking his money in for that long, Hector decides on the savings account. When he reads the account information carefully he is surprised to see the account pays “1.207% APR.” What does that mean?</div>
 <div class="para logical" id="sec-Finance-11">
-<div class="para">The acronymn <dfn class="terminology">APR</dfn> stands for <dfn class="terminology">annual percentage rate</dfn>. It means that 1.2% interest compounded monthly has the same net effect as paying 1.207% at the end of each year. where does that number come from? Imagine $1 in the account (<span class="process-math">\(p=1\)</span>) for one year (<span class="process-math">\(y=1\)</span>) with at 1.2% interest (so <span class="process-math">\(r=0.012\)</span> again). Silly, yes, but watch what we learn. The balance from the <em class="alert">Compound Interest Formula</em> would be around $1.01207, as you can (and should) check. That means the annual growth factor is <span class="process-math">\(g=1.01207\)</span> which corresponds to the equivalent of annual growth rate of</div>
-<div class="displaymath process-math">
+<div class="para">The acronymn <dfn class="terminology">APR</dfn> stands for <dfn class="terminology">annual percentage rate</dfn>. It means that 1.2% interest compounded monthly has the same net effect as paying 1.207% at the end of each year. where does that number come from? Imagine $1 in the account (<span class="process-math">\(p=1\)</span>) for one year (<span class="process-math">\(y=1\)</span>) with at 1.2% interest (so <span class="process-math">\(r=0.012\)</span> again). Silly, yes, but watch what we learn. The balance from the <a href="sec-Finance.html#compound-interest-formula" class="xref" data-knowl="./knowl/xref/compound-interest-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Compound Interest Formula">Compound Interest Formula</a> would be around $1.01207, as you can (and should) check. That means the annual growth factor is <span class="process-math">\(g=1.01207\)</span> which corresponds to the equivalent of annual growth rate of</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/compound-interest-formula.html">
 \begin{equation*}
 r=g-1=1.01207-1 = 0.01207 = 1.207\% \text{ APR}
 \end{equation*}
 </div>
 <div class="para">There’s a formula for this too.</div>
 </div>
-<article class="definition definition-like" id="def-equivalent-apr-formula"><h3 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.5.2</span><span class="period">.</span><span class="space"> </span><span class="title">Equivalent APR Formula.</span>
-</h3> <div class="para logical" id="def-equivalent-apr-formula-2-1">
+<article class="assemblage assemblage-like" id="equivalent-apr-formula"><h3 class="heading"><span class="title">Equivalent APR Formula.</span></h3>
+<div class="para logical" id="equivalent-apr-formula-2">
 <div class="displaymath process-math">
 \begin{equation*}
 \text{APR} = \left(1+\frac{r}{12}\right)^{12}-1
@@ -296,8 +488,8 @@ r=g-1=1.01207-1 = 0.01207 = 1.207\% \text{ APR}
 </div>
 <div class="para">where <span class="process-math">\(r\)</span> = interest rate compounded monthly (as a decimal)</div>
 </div></article><div class="para logical" id="sec-Finance-13">
-<div class="para">For example, the CD pays 3% compounded monthly, so <span class="process-math">\(r=3\% = 3 \div 100 = 0.03\text{.}\)</span> Using the <em class="alert">Equivalent APR Formula</em> we get</div>
-<div class="displaymath process-math" id="sec-Finance-13-3">
+<div class="para">For example, the CD pays 3% compounded monthly, so <span class="process-math">\(r=3\% = 3 \div 100 = 0.03\text{.}\)</span> Using the <a href="sec-Finance.html#equivalent-apr-formula" class="xref" data-knowl="./knowl/xref/equivalent-apr-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Equivalent APR Formula">Equivalent APR Formula</a> we get</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/equivalent-apr-formula.html" id="sec-Finance-13-3">
 \begin{align*}
 \text{APR} \amp= \left(1+\frac{r}{12}\right)^{12}-1 \\
 \amp = \left(1+\frac{0.03}{12}\right)^{12}-1 \\
@@ -309,48 +501,47 @@ r=g-1=1.01207-1 = 0.01207 = 1.207\% \text{ APR}
 </div>
 <div class="para" id="sec-Finance-14">All this thinking about savings reminds Hector that he wants to own his own place someday. He promised himself that he would start putting away some money each month to save for a down payment on a condo, or maybe even a house. Sharing an apartment with three friends, postponing buying his first car, and bringing lunch from home most days leaves Hector nearly $1,000 per month to save. His bank offers a special savings account paying 4.5% compounded monthly if he commits to making a deposit every month for at least two years.</div>
 <div class="para logical" id="sec-Finance-15">
-<div class="para">Suppose Hector deposits $1,000 to the account at the end of every month. Two things happen at the end of each month - first, the interest is added to the account and, second, Hector puts another $1,000 into the account. Let’s do a couple quick examples. At the end of the first month he just has the $1,000. What is his balance at the end of the second month? From the <em class="alert">Compound Interest Formula</em> (with <span class="process-math">\(p=\$1,000\text{,}\)</span> <span class="process-math">\(r=4.5\% = 4.5 \div 100 = 0.045\text{,}\)</span> and <span class="process-math">\(12y=1\)</span>) he has $1,003.75 to which he adds another $1,000 for a grand total of</div>
-<div class="displaymath process-math">
+<div class="para">Suppose Hector deposits $1,000 to the account at the end of every month. Two things happen at the end of each month - first, the interest is added to the account and, second, Hector puts another $1,000 into the account. Let’s do a couple quick examples. At the end of the first month he just has the $1,000. What is his balance at the end of the second month? From the <a href="sec-Finance.html#compound-interest-formula" class="xref" data-knowl="./knowl/xref/compound-interest-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Compound Interest Formula">Compound Interest Formula</a> (with <span class="process-math">\(p=\$1,000\text{,}\)</span> <span class="process-math">\(r=4.5\% = 4.5 \div 100 = 0.045\text{,}\)</span> and <span class="process-math">\(12y=1\)</span>) he has $1,003.75 to which he adds another $1,000 for a grand total of</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/compound-interest-formula.html ./knowl/xref/compound-interest-formula.html">
 \begin{equation*}
 \$1,003.75+  \$1,000= \$2,003.75
 \end{equation*}
 </div>
-<div class="para">At the end of the third month from the <em class="alert">Compound Interest Formula</em> (now with <span class="process-math">\(p=\$2,003.75\)</span> but still <span class="process-math">\(r=0.045\)</span> and <span class="process-math">\(12y=1\)</span>) he has $2,011.26 to which he adds another $1,000 for a grand total of</div>
-<div class="displaymath process-math">
+<div class="para">At the end of the third month from the <a href="sec-Finance.html#compound-interest-formula" class="xref" data-knowl="./knowl/xref/compound-interest-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Compound Interest Formula">Compound Interest Formula</a> (now with <span class="process-math">\(p=\$2,003.75\)</span> but still <span class="process-math">\(r=0.045\)</span> and <span class="process-math">\(12y=1\)</span>) he has $2,011.26 to which he adds another $1,000 for a grand total of</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/compound-interest-formula.html ./knowl/xref/compound-interest-formula.html">
 \begin{equation*}
 \$2,011.26 + \$1,000 = \$3,011.26
 \end{equation*}
 </div>
 </div>
 <div class="para" id="sec-Finance-16">It would take too long to keep calculating one month at a time. Any sequence of regular deposits is an <dfn class="terminology">annuity</dfn>. Luckily there’s a formula for the (future) value of an annuity.</div>
-<article class="definition definition-like" id="def-future-value-annuity-formula"><h3 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.5.3</span><span class="period">.</span><span class="space"> </span><span class="title">Future Value Annuity Formula.</span>
-</h3> <div class="para logical" id="def-future-value-annuity-formula-2-1">
+<article class="assemblage assemblage-like" id="future-value-annuity-formula"><h3 class="heading"><span class="title">Future Value Annuity Formula.</span></h3>
+<div class="para logical" id="future-value-annuity-formula-2">
 <div class="displaymath process-math">
 \begin{equation*}
 a = p \ast \frac{\left( 1 + \frac{r}{12}\right) ^{12y}-1}{\frac{r}{12}}
 \end{equation*}
 </div>
 <div class="para">where</div>
-<ul class="disc" id="def-future-value-annuity-formula-2-1-2">
-<li id="def-future-value-annuity-formula-2-1-2-1"><div class="para" id="def-future-value-annuity-formula-2-1-2-1-1">
+<ul class="disc" id="future-value-annuity-formula-2-2">
+<li id="future-value-annuity-formula-2-2-1"><div class="para" id="future-value-annuity-formula-2-2-1-1">
 <span class="process-math">\(a\)</span> = account balance ($)</div></li>
-<li id="def-future-value-annuity-formula-2-1-2-2"><div class="para" id="def-future-value-annuity-formula-2-1-2-2-1">
+<li id="future-value-annuity-formula-2-2-2"><div class="para" id="future-value-annuity-formula-2-2-2-1">
 <span class="process-math">\(y\)</span> = time invested (years)</div></li>
-<li id="def-future-value-annuity-formula-2-1-2-3"><div class="para" id="def-future-value-annuity-formula-2-1-2-3-1">
+<li id="future-value-annuity-formula-2-2-3"><div class="para" id="future-value-annuity-formula-2-2-3-1">
 <span class="process-math">\(p\)</span> = regular (monthly) deposits ($)</div></li>
-<li id="def-future-value-annuity-formula-2-1-2-4"><div class="para" id="def-future-value-annuity-formula-2-1-2-4-1">
+<li id="future-value-annuity-formula-2-2-4"><div class="para" id="future-value-annuity-formula-2-2-4-1">
 <span class="process-math">\(r\)</span> = interest rate compounded monthly (as a decimal)</div></li>
 </ul>
 </div></article><div class="para logical" id="sec-Finance-18">
 <div class="para">Notice that <span class="process-math">\(p\)</span> now represents the regular, monthly deposit instead of the initial deposit. In either case think: <span class="process-math">\(p\)</span> stands for “put in.” In Hector’s situation, we have <span class="process-math">\(p=\$1,000\)</span> and <span class="process-math">\(r=4.5\% =4.5 \div 100 =0.045\text{.}\)</span> To check his balance after 3 months, we need to convert to years. Here goes.</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/future-value-annuity-formula.html">
 \begin{equation*}
 3 \cancel{\text{ months} } \ast \frac{1 \text{ year}}{12 \cancel{\text{ months}}} =3 \div 12= 0.25 \text{ years}
 \end{equation*}
 </div>
-<div class="para">so <span class="process-math">\(y = 0.25\text{.}\)</span> From the <em class="alert">Future Value Annuity Formula</em>, his balance is</div>
-<div class="displaymath process-math" id="sec-Finance-18-9">
+<div class="para">so <span class="process-math">\(y = 0.25\text{.}\)</span> From the <a href="sec-Finance.html#future-value-annuity-formula" class="xref" data-knowl="./knowl/xref/future-value-annuity-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Future Value Annuity Formula">Future Value Annuity Formula</a>, his balance is</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/future-value-annuity-formula.html" id="sec-Finance-18-9">
 \begin{align*}
 a \amp=  p \ast \frac{\left( 1 + \frac{r}{12}\right) ^{12y}-1}{\frac{r}{12}}\\
 \amp = 1,000 \ast \frac{\left( 1 + \frac{0.045}{12}\right) ^{12\ast0.25}-1}{\frac{0.045}{12}}\\
@@ -362,8 +553,8 @@ a \amp=  p \ast \frac{\left( 1 + \frac{r}{12}\right) ^{12y}-1}{\frac{r}{12}}\\
 </div>
 <div class="para" id="sec-Finance-19">Notice how we need parentheses not only where they appear in the formula, but also around the entire numerator (top) of the fraction, around the entire denominator (bottom) of the fraction, and around the exponent. That’s going to take some practice to get used to. Especially since there are actually two open parentheses in a row.</div>
 <div class="para logical" id="sec-Finance-20">
-<div class="para">And how much will Hector have if he continues to save for a full 2 years? Use the <em class="alert">Future Value Annuity Formula</em> (now with <span class="process-math">\(y=2\)</span>) to get the answer of $25,064. Wow. He’ll be buying his own house in no time. By the way, if he just stuck that $1,000 in a shoebox under his bed (meaning earning no interest) he’d have</div>
-<div class="displaymath process-math">
+<div class="para">And how much will Hector have if he continues to save for a full 2 years? Use the <a href="sec-Finance.html#future-value-annuity-formula" class="xref" data-knowl="./knowl/xref/future-value-annuity-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Future Value Annuity Formula">Future Value Annuity Formula</a> (now with <span class="process-math">\(y=2\)</span>) to get the answer of $25,064. Wow. He’ll be buying his own house in no time. By the way, if he just stuck that $1,000 in a shoebox under his bed (meaning earning no interest) he’d have</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/future-value-annuity-formula.html">
 \begin{equation*}
 \frac{\$1,000}{\cancel{\text{month}}} \ast \frac{12 \cancel{\text{ months}}}{\cancel{\text{ years}}} \ast 2 \cancel{\text{ years}}= 1,000 \times 12 \times 2 = \$24,000
 \end{equation*}
@@ -371,31 +562,31 @@ a \amp=  p \ast \frac{\left( 1 + \frac{r}{12}\right) ^{12y}-1}{\frac{r}{12}}\\
 <div class="para">The $25,064 in his account represents a total of $1,064 in interest. The bank is better than the shoebox.</div>
 </div>
 <div class="para" id="sec-Finance-21">Oh, but wait, there’s those looming student loans. Hector currently owes $16,700 at 5.75% interest compounded monthly. He’s ready to start paying some of that loan off every month, which means this loan repayment is another example of an annuity. Again, two things happen at the end of each month - first, the interest is added to the account and, second, the payment is subtracted. Instead of trying examples by hand, let’s fast forward to the formula. The formula that gives the (monthly) payment for a loan (or any annuity) is</div>
-<article class="definition definition-like" id="def-loan-payment-formula"><h3 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.5.4</span><span class="period">.</span><span class="space"> </span><span class="title">Loan Payment Formula.</span>
-</h3> <div class="para logical" id="def-loan-payment-formula-2-1">
+<article class="assemblage assemblage-like" id="loan-payment-formula"><h3 class="heading"><span class="title">Loan Payment Formula.</span></h3>
+<div class="para logical" id="loan-payment-formula-2">
 <div class="displaymath process-math">
 \begin{equation*}
 p = \frac{a  \ast \frac{r}{12}}{1-\left( 1 + \frac{r}{12}\right) ^{-12y}}
 \end{equation*}
 </div>
-<ul class="disc" id="def-loan-payment-formula-2-1-2">
-<li id="def-loan-payment-formula-2-1-2-1"><div class="para" id="def-loan-payment-formula-2-1-2-1-1">
+<div class="para">where</div>
+<ul class="disc" id="loan-payment-formula-2-2">
+<li id="loan-payment-formula-2-2-1"><div class="para" id="loan-payment-formula-2-2-1-1">
 <span class="process-math">\(a\)</span> = loan amount ($)</div></li>
-<li id="def-loan-payment-formula-2-1-2-2"><div class="para" id="def-loan-payment-formula-2-1-2-2-1">
+<li id="loan-payment-formula-2-2-2"><div class="para" id="loan-payment-formula-2-2-2-1">
 <span class="process-math">\(y\)</span> = time invested (years)</div></li>
-<li id="def-loan-payment-formula-2-1-2-3"><div class="para" id="def-loan-payment-formula-2-1-2-3-1">
+<li id="loan-payment-formula-2-2-3"><div class="para" id="loan-payment-formula-2-2-3-1">
 <span class="process-math">\(p\)</span> = regular (monthly) payment ($)</div></li>
-<li id="def-loan-payment-formula-2-1-2-4"><div class="para" id="def-loan-payment-formula-2-1-2-4-1">
+<li id="loan-payment-formula-2-2-4"><div class="para" id="loan-payment-formula-2-2-4-1">
 <span class="process-math">\(r\)</span> = interest rate compounded monthly (as a decimal)</div></li>
 </ul>
 </div></article><div class="para logical" id="sec-Finance-23">
-<div class="para">Notice that <span class="process-math">\(p\)</span> now represents the regular, monthly payment and <span class="process-math">\(a\)</span> is the loan amount. In Hector’s situation <span class="process-math">\(a = \$16,700\)</span> and <span class="process-math">\(r=5.75\%=5.75 \div 100=0.0575\text{.}\)</span> he would like to pay off the student loan in the next two years before he buys that house, so <span class="process-math">\(y=2\)</span> years. The monthly payment from the <em class="alert">Loan Payment Formula</em> would be</div>
-<div class="displaymath process-math" id="sec-Finance-23-7">
+<div class="para">Notice that <span class="process-math">\(p\)</span> now represents the regular, monthly payment and <span class="process-math">\(a\)</span> is the loan amount. In Hector’s situation <span class="process-math">\(a = \$16,700\)</span> and <span class="process-math">\(r=5.75\%=5.75 \div 100=0.0575\text{.}\)</span> he would like to pay off the student loan in the next two years before he buys that house, so <span class="process-math">\(y=2\)</span> years. The monthly payment from the <a href="sec-Finance.html#loan-payment-formula" class="xref" data-knowl="./knowl/xref/loan-payment-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Loan Payment Formula">Loan Payment Formula</a> would be</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/loan-payment-formula.html" id="sec-Finance-23-7">
 \begin{align*}
 p \amp \frac{a  \ast \frac{r}{12}}{1-\left( 1 + \frac{r}{12}\right) ^{-12y}}\\
 \amp = \frac{16,700 \ast \frac{0.0575}{12}}{1-\left( 1 + \frac{0.0575}{12}\right) ^{-12\ast 2}}\\
-\amp = \left(16,700 \times 0.0575 \div 12 \right) \div \left(1-(1+0.0575 \div 12) \wedge (\text{(-)}12 \times 2)\right)\\
+\amp = \left(16,700 \times 0.0575 \div 12 \right) \div \text{} \left(1-(1+0.0575 \div 12) \wedge (\text{(-)}12 \times 2)\right)\\
 \amp = 738.2743896\ldots  \approx \$738.28
 \end{align*}
 </div>
@@ -403,16 +594,101 @@ p \amp \frac{a  \ast \frac{r}{12}}{1-\left( 1 + \frac{r}{12}\right) ^{-12y}}\\
 </div>
 <div class="para" id="sec-Finance-24">This calculation is our most complicated so far. See the negative in the exponent? Look closely at where we added parentheses - top of fraction, bottom of fraction, exponent. Same as before. It’s going to take practice but once you get the hang of it, it is the same steps. One suggestion: write down what you plan to enter into your calculator. That helps you get it correct and, in case you mess up, someone else can at least see what your plan was.</div>
 <div class="para logical" id="sec-Finance-25">
-<div class="para">Back to poor Hector. Luckily the student loan is not due in 2 years. He’s allowed 10 years to pay it back. Let’s recalculate his monthly payment assuming he takes the full 10 years instead. From the <em class="alert">Loan Payment Formula</em> (now with <span class="process-math">\(y=10\)</span> instead), we find his new monthly payment would be $183.32. (Check!) Much more realistic. That means he would have</div>
-<div class="displaymath process-math">
+<div class="para">Back to poor Hector. Luckily the student loan is not due in 2 years. He’s allowed 10 years to pay it back. Let’s recalculate his monthly payment assuming he takes the full 10 years instead. From the <a href="sec-Finance.html#loan-payment-formula" class="xref" data-knowl="./knowl/xref/loan-payment-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Loan Payment Formula">Loan Payment Formula</a> (now with <span class="process-math">\(y=10\)</span> instead), we find his new monthly payment would be $183.32. (Check!) Much more realistic. That means he would have</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/loan-payment-formula.html ./knowl/xref/future-value-annuity-formula.html">
 \begin{equation*}
 \$1,000 - \$183.32 = \$816.68
 \end{equation*}
 </div>
-<div class="para">to save each month towards that condo. Two years probably isn’t going to be enough time, so suppose he saves for three years instead. Notice that now we’re saving money so we went back to the <em class="alert">Future Value Annuity Formula</em> with the regular deposit of <span class="process-math">\(p=\$816.58\text{,}\)</span> monthly interest rate of <span class="process-math">\(4.5\% = 4.5 \div 100 = 0.045\text{,}\)</span> and <span class="process-math">\(y=3\)</span> years. Go for it. Did you get <span class="process-math">\(\approx \$31,410\text{?}\)</span> Good. And, great news for Hector.</div>
+<div class="para">to save each month towards that condo. Two years probably isn’t going to be enough time, so suppose he saves for three years instead. Notice that now we’re saving money so we went back to the <a href="sec-Finance.html#future-value-annuity-formula" class="xref" data-knowl="./knowl/xref/future-value-annuity-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Future Value Annuity Formula">Future Value Annuity Formula</a> with the regular deposit of <span class="process-math">\(p=\$816.58\text{,}\)</span> monthly interest rate of <span class="process-math">\(4.5\% = 4.5 \div 100 = 0.045\text{,}\)</span> and <span class="process-math">\(y=3\)</span> years. Go for it. Did you get <span class="process-math">\(\approx \$31,410\text{?}\)</span> Good. And, great news for Hector.</div>
 </div>
 <div class="para" id="sec-Finance-26">There are four different formulas in this section. Each has a different purpose. The exercises say which formula to use, but in subsequent courses you would have to choose for yourself.</div>
-<div class="para" id="sec-Finance-27">A short disclaimer is in order. These formulas only work if the interest is compounded <em class="emphasis">monthly</em>. Can you guess how to change the formulas if the interest is paid at some other interval? Just trade out the 12s for monthly and use how ever many times per year the interest is paid instead, usually called <span class="process-math">\(n\)</span> in other textbooks.</div></section></div>
+<div class="para" id="sec-Finance-27">A short disclaimer is in order. These formulas only work if the interest is compounded <em class="emphasis">monthly</em>. Can you guess how to change the formulas if the interest is paid at some other interval? Just trade out the 12s for monthly and use how ever many times per year the interest is paid instead, usually called <span class="process-math">\(n\)</span> in other textbooks.</div>
+<section class="subsection" id="dyk-finance"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.5.1</span><span class="space"> </span><span class="title">Do you know ...</span>
+</h3>
+<div class="para logical" id="dyk-finance-2"><ul class="disc" id="dyk-finance-2-1">
+<li id="dyk-finance-2-1-1"><div class="para" id="dyk-finance-2-1-1-1">How to determine which formula to use? <em class="emphasis">Ask your instructor if you will be told which formula to use during the exam.</em>
+</div></li>
+<li id="dyk-finance-2-1-2"><div class="para" id="dyk-finance-2-1-2-1">What the quantities <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(p\text{,}\)</span> <span class="process-math">\(y\text{,}\)</span> and <span class="process-math">\(r\)</span> from the formulas mean in the story?</div></li>
+<li id="dyk-finance-2-1-3"><div class="para" id="dyk-finance-2-1-3-1">How to evaluate the formulas on your calculator?  <em class="emphasis">Ask your instructor which formulas you need to remember, and whether any formulas will be provided during the exam.</em>
+</div></li>
+<li id="dyk-finance-2-1-4"><div class="para" id="dyk-finance-2-1-4-1">Why parentheses are needed around the exponent, numerator, and denominator in most of the formulas?</div></li>
+<li id="dyk-finance-2-1-5"><div class="para" id="dyk-finance-2-1-5-1">What APR means, and why it is different from the (nominal) interest rate?</div></li>
+</ul></div></section><section class="exercises" id="ex-Finance"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">2.5.2</span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<section class="introduction" id="ex-Finance-2"><div class="para" id="ex-Finance-2-1">Workbook exercises</div></section><div class="introduction" id="ex-Finance-3-1">
+<div class="para" id="ex-Finance-3-1-1">
+<dfn class="terminology">Compound Interest Formula:</dfn> <span class="process-math">\(\displaystyle a = p \left( 1 + \frac{r}{12}\right) ^{12y}\)</span>
+</div> <div class="para" id="ex-Finance-3-1-2"> </div> <div class="para" id="ex-Finance-3-1-3">
+<dfn class="terminology">Equivalent APR Formula:</dfn> <span class="process-math">\(\displaystyle \text{APR} = \left(1+\frac{r}{12}\right)^{12}-1\)</span>
+</div> <div class="para" id="ex-Finance-3-1-4"> </div> <div class="para" id="ex-Finance-3-1-5">
+<dfn class="terminology">Future Value Annuity Formula:</dfn> <span class="process-math">\(\displaystyle a = p \ast \frac{\left( 1 + \frac{r}{12}\right) ^{12y}-1}{\frac{r}{12}}\)</span>
+</div> <div class="para" id="ex-Finance-3-1-6"> </div> <div class="para" id="ex-Finance-3-1-7">
+<dfn class="terminology">Loan Payment Formula:</dfn> <span class="process-math">\(\displaystyle p = \frac{a  \ast \frac{r}{12}}{1-\left( 1 + \frac{r}{12}\right) ^{-12y}}\)</span>
+</div> <div class="para" id="ex-Finance-3-1-8">where</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr><td class="l m b0 r0 l0 t0 lines">
+<span class="process-math">\(a\)</span> = account balance or loan amount ($)</td></tr>
+<tr><td class="l m b0 r0 l0 t0 lines">
+<span class="process-math">\(p\)</span> = initial deposit (principal), regular deposit, or regular payment ($)</td></tr>
+<tr><td class="l m b0 r0 l0 t0 lines">
+<span class="process-math">\(y\)</span> = time invested (years)</td></tr>
+<tr><td class="l m b0 r0 l0 t0 lines">
+<span class="process-math">\(r\)</span> = interest rate compounded monthly (as a decimal)</td></tr>
+</table></div>
+</div>
+<article class="exercise exercise-like" id="kiran-finance"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="introduction" id="kiran-finance-1"><div class="para" id="kiran-finance-1-1">Use the indicated formulas to help Kiran figure out her finances.</div></div>
+<article class="task exercise-like" id="kiran-finance-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="kiran-finance-2-1-1">Kiran deposited $2,500 in a money market account that earned 7% interest compounded monthly. Use the <dfn class="terminology">Compound Interest Formula</dfn> to calculate her account balance after 4 years.</div></article><article class="task exercise-like" id="kiran-finance-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="kiran-finance-3-1-1">What is the equivalent APR on Kiran’s money market account? Use the <dfn class="terminology">Equivalent APR Formula</dfn>.</div></article><article class="task exercise-like" id="kiran-finance-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="kiran-finance-4-1-1">Kiran puts $400 a month in her retirement account that amazingly also earns 7% interest compounded monthly. Use the <dfn class="terminology">Future Value Annuity Formula</dfn> to determine how much Kiran will have in her retirement account in 28 years.</div></article><article class="task exercise-like" id="kiran-finance-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="kiran-finance-5-1-1">Kiran would really like to buy a new hybrid car that sells for $23,500. Sadly Kiran’s credit rating is not very good, so the best the dealership offers is a loan at (you guessed it) 7% interest compouned monthly. Use the <dfn class="terminology">Loan Payment Formula</dfn> to calculate her monthly car payments on a six year loan.</div></article></article><article class="exercise exercise-like" id="college-savings-finance"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="introduction" id="college-savings-finance-1"><div class="para" id="college-savings-finance-1-1">Tim and Josh are saving for their kids’ college in fifteen years. The account pays the equivalent of 5.4% interest compounded monthly (taking into consideration various tax incentives)</div></div>
+<article class="task exercise-like" id="college-savings-finance-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="college-savings-finance-2-1-1">Make a table comparing how much they will have after fifteen years if they contribute $100 per month vs. $500 per month vs. $1,000 per month. Use the <dfn class="terminology">Future Value Annuity Formula</dfn>.</div></article><article class="task exercise-like" id="college-savings-finance-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="college-savings-finance-3-1-1">Tim’s parents decide to put $15,000 into the account now. How much will that deposit be worth in fifteen years? Use the <dfn class="terminology">Compound Interest Formula</dfn>.</div></article></article> <article class="exercise exercise-like" id="equivalent-apr-finance"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="equivalent-apr-finance-1"><div class="para" id="equivalent-apr-finance-1-1">Use the <dfn class="terminology">Equivalent APR Formula</dfn> to find the APR for each of the following published interest rates (compounded monthly) offered by recent credit card companies.</div></div>
+<article class="task exercise-like" id="equivalent-apr-finance-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="equivalent-apr-finance-2-1-1">9%</div></article><article class="task exercise-like" id="equivalent-apr-finance-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="equivalent-apr-finance-3-1-1">12.8%</div></article><article class="task exercise-like" id="equivalent-apr-finance-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="equivalent-apr-finance-4-1-1">20.19%</div></article></article><article class="exercise exercise-like" id="house-payment-finance"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="house-payment-finance-1">
+<div class="para" id="house-payment-finance-1-1">Cesar and Eliana are looking at three different houses to buy. The first is a large new townhouse priced at $240,000. The second is a small but charming bungalow priced at $260,000. The third is a large 2-story house down the block priced at $280,000.</div> <div class="para" id="house-payment-finance-1-2">Calculate the monthly payment for each house for a 30-year mortgage at 3.5% interest compounded monthly. Use the <dfn class="terminology">Loan Payment Formula</dfn>.</div>
+</div>
+<article class="task exercise-like" id="house-payment-finance-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="house-payment-finance-2-1-1">Townhouse</div></article><article class="task exercise-like" id="house-payment-finance-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="house-payment-finance-3-1-1">Bungalow</div></article><article class="task exercise-like" id="house-payment-finance-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="house-payment-finance-4-1-1">2-Story</div></article><article class="task exercise-like" id="house-payment-finance-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="house-payment-finance-5-1-1">At this interest rate, if the house price goes up by $20,000, what happens to Cesar and Eliana’s monthly payment?</div></article></article><div class="para interlude" id="ex-Finance-7-1">Textbook exercises</div>
+<article class="exercise exercise-like" id="hector-finance"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="introduction" id="hector-finance-1"><div class="para" id="hector-finance-1-1">As we have seen, Hector is trying to figure out his finances.</div></div>
+<article class="task exercise-like" id="hector-finance-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="hector-finance-2-1-1">Check that if Hector deposits $1,040 into a certificate of deposit earning 3% interest compounded monthly, then at the end of three years he will have $1,137.81. Use the <a href="sec-Finance.html#compound-interest-formula" class="xref" data-knowl="./knowl/xref/compound-interest-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Compound Interest Formula">Compound Interest Formula</a>.</div></article><article class="task exercise-like" id="hector-finance-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="hector-finance-3-1-1">Check that if Hector takes 10 years to pay back his student loan of $16,700 at 5.75% interest compounded monthly, then his monthly payment will be $183.32. Use the <a href="sec-Finance.html#loan-payment-formula" class="xref" data-knowl="./knowl/xref/loan-payment-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Loan Payment Formula">Loan Payment Formula</a>.</div></article><article class="task exercise-like" id="hector-finance-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="hector-finance-4-1-1">Check that if Hector deposits $816.58 each month into an account earning 4.5% interest compounded monthly for 3 years, then his balance will be $31,410. Use the <a href="sec-Finance.html#future-value-annuity-formula" class="xref" data-knowl="./knowl/xref/future-value-annuity-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Future Value Annuity Formula">Future Value Annuity Formula</a>.</div></article><article class="task exercise-like" id="hector-finance-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="hector-finance-5-1-1">What is the equivalent APR of 4.5% interest compounded monthly? Use the <a href="sec-Finance.html#equivalent-apr-formula" class="xref" data-knowl="./knowl/xref/equivalent-apr-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Equivalent APR Formula">Equivalent APR Formula</a>.</div></article></article><article class="exercise exercise-like" id="balance-rate-finance"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="introduction" id="balance-rate-finance-1"><div class="para" id="balance-rate-finance-1-1">Ayah invests $35,000 for three years. Use the <a href="sec-Finance.html#compound-interest-formula" class="xref" data-knowl="./knowl/xref/compound-interest-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Compound Interest Formula">Compound Interest Formula</a> to answer the following questions.</div></div>
+<article class="task exercise-like" id="balance-rate-finance-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="balance-rate-finance-2-1-1">How much will she have if her money earns 6% compounded monthly?</div></article><article class="task exercise-like" id="balance-rate-finance-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="balance-rate-finance-3-1-1">How much will she have if her money earns 11% compounded monthly?</div></article><article class="task exercise-like" id="balance-rate-finance-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="balance-rate-finance-4-1-1">How much will she have if her money earns 1.9% compounded monthly?</div></article><article class="task exercise-like" id="balance-rate-finance-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="balance-rate-finance-5-1-1">Name the variables, make a table, and draw a graph showing how her balance after three years is a function of the interest rate. Include 0% interest on your graph.</div></article></article><article class="exercise exercise-like" id="mortgage-payments-finance"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="introduction" id="mortgage-payments-finance-1"><div class="para" id="mortgage-payments-finance-1-1">Lue’s family bought a house three years ago and owes $192,000 on their mortgage. In reality, their monthly payment will include taxes, insurance, and money for escrow but let’s ignore those amounts for this problem. In each part of this problem, use the <a href="sec-Finance.html#loan-payment-formula" class="xref" data-knowl="./knowl/xref/loan-payment-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Loan Payment Formula">Loan Payment Formula</a>.</div></div>
+<article class="task exercise-like" id="mortgage-payments-finance-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="mortgage-payments-finance-2-1-1">They currently owe $192,000 on their mortgage for the remaining 27 years at 4.5% compounded monthly. Calculate their monthly payment.</div></article><article class="task exercise-like" id="mortgage-payments-finance-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="mortgage-payments-finance-3-1-1">Lue’s family can refinance at 3.5% compounded monthly on a 30-year mortgage loan. Rolling in closing costs, their new loan would be for $195,000. Calculate their monthly payment if they refinance.</div></article><article class="task exercise-like" id="mortgage-payments-finance-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="mortgage-payments-finance-4-1-1">Or, they can refinance to a 15-year mortgage at 3.25% compounded monthly. With closing costs, their new loan would be again be for $195,000. Calculate their monthly payment if they refinance this way instead.</div></article></article><article class="exercise exercise-like" id="balance-time-finance"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="introduction" id="balance-time-finance-1"><div class="para" id="balance-time-finance-1-1">Kurt invests $50,000 in a certificate of deposit earning 4.77% interest compounded monthly. Use the <a href="sec-Finance.html#compound-interest-formula" class="xref" data-knowl="./knowl/xref/compound-interest-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Compound Interest Formula">Compound Interest Formula</a>:</div></div>
+<article class="task exercise-like" id="balance-time-finance-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="balance-time-finance-2-1-1">Make a table showing the balance now, after 1 year, after 5 years, and after 12 years.</div></article><article class="task exercise-like" id="balance-time-finance-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="balance-time-finance-3-1-1">Name the variables and draw a graph showing how the balance is a function of the time.</div></article></article><article class="exercise exercise-like" id="apr-loans-finance"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="introduction" id="apr-loans-finance-1"><div class="para" id="apr-loans-finance-1-1">Soo Jin is borrowing more money for college. Compare the APR for each choice, using the <a href="sec-Finance.html#equivalent-apr-formula" class="xref" data-knowl="./knowl/xref/equivalent-apr-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Equivalent APR Formula">Equivalent APR Formula</a>.</div></div>
+<article class="task exercise-like" id="apr-loans-finance-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="apr-loans-finance-2-1-1">A nationally subsidized loan at 3.4% compounded monthly.</div></article><article class="task exercise-like" id="apr-loans-finance-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="apr-loans-finance-3-1-1">Her bank’s “college loan” at 7.9% compounded monthly.</div></article><article class="task exercise-like" id="apr-loans-finance-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="apr-loans-finance-4-1-1">Paying her tuition on her credit card that charges of 19.8% compounded monthly.</div></article></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-Approx_solutions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-tx-Solving_equations.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

@@ -115,6 +115,7 @@ window.MathJax = {
 \newcommand{\amp}{&amp;}
 \definecolor{fillinmathshade}{gray}{0.9}
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
 \)</span></div>
 <div class="ptx-page">
 <div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
@@ -168,44 +169,237 @@ window.MathJax = {
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-tx-Equations.html" class="internal"><span class="codenumber">2</span> <span class="title">Equations</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-First_look_linear.html#dyk-first-look-linear" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Do you know...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_linear.html#ex-First_look_linear" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-First_look_exponential.html#dyk-first-look-exponential" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Do you know...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_exponential.html#ex-First_look_exponentialEX" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Using_equations.html#dyk-using-equations" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Using_equations.html#ex-Using_equations" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Approx_solutions.html#dyk-approx-solutions" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approx_solutions.html#ex-Approx_solutions" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Finance.html#dyk-finance" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Finance.html#ex-Finance" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-tx-Solving_equations.html" class="internal"><span class="codenumber">3</span> <span class="title">Solving equations</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html#dyk-solving-linear" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html#ex-Solving_linear_equations" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html#dyk-solving-linear-ineq" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html#ex-Solving_linear_inequalitiesEX" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_power_equations.html#dyk-solving-power" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_power_equations.html#ex-Solving_power_equations" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html#dyk-solving-exponential" class="internal"><span class="codenumber">3.4.1</span> <span class="title">dyk-solving-exponential</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html#ex-Solving_exponential_equations" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html#dyk-solving-quadratic" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html#ex-Solving_quadratic_equations" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-tx-Closer_look_linear.html" class="internal"><span class="codenumber">4</span> <span class="title">A closer look at linear equations</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html#dyk-modeling-linear" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html#ex-Modeling_linear_equations" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html#dyk-systems-linear" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html#ex-Systems_linear_equations" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Intercepts.html#dyk-intercepts" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Intercepts.html#ex-Intercepts" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Slopes.html#dyk-slopes" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Slopes.html#ex-Slopes" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html#dyk-fitting-lines" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html#ex-Fitting_lines_to_data" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-tx-Closer_look_exponential.html" class="internal"><span class="codenumber">5</span> <span class="title">A closer look at exponential functions</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html#dyk-modeling-exponential" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html#ex-Modeling_exponential_equations" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html#dyk-growth-decay" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html#ex-Exp_growth_decay" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Growth_factor.html#dyk-growth-factor" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Growth_factor.html#ex-Growth_factor" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html#dyk-linear-exponential" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html#ex-Linear_vs_exponential" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Logistic_growth.html#dyk-logistic-growth" class="internal"><span class="codenumber">5.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logistic_growth.html#ex-Logistic_growth" class="internal"><span class="codenumber">5.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="ch-tx-Prelude.html" class="internal"><span class="codenumber">A</span> <span class="title">Prelude</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approximation_and_rounding.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Prelude: Approximation and Rounding</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Approximation_and_rounding.html#dyk-approximation-rounding" class="internal"><span class="codenumber">A.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approximation_and_rounding.html#ex-Approximation_and_rounding" class="internal"><span class="codenumber">A.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Arithmetic_operations.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Prelude: Arithmetic Operations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Arithmetic_operations.html#dyk-arithmetic-operations" class="internal"><span class="codenumber">A.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Arithmetic_operations.html#ex-Arithmetic_operations" class="internal"><span class="codenumber">A.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Percentages.html" class="internal"><span class="codenumber">A.3</span> <span class="title">Prelude: Percentages</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Percentages.html#dyk-percentages" class="internal"><span class="codenumber">A.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Percentages.html#ex-Percentages" class="internal"><span class="codenumber">A.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Order_of_operations.html" class="internal"><span class="codenumber">A.4</span> <span class="title">Prelude: Order of Operations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Order_of_operations.html#dyk-order-operations" class="internal"><span class="codenumber">A.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Order_of_operations.html#ex-Order_of_operations" class="internal"><span class="codenumber">A.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fractions.html" class="internal"><span class="codenumber">A.5</span> <span class="title">Prelude: Fractions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fractions.html#dyk-fractions" class="internal"><span class="codenumber">A.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fractions.html#ex-Fractions" class="internal"><span class="codenumber">A.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Powers_and_roots.html" class="internal"><span class="codenumber">A.6</span> <span class="title">Prelude: Powers and Roots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Powers_and_roots.html#dyk-powers-roots" class="internal"><span class="codenumber">A.6.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Powers_and_roots.html#ex-Powers_and_roots" class="internal"><span class="codenumber">A.6.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Algebraic_notation.html" class="internal"><span class="codenumber">A.7</span> <span class="title">Prelude: Algebraic Notation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Algebraic_notation.html#dyk-algebraic-notation" class="internal"><span class="codenumber">A.7.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Algebraic_notation.html#ex-Algebraic-notation" class="internal"><span class="codenumber">A.7.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Scientific_notation.html" class="internal"><span class="codenumber">A.8</span> <span class="title">Prelude: Scientific Notation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Scientific_notation.html#dyk-prelude-scientific-notation" class="internal"><span class="codenumber">A.8.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Scientific_notation.html#ex-Scientific_notation" class="internal"><span class="codenumber">A.8.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logarithms.html" class="internal"><span class="codenumber">A.9</span> <span class="title">Prelude: Logarithms</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Logarithms.html#dyk-logarithms" class="internal"><span class="codenumber">A.9.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logarithms.html#ex-Logarithms" class="internal"><span class="codenumber">A.9.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Units"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">1.4</span><span class="space"> </span><span class="title">Units</span>
@@ -448,33 +642,33 @@ window.MathJax = {
 <div class="para" id="finland-units-4-1-1">Her car gets 7.6 km/liter. Convert to miles per gallon (mpg).</div></article><article class="task exercise-like" id="finland-units-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
 <div class="para" id="finland-units-5-1-1">Gas prices in Finland were 1.658 €/liter. What’s the equivalent price in $/gal? The symbol € stands for euro. Use 1 € <span class="process-math">\(\approx\)</span> $1.23.</div></article><article class="task exercise-like" id="finland-units-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
 <div class="para" id="finland-units-6-1-1">What would it cost Jenna, in euros, for a full tank of gas? How much is that in dollars?</div></article></article><div class="para interlude" id="ex-Units-6-1">Textbook exercises</div>
-<article class="exercise exercise-like" id="phelps-units-tx"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
-<div class="introduction" id="phelps-units-tx-1">
-<div class="para" id="phelps-units-tx-1-1">In August 2008, United States swimmer Michael Phelps set the world record for the 200 meter individual medley swimming it in 1 minute, 54.80 seconds.</div> <aside class="aside aside-like" id="phelps-units-tx-1-2"><div class="para" id="phelps-units-tx-1-2-1">Source: Wikipedia (World record progression 200 metres IM)</div></aside>
+<article class="exercise exercise-like" id="phelps-units"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="introduction" id="phelps-units-1">
+<div class="para" id="phelps-units-1-1">In August 2008, United States swimmer Michael Phelps set the world record for the 200 meter individual medley swimming it in 1 minute, 54.80 seconds.</div> <aside class="aside aside-like" id="phelps-units-1-2"><div class="para" id="phelps-units-1-2-1">Source: Wikipedia (World record progression 200 metres IM)</div></aside>
 </div>
-<article class="task exercise-like" id="phelps-units-tx-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="phelps-units-tx-2-1-1">Convert Phelps’s time into minutes.</div></article><article class="task exercise-like" id="phelps-units-tx-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="phelps-units-tx-3-1-1">How fast did Phelps swim, as measured in meters/min?</div></article><article class="task exercise-like" id="phelps-units-tx-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="phelps-units-tx-4-1-1">Convert Phelps’s speed to mph. Use <span class="process-math">\(1 \text{ mile} \approx {1,609} \text{ meters}\text{.}\)</span>
-</div></article></article><article class="exercise exercise-like" id="lochte-units-tx"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
-<div class="introduction" id="lochte-units-tx-1"><div class="para" id="lochte-units-tx-1-1">In August 2012, Phelps improved his time and won Olympic gold, but failed to break the world record his teammate Ryan Lochte has set a year earlier of 1 minute, 54 seconds.</div></div>
-<article class="task exercise-like" id="lochte-units-tx-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="lochte-units-tx-2-1-1">Convert Lochte’s time into minutes.</div></article><article class="task exercise-like" id="lochte-units-tx-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="lochte-units-tx-3-1-1">How fast did Lochte swim, as measured in meters/min?</div></article><article class="task exercise-like" id="lochte-units-tx-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="lochte-units-tx-4-1-1">Convert Lochte’s speed to mph.</div></article></article><article class="exercise exercise-like" id="assorted-1-units-tx"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
-<article class="task exercise-like" id="assorted-1-units-tx-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="assorted-1-units-tx-1-1-1">The typical weight limit for a suitcase on flights within Africa is 20 kg. How many pounds is that? Use <span class="process-math">\(1 \text{ kilogram} \approx 2.2 \text{ pounds}\text{.}\)</span>
-</div></article><article class="task exercise-like" id="assorted-1-units-tx-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="assorted-1-units-tx-2-1-1">How many servings are in a 20 ounce package of cookies where a serving size is 3 cookies and each cookie weighs 11 grams? Use <span class="process-math">\(1 \text{ ounce} = 28.3 \text{ grams}\text{.}\)</span>
-</div></article><article class="task exercise-like" id="assorted-1-units-tx-3"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="assorted-1-units-tx-3-1-1">My corner convenience store sells a “thirst quencher” size of soft drink; it holds 64 (fluid) ounces. If a can of soft drink is 12 (fluid) ounces, how many cans are in the “thirst quencher”?</div></article></article><article class="exercise exercise-like" id="assorted-2-units-tx"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
-<article class="task exercise-like" id="assorted-2-units-tx-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="assorted-2-units-tx-1-1-1">The football coach wants everyone to sprint three-quarters of a mile, up and back on the field which is labeled in yards. How many yards are in three-quarters of a mile?</div></article><article class="task exercise-like" id="assorted-2-units-tx-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="assorted-2-units-tx-2-1-1">The quilt pattern calls for 0.375 yards of calico fabric. How many feet is 0.375 yards?</div></article><article class="task exercise-like" id="assorted-2-units-tx-3"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="assorted-2-units-tx-3-1-1">The website said that basil plants should be 0.35 feet tall a month after germinating. How many inches is 0.35 feet?</div></article></article><article class="exercise exercise-like" id="pollution-spill-units-tx"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
-<div class="introduction" id="pollution-spill-units-tx-1"><div class="para" id="pollution-spill-units-tx-1-1">Authorities are tracking down the source of a pollution spill on a nearby river. They suspect that the local plant is inadvertently leaking waste water. Last week they found 35 minutes of waste water flow on Monday, 1 hour and 11 minutes on Tuesday, 1/4 hour on Wednesday (that’s 0.25 hours in decimal), none on Thursday, and then 98 minutes Friday.</div></div>
-<article class="task exercise-like" id="pollution-spill-units-tx-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="pollution-spill-units-tx-2-1-1">Convert units as needed to complete the following table showing each time in minutes, each time in hours, and each time in hours and minutes (H:MM format).</div> <div class="para" id="pollution-spill-units-tx-2-1-2"><em class="emphasis">Hint: 15 minutes in H:MM format would be 0:15</em></div> <div class="tabular-box natural-width"><table class="tabular">
+<article class="task exercise-like" id="phelps-units-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="phelps-units-2-1-1">Convert Phelps’s time into minutes.</div></article><article class="task exercise-like" id="phelps-units-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="phelps-units-3-1-1">How fast did Phelps swim, as measured in meters/min?</div></article><article class="task exercise-like" id="phelps-units-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="phelps-units-4-1-1">Convert Phelps’s speed to mph. Use <span class="process-math">\(1 \text{ mile} \approx {1,609} \text{ meters}\text{.}\)</span>
+</div></article></article><article class="exercise exercise-like" id="lochte-units"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="introduction" id="lochte-units-1"><div class="para" id="lochte-units-1-1">In August 2012, Phelps improved his time and won Olympic gold, but failed to break the world record his teammate Ryan Lochte has set a year earlier of 1 minute, 54 seconds.</div></div>
+<article class="task exercise-like" id="lochte-units-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="lochte-units-2-1-1">Convert Lochte’s time into minutes.</div></article><article class="task exercise-like" id="lochte-units-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="lochte-units-3-1-1">How fast did Lochte swim, as measured in meters/min?</div></article><article class="task exercise-like" id="lochte-units-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="lochte-units-4-1-1">Convert Lochte’s speed to mph.</div></article></article><article class="exercise exercise-like" id="assorted-1-units"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="assorted-1-units-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="assorted-1-units-1-1-1">The typical weight limit for a suitcase on flights within Africa is 20 kg. How many pounds is that? Use <span class="process-math">\(1 \text{ kilogram} \approx 2.2 \text{ pounds}\text{.}\)</span>
+</div></article><article class="task exercise-like" id="assorted-1-units-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="assorted-1-units-2-1-1">How many servings are in a 20 ounce package of cookies where a serving size is 3 cookies and each cookie weighs 11 grams? Use <span class="process-math">\(1 \text{ ounce} = 28.3 \text{ grams}\text{.}\)</span>
+</div></article><article class="task exercise-like" id="assorted-1-units-3"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="assorted-1-units-3-1-1">My corner convenience store sells a “thirst quencher” size of soft drink; it holds 64 (fluid) ounces. If a can of soft drink is 12 (fluid) ounces, how many cans are in the “thirst quencher”?</div></article></article><article class="exercise exercise-like" id="assorted-2-units"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="assorted-2-units-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="assorted-2-units-1-1-1">The football coach wants everyone to sprint three-quarters of a mile, up and back on the field which is labeled in yards. How many yards are in three-quarters of a mile?</div></article><article class="task exercise-like" id="assorted-2-units-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="assorted-2-units-2-1-1">The quilt pattern calls for 0.375 yards of calico fabric. How many feet is 0.375 yards?</div></article><article class="task exercise-like" id="assorted-2-units-3"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="assorted-2-units-3-1-1">The website said that basil plants should be 0.35 feet tall a month after germinating. How many inches is 0.35 feet?</div></article></article><article class="exercise exercise-like" id="pollution-spill-units"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="introduction" id="pollution-spill-units-1"><div class="para" id="pollution-spill-units-1-1">Authorities are tracking down the source of a pollution spill on a nearby river. They suspect that the local plant is inadvertently leaking waste water. Last week they found 35 minutes of waste water flow on Monday, 1 hour and 11 minutes on Tuesday, 1/4 hour on Wednesday (that’s 0.25 hours in decimal), none on Thursday, and then 98 minutes Friday.</div></div>
+<article class="task exercise-like" id="pollution-spill-units-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="pollution-spill-units-2-1-1">Convert units as needed to complete the following table showing each time in minutes, each time in hours, and each time in hours and minutes (H:MM format).</div> <div class="para" id="pollution-spill-units-2-1-2"><em class="emphasis">Hint: 15 minutes in H:MM format would be 0:15</em></div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b1 r1 l1 t1 lines">Day</td>
 <td class="c m b1 r1 l0 t1 lines">Mon</td>
@@ -495,7 +689,7 @@ window.MathJax = {
 <td class="l m b1 r1 l1 t0 lines">Hours</td>
 <td class="c m b1 r1 l0 t0 lines"> </td>
 <td class="c m b1 r1 l0 t0 lines"> </td>
-<td class="c m b1 r1 l0 t0 lines">.25</td>
+<td class="c m b1 r1 l0 t0 lines">0.25</td>
 <td class="c m b1 r1 l0 t0 lines"> </td>
 <td class="c m b1 r1 l0 t0 lines"> </td>
 </tr>
@@ -507,14 +701,14 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
-</table></div></article><article class="task exercise-like" id="pollution-spill-units-tx-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="pollution-spill-units-tx-3-1-1">Calculate the total waste water flow measured last week.</div></article></article><article class="exercise exercise-like" id="heart-beats-units-tx"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
-<div class="para" id="heart-beats-units-tx-1-1">If your heart beats around 70 times a minute, how many times does it beat in a week? A year?</div></article><article class="exercise exercise-like" id="assorted-3-units-tx"><h4 class="heading"><span class="codenumber">11<span class="period">.</span></span></h4>
-<article class="task exercise-like" id="assorted-3-units-tx-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="assorted-3-units-tx-1-1-1">Harold’s Physics textbook says an object is thrown into the air at 36 feet per second. To understand how fast that is, convert to mph.</div></article><article class="task exercise-like" id="assorted-3-units-tx-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="assorted-3-units-tx-2-1-1">Harold’s History textbook mentions that in 1800 the city encompassed about 6,000 acres. How many square miles is that? Use <span class="process-math">\(1 \text{ square mile} = 640 \text{ acres}\text{.}\)</span>
-</div></article><article class="task exercise-like" id="assorted-3-units-tx-3"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="assorted-3-units-tx-3-1-1">Harold’s Economics textbooks lists the recent high price of crude oil at $100 per barrel. He’d like to know what that means in $/gallon of gasoline. It turns out that 1 barrel of crude oil produces about 19.4 gallons of gasoline.</div></article></article></section></section></div>
+</table></div></article><article class="task exercise-like" id="pollution-spill-units-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="pollution-spill-units-3-1-1">Calculate the total waste water flow measured last week.</div></article></article><article class="exercise exercise-like" id="heart-beats-units"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<div class="para" id="heart-beats-units-1-1">If your heart beats around 70 times a minute, how many times does it beat in a week? A year?</div></article><article class="exercise exercise-like" id="assorted-3-units"><h4 class="heading"><span class="codenumber">11<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="assorted-3-units-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="assorted-3-units-1-1-1">Harold’s Physics textbook says an object is thrown into the air at 36 feet per second. To understand how fast that is, convert to mph.</div></article><article class="task exercise-like" id="assorted-3-units-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="assorted-3-units-2-1-1">Harold’s History textbook mentions that in 1800 the city encompassed about 6,000 acres. How many square miles is that? Use <span class="process-math">\(1 \text{ square mile} = 640 \text{ acres}\text{.}\)</span>
+</div></article><article class="task exercise-like" id="assorted-3-units-3"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="assorted-3-units-3-1-1">Harold’s Economics textbooks lists the recent high price of crude oil at $100 per barrel. He’d like to know what that means in $/gallon of gasoline. It turns out that 1 barrel of crude oil produces about 19.4 gallons of gasoline.</div></article></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-Rate_of_change.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-Metric_system_and_scientific_notation.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

@@ -115,6 +115,7 @@ window.MathJax = {
 \newcommand{\amp}{&amp;}
 \definecolor{fillinmathshade}{gray}{0.9}
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
 \)</span></div>
 <div class="ptx-page">
 <div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
@@ -168,44 +169,237 @@ window.MathJax = {
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-tx-Equations.html" class="internal"><span class="codenumber">2</span> <span class="title">Equations</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-First_look_linear.html#dyk-first-look-linear" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Do you know...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_linear.html#ex-First_look_linear" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-First_look_exponential.html#dyk-first-look-exponential" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Do you know...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_exponential.html#ex-First_look_exponentialEX" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Using_equations.html#dyk-using-equations" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Using_equations.html#ex-Using_equations" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Approx_solutions.html#dyk-approx-solutions" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approx_solutions.html#ex-Approx_solutions" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Finance.html#dyk-finance" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Finance.html#ex-Finance" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-tx-Solving_equations.html" class="internal"><span class="codenumber">3</span> <span class="title">Solving equations</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html#dyk-solving-linear" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html#ex-Solving_linear_equations" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html#dyk-solving-linear-ineq" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html#ex-Solving_linear_inequalitiesEX" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_power_equations.html#dyk-solving-power" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_power_equations.html#ex-Solving_power_equations" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html#dyk-solving-exponential" class="internal"><span class="codenumber">3.4.1</span> <span class="title">dyk-solving-exponential</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html#ex-Solving_exponential_equations" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html#dyk-solving-quadratic" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html#ex-Solving_quadratic_equations" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-tx-Closer_look_linear.html" class="internal"><span class="codenumber">4</span> <span class="title">A closer look at linear equations</span></a></div>
 <ul class="structural toc-item-list contains-active">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div></li>
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html#dyk-modeling-linear" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html#ex-Modeling_linear_equations" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html#dyk-systems-linear" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html#ex-Systems_linear_equations" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="sec-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Intercepts.html#dyk-intercepts" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Intercepts.html#ex-Intercepts" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Slopes.html#dyk-slopes" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Slopes.html#ex-Slopes" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html#dyk-fitting-lines" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html#ex-Fitting_lines_to_data" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-tx-Closer_look_exponential.html" class="internal"><span class="codenumber">5</span> <span class="title">A closer look at exponential functions</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html#dyk-modeling-exponential" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html#ex-Modeling_exponential_equations" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html#dyk-growth-decay" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html#ex-Exp_growth_decay" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Growth_factor.html#dyk-growth-factor" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Growth_factor.html#ex-Growth_factor" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html#dyk-linear-exponential" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html#ex-Linear_vs_exponential" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Logistic_growth.html#dyk-logistic-growth" class="internal"><span class="codenumber">5.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logistic_growth.html#ex-Logistic_growth" class="internal"><span class="codenumber">5.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="ch-tx-Prelude.html" class="internal"><span class="codenumber">A</span> <span class="title">Prelude</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approximation_and_rounding.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Prelude: Approximation and Rounding</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Approximation_and_rounding.html#dyk-approximation-rounding" class="internal"><span class="codenumber">A.1.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approximation_and_rounding.html#ex-Approximation_and_rounding" class="internal"><span class="codenumber">A.1.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Arithmetic_operations.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Prelude: Arithmetic Operations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Arithmetic_operations.html#dyk-arithmetic-operations" class="internal"><span class="codenumber">A.2.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Arithmetic_operations.html#ex-Arithmetic_operations" class="internal"><span class="codenumber">A.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Percentages.html" class="internal"><span class="codenumber">A.3</span> <span class="title">Prelude: Percentages</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Percentages.html#dyk-percentages" class="internal"><span class="codenumber">A.3.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Percentages.html#ex-Percentages" class="internal"><span class="codenumber">A.3.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Order_of_operations.html" class="internal"><span class="codenumber">A.4</span> <span class="title">Prelude: Order of Operations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Order_of_operations.html#dyk-order-operations" class="internal"><span class="codenumber">A.4.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Order_of_operations.html#ex-Order_of_operations" class="internal"><span class="codenumber">A.4.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fractions.html" class="internal"><span class="codenumber">A.5</span> <span class="title">Prelude: Fractions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Fractions.html#dyk-fractions" class="internal"><span class="codenumber">A.5.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fractions.html#ex-Fractions" class="internal"><span class="codenumber">A.5.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Powers_and_roots.html" class="internal"><span class="codenumber">A.6</span> <span class="title">Prelude: Powers and Roots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Powers_and_roots.html#dyk-powers-roots" class="internal"><span class="codenumber">A.6.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Powers_and_roots.html#ex-Powers_and_roots" class="internal"><span class="codenumber">A.6.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Algebraic_notation.html" class="internal"><span class="codenumber">A.7</span> <span class="title">Prelude: Algebraic Notation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Algebraic_notation.html#dyk-algebraic-notation" class="internal"><span class="codenumber">A.7.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Algebraic_notation.html#ex-Algebraic-notation" class="internal"><span class="codenumber">A.7.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Scientific_notation.html" class="internal"><span class="codenumber">A.8</span> <span class="title">Prelude: Scientific Notation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Scientific_notation.html#dyk-prelude-scientific-notation" class="internal"><span class="codenumber">A.8.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Scientific_notation.html#ex-Scientific_notation" class="internal"><span class="codenumber">A.8.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logarithms.html" class="internal"><span class="codenumber">A.9</span> <span class="title">Prelude: Logarithms</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Logarithms.html#dyk-logarithms" class="internal"><span class="codenumber">A.9.1</span> <span class="title">Do you know ...</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logarithms.html#ex-Logarithms" class="internal"><span class="codenumber">A.9.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Intercepts"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">4.3</span><span class="space"> </span><span class="title">Intercepts and direct proportionality</span>
@@ -289,13 +483,7 @@ T = 6 + 8.5 \ast 2.8 = 6 + 8.5 \times \underline{2.8} = 29.8 \approx 30 \text{ m
 <div class="para" id="sec-Intercepts-11">Compare the graphs. Each intercept shows where that line meets the vertical axis. Kaleb’s crosses at 6 minutes, but Muna’s crosses at 0 minutes, at the origin (where the two axes cross).</div>
 <div class="para" id="sec-Intercepts-12"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/runtimes.png" class="contained"></div></div>
 <div class="para" id="sec-Intercepts-13">By the way, Muna’s equation <span class="process-math">\(T = 7D\)</span> is a <dfn class="terminology">direct proportionality</dfn> because the only thing happening is that the independent variable is being scaled by a <dfn class="terminology">proportionality constant</dfn>, <span class="process-math">\(k=7\text{.}\)</span> Any direct proportionality fits this template.</div>
-<article class="definition definition-like" id="def-direct-prop-template"><h3 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.3.1</span><span class="period">.</span><span class="space"> </span><span class="title">Direct proportionality template.</span>
-</h3> <div class="displaymath process-math">
-\begin{equation*}
-\text{dep} = k \ast \text{indep}
-\end{equation*}
-</div></article><div class="para logical" id="sec-Intercepts-15">
+<article class="assemblage assemblage-like" id="direct-prop-template"><h3 class="heading"><span class="title">Direct proportionality template.</span></h3></article><div class="para logical" id="sec-Intercepts-15">
 <div class="para">To understand the proportionality, recall that Muna can run 2.8 miles in 19.6 minutes. What happens if she goes for a run twice as long? Then she would be running <span class="process-math">\(2 \times 2.8 = 5.6\)</span> miles. Her time would be</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -312,7 +500,134 @@ T = 6+8.5 \ast 5.6 = 6+ 8.5 \times \underline{5.6} = 53.6 \text{ minutes}
 \end{equation*}
 </div>
 <div class="para">which is not quite twice the time, since <span class="process-math">\(2 \times 29.8 = 59.6 \text{ minutes}\text{.}\)</span> The key is that Kaleb does not stretch twice, only once, for the longer run so double the distance does not count the 6 minutes again. Kaleb’s equation is not a direct proportionality. Another way to say that is that Kaleb’s time is not proportional to how far he runs. It is a function of how far he runs, yes, but not proportionally so.</div>
-</div></section></div>
+</div>
+<section class="subsection" id="dyk-intercepts"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.3.1</span><span class="space"> </span><span class="title">Do you know ...</span>
+</h3>
+<div class="para logical" id="dyk-intercepts-2"><ul class="disc" id="dyk-intercepts-2-1">
+<li id="dyk-intercepts-2-1-1"><div class="para" id="dyk-intercepts-2-1-1-1">What the intercept of a linear function means in the story and what it tells us about the graph?</div></li>
+<li id="dyk-intercepts-2-1-2"><div class="para" id="dyk-intercepts-2-1-2-1">How to calculate the intercept given the slope and an example (another point on the graph)?</div></li>
+<li id="dyk-intercepts-2-1-3"><div class="para" id="dyk-intercepts-2-1-3-1">Why an intercept might not make sense, for example if it’s outside the domain of the function?</div></li>
+<li id="dyk-intercepts-2-1-4"><div class="para" id="dyk-intercepts-2-1-4-1">When a linear function is a direct proportion?</div></li>
+<li id="dyk-intercepts-2-1-5"><div class="para" id="dyk-intercepts-2-1-5-1">Why you cannot reason proportionally if the linear function is not a direct proportion?</div></li>
+<li id="dyk-intercepts-2-1-6"><div class="para" id="dyk-intercepts-2-1-6-1">What the graph of a direct proportion looks like?</div></li>
+</ul></div></section><section class="exercises" id="ex-Intercepts"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">4.3.2</span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<section class="introduction" id="ex-Intercepts-2"><div class="para" id="ex-Intercepts-2-1">Workbook exercises</div></section><article class="exercise exercise-like" id="temperature-intercepts"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="introduction" id="temperature-intercepts-1"><div class="para" id="temperature-intercepts-1-1">In each of the following stories, the temperature changes over time. It might be confusing to call either variable <span class="process-math">\(T\text{,}\)</span> so use <span class="process-math">\(H\)</span> for the time in hours and <span class="process-math">\(D\)</span> for the temperature in degrees (°F). In each case, time should be measured from the start of the story.</div></div>
+<article class="task exercise-like" id="temperature-intercepts-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="introduction" id="temperature-intercepts-2-1"><div class="para" id="temperature-intercepts-2-1-1">It was really cold at 8:30 this morning when Raina arrived at the office. Luckily the heating system warms things up very quickly, 4°F per hour. By 11:00 a.m. it was a very comfortable 72°F.</div></div>
+<article class="task exercise-like" id="temperature-intercepts-2-2"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<div class="para" id="temperature-intercepts-2-2-1-1">Figure out what the temperature was at 8:30 a.m.</div></article><article class="task exercise-like" id="temperature-intercepts-2-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="temperature-intercepts-2-3-1-1">Write an equation illustrating the function.</div></article></article><article class="task exercise-like" id="temperature-intercepts-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="introduction" id="temperature-intercepts-3-1"><div class="para" id="temperature-intercepts-3-1-1">While 72°F is a perfectly good temperature for an office, not so for ballroom dancing. When Raina arrived for her practice at 5:30 that evening, she began to sweat before she even took the floor. Turns out the air conditioner had been running since 4:00 p.m. but it only cools down the room 3°F per hour.</div></div>
+<article class="task exercise-like" id="temperature-intercepts-3-2"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<div class="para" id="temperature-intercepts-3-2-1-1">Figure out what the temperature was at 4:00 p.m.</div></article><article class="task exercise-like" id="temperature-intercepts-3-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="temperature-intercepts-3-3-1-1">Write an equation illustrating the function.</div></article></article></article><article class="exercise exercise-like" id="design-business-intercepts"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="introduction" id="design-business-intercepts-1"><div class="para" id="design-business-intercepts-1-1">Maryn is very happy. Her interior design business is finally showing a profit. She has logged a total of 471 billable hours at $35 per hour since she started her business. Accounting for start up costs, her net profit now totals $2,194.</div></div>
+<article class="task exercise-like" id="design-business-intercepts-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="design-business-intercepts-2-1-1">How much were Maryn’s start up costs?</div></article><article class="task exercise-like" id="design-business-intercepts-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="design-business-intercepts-3-1-1">Identify the slope and intercept (including their units and sign) and explain what each means in terms of the story.</div></article><article class="task exercise-like" id="design-business-intercepts-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="design-business-intercepts-4-1-1">Calculate what Maryn’s profits will be once she has logged a total of 1,000 hours.</div></article><article class="task exercise-like" id="design-business-intercepts-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="design-business-intercepts-5-1-1">Name the variables and write an equation relating them.</div></article><article class="task exercise-like" id="design-business-intercepts-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="design-business-intercepts-6-1-1">Graph the function.</div> <div class="image-box" style="width: 90%; margin-left: 5%; margin-right: 5%;"><img src="external/GraphPaper.jpg" class="contained"></div></article></article><article class="exercise exercise-like" id="weight-change-intercepts"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="weight-change-intercepts-1"><div class="para" id="weight-change-intercepts-1-1">For each story, find the initial weight of the person and use it to write an equation showing how the person’s weight <span class="process-math">\(W\)</span> pounds depends on the time, <span class="process-math">\(T\)</span> weeks. <em class="emphasis">(Stories also appear in <a href="sec-Order_of_operations.html#weight-change-order-operations" class="xref" data-knowl="./knowl/xref/weight-change-order-operations.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise A.4.2.3">A.4.2.3</a> and <a href="sec-Algebraic_notation.html#weight-change-algebraic-notation" class="xref" data-knowl="./knowl/xref/weight-change-algebraic-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise A.7.2.1">A.7.2.1</a>)</em>
+</div></div>
+<article class="task exercise-like" id="weight-change-intercepts-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="weight-change-intercepts-2-1-1">Jerome has gained weight since he took his power training to the next level ten weeks ago, at the rate of around 1 pound a week. He now weighs 198 pounds.</div></article><article class="task exercise-like" id="weight-change-intercepts-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="weight-change-intercepts-3-1-1">Vanessa’s doctor put her on a sensible diet and exercise plan to get her back to a healthy weight. She will need to lose an average of 1.25 pounds a week to reach her goal weight of 148 pounds in a year. Use 1 year = 52 weeks.</div></article><article class="task exercise-like" id="weight-change-intercepts-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="weight-change-intercepts-4-1-1">After the past 6 weeks of terrible migrane headaches, Carlos is down to 158 pounds. He has lost 4 pounds a week.</div></article><article class="task exercise-like" id="weight-change-intercepts-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="weight-change-intercepts-5-1-1">Since she has been pregnant, Zoe has gained the recommended <span class="process-math">\(\sfrac{1}{2}\)</span> pound per week. Now 30 weeks pregnant and 168 pounds, she wonders if she will ever see her feet again.</div></article></article><article class="exercise exercise-like" id="proportional-intercepts"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="proportional-intercepts-1"><div class="para" id="proportional-intercepts-1-1">Each story describes a situation that we are assuming is linear. Decide whether it is <dfn class="terminology">proportional</dfn>, meaning the intercept equals zero. If it is proportional, explain why the intercept would be zero. If it is not proportional, explain what the intercept would mean in the story.</div></div>
+<article class="task exercise-like" id="proportional-intercepts-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="proportional-intercepts-2-1-1">The price of <dfn class="terminology">kiwis</dfn> (a kind of fruit) depends on how many kiwis you buy.</div></article><article class="task exercise-like" id="proportional-intercepts-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="proportional-intercepts-3-1-1">The price of a bag of tortillas depends on how many tortillas are in the bag.</div></article><article class="task exercise-like" id="proportional-intercepts-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="proportional-intercepts-4-1-1">The time it takes to vacuum a rug depends on the area of the rug.</div></article><article class="task exercise-like" id="proportional-intercepts-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="proportional-intercepts-5-1-1">The time it takes to wash dishes depends on how many dirty dishes there are.</div></article><article class="task exercise-like" id="proportional-intercepts-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="proportional-intercepts-6-1-1">The amount of laundry detergent I have left depends on how many loads of laundry I did.</div></article></article><div class="para interlude" id="ex-Intercepts-7-1">Textbook exercises</div>
+<article class="exercise exercise-like" id="runners-warmup-intercepts"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="introduction" id="runners-warmup-intercepts-1">
+<div class="para" id="runners-warmup-intercepts-1-1">Different runners run at different paces. And take a different amount of extra time to warm-up and/or cool down. The table lists six runners, their training time to run a 5K (rounded to the nearest minute), and their pace (in minutes per mile).</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">Name</td>
+<td class="c m b1 r1 l0 t1 lines">Yannick</td>
+<td class="c m b1 r1 l0 t1 lines">Olga</td>
+<td class="c m b1 r1 l0 t1 lines">Aziz</td>
+<td class="c m b1 r1 l0 t1 lines">Hitomi</td>
+<td class="c m b1 r1 l0 t1 lines">Galen</td>
+<td class="c m b1 r1 l0 t1 lines">Fiona</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Pace</td>
+<td class="c m b1 r1 l0 t0 lines">8.2</td>
+<td class="c m b1 r1 l0 t0 lines">8.6</td>
+<td class="c m b1 r1 l0 t0 lines">9.5</td>
+<td class="c m b1 r1 l0 t0 lines">10</td>
+<td class="c m b1 r1 l0 t0 lines">10</td>
+<td class="c m b1 r1 l0 t0 lines">11.2</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">5K time</td>
+<td class="c m b1 r1 l0 t0 lines">32</td>
+<td class="c m b1 r1 l0 t0 lines">35</td>
+<td class="c m b1 r1 l0 t0 lines">33</td>
+<td class="c m b1 r1 l0 t0 lines">36</td>
+<td class="c m b1 r1 l0 t0 lines">31</td>
+<td class="c m b1 r1 l0 t0 lines">44</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">extra time</td>
+<td class="c m b1 r1 l0 t0 lines">?</td>
+<td class="c m b1 r1 l0 t0 lines">?</td>
+<td class="c m b1 r1 l0 t0 lines">?</td>
+<td class="c m b1 r1 l0 t0 lines">?</td>
+<td class="c m b1 r1 l0 t0 lines">?</td>
+<td class="c m b1 r1 l0 t0 lines">?</td>
+</tr>
+</table></div>
+</div>
+<article class="task exercise-like" id="runners-warmup-intercepts-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="runners-warmup-intercepts-2-1-1">We are interested in each runner’s extra time, but first convert 5K, which is short for 5 kilometers, to miles using <span class="process-math">\(1 \text{ mile} \approx 1.609 \text{ kilometers}\text{.}\)</span>
+</div></article><article class="task exercise-like" id="runners-warmup-intercepts-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="runners-warmup-intercepts-3-1-1">Now, determine the extra (warm up/cool down) time for each runner and list your answer in the table. Report your answer to the nearest minute.</div></article><article class="task exercise-like" id="runners-warmup-intercepts-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="runners-warmup-intercepts-4-1-1">List the runners in order from least to most warm up/cool down time.</div></article></article><article class="exercise exercise-like" id="snowfall-intercept"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="introduction" id="snowfall-intercept-1"><div class="para" id="snowfall-intercept-1-1">At 10:00 a.m. we’ve got snowy skies and 4 inches of new snow on the ground. It’s coming down fast out there at of an inch per hour.</div></div>
+<article class="task exercise-like" id="snowfall-intercept-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="snowfall-intercept-2-1-1">Name the variables, measuring time in hours since 10:00 a.m.</div></article><article class="task exercise-like" id="snowfall-intercept-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="snowfall-intercept-3-1-1">Write an equation illustrating the dependence.</div></article><article class="task exercise-like" id="snowfall-intercept-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="snowfall-intercept-4-1-1">When did the snowstorm start?</div></article><article class="task exercise-like" id="snowfall-intercept-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="snowfall-intercept-5-1-1">Name a new variable for time measured this time in hours since the snowstorm started.</div></article><article class="task exercise-like" id="snowfall-intercept-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="snowfall-intercept-6-1-1">Write an equation illustrating the dependence using this new variable instead.</div></article><article class="task exercise-like" id="snowfall-intercept-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="snowfall-intercept-7-1-1">Check that this equation confirms 4 inches of new snow at 10:00 a.m.</div></article><article class="task exercise-like" id="snowfall-intercept-8"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<div class="para" id="snowfall-intercept-8-1-1">Explain why the two equations have different intercepts.</div></article></article><article class="exercise exercise-like" id="beach-erosion-intercepts"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="introduction" id="beach-erosion-intercepts-1">
+<div class="para" id="beach-erosion-intercepts-1-1">The public beach near Paloma’s house has lost about 3’9" feet a year of beach depth (measured from the dunes to the high water mark) due to erosion since they started keeping records 60 years ago. Currently it’s 210 feet deep.</div> <div class="para" id="beach-erosion-intercepts-1-2"><em class="emphasis">Story also appears in <a href="sec-Rate_of_change.html#beach-erosion-rate-of-change" class="xref" data-knowl="./knowl/xref/beach-erosion-rate-of-change.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.3.2.10">1.3.2.10</a></em></div>
+</div>
+<article class="task exercise-like" id="beach-erosion-intercepts-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="beach-erosion-intercepts-2-1-1">The county is considering filling in sand to offset the erosion, back to the historical mark (60 years ago). How deep was it then? Notice that you need to convert 3’9" to (decimal) feet first.</div></article><article class="task exercise-like" id="beach-erosion-intercepts-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="beach-erosion-intercepts-3-1-1">Name the variables and write an equation relating them, assuming the county does not fill in the beach now. Measure time from 60 years ago.</div></article><article class="task exercise-like" id="beach-erosion-intercepts-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="beach-erosion-intercepts-4-1-1">The country agrees to start filling in sand when the depth drops below 180 feet. How many (more) years will that take to happen? First estimate the answer using successive approximation. Then set up and solve an inequality to find the answer.</div></article><article class="task exercise-like" id="beach-erosion-intercepts-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="beach-erosion-intercepts-5-1-1">Draw a graph showing the sand erosion over the past 60 years and including the next 20 years, assuming the county does not do any filling.</div></article><article class="task exercise-like" id="beach-erosion-intercepts-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="beach-erosion-intercepts-6-1-1">Identify the slope and intercept and explain their meaning in the story.</div></article></article><article class="exercise exercise-like" id="brick-weight-intercepts"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="introduction" id="brick-weight-intercepts-1"><div class="para" id="brick-weight-intercepts-1-1">Clyde is loading bricks weighing 4.5 pounds each onto his wheelbarrow. The wheelbarrow weighs 89 pounds when it has 16 bricks in it. (That weight includes both the bricks and the wheelbarrow itself.)</div></div>
+<article class="task exercise-like" id="brick-weight-intercepts-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="brick-weight-intercepts-2-1-1">How much would Clyde’s wheelbarrow weigh if it were empty?</div></article><article class="task exercise-like" id="brick-weight-intercepts-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="brick-weight-intercepts-3-1-1">Name the variables and write an equation relating them.</div></article><article class="task exercise-like" id="brick-weight-intercepts-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="brick-weight-intercepts-4-1-1">How much (total) will the wheelbarrow weigh if he loads a total of 30 bricks?</div></article><article class="task exercise-like" id="brick-weight-intercepts-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="brick-weight-intercepts-5-1-1">Clyde continues loading bricks until the wheelbarrow full of bricks weighs 206 pounds. How many bricks are in it?</div></article><article class="task exercise-like" id="brick-weight-intercepts-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="brick-weight-intercepts-6-1-1">Graph and check.</div></article></article><article class="exercise exercise-like" id="bus-passes-intercepts"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="introduction" id="bus-passes-intercepts-1"><div class="para" id="bus-passes-intercepts-1-1">The city offers bus “convenience” passes - 20 rides for $12.95 or 80 rides for $51.80.</div></div>
+<article class="task exercise-like" id="bus-passes-intercepts-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="bus-passes-intercepts-2-1-1">Calculate the rate of change.</div></article><article class="task exercise-like" id="bus-passes-intercepts-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="bus-passes-intercepts-3-1-1">Is there a convenience charge?</div></article><article class="task exercise-like" id="bus-passes-intercepts-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="bus-passes-intercepts-4-1-1">What is the name for this type of function?</div></article></article><article class="exercise exercise-like" id="cookies-intercepts"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<div class="introduction" id="cookies-intercepts-1"><div class="para" id="cookies-intercepts-1-1">To make cookies it takes a few minutes to prepare the dough. After that it takes 12 minutes per batch to bake in the oven. Last time I made 3 batches of cookies and it took a total of 54 minutes.</div></div>
+<article class="task exercise-like" id="cookies-intercepts-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="cookies-intercepts-2-1-1">How long does it take me to prepare the dough?</div></article><article class="task exercise-like" id="cookies-intercepts-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="cookies-intercepts-3-1-1">How long would it take me to make 10 batches of cookies for the cookie swap? Assume the time to prepare the dough remains the same and only one batch bakes in the oven at a time.</div></article><article class="task exercise-like" id="cookies-intercepts-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="cookies-intercepts-4-1-1">Name the variables and write an equation describing the function.</div></article><article class="task exercise-like" id="cookies-intercepts-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="cookies-intercepts-5-1-1">Identify the slope and intercept and explain their meaning in the story.</div></article></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-Systems_linear_equations.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-Slopes.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
