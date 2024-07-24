@@ -180,4 +180,56 @@
 	<p>
 		She solved an equation here, but Quia Xun really wanted to know when <me>\text{Machine #1} \ge \text{Machine #2}</me> so she could have solved the inequality <me>3,200 + 1.25L \ge 5,400 + 0.80L</me> instead. Check that the same steps give <me>L \ge 4,889 \text{ locks}</me>.
 	</p>
+
+	<subsection xml:id="dyk-systems-linear">
+		<title>Do you know ...</title>
+		
+		<p><ul>
+			<li>
+				<p>
+					How to compare two linear functions using a table?
+				</p>
+			</li>
+
+			<li>
+				<p>
+					How to graph two linear functions on the same axes?
+				</p>
+			</li>
+
+			<li>
+				<p>
+					What the solution of a linear system means in terms of the story?
+				</p>
+			</li>
+
+			<li>
+				<p>
+					Where to look on a graph to see the solution of a linear system?
+				</p>
+			</li>
+
+			<li>
+				<p>
+					How to successively approximate the solution of a linear system?
+				</p>
+			</li>
+
+			<li>
+				<p>
+					How to solve a linear system?
+				</p>
+			</li>
+
+			<li>
+				<p>
+					When to use inequality instead of an equation for a linear system?
+				</p>
+			</li>
+
+		</ul></p>
+		
+	</subsection>
+
+	<xi:include href="./homework/ex-Systems_linear_equations.ptx" />
 </section>

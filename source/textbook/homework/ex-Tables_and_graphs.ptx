@@ -362,7 +362,7 @@
 
 	<xi:include href="tbx-header.ptx" />
 
-	<exercise xml:id="earth-population-tables-graphs-tx">
+	<exercise xml:id="earth-population-tables-graphs">
 		<introduction>
 			<p>
 				The table lists estimates of Earth's population, in billions, for select years since 1800.
@@ -457,7 +457,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="truck-rental-tables-graphs-tx">
+	<exercise xml:id="truck-rental-tables-graphs">
 		<introduction>
 			<p>
 				Your local truck rental agency lists what it costs to rent a truck (for one day) based on the number of miles you drive the truck.
@@ -555,7 +555,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="temp-mpls-tables-graphs-tx">
+	<exercise xml:id="temp-mpls-tables-graphs">
 		<introduction>
 			<p>
 				The temperature was 40<m>^\circ</m>F at noon yesterday downtown Minneapolis but it dropped 3<m>^\circ</m>F an hour in the afternoon. <em>Story also appears in 1.1 and 4.1 Exercises</em>
@@ -594,7 +594,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="social-security-tables-graphs-tx">
+	<exercise xml:id="social-security-tables-graphs">
 		<introduction>
 			<p>
 				Mrs. Nystrom's Social Security benefit was $746.17/month when she retired from teaching in 2009. She had taught in elementary school since I was a girl. Benefits have increased by 4% per year. <em>Story also appears in 1.1 and 5.1 Exercises</em>

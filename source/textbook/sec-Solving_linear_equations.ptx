@@ -164,6 +164,43 @@
 	</p>
 
 
+	<subsection xml:id="dyk-solving-linear">
+		<title>Do you know ...</title>
+		<p><ul>
+			<li>
+				<p>
+					When you solve an equation, as opposed to just evaluating?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					Why we <q>do the same thing to each side</q> of an equation when solving?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					How to solve a linear equation?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					The advantages and disadvantages of solving versus successive approximation?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					How to check that a solution is correct using the equation?
+				</p>
+			</li>
+	
+		</ul></p>
+		
+	</subsection>
 
+	<xi:include href="./homework/ex-Solving_linear_equations.ptx" />
 
 </section>

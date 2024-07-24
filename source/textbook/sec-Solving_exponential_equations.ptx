@@ -231,7 +231,51 @@
 		log(number) <m>\approx</m> power of 10 in the scientific notation for that number.
 	</p>
 
+	<subsection xml:id="dyk-solving-exponential">
+		<title>dyk-solving-exponential</title>
 
+		<p><ul>
+			<li>
+				<p>
+					What <q>log</q> means?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					The connection is between logs and scientific notation?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					How to evaluate logs on your calculator?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					How to evaluate the <xref ref="log-divides-formula" text="title"/> using your calcuator?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					When to use the <xref ref="log-divides-formula" text="title"/>? <em>Ask your instructor if you need to remember the <xref ref="log-divides-formula" text="title"/> or if it will be provided during the exam.</em>
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					How to solve an exponential equation?
+				</p>
+			</li>
+	
+		</ul></p>
+		
+	</subsection>
+
+	<xi:include href="./homework/ex-Solving_exponential_equations.ptx" />
 
 
 </section>

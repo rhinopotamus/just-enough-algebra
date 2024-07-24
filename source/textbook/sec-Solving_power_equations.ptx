@@ -166,7 +166,57 @@
 		</p>
 	</assemblage>
 
+	<subsection xml:id="dyk-solving-power">
+		<title>Do you know ...</title>
 
+		<p><ul>
+			<li>
+				<p>
+					What a <q>power</q> equation is?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					What we mean by square root, cube root, and <m>n</m>th root?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					How to calculate square roots, cube roots, and <m>n</m>th roots on your calculator?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					How to evaluate the <xref ref="root-formula" text="title"/> on your calculator?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					When to use the <xref ref="root-formula" text="title"/>? <em>Ask your instructor if you need to remember the <xref ref="root-formula" text="title"/> or it will be provided during the exam.</em>
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					How to solve a power equation?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					What the graph of a power function looks like?
+				</p>
+			</li>
+		
+		</ul></p>
+		
+	</subsection>
+
+	<xi:include href="./homework/ex-Solving_power_equations.ptx" />
 
 
 </section>

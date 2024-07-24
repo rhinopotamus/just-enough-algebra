@@ -140,7 +140,57 @@
 		What's the most boxes you could get credit for? Probably the most they discount is the full $18, which would mean that <m>R=0</m>. That means we want to solve <m>18 -0.8B = 0</m>. Check that we get <m>B = 22.5 \text{ boxes}</m>, which means that 22 boxes would be almost $0 and for 23 boxes, they should pick up for free. We can check that 22 boxes gives <me>R = 18-0.8\ast22=18-0.8 \times \underline{22} = \$0.40</me> and 23 boxes gives <me>R = 18-0.8\ast23=18-0.8 \times \underline{23} = -\$0.40 \implies \text{free}</me> Well, unless they're nice and give us cash back.
 	</p>
 
+	<subsection xml:id="dyk-slopes">
+		<title>Do you know ...</title>
+		
+		<p><ul>
+			<li>
+				<p>
+					Which types of situations are linear?
+				</p>
+			</li>
 
+			<li>
+				<p>
+					What the slope of a linear function means in the story and what it tells us about the graph?
+				</p>
+			</li>
+
+			<li>
+				<p>
+					How to calculate the slope between two points?
+				</p>
+			</li>
+
+			<li>
+				<p>
+					What is means if the slope is negative?
+				</p>
+			</li>
+
+			<li>
+				<p>
+					How to find the equation of a line through two points?
+				</p>
+			</li>
+
+			<li>
+				<p>
+					How to find a linear function given two examples in a story?
+				</p>
+			</li>
+
+			<li>
+				<p>
+					If both the slope and intercept are unknown, which is easier to calculate first?
+				</p>
+			</li>
+
+		</ul></p>
+		
+	</subsection>
+
+	<xi:include href="./homework/ex-Slopes.ptx" />
 
 
 </section>
