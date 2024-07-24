@@ -150,7 +150,7 @@
 			<mrow> \amp = \log (4.424778761\ldots) \div \log (1.067) </mrow>
 			<mrow> \amp = 22.932891 \approx 23  </mrow>
 		</md> 
-		Want to avoid typing in the number 4.424778761…? Depending on your calculator, you might try this instead: <me>10 \div 2.26 = \log(\text{ANS}) \div \log(1.067)= 22.932891</me> where <term>ANS</term> stands for <q>answer</q>.
+		Want to avoid typing in the number 4.424778761...? Depending on your calculator, you might try this instead: <me>10 \div 2.26 = \log(\text{ANS}) \div \log(1.067)= 22.932891</me> where <term>ANS</term> stands for <q>answer</q>.
 	</p>
 
 	<p>

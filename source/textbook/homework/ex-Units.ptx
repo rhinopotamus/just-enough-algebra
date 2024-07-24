@@ -404,7 +404,7 @@
 						<cell right="minor" halign="left">Hours</cell>
 						<cell right="minor" halign="center"> </cell>
 						<cell right="minor" halign="center"> </cell>
-						<cell right="minor" halign="center">.25</cell>
+						<cell right="minor" halign="center">0.25</cell>
 						<cell right="minor" halign="center"> </cell>
 						<cell right="minor" halign="center"> </cell>
 					</row>

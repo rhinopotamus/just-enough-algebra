@@ -35,6 +35,8 @@
 
     <backmatter xml:id="backmatter">
       <title>Appendices</title>
+
+      <xi:include href="./textbook/ch-tx-Prelude.ptx" />
     
       <!-- <xi:include href="./workbook/ch-wb-Prelude.ptx"/> -->
 

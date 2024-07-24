@@ -242,7 +242,7 @@
 		
 	</subsection>
 
-	<xi:include href="./homework/ex-Logistic_growthEX.ptx" />
+	<xi:include href="./homework/ex-Logistic_growth.ptx" />
 
 
 </section>

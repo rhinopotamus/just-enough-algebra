@@ -19,7 +19,7 @@
 		<row left="minor" class="even">
 			<cell right="minor" halign="left"><m>C=</m> value of car ($) <m>\sim</m> dep</cell>
 		</row>
-	</tabular><!--</div attr= class="center">-->
+	</tabular>
 
 	<p>
 		Notice we are measuring the mileage in thousands. The information we are given is
@@ -90,7 +90,7 @@
 			<cell right="minor" halign="left"><term>exponential:</term></cell>
 			<cell right="minor" halign="left"><m>C=  22,500 \ast 0.9875^{10}=  22,500 \times 0.9875 \wedge\underline{10} \approx \$19,841</m></cell>
 		</row>
-	</tabular><!--</div attr= class="center">-->
+	</tabular>
 
 	<p>
 		The lower value, from the exponential equation, seems more reasonable.
@@ -131,12 +131,12 @@
 			<cell right="minor" halign="center">1,818</cell>
 			<cell right="minor" halign="center">969</cell>
 		</row>
-	</tabular><!--</div attr= class="center">-->
+	</tabular>
 
 
 	<p>
 		<image source='carvalue.png'/>
-	</p><!--</div attr= class="center">-->
+	</p>
 
 	<p>
 		There's no way of knowing whether the function is linear or exponential. It is probably not exactly either one. But if we have to pick, the exponential model seems closer to reality.

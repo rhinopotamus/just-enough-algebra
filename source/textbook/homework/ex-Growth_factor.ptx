@@ -504,7 +504,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="find-growth-factor">
+	<exercise xml:id="find-rate-growth-factor">
 		<introduction>
 			<p>
 				For each equation, find the growth rate (percent increase or percent decrease) and state the units. (For example, something might <q>grow 2% per year</q> while something else might <q>drop 7% per hour</q>)

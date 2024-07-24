@@ -22,5 +22,15 @@
 		</p>
 	</introduction>
 
+	<xi:include href="./sec-Approximation_and_rounding.ptx" />
+	<xi:include href="./sec-Arithmetic_operations.ptx" />
+	<xi:include href="./sec-Percentages.ptx" />
+	<xi:include href="./sec-Order_of_operations.ptx" />
+	<xi:include href="./sec-Fractions.ptx" />
+	<xi:include href="./sec-Powers_and_roots.ptx" />
+	<xi:include href="./sec-Algebraic_notation.ptx" />
+	<xi:include href="./sec-Scientific_notation.ptx" />
+	<xi:include href="./sec-Logarithms.ptx" />
+
 	
 </chapter>

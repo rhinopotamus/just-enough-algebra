@@ -32,7 +32,6 @@
 		The bad news is that it's 7:00 a.m. and Joe is still too jittery to sleep. The good news is that we can write the equation. The variables are
 	</p>
 
-!-- div attr= class="center"-->
 	<tabular bottom="minor" top="minor">
 		<row left="minor" class="odd">
 			<cell right="minor" halign="left"><m>J=</m> Joe's caffeine level (mg) <m>\sim</m> dep</cell>
@@ -40,7 +39,7 @@
 		<row left="minor" class="even">
 			<cell right="minor" halign="left"><m>H =</m> time (hours since 2:00 a.m.) <m>\sim</m> indep</cell>
 		</row>
-	</tabular><!--</div attr= class="center">-->
+	</tabular>
 
 	<p>
 		Our equation must be <me>J = 1,000 \ast0.87^H</me> Notice this equation fits our template for an exponential equation. <me>\text{dep }=\text{ start } \ast \text{growth factor}^{\text{indep}}</me>
@@ -54,7 +53,6 @@
 		Back to jittery Joe. Let's summarize what we've found and add a few more times to see when Joe's caffeine level should fall below 300 mg.
 	</p>
 
-!-- div attr= class="center"-->
 	<tabular bottom="minor" top="minor">
 		<row left="minor" class="odd">
 			<cell right="minor" halign="center">time</cell>
@@ -108,7 +106,7 @@
 			<cell right="minor" halign="center">high</cell>
 			<cell right="minor" halign="center">low</cell>
 		</row>
-	</tabular><!--</div attr= class="center">-->
+	</tabular>
 
 	<p>
 		That means Joe should be able to fall asleep by around 11:00 a.m. Exactly when his exam starts. Sorry, Joe.

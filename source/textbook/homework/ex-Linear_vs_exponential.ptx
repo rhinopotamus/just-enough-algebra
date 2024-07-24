@@ -34,15 +34,13 @@
 			</p>
 	
 			<p><ul>
-				<task>
-				<statement>
+				<li>
 						<p>
 							If a quantity changes by a percentage corresponding to growth rate <m>r</m>, then the growth factor is <me>\displaystyle g=1+r</me>
 						</p>
 				</li>
 	
-				<task>
-				<statement>
+				<li>
 						<p>
 							If the growth factor is <m>g</m>, then the growth rate is <me>r = g-1</me> 
 						</p>
