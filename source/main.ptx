@@ -13,6 +13,7 @@
 
     <!-- Include chapters -->
     
+    <xi:include href="./textbook/ch-tx-Prelude.ptx" />
     <xi:include href="./textbook/ch-tx-Variables.ptx" />
     <xi:include href="./textbook/ch-tx-Equations.ptx" />
     <xi:include href="./textbook/ch-tx-Solving_equations.ptx" />
@@ -35,8 +36,6 @@
 
     <backmatter xml:id="backmatter">
       <title>Appendices</title>
-
-      <xi:include href="./textbook/ch-tx-Prelude.ptx" />
     
       <!-- <xi:include href="./workbook/ch-wb-Prelude.ptx"/> -->
 

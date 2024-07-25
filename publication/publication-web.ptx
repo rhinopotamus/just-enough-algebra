@@ -58,7 +58,7 @@
     <footnotes level="2" />
 
     <!-- start chapter numbering at 0 -->
-    <!-- <divisions chapter-start="0" /> -->
+    <divisions chapter-start="0" />
   </numbering>
 
   <!-- LaTeX specific options: set @print="yes" to get pdf set up   -->
