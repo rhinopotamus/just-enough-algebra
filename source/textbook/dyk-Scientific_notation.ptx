@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<conclusion xml:id="dyk-prelude-scientific-notation" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Do you know ...</title>
+
+    <p><ol marker="A.">
+        <li>
+                <p>
+                    What million, billion, and trillion mean?
+                </p>
+        </li>
+
+        <li>
+                <p>
+                    Why scientific notation is used?
+                </p>
+        </li>
+
+        <li>
+                <p>
+                    The standard format for scientific notation?
+                </p>
+        </li>
+
+        <li>
+                <p>
+                    That a positive exponent corresponds to a big number and a negative exponent corresponds to a tiny number?
+                </p>
+        </li>
+
+        <li>
+                <p>
+                    How to convert from scientific notation to decimal?
+                </p>
+        </li>
+
+        <li>
+                <p>
+                    How your calculator reports numbers in scientific notation, and what (might be) different when you're reporting that number?
+                </p>
+        </li>
+
+    </ol></p>
+    <xi:include href="./NotSure.ptx" />
+</conclusion>

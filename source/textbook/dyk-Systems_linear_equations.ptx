@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<conclusion xml:id="dyk-systems-linear" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Do you know ...</title>
+    
+    <p><ol marker="A.">
+        <li>
+            <p>
+                How to compare two linear functions using a table?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                How to graph two linear functions on the same axes?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                What the solution of a linear system means in terms of the story?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Where to look on a graph to see the solution of a linear system?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                How to successively approximate the solution of a linear system?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                How to solve a linear system?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                When to use inequality instead of an equation for a linear system?
+            </p>
+        </li>
+
+    </ol></p>
+    
+    <xi:include href="./NotSure.ptx" />
+</conclusion>

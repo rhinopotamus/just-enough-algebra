@@ -36,42 +36,8 @@
 		The first step in the evaluation process is to replace the letter by its value and we write that value in parentheses. Thus we would have <me>\frac{17.49}{(4)}</me> The second step is to replace the algebraic notation with the arithmetic notation, which is usually what we enter into the calculator: <me>17.49 \div (4)</me> It turns out that we do not need the parentheses around the 4 so we can simply calculate <me>17.49 \div 4 = 4.3725 \approx \$4.37 \text{ per slice}</me>
 	</p>
 
-	<subsection xml:id="dyk-algebraic-notation">
-		<title>Do you know ...</title>
-		<p><ul>
-			<li>
-					<p>
-						Where multiplication can be hidden in algebraic notation?
-					</p>
-			</li>
-
-			<li>
-					<p>
-						How powers are written in algebraic notation?
-					</p>
-			</li>
-
-			<li>
-					<p>
-						How division is written in algebraic notation?
-					</p>
-			</li>
-
-			<li>
-					<p>
-						What the word evaluate means?
-					</p>
-			</li>
-
-			<li>
-					<p>
-						How to evaluate an algebraic expression on your calculator?
-					</p>
-			</li>
-
-		</ul></p>
-	</subsection>
-
+	
+	<xi:include href="./dyk-Algebraic_notation.ptx" />
 	<xi:include href="./homework/ex-Algebraic_notation.ptx" />
 	
 

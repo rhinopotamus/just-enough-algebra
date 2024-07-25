@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<conclusion xml:id="dyk-fractions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Do you know ...</title>
+
+    <p><ol marker="A.">
+        <li>
+                <p>
+                    How we represent a part of a whole as a fraction?
+                </p>
+        </li>
+
+        <li>
+                <p>
+                    How to multiply fractions?
+                </p>
+        </li>
+
+        <li>
+                <p>
+                    What<q>canceling</q> a factor means?
+                </p>
+        </li>
+
+        <li>
+                <p>
+                    How fractions are related to division?
+                </p>
+        </li>
+
+        <li>
+                <p>
+                    How to calculate the decimal approximation of a fraction?
+                </p>
+        </li>
+
+        <li>
+                <p>
+                    How to compare two fractions using their decimal approximations?
+                </p>
+        </li>
+
+        <li>
+                <p>
+                    How the units of a fraction are determined?
+                </p>
+        </li>
+
+        <li>
+                <p>
+                    When we need to use parentheses around the top (numerator) and bottom (denominator) to evaluate a fraction?
+                </p>
+        </li>
+
+    </ol></p>
+<xi:include href="./NotSure.ptx" />
+</conclusion>

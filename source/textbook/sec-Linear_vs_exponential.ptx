@@ -142,53 +142,6 @@
 		There's no way of knowing whether the function is linear or exponential. It is probably not exactly either one. But if we have to pick, the exponential model seems closer to reality.
 	</p>
 
-	<subsection xml:id="dyk-linear-exponential">
-		<title>Do you know ...</title>
-		<p><ul>
-			<li>
-				<p>
-					When we might think a model might be linear?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					The template for a linear equation?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					How to find the linear equation between two points (a start and end value)?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					When we might think a model might be exponential?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					The template for an exponential equation?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					How to find the exponential equation between two points (a start and end value)?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					Why we compare linear and exponential models?
-				</p>
-			</li>
-		
-		</ul></p>
-		
-	</subsection>
+	<xi:include href="./dyk-Linear_vs_exponential.ptx" />
 	<xi:include href="./homework/ex-Linear_vs_exponential.ptx" />
 </section>

@@ -28,42 +28,7 @@
 		In general, we can find the result of a <term>percent increase</term>, like Thang's sandwich plus tip, by calculating the percent and adding it to the original amount. And we can find the result of a <term>percent decrease</term>, like Thang's on-sale jersey, by calculating the percent and subtracting it from the original amount.
 	</p>
 
-	<subsection xml:id="dyk-percentages">
-		<title>Do you know ...</title>
-		<p><ul>
-			<li>
-					<p>
-						What the words <q>per</q> and <q>cent</q> mean in the word <q>percent.</q>
-					</p>
-			</li>
-	
-			<li>
-					<p>
-						How to convert a fraction or decimal to a percent?
-					</p>
-			</li>
-	
-			<li>
-					<p>
-						How to convert a percent to a decimal?
-					</p>
-			</li>
-	
-			<li>
-					<p>
-						How to calculate a percentage of a number?
-					</p>
-			</li>
-	
-			<li>
-					<p>
-						How to calculate the result of a percent increase or a percent decrease?
-					</p>
-			</li>
-	
-		</ul></p>
-		
-	</subsection>
+	<xi:include href="./dyk-Percentages.ptx" />
 
 	<xi:include href="./homework/ex-Percentages.ptx" />
 

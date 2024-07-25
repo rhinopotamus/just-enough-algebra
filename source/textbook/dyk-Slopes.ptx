@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<conclusion xml:id="dyk-slopes" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Do you know ...</title>
+    
+    <p><ol marker="A.">
+        <li>
+            <p>
+                Which types of situations are linear?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                What the slope of a linear function means in the story and what it tells us about the graph?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                How to calculate the slope between two points?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                What it means if the slope is negative?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                How to find the equation of a line through two points?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                How to find a linear function given two examples in a story?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                If both the slope and intercept are unknown, which is easier to calculate first?
+            </p>
+        </li>
+
+    </ol></p>
+    
+    <xi:include href="./NotSure.ptx" />
+</conclusion>

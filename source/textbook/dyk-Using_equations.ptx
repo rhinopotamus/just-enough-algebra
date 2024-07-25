@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<conclusion xml:id="dyk-using-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Do you know ...</title>
+    <p><ol marker="A.">
+        <li>
+            <p>
+                What it means to <q>evaluate</q> a function?
+            </p>
+        </li>
+    
+        <li>
+            <p>
+                Why some numbers are underlined in our calculation?
+            </p>
+        </li>
+    
+        <li>
+            <p>
+                How to evaluate an function when the independent variable occurs more than once?
+            </p>
+        </li>
+    
+        <li>
+            <p>
+                How to generate a table or graph from an equation?
+            </p>
+        </li>
+    
+        <li>
+            <p>
+                What graphs of different types of functions look like?
+            </p>
+        </li>
+    
+        <li>
+            <p>
+                What a power, polynomial, or quadratic equation look like?
+            </p>
+        </li>
+    
+    </ol></p>
+    
+    
+    <xi:include href="./NotSure.ptx" />
+</conclusion>

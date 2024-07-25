@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<conclusion xml:id="dyk-tables-graphs" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Do you know ...</title>
+    <p><ol marker="A.">
+        <li>
+            <p>
+                Where the independent and dependent variables appear in a table and in a graph?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                How to guess values from a table or from a graph?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                How to make a graph from a table?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Why we start each axis at 0?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                What we mean by scaling an axis evenly?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                How to make a table and then a graph from a story?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Why we draw in a smooth line or curve connecting the points?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                What type of graphing technology, if any, you're allowed to use? <em>Ask your instructor.</em>
+            </p>
+        </li>
+
+    </ol></p>
+    <xi:include href="./NotSure.ptx" />
+    
+</conclusion>

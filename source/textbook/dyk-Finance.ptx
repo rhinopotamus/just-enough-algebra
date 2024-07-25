@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<conclusion xml:id="dyk-finance" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Do you know ...</title>
+
+    <p><ol marker="A.">
+        <li>
+            <p>
+                How to determine which formula to use? <em>Ask your instructor if you will be told which formula to use during the exam.</em>
+            </p>
+        </li>
+        <li>
+            <p>
+                What the quantities <m>a</m>, <m>p</m>, <m>y</m>, and <m>r</m> from the formulas mean in the story?
+            </p>
+        </li>
+        <li>
+            <p>
+                How to evaluate the formulas on your calculator?  <em>Ask your instructor which formulas you need to remember, and whether any formulas will be provided during the exam.</em>
+            </p>
+        </li>
+        <li>
+            <p>
+                Why parentheses are needed around the exponent, numerator, and denominator in most of the formulas?
+            </p>
+        </li>
+        <li>
+            <p>
+                What APR means, and why it is different from the (nominal) interest rate?
+            </p>
+        </li>
+    </ol></p>
+
+
+        
+    <xi:include href="./NotSure.ptx" />
+</conclusion>

@@ -157,49 +157,7 @@
 		Sometimes the graph of an exponential equation looks a lot like a line, especially if you only plot a few points. So, be sure to plot five or more points to see the curve in the graph of an exponential equation.
 	</p>
 
-	<subsection xml:id="dyk-first-look-exponential">
-		<title>Do you know...</title>
-		<p><ul>
-			<li>
-				<p>
-					How to find the growth factor if you know the percent increase?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					How to calculate percent increase in one step?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					What makes a function exponential?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					The template for an exponential equation? <em>Ask your instructor if you need to remember the template or if it will be provided during the exam.</em>
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					Where the starting value and growth factor appear in the template for an exponential equation?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					What the graph of an exponential function looks like?
-				</p>
-			</li>
-		
-		</ul></p>
-		
-	</subsection>
-
+	<xi:include href="./dyk-First_look_exponential.ptx" />
 	<xi:include href="./homework/ex-First_look_exponential.ptx" />
 
 	

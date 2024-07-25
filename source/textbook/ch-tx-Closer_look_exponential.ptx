@@ -23,6 +23,4 @@
 	<xi:include href="./sec-Linear_vs_exponential.ptx" />
 	<xi:include href="./sec-Logistic_growth.ptx" />
 
-    
-
 </chapter>

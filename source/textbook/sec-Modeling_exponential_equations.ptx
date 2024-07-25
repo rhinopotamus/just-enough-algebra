@@ -141,67 +141,7 @@
 	<p>
 		Were we supposed to get different numbers here? Well, the graph's not a line and it's not a linear equation. That tells us the rate of change isn't going to be constant. So, sure, different numbers are fine. Does it make sense that the rate of change would itself increase? That the value increases at an increasing rate? Yes. Although we are always just adding on 3%, we're taking 3% of larger numbers each year. So more is added each year.
 	</p>
-
-	<subsection xml:id="dyk-modeling-exponential">
-		<title>Do you know ...</title>
-		<p><ul>
-			<li>
-				<p>
-					What makes a function exponential?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					The template for an exponential equation? <em>Ask your instructor if you need to remember the template or if it will be provided during the exam.</em>
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					How to write an exponential equation given the starting amount and percent increase?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					Where the growth factor and starting amount appear in the template of an exponential equation?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					What the graph of an exponential function looks like?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					How to solve an exponential equation using the <xref ref="log-divides-formula" text="title"/>?
-				</p>
-				
-				<p>
-					<em>Ask your instructor if you need to remember the <xref ref="log-divides-formula" text="title"/> or if it will be provided during the exam.</em>
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					How to calculate the rate of change of an exponential function?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					Why the rate of change of an exponential function is not constant?
-				</p>
-			</li>
-		
-		</ul></p>
-		
-		
-		
-	</subsection>
-
+	
+	<xi:include href="./dyk-Modeling_exponential_equations.ptx" />
 	<xi:include href="./homework/ex-Modeling_exponential_equations.ptx" />
 </section>

@@ -65,37 +65,8 @@
 	<p>
 		log(number) <m>\approx</m> power of 10 in the scientific notation for that number.
 	</p>
-	<subsection xml:id="dyk-logarithms">
-		<title>Do you know ...</title>
 
-		<p><ul>
-			<li>
-					<p>
-						What a logarithm (base 10) means?
-					</p>
-			</li>
-
-			<li>
-					<p>
-						How to evaluate logarithms (base 10) on a calculator?
-					</p>
-			</li>
-
-			<li>
-					<p>
-						Which size numbers have a positive log and which have a negative log (base 10)?
-					</p>
-			</li>
-
-			<li>
-					<p>
-						The connection between logarithms (base 10) and scientific notation.
-					</p>
-			</li>
-
-		</ul></p>
-	</subsection>
-
+	<xi:include href="./dyk-Logarithms.ptx" />
 	<xi:include href="./homework/ex-Logarithms.ptx" />
 
 </section>

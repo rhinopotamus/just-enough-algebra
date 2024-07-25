@@ -108,44 +108,7 @@
 		By the way, formula works just fine if a quantity decreases by a fixed percent. One example we saw was Joe, who drank too much coffee. The growth (or should I say decay) factor was <m>g=0.87</m>. That corresponds to a growth (decay) rate of <me>r=g-1=0.87-1=-0.83=-13\%</me> Again, the negative means that we have a percent decrease.
 	</p>
 
-	<subsection xml:id="dyk-growth-factor">
-		<title>Do you know ...</title>
-		<p><ul>
-			<li>
-				<p>
-					How to find the growth/decay factor given the starting amount and another point of information?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					How to find the growth/decay factor given the doubling time or half-life?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					When we use the <xref ref="percent-change-formula" text="title"/>, and when we use the <xref ref="growth-factor-formula" text="title"/> instead? <em>Ask your instructor if you need to remember the <xref ref="percent-change-formula" text="title"/> and <xref ref="growth-factor-formula" text="title"/> or if they will be provided during the exam.</em>
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					How to evaluate the <xref ref="percent-change-formula" text="title"/> and <xref ref="growth-factor-formula" text="title"/> using your calcuator?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					How to read the starting amount and percent increase/decrease from the equation?
-				</p>
-			</li>
-		
-		</ul></p>
-		
-		
-	</subsection>
-
+	<xi:include href="./dyk-Growth_factor.ptx" />
 	<xi:include href="./homework/ex-Growth_factor.ptx" />
 
 </section>

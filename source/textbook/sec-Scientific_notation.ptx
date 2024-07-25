@@ -91,49 +91,8 @@
 		When you see a number written in scientific notation, the power of 10 tells you a lot. For example, we saw that <m>8.46 \times 10^ 9 = 8,460,000,000</m> and <m>1.2 \times10^{-4} = 0.000~12</m>. A positive power of 10 says you have a big number, and a negative power of 10 says you're dealing with a very small number.
 	</p>
 
-	<subsection xml:id="dyk-prelude-scientific-notation">
-		<title>Do you know ...</title>
 
-		<p><ul>
-			<li>
-					<p>
-						What million, billion, and trillion mean?
-					</p>
-			</li>
-
-			<li>
-					<p>
-						Why scientific notation is used?
-					</p>
-			</li>
-
-			<li>
-					<p>
-						The standard format for scientific notation?
-					</p>
-			</li>
-
-			<li>
-					<p>
-						That a positive exponent corresponds to a big number and a negative exponent corresponds to a tiny number?
-					</p>
-			</li>
-
-			<li>
-					<p>
-						How to convert from scientific notation to decimal?
-					</p>
-			</li>
-
-			<li>
-					<p>
-						How your calculator reports numbers in scientific notation, and what (might be) different when you're reporting that number?
-					</p>
-			</li>
-
-		</ul></p>
-	</subsection>
-
+	<xi:include href="./dyk-Scientific_notation.ptx" />
 	<xi:include href="./homework/ex-Scientific_notation.ptx" />
 
 </section>

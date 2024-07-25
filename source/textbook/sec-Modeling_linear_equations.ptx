@@ -110,68 +110,7 @@
 		As expected, the graph is a line. And we see that the city should reach its goal of affordable apartments in 12 years, or slightly before then.
 	</p>
 
-	<subsection xml:id="dyk-modeling-linear">
-		<title>Do you know ...</title>
-
-		<p><ul>
-			<li>
-				<p>
-					What makes a function linear?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					What the slope of a linear function means in the story and what it tells us about the graph?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					What the intercept of a linear function means in the story and what it tells us about the graph?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					The template for a linear equation? <em>Ask your instructor if you need to remember the template or if it will be provided during the exam.</em>
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					How to write a linear equation given the starting amount (intercept) and the rate of change (slope)?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					Where the slope and intercept appear in the template of a linear equation?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					What the graph of a linear function looks like?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					How to solve a linear equation?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					Why the rate of change of a linear function is constant?
-				</p>
-			</li>
-		
-		</ul></p>
-		
-	</subsection>
-
+	<xi:include href="./dyk-Modeling_linear_equations.ptx" />
 	<xi:include href="./homework/ex-Modeling_linear_equations.ptx" />
 
 </section>

@@ -266,77 +266,7 @@
 		Once again we have scientific notation. The base is still 10. The exponent is still a whole number, although now it's negative. The number out front, like 1.2 in our example, is still between 1 and 10, which means there's exactly one digit before the decimal point (and any others must come afterwards). As before it customary to use <m>\times</m> instead of <m>\ast</m> in scientific notation, so we should write <me>0.000~12= 1.2 \times 10^{-4}</me> When you see a number written in scientific notation, the power of 10 tells you a lot. For example, <m>6.7 \times 10^4 = 67,000</m> and <m>6.7 \times 10^{-3} = 0.006~7</m>. A positive power of 10 says you have a big number, and a negative power of 10 says you're dealing with a very small number.
 	</p>
 
-	<subsection xml:id="dyk-Metric_system_and_scientific_notation">
-		<title>Do you know ...</title>
-		<p><ul>
-			<li>
-				<p>
-					How to calculate powers on your calculator?
-				</p>
-			</li>
-	
-			<li>
-				<p>
-					What million, billion, and trillion mean?
-				</p>
-			</li>
-	
-			<li>
-				<p>
-					Why metric prefixes are used?
-				</p>
-			</li>
-	
-			<li>
-				<p>
-					What common metric prefixes (mega, giga, kilo, centi, milli, micro, nano) mean?
-				</p>
-			
-				<p>
-					<em>Ask your instructor which prefixes you need to remember, and whether any prefixes will be provided during the exam.</em>
-				</p>
-			</li>
-	
-			<li>
-				<p>
-					Why scientific notation is used?
-				</p>
-			</li>
-	
-			<li>
-				<p>
-					The standard format for scientific notation?
-				</p>
-			</li>
-	
-			<li>
-				<p>
-					What kinds of numbers have a positive order of magnitude, and which have a negative order of magnitude?
-				</p>
-			</li>
-	
-			<li>
-				<p>
-					How to convert between decimal notation and scientific notation?
-				</p>
-			</li>
-	
-			<li>
-				<p>
-					How your calculator reports numbers in scientific notation, and what (might be) different when you're reporting that number?
-				</p>
-			</li>
-	
-			<li>
-				<p>
-					The usual order of operations (PEMDAS) and how to use parentheses when you want a different order?
-				</p>
-			</li>
-	
-		</ul></p>
-		
-	</subsection>
-
+	<xi:include href="./dyk-Metric_system_and_scientific_notation.ptx" />
 	<xi:include href="./homework/ex-Metric_system_and_scientific_notation.ptx" />
 
 	

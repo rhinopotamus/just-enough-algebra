@@ -230,76 +230,7 @@
 		Our graph was a <m>\cap</m> shaped parabola and so we found a <em>maximum</em> value. The graph of a quadratic function might be <m>\cup</m> shaped instead. In that case evaluating at <m>T=\frac{-b}{2a}</m> would give the <em>minimum</em> value.
 	</p>
 
-	<subsection xml:id="dyk-solving-quadratic">
-		<title>Do you know ...</title>
-
-		<p><ul>
-			<li>
-				<p>
-					What a <q>quadratic</q> function is?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					How to solve a quadratic equation?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					When we use the <xref ref="quadratic-formula" text="title"/>? <em>Ask your instructor if you need to remember the <xref ref="quadratic-formula" text="title"/> or if it will be provided during the exam.</em>
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					How to solve a quadratic equation when the function is not set equal to zero?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					How to identify the values of <m>a, b, c</m> in the formula?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					How to evaluate the formula (using your calculator)?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					Why there are (usually) two solutions to a quadratic equation?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					How to decide which solution(s) from the <xref ref="quadratic-formula" text="title"/> are correct?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					What the graph of a quadratic function looks like?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					The value for the independent variable to find the highest (or lowest) value of a quadratic function?
-				</p>
-			</li>
-		
-		</ul></p>
-
-
-		
-	</subsection>
-
+	<xi:include href="./dyk-Solving_quadratic_equations.ptx" />
 	<xi:include href="./homework/ex-Solving_quadratic_equations.ptx" />
 
 </section>

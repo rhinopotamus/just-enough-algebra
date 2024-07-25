@@ -2,25 +2,19 @@
 <!-- This file, the project manifest, provides the overall configuration for your PreTeXt project. To edit the content of your document, open `source/main.ptx`. See https://pretextbook.org/doc/guide/html/processing-CLI.html#cli-project-manifest. -->
 <project ptx-version="2">
   <targets>
-    <target name="web" 
+    <target name="html" 
             format="html" 
-            publication="publication-web.ptx" />
-    <target name="web-textbook"
-            format="html"
-            publication="publication-web-textbook.ptx" />
-    <target name="web-workbook"
-            format="html"
-            publication="publication-web-workbook.ptx" />
+            publication="publication-html.ptx" />
     <target name="print" 
             format="pdf" 
-            publication="publication-latex.ptx"
+            publication="publication-print.ptx"
             xsl="pretext-latex-workbook.xsl" 
             latex-engine="pdflatex">
       <stringparams latex.preamble.early="\usepackage{parskip}" />
     </target> <!-- NB we don't want parskip in the textbook! -->
     <target name="latex" 
             format="latex" 
-            publication="publication-latex.ptx"
+            publication="publication-print.ptx"
             xsl="pretext-latex-workbook.xsl">
       <stringparams latex.preamble.early="\usepackage{parskip}" />
     </target>

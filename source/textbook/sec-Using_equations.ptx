@@ -163,50 +163,7 @@
 		For our equation <m>a=0.04</m>, <m>b=1.47</m>, and the mysteriously missing <m>c=0</m>.
 	</p>
 
-	<subsection xml:id="dyk-using-equations">
-		<title>Do you know ...</title>
-		<p><ul>
-			<li>
-				<p>
-					What it means to <q>evaluate</q> a function?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					Why some numbers are underlined in our calculation?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					How to evaluate an function when the independent variable occurs more than once?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					How to generate a table or graph from an equation?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					What graphs of different types of functions look like?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					What a power, polynomial, or quadratic equation look like?
-				</p>
-			</li>
-		
-		</ul></p>
-		
-		
-	</subsection>
-
+	<xi:include href="./dyk-Using_equations.ptx" />
 	<xi:include href="./homework/ex-Using_equations.ptx" />
 
 

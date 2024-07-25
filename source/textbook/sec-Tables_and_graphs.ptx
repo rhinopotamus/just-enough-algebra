@@ -254,62 +254,7 @@
 		<image source='CigCompare.png'/>
 	</p>
 
-	<subsection xml:id="dyk-tables-graphs">
-		<title>Do you know ...</title>
-		<p><ul>
-			<li>
-				<p>
-					Where the independent and dependent variables appear in a table and in a graph?
-				</p>
-			</li>
-	
-			<li>
-				<p>
-					How to guess values from a table or from a graph?
-				</p>
-			</li>
-	
-			<li>
-				<p>
-					How to make a graph from a table?
-				</p>
-			</li>
-	
-			<li>
-				<p>
-					Why we start each axis at 0?
-				</p>
-			</li>
-	
-			<li>
-				<p>
-					What we mean by scaling an axis evenly?
-				</p>
-			</li>
-	
-			<li>
-				<p>
-					How to make a table and then a graph from a story?
-				</p>
-			</li>
-	
-			<li>
-				<p>
-					Why we draw in a smooth line or curve connecting the points?
-				</p>
-			</li>
-	
-			<li>
-				<p>
-					What type of graphing technology, if any, you're allowed to use? <em>Ask your instructor.</em>
-				</p>
-			</li>
-	
-		</ul></p>
-		<xi:include href="./NotSure.ptx" />
-		
-	</subsection>
-
+	<xi:include href="./dyk-Tables_and_graphs.ptx" />
 	<xi:include href="./homework/ex-Tables_and_graphs.ptx" />
 
 </section>

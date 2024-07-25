@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<conclusion xml:id="dyk-intercepts" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Do you know ...</title>
+
+    <p><ol marker="A.">
+        <li>
+            <p>
+                What the intercept of a linear function means in the story and what it tells us about the graph?
+            </p>
+        </li>
+    
+        <li>
+            <p>
+                How to calculate the intercept given the slope and an example (another point on the graph)?
+            </p>
+        </li>
+    
+        <li>
+            <p>
+                Why an intercept might not make sense, for example if it's outside the domain of the function?
+            </p>
+        </li>
+    
+        <li>
+            <p>
+                When a linear function is a direct proportion?
+            </p>
+        </li>
+    
+        <li>
+            <p>
+                Why you cannot reason proportionally if the linear function is not a direct proportion?
+            </p>
+        </li>
+    
+        <li>
+            <p>
+                What the graph of a direct proportion looks like?
+            </p>
+        </li>
+    
+    </ol></p>
+    
+    <xi:include href="./NotSure.ptx" />
+</conclusion>

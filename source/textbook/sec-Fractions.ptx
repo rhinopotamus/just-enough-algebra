@@ -68,60 +68,7 @@
 		There will be a few times during this course where you encounter fractions. Mostly we'll switch to decimal approximations right away.
 	</p>
 
-	<subsection xml:id="dyk-fractions">
-		<title>Do you know ...</title>
-
-		<p><ul>
-			<li>
-					<p>
-						How we represent a part of a whole as a fraction?
-					</p>
-			</li>
-
-			<li>
-					<p>
-						How to multiply fractions?
-					</p>
-			</li>
-
-			<li>
-					<p>
-						What<q>canceling</q> a factor means?
-					</p>
-			</li>
-
-			<li>
-					<p>
-						How fractions are related to division?
-					</p>
-			</li>
-
-			<li>
-					<p>
-						How to calculate the decimal approximation of a fraction?
-					</p>
-			</li>
-
-			<li>
-					<p>
-						How to compare two fractions using their decimal approximations?
-					</p>
-			</li>
-
-			<li>
-					<p>
-						How the units of a fraction are determined?
-					</p>
-			</li>
-
-			<li>
-					<p>
-						When we need to use parentheses around the top (numerator) and bottom (denominator) to evaluate a fraction?
-					</p>
-			</li>
-
-		</ul></p>
-	</subsection>
+	<xi:include href="./dyk-Fractions.ptx" />
 
 	<xi:include href="./homework/ex-Fractions.ptx" />
 

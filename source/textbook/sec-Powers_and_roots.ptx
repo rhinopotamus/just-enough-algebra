@@ -68,35 +68,7 @@
 		Similarly, <m>n \land 2</m> is called <m>n</m> <term>squared</term> and <m>\sqrt{~}</m> (which is shorthand for <m>\sqrt[2]{~}</m>) is referred to as the <term>square root</term>. Some calculators have a separate key for the square root. That terminology comes from the fact that an <m>n \times n</m> square has area <m>n \times n = n \land 2</m>. And a square that was <m>n \times n</m> in inches would have area measured in inches <m>\times</m> inches, which are called <term>square inches</term>.
 	</p>
 
-	<subsection xml:id="dyk-powers-roots">
-		<title>Do you know ...</title>
-		<p><ul>
-			<li>
-					<p>
-						What the square, cube, or higher power of a number means?
-					</p>
-			</li>
-
-			<li>
-					<p>
-						How to calculate powers of a number using a calculator?
-					</p>
-			</li>
-
-			<li>
-					<p>
-						What the square root, cube roots, or higher root of a number means?
-					</p>
-			</li>
-
-			<li>
-					<p>
-						How to calculate roots of a number using a calculator?
-					</p>
-			</li>
-
-		</ul></p>
-	</subsection>
+	<xi:include href="./dyk-Powers_and_roots.ptx" />
 
 	<xi:include href="./homework/ex-Powers_and_roots.ptx" />
 

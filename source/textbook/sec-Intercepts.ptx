@@ -74,50 +74,7 @@
 		Not so for Kaleb. Remember it takes him 29.8 minutes to run that 2.8 miles. If he runs twice the distance, which is 5.6 miles, it takes <me>T = 6+8.5 \ast 5.6 = 6+ 8.5 \times \underline{5.6} = 53.6 \text{ minutes}</me> which is not quite twice the time, since <m>2 \times 29.8 = 59.6 \text{ minutes}</m>. The key is that Kaleb does not stretch twice, only once, for the longer run so double the distance does not count the 6 minutes again. Kaleb's equation is not a direct proportionality. Another way to say that is that Kaleb's time is not proportional to how far he runs. It is a function of how far he runs, yes, but not proportionally so.
 	</p>
 
-	<subsection xml:id="dyk-intercepts">
-		<title>Do you know ...</title>
-
-		<p><ul>
-			<li>
-				<p>
-					What the intercept of a linear function means in the story and what it tells us about the graph?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					How to calculate the intercept given the slope and an example (another point on the graph)?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					Why an intercept might not make sense, for example if it's outside the domain of the function?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					When a linear function is a direct proportion?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					Why you cannot reason proportionally if the linear function is not a direct proportion?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					What the graph of a direct proportion looks like?
-				</p>
-			</li>
-		
-		</ul></p>
-		
-	</subsection>
-
+	<xi:include href="./dyk-Intercepts.ptx" />
 	<xi:include href="./homework/ex-Intercepts.ptx" />
 
 </section>

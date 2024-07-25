@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<conclusion xml:id="dyk-variables_and_functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Do you know ...</title>
+
+    <p><ol marker="A.">
+        <li>
+            <p>
+                The difference between a variable and a constant?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                The information needed to <q>name</q> a variable?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Which variable is dependent and which variable is independent?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                What <q>domain</q> means?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                How to calculate percent increase?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                <m>\star</m> The symbol for <q>approximately equal to</q>?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                <m>\star</m> Why an approximate answer is often as good as we can get?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                <m>\star</m> When to round your answer up or down instead of off?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                <m>\star</m> What the term <q>precisely</q> refers to?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                <m>\star</m> How to decide how precisely to round your answer?
+            </p>
+            
+            <p>
+                <m>\star</m> indicates question based on <em>Prelude: approximation</em>
+            </p>
+        </li>
+
+    </ol></p>
+    <xi:include href="./NotSure.ptx" />
+
+</conclusion>

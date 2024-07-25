@@ -207,56 +207,7 @@
 		It looks like 1.5 billion corresponds to just before the unlabeled gridline halfway between 15 and 20. That line would be 17.5, so the answer of 17 (which was year 2028) looks perfect.
 	</p>
 
-	<subsection xml:id="dyk-approx-solutions">
-		<title>Do you know ...</title>
-
-		<p><ul>
-			<li>
-				<p>
-					What a solution to an equation is?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					When you approximate a solution of an equation, as opposed to just evaluating?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					How to use successive approximation, including organizing your work in a table?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					How to get a reasonable first guess from a graph?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					What to do if you do not have a reasonable first guess?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					How precise your answer should be?
-				</p>
-			</li>
-		
-			<li>
-				<p>
-					How to find numbers between given numbers, for example between 0.3 and 0.4?
-				</p>
-			</li>
-		
-		</ul></p>
-		
-	</subsection>
-
+	<xi:include href="./dyk-Approx_solutions.ptx" />
 	<xi:include href="./homework/ex-Approx_solutions.ptx" />
 
 

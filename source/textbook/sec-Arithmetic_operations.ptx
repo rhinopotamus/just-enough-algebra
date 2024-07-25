@@ -80,42 +80,7 @@
 		Another cause for division is the word <q>per</q>. What is her pace, in minutes per mile if Karleen runs 6.3 miles in 50 minutes? <me>50 \div 6.3 =  7.936507937... \approx 7.9</me> With the units we would write <me>50 \text{ minutes} \div 6.3 \text{ miles }  \approx 7.9 \text{ minutes per mile}</me> Karleen runs just under 8 minutes per mile.
 	</p>
 
-	<subsection xml:id="dyk-arithmetic-operations">
-		<title>Do you know ...</title>
-
-	<p><ul>
-		<li>
-				<p>
-					When to add, subtract, multiply, or divide numbers?
-				</p>
-		</li>
-
-		<li>
-				<p>
-					What is the difference between subtraction and negation?
-				</p>
-		</li>
-
-		<li>
-				<p>
-					How to add, subtract, negate, multiply, and divide on a calculator?
-				</p>
-		</li>
-
-		<li>
-				<p>
-					How multiplication is related to addition?
-				</p>
-		</li>
-
-		<li>
-				<p>
-					What the term <q>per</q> indicates?
-				</p>
-		</li>
-
-	</ul></p>
-	</subsection>
+	<xi:include href="./dyk-Arithmetic_operations.ptx" />
 
 	<xi:include href="./homework/ex-Arithmetic_operations.ptx" />
 

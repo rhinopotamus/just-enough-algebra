@@ -229,39 +229,6 @@
 		A short disclaimer is in order. These formulas only work if the interest is compounded <em>monthly</em>. Can you guess how to change the formulas if the interest is paid at some other interval? Just trade out the 12s for monthly and use how ever many times per year the interest is paid instead, usually called <m>n</m> in other textbooks.
 	</p>
 
-	<subsection xml:id="dyk-finance">
-		<title>Do you know ...</title>
-
-	<p><ul>
-		<li>
-			<p>
-				How to determine which formula to use? <em>Ask your instructor if you will be told which formula to use during the exam.</em>
-			</p>
-		</li>
-		<li>
-			<p>
-				What the quantities <m>a</m>, <m>p</m>, <m>y</m>, and <m>r</m> from the formulas mean in the story?
-			</p>
-		</li>
-		<li>
-			<p>
-				How to evaluate the formulas on your calculator?  <em>Ask your instructor which formulas you need to remember, and whether any formulas will be provided during the exam.</em>
-			</p>
-		</li>
-		<li>
-			<p>
-				Why parentheses are needed around the exponent, numerator, and denominator in most of the formulas?
-			</p>
-		</li>
-		<li>
-			<p>
-				What APR means, and why it is different from the (nominal) interest rate?
-			</p>
-		</li>
-	</ul></p>
-
-
-		
-	</subsection>
+	<xi:include href="./dyk-Finance.ptx" />
 	<xi:include href="./homework/ex-Finance.ptx" />
 </section>
