@@ -139,7 +139,7 @@
         </exercise>
     </page>
 
-    <xi:include href="tbx-header.ptx" />
+    
 
 
     <exercise xml:id="budget-estimate-approx-rounding">

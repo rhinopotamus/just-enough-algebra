@@ -182,7 +182,7 @@
 		</exercise>
 	</page>
 
-	<xi:include href="tbx-header.ptx" />
+	
 
 	<exercise xml:id="raises-first-look-exponential">
 		<introduction>

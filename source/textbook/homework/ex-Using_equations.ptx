@@ -223,7 +223,7 @@
 		</exercise>
 	</page>
 
-	<xi:include href="tbx-header.ptx" />
+	
 
 	<exercise xml:id="braking-distance-using-equations">
 		<introduction>

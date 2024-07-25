@@ -331,7 +331,7 @@
 		</exercise>
 	</page>	
 
-	<xi:include href="tbx-header.ptx" />
+	
 
 	<exercise xml:id="lock-machines-systems-linear">
 		<introduction>
