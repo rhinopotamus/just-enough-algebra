@@ -114,16 +114,14 @@
 		Turns out there's a different formula for solving for the exponent that uses <term>logarithms</term> (nickname: <term>logs</term>). More about logs in a minute, but first let's write down the formula and practice working with it. The formula is
 	</p>
 
-	<definition xml:id="def-log-divides-formula">
+	<assemblage xml:id="log-divides-formula">
 		<title>Log-Divides Formula</title>
 			
 			
-		<statement>
-			<p>
-				The equation <m>g^Y = v</m> has solution <me>Y = \frac{\log (v)}{\log(g)}</me>
-			</p>
-		</statement>
-	</definition>
+		<p>
+			The equation <m>g^Y = v</m> has solution <me>Y = \frac{\log (v)}{\log(g)}</me>
+		</p>
+	</assemblage>
 
 	<p>
 		Quick aside about the name. Some formulas have well-known names. Not this one. We call it the <q>Log-Divides Formula</q> because it has logs and divides in it. Perhaps you already guessed that. Other math books do not have an name for this formula, although it is related to something called the <q>change of base formula</q>.
@@ -145,14 +143,14 @@
 	</p>
 
 	<p>
-		Let's practice. Suppose instead we want to know when health care costs would exceed $10 trillion instead. (By the way - wow!) That means <m>H = 10</m>. Using our equation <m>H=2.26\ast1.067^Y</m> we get <me>2.26\ast1.067^Y=10</me> Before we can use the Log-Divides Formula, we need to get rid of that 2.26. To do so, we can divide both sides by 2.26 <me>\frac{\cancel{2.26}\ast1.067^Y}{\cancel{2.26}}=\frac{10}{2.26}=10 \div 2.26 = 4.424778761\ldots</me> That means <me>1.067^Y=4.424778761\ldots</me> Now our equation fits the format <m>g^Y=v</m> for the <alert>Log Divides Formula</alert> with new value <m>v=4.424778761\ldots</m> (and the growth factor is <m>g=1.067</m> still). So the answer is
+		Let's practice. Suppose instead we want to know when health care costs would exceed $10 trillion instead. (By the way - wow!) That means <m>H = 10</m>. Using our equation <m>H=2.26\ast1.067^Y</m> we get <me>2.26\ast1.067^Y=10</me> Before we can use the Log-Divides Formula, we need to get rid of that 2.26. To do so, we can divide both sides by 2.26 <me>\frac{\cancel{2.26}\ast1.067^Y}{\cancel{2.26}}=\frac{10}{2.26}=10 \div 2.26 = 4.424778761\ldots</me> That means <me>1.067^Y=4.424778761\ldots</me> Now our equation fits the format <m>g^Y=v</m> for the <xref ref="log-divides-formula" text="title"/> with new value <m>v=4.424778761\ldots</m> (and the growth factor is <m>g=1.067</m> still). So the answer is
 		<md>
 			<mrow>Y \amp = \frac{\log (v)}{\log(g)} </mrow>
 			<mrow> \amp = \frac{\log (4.424778761\ldots)}{\log(1.067)} </mrow>
 			<mrow> \amp = \log (4.424778761\ldots) \div \log (1.067) </mrow>
 			<mrow> \amp = 22.932891 \approx 23  </mrow>
 		</md> 
-		Want to avoid typing in the number 4.424778761…? Depending on your calculator, you might try this instead: <me>10 \div 2.26 = \log(\text{ANS}) \div \log(1.067)= 22.932891</me> where <term>ANS</term> stands for <q>answer</q>.
+		Want to avoid typing in the number 4.424778761...? Depending on your calculator, you might try this instead: <me>10 \div 2.26 = \log(\text{ANS}) \div \log(1.067)= 22.932891</me> where <term>ANS</term> stands for <q>answer</q>.
 	</p>
 
 	<p>
@@ -233,7 +231,51 @@
 		log(number) <m>\approx</m> power of 10 in the scientific notation for that number.
 	</p>
 
+	<subsection xml:id="dyk-solving-exponential">
+		<title>dyk-solving-exponential</title>
 
+		<p><ul>
+			<li>
+				<p>
+					What <q>log</q> means?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					The connection is between logs and scientific notation?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					How to evaluate logs on your calculator?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					How to evaluate the <xref ref="log-divides-formula" text="title"/> using your calcuator?
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					When to use the <xref ref="log-divides-formula" text="title"/>? <em>Ask your instructor if you need to remember the <xref ref="log-divides-formula" text="title"/> or if it will be provided during the exam.</em>
+				</p>
+			</li>
+	
+			<li>
+				<p>
+					How to solve an exponential equation?
+				</p>
+			</li>
+	
+		</ul></p>
+		
+	</subsection>
+
+	<xi:include href="./homework/ex-Solving_exponential_equations.ptx" />
 
 
 </section>

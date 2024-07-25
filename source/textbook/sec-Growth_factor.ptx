@@ -40,7 +40,7 @@
 	</p>
 
 	<p>
-		Oh, wait a minute. The only unknown in that equation is the growth factor <m>g</m>. What if we solve for <m>g</m>? First, divide each side by 1.1 to get <me>\frac{\cancel{1.1}\ast g^{16}}{\cancel{1.1}} = \frac{2}{1.1}</me> which simplifies to <me>g^{16} = \frac{2}{1.1} = 2 \div 1.1= 1.818181818\ldots</me> Since we want to solve for the base (not the exponent), we have a power equation. We use the <alert>Root Formula</alert> with power <m>n=16</m> and value <m>v=1.818181818</m> to get <me>g = \sqrt[n]{v} = \sqrt[16]{1.818181818} = 16 \sqrt[x]{~\text{  }} 1.818181818 = 1.038071653 \approx 1.0381</me>
+		Oh, wait a minute. The only unknown in that equation is the growth factor <m>g</m>. What if we solve for <m>g</m>? First, divide each side by 1.1 to get <me>\frac{\cancel{1.1}\ast g^{16}}{\cancel{1.1}} = \frac{2}{1.1}</me> which simplifies to <me>g^{16} = \frac{2}{1.1} = 2 \div 1.1= 1.818181818\ldots</me> Since we want to solve for the base (not the exponent), we have a power equation. We use the <xref ref="root-formula" text="title"/> with power <m>n=16</m> and value <m>v=1.818181818</m> to get <me>g = \sqrt[n]{v} = \sqrt[16]{1.818181818} = 16 \sqrt[x]{~\text{  }} 1.818181818 = 1.038071653 \approx 1.0381</me>
 	</p>
 
 	<p>
@@ -51,17 +51,14 @@
 		Here's the easy version in a formula.
 	</p>
 
-	<definition xml:id="def-growth-factor-formula">
+	<assemblage xml:id="growth-factor-formula">
 		<title>Growth Factor Formula</title>
 			
 			
-		<statement>
-			<p>
-				If a quantity is growing (or decaying) exponentially, then the growth (or decay) factor is <me>\displaystyle g = \sqrt[t]{\frac{a}{s}}</me> where <m>s</m> is the starting amount and <m>a</m> is the amount after <m>t</m> time periods.
-
-			</p>
-		</statement>
-	</definition>
+		<p>
+			If a quantity is growing (or decaying) exponentially, then the growth (or decay) factor is <me>\displaystyle g = \sqrt[t]{\frac{a}{s}}</me> where <m>s</m> is the starting amount and <m>a</m> is the amount after <m>t</m> time periods.
+		</p>
+	</assemblage>
 
 	<p>
 		We knew from the beginning that our equation was in the form <m>C = 1.1 \ast g^Y</m>. Now that we found the growth factor <m>g \approx 1.0381</m> we get our final equation <me>C = 1.1 \ast 1.0381^Y</me> For example, we can check that in 2010, we have <m>Y=16</m> still and so <me>C = 1.1 \ast 1.0381^{16} = 1.1 \times 1.0381 \wedge \underline{16} =  2.000874004 \approx 2 \quad \checkmark</me>
@@ -83,27 +80,25 @@
 		Here's the general formula relating the growth rate and growth factor.
 	</p>
 
-	<definition xml:id="def-percent-change-formula-2">
+	<assemblage xml:id="percent-change-formula-2">
 		<title>Percent Change Formula (updated version)</title>
 			
 			
-		<statement>
-			<p>
-				<ul>
-					<li>
-						<p>
-							If a quantity changes by a percentage corresponding to growth rate <m>r</m>, then the growth factor is <me>\displaystyle g=1+r</me>
-						</p>
-					</li>
-					<li>
-						<p>
-							If the growth factor is <m>g</m>, then the growth rate is <me>r = g-1</me>
-						</p>
-					</li>
-				</ul>
-			</p>
-		</statement>
-	</definition>
+		<p>
+			<ul>
+				<li>
+					<p>
+						If a quantity changes by a percentage corresponding to growth rate <m>r</m>, then the growth factor is <me>\displaystyle g=1+r</me>
+					</p>
+				</li>
+				<li>
+					<p>
+						If the growth factor is <m>g</m>, then the growth rate is <me>r = g-1</me>
+					</p>
+				</li>
+			</ul>
+		</p>
+	</assemblage>
 
 	<p>
 		Let's check. We have <m>g=1.0381</m> and so the growth rate is <me>r=g-1 = 1.0381-1 = 0.0381= 3.81\%</me> Not sure we really need these formulas, but there you have it.
@@ -113,7 +108,44 @@
 		By the way, formula works just fine if a quantity decreases by a fixed percent. One example we saw was Joe, who drank too much coffee. The growth (or should I say decay) factor was <m>g=0.87</m>. That corresponds to a growth (decay) rate of <me>r=g-1=0.87-1=-0.83=-13\%</me> Again, the negative means that we have a percent decrease.
 	</p>
 
+	<subsection xml:id="dyk-growth-factor">
+		<title>Do you know ...</title>
+		<p><ul>
+			<li>
+				<p>
+					How to find the growth/decay factor given the starting amount and another point of information?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					How to find the growth/decay factor given the doubling time or half-life?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					When we use the <xref ref="percent-change-formula" text="title"/>, and when we use the <xref ref="growth-factor-formula" text="title"/> instead? <em>Ask your instructor if you need to remember the <xref ref="percent-change-formula" text="title"/> and <xref ref="growth-factor-formula" text="title"/> or if they will be provided during the exam.</em>
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					How to evaluate the <xref ref="percent-change-formula" text="title"/> and <xref ref="growth-factor-formula" text="title"/> using your calcuator?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					How to read the starting amount and percent increase/decrease from the equation?
+				</p>
+			</li>
+		
+		</ul></p>
+		
+		
+	</subsection>
 
-
+	<xi:include href="./homework/ex-Growth_factor.ptx" />
 
 </section>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="ex-Scientific_notation" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Exercises</title>
+
+    <xi:include href="wbx-header.ptx" />
+
+    <page>
+        <exercise workspace="0.5in">
+            <introduction>
+                <p>
+                    In each story, write out the highlighted numbers (with all the zeros).
+                </p>
+            </introduction>
+            <task xml:id="population-prelude-scientific-notation">
+                <statement>
+                    <p>
+                        Melvin was looking at populations based on the 2020 Census and saw the population of Saint Paul, MN listed as <m>\mathbf{3.10942 \times 10^{5}}</m> <term>people</term>. Hint: you can check the answer to this part by evaluating on your calculator.
+                    </p>
+                </statement>
+            </task>
+            <task xml:id="gdp-prelude-scientific-notation">
+                <statement>
+                    <p>
+                        The gross domestic product (GDP) measures the market value of all final goods and services produced by an economy. The United States GDP is approximately <m>\mathbf{\$2.332 \times 10^{13}}</m>. 
+                        <em>(Story also appears in <xref ref="gdp-scientific-notation" />)</em>
+                    </p>
+                </statement>
+            </task>
+            <task xml:id="earth-weight-prelude-scientific-notation">
+                <statement>
+                    <p>
+                        The Earth weighs approximately <m>\mathbf{5.972 \times 10^{24}}</m> <term>kilograms</term>.
+                    </p>
+                    <p>
+                        <em>(Story also appears in <xref ref="planet-weight-scientific-notation" />)</em>
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+        <exercise workspace="0.5in">
+            <introduction>
+                <p>
+                    In each story, write out the highlighted numbers (with all the zeros).
+                </p>
+            </introduction>
+            <task xml:id="alpaca-prelude-scientific-notation">
+                <statement>
+                    <p>
+                        Alpacas have very fine hairs which can be spun into yarn to make very soft sweaters. The width of an alpaca hair is around <m>\mathbf{2.5 \times 10^{-7}}</m> <term>meters</term>. Hint: you can check the answer to this part by evaluating on your calculator.
+                    </p>
+                </statement>
+            </task>
+            <task xml:id="dust-particle-prelude-scientific-notation">
+                <statement>
+                    <p>
+                        A dust particle weighs approximately <m>\mathbf{7.53 \times 10^{-10}}</m> <term>grams</term>. 
+                    </p>
+                    <p>
+                        <em>(Story also appears in <xref ref="dust-particle-scientific-notation"/>)</em>
+                    </p>
+                </statement>
+            </task>
+            <task xml:id="proton-mass-prelude-scientific-notation">
+                <statement>
+                    <p>
+                        A proton (part of an atom) has mass of about <m>\mathbf{1.67262 \times 10^{-27}}</m> <term>kilograms</term>. 
+                    </p>
+                    <p>
+                        <em>(Story also appears in 1.5 Exercises)</em>
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+    </page>
+    
+    <page>
+        <exercise workspace="0.5in">
+            <introduction>
+                <p>
+                    In each story, evaluate the number and report your answer in scientific notation.
+                </p>
+            </introduction>
+            <task xml:id="bunnies-prelude-scientific-notation">
+                <statement>
+                    <p>
+                        Bunnies, bunnies, everywhere. In 2007 there were 1800 and that number was predicted to increase 13% each year. I was trying to predict the number of rabbits in 2023 (after 16 years) but I accidentally typed in 166 years by mistake: <me>1800 \ast 1.13 \wedge 166=</me> Report the answer I got in scientific notation. (Yes, this is a gigantic number. The exponential model I used doesn't actually make sense for that many years.) 
+                    </p>
+                    <p>
+                        <em>
+                            (Story also appears in 
+                            <xref ref="bunnies-first-look-exponential"/> and 
+                            <xref ref="bunnies-modeling-exponential"/>)
+                        </em>
+                    </p>
+                </statement>
+            </task>
+            <task xml:id="fiber-optic-prelude-scientific-notation">
+                <statement>
+                    <p>
+                        A signal is sent down a fiber optic cable. Its strength decreases by 2% each mile it travels. We can calculate the signal strength after 1000 miles by evaluating <me>0.98 \wedge 1000=</me> Report the answer you get in scientific notation. (Yes, this is a teeny number. In reality there would be signal booster installed along the route.) 
+                    </p>
+                    <p>
+                        <em>Story also appears in <xref ref="fiber-optic-growth-decay"/></em>
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+        <exercise workspace="0.5in">
+            <introduction>
+                <p>
+                    In each story, write out the highlighted number (with all the 0s). Note that <term>million</term> is short for <m>\times 10^6</m>, <term>billion</term> is short for <m>\times 10^9</m>, and <term>trillion</term> is short for <m>\times 10^{12}</m>.
+                </p>
+            </introduction>
+            <task xml:id="currency-prelude-scientific-notation">
+                <statement>
+                    <p>
+                        There are approximately <term>1.084 million quarters</term> in circulation in the United States. <em>(Story also appears in 0.1 #4)</em>
+                    </p>
+                </statement>
+            </task>
+            <task xml:id="world-population-prelude-scientific-notation">
+                <statement>
+                    <p>
+                        The population of the world is approximately <term>8.1 billion people</term>. <em>(Story also appears in 0.3 #1)</em>
+                    </p>
+                </statement>
+            </task>
+            <task xml:id="t-bonds-prelude-scientific-notation" workspace="0in">
+                <statement>
+                    <p>
+                        One way that the United States government can borrow money is by selling Treasury bonds (T-bonds). There are approximately <term>$24 trillion</term> worth of T-bonds currently.
+                    </p>
+                </statement>
+            </task>        
+        </exercise>
+    </page>
+   
+    
+
+    <exercise xml:id="billion-seconds-prelude-scientific-notation">
+        <introduction>
+            <p>
+                <em>Story also appears in <xref ref="billion-seconds-scientific-notation"/></em>
+            </p>
+            <aside>
+                <p>
+                    Source: Mathew Foss, North Hennepin Community College
+                </p>
+            </aside>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Convert 1 million seconds into an understandable unit of time.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Billy Bob wants to throw a party when he turns 1 billion seconds old. About how many years old will he be?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <em>Bonus question:</em> On what date were you or will you be 1 billion seconds old? Don't forget leap years!
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise xml:id="planet-weight-prelude-scientific-notation">
+        <introduction>
+            <p>
+                <em>Story also appears in <xref ref="planet-weight-scientific-notation"/></em>
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    The planet Jupiter weighs approximately <m>\mathbf{1.9 \times 10^{27}}</m> <term>kilograms</term>. Write out this number (with all the zeros).
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    The planet Mars weighs approximately <m>\mathbf{6.4 \times 10^{23}}</m> <term>kilograms</term>. Write out this number (with all the zeros).
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Which planet weighs more: Jupiter or Mars? Explain.
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise xml:id="virus-size-prelude-scientific-notation">
+        <introduction>
+            <p>
+                The SARS-CoV-2 virus is approximately 125 nanometers wide which is <m>\mathbf{125 \times 10^{-9}}</m> <term>meters</term> wide.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Write out this number (with all the zeros).
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    The N95 mask captures particles down to 0.3 microns which is <m>\mathbf{3 \times 10^{-6}}</m> <term>meters</term> wide but not smaller. Write out this number (with all the zeros).
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Can the N95 mask capture the SARS-CoV-2 virus? Explain.
+                </p>
+            </statement>
+        </task>
+    </exercise>
+    <exercise xml:id="cells-prelude-scientific-notation">
+        <introduction>
+            <p>
+                Rayka would like to approximate how many cells are in her body. Use the following information: Rayka weighs 140 pounds, <m>1 \text{ gram} \approx 10^{15} \text{ cells}</m> and <m>\text{1,000 grams} \approx \text{2.2 pounds}</m>. <em>Story also appears in <xref ref="cells-scientific-notation"/></em>
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    How many cells are in Rayka's body? Hint: this is a unit conversion question asking you to convert 140 pounds to cells. Write your answer in scientific notation.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Rewrite your answer in the most appropriate unit: millions (<m>10^6</m>), billions (<m>10^9</m>), trillions (<m>10^{12}</m>), quadrillions (<m>10^{15}</m>), or quintillions (<m>10^{18}</m>).
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+</exercises>
+

@@ -110,14 +110,12 @@
 		In this chapter we've seen how to solve linear, power, and exponential equations. Let's solve this equation too. By the way, our function is quadratic because <me>H = 3+15T-16T^2</me> fits the template for a quadratic equation.
 	</p>
 
-	<definition xml:id="def-quadratic-equation-template">
+	<assemblage xml:id="quadratic-equation-template">
 		<title>Quadratic equation template</title>
 			
 			
-		<statement>
-			<me>\text{dep} = a \ast \text{indep}^2 + b \ast\text{indep} + c</me>
-		</statement>
-	</definition>
+		<me>\text{dep} = a \ast \text{indep}^2 + b \ast\text{indep} + c</me>
+	</assemblage>
 
 	<p>
 		with constants <me>a = -16 \quad b = 15 \quad c = 3</me> (More on how we found those numbers in a moment.)
@@ -127,13 +125,14 @@
 		Back to our juggler. We are trying to figure out when <m>H=0</m>. Using our equation <m>H=3+15T-16T^2</m>, we get <me>3+15T-16T^2=0</me> We want to solve for <m>T</m>. Notice that because <m>T</m> occurs twice in the equation, nothing we have seen to do to each side of the equation can knock it down to just one <m>T</m>. That means none of our methods so far work. Luckily there's a way to solve any quadratic equation using the aptly-named <term>Quadratic Formula</term>.
 	</p>
 
-	<definition xml:id="def-quadratic-formula">
-		<statement>
-			<p>
-				The equation <m>aT^2+bT+c=0</m> has solutions <me>T = \frac{-b}{2a} \pm \frac{\sqrt{b^2-4ac}}{2a}</me>
-			</p>
-		</statement>
-	</definition>
+	<assemblage xml:id="quadratic-formula">
+		<title>Quadratic Formula</title>
+		
+		
+		<p>
+			The equation <m>aT^2+bT+c=0</m> has solutions <me>T = \frac{-b}{2a} \pm \frac{\sqrt{b^2-4ac}}{2a}</me>
+		</p>
+	</assemblage>
 
 	<p>
 		Oh my! First thing to understand in this complicated formula is that we actually get two possible answers <me>T = \frac{-b}{2a}+ \frac{\sqrt{b^2-4ac}}{2a} \quad \text{and} \quad T = \frac{-b}{2a} - \frac{\sqrt{b^2-4ac}}{2a}</me> Sometimes one answer makes sense in the story, other times they both might. Stay tuned.
@@ -166,7 +165,7 @@
 	</p>
 
 	<p>
-		Wait a minute! Any good juggler isn't about to let the beanbag fall on the ground. He's going to catch it again, perhaps at about <m>3\tfrac12</m> feet above ground. That means we're looking for <m>H=3.5</m>. Using our equation <m>H=3+15T-16T^2</m>, we get <me>3+15T-16T^2=3.5</me> The <alert>Quadratic Formula</alert> only works if the equation has <m>=0</m>, but we have <m>=3.5</m>. It might seem that we're out of luck, but it's an easy fix. Just subtract 3.5 from each side.
+		Wait a minute! Any good juggler isn't about to let the beanbag fall on the ground. He's going to catch it again, perhaps at about <m>3\tfrac12</m> feet above ground. That means we're looking for <m>H=3.5</m>. Using our equation <m>H=3+15T-16T^2</m>, we get <me>3+15T-16T^2=3.5</me> The <xref ref="quadratic-formula" text="title"/> only works if the equation has <m>=0</m>, but we have <m>=3.5</m>. It might seem that we're out of luck, but it's an easy fix. Just subtract 3.5 from each side.
 		<me>
 			\begin{array}{lcr}
 				\phantom{-3.}3+1.5T-16T^2 \amp = \amp \cancel{3.5} \\
@@ -179,7 +178,7 @@
 	</p>
 
 	<p>
-		We can write the new equation as <me>-16T^2 + 15T -0.5= 0</me> from which we see that <me>a = -16 \quad b = 15</me> as before, but now we have a new value <me>c=-0.5</me> We're all set to use the <alert>Quadratic Formula</alert>.
+		We can write the new equation as <me>-16T^2 + 15T -0.5= 0</me> from which we see that <me>a = -16 \quad b = 15</me> as before, but now we have a new value <me>c=-0.5</me> We're all set to use the <xref ref="quadratic-formula" text="title"/>.
 	</p>
 
 	<p>
@@ -219,7 +218,7 @@
 	</p>
 
 	<p>
-		In general, the graph of <m>H = aT^2+bT+c</m> is a <term>parabola</term>. The two solutions from the <alert>Quadratic Formula</alert> are both places where <m>H=0</m> and, so, the graph crosses the <m>T</m>-axis there. Might not make sense in the real problem, but the equation and formula don't know that. (Okay, equations and formulas don't actually <q>know</q> anything. But you get my point.) Turns out the graph is symmetric about the highest point, so that must be midway in between the roots which is exactly where <me>T =\frac{-b}{2a}</me> Because <m>a</m> is negative, the answer we got by adding is to the left and the answer we got by subtracting is to the right.
+		In general, the graph of <m>H = aT^2+bT+c</m> is a <term>parabola</term>. The two solutions from the <xref ref="quadratic-formula" text="title"/> are both places where <m>H=0</m> and, so, the graph crosses the <m>T</m>-axis there. Might not make sense in the real problem, but the equation and formula don't know that. (Okay, equations and formulas don't actually <q>know</q> anything. But you get my point.) Turns out the graph is symmetric about the highest point, so that must be midway in between the roots which is exactly where <me>T =\frac{-b}{2a}</me> Because <m>a</m> is negative, the answer we got by adding is to the left and the answer we got by subtracting is to the right.
 	</p>
 
 
@@ -231,7 +230,76 @@
 		Our graph was a <m>\cap</m> shaped parabola and so we found a <em>maximum</em> value. The graph of a quadratic function might be <m>\cup</m> shaped instead. In that case evaluating at <m>T=\frac{-b}{2a}</m> would give the <em>minimum</em> value.
 	</p>
 
+	<subsection xml:id="dyk-solving-quadratic">
+		<title>Do you know ...</title>
+
+		<p><ul>
+			<li>
+				<p>
+					What a <q>quadratic</q> function is?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					How to solve a quadratic equation?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					When we use the <xref ref="quadratic-formula" text="title"/>? <em>Ask your instructor if you need to remember the <xref ref="quadratic-formula" text="title"/> or if it will be provided during the exam.</em>
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					How to solve a quadratic equation when the function is not set equal to zero?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					How to identify the values of <m>a, b, c</m> in the formula?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					How to evaluate the formula (using your calculator)?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					Why there are (usually) two solutions to a quadratic equation?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					How to decide which solution(s) from the <xref ref="quadratic-formula" text="title"/> are correct?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					What the graph of a quadratic function looks like?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					The value for the independent variable to find the highest (or lowest) value of a quadratic function?
+				</p>
+			</li>
+		
+		</ul></p>
 
 
+		
+	</subsection>
+
+	<xi:include href="./homework/ex-Solving_quadratic_equations.ptx" />
 
 </section>

@@ -157,18 +157,66 @@
 		Bet you see how this idea of roots generalizes. The <term><m>n</m>th root</term> of a number is whatever number you would raise to the <m>n</m>th power to get the number. Stated in terms of equations we have
 	</p>
 
-	<definition xml:id="def-root-formula">
+	<assemblage xml:id="root-formula">
 		<title>Root Formula</title>
 			
 			
-		<statement>
-			<p>
-				The equation <m>C^n=v</m> has solution <me>C= \sqrt[n]{v}</me>
-			</p>
-		</statement>
-	</definition>
+		<p>
+			The equation <m>C^n=v</m> has solution <me>C= \sqrt[n]{v}</me>
+		</p>
+	</assemblage>
 
+	<subsection xml:id="dyk-solving-power">
+		<title>Do you know ...</title>
 
+		<p><ul>
+			<li>
+				<p>
+					What a <q>power</q> equation is?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					What we mean by square root, cube root, and <m>n</m>th root?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					How to calculate square roots, cube roots, and <m>n</m>th roots on your calculator?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					How to evaluate the <xref ref="root-formula" text="title"/> on your calculator?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					When to use the <xref ref="root-formula" text="title"/>? <em>Ask your instructor if you need to remember the <xref ref="root-formula" text="title"/> or it will be provided during the exam.</em>
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					How to solve a power equation?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					What the graph of a power function looks like?
+				</p>
+			</li>
+		
+		</ul></p>
+		
+	</subsection>
+
+	<xi:include href="./homework/ex-Solving_power_equations.ptx" />
 
 
 </section>

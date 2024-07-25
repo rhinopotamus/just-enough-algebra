@@ -32,7 +32,6 @@
 		The bad news is that it's 7:00 a.m. and Joe is still too jittery to sleep. The good news is that we can write the equation. The variables are
 	</p>
 
-!-- div attr= class="center"-->
 	<tabular bottom="minor" top="minor">
 		<row left="minor" class="odd">
 			<cell right="minor" halign="left"><m>J=</m> Joe's caffeine level (mg) <m>\sim</m> dep</cell>
@@ -40,21 +39,20 @@
 		<row left="minor" class="even">
 			<cell right="minor" halign="left"><m>H =</m> time (hours since 2:00 a.m.) <m>\sim</m> indep</cell>
 		</row>
-	</tabular><!--</div attr= class="center">-->
+	</tabular>
 
 	<p>
 		Our equation must be <me>J = 1,000 \ast0.87^H</me> Notice this equation fits our template for an exponential equation. <me>\text{dep }=\text{ start } \ast \text{growth factor}^{\text{indep}}</me>
 	</p>
 
 	<p>
-		A little terminology here. When a function is exponential but decreasing, it's called <term>exponential decay</term>. It sounds a little odd to say <q>growth factor</q> if the quantity is getting smaller so we sometimes say <term>decay factor</term> instead. We know from the <alert>Percent Change Formula</alert> that the growth factor (<m>g</m>) can be found from the growth rate (r) by the formula <m>g=1+r</m>. If we think of 13% decrease as negative growth rate, <m>r=-13\%=-0.13</m>, then the formula still works to find the decay factor (<m>g</m>) <me>g= 1 + r = 1 + -0.13 = 1-0.13 = 0.87</me>
+		A little terminology here. When a function is exponential but decreasing, it's called <term>exponential decay</term>. It sounds a little odd to say <q>growth factor</q> if the quantity is getting smaller so we sometimes say <term>decay factor</term> instead. We know from the <xref ref="percent-change-formula" text="title"/> that the growth factor (<m>g</m>) can be found from the growth rate (r) by the formula <m>g=1+r</m>. If we think of 13% decrease as negative growth rate, <m>r=-13\%=-0.13</m>, then the formula still works to find the decay factor (<m>g</m>) <me>g= 1 + r = 1 + -0.13 = 1-0.13 = 0.87</me>
 	</p>
 
 	<p>
 		Back to jittery Joe. Let's summarize what we've found and add a few more times to see when Joe's caffeine level should fall below 300 mg.
 	</p>
 
-!-- div attr= class="center"-->
 	<tabular bottom="minor" top="minor">
 		<row left="minor" class="odd">
 			<cell right="minor" halign="center">time</cell>
@@ -108,7 +106,7 @@
 			<cell right="minor" halign="center">high</cell>
 			<cell right="minor" halign="center">low</cell>
 		</row>
-	</tabular><!--</div attr= class="center">-->
+	</tabular>
 
 	<p>
 		That means Joe should be able to fall asleep by around 11:00 a.m. Exactly when his exam starts. Sorry, Joe.
@@ -119,7 +117,7 @@
 	</p>
 
 	<p>
-		We find ourselves in the familiar situation – solving to find the exponent. Logs to the rescue. By the <alert>The Log-Divides Formula</alert> with growth factor <m>g=0.87</m> and value <m>v= 0.3</m> we get <me>Y =  \frac{\log (v)}{\log(g)}=  \frac{\log (0.3)}{\log(0.87)} =  \log (0.3) \div \log (0.87) =  8.64537506\ldots \approx 9</me> which corresponds to 11:00 a.m. Same answer. Much quicker.
+		We find ourselves in the familiar situation – solving to find the exponent. Logs to the rescue. By the <xref ref="log-divides-formula" text="title"/> with growth factor <m>g=0.87</m> and value <m>v= 0.3</m> we get <me>Y =  \frac{\log (v)}{\log(g)}=  \frac{\log (0.3)}{\log(0.87)} =  \log (0.3) \div \log (0.87) =  8.64537506\ldots \approx 9</me> which corresponds to 11:00 a.m. Same answer. Much quicker.
 	</p>
 
 	<p>
@@ -156,4 +154,43 @@
 	<p>
 		Doesn't sound very important but check this out. Start with 1,000 mg. After 5 hours, there's 500 mg left. (Okay, approximately.) Now go another 5 hours, which means 10 hours total. Evaluate our equation <m>J = 1,000 \ast 0.87^H</m> when <m>H =10</m> to get <me>J = 1,000 \ast 0.87^{10} = 1,000 \ast 0.87 \wedge \underline{10} = 248.423414\ldots \approx 250 \text{ mg}</me> That means half of what was left is now gone. Go another 5 hours. Lose another half. Check for yourself: <me>J = 1,000 \ast 0.87^{15} = 1,000 \ast 0.87 \wedge \underline{15} = 123.819426\ldots \approx 125 \text{ mg}</me> And so on. Cool.
 	</p>
+
+	<subsection xml:id="dyk-growth-decay">
+		<title>Do you know ...</title>
+		<p><ul>
+			<li>
+				<p>
+					How to write an exponential equation given the starting amount and percent decrease?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					What <q>half-life</q> means?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					What <q>doubling time</q> means?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					What the graph of exponential growth and exponential decay look like?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					Why the rate of change for exponential decay is negative?
+				</p>
+			</li>
+		
+		</ul></p>
+		
+	</subsection>
+
+	<xi:include href="./homework/ex-Exp_growth_decay.ptx" />
 </section>

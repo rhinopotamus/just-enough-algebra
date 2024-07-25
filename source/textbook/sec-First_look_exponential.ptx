@@ -44,16 +44,14 @@
 		A little terminology before we move on. A percentage increase is known as the <term>growth rate</term> and the number we multiply in the one-step method is called the <term>growth factor</term>. For example, in calculating 15% increase, the growth rate was <m>15\%=0.15</m> in decimal, and so the growth factor was <me>115\%=1.15</me> If you're into formulas here it is.
 	</p>
 
-	<definition xml:id="def-percent-change-formula">
+	<assemblage xml:id="percent-change-formula">
 		<title>Percent change formula</title>
 		
 		
-		<statement>
-			<p>
-				If a quantity increases by a percentage corresponding to growth rate 	<m>r</m>, then the growth factor is <me>\displaystyle g=1+r</me>
-			</p>
-		</statement>
-	</definition>
+		<p>
+			If a quantity increases by a percentage corresponding to growth rate 	<m>r</m>, then the growth factor is <me>\displaystyle g=1+r</me>
+		</p>
+	</assemblage>
 
 	<p>
 		We had <m>r=0.15</m> and so <me>g=1+r=1+0.15=1.15</me>
@@ -140,14 +138,12 @@
 		Look back at our equation <me>H = 2.26\ast 1.067^{Y}</me> This type of equation is called an <term>exponential equation</term> because the independent variable is in the exponent. Any exponential equation fits this template.
 	</p>
 
-	<definition xml:id="def-exp-eqn-template">
+	<assemblage xml:id="exp-eqn-template">
 		<title>Exponential equation template</title>
 		
 		
-		<statement>
-			<p><me>\text{dep} = \text{start} \ast \text{growth factor} ^ {\text{indep}}</me></p>
-		</statement>
-	</definition>
+		<p><me>\text{dep} = \text{start} \ast \text{growth factor} ^ {\text{indep}}</me></p>
+	</assemblage>
 
 	<p>
 		Notice our two variables are in our equation and there are two constants. Each constant has its own meaning. The first constant is 2.26 and it is measured in trillions of dollars. It is the amount spent on health care in the starting year of 2007. In our standard form we refer to this quantity as the <term>starting value</term> (or <term>start</term> for short). As with linear equations, it's official name is <term>intercept</term> and it's the value where the curve crosses the vertical axis on the graph.
@@ -161,6 +157,50 @@
 		Sometimes the graph of an exponential equation looks a lot like a line, especially if you only plot a few points. So, be sure to plot five or more points to see the curve in the graph of an exponential equation.
 	</p>
 
+	<subsection xml:id="dyk-first-look-exponential">
+		<title>Do you know...</title>
+		<p><ul>
+			<li>
+				<p>
+					How to find the growth factor if you know the percent increase?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					How to calculate percent increase in one step?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					What makes a function exponential?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					The template for an exponential equation? <em>Ask your instructor if you need to remember the template or if it will be provided during the exam.</em>
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					Where the starting value and growth factor appear in the template for an exponential equation?
+				</p>
+			</li>
+		
+			<li>
+				<p>
+					What the graph of an exponential function looks like?
+				</p>
+			</li>
+		
+		</ul></p>
+		
+	</subsection>
+
+	<xi:include href="./homework/ex-First_look_exponential.ptx" />
 
 	
 
