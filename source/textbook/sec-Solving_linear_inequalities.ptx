@@ -67,7 +67,7 @@
 	</p>
 
 	<p>
-		For example, we can swap sides of an equation, but if we swap sides of an inequality then the direction of the sign reverses. In this brownie example, we want <me>F \ge 325</me> Remember <m>\ge</m> stands for <term>greater than or equal to</term>. That's like <q>big</q> <m>\ge</m> <q>little.</q> We can rewrite that inequality as <q>little</q> <m>\le</m> `̀big,” or equivalently <me>325 \le F</me> In each case, <m>325</m> is <q>little</q> and <m>F</m> is <q>big</q>. Make sense?
+		For example, we can swap sides of an equation, but if we swap sides of an inequality then the direction of the sign reverses. In this brownie example, we want <me>F \ge 325</me> Remember <m>\ge</m> stands for <term>greater than or equal to</term>. That's like <q>big</q> <m>\ge</m> <q>little.</q> We can rewrite that inequality as <q>little</q> <m>\le</m> <q>big,</q> or equivalently <me>325 \le F</me> In each case, <m>325</m> is <q>little</q> and <m>F</m> is <q>big</q>. Make sense?
 	</p>
 
 	<p>

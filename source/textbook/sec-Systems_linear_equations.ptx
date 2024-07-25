@@ -156,7 +156,7 @@
 	</p>
 
 	<p>
-		There is a way for Quia Xun to solve the problem symbolically; we refer to this process as <term>solving the system</term>. She wants to find the number of locks where <me>\text{cost of Machine #1} = \text{cost of Machine #2}</me> Using her equations <m>E  =3,200 + 1.25L</m> for Machine #1 and <m>E  =5,400 + 0.80L</m> for Machine #2 she has <me>3,200 + 1.25L=5,400 + 0.80L</me> She wants to find the value of <m>L</m> that makes both sides the same number. To solve, Quia Xun subtracts 3,200, the smaller of the two purchase prices, from each side to get 
+		There is a way for Quia Xun to solve the problem symbolically; we refer to this process as <term>solving the system</term>. She wants to find the number of locks where <me>\text{cost of Machine \#1} = \text{cost of Machine \#2}</me> Using her equations <m>E  =3,200 + 1.25L</m> for Machine #1 and <m>E  =5,400 + 0.80L</m> for Machine #2 she has <me>3,200 + 1.25L=5,400 + 0.80L</me> She wants to find the value of <m>L</m> that makes both sides the same number. To solve, Quia Xun subtracts 3,200, the smaller of the two purchase prices, from each side to get 
 		<me>
 			\begin{array}{lcl}
 			\phantom{-}\cancel{3,200}+1.25L \amp = \amp \phantom{-}5,400+0.80L \\
@@ -178,7 +178,7 @@
 	</p>
 
 	<p>
-		She solved an equation here, but Quia Xun really wanted to know when <me>\text{Machine #1} \ge \text{Machine #2}</me> so she could have solved the inequality <me>3,200 + 1.25L \ge 5,400 + 0.80L</me> instead. Check that the same steps give <me>L \ge 4,889 \text{ locks}</me>.
+		She solved an equation here, but Quia Xun really wanted to know when <me>\text{Machine \#1} \ge \text{Machine \#2}</me> so she could have solved the inequality <me>3,200 + 1.25L \ge 5,400 + 0.80L</me> instead. Check that the same steps give <me>L \ge 4,889 \text{ locks}</me>.
 	</p>
 
 	<subsection xml:id="dyk-systems-linear">

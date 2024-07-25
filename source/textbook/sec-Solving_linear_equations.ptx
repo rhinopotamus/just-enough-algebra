@@ -119,9 +119,6 @@
 
 	<p>
 		The first thing we did was subtract the $100 trip charge. In this formal method, we subtract 100 from each side of our equation. If the left-hand side and the right-hand side are the same number, then they will still be equal when we take away 100 from each side. We get 
-		<me>
-			
-		</me>
 		
 		<md alignment="alignat">
 			<mrow>\cancel{100}\amp + 75T \amp =\amp  278.75 </mrow>

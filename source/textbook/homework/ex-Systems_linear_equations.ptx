@@ -338,16 +338,15 @@
 			<p>
 				Just when Quia Xun thought she had things figured out, another possible option emerged. She can outsource her lock production to a different plant at the cost of $1.55 per lock. While that's more expensive per lock, it avoids having to buy a machine at all. Recall her first two options were
 			</p>
-			
-	
+
 			<tabular bottom="minor" top="minor">
 				<row left="minor" class="odd">
-					<cell right="minor" halign="left"><me>\textbf{Machine \#1:} &amp; E  =3,200 + 1.25L</me></cell>
-					<cell right="minor" halign="left"></cell>
+					<cell right="minor" halign="left"><term>Machine #1:</term></cell>
+					<cell right="minor" halign="left"><m>E  =3,200 + 1.25 L</m></cell>
 				</row>
 				<row left="minor" class="even">
-					<cell right="minor" halign="left"><me>\textbf{Machine \#2:} &amp; E  =5,400 + 0.80L</me></cell>
-					<cell right="minor" halign="left"></cell>
+					<cell right="minor" halign="left"><term>Machine #2:</term></cell>
+					<cell right="minor" halign="left"><m>E  =5,400 + 0.80 L</m></cell>
 				</row>
 			</tabular>
 			

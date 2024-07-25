@@ -26,7 +26,7 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
 
 <!-- Conveniences for classes of similar elements -->
 <!DOCTYPE xsl:stylesheet [
-    <!ENTITY % entities SYSTEM "../entities.ent">
+    <!ENTITY % entities SYSTEM "./core/entities.ent">
     %entities;
 ]>
 
@@ -45,6 +45,7 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
 <xsl:output method="text" />
 
 <!-- header customization -->
+
 <xsl:template match="book" mode="titleps-style">
     <xsl:text>%% Plain pages should have the same font for page numbers&#xa;</xsl:text>
     <xsl:text>\renewpagestyle{plain}{%&#xa;</xsl:text>
@@ -66,11 +67,63 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
 
 <!-- override the weird margins that pretext says, -->
 <!-- but keep the workspace struts-->
+
 <xsl:template match="worksheet" mode="new-geometry">
 </xsl:template>
 
+<!-- make <exercises> respect <page> -->
+
+<xsl:template match="exercises/page|worksheet/page">
+    <xsl:apply-templates/>
+    <xsl:if test="following-sibling::page and $b-latex-worksheet-formatted">
+        <xsl:text>\clearpage&#xa;</xsl:text>
+    </xsl:if>
+</xsl:template>
+
+<!-- make <exercises> respect @workspace -->
+
+<!-- This template is called for items in a worksheet that can have a  -->
+<!-- workspace specified.  It is important that this sometimes returns -->
+<!-- an empty string, since that is a signal to not construct some     -->
+<!-- surrounding infrastructure to implement the necessary space.      -->
+<xsl:template match="&PROJECT-LIKE;|exercise|task" mode="sanitize-workspace">
+    <!-- bail out if at a "task" that is not a terminal task -->
+    <!-- bail out if publisher file says to not format worksheets        -->
+    <!-- NB: a blank workspace is used as a signal in "divisionexercise" -->
+    <!--     in LaTeX conversion, via parameter #3 of the  environment   -->
+    <xsl:if test="not(child::task) and ($latex-worksheet-formatted = 'yes')">
+        <!-- First element with @workspace -->
+        <!-- Could be empty node-set, which will be empty string later -->
+        <xsl:variable name="workspaced" select="ancestor-or-self::*[@workspace][1]"/>
+        <xsl:variable name="raw-workspace" select="normalize-space($workspaced/@workspace)"/>
+        <xsl:choose>
+            <!-- bail out empty if empty or absent -->
+            <xsl:when test="$raw-workspace = ''"/>
+            <!-- old-style fraction of a page, indicated by a % at end   -->
+            <!-- warn and convert to inches based on 10-inch page height -->
+            <!-- ( (percent div 100) * 10 inch = div 10 )                -->
+            <xsl:when test="substring($raw-workspace, string-length($raw-workspace) - 0) = '%'">
+                <xsl:variable name="approximate-inches" select="concat(substring($raw-workspace, 1, string-length($raw-workspace) - 1) div 10, 'in')"/>
+                <xsl:value-of select="$approximate-inches"/>
+                <xsl:message>PTX:ERROR:  as of 2020-03-17 worksheet exercises' workspace should be specified in 'in' or in 'cm'.  Approximating a page fraction of <xsl:value-of select="@workspace"/> by <xsl:value-of select="$approximate-inches"/>.</xsl:message>
+                <xsl:apply-templates select="." mode="location-report"/>
+            </xsl:when>
+            <xsl:when test="substring($raw-workspace, string-length($raw-workspace) - 1) = 'in'">
+                <xsl:value-of select="$raw-workspace"/>
+            </xsl:when>
+            <xsl:when test="substring($raw-workspace, string-length($raw-workspace) - 1) = 'cm'">
+                <xsl:value-of select="$raw-workspace"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:message>PTX:ERROR:  a worksheet exercises', project-likes' or tasks' workspace should be specified with units of 'in' or 'cm', and not as "<xsl:value-of select="@workspace"/>".  Using a default of "2in".</xsl:message>
+                <xsl:text>2in</xsl:text>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:if>
+</xsl:template>
 
 <!-- make it so the enums in tasks are in regular font not bold -->
+
 <xsl:template match="exercise|task" mode="begin-task-list">
     <xsl:text>\begin{enumerate}[label=</xsl:text>
     <xsl:choose>

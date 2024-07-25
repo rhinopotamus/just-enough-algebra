@@ -239,10 +239,14 @@
 		To answer Tara's question about how many hairs in an inch, we recall that <me>1 \text{ inch} \approx 2.54 \text{ cm}</me> where cm is short for centimeter. Ready to convert? 
 		<me>
 			1 \cancel{\text{ inch}} 
-			\ast \frac{ 2.54 \cancel{\text{ cm}} }{1 \cancel{\text{ inch}}}
-			\ast \frac{1 \cancel{\text{ meter}}}{100 \cancel{\text{ cm}}}
-			\ast \frac{\text{1,000,000  \cancel{\mu m}}}{1 \cancel{\text{ meter}}}
-			\ast \frac{1 \text{ hair}}{120 \cancel{\mu m}}
+			\ast \frac{ 2.54 \cancel{\text{ cm}} }
+			          {1 \cancel{\text{ inch}}}
+			\ast \frac{1 \cancel{\text{ meter}}}
+			          {100 \cancel{\text{ cm}}}
+			\ast \frac{1,000,000  \cancel{\mu m}}
+			          {1 \cancel{\text{ meter}}}
+			\ast \frac{1 \text{ hair}}
+			          {120 \cancel{\mu m}}
 		</me> 
 		<me>
 			= 2.54 \div 100 \times 1,000,000 \div 120 
