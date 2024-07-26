@@ -3,7 +3,7 @@
 <chapter xml:id="ch-tx-Equations" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Equations</title>
 
-    <introduction>
+    <introduction component="html">
         <p>
             For most of us the word <q>algebra</q> brings to mind equations, formulas, and all those symbols.  One chapter into a book on algebra and we haven't seen any equations.  What gives?
         </p>

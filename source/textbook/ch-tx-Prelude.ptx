@@ -4,7 +4,7 @@
 <chapter xml:id="ch-tx-Prelude" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Prelude</title>
 
-	<introduction>
+	<introduction component="html">
 		<p>
 			You have been learning and using mathematics your entire life. And not just in school. At home, on the job, and as you go about your day. Perhaps you were pretty good at math in school, or perhaps it was a huge struggle for you, or something in between. You might be upset that you have to take another math class or you might be optimistic that this time around it's gonna make sense - I'm hoping it will!
 		</p>
