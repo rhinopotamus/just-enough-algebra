@@ -3,19 +3,20 @@
 <exercises xml:id="ex-Percentages" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Exercises</title>
 
+    <xi:include href="ex-intro.ptx" />
+
     <introduction>
         <p>
             On each problem, write down what you enter into your calculator and don't forget to write the units on your final answer. You are welcome to calculate the answer step-by-step but challenge yourself to figure out the answer all at once, not hitting <m>=</m> on your calculator until the very end.
         </p>
     </introduction>
 
-    <xi:include href="ex-intro.ptx" />
-
     <page>
         <exercise xml:id="world-population-percentages" workspace="1in">
             <introduction>
                 <p>
                     As I write this problem, the population of the world is 8,056,959,718 people (just over 8 billion). It changes by the second, so let's use the round figure of 8,100,000,000.
+                    <em>(Story also appears in <xref ref="world-population-percentages"/>)</em>
                 </p>
             </introduction>
             <task>
@@ -120,7 +121,7 @@
 
     
 
-    <exercise xml:id="check-thang-percentages">
+    <exercise xml:id="check-thang-percentages" component="html">
         <task>
             <statement>
                 <p>
@@ -137,7 +138,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="food-shelf-percentages">
+    <exercise xml:id="food-shelf-percentages" component="html">
         <statement>
             <p>
                 Donations to a local food shelf have increased 35% over last year. There were 3,400 pounds of food donated last year. How many pounds of food were donated this year?
@@ -149,7 +150,7 @@
         </statement>
     </exercise>
 
-    <exercise xml:id="caffeine-percentages">
+    <exercise xml:id="caffeine-percentages" component="html">
         <statement>
             <p>
                 Ceyda starts the day by downing two cans of Red Bull, containing a total of 160 mg of caffeine. Her body eliminates the caffeine at the rate of 12% each hour. How much caffeine is left in her blood after 1 hour? <em>Story also appears in <xref ref="caffeine-growth-decay"/></em>
@@ -157,7 +158,7 @@
         </statement>
     </exercise>
 
-    <exercise xml:id="salt-intake-percentages">
+    <exercise xml:id="salt-intake-percentages" component="html">
         <introduction>
             <p>
                 Too much salt can be difficult for your body. The Centers for Disease Control and Prevention (CDC) suggest that adults limit their daily intake of Sodium to a maximum of 2,300 mg per day.
@@ -179,7 +180,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="house-value-percentages">
+    <exercise xml:id="house-value-percentages" component="html">
         <statement>
             <p>
                 Tenzin bought a house for $291,900 but the housing market collapsed and his house value dropped 4.1% since he bought it. What is Tenzin's house worth now?
@@ -191,7 +192,7 @@
         </statement>
     </exercise>
 
-    <exercise xml:id="raises-percentages">
+    <exercise xml:id="raises-percentages" component="html">
         <introduction>
             <p>
                 <em>Story also appears in <xref ref="raises-first-look-exponential"/></em>

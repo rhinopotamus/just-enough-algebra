@@ -62,7 +62,7 @@
 
     
 
-    <exercise xml:id="precip-predict-algebraic-notation">
+    <exercise xml:id="precip-predict-algebraic-notation" component="html">
         <introduction>
             <p>
                 There were two different predictions of total precipitation.
@@ -85,7 +85,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="walnut-tree-algebraic-notation">
+    <exercise xml:id="walnut-tree-algebraic-notation" component="html">
         <introduction>
             <p>
                 When the Nussbaums planted a walnut tree it was 5 feel tall. It has grown around 2 feet a year. If we know that it's been <m>Y</m> years since they planted the tree, we can figure out that the height of the tree is <m>5+2Y</m> feet.
@@ -111,12 +111,15 @@
         </task>
     </exercise>
 
-    <exercise xml:id="sterling-silver-algebraic-notation">
+    <exercise xml:id="sterling-silver-algebraic-notation" component="html">
         <introduction>
             <p>
-                A set of sterling silverware was valued at $800 in 1920, and the value increased around 3% per year thereafter. We can calculate the value of the silverware after <m>Y</m> years as <m>800 *1.03 ^ Y</m>. <em>Story also appears in
+                A set of sterling silverware was valued at $800 in 1920, and the value increased around 3% per year thereafter. We can calculate the value of the silverware after <m>Y</m> years as <m>800 *1.03 ^ Y</m>. 
+            </p>
+            <p>
+                <em>(Story also appears in
                     <xref ref="sterling-silver-powers-roots"/> and
-                    <xref ref="sec-Modeling_exponential_equations"/></em>
+                    <xref ref="sec-Modeling_exponential_equations"/>)</em>
             </p>
         </introduction>
         <task>
@@ -148,10 +151,13 @@
             </statement>
         </task>
     </exercise>
-    <exercise xml:id="bass-fishing-algebraic-notation">
+    <exercise xml:id="bass-fishing-algebraic-notation" component="html">
         <introduction>
             <p>
-                The lake by Rodney's condo was stocked with bass (fish) 10 years ago. There were initially 400 bass introduced. <em>Story also appears in <xref ref="bass-fishing-solving-power"/> and <xref ref="bass-fishing-logistic-growth"/></em>
+                The lake by Rodney's condo was stocked with bass (fish) 10 years ago. There were initially 400 bass introduced. 
+            </p>
+            <p>
+                <em>(Story also appears in <xref ref="bass-fishing-solving-power"/> and <xref ref="bass-fishing-logistic-growth"/>)</em>
             </p>
         </introduction>
         <task>
@@ -176,10 +182,13 @@
             </statement>
         </task>
     </exercise>
-    <exercise xml:id="classroom-observation-algebraic-notation">
+    <exercise xml:id="classroom-observation-algebraic-notation" component="html">
         <introduction>
             <p>
-                Zahra needs to complete 62 more hours of classroom observation before she is eligible to student teach. She plans to observe at a local school on Thursdays from 8:00 AM-1:30 PM, which is 5.5 hours/week. After <m>W</m> weeks, Zahra will have <m>62-5.5W</m> hours left. <em>Story appears in <xref ref="sec-Arithmetic_operations"/></em>
+                Zahra needs to complete 62 more hours of classroom observation before she is eligible to student teach. She plans to observe at a local school on Thursdays from 8:00 AM-1:30 PM, which is 5.5 hours/week. After <m>W</m> weeks, Zahra will have <m>62-5.5W</m> hours left.
+            </p>
+            <p>
+                <em>(Story also appears in <xref ref="sec-Arithmetic_operations"/>)</em>
             </p>
         </introduction>
         <task>
@@ -204,14 +213,14 @@
             </statement>
         </task>
     </exercise>
-    <exercise xml:id="needlepoint-algebraic-notation">
+    <exercise xml:id="needlepoint-algebraic-notation" component="html">
         <introduction>
             <p>
                 Saboor is working on a needlepoint that will be 1 foot by 1 foot square. The mesh grid comes in different sizes. For example, a 13-count mesh has 13 holes per inch which is <m>13 \times 12=156</m> holes per foot. If she uses a 13-count mesh, then the piece will have <m>156 \times 156 = 156 \land 2 = 24,336</m> holes. There are other sizes mesh to choose from. A <m>C</m>-count mesh has <m>12C</m> holes per foot and <m>(12C)^2</m> holes total.
             </p>
             
             <p>
-                <em>Story also appears in <xref ref="needlepoint-powers-roots"/> 0.6 #7</em>
+                <em>(Story also appears in <xref ref="needlepoint-powers-roots"/>)</em>
             </p>
         </introduction>
         <task>

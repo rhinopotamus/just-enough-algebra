@@ -320,6 +320,11 @@
 			<p>
 				Darcy likes to use temporary hair color in wild colors. Good thing it washes out. Her best guess is that 8% of the color washes out each time she washes her hair. That means the percentage of color remaining, <m>C</m>, is a function of the number of times she washes her hair, <m>W</m>, according to the equation <me>C=100 \ast 0.92^W</me>
 			</p>
+			<p>
+				<em>
+					(Story also appears in <xref ref="hair-color-logarithms"/>)
+				</em>
+			</p>
 		</introduction>	
 		<task>
 			<statement>

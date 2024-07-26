@@ -101,7 +101,9 @@
                         A signal is sent down a fiber optic cable. Its strength decreases by 2% each mile it travels. We can calculate the signal strength after 1000 miles by evaluating <me>0.98 \wedge 1000=</me> Report the answer you get in scientific notation. (Yes, this is a teeny number. In reality there would be signal booster installed along the route.) 
                     </p>
                     <p>
-                        <em>Story also appears in <xref ref="fiber-optic-growth-decay"/></em>
+                        <em>(Story also appears in
+                            <xref ref="fiber-optic-powers-roots"/> and
+                            <xref ref="fiber-optic-growth-decay"/>)</em>
                     </p>
                 </statement>
             </task>
@@ -115,14 +117,15 @@
             <task xml:id="currency-prelude-scientific-notation">
                 <statement>
                     <p>
-                        There are approximately <term>1.084 million quarters</term> in circulation in the United States. <em>(Story also appears in 0.1 #4)</em>
+                        There are approximately <term>1.084 million quarters</term> in circulation in the United States. 
+                        <em>(Story also appears in <xref ref="currency-approx-rounding"/>)</em>
                     </p>
                 </statement>
             </task>
             <task xml:id="world-population-prelude-scientific-notation">
                 <statement>
                     <p>
-                        The population of the world is approximately <term>8.1 billion people</term>. <em>(Story also appears in 0.3 #1)</em>
+                        The population of the world is approximately <term>8.1 billion people</term>. <em>(Story also appears in <xref ref="world-population-percentages"/>)</em>
                     </p>
                 </statement>
             </task>
@@ -232,7 +235,7 @@
     <exercise xml:id="cells-prelude-scientific-notation">
         <introduction>
             <p>
-                Rayka would like to approximate how many cells are in her body. Use the following information: Rayka weighs 140 pounds, <m>1 \text{ gram} \approx 10^{15} \text{ cells}</m> and <m>\text{1,000 grams} \approx \text{2.2 pounds}</m>. <em>Story also appears in <xref ref="cells-scientific-notation"/></em>
+                Rayka would like to approximate how many cells are in her body. Use the following information: Rayka weighs 140 pounds, <m>1 \text{ gram} \approx 10^{15} \text{ cells}</m> and <m>\text{1,000 grams} \approx \text{2.2 pounds}</m>. <em>(Story also appears in <xref ref="cells-scientific-notation"/>)</em>
             </p>
         </introduction>
         <task>

@@ -66,10 +66,15 @@
     </page>
     
     <page>    
-        <exercise workspace="2in">
+        <exercise xml:id="fiber-optic-powers-roots" workspace="2in"> 
             <statement>
                 <p>
                     A signal sent down a fiber optic cable decreases by 2% per mile. That means after <m>M</m> miles, its strength is <m>\underbrace{0.98 \times 0.98 \times \cdots \times 0.98}_{M \text{ times}} = 0.98 \land M</m>. What is the signal strength after 10 miles? After 20 miles? Note: your answers should be decimal numbers less than 1.
+                    <em>
+                        (Story also appears in
+                        <xref ref="fiber-optic-prelude-scientific-notation"/> and
+                        <xref ref="fiber-optic-growth-decay"/>)
+                    </em>
                 </p>
             </statement>
         </exercise>
@@ -98,7 +103,7 @@
 
     
 
-    <exercise xml:id="bead-cube-powers-roots">
+    <exercise xml:id="bead-cube-powers-roots" component="html">
         <introduction>
             <p>
                 Remember Noah's mom from our story? She was making a glass box that is <m>n \times n \times n</m> where the length <m>n</m> is measured in inches.
@@ -126,17 +131,20 @@
             </statement>
         </task>
     </exercise>
-    <exercise xml:id="creeping-charlie-powers-roots">
+    <exercise xml:id="creeping-charlie-powers-roots" component="html">
         <statement>
             <p>
                 Creeping Charlie is a low-growing weed that spreads quickly, doubling the area it covers each year. If there are 7 square feet of Creeping Charlie in my lawn now, how much of my lawn will be covered by Creeping Charlie in 1 year? In 2 years? In 10 years? (Try to answer that last one using powers.)
             </p>
         </statement>
     </exercise>
-    <exercise xml:id="needlepoint-powers-roots">
+    <exercise xml:id="needlepoint-powers-roots" component="html">
         <introduction>
             <p>
                 Saboor is working on a needlepoint that will be a 1 foot by 1 foot square. The mesh grid comes in different sizes. For example, a 13-count mesh has 13 holes per inch which is <m>13 \times 12 =  156</m> holes per foot. If she uses a 13-count mesh, then the piece will have <m>156 \times 156 = 156 \land 2 = 24,336</m> holes.
+            </p>
+            <p>
+                <em>(Story also appears in <xref ref="needlepoint-algebraic-notation"/>)</em>
             </p>
         </introduction>
         <task>
@@ -154,10 +162,13 @@
             </statement>
         </task>
     </exercise>
-    <exercise xml:id="sterling-silver-powers-roots">
+    <exercise xml:id="sterling-silver-powers-roots" component="html">
         <introduction>
             <p>
-                A set of sterling silverware was valued at $800 in 1920, and the value increased by around 3% per year thereafter. <em>Story appears in <xref ref="sec-Modeling_exponential_equations"/> and <xref ref="sterling-silver-modeling-exponential"/>.</em>
+                A set of sterling silverware was valued at $800 in 1920, and the value increased by around 3% per year thereafter. 
+            </p>
+            <p>
+                <em>(Story also appears in <xref ref="sec-Modeling_exponential_equations"/> and <xref ref="sterling-silver-modeling-exponential"/>)</em>
             </p>
         </introduction>
         <task>
