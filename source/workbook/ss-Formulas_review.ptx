@@ -35,7 +35,7 @@
 
 			<li>
 						<p>
-							If the growth factor is <m>g</m>, then the growth rate is <me>r = g-1</me>  
+							If the growth factor is <m>g</m>, then the growth rate is <me>r = g-1</me>
 						</p>
 			</li>
 
@@ -47,10 +47,6 @@
 
 		<p>
 			If a quantity is growing (decaying) exponentially, then the growth (decay) factor is <me>\displaystyle g = \sqrt[t]{\frac{a}{s}}</me> where <m>s</m> is the starting amount and <m>a</m> is the amount after <m>t</m> time periods.
-		</p>
-
-		<p>
-				 
 		</p>
 
 	</subsection>

@@ -216,7 +216,13 @@
 	<exercise xml:id="social-security-modeling-exponential"> 
 		<introduction>
 			<p>
-				Mrs. Nystrom's Social Security benefit was $746.17/month when she retired from teaching in 2009. She had taught in elementary school since I was a girl. Benefits have increased by 4% per year. <em>Story also appears in <xref ref="social-security-variables-functions"/> and <xref ref="social-security-tables-graphs"/></em>
+				Mrs. Nystrom's Social Security benefit was $746.17/month when she retired from teaching in 2009. She had taught in elementary school since I was a girl. Benefits have increased by 4% per year. 
+				<em>
+					(Story also appears in 
+					<xref ref="social-security-arithmetic-operations"/>,
+					<xref ref="social-security-variables-functions"/> and 
+					<xref ref="social-security-tables-graphs"/>)
+				</em>
 			</p>
 		</introduction>	
 		<task>

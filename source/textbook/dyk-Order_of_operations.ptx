@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<conclusion xml:id="dyk-order-operations" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Do you know ...</title>
-    <p><ol marker="A.">
+<ol marker="A.">
         <li>
                 <p>
                     How a calculator will evaluate an expression that has several different operations, such as <m>2.1 + 7 \times 1.1</m>?
@@ -39,7 +37,4 @@
                 </p>
         </li>
 
-    </ol></p>
-    
-    <xi:include href="./NotSure.ptx" />
-</conclusion>
+    </ol>

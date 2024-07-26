@@ -307,7 +307,7 @@
 	<exercise xml:id="grilling-fish-solving-quadratic">
 		<introduction>
 			<p>
-				Mrs. Weber's cooking class came up with the equation <me>M = 1.2F^2+4F+7</me> to approximate the grilling time of a piece of fish depending on its thickness. Here <m>M</m> is the number of minutes to grill the fish and <m>F</m> is the thickness of the fish in inches.
+				Mrs. Weber's cooking class came up with the equation <me>M = 1.2F^2+4F+7</me> to approximate the grilling time of a piece of fish depending on its thickness. Here <m>M</m> is the number of minutes to grill the fish and <m>F</m> is the thickness of the fish in inches.
 			</p>
 			
 			<p>

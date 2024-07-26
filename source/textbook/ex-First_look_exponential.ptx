@@ -101,7 +101,12 @@
 		<exercise xml:id="flu-dorm-first-look-exponential">
 			<introduction>
 				<p>
-					A flu virus has been spreading through the college dormitories. Initially 8 students were diagnosed with the flu, but that number has been growing 16% per day. <em>(Story also appears in <xref ref="flu-dorm-modeling-exponential"/> and 5.5 textbook)</em>
+					A flu virus has been spreading through the college dormitories. Initially 8 students were diagnosed with the flu, but that number has been growing 16% per day. 
+					<em>
+						(Story also appears in 
+						<xref ref="flu-dorm-modeling-exponential"/> and
+						<xref ref="sec-Logistic_growth" text="type-global" />)
+					</em>
 				</p>
 			</introduction>
 			<task workspace="1in">
@@ -184,10 +189,15 @@
 
 	
 
-	<exercise xml:id="raises-first-look-exponential">
+	<exercise xml:id="raises-first-look-exponential" component="html">
 		<introduction>
 			<p>
 				Mai's salary was $78,000 before she got a 6% raise. Now the economy was not doing as well and she got only a 1.5% raise this year.
+			</p>
+			<p>
+				<em>
+					(Story also appears in <xref ref="raises-percentages"/>)
+				</em>
 			</p>
 		</introduction>	
 		<task>
@@ -223,14 +233,17 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="sp-household-first-look-exponential">
+	<exercise xml:id="sp-household-first-look-exponential" component="html">
 		<introduction>
 			<p>
 				The number of school children in the district from a single parent household has been on the rise. In one district there were 1,290 children from single parent households in 2010 and that number was expected to increase about 3% per year.
 			</p>
 			
 			<p>
-				<em>Story also appears in 3.4 and 5.3 Exercises</em>
+				<em>
+					(Story also appears in 
+					<xref ref="sp-household-solving-exponential"/>)
+				</em>
 			</p>
 		</introduction>	
 		<task>
@@ -274,14 +287,14 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="um-archivo-first-look-exponential">
+	<exercise xml:id="um-archivo-first-look-exponential" component="html">
 		<introduction>
 			<p>
 				Um Archivo data consultant group reported earnings of $42.7 billion in 2012. At that time executives projected 17% increase in earnings annually.
 			</p>
 			
 			<p>
-				<em>Story also appears in 5.1 Exercises</em>
+				<em>(Story also appears in <xref ref="um-archivo-modeling-exponential"/>)</em>
 			</p>
 		</introduction>	
 		<task>
@@ -317,7 +330,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="poultry-first-look-exponential">
+	<exercise xml:id="poultry-first-look-exponential" component="html">
 		<introduction>
 			<p>
 				In 2005, poultry production was 78 million tons estimated to be growing at a rate of around 1.6% per year.
@@ -330,7 +343,7 @@
 			</aside>	
 		
 			<p>
-				<em>Story also appears in 3.4 Exercises</em>
+				<em>(Story also appears in <xref ref="poultry-solving-exponential"/>)</em>
 			</p>
 		</introduction>	
 		<task>
@@ -350,7 +363,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="ebooks-first-look-exponential">
+	<exercise xml:id="ebooks-first-look-exponential" component="html">
 		<introduction>
 			<p>
 				Back in January 2008, e-book sales were averaging $5.1 million per month and were increasing approximately 6.3% per month. (We are ignoring seasonal variation in this problem.)

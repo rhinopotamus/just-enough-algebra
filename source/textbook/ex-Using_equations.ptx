@@ -9,7 +9,7 @@
 		<exercise xml:id="mortgage-payoff-using-equations" workspace="0.75in">
 			<introduction>
 				<p>
-					Dontrell and Kim borrowed money to buy a house on a 30-year mortgage. After <m>T</m> months of making payments, Dontrell and Kim will still owe $<m>D</m> where <me>D=236,000-56,000 \ast 1.004^T</me> <m>D</m> is also known as the <term>payoff</term> (how much they would need to pay to settle the debt). <em>Story also appears in <xref ref="mortgage-payoff-solving-exponential"/></em>
+					Dontrell and Kim borrowed money to buy a house on a 30-year mortgage. After <m>T</m> months of making payments, Dontrell and Kim will still owe $<m>D</m> where <me>D=236,000-56,000 \ast 1.004^T</me> <m>D</m> is also known as the <term>payoff</term> (how much they would need to pay to settle the debt). <em>(Story also appears in <xref ref="mortgage-payoff-solving-exponential"/>)</em>
 	
 				</p>
 			</introduction>
@@ -56,11 +56,17 @@
 			<introduction>
 				<p>
 					<q>Rose gold</q> is a mix of gold and copper. We start with 2 grams of an alloy that is equal parts gold and copper and add <m>A</m> grams of pure gold to lighten the color. The percentage of gold in the resulting rose gold alloy, <m>R</m> is given by <me>R = 100\left(\frac{1+A}{2+A}\right)</me> For example, if we add 0.8 grams of pure gold, then <m>A=0.8</m> and so the percentage is <me>R=100\left(\frac{1+0.8}{2+0.8}\right)= 100 \times (1 + \underline{0.8})\div(2+\underline{0.8})=64.28571428\ldots \approx 64.3\%</me>
-					<em>
+					<em component="html">
 						(Story also appears in
 						<xref ref="rose-gold-order-operations" />, 
-						<xref ref="rose-gold-algebraic-notation" />, 
-						and 4.1 Exercises)
+						<xref ref="rose-gold-algebraic-notation" />, and
+						<xref ref="check-linear-modeling-linear"/>) 
+					</em>
+					<em component="print">
+						(Story also appears in
+						<xref ref="rose-gold-order-operations" />, 
+						<xref ref="rose-gold-algebraic-notation" />, and
+						<xref ref="sec-Modeling_linear_equations" text="global"/> Exercises)
 					</em>
 				</p>
 			</introduction>
@@ -108,7 +114,6 @@
 						</row>
 					</tabular>
 				</statement>
-	<!-- Figure out how to add space to this table -->
 			</task>
 			<task>
 				<statement>
@@ -225,7 +230,7 @@
 
 	
 
-	<exercise xml:id="braking-distance-using-equations">
+	<exercise xml:id="braking-distance-using-equations" component="html">
 		<introduction>
 			<p>
 				The 2002 Chevrolet Tahoe 4WD will take about 158.1 feet to stop when traveling at 60 mph in normal highway conditions. Let <m>S</m> be the speed at which the vehicle is traveling, in miles per hour (mph), and <m>D</m> the distance it takes to stop, in feet. This information together with a little physics gives the equation <me>D = 0.0439S^2 + 1.47S</me>
@@ -264,10 +269,15 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="lamp-intensity-using-equations">
+	<exercise xml:id="lamp-intensity-using-equations" component="html">
 		<introduction>
 			<p>
-				Mom always said to sit close to the lamp when I was reading. The intensity of light <m>L</m>, measured in percentage (%) that you see from a lamp depends on your distance from the lamp, <m>F</m> feet as described by the formula <me>L=\frac{100}{F^2}</me> <em>Story also appears in 1.1 and 3.3 Exercises</em>
+				Mom always said to sit close to the lamp when I was reading. The intensity of light <m>L</m>, measured in percentage (%) that you see from a lamp depends on your distance from the lamp, <m>F</m> feet as described by the formula <me>L=\frac{100}{F^2}</me>
+				<em>
+					(Story also appears in
+					<xref ref="name-vars-variables-functions"/> and
+					<xref ref="lamp-intensity-solving-power"/>)
+				</em>
 			</p>
 		</introduction>	
 		<task>
@@ -303,7 +313,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="gravel-path-using-equations">
+	<exercise xml:id="gravel-path-using-equations" component="html">
 		<introduction>
 			<p>
 				Urban community gardens are catching on. What was once an abandoned lot down the block is now a thriving 10'<m>\times</m>25' vegetable and berry garden for the neighborhood. (Remember ' stands for <q>feet,</q> so the garden is 10 feet wide and 25 feet long.) One neighbor volunteered to donate gravel to make a path around the garden. The path will be 3 inches deep and the same width all around.
@@ -315,7 +325,11 @@
 			</p>
 			
 			<p>
-				<em>Story also appears in 2.4 Exercises and 3.5 #4</em>
+				<em>
+					(Story also appears in 
+					<xref ref="gravel-path-approx-solutions" /> and 
+					<xref ref="gravel-path-quadratic"/>)
+				</em>
 			</p>
 		</introduction>	
 		<task>
@@ -363,7 +377,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="newspapers-using-equations">
+	<exercise xml:id="newspapers-using-equations" component="html">
 		<introduction>
 			<p>
 				One measure of the diversity of our news source is the count of the number of different daily newspapers in circulation. A reasonable equation estimating this count over the past century is <me>N = -0.0021T^3+0.34T^2-20T+ 2,226</me> where <m>N</m> is the number of daily newspapers in circulation in the United States <m>T</m> years after 1900.
@@ -394,14 +408,18 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="grilling-fish-using-equations">
+	<exercise xml:id="grilling-fish-using-equations" component="html">
 		<introduction>
 			<p>
-				Mrs. Weber's cooking class came up with the equation <me>M = 1.2F^2+4F+7</me> to approximate the grilling time of a piece of fish depending on its thickness. Here <m>M</m> is the number of minutes to grill the fish and <m>F</m> is the thickness of the fish (in inches).
+				Mrs. Weber's cooking class came up with the equation <me>M = 1.2F^2+4F+7</me> to approximate the grilling time of a piece of fish depending on its thickness. Here <m>M</m> is the number of minutes to grill the fish and <m>F</m> is the thickness of the fish (in inches).
 			</p>
 			
 			<p>
-				<em>Story also appears in 1.1 and 3.5 Exercises</em>
+				<em>
+					Story also appears in 
+					<xref ref="name-vars-variables-functions"/> and 
+					<xref ref="grilling-fish-solving-quadratic"/>
+				</em>
 			</p>
 		</introduction>	
 		<task>
@@ -437,14 +455,14 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="salary-using-equations">
+	<exercise xml:id="salary-using-equations" component="html">
 		<introduction>
 			<p>
 				Wynter has a pretty decent job. He is paid a salary of $780 per week but his hours vary week-to-week. Even though Wynter is not paid by the hour, he can figure out what his hourly wage would be depending on the number of hours he works. For example, in a week where Wynter works 40 hours, he's earning the equivalent of $19.50/hr because <me>\frac{\$780}{40 \text{ hours}} = 780 \div 40 =\$19.50\text{/hour}</me>
 			</p>
 			
 			<p>
-				<em>Story also appears in 3.3 Exercises</em>
+				<em>(Story also appears in <xref ref="salary-solving-power"/>)</em>
 			</p>
 		</introduction>	
 		<task>

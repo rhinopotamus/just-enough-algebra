@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<conclusion xml:id="dyk-solving-exponential" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>dyk-solving-exponential</title>
-
-    <p><ol marker="A.">
+<ol marker="A.">
         <li>
             <p>
                 What <q>log</q> means?
@@ -40,7 +37,4 @@
             </p>
         </li>
 
-    </ol></p>
-    
-    <xi:include href="./NotSure.ptx" />
-</conclusion>
+    </ol>

@@ -247,7 +247,7 @@
 
 	
 
-	<exercise xml:id="phelps-units">
+	<exercise xml:id="phelps-units" component="html">
 		<introduction>
 			<p>
 				In August 2008, United States swimmer Michael Phelps set the world record for the 200 meter individual medley swimming it in 1 minute, 54.80 seconds.
@@ -283,7 +283,7 @@
 			</task>
 	</exercise>
 			
-	<exercise xml:id="lochte-units">
+	<exercise xml:id="lochte-units" component="html">
 		<introduction>
 			<p>
 				In August 2012, Phelps improved his time and won Olympic gold, but failed to break the world record his teammate Ryan Lochte has set a year earlier of 1 minute, 54 seconds.
@@ -315,7 +315,7 @@
 			</task>
 	</exercise>
 
-	<exercise xml:id="assorted-1-units">
+	<exercise xml:id="assorted-1-units" component="html">
 		<task>
 			<statement>
 				<p>
@@ -341,11 +341,14 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="assorted-2-units">
+	<exercise xml:id="assorted-2-units" component="html">
 		<task>
 			<statement>
 				<p>
 					The football coach wants everyone to sprint three-quarters of a mile, up and back on the field which is labeled in yards. How many yards are in three-quarters of a mile?
+				</p>
+				<p>
+					<em>(Story also appears in <xref ref="football-field-fractions"/>)</em>
 				</p>
 			</statement>
 		</task>
@@ -367,7 +370,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="pollution-spill-units">
+	<exercise xml:id="pollution-spill-units" component="html">
 		<introduction>
 			<p>
 				Authorities are tracking down the source of a pollution spill on a nearby river. They suspect that the local plant is inadvertently leaking waste water. Last week they found 35 minutes of waste water flow on Monday, 1 hour and 11 minutes on Tuesday, 1/4 hour on Wednesday (that's 0.25 hours in decimal), none on Thursday, and then 98 minutes Friday.
@@ -395,26 +398,26 @@
 					<row left="minor" class="odd">
 						<cell right="minor" halign="left">Minutes</cell>
 						<cell right="minor" halign="center">35</cell>
-						<cell right="minor" halign="center"></cell>
-						<cell right="minor" halign="center"></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int" /></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int" /></m></cell>
 						<cell right="minor" halign="center">0</cell>
 						<cell right="minor" halign="center">98</cell>
 					</row>
 					<row left="minor" class="even">
 						<cell right="minor" halign="left">Hours</cell>
-						<cell right="minor" halign="center"> </cell>
-						<cell right="minor" halign="center"> </cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int" /></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int" /></m></cell>
 						<cell right="minor" halign="center">0.25</cell>
-						<cell right="minor" halign="center"> </cell>
-						<cell right="minor" halign="center"> </cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int" /></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int" /></m></cell>
 					</row>
 					<row left="minor" class="odd">
 						<cell right="minor" halign="left">H:MM</cell>
-						<cell right="minor" halign="center"></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int" /></m></cell>
 						<cell right="minor" halign="center">1:11</cell>
-						<cell right="minor" halign="center"> </cell>
-						<cell right="minor" halign="center"></cell>
-						<cell right="minor" halign="center"></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int" /></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int" /></m></cell>
+						<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int" /></m></cell>
 					</row>
 				</tabular>
 			</statement>
@@ -429,7 +432,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="heart-beats-units">
+	<exercise xml:id="heart-beats-units" component="html">
 		<statement>
 			<p>
 				If your heart beats around 70 times a minute, how many times does it beat in a week? A year?
@@ -437,7 +440,7 @@
 		</statement>	
 	</exercise>
 
-	<exercise xml:id="assorted-3-units">
+	<exercise xml:id="assorted-3-units" component="html">
 		<task>
 			<statement>
 				<p>

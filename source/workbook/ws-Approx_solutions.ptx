@@ -158,9 +158,9 @@
 			<tabular>
 				<row class="odd">
 					<cell halign="left"><m>4^{\text{th}}</m></cell>
-					<cell halign="left">Indonesia  </cell>
-					<cell halign="left">pop. 248 million  </cell>
-					<cell halign="left">growth rate 1.04%  </cell>
+					<cell halign="left">Indonesia</cell>
+					<cell halign="left">pop. 248 million</cell>
+					<cell halign="left">growth rate 1.04%</cell>
 					<cell halign="left"><m>Q= 248 \ast 1.0104^T</m></cell>
 				</row>
 				<row class="even">

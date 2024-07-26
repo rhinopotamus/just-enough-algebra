@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<conclusion xml:id="dyk-rate-of-change" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Do you know ...</title>
-    <p><ol marker="A.">
+<ol marker="A.">
         <li>
             <p>
                 How to calculate rate of change between two points? <em>Ask your instructor if you need to remember the formula or if it will be provided during the exam.</em>
@@ -39,6 +37,4 @@
             </p>
         </li>
 
-    </ol></p>
-    <xi:include href="./NotSure.ptx" />
-</conclusion>
+    </ol>

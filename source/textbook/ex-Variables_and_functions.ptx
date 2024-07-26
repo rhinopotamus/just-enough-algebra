@@ -426,9 +426,10 @@
 				</p>
 						
 				<p>
-					<em>Story also appears in 
+					<em>
+						(Story also appears in 
 						<xref ref="lamp-intensity-using-equations"/> and
-						<xref ref="lamp-intensity-solving-power"/>
+						<xref ref="lamp-intensity-solving-power"/>)
 					</em>
 				</p>
 			</statement>
@@ -441,9 +442,9 @@
 				</p>
 						
 				<p>
-					<em>Story also appears in 
+					<em>(Story also appears in 
 						<xref ref="grilling-fish-using-equations"/> and
-						<xref ref="grilling-fish-solving-quadratic"/>
+						<xref ref="grilling-fish-solving-quadratic"/>)
 					</em>
 				</p>
 			</statement>
@@ -454,10 +455,10 @@
 				<p>
 					Wind turbines are used to generate electricity. The faster the wind, the more power they generate. 
 					<em>
-						Story also appears in 
+						(Story also appears in 
 						<xref ref="wind-turbine-rate-of-change"/>,
-						<xref ref="wind-turbines-approx-solutions"/>, and
-						<xref ref="wind-turbine-solving-power"/>.
+						<xref ref="wind-turbine-approx-solutions"/>, and
+						<xref ref="wind-turbine-solving-power"/>)
 					</em>
 				</p>
 			</statement>

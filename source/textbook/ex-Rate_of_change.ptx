@@ -97,11 +97,11 @@
 			<p>
 				Anthony and Christina are trying to decide where to hold their wedding reception. 
 				The Metropolitan Club costs $1,300 for the space and then $92 per person. 
-				<!-- <em>
+				<em>
 					(Story also appears in 
 					<xref ref="wedding-rental-tables-graphs" /> and 
 					<xref ref="wedding-rental-linear-ineq" />)
-				</em> -->
+				</em>
 			</p>
 		</introduction>
 		<task workspace="1.5in">
@@ -287,7 +287,7 @@
 
 	
 
-	<exercise xml:id="diver-rate-of-change">
+	<exercise xml:id="diver-rate-of-change" component="html"> 
 		<introduction>
 			<p>
 				Look back at the springboard diver example in this section.
@@ -310,7 +310,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="truck-rental-rate-of-change">
+	<exercise xml:id="truck-rental-rate-of-change" component="html">
 		<introduction>
 			<p>
 				Your local truck rental agency lists what it costs to rent a truck (for one day) based on the number of miles you drive the truck.
@@ -334,7 +334,11 @@
 			</tabular>
 			
 			<p>
-				<em>Story also appears in 1.2 and 4.4 Exercises</em>
+				<em>
+					(Story also appears in 
+					<xref ref="truck-rental-tables-graphs"/> and
+					<xref ref="truck-rental-slopes"/>)
+				</em>
 			</p>
 		</introduction>
 		<task>
@@ -362,7 +366,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="wind-turbine-rate-of-change">
+	<exercise xml:id="wind-turbine-rate-of-change" component="html">
 		<introduction>
 			<p>
 				Wind turbines are used to generate electricity. A few values are recorded in the table.
@@ -386,7 +390,12 @@
 			</tabular>
 			
 			<p>
-				<em>Story also appears in 1.1, 2.4, and 3.3 Exercises</em>
+				<em>
+					(Story also appears in 
+					<xref ref="name-vars-variables-functions"/>,
+					<xref ref="wind-turbine-solving-power"/>, and
+					<xref ref="wind-turbine-approx-solutions"/>)
+				</em>
 			</p>
 		</introduction>
 			
@@ -431,7 +440,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="earth-population-rate-of-change">
+	<exercise xml:id="earth-population-rate-of-change" component="html">
 		<statement>
 			<p>
 				The table lists estimates of Earth's population, in billions, for select years since 1800.
@@ -466,7 +475,7 @@
 			</tabular>
 
 			<p>
-				<em>Story also appears in 1.2 Exercises</em>
+				<em>(Story also appears in <xref ref="earth-population-tables-graphs"/>)</em>
 			</p>
 			
 			<p>
@@ -475,10 +484,11 @@
 		</statement>
 	</exercise>
 
-	<exercise xml:id="backpacks-rate-of-change">
+	<exercise xml:id="backpacks-rate-of-change" component="html">
 		<introduction>
 			<p>
-				A company produces backpacks. The more they make, the less it costs for each one. For example, if they produce 10 backpack it would cost $39 each. For 40 backpacks, they would cost $18 each. By 70 backpacks, the unit cost is down to $15 each. At 100 backpacks, the unit cost is $30 each. <em>Story also appears in 3.5 Exercises</em>
+				A company produces backpacks. The more they make, the less it costs for each one. For example, if they produce 10 backpack it would cost $39 each. For 40 backpacks, they would cost $18 each. By 70 backpacks, the unit cost is down to $15 each. At 100 backpacks, the unit cost is $30 each. 
+				<em>(Story also appears in <xref ref="backpacks-solving-quadratic"/>)</em>
 			</p>
 		</introduction>	
 		<task>
@@ -530,7 +540,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="beach-erosion-rate-of-change">
+	<exercise xml:id="beach-erosion-rate-of-change" component="html">
 		<introduction>
 			<p>
 				The public beach near Paloma's house has lost depth (measured from the dunes to the high water mark) due to erosion since they started keeping records 60 years ago. The table shows a few values. There <m>D</m> is the depth of the beach in feet, and <m>Y</m> is the year, measured since 60 years ago.
@@ -542,7 +552,7 @@
 					<cell right="minor" halign="center">60 years ago</cell>
 					<cell right="minor" halign="center">30 years ago</cell>
 					<cell right="minor" halign="center">10 years ago</cell>
-					<cell right="minor" halign="center"> now  </cell>
+					<cell right="minor" halign="center">now</cell>
 				</row>
 				<row left="minor" class="odd">
 					<cell right="minor" halign="center"><m>Y</m></cell>
@@ -561,7 +571,11 @@
 			</tabular>
 			
 			<p>
-				<em>Story also appears in 4.3 Exercises</em>
+				<em>
+					(Story also appears in 
+					<xref ref="beach-erosion-arithmetic-operations"/> and
+					<xref ref="beach-erosion-intercepts"/>)
+				</em>
 			</p>
 		</introduction>
 			

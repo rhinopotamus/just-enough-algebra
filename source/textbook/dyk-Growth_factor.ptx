@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<conclusion xml:id="dyk-growth-factor" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Do you know ...</title>
-    <p><ol marker="A.">
+<ol marker="A.">
         <li>
             <p>
                 How to find the growth/decay factor given the starting amount and another point of information?
@@ -33,8 +31,4 @@
             </p>
         </li>
     
-    </ol></p>
-    
-    
-    <xi:include href="./NotSure.ptx" />
-</conclusion>
+    </ol>

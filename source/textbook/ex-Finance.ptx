@@ -7,50 +7,112 @@
 	<xi:include href="ex-intro.ptx" />
 
 	<page>
-		<introduction>
-			<p>
-				<term>Compound Interest Formula:</term> <m>\displaystyle a = p \left( 1 + \frac{r}{12}\right) ^{12y}</m>
-			</p>
-			<p>
-				<nbsp/>
-			</p>
+		<introduction component="print">
+
+			<assemblage xml:id="compound-interest-formula">
+				<title>Compound Interest Formula</title>
+					
+					
+				<p>
+					<me>a = p \left( 1 + \frac{r}{12}\right) ^{12y}</me> where
+					<ul>
+						<li>
+							<p>
+								<m>a</m> = account balance ($)
+							</p>
+						</li>
+						<li>
+							<p>
+								<m>y</m> = time invested (years)
+							</p>
+						</li>
+						<li>
+							<p>
+								<m>p</m> = initial deposit or <q>principal</q>
+							</p>
+						</li>
+						<li>
+							<p>
+								<m>r</m> = interest rate compounded monthly (as a decimal)
+							</p>
+						</li>
+					</ul>
+				</p>
+			</assemblage>
+
+			<assemblage xml:id="equivalent-apr-formula">
+				<title>Equivalent APR Formula</title>
+					
+					
+				<p>
+					<me>\text{APR} = \left(1+\frac{r}{12}\right)^{12}-1</me>
+					where <m>r</m> = interest rate compounded monthly (as a decimal)
+				</p>
+			</assemblage>
 	
-			<p>
-				<term>Equivalent APR Formula:</term> <m>\displaystyle \text{APR} = \left(1+\frac{r}{12}\right)^{12}-1</m>
-			</p>
-			<p>
-				<nbsp/>
-			</p>
-	
-			<p>
-				<term>Future Value Annuity Formula:</term> <m>\displaystyle a = p \ast \frac{\left( 1 + \frac{r}{12}\right) ^{12y}-1}{\frac{r}{12}}</m>
-			</p>
-			<p>
-				<nbsp/>
-			</p>
-	
-			<p>
-				<term>Loan Payment Formula:</term> <m>\displaystyle p = \frac{a  \ast \frac{r}{12}}{1-\left( 1 + \frac{r}{12}\right) ^{-12y}}</m>
-			</p>
-	
-			<p>
-				where
-			</p>
-	
-			<tabular>
-				<row class="odd">
-					<cell halign="left"><m>a</m> = account balance or loan amount ($)</cell>
-				</row>
-				<row class="even">
-					<cell halign="left"><m>p</m> = initial deposit (principal), regular deposit, or regular payment ($)</cell>
-				</row>
-				<row class="odd">
-					<cell halign="left"><m>y</m> = time invested (years)</cell>
-				</row>
-				<row class="even">
-					<cell halign="left"><m>r</m> = interest rate compounded monthly (as a decimal)</cell>
-				</row>
-			</tabular>
+			<assemblage xml:id="future-value-annuity-formula">
+				<title>Future Value Annuity Formula</title>
+					
+					
+				<p>
+					<me>a = p \ast \frac{\left( 1 + \frac{r}{12}\right) ^{12y}-1}{\frac{r}{12}}</me>
+					where
+					<ul>
+						<li>
+							<p>
+								<m>a</m> = account balance ($)
+							</p>
+						</li>
+						<li>
+							<p>
+								<m>y</m> = time invested (years)
+							</p>
+						</li>
+						<li>
+							<p>
+								<m>p</m> = regular (monthly) deposits ($)
+							</p>
+						</li>
+						<li>
+							<p>
+								<m>r</m> = interest rate compounded monthly (as a decimal)
+							</p>
+						</li>
+					</ul>
+				</p>
+			</assemblage>
+
+			<assemblage xml:id="loan-payment-formula">
+				<title>Loan Payment Formula</title>
+					
+					
+				<p>
+					<me>p = \frac{a  \ast \frac{r}{12}}{1-\left( 1 + \frac{r}{12}\right) ^{-12y}}</me>
+					where
+					<ul>
+						<li>
+							<p>
+								<m>a</m> = loan amount ($)
+							</p>
+						</li>
+						<li>
+							<p>
+								<m>y</m> = time invested (years)
+							</p>
+						</li>
+						<li>
+							<p>
+								<m>p</m> = regular (monthly) payment ($)
+							</p>
+						</li>
+						<li>
+							<p>
+								<m>r</m> = interest rate compounded monthly (as a decimal)
+							</p>
+						</li>
+					</ul>
+				</p>
+			</assemblage>
 		</introduction>
 	</page>
 	
@@ -64,28 +126,28 @@
 			<task>
 				<statement>
 					<p>
-						Kiran deposited $2,500 in a money market account that earned 7% interest compounded monthly. Use the <term>Compound Interest Formula</term> to calculate her account balance after 4 years.
+						Kiran deposited $2,500 in a money market account that earned 7% interest compounded monthly. Use the <xref ref="compound-interest-formula" text="title"/> to calculate her account balance after 4 years.
 					</p>
 				</statement>
 			</task>
 			<task>
 				<statement>
 					<p>
-						What is the equivalent APR on Kiran's money market account? Use the <term>Equivalent APR Formula</term>.
+						What is the equivalent APR on Kiran's money market account? Use the <xref ref="equivalent-apr-formula" text="title"/>.
 					</p>
 				</statement>
 			</task>
 			<task>
 				<statement>
 					<p>
-						Kiran puts $400 a month in her retirement account that amazingly also earns 7% interest compounded monthly. Use the <term>Future Value Annuity Formula</term> to determine how much Kiran will have in her retirement account in 28 years.
+						Kiran puts $400 a month in her retirement account that amazingly also earns 7% interest compounded monthly. Use the <xref ref="future-value-annuity-formula" text="title"/> to determine how much Kiran will have in her retirement account in 28 years.
 					</p>
 				</statement>
 			</task>
 			<task>
 				<statement>
 					<p>
-						Kiran would really like to buy a new hybrid car that sells for $23,500. Sadly Kiran's credit rating is not very good, so the best the dealership offers is a loan at (you guessed it) 7% interest compouned monthly. Use the <term>Loan Payment Formula</term> to calculate her monthly car payments on a six year loan.
+						Kiran would really like to buy a new hybrid car that sells for $23,500. Sadly Kiran's credit rating is not very good, so the best the dealership offers is a loan at (you guessed it) 7% interest compouned monthly. Use the <xref ref="loan-payment-formula" text="title"/> to calculate her monthly car payments on a six year loan.
 					</p>
 				</statement>
 			</task>
@@ -102,14 +164,14 @@
 			<task workspace="2in">
 				<statement>
 					<p>
-						Make a table comparing how much they will have after fifteen years if they contribute $100 per month vs. $500 per month vs. $1,000 per month. Use the <term>Future Value Annuity Formula</term>.
+						Make a table comparing how much they will have after fifteen years if they contribute $100 per month vs. $500 per month vs. $1,000 per month. Use the <xref ref="future-value-annuity-formula" text="title"/>.
 					</p>
 				</statement>
 			</task>
 			<task workspace="1in">
 				<statement>
 					<p>
-						Tim's parents decide to put $15,000 into the account now. How much will that deposit be worth in fifteen years? Use the <term>Compound Interest Formula</term>.
+						Tim's parents decide to put $15,000 into the account now. How much will that deposit be worth in fifteen years? Use the <xref ref="compound-interest-formula" text="title"/>.
 					</p>
 				</statement>
 			</task>
@@ -117,7 +179,7 @@
 		<exercise xml:id="equivalent-apr-finance" workspace="0.5in">
 			<introduction>
 				<p>
-					Use the <term>Equivalent APR Formula</term> to find the APR for each of the following published interest rates (compounded monthly) offered by recent credit card companies.
+					Use the <xref ref="equivalent-apr-formula" text="title"/> to find the APR for each of the following published interest rates (compounded monthly) offered by recent credit card companies.
 				</p>
 			</introduction>
 			<task>
@@ -151,7 +213,7 @@
 					Cesar and Eliana are looking at three different houses to buy. The first is a large new townhouse priced at $240,000. The second is a small but charming bungalow priced at $260,000. The third is a large 2-story house down the block priced at $280,000.
 				</p>
 				<p>
-					Calculate the monthly payment for each house for a 30-year mortgage at 3.5% interest compounded monthly. Use the <term>Loan Payment Formula</term>.
+					Calculate the monthly payment for each house for a 30-year mortgage at 3.5% interest compounded monthly. Use the <xref ref="loan-payment-formula" text="title"/>.
 				</p>
 			</introduction>
 			<task>
@@ -187,7 +249,7 @@
 
 	
 
-	<exercise xml:id="hector-finance">
+	<exercise xml:id="hector-finance" component="html">
 		<introduction>
 			<p>
 				As we have seen, Hector is trying to figure out his finances.
@@ -226,7 +288,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="balance-rate-finance">
+	<exercise xml:id="balance-rate-finance" component="html">
 		<introduction>
 			<p>
 				Ayah invests $35,000 for three years. Use the <xref ref="compound-interest-formula" text="title"/> to answer the following questions.
@@ -263,7 +325,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="mortgage-payments-finance">
+	<exercise xml:id="mortgage-payments-finance" component="html">
 		<introduction>
 			<p>
 				Lue's family bought a house three years ago and owes $192,000 on their mortgage. In reality, their monthly payment will include taxes, insurance, and money for escrow but let's ignore those amounts for this problem. In each part of this problem, use the <xref ref="loan-payment-formula" text="title"/>.
@@ -294,7 +356,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="balance-time-finance">
+	<exercise xml:id="balance-time-finance" component="html">
 		<introduction>
 			<p>
 				Kurt invests $50,000 in a certificate of deposit earning 4.77% interest compounded monthly. Use the <xref ref="compound-interest-formula" text="title"/>:
@@ -317,7 +379,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="apr-loans-finance">
+	<exercise xml:id="apr-loans-finance" component="html">
 		<introduction>
 			<p>
 				Soo Jin is borrowing more money for college. Compare the APR for each choice, using the <xref ref="equivalent-apr-formula" text="title"/>.

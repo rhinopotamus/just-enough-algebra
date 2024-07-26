@@ -161,9 +161,9 @@
 				<tabular>
 					<row class="odd">
 						<cell halign="left"><m>4^{\text{th}}</m></cell>
-						<cell halign="left">Indonesia  </cell>
-						<cell halign="left">pop. 248 million  </cell>
-						<cell halign="left">growth rate 1.04%  </cell>
+						<cell halign="left">Indonesia</cell>
+						<cell halign="left">pop. 248 million</cell>
+						<cell halign="left">growth rate 1.04%</cell>
 						<cell halign="left"><m>Q= 248 \ast 1.0104^T</m></cell>
 					</row>
 					<row class="even">
@@ -222,7 +222,7 @@
 
 	
 
-	<exercise xml:id="pop-china-approx-solutions">
+	<exercise xml:id="pop-china-approx-solutions" component="html">
 		<introduction>
 			<p>
 				The population of China in 2011 was approximately 1.343 billion and growing at around 0.48% per year. An equation estimating the population of China is <me>P = 1.343 \ast 1.0048^Y</me> where <m>P</m> is the population of China (measured in billions) and <m>Y</m> is the years since 2011.
@@ -267,10 +267,15 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="electronics-sales-approx-solutions">
+	<exercise xml:id="electronics-sales-approx-solutions" component="html">
 		<introduction>
 			<p>
-				A company who makes electronics was doing great business in 1996, but sales quickly slid after 2000. Their sales <m>M</m> in millions of $ <m>Y</m> years from 1996 is given by the following equation <me>M = 104.4+11.5Y-1.4Y^2</me> <em>Story appears in 3.5 Exercises</em>
+				A company who makes electronics was doing great business in 1996, but sales quickly slid after 2000. Their sales <m>M</m> in millions of $ <m>Y</m> years from 1996 is given by the following equation <me>M = 104.4+11.5Y-1.4Y^2</me>
+			</p>
+			<p>
+				<em>
+					(Story also appears in <xref ref="electronics-sales-solving-quadratic"/>)
+				</em>
 			</p>
 		</introduction>	
 		<task>
@@ -298,10 +303,16 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="window-glass-approx-solutions">
+	<exercise xml:id="window-glass-approx-solutions" component="html">
 		<introduction>
 			<p>
-				Suppose a special kind of window glass is 1 inch thick and lets through only 75% of the light. If two thicknesses of this glass are used, the product is 2 inches thick and lets in 56.25% since <me>75\% \text{ of } 75\% = (0.75)(0.75) = 0.5625 = 56.25\%</me> <em>Story also appears in 3.4 and 5.4 Exercises</em>
+				Suppose a special kind of window glass is 1 inch thick and lets through only 75% of the light. If two thicknesses of this glass are used, the product is 2 inches thick and lets in 56.25% since <me>75\% \text{ of } 75\% = (0.75)(0.75) = 0.5625 = 56.25\%</me> 
+			</p>
+			<p>
+				<em>
+					(Story also appears in
+					<xref ref="window-glass-solving-exponential"/>)
+				</em>
 			</p>
 		</introduction>	
 		<task>
@@ -345,14 +356,18 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="wind-turbines-approx-solutions">
+	<exercise xml:id="wind-turbine-approx-solutions" component="html">
 		<introduction>
 			<p>
 				Wind turbines are used to generate electricity. For a particular wind turbine, the equation <me>W = 2.4 S^3</me> can be used to calculate the amount of electricity generated (<m>W</m> watts) for a given wind speed (<m>S</m> mph), over a fixed period of time.
 			</p>
-			
 			<p>
-				<em>Story also appears in 1.1, 1.3, and 3.3 Exercises</em>
+				<em>
+					(Story also appears in
+					<xref ref="name-vars-variables-functions"/>,
+					<xref ref="wind-turbine-rate-of-change"/>, and
+					<xref ref="wind-turbine-solving-power"/>)
+				</em>
 			</p>
 		</introduction>	
 		<task>
@@ -380,14 +395,17 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="bac-approx-solutions">
+	<exercise xml:id="bac-approx-solutions" component="html">
 		<introduction>
 			<p>
 				After his first beer, Stephen's blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour. The equation is <me>S = 0.04 \ast 1.45^H</me> where <m>S</m> is Stephen's BAC and <m>H</m> is the time, measured in hours.
 			</p>
-			
 			<p>
-				<em>Story also appears in 1.1 #4 and 3.4 #1</em>
+				<em>
+					(Story also appears in 
+					<xref ref="bac-variables-functions"/> and
+					<xref ref="bac-solving-exponential"/>)
+				</em>
 			</p>
 		</introduction>	
 		<task>
@@ -415,7 +433,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="gravel-path-approx-solutions">
+	<exercise xml:id="gravel-path-approx-solutions" component="html">
 		<introduction>
 			<p>
 				Urban community gardens are catching on. What was once an abandoned lot down the block is now a thriving 10'<m>\times</m>25' vegetable and berry garden for the neighborhood. One neighbor volunteered to donate gravel to make a path around the garden. The path will be 3 inches deep and the same width all around. The amount of gravel they need (<m>G</m> cubic feet) is given by the equation <me>G = W^2 + 17.5W</me> where <m>W</m> is the width of the path in feet.
@@ -425,9 +443,13 @@
 			<p>
 				<image source='GravelPath.png'/>
 			</p>
-			
+
 			<p>
-				<em>Story also appears in 2.3 Exercises and 3.5 #4</em>
+				<em>
+					(Story also appears in 
+					<xref ref="gravel-path-using-equations"/> and
+					<xref ref="gravel-path-quadratic"/>)
+				</em>
 			</p>
 		</introduction>	
 		<task>

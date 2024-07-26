@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<conclusion xml:id="dyk-logarithms" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Do you know ...</title>
-
-    <p><ol marker="A.">
+<ol marker="A.">
         <li>
                 <p>
                     What a logarithm (base 10) means?
@@ -28,6 +25,4 @@
                 </p>
         </li>
 
-    </ol></p>
-    <xi:include href="./NotSure.ptx" />
-</conclusion>
+    </ol>
