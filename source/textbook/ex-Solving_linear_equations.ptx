@@ -129,7 +129,13 @@
 		<exercise xml:id="burger-temp-solving-linear" workspace="1.2in">
 			<introduction>
 				<p>
-					The local burger restaurant had a promotion this summer. They reduced the price on a bacon double cheeseburger by 2¢ for each degree in the daily high temperature. The equation is <me>B = 7.16 - 0.02H</me> where $<m>B</m> is the price of the bacon double cheeseburger and <m>H</m> is the daily high temperature, in °F. <em>(Story also appears in 2.1 Exercises)</em>
+					The local burger restaurant had a promotion this summer. They reduced the price on a bacon double cheeseburger by 2¢ for each degree in the daily high temperature. The equation is <me>B = 7.16 - 0.02H</me> where $<m>B</m> is the price of the bacon double cheeseburger and <m>H</m> is the daily high temperature, in °F. 
+					<em component="html">
+						(Story also appears in <xref ref="burger-first-look-linear"/>)
+					</em>
+					<em component="print">
+						(Story also appears in <xref ref="sec-First_look_linear" text="global"/> Exercises)
+					</em>
 				</p>
 			</introduction>
 			<task>
@@ -165,7 +171,7 @@
 
 	
 
-	<exercise xml:id="charter-boat-solving-linear">
+	<exercise xml:id="charter-boat-solving-linear" component="html">
 		<introduction>
 			<p>
 				A charter boat tour costs <m>\$C</m> for <m>P</m> passengers, where <me>C = 135.00 + 11.95P</me>
@@ -212,14 +218,14 @@
 			</task>
 	</exercise>
 
-	<exercise xml:id="restaurant-solving-linear">
+	<exercise xml:id="restaurant-solving-linear" component="html">
 		<introduction>
 			<p>
 				Abduwali has just opened a restaurant. He spent $82,500 to get started but hopes to earn back $6,300 each month. Earlier we determined that <me>A = 6,300M - 82,500</me> describes how Abduwali's profit $<m>A</m> is a function of how long he works (<m>M</m> months).
 			</p>
 			
 			<p>
-				<em>Story also appears in 2.1 Exercises</em>
+				<em>(Story also appears in <xref ref="restaurant-first-look-linear"/>)</em>
 			</p>
 		</introduction>	
 		<task>
@@ -239,10 +245,15 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="stamps-solving-linear">
+	<exercise xml:id="stamps-solving-linear" component="html">
 		<introduction>
 			<p>
-				Between e-mail, automatic bill pay, and online banking, it seems like I hardly ever actually mail something. But for those times, I need postage stamps. The corner store sells as many (or few) stamps as I want for 44¢each but they charge a 75¢ convenience fee for the whole purchase. <em>Story also appears in 1.1 Exercises</em>
+				Between e-mail, automatic bill pay, and online banking, it seems like I hardly ever actually mail something. But for those times, I need postage stamps. The corner store sells as many (or few) stamps as I want for 44¢ each but they charge a 75¢ convenience fee for the whole purchase.
+			</p>
+			<p>
+				<em>
+					(Story also appears in <xref ref="name-vars-variables-functions"/>)
+				</em>
 			</p>
 		</introduction>	
 		<task>
@@ -278,14 +289,16 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="treadmill-solving-linear">
+	<exercise xml:id="treadmill-solving-linear" component="html">
 		<introduction>
 			<p>
 				When Gretchen walks on her treadmill, she burns 125 calories per mile. Recall <me>C=125M</me> where <m>C</m> is the number of calories Gretchen burns by walking <m>M</m> miles.
 			</p>
 			
 			<p>
-				<em>Story also appears in 2.1 and 3.2 Exercises</em>
+				<em>(Story also appears in 
+					<xref ref="treadmill-first-look-linear"/> and
+					<xref ref="treadmill-solving-linear"/>)</em>
 			</p>
 		</introduction>	
 		<task>
@@ -313,7 +326,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="strawberries-solving-linear">
+	<exercise xml:id="strawberries-solving-linear" component="html">
 		<introduction>
 			<p>
 				The more expensive something is, the less likely we are to buy it. Well, if we have a choice. For example, when strawberries are in the peak of season, they cost about $2.50 per pint at my neighborhood farmer's market and demand is approximately 180 pints. (That means, people want to buy about 180 pints at that price.) We approximate that the demand, <m>D</m> pints, depends on the price, $<m>P</m>, as described by the equation <me>D = 305 - 50P</me>
@@ -352,10 +365,15 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="traffic-solving-linear">
+	<exercise xml:id="traffic-solving-linear" component="html">
 		<introduction>
 			<p>
-				The stretch of interstate highway through downtown averages 1,450 cars per hour during the morning rush hour. The economy is improving (finally), but with that the county manager predicts traffic levels with increase around 130 cars per hour more each week for the next couple of years. Earlier we found the equation <me>C=1,450 + 130W</me> where <m>C</m> is the number of cars per hour during the morning rush <m>W</m> weeks since the country manage made her projection. <em>Story also appears in 2.1 Exercises</em>
+				The stretch of interstate highway through downtown averages 1,450 cars per hour during the morning rush hour. The economy is improving (finally), but with that the county manager predicts traffic levels with increase around 130 cars per hour more each week for the next couple of years. Earlier we found the equation <me>C=1,450 + 130W</me> where <m>C</m> is the number of cars per hour during the morning rush <m>W</m> weeks since the country manage made her projection.
+			</p>
+			<p>
+				<em>
+					(Story also appears in <xref ref="traffic-first-look-linear"/>)
+				</em>
 			</p>
 		</introduction>	
 		<task>

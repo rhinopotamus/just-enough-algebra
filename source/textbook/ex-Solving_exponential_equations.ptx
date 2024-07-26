@@ -10,7 +10,9 @@
 			<introduction>
 				<p>
 					After his first beer, Stephen's blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour. The equation is <me>S = 0.04 \ast 1.45^T</me> where <m>S</m> is Stephen's BAC and <m>T</m> is the time, measured in hours.
-					<em>(Story also appears in 1.1 #4 and 2.4 Exercises)</em>
+					<em>(Story also appears in 
+						<xref ref="bac-variables-functions"/> and
+						<xref ref="bac-approx-solutions"/>)</em>
 				</p>
 			</introduction>
 			<task>
@@ -178,7 +180,7 @@
 
 	
 
-	<exercise xml:id="health-insurance-solving-exponential">
+	<exercise xml:id="health-insurance-solving-exponential" component="html">
 		<introduction>
 			<p>
 				The employee-paid cost of health insurance has risen dramatically, increasing by 7% each year since 2003 when it cost $420/month.
@@ -217,14 +219,16 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="sp-household-solving-exponential">
+	<exercise xml:id="sp-household-solving-exponential" component="html">
 		<introduction>
 			<p>
 				The number of school children in the district from a single parent household has been on the rise. In one district there were 1,290 children from single parent households in 2010 and that number was expected to increase about 3% per year. Earlier, we found the equation was <me>C = 1,290\ast1.03^Y</me> where <m>C</m> is the number of children and <m>Y</m> is the years since 2010.
 			</p>
-			
 			<p>
-				<em>Story also appears in 2.2 and 5.3 Exercises</em>
+				<em>
+					(Story also appears in
+					<xref ref="sp-household-first-look-exponential"/>)
+				</em>
 			</p>
 		</introduction>	
 		<task>
@@ -252,10 +256,16 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="window-glass-solving-exponential">
+	<exercise xml:id="window-glass-solving-exponential" component="html">
 		<introduction>
 			<p>
-				Suppose a special kind of window glass is 1 inch thick and lets through only 75% of the light. If we use <m>W</m> inches of window glass, it lets <m>L\%</m> of the light through where <me>L = 100\ast 0.75^W</me> <em>Story also appears in 2.4 and 5.3 Exercises</em>
+				Suppose a special kind of window glass is 1 inch thick and lets through only 75% of the light. If we use <m>W</m> inches of window glass, it lets <m>L\%</m> of the light through where <me>L = 100\ast 0.75^W</me>
+			</p>
+			<p>
+				<em>
+					(Story also appears in
+					<xref ref="window-glass-approx-solutions"/>)
+				</em>
 			</p>
 		</introduction>	
 		<task>
@@ -283,7 +293,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="poultry-solving-exponential">
+	<exercise xml:id="poultry-solving-exponential" component="html">
 		<introduction>
 			<p>
 				We saw that poultry population was estimated to grow according to the equation <me>P = 78 \ast 1.016^Y</me> where <m>P</m> is the poultry population in million tons and <m>Y</m> is the years starting in 2005.
@@ -295,7 +305,7 @@
 				</p>
 			</aside>	
 			<p>
-				<em>Story also appears in 2.2 Exercises</em>
+				<em>(Story also appears in <xref ref="poultry-first-look-exponential"/>)</em>
 			</p>
 		</introduction>	
 		<task>
@@ -315,7 +325,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="hair-color-solving-exponential">
+	<exercise xml:id="hair-color-solving-exponential" component="html">
 		<introduction>
 			<p>
 				Darcy likes to use temporary hair color in wild colors. Good thing it washes out. Her best guess is that 8% of the color washes out each time she washes her hair. That means the percentage of color remaining, <m>C</m>, is a function of the number of times she washes her hair, <m>W</m>, according to the equation <me>C=100 \ast 0.92^W</me>

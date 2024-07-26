@@ -3,171 +3,190 @@
 
 <section xml:id="sec-Solving_power_equations" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Solving power equations (and roots)<em component="print">: Practice exercises</em></title>
-
-	<p>
-		There's an old saying - <q>when life gives you lemons, make lemonade.</q> But how many lemons do you need? It turns out a reasonable equation describing the juice from a single lemon is given by <me>J = 0.0056C^3</me> where
-	</p>
-
-
-	<tabular bottom="minor" top="minor">
-		<row left="minor" class="odd">
-			<cell right="minor" halign="left"><m>J=</m> juice (tablespoons) <m>\sim</m> dep</cell>
-		</row>
-		<row left="minor" class="even">
-			<cell right="minor" halign="left"><m>C=</m> circumference (inches) <m>\sim</m> indep</cell>
-		</row>
-	</tabular>
-
-	<p>
-		In case you've forgotten, the <term>circumference</term> is the distance <em>around</em> the lemon. Think of taking wrapping a piece of string around the middle part of the lemon. Then stretch it out on a ruler to see how long it is.
-	</p>
-
-	<p>
-		Recipes for lemonade vary widely, but for my recipe calls for 4 tablespoons of lemon juice for each 12 ounce glass. The rest is a syrup made of hot water and sugar, mulled with a sweet herb like basil or mint, then finished with ice and cold water. Yum.
-	</p>
-
-	<p>
-		So, how large a lemon would yield 4 tablespoons of juice? Let's try to guess the answer. For example, a small lemon 7 inches in circumference would yield <me>J = 0.0056 \ast 7^3 = 0.0056 \times \underline{7} \wedge 3 = 1.9208 \approx 2 \text{ tablespoons}</me> A medium size lemon 8 inches in circumference would yield <me>J = 0.0056 \ast 8^3 = 0.0056 \times \underline{8} \wedge 3 = 2.8672 \approx 3 \text{ tablespoons}</me> Bet 9 inches is a good next guess. We get <me>J = 0.0056 \ast 9^3 = 0.0056 \times \underline{9} \wedge 3 = 4.0824 \approx 4  \text{ tablespoons}</me> That was quick! A lemon 9 inches around should produce just over 4 tablespoons of juice.
-	</p>
-
-	<p>
-		Much as we have learned to love successive approximation, this chapter is all about solving equations. Remember, <me>J = 0.0056C^3</me> is a power equation because it fits the template <me>\text{dep} = k \ast \text{indep}^{n}</me> with power <m>n=3</m> and proportionality constant <m>k=0.0056</m>. Turns out we can solve any power equation symbolically.
-	</p>
-
-	<p>
-		Here's how. We're looking for <m>J = 4</m>. Use our equation <m>J=0.0056C^3</m> to get <me>0.0056C^3=4</me> We want to find the value of <m>C</m>, so we can divide both sides by 0.0056 to get <me>\frac{\cancel{0.0056}C^3}{\cancel{0.0056}}=\frac{4}{0.0056}</me> which simplifies to <me>C^3 = \frac{4}{0.0056}= 4 \div 0.0056 = 714.2857\ldots</me>
-	</p>
-
-	<p>
-		We have found <m>C^3</m>. How can we <q>undo</q> the <m>\wedge 3</m> to find <m>C</m>? The answer: take the cube root of each side. (More about roots at the end of this section.) That means <me>\sqrt[3]{C^3} = \sqrt[3]{714.2857\ldots}</me>
-	</p>
-
-	<p>
-		which simplifies to <me>C = \sqrt[3]{714.2857\ldots} =3 \sqrt[x]{~\text{  }} 714.2857
-= 8.9390\ldots \approx 8.9 \text{ inches}</me> as expected, just under 9 inches. (More about the <m>\sqrt[x]{~\text{  }}</m> key later too.)
-	</p>
-
-	<p>
-		A look at the graph confirms our result.
-	</p>
-
-
-	<p>
-		<image source='lemonade.png'/>
-	</p>
-
-	<p>
-		Now, what goes better with lemonade than lemon cheesecake? For that we need lemon zest. <term>Zest</term> is what you get when you grate the lemon peel in long skinny strips. As with juice, the amount of lemon zest depends on the size of the lemon. Our variables are
-	</p>
-
-
-	<tabular bottom="minor" top="minor">
-		<row left="minor" class="odd">
-			<cell right="minor" halign="left"><m>Z=</m> amount of lemon zest (tablespoons) <m>\sim</m> dep</cell>
-		</row>
-		<row left="minor" class="even">
-			<cell right="minor" halign="left"><m>C=</m> circumference (inches) <m>\sim</m> indep <em>as before</em></cell>
-		</row>
-	</tabular>
-
-	<p>
-		and an equation is <me>Z=0.018C^2</me> We have another power equation, this time with power <m>n=2</m> and proportionality constant <m>k=0.018</m>.
-	</p>
-
-	<p>
-		My lemon cheesecake recipe calls for <m>1 \tfrac12</m> tablespoons of zest. There are various sized lemons at the store. How large a lemon should I buy? A small lemon of circumference 7 inches produces less than 1 tablespoon of zest because <me>Z=0.018\ast7^2 = 0.018 \times \underline{7} \wedge 2 = 0.082 &lt; 1</me> so that's not large enough.
-	</p>
-
-	<p>
-		Let's use successive approximations, summarizing our guesses in a table. Of course, we don't really need this precise an answer, but it's good practice. Notice <m>1 \tfrac12 = 1 + \tfrac12 = 1 + 1 \div 2 = 1.5</m>.
-	</p>
-
-
-	<tabular bottom="minor" top="minor">
-		<row left="minor" class="odd">
-			<cell right="minor" halign="center"><m>C</m></cell>
-			<cell right="minor" halign="center">7</cell>
-			<cell right="minor" halign="center">8</cell>
-			<cell right="minor" halign="center">9</cell>
-			<cell right="minor" halign="center">10</cell>
-			<cell right="minor" halign="center">9.5</cell>
-			<cell right="minor" halign="center">9.3</cell>
-			<cell right="minor" halign="center">9.2</cell>
-			<cell right="minor" halign="center">9.1</cell>
-		</row>
-		<row left="minor" class="odd">
-			<cell right="minor" halign="center"><m>Z</m></cell>
-			<cell right="minor" halign="center">0.882</cell>
-			<cell right="minor" halign="center">1.152</cell>
-			<cell right="minor" halign="center">1.458</cell>
-			<cell right="minor" halign="center">1.8</cell>
-			<cell right="minor" halign="center">1.6245</cell>
-			<cell right="minor" halign="center">1.55682</cell>
-			<cell right="minor" halign="center">1.52352</cell>
-			<cell right="minor" halign="center">1.49058</cell>
-		</row>
-		<row left="minor" class="even">
-			<cell right="minor" halign="center">vs. 1.5</cell>
-			<cell right="minor" halign="center">low</cell>
-			<cell right="minor" halign="center">high</cell>
-			<cell right="minor" halign="center">low</cell>
-			<cell right="minor" halign="center">high</cell>
-			<cell right="minor" halign="center">high</cell>
-			<cell right="minor" halign="center">high</cell>
-			<cell right="minor" halign="center">high</cell>
-			<cell right="minor" halign="center">low</cell>
-		</row>
-	</tabular>
-
-	<p>
-		We need a large lemon, somewhere between 9.1 and 9.2 inches around. Truth is, I'll just buy the biggest lemon I can find because extra lemon zest looks wonderful on top of the cheesecake.
-	</p>
-
-	<p>
-		We are supposed to be practicing solving the equation. Here goes. We want <m>Z=1.5</m>. Use our equation <m>Z=0.018C^2</m> to get <me>0.018C^2=1.5</me> We want to find the value of <m>C</m>, so we can divide both sides by 0.018 to get <me>\frac{\cancel{0.018}C^2}{\cancel{0.018}}=\frac{1.5}{0.018}</me> which simplifies to <me>C^2 = \frac{1.5}{0.018}= 1.5 \div 0.018 = 83.333333\ldots</me> Take the square root of each side to get <me>\sqrt{C^2} = \sqrt{83.333333\ldots}</me> which simplifies to 
-		<me>
-			C = \sqrt{83.333333\ldots} 
-			=\sqrt{~\text{  }} 83.333333
-			= 9.128709292\ldots \approx 9.13 \text{ inches}
-		</me> 
-		as expected, between 9.1 and 9.2 inches.
-	</p>
-
-	<p>
-		As when solving linear equations, notice that we do the opposite operation in reverse order from the usual order of operations. To evaluate a power equation we would first raise to the power and then multiply. To solve a power equation we first divide (that is the opposite of multiplying) and then we take a root (that is the opposite of raising to a power).
-	</p>
-
-	<p>
-		As promised, a brief discussion of roots is in order. Here's the deal. Roots essentially <q>undo</q> powers. What this means is, for example, we know <me>10^2=10 \times 10 =100</me> but it's quicker to calculate it using powers as <me>10^2 = 10 \wedge 2 = 100</me> We say 10 <term>squared</term> is 100. The <term>square root</term> of a number is just whatever number you would square to get that number. So, for example, <m>\sqrt{100} = 10</m> because you would square 10 to get 100. Many calculators have a special square root key that looks like <m>\sqrt{~\text{  }}</m> so we get <me>\sqrt{100} = \sqrt{~\text{  }} 100 = 10</me> Your calculator might insert a parenthesis with the square root, in which case you should (but don't need to) close it before hitting <m>=</m>, like this <me>\sqrt{100} = \sqrt{~\text{  }} ( 100 ) = 10</me> Your calculator might not have this key, or might need the square root after the number. Ask a classmate or your instructor or search online if you can't figure it out.
-	</p>
-
-	<p>
-		The same idea works for higher powers. Like <me>10^3 =10 \times 10 \times 10 = 1,000</me> That's really <me>10^3 = 10 \wedge 3 = 1,000</me> and we say 10 <term>cubed</term> is . The <term>cube root</term> of a number is whatever number you would cube to get that number. So, for example, <m>\sqrt[3]{1,000} = 10</m>. Many calculators have a special root key that looks like <m>\sqrt[x]{~\text{  }}</m>. That <m>x</m> looks similar to multiplication (<m>\times</m>), but it isn't. The <m>x</m> is like a placeholder for the real root you want - for a cube root <m>x</m> is just 3.
-	</p>
-
-	<p>
-		Here's how to use that root key. First you type in the root you want (3), second you use that key (<m>\sqrt[x]{~\text{  }}</m>), and last you type in the number you're taking the root of () like this <me>\sqrt[3]{1,000} = 3\sqrt[x]{~\text{  }}1,000= 10</me> Like with squareroots, your calculator might introduce a parenthesis, or you might do a slightly different order. You might have to use a shift or second key to get to the root key. On many graphing calculators the <m>\sqrt[x]{~\text{  }}</m> key is one of the MATH functions, so you have to type something like MATH 5 to get it. Again, ask if you need help figuring it out.
-	</p>
-
-	<p>
-		There is a small chance that your calculator doesn't have roots. In that case there is a strange-looking alternative <me>\sqrt[3]{1,000} = 1,000 \wedge (1 \div 3)= 10</me> Note the necessary parentheses. This process works for square roots too. <me>\sqrt{100} = 100 \wedge (1 \div 2)= 10</me>
-	</p>
-
-	<p>
-		Bet you see how this idea of roots generalizes. The <term><m>n</m>th root</term> of a number is whatever number you would raise to the <m>n</m>th power to get the number. Stated in terms of equations we have
-	</p>
-
-	<assemblage xml:id="root-formula">
-		<title>Root Formula</title>
-			
-			
+	<introduction component="html">
 		<p>
-			The equation <m>C^n=v</m> has solution <me>C= \sqrt[n]{v}</me>
+			There's an old saying - <q>when life gives you lemons, make lemonade.</q> But how many lemons do you need? It turns out a reasonable equation describing the juice from a single lemon is given by <me>J = 0.0056C^3</me> where
 		</p>
-	</assemblage>
 
-	<xi:include href="./dyk-Solving_power_equations.ptx" />
+
+		<tabular bottom="minor" top="minor">
+			<row left="minor" class="odd">
+				<cell right="minor" halign="left"><m>J=</m> juice (tablespoons) <m>\sim</m> dep</cell>
+			</row>
+			<row left="minor" class="even">
+				<cell right="minor" halign="left"><m>C=</m> circumference (inches) <m>\sim</m> indep</cell>
+			</row>
+		</tabular>
+
+		<p>
+			In case you've forgotten, the <term>circumference</term> is the distance <em>around</em> the lemon. Think of taking wrapping a piece of string around the middle part of the lemon. Then stretch it out on a ruler to see how long it is.
+		</p>
+
+		<p>
+			Recipes for lemonade vary widely, but for my recipe calls for 4 tablespoons of lemon juice for each 12 ounce glass. The rest is a syrup made of hot water and sugar, mulled with a sweet herb like basil or mint, then finished with ice and cold water. Yum.
+		</p>
+
+		<p>
+			So, how large a lemon would yield 4 tablespoons of juice? Let's try to guess the answer. For example, a small lemon 7 inches in circumference would yield <me>J = 0.0056 \ast 7^3 = 0.0056 \times \underline{7} \wedge 3 = 1.9208 \approx 2 \text{ tablespoons}</me> A medium size lemon 8 inches in circumference would yield <me>J = 0.0056 \ast 8^3 = 0.0056 \times \underline{8} \wedge 3 = 2.8672 \approx 3 \text{ tablespoons}</me> Bet 9 inches is a good next guess. We get <me>J = 0.0056 \ast 9^3 = 0.0056 \times \underline{9} \wedge 3 = 4.0824 \approx 4  \text{ tablespoons}</me> That was quick! A lemon 9 inches around should produce just over 4 tablespoons of juice.
+		</p>
+
+		<p>
+			Much as we have learned to love successive approximation, this chapter is all about solving equations. Remember, <me>J = 0.0056C^3</me> is a power equation because it fits the template <me>\text{dep} = k \ast \text{indep}^{n}</me> with power <m>n=3</m> and proportionality constant <m>k=0.0056</m>. Turns out we can solve any power equation symbolically.
+		</p>
+
+		<p>
+			Here's how. We're looking for <m>J = 4</m>. Use our equation <m>J=0.0056C^3</m> to get <me>0.0056C^3=4</me> We want to find the value of <m>C</m>, so we can divide both sides by 0.0056 to get <me>\frac{\cancel{0.0056}C^3}{\cancel{0.0056}}=\frac{4}{0.0056}</me> which simplifies to <me>C^3 = \frac{4}{0.0056}= 4 \div 0.0056 = 714.2857\ldots</me>
+		</p>
+
+		<p>
+			We have found <m>C^3</m>. How can we <q>undo</q> the <m>\wedge 3</m> to find <m>C</m>? The answer: take the cube root of each side. (More about roots at the end of this section.) That means <me>\sqrt[3]{C^3} = \sqrt[3]{714.2857\ldots}</me>
+		</p>
+
+		<p>
+			which simplifies to <me>C = \sqrt[3]{714.2857\ldots} =3 \sqrt[x]{~\text{  }} 714.2857
+	= 8.9390\ldots \approx 8.9 \text{ inches}</me> as expected, just under 9 inches. (More about the <m>\sqrt[x]{~\text{  }}</m> key later too.)
+		</p>
+
+		<p>
+			A look at the graph confirms our result.
+		</p>
+
+
+		<p>
+			<image source='lemonade.png'/>
+		</p>
+
+		<p>
+			Now, what goes better with lemonade than lemon cheesecake? For that we need lemon zest. <term>Zest</term> is what you get when you grate the lemon peel in long skinny strips. As with juice, the amount of lemon zest depends on the size of the lemon. Our variables are
+		</p>
+
+
+		<tabular bottom="minor" top="minor">
+			<row left="minor" class="odd">
+				<cell right="minor" halign="left"><m>Z=</m> amount of lemon zest (tablespoons) <m>\sim</m> dep</cell>
+			</row>
+			<row left="minor" class="even">
+				<cell right="minor" halign="left"><m>C=</m> circumference (inches) <m>\sim</m> indep <em>as before</em></cell>
+			</row>
+		</tabular>
+
+		<p>
+			and an equation is <me>Z=0.018C^2</me> We have another power equation, this time with power <m>n=2</m> and proportionality constant <m>k=0.018</m>.
+		</p>
+
+		<p>
+			My lemon cheesecake recipe calls for <m>1 \tfrac12</m> tablespoons of zest. There are various sized lemons at the store. How large a lemon should I buy? A small lemon of circumference 7 inches produces less than 1 tablespoon of zest because <me>Z=0.018\ast7^2 = 0.018 \times \underline{7} \wedge 2 = 0.082 &lt; 1</me> so that's not large enough.
+		</p>
+
+		<p>
+			Let's use successive approximations, summarizing our guesses in a table. Of course, we don't really need this precise an answer, but it's good practice. Notice <m>1 \tfrac12 = 1 + \tfrac12 = 1 + 1 \div 2 = 1.5</m>.
+		</p>
+
+
+		<tabular bottom="minor" top="minor">
+			<row left="minor" class="odd">
+				<cell right="minor" halign="center"><m>C</m></cell>
+				<cell right="minor" halign="center">7</cell>
+				<cell right="minor" halign="center">8</cell>
+				<cell right="minor" halign="center">9</cell>
+				<cell right="minor" halign="center">10</cell>
+				<cell right="minor" halign="center">9.5</cell>
+				<cell right="minor" halign="center">9.3</cell>
+				<cell right="minor" halign="center">9.2</cell>
+				<cell right="minor" halign="center">9.1</cell>
+			</row>
+			<row left="minor" class="odd">
+				<cell right="minor" halign="center"><m>Z</m></cell>
+				<cell right="minor" halign="center">0.882</cell>
+				<cell right="minor" halign="center">1.152</cell>
+				<cell right="minor" halign="center">1.458</cell>
+				<cell right="minor" halign="center">1.8</cell>
+				<cell right="minor" halign="center">1.6245</cell>
+				<cell right="minor" halign="center">1.55682</cell>
+				<cell right="minor" halign="center">1.52352</cell>
+				<cell right="minor" halign="center">1.49058</cell>
+			</row>
+			<row left="minor" class="even">
+				<cell right="minor" halign="center">vs. 1.5</cell>
+				<cell right="minor" halign="center">low</cell>
+				<cell right="minor" halign="center">high</cell>
+				<cell right="minor" halign="center">low</cell>
+				<cell right="minor" halign="center">high</cell>
+				<cell right="minor" halign="center">high</cell>
+				<cell right="minor" halign="center">high</cell>
+				<cell right="minor" halign="center">high</cell>
+				<cell right="minor" halign="center">low</cell>
+			</row>
+		</tabular>
+
+		<p>
+			We need a large lemon, somewhere between 9.1 and 9.2 inches around. Truth is, I'll just buy the biggest lemon I can find because extra lemon zest looks wonderful on top of the cheesecake.
+		</p>
+
+		<p>
+			We are supposed to be practicing solving the equation. Here goes. We want <m>Z=1.5</m>. Use our equation <m>Z=0.018C^2</m> to get <me>0.018C^2=1.5</me> We want to find the value of <m>C</m>, so we can divide both sides by 0.018 to get <me>\frac{\cancel{0.018}C^2}{\cancel{0.018}}=\frac{1.5}{0.018}</me> which simplifies to <me>C^2 = \frac{1.5}{0.018}= 1.5 \div 0.018 = 83.333333\ldots</me> Take the square root of each side to get <me>\sqrt{C^2} = \sqrt{83.333333\ldots}</me> which simplifies to 
+			<me>
+				C = \sqrt{83.333333\ldots} 
+				=\sqrt{~\text{  }} 83.333333
+				= 9.128709292\ldots \approx 9.13 \text{ inches}
+			</me> 
+			as expected, between 9.1 and 9.2 inches.
+		</p>
+
+		<p>
+			As when solving linear equations, notice that we do the opposite operation in reverse order from the usual order of operations. To evaluate a power equation we would first raise to the power and then multiply. To solve a power equation we first divide (that is the opposite of multiplying) and then we take a root (that is the opposite of raising to a power).
+		</p>
+
+		<p>
+			As promised, a brief discussion of roots is in order. Here's the deal. Roots essentially <q>undo</q> powers. What this means is, for example, we know <me>10^2=10 \times 10 =100</me> but it's quicker to calculate it using powers as <me>10^2 = 10 \wedge 2 = 100</me> We say 10 <term>squared</term> is 100. The <term>square root</term> of a number is just whatever number you would square to get that number. So, for example, <m>\sqrt{100} = 10</m> because you would square 10 to get 100. Many calculators have a special square root key that looks like <m>\sqrt{~\text{  }}</m> so we get <me>\sqrt{100} = \sqrt{~\text{  }} 100 = 10</me> Your calculator might insert a parenthesis with the square root, in which case you should (but don't need to) close it before hitting <m>=</m>, like this <me>\sqrt{100} = \sqrt{~\text{  }} ( 100 ) = 10</me> Your calculator might not have this key, or might need the square root after the number. Ask a classmate or your instructor or search online if you can't figure it out.
+		</p>
+
+		<p>
+			The same idea works for higher powers. Like <me>10^3 =10 \times 10 \times 10 = 1,000</me> That's really <me>10^3 = 10 \wedge 3 = 1,000</me> and we say 10 <term>cubed</term> is . The <term>cube root</term> of a number is whatever number you would cube to get that number. So, for example, <m>\sqrt[3]{1,000} = 10</m>. Many calculators have a special root key that looks like <m>\sqrt[x]{~\text{  }}</m>. That <m>x</m> looks similar to multiplication (<m>\times</m>), but it isn't. The <m>x</m> is like a placeholder for the real root you want - for a cube root <m>x</m> is just 3.
+		</p>
+
+		<p>
+			Here's how to use that root key. First you type in the root you want (3), second you use that key (<m>\sqrt[x]{~\text{  }}</m>), and last you type in the number you're taking the root of () like this <me>\sqrt[3]{1,000} = 3\sqrt[x]{~\text{  }}1,000= 10</me> Like with squareroots, your calculator might introduce a parenthesis, or you might do a slightly different order. You might have to use a shift or second key to get to the root key. On many graphing calculators the <m>\sqrt[x]{~\text{  }}</m> key is one of the MATH functions, so you have to type something like MATH 5 to get it. Again, ask if you need help figuring it out.
+		</p>
+
+		<p>
+			There is a small chance that your calculator doesn't have roots. In that case there is a strange-looking alternative <me>\sqrt[3]{1,000} = 1,000 \wedge (1 \div 3)= 10</me> Note the necessary parentheses. This process works for square roots too. <me>\sqrt{100} = 100 \wedge (1 \div 2)= 10</me>
+		</p>
+
+		<p>
+			Bet you see how this idea of roots generalizes. The <term><m>n</m>th root</term> of a number is whatever number you would raise to the <m>n</m>th power to get the number. Stated in terms of equations we have
+		</p>
+
+		<assemblage xml:id="root-formula">
+			<title>Root Formula</title>
+				
+				
+			<p>
+				The equation <m>C^n=v</m> has solution <me>C= \sqrt[n]{v}</me>
+			</p>
+		</assemblage>
+	</introduction>
+	
+	<conclusion component="html">
+		<title>Do you know ...</title>
+
+		<p>
+			<xi:include href="./dyk-Solving_power_equations.ptx" />
+		</p>
+		<xi:include href="./NotSure.ptx" />
+	</conclusion>
+
+	
 	<xi:include href="./ex-Solving_power_equations.ptx" />
 
-
+	<xi:include href="./WYD.ptx" />
+		
+		
+	<conclusion component="print">
+		<title>Do you know ...</title>
+		<p>
+			<xi:include href="./dyk-Solving_power_equations.ptx" />
+		</p>
+		<xi:include href="./NotSure.ptx" />
+	</conclusion>
 </section>

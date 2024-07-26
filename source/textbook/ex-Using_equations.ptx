@@ -235,6 +235,9 @@
 			<p>
 				The 2002 Chevrolet Tahoe 4WD will take about 158.1 feet to stop when traveling at 60 mph in normal highway conditions. Let <m>S</m> be the speed at which the vehicle is traveling, in miles per hour (mph), and <m>D</m> the distance it takes to stop, in feet. This information together with a little physics gives the equation <me>D = 0.0439S^2 + 1.47S</me>
 			</p>
+			<p>
+				<em>(Story also appears in <xref ref="braking-distance-solving-quadratic"/>)</em>
+			</p>
 		</introduction>	
 		<task>
 			<statement>
