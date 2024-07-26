@@ -7,44 +7,59 @@
 	<xi:include href="ex-intro.ptx" />
 
 	<page>
-		<introduction>
+		<introduction component="print">
 			
-			<p>
-				<term>Linear equation template:</term> <m>\text{dep}=\text{start}+\text{slope}\ast\text{indep}</m>
-			</p>
+			<assemblage xml:id="linear-eq-template">
+				<title>Linear equation template</title>
+				<p>
+					dep = start + slope <m>\ast</m> indep
+				</p>
+			</assemblage>
 	
-			<p>
-				<term>Rate of Change/Slope (of Linear) Formula:</term> <me>\displaystyle \text{rate of change = }\frac{\text{1st dep - 2nd dep}}{\text{1st indep - 2nd indep}}</me>
-			</p>
+			<assemblage xml:id="rate-of-change">
+				<title>Rate of change formula</title>
+				
+				
+				<p>
+					<me>\text{rate of change } = \frac{\text{change dep}}{\text{change indep}} = \frac{\text{1st dep - 2nd dep}}{\text{1st indep - 2nd indep}</me>
+				</p>
+			</assemblage>
 	
-			<p>
-				<term>Exponential equation template:</term> <m>\text{dep} = \text{start} \ast \text{growth factor} ^ {\text{indep}}</m>
-			</p>
+			<assemblage xml:id="exp-eqn-template">
+				<title>Exponential equation template</title>
+				
+				
+				<p><me>\text{dep} = \text{start} \ast \text{growth factor} ^ {\text{indep}}</me></p>
+			</assemblage>
 	
-			<p>
-				<term>Growth Factor Formula:</term>
-			</p>
+			<assemblage>
+				<title>Growth Factor Formula</title>
+					
+					
+				<p>
+					If a quantity is growing (or decaying) exponentially, then the growth (or decay) factor is <me>\displaystyle g = \sqrt[t]{\frac{a}{s}}</me> where <m>s</m> is the starting amount and <m>a</m> is the amount after <m>t</m> time periods.
+				</p>
+			</assemblage>
 	
-			<p>
-				If a quantity is growing (decaying) exponentially, then the growth (decay) factor is <me>\displaystyle g = \sqrt[t]{\frac{a}{s}}</me> where <m>s</m> is the starting amount and <m>a</m> is the amount after <m>t</m> time periods.
-			</p>
-	
-			<p>
-				<term>Percent Change Formula:</term>
-			</p>
-	
-			<p><ul>
-				<li>
-						<p>
-							If a quantity changes by a percentage corresponding to growth rate <m>r</m>, then the growth factor is <me>\displaystyle g=1+r</me>
-						</p>
-				</li>
-	
-				<li>
-						<p>
-							If the growth factor is <m>g</m>, then the growth rate is <me>r = g-1</me> 
-						</p>
-				</li>
+			<assemblage>
+				<title>Percent Change Formula</title>
+					
+					
+				<p>
+					<ul>
+						<li>
+							<p>
+								If a quantity changes by a percentage corresponding to growth rate <m>r</m>, then the growth factor is <me>\displaystyle g=1+r</me>
+							</p>
+						</li>
+						<li>
+							<p>
+								If the growth factor is <m>g</m>, then the growth rate is <me>r = g-1</me>
+							</p>
+						</li>
+					</ul>
+				</p>
+			</assemblage>
 	
 			</ul></p>
 		</introduction>
@@ -244,7 +259,6 @@
 			<introduction>
 				<p>
 					In December 2010, a popular mobile app game featuring animated birds launched from slingshots had 50 million downloads. Five months later (May 2011), the game had 200 million downloads. Let <m>D</m> denote the number of downloads of the game (in millions) and <m>T</m> the time in months since December 2010.
-					<em>story also appears ......</em>
 				</p>
 			</introduction>
 			<task>
@@ -322,7 +336,7 @@
 
 	
 
-	<exercise xml:id="diet-linear-exponential">
+	<exercise xml:id="diet-linear-exponential" component="html">
 		<introduction>
 			<p>
 				Gina weighed 165 pounds when she started her diet three months ago. Now she weighs 153 pounds. 
@@ -353,7 +367,7 @@
 			</task>
 	</exercise>
 
-	<exercise xml:id="cfc-linear-exponential">
+	<exercise xml:id="cfc-linear-exponential" component="html">
 		<introduction>
 			<p>
 				Chlorofluorocarbons (CFC) are greenhouse gases that result from our use of refrigeration, air conditioning, aerosols, and foams. In 1960, the concentration of CFC in the northern hemisphere was 11.1 parts per trillion (ppt), meaning on average, there are 11.1 CFC molecules in a trillion molecules of air. In 1980 the concentration was 177 ppt. Use <m>C</m> for the concentration in the northern hemisphere in ppt and <m>Y</m> for the year, measured in years since 1960.
@@ -444,7 +458,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="caloric-intake-linear-exponential">
+	<exercise xml:id="caloric-intake-linear-exponential" component="html">
 		<introduction>
 			<p>
 				According to an online calculator, the recommended daily caloric intake for a woman Diane's height, weight, and activity level was 1,900 calories/day when she was 30 years old and 1,840 calories per day when she was 40 years old.
@@ -483,7 +497,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="movie-ticket-linear-exponential">
+	<exercise xml:id="movie-ticket-linear-exponential" component="html">
 		<introduction>
 			<p>
 				In 1995 the average price of a movie ticket was $4.35, and in 2011 the average price of a movie ticket was $7.93. The variables are <m>T</m>, the average price of a movie ticket in dollars and <m>Y</m> the number of years since 1995.
@@ -527,7 +541,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="asthma-linear-exponential">
+	<exercise xml:id="asthma-linear-exponential" component="html">
 		<statement>
 			<p>
 				The number of asthma sufferers worldwide in 1990 was 84 million and 130 million in 2001. Let <m>A</m> be the number of people with asthma (in millions) and <m>Y</m> the year, measured in years since 1990. Compare what the linear and exponential models project for the year 2015 and 2030. Include a graph showing both functions on the same axes.
@@ -535,7 +549,7 @@
 		</statement>
 	</exercise>
 
-	<exercise xml:id="hybrid-cars-linear-exponential">
+	<exercise xml:id="hybrid-cars-linear-exponential" component="html">
 		<introduction>
 			<p>
 				Sales of hybrid cars in the United States have continued to increase. In 1999, 17 (yes, seventeen) hybrid cars were sold. By 2002 that number was up to 34,521 hybrid cars sold. Write <m>H</m> for the number of hybrid cars sold and <m>Y</m> for the year, measured in years since 1999.

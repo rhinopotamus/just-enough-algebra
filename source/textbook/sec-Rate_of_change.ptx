@@ -77,7 +77,7 @@
 			
 			
 			<p>
-				<me>\text{rate of change = }\frac{\text{change dep}}{\text{change indep}}</me>
+				<me>\text{rate of change } = \frac{\text{change dep}}{\text{change indep}} = \frac{\text{1st dep - 2nd dep}}{\text{1st indep - 2nd indep}</me>
 			</p>
 		</assemblage>
 

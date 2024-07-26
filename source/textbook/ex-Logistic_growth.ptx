@@ -307,7 +307,11 @@
 			</tabular>
 			
 			<p>
-				<em>Story also appears in <xref ref="bass-fishing-solving-power"/></em>
+				<em>
+					(Story also appears in 
+					<xref ref="bass-fishing-algebraic-notation"/> and
+					<xref ref="bass-fishing-solving-power"/>)
+				</em>
 			</p>
 		</introduction>	
 		<task>

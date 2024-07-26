@@ -3,145 +3,166 @@
 
 <section xml:id="sec-Modeling_exponential_equations" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Modeling with exponential equations<em component="print">: Practice exercises</em></title>
+	<introduction component="html">
+		<p>
+			My grandmother was born in eastern Europe at the end of the 1800s. When she was eight years old her parents brought her and her younger sister and brother to the United States to escape harsh treatment by the government. Both her parents had to work, so my grandmother dropped out of school when she was thirteen years old to take care of the children, which now included another brother and sister.
+		</p>
 
-	<p>
-		My grandmother was born in eastern Europe at the end of the 1800s. When she was eight years old her parents brought her and her younger sister and brother to the United States to escape harsh treatment by the government. Both her parents had to work, so my grandmother dropped out of school when she was thirteen years old to take care of the children, which now included another brother and sister.
-	</p>
+		<p>
+			Time passed and she married a handsome young veteran of World War I, who had also immigrated to the country as a young child. For her wedding dowry his parents bought my grandmother a set of sterling silverware, valued at $800 in 1920. My grandmother was very proud of her sterling and used it often.
+		</p>
 
-	<p>
-		Time passed and she married a handsome young veteran of World War I, who had also immigrated to the country as a young child. For her wedding dowry his parents bought my grandmother a set of sterling silverware, valued at $800 in 1920. My grandmother was very proud of her sterling and used it often.
-	</p>
+		<p>
+			Over the years, the sterling has increased in value, let's say by around 3% per year. In 1957, my grandmother handed it down to my mother as a wedding present. In 1990, I married and my mother handed the sterling down to me. What was it was it worth at those times, and how much should it be insured for through 2015?
+		</p>
 
-	<p>
-		Over the years, the sterling has increased in value, let's say by around 3% per year. In 1957, my grandmother handed it down to my mother as a wedding present. In 1990, I married and my mother handed the sterling down to me. What was it was it worth at those times, and how much should it be insured for through 2015?
-	</p>
+		<p>
+			Let's write the equation to answer these questions. The variables should be
+		</p>
 
-	<p>
-		Let's write the equation to answer these questions. The variables should be
-	</p>
+		<tabular bottom="minor" top="minor">
+			<row left="minor" class="odd">
+				<cell right="minor" halign="left"><m>S=</m> value of sterling ($) <m>\sim</m> dep</cell>
+			</row>
+			<row left="minor" class="even">
+				<cell right="minor" halign="left"><m>Y =</m> time (years since 1920) <m>\sim</m> indep</cell>
+			</row>
+		</tabular>
 
-	<tabular bottom="minor" top="minor">
-		<row left="minor" class="odd">
-			<cell right="minor" halign="left"><m>S=</m> value of sterling ($) <m>\sim</m> dep</cell>
-		</row>
-		<row left="minor" class="even">
-			<cell right="minor" halign="left"><m>Y =</m> time (years since 1920) <m>\sim</m> indep</cell>
-		</row>
-	</tabular>
+		<p>
+			We're saying that the sterling increased 3% per year in value. For example, in 1921, the sterling was worth <me>\$800 + 3\% \text{ of } \$800 = 800 + 0.03 \times 800 = 800 + 24= \$824</me> Remember the shortcut here? <me>800 \times 1.03 = 824</me> The idea is after one year we have the original $800 plus 3% more for a grand total of 103% of what we had before. And 103% = 1.03.
+		</p>
 
-	<p>
-		We're saying that the sterling increased 3% per year in value. For example, in 1921, the sterling was worth <me>\$800 + 3\% \text{ of } \$800 = 800 + 0.03 \times 800 = 800 + 24= \$824</me> Remember the shortcut here? <me>800 \times 1.03 = 824</me> The idea is after one year we have the original $800 plus 3% more for a grand total of 103% of what we had before. And 103% = 1.03.
-	</p>
+		<p>
+			After 5 years, the sterling was worth <me>800 \ast 1.03 \ast 1.03  \ast 1.03  \ast 1.03  \ast 1.03 = 800 \ast 1.03^5</me> since multiplying by 1.03 five times is the same as multiplying by <m>1.03^5</m>. On the calculator we do <me>800 \times 1.03 \wedge 5 = 927.4192594 \approx \$927</me>
+		</p>
 
-	<p>
-		After 5 years, the sterling was worth <me>800 \ast 1.03 \ast 1.03  \ast 1.03  \ast 1.03  \ast 1.03 = 800 \ast 1.03^5</me> since multiplying by 1.03 five times is the same as multiplying by <m>1.03^5</m>. On the calculator we do <me>800 \times 1.03 \wedge 5 = 927.4192594 \approx \$927</me>
-	</p>
+		<p>
+			Generalizing, we get our equation <me>800 \times 1.03 \wedge Y= S</me> which can be rewritten as <me>S=800 \ast 1.03 ^ Y</me> This equation fits our template for an exponential equation <me>\text{dep }=\text{ start } \ast \text{growth factor}^{\text{indep}}</me>
+		</p>
 
-	<p>
-		Generalizing, we get our equation <me>800 \times 1.03 \wedge Y= S</me> which can be rewritten as <me>S=800 \ast 1.03 ^ Y</me> This equation fits our template for an exponential equation <me>\text{dep }=\text{ start } \ast \text{growth factor}^{\text{indep}}</me>
-	</p>
+		<p>
+			Quick recap. A function is <term>exponential</term> if it corresponds to a fixed percent increase (or decrease). The percent increase is the <term>growth rate</term>; in our example, the growth rate is <m>r=3\%=0.03</m>. The number we multiply by is the <term>growth factor</term> and it is also the base of the power in the equation; in our example, the growth factor is <m>g =  1.03</m>. The <xref ref="percent-change-formula" text="title"/> from Section 2.2 reminds us that <me>g=1 + r = 1+0.03 =1.03</me>
+		</p>
 
-	<p>
-		Quick recap. A function is <term>exponential</term> if it corresponds to a fixed percent increase (or decrease). The percent increase is the <term>growth rate</term>; in our example, the growth rate is <m>r=3\%=0.03</m>. The number we multiply by is the <term>growth factor</term> and it is also the base of the power in the equation; in our example, the growth factor is <m>g =  1.03</m>. The <xref ref="percent-change-formula" text="title"/> from Section 2.2 reminds us that <me>g=1 + r = 1+0.03 =1.03</me>
-	</p>
+		<p>
+			Let's answer those questions. In 1957, we had <m>Y = 1957 - 1920 = 37</m> years and so <me>S = 800\ast1.03^{37} = 800 \times 1.03 \wedge \underline{37}= 2388.18134\ldots \approx \$2,388</me> By 1990, we had <m>Y = 1990 - 1920 = 70</m> years and so <me>S = 800\ast1.03^{70} = 800 \times 1.03 \wedge \underline{70}= 6334.2575\ldots \approx \$6,334</me> By 2015, we have <m>Y = 2015 - 1920 = 95</m> years and so <me>S = 800\ast1.03^{95} = 800 \times 1.03 \wedge \underline{95}= 13262.5286\ldots \approx \$13,262</me>
+		</p>
 
-	<p>
-		Let's answer those questions. In 1957, we had <m>Y = 1957 - 1920 = 37</m> years and so <me>S = 800\ast1.03^{37} = 800 \times 1.03 \wedge \underline{37}= 2388.18134\ldots \approx \$2,388</me> By 1990, we had <m>Y = 1990 - 1920 = 70</m> years and so <me>S = 800\ast1.03^{70} = 800 \times 1.03 \wedge \underline{70}= 6334.2575\ldots \approx \$6,334</me> By 2015, we have <m>Y = 2015 - 1920 = 95</m> years and so <me>S = 800\ast1.03^{95} = 800 \times 1.03 \wedge \underline{95}= 13262.5286\ldots \approx \$13,262</me>
-	</p>
+		<p>
+			Let's summarize this information in a table and draw a graph.
+		</p>
 
-	<p>
-		Let's summarize this information in a table and draw a graph.
-	</p>
+		<tabular bottom="minor" top="minor">
+			<row left="minor" class="odd">
+				<cell right="minor" halign="center">year</cell>
+				<cell right="minor" halign="center">1920</cell>
+				<cell right="minor" halign="center">1921</cell>
+				<cell right="minor" halign="center">1925</cell>
+				<cell right="minor" halign="center">1957</cell>
+				<cell right="minor" halign="center">1990</cell>
+				<cell right="minor" halign="center">2015</cell>
+			</row>
+			<row left="minor" class="odd">
+				<cell right="minor" halign="center"><m>Y</m></cell>
+				<cell right="minor" halign="center">0</cell>
+				<cell right="minor" halign="center">1</cell>
+				<cell right="minor" halign="center">5</cell>
+				<cell right="minor" halign="center">37</cell>
+				<cell right="minor" halign="center">70</cell>
+				<cell right="minor" halign="center">95</cell>
+			</row>
+			<row left="minor" class="even">
+				<cell right="minor" halign="center"><m>S</m></cell>
+				<cell right="minor" halign="center">800</cell>
+				<cell right="minor" halign="center">824</cell>
+				<cell right="minor" halign="center">927</cell>
+				<cell right="minor" halign="center">2,388</cell>
+				<cell right="minor" halign="center">6,334</cell>
+				<cell right="minor" halign="center">13,262</cell>
+			</row>
+		</tabular>
 
-	<tabular bottom="minor" top="minor">
-		<row left="minor" class="odd">
-			<cell right="minor" halign="center">year</cell>
-			<cell right="minor" halign="center">1920</cell>
-			<cell right="minor" halign="center">1921</cell>
-			<cell right="minor" halign="center">1925</cell>
-			<cell right="minor" halign="center">1957</cell>
-			<cell right="minor" halign="center">1990</cell>
-			<cell right="minor" halign="center">2015</cell>
-		</row>
-		<row left="minor" class="odd">
-			<cell right="minor" halign="center"><m>Y</m></cell>
-			<cell right="minor" halign="center">0</cell>
-			<cell right="minor" halign="center">1</cell>
-			<cell right="minor" halign="center">5</cell>
-			<cell right="minor" halign="center">37</cell>
-			<cell right="minor" halign="center">70</cell>
-			<cell right="minor" halign="center">95</cell>
-		</row>
-		<row left="minor" class="even">
-			<cell right="minor" halign="center"><m>S</m></cell>
-			<cell right="minor" halign="center">800</cell>
-			<cell right="minor" halign="center">824</cell>
-			<cell right="minor" halign="center">927</cell>
-			<cell right="minor" halign="center">2,388</cell>
-			<cell right="minor" halign="center">6,334</cell>
-			<cell right="minor" halign="center">13,262</cell>
-		</row>
-	</tabular>
+		<p>
+			<image source='grandmasterling.png'/>
+		</p>
 
-	<p>
-		<image source='grandmasterling.png'/>
-	</p>
+		<p>
+			Actually, the insurance policy allows for up to $20,000. The curve we drew suggests that the value will be $20,000 just past <m>Y=100</m> (the year 2020), probably somewhere around <m>Y=110</m> (the year 2030).
+		</p>
 
-	<p>
-		Actually, the insurance policy allows for up to $20,000. The curve we drew suggests that the value will be $20,000 just past <m>Y=100</m> (the year 2020), probably somewhere around <m>Y=110</m> (the year 2030).
-	</p>
+		<p>
+			We can use successive approximation to improve our answer.
+		</p>
 
-	<p>
-		We can use successive approximation to improve our answer.
-	</p>
+		<tabular bottom="minor" top="minor">
+			<row left="minor" class="odd">
+				<cell right="minor" halign="center">year</cell>
+				<cell right="minor" halign="center">2020</cell>
+				<cell right="minor" halign="center">2030</cell>
+				<cell right="minor" halign="center">2029</cell>
+				<cell right="minor" halign="center">2028</cell>
+			</row>
+			<row left="minor" class="odd">
+				<cell right="minor" halign="center"><m>Y</m></cell>
+				<cell right="minor" halign="center">100</cell>
+				<cell right="minor" halign="center">110</cell>
+				<cell right="minor" halign="center">109</cell>
+				<cell right="minor" halign="center">108</cell>
+			</row>
+			<row left="minor" class="even">
+				<cell right="minor" halign="center"><m>S</m></cell>
+				<cell right="minor" halign="center">15,375</cell>
+				<cell right="minor" halign="center">20,663</cell>
+				<cell right="minor" halign="center">20,061</cell>
+				<cell right="minor" halign="center">19,476</cell>
+			</row>
+			<row left="minor" class="odd">
+				<cell right="minor" halign="center">vs. 20,000</cell>
+				<cell right="minor" halign="center">low</cell>
+				<cell right="minor" halign="center">high</cell>
+				<cell right="minor" halign="center">high</cell>
+				<cell right="minor" halign="center">low</cell>
+			</row>
+		</tabular>
 
-	<tabular bottom="minor" top="minor">
-		<row left="minor" class="odd">
-			<cell right="minor" halign="center">year</cell>
-			<cell right="minor" halign="center">2020</cell>
-			<cell right="minor" halign="center">2030</cell>
-			<cell right="minor" halign="center">2029</cell>
-			<cell right="minor" halign="center">2028</cell>
-		</row>
-		<row left="minor" class="odd">
-			<cell right="minor" halign="center"><m>Y</m></cell>
-			<cell right="minor" halign="center">100</cell>
-			<cell right="minor" halign="center">110</cell>
-			<cell right="minor" halign="center">109</cell>
-			<cell right="minor" halign="center">108</cell>
-		</row>
-		<row left="minor" class="even">
-			<cell right="minor" halign="center"><m>S</m></cell>
-			<cell right="minor" halign="center">15,375</cell>
-			<cell right="minor" halign="center">20,663</cell>
-			<cell right="minor" halign="center">20,061</cell>
-			<cell right="minor" halign="center">19,476</cell>
-		</row>
-		<row left="minor" class="odd">
-			<cell right="minor" halign="center">vs. 20,000</cell>
-			<cell right="minor" halign="center">low</cell>
-			<cell right="minor" halign="center">high</cell>
-			<cell right="minor" halign="center">high</cell>
-			<cell right="minor" halign="center">low</cell>
-		</row>
-	</tabular>
+		<p>
+			Seems to be around the year 2029, where <m>Y=109</m>, as we had guessed.
+		</p>
 
-	<p>
-		Seems to be around the year 2029, where <m>Y=109</m>, as we had guessed.
-	</p>
+		<p>
+			Of course, we can solve the exponential equation instead. To find when <m>S= 20,000</m> we use our equation <m>S = 800 \ast 1.03^Y</m> to get <me>800 \ast 1.03^Y =  20,000</me> Divide each side by 800 to get <me>\frac{\cancel{800} \ast 1.03^Y}{\cancel{800}} = \frac{ 20,000}{800}</me> and so <me>1.03^Y = \frac{ 20,000}{800}  =  20,000 \div {800} = 25</me> Since we want to solve for the exponent, we use the <xref ref="log-divides-formula" text="title"/> with growth factor <m>g=1.03</m> and the value <m>v= 25</m> to get <me>Y =  \frac{\log (v)}{\log(g)} =  \frac{\log (25)}{\log(1.03)} = \log (25) \div \log (1.03) = 108.89737 \approx 109</me> We rounded up to make sure it would reach the full $20,000. Since 1920 + 109 = 2029, we see (again) that the value should reach $20,000 in the year 2029.
+		</p>
 
-	<p>
-		Of course, we can solve the exponential equation instead. To find when <m>S= 20,000</m> we use our equation <m>S = 800 \ast 1.03^Y</m> to get <me>800 \ast 1.03^Y =  20,000</me> Divide each side by 800 to get <me>\frac{\cancel{800} \ast 1.03^Y}{\cancel{800}} = \frac{ 20,000}{800}</me> and so <me>1.03^Y = \frac{ 20,000}{800}  =  20,000 \div {800} = 25</me> Since we want to solve for the exponent, we use the <xref ref="log-divides-formula" text="title"/> with growth factor <m>g=1.03</m> and the value <m>v= 25</m> to get <me>Y =  \frac{\log (v)}{\log(g)} =  \frac{\log (25)}{\log(1.03)} = \log (25) \div \log (1.03) = 108.89737 \approx 109</me> We rounded up to make sure it would reach the full $20,000. Since 1920 + 109 = 2029, we see (again) that the value should reach $20,000 in the year 2029.
-	</p>
+		<p>
+			As an aside, look what happens when we calculate the rate of change for this function. For example, during the first five years, <me>\text{rate of change} =  \frac{\text{change dep}}{\text{change indep}} = \frac{\$927 - \$800}{1925-1920}= \frac{\$127}{5 \text{ years}} = 127 \div 5 = \$25.40\text{/year}</me> and from 1925 to 1957, <me>\text{rate of change} =  \frac{\text{change dep}}{\text{change indep}} = \frac{\$2,388 - \$927}{1957-1925}= \frac{\$1,461}{32 \text{ years}} = 1,461 \div 32 \approx \$45.66\text{/year}</me> In the first few years, the value increased an average of $25.40 a year, but from 1925 to 1957 it increased an average of about $45.66 per year.
+		</p>
 
-	<p>
-		As an aside, look what happens when we calculate the rate of change for this function. For example, during the first five years, <me>\text{rate of change} =  \frac{\text{change dep}}{\text{change indep}} = \frac{\$927 - \$800}{1925-1920}= \frac{\$127}{5 \text{ years}} = 127 \div 5 = \$25.40\text{/year}</me> and from 1925 to 1957, <me>\text{rate of change} =  \frac{\text{change dep}}{\text{change indep}} = \frac{\$2,388 - \$927}{1957-1925}= \frac{\$1,461}{32 \text{ years}} = 1,461 \div 32 \approx \$45.66\text{/year}</me> In the first few years, the value increased an average of $25.40 a year, but from 1925 to 1957 it increased an average of about $45.66 per year.
-	</p>
+		<p>
+			Were we supposed to get different numbers here? Well, the graph's not a line and it's not a linear equation. That tells us the rate of change isn't going to be constant. So, sure, different numbers are fine. Does it make sense that the rate of change would itself increase? That the value increases at an increasing rate? Yes. Although we are always just adding on 3%, we're taking 3% of larger numbers each year. So more is added each year.
+		</p>
+	</introduction>	
 
-	<p>
-		Were we supposed to get different numbers here? Well, the graph's not a line and it's not a linear equation. That tells us the rate of change isn't going to be constant. So, sure, different numbers are fine. Does it make sense that the rate of change would itself increase? That the value increases at an increasing rate? Yes. Although we are always just adding on 3%, we're taking 3% of larger numbers each year. So more is added each year.
-	</p>
+	<conclusion component="html">
+		<title>Do you know ...</title>
+
+		<p>
+			<xi:include href="./dyk-Modeling_exponential_equations.ptx" />
+		</p>
+		<xi:include href="./NotSure.ptx" />
+	</conclusion>
+
 	
-	<xi:include href="./dyk-Modeling_exponential_equations.ptx" />
 	<xi:include href="./ex-Modeling_exponential_equations.ptx" />
+
+	<xi:include href="./WYD.ptx" />
+		
+		
+	<conclusion component="print">
+		<title>Do you know ...</title>
+		<p>
+			<xi:include href="./dyk-Modeling_exponential_equations.ptx" />
+		</p>
+		<xi:include href="./NotSure.ptx" />
+	</conclusion>
 </section>

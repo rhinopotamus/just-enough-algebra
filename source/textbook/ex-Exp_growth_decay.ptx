@@ -205,10 +205,15 @@
 
 	
 
-	<exercise xml:id="caffeine-growth-decay">
+	<exercise xml:id="caffeine-growth-decay" component="html">
 		<introduction>
 			<p>
 				Joe's girlfriend Ceyda starts the day by downing two cans of Red Bull, containing a total of 160 mg of caffeine. Her body eliminates the caffeine at a slightly slower rate of 12% each hour.
+			</p>
+			<p>
+				<em>
+					(Story also appears in <xref ref="caffeine-percentages"/>)
+				</em>
 			</p>
 		</introduction>	
 			<task>
@@ -236,10 +241,16 @@
 			</task>
 	</exercise>
 
-	<exercise xml:id="bacteria-growth-decay">
+	<exercise xml:id="bacteria-growth-decay" component="html">
 		<introduction>
 			<p>
 				The population of bacteria in a culture dish begins at 2,000 and will triple every day.
+			</p>
+			<p>
+				<em>
+					(Story also appears in 
+					<xref ref="find-rate-growth-factor"/>)
+				</em>
 			</p>
 		</introduction>	
 			<task>
@@ -299,10 +310,15 @@
 			</task>
 	</exercise>
 
-	<exercise xml:id="house-value-growth-decay">
+	<exercise xml:id="house-value-growth-decay" component="html">
 		<introduction>
 			<p>
 				Tenzin bought a house for $291,900 but the housing market collapsed and his house value dropped 4.1% each year.
+			</p>
+			<p>
+				<em>
+					(Story also appears in <xref ref="house-value-percentages"/>)
+				</em>
 			</p>
 		</introduction>	
 			<task>
@@ -330,10 +346,16 @@
 			</task>
 	</exercise>
 
-	<exercise xml:id="wetlands-growth-decay">
+	<exercise xml:id="wetlands-growth-decay" component="html">
 		<introduction>
 			<p>
 				One modern technique for cleaning waste water involves the use of constructed (man-made) wetlands. Wetlands act as a natural biofilter for various contaminants in the waste water. After each month in the wetlands, only about of the contaminants remain in any given sample. Suppose a sample had 8 grams of contaminants before processed in the constructed wetlands.
+			</p>
+			<p>
+				<em>
+					(Story also appears in 
+					<xref ref="find-rate-growth-factor"/>)
+				</em>
 			</p>
 		</introduction>	
 			<task>
@@ -377,13 +399,13 @@
 			</task>
 	</exercise>
 
-	<exercise xml:id="hibbing-growth-decay">
+	<exercise xml:id="hibbing-growth-decay" component="html">
 		<introduction>
 			<p>
-				Hibbing, Minnesota is the hometown of baseball star Roger Maris, basketball great Kevin McHale, the Greyhound Bus lines, the Hull-Rust-Mahoning Open Pit Iron Mine and, perhaps most famously, the childhood home of songwriter Bob Dylan. It is not a big town. In 2000 the population was reported at 17,071 residents, with an expected decrease of around 0.4% per year.
+				Hibbing, Minnesota is the hometown of baseball star Roger Maris, basketball great Kevin McHale, the Greyhound Bus lines, the Hull-Rust-Mahoning Open Pit Iron Mine and, perhaps most famously, songwriter Bob Dylan. It is not a big town. In 2000 the population was reported at 17,071 residents, with an expected decrease of around 0.4% per year.
 			</p>
 			<p>
-				<em>(Story also appears in ...)</em>
+				<em>(Story also appears in <xref ref="round-calculated-approx-rounding"/>)</em>
 			</p>
 		</introduction>	
 			<task>
@@ -419,10 +441,15 @@
 			</task>
 	</exercise>
 
-	<exercise xml:id="food-shelf-growth-decay">
+	<exercise xml:id="food-shelf-growth-decay" component="html">
 		<introduction> 
 			<p>
 				Donations to a local food shelf have increased 35% over last year. There were 3,400 pounds of food donated last year. <em>Story also appears in 5.3 #4</em>
+			</p>
+			<p>
+				<em>
+					(Story also appears in <xref ref="find-growth-factor"/>)
+				</em>
 			</p>
 		</introduction>	
 			<task>

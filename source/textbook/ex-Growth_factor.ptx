@@ -7,33 +7,36 @@
 	<xi:include href="ex-intro.ptx" />
 
 	<page>
-		<introduction>
-			<p>
-				<term>Percent Change Formula:</term>
-			</p>
-	
-			<p><ul>
-				<li>
-						<p>
-							If a quantity changes by a percentage corresponding to growth rate <m>r</m>, then the growth factor is <me>\displaystyle g=1+r</me>
-						</p>
-				</li>
-	
-				<li>
-						<p>
-							If the growth factor is <m>g</m>, then the growth rate is <me>r = g-1</me> 
-						</p>
-				</li>
-	
-			</ul></p>
-	
-			<p>
-				<term>Growth Factor Formula:</term>
-			</p>
-	
-			<p>
-				If a quantity is growing (decaying) exponentially, then the growth (decay) factor is <me>\displaystyle g = \sqrt[t]{\frac{a}{s}}</me> where <m>s</m> is the starting amount and <m>a</m> is the amount after <m>t</m> time periods.
-			</p>
+		<introduction component="print">
+			<assemblage xml:id="growth-factor-formula">
+				<title>Growth Factor Formula</title>
+					
+					
+				<p>
+					If a quantity is growing (or decaying) exponentially, then the growth (or decay) factor is <me>\displaystyle g = \sqrt[t]{\frac{a}{s}}</me> where <m>s</m> is the starting amount and <m>a</m> is the amount after <m>t</m> time periods.
+				</p>
+			</assemblage>
+
+
+			<assemblage xml:id="percent-change-formula-2">
+				<title>Percent Change Formula</title>
+					
+					
+				<p>
+					<ul>
+						<li>
+							<p>
+								If a quantity changes by a percentage corresponding to growth rate <m>r</m>, then the growth factor is <me>\displaystyle g=1+r</me>
+							</p>
+						</li>
+						<li>
+							<p>
+								If the growth factor is <m>g</m>, then the growth rate is <me>r = g-1</me>
+							</p>
+						</li>
+					</ul>
+				</p>
+			</assemblage>
 		</introduction>
 	</page>
 	
@@ -83,7 +86,7 @@
 			<task>
 				<statement>
 					<p>
-						Use the <term>Growth Factor Formula</term> to find the annual growth factor for the time period from 1962 to 1970.
+						Use the <xref ref="growth-factor-formula" text="title"/> to find the annual growth factor for the time period from 1962 to 1970.
 					</p>
 				</statement>
 			</task>
@@ -227,7 +230,8 @@
 				</p>
 			
 				<p>
-					<em>Hint: First decide if you can use the <term>Percent Change Formula</term> or if you will need to use the <term>Growth Factor Formula</term>.</em>
+					<em>Hint: First decide if you can use the <xref ref="percent-change-formula-2" text="title"/> or if you will need to use the <xref ref="growth-factor-formula" text="title"/>.</em>
+					
 				</p>
 			
 				<p>
@@ -442,7 +446,9 @@
 			<task xml:id="reality-tv-growth-factor">
 				<statement>
 					<p>
-						The number of households watching reality television <m>R</m> (in millions) was estimated by the equation <me>R=2.5 \ast 1.072^T</me> where <m>T</m> is the time in years since 1990. <em>(Story also appears in 5.1 Exercises)</em>
+						The number of households watching reality television <m>R</m> (in millions) was estimated by the equation <me>R=2.5 \ast 1.072^T</me> where <m>T</m> is the time in years since 1990. 
+						<em component="html">(Story also appears in <xref ref="reality-tv-modeling-exponential"/>)</em>
+						<em component="print">(Story also appears in <xref ref="sec-Modeling_exponential_equations"/> Exercises)</em>
 					</p>
 				</statement>
 			</task>
@@ -453,10 +459,14 @@
 					</p>
 				</statement>
 			</task>
-			<task xml:id="angry-birds-growth-factor">
+			<task xml:id="drawing-game-growth-factor">
 				<statement>
 					<p>
-						The number of players of a wildly popular mobile app drawing game has been growing exponentially according to the equation <me>N = 2 \ast 1.57^W</me> where <m>N</m> is the number of players (in millions) and <m>T</m> is the time in weeks since people started playing the game. <em>(Story also appears in 5.1 Exercises)</em>
+						The number of players of a wildly popular mobile app drawing game has been growing exponentially according to the equation <me>N = 2 \ast 1.57^W</me> where <m>N</m> is the number of players (in millions) and <m>T</m> is the time in weeks since people started playing the game. 
+						<em>(Story also appears in 
+							<xref ref="drawing-game-modeling-exponential"/>)</em>
+						<em>(Story also appears in 
+							<xref ref="sec-Modeling_exponential_equations"/> Exercises)</em>
 					</p>
 				</statement>
 			</task>
@@ -465,7 +475,7 @@
 
 	
 
-	<exercise xml:id="childhood-obesity-growth-factor">
+	<exercise xml:id="childhood-obesity-growth-factor" component="html">
 		<introduction>
 			<p>
 				Estimates for childhood obesity for 2010 were revised to 2.1 out of every ten children. (The 1994 figure of 1.1 out of every ten children remains accurate.)
@@ -504,7 +514,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="find-rate-growth-factor">
+	<exercise xml:id="find-rate-growth-factor" component="html">
 		<introduction>
 			<p>
 				For each equation, find the growth rate (percent increase or percent decrease) and state the units. (For example, something might <q>grow 2% per year</q> while something else might <q>drop 7% per hour</q>)
@@ -513,7 +523,8 @@
 		<task>
 			<statement>
 				<p>
-					The light <m>L\%</m> that passes through panes of glass <m>W</m> inches thick is given by the equation <me>L = 100\ast 0.75^W</me> <em>Story also appears in <xref ref="window-glass-approx-solutions"/> and <xref ref="window-glass-solving-exponential"/></em>
+					The light <m>L\%</m> that passes through panes of glass <m>W</m> inches thick is given by the equation <me>L = 100\ast 0.75^W</me> 
+					<em>(Story also appears in <xref ref="window-glass-approx-solutions"/> and <xref ref="window-glass-solving-exponential"/>)</em>
 				</p>
 			</statement>
 		</task>
@@ -521,7 +532,7 @@
 		<task>
 			<statement>
 				<p>
-					The population of bacteria (<m>B</m>) in a culture dish after <m>D</m> days is given by the equation <me>B=2,000\ast 3^D</me> <em>Story also appears in <xref ref="bacteria-growth-decay"/></em>
+					The population of bacteria (<m>B</m>) in a culture dish after <m>D</m> days is given by the equation <me>B=2,000\ast 3^D</me> <em>(Story also appears in <xref ref="bacteria-growth-decay"/>)</em>
 				</p>
 			</statement>
 		</task>
@@ -529,13 +540,13 @@
 		<task>
 			<statement>
 				<p>
-					The remaining contaminants (<m>C</m> grams) in a waste water sample after <m>M</m> months of treatment is given by <me>C=8 \ast 0.25^M</me> <em>Story also appears in <xref ref="wetlands-growth-decay"/></em>
+					The remaining contaminants (<m>C</m> grams) in a waste water sample after <m>M</m> months of treatment is given by <me>C=8 \ast 0.25^M</me> <em>(Story also appears in <xref ref="wetlands-growth-decay"/>)</em>
 				</p>
 			</statement>
 		</task>
 	</exercise>
 
-	<exercise xml:id="antique-table-growth-decay">
+	<exercise xml:id="antique-table-growth-factor" component="html">
 		<introduction>
 			<p>
 				Years ago, Whitney bought an antique mahogany table worth $560. Now, 30 years later, she had the table appraised for $3,700.
@@ -558,7 +569,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="morphine-growth-decay">
+	<exercise xml:id="morphine-growth-factor" component="html">
 		<introduction>
 			<p>
 				The opiate drug morphine leaves the body quickly. After 72 hours about 10% remains. A patient receives 100 mg of morphine.
@@ -621,7 +632,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="unemployment-growth-factor">
+	<exercise xml:id="unemployment-growth-factor" component="html">
 		<introduction>
 			<p>
 				Unemployment figures were just released. At last report there were 20,517 unemployed adults and now, 10 months later, we have 39,061 unemployed adults.
@@ -660,7 +671,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="wetlands-acreage-growth-factor">
+	<exercise xml:id="wetlands-acreage-growth-factor" component="html">
 		<introduction>
 			<p>
 				Wetlands help support fish populations, various plant and animal populations, control floods and erosion from nearby lakes and streams, filter water, and help preserve our supply of ground water. Minnesota wetlands acreage in 1850 was 18.6 million acres. By 2003, that number had dropped to 9.3 million acres.

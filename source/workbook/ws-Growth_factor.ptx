@@ -450,7 +450,7 @@
                 </p>
             </statement>
         </task>
-        <task xml:id="angry-birds-growth-factor">
+        <task xml:id="drawing-game-growth-factor">
             <statement>
                 <p>
                     The number of players of a wildly popular mobile app drawing game has been growing exponentially according to the equation <me>N = 2 \ast 1.57^W</me> where <m>N</m> is the number of players (in millions) and <m>T</m> is the time in weeks since people started playing the game. <em>(Story also appears in 5.1 Exercises)</em>

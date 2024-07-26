@@ -3,145 +3,165 @@
 
 <section xml:id="sec-Linear_vs_exponential" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Linear vs. exponential models<em component="print">: Practice exercises</em></title>
+	<introduction component="html">
+		<p>
+			Sofía bought her car new for $22,500. Now the car is fairly old and just passed 109,000 miles. Sofía looked online and estimates the car is still worth $5,700. She wonders when the car would be practically worthless, meaning under $500.
+		</p>
 
-	<p>
-		Sofía bought her car new for $22,500. Now the car is fairly old and just passed 109,000 miles. Sofía looked online and estimates the car is still worth $5,700. She wonders when the car would be practically worthless, meaning under $500.
-	</p>
+		<p>
+			We can describe the variables in this story.
+		</p>
 
-	<p>
-		We can describe the variables in this story.
-	</p>
+		<tabular bottom="minor" top="minor">
+			<row left="minor" class="odd">
+				<cell right="minor" halign="left"><m>M =</m> mileage (thousand miles) <m>\sim</m> indep</cell>
+			</row>
+			<row left="minor" class="even">
+				<cell right="minor" halign="left"><m>C=</m> value of car ($) <m>\sim</m> dep</cell>
+			</row>
+		</tabular>
 
-	<tabular bottom="minor" top="minor">
-		<row left="minor" class="odd">
-			<cell right="minor" halign="left"><m>M =</m> mileage (thousand miles) <m>\sim</m> indep</cell>
-		</row>
-		<row left="minor" class="even">
-			<cell right="minor" halign="left"><m>C=</m> value of car ($) <m>\sim</m> dep</cell>
-		</row>
-	</tabular>
+		<p>
+			Notice we are measuring the mileage in thousands. The information we are given is
+		</p>
 
-	<p>
-		Notice we are measuring the mileage in thousands. The information we are given is
-	</p>
+		<tabular bottom="minor" top="minor">
+			<row left="minor" class="odd">
+				<cell right="minor" halign="center"><m>M</m></cell>
+				<cell right="minor" halign="center">0</cell>
+				<cell right="minor" halign="center">109</cell>
+			</row>
+			<row left="minor" class="odd">
+				<cell right="minor" halign="center"><m>C</m></cell>
+				<cell right="minor" halign="center">22,500</cell>
+				<cell right="minor" halign="center">5,700</cell>
+			</row>
+		</tabular>
 
-	<tabular bottom="minor" top="minor">
-		<row left="minor" class="odd">
-			<cell right="minor" halign="center"><m>M</m></cell>
-			<cell right="minor" halign="center">0</cell>
-			<cell right="minor" halign="center">109</cell>
-		</row>
-		<row left="minor" class="odd">
-			<cell right="minor" halign="center"><m>C</m></cell>
-			<cell right="minor" halign="center">22,500</cell>
-			<cell right="minor" halign="center">5,700</cell>
-		</row>
-	</tabular>
+		<p>
+			But what's the equation? Hmm. Don't know for sure what type of equation might work here. Tell you what, let's compare what a linear and exponential model would tell us about the value of the car.
+		</p>
 
-	<p>
-		But what's the equation? Hmm. Don't know for sure what type of equation might work here. Tell you what, let's compare what a linear and exponential model would tell us about the value of the car.
-	</p>
+		<p>
+			First, linear. The template is <me>\textbf{Linear Equation Template:} \quad \text{dep} = \text{start}+\text{slope}\ast\text{indep}</me> The starting value of Sofía's car is $22,500 so we just need to find the slope. We expect the slope to be negative because her car is worth less the more she drives it. 
+			<md>
+				<mrow>\text{slope} \amp = \text{rate of change} = \frac{\text{change dep}}{\text{change indep}} </mrow>
+				<mrow> \amp = \frac{\$5,700-\$22,500}{109 \text{ thousand miles} - 0 \text{ thousand miles}} =   \frac{-\$16,800}{109\text{ thousand miles}}</mrow>
+				<mrow> \amp = \text{(-)}16,800 \div 109 = -154.1284404\ldots \approx -\$154\text{/thousand miles}</mrow>
+			</md>
+			Her car loses value at a rate of around $154 for each thousand miles she drives.
+		</p>
 
-	<p>
-		First, linear. The template is <me>\textbf{Linear Equation Template:} \quad \text{dep} = \text{start}+\text{slope}\ast\text{indep}</me> The starting value of Sofía's car is $22,500 so we just need to find the slope. We expect the slope to be negative because her car is worth less the more she drives it. 
-		<md>
-			<mrow>\text{slope} \amp = \text{rate of change} = \frac{\text{change dep}}{\text{change indep}} </mrow>
-			<mrow> \amp = \frac{\$5,700-\$22,500}{109 \text{ thousand miles} - 0 \text{ thousand miles}} =   \frac{-\$16,800}{109\text{ thousand miles}}</mrow>
-			<mrow> \amp = \text{(-)}16,800 \div 109 = -154.1284404\ldots \approx -\$154\text{/thousand miles}</mrow>
-		</md>
-		Her car loses value at a rate of around $154 for each thousand miles she drives.
-	</p>
+		<p>
+			We are ready to write the linear equation. <me>\textbf{linear:} \quad C = 22,500 - 154M</me> As usual we wrote this with subtraction instead of adding the negative slope. Quick check: when <m>M=109</m> we get <me>C =  22,500 - 154\ast 109 =  22,500 - 154\times \underline{109}= 5,714 \approx \$5,700 \quad \checkmark</me> Remember we don't expect the exact answer because we rounded off the slope.
+		</p>
 
-	<p>
-		We are ready to write the linear equation. <me>\textbf{linear:} \quad C = 22,500 - 154M</me> As usual we wrote this with subtraction instead of adding the negative slope. Quick check: when <m>M=109</m> we get <me>C =  22,500 - 154\ast 109 =  22,500 - 154\times \underline{109}= 5,714 \approx \$5,700 \quad \checkmark</me> Remember we don't expect the exact answer because we rounded off the slope.
-	</p>
+		<p>
+			When will Sofía's car be worth under $500 according to this linear equation? Let's solve to find out. When <m>C=500</m>, use our linear equation to get <me>22,500 - 154M =500</me> Subtract 22,500 from each side and simplify to get <me>-154M= -22,000</me> Now divide each side by -154 and simplify to get <me>M = \frac{-22,000}{-154} = \text{(-)} 22,000 \div  \text{(-)}154= 142.738095\ldots \approx 143</me> According to the linear equation, Sofía's car will be worth under $500 at about 143,000 miles. Since her car already has 109,000 miles on it, that means in another <m>143,000-109,000 = 34,000\text{ miles}</m>. For a typical driver that's two or three more years.
+		</p>
 
-	<p>
-		When will Sofía's car be worth under $500 according to this linear equation? Let's solve to find out. When <m>C=500</m>, use our linear equation to get <me>22,500 - 154M =500</me> Subtract 22,500 from each side and simplify to get <me>-154M= -22,000</me> Now divide each side by -154 and simplify to get <me>M = \frac{-22,000}{-154} = \text{(-)} 22,000 \div  \text{(-)}154= 142.738095\ldots \approx 143</me> According to the linear equation, Sofía's car will be worth under $500 at about 143,000 miles. Since her car already has 109,000 miles on it, that means in another <m>143,000-109,000 = 34,000\text{ miles}</m>. For a typical driver that's two or three more years.
-	</p>
+		<p>
+			Next, let's take a look at the exponential model. Here goes. The template is <me>\textbf{Exponential Equation Template:} \quad \text{dep }=\text{ start } \ast \text{growth factor}^{\text{indep}}</me> We know everything except the growth factor. We expect it to be less than 1 because her car is worth less the more she drives it. Perhaps we should say <q>decay</q> factor here since the function is decreasing. The starting amount is <m>s=22,500</m> and the ending amount is <m>a=5,700</m> after <m>t=109</m> thousand miles. By the <xref ref="growth-factor-formula" text="title"/> we have <me>g = \sqrt[t]{\frac{a}{s}} = \sqrt[109]{\frac{5,700}{22,500}}
+	109  \sqrt[x]{~\text{  }}( 5,700 \div 22,500)= 0.98748222\ldots \approx 0.9875</me>
+		</p>
 
-	<p>
-		Next, let's take a look at the exponential model. Here goes. The template is <me>\textbf{Exponential Equation Template:} \quad \text{dep }=\text{ start } \ast \text{growth factor}^{\text{indep}}</me> We know everything except the growth factor. We expect it to be less than 1 because her car is worth less the more she drives it. Perhaps we should say <q>decay</q> factor here since the function is decreasing. The starting amount is <m>s=22,500</m> and the ending amount is <m>a=5,700</m> after <m>t=109</m> thousand miles. By the <xref ref="growth-factor-formula" text="title"/> we have <me>g = \sqrt[t]{\frac{a}{s}} = \sqrt[109]{\frac{5,700}{22,500}}
- 109  \sqrt[x]{~\text{  }}( 5,700 \div 22,500)= 0.98748222\ldots \approx 0.9875</me>
-	</p>
+		<p>
+			We are ready to write the exponential equation. <me>\textbf{exponential:} \quad C = 22,500 \ast 0.9875^M</me> Quick check: when <m>M=109</m> we get <me>C =  22,500 \ast 0.9875^{109} =  22,500 \times 0.9875 \wedge\underline{109}= 5711.19365\ldots \approx \$5,700 \quad \checkmark</me> Again, we don't expect the exact answer because we rounded off the decay factor.
+		</p>
 
-	<p>
-		We are ready to write the exponential equation. <me>\textbf{exponential:} \quad C = 22,500 \ast 0.9875^M</me> Quick check: when <m>M=109</m> we get <me>C =  22,500 \ast 0.9875^{109} =  22,500 \times 0.9875 \wedge\underline{109}= 5711.19365\ldots \approx \$5,700 \quad \checkmark</me> Again, we don't expect the exact answer because we rounded off the decay factor.
-	</p>
+		<p>
+			When will Sofía's car be worth under $500 according to this exponential equation? Let's solve to find out. When <m>C=500</m>, use our exponential equation to get <me>22,500 \ast 0.9875^M =500</me> Divide each side by 22,500 and simplify to get <me>0.9875^M= \frac{500}{22,500} = 500 \div 22,500 = 0.02222222\ldots</me> By the <xref ref="log-divides-formula" text="title"/> with growth factor <m>g=0.9875</m> and the value <m>v= 0.02222222</m> we get <me>M =  \frac{\log (v)}{\log(g)}=  \frac{\log (0.022222222)}{\log(0.9875)} =  \log (0.02222222) \div \log (0.9875) = 302.6256856 \approx 300</me> According to the exponential equation, Sofía's car will be worth under $500 at about 300,000 miles. Hard to imagine the car would last that long. Essentially the exponential model says the car will always be worth at least $500, if only for parts, I guess. Quite different from our answer from the linear equation.
+		</p>
 
-	<p>
-		When will Sofía's car be worth under $500 according to this exponential equation? Let's solve to find out. When <m>C=500</m>, use our exponential equation to get <me>22,500 \ast 0.9875^M =500</me> Divide each side by 22,500 and simplify to get <me>0.9875^M= \frac{500}{22,500} = 500 \div 22,500 = 0.02222222\ldots</me> By the <xref ref="log-divides-formula" text="title"/> with growth factor <m>g=0.9875</m> and the value <m>v= 0.02222222</m> we get <me>M =  \frac{\log (v)}{\log(g)}=  \frac{\log (0.022222222)}{\log(0.9875)} =  \log (0.02222222) \div \log (0.9875) = 302.6256856 \approx 300</me> According to the exponential equation, Sofía's car will be worth under $500 at about 300,000 miles. Hard to imagine the car would last that long. Essentially the exponential model says the car will always be worth at least $500, if only for parts, I guess. Quite different from our answer from the linear equation.
-	</p>
+		<p>
+			Time to compare models. Which one makes more sense? First things first, the car already has a lot of miles on it. Don't know what make or model the car is, but another couple of years seems a reasonable time until is worth under $500. That's what the linear equation projects. On the other hand, the exponential model project it will hold that value for a long time, essentially for parts. That makes sense too.
+		</p>
 
-	<p>
-		Time to compare models. Which one makes more sense? First things first, the car already has a lot of miles on it. Don't know what make or model the car is, but another couple of years seems a reasonable time until is worth under $500. That's what the linear equation projects. On the other hand, the exponential model project it will hold that value for a long time, essentially for parts. That makes sense too.
-	</p>
+		<p>
+			Wait a minute. Does a car lose the same value for each thousand miles it's driven? That's what it means to be linear. Every thousand miles, same decrease. Nah, that's not right. Once the car is old, another 1,000 miles or so probably won't affect the value at all. Also, when a car is new, once you drive it off the lot and then that strange vinyl smell wears off and it's officially <q>used,</q> the car is worth a lot less. Even if it hasn't been driven much at all. What would each model say the car was worth soon after Sofía bought it, say with 10,000 miles on it? With <m>M=10</m>, the estimates are
+		</p>
 
-	<p>
-		Wait a minute. Does a car lose the same value for each thousand miles it's driven? That's what it means to be linear. Every thousand miles, same decrease. Nah, that's not right. Once the car is old, another 1,000 miles or so probably won't affect the value at all. Also, when a car is new, once you drive it off the lot and then that strange vinyl smell wears off and it's officially <q>used,</q> the car is worth a lot less. Even if it hasn't been driven much at all. What would each model say the car was worth soon after Sofía bought it, say with 10,000 miles on it? With <m>M=10</m>, the estimates are
-	</p>
+		<tabular bottom="minor" top="minor">
+			<row left="minor" class="odd">
+				<cell right="minor" halign="left"><term>linear:</term></cell>
+				<cell right="minor" halign="left"><m>C =  22,500 - 154 \ast 10 = 22,500 - 154 \times \underline{10} = \$20,960</m></cell>
+			</row>
+			<row left="minor" class="even">
+				<cell right="minor" halign="left"><term>exponential:</term></cell>
+				<cell right="minor" halign="left"><m>C=  22,500 \ast 0.9875^{10}=  22,500 \times 0.9875 \wedge\underline{10} \approx \$19,841</m></cell>
+			</row>
+		</tabular>
 
-	<tabular bottom="minor" top="minor">
-		<row left="minor" class="odd">
-			<cell right="minor" halign="left"><term>linear:</term></cell>
-			<cell right="minor" halign="left"><m>C =  22,500 - 154 \ast 10 = 22,500 - 154 \times \underline{10} = \$20,960</m></cell>
-		</row>
-		<row left="minor" class="even">
-			<cell right="minor" halign="left"><term>exponential:</term></cell>
-			<cell right="minor" halign="left"><m>C=  22,500 \ast 0.9875^{10}=  22,500 \times 0.9875 \wedge\underline{10} \approx \$19,841</m></cell>
-		</row>
-	</tabular>
+		<p>
+			The lower value, from the exponential equation, seems more reasonable.
+		</p>
 
-	<p>
-		The lower value, from the exponential equation, seems more reasonable.
-	</p>
+		<p>
+			Here are a few more values and the graph. The graph is shows both the line and exponential curve have intercept just over $22,000, which should be $22,500. The line and curve intersect again between 100,000 and 120,000 miles (close to the exact mileage of 109,000) at right under $6,000 (close to the exact value of $5,700).
+		</p>
 
-	<p>
-		Here are a few more values and the graph. The graph is shows both the line and exponential curve have intercept just over $22,000, which should be $22,500. The line and curve intersect again between 100,000 and 120,000 miles (close to the exact mileage of 109,000) at right under $6,000 (close to the exact value of $5,700).
-	</p>
-
-	<tabular bottom="minor" top="minor">
-		<row left="minor" class="odd">
-			<cell right="minor" halign="center"><m>M</m></cell>
-			<cell right="minor" halign="center">0</cell>
-			<cell right="minor" halign="center">10</cell>
-			<cell right="minor" halign="center">50</cell>
-			<cell right="minor" halign="center">80</cell>
-			<cell right="minor" halign="center">109</cell>
-			<cell right="minor" halign="center">200</cell>
-			<cell right="minor" halign="center">250</cell>
-		</row>
-		<row left="minor" class="odd">
-			<cell right="minor" halign="center"><m>C</m> (if linear)</cell>
-			<cell right="minor" halign="center">22,500</cell>
-			<cell right="minor" halign="center">20,960</cell>
-			<cell right="minor" halign="center">14,800</cell>
-			<cell right="minor" halign="center">10,180</cell>
-			<cell right="minor" halign="center">5,714</cell>
-			<cell right="minor" halign="center"></cell>
-			<cell right="minor" halign="center"></cell>
-		</row>
-		<row left="minor" class="even">
-			<cell right="minor" halign="center"><m>C</m> (if exponential)</cell>
-			<cell right="minor" halign="center">22,500</cell>
-			<cell right="minor" halign="center">19,841</cell>
-			<cell right="minor" halign="center">11,996</cell>
-			<cell right="minor" halign="center">8,225</cell>
-			<cell right="minor" halign="center">5,711</cell>
-			<cell right="minor" halign="center">1,818</cell>
-			<cell right="minor" halign="center">969</cell>
-		</row>
-	</tabular>
+		<tabular bottom="minor" top="minor">
+			<row left="minor" class="odd">
+				<cell right="minor" halign="center"><m>M</m></cell>
+				<cell right="minor" halign="center">0</cell>
+				<cell right="minor" halign="center">10</cell>
+				<cell right="minor" halign="center">50</cell>
+				<cell right="minor" halign="center">80</cell>
+				<cell right="minor" halign="center">109</cell>
+				<cell right="minor" halign="center">200</cell>
+				<cell right="minor" halign="center">250</cell>
+			</row>
+			<row left="minor" class="odd">
+				<cell right="minor" halign="center"><m>C</m> (if linear)</cell>
+				<cell right="minor" halign="center">22,500</cell>
+				<cell right="minor" halign="center">20,960</cell>
+				<cell right="minor" halign="center">14,800</cell>
+				<cell right="minor" halign="center">10,180</cell>
+				<cell right="minor" halign="center">5,714</cell>
+				<cell right="minor" halign="center"></cell>
+				<cell right="minor" halign="center"></cell>
+			</row>
+			<row left="minor" class="even">
+				<cell right="minor" halign="center"><m>C</m> (if exponential)</cell>
+				<cell right="minor" halign="center">22,500</cell>
+				<cell right="minor" halign="center">19,841</cell>
+				<cell right="minor" halign="center">11,996</cell>
+				<cell right="minor" halign="center">8,225</cell>
+				<cell right="minor" halign="center">5,711</cell>
+				<cell right="minor" halign="center">1,818</cell>
+				<cell right="minor" halign="center">969</cell>
+			</row>
+		</tabular>
 
 
-	<p>
-		<image source='carvalue.png'/>
-	</p>
+		<p>
+			<image source='carvalue.png'/>
+		</p>
 
-	<p>
-		There's no way of knowing whether the function is linear or exponential. It is probably not exactly either one. But if we have to pick, the exponential model seems closer to reality.
-	</p>
+		<p>
+			There's no way of knowing whether the function is linear or exponential. It is probably not exactly either one. But if we have to pick, the exponential model seems closer to reality.
+		</p>
+	</introduction>
+	<conclusion component="html">
+		<title>Do you know ...</title>
 
-	<xi:include href="./dyk-Linear_vs_exponential.ptx" />
+		<p>
+			<xi:include href="./dyk-Linear_vs_exponential.ptx" />
+		</p>
+		<xi:include href="./NotSure.ptx" />
+	</conclusion>
+
+	
 	<xi:include href="./ex-Linear_vs_exponential.ptx" />
+
+	<xi:include href="./WYD.ptx" />
+		
+		
+	<conclusion component="print">
+		<title>Do you know ...</title>
+		<p>
+			<xi:include href="./dyk-Linear_vs_exponential.ptx" />
+		</p>
+		<xi:include href="./NotSure.ptx" />
+	</conclusion>
 </section>
