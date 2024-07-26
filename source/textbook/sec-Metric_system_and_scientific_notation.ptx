@@ -3,7 +3,8 @@
 
 
 <section xml:id="sec-Metric_system_and_scientific_notation" xmlns:xi="http://www.w3.org/2001/XInclude">
-	<title>Metric prefixes and scientific notation<em component="print">: Practice exercises</em></title>
+	<title component="html">Metric prefixes and scientific notation</title>
+	<title component="print">Metric prefixes and scientific notation - Practice exercises</title>
 
 	<introduction component="html">
 		<p>
@@ -135,7 +136,7 @@
 		</p>
 
 		<assemblage xml:id="order-operations">
-			<title>Order of operations<em component="print">: Practice exercises</em></title>
+			<title>Order of operations</title>
 			
 			
 			<p>

@@ -263,8 +263,11 @@
 			</row>
 			</tabular>
 			<p>
-				<em>
+				<em component="html">
 					(Story also appears in <xref ref="iv-drip-approx-rounding"/>)
+				</em>
+				<em component="print">
+					(Story also appears in <xref ref="sec-Approximation_and_rounding"/> Exercises)
 				</em>
 			</p>
 		</introduction>

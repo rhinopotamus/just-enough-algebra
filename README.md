@@ -3,7 +3,7 @@ Ok here is how the structure works:
 `main.ptx` includes each of the chapter files `ch-NAME.ptx`, and each of the chapter files includes each of the section files `sec-NAME.ptx`.
 
 The section files do a bunch of cute `component=` versioning:
-- an `<em component="print">` in the title adds "Practice exercises"
+- two versions of the `<title>` tag generate either the plain title or the title decorated with "- Practice exercises"
 - the text of the section is enclosed in an `<introduction component="html">`
 - each of the "Do you know..." lists is in a separate document as an `<ol>` element
 - a `<conclusion component="html">` loads the "Do you know..." list in *before* the exercises in the html version

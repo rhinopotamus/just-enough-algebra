@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <exercises xml:id="ex-Order_of_operations" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Exercises</title>
+    <title component="html">Exercises</title>
     <xi:include href="ex-intro.ptx" />
     <introduction>
         <p>

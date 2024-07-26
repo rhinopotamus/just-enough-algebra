@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <exercises xml:id="ex-Logarithms" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Exercises</title>
+    <title component="html">Exercises</title>
 
     <xi:include href="ex-intro.ptx" />
 
@@ -222,7 +222,8 @@
             </p>
         
             <p>
-                <em>(Story also appears in <xref ref="hair-color-solving-exponential"/>)</em>
+                <em component="html">(Story also appears in <xref ref="hair-color-solving-exponential"/>)</em>
+                <em component="print">(Story also appears in <xref ref="sec-Solving_exponential_equations"/> Exercises)</em>
             </p>
         </introduction>
         <task>

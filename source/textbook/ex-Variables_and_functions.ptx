@@ -95,8 +95,8 @@
 					Round each number up, down, or off to the precision indicated.
 				</p>
 				<p>
-					<em>For a discussion of rounding, see <xref ref="sec-Approximation_and_rounding" text="title" />. 
-						Stories also appear in <xref ref="up-down-off-approx-round"/>.
+					<em>
+						For a discussion of rounding, see <xref ref="sec-Approximation_and_rounding" text="custom">Prelude: approximation and rounding</xref>.
 					</em>
 				</p>
 			</introduction>
@@ -161,9 +161,13 @@
 						The tree was 5 feet tall then and has grown around 2 feet a year.
 					</p>
 					<p>
-						<em>(Story also appears in
+						<em component="html">(Story also appears in
 							<xref ref="walnut-tree-arithmetic-operations"/> and
 							<xref ref="walnut-tree-algebraic-notation"/>)
+						</em>
+						<em component="print">(Story also appears in
+							<xref ref="sec-Arithmetic_operations"/> Exercises and
+							<xref ref="sec-Algebraic_notation"/> Exercises)
 						</em>
 					</p>
 				</statement>

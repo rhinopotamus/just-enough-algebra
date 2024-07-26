@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <exercises xml:id="ex-Arithmetic_operations" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Exercises</title>
+    <title component="html">Exercises</title>
 
     <xi:include href="ex-intro.ptx" />
 
@@ -12,7 +12,7 @@
     </introduction> 
 
     <page>
-        <exercise xml:id="cucumbers-arithmetic-operations" workspace="0in">
+        <exercise xml:id="cucumbers-arithmetic-operations">
             <statement>
                 <p>
                     Tensia loves to garden but can't quite keep up with how many cucumbers are growing.

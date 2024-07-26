@@ -65,8 +65,32 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
     <xsl:text>\pagestyle{headings}&#xa;</xsl:text>
 </xsl:template>
 
-<!-- override the weird margins that pretext says, -->
-<!-- but keep the workspace struts-->
+<!-- enumerate label customization -->
+
+<xsl:template match="exercise|task" mode="begin-task-list">
+    <xsl:text>\begin{enumerate}[label=</xsl:text>
+    <xsl:choose>
+        <!-- parent is a "task", so context/container is a "task"   -->
+        <!-- and it's children are "task" three deep in the nesting -->
+        <xsl:when test="parent::task">
+            <xsl:text>(\Alph*),ref=\theenumi.\theenumii.\Alph*</xsl:text>
+        </xsl:when>
+        <!-- container/context is a "task" (but it's parent is not), so -->
+        <!-- the children that are "task" are two deep in the nesting   -->
+        <xsl:when test="self::task">
+            <xsl:text>\roman*.,ref=\theenumi.\roman*</xsl:text>
+        </xsl:when>
+        <!-- container/context is *not* a "task", it is something else,  -->
+        <!-- and so children that are "task" are one deep in the nesting -->
+        <xsl:otherwise>
+            <xsl:text>(\alph*),ref=\alph*</xsl:text>
+        </xsl:otherwise>
+    </xsl:choose>
+    <xsl:text>]%&#xa;</xsl:text>
+</xsl:template>
+
+<!-- make worksheets have the same margins as everybody else, -->
+<!-- but keep the workspace struts -->
 
 <xsl:template match="worksheet" mode="new-geometry">
 </xsl:template>
@@ -122,34 +146,53 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
     </xsl:if>
 </xsl:template>
 
-<!-- make it so the enums in tasks are in regular font not bold -->
+<!-- make it so chapters get a pagebreak -->
 
-<xsl:template match="exercise|task" mode="begin-task-list">
-    <xsl:text>\begin{enumerate}[label=</xsl:text>
-    <xsl:choose>
-        <!-- parent is a "task", so context/container is a "task"   -->
-        <!-- and it's children are "task" three deep in the nesting -->
-        <xsl:when test="parent::task">
-            <xsl:text>(\Alph*),ref=\theenumi.\theenumii.\Alph*</xsl:text>
-        </xsl:when>
-        <!-- container/context is a "task" (but it's parent is not), so -->
-        <!-- the children that are "task" are two deep in the nesting   -->
-        <xsl:when test="self::task">
-            <xsl:text>\roman*.,ref=\theenumi.\roman*</xsl:text>
-        </xsl:when>
-        <!-- container/context is *not* a "task", it is something else,  -->
-        <!-- and so children that are "task" are one deep in the nesting -->
-        <xsl:otherwise>
-            <xsl:text>(\alph*),ref=\alph*</xsl:text>
-        </xsl:otherwise>
-    </xsl:choose>
-    <xsl:text>]%&#xa;</xsl:text>
+<!-- look for <xsl:text>\newpage&#xa;</xsl:text> -->
+<xsl:template match="chapter" mode="environment">
+    <!-- for specialized divisions we always make a numbered -->
+    <!-- and unnumbered version, with the latter happening   -->
+    <!-- on a second trip through the template               -->
+    <xsl:param name="second-trip" select="false()"/>
+
+    <xsl:variable name="elt-name" select="local-name(.)"/>
+    <!-- the (traditional) LaTex name of this division -->
+    <xsl:variable name="div-name">
+        <xsl:apply-templates select="." mode="division-name"/>
+    </xsl:variable>
+    <!-- explanatory string in preamble -->
+    <xsl:text>%% Environment for a PTX "</xsl:text>
+    <xsl:value-of select="$elt-name"/>
+    <xsl:text>" at the level of a LaTeX "</xsl:text>
+    <xsl:value-of select="$div-name"/>
+    <xsl:text>"&#xa;</xsl:text>
+    <!-- Define implementation of a 5-argument environment          -->
+    <!-- Template ensures consistency of definition and application -->
+    <xsl:text>\NewDocumentEnvironment{</xsl:text>
+    <xsl:apply-templates select="." mode="division-environment-name"/>
+    <xsl:text>}{mmmmmmm}&#xa;</xsl:text>
+    <xsl:text>{%&#xa;</xsl:text>
+    <!-- load 6 macros with values, for style writer use -->
+    <xsl:text>\renewcommand{\divisionnameptx}{#1}%&#xa;</xsl:text>
+    <xsl:text>\renewcommand{\titleptx}{#2}%&#xa;</xsl:text>
+    <xsl:text>\renewcommand{\subtitleptx}{#3}%&#xa;</xsl:text>
+    <xsl:text>\renewcommand{\shortitleptx}{#4}%&#xa;</xsl:text>
+    <xsl:text>\renewcommand{\authorsptx}{#5}%&#xa;</xsl:text>
+    <xsl:text>\renewcommand{\epigraphptx}{#6}%&#xa;</xsl:text>
+    <!-- invoke the right LaTeX division, causes title format -->
+    <!-- and spacing, along with setting running heads        -->
+    <xsl:text>\</xsl:text>
+    <xsl:value-of select="$div-name"/>
+    <xsl:text>[{#4}]{#2}%&#xa;</xsl:text>
+    <xsl:text>\newpage&#xa;</xsl:text> 
+    <xsl:text>\label{#7}%&#xa;</xsl:text>
+    <!-- close the environment definition, no finish -->
+    <xsl:text>}{}%&#xa;</xsl:text>
 </xsl:template>
 
-<!-- make it so chapters get a pagebreak -->
-<!-- look for <xsl:text>\newpage&#xa;</xsl:text> -->
-<!-- Should see whether this works with <introduction>s in the textbook -->
-<xsl:template match="chapter" mode="environment">
+<!-- make it so exercises divisions don't have a title -->
+
+<xsl:template match="exercises" mode="environment">
     <!-- for specialized divisions we always make a numbered -->
     <!-- and unnumbered version, with the latter happening   -->
     <!-- on a second trip through the template               -->
@@ -179,6 +222,48 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
     <xsl:text>{%&#xa;</xsl:text>
     <!-- load 6 macros with values, for style writer use -->
     <xsl:text>\renewcommand{\divisionnameptx}{#1}%&#xa;</xsl:text>
+    <xsl:text>\renewcommand{\titleptx}{}%&#xa;</xsl:text>
+    <xsl:text>\renewcommand{\subtitleptx}{}%&#xa;</xsl:text>
+    <xsl:text>\renewcommand{\shortitleptx}{}%&#xa;</xsl:text>
+    <xsl:text>\renewcommand{\authorsptx}{#5}%&#xa;</xsl:text>
+    <xsl:text>\renewcommand{\epigraphptx}{#6}%&#xa;</xsl:text>
+    <!-- close the environment definition, no finish -->
+    <xsl:text>}{}%&#xa;</xsl:text>
+    <!-- send specialized division back through a second time -->
+    <xsl:if test="not($second-trip)">
+        <xsl:apply-templates select="." mode="environment">
+            <xsl:with-param name="second-trip" select="true()"/>
+        </xsl:apply-templates>
+    </xsl:if>
+</xsl:template>
+
+<!-- make it so sections end with a pagebreak -->
+
+<xsl:template match="section" mode="environment">
+    <!-- for specialized divisions we always make a numbered -->
+    <!-- and unnumbered version, with the latter happening   -->
+    <!-- on a second trip through the template               -->
+    <xsl:param name="second-trip" select="false()"/>
+
+    <xsl:variable name="elt-name" select="local-name(.)"/>
+    <!-- the (traditional) LaTex name of this division -->
+    <xsl:variable name="div-name">
+        <xsl:apply-templates select="." mode="division-name"/>
+    </xsl:variable>
+    <!-- explanatory string in preamble -->
+    <xsl:text>%% Environment for a PTX "</xsl:text>
+    <xsl:value-of select="$elt-name"/>
+    <xsl:text>" at the level of a LaTeX "</xsl:text>
+    <xsl:value-of select="$div-name"/>
+    <xsl:text>"&#xa;</xsl:text>
+    <!-- Define implementation of a 5-argument environment          -->
+    <!-- Template ensures consistency of definition and application -->
+    <xsl:text>\NewDocumentEnvironment{</xsl:text>
+    <xsl:apply-templates select="." mode="division-environment-name"/>
+    <xsl:text>}{mmmmmmm}&#xa;</xsl:text>
+    <xsl:text>{%&#xa;</xsl:text>
+    <!-- load 6 macros with values, for style writer use -->
+    <xsl:text>\renewcommand{\divisionnameptx}{#1}%&#xa;</xsl:text>
     <xsl:text>\renewcommand{\titleptx}{#2}%&#xa;</xsl:text>
     <xsl:text>\renewcommand{\subtitleptx}{#3}%&#xa;</xsl:text>
     <xsl:text>\renewcommand{\shortitleptx}{#4}%&#xa;</xsl:text>
@@ -188,30 +273,10 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
     <!-- and spacing, along with setting running heads        -->
     <xsl:text>\</xsl:text>
     <xsl:value-of select="$div-name"/>
-    <xsl:choose>
-        <!-- Second trip through, building unnumbered version -->
-        <!-- OR                                               -->
-        <!-- Never numbered, always build a starred form      -->
-        <!-- and manually add short version to ToC            -->
-        <xsl:when test="$second-trip">
-            <xsl:text>*</xsl:text>
-            <xsl:text>{#2}%&#xa;</xsl:text>
-            <xsl:text>\addcontentsline{toc}{</xsl:text>
-            <xsl:value-of select="$div-name"/>
-            <xsl:text>}{#4}&#xa;</xsl:text>
-        </xsl:when>
-        <!-- optional short title, and the real title  -->
-        <!-- NB: the short title (#3) needs a group to -->
-        <!-- protect a right square bracket "]" from   -->
-        <!-- prematurely ending the optional argument  -->
-        <xsl:otherwise>
-            <xsl:text>[{#4}]{#2}%&#xa;</xsl:text>
-            <xsl:text>\newpage&#xa;</xsl:text>
-        </xsl:otherwise>
-    </xsl:choose>
+    <xsl:text>[{#4}]{#2}%&#xa;</xsl:text>
     <xsl:text>\label{#7}%&#xa;</xsl:text>
-    <!-- close the environment definition, no finish -->
-    <xsl:text>}{}%&#xa;</xsl:text>
+    <!-- close the environment definition, add newpage to finish -->
+    <xsl:text>}{\newpage}%&#xa;</xsl:text>
 </xsl:template>
 
 <!-- aside formatting  -->

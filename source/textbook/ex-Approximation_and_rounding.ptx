@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <exercises xml:id="ex-Approximation_and_rounding" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Exercises</title>
 
     <xi:include href="ex-intro.ptx" />
 
