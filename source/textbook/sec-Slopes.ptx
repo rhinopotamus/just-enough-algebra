@@ -3,145 +3,166 @@
 
 <section xml:id="sec-Slopes" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Slopes<em component="print">: Practice exercises</em></title>
+	<introduction component="html">
+		<p>
+			Last week our supplier delivered 13 cases of paper for the office and charged us $534.87. This week, they delivered 20 cases of paper for $814.80. We assume that their charge includes a fixed delivery fee and per case cost, so the dependence must be linear. We would like to understand their pricing scheme better by writing the equation.
+		</p>
 
-	<p>
-		Last week our supplier delivered 13 cases of paper for the office and charged us $534.87. This week, they delivered 20 cases of paper for $814.80. We assume that their charge includes a fixed delivery fee and per case cost, so the dependence must be linear. We would like to understand their pricing scheme better by writing the equation.
-	</p>
-
-	<p>
-		What to do? We can name the variables and put the information we are given into a table. That's a start. The variables must be
-	</p>
-
-
-	<tabular bottom="minor" top="minor">
-		<row left="minor" class="odd">
-			<cell right="minor" halign="left"><m>C=</m> total charge ($) <m>\sim</m> dep</cell>
-		</row>
-		<row left="minor" class="even">
-			<cell right="minor" halign="left"><m>N =</m> number of cases delivered (cases) <m>\sim</m> indep</cell>
-		</row>
-	</tabular>
-
-	<p>
-		and we know
-	</p>
+		<p>
+			What to do? We can name the variables and put the information we are given into a table. That's a start. The variables must be
+		</p>
 
 
-	<tabular bottom="minor" top="minor">
-		<row left="minor" class="odd">
-			<cell right="minor" halign="center"><m>N</m></cell>
-			<cell right="minor" halign="center">13</cell>
-			<cell right="minor" halign="center">20</cell>
-		</row>
-		<row left="minor" class="odd">
-			<cell right="minor" halign="center"><m>C</m></cell>
-			<cell right="minor" halign="center">534.87</cell>
-			<cell right="minor" halign="center">814.80</cell>
-		</row>
-	</tabular>
+		<tabular bottom="minor" top="minor">
+			<row left="minor" class="odd">
+				<cell right="minor" halign="left"><m>C=</m> total charge ($) <m>\sim</m> dep</cell>
+			</row>
+			<row left="minor" class="even">
+				<cell right="minor" halign="left"><m>N =</m> number of cases delivered (cases) <m>\sim</m> indep</cell>
+			</row>
+		</tabular>
 
-	<p>
-		Let's see. The fixed delivery fee that we don't know is the intercept. The per case cost that we also don't know is the slope. To write the linear equation we need to know both.
-	</p>
-
-	<p>
-		The slope is just the rate of change, so we can figure out the slope just from the information in our table.
-		<md>
-			<mrow>\text{slope} \amp = \text{rate of change} = \frac{\text{change dep}}{\text{change indep}} = \frac{\$814.80-\$534.87}{20\text{ cases}-13 \text{ cases}} </mrow>
-			<mrow> \amp = \frac{\$279.93}{7 \text{ cases}} = 279.93 \div 7 = \$39.99 \text{ per case}</mrow>
-		</md>
-		or, all at once, as 
-		<md>
-			<mrow>\text{slope} \amp = \text{rate of change} = \frac{\text{change dep}}{\text{change indep}} = \frac{\$814.80-\$534.87}{20\text{ cases}-13 \text{ cases}} </mrow>
-			<mrow> \amp = (814.80-534.87)\div(20-13)= \$39.99 \text{ per case}</mrow>
-		</md>
-	</p>
-
-	<p>
-		Either way, each case costs $39.99 and the slope is $39.99 per case.
-	</p>
-
-	<p>
-		Now that we know the slope, we can find the intercept. At $39.99 per case we would expect 13 cases to cost <me>13 \text{ cases } \ast \frac{\$39.99}{\text{case}} = 13 \times 39.99 = \$519.87</me> But the story tells us 13 cases cost $534.87. The difference <m>\$534.87 - \$519.87 = \$15</m> must be the delivery fee which is the intercept. Remember <me>\text{intercept} = \text{dep} -\text{slope}\ast\text{indep}= 534.87 - 39.99\times 13= \$15</me>
-	</p>
-
-	<p>
-		Why did we use 13 cases? No good reason. Look what happens if we use 20 cases at $814.80 instead. <me>\text{intercept} = \text{dep} -\text{slope}\ast\text{indep}= 814.80 - 39.99\times 20= \$15</me> Yup. Still $15 delivery fee.
-	</p>
-
-	<p>
-		The equation is linear so it fits our template <me>\text{dep} = \text{start} + \text{slope} * \text{indep}</me> and now that we know the slope and intercept, we can put those in to get our equation. <me>C = 15 + 39.99N</me> Let's check. When <m>N = 13</m> we get <me>C=15 + 39.99 \ast 13 = 15 + 39.99 \times \underline{13} = \$534.87 \quad \checkmark</me> and when <m>N=20</m> we get <me>C=15 + 39.99 \ast 20 = 15 + 39.99 \times \underline{20} = \$814.80 \quad \checkmark</me> You can also check that the graph goes through the original two points we were given. The intercept is $15, but because of the scale it shows up as barely above $0 on our graph.
-	</p>
+		<p>
+			and we know
+		</p>
 
 
-	<p>
-		<image source='casesofpaper.png'/>
-	</p>
+		<tabular bottom="minor" top="minor">
+			<row left="minor" class="odd">
+				<cell right="minor" halign="center"><m>N</m></cell>
+				<cell right="minor" halign="center">13</cell>
+				<cell right="minor" halign="center">20</cell>
+			</row>
+			<row left="minor" class="odd">
+				<cell right="minor" halign="center"><m>C</m></cell>
+				<cell right="minor" halign="center">534.87</cell>
+				<cell right="minor" halign="center">814.80</cell>
+			</row>
+		</tabular>
 
-	<p>
-		The supplier also picks up recyclable paper and boxes. The normally charge $18 per pickup but under a new reuse incentive program, they discount a little for each box that's in good enough condition to use again. This week's recycling charge was only $7.60 because we returned the previous 13 boxes all in good shape.
-	</p>
+		<p>
+			Let's see. The fixed delivery fee that we don't know is the intercept. The per case cost that we also don't know is the slope. To write the linear equation we need to know both.
+		</p>
 
-	<p>
-		Now we're interested in how the recycling charge depends on the number of boxes in good condition that we return. The new variables are
-	</p>
+		<p>
+			The slope is just the rate of change, so we can figure out the slope just from the information in our table.
+			<md>
+				<mrow>\text{slope} \amp = \text{rate of change} = \frac{\text{change dep}}{\text{change indep}} = \frac{\$814.80-\$534.87}{20\text{ cases}-13 \text{ cases}} </mrow>
+				<mrow> \amp = \frac{\$279.93}{7 \text{ cases}} = 279.93 \div 7 = \$39.99 \text{ per case}</mrow>
+			</md>
+			or, all at once, as 
+			<md>
+				<mrow>\text{slope} \amp = \text{rate of change} = \frac{\text{change dep}}{\text{change indep}} = \frac{\$814.80-\$534.87}{20\text{ cases}-13 \text{ cases}} </mrow>
+				<mrow> \amp = (814.80-534.87)\div(20-13)= \$39.99 \text{ per case}</mrow>
+			</md>
+		</p>
 
+		<p>
+			Either way, each case costs $39.99 and the slope is $39.99 per case.
+		</p>
 
-	<tabular bottom="minor" top="minor">
-		<row left="minor" class="odd">
-			<cell right="minor" halign="left"><m>R=</m> recycling charge ($) <m>\sim</m> dep</cell>
-		</row>
-		<row left="minor" class="even">
-			<cell right="minor" halign="left"><m>B =</m> number of boxes returned (boxes) <m>\sim</m> indep</cell>
-		</row>
-	</tabular>
+		<p>
+			Now that we know the slope, we can find the intercept. At $39.99 per case we would expect 13 cases to cost <me>13 \text{ cases } \ast \frac{\$39.99}{\text{case}} = 13 \times 39.99 = \$519.87</me> But the story tells us 13 cases cost $534.87. The difference <m>\$534.87 - \$519.87 = \$15</m> must be the delivery fee which is the intercept. Remember <me>\text{intercept} = \text{dep} -\text{slope}\ast\text{indep}= 534.87 - 39.99\times 13= \$15</me>
+		</p>
 
-	<p>
-		and we know
-	</p>
+		<p>
+			Why did we use 13 cases? No good reason. Look what happens if we use 20 cases at $814.80 instead. <me>\text{intercept} = \text{dep} -\text{slope}\ast\text{indep}= 814.80 - 39.99\times 20= \$15</me> Yup. Still $15 delivery fee.
+		</p>
 
-
-	<tabular bottom="minor" top="minor">
-		<row left="minor" class="odd">
-			<cell right="minor" halign="center"><m>B</m></cell>
-			<cell right="minor" halign="center">0</cell>
-			<cell right="minor" halign="center">13</cell>
-		</row>
-		<row left="minor" class="odd">
-			<cell right="minor" halign="center"><m>R</m></cell>
-			<cell right="minor" halign="center">18</cell>
-			<cell right="minor" halign="center">7.60</cell>
-		</row>
-	</tabular>
-
-	<p>
-		See how we used <m>B=0</m> for the situation where no boxes are returned? Clever.
-	</p>
-
-	<p>
-		We can draw the graph using just these two points. (But we'll check later, once we have the equation, to be sure.)
-	</p>
+		<p>
+			The equation is linear so it fits our template <me>\text{dep} = \text{start} + \text{slope} * \text{indep}</me> and now that we know the slope and intercept, we can put those in to get our equation. <me>C = 15 + 39.99N</me> Let's check. When <m>N = 13</m> we get <me>C=15 + 39.99 \ast 13 = 15 + 39.99 \times \underline{13} = \$534.87 \quad \checkmark</me> and when <m>N=20</m> we get <me>C=15 + 39.99 \ast 20 = 15 + 39.99 \times \underline{20} = \$814.80 \quad \checkmark</me> You can also check that the graph goes through the original two points we were given. The intercept is $15, but because of the scale it shows up as barely above $0 on our graph.
+		</p>
 
 
-	<p>
-		<image source='recyclepaper.png'/>
-	</p>
+		<p>
+			<image source='casesofpaper.png'/>
+		</p>
 
-	<p>
-		Since there is a fixed discount per box, we again have a linear function. We know the intercept is the normal recycling fee of $18. We need to find the slope.
-		<md>
-			<mrow>\text{slope} \amp = \text{rate of change} = \frac{\text{change dep}}{\text{change indep}} = \frac{\$7.60-\$18}{13\text{ boxes}-0 \text{ boxes}} </mrow>
-			<mrow> \amp = (7.60-18)\div(13-0)= -\$0.80 \text{ per box}</mrow>
-		</md>
-		It might look funny to get a negative, but it's to be expected. They are subtracting for each good box returned. The discount is 80¢ per box and so the equation is <me>R = 18 - 0.8B</me> Check when <m>B=13</m> we have <me>R = 18 -0.8*13 = 18-0.8 \times \underline{13} = \$7.60 \quad \checkmark</me>
-	</p>
+		<p>
+			The supplier also picks up recyclable paper and boxes. The normally charge $18 per pickup but under a new reuse incentive program, they discount a little for each box that's in good enough condition to use again. This week's recycling charge was only $7.60 because we returned the previous 13 boxes all in good shape.
+		</p>
 
-	<p>
-		What's the most boxes you could get credit for? Probably the most they discount is the full $18, which would mean that <m>R=0</m>. That means we want to solve <m>18 -0.8B = 0</m>. Check that we get <m>B = 22.5 \text{ boxes}</m>, which means that 22 boxes would be almost $0 and for 23 boxes, they should pick up for free. We can check that 22 boxes gives <me>R = 18-0.8\ast22=18-0.8 \times \underline{22} = \$0.40</me> and 23 boxes gives <me>R = 18-0.8\ast23=18-0.8 \times \underline{23} = -\$0.40 \implies \text{free}</me> Well, unless they're nice and give us cash back.
-	</p>
+		<p>
+			Now we're interested in how the recycling charge depends on the number of boxes in good condition that we return. The new variables are
+		</p>
 
-	<xi:include href="./dyk-Slopes.ptx" />
+
+		<tabular bottom="minor" top="minor">
+			<row left="minor" class="odd">
+				<cell right="minor" halign="left"><m>R=</m> recycling charge ($) <m>\sim</m> dep</cell>
+			</row>
+			<row left="minor" class="even">
+				<cell right="minor" halign="left"><m>B =</m> number of boxes returned (boxes) <m>\sim</m> indep</cell>
+			</row>
+		</tabular>
+
+		<p>
+			and we know
+		</p>
+
+
+		<tabular bottom="minor" top="minor">
+			<row left="minor" class="odd">
+				<cell right="minor" halign="center"><m>B</m></cell>
+				<cell right="minor" halign="center">0</cell>
+				<cell right="minor" halign="center">13</cell>
+			</row>
+			<row left="minor" class="odd">
+				<cell right="minor" halign="center"><m>R</m></cell>
+				<cell right="minor" halign="center">18</cell>
+				<cell right="minor" halign="center">7.60</cell>
+			</row>
+		</tabular>
+
+		<p>
+			See how we used <m>B=0</m> for the situation where no boxes are returned? Clever.
+		</p>
+
+		<p>
+			We can draw the graph using just these two points. (But we'll check later, once we have the equation, to be sure.)
+		</p>
+
+
+		<p>
+			<image source='recyclepaper.png'/>
+		</p>
+
+		<p>
+			Since there is a fixed discount per box, we again have a linear function. We know the intercept is the normal recycling fee of $18. We need to find the slope.
+			<md>
+				<mrow>\text{slope} \amp = \text{rate of change} = \frac{\text{change dep}}{\text{change indep}} = \frac{\$7.60-\$18}{13\text{ boxes}-0 \text{ boxes}} </mrow>
+				<mrow> \amp = (7.60-18)\div(13-0)= -\$0.80 \text{ per box}</mrow>
+			</md>
+			It might look funny to get a negative, but it's to be expected. They are subtracting for each good box returned. The discount is 80¢ per box and so the equation is <me>R = 18 - 0.8B</me> Check when <m>B=13</m> we have <me>R = 18 -0.8*13 = 18-0.8 \times \underline{13} = \$7.60 \quad \checkmark</me>
+		</p>
+
+		<p>
+			What's the most boxes you could get credit for? Probably the most they discount is the full $18, which would mean that <m>R=0</m>. That means we want to solve <m>18 -0.8B = 0</m>. Check that we get <m>B = 22.5 \text{ boxes}</m>, which means that 22 boxes would be almost $0 and for 23 boxes, they should pick up for free. We can check that 22 boxes gives <me>R = 18-0.8\ast22=18-0.8 \times \underline{22} = \$0.40</me> and 23 boxes gives <me>R = 18-0.8\ast23=18-0.8 \times \underline{23} = -\$0.40 \implies \text{free}</me> Well, unless they're nice and give us cash back.
+		</p>
+	</introduction>
+
+	<conclusion component="html">
+		<title>Do you know ...</title>
+
+		<p>
+			<xi:include href="./dyk-Slopes.ptx" />
+		</p>
+		<xi:include href="./NotSure.ptx" />
+	</conclusion>
+
+	
 	<xi:include href="./ex-Slopes.ptx" />
+
+	<xi:include href="./WYD.ptx" />
+		
+		
+	<conclusion component="print">
+		<title>Do you know ...</title>
+		<p>
+			<xi:include href="./dyk-Slopes.ptx" />
+		</p>
+		<xi:include href="./NotSure.ptx" />
+	</conclusion>
 
 
 </section>

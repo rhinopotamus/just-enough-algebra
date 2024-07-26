@@ -3,243 +3,264 @@
 
 <section xml:id="sec-Fitting_lines_to_data" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Fitting lines to data<em component="print">: Practice exercises</em></title>
+	<introduction component="html">
+		<p>
+			Thanh has an internship studying road salt usage in a northern metropolitan area. Road salt is used to melt ice and snow on paved streets. Because it can damage vegetation and influence both surface water (lakes) and ground water, and because it costs money to run the trucks that apply the salt, people are interested in the amount of road salt used.
+		</p>
 
-	<p>
-		Thanh has an internship studying road salt usage in a northern metropolitan area. Road salt is used to melt ice and snow on paved streets. Because it can damage vegetation and influence both surface water (lakes) and ground water, and because it costs money to run the trucks that apply the salt, people are interested in the amount of road salt used.
-	</p>
-
-	<p>
-		One data set compares road salt usage per county. Thanh learned from county officials that road salt use varies widely from county to county, but, not surprisingly, it depends heavily on the length of road in the county. So, the variables are
-	</p>
-
-
-	<tabular bottom="minor" top="minor">
-		<row left="minor" class="odd">
-			<cell right="minor" halign="left"><m>L=</m> road length (lane miles) <m>\sim</m> indep</cell>
-		</row>
-		<row left="minor" class="even">
-			<cell right="minor" halign="left"><m>S=</m> road salt applied (tons per year) <m>\sim</m> dep</cell>
-		</row>
-	</tabular>
-
-	<p>
-		A <term>lane mile</term> is the area of road one mile long and one lane wide. Now you know.
-	</p>
-
-	<p>
-		Thanh also learned that while road salt use is a function of lane miles, it is not proportional as there are more complicated factors involved. Still, he would like to model road salt use as a function of road length. Here are the data for counties in the metro area.
-	</p>
+		<p>
+			One data set compares road salt usage per county. Thanh learned from county officials that road salt use varies widely from county to county, but, not surprisingly, it depends heavily on the length of road in the county. So, the variables are
+		</p>
 
 
-	<tabular bottom="minor" top="minor">
-		<row left="minor" class="odd">
-			<cell right="minor" halign="center">County</cell>
-			<cell right="minor" halign="center">A</cell>
-			<cell right="minor" halign="center">C</cell>
-			<cell right="minor" halign="center">D</cell>
-			<cell right="minor" halign="center">H</cell>
-			<cell right="minor" halign="center">R</cell>
-			<cell right="minor" halign="center">T</cell>
-			<cell right="minor" halign="center">W</cell>
-		</row>
-		<row left="minor" class="odd">
-			<cell right="minor" halign="center"><m>L</m></cell>
-			<cell right="minor" halign="center">710</cell>
-			<cell right="minor" halign="center">420</cell>
-			<cell right="minor" halign="center">800</cell>
-			<cell right="minor" halign="center">1,420</cell>
-			<cell right="minor" halign="center">720</cell>
-			<cell right="minor" halign="center">510</cell>
-			<cell right="minor" halign="center">480</cell>
-		</row>
-		<row left="minor" class="even">
-			<cell right="minor" halign="center"><m>S</m></cell>
-			<cell right="minor" halign="center">14,700</cell>
-			<cell right="minor" halign="center">3,900</cell>
-			<cell right="minor" halign="center">11,600</cell>
-			<cell right="minor" halign="center">15,500</cell>
-			<cell right="minor" halign="center">9,400</cell>
-			<cell right="minor" halign="center">5,000</cell>
-			<cell right="minor" halign="center">9,700</cell>
-		</row>
-	</tabular>
+		<tabular bottom="minor" top="minor">
+			<row left="minor" class="odd">
+				<cell right="minor" halign="left"><m>L=</m> road length (lane miles) <m>\sim</m> indep</cell>
+			</row>
+			<row left="minor" class="even">
+				<cell right="minor" halign="left"><m>S=</m> road salt applied (tons per year) <m>\sim</m> dep</cell>
+			</row>
+		</tabular>
 
-	<p>
-		To develop his model Thanh imagined a new county, County X, that had 600 lane miles of road. In looking at the data, he finds two counties with close to 600 lane miles: County T and County A.
-	</p>
+		<p>
+			A <term>lane mile</term> is the area of road one mile long and one lane wide. Now you know.
+		</p>
+
+		<p>
+			Thanh also learned that while road salt use is a function of lane miles, it is not proportional as there are more complicated factors involved. Still, he would like to model road salt use as a function of road length. Here are the data for counties in the metro area.
+		</p>
 
 
-	<tabular bottom="minor" top="minor">
-		<row left="minor" class="odd">
-			<cell right="minor" halign="center"></cell>
-			<cell right="minor" halign="center">County T</cell>
-			<cell right="minor" halign="center">County X</cell>
-			<cell right="minor" halign="center">County A</cell>
-		</row>
-		<row left="minor" class="odd">
-			<cell right="minor" halign="center"><m>L</m></cell>
-			<cell right="minor" halign="center">510</cell>
-			<cell right="minor" halign="center">600</cell>
-			<cell right="minor" halign="center">710</cell>
-		</row>
-		<row left="minor" class="even">
-			<cell right="minor" halign="center"><m>S</m></cell>
-			<cell right="minor" halign="center">5,000</cell>
-			<cell right="minor" halign="center">?</cell>
-			<cell right="minor" halign="center">14,700</cell>
-		</row>
-	</tabular>
+		<tabular bottom="minor" top="minor">
+			<row left="minor" class="odd">
+				<cell right="minor" halign="center">County</cell>
+				<cell right="minor" halign="center">A</cell>
+				<cell right="minor" halign="center">C</cell>
+				<cell right="minor" halign="center">D</cell>
+				<cell right="minor" halign="center">H</cell>
+				<cell right="minor" halign="center">R</cell>
+				<cell right="minor" halign="center">T</cell>
+				<cell right="minor" halign="center">W</cell>
+			</row>
+			<row left="minor" class="odd">
+				<cell right="minor" halign="center"><m>L</m></cell>
+				<cell right="minor" halign="center">710</cell>
+				<cell right="minor" halign="center">420</cell>
+				<cell right="minor" halign="center">800</cell>
+				<cell right="minor" halign="center">1,420</cell>
+				<cell right="minor" halign="center">720</cell>
+				<cell right="minor" halign="center">510</cell>
+				<cell right="minor" halign="center">480</cell>
+			</row>
+			<row left="minor" class="even">
+				<cell right="minor" halign="center"><m>S</m></cell>
+				<cell right="minor" halign="center">14,700</cell>
+				<cell right="minor" halign="center">3,900</cell>
+				<cell right="minor" halign="center">11,600</cell>
+				<cell right="minor" halign="center">15,500</cell>
+				<cell right="minor" halign="center">9,400</cell>
+				<cell right="minor" halign="center">5,000</cell>
+				<cell right="minor" halign="center">9,700</cell>
+			</row>
+		</tabular>
 
-	<p>
-		Based on this data, Thanh expects County X would use between 5,000 and 14,700 tons/year of road salt. Since 600 is closer to 510 than to 710, he starts with a guess of around 9,000 tons/year of road salt.
-	</p>
-
-	<p>
-		To improve this estimate, Thanh decides to use a linear model, hoping that will account for both road length influence and fixed factors. He begins by finding the slope. 
-		<md>
-			<mrow>\text{slope} \amp = \text{rate of change} = \frac{\text{change dep}}{\text{change indep}} = \frac{14,700\text{ tons/year}-5,000 \text{ tons/year}}{710\text{ lane miles}-510 \text{ lane miles}}</mrow>
-			<mrow> \amp = (14,700-5,000)\div(710-510)= 48.5 \text{ tons/year per lane mile} </mrow>
-		</md>
-	</p>
-
-	<p>
-		Next he calculates the intercept. 
-		<me>
-			\text{intercept} = \text{dep} -\text{slope}\ast\text{indep}=  5,000 - 48.5\times 510= -19,735 \text{ tons/year}
-		</me> 
-		He was not expecting a negative value but decides to use it anyway. Using the template for a linear equation <me>\text{dep} = \text{start} + \text{slope} * \text{indep}</me> Thanh gets <me>S = -19,735 + 48.5L</me> which he rewrites as <me>S = 48.5L-19,735</me> As a check, for <m>L=710</m> lane miles, he gets <me>S=48.5 \times \underline{710}-19,735=14,700 \text{ tons/year}\quad \checkmark</me>
-	</p>
-
-	<p>
-		More importantly, for 600 miles his equation gives the estimate of <me>S=48.5 \times \underline{600}-19,735=9,365\text{ tons/year}</me> Thanh rounds this estimate to 9,400 tons/year of road salt for County X, which is close to his initial guess of 9,000 tons/year.
-	</p>
-
-	<p>
-		Next, Thanh imagines another new county, County Y, that has 500 lane miles of road. He looks to the data for counties with close to 500 lane miles.
-	</p>
+		<p>
+			To develop his model Thanh imagined a new county, County X, that had 600 lane miles of road. In looking at the data, he finds two counties with close to 600 lane miles: County T and County A.
+		</p>
 
 
-	<tabular bottom="minor" top="minor">
-		<row left="minor" class="odd">
-			<cell right="minor" halign="center"></cell>
-			<cell right="minor" halign="center">County W</cell>
-			<cell right="minor" halign="center">County Y</cell>
-			<cell right="minor" halign="center">County T</cell>
-		</row>
-		<row left="minor" class="odd">
-			<cell right="minor" halign="center"><m>L</m></cell>
-			<cell right="minor" halign="center">480</cell>
-			<cell right="minor" halign="center">500</cell>
-			<cell right="minor" halign="center">510</cell>
-		</row>
-		<row left="minor" class="even">
-			<cell right="minor" halign="center"><m>S</m></cell>
-			<cell right="minor" halign="center">9,700</cell>
-			<cell right="minor" halign="center">?</cell>
-			<cell right="minor" halign="center">5,000</cell>
-		</row>
-	</tabular>
+		<tabular bottom="minor" top="minor">
+			<row left="minor" class="odd">
+				<cell right="minor" halign="center"></cell>
+				<cell right="minor" halign="center">County T</cell>
+				<cell right="minor" halign="center">County X</cell>
+				<cell right="minor" halign="center">County A</cell>
+			</row>
+			<row left="minor" class="odd">
+				<cell right="minor" halign="center"><m>L</m></cell>
+				<cell right="minor" halign="center">510</cell>
+				<cell right="minor" halign="center">600</cell>
+				<cell right="minor" halign="center">710</cell>
+			</row>
+			<row left="minor" class="even">
+				<cell right="minor" halign="center"><m>S</m></cell>
+				<cell right="minor" halign="center">5,000</cell>
+				<cell right="minor" halign="center">?</cell>
+				<cell right="minor" halign="center">14,700</cell>
+			</row>
+		</tabular>
 
-	<p>
-		Wait a minute. The county with fewer roads used more salt? That doesn't make sense.
-	</p>
+		<p>
+			Based on this data, Thanh expects County X would use between 5,000 and 14,700 tons/year of road salt. Since 600 is closer to 510 than to 710, he starts with a guess of around 9,000 tons/year of road salt.
+		</p>
 
-	<p>
-		Thanh decides to look at all the data at once in a scatter plot.
-	</p>
+		<p>
+			To improve this estimate, Thanh decides to use a linear model, hoping that will account for both road length influence and fixed factors. He begins by finding the slope. 
+			<md>
+				<mrow>\text{slope} \amp = \text{rate of change} = \frac{\text{change dep}}{\text{change indep}} = \frac{14,700\text{ tons/year}-5,000 \text{ tons/year}}{710\text{ lane miles}-510 \text{ lane miles}}</mrow>
+				<mrow> \amp = (14,700-5,000)\div(710-510)= 48.5 \text{ tons/year per lane mile} </mrow>
+			</md>
+		</p>
 
+		<p>
+			Next he calculates the intercept. 
+			<me>
+				\text{intercept} = \text{dep} -\text{slope}\ast\text{indep}=  5,000 - 48.5\times 510= -19,735 \text{ tons/year}
+			</me> 
+			He was not expecting a negative value but decides to use it anyway. Using the template for a linear equation <me>\text{dep} = \text{start} + \text{slope} * \text{indep}</me> Thanh gets <me>S = -19,735 + 48.5L</me> which he rewrites as <me>S = 48.5L-19,735</me> As a check, for <m>L=710</m> lane miles, he gets <me>S=48.5 \times \underline{710}-19,735=14,700 \text{ tons/year}\quad \checkmark</me>
+		</p>
 
-	<p>
-		<image source='roadsaltSCATTER.png'/>
-	</p>
+		<p>
+			More importantly, for 600 miles his equation gives the estimate of <me>S=48.5 \times \underline{600}-19,735=9,365\text{ tons/year}</me> Thanh rounds this estimate to 9,400 tons/year of road salt for County X, which is close to his initial guess of 9,000 tons/year.
+		</p>
 
-	<p>
-		When Thanh was using the nearby points to estimate for Counties X and Y, it's as if he were connecting the dots with line segments on the graph. Notice that the line that goes through 500 lane miles is decreasing, just like Thanh saw in his table.
-	</p>
-
-
-	<p>
-		<image source='roadsaltCONNECTDOTS.png'/>
-	</p>
-
-	<p>
-		Thanh suspects that this connect-the-dots model is too heavily influenced by individual county road-salting habits. He would like a way to get one line to use for everything, knowing full well that one line cannot possibly go through all of the data points.
-	</p>
-
-	<p>
-		Which line to use? One option would be to stick with the line he found through the points for Counties T and A:
-		<me>\textbf{T-A line:} \quad S = 48.5L-19,735</me> He redraws the scatter plot to show that line. Because the intercept is negative, it doesn't show up on his graph. The line seems to be too low at first and too high later. The problem is that this line is too steep (has too large a slope).
-	</p>
+		<p>
+			Next, Thanh imagines another new county, County Y, that has 500 lane miles of road. He looks to the data for counties with close to 500 lane miles.
+		</p>
 
 
-	<p>
-		<image source='roadsaltTAline.png'/>
-	</p>
+		<tabular bottom="minor" top="minor">
+			<row left="minor" class="odd">
+				<cell right="minor" halign="center"></cell>
+				<cell right="minor" halign="center">County W</cell>
+				<cell right="minor" halign="center">County Y</cell>
+				<cell right="minor" halign="center">County T</cell>
+			</row>
+			<row left="minor" class="odd">
+				<cell right="minor" halign="center"><m>L</m></cell>
+				<cell right="minor" halign="center">480</cell>
+				<cell right="minor" halign="center">500</cell>
+				<cell right="minor" halign="center">510</cell>
+			</row>
+			<row left="minor" class="even">
+				<cell right="minor" halign="center"><m>S</m></cell>
+				<cell right="minor" halign="center">9,700</cell>
+				<cell right="minor" halign="center">?</cell>
+				<cell right="minor" halign="center">5,000</cell>
+			</row>
+		</tabular>
 
-	<p>
-		Thanh decides to try a line that is less steep. After drawing in a few lines, he decides to try the line between the points for Counties C and D instead, which has equation <me>\textbf{C-D line:} \quad S = 20.26L-4,610</me> Unfortunately this line seems too low. (Again the negative intercept isn't visible.)
-	</p>
+		<p>
+			Wait a minute. The county with fewer roads used more salt? That doesn't make sense.
+		</p>
 
-
-	<p>
-		<image source='roadsaltCDline.png'/>
-	</p>
-
-	<p>
-		Neither of these lines came close to the point for County H on the far right, so Thanh considers one more line, this time through County H and County R, which has equation <me>\textbf{H-R line:} \quad S = 8.71L+3,130</me> This line has a positive intercept just above 3,000 tons/year, as you can see on the graph.
-	</p>
-
-
-	<p>
-		<image source='roadsaltHRline.png'/>
-	</p>
-
-	<p>
-		Thanh thinks the H-R line is reasonable, but it makes him wonder how to decide if one line is better than another. Generally speaking the <term>best fitting line</term> makes the space between the line and the data points as small as possible. (There is actually a much more official definition.) After using a little statistical software, Thanh determines that for this data set, the official best fitting line has equation <me>\textbf{Best fitting line:} \quad S = 10.0L+2,741</me>
-	</p>
-
-	<p>
-		Thanh wants to add this line to his graph so first he calculates a few values. While it's true that any two points would do, he played it safe and plotted three points, being sure to use 0 in order to find the intercept.
-	</p>
-
-
-	<tabular bottom="minor" top="minor">
-		<row left="minor" class="odd">
-			<cell right="minor" halign="center"><m>L</m></cell>
-			<cell right="minor" halign="center">0</cell>
-			<cell right="minor" halign="center">600</cell>
-			<cell right="minor" halign="center">1,500</cell>
-		</row>
-		<row left="minor" class="odd">
-			<cell right="minor" halign="center"><m>S</m></cell>
-			<cell right="minor" halign="center">2,741</cell>
-			<cell right="minor" halign="center">8,741</cell>
-			<cell right="minor" halign="center">17,741</cell>
-		</row>
-	</tabular>
-
-	<p>
-		He graphs this line and notices it is very similar to the H-R line, just a tiny bit higher and a tiny bit steeper. The points from the table are highlighted on the graph just to help you see how we graphed the line. Remember, those aren't actual data points.
-	</p>
+		<p>
+			Thanh decides to look at all the data at once in a scatter plot.
+		</p>
 
 
-	<p>
-		<image source='roadsaltbestfit.png'/>
-	</p>
+		<p>
+			<image source='roadsaltSCATTER.png'/>
+		</p>
 
-	<p>
-		Thanh is bothered by the fact that County H seems to be off on its own. The largest city in this area is in County H. Between the budget crunch and the nature of the urban landscape, the city tends to use much less road salt than the surrounding areas. So County H really isn't very typical at all. In statistics, this sort of value is known by the descriptive term <term>outlier</term> (as in <q>it lies way out there.</q>)
-	</p>
-
-	<p>
-		So Thanh decides to look at the statistically best-fitting line ignoring County H this time. Back to his software and he finds <me>\textbf{Best fitting line (ignoring outlier):} \quad S = 19.7L-2,905</me> This line is less steep than the T-A line and higher than the C-D line. Seems perfect.
-	</p>
+		<p>
+			When Thanh was using the nearby points to estimate for Counties X and Y, it's as if he were connecting the dots with line segments on the graph. Notice that the line that goes through 500 lane miles is decreasing, just like Thanh saw in his table.
+		</p>
 
 
-	<p>
-		<image source='roadsaltbestfitwoOutlier.png'/>
-	</p>
+		<p>
+			<image source='roadsaltCONNECTDOTS.png'/>
+		</p>
 
-	<xi:include href="./dyk-Fitting_lines_to_data.ptx" />
+		<p>
+			Thanh suspects that this connect-the-dots model is too heavily influenced by individual county road-salting habits. He would like a way to get one line to use for everything, knowing full well that one line cannot possibly go through all of the data points.
+		</p>
+
+		<p>
+			Which line to use? One option would be to stick with the line he found through the points for Counties T and A:
+			<me>\textbf{T-A line:} \quad S = 48.5L-19,735</me> He redraws the scatter plot to show that line. Because the intercept is negative, it doesn't show up on his graph. The line seems to be too low at first and too high later. The problem is that this line is too steep (has too large a slope).
+		</p>
+
+
+		<p>
+			<image source='roadsaltTAline.png'/>
+		</p>
+
+		<p>
+			Thanh decides to try a line that is less steep. After drawing in a few lines, he decides to try the line between the points for Counties C and D instead, which has equation <me>\textbf{C-D line:} \quad S = 20.26L-4,610</me> Unfortunately this line seems too low. (Again the negative intercept isn't visible.)
+		</p>
+
+
+		<p>
+			<image source='roadsaltCDline.png'/>
+		</p>
+
+		<p>
+			Neither of these lines came close to the point for County H on the far right, so Thanh considers one more line, this time through County H and County R, which has equation <me>\textbf{H-R line:} \quad S = 8.71L+3,130</me> This line has a positive intercept just above 3,000 tons/year, as you can see on the graph.
+		</p>
+
+
+		<p>
+			<image source='roadsaltHRline.png'/>
+		</p>
+
+		<p>
+			Thanh thinks the H-R line is reasonable, but it makes him wonder how to decide if one line is better than another. Generally speaking the <term>best fitting line</term> makes the space between the line and the data points as small as possible. (There is actually a much more official definition.) After using a little statistical software, Thanh determines that for this data set, the official best fitting line has equation <me>\textbf{Best fitting line:} \quad S = 10.0L+2,741</me>
+		</p>
+
+		<p>
+			Thanh wants to add this line to his graph so first he calculates a few values. While it's true that any two points would do, he played it safe and plotted three points, being sure to use 0 in order to find the intercept.
+		</p>
+
+
+		<tabular bottom="minor" top="minor">
+			<row left="minor" class="odd">
+				<cell right="minor" halign="center"><m>L</m></cell>
+				<cell right="minor" halign="center">0</cell>
+				<cell right="minor" halign="center">600</cell>
+				<cell right="minor" halign="center">1,500</cell>
+			</row>
+			<row left="minor" class="odd">
+				<cell right="minor" halign="center"><m>S</m></cell>
+				<cell right="minor" halign="center">2,741</cell>
+				<cell right="minor" halign="center">8,741</cell>
+				<cell right="minor" halign="center">17,741</cell>
+			</row>
+		</tabular>
+
+		<p>
+			He graphs this line and notices it is very similar to the H-R line, just a tiny bit higher and a tiny bit steeper. The points from the table are highlighted on the graph just to help you see how we graphed the line. Remember, those aren't actual data points.
+		</p>
+
+
+		<p>
+			<image source='roadsaltbestfit.png'/>
+		</p>
+
+		<p>
+			Thanh is bothered by the fact that County H seems to be off on its own. The largest city in this area is in County H. Between the budget crunch and the nature of the urban landscape, the city tends to use much less road salt than the surrounding areas. So County H really isn't very typical at all. In statistics, this sort of value is known by the descriptive term <term>outlier</term> (as in <q>it lies way out there.</q>)
+		</p>
+
+		<p>
+			So Thanh decides to look at the statistically best-fitting line ignoring County H this time. Back to his software and he finds <me>\textbf{Best fitting line (ignoring outlier):} \quad S = 19.7L-2,905</me> This line is less steep than the T-A line and higher than the C-D line. Seems perfect.
+		</p>
+
+
+		<p>
+			<image source='roadsaltbestfitwoOutlier.png'/>
+		</p>
+	</introduction>
+	
+	<conclusion component="html">
+		<title>Do you know ...</title>
+
+		<p>
+			<xi:include href="./dyk-Fitting_lines_to_data.ptx" />
+		</p>
+		<xi:include href="./NotSure.ptx" />
+	</conclusion>
+
+	
 	<xi:include href="./ex-Fitting_lines_to_data.ptx" />
+
+	<xi:include href="./WYD.ptx" />
+		
+		
+	<conclusion component="print">
+		<title>Do you know ...</title>
+		<p>
+			<xi:include href="./dyk-Fitting_lines_to_data.ptx" />
+		</p>
+		<xi:include href="./NotSure.ptx" />
+	</conclusion>
 </section>
