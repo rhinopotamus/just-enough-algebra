@@ -51,6 +51,6 @@
 
 	<xi:include href="./dyk-Approximation_and_rounding.ptx" />
 
-	<xi:include href="./homework/ex-Approximation_and_rounding.ptx" />
+	<xi:include href="./ex-Approximation_and_rounding.ptx" />
 
 </section>

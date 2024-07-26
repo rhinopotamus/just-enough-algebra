@@ -38,7 +38,7 @@
 
 	
 	<xi:include href="./dyk-Algebraic_notation.ptx" />
-	<xi:include href="./homework/ex-Algebraic_notation.ptx" />
+	<xi:include href="./ex-Algebraic_notation.ptx" />
 	
 
 </section>

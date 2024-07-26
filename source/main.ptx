@@ -13,12 +13,12 @@
 
     <!-- Include chapters -->
     
-    <xi:include href="./textbook/ch-tx-Prelude.ptx" />
-    <xi:include href="./textbook/ch-tx-Variables.ptx" />
-    <xi:include href="./textbook/ch-tx-Equations.ptx" />
-    <xi:include href="./textbook/ch-tx-Solving_equations.ptx" />
-    <xi:include href="./textbook/ch-tx-Closer_look_linear.ptx" />
-    <xi:include href="./textbook/ch-tx-Closer_look_exponential.ptx" />
+    <xi:include href="./textbook/ch-Prelude.ptx" />
+    <xi:include href="./textbook/ch-Variables.ptx" />
+    <xi:include href="./textbook/ch-Equations.ptx" />
+    <xi:include href="./textbook/ch-Solving_equations.ptx" />
+    <xi:include href="./textbook/ch-Closer_look_linear.ptx" />
+    <xi:include href="./textbook/ch-Closer_look_exponential.ptx" />
 
     <!-- Workbook part -->
     <!-- <part xml:id="workbook" component="workbook">

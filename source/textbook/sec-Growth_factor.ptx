@@ -109,6 +109,6 @@
 	</p>
 
 	<xi:include href="./dyk-Growth_factor.ptx" />
-	<xi:include href="./homework/ex-Growth_factor.ptx" />
+	<xi:include href="./ex-Growth_factor.ptx" />
 
 </section>

@@ -111,6 +111,6 @@
 	</p>
 
 	<xi:include href="./dyk-Modeling_linear_equations.ptx" />
-	<xi:include href="./homework/ex-Modeling_linear_equations.ptx" />
+	<xi:include href="./ex-Modeling_linear_equations.ptx" />
 
 </section>

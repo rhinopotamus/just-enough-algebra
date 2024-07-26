@@ -255,6 +255,6 @@
 	</p>
 
 	<xi:include href="./dyk-Tables_and_graphs.ptx" />
-	<xi:include href="./homework/ex-Tables_and_graphs.ptx" />
+	<xi:include href="./ex-Tables_and_graphs.ptx" />
 
 </section>

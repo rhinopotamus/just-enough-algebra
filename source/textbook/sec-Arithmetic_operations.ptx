@@ -82,6 +82,6 @@
 
 	<xi:include href="./dyk-Arithmetic_operations.ptx" />
 
-	<xi:include href="./homework/ex-Arithmetic_operations.ptx" />
+	<xi:include href="./ex-Arithmetic_operations.ptx" />
 
 </section>

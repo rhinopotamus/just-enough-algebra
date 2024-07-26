@@ -161,6 +161,6 @@
 	</p>
 
 	<xi:include href="./dyk-Solving_linear_equations.ptx" />
-	<xi:include href="./homework/ex-Solving_linear_equations.ptx" />
+	<xi:include href="./ex-Solving_linear_equations.ptx" />
 
 </section>

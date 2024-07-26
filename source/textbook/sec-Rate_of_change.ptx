@@ -164,5 +164,5 @@
 	</p>
 	
 	<xi:include href="./dyk-Rate_of_change.ptx" />
-	<xi:include href="./homework/ex-Rate_of_change.ptx" />
+	<xi:include href="./ex-Rate_of_change.ptx" />
 </section>

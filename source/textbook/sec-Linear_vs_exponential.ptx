@@ -143,5 +143,5 @@
 	</p>
 
 	<xi:include href="./dyk-Linear_vs_exponential.ptx" />
-	<xi:include href="./homework/ex-Linear_vs_exponential.ptx" />
+	<xi:include href="./ex-Linear_vs_exponential.ptx" />
 </section>

@@ -70,6 +70,6 @@
 
 	<xi:include href="./dyk-Fractions.ptx" />
 
-	<xi:include href="./homework/ex-Fractions.ptx" />
+	<xi:include href="./ex-Fractions.ptx" />
 
 </section>

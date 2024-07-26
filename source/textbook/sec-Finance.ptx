@@ -230,5 +230,5 @@
 	</p>
 
 	<xi:include href="./dyk-Finance.ptx" />
-	<xi:include href="./homework/ex-Finance.ptx" />
+	<xi:include href="./ex-Finance.ptx" />
 </section>

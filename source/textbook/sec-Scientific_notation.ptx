@@ -93,6 +93,6 @@
 
 
 	<xi:include href="./dyk-Scientific_notation.ptx" />
-	<xi:include href="./homework/ex-Scientific_notation.ptx" />
+	<xi:include href="./ex-Scientific_notation.ptx" />
 
 </section>

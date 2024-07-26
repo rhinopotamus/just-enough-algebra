@@ -117,6 +117,6 @@
 	</p>
 
 	<xi:include href="./dyk-First_look_linear.ptx" />
-	<xi:include href="./homework/ex-First_look_linear.ptx" />
+	<xi:include href="./ex-First_look_linear.ptx" />
 
 </section>

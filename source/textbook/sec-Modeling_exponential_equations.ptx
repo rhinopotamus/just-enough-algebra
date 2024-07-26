@@ -143,5 +143,5 @@
 	</p>
 	
 	<xi:include href="./dyk-Modeling_exponential_equations.ptx" />
-	<xi:include href="./homework/ex-Modeling_exponential_equations.ptx" />
+	<xi:include href="./ex-Modeling_exponential_equations.ptx" />
 </section>

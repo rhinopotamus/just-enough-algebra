@@ -208,7 +208,7 @@
 	</p>
 
 	<xi:include href="./dyk-Approx_solutions.ptx" />
-	<xi:include href="./homework/ex-Approx_solutions.ptx" />
+	<xi:include href="./ex-Approx_solutions.ptx" />
 
 
 </section>

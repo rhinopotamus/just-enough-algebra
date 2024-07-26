@@ -164,7 +164,7 @@
 	</p>
 
 	<xi:include href="./dyk-Using_equations.ptx" />
-	<xi:include href="./homework/ex-Using_equations.ptx" />
+	<xi:include href="./ex-Using_equations.ptx" />
 
 
 </section>

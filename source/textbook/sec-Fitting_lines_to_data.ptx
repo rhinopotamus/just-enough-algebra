@@ -241,5 +241,5 @@
 	</p>
 
 	<xi:include href="./dyk-Fitting_lines_to_data.ptx" />
-	<xi:include href="./homework/ex-Fitting_lines_to_data.ptx" />
+	<xi:include href="./ex-Fitting_lines_to_data.ptx" />
 </section>

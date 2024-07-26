@@ -167,7 +167,7 @@
 	</assemblage>
 
 	<xi:include href="./dyk-Solving_power_equations.ptx" />
-	<xi:include href="./homework/ex-Solving_power_equations.ptx" />
+	<xi:include href="./ex-Solving_power_equations.ptx" />
 
 
 </section>

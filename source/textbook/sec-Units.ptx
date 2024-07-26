@@ -99,7 +99,7 @@
 	</p>
 	
 	<xi:include href="./dyk-Units.ptx" />
-	<xi:include href="./homework/ex-Units.ptx" />
+	<xi:include href="./ex-Units.ptx" />
 
 
 </section>
