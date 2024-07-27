@@ -10,14 +10,16 @@
 		<introduction component="print">
 			
 			<assemblage xml:id="linear-eq-template">
-				<title>Linear equation template</title>
+				<title>Linear Equation Template</title>
 				<p>
-					dep = start + slope <m>\ast</m> indep
+					<me>
+						\text{dep} = \text{start} + \text{slope} \ast \text{indep}
+					</me>
 				</p>
 			</assemblage>
 	
 			<assemblage xml:id="rate-of-change">
-				<title>Rate of change formula</title>
+				<title>Rate of Change Formula</title>
 				
 				
 				<p>
@@ -26,7 +28,7 @@
 			</assemblage>
 	
 			<assemblage xml:id="exp-eqn-template">
-				<title>Exponential equation template</title>
+				<title>Exponential Equation Template</title>
 				
 				
 				<p><me>\text{dep} = \text{start} \ast \text{growth factor} ^ {\text{indep}}</me></p>
@@ -77,21 +79,22 @@
 			<task workspace="1.75in">
 				<statement>
 					<p>
-						Calculate the annual growth factor using the <term>Growth Factor Formula</term>.
+						Calculate the annual growth factor using the 
+						<xref ref="growth-factor-formula" text="title"/>.
 					</p>
 				</statement>
 			</task>
 			<task workspace="0.75in">
 				<statement>
 					<p>
-						In this model, by what percentage did the house value increase each year? <em>Hint: use the <term>Percent Change Formula</term>.</em>
+						In this model, by what percentage did the house value increase each year? <em>Hint: use the <xref ref="percent-change-formula" text="title"/>.</em>
 					</p>
 				</statement>
 			</task>
 			<task workspace="2.5in">
 				<statement>
 					<p>
-						Write an exponential equation showing how the value of the house increased. Don't forget to name the variables, including units. <em>Hint: use the <term>Exponential Equation Template</term>.</em>
+						Write an exponential equation showing how the value of the house increased. Don't forget to name the variables, including units. <em>Hint: use the <xref ref="exp-eqn-template" text="title"/>.</em>
 					</p>
 				</statement>
 			</task>
@@ -111,14 +114,14 @@
 						<alert>Next, assume the value of the house increased linearly instead.</alert>
 					</p>
 					<p>
-						In this model, by what fixed amount did the house value increase each year? <em>Hint: calculate the slope using the <term>Rate of Change/Slope (of Linear) Formula</term>.</em>
+						In this model, by what fixed amount did the house value increase each year? <em>Hint: calculate the slope using the <xref ref="rate-of-change" text="title"/>.</em>
 					</p>
 				</statement>
 			</task>
 			<task workspace="2in">
 				<statement>
 					<p>
-						Using the same variables, write a linear equation showing how the value of the house increased. <em>Hint: use the <term>Linear Equation Template</term>.</em>
+						Using the same variables, write a linear equation showing how the value of the house increased. <em>Hint: use the <xref ref="linear-eq-template" text="title"/>.</em>
 					</p>
 				</statement>
 			</task>

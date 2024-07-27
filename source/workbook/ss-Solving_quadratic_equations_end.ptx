@@ -19,7 +19,7 @@
 
 	<li>
 		<p>
-			When we use the <term>Quadratic Formula</term>? <em>Ask your instructor if you need to remember the <term>Quadratic Formula</term> or if it will be provided during the exam.</em>
+			When we use the <xref ref="quadratic-formula" text="title"/>? <em>Ask your instructor if you need to remember the <xref ref="quadratic-formula" text="title"/> or if it will be provided during the exam.</em>
 		</p>
 	</li>
 
@@ -49,7 +49,7 @@
 
 	<li>
 		<p>
-			How to decide which solution(s) from the <term>Quadratic Formula</term> are correct?
+			How to decide which solution(s) from the <xref ref="quadratic-formula" text="title"/> are correct?
 		</p>
 	</li>
 

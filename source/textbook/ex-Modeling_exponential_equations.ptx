@@ -76,7 +76,7 @@
 			<task>
 				<statement>
 					<p>
-						Use the <term>Log Divides Formula</term> to find <em>exactly</em> when the number of infected students reaches 100.
+						Use the <xref ref="log-divides-formula" text="title"/> to find <em>exactly</em> when the number of infected students reaches 100.
 					</p>
 				</statement>
 			</task>

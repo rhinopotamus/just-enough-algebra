@@ -34,14 +34,14 @@
 			<task>
 				<statement>
 					<p>
-						Set up and solve an equation using the <term>Root Formula</term> to find the diameter of a personal pizza (<m>P=1</m>). Answer to the nearest inch.
+						Set up and solve an equation using the <xref ref="root-formula" text="title"/> to find the diameter of a personal pizza (<m>P=1</m>). Answer to the nearest inch.
 					</p>
 				</statement>
 			</task>
 			<task>
 				<statement>
 					<p>
-						Set up and solve an equation using the <term>Root Formula</term> to find the diameter of an extra large pizza to serve 6 people. Answer to the nearest inch.
+						Set up and solve an equation using the <xref ref="root-formula" text="title"/> to find the diameter of an extra large pizza to serve 6 people. Answer to the nearest inch.
 					</p>
 				</statement>
 			</task>
@@ -119,7 +119,7 @@
 		<exercise xml:id="effective-return-solving-power" workspace="2in">
 			<introduction>
 				<p>
-					Moose bought a commemorative football jersey for $150 twelve years ago. Now he is planning to sell it and is interested in what the <term>effective return</term> (equivalent annual percent increase) on his investment might be for various prices. If $<m>J</m> is the current value of the jersey and <m>g</m> is the annual growth factor, then <me>J=150\, g^{12}</me> For each part, first solve for <m>g</m> using the <term>Root Formula</term>, then calculate <m>r=g-1</m>. The effective return is <m>r</m> written as a percentage.
+					Moose bought a commemorative football jersey for $150 twelve years ago. Now he is planning to sell it and is interested in what the <term>effective return</term> (equivalent annual percent increase) on his investment might be for various prices. If $<m>J</m> is the current value of the jersey and <m>g</m> is the annual growth factor, then <me>J=150\, g^{12}</me> For each part, first solve for <m>g</m> using the <xref ref="root-formula" text="title"/>, then calculate <m>r=g-1</m>. The effective return is <m>r</m> written as a percentage.
 				</p>
 			</introduction>
 			<task>
