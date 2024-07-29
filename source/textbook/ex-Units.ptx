@@ -5,6 +5,7 @@
 	<xi:include href="ex-intro.ptx" />
 
 <page> <!-- This one might just require a manual edit. -->
+	<!-- \vspace{-\baselineskip-\parsep} -->
 	<exercise xml:id="compare-lengths-units" workspace="1cm">
 		<task>
 			<introduction>
@@ -98,6 +99,7 @@
 </page>
 
 <page> <!-- This one might just require a manual edit. -->
+	<!-- \vspace{-\baselineskip-\parsep} -->
 	<exercise xml:id="decimal-hours-lengths-units" workspace="1in">
 		<task>
 			<statement>
@@ -194,7 +196,7 @@
 </page>
 
 <page>
-	<exercise xml:id="finland-units" workspace="1in">
+	<exercise xml:id="finland-units" workspace="2.75cm">
 		<introduction>
 			<p>
 				Jenna is studying in Finland this term and rented an older car to drive.

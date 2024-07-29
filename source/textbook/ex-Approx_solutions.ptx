@@ -73,7 +73,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="fuel-350-approx-solutions" workspace="1.25cm">
+		<exercise xml:id="fuel-350-approx-solutions" workspace="1.1cm">
 			<introduction>
 				<p>
 					Suppose the gas tank of a car is designed to hold enough fuel to drive 350 miles. (That's fairly average.) A hybrid car with fuel efficiency of 50 miles per gallon (mpg) would only need a 7 gallon gas tank, but a recreational vehicle that gets only 10 mpg would need a 35 gallon gas tank. <em>(Story also appears in <xref ref="fuel-350-solving-power"/>)</em>
@@ -210,7 +210,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="1.5in">
+			<task workspace="1.75in">
 				<statement>
 					<p>
 						Approximately when will Brazil's population top 500 million? Will Nigeria get there first? Display your work in a successive approximation table.

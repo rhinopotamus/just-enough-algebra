@@ -62,7 +62,7 @@
 </page>
 
 <page>
-	<exercise xml:id="dust-particle-scientific-notation" workspace="1.5cm">
+	<exercise xml:id="dust-particle-scientific-notation" workspace="1cm">
 		<introduction>
 			<p>
 				Edgar recently changed the cleaning bag on his vacuum cleaner. He became curious about how many particles of dust were in the bag. Edgar did a little research online and found out that the mass of a dust particle is <me>0.000~000~000~753\text{ kilograms.}</me>(The strange-looking spaces are to help you see that there are 9 zeros in the number.)
@@ -165,11 +165,13 @@
 </page>
 
 <page>
-	<exercise xml:id="planet-weight-scientific-notation" workspace="1.5in">
+	<exercise xml:id="planet-weight-scientific-notation" workspace="1.25in">
 		<introduction>
 			<p>
 				The list shows the (approximate) mass of the planets in our solar system.
 				<aside><p>Source: Wikipedia (Solar System)</p></aside>
+			</p>
+			<p>
 				<em>(Story also appears in <xref ref="earth-weight-prelude-scientific-notation"/>)</em>
 			</p>
 			<tabular>
@@ -236,7 +238,7 @@
 </page>
 
 <page>
-	<exercise xml:id="iv-drip-scientific-notation" workspace="1in">
+	<exercise xml:id="iv-drip-scientific-notation" workspace="2.25cm">
 		<introduction>
 			<p>
 				Souksavanh is setting up a patient's intravenous (IV) medication. She sets the drip at 42 drops/minute. The drip chamber size is 20 drops/mL. Recall

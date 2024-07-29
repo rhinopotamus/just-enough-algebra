@@ -27,4 +27,15 @@
 	<xi:include href="./sec-Slopes.ptx" />
 	<xi:include href="./sec-Fitting_lines_to_data.ptx" />
 
+	<!-- practice exams -->
+
+    <section xml:id="sec-PE4A" component="print">
+        <title>Practice Exam 4A</title>
+        <xi:include href="./ws-PE4A.ptx" />
+    </section>
+    <section xml:id="sec-PE4B" component="print">
+        <title>Practice Exam 4B</title>
+        <xi:include href="./ws-PE4B.ptx" />
+    </section>
+
 </chapter>

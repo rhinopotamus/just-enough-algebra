@@ -12,7 +12,7 @@
     </introduction> 
 
     <page>
-        <exercise xml:id="cucumbers-arithmetic-operations">
+        <exercise xml:id="cucumbers-arithmetic-operations" workspace="1in">
             <statement>
                 <p>
                     Tensia loves to garden but can't quite keep up with how many cucumbers are growing.
@@ -80,7 +80,7 @@
     </page>
     
     <page>
-        <exercise xml:id="students-arithmetic-operations" workspace="0.3in">
+        <exercise xml:id="students-arithmetic-operations" workspace="0.35in">
             <introduction>
                 <p>
                     There are 2,624 students at a local university.
@@ -108,7 +108,7 @@
                 </statement>
             </task>
         </exercise>
-        <exercise xml:id="truck-grass-arithmetic-operations" workspace="0.3in">
+        <exercise xml:id="truck-grass-arithmetic-operations" workspace="0.35in">
             <introduction>
                 <p>
                     A truck hauling grass seed weighs 3,900 pounds when it is empty. Each bag of seed it carries weighs 4.2 pounds. The <term>gross weight</term> of the truck is the total weight including the truck and the bags of seed. 

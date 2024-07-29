@@ -126,7 +126,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="burger-temp-solving-linear" workspace="1.2in">
+		<exercise xml:id="burger-temp-solving-linear" workspace="1.25in">
 			<introduction>
 				<p>
 					The local burger restaurant had a promotion this summer. They reduced the price on a bacon double cheeseburger by 2¢ for each degree in the daily high temperature. The equation is <me>B = 7.16 - 0.02H</me> where $<m>B</m> is the price of the bacon double cheeseburger and <m>H</m> is the daily high temperature, in °F. 

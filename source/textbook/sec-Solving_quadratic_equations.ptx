@@ -112,10 +112,10 @@
 		</p>
 
 		<assemblage xml:id="quadratic-equation-template">
-			<title>Quadratic equation template</title>
+			<title>Quadratic Equation Template</title>
 				
 				
-			<me>\text{dep} = a \ast \text{indep}^2 + b \ast\text{indep} + c</me>
+			<p><me>\text{dep} = a \ast \text{indep}^2 + b \ast\text{indep} + c</me></p>
 		</assemblage>
 
 		<p>

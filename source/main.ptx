@@ -19,6 +19,8 @@
     <xi:include href="./textbook/ch-Solving_equations.ptx" />
     <xi:include href="./textbook/ch-Closer_look_linear.ptx" />
     <xi:include href="./textbook/ch-Closer_look_exponential.ptx" />
+    <!-- currently print-only -->
+    <xi:include href="./textbook/ch-Review.ptx" /> 
 
     <!-- Workbook part -->
     <!-- <part xml:id="workbook" component="workbook">

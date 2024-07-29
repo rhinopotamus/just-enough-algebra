@@ -133,7 +133,7 @@
 					<xi:include href="GraphPaper.ptx" />
 				</statement>
 			</task>
-			<task>
+			<task workspace="0.5cm">
 				<statement>
 					<p>
 						Which option is least expensive if Juan plans to buy
@@ -322,7 +322,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="2in">
+			<task workspace="2.2in">
 				<statement>
 					<p>
 						When less of a product is produced than consumers want to buy, we have a <term>shortage</term> of the product. Solve an inequality to find the range of price values for which there will be a shortage of flour. Compare your answer to parts (d) and (e).

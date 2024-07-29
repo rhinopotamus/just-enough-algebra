@@ -143,7 +143,7 @@
 		</p>
 
 		<assemblage xml:id="power-equation-template">
-			<title>Power equation template</title>
+			<title>Power Equation Template</title>
 			
 			
 			<p><me>\text{dep} = k \ast \text{indep}^{n}</me></p>
@@ -154,7 +154,7 @@
 		</p>
 
 		<assemblage xml:id="quadratic-equation-template-2-3">
-			<title>Quadratic equation template</title>
+			<title>Quadratic Equation Template</title>
 				
 				
 			<p><me>\text{dep} = a \ast \text{indep}^2 + b \ast\text{indep} + c</me></p>

@@ -103,7 +103,7 @@
 </page>
 
 <page>
-	<exercise xml:id="wind-chill-tables-graphs" workspace="0.65cm">
+	<exercise xml:id="wind-chill-tables-graphs" workspace="0.5cm">
 		<introduction>
 			<p>
 				How cold is it? An air temperature of 10<m>^\circ</m>F is cold but manageable. 
@@ -117,7 +117,7 @@
 			</p>		
 			<tabular bottom="minor" top="minor"> 
 				<row left="minor" class="odd">
-					<cell right="minor"  halign="left">Wind (mph)</cell>
+					<cell right="minor"  halign="left">Wind speed (mph)</cell>
 					<cell right="minor"  halign="center">0</cell>
 					<cell right="minor"  halign="center">5</cell>
 					<cell right="minor"  halign="center">10</cell>
@@ -148,7 +148,7 @@
 					<cell right="minor"  halign="center">-18</cell>
 					<cell right="minor"  halign="center">-19</cell>
 				</row>
-			</tabular>	
+			</tabular>
 		</introduction>
 		<task>
 			<statement>
@@ -203,12 +203,12 @@
 			<p>
 				Anthony and Christina are trying to decide where to hold their wedding reception. 
 				The Metropolitan Club costs $1,300 for the space and $92 per person.
-				<em>
-					(Story also appears in 
-					<xref ref="wedding-rental-rate-of-change" /> and 
-					<xref ref="wedding-rental-linear-ineq" />)
-				</em>
 			</p>
+			<p><em>
+				(Story also appears in 
+				<xref ref="wedding-rental-rate-of-change" /> and 
+				<xref ref="wedding-rental-linear-ineq" />)
+			</em></p>
 		</introduction>
 		<task workspace="0.5in">
 			<statement>
@@ -255,7 +255,7 @@
 				</p>
 			</statement>
 		</task>
-		<task workspace="0.1in">
+		<task>
 			<statement>
 				<p>
 					Can you figure out from the story <em>exactly</em> how many guests 

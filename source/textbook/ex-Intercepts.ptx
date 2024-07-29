@@ -59,7 +59,7 @@
 	</page>
 		
 	<page>
-		<exercise xml:id="design-business-intercepts" workspace="1.5cm">
+		<exercise xml:id="design-business-intercepts" workspace="1.4cm">
 			<introduction>
 				<p>
 					Maryn is very happy. Her interior design business is finally showing a profit. She has logged a total of 471 billable hours at $35 per hour since she started her business. Accounting for start up costs, her net profit now totals $2,194.
@@ -187,7 +187,7 @@
 					</p>
 				</statement>
 			</task>
-			<task>
+			<task workspace="1.25in">
 				<statement>
 					<p>
 						The amount of laundry detergent I have left depends on how many loads of laundry I did.

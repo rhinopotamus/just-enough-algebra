@@ -254,7 +254,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="baby-weight-logistic-growth"> component="html" 
+	<exercise xml:id="baby-weight-logistic-growth" component="html"> 
 		<introduction>
 			<p>
 				Infants are regularly checked to make sure they are growing accordingly. The World Health Organization publishes growth charts to evaluate infant weight <m>W</m> in kilograms at a given age <m>M</m> in months since birth. An equation that describes an average infant boy is the following: <me>W=15-11.5\ast0.932^M</me>

@@ -11,7 +11,7 @@
     </introduction>
 
     <page>
-        <exercise xml:id="students-fractions" workspace="0.75in">
+        <exercise xml:id="students-fractions" workspace="0.6in">
             <introduction>
                 <p>
                     There are 2,624 students at a local university.
@@ -32,7 +32,7 @@
                 </statement>
             </task>
         </exercise>
-        <exercise xml:id="gas-mileage-fractions" workspace="0.75in">
+        <exercise xml:id="gas-mileage-fractions" workspace="0.6in">
             <introduction>
                 <p>
                     Gas mileage is usually rounded down to the nearest one decimal place. Gas mileage is measured in miles per gallon (mpg).
@@ -104,7 +104,7 @@
                     </p>
                 </statement>
             </task>
-            <task>
+            <task workspace="0.25in">
                 <statement>
                     <p>
                         How could you do the calculation in part (b) one line on your calculator by using parentheses? Hint: the <q>hours</q> cancel!

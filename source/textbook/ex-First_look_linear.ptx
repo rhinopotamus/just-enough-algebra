@@ -114,7 +114,7 @@
 						<xref ref="credit-line-linear-ineq"/>)
 					</em>
 					<em component="print">
-						(story also appears in
+						(Story also appears in
 						<xref ref="sec-Solving_linear_inequalities" text="global"/> Exercises)
 					</em>
 				</p>
@@ -133,7 +133,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="1.5cm">
+			<task>
 				<statement>
 					<p>
 						Make a table of values showing my account balance now, after 4 months, and at the end of a year.

@@ -136,7 +136,16 @@
 	<page>
 		<exercise xml:id="monty-orchids-using-equations" workspace="0.9cm">
 			<introduction>
-				<p>
+				<p component="print">
+					Monty hopes to grow orchids but they are fragile plants. He will consider his greenhouse a success if at least nine of the ten orchids survive. Assuming the orchids each survive at rate <m>S</m>, the probability his greenhouse is a success, <m>P</m>, is given by
+					<me>
+						P= 10S^9-9S^{10}
+						\qquad \qquad
+						\textit{(Story also appears in <xref ref="monty-orchids-approx-solutions"/>)}
+					</me>
+					<em></em>
+				</p>
+				<p component="html">
 					Monty hopes to grow orchids but they are fragile plants. He will consider his greenhouse a success if at least nine of the ten orchids survive. Assuming the orchids each survive at rate <m>S</m>, the probability his greenhouse is a success, <m>P</m>, is given by
 					<me>
 						P= 10S^9-9S^{10}

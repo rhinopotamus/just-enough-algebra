@@ -105,7 +105,7 @@
 					The local ski resort is trying to set the price for season passes. They know from past experience that they will sell around 14,000 passes if the season ticket price is $380. If the price is $400, they will sell fewer, perhaps only 11,000 passes. You can assume this decrease in demand is linear.
 				</p>
 			</introduction>
-			<task>
+			<task workspace="0.6in">
 				<statement>
 					<p>
 						Name the variables, including units and dependence.
@@ -215,7 +215,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="1.5in">
+			<task workspace="1.25in">
 				<statement>
 					<p>
 						Will my revised projections mean I will reach that 90-pound goal sooner or later than my trainer thinks? Explain. <em>Hint: extend your graph.</em>

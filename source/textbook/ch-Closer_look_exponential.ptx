@@ -23,4 +23,15 @@
 	<xi:include href="./sec-Linear_vs_exponential.ptx" />
 	<xi:include href="./sec-Logistic_growth.ptx" />
 
+	<!-- practice exams -->
+
+    <section xml:id="sec-PE5A" component="print">
+        <title>Practice Exam 5A</title>
+        <xi:include href="./ws-PE5A.ptx" />
+    </section>
+    <section xml:id="sec-PE5B" component="print">
+        <title>Practice Exam 5B</title>
+        <xi:include href="./ws-PE5B.ptx" />
+    </section>
+
 </chapter>

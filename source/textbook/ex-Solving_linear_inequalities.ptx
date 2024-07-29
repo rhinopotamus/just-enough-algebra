@@ -146,9 +146,6 @@
 						<em>equation:</em>
 					</p>
 					<p>
-						<nbsp/>
-					</p>
-					<p>
 						<em>inequality:</em>
 					</p>
 					<p>
@@ -166,9 +163,6 @@
 					</p>
 					<p>
 						<em>equation:</em>
-					</p>
-					<p>
-						<nbsp/>
 					</p>
 					<p>
 						<em>inequality:</em>
@@ -190,9 +184,6 @@
 						<em>equation:</em>
 					</p>
 					<p>
-						<nbsp/>
-					</p>
-					<p>
 						<em>inequality:</em>
 					</p>
 					<p>
@@ -212,9 +203,6 @@
 						<em>equation:</em>
 					</p>
 					<p>
-						<nbsp/>
-					</p>
-					<p>
 						<em>inequality:</em>
 					</p>
 					<p>
@@ -229,7 +217,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="berry-z-score-linear-ineq" workspace="0.8in">
+		<exercise xml:id="berry-z-score-linear-ineq" workspace="0.9in">
 			<introduction>
 				<p>
 					One variety of blueberry plant yields an average of 130 blueberries per season but there is quite a bit of variability from plant to plant. One measure of this variability is the standard deviation, which is approximated at 16.4 berries. Given a plant yielding <m>B</m> blueberries, we can calculate how usual or unusual that is by computing its <term>(standard) z-score</term> using the equation <me>Z = \frac{B-130}{16.4}</me>

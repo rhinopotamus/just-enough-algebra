@@ -8,16 +8,7 @@
 
 	<page>
 		<introduction component="print">
-			<assemblage xml:id="growth-factor-formula">
-				<title>Growth Factor Formula</title>
-					
-					
-				<p>
-					If a quantity is growing (or decaying) exponentially, then the growth (or decay) factor is <me>\displaystyle g = \sqrt[t]{\frac{a}{s}}</me> where <m>s</m> is the starting amount and <m>a</m> is the amount after <m>t</m> time periods.
-				</p>
-			</assemblage>
-
-
+			
 			<assemblage xml:id="percent-change-formula">
 				<title>Percent Change Formula</title>
 					
@@ -37,6 +28,16 @@
 					</ul>
 				</p>
 			</assemblage>
+
+			<assemblage xml:id="growth-factor-formula">
+				<title>Growth Factor Formula</title>
+					
+					
+				<p>
+					If a quantity is growing (or decaying) exponentially, then the growth (or decay) factor is <me>\displaystyle g = \sqrt[t]{\frac{a}{s}}</me> where <m>s</m> is the starting amount and <m>a</m> is the amount after <m>t</m> time periods.
+				</p>
+			</assemblage>
+			
 		</introduction>
 	</page>
 	
@@ -118,7 +119,7 @@
 					</p>
 				</statement>
 			</task>
-			<task>
+			<task workspace="0.5in">
 				<statement>
 					<p>
 						Use your equation to check the information for 1990, 2000, and 2010.
@@ -187,7 +188,7 @@
 					</p>
 				</statement>
 			</task>
-			<task>
+			<task workspace="0.75in">
 				<statement>
 					<p>
 						How many milligrams of carbon-14 should remain in this bone after 1 million years? Explain the <q>scientific notation</q> answer your calculator gives you.
@@ -230,12 +231,7 @@
 				</p>
 			
 				<p>
-					<em>Hint: First decide if you can use the <xref ref="percent-change-formula" text="title"/> or if you will need to use the <xref ref="growth-factor-formula" text="title"/>.</em>
-					
-				</p>
-			
-				<p>
-					<em>Don't forget to include the negative sign for decay rates.</em>
+					<em>Hint: First decide if you can use the <xref ref="percent-change-formula" text="title"/> or if you will need to use the <xref ref="growth-factor-formula" text="title"/>. Don't forget to include the negative sign for decay rates.</em>
 				</p>
 			</introduction>
 			<task>

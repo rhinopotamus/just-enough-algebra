@@ -75,7 +75,7 @@
 	</page>
 	
 	<page>
-		<exercise xml:id="stock-price-fitting-lines" workspace="0.7in">
+		<exercise xml:id="stock-price-fitting-lines" workspace="0.65in">
 			<introduction>
 				<p>
 					Noel is considering investing in a company's stock so he looked up a few values.
@@ -301,7 +301,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="1in">
+			<task workspace="0.8in">
 				<statement>
 					<p>
 						Explain why Mia and Mandi should not use either of these lines to estimate October's sales.

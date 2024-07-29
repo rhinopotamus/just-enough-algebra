@@ -142,11 +142,10 @@
    
     
 
-    <exercise xml:id="billion-seconds-prelude-scientific-notation">
+    <exercise xml:id="billion-seconds-prelude-scientific-notation" component="html">
         <introduction>
             <p>
-                <em component="html">(Story also appears in <xref ref="billion-seconds-scientific-notation"/>)</em>
-                <em component="print">(Story also appears in <xref ref="sec-Metric_system_and_scientific_notation"/> Exercises)</em>
+                <em>(Story also appears in <xref ref="billion-seconds-scientific-notation"/>)</em>
             </p>
             <aside>
                 <p>
@@ -177,10 +176,10 @@
         </task>
     </exercise>
 
-    <exercise xml:id="planet-weight-prelude-scientific-notation">
+    <exercise xml:id="planet-weight-prelude-scientific-notation" component="html">
         <introduction>
             <p>
-                <em>Story also appears in <xref ref="planet-weight-scientific-notation"/></em>
+                <em>(Story also appears in <xref ref="planet-weight-scientific-notation"/>)</em>
             </p>
         </introduction>
         <task>
@@ -206,7 +205,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="virus-size-prelude-scientific-notation">
+    <exercise xml:id="virus-size-prelude-scientific-notation" component="html">
         <introduction>
             <p>
                 The SARS-CoV-2 virus is approximately 125 nanometers wide which is <m>\mathbf{125 \times 10^{-9}}</m> <term>meters</term> wide.
@@ -234,15 +233,12 @@
             </statement>
         </task>
     </exercise>
-    <exercise xml:id="cells-prelude-scientific-notation">
+    <exercise xml:id="cells-prelude-scientific-notation" component="html">
         <introduction>
             <p>
                 Rayka would like to approximate how many cells are in her body. Use the following information: Rayka weighs 140 pounds, <m>1 \text{ gram} \approx 10^{15} \text{ cells}</m> and <m>\text{1,000 grams} \approx \text{2.2 pounds}</m>. 
-                <em component="html">
+                <em>
                     (Story also appears in <xref ref="cells-scientific-notation"/>)
-                </em>
-                <em component="print">
-                    (Story also appears in <xref ref="sec-Metric_system_and_scientific_notation"/> Exercises)
                 </em>
             </p>
         </introduction>
