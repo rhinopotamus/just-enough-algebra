@@ -4,8 +4,7 @@
 <exercises xml:id="ex-Units" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<xi:include href="ex-intro.ptx" />
 
-<page> <!-- This one might just require a manual edit. -->
-	<!-- \vspace{-\baselineskip-\parsep} -->
+<page>
 	<exercise xml:id="compare-lengths-units" workspace="1cm">
 		<task>
 			<introduction>
@@ -98,8 +97,7 @@
 	</exercise>
 </page>
 
-<page> <!-- This one might just require a manual edit. -->
-	<!-- \vspace{-\baselineskip-\parsep} -->
+<page>
 	<exercise xml:id="decimal-hours-lengths-units" workspace="1in">
 		<task>
 			<statement>

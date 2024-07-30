@@ -66,8 +66,15 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
 </xsl:template>
 
 <!-- enumerate label customization -->
+<!-- and kill whitespace on empty introduction -->
 
 <xsl:template match="exercise|task" mode="begin-task-list">
+    <xsl:if test="
+        child::task
+        and (not(introduction) or introduction='')
+    ">
+        <xsl:text>\vspace{-\baselineskip-\parsep}%&#xa;</xsl:text>
+    </xsl:if>
     <xsl:text>\begin{enumerate}[label=</xsl:text>
     <xsl:choose>
         <!-- parent is a "task", so context/container is a "task"   -->
@@ -277,6 +284,12 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
     <xsl:text>\label{#7}%&#xa;</xsl:text>
     <!-- close the environment definition, add newpage to finish -->
     <xsl:text>}{\newpage}%&#xa;</xsl:text>
+</xsl:template>
+
+<!-- kill trailing period on conclusions "When you're done ..." etc -->
+
+<xsl:template match="section/conclusion" mode="title-wants-punctuation">
+    <xsl:value-of select="false()"/>
 </xsl:template>
 
 <!-- aside formatting  -->
