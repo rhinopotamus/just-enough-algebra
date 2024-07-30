@@ -14,12 +14,12 @@
 		</p>
 
 
-		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
-				<cell right="minor" halign="left"><m>C=</m> total charge ($) <m>\sim</m> dep</cell>
+		<tabular>
+			<row class="odd">
+				<cell halign="left"><m>C=</m> total charge ($) <m>\sim</m> dep</cell>
 			</row>
-			<row left="minor" class="even">
-				<cell right="minor" halign="left"><m>N =</m> number of cases delivered (cases) <m>\sim</m> indep</cell>
+			<row class="even">
+				<cell halign="left"><m>N =</m> number of cases delivered (cases) <m>\sim</m> indep</cell>
 			</row>
 		</tabular>
 
@@ -88,12 +88,12 @@
 		</p>
 
 
-		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
-				<cell right="minor" halign="left"><m>R=</m> recycling charge ($) <m>\sim</m> dep</cell>
+		<tabular>
+			<row class="odd">
+				<cell halign="left"><m>R=</m> recycling charge ($) <m>\sim</m> dep</cell>
 			</row>
-			<row left="minor" class="even">
-				<cell right="minor" halign="left"><m>B =</m> number of boxes returned (boxes) <m>\sim</m> indep</cell>
+			<row class="even">
+				<cell halign="left"><m>B =</m> number of boxes returned (boxes) <m>\sim</m> indep</cell>
 			</row>
 		</tabular>
 

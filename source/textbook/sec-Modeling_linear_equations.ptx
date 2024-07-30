@@ -20,12 +20,12 @@
 		</p>
 
 
-		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
-				<cell right="minor" halign="left"><m>A=</m> affordable housing (apartments) <m>\sim</m> dep</cell>
+		<tabular>
+			<row class="odd">
+				<cell halign="left"><m>A=</m> affordable housing (apartments) <m>\sim</m> dep</cell>
 			</row>
-			<row left="minor" class="even">
-				<cell right="minor" halign="left"><m>Y=</m> time (years from now) <m>\sim</m> indep</cell>
+			<row class="even">
+				<cell halign="left"><m>Y=</m> time (years from now) <m>\sim</m> indep</cell>
 			</row>
 		</tabular>
 

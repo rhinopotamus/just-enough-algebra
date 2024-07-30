@@ -14,12 +14,12 @@
 		</p>
 
 
-		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
-				<cell right="minor" halign="left"><m>S=</m> speed (mph) <m>\sim</m> indep</cell>
+		<tabular>
+			<row class="odd">
+				<cell halign="left"><m>S=</m> speed (mph) <m>\sim</m> indep</cell>
 			</row>
-			<row left="minor" class="even">
-				<cell right="minor" halign="left"><m>B=</m> braking distance (feet) <m>\sim</m> dep</cell>
+			<row class="even">
+				<cell halign="left"><m>B=</m> braking distance (feet) <m>\sim</m> dep</cell>
 			</row>
 		</tabular>
 
@@ -82,12 +82,12 @@
 		</p>
 
 
-		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
-				<cell right="minor" halign="left"><m>D=</m> total stopping distance (feet) <m>\sim</m> dep</cell>
+		<tabular>
+			<row class="odd">
+				<cell halign="left"><m>D=</m> total stopping distance (feet) <m>\sim</m> dep</cell>
 			</row>
-			<row left="minor" class="even">
-				<cell right="minor" halign="left"><m>S=</m> speed (mph) <m>\sim</m> indep <em>as before</em></cell>
+			<row class="even">
+				<cell halign="left"><m>S=</m> speed (mph) <m>\sim</m> indep <em>as before</em></cell>
 			</row>
 		</tabular>
 

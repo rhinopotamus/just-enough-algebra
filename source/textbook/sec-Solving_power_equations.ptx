@@ -10,12 +10,12 @@
 		</p>
 
 
-		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
-				<cell right="minor" halign="left"><m>J=</m> juice (tablespoons) <m>\sim</m> dep</cell>
+		<tabular>
+			<row class="odd">
+				<cell halign="left"><m>J=</m> juice (tablespoons) <m>\sim</m> dep</cell>
 			</row>
-			<row left="minor" class="even">
-				<cell right="minor" halign="left"><m>C=</m> circumference (inches) <m>\sim</m> indep</cell>
+			<row class="even">
+				<cell halign="left"><m>C=</m> circumference (inches) <m>\sim</m> indep</cell>
 			</row>
 		</tabular>
 
@@ -62,12 +62,12 @@
 		</p>
 
 
-		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
-				<cell right="minor" halign="left"><m>Z=</m> amount of lemon zest (tablespoons) <m>\sim</m> dep</cell>
+		<tabular>
+			<row class="odd">
+				<cell halign="left"><m>Z=</m> amount of lemon zest (tablespoons) <m>\sim</m> dep</cell>
 			</row>
-			<row left="minor" class="even">
-				<cell right="minor" halign="left"><m>C=</m> circumference (inches) <m>\sim</m> indep <em>as before</em></cell>
+			<row class="even">
+				<cell halign="left"><m>C=</m> circumference (inches) <m>\sim</m> indep <em>as before</em></cell>
 			</row>
 		</tabular>
 

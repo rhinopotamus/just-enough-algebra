@@ -10,12 +10,12 @@
 		</p>
 
 
-		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
-				<cell right="minor" halign="left"><m>H=</m> health care costs ($ trillions) <m>\sim</m> dep</cell>
+		<tabular>
+			<row class="odd">
+				<cell halign="left"><m>H=</m> health care costs ($ trillions) <m>\sim</m> dep</cell>
 			</row>
-			<row left="minor" class="even">
-				<cell right="minor" halign="left"><m>Y=</m> time (years since 2007) <m>\sim</m> indep</cell>
+			<row class="even">
+				<cell halign="left"><m>Y=</m> time (years since 2007) <m>\sim</m> indep</cell>
 			</row>
 		</tabular>
 
@@ -192,11 +192,11 @@
 		</p>
 
 
-		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
-				<cell right="minor" halign="left"><m>250=2.5 \times 10^2</m></cell>
-				<cell right="minor" halign="center">and</cell>
-				<cell right="minor" halign="left"><m>\log(250)=2.3979\ldots \approx 2</m></cell>
+		<tabular>
+			<row class="odd">
+				<cell halign="left"><m>250=2.5 \times 10^2</m></cell>
+				<cell halign="center">and</cell>
+				<cell halign="left"><m>\log(250)=2.3979\ldots \approx 2</m></cell>
 			</row>
 		</tabular>
 
@@ -205,21 +205,21 @@
 		</p>
 
 
-		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
-				<cell right="minor" halign="left"><m>7,420,000 =7.42 \times 10^6</m></cell>
-				<cell right="minor" halign="center">and</cell>
-				<cell right="minor" halign="left"><m>\log(7,420,000)=6.870403905\ldots \approx 6</m></cell>
+		<tabular>
+			<row class="odd">
+				<cell halign="left"><m>7,420,000 =7.42 \times 10^6</m></cell>
+				<cell halign="center">and</cell>
+				<cell halign="left"><m>\log(7,420,000)=6.870403905\ldots \approx 6</m></cell>
 			</row>
-			<row left="minor" class="even">
-				<cell right="minor" halign="left"><m>4 = 4 \times 10^0</m></cell>
-				<cell right="minor" halign="center">and</cell>
-				<cell right="minor" halign="left"><m>\log ({4})=0.602059991\ldots \approx 0</m></cell>
+			<row class="even">
+				<cell halign="left"><m>4 = 4 \times 10^0</m></cell>
+				<cell halign="center">and</cell>
+				<cell halign="left"><m>\log ({4})=0.602059991\ldots \approx 0</m></cell>
 			</row>
-			<row left="minor" class="odd">
-				<cell right="minor" halign="left"><m>0.00917 = 9.17 \times 10^{-3}</m></cell>
-				<cell right="minor" halign="center">and</cell>
-				<cell right="minor" halign="left"><m>\log ({0.00917})=-2.037630664\ldots \approx -3</m></cell>
+			<row class="odd">
+				<cell halign="left"><m>0.00917 = 9.17 \times 10^{-3}</m></cell>
+				<cell halign="center">and</cell>
+				<cell halign="left"><m>\log ({0.00917})=-2.037630664\ldots \approx -3</m></cell>
 			</row>
 		</tabular>
 

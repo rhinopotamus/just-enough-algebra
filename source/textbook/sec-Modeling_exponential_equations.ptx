@@ -21,12 +21,12 @@
 			Let's write the equation to answer these questions. The variables should be
 		</p>
 
-		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
-				<cell right="minor" halign="left"><m>S=</m> value of sterling ($) <m>\sim</m> dep</cell>
+		<tabular>
+			<row class="odd">
+				<cell halign="left"><m>S=</m> value of sterling ($) <m>\sim</m> dep</cell>
 			</row>
-			<row left="minor" class="even">
-				<cell right="minor" halign="left"><m>Y =</m> time (years since 1920) <m>\sim</m> indep</cell>
+			<row class="even">
+				<cell halign="left"><m>Y =</m> time (years since 1920) <m>\sim</m> indep</cell>
 			</row>
 		</tabular>
 

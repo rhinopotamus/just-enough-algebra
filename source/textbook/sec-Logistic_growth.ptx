@@ -14,12 +14,12 @@
 		</p>
 
 
-		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
-				<cell right="minor" halign="left"><m>D=</m> time since first cases (days) <m>\sim</m> indep</cell>
+		<tabular>
+			<row class="odd">
+				<cell halign="left"><m>D=</m> time since first cases (days) <m>\sim</m> indep</cell>
 			</row>
-			<row left="minor" class="even">
-				<cell right="minor" halign="left"><m>F=</m> total number of students with the flu (students) <m>\sim</m> dep</cell>
+			<row class="even">
+				<cell halign="left"><m>F=</m> total number of students with the flu (students) <m>\sim</m> dep</cell>
 			</row>
 		</tabular>
 

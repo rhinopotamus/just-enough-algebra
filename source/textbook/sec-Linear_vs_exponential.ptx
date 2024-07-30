@@ -13,12 +13,12 @@
 			We can describe the variables in this story.
 		</p>
 
-		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
-				<cell right="minor" halign="left"><m>M =</m> mileage (thousand miles) <m>\sim</m> indep</cell>
+		<tabular>
+			<row class="odd">
+				<cell halign="left"><m>M =</m> mileage (thousand miles) <m>\sim</m> indep</cell>
 			</row>
-			<row left="minor" class="even">
-				<cell right="minor" halign="left"><m>C=</m> value of car ($) <m>\sim</m> dep</cell>
+			<row class="even">
+				<cell halign="left"><m>C=</m> value of car ($) <m>\sim</m> dep</cell>
 			</row>
 		</tabular>
 

@@ -33,12 +33,12 @@
 			The bad news is that it's 7:00 a.m. and Joe is still too jittery to sleep. The good news is that we can write the equation. The variables are
 		</p>
 
-		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
-				<cell right="minor" halign="left"><m>J=</m> Joe's caffeine level (mg) <m>\sim</m> dep</cell>
+		<tabular>
+			<row class="odd">
+				<cell halign="left"><m>J=</m> Joe's caffeine level (mg) <m>\sim</m> dep</cell>
 			</row>
-			<row left="minor" class="even">
-				<cell right="minor" halign="left"><m>H =</m> time (hours since 2:00 a.m.) <m>\sim</m> indep</cell>
+			<row class="even">
+				<cell halign="left"><m>H =</m> time (hours since 2:00 a.m.) <m>\sim</m> indep</cell>
 			</row>
 		</tabular>
 
