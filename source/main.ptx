@@ -1,50 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <!-- we first include a file which contains the docinfo element: -->
-  <xi:include href="./docinfo.ptx" />
+    <!-- we first include a file which contains the docinfo element: -->
+    <xi:include href="./docinfo.ptx" />
 
-  <book xml:id="just-enough-algebra">
-    <title>Just Enough Algebra</title>
-    <!-- <subtitle>pretext workbook conversion</subtitle> -->
+    <book xml:id="just-enough-algebra">
+        <title>Just Enough Algebra</title>
+        <!-- <subtitle>pretext workbook conversion</subtitle> -->
 
-    <!-- Include frontmatter -->
-    <xi:include href="./frontmatter.ptx" />
+        <!-- Include frontmatter -->
+        <xi:include href="./frontmatter.ptx" />
 
-    <!-- Include chapters -->
-    
-    <xi:include href="./textbook/ch-Prelude.ptx" />
-    <xi:include href="./textbook/ch-Variables.ptx" />
-    <xi:include href="./textbook/ch-Equations.ptx" />
-    <xi:include href="./textbook/ch-Solving_equations.ptx" />
-    <xi:include href="./textbook/ch-Closer_look_linear.ptx" />
-    <xi:include href="./textbook/ch-Closer_look_exponential.ptx" />
-    <!-- currently print-only -->
-    <xi:include href="./textbook/ch-Review.ptx" /> 
+        <!-- Include chapters -->
 
-    <!-- Workbook part -->
-    <!-- <part xml:id="workbook" component="workbook">
-      <title>Workbook</title>
+        <xi:include href="./textbook/ch-Prelude.ptx" />
+        <xi:include href="./textbook/ch-Variables.ptx" />
+        <xi:include href="./textbook/ch-Equations.ptx" />
+        <xi:include href="./textbook/ch-Solving_equations.ptx" />
+        <xi:include href="./textbook/ch-Closer_look_linear.ptx" />
+        <xi:include href="./textbook/ch-Closer_look_exponential.ptx" />
 
-      <xi:include href="./workbook/ch-wb-Variables.ptx" />
-      <xi:include href="./workbook/ch-wb-Equations.ptx" />
-      <xi:include href="./workbook/ch-wb-Solving_equations.ptx" />
-      <xi:include href="./workbook/ch-wb-Closer_look_linears.ptx" />
-      <xi:include href="./workbook/ch-wb-Closer_look_exponentials.ptx" />
-      <xi:include href="./workbook/ch-wb-Review.ptx" />
-    </part> -->
+        <!-- Backmatter -->
 
-    <!-- Backmatter -->
+        <backmatter xml:id="backmatter">
+            <title>Appendices</title>
 
-    <backmatter xml:id="backmatter">
-      <title>Appendices</title>
-    
-      <!-- <xi:include href="./workbook/ch-wb-Prelude.ptx"/> -->
+            <!-- practice exams -->
 
-      <colophon>
-        <p> This book was authored in <pretext />. </p>
-      </colophon>
-    </backmatter>
+            <appendix xml:id="sec-PE6A">
+                <title>Practice Final Exam A</title>
+                <xi:include href="./textbook/ws-PE6A.ptx" />
+            </appendix>
+            <appendix xml:id="sec-PE6B">
+                <title>Practice Final Exam B</title>
+                <xi:include href="./textbook/ws-PE6B.ptx" />
+            </appendix>
 
-  </book>
+            <!-- templates and formulas -->
+            <xi:include href="./textbook/app-Templates.ptx" />
+            <xi:include href="./textbook/app-Formulas.ptx" />
+            <!-- <appendix xml:id="app-Templates_and_Formulas">
+                <title>Templates and Formulas</title>
+                              
+                
+
+                <xi:include href="./textbook/app-Templates.ptx" />
+                <xi:include href="./textbook/app-Formulas.ptx" />
+            </appendix> -->
+
+            <colophon>
+                <p> This book was authored in <pretext />. </p>
+            </colophon>
+        </backmatter>
+
+    </book>
 </pretext>

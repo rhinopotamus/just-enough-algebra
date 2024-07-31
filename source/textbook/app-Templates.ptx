@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<appendix xml:id="app-Templates" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Templates</title>
+        <introduction>
+            <p>
+                Templates are used to write equations from given or calculated information, to read constants from the equations, or simply to identify the type of equation in order to use type-specific formulas or information.
+            </p>
+        </introduction>
+
+        <assemblage>
+            <title>Linear Equation Template</title>
+            <p>
+                <me>
+                    \text{dep} = \text{start} + \text{slope} \ast \text{indep}
+                </me>
+            </p>
+        </assemblage>
+
+        <assemblage>
+			<title>Power Equation Template</title>
+			
+			
+			<p><me>\text{dep} = k \ast \text{indep}^{n}</me></p>
+		</assemblage>
+
+        <assemblage>
+			<title>Quadratic Equation Template</title>
+				
+				
+			<p><me>\text{dep} = a \ast \text{indep}^2 + b \ast\text{indep} + c</me></p>
+		</assemblage>
+
+        <assemblage>
+            <title>Exponential Equation Template</title>
+            
+            
+            <p><me>\text{dep} = \text{start} \ast \text{growth factor} ^ {\text{indep}}</me></p>
+        </assemblage>
+
+</appendix>
