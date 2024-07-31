@@ -140,17 +140,17 @@
 				<tabular bottom="minor" top="minor">
 					<row left="minor"> 
 						<cell right="minor">indep</cell>
-						<cell right="minor"></cell>
-						<cell right="minor"></cell>
-						<cell right="minor"></cell>
-						<cell right="minor"></cell>
+						<cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+						<cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+						<cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+						<cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
 					</row>
 					<row left="minor"> 
 						<cell right="minor">dep</cell>
-						<cell right="minor"></cell>
-						<cell right="minor"></cell>
-						<cell right="minor"></cell>
-						<cell right="minor"></cell>
+						<cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+						<cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+						<cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+						<cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
 					</row>
 				</tabular>
 			</stack>
@@ -161,24 +161,24 @@
 				</p>
 				<tabular bottom="minor" top="minor">
 					<row left="minor"> 
-						<cell right="minor">indep</cell>
-						<cell right="minor">dep</cell>
+						<cell right="minor" halign="center">indep</cell>
+						<cell right="minor" halign="center">dep</cell>
 					</row>
 					<row left="minor"> 
-						<cell right="minor"></cell>
-						<cell right="minor"></cell>
+						<cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+						<cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
 					</row>
 					<row left="minor"> 
-						<cell right="minor"></cell>
-						<cell right="minor"></cell>
+						<cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+						<cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
 					</row>
 					<row left="minor"> 
-						<cell right="minor"></cell>
-						<cell right="minor"></cell>
+						<cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+						<cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
 					</row>
 					<row left="minor"> 
-						<cell right="minor"></cell>
-						<cell right="minor"></cell>
+						<cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+						<cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
 					</row>
 				</tabular>
 			</stack>

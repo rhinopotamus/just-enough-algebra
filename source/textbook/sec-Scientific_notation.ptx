@@ -13,20 +13,20 @@
 			To answer Tara's question we need to know that GB is short for <q>gigabyte</q> and MB is short for <q>megabyte.</q> A <term>byte</term> is a very small unit of computer memory storage space just enough for about one letter. You may have heard the word <q>mega</q> used to mean <q>really big.</q> There's a reason for that. <term>Mega</term> is short for 1 million. That's pretty big. But <term>giga</term> stands for 1 billion, so that's even bigger. So, really
 		</p>
 
-		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
-				<cell right="minor" halign="left"><term>megabyte</term></cell>
-				<cell right="minor" halign="center"><m>=</m></cell>
-				<cell right="minor" halign="left">1 <term>million bytes</term></cell>
-				<cell right="minor" halign="center"><m>=</m></cell>
-				<cell right="minor" halign="right"><m>\text{1,000,000 bytes}</m></cell>
+		<tabular>
+			<row class="odd">
+				<cell halign="left"><term>megabyte</term></cell>
+				<cell halign="center"><m>=</m></cell>
+				<cell halign="left">1 <term>million bytes</term></cell>
+				<cell halign="center"><m>=</m></cell>
+				<cell halign="right"><m>\text{1,000,000 bytes}</m></cell>
 			</row>
-			<row left="minor" class="even">
-				<cell right="minor" halign="left"><term>gigabyte</term></cell>
-				<cell right="minor" halign="center"><m>=</m></cell>
-				<cell right="minor" halign="left">1 <term>billion bytes</term></cell>
-				<cell right="minor" halign="center"><m>=</m></cell>
-				<cell right="minor" halign="right"><m>\text{1,000,000,000 bytes}</m></cell>
+			<row class="even">
+				<cell halign="left"><term>gigabyte</term></cell>
+				<cell halign="center"><m>=</m></cell>
+				<cell halign="left">1 <term>billion bytes</term></cell>
+				<cell halign="center"><m>=</m></cell>
+				<cell halign="right"><m>\text{1,000,000,000 bytes}</m></cell>
 			</row>
 		</tabular>
 
@@ -42,7 +42,7 @@
 			Perhaps you know what happens when we multiply a number by 10, like <m>5 \times 10 = 50</m> or, more appropriate to our example, <me>8.46 \times 10 = 84.6</me> The effect of multiplying by 10 is to move the decimal point one place to the right. When we multiply by 1,000 we get <m>5 \times 1,000 = 5,000</m> or, for our example, <me>8.46 \times 1,000 = 8,460</me> The effect of multiplying by 1,000 is to move the decimal point three places to the right. The connection is that <me>10^3=10 \times 10 \times 10  =1,000</me> Each <m>\times 10</m> has the effect of moving the decimal point one place to the right so <m>\times 1,000</m> has the same effect as multiplying by 10 three times, so the decimal point moves three places to the right. That means 
 			<md>
 				<mrow> 8,460,000,000 \amp =
-					\underbrace{\hbox{$\times 10 \times 10  \times 10  \times 10  \times 10  \times 10  \times 10  \times 10  \times 10 $}}_{\hbox{\begin{tiny} 9 times \end{tiny}}}
+					\underbrace{\hbox{$\times 10 \times 10  \times 10  \times 10  \times 10  \times 10  \times 10  \times 10  \times 10 $}}_{\text{9 times}}
 				</mrow>
 				<mrow> \amp=8.46 \ast 10^9 </mrow>
 			</md>
@@ -61,11 +61,17 @@
 		</p>
 
 		<p>
-			Let's try a number so big that (nearly) every calculator will switch to scientific notation. Enter <me>2.7\times 10 \wedge 30=</me> Look carefully at the screen. Your calculator might display something like <me>\boxed{~2.70000000 \quad \text{\begin{footnotesize}E \end{footnotesize}}~30~} \text{ \quad or \quad } \boxed{~2.70000000 \quad _{ \times \text{\begin{tiny}10 \end{tiny}}}~30~}</me> Whatever shorthand your calculator uses, you should write <me>2.7 \times 10^{30}</me>
+			Let's try a number so big that (nearly) every calculator will switch to scientific notation. Enter <me>2.7\times 10 \wedge 30=</me> Look carefully at the screen. Your calculator might display something like 
+			<me>
+				\boxed{~2.70000000 ~ {\small \text E} ~30~} 
+				\quad\text{or}\quad
+				\boxed{~2.70000000~ _{ \times 10}~30~}
+			</me> 
+			Whatever shorthand your calculator uses, you should write <me>2.7 \times 10^{30}</me>
 		</p>
 
 		<p>
-			Interested in what that number is in our usual decimal notation? It's <me>2, \underbrace{ \hbox{$700,000,000,000,000,000,000,000,000,000 $}}_{\hbox{\begin{tiny} decimal point moves 30 places \end{tiny}}}</me>
+			Interested in what that number is in our usual decimal notation? It's <me>2, \underbrace{ \hbox{$700,000,000,000,000,000,000,000,000,000 $}}_{\text{decimal point moves 30 places}}</me>
 		</p>
 
 		<p>

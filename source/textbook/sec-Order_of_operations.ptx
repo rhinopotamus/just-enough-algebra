@@ -54,7 +54,7 @@
 		</p>
 
 		<p>
-			One way to calculate the answer is to first figure out how much the tree grew in 18 years. That is <me>2+2+ \ldots + 2 \text{ \emph{(18 times)}}</me> which we calculate as <me>18 \times 2 = 36</me> Next, we add the original height plus how much the tree grew to get <me>36+5=41</me> The tree was 41 feet tall after 18 years.
+			One way to calculate the answer is to first figure out how much the tree grew in 18 years. That is <me>\underbrace{2+2+ \ldots + 2}_\text{18 times}</me> which we calculate as <me>18 \times 2 = 36</me> Next, we add the original height plus how much the tree grew to get <me>36+5=41</me> The tree was 41 feet tall after 18 years.
 		</p>
 
 		<p>

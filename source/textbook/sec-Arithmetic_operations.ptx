@@ -54,7 +54,7 @@
 		</p>
 
 		<p>
-			At 10 inches per day, the river has risen <me>10 + 10 + 10 + \ldots + 10 \text{ inches \emph{(21 times)}}</me> which we calculate as <me>21 \times 10 = 210 \text{ inches}</me> The river has risen 210 inches.
+			At 10 inches per day, the river has risen <me>\underbrace{10 + 10 + 10 + \ldots + 10}_\text{21 times} \text{ inches}</me> which we calculate as <me>21 \times 10 = 210 \text{ inches}</me> The river has risen 210 inches.
 		</p>
 
 		<p>

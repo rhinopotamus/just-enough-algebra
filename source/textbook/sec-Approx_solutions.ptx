@@ -15,24 +15,24 @@
 		</p>
 
 
-		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
-				<cell right="minor" halign="left">1.</cell>
-				<cell right="minor" halign="left">China</cell>
-				<cell right="minor" halign="left">population 1.343 billion</cell>
-				<cell right="minor" halign="left">growth rate 0.48%</cell>
+		<tabular>
+			<row class="odd">
+				<cell halign="left">1.</cell>
+				<cell halign="left">China</cell>
+				<cell halign="left">population 1.343 billion</cell>
+				<cell halign="left">growth rate 0.48%</cell>
 			</row>
-			<row left="minor" class="even">
-				<cell right="minor" halign="left">2.</cell>
-				<cell right="minor" halign="left">India</cell>
-				<cell right="minor" halign="left">population 1.205 billion</cell>
-				<cell right="minor" halign="left">growth rate 1.31%</cell>
+			<row class="even">
+				<cell halign="left">2.</cell>
+				<cell halign="left">India</cell>
+				<cell halign="left">population 1.205 billion</cell>
+				<cell halign="left">growth rate 1.31%</cell>
 			</row>
-			<row left="minor" class="odd">
-				<cell right="minor" halign="left">3.</cell>
-				<cell right="minor" halign="left">United States </cell>
-				<cell right="minor" halign="left">population 0.313 billion </cell>
-				<cell right="minor" halign="left">growth rate 0.90%</cell>
+			<row class="odd">
+				<cell halign="left">3.</cell>
+				<cell halign="left">United States </cell>
+				<cell halign="left">population 0.313 billion </cell>
+				<cell halign="left">growth rate 0.90%</cell>
 			</row>
 		</tabular>
 
@@ -99,22 +99,22 @@
 				<cell right="minor" halign="center">1.287</cell>
 				<cell right="minor" halign="center">1.373</cell>
 				<cell right="minor" halign="center">2.312</cell>
-				<cell right="minor" halign="center"></cell>
-				<cell right="minor" halign="center"></cell>
-				<cell right="minor" halign="center"></cell>
-				<cell right="minor" halign="center"></cell>
+				<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+				<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+				<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+				<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
 			</row>
 			<row left="minor" class="even">
-				<cell right="minor" halign="left">vs.1.5</cell>
+				<cell right="minor" halign="left">vs. 1.5</cell>
 				<cell right="minor" halign="center">low</cell>
 				<cell right="minor" halign="center">low</cell>
 				<cell right="minor" halign="center">low</cell>
 				<cell right="minor" halign="center">low</cell>
 				<cell right="minor" halign="center">high</cell>
-				<cell right="minor" halign="center"></cell>
-				<cell right="minor" halign="center"></cell>
-				<cell right="minor" halign="center"></cell>
-				<cell right="minor" halign="center"></cell>
+				<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+				<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+				<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
+				<cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int\int"/></m></cell>
 			</row>
 		</tabular>
 
@@ -179,7 +179,7 @@
 		</p>
 
 		<p>
-			Here's why it's different in this course. First, in almost every story in this book the numbers in the problem are approximations, or at least rounded off. If you start with approximations, no matter how exact your mathematics is, the solutions will still be approximate. Second, even if our numbers started out precisely exact, chances are that the equation is only approximating reality. Do we really know what the population growth rate will be in India over the next twenty years? And, if the equation is just approximate, then no matter how exact the numbers or the mathematics, the solution will again still be approximate. Last, and this is good news - we really just want approximations. Do you really need to know that a sandwich has 427.2889 calories? Isn't 430 calories close enough? (Sound familiar? These ideas were discussed in more detail in the prelude on approximation, before Section 1.1.)
+			Here's why it's different in this course. First, in almost every story in this book the numbers in the problem are approximations, or at least rounded off. If you start with approximations, no matter how exact your mathematics is, the solutions will still be approximate. Second, even if our numbers started out precisely exact, chances are that the equation is only approximating reality. Do we really know what the population growth rate will be in India over the next twenty years? And, if the equation is just approximate, then no matter how exact the numbers or the mathematics, the solution will again still be approximate. Last, and this is good news - we really just want approximations. Do you really need to know that a sandwich has 427.2889 calories? Isn't 430 calories close enough? (Sound familiar? These ideas were discussed in more detail in <xref ref="sec-Approximation_and_rounding" text="title"/>.)
 		</p>
 
 		<p>

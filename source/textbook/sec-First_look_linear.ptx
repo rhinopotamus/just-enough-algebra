@@ -48,7 +48,6 @@
 				<cell right="minor" halign="center">1</cell>
 				<cell right="minor" halign="center">2</cell>
 				<cell right="minor" halign="center">3</cell>
-				<cell right="minor" halign="center"></cell>
 			</row>
 			<row left="minor" class="odd">
 				<cell right="minor" halign="center"><m>P</m></cell>
@@ -57,7 +56,6 @@
 				<cell right="minor" halign="center">175</cell>
 				<cell right="minor" halign="center">250</cell>
 				<cell right="minor" halign="center">325</cell>
-				<cell right="minor" halign="center"></cell>
 			</row>
 		</tabular>
 
@@ -103,9 +101,11 @@
 		</p>
 
 		<assemblage xml:id="linear-eq-template">
-			<title>Linear equation template</title>
+			<title>Linear Equation Template</title>
 			<p>
-				dep = start + slope <m>\ast</m> indep
+				<me>
+					\text{dep} = \text{start} + \text{slope} \ast \text{indep}
+				</me>
 			</p>
 		</assemblage>
 

@@ -176,7 +176,8 @@
 		</p>
 
 		<p>
-			Let's try a number so big that (nearly) every calculator will switch to scientific notation. Enter <me>2.7\times 10 \wedge 30=</me> Look carefully at the screen. Your calculator might display something like <me>
+			Let's try a number so big that (nearly) every calculator will switch to scientific notation. Enter <me>2.7\times 10 \wedge 30=</me> Look carefully at the screen. Your calculator might display something like 
+			<me>
 				\boxed{~2.70000000 ~ {\small \text E} ~30~} 
 				\quad\text{or}\quad
 				\boxed{~2.70000000~ _{ \times 10}~30~}
