@@ -37,7 +37,7 @@
         </task>
         <task workspace="0.75in">
             <statement>
-				<p>
+				<p component="print">
 					<em>The problem continues ...</em>
 				</p>
                 <p>
@@ -114,7 +114,7 @@
 		</task>
 		<task workspace="3.5in">
 			<statement>
-				<p>
+				<p component="print">
 					<em>The problem continues ...</em>
 				</p>
 				<p>

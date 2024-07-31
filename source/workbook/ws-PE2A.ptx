@@ -161,7 +161,7 @@
 		</task>
 		<task workspace="1in">
 			<statement>
-				<p>
+				<p component="print">
 					<em>The problem continues ...</em>
 				</p>
 				<p>

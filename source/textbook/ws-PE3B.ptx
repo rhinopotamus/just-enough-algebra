@@ -44,7 +44,7 @@
 		</task>
 		<task>
 			<statement>
-				<p>
+				<p component="print">
 					<em>The problem continues ...</em>
 				</p>
 				<p>

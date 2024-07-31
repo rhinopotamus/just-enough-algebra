@@ -196,7 +196,7 @@
 			</task>
 			<task workspace="0in">
 				<statement>
-					<p>
+					<p component="print">
 						<em>The problem continues ...</em>
 					</p>
 					<p>
