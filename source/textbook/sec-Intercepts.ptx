@@ -36,7 +36,20 @@
 		</p>
 
 		<p>
-			By the way, there's a shorter way to find the intercept. The intercept is the <q>starting value,</q> or in this case the time spent stretching. So we take the total time and then subtract out the time spent running <me>\text{intercept }=30 - 8.5 \times 2.8 = 6.2 \approx 6 \text{ minutes}</me> In general, <me>\text{intercept} = \text{dep} -  \text{slope} \ast \text{indep}</me>
+			By the way, there's a shorter way to find the intercept. The intercept is the <q>starting value,</q> or in this case the time spent stretching. So we take the total time and then subtract out the time spent running <me>\text{intercept }=30 - 8.5 \times 2.8 = 6.2 \approx 6 \text{ minutes}</me> In general, 
+			<assemblage xml:id="intercept-formula">
+                <title>Intercept (of Linear) Formula</title>
+                <p>
+                    <me>
+                        \text{intercept} = \text{dep} - \text{slope}\ast\text{indep}
+                    </me>
+                </p>
+            </assemblage>
+			<aside>
+				<p>
+					HEY SU: This used to just have that formula in a \[ ... \]
+				</p>
+			</aside>
 		</p>
 
 		<p>
@@ -61,10 +74,10 @@
 		</p>
 
 		<assemblage xml:id="direct-prop-template">
-			<title>Direct proportionality template</title>
+			<title>Direct Proportionality Template</title>
 				
 				
-			<me>\text{dep} = k \ast \text{indep}</me>
+			<p><me>\text{dep} = k \ast \text{indep}</me></p>
 		</assemblage>
 
 		<p>

@@ -44,7 +44,16 @@
 		</p>
 
 		<p>
-			First, linear. The template is <me>\textbf{Linear Equation Template:} \quad \text{dep} = \text{start}+\text{slope}\ast\text{indep}</me> The starting value of Sofía's car is $22,500 so we just need to find the slope. We expect the slope to be negative because her car is worth less the more she drives it. 
+			First, linear. The template is 
+			<assemblage>
+				<title>Linear Equation Template</title>
+				<p>
+					<me>
+						\text{dep} = \text{start} + \text{slope} \ast \text{indep}
+					</me>
+				</p>
+			</assemblage> 
+			The starting value of Sofía's car is $22,500 so we just need to find the slope. We expect the slope to be negative because her car is worth less the more she drives it. 
 			<md>
 				<mrow>\text{slope} \amp = \text{rate of change} = \frac{\text{change dep}}{\text{change indep}} </mrow>
 				<mrow> \amp = \frac{\$5,700-\$22,500}{109 \text{ thousand miles} - 0 \text{ thousand miles}} =   \frac{-\$16,800}{109\text{ thousand miles}}</mrow>
@@ -62,8 +71,18 @@
 		</p>
 
 		<p>
-			Next, let's take a look at the exponential model. Here goes. The template is <me>\textbf{Exponential Equation Template:} \quad \text{dep }=\text{ start } \ast \text{growth factor}^{\text{indep}}</me> We know everything except the growth factor. We expect it to be less than 1 because her car is worth less the more she drives it. Perhaps we should say <q>decay</q> factor here since the function is decreasing. The starting amount is <m>s=22,500</m> and the ending amount is <m>a=5,700</m> after <m>t=109</m> thousand miles. By the <xref ref="growth-factor-formula" text="title"/> we have <me>g = \sqrt[t]{\frac{a}{s}} = \sqrt[109]{\frac{5,700}{22,500}}
-	109  \sqrt[x]{~\text{  }}( 5,700 \div 22,500)= 0.98748222\ldots \approx 0.9875</me>
+			Next, let's take a look at the exponential model. Here goes. The template is 
+			<assemblage>
+				<title>Exponential Equation Template</title>
+				
+				
+				<p><me>\text{dep} = \text{start} \ast \text{growth factor} ^ {\text{indep}}</me></p>
+			</assemblage>
+			We know everything except the growth factor. We expect it to be less than 1 because her car is worth less the more she drives it. Perhaps we should say <q>decay</q> factor here since the function is decreasing. The starting amount is <m>s=22,500</m> and the ending amount is <m>a=5,700</m> after <m>t=109</m> thousand miles. Using the <xref ref="growth-factor-formula" text="title"/> we have 
+			<md>
+				<mrow>g \amp = \sqrt[t]{\frac{a}{s}} = \sqrt[109]{\frac{5,700}{22,500}} </mrow>
+				<mrow>  \amp = 109  \sqrt[x]{~\text{  }}( 5,700 \div 22,500)= 0.98748222\ldots \approx 0.9875 </mrow>
+			</md>
 		</p>
 
 		<p>
@@ -80,18 +99,11 @@
 
 		<p>
 			Wait a minute. Does a car lose the same value for each thousand miles it's driven? That's what it means to be linear. Every thousand miles, same decrease. Nah, that's not right. Once the car is old, another 1,000 miles or so probably won't affect the value at all. Also, when a car is new, once you drive it off the lot and then that strange vinyl smell wears off and it's officially <q>used,</q> the car is worth a lot less. Even if it hasn't been driven much at all. What would each model say the car was worth soon after Sofía bought it, say with 10,000 miles on it? With <m>M=10</m>, the estimates are
+			<md>
+				<mrow>\textbf{linear:} \quad C \amp =  22,500 - 154 \ast 10 = 22,500 - 154 \times \underline{10} = \$20,960</mrow>
+				<mrow>\textbf{exponential:} \quad C \amp = 22,500 \ast 0.9875^{10}=  22,500 \times 0.9875 \wedge\underline{10} \approx \$19,841 </mrow>
+			</md>
 		</p>
-
-		<tabular bottom="minor" top="minor">
-			<row left="minor" class="odd">
-				<cell right="minor" halign="left"><term>linear:</term></cell>
-				<cell right="minor" halign="left"><m>C =  22,500 - 154 \ast 10 = 22,500 - 154 \times \underline{10} = \$20,960</m></cell>
-			</row>
-			<row left="minor" class="even">
-				<cell right="minor" halign="left"><term>exponential:</term></cell>
-				<cell right="minor" halign="left"><m>C=  22,500 \ast 0.9875^{10}=  22,500 \times 0.9875 \wedge\underline{10} \approx \$19,841</m></cell>
-			</row>
-		</tabular>
 
 		<p>
 			The lower value, from the exponential equation, seems more reasonable.
@@ -119,8 +131,8 @@
 				<cell right="minor" halign="center">14,800</cell>
 				<cell right="minor" halign="center">10,180</cell>
 				<cell right="minor" halign="center">5,714</cell>
-				<cell right="minor" halign="center"></cell>
-				<cell right="minor" halign="center"></cell>
+				<cell right="minor" halign="center"><m>\cancel{-8,300}</m></cell>
+				<cell right="minor" halign="center"><m>\cancel{-16,000}</m></cell>
 			</row>
 			<row left="minor" class="even">
 				<cell right="minor" halign="center"><m>C</m> (if exponential)</cell>
