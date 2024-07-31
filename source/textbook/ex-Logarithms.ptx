@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <exercises xml:id="ex-Logarithms" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title component="html">Exercises</title>
+    <title component="web">Exercises</title>
 
     <xi:include href="ex-intro.ptx" />
 
@@ -136,7 +136,7 @@
 
     
 
-    <exercise xml:id="puzzlaxing-logarithms" component="html">
+    <exercise xml:id="puzzlaxing-logarithms" component="web">
         <introduction>
             <p>
                 According to our story, in approximately how many weeks will 30,000 people have heard of <q>puzzlaxing</q>?
@@ -164,7 +164,7 @@
             </statement>
         </task>
     </exercise>
-    <exercise xml:id="decibels-logarithms" component="html">
+    <exercise xml:id="decibels-logarithms" component="web">
         <introduction>
             <p>
                 The intensity of a sound in decibels is calculated using a logarithm. For example, a sound 100 times the level humans can hear has an intensity of <me>10\log (100)= 10 \times \log(100)= 20\text{ decibels}</me>
@@ -193,7 +193,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="credit-card-logarithms" component="html">
+    <exercise xml:id="credit-card-logarithms" component="web">
         <introduction>
             <p>
                 In 2021, Arrietty charged $5,000 on her credit card to help pay tuition. Her card charges interest at the rate of 20.7% APR. We are going to ignore any minimum payments or fees.
@@ -215,7 +215,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="hair-color-logarithms" component="html">
+    <exercise xml:id="hair-color-logarithms" component="web">
         <introduction>
             <p>
                 Darcy likes to use temporary hair color in wild colors. Good thing it washes out. Her best guess is that 8% of the color washes out each time she shampoos her hair. That means <m>100\% - 8\% = 92\%</m> of the color remains after each shampoo.

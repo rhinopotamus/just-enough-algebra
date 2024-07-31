@@ -287,7 +287,7 @@
 
 	
 
-	<exercise xml:id="diver-rate-of-change" component="html"> 
+	<exercise xml:id="diver-rate-of-change" component="web"> 
 		<introduction>
 			<p>
 				Look back at the springboard diver example in this section.
@@ -310,7 +310,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="truck-rental-rate-of-change" component="html">
+	<exercise xml:id="truck-rental-rate-of-change" component="web">
 		<introduction>
 			<p>
 				Your local truck rental agency lists what it costs to rent a truck (for one day) based on the number of miles you drive the truck.
@@ -366,7 +366,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="wind-turbine-rate-of-change" component="html">
+	<exercise xml:id="wind-turbine-rate-of-change" component="web">
 		<introduction>
 			<p>
 				Wind turbines are used to generate electricity. A few values are recorded in the table.
@@ -440,7 +440,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="earth-population-rate-of-change" component="html">
+	<exercise xml:id="earth-population-rate-of-change" component="web">
 		<statement>
 			<p>
 				The table lists estimates of Earth's population, in billions, for select years since 1800.
@@ -484,7 +484,7 @@
 		</statement>
 	</exercise>
 
-	<exercise xml:id="backpacks-rate-of-change" component="html">
+	<exercise xml:id="backpacks-rate-of-change" component="web">
 		<introduction>
 			<p>
 				A company produces backpacks. The more they make, the less it costs for each one. For example, if they produce 10 backpack it would cost $39 each. For 40 backpacks, they would cost $18 each. By 70 backpacks, the unit cost is down to $15 each. At 100 backpacks, the unit cost is $30 each. 
@@ -540,7 +540,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="beach-erosion-rate-of-change" component="html">
+	<exercise xml:id="beach-erosion-rate-of-change" component="web">
 		<introduction>
 			<p>
 				The public beach near Paloma's house has lost depth (measured from the dunes to the high water mark) due to erosion since they started keeping records 60 years ago. The table shows a few values. There <m>D</m> is the depth of the beach in feet, and <m>Y</m> is the year, measured since 60 years ago.

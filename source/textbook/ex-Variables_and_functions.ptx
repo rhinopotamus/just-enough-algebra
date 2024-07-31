@@ -144,7 +144,7 @@
 				<p>
 					It's about time! In each story, time is one (or both) of the variables.  
 					Identify and name the variables, including units and dependence.
-					<em component="html">
+					<em component="web">
 						(Stories also appear in 
 						<xref ref="time-2-variables-functions"/>)
 					</em>
@@ -161,7 +161,7 @@
 						The tree was 5 feet tall then and has grown around 2 feet a year.
 					</p>
 					<p>
-						<em component="html">(Story also appears in
+						<em component="web">(Story also appears in
 							<xref ref="walnut-tree-arithmetic-operations"/> and
 							<xref ref="walnut-tree-algebraic-notation"/>)
 						</em>
@@ -177,7 +177,7 @@
 					<p>
 						After his first beer, Stephen's blood alcohol content (BAC) was already 0.04, 
 						and as he continued to drink, his BAC level rose 45% per hour.
-						<em component="html">
+						<em component="web">
 							(Story also appears in 
 							<xref ref="bac-approx-solutions"/> and
 							<xref ref="bac-solving-exponential"/>)
@@ -213,7 +213,7 @@
 
 	
 
-	<exercise xml:id="time-2-variables-functions" component="html">
+	<exercise xml:id="time-2-variables-functions" component="web">
 		<introduction>
 			<p>
 				It's about time! For each story, try to figure out the answer to the question(s).
@@ -269,7 +269,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="temp-mpls-variables-functions" component="html">
+	<exercise xml:id="temp-mpls-variables-functions" component="web">
 		<introduction>
 			<p>
 				The temperature was 40<degree />F at noon yesterday downtown Minneapolis but it dropped 3<degree />F an hour in the afternoon. <em>(Story also appears in <xref ref="temp-mpls-tables-graphs"/> and <xref ref="temp-mpls-modeling-linear"/>)</em>
@@ -302,7 +302,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="social-security-variables-functions" component="html">
+	<exercise xml:id="social-security-variables-functions" component="web">
 		<introduction>
 			<p>
 				Mrs. Nystrom's Social Security benefit was $746.17/month when she retired from teaching in 2009. She had taught in elementary school since I was a girl. Benefits have increased by 4% per year. 
@@ -339,7 +339,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="stamps-variables-functions" component="html">
+	<exercise xml:id="stamps-variables-functions" component="web">
 		<introduction>
 			<p>
 				Between e-mail, automatic bill pay, and online banking, it seems like I hardly ever actually mail something. But for those times, I need postage stamps. The corner store sells as many (or few) stamps as I want for 44¢ each but they charge a 75¢ convenience fee for the whole purchase. (<em>Story also appears in <xref ref="stamps-solving-linear"/>)</em>
@@ -371,7 +371,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="car-value-variables-functions" component="html">
+	<exercise xml:id="car-value-variables-functions" component="web">
 		<introduction>
 			<p>
 				Sofía bought her car new for $22,500. Now the car is fairly old and just passed 109,000 miles. Sofía looked online and estimates the car is still worth $5,700.
@@ -416,7 +416,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="name-vars-variables-functions" component="html">
+	<exercise xml:id="name-vars-variables-functions" component="web">
 			<introduction>
 				<p>
 					For each story, name the variables including units and dependence.

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <exercises xml:id="ex-Fractions" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title component="html">Exercises</title>
+    <title component="web">Exercises</title>
     <xi:include href="ex-intro.ptx" />
 
     <introduction>
@@ -116,7 +116,7 @@
 
     
 
-    <exercise xml:id="flatbread-squares-fractions" component="html">
+    <exercise xml:id="flatbread-squares-fractions" component="web">
         <introduction>
             <p>
                 In our flatbread example, the flatbread was served cut into 5 slices and we cut it lengthwise into 15 squares.
@@ -137,7 +137,7 @@
             </statement>
         </task>
     </exercise>
-    <exercise xml:id="porridge-fractions" component="html">
+    <exercise xml:id="porridge-fractions" component="web">
         <introduction>
             <p>
                 Auriel is making porridge but doesn't want too much. Last time she cut the recipe in half, but that was too little. Auriel has decided that making <m>\frac{3}{4}</m> of the recipe will be just right. Figure out how much of each ingredient Auriel needs. Report each answer as both a fraction and a decimal.
@@ -173,7 +173,7 @@
         </task>
     </exercise>
     
-    <exercise xml:id="diver-fractions" component="html">
+    <exercise xml:id="diver-fractions" component="web">
         <introduction>
             <p>
                 A diver bounces on a 3-meter springboard. Up she goes. A somersault, a twist, and then whoosh, into the water. <em>(Story also appears in <xref ref="sec-Rate_of_change"/>)</em>
@@ -201,7 +201,7 @@
             </statement>
         </task>
     </exercise>
-    <exercise xml:id="football-field-fractions" component="html">
+    <exercise xml:id="football-field-fractions" component="web">
         <introduction>
             <p>
                 The football coach wants everyone to sprint three-quarters of a mile, up and back on the field which is labeled in yards. <em>(Story also appears in <xref ref="assorted-2-units"/>)</em>

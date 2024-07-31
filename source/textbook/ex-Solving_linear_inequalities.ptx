@@ -3,7 +3,7 @@
 
 
 <exercises xml:id="ex-Solving_linear_inequalitiesEX" xmlns:xi="http://www.w3.org/2001/XInclude">
-	<title component="html">Exercises</title>
+	<title component="web">Exercises</title>
 
 	<xi:include href="ex-intro.ptx" />
 
@@ -260,7 +260,7 @@
 
 	
 
-	<exercise xml:id="fahrenheit-celsius-linear-ineq" component="html">
+	<exercise xml:id="fahrenheit-celsius-linear-ineq" component="web">
 		<introduction>
 			<p>
 				Recall that the conversion between Fahrenheit (<m>F</m>) and Celsius (<m>C</m>) temperatures is given by the equation <me>F = 1.8C+32</me>
@@ -307,7 +307,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="credit-line-linear-ineq" component="html">
+	<exercise xml:id="credit-line-linear-ineq" component="web">
 		<introduction>
 			<p>
 				After borrowing some money through a line of credit on my bank account, I started paying off the interest plus $250 a month. Even once the loan is paid off I plan to continue to deposit $250 each month to start savins. That means my balance is given by the equation <me>A = 250M- 2,189.57</me> where <m>M</m> is the number of months since the loan and <m>A</m> is the account balance, in dollars. 
@@ -333,7 +333,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="treadmill-linear-ineq" component="html">
+	<exercise xml:id="treadmill-linear-ineq" component="web">
 		<introduction>
 			<p>
 				When Gretchen walks on her treadmill, the number of calories per mile that she burns is given by the equation <me>C=125M</me> where <m>C</m> is the number of calories Gretchen burns by walking <m>M</m> miles.
@@ -368,7 +368,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="reservoir-rain-linear-ineq" component="html">
+	<exercise xml:id="reservoir-rain-linear-ineq" component="web">
 		<statement>
 			<p>
 				The water in the local reservoir has been dropping steadily. In fact, <me>D = 47-1.5W</me> where <m>D</m> is the depth of the water (in feet) after <m>W</m> weeks. Any depth below 20 feet is considered dangerously low. When will that happen, assuming no change in the weather? Set up and solve an inequality. And, check your answer.
@@ -380,7 +380,7 @@
 		</statement>
 	</exercise>
 
-	<exercise xml:id="potato-chips-linear-ineq" component="html">
+	<exercise xml:id="potato-chips-linear-ineq" component="web">
 		<introduction>
 			<p>
 				A manufacturer makes family-sized bags of potato chips, advertised as containing 200 grams each. In fact it's difficult to control the exact weight of a bag of potato chips, so it varies. The standard deviation is rather high, about 3.8 grams per bag. The company would rather have bags too heavy than too light, lest they be accused of false advertising, so their average bag actually weighs 207 grams. It turns out that approximately 97% of all bags of chips weigh 200 grams or more. We can compute the standard <m>Z</m>-score of a given bag of chips weighing <m>B</m> grams using the equation <me>Z = \frac{B-207}{3.8}</me>
@@ -419,7 +419,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="vacation-ireland-linear-ineq" component="html">
+	<exercise xml:id="vacation-ireland-linear-ineq" component="web">
 		<introduction>
 			<p>
 				The cost of vacation to Cork, Ireland from the Minneapolis/St. Paul airport for two people is given by the equation formula <me>C = 2,828 + 310N</me> where <m>C</m> is the total cost in U.S. dollars and <m>N</m> is the number of days. Ciara wants to take her boyfriend Seamus to Cork to meet Ciara's grandmother.

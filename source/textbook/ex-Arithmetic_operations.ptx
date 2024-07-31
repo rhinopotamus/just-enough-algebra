@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <exercises xml:id="ex-Arithmetic_operations" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title component="html">Exercises</title>
+    <title component="web">Exercises</title>
 
     <xi:include href="ex-intro.ptx" />
 
@@ -160,7 +160,7 @@
 
     
 
-    <exercise xml:id="social-security-arithmetic-operations" component="html">
+    <exercise xml:id="social-security-arithmetic-operations" component="web">
         <statement>
             <p>
                 Mrs. Nystrom gets $1,453.46 per month in Social Security benefits and another $1,250 per month from a life annuity. She pays $540.60 per month in taxes and $1,749 each month for rent and utilities. How much does she have left each month for food, entertainment, and other expenses?
@@ -171,7 +171,7 @@
         </statement>
     </exercise>
 
-    <exercise xml:id="driving-arithmetic-operations" component="html">
+    <exercise xml:id="driving-arithmetic-operations" component="web">
         <task>
             <statement>
                 <p>
@@ -188,7 +188,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="walnut-tree-arithmetic-operations" component="html">
+    <exercise xml:id="walnut-tree-arithmetic-operations" component="web">
         <introduction>
             <p>
                 When the Nussbaums planted a walnut tree it was 5 feet tall. It has grown around 2 feet a year.
@@ -217,7 +217,7 @@
         </task>  
     </exercise>
 
-    <exercise xml:id="beach-erosion-arithmetic-operations" component="html">
+    <exercise xml:id="beach-erosion-arithmetic-operations" component="web">
         <introduction>
             <p>
                 The public beach near Paloma's house 60 years ago was 435 feet long and now is only 210 feet long due to erosion. The length of the beach is measured from the dunes to the high water mark. <em>Story also appears in <xref ref="beach-erosion-rate-of-change"/> and <xref ref="beach-erosion-intercepts"/></em>
@@ -239,7 +239,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="fabric-yards-arithmetic-operations" component="html">
+    <exercise xml:id="fabric-yards-arithmetic-operations" component="web">
         <introduction>
             <p>
                 Each yard of fabric is 3 feet long.
@@ -261,7 +261,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="minutes-arithmetic-operations" component="html">
+    <exercise xml:id="minutes-arithmetic-operations" component="web">
         <introduction>
             <p>
                 There are 60 minutes in an hour. (I bet you knew that!)

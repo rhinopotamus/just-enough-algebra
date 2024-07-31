@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <exercises xml:id="ex-Percentages" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title component="html">Exercises</title>
+    <title component="web">Exercises</title>
 
     <xi:include href="ex-intro.ptx" />
 
@@ -121,7 +121,7 @@
 
     
 
-    <exercise xml:id="check-thang-percentages" component="html">
+    <exercise xml:id="check-thang-percentages" component="web">
         <task>
             <statement>
                 <p>
@@ -138,7 +138,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="food-shelf-percentages" component="html">
+    <exercise xml:id="food-shelf-percentages" component="web">
         <statement>
             <p>
                 Donations to a local food shelf have increased 35% over last year. There were 3,400 pounds of food donated last year. How many pounds of food were donated this year?
@@ -150,7 +150,7 @@
         </statement>
     </exercise>
 
-    <exercise xml:id="caffeine-percentages" component="html">
+    <exercise xml:id="caffeine-percentages" component="web">
         <statement>
             <p>
                 Ceyda starts the day by downing two cans of Red Bull, containing a total of 160 mg of caffeine. Her body eliminates the caffeine at the rate of 12% each hour. How much caffeine is left in her blood after 1 hour? <em>Story also appears in <xref ref="caffeine-growth-decay"/></em>
@@ -158,7 +158,7 @@
         </statement>
     </exercise>
 
-    <exercise xml:id="salt-intake-percentages" component="html">
+    <exercise xml:id="salt-intake-percentages" component="web">
         <introduction>
             <p>
                 Too much salt can be difficult for your body. The Centers for Disease Control and Prevention (CDC) suggest that adults limit their daily intake of Sodium to a maximum of 2,300 mg per day.
@@ -180,7 +180,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="house-value-percentages" component="html">
+    <exercise xml:id="house-value-percentages" component="web">
         <statement>
             <p>
                 Tenzin bought a house for $291,900 but the housing market collapsed and his house value dropped 4.1% since he bought it. What is Tenzin's house worth now?
@@ -192,7 +192,7 @@
         </statement>
     </exercise>
 
-    <exercise xml:id="raises-percentages" component="html">
+    <exercise xml:id="raises-percentages" component="web">
         <introduction>
             <p>
                 <em>Story also appears in <xref ref="raises-first-look-exponential"/></em>

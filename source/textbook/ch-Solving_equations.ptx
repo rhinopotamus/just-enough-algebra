@@ -3,7 +3,7 @@
 <chapter xml:id="ch-tx-Solving_equations" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Solving equations</title>
 
-    <introduction component="html">
+    <introduction component="web">
         <p>
             One of the great powers of symbolic algebra is being able to solve equations exactly.  Quick, accurate, and easily generalized, symbolic techniques have long been the backbone of algebra.  The good news is that linear equations, power equations, exponential equations, and quadratic equations can all be solved exactly. That means we can find the answer to all of our problems.  What more could you want?  Okay, slight exaggeration there, but our ability to solve equations is worthy of some enthusiasm.
         </p>
