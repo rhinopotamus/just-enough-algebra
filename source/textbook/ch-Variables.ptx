@@ -34,12 +34,12 @@
 
     <!-- practice exams -->
 
-    <section xml:id="sec-PE1A" component="print">
+    <section xml:id="sec-PE1A">
         <title>Practice Exam 1A</title>
         <xi:include href="./ws-PE1A.ptx" />
         
     </section>
-    <section xml:id="sec-PE1B" component="print">
+    <section xml:id="sec-PE1B">
         <title>Practice Exam 1B</title>
         <xi:include href="./ws-PE1B.ptx" />
         

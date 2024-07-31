@@ -5,11 +5,11 @@
 
     <!-- practice exams -->
 
-    <section xml:id="sec-PE6A" component="print">
+    <section xml:id="sec-PE6A">
         <title>Practice Exam 6A</title>
         <xi:include href="./ws-PE6A.ptx" />
     </section>
-    <section xml:id="sec-PE6B" component="print">
+    <section xml:id="sec-PE6B">
         <title>Practice Exam 6B</title>
         <xi:include href="./ws-PE6B.ptx" />
     </section>

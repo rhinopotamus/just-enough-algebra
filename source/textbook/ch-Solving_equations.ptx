@@ -29,11 +29,11 @@
 
     <!-- practice exams -->
 
-    <section xml:id="sec-PE3A" component="print">
+    <section xml:id="sec-PE3A">
         <title>Practice Exam 3A</title>
         <xi:include href="./ws-PE3A.ptx" />
     </section>
-    <section xml:id="sec-PE3B" component="print">
+    <section xml:id="sec-PE3B">
         <title>Practice Exam 3B</title>
         <xi:include href="./ws-PE3B.ptx" />
     </section>
