@@ -39,14 +39,6 @@
             <!-- templates and formulas -->
             <xi:include href="./textbook/app-Templates.ptx" />
             <xi:include href="./textbook/app-Formulas.ptx" />
-            <!-- <appendix xml:id="app-Templates_and_Formulas">
-                <title>Templates and Formulas</title>
-                              
-                
-
-                <xi:include href="./textbook/app-Templates.ptx" />
-                <xi:include href="./textbook/app-Formulas.ptx" />
-            </appendix> -->
 
             <colophon>
                 <p> This book was authored in <pretext />. </p>
