@@ -197,7 +197,7 @@
 			<task workspace="0in">
 				<statement>
 					<p component="print">
-						<em>The problem continues ...</em>
+						<em>The problem continues <ellipsis /></em>
 					</p>
 					<p>
 						Draw a graph illustrating the function.

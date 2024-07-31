@@ -108,7 +108,7 @@
 			<task workspace="2.5in">
 				<statement>
 					<p component="print">
-						<em>The problem continues ...</em>
+						<em>The problem continues <ellipsis /></em>
 					</p>
 					<p>
 						<alert>Next, assume the value of the house increased linearly instead.</alert>
@@ -193,7 +193,7 @@
 			<task>
 				<statement>
 					<p component="print">
-						<em>The problem continues ...</em>
+						<em>The problem continues <ellipsis /></em>
 					</p>
 					<p>
 						<alert>Now, compare the models.</alert>
@@ -318,7 +318,7 @@
 			<task workspace="3.25in">
 				<statement>
 					<p component="print">
-						<em>The problem continues ...</em>
+						<em>The problem continues <ellipsis /></em>
 					</p>
 					<p>
 						As a city council representative, you want to support the plan that your constituents prefer. If most of your constituents ride the bus, which plan should you support? Why?

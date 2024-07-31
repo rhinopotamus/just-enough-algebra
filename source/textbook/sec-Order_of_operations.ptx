@@ -117,7 +117,7 @@
 		</p>
 
 		<p>
-			The good news is that your calculator does the operations in exactly this order. For example, remember Jarron who was calculating his BMI? He entered <me>91.625 \div 1.93 \land 2 = 24.7479... \approx 24.8</me> which is in the range considered healthy. Of course, there are many more factors to health besides height and weight. Like getting enough exercise is really important. But, back to the calculation, how did that work?
+			The good news is that your calculator does the operations in exactly this order. For example, remember Jarron who was calculating his BMI? He entered <me>91.625 \div 1.93 \land 2 = 24.7479\ldots \approx 24.8</me> which is in the range considered healthy. Of course, there are many more factors to health besides height and weight. Like getting enough exercise is really important. But, back to the calculation, how did that work?
 		</p>
 
 		<p>
@@ -126,7 +126,7 @@
 
 		<md>
 			<mrow>1.93 \land 2 \amp=\underline{3.7249}</mrow>
-			<mrow>91.625 \div 3.7249\amp=\underline{24.7479...}</mrow>
+			<mrow>91.625 \div 3.7249\amp=\underline{24.7479\ldots}</mrow>
 		</md>
 
 		<p>
@@ -142,7 +142,7 @@
 		</p>
 
 		<p>
-			First we need to calculate the total number of students <me>3+15+11+5 = 34</me> There are 34 students and 15 identify as Hmong. That means the proportion of Hmong students is <me>15 \div 34 = 0.4411...</me> and so the percentage of students in the group who are Hmong is <me>0.4411 \times 100 = 44.11 \approx 44 \%</me> Notice we can do these last two calculations in one line as <me>15 \div 34 \times 100 = 0.4411...</me> because multiplication (<m>\times</m>) and division (<m>\div</m>) are tied for priority in the order of operations.
+			First we need to calculate the total number of students <me>3+15+11+5 = 34</me> There are 34 students and 15 identify as Hmong. That means the proportion of Hmong students is <me>15 \div 34 = 0.4411\ldots</me> and so the percentage of students in the group who are Hmong is <me>0.4411 \times 100 = 44.11 \approx 44 \%</me> Notice we can do these last two calculations in one line as <me>15 \div 34 \times 100 = 0.4411\ldots</me> because multiplication (<m>\times</m>) and division (<m>\div</m>) are tied for priority in the order of operations.
 		</p>
 
 		<p>
@@ -150,7 +150,7 @@
 		</p>
 
 		<p>
-			We wanted the calculator to do the addition (<m>+</m>) first. That's not the order of operations the calculator will use. What can we do to fix that? Parentheses to the rescue! Parentheses have the highest priority in the order of operations, meaning the calculator will evaluate inside the parentheses before doing any other operations. So we can do this calculation all in one line by using parentheses as <me>15 \div (3 + 15 + 11 + 5) \times 100= 44.11... \text{ Whew!}</me>
+			We wanted the calculator to do the addition (<m>+</m>) first. That's not the order of operations the calculator will use. What can we do to fix that? Parentheses to the rescue! Parentheses have the highest priority in the order of operations, meaning the calculator will evaluate inside the parentheses before doing any other operations. So we can do this calculation all in one line by using parentheses as <me>15 \div (3 + 15 + 11 + 5) \times 100= 44.11\ldots \text{ Whew!}</me>
 		</p>
 
 		<p>
@@ -159,7 +159,7 @@
 	</introduction>
 	
 	<conclusion component="web">
-		<title>Do you know ...</title>
+		<title>Do you know <ellipsis /></title>
 
 		<p>
 			<xi:include href="./dyk-Order_of_operations.ptx" />
@@ -174,7 +174,7 @@
 		
 		
 	<conclusion component="print">
-		<title>Do you know ...</title>
+		<title>Do you know <ellipsis /></title>
 		<p>
 			<xi:include href="./dyk-Order_of_operations.ptx" />
 		</p>

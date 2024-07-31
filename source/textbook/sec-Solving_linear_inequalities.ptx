@@ -112,7 +112,7 @@
 				\dfrac{343}{1.8}
 			</me>
 			
-			which simplifies to <me>293\div 1.8 \le C \le 343 \div 1.8</me> so, <me>162.777777... \le C \le 190.555555...</me> Probably best to say <me>163 \le C \le 190</me> Chocolate brownies bake between <m>163^\circ C</m> and <m>190^\circ C</m>. Oven actually aren't that precise, so somewhere between <m>170^\circ C</m> and <m>190^\circ C</m> should do the job.
+			which simplifies to <me>293\div 1.8 \le C \le 343 \div 1.8</me> so, <me>162.777777\ldots \le C \le 190.555555\ldots</me> Probably best to say <me>163 \le C \le 190</me> Chocolate brownies bake between <m>163^\circ C</m> and <m>190^\circ C</m>. Oven actually aren't that precise, so somewhere between <m>170^\circ C</m> and <m>190^\circ C</m> should do the job.
 		</p>
 
 		<p>
@@ -126,7 +126,7 @@
 	</introduction>
 
 	<conclusion component="web">
-		<title>Do you know ...</title>
+		<title>Do you know <ellipsis /></title>
 
 		<p>
 			<xi:include href="./dyk-Solving_linear_inequalities.ptx" />
@@ -141,7 +141,7 @@
 		
 		
 	<conclusion component="print">
-		<title>Do you know ...</title>
+		<title>Do you know <ellipsis /></title>
 		<p>
 			<xi:include href="./dyk-Solving_linear_inequalities.ptx" />
 		</p>

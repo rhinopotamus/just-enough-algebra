@@ -34,7 +34,7 @@
 			<task workspace="3in">
 				<statement>
 					<p component="print">
-						<em>The problem continues ...</em>
+						<em>The problem continues <ellipsis /></em>
 					</p>
 					<p>
 						The high jump pit is 2 feet off the ground. When does the high-jumper land in the pit? Use the <xref ref="quadratic-formula" text="title"/> to find the answer and the graph to check.
@@ -115,7 +115,7 @@
 			<task workspace="2in">
 				<statement>
 					<p component="print">
-						<em>The problem continues ...</em>
+						<em>The problem continues <ellipsis /></em>
 					</p>
 					<p>
 						According to this equation, in what year was the number of annual visits the smallest? For that year, what were the number of visits? Use <m>\displaystyle T=\frac{-b}{2a}</m>.
@@ -174,7 +174,7 @@
 			<task>
 				<statement>
 					<p component="print">
-						<em>The problem continues ...</em>
+						<em>The problem continues <ellipsis /></em>
 					</p>
 					<p>
 						How many tanks of milk would they need to sell to keep profits over $400,000? Set up and solve a quadratic equation to find the answer. Then check that it agrees with your graph. <em>Your answer should be in the form of an inequality.</em>

@@ -38,7 +38,7 @@
         <task workspace="0.75in">
             <statement>
 				<p component="print">
-					<em>The problem continues ...</em>
+					<em>The problem continues <ellipsis /></em>
 				</p>
                 <p>
                     Approximately when did North American car production first pass 9 million/year? Indicate the corresponding point on the graph. 
@@ -115,7 +115,7 @@
 		<task workspace="3.5in">
 			<statement>
 				<p component="print">
-					<em>The problem continues ...</em>
+					<em>The problem continues <ellipsis /></em>
 				</p>
 				<p>
 					If Sarah and Koal spent $262.39, how many stuffed animals were in the toy box they gave to the crisis nursery? Show how to set up and solve an equation to answer the question.

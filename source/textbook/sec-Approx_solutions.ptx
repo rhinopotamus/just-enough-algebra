@@ -63,7 +63,7 @@
 		</p>
 
 		<p>
-			Since we can easily check and see if any number is a solution, one way to find the solution is to <term>guess and check</term>. Let's try that to determine when India's population will pass 1.5 billion people. Since we're not sure where to start, let's see what the equation projects for 2012, when <m>Y=1</m>. <me>P=1.205 \ast 1.0131^1 = 1.205 \times 1.0131 \wedge \underline{1} = 1.2208096... \approx 1.221 \text{ billion}</me> Hardly budged. Well, comparatively.
+			Since we can easily check and see if any number is a solution, one way to find the solution is to <term>guess and check</term>. Let's try that to determine when India's population will pass 1.5 billion people. Since we're not sure where to start, let's see what the equation projects for 2012, when <m>Y=1</m>. <me>P=1.205 \ast 1.0131^1 = 1.205 \times 1.0131 \wedge \underline{1} = 1.2208096\ldots \approx 1.221 \text{ billion}</me> Hardly budged. Well, comparatively.
 		</p>
 
 		<p>
@@ -210,7 +210,7 @@
 	</introduction>
 	
 	<conclusion component="web">
-		<title>Do you know ...</title>
+		<title>Do you know <ellipsis /></title>
 
 		<p>
 			<xi:include href="./dyk-Approx_solutions.ptx" />
@@ -225,7 +225,7 @@
 		
 		
 	<conclusion component="print">
-		<title>Do you know ...</title>
+		<title>Do you know <ellipsis /></title>
 		<p>
 			<xi:include href="./dyk-Approx_solutions.ptx" />
 		</p>

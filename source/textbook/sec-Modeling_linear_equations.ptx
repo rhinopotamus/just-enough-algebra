@@ -95,7 +95,7 @@
 				-\cancel{64,100} \amp \amp -64,100
 				\end{array}
 			</me>
-			which simplifies to <me>7,800Y\ge 85,900</me> Divide each side by to get <me>\frac{\cancel{7,800}~Y}{\cancel{7,800}} \ge \frac{85,900}{7,800}</me> which simplifies to <me>Y \ge   \frac{85,900}{7,800} = 85,900 \div 7,800 = 11.0128205...</me> To be sure <m>Y \ge 11.0128205...</m> we need to round up to get <me>Y \ge 12</me>
+			which simplifies to <me>7,800Y\ge 85,900</me> Divide each side by to get <me>\frac{\cancel{7,800}~Y}{\cancel{7,800}} \ge \frac{85,900}{7,800}</me> which simplifies to <me>Y \ge   \frac{85,900}{7,800} = 85,900 \div 7,800 = 11.0128205\ldots</me> To be sure <m>Y \ge 11.0128205\ldots</m> we need to round up to get <me>Y \ge 12</me>
 		</p>
 
 		<p>
@@ -113,7 +113,7 @@
 	</introduction>
 	
 	<conclusion component="web">
-		<title>Do you know ...</title>
+		<title>Do you know <ellipsis /></title>
 
 		<p>
 			<xi:include href="./dyk-Modeling_linear_equations.ptx" />
@@ -128,7 +128,7 @@
 		
 		
 	<conclusion component="print">
-		<title>Do you know ...</title>
+		<title>Do you know <ellipsis /></title>
 		<p>
 			<xi:include href="./dyk-Modeling_linear_equations.ptx" />
 		</p>

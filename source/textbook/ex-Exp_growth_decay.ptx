@@ -49,7 +49,7 @@
 			<task workspace="3in">
 				<statement>
 					<p component="print">
-						<em>The problem continues ...</em>
+						<em>The problem continues <ellipsis /></em>
 					</p>
 					<p>
 						What is the half-life (or should we say half-distance) of a signal? That means, how far can it travel without dropping below 50%? (That will not actually happen because we would boost the signal.) Again, set up and solve an equation.

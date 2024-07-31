@@ -110,7 +110,7 @@
 	</introduction>
 	
 	<conclusion component="web">
-		<title>Do you know ...</title>
+		<title>Do you know <ellipsis /></title>
 
 		<p>
 			<xi:include href="./dyk-Variables_and_functions.ptx" />
@@ -125,7 +125,7 @@
 		
 		
 	<conclusion component="print">
-		<title>Do you know ...</title>
+		<title>Do you know <ellipsis /></title>
 		<p>
 			<xi:include href="./dyk-Variables_and_functions.ptx" />
 		</p>

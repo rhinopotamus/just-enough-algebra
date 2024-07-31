@@ -50,7 +50,7 @@
 		</p>
 
 		<p>
-			We can use our calculator to find roots. For example, if you have a key that says <m>\sqrt[x]{y}</m> then you can enter <me>3 \sqrt[x]{y} ~231 =  6.1357...</me> Different calculators label the roots key differently. For example, you may have to use one of the 2nd, Shift, or Inv key with the <m>\land</m>, <m>y^x</m>, or <m>x^y</m> key. On a graphing calculator, you may have to enter MATH mode.
+			We can use our calculator to find roots. For example, if you have a key that says <m>\sqrt[x]{y}</m> then you can enter <me>3 \sqrt[x]{y} ~231 =  6.1357\ldots</me> Different calculators label the roots key differently. For example, you may have to use one of the 2nd, Shift, or Inv key with the <m>\land</m>, <m>y^x</m>, or <m>x^y</m> key. On a graphing calculator, you may have to enter MATH mode.
 		</p>
 
 		<p>
@@ -71,7 +71,7 @@
 	</introduction>
 	
 	<conclusion component="web">
-		<title>Do you know ...</title>
+		<title>Do you know <ellipsis /></title>
 
 		<p>
 			<xi:include href="./dyk-Powers_and_roots.ptx" />
@@ -86,7 +86,7 @@
 		
 		
 	<conclusion component="print">
-		<title>Do you know ...</title>
+		<title>Do you know <ellipsis /></title>
 		<p>
 			<xi:include href="./dyk-Powers_and_roots.ptx" />
 		</p>

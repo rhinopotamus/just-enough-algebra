@@ -162,7 +162,7 @@
 		<task workspace="2.5in">
 			<statement>
 				<p component="print">
-					<em>The problem continues ...</em>
+					<em>The problem continues <ellipsis /></em>
 				</p>
 				<p>
 					Set up and solve a system of linear equations to compare total cost with no card to the total cost with the card.
@@ -305,7 +305,7 @@
 		<task workspace="2in">
 			<statement>
 				<p component="print">
-					<em>The problem continues ...</em>
+					<em>The problem continues <ellipsis /></em>
 				</p>
 				<p>
 					Set up and solve an equation to find the equilibrium price of flour <em>exactly</em>.

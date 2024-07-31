@@ -5,7 +5,7 @@
 
     <introduction component="web">
         <p>
-			And topping the algebra charts at #1 for the past two millennia and counting, it's ... linear equations. Why? First, many everyday and scientific events are naturally linear. Second, many decidedly nonlinear functions can be reasonably approximated by a linear function. Third, sometimes we don't actually have an equation that perfectly fits our information (data) at all, so a reasonably close equation is better than none at all and linear equations often do a good job as a first approximation. Last, and perhaps most importantly, we can solve linear equations. Easily. Exactly. Every time.
+			And topping the algebra charts at #1 for the past two millennia and counting, it's <ellipsis /> linear equations. Why? First, many everyday and scientific events are naturally linear. Second, many decidedly nonlinear functions can be reasonably approximated by a linear function. Third, sometimes we don't actually have an equation that perfectly fits our information (data) at all, so a reasonably close equation is better than none at all and linear equations often do a good job as a first approximation. Last, and perhaps most importantly, we can solve linear equations. Easily. Exactly. Every time.
 		</p>
 
 		<p>

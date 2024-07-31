@@ -86,7 +86,7 @@
 			<task workspace="2in">
 				<statement>
 					<p component="print">
-						<em>The problem continues ...</em>
+						<em>The problem continues <ellipsis /></em>
 					</p>
 					<p>
 						After approximately how many months was the price of the e-book reader expected to be down to $200? Set up and solve an equation.

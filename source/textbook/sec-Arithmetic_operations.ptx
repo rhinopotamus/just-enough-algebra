@@ -70,20 +70,20 @@
 		</p>
 
 		<p>
-			Two more examples. There are two other situations in which we divide. The first is fractions. If we are given a fraction, like <m>\frac{2}{3}</m> of residents have Internet access, we might want to have a decimal approximation to do further calculations. We find it by dividing <me>\frac{2}{3} = 2 \div 3 = 0.666666666... \approx 0.67</me> The bar in between the 2 and 3 in the fraction stands for division. It might help to remember this connection visually. <me>\frac{~\bullet~}{\bullet}</me> So if there are 14,573 residents, and <m>\frac{2}{3}</m> have Internet access, then we can multiply to find the number of residents with Internet access. <me>14573 \times 0.7 = 9763.91\approx 9764</me> Since 0.67 only has two digits that matter (and we rounded up to get it), we would round our answer down to compensate and say there were around 9700.
+			Two more examples. There are two other situations in which we divide. The first is fractions. If we are given a fraction, like <m>\frac{2}{3}</m> of residents have Internet access, we might want to have a decimal approximation to do further calculations. We find it by dividing <me>\frac{2}{3} = 2 \div 3 = 0.666666666\ldots \approx 0.67</me> The bar in between the 2 and 3 in the fraction stands for division. It might help to remember this connection visually. <me>\frac{~\bullet~}{\bullet}</me> So if there are 14,573 residents, and <m>\frac{2}{3}</m> have Internet access, then we can multiply to find the number of residents with Internet access. <me>14573 \times 0.7 = 9763.91\approx 9764</me> Since 0.67 only has two digits that matter (and we rounded up to get it), we would round our answer down to compensate and say there were around 9700.
 		</p>
 
 		<p>
-			Can we say that there 9,764 residents with Internet access? If we had used 0.666666666 instead we would have calculated <me>14573 \times 0.666666666 = 9715.33332... \approx 9715</me> Sounds like we should play it safe and say over 9,700 residents have internet access. The most accurate calculation would be to do the multiplication and division all at once. <me>14573 \times 2 \div 3 = 9715.33333... \approx 9715</me> It would be acceptable to estimate at 9,715 residents.
+			Can we say that there 9,764 residents with Internet access? If we had used 0.666666666 instead we would have calculated <me>14573 \times 0.666666666 = 9715.33332\ldots \approx 9715</me> Sounds like we should play it safe and say over 9,700 residents have internet access. The most accurate calculation would be to do the multiplication and division all at once. <me>14573 \times 2 \div 3 = 9715.33333\ldots \approx 9715</me> It would be acceptable to estimate at 9,715 residents.
 		</p>
 
 		<p>
-			Another cause for division is the word <q>per</q>. What is her pace, in minutes per mile if Karleen runs 6.3 miles in 50 minutes? <me>50 \div 6.3 =  7.936507937... \approx 7.9</me> With the units we would write <me>50 \text{ minutes} \div 6.3 \text{ miles }  \approx 7.9 \text{ minutes per mile}</me> Karleen runs just under 8 minutes per mile.
+			Another cause for division is the word <q>per</q>. What is her pace, in minutes per mile if Karleen runs 6.3 miles in 50 minutes? <me>50 \div 6.3 =  7.936507937\ldots \approx 7.9</me> With the units we would write <me>50 \text{ minutes} \div 6.3 \text{ miles }  \approx 7.9 \text{ minutes per mile}</me> Karleen runs just under 8 minutes per mile.
 		</p>
 	</introduction>
 	
 	<conclusion component="web">
-		<title>Do you know ...</title>
+		<title>Do you know <ellipsis /></title>
 
 		<p>
 			<xi:include href="./dyk-Arithmetic_operations.ptx" />
@@ -98,7 +98,7 @@
 		
 		
 	<conclusion component="print">
-		<title>Do you know ...</title>
+		<title>Do you know <ellipsis /></title>
 		<p>
 			<xi:include href="./dyk-Arithmetic_operations.ptx" />
 		</p>

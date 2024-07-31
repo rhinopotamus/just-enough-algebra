@@ -162,7 +162,7 @@
 		<task workspace="1in">
 			<statement>
 				<p component="print">
-					<em>The problem continues ...</em>
+					<em>The problem continues <ellipsis /></em>
 				</p>
 				<p>
 					According to the table, what was the value of the stock when we began tracking it? What is it worth now?

@@ -236,7 +236,7 @@
         <task>
             <statement>
                 <p>
-                    Jarron entered the following keystrokes on his calculator: <me>91.625 \div 1.93 \wedge 2=</me> and got the answer <me>\text{BMI } = 24.747969...</me> Is his BMI considered <q>normal</q>?
+                    Jarron entered the following keystrokes on his calculator: <me>91.625 \div 1.93 \wedge 2=</me> and got the answer <me>\text{BMI } = 24.747969\ldots</me> Is his BMI considered <q>normal</q>?
                     </p>
                     
                     <p>

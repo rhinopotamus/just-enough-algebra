@@ -89,7 +89,7 @@
         <task workspace="2.5in">
             <statement>
                 <p component="print">
-                    <em>The problem continues ...</em>
+                    <em>The problem continues <ellipsis /></em>
                 </p>
                 <p>
                     <alert>Next, assume the value of the house increased linearly instead.</alert>
@@ -174,7 +174,7 @@
         <task>
             <statement>
                 <p component="print">
-                    <em>The problem continues ...</em>
+                    <em>The problem continues <ellipsis /></em>
                 </p>
                 <p>
                     <alert>Now, compare the models.</alert>
@@ -241,7 +241,7 @@
         <introduction>
             <p>
                 In December 2010, a popular mobile app game featuring animated birds launched from slingshots had 50 million downloads. Five months later (May 2011), the game had 200 million downloads. Let <m>D</m> denote the number of downloads of the game (in millions) and <m>T</m> the time in months since December 2010.
-                <em>story also appears ......</em>
+                <em>story also appears <ellipsis /><ellipsis /></em>
             </p>
         </introduction>
         <task>
@@ -300,7 +300,7 @@
         <task workspace="3in">
             <statement>
                 <p component="print">
-                    <em>The problem continues ...</em>
+                    <em>The problem continues <ellipsis /></em>
                 </p>
                 <p>
                     As a city council representative, you want to support the plan that your constituents prefer. If most of your constituents ride the bus, which plan should you support? Why?

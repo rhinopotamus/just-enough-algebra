@@ -112,7 +112,7 @@
 		<task>
 			<statement>
 				<p component="print">
-					<em>The problem continues ...</em>
+					<em>The problem continues <ellipsis /></em>
 				</p>
 				<p>
 					<em>Approximately</em> when will the population pass 10,000 squirrels? Guess from the graph. Then refine your answer using successive approximation.
@@ -202,7 +202,7 @@
 		<task workspace="2in">
 			<statement>
 				<p component="print">
-					<em>The problem continues ...</em>
+					<em>The problem continues <ellipsis /></em>
 				</p>
 
 				<p>
@@ -272,7 +272,7 @@
 		<task>
 			<statement>
 				<p component="print">
-					<em>The problem continues ...</em>
+					<em>The problem continues <ellipsis /></em>
 				</p>
 				<p>
 					Graph both functions on the same set of axes. <em>Don't forget 0 letters.</em>
@@ -362,7 +362,7 @@
 		<task workspace="2.8in">
 			<statement>
 				<p component="print">
-					<em>The problem continues ...</em>
+					<em>The problem continues <ellipsis /></em>
 				</p>
 				<p>
 					Compare what each equation tells you light rail fares would be in 1 year, 5 years, and 20 years. List your answers in a table.

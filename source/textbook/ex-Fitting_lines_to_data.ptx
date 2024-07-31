@@ -200,7 +200,7 @@
 			<task workspace="1in">
 				<statement>
 					<p component="print">
-						<em>The problem continues ...</em>
+						<em>The problem continues <ellipsis /></em>
 					</p>
 					<p>
 						Use your equation for line A to figure out what you would expect for the GPA of a student working 30 hours per week.
@@ -280,7 +280,7 @@
 			<task workspace="3in">
 				<statement>
 					<p component="print">
-						<em>The problem continues ...</em>
+						<em>The problem continues <ellipsis /></em>
 					</p>
 					<p>
 						Write an equation for the line through March and July. Notice that you need to find the intercept this time. Add this line (#2) to your graph. This line is too steep.

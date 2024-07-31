@@ -156,7 +156,7 @@
 		</p>
 	</introduction>
 	<conclusion component="web">
-		<title>Do you know ...</title>
+		<title>Do you know <ellipsis /></title>
 
 		<p>
 			<xi:include href="./dyk-Linear_vs_exponential.ptx" />
@@ -171,7 +171,7 @@
 		
 		
 	<conclusion component="print">
-		<title>Do you know ...</title>
+		<title>Do you know <ellipsis /></title>
 		<p>
 			<xi:include href="./dyk-Linear_vs_exponential.ptx" />
 		</p>

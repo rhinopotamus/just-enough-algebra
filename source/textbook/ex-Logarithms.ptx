@@ -37,7 +37,7 @@
         <exercise workspace="0.6in">
             <introduction>
                 <p>
-                    The problem continues ...
+                    The problem continues <ellipsis />
                 </p>
             </introduction>
             <task>

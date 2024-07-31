@@ -152,7 +152,7 @@
         <task>
             <statement>
                 <p component="print">
-                    <em>The problem continues ...</em>
+                    <em>The problem continues <ellipsis /></em>
                 </p>
                 <p>
                     Draw a graph showing all three models on the same set of axes.

@@ -74,7 +74,7 @@
 		<task workspace="1.5in">
 			<statement>
 				<p component="print">
-					<em>The problem continues ...</em>
+					<em>The problem continues <ellipsis /></em>
 				</p>
 				<p>
 					Use successive approximation to find <em>approximately</em> when the concentration falls below 1.5 ppm.

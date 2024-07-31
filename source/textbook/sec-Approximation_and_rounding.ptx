@@ -54,7 +54,7 @@
 	</introduction>
 
 	<conclusion component="web">
-		<title>Do you know ...</title>
+		<title>Do you know <ellipsis /></title>
 
 		<p>
 			<xi:include href="./dyk-Approximation_and_rounding.ptx" />
@@ -69,7 +69,7 @@
 		
 		
 	<conclusion component="print">
-		<title>Do you know ...</title>
+		<title>Do you know <ellipsis /></title>
 		<p>
 			<xi:include href="./dyk-Approximation_and_rounding.ptx" />
 		</p>

@@ -22,15 +22,15 @@
 		</p>
 
 		<p>
-			Let's try guessing. How about 3.5 weeks? <me>10^{3.5} =10 \wedge 3.5 = 3,162.27...</me> which is much smaller than 5,000. How about 3.7 weeks? <me>10^{3.7} =10 \wedge 3.7 = 5,011.87..</me> which is slightly bigger than 5,000. I want to find the answer here so let's try <me>10^{3.69}=10 \wedge 3.69= 4,897.78...</me> or finally <me>10^{3.699}=10 \wedge 3.699= 5,000.34...</me> That's as close as I'm gonna guess.
+			Let's try guessing. How about 3.5 weeks? <me>10^{3.5} =10 \wedge 3.5 = 3,162.27\ldots</me> which is much smaller than 5,000. How about 3.7 weeks? <me>10^{3.7} =10 \wedge 3.7 = 5,011.87..</me> which is slightly bigger than 5,000. I want to find the answer here so let's try <me>10^{3.69}=10 \wedge 3.69= 4,897.78\ldots</me> or finally <me>10^{3.699}=10 \wedge 3.699= 5,000.34\ldots</me> That's as close as I'm gonna guess.
 		</p>
 
 		<p>
-			Okay, I'm curious. Is there an exact power of 10 that gives 5,000? Your calculator should have a key that says <q>log</q> or maybe <q>LOG</q>. Try typing <me>\log(5000)=  3.6989700043...</me> A small note here about parentheses. Some calculators give the first parenthesis for free when you type log but you have to type the closing parenthesis in yourself.
+			Okay, I'm curious. Is there an exact power of 10 that gives 5,000? Your calculator should have a key that says <q>log</q> or maybe <q>LOG</q>. Try typing <me>\log(5000)=  3.6989700043\ldots</me> A small note here about parentheses. Some calculators give the first parenthesis for free when you type log but you have to type the closing parenthesis in yourself.
 		</p>
 
 		<p>
-			Check it out, that's the answer we were looking for: <me>10^{3.6989700043} =10 \wedge 3.6989700043 = 4,999.999~999~5853... \approx 5,000</me> If we had kept more digits it would have been actually 5,000.
+			Check it out, that's the answer we were looking for: <me>10^{3.6989700043} =10 \wedge 3.6989700043 = 4,999.999~999~5853\ldots \approx 5,000</me> If we had kept more digits it would have been actually 5,000.
 		</p>
 
 		<p>
@@ -69,7 +69,7 @@
 	</introduction>
 	
 	<conclusion component="web">
-		<title>Do you know ...</title>
+		<title>Do you know <ellipsis /></title>
 
 		<p>
 			<xi:include href="./dyk-Logarithms.ptx" />
@@ -84,7 +84,7 @@
 		
 		
 	<conclusion component="print">
-		<title>Do you know ...</title>
+		<title>Do you know <ellipsis /></title>
 		<p>
 			<xi:include href="./dyk-Logarithms.ptx" />
 		</p>

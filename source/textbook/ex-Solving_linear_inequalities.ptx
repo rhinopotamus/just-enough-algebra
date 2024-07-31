@@ -101,7 +101,7 @@
 			<task workspace="2in">
 				<statement>
 					<p component="print">
-						<em>The problem continues ...</em>
+						<em>The problem continues <ellipsis /></em>
 					</p>
 					<p>
 						For how many minutes of its descent is the airplane above 20,000 feet?

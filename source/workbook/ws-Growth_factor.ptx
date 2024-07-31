@@ -122,7 +122,7 @@
         <task workspace="3in">
             <statement>
                 <p component="print">
-                    <em>The problem continues ...</em>
+                    <em>The problem continues <ellipsis /></em>
                 </p>
                 <p>
                     In what year will the bond be worth over $5,000? Set up and solve an equation to decide.
@@ -191,7 +191,7 @@
         <task workspace="0in">
             <statement>
                 <p component="print">
-                    <em>The problem continues ...</em>
+                    <em>The problem continues <ellipsis /></em>
                 </p>
                 <p>
                     Draw a graph that shows up to 10,000 years.
@@ -330,7 +330,7 @@
         <task>
             <statement>
                 <p component="print">
-                    <em>The problem continues ...</em>
+                    <em>The problem continues <ellipsis /></em>
                 </p>
                 <p>
                     The creeping vine taking over Fiona's lawn will double in area each year.

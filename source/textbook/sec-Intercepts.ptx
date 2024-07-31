@@ -47,7 +47,7 @@
             </assemblage>
 			<aside>
 				<p>
-					HEY SU: This used to just have that formula in a \[ ... \]
+					HEY SU: This used to just have that formula in a \[ <ellipsis /> \]
 				</p>
 			</aside>
 		</p>
@@ -90,7 +90,7 @@
 	</introduction>
 	
 	<conclusion component="web">
-		<title>Do you know ...</title>
+		<title>Do you know <ellipsis /></title>
 
 		<p>
 			<xi:include href="./dyk-Intercepts.ptx" />
@@ -105,7 +105,7 @@
 		
 		
 	<conclusion component="print">
-		<title>Do you know ...</title>
+		<title>Do you know <ellipsis /></title>
 		<p>
 			<xi:include href="./dyk-Intercepts.ptx" />
 		</p>

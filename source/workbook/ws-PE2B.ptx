@@ -79,7 +79,7 @@
 		<task>
 			<statement>
 				<p component="print">
-					<em>The problem continues ...</em>
+					<em>The problem continues <ellipsis /></em>
 				</p>
 				<p>
 					Make a table showing Xander's projections for yield for each tomato plant if he uses 0, 1, 2, 5, or 10 drops of liquid food.
@@ -128,7 +128,7 @@
 		<task>
 			<statement>
 				<p component="print">
-					<em>The problem continues ...</em>
+					<em>The problem continues <ellipsis /></em>
 				</p>
 				<p>
 					Skye designs the shirts and runs the press. Clover is the brains behind sales. She would like to price the shirts at $12.95 each. The sisters will make a profit of $<m>P</m> where <me>P = 5.45N-350</me>
