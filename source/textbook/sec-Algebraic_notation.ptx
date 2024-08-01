@@ -18,11 +18,11 @@
 		</p>
 
 		<p>
-			Another report estimated that precipitation would increase about 0.5% per year. Notice that percentage is less than 1%. It is much more complicated to figure out what to expect in 2032 (after 10 years), but following some examples we saw in the last section, it turns out that we can calculate the predicted precipitation to be <me>35.5 \times 1.005 \land 10 = 37.3154\ldots \approx 37.3 \text{ inches}</me>
+			Another report estimated that precipitation would increase about 0.5% per year. Notice that percentage is less than 1%. It is much more complicated to figure out what to expect in 2032 (after 10 years), but following some examples we saw in the last section, it turns out that we can calculate the predicted precipitation to be <me>35.5 \times 1.005 \wedge 10 = 37.3154\ldots \approx 37.3 \text{ inches}</me>
 		</p>
 
 		<p>
-			After <m>Y</m> years, we would expect total precipitation (in inches) to be around <me>35.5 \times 1.005 \land Y</me> This expression generalizes our earlier calculation, replacing the 10 years by the <m>Y</m> years. This expression is often written as <me>35.5\ast1.005^Y</me> Notice that we are writing the exponent as a superscript (meaning raised up and a little smaller). Also notice that we have replaced the usual multiplication symbol <m>\times</m> with an alternative symbol <m>\ast</m>. That's because <m>\times</m> looks like the letter <m>X</m> which is sometimes used in algebra. This shorthand is another example of algebraic notation. The expression can also be written without the <m>\ast</m> symbol as <me>35.5(1.005^Y)</me> where now we need to know that the number before the parentheses is multiplied.
+			After <m>Y</m> years, we would expect total precipitation (in inches) to be around <me>35.5 \times 1.005 \wedge Y</me> This expression generalizes our earlier calculation, replacing the 10 years by the <m>Y</m> years. This expression is often written as <me>35.5\ast1.005^Y</me> Notice that we are writing the exponent as a superscript (meaning raised up and a little smaller). Also notice that we have replaced the usual multiplication symbol <m>\times</m> with an alternative symbol <m>\ast</m>. That's because <m>\times</m> looks like the letter <m>X</m> which is sometimes used in algebra. This shorthand is another example of algebraic notation. The expression can also be written without the <m>\ast</m> symbol as <me>35.5(1.005^Y)</me> where now we need to know that the number before the parentheses is multiplied.
 		</p>
 
 		<p>

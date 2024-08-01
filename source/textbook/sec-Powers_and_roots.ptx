@@ -26,7 +26,7 @@
 		</p>
 
 		<p>
-			On a calculator we can use the <m>\land</m> key. Try for yourself: <me>2 \land 3 = \underbrace{2 \times 2 \times 2}_{3 \text{ times}} = 8</me> <me>5 \land 3 = \underbrace{5 \times 5 \times 5}_{3 \text{ times}} = 125</me> <me>10 \land 3 = \underbrace{10 \times 10 \times 10}_{3 \text{ times}} = 1000</me> No key marked <m>\land</m>? Look for a key marked <m>x^y</m> or <m>y^x</m> instead. Can't find that either? Ask a classmate or your instructor for help.
+			On a calculator we can use the <m>\wedge</m> key. Try for yourself: <me>2 \wedge 3 = \underbrace{2 \times 2 \times 2}_{3 \text{ times}} = 8</me> <me>5 \wedge 3 = \underbrace{5 \times 5 \times 5}_{3 \text{ times}} = 125</me> <me>10 \wedge 3 = \underbrace{10 \times 10 \times 10}_{3 \text{ times}} = 1000</me> No key marked <m>\wedge</m>? Look for a key marked <m>x^y</m> or <m>y^x</m> instead. Can't find that either? Ask a classmate or your instructor for help.
 		</p>
 
 		<p>
@@ -34,15 +34,15 @@
 		</p>
 
 		<p>
-			<me>3 \land 4 = \underbrace{3 \times 3 \times 3 \times 3}_{4 \text{ times}} = 81</me> <me>2 \land 10 = \underbrace{2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2}_{10 \text{ times}}= 1024</me> Speaking of which, Noah thought it was fitting it is that his mom was using mathematical higher powers to build the glass box since learning to trust in a spiritual higher power was so important to his recovery.
+			<me>3 \wedge 4 = \underbrace{3 \times 3 \times 3 \times 3}_{4 \text{ times}} = 81</me> <me>2 \wedge 10 = \underbrace{2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2}_{10 \text{ times}}= 1024</me> Speaking of which, Noah thought it was fitting it is that his mom was using mathematical higher powers to build the glass box since learning to trust in a spiritual higher power was so important to his recovery.
 		</p>
 
 		<p>
-			Noah would like the box to hold 1 gallon of beads which is about 231 cubic inches. What size cube box should his mom make? She wants a number, let's call it <m>n</m>, so that an <m>n \times n \times n</m> box will hold 231 cubic inches. That means she needs <me>n \times n \times n = 231</me> or, equivalently, <me>n \land 3 = 231</me>
+			Noah would like the box to hold 1 gallon of beads which is about 231 cubic inches. What size cube box should his mom make? She wants a number, let's call it <m>n</m>, so that an <m>n \times n \times n</m> box will hold 231 cubic inches. That means she needs <me>n \times n \times n = 231</me> or, equivalently, <me>n \wedge 3 = 231</me>
 		</p>
 
 		<p>
-			Noah's mom can try to guess what number <m>n</m> should be. She wants a box that's bigger than <m>5  \times 5 \times 5</m> but smaller than <m>10 \times 10 \times 10</m>. Her first guess is <m>n=7</m> inches, meaning the box will be <m>7 \times 7 \times 7</m>. That box would hold <me>7 \times 7 \times 7 = 7 \land 3 = 343 \text{ cubic inches}</me> which is too big. How about <m>n = 6.5</m> inches so the box would hold <me>6.5 \times 6.5 \times 6.5 = 6.5 \land 3  \approx 274 \text{ cubic inches}</me> which is still too big. After a few more guesses she tries <m>n = 6.2</m> so the box would hold <me>6.2 \times 6.2 \times 6.2 = 6.2 \land 3 \approx 238 \text{ cubic inches}</me> Aha! She will make a box that's approximately <m>6.2 \times 6.2 \times 6.2</m>.
+			Noah's mom can try to guess what number <m>n</m> should be. She wants a box that's bigger than <m>5  \times 5 \times 5</m> but smaller than <m>10 \times 10 \times 10</m>. Her first guess is <m>n=7</m> inches, meaning the box will be <m>7 \times 7 \times 7</m>. That box would hold <me>7 \times 7 \times 7 = 7 \wedge 3 = 343 \text{ cubic inches}</me> which is too big. How about <m>n = 6.5</m> inches so the box would hold <me>6.5 \times 6.5 \times 6.5 = 6.5 \wedge 3  \approx 274 \text{ cubic inches}</me> which is still too big. After a few more guesses she tries <m>n = 6.2</m> so the box would hold <me>6.2 \times 6.2 \times 6.2 = 6.2 \wedge 3 \approx 238 \text{ cubic inches}</me> Aha! She will make a box that's approximately <m>6.2 \times 6.2 \times 6.2</m>.
 		</p>
 
 		<p>
@@ -50,7 +50,7 @@
 		</p>
 
 		<p>
-			We can use our calculator to find roots. For example, if you have a key that says <m>\sqrt[x]{y}</m> then you can enter <me>3 \sqrt[x]{y} ~231 =  6.1357\ldots</me> Different calculators label the roots key differently. For example, you may have to use one of the 2nd, Shift, or Inv key with the <m>\land</m>, <m>y^x</m>, or <m>x^y</m> key. On a graphing calculator, you may have to enter MATH mode.
+			We can use our calculator to find roots. For example, if you have a key that says <m>\sqrt[x]{y}</m> then you can enter <me>3 \sqrt[x]{y} ~231 =  6.1357\ldots</me> Different calculators label the roots key differently. For example, you may have to use one of the 2nd, Shift, or Inv key with the <m>\wedge</m>, <m>y^x</m>, or <m>x^y</m> key. On a graphing calculator, you may have to enter MATH mode.
 		</p>
 
 		<p>
@@ -62,11 +62,11 @@
 		</p>
 
 		<p>
-			By the way, <m>n \land 3</m> is sometimes called <m>n</m> <term>cubed</term> and <m>\sqrt[3]{~}</m> is referred to as the <term>cube root</term>. That terminology comes from the fact that the <m>n \times n \times n</m> cube has volume <m>n \times n \times n = n \land 3</m>, as in our example. Also note that the units on volume which are inches <m>\times</m> inches <m>\times</m> inches are called <term>cubic inches</term>.
+			By the way, <m>n \wedge 3</m> is sometimes called <m>n</m> <term>cubed</term> and <m>\sqrt[3]{~}</m> is referred to as the <term>cube root</term>. That terminology comes from the fact that the <m>n \times n \times n</m> cube has volume <m>n \times n \times n = n \wedge 3</m>, as in our example. Also note that the units on volume which are inches <m>\times</m> inches <m>\times</m> inches are called <term>cubic inches</term>.
 		</p>
 
 		<p>
-			Similarly, <m>n \land 2</m> is called <m>n</m> <term>squared</term> and <m>\sqrt{~}</m> (which is shorthand for <m>\sqrt[2]{~}</m>) is referred to as the <term>square root</term>. Some calculators have a separate key for the square root. That terminology comes from the fact that an <m>n \times n</m> square has area <m>n \times n = n \land 2</m>. And a square that was <m>n \times n</m> in inches would have area measured in inches <m>\times</m> inches, which are called <term>square inches</term>.
+			Similarly, <m>n \wedge 2</m> is called <m>n</m> <term>squared</term> and <m>\sqrt{~}</m> (which is shorthand for <m>\sqrt[2]{~}</m>) is referred to as the <term>square root</term>. Some calculators have a separate key for the square root. That terminology comes from the fact that an <m>n \times n</m> square has area <m>n \times n = n \wedge 2</m>. And a square that was <m>n \times n</m> in inches would have area measured in inches <m>\times</m> inches, which are called <term>square inches</term>.
 		</p>
 	</introduction>
 	

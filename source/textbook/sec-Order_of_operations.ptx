@@ -117,24 +117,24 @@
 		</p>
 
 		<p>
-			The good news is that your calculator does the operations in exactly this order. For example, remember Jarron who was calculating his BMI? He entered <me>91.625 \div 1.93 \land 2 = 24.7479\ldots \approx 24.8</me> which is in the range considered healthy. Of course, there are many more factors to health besides height and weight. Like getting enough exercise is really important. But, back to the calculation, how did that work?
+			The good news is that your calculator does the operations in exactly this order. For example, remember Jarron who was calculating his BMI? He entered <me>91.625 \div 1.93 \wedge 2 = 24.7479\ldots \approx 24.8</me> which is in the range considered healthy. Of course, there are many more factors to health besides height and weight. Like getting enough exercise is really important. But, back to the calculation, how did that work?
 		</p>
 
 		<p>
-			According to the order of operations, the calculator did the exponent (<m>\land</m>) first and then the division (<m>\div</m>) second. Let's check it out:
+			According to the order of operations, the calculator did the exponent (<m>\wedge</m>) first and then the division (<m>\div</m>) second. Let's check it out:
 		</p>
 
 		<md>
-			<mrow>1.93 \land 2 \amp=\underline{3.7249}</mrow>
+			<mrow>1.93 \wedge 2 \amp=\underline{3.7249}</mrow>
 			<mrow>91.625 \div 3.7249\amp=\underline{24.7479\ldots}</mrow>
 		</md>
 
 		<p>
-			That's correct because exponents (<m>\land</m>) are higher priority in the order of operations than the other arithmetic operations (<m>\times, \div, +, -</m>).
+			That's correct because exponents (<m>\wedge</m>) are higher priority in the order of operations than the other arithmetic operations (<m>\times, \div, +, -</m>).
 		</p>
 
 		<p>
-			Remember that <m>1.93 \land 2</m> is short for <m>1.93\times 1.93</m>. Don't believe me? Try both on your calculator to see. Your calculator may have a key marked <m>\land</m> or it might be marked <m>y^x</m>. We will come back to exponents in more depth later.
+			Remember that <m>1.93 \wedge 2</m> is short for <m>1.93\times 1.93</m>. Don't believe me? Try both on your calculator to see. Your calculator may have a key marked <m>\wedge</m> or it might be marked <m>y^x</m>. We will come back to exponents in more depth later.
 		</p>
 
 		<p>

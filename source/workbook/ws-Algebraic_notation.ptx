@@ -23,7 +23,7 @@
     <exercise xml:id="wooden-balls-algebraic-notation" workspace="2.8in">
         <statement>
             <p>
-                Jody is using small wooden balls to make noses for her knitted gnomes. She figured out that she can calculate the weight of each ball (in ounces) as <m>0.2 \times B \land 3</m>. Write this expression in algebraic notation. <em>(Story also appears in <xref ref="wooden-balls-powers-roots"/>)</em>
+                Jody is using small wooden balls to make noses for her knitted gnomes. She figured out that she can calculate the weight of each ball (in ounces) as <m>0.2 \times B \wedge 3</m>. Write this expression in algebraic notation. <em>(Story also appears in <xref ref="wooden-balls-powers-roots"/>)</em>
             </p>
         </statement>
     </exercise>

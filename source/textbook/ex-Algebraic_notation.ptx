@@ -23,7 +23,7 @@
         <exercise xml:id="wooden-balls-algebraic-notation" workspace="2.8in">
             <statement>
                 <p>
-                    Jody is using small wooden balls to make noses for her knitted gnomes. She figured out that she can calculate the weight of each ball (in ounces) as <m>0.2 \times B \land 3</m>. Write this expression in algebraic notation. <em>(Story also appears in <xref ref="wooden-balls-powers-roots"/>)</em>
+                    Jody is using small wooden balls to make noses for her knitted gnomes. She figured out that she can calculate the weight of each ball (in ounces) as <m>0.2 \times B \wedge 3</m>. Write this expression in algebraic notation. <em>(Story also appears in <xref ref="wooden-balls-powers-roots"/>)</em>
                 </p>
             </statement>
         </exercise>
@@ -216,7 +216,7 @@
     <exercise xml:id="needlepoint-algebraic-notation" component="web">
         <introduction>
             <p>
-                Saboor is working on a needlepoint that will be 1 foot by 1 foot square. The mesh grid comes in different sizes. For example, a 13-count mesh has 13 holes per inch which is <m>13 \times 12=156</m> holes per foot. If she uses a 13-count mesh, then the piece will have <m>156 \times 156 = 156 \land 2 = 24,336</m> holes. There are other sizes mesh to choose from. A <m>C</m>-count mesh has <m>12C</m> holes per foot and <m>(12C)^2</m> holes total.
+                Saboor is working on a needlepoint that will be 1 foot by 1 foot square. The mesh grid comes in different sizes. For example, a 13-count mesh has 13 holes per inch which is <m>13 \times 12=156</m> holes per foot. If she uses a 13-count mesh, then the piece will have <m>156 \times 156 = 156 \wedge 2 = 24,336</m> holes. There are other sizes mesh to choose from. A <m>C</m>-count mesh has <m>12C</m> holes per foot and <m>(12C)^2</m> holes total.
             </p>
             
             <p>
@@ -247,7 +247,7 @@
         <task>
             <statement>
                 <p>
-                    If we forgot the parentheses and typed in <m>12 \times 10 \land 2</m>, what answer would we get and what is the calculator doing differently?
+                    If we forgot the parentheses and typed in <m>12 \times 10 \wedge 2</m>, what answer would we get and what is the calculator doing differently?
                 </p>
             </statement>
         </task>

@@ -9,7 +9,7 @@
         <exercise xml:id="wooden-balls-powers-roots" workspace="0.7in">
             <introduction>
                 <p>
-                    Jody is using small wooden balls to make noses for her knitted gnomes. She figured out that she can calculate the weight of each ball (in ounces) as <m>0.2 \times B \land 3</m> where <m>B</m> is the diameter of the ball (in inches). <em>(Story also appears in <xref ref="wooden-balls-algebraic-notation"/>)</em>
+                    Jody is using small wooden balls to make noses for her knitted gnomes. She figured out that she can calculate the weight of each ball (in ounces) as <m>0.2 \times B \wedge 3</m> where <m>B</m> is the diameter of the ball (in inches). <em>(Story also appears in <xref ref="wooden-balls-algebraic-notation"/>)</em>
                 </p>
             </introduction>
             <task>
@@ -30,7 +30,7 @@
         <exercise xml:id="pizza-diameter-powers-roots" workspace="0.7in">
             <introduction>
                 <p>
-                    The size of a round pizza is described by its diameter. It turns out that we can calculate how many people are served by a pizza of diameter <m>D</m> inches as <m>0.015625 \times D \land 2=</m>. For example, a 16-inch diameter pizza serves <m>0.015625 \times 16 \land 2 = 4</m> people. (The mysterious number 0.015625 comes from a little geometry and pizza science.)
+                    The size of a round pizza is described by its diameter. It turns out that we can calculate how many people are served by a pizza of diameter <m>D</m> inches as <m>0.015625 \times D \wedge 2=</m>. For example, a 16-inch diameter pizza serves <m>0.015625 \times 16 \wedge 2 = 4</m> people. (The mysterious number 0.015625 comes from a little geometry and pizza science.)
                 </p>
                 <p>
                     <em>
@@ -69,7 +69,7 @@
         <exercise xml:id="fiber-optic-powers-roots" workspace="2in"> 
             <statement>
                 <p>
-                    A signal sent down a fiber optic cable decreases by 2% per mile. That means after <m>M</m> miles, its strength is <m>\underbrace{0.98 \times 0.98 \times \cdots \times 0.98}_{M \text{ times}} = 0.98 \land M</m>. What is the signal strength after 10 miles? After 20 miles? Note: your answers should be decimal numbers less than 1.
+                    A signal sent down a fiber optic cable decreases by 2% per mile. That means after <m>M</m> miles, its strength is <m>\underbrace{0.98 \times 0.98 \times \cdots \times 0.98}_{M \text{ times}} = 0.98 \wedge M</m>. What is the signal strength after 10 miles? After 20 miles? Note: your answers should be decimal numbers less than 1.
                     <em>
                         (Story also appears in
                         <xref ref="fiber-optic-prelude-scientific-notation"/> and
@@ -141,7 +141,7 @@
     <exercise xml:id="needlepoint-powers-roots" component="web">
         <introduction>
             <p>
-                Saboor is working on a needlepoint that will be a 1 foot by 1 foot square. The mesh grid comes in different sizes. For example, a 13-count mesh has 13 holes per inch which is <m>13 \times 12 =  156</m> holes per foot. If she uses a 13-count mesh, then the piece will have <m>156 \times 156 = 156 \land 2 = 24,336</m> holes.
+                Saboor is working on a needlepoint that will be a 1 foot by 1 foot square. The mesh grid comes in different sizes. For example, a 13-count mesh has 13 holes per inch which is <m>13 \times 12 =  156</m> holes per foot. If she uses a 13-count mesh, then the piece will have <m>156 \times 156 = 156 \wedge 2 = 24,336</m> holes.
             </p>
             <p>
                 <em>(Story also appears in <xref ref="needlepoint-algebraic-notation"/>)</em>
@@ -195,7 +195,7 @@
         <task>
             <statement>
                 <p>
-                    In general, we can find the value of the silverware after <m>Y</m> years by calculating <me>800 \times \underbrace{1.03 \times 1.03 \times \cdots \times 1.03}_{Y \text{ times}} = 800 \times 1.03 \land Y =</me> Use this powers method to find the value of the sterling in 1957. Hint: <m>Y = 1957-1920 = 37</m> years.
+                    In general, we can find the value of the silverware after <m>Y</m> years by calculating <me>800 \times \underbrace{1.03 \times 1.03 \times \cdots \times 1.03}_{Y \text{ times}} = 800 \times 1.03 \wedge Y =</me> Use this powers method to find the value of the sterling in 1957. Hint: <m>Y = 1957-1920 = 37</m> years.
                 </p>
             </statement>
         </task>
