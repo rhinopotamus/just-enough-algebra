@@ -13,12 +13,12 @@
 
         <!-- Include chapters -->
 
-        <xi:include href="./textbook/ch-Prelude.ptx" />
-        <xi:include href="./textbook/ch-Variables.ptx" />
-        <xi:include href="./textbook/ch-Equations.ptx" />
-        <xi:include href="./textbook/ch-Solving_equations.ptx" />
-        <xi:include href="./textbook/ch-Closer_look_linear.ptx" />
-        <xi:include href="./textbook/ch-Closer_look_exponential.ptx" />
+        <xi:include href="./ch-Prelude.ptx" />
+        <xi:include href="./ch-Variables.ptx" />
+        <xi:include href="./ch-Equations.ptx" />
+        <xi:include href="./ch-Solving_equations.ptx" />
+        <xi:include href="./ch-Closer_look_linear.ptx" />
+        <xi:include href="./ch-Closer_look_exponential.ptx" />
 
         <!-- Backmatter -->
 
@@ -29,16 +29,16 @@
 
             <appendix xml:id="sec-PE6A">
                 <title>Practice Final Exam A</title>
-                <xi:include href="./textbook/ws-PE6A.ptx" />
+                <xi:include href="./ws-PE6A.ptx" />
             </appendix>
             <appendix xml:id="sec-PE6B">
                 <title>Practice Final Exam B</title>
-                <xi:include href="./textbook/ws-PE6B.ptx" />
+                <xi:include href="./ws-PE6B.ptx" />
             </appendix>
 
             <!-- templates and formulas -->
-            <xi:include href="./textbook/app-Templates.ptx" />
-            <xi:include href="./textbook/app-Formulas.ptx" />
+            <xi:include href="./app-Templates.ptx" />
+            <xi:include href="./app-Formulas.ptx" />
 
             <colophon>
                 <p> This book was authored in <pretext />. </p>
