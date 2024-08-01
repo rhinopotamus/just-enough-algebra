@@ -3,10 +3,10 @@
 
 
 <section xml:id="sec-Metric_system_and_scientific_notation" xmlns:xi="http://www.w3.org/2001/XInclude">
-	<title component="web">Metric prefixes and scientific notation</title>
-	<title component="print">Metric prefixes and scientific notation - Practice exercises</title>
+	<title component="not-workbook">Metric prefixes and scientific notation</title>
+	<title component="workbook">Metric prefixes and scientific notation - Practice exercises</title>
 
-	<introduction component="web">
+	<introduction component="not-workbook">
 		<p>
 			Tara is working on a big project at work. She wants to back up her files to her online drop box. The site says she has 72 GB of memory remaining. Tara has about 200 files at an average of 42.3 MB each that she would like to upload. Will she have room?
 		</p>
@@ -281,7 +281,7 @@
 		</p>
 	</introduction>
 	
-	<conclusion component="web">
+	<conclusion component="not-workbook">
 		<title>Do you know <ellipsis /></title>
 
 		<p>
@@ -296,7 +296,7 @@
 	<xi:include href="./WYD.ptx" />
 		
 		
-	<conclusion component="print">
+	<conclusion component="workbook">
 		<title>Do you know <ellipsis /></title>
 		<p>
 			<xi:include href="./dyk-Metric_system_and_scientific_notation.ptx" />

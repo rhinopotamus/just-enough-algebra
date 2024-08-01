@@ -361,7 +361,7 @@
 
 	
 
-	<exercise xml:id="earth-population-tables-graphs" component="web">
+	<exercise xml:id="earth-population-tables-graphs" component="not-workbook">
 		<introduction>
 			<p>
 				The table lists estimates of Earth's population, in billions, for select years since 1800.
@@ -456,7 +456,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="truck-rental-tables-graphs" component="web">
+	<exercise xml:id="truck-rental-tables-graphs" component="not-workbook">
 		<introduction>
 			<p>
 				Your local truck rental agency lists what it costs to rent a truck (for one day) based on the number of miles you drive the truck.
@@ -558,7 +558,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="temp-mpls-tables-graphs" component="web">
+	<exercise xml:id="temp-mpls-tables-graphs" component="not-workbook">
 		<introduction>
 			<p>
 				The temperature was 40<m>^\circ</m>F at noon yesterday downtown Minneapolis but it dropped 3<m>^\circ</m>F an hour in the afternoon. 
@@ -602,7 +602,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="social-security-tables-graphs" component="web">
+	<exercise xml:id="social-security-tables-graphs" component="not-workbook">
 		<introduction>
 			<p>
 				Mrs. Nystrom's Social Security benefit was $746.17/month when she retired from teaching in 2009. She had taught in elementary school since I was a girl. Benefits have increased by 4% per year. 
@@ -647,7 +647,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="heat-index-tables-graphs-ex" component="web">
+	<exercise xml:id="heat-index-tables-graphs-ex" component="not-workbook">
 		<introduction>
 			<p>
 				The table shows the <q>heat index</q> as a function of humidity at an air temperature of 88<m>^\circ</m>F. With up to about 40% humidity, 88<m>^\circ</m>F feels like it's 88<m>^\circ</m>F. But if the humidity rises to 60%, then it feels like it is 95<m>^\circ</m>F; that is, the heat index is 95<m>^\circ</m>F.

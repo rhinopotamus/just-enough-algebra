@@ -78,7 +78,7 @@
 		</task>
 		<task>
 			<statement>
-				<p component="print">
+				<p component="workbook">
 					<em>The problem continues <ellipsis /></em>
 				</p>
 				<p>
@@ -127,7 +127,7 @@
 		</task>
 		<task>
 			<statement>
-				<p component="print">
+				<p component="workbook">
 					<em>The problem continues <ellipsis /></em>
 				</p>
 				<p>

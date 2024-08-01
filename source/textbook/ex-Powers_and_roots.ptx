@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <exercises xml:id="ex-Powers_and_roots" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title component="web">Exercises</title>
+    <title component="not-workbook">Exercises</title>
 
     <xi:include href="ex-intro.ptx" />
 
@@ -103,7 +103,7 @@
 
     
 
-    <exercise xml:id="bead-cube-powers-roots" component="web">
+    <exercise xml:id="bead-cube-powers-roots" component="not-workbook">
         <introduction>
             <p>
                 Remember Noah's mom from our story? She was making a glass box that is <m>n \times n \times n</m> where the length <m>n</m> is measured in inches.
@@ -131,14 +131,14 @@
             </statement>
         </task>
     </exercise>
-    <exercise xml:id="creeping-charlie-powers-roots" component="web">
+    <exercise xml:id="creeping-charlie-powers-roots" component="not-workbook">
         <statement>
             <p>
                 Creeping Charlie is a low-growing weed that spreads quickly, doubling the area it covers each year. If there are 7 square feet of Creeping Charlie in my lawn now, how much of my lawn will be covered by Creeping Charlie in 1 year? In 2 years? In 10 years? (Try to answer that last one using powers.)
             </p>
         </statement>
     </exercise>
-    <exercise xml:id="needlepoint-powers-roots" component="web">
+    <exercise xml:id="needlepoint-powers-roots" component="not-workbook">
         <introduction>
             <p>
                 Saboor is working on a needlepoint that will be a 1 foot by 1 foot square. The mesh grid comes in different sizes. For example, a 13-count mesh has 13 holes per inch which is <m>13 \times 12 =  156</m> holes per foot. If she uses a 13-count mesh, then the piece will have <m>156 \times 156 = 156 \wedge 2 = 24,336</m> holes.
@@ -162,7 +162,7 @@
             </statement>
         </task>
     </exercise>
-    <exercise xml:id="sterling-silver-powers-roots" component="web">
+    <exercise xml:id="sterling-silver-powers-roots" component="not-workbook">
         <introduction>
             <p>
                 A set of sterling silverware was valued at $800 in 1920, and the value increased by around 3% per year thereafter. 

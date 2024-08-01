@@ -247,7 +247,7 @@
 
 	
 
-	<exercise xml:id="phelps-units" component="web">
+	<exercise xml:id="phelps-units" component="not-workbook">
 		<introduction>
 			<p>
 				In August 2008, United States swimmer Michael Phelps set the world record for the 200 meter individual medley swimming it in 1 minute, 54.80 seconds.
@@ -283,7 +283,7 @@
 			</task>
 	</exercise>
 			
-	<exercise xml:id="lochte-units" component="web">
+	<exercise xml:id="lochte-units" component="not-workbook">
 		<introduction>
 			<p>
 				In August 2012, Phelps improved his time and won Olympic gold, but failed to break the world record his teammate Ryan Lochte has set a year earlier of 1 minute, 54 seconds.
@@ -315,7 +315,7 @@
 			</task>
 	</exercise>
 
-	<exercise xml:id="assorted-1-units" component="web">
+	<exercise xml:id="assorted-1-units" component="not-workbook">
 		<task>
 			<statement>
 				<p>
@@ -341,7 +341,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="assorted-2-units" component="web">
+	<exercise xml:id="assorted-2-units" component="not-workbook">
 		<task>
 			<statement>
 				<p>
@@ -370,7 +370,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="pollution-spill-units" component="web">
+	<exercise xml:id="pollution-spill-units" component="not-workbook">
 		<introduction>
 			<p>
 				Authorities are tracking down the source of a pollution spill on a nearby river. They suspect that the local plant is inadvertently leaking waste water. Last week they found 35 minutes of waste water flow on Monday, 1 hour and 11 minutes on Tuesday, 1/4 hour on Wednesday (that's 0.25 hours in decimal), none on Thursday, and then 98 minutes Friday.
@@ -432,7 +432,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="heart-beats-units" component="web">
+	<exercise xml:id="heart-beats-units" component="not-workbook">
 		<statement>
 			<p>
 				If your heart beats around 70 times a minute, how many times does it beat in a week? A year?
@@ -440,7 +440,7 @@
 		</statement>	
 	</exercise>
 
-	<exercise xml:id="assorted-3-units" component="web">
+	<exercise xml:id="assorted-3-units" component="not-workbook">
 		<task>
 			<statement>
 				<p>

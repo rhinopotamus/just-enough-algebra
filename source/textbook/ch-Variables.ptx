@@ -3,7 +3,7 @@
 <chapter xml:id="ch-tx-Variables" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Variables</title>
 
-    <introduction component="web">
+    <introduction component="not-workbook">
         <p>
             Believe it or not, algebra is useful.  Really useful. It's useful in later courses you might take in mathematics, statistics, science, social science, or business.  But it's also useful in real life.  A lot of what happens in the world around us is easier to understand using algebra.  That's what this course is all about:  using algebra to answer questions.
         </p>

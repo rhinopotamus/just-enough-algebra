@@ -264,10 +264,10 @@
 			</row>
 			</tabular>
 			<p>
-				<em component="web">
+				<em component="not-workbook">
 					(Story also appears in <xref ref="iv-drip-approx-rounding"/>)
 				</em>
-				<em component="print">
+				<em component="workbook">
 					(Story also appears in <xref ref="sec-Approximation_and_rounding"/> Exercises)
 				</em>
 			</p>
@@ -312,7 +312,7 @@
 
 	
 
-	<exercise xml:id="file-size-scientific-notation" component="web">
+	<exercise xml:id="file-size-scientific-notation" component="not-workbook">
 		<task>
 			<statement>
 				<p>
@@ -338,7 +338,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="billion-seconds-scientific-notation" component="web">
+	<exercise xml:id="billion-seconds-scientific-notation" component="not-workbook">
 		<introduction>
 			<p>
 				<em>(Story also appears in <xref ref="billion-seconds-prelude-scientific-notation"/>)</em>
@@ -373,7 +373,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="proton-mass-scientific-notation" component="web">
+	<exercise xml:id="proton-mass-scientific-notation" component="not-workbook">
 		<introduction>
 			<p>
 				A proton has mass of about <m>1.67262 \times 10^{-27}</m> kg, while an electron has mass of about <m>9.10938 \times 10^{-31}</m> kg.
@@ -417,7 +417,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="serving-size-scientific-notation" component="web">
+	<exercise xml:id="serving-size-scientific-notation" component="not-workbook">
 		<introduction>
 			<p>
 				How many servings are in:
@@ -440,7 +440,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="cells-scientific-notation" component="web">
+	<exercise xml:id="cells-scientific-notation" component="not-workbook">
 		<introduction>
 			<p>
 				Rayka weighs 140 pounds. She would like to approximate how many cells are in her body. Use the following information: <m>1 \text{ cell} \approx 1 \times 10^{-15} \text{g}</m>, <m>1 \text{ kg} \approx \text{2.2 pounds}</m>, and, as always, 1 kg = 1,000 g.
@@ -467,7 +467,7 @@
 		</task>
 	</exercise>
 
-	<exercise xml:id="bmi-scientific-notation" component="web">
+	<exercise xml:id="bmi-scientific-notation" component="not-workbook">
 		<introduction>
 			<p>
 				<term>Body Mass Index</term> (BMI) is one indicator of whether a person is a healthy weight. BMI are between 18.5 and 24.9 are considered <q>normal</q>. Jared is 6<prime/>4<dblprime/> and weighs 200 pounds. He would like to calculate his BMI from this guide: <me>\text{BMI} = \text{weight in kilograms} \div \text{height in meters} \wedge 2</me>

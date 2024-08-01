@@ -121,7 +121,7 @@
         </task>
         <task workspace="1in">
             <statement>
-                <p component="print">
+                <p component="workbook">
                     <em>The problem continues <ellipsis /></em>
                 </p>
                 <p>

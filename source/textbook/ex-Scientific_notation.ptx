@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <exercises xml:id="ex-Scientific_notation" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title component="web">Exercises</title>
+    <title component="not-workbook">Exercises</title>
 
     <xi:include href="ex-intro.ptx" />
 
@@ -67,8 +67,8 @@
                         A proton (part of an atom) has mass of about <m>\mathbf{1.67262 \times 10^{-27}}</m> <term>kilograms</term>. 
                     </p>
                     <p>
-                        <em component="web">(Story also appears in <xref ref="proton-mass-scientific-notation"/>)</em>
-                        <em component="print">(Story also appears in <xref ref="sec-Metric_system_and_scientific_notation"/> Exercises)</em>
+                        <em component="not-workbook">(Story also appears in <xref ref="proton-mass-scientific-notation"/>)</em>
+                        <em component="workbook">(Story also appears in <xref ref="sec-Metric_system_and_scientific_notation"/> Exercises)</em>
                     </p>
                 </statement>
             </task>
@@ -142,7 +142,7 @@
    
     
 
-    <exercise xml:id="billion-seconds-prelude-scientific-notation" component="web">
+    <exercise xml:id="billion-seconds-prelude-scientific-notation" component="not-workbook">
         <introduction>
             <p>
                 <em>(Story also appears in <xref ref="billion-seconds-scientific-notation"/>)</em>
@@ -176,7 +176,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="planet-weight-prelude-scientific-notation" component="web">
+    <exercise xml:id="planet-weight-prelude-scientific-notation" component="not-workbook">
         <introduction>
             <p>
                 <em>(Story also appears in <xref ref="planet-weight-scientific-notation"/>)</em>
@@ -205,7 +205,7 @@
         </task>
     </exercise>
 
-    <exercise xml:id="virus-size-prelude-scientific-notation" component="web">
+    <exercise xml:id="virus-size-prelude-scientific-notation" component="not-workbook">
         <introduction>
             <p>
                 The SARS-CoV-2 virus is approximately 125 nanometers wide which is <m>\mathbf{125 \times 10^{-9}}</m> <term>meters</term> wide.
@@ -233,7 +233,7 @@
             </statement>
         </task>
     </exercise>
-    <exercise xml:id="cells-prelude-scientific-notation" component="web">
+    <exercise xml:id="cells-prelude-scientific-notation" component="not-workbook">
         <introduction>
             <p>
                 Rayka would like to approximate how many cells are in her body. Use the following information: Rayka weighs 140 pounds, <m>1 \text{ gram} \approx 10^{15} \text{ cells}</m> and <m>\text{1,000 grams} \approx \text{2.2 pounds}</m>. 

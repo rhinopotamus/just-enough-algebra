@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <exercises xml:id="ex-Order_of_operations" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title component="web">Exercises</title>
+    <title component="not-workbook">Exercises</title>
     <xi:include href="ex-intro.ptx" />
     <introduction>
         <p>
@@ -49,13 +49,13 @@
                 <q>Rose gold</q> is a mix of gold and copper.
             </p>
             <p>
-                <em component="web">
+                <em component="not-workbook">
                     (Story also appears in
                     <xref ref="rose-gold-algebraic-notation" />,
                     <xref ref="rose-gold-using-equations" />, and
                     <xref ref="check-linear-modeling-linear"/>)
                 </em>
-                <em component="print">
+                <em component="workbook">
                     (Story also appears in
                     <xref ref="rose-gold-algebraic-notation" />,
                     <xref ref="rose-gold-using-equations" />, and
@@ -135,7 +135,7 @@
 
     
 
-    <exercise xml:id="asian-students-order-operations" component="web">
+    <exercise xml:id="asian-students-order-operations" component="not-workbook">
         <statement>
             <p>
                 Recall that in the Asian student association there were 3 students Chinese students, 15 Hmong students, 11 Vietnamese students, and 5 students who do not identify with any of these ethnicities. What percentage of students in the group identify as Vietnamese?
@@ -143,7 +143,7 @@
         </statement>
     </exercise>
 
-    <exercise xml:id="savings-order-operations" component="web">
+    <exercise xml:id="savings-order-operations" component="not-workbook">
         <statement>
             <p>
                 Patience has been saving for a trip. She started her savings account with a deposit of $300. For the past 18 months she's been adding $250 per month. Unfortunately she needed to withdraw $1,080 for an unexpected car repair. She has earned a total of $43 interest. How much is in Patience's account now?
@@ -151,7 +151,7 @@
         </statement>
     </exercise>
 
-    <exercise xml:id="long-jump-order-operations" component="web">
+    <exercise xml:id="long-jump-order-operations" component="not-workbook">
         <introduction>
             <p>
                 Mike Powell has held the men's long jump record since 1991. He jumped an amazing 29 feet, 4<m>\frac{1}{4}</m> inches. We would like to write this length as a decimal number of feet.
@@ -195,7 +195,7 @@
         
     </exercise>
 
-    <exercise xml:id="water-radiator-order-operations" component="web">
+    <exercise xml:id="water-radiator-order-operations" component="not-workbook">
         <introduction>
             <p>
                 My house gets super dry in the winter, especially if we are away not cooking or using the shower. Last January I left a 5 quart pot full of water on my living room radiator for a week and when I got home there was perhaps 1 cup of water left.

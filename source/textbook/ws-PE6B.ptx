@@ -111,7 +111,7 @@
 		</task>
 		<task>
 			<statement>
-				<p component="print">
+				<p component="workbook">
 					<em>The problem continues <ellipsis /></em>
 				</p>
 				<p>
@@ -201,7 +201,7 @@
 		</task>
 		<task workspace="2in">
 			<statement>
-				<p component="print">
+				<p component="workbook">
 					<em>The problem continues <ellipsis /></em>
 				</p>
 
@@ -271,7 +271,7 @@
 		</task>
 		<task>
 			<statement>
-				<p component="print">
+				<p component="workbook">
 					<em>The problem continues <ellipsis /></em>
 				</p>
 				<p>
@@ -361,7 +361,7 @@
 		</task>
 		<task workspace="2.8in">
 			<statement>
-				<p component="print">
+				<p component="workbook">
 					<em>The problem continues <ellipsis /></em>
 				</p>
 				<p>
