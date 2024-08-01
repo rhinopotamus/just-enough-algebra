@@ -27,12 +27,9 @@
 
             <!-- practice exams -->
 
-            <appendix xml:id="sec-PE6A">
-                <title>Practice Final Exam A</title>
+            <appendix>
+                <title>Practice Final Exams</title>
                 <xi:include href="./ws-PE6A.ptx" />
-            </appendix>
-            <appendix xml:id="sec-PE6B">
-                <title>Practice Final Exam B</title>
                 <xi:include href="./ws-PE6B.ptx" />
             </appendix>
 

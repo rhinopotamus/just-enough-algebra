@@ -96,12 +96,6 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
     <xsl:text>]%&#xa;</xsl:text>
 </xsl:template>
 
-<!-- make worksheets have the same margins as everybody else, -->
-<!-- but keep the workspace struts -->
-
-<xsl:template match="worksheet" mode="new-geometry">
-</xsl:template>
-
 <!-- make <exercises> respect <page> -->
 
 <xsl:template match="exercises/page|worksheet/page">
@@ -153,50 +147,6 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
     </xsl:if>
 </xsl:template>
 
-<!-- make it so chapters get a pagebreak -->
-
-<!-- look for <xsl:text>\newpage&#xa;</xsl:text> -->
-<xsl:template match="chapter" mode="environment">
-    <!-- for specialized divisions we always make a numbered -->
-    <!-- and unnumbered version, with the latter happening   -->
-    <!-- on a second trip through the template               -->
-    <xsl:param name="second-trip" select="false()"/>
-
-    <xsl:variable name="elt-name" select="local-name(.)"/>
-    <!-- the (traditional) LaTex name of this division -->
-    <xsl:variable name="div-name">
-        <xsl:apply-templates select="." mode="division-name"/>
-    </xsl:variable>
-    <!-- explanatory string in preamble -->
-    <xsl:text>%% Environment for a PTX "</xsl:text>
-    <xsl:value-of select="$elt-name"/>
-    <xsl:text>" at the level of a LaTeX "</xsl:text>
-    <xsl:value-of select="$div-name"/>
-    <xsl:text>"&#xa;</xsl:text>
-    <!-- Define implementation of a 5-argument environment          -->
-    <!-- Template ensures consistency of definition and application -->
-    <xsl:text>\NewDocumentEnvironment{</xsl:text>
-    <xsl:apply-templates select="." mode="division-environment-name"/>
-    <xsl:text>}{mmmmmmm}&#xa;</xsl:text>
-    <xsl:text>{%&#xa;</xsl:text>
-    <!-- load 6 macros with values, for style writer use -->
-    <xsl:text>\renewcommand{\divisionnameptx}{#1}%&#xa;</xsl:text>
-    <xsl:text>\renewcommand{\titleptx}{#2}%&#xa;</xsl:text>
-    <xsl:text>\renewcommand{\subtitleptx}{#3}%&#xa;</xsl:text>
-    <xsl:text>\renewcommand{\shortitleptx}{#4}%&#xa;</xsl:text>
-    <xsl:text>\renewcommand{\authorsptx}{#5}%&#xa;</xsl:text>
-    <xsl:text>\renewcommand{\epigraphptx}{#6}%&#xa;</xsl:text>
-    <!-- invoke the right LaTeX division, causes title format -->
-    <!-- and spacing, along with setting running heads        -->
-    <xsl:text>\</xsl:text>
-    <xsl:value-of select="$div-name"/>
-    <xsl:text>[{#4}]{#2}%&#xa;</xsl:text>
-    <xsl:text>\newpage&#xa;</xsl:text> 
-    <xsl:text>\label{#7}%&#xa;</xsl:text>
-    <!-- close the environment definition, no finish -->
-    <xsl:text>}{}%&#xa;</xsl:text>
-</xsl:template>
-
 <!-- make it so exercises divisions don't have a title -->
 
 <xsl:template match="exercises" mode="environment">
@@ -244,7 +194,7 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
     </xsl:if>
 </xsl:template>
 
-<!-- make it so sections end with a pagebreak -->
+<!-- make it so sections BEGIN with a pagebreak -->
 
 <xsl:template match="section" mode="environment">
     <!-- for specialized divisions we always make a numbered -->
@@ -276,14 +226,15 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
     <xsl:text>\renewcommand{\shortitleptx}{#4}%&#xa;</xsl:text>
     <xsl:text>\renewcommand{\authorsptx}{#5}%&#xa;</xsl:text>
     <xsl:text>\renewcommand{\epigraphptx}{#6}%&#xa;</xsl:text>
+    <!-- send a newpage, -->
     <!-- invoke the right LaTeX division, causes title format -->
     <!-- and spacing, along with setting running heads        -->
-    <xsl:text>\</xsl:text>
+    <xsl:text>\newpage \</xsl:text>
     <xsl:value-of select="$div-name"/>
     <xsl:text>[{#4}]{#2}%&#xa;</xsl:text>
     <xsl:text>\label{#7}%&#xa;</xsl:text>
-    <!-- close the environment definition, add newpage to finish -->
-    <xsl:text>}{\newpage}%&#xa;</xsl:text>
+    <!-- close the environment definition, no finish -->
+    <xsl:text>}{}%&#xa;</xsl:text>
 </xsl:template>
 
 <!-- kill trailing period on conclusions "When you're done ..." etc -->

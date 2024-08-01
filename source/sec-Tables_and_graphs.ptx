@@ -20,6 +20,11 @@
 		<p>
 			The table showing the smoking rate for select years. The smoking rate is the average cigarettes per year per person (adults).
 		</p>
+		<aside>
+			<p>
+				Source: Centers for Disease Control and Prevention
+			</p>
+		</aside>
 
 
 		<tabular bottom="minor" top="minor">
@@ -51,17 +56,16 @@
 			</row>
 		</tabular>
 
-		<aside>
-			<p>
-				Source: Center for Disease Control and Prevention
-			</p>
-		</aside>
-
 		<p>
-			To make sense of these numbers, suppose there are five friends. Three don't smoke at all, so that is 0 cigarettes in a year. Another smokes only occasionally, maybe 100 cigarettes a year. The fifth smokes <q>a pack a day,</q> which adds up to 7,300 cigarettes in a year because <me>\frac{1\text{ pack}}{\text{day}} \ast \frac{20\text{ cigarettes}}{\text{pack}} 
-	\ast \frac{365 \text{ days}}{\text{year}} 
-	=20 \times 365
-	= \frac{7,300 \text{ cigarettes}}{\text{year}}</me> (Not sure about this calculation? Not to worry. More about unit conversions in §1.4.) These five people smoke a total of <me>0+0+0+100+7,300=7,400 \text{ cigarettes per year}</me> so when we divide by the number of people we get <me>\frac{7,400 \text{ cigarettes per year}}{5 \text{ people}} = 7,400 \div 5 =1,480 \text{ cigarettes per year per person}</me> which is less than the average of 1,619 cigarettes per year per person for 2006 (the last year the CDC published the data), which is the way things seem to be heading.
+			To make sense of these numbers, suppose there are five friends. Three don't smoke at all, so that is 0 cigarettes in a year. Another smokes only occasionally, maybe 100 cigarettes a year. The fifth smokes <q>a pack a day,</q> which adds up to 7,300 cigarettes in a year because 
+			<me>
+				\frac{1\text{ pack}}{\text{day}} \ast 
+				\frac{20\text{ cigarettes}}{\text{pack}} \ast 
+				\frac{365 \text{ days}}{\text{year}} 	
+				= 20 \times 365	
+				= \frac{7,300 \text{ cigarettes}}{\text{year}}
+			</me> 
+			(Not sure about this calculation? Not to worry. More about unit conversions in <xref ref="sec-Units" text="type-global"/>.) These five people smoke a total of <me>0+0+0+100+7,300=7,400 \text{ cigarettes per year}</me> so when we divide by the number of people we get <me>\frac{7,400 \text{ cigarettes per year}}{5 \text{ people}} = 7,400 \div 5 =1,480 \text{ cigarettes per year per person}</me> which is less than the average of 1,619 cigarettes per year per person for 2006 (the last year the CDC published the data), which is the way things seem to be heading.
 		</p>
 
 		<p>
