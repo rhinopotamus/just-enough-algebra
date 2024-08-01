@@ -56,7 +56,7 @@
 	<exercise xml:id="porch-linear-PE3B">
 		<introduction>
 			<p>
-				Best we can tell, the floor of our front porch was 7'2" above ground when the house was built. It has been slowly sinking ever since. The contractor estimated that it's dropped 0.45 inches per year. The equation is <me>P = 86-0.45A</me> where <m>P</m> is the height of the porch (in inches) and <m>A</m> is the age of the house (in years).
+				Best we can tell, the floor of our front porch was 7<prime/>2<dblprime/> above ground when the house was built. It has been slowly sinking ever since. The contractor estimated that it's dropped 0.45 inches per year. The equation is <me>P = 86-0.45A</me> where <m>P</m> is the height of the porch (in inches) and <m>A</m> is the age of the house (in years).
 			</p>
 		</introduction>
 		<task workspace="1.5in">

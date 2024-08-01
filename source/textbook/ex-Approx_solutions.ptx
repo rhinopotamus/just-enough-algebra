@@ -436,7 +436,7 @@
 	<exercise xml:id="gravel-path-approx-solutions" component="web">
 		<introduction>
 			<p>
-				Urban community gardens are catching on. What was once an abandoned lot down the block is now a thriving 10'<m>\times</m>25' vegetable and berry garden for the neighborhood. One neighbor volunteered to donate gravel to make a path around the garden. The path will be 3 inches deep and the same width all around. The amount of gravel they need (<m>G</m> cubic feet) is given by the equation <me>G = W^2 + 17.5W</me> where <m>W</m> is the width of the path in feet.
+				Urban community gardens are catching on. What was once an abandoned lot down the block is now a thriving 10<prime/><m>\times</m>25<prime/> vegetable and berry garden for the neighborhood. One neighbor volunteered to donate gravel to make a path around the garden. The path will be 3 inches deep and the same width all around. The amount of gravel they need (<m>G</m> cubic feet) is given by the equation <me>G = W^2 + 17.5W</me> where <m>W</m> is the width of the path in feet.
 			</p>
 			
 	

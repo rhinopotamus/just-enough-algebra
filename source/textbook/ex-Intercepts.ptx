@@ -336,7 +336,7 @@
 	<exercise xml:id="beach-erosion-intercepts" component="web">
 		<introduction>
 			<p>
-				The public beach near Paloma's house has lost about 3'9" feet a year of beach depth (measured from the dunes to the high water mark) due to erosion since they started keeping records 60 years ago. Currently it's 210 feet deep.
+				The public beach near Paloma's house has lost about 3<prime/>9<dblprime/> feet a year of beach depth (measured from the dunes to the high water mark) due to erosion since they started keeping records 60 years ago. Currently it's 210 feet deep.
 			</p>
 			
 			<p>
@@ -348,7 +348,7 @@
 		<task>
 			<statement>
 				<p>
-					The county is considering filling in sand to offset the erosion, back to the historical mark (60 years ago). How deep was it then? Notice that you need to convert 3'9" to (decimal) feet first.
+					The county is considering filling in sand to offset the erosion, back to the historical mark (60 years ago). How deep was it then? Notice that you need to convert 3<prime/>9<dblprime/> to (decimal) feet first.
 				</p>
 			</statement>
 		</task>

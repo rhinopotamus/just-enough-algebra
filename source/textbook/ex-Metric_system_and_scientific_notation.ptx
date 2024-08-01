@@ -470,7 +470,7 @@
 	<exercise xml:id="bmi-scientific-notation" component="web">
 		<introduction>
 			<p>
-				<term>Body Mass Index</term> (BMI) is one indicator of whether a person is a healthy weight. BMI are between 18.5 and 24.9 are considered <q>normal</q>. Jared is 6'4" and weighs 200 pounds. He would like to calculate his BMI from this guide: <me>\text{BMI} = \text{weight in kilograms} \div \text{height in meters} \wedge 2</me>
+				<term>Body Mass Index</term> (BMI) is one indicator of whether a person is a healthy weight. BMI are between 18.5 and 24.9 are considered <q>normal</q>. Jared is 6<prime/>4<dblprime/> and weighs 200 pounds. He would like to calculate his BMI from this guide: <me>\text{BMI} = \text{weight in kilograms} \div \text{height in meters} \wedge 2</me>
 			</p>
 			<aside>
 				<p>

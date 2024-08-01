@@ -133,7 +133,7 @@
 		<task>
 			<statement>
 				<p>
-					The couch Stetson wanted to buy is 92" long and 44" tall. 
+					The couch Stetson wanted to buy is 92<dblprime/> long and 44<dblprime/> tall. 
 					Convert the length and height to feet and inches.
 				</p>
 			</statement>
@@ -142,14 +142,14 @@
 			<statement>
 				<p>
 					Abdi volunteers at a food bank. He noticed that the shelf on the back wall 
-					was bending so he measured its length at 12'5". 
+					was bending so he measured its length at 12<prime/>5<dblprime/>. 
 					The formula for load needs the length written as a decimal. 
 					Convert the length to a decimal number of feet.
 				</p>
 			</statement>
 			<!-- <hint>
 				<p>
-					The answer isn't 12.5 feet! (That would be 12'6".)
+					The answer isn't 12.5 feet! (That would be 12<prime/>6<dblprime/>.)
 				</p>
 			</hint> -->
 		</task>

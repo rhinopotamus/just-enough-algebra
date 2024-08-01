@@ -215,7 +215,7 @@
 				<mrow> \amp= 3 + 15 \times \underline{0.46875} - 16 \times \underline{0.46875} \wedge 2</mrow>
 				<mrow> \amp= 6.515625\ldots \approx 6.516 \text{ feet}</mrow>
 			</md>
-			Claude throws the beanbag about 6.516 feet up. Converting to more normal units we get <me>0.516 \cancel{\text{ feet}} \ast \frac{12 \text{ inches}}{\cancel{\text{ feet}}} = 0.516 \times 12 = 6.192 \approx 6 \text{ inches}</me> The beanbag goes up to about 6'6". You can check that the graph shows just over 6.5 feet.
+			Claude throws the beanbag about 6.516 feet up. Converting to more normal units we get <me>0.516 \cancel{\text{ feet}} \ast \frac{12 \text{ inches}}{\cancel{\text{ feet}}} = 0.516 \times 12 = 6.192 \approx 6 \text{ inches}</me> The beanbag goes up to about 6<prime/>6<dblprime/>. You can check that the graph shows just over 6.5 feet.
 		</p>
 
 		<p>

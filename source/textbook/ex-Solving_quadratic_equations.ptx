@@ -188,7 +188,7 @@
 		<exercise xml:id="gravel-path-quadratic" workspace="0.7in">
 			<introduction>
 				<p>
-					Urban community gardens are catching on. What was once an abandoned lot down the block is now a thriving 10'<m>\times</m>25' vegetable and berry garden for the neighborhood. One neighbor volunteered to donate gravel to make a path around the garden. The path will be 3 inches deep and the same width all around.
+					Urban community gardens are catching on. What was once an abandoned lot down the block is now a thriving 10<prime/><m>\times</m>25<prime/> vegetable and berry garden for the neighborhood. One neighbor volunteered to donate gravel to make a path around the garden. The path will be 3 inches deep and the same width all around.
 				</p>
 				<image source='GravelPath.png'/>
 				<p>
