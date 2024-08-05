@@ -10,7 +10,7 @@
         <author>
             <personname>Dr. Suzanne Dorée</personname>
             <department>Professor of Mathematics</department>
-            <institution>Augsburg College</institution>
+            <institution>Augsburg University</institution>
         </author>
         <author>
             <personname>Dr. Spencer Bagley</personname>
@@ -48,6 +48,9 @@
         <p>
             A special thanks to Dean Barbara Farley, Augsburg's Center for Teaching and Learning, and Augsburg's Undergraduate Research and Graduate Opportunity program for supporting my work through sabbaticals, travel grants, and summer research grants for both me and students.
         </p>
+        <attribution>
+            <line>Dr. Suzanne Dorée, Augsburg University</line>
+        </attribution>
     </acknowledgement>
 
     <preface>
@@ -112,6 +115,9 @@
                 My greatest success in teaching this course has been to give students room to figure things out for themselves, so try to resist the temptation to show them one of everything. Listen to your students and help them understand the algebra in their own vocabulary. You will be impressed.
             </p>
         </paragraphs>
+        <attribution>
+            <line>Dr. Suzanne Dorée, Augsburg University</line>
+        </attribution>
     </preface>
         
 </frontmatter>
