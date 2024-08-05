@@ -52,7 +52,7 @@
         <!-- start chapter numbering at 0 -->
         <divisions 
             chapter-start="0" 
-            level="3"/>
+            level="2"/>
         <!-- The next elements say how the levels deep to break up the    -->
         <!-- numbering of the respective elements. Can't be more than the -->
         <!-- @level on divisions above.                                   -->
@@ -63,6 +63,7 @@
     </numbering>
 
     <html>
+        <index-page ref="just-enough-algebra"/>
         <platform host="web"/>
         <!-- The host above could also be "runestone" -->
 

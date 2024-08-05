@@ -5,8 +5,8 @@
     <xi:include href="./docinfo.ptx" />
 
     <book xml:id="just-enough-algebra">
+        <!-- This xml:id points to the table of contents. -->
         <title>Just Enough Algebra</title>
-        <!-- <subtitle>pretext workbook conversion</subtitle> -->
 
         <!-- Include frontmatter -->
         <xi:include href="./frontmatter.ptx" />

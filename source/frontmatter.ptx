@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- This frontmatter division will contain all content before the -->
-<!-- first chapter. Fill in and comment/uncomment to see how this -->
-<!-- works. -->
 
 <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
-    <title>Just Enough Algebra</title>
+    <title>Front Matter</title>
 
     <titlepage>
         <author>
@@ -53,68 +50,72 @@
         </attribution>
     </acknowledgement>
 
-    <preface>
-        <paragraphs>    
-            <title>Why <em>Just Enough Algebra</em>?</title>
-            <p>
-                In 1994, my colleagues at Augsburg College and I had a vision for a new course to replace our intermediate algebra course. We wanted a college level course that would serve primarily as preparation for quantitative courses across the curriculum. The framing question that led to our curricular adventure of the past three decades was
-            </p>
+    <preface xml:id="preface-why-this-book">
+        <title>Why <em>Just Enough Algebra</em>?</title>
+        <p>
+            In 1994, my colleagues at Augsburg College and I had a vision for a new course to replace our intermediate algebra course. We wanted a college level course that would serve primarily as preparation for quantitative courses across the curriculum. The framing question that led to our curricular adventure of the past three decades was
+        </p>
         
-            <blockquote>
-                    <p>
-                        What algebra do college students need to know, and how can we make it relevant to their future studies, their lives as citizens, and their everyday life?
-                    </p>
-            </blockquote>
-        
+        <blockquote>
             <p>
-                From these questions <em>Just enough algebra</em> was born.
+                What algebra do college students need to know, and how can we make it relevant to their future studies, their lives as citizens, and their everyday life?
             </p>
+        </blockquote>
         
-            <p>
-                As you will see, everything we do is in some applied context. Our choice to focus primarily on linear and exponential models; to emphasize verbal, numerical, and graphical interpretation of functions; and to include only the most essential symbolic techniques align well with curricular guides from the MAA
-                <fn>		
-                    <p>
-                        <em>Curricular Guide</em>, Committee on the Undergraduate Mathematics Program (CUPM) and <em>Curriculum Foundations Project: Voices of the Partner Disciplines</em>, Curriculum Renewal Across the First Two Years (CRAFTY), Mathematical Association of America (MAA), 2004 and CRAFTY's <em>Recommendations for College Algebra</em>, 2007
-                    </p>
-                </fn> 
-                and AMATYC
-                <fn>		
-                    <p>
-                        <em>Crossroads in Mathematics Standards for Introductory College Mathematics Before Calculus</em>, American Mathematical Association of Two-Year Colleges (AMATYC), 1995 and the follow up <q>Beyond Crossroads</q> report, AMATYC, 2006.
-                    </p>
-                </fn>
-                . More importantly, it works. Student learn a lot in this course. They are ready for what comes next. And, they enjoy it.
-            </p>
-        </paragraphs>
-
+        <p>
+            From these questions <em>Just enough algebra</em> was born.
+        </p>
+        
+        <p>
+            As you will see, everything we do is in some applied context. Our choice to focus primarily on linear and exponential models; to emphasize verbal, numerical, and graphical interpretation of functions; and to include only the most essential symbolic techniques align well with curricular guides from the MAA
+            <fn>		
+                <p>
+                    <em>Curricular Guide</em>, Committee on the Undergraduate Mathematics Program (CUPM) and <em>Curriculum Foundations Project: Voices of the Partner Disciplines</em>, Curriculum Renewal Across the First Two Years (CRAFTY), Mathematical Association of America (MAA), 2004 and CRAFTY's <em>Recommendations for College Algebra</em>, 2007
+                </p>
+            </fn> 
+            and AMATYC
+            <fn>		
+                <p>
+                    <em>Crossroads in Mathematics Standards for Introductory College Mathematics Before Calculus</em>, American Mathematical Association of Two-Year Colleges (AMATYC), 1995 and the follow up <q>Beyond Crossroads</q> report, AMATYC, 2006.
+                </p>
+            </fn>
+            . More importantly, it works. Student learn a lot in this course. They are ready for what comes next. And, they enjoy it.
+        </p>
+        <attribution>
+            <line>Dr. Suzanne Dorée, Augsburg University</line>
+        </attribution>
+    </preface>
     
-        <paragraphs>
-            <title>To the student</title>
-            <p>
-                This textbook is written for you. 
-            </p>
-            <p>
-                Read the narrative examples, listen to examples in class, try the practice exercises, check with classmates or your instructor, then work the exercises in this textbook, then chat with classmates again, then do more problems <ellipsis/> Well, you get the idea: the best way to learn mathematics is to do it yourself. 
-            </p>
-            <p>
-                I hope you enjoy the course. I know you will learn a lot of useful algebra. I believe it will change how you see mathematics.
-            </p>
-        </paragraphs>
-        <paragraphs>
-            <title>To the instructor</title>
-            <p>
-                This textbook is written for students. That means you won't find list of student learning objectives anywhere, although I'm sure you can infer them from the student-focused <q>Do you know <ellipsis/></q> questions in each section. While the narrative examples develop the main theme of each section, I've deliberately left some variations for the practice exercises (#1-4 in each section). These practice exercises are designed to be started during class and are printed in a separate workbook for that purpose. Hand-written solutions to the practice exercises are available (in electronic format) for students to check their work, whether in class or at home.
-            </p>
-            <p>
-                At Augsburg College we usually begin class with a brief entrance quiz on the previous section or some other activity to review. Next, the instructor presents one well-chosen example illustrating the main theme of the new section and works through that problem on the board, with students helping with the calculations along the way. For me, part of the fun of teaching this course is creating lecture examples from the day's news or connected to popular culture, but in a pinch there is often an exercise in the textbook that can be used for that purpose.
-            </p>
-            <p>
-                Then, students work with a classmate on the practice exercises (#1-4 in each section) while the instructor circulates to answer questions and help students stay on task. The first exercise in each section of the workbook parallels the main theme, but I've deliberately left some variations for students to discover in the second and third exercises. The fourth exercise varies, but often wanders a bit off the main path. We normally budget 30 minutes of class time for student work. This timing allows nearly all students to finish at least the first exercise and check their solution; most students finish two or three exercises; and even our fastest students rarely finish all four exercises in under 30 minutes.
-            </p>
-            <p>
-                My greatest success in teaching this course has been to give students room to figure things out for themselves, so try to resist the temptation to show them one of everything. Listen to your students and help them understand the algebra in their own vocabulary. You will be impressed.
-            </p>
-        </paragraphs>
+    <preface xml:id="preface-for-students">
+        <title>Students! Read this!</title>
+        <p>
+            This textbook is written for you. 
+        </p>
+        <p>
+            Read the narrative examples, listen to examples in class, try the practice exercises, check with classmates or your instructor, then work the exercises in this textbook, then chat with classmates again, then do more problems <ellipsis/> Well, you get the idea: the best way to learn mathematics is to do it yourself. 
+        </p>
+        <p>
+            I hope you enjoy the course. I know you will learn a lot of useful algebra. I believe it will change how you see mathematics.
+        </p>
+        <attribution>
+            <line>Dr. Suzanne Dorée, Augsburg University</line>
+        </attribution>
+    </preface>
+
+    <preface xml:id="preface-for-instructors">
+        <title>Instructors! Read this!</title>
+        <p>
+            This textbook is written for students. That means you won't find list of student learning objectives anywhere, although I'm sure you can infer them from the student-focused <q>Do you know <ellipsis/></q> questions in each section. While the narrative examples develop the main theme of each section, I've deliberately left some variations for the practice exercises (#1-4 in each section). These practice exercises are designed to be started during class and are printed in a separate workbook for that purpose. Hand-written solutions to the practice exercises are available (in electronic format) for students to check their work, whether in class or at home.
+        </p>
+        <p>
+            At Augsburg College we usually begin class with a brief entrance quiz on the previous section or some other activity to review. Next, the instructor presents one well-chosen example illustrating the main theme of the new section and works through that problem on the board, with students helping with the calculations along the way. For me, part of the fun of teaching this course is creating lecture examples from the day's news or connected to popular culture, but in a pinch there is often an exercise in the textbook that can be used for that purpose.
+        </p>
+        <p>
+            Then, students work with a classmate on the practice exercises (#1-4 in each section) while the instructor circulates to answer questions and help students stay on task. The first exercise in each section of the workbook parallels the main theme, but I've deliberately left some variations for students to discover in the second and third exercises. The fourth exercise varies, but often wanders a bit off the main path. We normally budget 30 minutes of class time for student work. This timing allows nearly all students to finish at least the first exercise and check their solution; most students finish two or three exercises; and even our fastest students rarely finish all four exercises in under 30 minutes.
+        </p>
+        <p>
+            My greatest success in teaching this course has been to give students room to figure things out for themselves, so try to resist the temptation to show them one of everything. Listen to your students and help them understand the algebra in their own vocabulary. You will be impressed.
+        </p>
         <attribution>
             <line>Dr. Suzanne Dorée, Augsburg University</line>
         </attribution>
