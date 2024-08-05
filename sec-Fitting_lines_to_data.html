@@ -526,15 +526,15 @@ window.MathJax = {
 <div class="para">To improve this estimate, Thanh decides to use a linear model, hoping that will account for both road length influence and fixed factors. He begins by finding the slope.</div>
 <div class="displaymath process-math" id="sec-Fitting_lines_to_data-2-10-1">
 \begin{align*}
-\text{slope} \amp = \text{rate of change} = \frac{\text{change dep}}{\text{change indep}} = \frac{14,700\text{ tons/year}-5,000 \text{ tons/year}}{710\text{ lane miles}-510 \text{ lane miles}}\\
-\amp = (14,700-5,000)\div(710-510)= 48.5 \text{ tons/year per lane mile} 
+\text{slope} \amp = \text{rate of change} = \frac{\text{change dep}}{\text{change indep}} = \frac{14{,}700\text{ tons/year}-5{,}000 \text{ tons/year}}{710\text{ lane miles}-510 \text{ lane miles}}\\
+\amp = (14{,}700-5{,}000)\div(710-510)= 48.5 \text{ tons/year per lane mile} 
 \end{align*}
 </div>
 </div> <div class="para logical" id="sec-Fitting_lines_to_data-2-11">
 <div class="para">Next he calculates the intercept.</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\text{intercept} = \text{dep} -\text{slope}\ast\text{indep}=  5,000 - 48.5\times 510= -19,735 \text{ tons/year}
+\text{intercept} = \text{dep} -\text{slope}\ast\text{indep}=  5{,}000 - 48.5\times 510= -19{,}735 \text{ tons/year}
 \end{equation*}
 </div>
 <div class="para">He was not expecting a negative value but decides to use it anyway. Using the template for a linear equation</div>
@@ -546,26 +546,26 @@ window.MathJax = {
 <div class="para">Thanh gets</div>
 <div class="displaymath process-math">
 \begin{equation*}
-S = -19,735 + 48.5L
+S = -19{,}735 + 48.5L
 \end{equation*}
 </div>
 <div class="para">which he rewrites as</div>
 <div class="displaymath process-math">
 \begin{equation*}
-S = 48.5L-19,735
+S = 48.5L-19{,}735
 \end{equation*}
 </div>
 <div class="para">As a check, for <span class="process-math">\(L=710\)</span> lane miles, he gets</div>
 <div class="displaymath process-math">
 \begin{equation*}
-S=48.5 \times \underline{710}-19,735=14,700 \text{ tons/year}\quad \checkmark
+S=48.5 \times \underline{710}-19{,}735=14{,}700 \text{ tons/year}\quad \checkmark
 \end{equation*}
 </div>
 </div> <div class="para logical" id="sec-Fitting_lines_to_data-2-12">
 <div class="para">More importantly, for 600 miles his equation gives the estimate of</div>
 <div class="displaymath process-math">
 \begin{equation*}
-S=48.5 \times \underline{600}-19,735=9,365\text{ tons/year}
+S=48.5 \times \underline{600}-19{,}735=9{,}365\text{ tons/year}
 \end{equation*}
 </div>
 <div class="para">Thanh rounds this estimate to 9,400 tons/year of road salt for County X, which is close to his initial guess of 9,000 tons/year.</div>
@@ -592,7 +592,7 @@ S=48.5 \times \underline{600}-19,735=9,365\text{ tons/year}
 <div class="para">Which line to use? One option would be to stick with the line he found through the points for Counties T and A:</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\textbf{T-A line:} \quad S = 48.5L-19,735
+\textbf{T-A line:} \quad S = 48.5L-19{,}735
 \end{equation*}
 </div>
 <div class="para">He redraws the scatter plot to show that line. Because the intercept is negative, it doesn’t show up on his graph. The line seems to be too low at first and too high later. The problem is that this line is too steep (has too large a slope).</div>
@@ -600,7 +600,7 @@ S=48.5 \times \underline{600}-19,735=9,365\text{ tons/year}
 <div class="para">Thanh decides to try a line that is less steep. After drawing in a few lines, he decides to try the line between the points for Counties C and D instead, which has equation</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\textbf{C-D line:} \quad S = 20.26L-4,610
+\textbf{C-D line:} \quad S = 20.26L-4{,}610
 \end{equation*}
 </div>
 <div class="para">Unfortunately this line seems too low. (Again the negative intercept isn’t visible.)</div>
@@ -608,7 +608,7 @@ S=48.5 \times \underline{600}-19,735=9,365\text{ tons/year}
 <div class="para">Neither of these lines came close to the point for County H on the far right, so Thanh considers one more line, this time through County H and County R, which has equation</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\textbf{H-R line:} \quad S = 8.71L+3,130
+\textbf{H-R line:} \quad S = 8.71L+3{,}130
 \end{equation*}
 </div>
 <div class="para">This line has a positive intercept just above 3,000 tons/year, as you can see on the graph.</div>
@@ -616,7 +616,7 @@ S=48.5 \times \underline{600}-19,735=9,365\text{ tons/year}
 <div class="para">Thanh thinks the H-R line is reasonable, but it makes him wonder how to decide if one line is better than another. Generally speaking the <dfn class="terminology">best fitting line</dfn> makes the space between the line and the data points as small as possible. (There is actually a much more official definition.) After using a little statistical software, Thanh determines that for this data set, the official best fitting line has equation</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\textbf{Best fitting line:} \quad S = 10.0L+2,741
+\textbf{Best fitting line:} \quad S = 10.0L+2{,}741
 \end{equation*}
 </div>
 </div> <div class="para" id="sec-Fitting_lines_to_data-2-28">Thanh wants to add this line to his graph so first he calculates a few values. While it’s true that any two points would do, he played it safe and plotted three points, being sure to use 0 in order to find the intercept.</div> <div class="tabular-box natural-width"><table class="tabular">
@@ -636,7 +636,7 @@ S=48.5 \times \underline{600}-19,735=9,365\text{ tons/year}
 <div class="para">So Thanh decides to look at the statistically best-fitting line ignoring County H this time. Back to his software and he finds</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\textbf{Best fitting line (ignoring outlier):} \quad S = 19.7L-2,905
+\textbf{Best fitting line (ignoring outlier):} \quad S = 19.7L-2{,}905
 \end{equation*}
 </div>
 <div class="para">This line is less steep than the T-A line and higher than the C-D line. Seems perfect.</div>
@@ -770,11 +770,11 @@ S=48.5 \times \underline{600}-19,735=9,365\text{ tons/year}
 <div class="para" id="candy-shop-fitting-lines-7-1-1">Explain why Mia and Mandi should not use either of these lines to estimate October’s sales.</div></article></article><article class="exercise exercise-like" id="salt-roads-fitting-lines"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
 <div class="introduction" id="salt-roads-fitting-lines-1"><div class="para" id="salt-roads-fitting-lines-1-1">Look back at Thanh’s data in the section.</div></div>
 <article class="task exercise-like" id="salt-roads-fitting-lines-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="salt-roads-fitting-lines-2-1-1">Check that the C-D line has equation <span class="process-math">\(S=20.26L-4,610\)</span>
+<div class="para" id="salt-roads-fitting-lines-2-1-1">Check that the C-D line has equation <span class="process-math">\(S=20.26L-4{,}610\)</span>
 </div></article><article class="task exercise-like" id="salt-roads-fitting-lines-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="salt-roads-fitting-lines-3-1-1">Check that the H-R line has equation <span class="process-math">\(S=8.71L+3,130\)</span>
+<div class="para" id="salt-roads-fitting-lines-3-1-1">Check that the H-R line has equation <span class="process-math">\(S=8.71L+3{,}130\)</span>
 </div></article><article class="task exercise-like" id="salt-roads-fitting-lines-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="salt-roads-fitting-lines-4-1-1">The best-fitting line (ignoring the outlier) had equation <span class="process-math">\(S = 19.7L-2,905\text{.}\)</span> Make a table of values for <span class="process-math">\(L=600\)</span> and <span class="process-math">\(1,000\)</span> lane miles and use these values to check the graph Thanh drew. (They are highlighted on the graph.)</div></article></article><article class="exercise exercise-like" id="wild-rice-fitting-lines"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="para" id="salt-roads-fitting-lines-4-1-1">The best-fitting line (ignoring the outlier) had equation <span class="process-math">\(S = 19.7L-2{,}905\text{.}\)</span> Make a table of values for <span class="process-math">\(L=600\)</span> and <span class="process-math">\(1{,}000\)</span> lane miles and use these values to check the graph Thanh drew. (They are highlighted on the graph.)</div></article></article><article class="exercise exercise-like" id="wild-rice-fitting-lines"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
 <div class="introduction" id="wild-rice-fitting-lines-1">
 <div class="para" id="wild-rice-fitting-lines-1-1">Wild rice is a native plant that grows in lakes in the upper Midwest. The table shows how the annual acreage of wild rice has varied with the average spring temperature in various years. The variables are <span class="process-math">\(T\)</span> for the temperature measured in <span class="process-math">\(^{\circ}\)</span>F and <span class="process-math">\(W\)</span> for the wild rice yield, measured in acres. In case you’re curious, the year is included as well, but it’s not one of the variables we’re interested in.</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
@@ -818,7 +818,7 @@ S=48.5 \times \underline{600}-19,735=9,365\text{ tons/year}
 <div class="para">The best fitting line has equation</div>
 <div class="displaymath process-math">
 \begin{equation*}
-W=5,072.2-82.41T
+W=5{,}072.2-82.41T
 \end{equation*}
 </div>
 <div class="para">Make a table of values and use it to graph that line as well.</div>

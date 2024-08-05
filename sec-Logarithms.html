@@ -467,29 +467,29 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Logarithms"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">0.9</span><span class="space"> </span><span class="title">Prelude: Logarithms</span>
 </h2>
-<section class="introduction" id="sec-Logarithms-2"><div class="para" id="sec-Logarithms-2-1">Nearlywed, hellscape, bodycon, and woke. Just a few new words added to dictionaries in 2023. People love to create new words and phrases. These new words spread through social media, music, and word of mouth.</div> <div class="para" id="sec-Logarithms-2-2">I created a new word “puzzlaxing” meaning relaxing by doing puzzles. In one week, maybe 10 people will have heard of it. After another week, perhaps 100 people. Then 1,000 the next week, and so on. How many weeks until 1 million people are have heard of my new word “puzzlaxing"?</div> <div class="para" id="sec-Logarithms-2-3">Notice that in 1 week is <span class="process-math">\(10 = 10^1\)</span> people, two weeks is <span class="process-math">\(10^2 = 100\)</span> people, three weeks is <span class="process-math">\(10^3=1000\)</span> people, and so on. We are looking for a number <span class="process-math">\(W\)</span> where <span class="process-math">\(10^W=1,000,000\)</span> people. Aha! <span class="process-math">\(10^6=1,000,000\)</span> and so <span class="process-math">\(W=6\)</span> weeks from now.</div> <div class="para" id="sec-Logarithms-2-4">Suppose we wanted to determine when 5,000 people had heard of “puzzlaxing”. That means we want a number <span class="process-math">\(W\)</span> where <span class="process-math">\(10^W = 5,000\text{.}\)</span> Now what? The answer is somewhere between 3 and 4 weeks because <span class="process-math">\(10^3=1,000\)</span> and <span class="process-math">\(10^4=10,000\text{.}\)</span> That’s probably a good enough answer – between 3 and 4 weeks, but suppose we want the exact moment.</div> <div class="para logical" id="sec-Logarithms-2-5">
+<section class="introduction" id="sec-Logarithms-2"><div class="para" id="sec-Logarithms-2-1">Nearlywed, hellscape, bodycon, and woke. Just a few new words added to dictionaries in 2023. People love to create new words and phrases. These new words spread through social media, music, and word of mouth.</div> <div class="para" id="sec-Logarithms-2-2">I created a new word “puzzlaxing” meaning relaxing by doing puzzles. In one week, maybe 10 people will have heard of it. After another week, perhaps 100 people. Then 1,000 the next week, and so on. How many weeks until 1 million people are have heard of my new word “puzzlaxing"?</div> <div class="para" id="sec-Logarithms-2-3">Notice that in 1 week is <span class="process-math">\(10 = 10^1\)</span> people, two weeks is <span class="process-math">\(10^2 = 100\)</span> people, three weeks is <span class="process-math">\(10^3=1000\)</span> people, and so on. We are looking for a number <span class="process-math">\(W\)</span> where <span class="process-math">\(10^W=1{,}000{,}000\)</span> people. Aha! <span class="process-math">\(10^6=1{,}000{,}000\)</span> and so <span class="process-math">\(W=6\)</span> weeks from now.</div> <div class="para" id="sec-Logarithms-2-4">Suppose we wanted to determine when 5,000 people had heard of “puzzlaxing”. That means we want a number <span class="process-math">\(W\)</span> where <span class="process-math">\(10^W = 5{,}000\text{.}\)</span> Now what? The answer is somewhere between 3 and 4 weeks because <span class="process-math">\(10^3=1{,}000\)</span> and <span class="process-math">\(10^4=10{,}000\text{.}\)</span> That’s probably a good enough answer – between 3 and 4 weeks, but suppose we want the exact moment.</div> <div class="para logical" id="sec-Logarithms-2-5">
 <div class="para">Let’s try guessing. How about 3.5 weeks?</div>
 <div class="displaymath process-math">
 \begin{equation*}
-10^{3.5} =10 \wedge 3.5 = 3,162.27\ldots
+10^{3.5} =10 \wedge 3.5 = 3{,}162.27\ldots
 \end{equation*}
 </div>
 <div class="para">which is much smaller than 5,000. How about 3.7 weeks?</div>
 <div class="displaymath process-math">
 \begin{equation*}
-10^{3.7} =10 \wedge 3.7 = 5,011.87..
+10^{3.7} =10 \wedge 3.7 = 5{,}011.87..
 \end{equation*}
 </div>
 <div class="para">which is slightly bigger than 5,000. I want to find the answer here so let’s try</div>
 <div class="displaymath process-math">
 \begin{equation*}
-10^{3.69}=10 \wedge 3.69= 4,897.78\ldots
+10^{3.69}=10 \wedge 3.69= 4{,}897.78\ldots
 \end{equation*}
 </div>
 <div class="para">or finally</div>
 <div class="displaymath process-math">
 \begin{equation*}
-10^{3.699}=10 \wedge 3.699= 5,000.34\ldots
+10^{3.699}=10 \wedge 3.699= 5{,}000.34\ldots
 \end{equation*}
 </div>
 <div class="para">That’s as close as I’m gonna guess.</div>
@@ -505,7 +505,7 @@ window.MathJax = {
 <div class="para">Check it out, that’s the answer we were looking for:</div>
 <div class="displaymath process-math">
 \begin{equation*}
-10^{3.6989700043} =10 \wedge 3.6989700043 = 4,999.999~999~5853\ldots \approx 5,000
+10^{3.6989700043} =10 \wedge 3.6989700043 = 4{,}999.999~999~5853\ldots \approx 5{,}000
 \end{equation*}
 </div>
 <div class="para">If we had kept more digits it would have been actually 5,000.</div>
@@ -515,34 +515,34 @@ window.MathJax = {
 \begin{align*}
 \log(10) \amp =1\\
 \log(100) \amp =2\\
-\log(1,000) \amp =3\\
-\log(10,000) \amp= 4\\
-\log(100,000) \amp= 5\\
-\log(1,000,000) \amp= 6
+\log(1{,}000) \amp =3\\
+\log(10{,}000) \amp= 4\\
+\log(100{,}000) \amp= 5\\
+\log(1{,}000{,}000) \amp= 6
 \end{align*}
 </div>
-<div class="para">What do you see? In each case the logarithm is the number of zeros or, equivalently, it’s the power of 10. For example, 10,000 has 4 zeros and <span class="process-math">\(10^4= 10,000\)</span> and <span class="process-math">\(\log(10,000) = \log(10^4)=4\text{.}\)</span> In other words, a logarithm is just an exponent. And logarithms help us find the exponent. Makes sense.</div>
+<div class="para">What do you see? In each case the logarithm is the number of zeros or, equivalently, it’s the power of 10. For example, 10,000 has 4 zeros and <span class="process-math">\(10^4= 10{,}000\)</span> and <span class="process-math">\(\log(10{,}000) = \log(10^4)=4\text{.}\)</span> In other words, a logarithm is just an exponent. And logarithms help us find the exponent. Makes sense.</div>
 </div> <div class="para logical" id="sec-Logarithms-2-9">
 <div class="para">What logs of numbers that aren’t just powers of 10? Here are some examples.</div>
 <div class="displaymath process-math" id="sec-Logarithms-2-9-1">
 \begin{align*}
 \log(25) \amp = 1.3979\ldots \\
 \log(250) \amp = 2.3979\ldots \\
-\log(2,500) \amp = 3.3979\ldots \\
-\log(25,000) \amp = 4.3979\ldots 
+\log(2{,}500) \amp = 3.3979\ldots \\
+\log(25{,}000) \amp = 4.3979\ldots 
 \end{align*}
 </div>
-<div class="para">To see what’s happening we want to involve powers of 10. Scientific notation will do that for us. Let’s write these numbers in scientific notation and see what we learn. For example <span class="process-math">\(25,000 = 2.5 \times 10^4\)</span> and</div>
+<div class="para">To see what’s happening we want to involve powers of 10. Scientific notation will do that for us. Let’s write these numbers in scientific notation and see what we learn. For example <span class="process-math">\(25{,}000 = 2.5 \times 10^4\)</span> and</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\log( 25,000)=\log(2.5 \times 10 ^4)=4.3979\ldots \approx 4
+\log( 25{,}000)=\log(2.5 \times 10 ^4)=4.3979\ldots \approx 4
 \end{equation*}
 </div>
 <div class="para">Before we write down a general rule, let’s check more numbers.</div>
 </div> <div class="para logical" id="sec-Logarithms-2-10">
 <div class="displaymath process-math">
 \begin{equation*}
-\log(7,420,000) = \log(7.42 \times 10^6)=6.870403905\ldots \approx 6
+\log(7{,}420{,}000) = \log(7.42 \times 10^6)=6.870403905\ldots \approx 6
 \end{equation*}
 </div>
 <div class="displaymath process-math">
@@ -602,7 +602,7 @@ window.MathJax = {
 <div class="introduction" id="puzzlaxing-logarithms-1"><div class="para" id="puzzlaxing-logarithms-1-1">According to our story, in approximately how many weeks will 30,000 people have heard of “puzzlaxing”?</div></div>
 <article class="task exercise-like" id="puzzlaxing-logarithms-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="puzzlaxing-logarithms-2-1-1">Since 30,000 is between 10,000 and 100,000, what does that tell us about the answer?</div></article><article class="task exercise-like" id="puzzlaxing-logarithms-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="puzzlaxing-logarithms-3-1-1">Guess to try to find the answer, the number <span class="process-math">\(W\)</span> where <span class="process-math">\(10^W = 30,000\text{.}\)</span> It’s okay to get the answer to one decimal place.</div></article><article class="task exercise-like" id="puzzlaxing-logarithms-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="puzzlaxing-logarithms-3-1-1">Guess to try to find the answer, the number <span class="process-math">\(W\)</span> where <span class="process-math">\(10^W = 30{,}000\text{.}\)</span> It’s okay to get the answer to one decimal place.</div></article><article class="task exercise-like" id="puzzlaxing-logarithms-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="puzzlaxing-logarithms-4-1-1">Use logs to find an exact answer.</div></article></article><article class="exercise exercise-like" id="decibels-logarithms"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
 <div class="introduction" id="decibels-logarithms-1"><div class="para logical" id="decibels-logarithms-1-1">
 <div class="para">The intensity of a sound in decibels is calculated using a logarithm. For example, a sound 100 times the level humans can hear has an intensity of</div>
@@ -615,7 +615,7 @@ window.MathJax = {
 <article class="task exercise-like" id="decibels-logarithms-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="decibels-logarithms-2-1-1">Calculate the intensity, in decibels, of a cat purring which averages about 300 times the level humans can hear using the formula <span class="process-math">\(10\log(300)\text{.}\)</span>
 </div></article><article class="task exercise-like" id="decibels-logarithms-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="decibels-logarithms-3-1-1">Calculate the intensity, in decibels, of normal conversation which averages about 1 million times the level humans can hear using the formula <span class="process-math">\(10\log(1,000,000)\text{.}\)</span>
+<div class="para" id="decibels-logarithms-3-1-1">Calculate the intensity, in decibels, of normal conversation which averages about 1 million times the level humans can hear using the formula <span class="process-math">\(10\log(1{,}000{,}000)\text{.}\)</span>
 </div></article><article class="task exercise-like" id="decibels-logarithms-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="decibels-logarithms-4-1-1">Many young adults are at high risk of hearing loss because they crank the volume of music they’re listening to, often to 2 trillion times the level humans can hear. Calculate that intensity in decimals using the formula <span class="process-math">\(10\log(2 \ast10^{12})\text{.}\)</span> Prolonged sound above 70 decibels may damage your hearing and any loud noise above 120 decibels can cause immediate harm to hearing.</div></article></article><article class="exercise exercise-like" id="credit-card-logarithms"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
 <div class="introduction" id="credit-card-logarithms-1"><div class="para" id="credit-card-logarithms-1-1">In 2021, Arrietty charged $5,000 on her credit card to help pay tuition. Her card charges interest at the rate of 20.7% APR. We are going to ignore any minimum payments or fees.</div></div>
