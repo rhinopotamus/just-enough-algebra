@@ -101,7 +101,7 @@
 		<exercise xml:id="fish-pond-logistic" workspace="1.75in">
 			<introduction>
 				<p>
-					Back in 1975 when my aunt and uncle bought their house upstate New York, there was a small pond in the yard. They enlarged it and stocked it with 10 small fish. The number of fish <m>F</m> increased over time, approximately according to the equation <me>F=\frac{1,000}{1+99 \ast 0.65^T}</me> where <m>T</m> is time measured in years since 1975.
+					Back in 1975 when my aunt and uncle bought their house upstate New York, there was a small pond in the yard. They enlarged it and stocked it with 10 small fish. The number of fish <m>F</m> increased over time, approximately according to the equation <me>F=\frac{1{,}000}{1+99 \ast 0.65^T}</me> where <m>T</m> is time measured in years since 1975.
 				</p>
 			</introduction>
 			<task>
@@ -294,7 +294,7 @@
 			<tabular bottom="minor" top="minor">
 				<row left="minor" class="odd">
 					<cell right="minor" halign="left"><term>saturation:</term></cell>
-					<cell right="minor" halign="left"><m>B=4,000-3,600\ast0.78^Y</m></cell>
+					<cell right="minor" halign="left"><m>B=4{,}000-3{,}600\ast0.78^Y</m></cell>
 				</row>
 				<row left="minor" class="even">
 					<cell right="minor" halign="left"></cell>
@@ -302,7 +302,7 @@
 				</row>
 				<row left="minor" class="odd">
 					<cell right="minor" halign="left"><term>logistic:</term></cell>
-					<cell right="minor" halign="left"><m>\displaystyle B=\frac{4,000}{1+9 \ast 0.78^Y}</m></cell>
+					<cell right="minor" halign="left"><m>\displaystyle B=\frac{4{,}000}{1+9 \ast 0.78^Y}</m></cell>
 				</row>
 			</tabular>
 			

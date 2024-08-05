@@ -210,11 +210,14 @@
         <task>
             <statement>
                 <p>
-                    Find the number of yards by calculating <me>\frac{3}{4} \text{ miles}
-						\star
-						  \frac{5,280 \text{ feet}}{1 \text{ mile}}
-						\star
-						  \frac{1 \text{ yard}}{3 \text{ feet}} = \frac{3 \times 5280}{4 \times 3}</me>
+                    Find the number of yards by calculating 
+                    <me>
+                        \frac{3}{4} \text{ miles}
+						\ast
+						  \frac{5{,}280 \text{ feet}}{1 \text{ mile}}
+						\ast
+						  \frac{1 \text{ yard}}{3 \text{ feet}} = \frac{3 \times 5280}{4 \times 3}
+                    </me>
                 </p>
             </statement>
         </task>

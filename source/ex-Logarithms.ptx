@@ -152,7 +152,7 @@
         <task>
             <statement>
                 <p>
-                    Guess to try to find the answer, the number <m>W</m> where <m>10^W = 30,000</m>. It's okay to get the answer to one decimal place.
+                    Guess to try to find the answer, the number <m>W</m> where <m>10^W = 30{,}000</m>. It's okay to get the answer to one decimal place.
                 </p>
             </statement>
         </task>
@@ -180,7 +180,7 @@
         <task>
             <statement>
                 <p>
-                    Calculate the intensity, in decibels, of normal conversation which averages about 1 million times the level humans can hear using the formula <m>10\log(1,000,000)</m>.
+                    Calculate the intensity, in decibels, of normal conversation which averages about 1 million times the level humans can hear using the formula <m>10\log(1{,}000{,}000)</m>.
                 </p>
             </statement>
         </task>

@@ -32,15 +32,15 @@
 		<p>
 			Assuming things proceed as planned, after 5 years there would be 
 			<me>
-				64,100 \text{ apts } + 5 \text{ years} \ast \frac{7,800 \text{ apts}}{\text{year}}=64,100+\underline{5} \times 7,800 =  103,100 \text{ apartments}
+				64{,}100 \text{ apts } + 5 \text{ years} \ast \frac{7{,}800 \text{ apts}}{\text{year}}=64{,}100+\underline{5} \times 7{,}800 =  103{,}100 \text{ apartments}
 			</me> 
 			Generalizing, we get our equation 
 			<me>
-				64,100+Y\ast 7,800 =  A
+				64{,}100+Y\ast 7{,}800 =  A
 			</me> 
 			which can be rewritten as 
 			<me>
-				A = 64,100 + 7,800Y
+				A = 64{,}100 + 7{,}800Y
 			</me> 
 			This equation fits our template for a linear equation <me>\text{dep }=\text{ start } + \text{slope} \ast {\text{indep}}</me>
 		</p>
@@ -50,7 +50,7 @@
 		</p>
 
 		<p>
-			How many years will it take the city to reach 150,000 apartments at this rate? After ten years, for example, there would still not be enough affordable apartments because <me>A = 64,100+7,800 \ast 10 = 64,100+  7,800\times \underline{10}=  142,100 \text{ apartments}</me> Continuing successive approximation we get
+			How many years will it take the city to reach 150,000 apartments at this rate? After ten years, for example, there would still not be enough affordable apartments because <me>A = 64{,}100+7{,}800 \ast 10 = 64{,}100+  7{,}800\times \underline{10}=  142{,}100 \text{ apartments}</me> Continuing successive approximation we get
 		</p>
 
 
@@ -86,16 +86,16 @@
 		</p>
 
 		<p>
-			Of course, we could solve a linear equation instead. We want <m>A=150,000</m>. Using our equation <m>A=64,100 + 7,800 Y</m> we get <me>64,100 + 7,800Y = 150,000</me> However, since we want <em>at least</em> 150,000 affordable apartments, an inequality is even better. Let's practice that. 
-			<me>64,100 + 7,800Y \ge 150,000</me> 
+			Of course, we could solve a linear equation instead. We want <m>A=150{,}000</m>. Using our equation <m>A=64{,}100 + 7{,}800 Y</m> we get <me>64{,}100 + 7{,}800Y = 150{,}000</me> However, since we want <em>at least</em> 150,000 affordable apartments, an inequality is even better. Let's practice that. 
+			<me>64{,}100 + 7{,}800Y \ge 150{,}000</me> 
 			Subtract from each side to get 
 			<me>
 				\begin{array}{lcr}
-				\phantom{-}\cancel{64,100} + 7,800 Y \amp = \amp 150,000 \\
-				-\cancel{64,100} \amp \amp -64,100
+				\phantom{-}\cancel{64{,}100} + 7{,}800 Y \amp = \amp 150{,}000 \\
+				-\cancel{64{,}100} \amp \amp -64{,}100
 				\end{array}
 			</me>
-			which simplifies to <me>7,800Y\ge 85,900</me> Divide each side by to get <me>\frac{\cancel{7,800}~Y}{\cancel{7,800}} \ge \frac{85,900}{7,800}</me> which simplifies to <me>Y \ge   \frac{85,900}{7,800} = 85,900 \div 7,800 = 11.0128205\ldots</me> To be sure <m>Y \ge 11.0128205\ldots</m> we need to round up to get <me>Y \ge 12</me>
+			which simplifies to <me>7{,}800Y\ge 85{,}900</me> Divide each side by to get <me>\frac{\cancel{7{,}800}~Y}{\cancel{7{,}800}} \ge \frac{85{,}900}{7{,}800}</me> which simplifies to <me>Y \ge   \frac{85{,}900}{7{,}800} = 85{,}900 \div 7{,}800 = 11.0128205\ldots</me> To be sure <m>Y \ge 11.0128205\ldots</m> we need to round up to get <me>Y \ge 12</me>
 		</p>
 
 		<p>

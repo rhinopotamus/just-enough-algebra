@@ -386,7 +386,7 @@
 			<task>
 				<statement>
 					<p>
-						According to your equation, when will the contaminants fall below 1 mg? 1 <m>\mu</m>g? Remember <m>1 \text{ gram} = \text{1,000 mg}</m> and <m>1 \text{ gram} = \text{1,000,000 } \mu \text{g}</m>
+						According to your equation, when will the contaminants fall below 1 mg? 1 <m>\mu</m>g? Remember <m>1 \text{ gram} = 1{,}000 \text{ mg}</m> and <m>1 \text{ gram} = 1{,}000{,}000\, \mu \text{g}</m>
 					</p>
 				</statement>
 			</task>

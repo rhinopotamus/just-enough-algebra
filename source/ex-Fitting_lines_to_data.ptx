@@ -322,7 +322,7 @@
 		<task>
 			<statement>
 				<p>
-					Check that the C-D line has equation <m>S=20.26L-4,610</m>
+					Check that the C-D line has equation <m>S=20.26L-4{,}610</m>
 				</p>
 			</statement>
 		</task>
@@ -330,7 +330,7 @@
 		<task>
 			<statement>
 				<p>
-					Check that the H-R line has equation <m>S=8.71L+3,130</m>
+					Check that the H-R line has equation <m>S=8.71L+3{,}130</m>
 				</p>
 			</statement>
 		</task>
@@ -338,7 +338,7 @@
 		<task>
 			<statement>
 				<p>
-					The best-fitting line (ignoring the outlier) had equation <m>S = 19.7L-2,905</m>. Make a table of values for <m>L=600</m> and <m>1,000</m> lane miles and use these values to check the graph Thanh drew. (They are highlighted on the graph.)
+					The best-fitting line (ignoring the outlier) had equation <m>S = 19.7L-2{,}905</m>. Make a table of values for <m>L=600</m> and <m>1{,}000</m> lane miles and use these values to check the graph Thanh drew. (They are highlighted on the graph.)
 				</p>
 			</statement>
 		</task>
@@ -422,7 +422,7 @@
 		<task>
 			<statement>
 				<p>
-					The best fitting line has equation <me>W=5,072.2-82.41T</me> Make a table of values and use it to graph that line as well.
+					The best fitting line has equation <me>W=5{,}072.2-82.41T</me> Make a table of values and use it to graph that line as well.
 				</p>
 			</statement>
 		</task>

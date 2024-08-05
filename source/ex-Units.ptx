@@ -277,7 +277,7 @@
 			<task>
 				<statement>
 					<p>
-						Convert Phelps's speed to mph. Use <m>1 \text{ mile} \approx {1,609} \text{ meters}</m>.
+						Convert Phelps's speed to mph. Use <m>1 \text{ mile} \approx {1{,}609} \text{ meters}</m>.
 					</p>
 				</statement>
 			</task>

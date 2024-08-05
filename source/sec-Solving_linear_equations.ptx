@@ -105,7 +105,7 @@
 		</p>
 
 		<p>
-			Wait a minute! We could have figured this out much more quickly. If the labor cost was $278.75, we know the first $100 was the trip charge. That leaves <me>\$278.75-\$100.00 = \$178.75</me> in hourly charges. At $75 per hour that comes to <me>\$178.75\ast  \frac{\text{1 hour}}{\$75}=178.75 \div 75 = 2.3883333\ldots \approx 2.388 \text{ hours}</me> which comes to around 2 hours, 23 minutes as before. See how we used the $75/hour as a unit conversion here? Very clever.
+			Wait a minute! We could have figured this out much more quickly. If the labor cost was $278.75, we know the first $100 was the trip charge. That leaves <me>\$278.75-\$100.00 = \$178.75</me> in hourly charges. At $75 per hour that comes to <me>\$178.75\ast  \frac{1\text{ hour}}{\$75}=178.75 \div 75 = 2.3883333\ldots \approx 2.388 \text{ hours}</me> which comes to around 2 hours, 23 minutes as before. See how we used the $75/hour as a unit conversion here? Very clever.
 		</p>
 
 		<p>

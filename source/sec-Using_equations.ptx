@@ -92,7 +92,19 @@
 		</tabular>
 
 		<p>
-			How can we include this reaction time into an equation? Suppose it takes 1 second to react. We would like to know how many feet that adds to the equation. This is something we can figure out. We know the speed and the time, so multiply them to get the distance, right? One small snag: the speed is in mph (miles per hour). We need to convert units. <me>1 \cancel{\text{ sec}} \ast \frac{1 \cancel{\text{ min}}}{60 \cancel{\text{ sec}}} \ast \frac{1 \text{ hour}}{60 \cancel{\text{ min}}} \ast \frac{\text{5,280 feet}}{1 \text{ mile}}=1 \div 60 \div 60 \times 5,280= 1.4666\ldots \approx 1.47 \text{ feet per mph}</me> added to the stopping distance. Notice the fancy fraction work with the units? <me>\frac{\text{hour}\ast \text{feet}}{\text{mile}}=\frac{\text{feet}}{\quad \frac{\text{miles}}{\text{hour}}\quad~}=\frac{\text{feet}}{\text{mph}}</me> What all this mess means is that we should add 1.47 feet for every mph of speed. So <m>S</m> mph adds <m>1.47\ast S</m> feet to the stopping distance. Long story short, our new equation is <me>D=0.04S^2+1.47S</me>
+			How can we include this reaction time into an equation? Suppose it takes 1 second to react. We would like to know how many feet that adds to the equation. This is something we can figure out. We know the speed and the time, so multiply them to get the distance, right? One small snag: the speed is in mph (miles per hour). We need to convert units. 
+			<me>
+				1 \cancel{\text{ sec}} \ast 
+				\frac{1 \cancel{\text{ min}}}{60 \cancel{\text{ sec}}} \ast 
+				\frac{1 \text{ hour}}{60 \cancel{\text{ min}}} \ast 
+				\frac{5{,}280\text{ feet}}{1 \text{ mile}}=
+				1 \div 60 \div 60 \times 5{,}280= 1.4666\ldots \approx 1.47 \text{ feet per mph}
+			</me> 
+			added to the stopping distance. Notice the fancy fraction work with the units? 
+			<me>
+				\frac{\text{hour}\ast \text{feet}}{\text{mile}}=\frac{\text{feet}}{\quad \frac{\text{miles}}{\text{hour}}\quad~}=\frac{\text{feet}}{\text{mph}}
+			</me> 
+			What all this mess means is that we should add 1.47 feet for every mph of speed. So <m>S</m> mph adds <m>1.47\ast S</m> feet to the stopping distance. Long story short, our new equation is <me>D=0.04S^2+1.47S</me>
 		</p>
 
 		<p>

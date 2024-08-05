@@ -10,7 +10,13 @@
 		<exercise xml:id="truck-grass-first-look-linear" workspace="0.75in"> 
 			<introduction>
 				<p>
-					A truck hauling bags of grass seed pulls into a weigh station along the highway. Trucks are weighed to determine the amount of highway tax. This particular truck weighs pounds when it is empty. Each bag of grass seed it carries weighs 4.2 pounds. For example, a truck is carrying bags of grass seed weighs <me>\text{3,900 pounds } + \frac{4.2 \text{ pounds}}{\text{bag}} \ast \text{1,000  bags} = 3,900 + 4.2\times1,000=\text{8,100 pounds}</me> In official trucking lingo, we say the <term>curb weight</term> of pounds plus the <term>load weight</term> of pounds results in a <term>gross weight</term> of pounds. So, now you know. 
+					A truck hauling bags of grass seed pulls into a weigh station along the highway. Trucks are weighed to determine the amount of highway tax. This particular truck weighs pounds when it is empty. Each bag of grass seed it carries weighs 4.2 pounds. For example, a truck is carrying bags of grass seed weighs 
+					<me>
+						3{,}900 \text{ pounds} + \frac{4.2 \text{ pounds}}{\text{bag}} \ast 1{,}000 \text{  bags} 
+						= 3{,}900 + 4.2\times 1{,}000
+						= 8{,}100 \text{ pounds}
+					</me> 
+					In official trucking lingo, we say the <term>curb weight</term> of pounds plus the <term>load weight</term> of pounds results in a <term>gross weight</term> of pounds. So, now you know. 
 					<em>
 						(Story also appears in
 						<xref ref="truck-grass-arithmetic-operations" />,  
@@ -108,7 +114,7 @@
 		<exercise xml:id="credit-line-first-look-linear" workspace="1cm">
 			<introduction>
 				<p>
-					I was short on cash so I got a <term>line of credit</term> (short term loan) on my bank account, of which I spent $2,189.57. That means my account balance is <m>-\$2,189.57</m>. I will pay back the interest plus an extra $250 each month. When the loan is paid off, I plan to continue to deposit $250 per month to start saving. 
+					I was short on cash so I got a <term>line of credit</term> (short term loan) on my bank account, of which I spent $2,189.57. That means my account balance is <m>-\$2{,}189.57</m>. I will pay back the interest plus an extra $250 each month. When the loan is paid off, I plan to continue to deposit $250 per month to start saving. 
 					<em component="not-workbook">
 						(Story also appears in 
 						<xref ref="credit-line-linear-ineq"/>)
@@ -262,7 +268,7 @@
 	<exercise xml:id="restaurant-first-look-linear" component="not-workbook">
 		<introduction>
 			<p>
-				Abduwali has just opened a restaurant. He spent $82,500 to get started but hopes to earn back $6,300 each month. <em>(Story also appears in <xref ref="restaurant-solving-linear"/>)</em>
+				Abduwali has just opened a restaurant. He spent $82{,}500 to get started but hopes to earn back $6,300 each month. <em>(Story also appears in <xref ref="restaurant-solving-linear"/>)</em>
 			</p>
 		</introduction>	
 

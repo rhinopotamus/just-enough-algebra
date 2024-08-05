@@ -11,7 +11,7 @@
 		<exercise xml:id="truck-grass-linear-ineq">
 			<introduction>
 				<p>
-					A truck hauling bags of grass seed weighs 3,900 pounds when it is empty. Each bag of seed it carries weighs 4.2 pounds. The equation for the gross weight <m>W</m> pounds is <me>W = 3,900 + 4.2B</me> for <m>B</m> bags of grass seed. 
+					A truck hauling bags of grass seed weighs 3,900 pounds when it is empty. Each bag of seed it carries weighs 4.2 pounds. The equation for the gross weight <m>W</m> pounds is <me>W = 3{,}900 + 4.2B</me> for <m>B</m> bags of grass seed. 
 					<em>
 						(Story also appears in
 						<xref ref="truck-grass-arithmetic-operations" />, 
@@ -66,7 +66,7 @@
 		<exercise xml:id="airplane-altitude-linear-ineq">
 			<introduction>
 				<p>
-					The altitude, <m>A</m> feet above ground, of an airplane <m>T</m> minutes after it begins its descent is given by the equation <me>A = 32,000 - 1,200T</me> Answer each question by evaluating; setting up and solving an equation; or setting up and solving an inequality, whichever is most appropriate.
+					The altitude, <m>A</m> feet above ground, of an airplane <m>T</m> minutes after it begins its descent is given by the equation <me>A = 32{,}000 - 1{,}200T</me> Answer each question by evaluating; setting up and solving an equation; or setting up and solving an inequality, whichever is most appropriate.
 				</p>
 			</introduction>
 			<task workspace="0.5in">
@@ -310,7 +310,7 @@
 	<exercise xml:id="credit-line-linear-ineq" component="not-workbook">
 		<introduction>
 			<p>
-				After borrowing some money through a line of credit on my bank account, I started paying off the interest plus $250 a month. Even once the loan is paid off I plan to continue to deposit $250 each month to start savins. That means my balance is given by the equation <me>A = 250M- 2,189.57</me> where <m>M</m> is the number of months since the loan and <m>A</m> is the account balance, in dollars. 
+				After borrowing some money through a line of credit on my bank account, I started paying off the interest plus $250 a month. Even once the loan is paid off I plan to continue to deposit $250 each month to start savins. That means my balance is given by the equation <me>A = 250M- 2{,}189.57</me> where <m>M</m> is the number of months since the loan and <m>A</m> is the account balance, in dollars. 
 			</p>
 			<p>
 				<em>(Story also appears in <xref ref="credit-line-first-look-linear"/>)</em>
@@ -422,7 +422,7 @@
 	<exercise xml:id="vacation-ireland-linear-ineq" component="not-workbook">
 		<introduction>
 			<p>
-				The cost of vacation to Cork, Ireland from the Minneapolis/St. Paul airport for two people is given by the equation formula <me>C = 2,828 + 310N</me> where <m>C</m> is the total cost in U.S. dollars and <m>N</m> is the number of days. Ciara wants to take her boyfriend Seamus to Cork to meet Ciara's grandmother.
+				The cost of vacation to Cork, Ireland from the Minneapolis/St. Paul airport for two people is given by the equation formula <me>C = 2{,}828 + 310N</me> where <m>C</m> is the total cost in U.S. dollars and <m>N</m> is the number of days. Ciara wants to take her boyfriend Seamus to Cork to meet Ciara's grandmother.
 			</p>
 		</introduction>	
 		<task>

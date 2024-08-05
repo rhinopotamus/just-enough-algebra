@@ -236,7 +236,7 @@
     <exercise xml:id="cells-prelude-scientific-notation" component="not-workbook">
         <introduction>
             <p>
-                Rayka would like to approximate how many cells are in her body. Use the following information: Rayka weighs 140 pounds, <m>1 \text{ gram} \approx 10^{15} \text{ cells}</m> and <m>\text{1,000 grams} \approx \text{2.2 pounds}</m>. 
+                Rayka would like to approximate how many cells are in her body. Use the following information: Rayka weighs 140 pounds, <m>1 \text{ gram} \approx 10^{15} \text{ cells}</m> and <m>1{,}000 \text{ grams} \approx 2.2 \text{ pounds}</m>. 
                 <em>
                     (Story also appears in <xref ref="cells-scientific-notation"/>)
                 </em>

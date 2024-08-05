@@ -56,18 +56,18 @@
 			The starting value of Sofía's car is $22,500 so we just need to find the slope. We expect the slope to be negative because her car is worth less the more she drives it. 
 			<md>
 				<mrow>\text{slope} \amp = \text{rate of change} = \frac{\text{change dep}}{\text{change indep}} </mrow>
-				<mrow> \amp = \frac{\$5,700-\$22,500}{109 \text{ thousand miles} - 0 \text{ thousand miles}} =   \frac{-\$16,800}{109\text{ thousand miles}}</mrow>
-				<mrow> \amp = \text{(-)}16,800 \div 109 = -154.1284404\ldots \approx -\$154\text{/thousand miles}</mrow>
+				<mrow> \amp = \frac{\$5{,}700-\$22{,}500}{109 \text{ thousand miles} - 0 \text{ thousand miles}} =   \frac{-\$16{,}800}{109\text{ thousand miles}}</mrow>
+				<mrow> \amp = \text{(-)}16{,}800 \div 109 = -154.1284404\ldots \approx -\$154\text{/thousand miles}</mrow>
 			</md>
 			Her car loses value at a rate of around $154 for each thousand miles she drives.
 		</p>
 
 		<p>
-			We are ready to write the linear equation. <me>\textbf{linear:} \quad C = 22,500 - 154M</me> As usual we wrote this with subtraction instead of adding the negative slope. Quick check: when <m>M=109</m> we get <me>C =  22,500 - 154\ast 109 =  22,500 - 154\times \underline{109}= 5,714 \approx \$5,700 \quad \checkmark</me> Remember we don't expect the exact answer because we rounded off the slope.
+			We are ready to write the linear equation. <me>\textbf{linear:} \quad C = 22{,}500 - 154M</me> As usual we wrote this with subtraction instead of adding the negative slope. Quick check: when <m>M=109</m> we get <me>C =  22{,}500 - 154\ast 109 =  22{,}500 - 154\times \underline{109}= 5{,}714 \approx \$5{,}700 \quad \checkmark</me> Remember we don't expect the exact answer because we rounded off the slope.
 		</p>
 
 		<p>
-			When will Sofía's car be worth under $500 according to this linear equation? Let's solve to find out. When <m>C=500</m>, use our linear equation to get <me>22,500 - 154M =500</me> Subtract 22,500 from each side and simplify to get <me>-154M= -22,000</me> Now divide each side by -154 and simplify to get <me>M = \frac{-22,000}{-154} = \text{(-)} 22,000 \div  \text{(-)}154= 142.738095\ldots \approx 143</me> According to the linear equation, Sofía's car will be worth under $500 at about 143,000 miles. Since her car already has 109,000 miles on it, that means in another <m>143,000-109,000 = 34,000\text{ miles}</m>. For a typical driver that's two or three more years.
+			When will Sofía's car be worth under $500 according to this linear equation? Let's solve to find out. When <m>C=500</m>, use our linear equation to get <me>22{,}500 - 154M =500</me> Subtract 22,500 from each side and simplify to get <me>-154M= -22{,}000</me> Now divide each side by -154 and simplify to get <me>M = \frac{-22{,}000}{-154} = \text{(-)} 22{,}000 \div  \text{(-)}154= 142.738095\ldots \approx 143</me> According to the linear equation, Sofía's car will be worth under $500 at about 143,000 miles. Since her car already has 109,000 miles on it, that means in another <m>143{,}000-109{,}000 = 34{,}000\text{ miles}</m>. For a typical driver that's two or three more years.
 		</p>
 
 		<p>
@@ -78,19 +78,19 @@
 				
 				<p><me>\text{dep} = \text{start} \ast \text{growth factor} ^ {\text{indep}}</me></p>
 			</assemblage>
-			We know everything except the growth factor. We expect it to be less than 1 because her car is worth less the more she drives it. Perhaps we should say <q>decay</q> factor here since the function is decreasing. The starting amount is <m>s=22,500</m> and the ending amount is <m>a=5,700</m> after <m>t=109</m> thousand miles. Using the <xref ref="growth-factor-formula" text="title"/> we have 
+			We know everything except the growth factor. We expect it to be less than 1 because her car is worth less the more she drives it. Perhaps we should say <q>decay</q> factor here since the function is decreasing. The starting amount is <m>s=22{,}500</m> and the ending amount is <m>a=5{,}700</m> after <m>t=109</m> thousand miles. Using the <xref ref="growth-factor-formula" text="title"/> we have 
 			<md>
-				<mrow>g \amp = \sqrt[t]{\frac{a}{s}} = \sqrt[109]{\frac{5,700}{22,500}} </mrow>
-				<mrow>  \amp = 109  \sqrt[x]{~\text{  }}( 5,700 \div 22,500)= 0.98748222\ldots \approx 0.9875 </mrow>
+				<mrow>g \amp = \sqrt[t]{\frac{a}{s}} = \sqrt[109]{\frac{5{,}700}{22{,}500}} </mrow>
+				<mrow>  \amp = 109  \sqrt[x]{~\text{  }}( 5{,}700 \div 22{,}500)= 0.98748222\ldots \approx 0.9875 </mrow>
 			</md>
 		</p>
 
 		<p>
-			We are ready to write the exponential equation. <me>\textbf{exponential:} \quad C = 22,500 \ast 0.9875^M</me> Quick check: when <m>M=109</m> we get <me>C =  22,500 \ast 0.9875^{109} =  22,500 \times 0.9875 \wedge\underline{109}= 5711.19365\ldots \approx \$5,700 \quad \checkmark</me> Again, we don't expect the exact answer because we rounded off the decay factor.
+			We are ready to write the exponential equation. <me>\textbf{exponential:} \quad C = 22{,}500 \ast 0.9875^M</me> Quick check: when <m>M=109</m> we get <me>C =  22{,}500 \ast 0.9875^{109} =  22{,}500 \times 0.9875 \wedge\underline{109}= 5711.19365\ldots \approx \$5{,}700 \quad \checkmark</me> Again, we don't expect the exact answer because we rounded off the decay factor.
 		</p>
 
 		<p>
-			When will Sofía's car be worth under $500 according to this exponential equation? Let's solve to find out. When <m>C=500</m>, use our exponential equation to get <me>22,500 \ast 0.9875^M =500</me> Divide each side by 22,500 and simplify to get <me>0.9875^M= \frac{500}{22,500} = 500 \div 22,500 = 0.02222222\ldots</me> By the <xref ref="log-divides-formula" text="title"/> with growth factor <m>g=0.9875</m> and the value <m>v= 0.02222222</m> we get <me>M =  \frac{\log (v)}{\log(g)}=  \frac{\log (0.022222222)}{\log(0.9875)} =  \log (0.02222222) \div \log (0.9875) = 302.6256856 \approx 300</me> According to the exponential equation, Sofía's car will be worth under $500 at about 300,000 miles. Hard to imagine the car would last that long. Essentially the exponential model says the car will always be worth at least $500, if only for parts, I guess. Quite different from our answer from the linear equation.
+			When will Sofía's car be worth under $500 according to this exponential equation? Let's solve to find out. When <m>C=500</m>, use our exponential equation to get <me>22{,}500 \ast 0.9875^M =500</me> Divide each side by 22,500 and simplify to get <me>0.9875^M= \frac{500}{22{,}500} = 500 \div 22{,}500 = 0.02222222\ldots</me> By the <xref ref="log-divides-formula" text="title"/> with growth factor <m>g=0.9875</m> and the value <m>v= 0.02222222</m> we get <me>M =  \frac{\log (v)}{\log(g)}=  \frac{\log (0.022222222)}{\log(0.9875)} =  \log (0.02222222) \div \log (0.9875) = 302.6256856 \approx 300</me> According to the exponential equation, Sofía's car will be worth under $500 at about 300,000 miles. Hard to imagine the car would last that long. Essentially the exponential model says the car will always be worth at least $500, if only for parts, I guess. Quite different from our answer from the linear equation.
 		</p>
 
 		<p>
@@ -100,8 +100,8 @@
 		<p>
 			Wait a minute. Does a car lose the same value for each thousand miles it's driven? That's what it means to be linear. Every thousand miles, same decrease. Nah, that's not right. Once the car is old, another 1,000 miles or so probably won't affect the value at all. Also, when a car is new, once you drive it off the lot and then that strange vinyl smell wears off and it's officially <q>used,</q> the car is worth a lot less. Even if it hasn't been driven much at all. What would each model say the car was worth soon after Sofía bought it, say with 10,000 miles on it? With <m>M=10</m>, the estimates are
 			<md>
-				<mrow>\textbf{linear:} \quad C \amp =  22,500 - 154 \ast 10 = 22,500 - 154 \times \underline{10} = \$20,960</mrow>
-				<mrow>\textbf{exponential:} \quad C \amp = 22,500 \ast 0.9875^{10}=  22,500 \times 0.9875 \wedge\underline{10} \approx \$19,841 </mrow>
+				<mrow>\textbf{linear:} \quad C \amp =  22{,}500 - 154 \ast 10 = 22{,}500 - 154 \times \underline{10} = \$20{,}960</mrow>
+				<mrow>\textbf{exponential:} \quad C \amp = 22{,}500 \ast 0.9875^{10}=  22{,}500 \times 0.9875 \wedge\underline{10} \approx \$19{,}841 </mrow>
 			</md>
 		</p>
 
@@ -131,8 +131,8 @@
 				<cell right="minor" halign="center">14,800</cell>
 				<cell right="minor" halign="center">10,180</cell>
 				<cell right="minor" halign="center">5,714</cell>
-				<cell right="minor" halign="center"><m>\cancel{-8,300}</m></cell>
-				<cell right="minor" halign="center"><m>\cancel{-16,000}</m></cell>
+				<cell right="minor" halign="center"><m>\cancel{-8{,}300}</m></cell>
+				<cell right="minor" halign="center"><m>\cancel{-16{,}000}</m></cell>
 			</row>
 			<row left="minor" class="even">
 				<cell right="minor" halign="center"><m>C</m> (if exponential)</cell>

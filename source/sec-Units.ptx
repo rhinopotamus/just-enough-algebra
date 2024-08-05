@@ -55,15 +55,15 @@
 		</p>
 
 		<p>
-			Next, use that <me>1 \text{ hour} = 60 \text{ minutes}</me> to get <me>\frac{866.184 \text{ feet}}{\cancel{\text{ minute}}}\ast  \frac{60 \cancel{\text{ minutes}}}{1\text{ hour}} = 866.184 \times 60 = \frac{ 51,971.04\text{ feet}}{\text{hour}}</me> Again, the larger number makes sense because she can go more feet in an hour than in just one minute.
+			Next, use that <me>1 \text{ hour} = 60 \text{ minutes}</me> to get <me>\frac{866.184 \text{ feet}}{\cancel{\text{ minute}}}\ast  \frac{60 \cancel{\text{ minutes}}}{1\text{ hour}} = 866.184 \times 60 = \frac{ 51{,}971.04\text{ feet}}{\text{hour}}</me> Again, the larger number makes sense because she can go more feet in an hour than in just one minute.
 		</p>
 
 		<p>
-			Last, we need to convert to miles. Turns out that <me>1 \text{ mile} = 5,280 \text{ feet}</me> and so 
+			Last, we need to convert to miles. Turns out that <me>1 \text{ mile} = 5{,}280 \text{ feet}</me> and so 
 			<me>
-				\frac{51,971.04 \cancel{\text{ feet}}}{\text{hour}}
+				\frac{51{,}971.04 \cancel{\text{ feet}}}{\text{hour}}
 				\ast  \frac{1 \text{ mile}}{\cancel{\text{ feet}}} 
-				= 51,971.04 \div 5,280
+				= 51{,}971.04 \div 5{,}280
 				= \frac{9.843 \text{ miles}}{\text{hour}} 
 				\approx 10 \text{ mph}.
 			</me> 
@@ -77,9 +77,9 @@
 				\ast \frac{3.281 \cancel{\text{ feet}}}{1 \cancel{\text{ meter}}}  
 				\ast \frac{60 \cancel{\text{ seconds}}}{1 \cancel{\text{ minute}}}
 				\ast \frac{60 \cancel{\text{ minutes}}}{1\text{ hour}}
-				\ast \frac{1 \text{ mile}}{5,280\cancel{\text{ feet}}}
+				\ast \frac{1 \text{ mile}}{5{,}280\cancel{\text{ feet}}}
 			</me> 
-			<me>= 4.4 \times 3.281 \times 60 \times 60 \div 5,280 = 9.843 \text{ mph} \approx 10 \text{ mph}.</me>
+			<me>= 4.4 \times 3.281 \times 60 \times 60 \div 5{,}280 = 9.843 \text{ mph} \approx 10 \text{ mph}.</me>
 		</p>
 
 		<p>
@@ -89,9 +89,9 @@
 				\ast \frac{3.281 \cancel{\text{ feet}}}{1 \cancel{\text{ meter}}}  
 				\ast \frac{60 \cancel{\text{ seconds}}}{1 \cancel{\text{ minute}}}
 				\ast \frac{60 \cancel{\text{ minutes}}}{1\text{ hour}}
-				\ast \frac{1 \text{ mile}}{5,280\cancel{\text{ feet}}}
+				\ast \frac{1 \text{ mile}}{5{,}280\cancel{\text{ feet}}}
 			</me> 
-			<me>=7.25 \times 3.281 \times 60 \times 60 \div 5,280 = 16.2185\ldots \approx 16 \text{ mph}
+			<me>=7.25 \times 3.281 \times 60 \times 60 \div 5{,}280 = 16.2185\ldots \approx 16 \text{ mph}
 			</me>
 		</p>
 

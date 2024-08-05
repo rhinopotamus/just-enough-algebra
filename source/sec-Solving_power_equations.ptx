@@ -143,15 +143,15 @@
 		</p>
 
 		<p>
-			The same idea works for higher powers. Like <me>10^3 =10 \times 10 \times 10 = 1,000</me> That's really <me>10^3 = 10 \wedge 3 = 1,000</me> and we say 10 <term>cubed</term> is . The <term>cube root</term> of a number is whatever number you would cube to get that number. So, for example, <m>\sqrt[3]{1,000} = 10</m>. Many calculators have a special root key that looks like <m>\sqrt[x]{~\text{  }}</m>. That <m>x</m> looks similar to multiplication (<m>\times</m>), but it isn't. The <m>x</m> is like a placeholder for the real root you want - for a cube root <m>x</m> is just 3.
+			The same idea works for higher powers. Like <me>10^3 =10 \times 10 \times 10 = 1{,}000</me> That's really <me>10^3 = 10 \wedge 3 = 1{,}000</me> and we say 10 <term>cubed</term> is . The <term>cube root</term> of a number is whatever number you would cube to get that number. So, for example, <m>\sqrt[3]{1{,}000} = 10</m>. Many calculators have a special root key that looks like <m>\sqrt[x]{~\text{  }}</m>. That <m>x</m> looks similar to multiplication (<m>\times</m>), but it isn't. The <m>x</m> is like a placeholder for the real root you want - for a cube root <m>x</m> is just 3.
 		</p>
 
 		<p>
-			Here's how to use that root key. First you type in the root you want (3), second you use that key (<m>\sqrt[x]{~\text{  }}</m>), and last you type in the number you're taking the root of () like this <me>\sqrt[3]{1,000} = 3\sqrt[x]{~\text{  }}1,000= 10</me> Like with squareroots, your calculator might introduce a parenthesis, or you might do a slightly different order. You might have to use a shift or second key to get to the root key. On many graphing calculators the <m>\sqrt[x]{~\text{  }}</m> key is one of the MATH functions, so you have to type something like MATH 5 to get it. Again, ask if you need help figuring it out.
+			Here's how to use that root key. First you type in the root you want (3), second you use that key (<m>\sqrt[x]{~\text{  }}</m>), and last you type in the number you're taking the root of () like this <me>\sqrt[3]{1{,}000} = 3\sqrt[x]{~\text{  }}1{,}000= 10</me> Like with squareroots, your calculator might introduce a parenthesis, or you might do a slightly different order. You might have to use a shift or second key to get to the root key. On many graphing calculators the <m>\sqrt[x]{~\text{  }}</m> key is one of the MATH functions, so you have to type something like MATH 5 to get it. Again, ask if you need help figuring it out.
 		</p>
 
 		<p>
-			There is a small chance that your calculator doesn't have roots. In that case there is a strange-looking alternative <me>\sqrt[3]{1,000} = 1,000 \wedge (1 \div 3)= 10</me> Note the necessary parentheses. This process works for square roots too. <me>\sqrt{100} = 100 \wedge (1 \div 2)= 10</me>
+			There is a small chance that your calculator doesn't have roots. In that case there is a strange-looking alternative <me>\sqrt[3]{1{,}000} = 1{,}000 \wedge (1 \div 3)= 10</me> Note the necessary parentheses. This process works for square roots too. <me>\sqrt{100} = 100 \wedge (1 \div 2)= 10</me>
 		</p>
 
 		<p>

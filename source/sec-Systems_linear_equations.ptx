@@ -35,11 +35,11 @@
 		<tabular>
 			<row class="odd">
 				<cell halign="left"><term>Machine #1:</term></cell>
-				<cell halign="left"><m>E  =3,200 + 1.25 L</m></cell>
+				<cell halign="left"><m>E  =3{,}200 + 1.25 L</m></cell>
 			</row>
 			<row class="even">
 				<cell halign="left"><term>Machine #2:</term></cell>
-				<cell halign="left"><m>E  =5,400 + 0.80 L</m></cell>
+				<cell halign="left"><m>E  =5{,}400 + 0.80 L</m></cell>
 			</row>
 		</tabular>
 
@@ -55,11 +55,11 @@
 		<tabular>
 			<row class="odd">
 				<cell halign="left"><term>Machine #1:</term></cell>
-				<cell halign="left"><m>E  =3,200 + 1.25 \times \underline{2,000}=\$5,700</m></cell>
+				<cell halign="left"><m>E  =3{,}200 + 1.25 \times \underline{2{,}000}=\$5{,}700</m></cell>
 			</row>
 			<row class="even">
 				<cell halign="left"><term>Machine #2:</term></cell>
-				<cell halign="left"><m>E  =5,400 + 0.80 \times \underline{2,000}=\$7,000</m></cell>
+				<cell halign="left"><m>E  =5{,}400 + 0.80 \times \underline{2{,}000}=\$7{,}000</m></cell>
 			</row>
 		</tabular>
 
@@ -160,32 +160,32 @@
 			There is a way for Quia Xun to solve the problem symbolically; we refer to this process as <term>solving the system</term>. She wants to find the number of locks where 
 			<me component="web">E \text{ (Machine #1)} = E \text{ (Machine #2)}</me> 
 			<me component="not-web">E \text{ (Machine \#1)} = E \text{ (Machine \#2)}</me>
-			Using her equations <m>E  =3,200 + 1.25L</m> for Machine #1 and <m>E  =5,400 + 0.80L</m> for Machine #2 she has <me>3,200 + 1.25L=5,400 + 0.80L</me> She wants to find the value of <m>L</m> that makes both sides the same number. To solve, Quia Xun subtracts 3,200, the smaller of the two purchase prices, from each side to get 
+			Using her equations <m>E  =3{,}200 + 1.25L</m> for Machine #1 and <m>E  =5{,}400 + 0.80L</m> for Machine #2 she has <me>3{,}200 + 1.25L=5{,}400 + 0.80L</me> She wants to find the value of <m>L</m> that makes both sides the same number. To solve, Quia Xun subtracts 3,200, the smaller of the two purchase prices, from each side to get 
 			<me>
 				\begin{array}{lcl}
-				\phantom{-}\cancel{3,200}+1.25L \amp = \amp \phantom{-}5,400+0.80L \\
-				-\cancel{3,200}                  \amp = \amp -3,200
+				\phantom{-}\cancel{3{,}200}+1.25L \amp = \amp \phantom{-}5{,}400+0.80L \\
+				-\cancel{3{,}200}                  \amp = \amp -3{,}200
 				\end{array}
 			</me>
-			which simplifies to <me>1.25L = 2,200 + 0.80L</me> Pause for a minute. What does that $2,200 mean in the story? It's the extra cost of buying Machine #2 because <m>\$5,400 - \$3,200 = \$2,200</m>.
+			which simplifies to <me>1.25L = 2{,}200 + 0.80L</me> Pause for a minute. What does that $2,200 mean in the story? It's the extra cost of buying Machine #2 because <m>\$5{,}400 - \$3{,}200 = \$2{,}200</m>.
 		</p>
 
 		<p>
 			What next? This equation has the variable <m>L</m> on each side. Quia Xun needs to combine them somehow. Here's how to do that. Subtract <m>0.80L</m> from each side. Look closely. She is subtracting <m>0.80L</m>, not just <m>0.80</m>. We get 
 			<me>
 				\begin{array}{lcr}
-					\phantom{-}1.25L \amp = \amp 2,200 +\cancel{0.80L} \\
+					\phantom{-}1.25L \amp = \amp 2{,}200 +\cancel{0.80L} \\
 					-0.80L \amp  \amp -\cancel{0.80L}
 				\end{array}
 			</me>
-			How do we simplify <m>1.25L-0.80L</m>? Think about what these numbers represent in the story. The cost was $1.25 per lock versus $0.80 per lock. The difference is $1.25-$0.80 = $0.45 per lock. So that means <me>1.25L -0.80L = 0.45L</me> Think: 125 apples <m>-</m> 80 apples <m>=</m> 45 apples. She can now simplify her equation to get <me>0.45L = 2,200</me> Ah, she can solve this equation just by dividing each side by 0.45 to get <me>\frac{\cancel{0.45}L}{\cancel{0.45}}= \frac{2,200}{0.45}</me> which simplifies to <me>L = \frac{2,200}{0.45}= 2,200 \div 0.45 = 4888.88888\ldots \approx 4,889 \text{ locks}</me> If they plan to produce 4,889 locks or more, Quia Xun should go ahead and buy the more expensive machine, Machine #2. Yeah, that's what we guessed – just under 4,900 locks is the payoff.
+			How do we simplify <m>1.25L-0.80L</m>? Think about what these numbers represent in the story. The cost was $1.25 per lock versus $0.80 per lock. The difference is $1.25-$0.80 = $0.45 per lock. So that means <me>1.25L -0.80L = 0.45L</me> Think: 125 apples <m>-</m> 80 apples <m>=</m> 45 apples. She can now simplify her equation to get <me>0.45L = 2{,}200</me> Ah, she can solve this equation just by dividing each side by 0.45 to get <me>\frac{\cancel{0.45}L}{\cancel{0.45}}= \frac{2{,}200}{0.45}</me> which simplifies to <me>L = \frac{2{,}200}{0.45}= 2{,}200 \div 0.45 = 4888.88888\ldots \approx 4{,}889 \text{ locks}</me> If they plan to produce 4,889 locks or more, Quia Xun should go ahead and buy the more expensive machine, Machine #2. Yeah, that's what we guessed – just under 4,900 locks is the payoff.
 		</p>
 
 		<p>
 			She solved an equation here, but Quia Xun really wanted to know when 
 			<me component="web">E \text{ (Machine #1)} \geq E \text{ (Machine #2)}</me> 
 			<me component="not-web">E \text{ (Machine \#1)} \geq E \text{ (Machine \#2)}</me> 
-			so she could have solved the inequality <me>3,200 + 1.25L \ge 5,400 + 0.80L</me> instead. Check that the same steps give <me>L \ge 4,889 \text{ locks}</me>.
+			so she could have solved the inequality <me>3{,}200 + 1.25L \ge 5{,}400 + 0.80L</me> instead. Check that the same steps give <me>L \ge 4{,}889 \text{ locks}</me>.
 		</p>
 	</introduction>
 	

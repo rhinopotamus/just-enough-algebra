@@ -168,7 +168,7 @@
 		<exercise xml:id="mortgage-payoff-solving-exponential" workspace="1.5in">
 			<introduction>
 				<p>
-					Dontrell and Kim borrowed money to buy a house on a 30-year mortgage. After <m>T</m> months of making payments, Dontrell and Kim will still owe $<m>D</m> where <me>D=236,000-56,000 \ast 1.004^T</me> <m>D</m> is also known as the <term>payoff</term> (how much they would need to pay to settle the debt). 
+					Dontrell and Kim borrowed money to buy a house on a 30-year mortgage. After <m>T</m> months of making payments, Dontrell and Kim will still owe $<m>D</m> where <me>D=236{,}000-56{,}000 \ast 1.004^T</me> <m>D</m> is also known as the <term>payoff</term> (how much they would need to pay to settle the debt). 
 				</p>
 				<p>
 					<em>(Story also appears in <xref ref="mortgage-payoff-using-equations"/>)</em>
@@ -191,7 +191,7 @@
 			<task workspace="1.75in">
 				<statement>
 					<p>
-						How much longer would Dontrell and Kim need to stay in their house until they only owe $150,000? That means you need to solve the equation <me>236,000-56,000(1.004)^M=150,000</me>
+						How much longer would Dontrell and Kim need to stay in their house until they only owe $150,000? That means you need to solve the equation <me>236{,}000-56{,}000(1.004)^M=150{,}000</me>
 					</p>
 				</statement>
 			</task>
@@ -242,7 +242,7 @@
 	<exercise xml:id="sp-household-solving-exponential" component="not-workbook">
 		<introduction>
 			<p>
-				The number of school children in the district from a single parent household has been on the rise. In one district there were 1,290 children from single parent households in 2010 and that number was expected to increase about 3% per year. Earlier, we found the equation was <me>C = 1,290\ast1.03^Y</me> where <m>C</m> is the number of children and <m>Y</m> is the years since 2010.
+				The number of school children in the district from a single parent household has been on the rise. In one district there were 1,290 children from single parent households in 2010 and that number was expected to increase about 3% per year. Earlier, we found the equation was <me>C = 1{,}290\ast1.03^Y</me> where <m>C</m> is the number of children and <m>Y</m> is the years since 2010.
 			</p>
 			<p>
 				<em>

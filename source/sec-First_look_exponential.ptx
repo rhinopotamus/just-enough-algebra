@@ -10,15 +10,15 @@
 		</p>
 
 		<p>
-			After the first year, Jocelyn's salary of $28,000 was increased by 15%. Remember that means 15% of $28,000 more. To calculate 15% of $28,000 we multiply using the decimal form <me>15\% = \frac{15}{100} = 15 \div 100 = 0.15</me> to get <me>15\% \text{ of } 28,000 = 0.15 \times 28,000 = 4,200</me> That's how much Jocelyn's raise was that first year. By adding that amount to the original salary we get <me>28,000 + 4,200 = 32,200</me> After one year Jocelyn's salary was $32,200.
+			After the first year, Jocelyn's salary of $28,000 was increased by 15%. Remember that means 15% of $28,000 more. To calculate 15% of $28,000 we multiply using the decimal form <me>15\% = \frac{15}{100} = 15 \div 100 = 0.15</me> to get <me>15\% \text{ of } 28{,}000 = 0.15 \times 28{,}000 = 4{,}200</me> That's how much Jocelyn's raise was that first year. By adding that amount to the original salary we get <me>28{,}000 + 4{,}200 = 32{,}200</me> After one year Jocelyn's salary was $32,200.
 		</p>
 
 		<p>
-			After the second year, Jocelyn got a 21% raise. This means her salary rose by 21% from what it was just before the raise, that is, from the $32,200. (The 21% does not refer back to the original $28,000 value.) So, to calculate the increase, we take 21% of $32,200, which is <me>21\% \text{ of } \$32,200 = 0.21 \times 32,200 = \$6,762</me> By adding on this raise we get <me>32,200+ 6,762 = 38,962</me> After the second year Jocelyn was earning $38,962.
+			After the second year, Jocelyn got a 21% raise. This means her salary rose by 21% from what it was just before the raise, that is, from the $32,200. (The 21% does not refer back to the original $28,000 value.) So, to calculate the increase, we take 21% of $32,200, which is <me>21\% \text{ of } \$32{,}200 = 0.21 \times 32{,}200 = \$6{,}762</me> By adding on this raise we get <me>32{,}200+ 6{,}762 = 38{,}962</me> After the second year Jocelyn was earning $38,962.
 		</p>
 
 		<p>
-			Since Jocelyn's original salary was $28,000, the net increase in her salary is the difference <me>\$38,962 - \$28,000 = \$10,962</me> The corresponding percentage increase was <me>\frac{10,962}{28,000}= 10,962 \div 28,000 = 0.3915 = 0.3915 \times 100\% = 39.15\%</me> As Jocelyn said, that's over 39% increase.
+			Since Jocelyn's original salary was $28,000, the net increase in her salary is the difference <me>\$38{,}962 - \$28{,}000 = \$10{,}962</me> The corresponding percentage increase was <me>\frac{10{,}962}{28{,}000}= 10{,}962 \div 28{,}000 = 0.3915 = 0.3915 \times 100\% = 39.15\%</me> As Jocelyn said, that's over 39% increase.
 		</p>
 
 		<p>
@@ -34,11 +34,11 @@
 		</p>
 
 		<p>
-			That means all we have to do to find Jocelyn's salary is <me>28,000 \times 1.15 = 32,200</me> We can do the same thing for the next calculation <me>32,200 \times 1.21 = 38,962</me> Here we multiplied by 1.21 because after a 21% increase you have 121% of what you started with. And 121% in decimal form is just 1.21.
+			That means all we have to do to find Jocelyn's salary is <me>28{,}000 \times 1.15 = 32{,}200</me> We can do the same thing for the next calculation <me>32{,}200 \times 1.21 = 38{,}962</me> Here we multiplied by 1.21 because after a 21% increase you have 121% of what you started with. And 121% in decimal form is just 1.21.
 		</p>
 
 		<p>
-			Now hang on to your hat, because we can combine these parts together. In our example, we started with $28,000. Then we multiplied by 1.15, which gave us $32,200. And then we multiplied that answer by 1.21, to get our final answer of $28,962. So really we just did <me>28,000 \times 1.15 \times 1.21 = 38,962</me> Same answer. A lot less effort. And, check it out <me>1.15 \times 1.21 = 1.3915 =139.15\%</me> That's where the 39.15% increase is hidden. Cool.
+			Now hang on to your hat, because we can combine these parts together. In our example, we started with $28,000. Then we multiplied by 1.15, which gave us $32,200. And then we multiplied that answer by 1.21, to get our final answer of $28,962. So really we just did <me>28{,}000 \times 1.15 \times 1.21 = 38{,}962</me> Same answer. A lot less effort. And, check it out <me>1.15 \times 1.21 = 1.3915 =139.15\%</me> That's where the 39.15% increase is hidden. Cool.
 		</p>
 
 		<p>
@@ -59,7 +59,7 @@
 		</p>
 
 		<p>
-			Jocelyn's most recent assignment has been analyzing information on rising health care costs. In 2007 the United States spent $2.26 trillion on health care. Written out with all its zeros that's <me>\$2.26 \text{ trillion} =  \$2,260,000,000,000</me> Health care costs were projected to increase at an average of 6.7% annually. That means we have <me>r= 6.7\% = 0.067</me> and <me>g=1+r=1+0.067=1.067</me> So, to find the effect of a 6.7% increase, we can just multiply by 1.067. Again, that's the 100% of what we started with plus 6.7% more for a grand total of <m>106.7\%= 1.067</m>.
+			Jocelyn's most recent assignment has been analyzing information on rising health care costs. In 2007 the United States spent $2.26 trillion on health care. Written out with all its zeros that's <me>\$2.26 \text{ trillion} =  \$2{,}260{,}000{,}000{,}000</me> Health care costs were projected to increase at an average of 6.7% annually. That means we have <me>r= 6.7\% = 0.067</me> and <me>g=1+r=1+0.067=1.067</me> So, to find the effect of a 6.7% increase, we can just multiply by 1.067. Again, that's the 100% of what we started with plus 6.7% more for a grand total of <m>106.7\%= 1.067</m>.
 		</p>
 
 		<p>

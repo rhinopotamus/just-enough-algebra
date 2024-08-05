@@ -163,13 +163,13 @@
 			<md>
 				<mrow>\log(10) \amp =1</mrow>
 				<mrow>\log(100) \amp =2</mrow>
-				<mrow>\log(1,000) \amp =3</mrow>
-				<mrow>\log(10,000) \amp= 4</mrow>
+				<mrow>\log(1{,}000) \amp =3</mrow>
+				<mrow>\log(10{,}000) \amp= 4</mrow>
 			</md>
 		</p>
 
 		<p>
-			What do you see? In each case the logarithm is the number of zeros. For example, has 4 zeros and <m>\log(10,000)=4</m>. Another way to think of this connection is <me>10,000 = 10^4 \text{ and } \log(10,000)=4</me> In other words, the logarithm is picking off the power of 10.
+			What do you see? In each case the logarithm is the number of zeros. For example, has 4 zeros and <m>\log(10{,}000)=4</m>. Another way to think of this connection is <me>10{,}000 = 10^4 \text{ and } \log(10{,}000)=4</me> In other words, the logarithm is picking off the power of 10.
 		</p>
 
 		<p>
@@ -181,14 +181,14 @@
 			<md>
 				<mrow> \log(25) \amp = 1.3979\ldots </mrow>
 				<mrow> \log(250) \amp = 2.3979\ldots </mrow>
-				<mrow> \log(2,500) \amp = 3.3979\ldots </mrow>
-				<mrow> \log(25,000) \amp = 4.3979\ldots </mrow>
+				<mrow> \log(2{,}500) \amp = 3.3979\ldots </mrow>
+				<mrow> \log(25{,}000) \amp = 4.3979\ldots </mrow>
 			</md>
 			
 		</p>
 
 		<p>
-			To see what's happening we want to involve powers of 10. Scientific notation will do that for us. Let's write these numbers in scientific notation and see what we learn. For example. <me>25,000 = 2.5 \times 10^4 \text{ and } \log( 25,000)=4.3979\ldots \approx 4</me> We are back to the power of 10. Well, approximately. Let's check another number.
+			To see what's happening we want to involve powers of 10. Scientific notation will do that for us. Let's write these numbers in scientific notation and see what we learn. For example. <me>25{,}000 = 2.5 \times 10^4 \text{ and } \log( 25{,}000)=4.3979\ldots \approx 4</me> We are back to the power of 10. Well, approximately. Let's check another number.
 		</p>
 
 
@@ -207,9 +207,9 @@
 
 		<tabular>
 			<row class="odd">
-				<cell halign="left"><m>7,420,000 =7.42 \times 10^6</m></cell>
+				<cell halign="left"><m>7{,}420{,}000 =7.42 \times 10^6</m></cell>
 				<cell halign="center">and</cell>
-				<cell halign="left"><m>\log(7,420,000)=6.870403905\ldots \approx 6</m></cell>
+				<cell halign="left"><m>\log(7{,}420{,}000)=6.870403905\ldots \approx 6</m></cell>
 			</row>
 			<row class="even">
 				<cell halign="left"><m>4 = 4 \times 10^0</m></cell>

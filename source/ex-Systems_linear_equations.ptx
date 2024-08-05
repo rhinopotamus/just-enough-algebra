@@ -343,11 +343,11 @@
 			<tabular bottom="minor" top="minor">
 				<row left="minor" class="odd">
 					<cell right="minor" halign="left"><term>Machine #1:</term></cell>
-					<cell right="minor" halign="left"><m>E  =3,200 + 1.25 L</m></cell>
+					<cell right="minor" halign="left"><m>E  =3{,}200 + 1.25 L</m></cell>
 				</row>
 				<row left="minor" class="even">
 					<cell right="minor" halign="left"><term>Machine #2:</term></cell>
-					<cell right="minor" halign="left"><m>E  =5,400 + 0.80 L</m></cell>
+					<cell right="minor" halign="left"><m>E  =5{,}400 + 0.80 L</m></cell>
 				</row>
 			</tabular>
 			
@@ -584,11 +584,11 @@
 			<tabular bottom="minor" top="minor">
 				<row left="minor" class="odd">
 					<cell right="minor" halign="left"><term>Solar:</term></cell>
-					<cell right="minor" halign="left"><m>T  =30,000 + 150Y</m></cell>
+					<cell right="minor" halign="left"><m>T  =30{,}000 + 150Y</m></cell>
 				</row>
 				<row left="minor" class="even">
 					<cell right="minor" halign="left"><term>Gas:</term></cell>
-					<cell right="minor" halign="left"><m>T  = 12,000 + 700Y</m></cell>
+					<cell right="minor" halign="left"><m>T  = 12{,}000 + 700Y</m></cell>
 				</row>
 			</tabular>
 			

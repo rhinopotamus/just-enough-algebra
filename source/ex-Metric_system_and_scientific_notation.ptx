@@ -89,7 +89,7 @@
 					<cell halign="center"><m>=</m></cell>
 					<cell halign="left">1 thousand</cell>
 					<cell halign="center"><m>=</m></cell>
-					<cell halign="left"><m>1,000</m></cell>
+					<cell halign="left"><m>1{,}000</m></cell>
 					<cell halign="center"><m>=</m></cell>
 					<cell halign="left"><m>10^{3}</m></cell>
 				</row>
@@ -443,7 +443,7 @@
 	<exercise xml:id="cells-scientific-notation" component="not-workbook">
 		<introduction>
 			<p>
-				Rayka weighs 140 pounds. She would like to approximate how many cells are in her body. Use the following information: <m>1 \text{ cell} \approx 1 \times 10^{-15} \text{g}</m>, <m>1 \text{ kg} \approx \text{2.2 pounds}</m>, and, as always, 1 kg = 1,000 g.
+				Rayka weighs 140 pounds. She would like to approximate how many cells are in her body. Use the following information: <m>1 \text{ cell} \approx 1 \times 10^{-15} \text{g}</m>, <m>1 \text{ kg} \approx 2.2 \text{ pounds}</m>, and, as always, 1 kg = 1,000 g.
 			</p>
 			<p>
 				<em>(Story also appears in <xref ref="cells-prelude-scientific-notation"/>)</em>

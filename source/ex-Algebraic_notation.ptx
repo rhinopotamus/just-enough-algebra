@@ -216,7 +216,7 @@
     <exercise xml:id="needlepoint-algebraic-notation" component="not-workbook">
         <introduction>
             <p>
-                Saboor is working on a needlepoint that will be 1 foot by 1 foot square. The mesh grid comes in different sizes. For example, a 13-count mesh has 13 holes per inch which is <m>13 \times 12=156</m> holes per foot. If she uses a 13-count mesh, then the piece will have <m>156 \times 156 = 156 \wedge 2 = 24,336</m> holes. There are other sizes mesh to choose from. A <m>C</m>-count mesh has <m>12C</m> holes per foot and <m>(12C)^2</m> holes total.
+                Saboor is working on a needlepoint that will be 1 foot by 1 foot square. The mesh grid comes in different sizes. For example, a 13-count mesh has 13 holes per inch which is <m>13 \times 12=156</m> holes per foot. If she uses a 13-count mesh, then the piece will have <m>156 \times 156 = 156 \wedge 2 = 24{,}336</m> holes. There are other sizes mesh to choose from. A <m>C</m>-count mesh has <m>12C</m> holes per foot and <m>(12C)^2</m> holes total.
             </p>
             
             <p>

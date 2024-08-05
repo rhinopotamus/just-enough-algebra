@@ -528,7 +528,7 @@
 		<task>
 			<statement>
 				<p>
-					The population of bacteria (<m>B</m>) in a culture dish after <m>D</m> days is given by the equation <me>B=2,000\ast 3^D</me> <em>(Story also appears in <xref ref="bacteria-growth-decay"/>)</em>
+					The population of bacteria (<m>B</m>) in a culture dish after <m>D</m> days is given by the equation <me>B=2{,}000\ast 3^D</me> <em>(Story also appears in <xref ref="bacteria-growth-decay"/>)</em>
 				</p>
 			</statement>
 		</task>

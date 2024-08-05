@@ -55,7 +55,7 @@
 		<exercise xml:id="art-museum-solving-quadratic">
 			<introduction>
 				<p>
-					The art museum opened in 1920. After an initial rush to see the great holdings, attendance dropped for awhile. But then attendance began to rise again and has risen since. The number of annual visits <m>N</m> is approximated by the equation <me>N= 51T^2-840T+3,700</me> where <m>T</m> is time measured in years since 1920.
+					The art museum opened in 1920. After an initial rush to see the great holdings, attendance dropped for awhile. But then attendance began to rise again and has risen since. The number of annual visits <m>N</m> is approximated by the equation <me>N= 51T^2-840T+3{,}700</me> where <m>T</m> is time measured in years since 1920.
 				</p>
 			</introduction>
 			<task>
@@ -143,7 +143,7 @@
 		<exercise xml:id="milk-profit-solving-quadratic">
 			<introduction>
 				<p>
-					The profit $<m>P</m> from selling <m>M</m> tanks of milk is described by the equation <me>P=-2M^2+2,000M-80,000</me>
+					The profit $<m>P</m> from selling <m>M</m> tanks of milk is described by the equation <me>P=-2M^2+2{,}000M-80{,}000</me>
 				</p>
 			</introduction>
 			<task workspace="0.5in">
