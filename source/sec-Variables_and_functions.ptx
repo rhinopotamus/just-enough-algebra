@@ -43,7 +43,7 @@
 		</p>
 
 		<p>
-			In talking about the relationship between these variables we might say <q>the cost depends on the price of gas,</q> so <m>C</m> depends on <m>P</m>. That tells us that <m>C</m> is the <term>dependent variable</term> and <m>P</m> is the <term>independent variable</term>. In general, the variable we really care about is the dependent variable, in this case <m>C</m> the total amount of money it costs us. The concept of dependence is so important that there's yet another word for it. We say that <m>C</m> is a <term>function</term> of <m>P</m>, as in <q>cost is a function of price.</q>
+			In talking about the relationship between these variables we might say <q>the total cost depends on the price of gas,</q> so <m>C</m> depends on <m>P</m>. That tells us that <m>C</m> is the <term>dependent variable</term> and <m>P</m> is the <term>independent variable</term>. In general, the variable we really care about is the dependent variable, in this case <m>C</m>, the total amount of money it costs us. The concept of dependence is so important that there's yet another word for it. We say that <m>C</m> is a <term>function</term> of <m>P</m>, as in <q>cost is a function of price.</q>
 		</p>
 
 		<p>

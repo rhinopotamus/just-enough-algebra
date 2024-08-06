@@ -31,7 +31,12 @@
 		</tabular>
 
 		<p>
-			What all this means is Tara has <me>72\text{ GB} = 72 \text{ billion bytes} = 72{,}000{,}000{,}000 \text{ bytes}</me> of memory remaining. She would like to save 200 files at 42.3 MB each which comes to <me>200 \times 42.3 = 8{,}460\text{ MB}</me> which is really <me>8{,}460\text{ MB} = 8{,}460\text{ million bytes} = 8{,}460{,}000{,}000 \text{ bytes}</me> <me>= 8.46 \text{ billion bytes} = 8.46 \text{ GB }</me> So Tara wants to store less than 9 GB of information and she has 72 GB remaining. She has plenty of room. Save away!
+			What all this means is Tara has <me>72\text{ GB} = 72 \text{ billion bytes} = 72{,}000{,}000{,}000 \text{ bytes}</me> of memory remaining. She would like to save 200 files at 42.3 MB each which comes to <me>200 \times 42.3 = 8{,}460\text{ MB}</me> which is really 
+			<md>
+				<mrow> 8{,}460\text{ MB} \amp= 8{,}460\text{ million bytes} = 8{,}460{,}000{,}000 \text{ bytes} </mrow>
+				<mrow> \amp= 8.46 \text{ billion bytes} = 8.46 \text{ GB } </mrow>
+			</md>
+			So Tara wants to store less than 9 GB of information and she has 72 GB remaining. She has plenty of room. Save away!
 		</p>
 
 		<p>
@@ -41,7 +46,7 @@
 		<p>
 			Perhaps you know what happens when we multiply a number by 10, like <m>5 \times 10 = 50</m> or, more appropriate to our example, <me>8.46 \times 10 = 84.6</me> The effect of multiplying by 10 is to move the decimal point one place to the right. When we multiply by 1,000 we get <m>5 \times 1{,}000 = 5{,}000</m> or, for our example, <me>8.46 \times 1{,}000 = 8{,}460</me> The effect of multiplying by 1,000 is to move the decimal point three places to the right. The connection is that <me>10^3=10 \times 10 \times 10  =1{,}000</me> Each <m>\times 10</m> has the effect of moving the decimal point one place to the right so <m>\times 1{,}000</m> has the same effect as multiplying by 10 three times, so the decimal point moves three places to the right. That means 
 			<md>
-				<mrow> 8{,}460{,}000{,}000 \amp =
+				<mrow> 8{,}460{,}000{,}000 \amp = 8.46
 					\underbrace{\hbox{$\times 10 \times 10  \times 10  \times 10  \times 10  \times 10  \times 10  \times 10  \times 10 $}}_{\text{9 times}}
 				</mrow>
 				<mrow> \amp=8.46 \ast 10^9 </mrow>
@@ -79,7 +84,7 @@
 		</p>
 
 		<p>
-			Turns out that a typical human hair is about <m>0.00012</m> meters across. Very small numbers are also awkward to read and awkward to work with. In this section, we write <m>0.000~12</m> where the strange-looking space is to help you read the number.
+			Turns out that a typical human hair is about <m>0.00012</m> meters across. Very small numbers are also awkward to read and awkward to work with. In this section, we write <m>0.000~12</m> where we insert a space to help you read the number.
 		</p>
 
 		<p>

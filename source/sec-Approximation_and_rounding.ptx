@@ -39,10 +39,9 @@
 			You might be surprised to learn that approximate answers are not only good enough; they are often best. For one thing, in practice we want a round number so it is easy to understand and work with our answer. A rounded answer is just approximate. Also often the numbers we are given in a problem were rounded or approximated – for the record, that fee was really $23,058, not $23,000. When we start with approximate numbers, then no matter how precise the mathematics we use, we can only get approximate answers. Also, in much of this course the methods we will use to calculate answers are, themselves, approximate. We might <em>suppose</em> that tuition increases exactly 12% each year, when we know in reality that the percent will likely vary. That is an example of using an <term>approximate model</term>. Last, we might have an actual model but use some numerical or graphical technique for solving. That is an example of using an <term>approximation technique.</term> In either case, if the model or technique we use is approximate, then our answer can only be either. There is an old saying we try to live by in this course.
 		</p>
 
-		<!-- emphasize in some cute way? -->
-		<p>
-			I'd rather be approximately right than precisely wrong.
-		</p>
+		<blockquote><p>
+			<alert>I'd rather be approximately right than precisely wrong.</alert>
+		</p></blockquote>
 
 		<p>
 			One more subtlety. We have been rounding to the nearest number of a given precision. That process is also known as <term>rounding off</term>. There are times when we will need to <term>round up</term> – to the next highest number of a given precision, or <term>round down</term> – to the next lowest number of a given precision.

@@ -30,11 +30,9 @@
             <task xml:id="earth-weight-prelude-scientific-notation">
                 <statement>
                     <p>
-                        The Earth weighs approximately <m>\mathbf{5.972 \times 10^{24}}</m> <term>kilograms</term>.
+                        The Earth weighs approximately <m>\mathbf{5.972 \times 10^{24}}</m> <term>kilograms</term>. <em>(Story also appears in <xref ref="planet-weight-scientific-notation" />)</em>
                     </p>
-                    <p>
-                        <em>(Story also appears in <xref ref="planet-weight-scientific-notation" />)</em>
-                    </p>
+                    
                 </statement>
             </task>
         </exercise>

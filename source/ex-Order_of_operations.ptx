@@ -38,7 +38,7 @@
         <task>
             <statement>
                 <p>
-                    Comparing answers to parts (a) and (b) is it worthwhile for Juan to buy the card? Explain.
+                    Comparing answers to parts (a) and (b), is it worthwhile for Juan to buy the card? Explain.
                 </p>
             </statement>
         </task>
@@ -126,7 +126,7 @@
         <task>
             <statement>
                 <p>
-                    After the past 6 weeks of terrible migrane headaches, Carlos is down to 158 pounds. He has lost 4 pounds a week. What did Carlos weigh when 6 weeks ago?
+                    After the past 6 weeks of terrible migrane headaches, Carlos is down to 158 pounds. He has lost 4 pounds a week. What did Carlos weigh 6 weeks ago before the migraines started?
                 </p>
             </statement>
         </task>
@@ -138,7 +138,7 @@
     <exercise xml:id="asian-students-order-operations" component="not-workbook">
         <statement>
             <p>
-                Recall that in the Asian student association there were 3 students Chinese students, 15 Hmong students, 11 Vietnamese students, and 5 students who do not identify with any of these ethnicities. What percentage of students in the group identify as Vietnamese?
+                Recall that in the Asian student association there were 3 Chinese students, 15 Hmong students, 11 Vietnamese students, and 5 students who do not identify with any of these ethnicities. What percentage of students in the group identify as Vietnamese?
             </p>
         </statement>
     </exercise>

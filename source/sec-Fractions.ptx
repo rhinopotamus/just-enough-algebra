@@ -6,7 +6,7 @@
 	<title component="workbook">Prelude: Fractions - Practice exercises</title>
 	<introduction component="not-workbook">
 		<p>
-			Piadina's Restaurant specializes in flatbreads. My favorite is the grilled vegetable flatbread with smoked almond Muhammara (a sauce made from almonds, red bell peppers, red chili peppers, pomegranate molasses, cumin, lemon juice, and olive oil). Last night I ordered that flatbread and a salad for dinner. They serve each flatbread cut into 5 slices.
+			Piadina's Restaurant specializes in flatbreads. My favorite is the grilled vegetable flatbread with smoked almond muhammara (a sauce made from almonds, red bell peppers, red chili peppers, pomegranate molasses, cumin, lemon juice, and olive oil). Last night I ordered that flatbread and a salad for dinner. They serve each flatbread cut into 5 equal slices.
 		</p>
 
 		<p>
@@ -14,7 +14,7 @@
 		</p>
 
 		<p>
-			Turns out the salad was pretty big and so I only ate 3 slides of flatbread. One way to describe how much of the flatbread I ate is using the fraction <m>\frac{3}{5}</m>.
+			Turns out the salad was pretty big and so I only ate 3 slices of flatbread. One way to describe how much of the flatbread I ate is using the fraction <m>\frac{3}{5}</m>.
 		</p>
 
 		<p>

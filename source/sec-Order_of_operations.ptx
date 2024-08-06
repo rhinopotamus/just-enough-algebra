@@ -138,7 +138,7 @@
 		</p>
 
 		<p>
-			What can we do if we want the calculator to work in a different order? For example, suppose in the Asian student association that there are 3 students Chinese students, 15 Hmong students, 11 Vietnamese students, and 5 students who do not identify with any of these ethnicities. We'd like to report the percentage of students in the group who are Hmong.
+			What can we do if we want the calculator to work in a different order? For example, suppose in the Asian student association that there are 3 Chinese students, 15 Hmong students, 11 Vietnamese students, and 5 students who do not identify with any of these ethnicities. We'd like to report the percentage of students in the group who are Hmong.
 		</p>
 
 		<p>
@@ -146,7 +146,7 @@
 		</p>
 
 		<p>
-			Can we do the entire calculation in one line? Sure, but it does not work to do <me>15 \div 3 + 15 + 11 + 5 \times 100=531 \text{ Oops!}</me> What did the calculator do? Since multiplication (<m>\times</m>) and division (<m>\div</m>) are higher priority than addition (<m>+</m>), the calculator first figured out that <m>15\div 3 = 5</m> and <m>5 \times 100 = 500</m> and then it calculated <m>5 + 15 + 11 + 500 = 531</m>. Argh
+			Can we do the entire calculation in one line? Sure, but it does not work to do <me>15 \div 3 + 15 + 11 + 5 \times 100=531 \text{ Oops!}</me> What did the calculator do? Since multiplication (<m>\times</m>) and division (<m>\div</m>) are higher priority than addition (<m>+</m>), the calculator first figured out that <m>15\div 3 = 5</m> and <m>5 \times 100 = 500</m> and then it calculated <m>5 + 15 + 11 + 500 = 531</m>. Argh.
 		</p>
 
 		<p>

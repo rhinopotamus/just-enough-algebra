@@ -18,7 +18,7 @@
 		</p>
 
 		<p>
-			Another report estimated that precipitation would increase about 0.5% per year. Notice that percentage is less than 1%. It is much more complicated to figure out what to expect in 2032 (after 10 years), but following some examples we saw in the last section, it turns out that we can calculate the predicted precipitation to be <me>35.5 \times 1.005 \wedge 10 = 37.3154\ldots \approx 37.3 \text{ inches}</me>
+			Another report estimated that precipitation would increase about 0.5% per year. Notice that percentage is less than 1%. It is a bit more complicated to figure out what to expect in 2032 (after 10 years), but following some examples we saw in the last section, it turns out that we can calculate the predicted precipitation to be <me>35.5 \times 1.005 \wedge 10 = 37.3154\ldots \approx 37.3 \text{ inches}</me>
 		</p>
 
 		<p>
@@ -30,7 +30,7 @@
 		</p>
 
 		<p>
-			One more piece of terminology. When we have an expression, like <m>\frac{17.49}{S}</m> and we want to know the value when <m>S</m> is a particular value, we say that we are <term>evaluating</term> the expression. Suppose we want to know the price per slice if Piadina's cut their flatbread into 4 slices instead. That means we want to evaluate the expression <m>\frac{17.49}{S}</m> when <m>S = 4</m> slices.
+			One more piece of terminology. When we have an expression, like <m>\frac{17.49}{S}</m>, and we want to know the value when <m>S</m> is a particular value, we say that we are <term>evaluating</term> the expression. Suppose we want to know the price per slice if Piadina's cut their flatbread into 4 slices instead. That means we want to evaluate the expression <m>\frac{17.49}{S}</m> when <m>S = 4</m> slices.
 		</p>
 
 		<p>

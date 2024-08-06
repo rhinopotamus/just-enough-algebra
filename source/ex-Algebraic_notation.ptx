@@ -88,7 +88,7 @@
     <exercise xml:id="walnut-tree-algebraic-notation" component="not-workbook">
         <introduction>
             <p>
-                When the Nussbaums planted a walnut tree it was 5 feel tall. It has grown around 2 feet a year. If we know that it's been <m>Y</m> years since they planted the tree, we can figure out that the height of the tree is <m>5+2Y</m> feet.
+                When the Nussbaums planted a walnut tree it was 5 feet tall. It has grown around 2 feet a year. If we know that it's been <m>Y</m> years since they planted the tree, we can figure out that the height of the tree is <m>5+2Y</m> feet.
             </p>
             
             <p>
@@ -105,7 +105,10 @@
         <task>
             <statement>
                 <p>
-                    What does <m>2Y</m> mean in the expression <m>5+2Y</m>?
+                    What does <m>2Y</m> mean in the expression <m>5+2Y</m>? 
+                </p>
+                <p>
+                    <em>Hint: It doesn't mean <q>2 years</q>!</em>
                 </p>
             </statement>
         </task>

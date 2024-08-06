@@ -145,7 +145,7 @@
             </p>
         
             <p>
-                <em>Story also appears in <xref ref="find-growth-factor"/> and <xref ref="food-shelf-growth-decay"/></em>
+                <em>(Story also appears in <xref ref="find-growth-factor"/> and <xref ref="food-shelf-growth-decay"/>)</em>
             </p>
         </statement>
     </exercise>
@@ -153,7 +153,10 @@
     <exercise xml:id="caffeine-percentages" component="not-workbook">
         <statement>
             <p>
-                Ceyda starts the day by downing two cans of Red Bull, containing a total of 160 mg of caffeine. Her body eliminates the caffeine at the rate of 12% each hour. How much caffeine is left in her blood after 1 hour? <em>Story also appears in <xref ref="caffeine-growth-decay"/></em>
+                Ceyda starts the day by downing two cans of Red Bull, containing a total of 160 mg of caffeine. Her body eliminates the caffeine at the rate of 12% each hour. How much caffeine is left in her blood after 1 hour? 
+            </p>
+            <p>
+                <em>(Story also appears in <xref ref="caffeine-growth-decay"/>)</em>
             </p>
         </statement>
     </exercise>
@@ -187,7 +190,7 @@
             </p>
         
             <p>
-                <em>Story also appears in <xref ref="house-value-growth-decay"/></em>
+                <em>(Story also appears in <xref ref="house-value-growth-decay"/>)</em>
             </p>
         </statement>
     </exercise>

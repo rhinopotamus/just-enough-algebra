@@ -227,7 +227,7 @@
     <exercise xml:id="bmi-approx-rounding" component="not-workbook">
         <introduction>
             <p>
-                Body Mass Index (or BMI for short) is one indicator of whether a person is a healthy weight. BMI between 18.5 and 24.9 are considered <q>normal</q>. Jarron is 6 foot 4 inches tall, which he calculated is approximately 1.93 meters. He weights 202 pounds, which he calculated was approximately 91.625 kilograms. He would like to calculate his BMI directly using the formula he found online.
+                Body Mass Index (or BMI for short) is one indicator of whether a person is a healthy weight. BMI between 18.5 and 24.9 are considered <q>normal</q>. Jarron is 6 foot 4 inches tall, which he calculated is approximately 1.93 meters. He weighs 202 pounds, which he calculated was approximately 91.625 kilograms. He would like to calculate his BMI directly using the formula he found online.
             </p>
             <p>
                 <em>Story also appears in <xref ref="bmi-scientific-notation"/></em>
