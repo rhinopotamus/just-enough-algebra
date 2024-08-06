@@ -561,14 +561,15 @@ B = 0.04 \ast 65^2 = 0.04\times \underline{65} \wedge 2 = 169 \text{ feet}
 </td></tr>
 </table></div> <div class="para logical" id="sec-Using_equations-2-15">
 <div class="para">How can we include this reaction time into an equation? Suppose it takes 1 second to react. We would like to know how many feet that adds to the equation. This is something we can figure out. We know the speed and the time, so multiply them to get the distance, right? One small snag: the speed is in mph (miles per hour). We need to convert units.</div>
-<div class="displaymath process-math">
-\begin{equation*}
+<div class="displaymath process-math" id="sec-Using_equations-2-15-1">
+\begin{align*}
 1 \cancel{\text{ sec}} \ast 
 \frac{1 \cancel{\text{ min}}}{60 \cancel{\text{ sec}}} \ast 
 \frac{1 \text{ hour}}{60 \cancel{\text{ min}}} \ast 
-\frac{5{,}280\text{ feet}}{1 \text{ mile}}=
-1 \div 60 \div 60 \times 5{,}280= 1.4666\ldots \approx 1.47 \text{ feet per mph}
-\end{equation*}
+\frac{5{,}280\text{ feet}}{1 \text{ mile}} \amp =
+1 \div 60 \div 60 \times 5{,}280\\
+\amp= 1.4666\ldots \approx 1.47 \text{ feet per mph} 
+\end{align*}
 </div>
 <div class="para">added to the stopping distance. Notice the fancy fraction work with the units?</div>
 <div class="displaymath process-math">
@@ -643,7 +644,7 @@ B = 0.04 \ast S^2
 D=0.04S^2 + 1.47S
 \end{equation*}
 </div>
-<div class="para">is a <dfn class="terminology">polynomial equation</dfn> because includes both a linear and powers. The exercises introduce more polynomial equations. Polynomials can have any powers, but in this equation the highest power happens to be 2. This type of polynomial equation has a special name. It is a <dfn class="terminology">quadratic equation</dfn>. Any quadratic equation fits this template.</div>
+<div class="para">is a <dfn class="terminology">polynomial equation</dfn> because it includes both a linear term and powers. The exercises introduce more polynomial equations. Polynomials can have any powers, but in this equation the highest power happens to be 2. This type of polynomial equation has a special name. It is a <dfn class="terminology">quadratic equation</dfn>. Any quadratic equation fits this template.</div>
 </div> <article class="assemblage assemblage-like" id="quadratic-equation-template-2-3"><h3 class="heading"><span class="title">Quadratic Equation Template.</span></h3>
 <div class="para logical" id="quadratic-equation-template-2-3-2"><div class="displaymath process-math">
 \begin{equation*}
@@ -774,7 +775,7 @@ L=\frac{100}{F^2}
 <div class="para"><em class="emphasis">(Story also appears in <a href="sec-Variables_and_functions.html#name-vars-variables-functions" class="xref" data-knowl="./knowl/xref/name-vars-variables-functions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.1.10">1.1.10</a> and <a href="sec-Solving_power_equations.html#lamp-intensity-solving-power" class="xref" data-knowl="./knowl/xref/lamp-intensity-solving-power.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.3.7">3.3.7</a>)</em></div>
 </div></div>
 <article class="task exercise-like" id="lamp-intensity-using-equations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="lamp-intensity-using-equations-2-1-1">Calculate the intensity when I sit 1 foot, 2 feet, or 3 feet away.</div></article><article class="task exercise-like" id="lamp-intensity-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="lamp-intensity-using-equations-2-1-1">Calculate the intensity when I sit 1 foot, 2 feet, or 3 feet away. Record your answers in a table.</div></article><article class="task exercise-like" id="lamp-intensity-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="lamp-intensity-using-equations-3-1-1">The other day I was sitting 27 inches from the lamp. What was the intensity of the light there?</div></article><article class="task exercise-like" id="lamp-intensity-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="lamp-intensity-using-equations-4-1-1">Calculate the rate of change of light intensity between 2 feet and 27 inches. What does that tell you in terms of the story?</div></article><article class="task exercise-like" id="lamp-intensity-using-equations-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
 <div class="para" id="lamp-intensity-using-equations-5-1-1">Draw a graph illustrating the function.</div></article></article><article class="exercise exercise-like" id="gravel-path-using-equations"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
@@ -817,11 +818,10 @@ M = 1.2F^2+4F+7
 \end{equation*}
 </div>
 <div class="para">to approximate the grilling time of a piece of fish depending on its thickness. Here <span class="process-math">\(M\)</span> is the number of minutes to grill the fish and <span class="process-math">\(F\)</span> is the thickness of the fish (in inches).</div>
-</div> <div class="para" id="grilling-fish-using-equations-1-2"><em class="emphasis">Story also appears in <a href="sec-Variables_and_functions.html#name-vars-variables-functions" class="xref" data-knowl="./knowl/xref/name-vars-variables-functions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.1.10">1.1.10</a> and <a href="sec-Solving_quadratic_equations.html#grilling-fish-solving-quadratic" class="xref" data-knowl="./knowl/xref/grilling-fish-solving-quadratic.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.5.8">3.5.8</a></em></div>
+</div> <div class="para" id="grilling-fish-using-equations-1-2"><em class="emphasis">(Story also appears in <a href="sec-Variables_and_functions.html#name-vars-variables-functions" class="xref" data-knowl="./knowl/xref/name-vars-variables-functions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.1.10">1.1.10</a> and <a href="sec-Solving_quadratic_equations.html#grilling-fish-solving-quadratic" class="xref" data-knowl="./knowl/xref/grilling-fish-solving-quadratic.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.5.8">3.5.8</a>)</em></div>
 </div>
 <article class="task exercise-like" id="grilling-fish-using-equations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="grilling-fish-using-equations-2-1-1">Evaluate the equation at <span class="process-math">\(F=0.25, 1, 1.5,\)</span> and <span class="process-math">\(2\text{.}\)</span>
-</div></article><article class="task exercise-like" id="grilling-fish-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="grilling-fish-using-equations-2-1-1">Evaluate the equation at <span class="process-math">\(F=0.25, 1, 1.5,\)</span> and <span class="process-math">\(2\text{.}\)</span> Record your answers in a table.</div></article><article class="task exercise-like" id="grilling-fish-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="grilling-fish-using-equations-3-1-1">What do the answers you found say about cooking fish?</div></article><article class="task exercise-like" id="grilling-fish-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="grilling-fish-using-equations-4-1-1">Draw a graph showing how the cooking time depends on the thickness of the fish.</div></article><article class="task exercise-like" id="grilling-fish-using-equations-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
 <div class="para" id="grilling-fish-using-equations-5-1-1">Your graph should show that the function is increasing. Explain how that makes sense in terms of the story.</div></article></article><article class="exercise exercise-like" id="salary-using-equations"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
