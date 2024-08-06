@@ -62,12 +62,12 @@
 			Last, we need to convert to miles. Turns out that <me>1 \text{ mile} = 5{,}280 \text{ feet}</me> and so 
 			<me>
 				\frac{51{,}971.04 \cancel{\text{ feet}}}{\text{hour}}
-				\ast  \frac{1 \text{ mile}}{\cancel{\text{ feet}}} 
+				\ast  \frac{1 \text{ mile}}{5{,}280 \cancel{\text{ feet}}} 
 				= 51{,}971.04 \div 5{,}280
 				= \frac{9.843 \text{ miles}}{\text{hour}} 
 				\approx 10 \text{ mph}.
 			</me> 
-			This time we got a smaller number because she can go a lot fewer miles in an hour compared to feet in an hour. Notice how we needed to divide by . Numbers on top of the fraction multiply. Those on the bottom divide.
+			This time we got a smaller number because she can go a lot fewer miles in an hour compared to feet in an hour. Notice how we needed to divide by 5,280. Numbers on top of the fraction multiply. Those on the bottom divide.
 		</p>
 
 		<p>

@@ -343,6 +343,9 @@
 			<p>
 				<em>(Story also appears in <xref ref="billion-seconds-prelude-scientific-notation"/>)</em>
 			</p>
+			<aside><p>
+				Source: Mathew Foss, North Hennepin Community College
+			</p></aside>
 		</introduction>
 		<task>
 			<statement>
@@ -365,10 +368,6 @@
 				<p>
 					<em>Bonus question:</em> On what date were you or will you be 1 billion seconds old? Don't forget leap years!
 				</p>
-					
-				<aside><p>
-					Source: Mathew Foss, North Hennepin Community College
-				</p></aside>
 			</statement>
 		</task>
 	</exercise>
@@ -443,7 +442,7 @@
 	<exercise xml:id="cells-scientific-notation" component="not-workbook">
 		<introduction>
 			<p>
-				Rayka weighs 140 pounds. She would like to approximate how many cells are in her body. Use the following information: <m>1 \text{ cell} \approx 1 \times 10^{-15} \text{g}</m>, <m>1 \text{ kg} \approx 2.2 \text{ pounds}</m>, and, as always, 1 kg = 1,000 g.
+				Rayka weighs 140 pounds. She would like to approximate how many cells are in her body. Use the following information: <m>1 \text{ cell} \approx 1 \times 10^{-15} \text{ g}</m>, <m>1 \text{ kg} \approx 2.2 \text{ pounds}</m>, and, as always, 1 kg = 1,000 g.
 			</p>
 			<p>
 				<em>(Story also appears in <xref ref="cells-prelude-scientific-notation"/>)</em>

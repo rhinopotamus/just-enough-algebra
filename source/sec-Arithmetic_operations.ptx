@@ -34,7 +34,9 @@
 		</p>
 
 		<p>
-			Sometimes credits are represented by negative numbers. Another way Cole could calculate the answer is to add the mix of positive numbers (charges) and negative numbers (credits). <me>529.16 + \text{-}200 + 42.78 + 30 + \text{-}17.43 + 618.25 = \$1002.76</me> You may notice that the sign <m>-</m> subtraction and - used for negation look very similar. On the calculator these are two different keys. The subtraction key reads just <m>-</m>. The negation key often reads <kbd>(-)</kbd> and is done before the number. This does not mean you type in parentheses, just hit the key that is labeled <kbd>(-)</kbd> already. In this notation, we can write what Cole entered as <me>529.16 + \text{(-)}200 + 42.78 + 30 +  \text{(-)}17.43 + 618.25 =</me> Try it.
+			Sometimes credits are represented by negative numbers. Another way Cole could calculate the answer is to add the mix of positive numbers (charges) and negative numbers (credits). 
+			<me>529.16 + \text{-}200 + 42.78 + 30 + \text{-}17.43 + 618.25 = \$1002.76</me> 
+			You may notice that the sign <minus/> used for subtraction and - used for negation look very similar. On the calculator these are two different keys. The subtraction key reads just <kbd name="minus"/>. The negation key often reads <kbd>(-)</kbd> and is done before the number. This does not mean you type in parentheses, just hit the key that is labeled <kbd>(-)</kbd> already. In this notation, we can write what Cole entered as <me>529.16 + \text{(-)}200 + 42.78 + 30 +  \text{(-)}17.43 + 618.25 =</me> Try it.
 		</p>
 
 		<p>

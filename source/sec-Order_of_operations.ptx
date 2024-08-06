@@ -82,7 +82,7 @@
 			You will need to know the full order of operations so that you know when the calculator is doing what you want. Here's the full list of the <term>order of operations</term>, the priority ranking for arithmetic operations.
 		</p>
 
-		<assemblage>
+		<assemblage xml:id="order-operations">
 			<title>Order of operations</title>
 			
 			

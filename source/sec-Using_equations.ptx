@@ -93,13 +93,15 @@
 
 		<p>
 			How can we include this reaction time into an equation? Suppose it takes 1 second to react. We would like to know how many feet that adds to the equation. This is something we can figure out. We know the speed and the time, so multiply them to get the distance, right? One small snag: the speed is in mph (miles per hour). We need to convert units. 
-			<me>
-				1 \cancel{\text{ sec}} \ast 
-				\frac{1 \cancel{\text{ min}}}{60 \cancel{\text{ sec}}} \ast 
-				\frac{1 \text{ hour}}{60 \cancel{\text{ min}}} \ast 
-				\frac{5{,}280\text{ feet}}{1 \text{ mile}}=
-				1 \div 60 \div 60 \times 5{,}280= 1.4666\ldots \approx 1.47 \text{ feet per mph}
-			</me> 
+			<md>
+				<mrow>1 \cancel{\text{ sec}} \ast 
+					\frac{1 \cancel{\text{ min}}}{60 \cancel{\text{ sec}}} \ast 
+					\frac{1 \text{ hour}}{60 \cancel{\text{ min}}} \ast 
+					\frac{5{,}280\text{ feet}}{1 \text{ mile}} \amp =
+					1 \div 60 \div 60 \times 5{,}280
+				</mrow>
+				<mrow> \amp= 1.4666\ldots \approx 1.47 \text{ feet per mph} </mrow>
+			</md>
 			added to the stopping distance. Notice the fancy fraction work with the units? 
 			<me>
 				\frac{\text{hour}\ast \text{feet}}{\text{mile}}=\frac{\text{feet}}{\quad \frac{\text{miles}}{\text{hour}}\quad~}=\frac{\text{feet}}{\text{mph}}
@@ -162,7 +164,7 @@
 		</assemblage>
 
 		<p>
-			Our second equation <me>D=0.04S^2 + 1.47S</me> is a <term>polynomial equation</term> because includes both a linear and powers. The exercises introduce more polynomial equations. Polynomials can have any powers, but in this equation the highest power happens to be 2. This type of polynomial equation has a special name. It is a <term>quadratic equation</term>. Any quadratic equation fits this template.
+			Our second equation <me>D=0.04S^2 + 1.47S</me> is a <term>polynomial equation</term> because it includes both a linear term and powers. The exercises introduce more polynomial equations. Polynomials can have any powers, but in this equation the highest power happens to be 2. This type of polynomial equation has a special name. It is a <term>quadratic equation</term>. Any quadratic equation fits this template.
 		</p>
 
 		<assemblage xml:id="quadratic-equation-template-2-3">

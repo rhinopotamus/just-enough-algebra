@@ -10,7 +10,7 @@
 		<exercise xml:id="truck-grass-first-look-linear" workspace="0.75in"> 
 			<introduction>
 				<p>
-					A truck hauling bags of grass seed pulls into a weigh station along the highway. Trucks are weighed to determine the amount of highway tax. This particular truck weighs pounds when it is empty. Each bag of grass seed it carries weighs 4.2 pounds. For example, a truck is carrying bags of grass seed weighs 
+					A truck hauling bags of grass seed pulls into a weigh station along the highway. Trucks are weighed to determine the amount of highway tax. This particular truck weighs 3,900 pounds when it is empty. Each bag of grass seed it carries weighs 4.2 pounds. For example, a truck is carrying bags of grass seed weighs 
 					<me>
 						3{,}900 \text{ pounds} + \frac{4.2 \text{ pounds}}{\text{bag}} \ast 1{,}000 \text{  bags} 
 						= 3{,}900 + 4.2\times 1{,}000
@@ -72,7 +72,7 @@
 		<exercise xml:id="reservoir-rain-first-look-linear" workspace="0.75in">
 			<introduction>
 				<p>
-					The water in the local reservoir was 47 feet deep but there has been so little rain that the depth has fallen 18 inches a week over the past few months. Officials are worried if dry conditions continue the reservoir will not have enough water to supply the town. 
+					The water in the local reservoir was 47 feet deep, but there has been so little rain that the depth has fallen 18 inches a week over the past few months. Officials are worried that if dry conditions continue, the reservoir will not have enough water to supply the town. 
 					<em component="not-workbook">(Story also appears in <xref ref="reservoir-rain-linear-ineq"/> and <xref ref="reservoir-rain-modeling-linear"/>)</em>
 					<em component="workbook">(Story also appears in 
 						<xref ref="sec-Solving_linear_inequalities"/> Exercises and <xref ref="reservoir-rain-modeling-linear"/>)</em>
@@ -172,7 +172,7 @@
 					<em>
 						(Story also appears in 
 						<xref ref="juan-coffee-order-operations" />, 
-						<xref ref="juan-coffee-tables-graphs" />, 
+						<xref ref="juan-coffee-tables-graphs" />, and
 						<xref ref="juan-coffee-systems-linear"/>)
 					</em>
 				</p>
@@ -206,7 +206,7 @@
 			<task>
 				<statement>
 					<p>
-						How would the equation change if the cafe offers a new annual membership card that cost $59.99 that entitles Juan to buy coffee for only $1 per mug all year?
+						How would the equation change if the cafe offers a new annual membership card that costs $59.99 that entitles Juan to buy coffee for only $1 per mug all year?
 					</p>
 				</statement>
 				<!-- <hint>
@@ -268,7 +268,7 @@
 	<exercise xml:id="restaurant-first-look-linear" component="not-workbook">
 		<introduction>
 			<p>
-				Abduwali has just opened a restaurant. He spent $82{,}500 to get started but hopes to earn back $6,300 each month. <em>(Story also appears in <xref ref="restaurant-solving-linear"/>)</em>
+				Abduwali has just opened a restaurant. He spent $82,500 to get started but hopes to earn back $6,300 each month. <em>(Story also appears in <xref ref="restaurant-solving-linear"/>)</em>
 			</p>
 		</introduction>	
 
@@ -352,7 +352,7 @@
 	<exercise xml:id="burger-first-look-linear" component="not-workbook">
 		<introduction>
 			<p>
-				The local burger restaurant had a promotion this summer. Typically a bacon double cheeseburger costs $7.16. They reduced the price by 2¢ for each degree in the daily high temperature. For example, if the high temperature was 80<m>^\circ</m>F, they would decrease the price by <m>0.02 \times 80 = \$1.60</m>, so the double cheeseburger would cost <m>7.16-1.60=\$5.56</m>. Mmmm. <em>(Story also appears in <xref ref="burger-temp-solving-linear"/>)</em>
+				The local burger restaurant had a promotion this summer. Typically a bacon double cheeseburger costs $7.16. They reduced the price by 2¢ for each degree in the daily high temperature. For example, if the high temperature was 80<degree/>F, they would decrease the price by <m>0.02 \times 80 = \$1.60</m>, so the double cheeseburger would cost <m>7.16-1.60=\$5.56</m>. Mmmm. <em>(Story also appears in <xref ref="burger-temp-solving-linear"/>)</em>
 			</p>
 		</introduction>	
 			<task>
@@ -374,7 +374,7 @@
 			<task>
 				<statement>
 					<p>
-						Make a table showing the price of a bacon cheeseburger when the daily high temperature is 65<m>^\circ</m>F, 75<m>^\circ</m>F, and 90<m>^\circ</m>F.
+						Make a table showing the price of a bacon cheeseburger when the daily high temperature is 65<degree/>F, 75<degree/>F, and 90<degree/>F.
 					</p>
 				</statement>
 			</task>
@@ -382,7 +382,7 @@
 			<task>
 				<statement>
 					<p>
-						Draw a graph illustrating how the price of a bacon double cheeseburger depends on the temperature. Start the temperature on your graph at 60<m>^\circ</m>F.
+						Draw a graph illustrating how the price of a bacon double cheeseburger depends on the temperature. Start the temperature on your graph at 60<degree/>F.
 					</p>
 				</statement>
 			</task>
@@ -435,7 +435,7 @@
 			<task>
 				<statement>
 					<p>
-						At this rate of decline, in what year will we have only million beds? First estimate the answer from your table. Then figure it out, to the nearest year.
+						At this rate of decline, in what year will we have only <m>\tfrac12</m> million beds? First estimate the answer from your table. Then figure it out, to the nearest year.
 					</p>
 				</statement>
 			</task>
@@ -444,7 +444,7 @@
 	<exercise xml:id="traffic-first-look-linear" component="not-workbook">
 		<introduction>
 			<p>
-				The stretch of interstate highway through downtown averages 1,450 cars per hour during the morning rush hour. The economy is improving (finally), but with that the county manager predicts traffic levels with increase around 130 cars per hour more each week for the next couple of years. <em>(Story also appears in <xref ref="traffic-solving-linear"/>)</em>
+				The stretch of interstate highway through downtown averages 1,450 cars per hour during the morning rush hour. The economy is improving (finally), but with that the county manager predicts traffic levels will increase around 130 more cars per hour each week for the next couple of years. <em>(Story also appears in <xref ref="traffic-solving-linear"/>)</em>
 			</p>
 		</introduction>	
 			<task>
@@ -474,7 +474,7 @@
 			<task>
 				<statement>
 					<p>
-						If traffic levels exceed 2,500 the county plans to install control lights at the on ramps. When is that expected to happen?
+						If traffic levels exceed 2,500 the county plans to install control lights at the on-ramps. When is that expected to happen?
 					</p>
 				</statement>
 			</task>

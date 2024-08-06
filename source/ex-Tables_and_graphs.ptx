@@ -106,12 +106,12 @@
 	<exercise xml:id="wind-chill-tables-graphs" workspace="0.5cm">
 		<introduction>
 			<p>
-				How cold is it? An air temperature of 10<m>^\circ</m>F is cold but manageable. 
-				But add a 30 miles per hour wind and, brrr, it feels like it is -12<m>^\circ</m>F 
-				(12 below zero). We say the <term>wind chill</term> of 10<m>^\circ</m>F 
-				with a 30 mph wind is -12<m>^\circ</m>F. 
+				How cold is it? An air temperature of 10<degree/>F is cold but manageable. 
+				But add a 30 miles per hour wind and, brrr, it feels like it is -12<degree/>F 
+				(12 below zero). We say the <term>wind chill</term> of 10<degree/>F 
+				with a 30 mph wind is -12<degree/>F. 
 				The table lists the wind chill for various wind speeds at an air temperature of 
-				10<m>^\circ</m>F. 
+				10<degree/>F. 
 				<em>(Story also appears in <xref ref="wind-chill-modeling-linear"/> )</em>
 				<aside><p>Source: National Weather Service</p></aside>
 			</p>		
@@ -133,7 +133,7 @@
 					<cell right="minor"  halign="center">60</cell>
 				</row>
 				<row left="minor" class="even">
-					<cell right="minor"  halign="left">Wind chill (<m>^\circ</m>F)</cell>
+					<cell right="minor"  halign="left">Wind chill (<degree/>F)</cell>
 					<cell right="minor"  halign="center">10</cell>
 					<cell right="minor"  halign="center">1</cell>
 					<cell right="minor"  halign="center">-4</cell>
@@ -160,7 +160,7 @@
 		<task workspace="0.4cm">
 			<statement>
 				<p>
-					At an air temperature of 10<m>^\circ</m>F with a 20 mph wind, 
+					At an air temperature of 10<degree/>F with a 20 mph wind, 
 					what is the wind chill?
 				</p>
 			</statement>
@@ -169,18 +169,18 @@
 			<statement>
 				<p>
 					A <term>cold advisory</term> is issued whenever the wind chill 
-					falls below 0<m>^\circ</m>F. 
+					falls below 0<degree/>F. 
 					How fast does the wind need to be at an air temperature of 
-					10<m>^\circ</m>F to issue a cold advisory?
+					10<degree/>F to issue a cold advisory?
 				</p>
 			</statement>
 		</task>
 		<task>
 			<statement>
 				<p>
-					Between a wind chill of 0<m>^\circ</m>F and -15<m>^\circ</m>F, 
+					Between a wind chill of 0<degree/>F and -15<degree/>F, 
 					schools in our district are open but kids may not go outside for recess. 
-					What is the corresponding range of wind speeds at an air temperature of 10<m>^\circ</m>F?
+					What is the corresponding range of wind speeds at an air temperature of 10<degree/>F?
 				</p>
 			</statement>
 		</task>
@@ -346,7 +346,7 @@
 					Draw a graph illustrating both functions.
 				</p>
 				<!-- <xi:include href="GraphPaper.ptx" /> -->
-				<image source='GraphPaper.jpg' width="80%" />
+				<image component="workbook" source='GraphPaper.jpg' width="80%" />
 			</statement>
 		</task>
 		<task workspace="0in">
@@ -399,7 +399,7 @@
 			</aside>	
 				
 			<p>
-				<em>Story also appears in <xref ref="earth-population-rate-of-change"/></em>
+				<em>(Story also appears in <xref ref="earth-population-rate-of-change"/>)</em>
 			</p>
 				
 			<p>
@@ -482,9 +482,9 @@
 			
 			<p>
 				<em>
-					Story also appears in 
+					(Story also appears in 
 					<xref ref="truck-rental-rate-of-change"/> and
-					<xref ref="truck-rental-slopes"/>
+					<xref ref="truck-rental-slopes"/>)
 				</em>
 			</p>
 			
@@ -561,13 +561,13 @@
 	<exercise xml:id="temp-mpls-tables-graphs" component="not-workbook">
 		<introduction>
 			<p>
-				The temperature was 40<m>^\circ</m>F at noon yesterday downtown Minneapolis but it dropped 3<m>^\circ</m>F an hour in the afternoon. 
-				<em>
-					(Story also appears in 
-					<xref ref="temp-mpls-modeling-linear"/> and
-					<xref ref="temp-mpls-modeling-linear"/>)
-				</em>
+				The temperature was 40<degree/>F at noon yesterday downtown Minneapolis but it dropped 3<degree/>F an hour in the afternoon. 
 			</p>
+			<p><em>
+				(Story also appears in 
+				<xref ref="temp-mpls-modeling-linear"/> and
+				<xref ref="temp-mpls-modeling-linear"/>)
+			</em></p>
 		</introduction>	
 		<task>
 			<statement>
@@ -588,7 +588,7 @@
 		<task>
 			<statement>
 				<p>
-					According to your table and graph, when did the temperature drop below freezing (32<m>^\circ</m>F)?
+					According to your table and graph, when did the temperature drop below freezing (32<degree/>F)?
 				</p>
 			</statement>
 		</task>
@@ -596,7 +596,7 @@
 		<task>
 			<statement>
 				<p>
-					According to your graph, when did the temperature drop below 0<m>^\circ</m>F. Does that seem realistic? <em>Here in the midwest there are no oceans or mountains to moderate large temperature changes.</em>
+					According to your graph, when did the temperature drop below 0<degree/>F? Does that seem realistic? <em>Here in the midwest there are no oceans or mountains to moderate large temperature changes.</em>
 				</p>
 			</statement>
 		</task>
@@ -606,13 +606,13 @@
 		<introduction>
 			<p>
 				Mrs. Nystrom's Social Security benefit was $746.17/month when she retired from teaching in 2009. She had taught in elementary school since I was a girl. Benefits have increased by 4% per year. 
-				<em>
-					(Story also appears in 
-					<xref ref="social-security-arithmetic-operations"/>,
-					<xref ref="social-security-variables-functions"/>, and
-					<xref ref="social-security-modeling-exponential"/>)
-				</em>
 			</p>
+			<p><em>
+				(Story also appears in 
+				<xref ref="social-security-arithmetic-operations"/>,
+				<xref ref="social-security-variables-functions"/>, and
+				<xref ref="social-security-modeling-exponential"/>)
+			</em></p>
 		</introduction>	
 		<task>
 			<statement>
@@ -650,7 +650,7 @@
 	<exercise xml:id="heat-index-tables-graphs-ex" component="not-workbook">
 		<introduction>
 			<p>
-				The table shows the <q>heat index</q> as a function of humidity at an air temperature of 88<m>^\circ</m>F. With up to about 40% humidity, 88<m>^\circ</m>F feels like it's 88<m>^\circ</m>F. But if the humidity rises to 60%, then it feels like it is 95<m>^\circ</m>F; that is, the heat index is 95<m>^\circ</m>F.
+				The table shows the <q>heat index</q> as a function of humidity at an air temperature of 88<degree/>F. With up to about 40% humidity, 88<degree/>F feels like it's 88<degree/>F. But if the humidity rises to 60%, then it feels like it is 95<degree/>F; that is, the heat index is 95<degree/>F.
 			</p>
 			<aside>
 				<p>
@@ -670,7 +670,7 @@
 					<cell right="minor" halign="center">95</cell>
 				</row>
 				<row left="minor" class="odd">
-					<cell right="minor" halign="left">Heat index (<m>^\circ</m>F)</cell>
+					<cell right="minor" halign="left">Heat index (<degree/>F)</cell>
 					<cell right="minor" halign="center">91</cell>
 					<cell right="minor" halign="center">95</cell>
 					<cell right="minor" halign="center">100</cell>
@@ -681,7 +681,7 @@
 			</tabular>
 			
 			<p>
-				All of the following questions refer to situations when the air temperature is 88<m>^\circ</m>F.
+				All of the following questions refer to situations when the air temperature is 88<degree/>F.
 			</p>
 		</introduction>	
 		<task>
@@ -695,7 +695,7 @@
 		<task>
 			<statement>
 				<p>
-					At what humidity level does it feel more like 98<m>^\circ</m>F?
+					At what humidity level does it feel more like 98<degree/>F?
 				</p>
 			</statement>
 		</task>
@@ -703,7 +703,7 @@
 		<task>
 			<statement>
 				<p>
-					Heat exhaustion is likely to occur when the heat index reaches 105<m>^\circ</m>F. At what humidity level will heat exhaustion likely occur?
+					Heat exhaustion is likely to occur when the heat index reaches 105<degree/>F. At what humidity level will heat exhaustion likely occur?
 				</p>
 			</statement>
 		</task>
@@ -711,7 +711,7 @@
 		<task>
 			<statement>
 				<p>
-					The heat index is considered danger in the range from 105<m>^\circ</m>F to 129<m>^\circ</m>F. What range of humidity levels are considered dangerous?
+					The heat index is considered danger in the range from 105<degree/>F to 129<degree/>F. What range of humidity levels are considered dangerous?
 				</p>
 			</statement>
 		</task>

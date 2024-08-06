@@ -543,7 +543,7 @@
 	<exercise xml:id="beach-erosion-rate-of-change" component="not-workbook">
 		<introduction>
 			<p>
-				The public beach near Paloma's house has lost depth (measured from the dunes to the high water mark) due to erosion since they started keeping records 60 years ago. The table shows a few values. There <m>D</m> is the depth of the beach in feet, and <m>Y</m> is the year, measured since 60 years ago.
+				The public beach near Paloma's house has lost depth (measured from the dunes to the high water mark) due to erosion since they started keeping records 60 years ago. The table shows a few values. Here <m>D</m> is the depth of the beach in feet, and <m>Y</m> is the year, measured since 60 years ago.
 			</p>
 			
 			<tabular bottom="minor" top="minor">

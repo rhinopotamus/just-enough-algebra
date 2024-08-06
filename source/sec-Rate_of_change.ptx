@@ -62,7 +62,9 @@
 		</p>
 
 		<p>
-			Let's take a look at this calculation again. Here's what we did. <me>\text{speed} =  \frac{4.38-3.88 \text{ meters}}{0.4-0.2 \text{ seconds}} = \frac{0.50 \text{ meters}}{0.2 \text{ seconds}} = 0.50 \div 0.2 = 2.5 \text{ meters/sec}</me> There is a way to do the entire calculation at once on your calculator. <me>(4.38-3.88) \div (0.4-0.2)=2.5 \text{ meters/sec}</me> See how we put parentheses around both the top and bottom of the fraction? We needed them to force the calculator to do the subtractions first and division second. The usual order of operations would do it the other way around: multiplication and division before addition and subtraction. (If you need a reminder, the full list of the order of operations appears later, in Section 1.5.) Because the top and bottom of the fraction each have meaning in the story, we continue to calculate them separately, but feel free to do the whole calculation at once if you prefer.
+			Let's take a look at this calculation again. Here's what we did. <me>\text{speed} =  \frac{4.38-3.88 \text{ meters}}{0.4-0.2 \text{ seconds}} = \frac{0.50 \text{ meters}}{0.2 \text{ seconds}} = 0.50 \div 0.2 = 2.5 \text{ meters/sec}</me> There is a way to do the entire calculation at once on your calculator. <me>(4.38-3.88) \div (0.4-0.2)=2.5 \text{ meters/sec}</me> See how we put parentheses around both the top and bottom of the fraction? We needed them to force the calculator to do the subtractions first and division second. The usual order of operations would do it the other way around: multiplication and division before addition and subtraction. 
+			(If you need a reminder, the full list of the <xref ref="order-operations" text="custom">order of operations</xref> is discussed in <xref ref="sec-Order_of_operations" text="type-global"/>.) 
+			Because the top and bottom of the fraction each have meaning in the story, we continue to calculate them separately, but feel free to do the whole calculation at once if you prefer.
 		</p>
 
 		<p>
@@ -83,22 +85,120 @@
 		</assemblage>
 
 		<p>
-			Notice how the change in dependent variable (height, in meters) is on top of the fraction and the change in independent variable (time, in seconds) is on the bottom. That makes sense in our example because speed is measured in meters/second. The units can help you keep that straight. <me>\text{units for rate of change} = \frac{\text{units for dep}}{\text{units for indep}}</me>
+			Notice how the change in dependent variable (height, in meters) is on top of the fraction and the change in independent variable (time, in seconds) is on the bottom. That makes sense in our example because speed is measured in meters/second. The units can help you keep that straight. 
 		</p>
+
+		<assemblage>
+			<p>
+				<me>\text{units for rate of change} = \frac{\text{units for dep}}{\text{units for indep}}</me>
+			</p>
+		</assemblage>
 
 		<p>
 			Back to our diver. During the next time interval she's moving even slower. <me>\text{speed} = \frac{4.48-4.38 \text{ meters}}{0.6-0.4 \text{ seconds}}= \frac{0.1 \text{ meters}}{0.2 \text{ seconds}} = 0.1 \div 0.2 = 0.5 \text{ meters/sec.}</me> And look what happens when we calculate her speed during the next time interval. <me>\text{speed} = \frac{4.20-4.48 \text{ meters}}{0.8-0.6 \text{ seconds}} =  \frac{-0.28 \text{ meters}}{0.2 \text{ seconds}} = \text{(-)}0.28 \div 0.2 = -1.4 \text{ meters/sec}</me> What does a negative speed mean? During this time interval her height drops. She's headed down towards the water. Her speed is 1.4 meters/sec downward. The negative tells us her height is falling. What goes up, must come down. Sure enough.
 		</p>
 
 		<p>
-			You may notice that the signs for subtraction and negation each look like <m>-</m>. On the calculator these are two different keys. The subtraction key reads just <m>-</m>. The negation key often reads and is done before the number. This does not mean you type in parentheses, just hit the one key that is labeled already. (If your calculator does not have a key labeled (-), look for a key labeled <m>\text{+/-}</m> instead. That is not three keys, just one labeled <m>\text{+/-}</m> Often that key needs to follow the number, so enter <me>0.28\text{ +/- } \div 0.2 =</me> You should get -1.4 meters/sec again.)
+			You may notice that the sign <minus/> used for subtraction and - used for negation look very similar. On the calculator these are two different keys. The subtraction key reads just <kbd name="minus"/>. The negation key often reads <kbd>(-)</kbd> and is done before the number. This does not mean you type in parentheses, just hit the key that is labeled <kbd>(-)</kbd> already.
+			(If your calculator does not have a key labeled <kbd>(-)</kbd>, look for a key labeled <kbd>+/-</kbd> instead. That is not three keys, just one labeled <kbd>+/-</kbd>. To emphasize that it is one key, we just write <kbd>±</kbd>. Often that key needs to follow the number, so enter <me>0.28\pm \div 0.2 =</me> You should get -1.4 meters/sec again.)
 		</p>
 
 		<p>
 			Here are the speeds included in our table.
 		</p>
 
+	<tabular bottom="minor" top="minor"> 
+		<row left="minor">
+			<cell right="minor" halign="center">
+				<m>T</m>
+			</cell>
+			<cell colspan="2" right="minor">
+				0
+			</cell>
+			<cell colspan="2" right="minor">
+				0.2
+			</cell>
+			<cell colspan="2" right="minor">
+				0.4
+			</cell>
+			<cell colspan="2" right="minor">
+				0.6
+			</cell>
+			<cell colspan="2" right="minor">
+				0.8
+			</cell>
+			<cell colspan="2" right="minor">
+				1
+			</cell>
+			<cell colspan="2" right="minor">
+				1.2
+			</cell>
+			<cell colspan="2" right="minor">
+				1.4
+			</cell>
+		</row>
+		<row left="minor">
+			<cell right="minor" halign="center">
+				<m>H</m>
+			</cell>
+			<cell colspan="2" right="minor">
+				3
+			</cell>
+			<cell colspan="2" right="minor">
+				3.88
+			</cell>
+			<cell colspan="2" right="minor">
+				4.38
+			</cell>
+			<cell colspan="2" right="minor">
+				4.48
+			</cell>
+			<cell colspan="2" right="minor">
+				4.2
+			</cell>
+			<cell colspan="2" right="minor">
+				3.52
+			</cell>
+			<cell colspan="2" right="minor">
+				2.45
+			</cell>
+			<cell colspan="2" right="minor">
+				1
+			</cell>
+		</row>
+		<row left="minor">
+			<cell right="minor" halign="center"	>
+				Speed
+			</cell>
+			<cell>
+			</cell>
+			<cell colspan="2" right="minor">
+				4.4
+			</cell>
+			<cell colspan="2" right="minor">
+				2.5
+			</cell>
+			<cell colspan="2" right="minor">
+				0.5
+			</cell>
+			<cell colspan="2" right="minor">
+				-1.4
+			</cell>
+			<cell colspan="2" right="minor">
+				-3.4
+			</cell>
+			<cell colspan="2" right="minor">
+				-5.35
+			</cell>
+			<cell colspan="2">
+				-7.25
+			</cell>
+			<cell right="minor">
+			</cell>
+		</row>
+	</tabular>
 
+<!-- 
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="center"><m>T</m></cell>
@@ -133,7 +233,7 @@
 				<cell right="minor" halign="center"><m>\to</m> -5.35</cell>
 				<cell right="minor" halign="center"><m>\to</m> -7.25</cell>
 			</row>
-		</tabular>
+		</tabular> -->
 
 		<p>
 			Let's graph our function. Notice that time is on the horizontal axis because it's the independent variable and height is on the vertical axis because it's our dependent variable: height depends on time.

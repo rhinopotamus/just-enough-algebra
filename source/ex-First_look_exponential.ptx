@@ -310,7 +310,7 @@
 		<task>
 			<statement>
 				<p>
-					According to your equation, what would Um Archivo's earnings be in 2020.
+					According to your equation, what would Um Archivo's earnings be in 2020?
 				</p>
 			</statement>
 		</task>
@@ -335,7 +335,7 @@
 	<exercise xml:id="poultry-first-look-exponential" component="not-workbook">
 		<introduction>
 			<p>
-				In 2005, poultry production was 78 million tons estimated to be growing at a rate of around 1.6% per year.
+				In 2005, poultry production was 78 million tons, estimated to be growing at a rate of around 1.6% per year.
 			</p>
 			
 			<aside>

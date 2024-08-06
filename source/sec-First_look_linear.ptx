@@ -84,7 +84,7 @@
 		</p>
 
 		<p>
-			If we plot the points from the table of values in a graph, we see that the points lie on a line. In Chapter 1 we highlighted the points from our table on the graph. It is more common to just show the smooth curve or line.
+			If we plot the points from the table of values in a graph, we see that the points lie on a straight line. In Chapter 1 we highlighted the points from our table on the graph. It is more common to just show the smooth curve or line.
 		</p>
 
 
@@ -93,7 +93,7 @@
 		</p>
 
 		<p>
-			Why is the graph a straight line? Remember that the rate of change tells us how steep the graph is. For example, let's find the rate of change between 1 hour and 2 hours. <me>\text{rate of change} = \frac{\text{change dep}}{\text{change indep}} = \frac{\$250 - \$175}{2 \text{ hours} - 1 \text{ hour}} = \frac{\$75}{1 \text{ hour}} = \$75 \text{ per hour}</me> Sure! We knew that. The plumber charges an extra $75 for each extra hour he works. The rate of change is precisely $75/hour, no matter where we calculate it. Since the rate of change is constant, the graph is the same steepness everywhere. So, the graph is a line, and the function is <term>linear</term>. Another way to say this is a function with constant rate of change is <term>linear</term>. The plumber's total charge is a linear function of time.
+			Why is the graph a straight line? Remember that the <xref ref="rate-of-change" text="custom">rate of change</xref> tells us how steep the graph is. For example, let's find the rate of change between 1 hour and 2 hours. <me>\text{rate of change} = \frac{\text{change dep}}{\text{change indep}} = \frac{\$250 - \$175}{2 \text{ hours} - 1 \text{ hour}} = \frac{\$75}{1 \text{ hour}} = \$75 \text{ per hour}</me> Sure! We knew that. The plumber charges an extra $75 for each extra hour he works. The rate of change is precisely $75/hour, no matter where we calculate it. Since the rate of change is constant, the graph is the same steepness everywhere. So, the graph is a straight line, and the function is <term>linear</term>. Another way to say this is a function with constant rate of change is <term>linear</term>. The plumber's total charge is a linear function of time.
 		</p>
 
 		<p>
@@ -110,11 +110,11 @@
 		</assemblage>
 
 		<p>
-			Notice our two variables are in our equation and there are two <term>constants</term>. Each constant has its own meaning. The first constant is 100 and it is measured in dollars. It is the trip charge, the fixed amount we would owe the plumber even if he does 0 hours work. In our standard form we refer to this quantity as the <term>starting value</term> (or <term>start</term> for short), but it's official name is <term>intercept</term>. On the graph it's where the line crosses the vertical axis. Think of a football player (running along the vertical axis) intercepting a pass (coming in the line). We can find the intercept from our equation by plugging in <m>T = 0</m> so that <me>P = 100 + 75 \times 0 = 100</me>
+			Notice our two variables are in our equation and there are two <term>constants</term>. Each constant has its own meaning. The first constant is 100 and it is measured in dollars. It is the trip charge, the fixed amount we would owe the plumber even if he does 0 hours work. In our standard form we refer to this quantity as the <term>starting value</term> (or <term>start</term> for short), but its official name is <term>intercept</term>. On the graph it's where the line crosses the vertical axis. Think of a football player (running along the vertical axis) intercepting a pass (coming in the line). We can find the intercept from our equation by plugging in <m>T = 0</m> so that <me>P = 100 + 75 \times 0 = 100</me>
 		</p>
 
 		<p>
-			The second constant is 75 and though it's tempting to say it is measured in dollars, it is really measured in $ per hour. This number is the rate of change and in the context of linear equations it gets its own name too. Its called the <term>slope</term>. Since the rate of change measures the steepness of any curve or line, the word <q>slope</q>, like mountain slope, makes sense. In our plumber example the intercept was $100 and the slope was $75/hour.
+			The second constant is 75 and though it's tempting to say it is measured in dollars, it is really measured in $ per hour. This number is the rate of change and in the context of linear equations it gets its own name too: it's called the <term>slope</term>. Since the rate of change measures the steepness of any curve or line, the word <q>slope</q>, like mountain slope, makes sense. In our plumber example the intercept was $100 and the slope was $75/hour.
 		</p>
 	</introduction>
 	<conclusion component="not-workbook">

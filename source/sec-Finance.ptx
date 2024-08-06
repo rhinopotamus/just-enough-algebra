@@ -14,7 +14,7 @@
 		</p>
 
 		<p>
-			The description <term>compounded monthly</term> means that the bank will pay him of the annual interest each month, and then use that new balance in computing his interest in the month that follows. For example, that savings account would pay 1.2% interest compounded monthly, so that's <me>\frac{1.2\%}{12}= 1.2\% \div 12 = 0.1\%</me> interest each month. Rather than figuring out Hector's balance one month at a time, we can use this formula.
+			The description <term>compounded monthly</term> means that the bank will pay him <m>\tfrac{1}{12}</m> of the annual interest each month, and then use that new balance in computing his interest in the month that follows. For example, that savings account would pay 1.2% interest compounded monthly, so that's <me>\frac{1.2\%}{12}= 1.2\% \div 12 = 0.1\%</me> interest each month. Rather than figuring out Hector's balance one month at a time, we can use this formula.
 		</p>
 
 		<assemblage xml:id="compound-interest-formula">
@@ -112,7 +112,7 @@
 		</p>
 
 		<p>
-			It would take too long to keep calculating one month at a time. Any sequence of regular deposits is an <term>annuity</term>. Luckily there's a formula for the (future) value of an annuity.
+			It would take too long to keep calculating one month at a time. A sequence of regular deposits is called an <term>annuity</term>. Luckily there's a formula for the (future) value of an annuity.
 		</p>
 
 		<assemblage xml:id="future-value-annuity-formula">

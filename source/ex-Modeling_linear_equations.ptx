@@ -519,7 +519,7 @@
 					
 				<tabular bottom="minor" top="minor">
 					<row left="minor" class="odd">
-						<cell right="minor" halign="center">Temperature (<m>^\circ</m>F)</cell>
+						<cell right="minor" halign="center">Temperature (<degree/>F)</cell>
 						<cell right="minor" halign="center">39</cell>
 						<cell right="minor" halign="center">42</cell>
 						<cell right="minor" halign="center">41</cell>

@@ -137,7 +137,7 @@
 			Here's the full list of the <term>order of operations</term>, the priority ranking for arithmetic operations.
 		</p>
 
-		<assemblage xml:id="order-operations">
+		<assemblage> <!-- The one with the xml:id is in sec-Order_of_operations -->
 			<title>Order of Operations</title>
 			
 			
@@ -194,7 +194,7 @@
 		</p>
 
 		<p>
-			Turns out that a typical human hair is about <m>0.00012</m> meters across. Very small numbers are also awkward to read and awkward to work with. In this section, we write <m>0.000~12</m> where the strange-looking space is to help you read the number. Of course, a better solution is to use metric prefixes to get more appropriate units, just as we did for large numbers.
+			Turns out that a typical human hair is about <m>0.00012</m> meters across. Very small numbers are also awkward to read and awkward to work with. In this section, we write <m>0.000~12</m> where we insert a space to help you read the number. Of course, a better solution is to use metric prefixes to get more appropriate units, just as we did for large numbers.
 		</p>
 
 		<p>
@@ -244,7 +244,7 @@
 			<me>0.000~12 \cancel{\text{ meters} } 
 				\ast \frac{1{,}000{,}000\, \mu \text{m}}
 				          {1 \cancel{\text{ meter}}} 
-				=  0.000~12 \times 1{,}000{,}000 = 120 \mu \text{m}
+				=  0.000~12 \times 1{,}000{,}000 = 120\, \mu \text{m}
 			</me> 
 			The <m>\mu</m> symbol is the Greek letter <em>mu</em>, but we'll just read <m>\mu m</m> as micrometers.
 		</p>
@@ -269,7 +269,7 @@
 		</p>
 
 		<p>
-			We can also describe really small numbers using scientific notation. Perhaps you know what happens when we divide a number by 10, like <m>50 \div 10 = 5</m> or, more appropriate to our example, <me>1.2 \div 10 = 0.12</me> The effect of dividing by 10 is to move the decimal point one place to the left. If we divide by instead, we get <me>1.2 \div 1{,}000{,}000 = 0.100~001~2</me> The connection is that <me>1{,}000{,}000 = 10 \wedge 6</me> and so dividing by moves the decimal point six places to the left. Notice that we have to introduce zeros as placeholders.
+			We can also describe really small numbers using scientific notation. Perhaps you know what happens when we divide a number by 10, like <m>50 \div 10 = 5</m> or, more appropriate to our example, <me>1.2 \div 10 = 0.12</me> The effect of dividing by 10 is to move the decimal point one place to the left. If we divide by 1,000,000 instead, we get <me>1.2 \div 1{,}000{,}000 = 0.000~001~2</me> The connection is that <me>1{,}000{,}000 = 10 \wedge 6</me> and so dividing by 1,000,000 moves the decimal point six places to the left. Notice that we have to introduce zeros as placeholders.
 		</p>
 
 		<p>

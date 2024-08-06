@@ -204,12 +204,18 @@
 		</p>
 
 
-	<!-- 		<p>
-			<image source='GraphLabelAxes.pdf'/>
-		</p>
-	-->
 		<p>
-			The graph is based on a horizontal line and vertical line, called the <term>axes</term>. Where they cross is a point called the <term>origin</term>. It represents where each variable is 0. By convention, the independent variable is measured along the horizontal axis, with larger values progressing to the right of the origin, and negatives to the left. Similarly, the dependent variable is measured along the vertical axis, with larger values progressing up from the origin, and negatives down. Each gridline counts the same number, called the <term>scale</term>, but the scale for the vertical may be different from the scale for the horizontal. Each pair of values of the independent and dependent variable from our table correspond to a point on our graph.
+			<image source='GraphLabelAxes.png'/>
+		</p>
+	
+		<p>
+			The graph is based on a horizontal line and vertical line, called the <term>axes</term>. 
+			<aside>
+				<p>
+					That's the plural of <q>axis</q>, and it rhymes with <q>jack cheese</q>.
+				</p>
+			</aside>
+			Where they cross is a point called the <term>origin</term>. It represents where each variable is 0. By convention, the independent variable is measured along the horizontal axis, with larger values progressing to the right of the origin, and negatives to the left. Similarly, the dependent variable is measured along the vertical axis, with larger values progressing up from the origin, and negatives down. Each gridline counts the same number, called the <term>scale</term>, but the scale for the vertical may be different from the scale for the horizontal. Each pair of values of the independent and dependent variable from our table correspond to a point on our graph.
 		</p>
 
 		<p>
@@ -230,7 +236,7 @@
 		</p>
 
 		<p>
-			To plot each point, we start at the origin and move right to that <m>Y</m>-value, and then up to that <m>S</m>-value. When a value doesn't land exactly on a grid mark, we have to guess in between. For example, in 1900, when <m>Y=0</m> so we don't move right at all, just up to <m>S=54</m>. The first labeled gridline on our graph is 500. Where's 54? It's between 0 and 500, very close to 0. Our point is just a tiny bit above the origin. In 1915 we have <m>Y=15</m>. Our labeled gridlines are for 10 and 20, so 15 must land halfway in between. The smoking rate to 285, which is around halfway between 0 and 500. Etc.
+			To plot each point, we start at the origin and move right to that <m>Y</m>-value, and then up to that <m>S</m>-value. When a value doesn't land exactly on a grid mark, we have to guess in between. For example, in 1900, <m>Y=0</m> so we don't move right at all, just up to <m>S=54</m>. The first labeled gridline on our graph is 500. Where's 54? It's between 0 and 500, very close to 0. Our point is just a tiny bit above the origin. In 1915 we have <m>Y=15</m>. Our labeled gridlines are for 10 and 20, so 15 must land halfway in between. The smoking rate is 285, which is around halfway between 0 and 500. Etc.
 		</p>
 
 		<p>

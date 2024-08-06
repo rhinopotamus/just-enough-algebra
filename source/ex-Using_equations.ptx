@@ -295,7 +295,7 @@
 		<task>
 			<statement>
 				<p>
-					Calculate the intensity when I sit 1 foot, 2 feet, or 3 feet away.
+					Calculate the intensity when I sit 1 foot, 2 feet, or 3 feet away. Record your answers in a table.
 				</p>
 			</statement>
 		</task>
@@ -428,16 +428,16 @@
 			
 			<p>
 				<em>
-					Story also appears in 
+					(Story also appears in 
 					<xref ref="name-vars-variables-functions"/> and 
-					<xref ref="grilling-fish-solving-quadratic"/>
+					<xref ref="grilling-fish-solving-quadratic"/>)
 				</em>
 			</p>
 		</introduction>	
 		<task>
 			<statement>
 				<p>
-					Evaluate the equation at <m>F=0.25, 1, 1.5,</m> and <m>2</m>.
+					Evaluate the equation at <m>F=0.25, 1, 1.5,</m> and <m>2</m>. Record your answers in a table.
 				</p>
 			</statement>
 		</task>
