@@ -469,13 +469,15 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Systems_linear_equations"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">4.2</span><span class="space"> </span><span class="title">Systems of linear equations</span>
 </h2>
-<section class="introduction" id="sec-Systems_linear_equations-2"><div class="para" id="sec-Systems_linear_equations-2-1">A local factory produces small locks for industrial use. The old machine has seen better days and Quia Xun, the manager, is shopping around for a new machine. She’s narrowed it down to two options. The first option is replace the old machine with a new model (Machine #1) for $3,200. The second is a larger unit (Machine #2) priced at $5,400. In each case, the price includes installation and the standard service contract. The reason she is considering the more expensive machine is Machine #2 runs at a cost of only $0.80 per lock, whereas the replacement Machine #1 runs at a cost of $1.25 per lock.</div> <div class="para" id="sec-Systems_linear_equations-2-2">Since Machine #1 is less expensive, Quia Xun knows it is the right choice if the factory only produces a small number of locks. But since Machine #2 costs less per lock to run, she knows it will pay off if the factory makes a large number of locks. She would like to understand the total expenditure better, particularly the number of locks at which it would be worthwhile to invest in the more expensive machine.</div> <div class="para" id="sec-Systems_linear_equations-2-3">Since Quia Xun is interested in how the total expenditure, including both the purchase price and the running cost, depend on the number of locks produced, the variables are</div> <div class="tabular-box natural-width"><table class="tabular">
-<tr><td class="l m b0 r0 l0 t0 lines">
-<span class="process-math">\(L=\)</span> amount produced (locks) <span class="process-math">\(\sim\)</span> indep</td></tr>
-<tr><td class="l m b0 r0 l0 t0 lines">
-<span class="process-math">\(E=\)</span> total expenditure ($) <span class="process-math">\(\sim\)</span> dep</td></tr>
-</table></div> <div class="para logical" id="sec-Systems_linear_equations-2-5">
-<div class="para">She recognizes that total expenditure is a linear function of the purchase price and the running cost for each machine. In each case, the starting amount (intercept) is the purchase price: $3,200 for Machine #1 and $5,400 for Machine #2. The slope (rate of change) is the constant running cost: $0.80 per lock for Machine #1 and $1.25 per lock for Machine #2. Using the template for a linear equation</div>
+<section class="introduction" id="sec-Systems_linear_equations-2"><div class="para" id="sec-Systems_linear_equations-2-1">A local factory produces small locks for industrial use. The old machine has seen better days and Quia Xun, the manager, is shopping around for a new machine. She’s narrowed it down to two options. The first option is replace the old machine with a new model (Machine #1) for $3,200. The second is a larger unit (Machine #2) priced at $5,400. In each case, the price includes installation and the standard service contract. The reason she is considering the more expensive machine is Machine #2 runs at a cost of only $0.80 per lock, whereas the replacement Machine #1 runs at a cost of $1.25 per lock.</div> <div class="para" id="sec-Systems_linear_equations-2-2">Since Machine #1 is less expensive, Quia Xun knows it is the right choice if the factory only produces a small number of locks. But since Machine #2 costs less per lock to run, she knows it will pay off if the factory makes a large number of locks. She would like to understand the total expenditure better, particularly the number of locks at which it would be worthwhile to invest in the more expensive machine.</div> <div class="para logical" id="sec-Systems_linear_equations-2-3">
+<div class="para">Since Quia Xun is interested in how the total expenditure, including both the purchase price and the running cost, depend on the number of locks produced, the variables are</div>
+<div class="displaymath process-math" id="sec-Systems_linear_equations-2-3-1">
+\begin{align*}
+L \amp= \text{ amount produced (locks) } \sim \text{ dep} \\
+E \amp= \text{ total expenditure (\$) } \sim \text{ indep} 
+\end{align*}
+</div>
+<div class="para">She recognizes that total expenditure is a linear function that depends on the purchase price and the running cost for each machine. In each case, the starting amount (intercept) is the purchase price: $3,200 for Machine #1 and $5,400 for Machine #2. The slope (rate of change) is the constant running cost: $0.80 per lock for Machine #1 and $1.25 per lock for Machine #2. Using the template for a linear equation</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \text{dep }=\text{ start } + \text{ slope} \ast {\text{indep}}
@@ -491,7 +493,7 @@ window.MathJax = {
 <td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">Machine #2:</dfn></td>
 <td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(E  =5{,}400 + 0.80 L\)</span></td>
 </tr>
-</table></div> <div class="para" id="sec-Systems_linear_equations-2-7">Since there are two linear equations and we are interested in a comparison, we have a <dfn class="terminology">system (of linear equations)</dfn>.</div> <div class="para" id="sec-Systems_linear_equations-2-8">To begin the comparison, Quia Xun starts with figuring out what the expenditure to produce 2,000 locks would be for each machine.</div> <div class="tabular-box natural-width"><table class="tabular">
+</table></div> <div class="para" id="sec-Systems_linear_equations-2-5">Since there are two linear equations and we are interested in a comparison, we have a <dfn class="terminology">system (of linear equations)</dfn>.</div> <div class="para" id="sec-Systems_linear_equations-2-6">To begin the comparison, Quia Xun starts with figuring out what the expenditure to produce 2,000 locks would be for each machine.</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">Machine #1:</dfn></td>
 <td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(E  =3{,}200 + 1.25 \times \underline{2{,}000}=\$5{,}700\)</span></td>
@@ -500,7 +502,7 @@ window.MathJax = {
 <td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">Machine #2:</dfn></td>
 <td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(E  =5{,}400 + 0.80 \times \underline{2{,}000}=\$7{,}000\)</span></td>
 </tr>
-</table></div> <div class="para" id="sec-Systems_linear_equations-2-10">If the factory were only going to make only 2,000 locks, then Machine #2 would not be worth it. She calculates a few more examples to see what the cutoff would be.</div> <div class="tabular-box natural-width"><table class="tabular">
+</table></div> <div class="para" id="sec-Systems_linear_equations-2-8">If the factory were only going to make only 2,000 locks, then Machine #2 would not be worth it. She calculates a few more examples to see what the cutoff would be.</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(L\)</span></td>
 <td class="c m b1 r1 l0 t1 lines">2,000</td>
@@ -529,7 +531,7 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines">11,800</td>
 <td class="c m b1 r1 l0 t0 lines">13,400</td>
 </tr>
-</table></div> <div class="para" id="sec-Systems_linear_equations-2-12">Even at 4,000 locks, Machine #1 is the better deal. By 6,000 locks, Machine #2 becomes the better deal. Somewhere in between it switches.</div> <div class="para" id="sec-Systems_linear_equations-2-13">Quia Xun makes a quick graph to see what’s going on. On the graph, whichever line is lower corresonds to the lower total expenditure and whichever line is higher corresponds to the higher total expenditure. As suspected, for a smaller number of locks the line for Machine #1 is lower on the graph, so that’s the better deal. For a larger number of locks it switches and the line for Machine #2 is lower on the graph, since that’s the better deal instead. Where they switch corresponds to the point on the graph where the two lines cross, somewhere around 5,000 locks.</div> <div class="para" id="sec-Systems_linear_equations-2-14"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/locks.png" class="contained"></div></div> <div class="para" id="sec-Systems_linear_equations-2-15">A quick successive approximation narrows down the answer.</div> <div class="tabular-box natural-width"><table class="tabular">
+</table></div> <div class="para" id="sec-Systems_linear_equations-2-10">Even at 4,000 locks, Machine #1 is the better deal. By 6,000 locks, Machine #2 becomes the better deal. Somewhere in between it switches.</div> <div class="para" id="sec-Systems_linear_equations-2-11">Quia Xun makes a quick graph to see what’s going on. On the graph, whichever line is lower corresonds to the lower total expenditure and whichever line is higher corresponds to the higher total expenditure. As suspected, for a smaller number of locks the line for Machine #1 is lower on the graph, so that’s the better deal. For a larger number of locks it switches and the line for Machine #2 is lower on the graph, since that’s the better deal instead. Where they switch corresponds to the point on the graph where the two lines cross, somewhere around 5,000 locks.</div> <div class="para" id="sec-Systems_linear_equations-2-12"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/locks.png" class="contained"></div></div> <div class="para" id="sec-Systems_linear_equations-2-13">A quick successive approximation narrows down the answer.</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(L\)</span></td>
 <td class="c m b1 r1 l0 t1 lines">4,000</td>
@@ -568,7 +570,7 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines">#1</td>
 <td class="c m b1 r1 l0 t0 lines">#2</td>
 </tr>
-</table></div> <div class="para" id="sec-Systems_linear_equations-2-17">So the choice changes somewhere between 4,800 and 4,900 locks.</div> <div class="para logical" id="sec-Systems_linear_equations-2-18">
+</table></div> <div class="para" id="sec-Systems_linear_equations-2-15">So the choice changes somewhere between 4,800 and 4,900 locks.</div> <div class="para logical" id="sec-Systems_linear_equations-2-16">
 <div class="para">There is a way for Quia Xun to solve the problem symbolically; we refer to this process as <dfn class="terminology">solving the system</dfn>. She wants to find the number of locks where</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -598,7 +600,7 @@ E \text{ (Machine #1)} = E \text{ (Machine #2)}
 </div>
 <div class="para">Pause for a minute. What does that $2,200 mean in the story? It’s the extra cost of buying Machine #2 because <span class="process-math">\(\$5{,}400 - \$3{,}200 = \$2{,}200\text{.}\)</span>
 </div>
-</div> <div class="para logical" id="sec-Systems_linear_equations-2-19">
+</div> <div class="para logical" id="sec-Systems_linear_equations-2-17">
 <div class="para">What next? This equation has the variable <span class="process-math">\(L\)</span> on each side. Quia Xun needs to combine them somehow. Here’s how to do that. Subtract <span class="process-math">\(0.80L\)</span> from each side. Look closely. She is subtracting <span class="process-math">\(0.80L\text{,}\)</span> not just <span class="process-math">\(0.80\text{.}\)</span> We get</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -608,13 +610,13 @@ E \text{ (Machine #1)} = E \text{ (Machine #2)}
 \end{array}
 \end{equation*}
 </div>
-<div class="para">How do we simplify <span class="process-math">\(1.25L-0.80L\text{?}\)</span> Think about what these numbers represent in the story. The cost was $1.25 per lock versus $0.80 per lock. The difference is $1.25-$0.80 = $0.45 per lock. So that means</div>
+<div class="para">How do we simplify <span class="process-math">\(1.25L-0.80L\text{?}\)</span> Think about what these numbers represent in the story. The cost was $1.25 per lock versus $0.80 per lock. The difference is $1.25 - $0.80 = $0.45 per lock. So that means</div>
 <div class="displaymath process-math">
 \begin{equation*}
 1.25L -0.80L = 0.45L
 \end{equation*}
 </div>
-<div class="para">Think: 125 apples <span class="process-math">\(-\)</span> 80 apples <span class="process-math">\(=\)</span> 45 apples. She can now simplify her equation to get</div>
+<div class="para">Think: 125 apples - 80 apples = 45 apples. She can now simplify her equation to get</div>
 <div class="displaymath process-math">
 \begin{equation*}
 0.45L = 2{,}200
@@ -633,7 +635,7 @@ L = \frac{2{,}200}{0.45}= 2{,}200 \div 0.45 = 4888.88888\ldots \approx 4{,}889 \
 \end{equation*}
 </div>
 <div class="para">If they plan to produce 4,889 locks or more, Quia Xun should go ahead and buy the more expensive machine, Machine #2. Yeah, that’s what we guessed – just under 4,900 locks is the payoff.</div>
-</div> <div class="para logical" id="sec-Systems_linear_equations-2-20">
+</div> <div class="para logical" id="sec-Systems_linear_equations-2-18">
 <div class="para">She solved an equation here, but Quia Xun really wanted to know when</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -806,12 +808,12 @@ L \ge 4{,}889 \text{ locks}\text{.}
 <div class="introduction" id="lock-machines-systems-linear-1">
 <div class="para" id="lock-machines-systems-linear-1-1">Just when Quia Xun thought she had things figured out, another possible option emerged. She can outsource her lock production to a different plant at the cost of $1.55 per lock. While that’s more expensive per lock, it avoids having to buy a machine at all. Recall her first two options were</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
-<td class="l m b1 r1 l1 t1 lines"><dfn class="terminology">Machine #1:</dfn></td>
-<td class="l m b1 r1 l0 t1 lines"><span class="process-math">\(E  =3{,}200 + 1.25 L\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">Machine #1:</dfn></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(E  =3{,}200 + 1.25 L\)</span></td>
 </tr>
 <tr>
-<td class="l m b1 r1 l1 t0 lines"><dfn class="terminology">Machine #2:</dfn></td>
-<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(E  =5{,}400 + 0.80 L\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">Machine #2:</dfn></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(E  =5{,}400 + 0.80 L\)</span></td>
 </tr>
 </table></div> <div class="para" id="lock-machines-systems-linear-1-3">where <span class="process-math">\(E\)</span> is the total expenditure to produce <span class="process-math">\(L\)</span> locks on that machine.</div>
 </div>
@@ -821,7 +823,8 @@ L \ge 4{,}889 \text{ locks}\text{.}
 <div class="para" id="lock-machines-systems-linear-4-1-1">Repeat for Machine #2.</div></article></article><article class="exercise exercise-like" id="wash-floor-systems-linear"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
 <div class="introduction" id="wash-floor-systems-linear-1"><div class="para" id="wash-floor-systems-linear-1-1">Don’t ask why I know this, but it takes me 80 seconds per square foot to wash a floor using a rag. If I use a mop, it’s slightly quicker at 75 seconds per square foot, but another 3 minutes at the end to wring out the mop. (The rag just pops in the washing machine.)</div></div>
 <article class="task exercise-like" id="wash-floor-systems-linear-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="wash-floor-systems-linear-2-1-1">Name the variables and write an equation for each option: rag versus mop.</div> <div class="para" id="wash-floor-systems-linear-2-1-2"><em class="emphasis">Hint: time is the dependent variable</em></div></article><article class="task exercise-like" id="wash-floor-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="wash-floor-systems-linear-2-1-1">Name the variables and write an equation for each option: rag versus mop. <em class="emphasis">Hint: time is the dependent variable.</em>
+</div></article><article class="task exercise-like" id="wash-floor-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="wash-floor-systems-linear-3-1-1">Set up and solve the system to determine the area of a room where either option takes the same amount of total time.</div></article><article class="task exercise-like" id="wash-floor-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="wash-floor-systems-linear-4-1-1">What do you suggest for each room? (Note: find the area by multiplying the length times the width.) My bathroom floor is 5′<span class="process-math">\(\times\)</span>5′. My kitchen floor is 8′<span class="process-math">\(\times\)</span>10′. The laundry room is 10′<span class="process-math">\(\times\)</span>14′.</div></article></article><article class="exercise exercise-like" id="light-bulbs-systems-linear"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
 <div class="introduction" id="light-bulbs-systems-linear-1"><div class="para" id="light-bulbs-systems-linear-1-1">Maria needed to replace the light bulb in the hallway. When she went to the home improvement store she was overwhelmed with the choices of light bulbs. One option is a compact fluorescent light (CFL) bulb. A CFL bulb costs $1. This fixture will cost $0.95 per month to run with a CFL bulb. A different option Maria is considering is a light-emitting diode (LED) instead of a bulb. A LED costs $24 but reduces the cost for the fixture to $0.60 per month.</div></div>
@@ -834,12 +837,12 @@ L \ge 4{,}889 \text{ locks}\text{.}
 <div class="introduction" id="exercise-classes-systems-linear-1">
 <div class="para" id="exercise-classes-systems-linear-1-1">The community center offers exercise classes on a pay-as-you-go basis. It normally costs $20 to register and then $15 per exercise class. Alternatively, you can pay $150 to become a member, and then $10 per exercise class. If we let <span class="process-math">\(E\)</span> represent the number of exercise classes I attend and <span class="process-math">\(T\)</span> represent the total cost in dollars, then the equations are:</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
-<td class="l m b1 r1 l1 t1 lines"><dfn class="terminology">Pay as-you-go:</dfn></td>
-<td class="l m b1 r1 l0 t1 lines"><span class="process-math">\(T = 20 + 15E\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">Pay as-you-go:</dfn></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(T = 20 + 15E\)</span></td>
 </tr>
 <tr>
-<td class="l m b1 r1 l1 t0 lines"><dfn class="terminology">Member:</dfn></td>
-<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(T= 150 + 10E\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">Member:</dfn></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(T= 150 + 10E\)</span></td>
 </tr>
 </table></div>
 </div>
@@ -847,17 +850,17 @@ L \ge 4{,}889 \text{ locks}\text{.}
 <div class="para" id="exercise-classes-systems-linear-2-1-1">Create a table of reasonable values and draw a graph showing both options.</div></article><article class="task exercise-like" id="exercise-classes-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="exercise-classes-systems-linear-3-1-1">According to your graph, what is the break even point?</div></article><article class="task exercise-like" id="exercise-classes-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="exercise-classes-systems-linear-4-1-1">Use successive approximations to find the break even point.</div></article><article class="task exercise-like" id="exercise-classes-systems-linear-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="exercise-classes-systems-linear-5-1-1">Set up and solve a system of linear equations to determine the exact break even point</div></article><article class="task exercise-like" id="exercise-classes-systems-linear-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="exercise-classes-systems-linear-5-1-1">Set up and solve a system of linear equations to determine the exact break even point.</div></article><article class="task exercise-like" id="exercise-classes-systems-linear-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
 <div class="para" id="exercise-classes-systems-linear-6-1-1">Describe in words what you’ve learned about whether or not to buy membership.</div></article></article><article class="exercise exercise-like" id="supply-demand-corn-systems-linear"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
 <div class="introduction" id="supply-demand-corn-systems-linear-1">
 <div class="para" id="supply-demand-corn-systems-linear-1-1">The weekly supply <span class="process-math">\(S\)</span> and demand <span class="process-math">\(D\)</span> for corn-on-the-cob (in hundreds) at a local market are given by the equations</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
-<td class="l m b1 r1 l1 t1 lines"><dfn class="terminology">Supply:</dfn></td>
-<td class="l m b1 r1 l0 t1 lines"><span class="process-math">\(S = 1.5P+6\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">Supply:</dfn></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(S = 1.5P+6\)</span></td>
 </tr>
 <tr>
-<td class="l m b1 r1 l1 t0 lines"><dfn class="terminology">Demand:</dfn></td>
-<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(D= 11 - 0.9P\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">Demand:</dfn></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(D= 11 - 0.9P\)</span></td>
 </tr>
 </table></div> <div class="para" id="supply-demand-corn-systems-linear-1-3">where <span class="process-math">\(P\)</span> is the price per unit, in dollars per dozen.</div>
 </div>
@@ -868,19 +871,19 @@ L \ge 4{,}889 \text{ locks}\text{.}
 <div class="introduction" id="solar-heating-systems-linear-1">
 <div class="para" id="solar-heating-systems-linear-1-1">A solar heating system costs approximately $30,000 to install and $150 per year to run. By comparison, a gas heating system costs approximately $12,000 to install and $700 per year to run. Earlier we wrote equations showing how the total cost $<span class="process-math">\(T\)</span> depends on the time, <span class="process-math">\(Y\)</span> years.</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
-<td class="l m b1 r1 l1 t1 lines"><dfn class="terminology">Solar:</dfn></td>
-<td class="l m b1 r1 l0 t1 lines"><span class="process-math">\(T  =30{,}000 + 150Y\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">Solar:</dfn></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(T  =30{,}000 + 150Y\)</span></td>
 </tr>
 <tr>
-<td class="l m b1 r1 l1 t0 lines"><dfn class="terminology">Gas:</dfn></td>
-<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(T  = 12{,}000 + 700Y\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">Gas:</dfn></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(T  = 12{,}000 + 700Y\)</span></td>
 </tr>
 </table></div> <div class="para" id="solar-heating-systems-linear-1-3"><em class="emphasis">(Story also appears in <a href="sec-Modeling_linear_equations.html#solar-heating-modeling-linear" class="xref" data-knowl="./knowl/xref/solar-heating-modeling-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 4.1.1">4.1.1</a>)</em></div>
 </div>
 <article class="task exercise-like" id="solar-heating-systems-linear-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="solar-heating-systems-linear-2-1-1">Set up an solve a system to determine the payback time of installing the solar heating system.</div></article><article class="task exercise-like" id="solar-heating-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="solar-heating-systems-linear-3-1-1">How does the payback time change if the state offers a $7,000 rebate? That means, in effect, that the solar system costs $7,000 less to install. Write a new equation for the solar heating system. Then set up and solve the new system.</div></article><article class="task exercise-like" id="solar-heating-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="solar-heating-systems-linear-4-1-1">How high a rebate would the state have to offer to insure a payback time of 15 years? <em class="emphasis">Hint: compare the costs of gas and solar heating systems at 15 years.</em>
+<div class="para" id="solar-heating-systems-linear-4-1-1">How high a rebate would the state have to offer to ensure a payback time of 15 years? <em class="emphasis">Hint: compare the costs of gas and solar heating systems at 15 years.</em>
 </div></article></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-Modeling_linear_equations.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-Intercepts.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>

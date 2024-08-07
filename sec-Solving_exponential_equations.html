@@ -469,19 +469,21 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Solving_exponential_equations"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">3.4</span><span class="space"> </span><span class="title">Solving exponential equations (and logs)</span>
 </h2>
-<section class="introduction" id="sec-Solving_exponential_equations-2"><div class="para" id="sec-Solving_exponential_equations-2-1">Remember Jocelyn? She was asked to analyze information on rising health care costs. In 2007 the United States spent $2.26 trillion on health care and costs were projected to increase at an average of 6.7% annually for the subsequent decade. For the variables</div> <div class="tabular-box natural-width"><table class="tabular">
-<tr><td class="l m b0 r0 l0 t0 lines">
-<span class="process-math">\(H=\)</span> health care costs ($ trillions) <span class="process-math">\(\sim\)</span> dep</td></tr>
-<tr><td class="l m b0 r0 l0 t0 lines">
-<span class="process-math">\(Y=\)</span> time (years since 2007) <span class="process-math">\(\sim\)</span> indep</td></tr>
-</table></div> <div class="para logical" id="sec-Solving_exponential_equations-2-3">
+<section class="introduction" id="sec-Solving_exponential_equations-2"><div class="para logical" id="sec-Solving_exponential_equations-2-1">
+<div class="para">Remember Jocelyn? She was asked to analyze information on rising health care costs. In 2007 the United States spent $2.26 trillion on health care and costs were projected to increase at an average of 6.7% annually for the subsequent decade. For the variables</div>
+<div class="displaymath process-math" id="sec-Solving_exponential_equations-2-1-1">
+\begin{align*}
+H \amp= \text{ health care costs (\$ trillions) } \sim \text{ dep} \\
+Y \amp= \text{ time (years since 2007) } \sim \text{ indep} 
+\end{align*}
+</div>
 <div class="para">she found the exponential equation</div>
 <div class="displaymath process-math">
 \begin{equation*}
 H = 2.26\ast 1.067^{Y}
 \end{equation*}
 </div>
-</div> <div class="para" id="sec-Solving_exponential_equations-2-4">In what year did health care costs first pass $3 trillion? We can use successive approximation to find the answer, starting with the values she found earlier.</div> <div class="tabular-box natural-width"><table class="tabular">
+</div> <div class="para" id="sec-Solving_exponential_equations-2-2">In what year did health care costs first pass $3 trillion? We can use successive approximation to find the answer, starting with the values she found earlier.</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines">year</td>
 <td class="c m b1 r1 l0 t1 lines">2007</td>
@@ -514,7 +516,7 @@ H = 2.26\ast 1.067^{Y}
 <td class="c m b1 r1 l0 t0 lines">high</td>
 <td class="c m b1 r1 l0 t0 lines">high</td>
 </tr>
-</table></div> <div class="para logical" id="sec-Solving_exponential_equations-2-6">
+</table></div> <div class="para logical" id="sec-Solving_exponential_equations-2-4">
 <div class="para">The answer must be between 2009 and 2017. Let’s split the difference and guess 2013. For that year, <span class="process-math">\(Y = 2013-2007 = 6\)</span> and so</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -555,7 +557,7 @@ H = 2.26 \ast 1.067^6 = 2.26 \times 1.067 \wedge \underline{6} = 3.334993223 \ap
 <td class="c m b1 r1 l0 t0 lines">low</td>
 <td class="c m b1 r1 l0 t0 lines">high</td>
 </tr>
-</table></div> <div class="para logical" id="sec-Solving_exponential_equations-2-8">
+</table></div> <div class="para logical" id="sec-Solving_exponential_equations-2-6">
 <div class="para">Successive approximation gives us the answer fairly quickly. But there is an even quicker way - solving the exponential equation. Start with what we’re looking for, which is <span class="process-math">\(H= 3\text{.}\)</span> Use the equation <span class="process-math">\(H=2.26\ast1.067^Y\)</span> to get</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -580,7 +582,7 @@ H = 2.26 \ast 1.067^6 = 2.26 \times 1.067 \wedge \underline{6} = 3.334993223 \ap
 1.067^Y = 1.327433628\ldots
 \end{equation*}
 </div>
-</div> <div class="para logical" id="sec-Solving_exponential_equations-2-9">
+</div> <div class="para logical" id="sec-Solving_exponential_equations-2-7">
 <div class="para">Hmm. How do we find <span class="process-math">\(Y\)</span> here? We saw how to use roots to solve power equations. In our lemonade example we had <span class="process-math">\(C^3 = 714.2857\ldots\text{.}\)</span> We knew the exponent (3) and wanted to find the number being raised to that power (<span class="process-math">\(C\)</span>). That’s when we took the cube root to get</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -588,7 +590,7 @@ C = \sqrt[3]{714.2857\ldots} =3 \sqrt[x]{~\text{  }} 714.2857 = 8.9390\ldots \ap
 \end{equation*}
 </div>
 <div class="para">That approach is not going to work here because it’s backwards now - we know the number being raised to a power (1.067) and are on the hunt for the exponent (<span class="process-math">\(Y\)</span>) instead.</div>
-</div> <div class="para" id="sec-Solving_exponential_equations-2-10">Turns out there’s a different formula for solving for the exponent that uses <dfn class="terminology">logarithms</dfn> (nickname: <dfn class="terminology">logs</dfn>). More about logs in a minute, but first let’s write down the formula and practice working with it. The formula is</div> <article class="assemblage assemblage-like" id="log-divides-formula"><h3 class="heading"><span class="title">Log-Divides Formula.</span></h3>
+</div> <div class="para" id="sec-Solving_exponential_equations-2-8">Turns out there’s a different formula for solving for the exponent that uses <dfn class="terminology">logarithms</dfn> (nickname: <dfn class="terminology">logs</dfn>). More about logs in a minute, but first let’s write down the formula and practice working with it. The formula is</div> <article class="assemblage assemblage-like" id="log-divides-formula"><h3 class="heading"><span class="title">Log-Divides Formula.</span></h3>
 <div class="para logical" id="log-divides-formula-2">
 <div class="para">The equation <span class="process-math">\(g^Y = v\)</span> has solution</div>
 <div class="displaymath process-math">
@@ -596,7 +598,7 @@ C = \sqrt[3]{714.2857\ldots} =3 \sqrt[x]{~\text{  }} 714.2857 = 8.9390\ldots \ap
 Y = \frac{\log (v)}{\log(g)}
 \end{equation*}
 </div>
-</div></article> <div class="para" id="sec-Solving_exponential_equations-2-12">Quick aside about the name. Some formulas have well-known names. Not this one. We call it the “Log-Divides Formula” because it has logs and divides in it. Perhaps you already guessed that. Other math books do not have an name for this formula, although it is related to something called the “change of base formula”.</div> <div class="para logical" id="sec-Solving_exponential_equations-2-13">
+</div></article> <div class="para" id="sec-Solving_exponential_equations-2-10">Quick aside about the name. Some formulas have well-known names. Not this one. We call it the “Log-Divides Formula” because it has logs and divides in it. Perhaps you already guessed that. Other math books do not have a name for this formula, although it is related to something called the “change of base formula”.</div> <div class="para logical" id="sec-Solving_exponential_equations-2-11">
 <div class="para">Okay. Back to solving our equation. We got stuck trying to solve</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -604,7 +606,7 @@ Y = \frac{\log (v)}{\log(g)}
 \end{equation*}
 </div>
 <div class="para">We have growth factor <span class="process-math">\(g = 1.067\)</span> and value <span class="process-math">\(v=1.327433628\ldots\text{.}\)</span> So the formula says</div>
-<div class="displaymath process-math" id="sec-Solving_exponential_equations-2-13-4">
+<div class="displaymath process-math" id="sec-Solving_exponential_equations-2-11-4">
 \begin{align*}
 Y \amp = \frac{\log (v)}{\log(g)} \\
 \amp = \frac{\log (1.327433628\ldots)}{\log(1.067)} \\
@@ -612,14 +614,14 @@ Y \amp = \frac{\log (v)}{\log(g)} \\
 \amp = 4.367667365 \approx  4.37 
 \end{align*}
 </div>
-<div class="para">Your calculator should have a key that says “log” or maybe “LOG”. Try typing</div>
+<div class="para">Your calculator should have a key that says <kbd class="kbdkey">log</kbd> or maybe <kbd class="kbdkey">LOG</kbd>. Try typing</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \log( 1.327433628) \div \log (1.067) = 4.367667365 \approx 4.37
 \end{equation*}
 </div>
-<div class="para">A small note here about parentheses. Some calculators give the first parenthesis for free when you type log but you have to type the closing parenthesis in yourself.</div>
-</div> <div class="para" id="sec-Solving_exponential_equations-2-14">This answer of 4.37 means that costs are projected to exceed $3 trillion just over 4 years after 2007. That’s some time during 2011, or by 2012 for sure. Same answer as before.</div> <div class="para logical" id="sec-Solving_exponential_equations-2-15">
+<div class="para">A small note here about parentheses. Some calculators give the first parenthesis for free when you type <kbd class="kbdkey">log</kbd> but you have to type the closing parenthesis in yourself.</div>
+</div> <div class="para" id="sec-Solving_exponential_equations-2-12">This answer of 4.37 means that costs are projected to exceed $3 trillion just over 4 years after 2007. That’s some time during 2011, or by 2012 for sure. Same answer as before.</div> <div class="para logical" id="sec-Solving_exponential_equations-2-13">
 <div class="para">Let’s practice. Suppose instead we want to know when health care costs would exceed $10 trillion instead. (By the way - wow!) That means <span class="process-math">\(H = 10\text{.}\)</span> Using our equation <span class="process-math">\(H=2.26\ast1.067^Y\)</span> we get</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/log-divides-formula.html">
 \begin{equation*}
@@ -639,7 +641,7 @@ Y \amp = \frac{\log (v)}{\log(g)} \\
 \end{equation*}
 </div>
 <div class="para">Now our equation fits the format <span class="process-math">\(g^Y=v\)</span> for the <a href="sec-Solving_exponential_equations.html#log-divides-formula" class="xref" data-knowl="./knowl/xref/log-divides-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Log-Divides Formula">Log-Divides Formula</a> with new value <span class="process-math">\(v=4.424778761\ldots\)</span> (and the growth factor is <span class="process-math">\(g=1.067\)</span> still). So the answer is</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/log-divides-formula.html" id="sec-Solving_exponential_equations-2-15-10">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/log-divides-formula.html" id="sec-Solving_exponential_equations-2-13-10">
 \begin{align*}
 Y \amp = \frac{\log (v)}{\log(g)} \\
 \amp = \frac{\log (4.424778761\ldots)}{\log(1.067)} \\
@@ -654,9 +656,9 @@ Y \amp = \frac{\log (v)}{\log(g)} \\
 \end{equation*}
 </div>
 <div class="para">where <dfn class="terminology">ANS</dfn> stands for “answer”.</div>
-</div> <div class="para" id="sec-Solving_exponential_equations-2-16">Again that means 23 years after 2007, or 2007 + 23 = 2030. Health care costs are projected to exceed $10 million in the year 2030. Well, unless we do something about that. (Helps explain why government folks are often discussing how to contain health care costs.)</div> <div class="para logical" id="sec-Solving_exponential_equations-2-17">
+</div> <div class="para" id="sec-Solving_exponential_equations-2-14">Again that means 23 years after 2007, or 2007 + 23 = 2030. Health care costs are projected to exceed $10 trillion in the year 2030. Well, unless we do something about that. (Helps explain why government folks are often discussing how to contain health care costs.)</div> <div class="para logical" id="sec-Solving_exponential_equations-2-15">
 <div class="para">Time to fill you in a bit more about logs. Look at these examples. Don’t take my word for it; calculate them yourself.</div>
-<div class="displaymath process-math" id="sec-Solving_exponential_equations-2-17-1">
+<div class="displaymath process-math" id="sec-Solving_exponential_equations-2-15-1">
 \begin{align*}
 \log(10) \amp =1\\
 \log(100) \amp =2\\
@@ -664,7 +666,7 @@ Y \amp = \frac{\log (v)}{\log(g)} \\
 \log(10{,}000) \amp= 4
 \end{align*}
 </div>
-</div> <div class="para logical" id="sec-Solving_exponential_equations-2-18">
+</div> <div class="para logical" id="sec-Solving_exponential_equations-2-16">
 <div class="para">What do you see? In each case the logarithm is the number of zeros. For example, has 4 zeros and <span class="process-math">\(\log(10{,}000)=4\text{.}\)</span> Another way to think of this connection is</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -672,9 +674,9 @@ Y \amp = \frac{\log (v)}{\log(g)} \\
 \end{equation*}
 </div>
 <div class="para">In other words, the logarithm is picking off the power of 10.</div>
-</div> <div class="para" id="sec-Solving_exponential_equations-2-19">Wait a minute. The Log-Divides formula helped us find the value of <span class="process-math">\(Y\)</span> which was an exponent. And now we see that the log of a power of 10 is that exponent. So a logarithm is just an exponent. And logarithms help us find the exponent. Makes sense.</div> <div class="para logical" id="sec-Solving_exponential_equations-2-20">
+</div> <div class="para" id="sec-Solving_exponential_equations-2-17">Wait a minute. The Log-Divides formula helped us find the value of <span class="process-math">\(Y\)</span> which was an exponent. And now we see that the log of a power of 10 is that exponent. So a logarithm is just an exponent. And logarithms help us find the exponent. Makes sense.</div> <div class="para logical" id="sec-Solving_exponential_equations-2-18">
 <div class="para">What about logs of numbers that aren’t just powers of 10? Here are some examples.</div>
-<div class="displaymath process-math" id="sec-Solving_exponential_equations-2-20-1">
+<div class="displaymath process-math" id="sec-Solving_exponential_equations-2-18-1">
 \begin{align*}
 \log(25) \amp = 1.3979\ldots \\
 \log(250) \amp = 2.3979\ldots \\
@@ -682,7 +684,7 @@ Y \amp = \frac{\log (v)}{\log(g)} \\
 \log(25{,}000) \amp = 4.3979\ldots 
 \end{align*}
 </div>
-</div> <div class="para logical" id="sec-Solving_exponential_equations-2-21">
+</div> <div class="para logical" id="sec-Solving_exponential_equations-2-19">
 <div class="para">To see what’s happening we want to involve powers of 10. Scientific notation will do that for us. Let’s write these numbers in scientific notation and see what we learn. For example.</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -694,23 +696,23 @@ Y \amp = \frac{\log (v)}{\log(g)} \\
 <td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(250=2.5 \times 10^2\)</span></td>
 <td class="c m b0 r0 l0 t0 lines">and</td>
 <td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\log(250)=2.3979\ldots \approx 2\)</span></td>
-</tr></table></div> <div class="para" id="sec-Solving_exponential_equations-2-23">Before we write down a general rule, let’s check more numbers.</div> <div class="tabular-box natural-width"><table class="tabular">
-<tr>
-<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(7{,}420{,}000 =7.42 \times 10^6\)</span></td>
-<td class="c m b0 r0 l0 t0 lines">and</td>
-<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\log(7{,}420{,}000)=6.870403905\ldots \approx 6\)</span></td>
-</tr>
-<tr>
-<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(4 = 4 \times 10^0\)</span></td>
-<td class="c m b0 r0 l0 t0 lines">and</td>
-<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\log ({4})=0.602059991\ldots \approx 0\)</span></td>
-</tr>
-<tr>
-<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0.00917 = 9.17 \times 10^{-3}\)</span></td>
-<td class="c m b0 r0 l0 t0 lines">and</td>
-<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\log ({0.00917})=-2.037630664\ldots \approx -3\)</span></td>
-</tr>
-</table></div> <div class="para" id="sec-Solving_exponential_equations-2-25">In every case we are rounding down, but it’s always the same.</div> <div class="para" id="sec-Solving_exponential_equations-2-26">log(number) <span class="process-math">\(\approx\)</span> power of 10 in the scientific notation for that number.</div></section><section class="conclusion" id="sec-Solving_exponential_equations-3"><h3 class="heading">Do you know ….<span></span>
+</tr></table></div> <div class="para logical" id="sec-Solving_exponential_equations-2-21">
+<div class="para">Before we write down a general rule, let’s check more numbers.</div>
+<div class="displaymath process-math" id="sec-Solving_exponential_equations-2-21-1">
+\begin{align*}
+7{,}420{,}000 \amp= 7.42 \times 10^6 \amp 
+\amp \text{ and } \amp
+\log(7{,}420{,}000) \amp=6.870403905\ldots \approx 6\\
+4 \amp= 4\times 10^0 \amp 
+\amp \text{ and } \amp
+\log(4) \amp= 0.602059991\ldots \approx 0\\
+0.00917 \amp= 9.17\times 10^{-3} \amp 
+\amp \text{ and } \amp
+\log(0.00917) \amp= -2.037630664\ldots \approx -3
+\end{align*}
+</div>
+<div class="para">In every case we are rounding down, but it’s always the same.</div>
+</div> <div class="para" id="sec-Solving_exponential_equations-2-22">log(number) <span class="process-math">\(\approx\)</span> power of 10 in the scientific notation for that number.</div></section><section class="conclusion" id="sec-Solving_exponential_equations-3"><h3 class="heading">Do you know ….<span></span>
 </h3> <div class="para logical" id="sec-Solving_exponential_equations-3-2"><ol class="upper-alpha" id="sec-Solving_exponential_equations-3-2-1">
 <li id="sec-Solving_exponential_equations-3-2-1-1"><div class="para" id="sec-Solving_exponential_equations-3-2-1-1-1">What “log” means?</div></li>
 <li id="sec-Solving_exponential_equations-3-2-1-2"><div class="para" id="sec-Solving_exponential_equations-3-2-1-2-1">The connection is between logs and scientific notation?</div></li>

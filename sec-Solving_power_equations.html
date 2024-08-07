@@ -477,12 +477,13 @@ J = 0.0056C^3
 \end{equation*}
 </div>
 <div class="para">where</div>
-</div> <div class="tabular-box natural-width"><table class="tabular">
-<tr><td class="l m b0 r0 l0 t0 lines">
-<span class="process-math">\(J=\)</span> juice (tablespoons) <span class="process-math">\(\sim\)</span> dep</td></tr>
-<tr><td class="l m b0 r0 l0 t0 lines">
-<span class="process-math">\(C=\)</span> circumference (inches) <span class="process-math">\(\sim\)</span> indep</td></tr>
-</table></div> <div class="para" id="sec-Solving_power_equations-2-3">In case you’ve forgotten, the <dfn class="terminology">circumference</dfn> is the distance <em class="emphasis">around</em> the lemon. Think of taking wrapping a piece of string around the middle part of the lemon. Then stretch it out on a ruler to see how long it is.</div> <div class="para" id="sec-Solving_power_equations-2-4">Recipes for lemonade vary widely, but for my recipe calls for 4 tablespoons of lemon juice for each 12 ounce glass. The rest is a syrup made of hot water and sugar, mulled with a sweet herb like basil or mint, then finished with ice and cold water. Yum.</div> <div class="para logical" id="sec-Solving_power_equations-2-5">
+<div class="displaymath process-math" id="sec-Solving_power_equations-2-1-3">
+\begin{align*}
+J \amp= \text{ juice (tablespoons) } \sim \text{ dep} \\
+C \amp= \text{ circumference (inches) } \sim \text{ indep} 
+\end{align*}
+</div>
+</div> <div class="para" id="sec-Solving_power_equations-2-2">In case you’ve forgotten, the <dfn class="terminology">circumference</dfn> is the distance <em class="emphasis">around</em> the lemon. Think of taking wrapping a piece of string around the middle part of the lemon. Then stretch it out on a ruler to see how long it is.</div> <div class="para" id="sec-Solving_power_equations-2-3">Recipes for lemonade vary widely, but for my recipe calls for 4 tablespoons of lemon juice for each 12 ounce glass. The rest is a syrup made of hot water and sugar, mulled with a sweet herb like basil or mint, then finished with ice and cold water. Yum.</div> <div class="para logical" id="sec-Solving_power_equations-2-4">
 <div class="para">So, how large a lemon would yield 4 tablespoons of juice? Let’s try to guess the answer. For example, a small lemon 7 inches in circumference would yield</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -502,7 +503,7 @@ J = 0.0056 \ast 9^3 = 0.0056 \times \underline{9} \wedge 3 = 4.0824 \approx 4  \
 \end{equation*}
 </div>
 <div class="para">That was quick! A lemon 9 inches around should produce just over 4 tablespoons of juice.</div>
-</div> <div class="para logical" id="sec-Solving_power_equations-2-6">
+</div> <div class="para logical" id="sec-Solving_power_equations-2-5">
 <div class="para">Much as we have learned to love successive approximation, this chapter is all about solving equations. Remember,</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -516,7 +517,7 @@ J = 0.0056C^3
 \end{equation*}
 </div>
 <div class="para">with power <span class="process-math">\(n=3\)</span> and proportionality constant <span class="process-math">\(k=0.0056\text{.}\)</span> Turns out we can solve any power equation symbolically.</div>
-</div> <div class="para logical" id="sec-Solving_power_equations-2-7">
+</div> <div class="para logical" id="sec-Solving_power_equations-2-6">
 <div class="para">Here’s how. We’re looking for <span class="process-math">\(J = 4\text{.}\)</span> Use our equation <span class="process-math">\(J=0.0056C^3\)</span> to get</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -535,14 +536,14 @@ J = 0.0056C^3
 C^3 = \frac{4}{0.0056}= 4 \div 0.0056 = 714.2857\ldots
 \end{equation*}
 </div>
-</div> <div class="para logical" id="sec-Solving_power_equations-2-8">
+</div> <div class="para logical" id="sec-Solving_power_equations-2-7">
 <div class="para">We have found <span class="process-math">\(C^3\text{.}\)</span> How can we “undo” the <span class="process-math">\(\wedge 3\)</span> to find <span class="process-math">\(C\text{?}\)</span> The answer: take the cube root of each side. (More about roots at the end of this section.) That means</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \sqrt[3]{C^3} = \sqrt[3]{714.2857\ldots}
 \end{equation*}
 </div>
-</div> <div class="para logical" id="sec-Solving_power_equations-2-9">
+</div> <div class="para logical" id="sec-Solving_power_equations-2-8">
 <div class="para">which simplifies to</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -551,13 +552,15 @@ C = \sqrt[3]{714.2857\ldots} =3 \sqrt[x]{~\text{  }} 714.2857
 \end{equation*}
 </div>
 <div class="para">as expected, just under 9 inches. (More about the <span class="process-math">\(\sqrt[x]{~\text{  }}\)</span> key later too.)</div>
-</div> <div class="para" id="sec-Solving_power_equations-2-10">A look at the graph confirms our result.</div> <div class="para" id="sec-Solving_power_equations-2-11"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/lemonade.png" class="contained"></div></div> <div class="para" id="sec-Solving_power_equations-2-12">Now, what goes better with lemonade than lemon cheesecake? For that we need lemon zest. <dfn class="terminology">Zest</dfn> is what you get when you grate the lemon peel in long skinny strips. As with juice, the amount of lemon zest depends on the size of the lemon. Our variables are</div> <div class="tabular-box natural-width"><table class="tabular">
-<tr><td class="l m b0 r0 l0 t0 lines">
-<span class="process-math">\(Z=\)</span> amount of lemon zest (tablespoons) <span class="process-math">\(\sim\)</span> dep</td></tr>
-<tr><td class="l m b0 r0 l0 t0 lines">
-<span class="process-math">\(C=\)</span> circumference (inches) <span class="process-math">\(\sim\)</span> indep <em class="emphasis">as before</em>
-</td></tr>
-</table></div> <div class="para logical" id="sec-Solving_power_equations-2-14">
+</div> <div class="para" id="sec-Solving_power_equations-2-9">A look at the graph confirms our result.</div> <div class="para" id="sec-Solving_power_equations-2-10"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/lemonade.png" class="contained"></div></div> <div class="para logical" id="sec-Solving_power_equations-2-11">
+<div class="para">Now, what goes better with lemonade than lemon cheesecake? For that we need lemon zest. <dfn class="terminology">Zest</dfn> is what you get when you grate the lemon peel in long skinny strips. As with juice, the amount of lemon zest depends on the size of the lemon. Our variables are</div>
+<div class="displaymath process-math" id="sec-Solving_power_equations-2-11-2">
+\begin{align*}
+Z \amp= \text{ amount of lemon zest (tablespoons) } \sim \text{ dep} \\
+C \amp= \text{ circumference (inches) } \sim \text{ indep} 
+\end{align*}
+</div>
+</div> <div class="para logical" id="sec-Solving_power_equations-2-12">
 <div class="para">and an equation is</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -566,7 +569,7 @@ Z=0.018C^2
 </div>
 <div class="para">We have another power equation, this time with power <span class="process-math">\(n=2\)</span> and proportionality constant <span class="process-math">\(k=0.018\text{.}\)</span>
 </div>
-</div> <div class="para logical" id="sec-Solving_power_equations-2-15">
+</div> <div class="para logical" id="sec-Solving_power_equations-2-13">
 <div class="para">My lemon cheesecake recipe calls for <span class="process-math">\(1 \tfrac12\)</span> tablespoons of zest. There are various sized lemons at the store. How large a lemon should I buy? A small lemon of circumference 7 inches produces less than 1 tablespoon of zest because</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -574,7 +577,7 @@ Z=0.018\ast7^2 = 0.018 \times \underline{7} \wedge 2 = 0.082 &lt; 1
 \end{equation*}
 </div>
 <div class="para">so that’s not large enough.</div>
-</div> <div class="para" id="sec-Solving_power_equations-2-16">Let’s use successive approximations, summarizing our guesses in a table. Of course, we don’t really need this precise an answer, but it’s good practice. Notice <span class="process-math">\(1 \tfrac12 = 1 + \tfrac12 = 1 + 1 \div 2 = 1.5\text{.}\)</span>
+</div> <div class="para" id="sec-Solving_power_equations-2-14">Let’s use successive approximations, summarizing our guesses in a table. Of course, we don’t really need this precise an answer, but it’s good practice. Notice <span class="process-math">\(1 \tfrac12 = 1 + \tfrac12 = 1 + 1 \div 2 = 1.5\text{.}\)</span>
 </div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(C\)</span></td>
@@ -609,7 +612,7 @@ Z=0.018\ast7^2 = 0.018 \times \underline{7} \wedge 2 = 0.082 &lt; 1
 <td class="c m b1 r1 l0 t0 lines">high</td>
 <td class="c m b1 r1 l0 t0 lines">low</td>
 </tr>
-</table></div> <div class="para" id="sec-Solving_power_equations-2-18">We need a large lemon, somewhere between 9.1 and 9.2 inches around. Truth is, I’ll just buy the biggest lemon I can find because extra lemon zest looks wonderful on top of the cheesecake.</div> <div class="para logical" id="sec-Solving_power_equations-2-19">
+</table></div> <div class="para" id="sec-Solving_power_equations-2-16">We need a large lemon, somewhere between 9.1 and 9.2 inches around. Truth is, I’ll just buy the biggest lemon I can find because extra lemon zest looks wonderful on top of the cheesecake.</div> <div class="para logical" id="sec-Solving_power_equations-2-17">
 <div class="para">We are supposed to be practicing solving the equation. Here goes. We want <span class="process-math">\(Z=1.5\text{.}\)</span> Use our equation <span class="process-math">\(Z=0.018C^2\)</span> to get</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -643,7 +646,7 @@ C = \sqrt{83.333333\ldots}
 \end{equation*}
 </div>
 <div class="para">as expected, between 9.1 and 9.2 inches.</div>
-</div> <div class="para" id="sec-Solving_power_equations-2-20">As when solving linear equations, notice that we do the opposite operation in reverse order from the usual order of operations. To evaluate a power equation we would first raise to the power and then multiply. To solve a power equation we first divide (that is the opposite of multiplying) and then we take a root (that is the opposite of raising to a power).</div> <div class="para logical" id="sec-Solving_power_equations-2-21">
+</div> <div class="para" id="sec-Solving_power_equations-2-18">As when solving linear equations, notice that we do the opposite operation in reverse order from the usual order of operations. To evaluate a power equation we would first raise to the power and then multiply. To solve a power equation we first divide (that is the opposite of multiplying) and then we take a root (that is the opposite of raising to a power).</div> <div class="para logical" id="sec-Solving_power_equations-2-19">
 <div class="para">As promised, a brief discussion of roots is in order. Here’s the deal. Roots essentially “undo” powers. What this means is, for example, we know</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -669,7 +672,7 @@ C = \sqrt{83.333333\ldots}
 \end{equation*}
 </div>
 <div class="para">Your calculator might not have this key, or might need the square root after the number. Ask a classmate or your instructor or search online if you can’t figure it out.</div>
-</div> <div class="para logical" id="sec-Solving_power_equations-2-22">
+</div> <div class="para logical" id="sec-Solving_power_equations-2-20">
 <div class="para">The same idea works for higher powers. Like</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -682,16 +685,16 @@ C = \sqrt{83.333333\ldots}
 10^3 = 10 \wedge 3 = 1{,}000
 \end{equation*}
 </div>
-<div class="para">and we say 10 <dfn class="terminology">cubed</dfn> is . The <dfn class="terminology">cube root</dfn> of a number is whatever number you would cube to get that number. So, for example, <span class="process-math">\(\sqrt[3]{1{,}000} = 10\text{.}\)</span> Many calculators have a special root key that looks like <span class="process-math">\(\sqrt[x]{~\text{  }}\text{.}\)</span> That <span class="process-math">\(x\)</span> looks similar to multiplication (<span class="process-math">\(\times\)</span>), but it isn’t. The <span class="process-math">\(x\)</span> is like a placeholder for the real root you want - for a cube root <span class="process-math">\(x\)</span> is just 3.</div>
-</div> <div class="para logical" id="sec-Solving_power_equations-2-23">
-<div class="para">Here’s how to use that root key. First you type in the root you want (3), second you use that key (<span class="process-math">\(\sqrt[x]{~\text{  }}\)</span>), and last you type in the number you’re taking the root of () like this</div>
+<div class="para">and we say 10 <dfn class="terminology">cubed</dfn> is 1,000. The <dfn class="terminology">cube root</dfn> of a number is whatever number you would cube to get that number. So, for example, <span class="process-math">\(\sqrt[3]{1{,}000} = 10\text{.}\)</span> Many calculators have a special root key that looks like <span class="process-math">\(\sqrt[x]{~\text{  }}\text{.}\)</span> That <span class="process-math">\(x\)</span> looks similar to multiplication (<span class="process-math">\(\times\)</span>), but it isn’t. The <span class="process-math">\(x\)</span> is like a placeholder for the real root you want - for a cube root <span class="process-math">\(x\)</span> is just 3.</div>
+</div> <div class="para logical" id="sec-Solving_power_equations-2-21">
+<div class="para">Here’s how to use that root key. First you type in the root you want (3), second you use that key (<span class="process-math">\(\sqrt[x]{~\text{  }}\)</span>), and last you type in the number you’re taking the root of (1,000) like this</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \sqrt[3]{1{,}000} = 3\sqrt[x]{~\text{  }}1{,}000= 10
 \end{equation*}
 </div>
 <div class="para">Like with squareroots, your calculator might introduce a parenthesis, or you might do a slightly different order. You might have to use a shift or second key to get to the root key. On many graphing calculators the <span class="process-math">\(\sqrt[x]{~\text{  }}\)</span> key is one of the MATH functions, so you have to type something like MATH 5 to get it. Again, ask if you need help figuring it out.</div>
-</div> <div class="para logical" id="sec-Solving_power_equations-2-24">
+</div> <div class="para logical" id="sec-Solving_power_equations-2-22">
 <div class="para">There is a small chance that your calculator doesn’t have roots. In that case there is a strange-looking alternative</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -704,7 +707,7 @@ C = \sqrt{83.333333\ldots}
 \sqrt{100} = 100 \wedge (1 \div 2)= 10
 \end{equation*}
 </div>
-</div> <div class="para" id="sec-Solving_power_equations-2-25">Bet you see how this idea of roots generalizes. The <dfn class="terminology"><span class="process-math">\(n\)</span>th root</dfn> of a number is whatever number you would raise to the <span class="process-math">\(n\)</span>th power to get the number. Stated in terms of equations we have</div> <article class="assemblage assemblage-like" id="root-formula"><h3 class="heading"><span class="title">Root Formula.</span></h3>
+</div> <div class="para" id="sec-Solving_power_equations-2-23">Bet you see how this idea of roots generalizes. The <dfn class="terminology"><span class="process-math">\(n\)</span>th root</dfn> of a number is whatever number you would raise to the <span class="process-math">\(n\)</span>th power to get the number. Stated in terms of equations we have</div> <article class="assemblage assemblage-like" id="root-formula"><h3 class="heading"><span class="title">Root Formula.</span></h3>
 <div class="para logical" id="root-formula-2">
 <div class="para">The equation <span class="process-math">\(C^n=v\)</span> has solution</div>
 <div class="displaymath process-math">
@@ -783,7 +786,7 @@ J=150\, g^{12}
 <div class="para" id="lemon-zest-solving-power-2-1-1">Use the information we found earlier to draw a graph of the function. Include values <span class="process-math">\(0 \le C \le 10\text{.}\)</span>
 </div></article><article class="task exercise-like" id="lemon-zest-solving-power-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="lemon-zest-solving-power-3-1-1">Set up and solve an equation to find the size lemon needed for 1 tablespoon of zest.</div></article><article class="task exercise-like" id="lemon-zest-solving-power-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="lemon-zest-solving-power-4-1-1">Suppose the formula holds for grapefruit too. I don’t know of any recipe that calls for grapefruit zest; it is very bitter! But grapefruit is notorious for interacting with certain medications, and so we’re collecting some zest for an experiment. Let’s say we need cup of zest. How large a grapefruit will we need? Set up and solve an equation to answer. Use that 1 cup = 16 tablespoons.</div></article></article><article class="exercise exercise-like" id="wind-turbine-solving-power"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="para" id="lemon-zest-solving-power-4-1-1">Suppose the formula holds for grapefruit too. I don’t know of any recipe that calls for grapefruit zest; it is very bitter! But grapefruit is notorious for interacting with certain medications, and so we’re collecting some zest for an experiment. Let’s say we need <span class="process-math">\(\tfrac14\)</span> cup of zest. How large a grapefruit will we need? Set up and solve an equation to answer. Use that 1 cup = 16 tablespoons.</div></article></article><article class="exercise exercise-like" id="wind-turbine-solving-power"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
 <div class="introduction" id="wind-turbine-solving-power-1">
 <div class="para logical" id="wind-turbine-solving-power-1-1">
 <div class="para">Wind turbines are used to generate electricity. For a particular wind turbine, the equation</div>
@@ -837,7 +840,7 @@ R = 16T^2
 <div class="para" id="rock-drop-solving-power-2-1-1">How far does the rock fall in 2 seconds? In 4 seconds?</div></article><article class="task exercise-like" id="rock-drop-solving-power-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="rock-drop-solving-power-3-1-1">Is the rock falling faster during the first two seconds (<span class="process-math">\(T=0\)</span> to <span class="process-math">\(T=2\)</span>) or during the second two seconds (<span class="process-math">\(T=2\)</span> to <span class="process-math">\(T=4\)</span>)? Calculate the rate of change to decide.</div></article><article class="task exercise-like" id="rock-drop-solving-power-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="rock-drop-solving-power-4-1-1">Tia dropped a rock from her apartment window that’s 300 feet above ground. Will the rock have hit the ground by 4 seconds after it was dropped?</div></article><article class="task exercise-like" id="rock-drop-solving-power-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="rock-drop-solving-power-5-1-1">If you evaluate at <span class="process-math">\(T=5\text{,}\)</span> what value of <span class="process-math">\(R\)</span> do you get and what does it mean in the story, again assuming the rock is dropped from 300 feet up.</div></article><article class="task exercise-like" id="rock-drop-solving-power-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="rock-drop-solving-power-5-1-1">If you evaluate at <span class="process-math">\(T=5\text{,}\)</span> what value of <span class="process-math">\(R\)</span> do you get? What does this value mean in the story? Again assume the rock is dropped from 300 feet up.</div></article><article class="task exercise-like" id="rock-drop-solving-power-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
 <div class="para" id="rock-drop-solving-power-6-1-1">When does the rock hit the ground? Set up and solve an equation. <em class="emphasis">Hint: what value of <span class="process-math">\(R\)</span> do you solve for?</em>
 </div></article><article class="task exercise-like" id="rock-drop-solving-power-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
 <div class="para" id="rock-drop-solving-power-7-1-1">Now suppose we have a new variable, <span class="process-math">\(H\text{,}\)</span> which represents the height of the rock Tia dropped after <span class="process-math">\(T\)</span> seconds, write a new equation for <span class="process-math">\(H\)</span> as a function of <span class="process-math">\(T\text{.}\)</span>
