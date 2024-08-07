@@ -464,8 +464,6 @@
 						<cell right="minor" halign="center">0.8</cell>
 						<cell right="minor" halign="center">1.4</cell>
 						<cell right="minor" halign="center">1.6</cell>
-						<cell right="minor" halign="center"></cell>
-						<cell right="minor" halign="center"></cell>
 					</row>
 					<row left="minor" class="odd">
 						<cell right="minor" halign="center">Percent gold in alloy</cell>
@@ -474,8 +472,6 @@
 						<cell right="minor" halign="center">64.3</cell>
 						<cell right="minor" halign="center">70.6</cell>
 						<cell right="minor" halign="center">72.2</cell>
-						<cell right="minor" halign="center"></cell>
-						<cell right="minor" halign="center"></cell>
 					</row>
 				</tabular>
 			</statement>
@@ -544,14 +540,14 @@
 	<exercise xml:id="temp-mpls-modeling-linear" component="not-workbook">
 		<introduction>
 			<p>
-				The temperature in Minneapolis was 40 degrees at noon yesterday but it dropped 3 degrees an hour in the afternoon. Earlier we found the temperature, <m>T^\circ</m>F depends on the time, <m>H</m> hours after noon according to the equation <me>T=40-3H</me> 
+				The temperature in Minneapolis was 40 degrees at noon yesterday but it dropped 3 degrees an hour in the afternoon. Earlier we found the temperature, <m>T</m> in <degree/>F depends on the time, <m>H</m> hours after noon according to the equation <me>T=40-3H</me> 
 			</p>
 			<p><em>(Story also appears in <xref ref="temp-mpls-variables-functions"/> and <xref ref="temp-mpls-tables-graphs"/>)</em></p>
 		</introduction>	
 		<task>
 			<statement>
 				<p>
-					When does the temperature drop below freezing (32<m>^{\circ}</m> F)? Set up and solve the relevant inequality. Report your answer as an actual time (to the minute)
+					When does the temperature drop below freezing (32<degree/>F)? Set up and solve the relevant inequality. Report your answer as an actual time (to the minute).
 				</p>
 			</statement>
 		</task>
@@ -559,7 +555,7 @@
 		<task>
 			<statement>
 				<p>
-					When does the temperature drop below zero (0<m>^{\circ}</m> F)? Same instructions.
+					When does the temperature drop below zero (0<degree/>F)? Same instructions.
 				</p>
 			</statement>
 		</task>

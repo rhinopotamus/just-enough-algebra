@@ -11,19 +11,10 @@
 
 		<p>
 			One data set compares road salt usage per county. Thanh learned from county officials that road salt use varies widely from county to county, but, not surprisingly, it depends heavily on the length of road in the county. So, the variables are
-		</p>
-
-
-		<tabular>
-			<row class="odd">
-				<cell halign="left"><m>L=</m> road length (lane miles) <m>\sim</m> indep</cell>
-			</row>
-			<row class="even">
-				<cell halign="left"><m>S=</m> road salt applied (tons per year) <m>\sim</m> dep</cell>
-			</row>
-		</tabular>
-
-		<p>
+			<md>
+				<mrow>L \amp= \text{ road length (lane miles) } \sim \text{ dep} </mrow>
+				<mrow>S \amp= \text{ road salt applied (tons per year) } \sim \text{ indep} </mrow>
+			</md>
 			A <term>lane mile</term> is the area of road one mile long and one lane wide. Now you know.
 		</p>
 

@@ -6,17 +6,11 @@
 	<introduction component="not-workbook">
 		<p>
 			Claude likes to juggle. As he throws a beanbag up in the air, the height changes over time as described by the equation <me>H = 3+15T-16T^2</me> where
+			<md>
+				<mrow>H \amp= \text{ height of beanbag (feet) } \sim \text{ dep} </mrow>
+				<mrow>T \amp= \text{ time (seconds) } \sim \text{ indep} </mrow>
+			</md>
 		</p>
-
-
-		<tabular>
-			<row class="odd">
-				<cell halign="left"><m>H</m> = height of beanbag (feet) <m>\sim</m> dep</cell>
-			</row>
-			<row class="even">
-				<cell halign="left"><m>T</m> = time (seconds) <m>\sim</m> indep</cell>
-			</row>
-		</tabular>
 
 		<p>
 			Let's make a table and graph this function. For example, when <m>T=0</m> seconds we have <me>H = 3 + 15 \ast 0-16 \ast 0^2 = 3 + 15 \times \underline{0} - 16 \times \underline{0} \wedge 2 =  3 \text{ feet}</me> and when <m>T=1</m> second we have <me>H = 3 + 15  \ast 1-16 \ast 1^2 = 3 + 15 \times \underline{1} - 16 \times \underline{1} \wedge 2 =  2 \text{ feet}</me>
@@ -148,7 +142,7 @@
 			<me>
 				\frac{-b}{2a} = \frac{-15}{2\ast-16} =  \text{(-)}15 \div (2 \times \text{(-)}16) = 0.46875
 			</me> 
-			As usual, we needed parentheses around the denominator (bottom) of our fraction to override the normal order of operations. As a reminder, <m>\text{(-)}</m> refers to negation. Remember, this does not mean you type in parentheses, just hit the one key that is labeled already.
+			As usual, we needed parentheses around the denominator (bottom) of our fraction to override the normal order of operations. As a reminder, <kbd>(-)</kbd> refers to negation. Remember, this does not mean you type in parentheses, just hit the one key that is labeled already.
 		</p>
 
 		<p>
@@ -219,7 +213,7 @@
 		</p>
 
 		<p>
-			In general, the graph of <m>H = aT^2+bT+c</m> is a <term>parabola</term>. The two solutions from the <xref ref="quadratic-formula" text="title"/> are both places where <m>H=0</m> and, so, the graph crosses the <m>T</m>-axis there. Might not make sense in the real problem, but the equation and formula don't know that. (Okay, equations and formulas don't actually <q>know</q> anything. But you get my point.) Turns out the graph is symmetric about the highest point, so that must be midway in between the roots which is exactly where <me>T =\frac{-b}{2a}</me> Because <m>a</m> is negative, the answer we got by adding is to the left and the answer we got by subtracting is to the right.
+			In general, the graph of <m>H = aT^2+bT+c</m> is a <term>parabola</term>. The two solutions from the <xref ref="quadratic-formula" text="title"/> are both places where <m>H=0</m> (we give them the fancy name <term>roots</term>) and, so, the graph crosses the <m>T</m>-axis there. Might not make sense in the real problem, but the equation and formula don't know that. (Okay, equations and formulas don't actually <q>know</q> anything. But you get my point.) Turns out the graph is symmetric about the highest point, so that must be midway in between the roots which is exactly where <me>T =\frac{-b}{2a}</me> Because <m>a</m> is negative, the answer we got by adding is to the left and the answer we got by subtracting is to the right.
 		</p>
 
 

@@ -347,7 +347,7 @@
 	<exercise xml:id="wild-rice-fitting-lines" component="not-workbook">
 		<introduction>
 			<p>
-				Wild rice is a native plant that grows in lakes in the upper Midwest. The table shows how the annual acreage of wild rice has varied with the average spring temperature in various years. The variables are <m>T</m> for the temperature measured in <m>^{\circ}</m>F and <m>W</m> for the wild rice yield, measured in acres. In case you're curious, the year is included as well, but it's not one of the variables we're interested in.
+				Wild rice is a native plant that grows in lakes in the upper Midwest. The table shows how the annual acreage of wild rice has varied with the average spring temperature in various years. The variables are <m>T</m> for the temperature measured in <degree/>F and <m>W</m> for the wild rice yield, measured in acres. In case you're curious, the year is included as well, but it's not one of the variables we're interested in.
 			</p>
 			
 			<tabular bottom="minor" top="minor">
@@ -390,7 +390,7 @@
 		<task>
 			<statement>
 				<p>
-					Make a scatter plot of the points. Make your graph as large as possible by starting your temperature axis at 35<m>^{\circ}</m>F and your acreage axis at 1,000 acres.
+					Make a scatter plot of the points. Make your graph as large as possible by starting your temperature axis at 35<degree/>F and your acreage axis at 1,000 acres.
 				</p>
 			</statement>
 		</task>
@@ -398,7 +398,7 @@
 		<task>
 			<statement>
 				<p>
-					Find the equation of the line through the data from 1997 and 2001. Use <m>T</m> for the average temperature (in <m>^{\circ}</m>F) and <m>W</m> for the acres of wild rice.
+					Find the equation of the line through the data from 1997 and 2001. Use <m>T</m> for the average temperature (in <degree/>F) and <m>W</m> for the acres of wild rice.
 				</p>
 			</statement>
 		</task>
@@ -406,7 +406,7 @@
 		<task>
 			<statement>
 				<p>
-					Based on your line, what might you expect the acreage of wild rice to be in a year when the average temperature is 46<m>^{\circ}</m>F? 40<m>^{\circ}</m>F? Use your equation to answer the questions.
+					Based on your line, what might you expect the acreage of wild rice to be in a year when the average temperature is 46<degree/>F? 40<degree/>F? Use your equation to answer the questions.
 				</p>
 			</statement>
 		</task>
@@ -430,7 +430,7 @@
 		<task>
 			<statement>
 				<p>
-					If you use the best fitting line, how would that change your estimate for the acreage of wild rice in a year when the average temperature is 46<m>^{\circ}</m>F? 40<m>^{\circ}</m>F?
+					If you use the best fitting line, how would that change your estimate for the acreage of wild rice in a year when the average temperature is 46<degree/>F? 40<degree/>F?
 				</p>
 			</statement>
 		</task>
@@ -452,8 +452,6 @@
 					<cell right="minor" halign="center">2000</cell>
 					<cell right="minor" halign="center">2006</cell>
 					<cell right="minor" halign="center">2010</cell>
-					<cell right="minor" halign="center"></cell>
-					<cell right="minor" halign="center"></cell>
 				</row>
 				<row left="minor" class="odd">
 					<cell right="minor" halign="center"><m>Y</m></cell>
@@ -464,8 +462,6 @@
 					<cell right="minor" halign="center">40</cell>
 					<cell right="minor" halign="center">46</cell>
 					<cell right="minor" halign="center">50</cell>
-					<cell right="minor" halign="center"></cell>
-					<cell right="minor" halign="center"></cell>
 				</row>
 				<row left="minor" class="even">
 					<cell right="minor" halign="center"><m>G</m></cell>
@@ -476,8 +472,6 @@
 					<cell right="minor" halign="center">239.1</cell>
 					<cell right="minor" halign="center">254.2</cell>
 					<cell right="minor" halign="center">249.0</cell>
-					<cell right="minor" halign="center"></cell>
-					<cell right="minor" halign="center"></cell>
 				</row>
 			</tabular>
 			<aside>
@@ -595,7 +589,7 @@
 			</p>
 			
 			<tabular bottom="minor" top="minor">
-				<row left="minor" class="odd">
+				<row left="minor" header="yes">
 					<cell right="minor" halign="left">Movie</cell>
 					<cell right="minor" halign="right">Estimated cost</cell>
 					<cell right="minor" halign="right">Estimated earnings</cell>
@@ -717,8 +711,6 @@
 					<cell right="minor" halign="center">2005</cell>
 					<cell right="minor" halign="center">2009</cell>
 					<cell right="minor" halign="center">2012</cell>
-					<cell right="minor" halign="center"></cell>
-					<cell right="minor" halign="center"></cell>
 				</row>
 				<row left="minor" class="odd">
 					<cell right="minor" halign="center"><m>Y</m></cell>
@@ -730,8 +722,6 @@
 					<cell right="minor" halign="center">30</cell>
 					<cell right="minor" halign="center">34</cell>
 					<cell right="minor" halign="center">37</cell>
-					<cell right="minor" halign="center"></cell>
-					<cell right="minor" halign="center"></cell>
 				</row>
 				<row left="minor" class="even">
 					<cell right="minor" halign="center"><m>C</m></cell>
@@ -743,8 +733,6 @@
 					<cell right="minor" halign="center">13.4</cell>
 					<cell right="minor" halign="center">12.9</cell>
 					<cell right="minor" halign="center">13.3</cell>
-					<cell right="minor" halign="center"></cell>
-					<cell right="minor" halign="center"></cell>
 				</row>
 				<row left="minor" class="odd">
 					<cell right="minor" halign="center"><m>B</m></cell>
@@ -756,8 +744,6 @@
 					<cell right="minor" halign="center">12.7</cell>
 					<cell right="minor" halign="center">12.2</cell>
 					<cell right="minor" halign="center">11.4</cell>
-					<cell right="minor" halign="center"></cell>
-					<cell right="minor" halign="center"></cell>
 				</row>
 			</tabular>
 		</introduction>	

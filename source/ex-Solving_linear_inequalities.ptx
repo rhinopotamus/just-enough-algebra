@@ -269,7 +269,10 @@
 		<task>
 			<statement>
 				<p>
-					Evaluate the equation at the appropriate values to check that <m>0^\circ</m>C<m>=32^\circ</m>F, <m>20^\circ</m>C<m>=68^\circ</m>F, and <m>37^\circ</m>C<m>=98.6^\circ</m>F.
+					Evaluate the equation at the appropriate values to check that 
+					0<degree/>C = 32<degree/>F, 
+					20<degree/>C = 68<degree/>F, and 
+					37<degree/>C = 98.6<degree/>F.
 				</p>
 			</statement>
 		</task>
@@ -277,7 +280,7 @@
 		<task>
 			<statement>
 				<p>
-					Set up and solve an equation to find the Celsius equivalent of brownie-baking temperature (<m>350^\circ</m>F).
+					Set up and solve an equation to find the Celsius equivalent of brownie-baking temperature (350<degree/>F).
 				</p>
 			</statement>
 		</task>
@@ -310,7 +313,7 @@
 	<exercise xml:id="credit-line-linear-ineq" component="not-workbook">
 		<introduction>
 			<p>
-				After borrowing some money through a line of credit on my bank account, I started paying off the interest plus $250 a month. Even once the loan is paid off I plan to continue to deposit $250 each month to start savins. That means my balance is given by the equation <me>A = 250M- 2{,}189.57</me> where <m>M</m> is the number of months since the loan and <m>A</m> is the account balance, in dollars. 
+				After borrowing some money through a line of credit on my bank account, I started paying off the interest plus $250 a month. Even once the loan is paid off I plan to continue to deposit $250 each month to start saving. That means my balance is given by the equation <me>A = 250M- 2{,}189.57</me> where <m>M</m> is the number of months since the loan and <m>A</m> is the account balance, in dollars. 
 			</p>
 			<p>
 				<em>(Story also appears in <xref ref="credit-line-first-look-linear"/>)</em>

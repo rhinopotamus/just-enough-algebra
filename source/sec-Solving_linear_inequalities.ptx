@@ -6,37 +6,34 @@
 	<title component="workbook">Solving linear inequalities - Practice exercises</title>
 	<introduction component="not-workbook">
 		<p>
-			In the United States temperatures for everyday things like the weather or cooking are given in Fahrenheit, denoted <degree />F. In this system, water freezes into ice at <m>32^\circ</m>F and boils into steam at <m>212^\circ</m>F. A common setting for room temperature is <m>68^\circ</m>F whereas average human body temperature is around <m>98.6^\circ</m>F. And, most importantly, chocolate brownies bake at <m>350^\circ</m>F.
+			In the United States temperatures for everyday things like the weather or cooking are given in Fahrenheit, denoted <degree />F. In this system, water freezes into ice at 32<degree />F and boils into steam at 212<degree />F. A common setting for room temperature is 68<degree />F whereas average human body temperature is around 98.6<degree />F. And, most importantly, chocolate brownies bake at 350<degree />F.
 		</p>
 
 		<p>
-			In the sciences, medicine, and most other countries, temperatures are measured in Celsius, denoted <degree />C. (For those of us who grew up in the 1960s or earlier, <q>Celsius</q> is the temperature scale formerly known as <q>centigrade.</q>) For comparison's sake, it's useful to know that water freezes at <m>0^\circ</m>C and boils at <m>100^\circ</m>C. Not coincidentally - it was set up that way. Room temperature is <m>20^\circ</m>C whereas now average human body temperature is <m>37^\circ</m>C. And those brownies?
+			In the sciences, medicine, and most other countries, temperatures are measured in Celsius, denoted <degree />C. (For those of us who grew up in the 1960s or earlier, <q>Celsius</q> is the temperature scale formerly known as <q>centigrade.</q>) For comparison's sake, it's useful to know that water freezes at 0<degree />C and boils at 100<degree />C. Not coincidentally - it was set up that way. Room temperature is 20<degree />C whereas now average human body temperature is 37<degree />C. And those brownies?
 		</p>
 
 		<p>
 			A common conversion is given by the equation <me>F = 1.8C+32</me> where
+			<md>
+				<mrow>F \amp= \text{ Fahrenheit temperature (}^\circ \text{F) } \sim \text{ dep} </mrow>
+				<mrow>C \amp= \text{ Celsius temperature (}^\circ \text{C) } \sim \text{ indep} </mrow>
+			</md>
 		</p>
-
-
-		<tabular>
-			<row class="odd">
-				<cell halign="left"><m>F=</m> Fahrenheit temperature (<degree />F) <m>\sim</m> dep</cell>
-			</row>
-			<row class="even">
-				<cell halign="left"><m>C=</m> Celsius temperature (<degree />C) <m>\sim</m> indep</cell>
-			</row>
-		</tabular>
 
 		<p>
 			You may have seen this equation before with fractions in it: <m>F = \frac{9}{5}C + 32</m>. Just another way to write the equation, since <m>\frac{9}{5} = 9 \div 5 = 1.8</m>. For example, when <m>C=100</m> we have <me>F= 1.8 \ast 100 + 32 =1.8 \times \underline{100}+32= 212 \quad \checkmark</me> You can (and should check) the other examples in our story.
 		</p>
 
 		<p>
-			What about those chocolate brownies? We are looking for <m>F=350</m>. That's the dependent variable, so you can practice your linear equation solving skills to find the independent variable, <m>C</m>. It turns out that chocolate brownies bake at around <m>177^\circ C</m>.
+			What about those chocolate brownies? We are looking for <m>F=350</m>. That's the dependent variable, so you can practice your linear equation solving skills to find the independent variable, <m>C</m>. It turns out that chocolate brownies bake at around 177<degree />C.
 		</p>
 
 		<p>
-			But, actually, chocolate brownies just need to bake in a <term>moderate oven</term>, which means between <m>325^\circ F</m> and <m>375^\circ F</m>. Let's first figure out when the oven temperature is under <m>375^\circ F</m>. We want to know when <me>F \le 375</me> so we have an inequality instead of an equation. Remember <m>\le</m> stands for <term>less than or equal to</term>. Using <m>F=1.8C+32</m> we get <me>1.8C+32 \le 375</me> We're looking for values of <m>C</m> that make the left-hand side a number that's smaller than, or maybe as large as, 375, but no larger. Quick vocabulary: equations have equal signs (=). When we have inequality signs (<m>\le</m>, <m>\ge</m>, <m>\gt</m>, or <m>\lt</m>), it's called an <term>inequality</term> instead.
+			But, actually, chocolate brownies just need to bake in a <term>moderate oven</term>, which means between 325<degree/>F and 375<degree/>F. Let's first figure out when the oven temperature is under 375<degree/>F. We want to know when <me>F \le 375</me> so we have an inequality instead of an equation. Remember <m>\le</m> stands for <term>less than or equal to</term>. Using <m>F=1.8C+32</m> we get <me>1.8C+32 \le 375</me> We're looking for values of <m>C</m> that make the left-hand side a number that's smaller than, or maybe as large as, 375, but no larger. 
+		</p>
+		<p>
+			Quick vocabulary: equations have equal signs (=). When we have inequality signs (<m>\le</m>, <m>\ge</m>, <m>\gt</m>, or <m>\lt</m>), it's called an <term>inequality</term> instead.
 		</p>
 
 		<p>
@@ -56,7 +53,7 @@
 		</p>
 
 		<p>
-			Back to our example. We had <m>1.8C\le343</m>. Divide each side by 1.8 to get <me>\frac{\cancel{1.8}C}{\cancel{1.8} }\le \frac{343}{1.8}</me> which simplifies to <me>C\le \frac{343}{1.8}= 343 \div 1.8 = 190.555555\ldots \approx 190^\circ C</me> The oven should be set at most <m>190^\circ C</m>. We rounded down because we do not want the brownies to burn.
+			Back to our example. We had <m>1.8C\le343</m>. Divide each side by 1.8 to get <me>\frac{\cancel{1.8}C}{\cancel{1.8} }\le \frac{343}{1.8}</me> which simplifies to <me>C\le \frac{343}{1.8}= 343 \div 1.8 = 190.555555\ldots \approx 190^\circ C</me> The oven should be set at most 190<degree/>C. We rounded down because we do not want the brownies to burn.
 		</p>
 
 		<p>
@@ -76,11 +73,11 @@
 		</p>
 
 		<p>
-			Remember that the recipe for chocolate brownies says to bake in a moderate oven, between <m>325^\circ F</m> and <m>375^\circ F</m>. We just figured out that <m>F \le 375</m> corresponds to <m>C \le 190</m>. But that's only half of the story. We also wanted <m>F \ge 325</m>. While we could solve that inequality separately, it turns out there's an easier way.
+			Remember that the recipe for chocolate brownies says to bake in a moderate oven, between 325<degree/>F and 375<degree/>F. We just figured out that <m>F \le 375</m> corresponds to <m>C \le 190</m>. But that's only half of the story. We also wanted <m>F \ge 325</m>. While we could solve that inequality separately, it turns out there's an easier way.
 		</p>
 
 		<p>
-			Inequalities are a very useful notation for indicating <q>between</q>. We want between <m>325^\circ F</m> and <m>375^\circ F</m> to bake the brownies. We can write <me>325 \le F \le 375</me> which is read
+			Inequalities are a very useful notation for indicating <q>between</q>. We want between 325<degree/>F and 375<degree/>F to bake the brownies. We can write <me>325 \le F \le 375</me> which is read
 		</p>
 
 
@@ -112,7 +109,7 @@
 				\dfrac{343}{1.8}
 			</me>
 			
-			which simplifies to <me>293\div 1.8 \le C \le 343 \div 1.8</me> so, <me>162.777777\ldots \le C \le 190.555555\ldots</me> Probably best to say <me>163 \le C \le 190</me> Chocolate brownies bake between <m>163^\circ C</m> and <m>190^\circ C</m>. Oven actually aren't that precise, so somewhere between <m>170^\circ C</m> and <m>190^\circ C</m> should do the job.
+			which simplifies to <me>293\div 1.8 \le C \le 343 \div 1.8</me> so, <me>162.777777\ldots \le C \le 190.555555\ldots</me> Probably best to say <me>163 \le C \le 190</me> Chocolate brownies bake between 163<degree/>C and 190<degree/>C. Ovens actually aren't that precise, so somewhere between 170<degree/>C and 190<degree/>C should do the job.
 		</p>
 
 		<p>

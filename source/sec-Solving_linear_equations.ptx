@@ -11,17 +11,11 @@
 
 		<p>
 			Remember our plumber charged $100 for just showing up and then $75 per hour for the service. Using the variables
+			<md>
+				<mrow> T \amp= \text{ time plumber takes (hours) } \sim \text{ indep}</mrow>
+				<mrow>P \amp= \text{ total plumber's charge (\$) } \sim \text{ dep}</mrow>
+			</md>
 		</p>
-
-
-		<tabular>
-			<row class="odd">
-				<cell halign="left"><m>T=</m> time plumber takes (hours) <m>\sim</m> indep</cell>
-			</row>
-			<row class="even">
-				<cell halign="left"><m>P=</m> total plumber's charge ($) <m>\sim</m> dep</cell>
-			</row>
-		</tabular>
 
 		<p>
 			we found that the equation was <me>P=100+75T</me>

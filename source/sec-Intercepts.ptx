@@ -6,7 +6,11 @@
 	<title component="workbook">Intercepts and direct proportionality - Practice exercises</title>
 	<introduction component="not-workbook">
 		<p>
-			Kaleb runs 8 minute miles, which means it takes him around 8.5 minutes to run each mile. Yesterday he was out for about 30 minutes and ran the 2.8 mile loop by our house. That strikes me as curious because if he ran 2.8 miles at <m>8.5</m> minutes per mile that should take <me>\frac{8.5 \text{ minutes}}{\text{mile}} \ast 2.8 \text{ miles} = 8.5 \times 2.8 = 23.8 \approx 24 \text{ minutes}</me> But Kaleb took 30 minutes. That's 6 minutes longer than expected. Well, technically 6.2 minutes since <me>30 - 23.8 = 6.2 \approx 6 \text{ minutes}</me> but let's work with 6 since the 30 was only approximate to begin with.
+			Kaleb runs <m>8 \tfrac12</m> minute miles, which means it takes him around 8.5 minutes to run each mile. Yesterday he was out for about 30 minutes and ran the 2.8 mile loop by our house. That strikes me as curious because if he ran 2.8 miles at 8.5 minutes per mile that should take 
+			<me>
+				\frac{8.5 \text{ minutes}}{\text{mile}} \ast 2.8 \text{ miles} = 8.5 \times 2.8 = 23.8 \approx 24 \text{ minutes}
+			</me> 
+			But Kaleb took 30 minutes. That's 6 minutes longer than expected. Well, technically 6.2 minutes since <me>30 - 23.8 = 6.2 \approx 6 \text{ minutes}</me> but let's work with 6 since the 30 was only approximate to begin with.
 		</p>
 
 		<p>
@@ -15,24 +19,17 @@
 
 		<p>
 			Since Kaleb's total time is function of how far he runs, our variables are
-		</p>
-
-
-		<tabular>
-			<row class="odd">
-				<cell halign="left"><m>T=</m> total time (minutes) <m>\sim</m> dep</cell>
-			</row>
-			<row class="even">
-				<cell halign="left"><m>D =</m> distance (miles) <m>\sim</m> indep</cell>
-			</row>
-		</tabular>
-
-		<p>
-			Notice that we are determining how the time depends on the distance, so the time <m>T</m> is our dependent variable. Often time is the independent variable, but not so here.
+			<md>
+				<mrow>T \amp= \text{ total time (minutes) } \sim \text{ dep} </mrow>
+				<mrow>D \amp= \text{ distance (miles) } \sim \text{ indep} </mrow>
+			</md>
+			Notice that we are determining how the time Kaleb spends running depends on the distance he runs, so the time <m>T</m> is our dependent variable. Often time is the independent variable, but not so here.
 		</p>
 
 		<p>
-			For the sake of this problem, we assume Kaleb runs a steady 8.5 minutes per mile so the rate of change is constant. The equation must be linear and so it fits the template <me>\text{dep }=\text{ start } + \text{slope} \ast {\text{indep}}</me> The slope is 8.5 minutes per mile. The 6 minutes Kaleb spends stretching is the intercept, even though it's named <q>start</q> in the template and Kaleb is actually stretching at the end of his run. A better name might be <q>fixed.</q> Whatever you call it, the equation is <me>\textbf{Kaleb:}\quad  T = 6 + 8.5D</me> As a quick check, for that 2.8 mile run we have <m>D=2.8</m> and so <me>T = 6 + 8.5 \ast 2.8 = 6 + 8.5 \times \underline{2.8} = 29.8 \approx 30 \text{ minutes}</me>
+			For the sake of this problem, we assume Kaleb runs a steady 8.5 minutes per mile so the rate of change is constant. The equation must be linear and so it fits the template <me>\text{dep }=\text{ start } + \text{slope} \ast {\text{indep}}</me> The slope is 8.5 minutes per mile. The 6 minutes Kaleb spends stretching is the intercept, even though it's named <q>start</q> in the template and Kaleb is actually stretching at the end of his run. A better name might be <q>fixed.</q> Whatever you call it, the equation is 
+			<me>\textbf{Kaleb:}\quad  T = 6 + 8.5D</me> 
+			As a quick check, for that 2.8 mile run we have <m>D=2.8</m> and so <me>T = 6 + 8.5 \ast 2.8 = 6 + 8.5 \times \underline{2.8} = 29.8 \approx 30 \text{ minutes}</me>
 		</p>
 
 		<p>
@@ -81,7 +78,7 @@
 		</assemblage>
 
 		<p>
-			To understand the proportionality, recall that Muna can run 2.8 miles in 19.6 minutes. What happens if she goes for a run twice as long? Then she would be running <m>2 \times 2.8 = 5.6</m> miles. Her time would be <me>T = 7 \ast 5.6 = 7 \times \underline{5.6} = 39.2 \text{ minutes}</me> Notice that <m>2 \times 19.6 = 39.2</m>. So, it would take her twice the time to run twice the distance. This general idea - that you get twice the value of the dependent variable if you have twice the value of the independent variable - characterizes direct proportions. We sometimes say that Muna's time is <term>proportional</term> to how far she runs. Nothing special about twice here, as it would take her three times the time to run three times the distance, etc.
+			To understand what <q>proportionality</q> means, recall that Muna can run 2.8 miles in 19.6 minutes. What happens if she goes for a run twice as long? Then she would be running <m>2 \times 2.8 = 5.6</m> miles. Her time would be <me>T = 7 \ast 5.6 = 7 \times \underline{5.6} = 39.2 \text{ minutes}</me> Notice that <m>2 \times 19.6 = 39.2</m>. So, it would take her twice the time to run twice the distance. This general idea - that you get twice the value of the dependent variable if you have twice the value of the independent variable - characterizes direct proportions. We sometimes say that Muna's time is <term>proportional</term> to how far she runs. Nothing special about twice here, as it would take her three times the time to run three times the distance, etc.
 		</p>
 
 		<p>

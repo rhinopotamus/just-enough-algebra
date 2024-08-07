@@ -17,17 +17,11 @@
 
 		<p>
 			In our city there are about 64,100 apartments considered affordable. So the city partnered with local developers to build 7,800 more apartments each year. Our variables are
+			<md>
+				<mrow>A \amp= \text{ affordable housing (apartments) } \sim \text{ dep} </mrow>
+				<mrow>Y \amp= \text{ time (years from now) } \sim \text{ indep} </mrow>
+			</md>
 		</p>
-
-
-		<tabular>
-			<row class="odd">
-				<cell halign="left"><m>A=</m> affordable housing (apartments) <m>\sim</m> dep</cell>
-			</row>
-			<row class="even">
-				<cell halign="left"><m>Y=</m> time (years from now) <m>\sim</m> indep</cell>
-			</row>
-		</tabular>
 
 		<p>
 			Assuming things proceed as planned, after 5 years there would be 
@@ -46,7 +40,7 @@
 		</p>
 
 		<p>
-			Quick recap. A function is <term>linear</term> if its graph is a line, and <term>nonlinear</term> otherwise. The rate of change measures the steepness of the graph for any function, but a line is the same steepness everywhere, so the rate of change, or <term>slope</term> of a line is constant. Our example is linear because the slope of apartments per year is constant. Our starting or fixed amount is the <term>intercept</term>. In our example it's apartments. The dependent variable and the intercept always have the same units - apartments in our example. But <me>\text{units for slope} =\frac{\text{units for dep}}{\text{units for indep}}</me> so, in our example slope is measured in apartments <em>per year</em>. These units can help you identify the slope and intercept in a story - so keep a look out.
+			Quick recap. A function is <term>linear</term> if its graph is a straight line, and <term>nonlinear</term> otherwise. The rate of change measures the steepness of the graph for any function, but a straight line is the same steepness everywhere, so the rate of change, or <term>slope</term> of a line is constant. Our example is linear because the slope of apartments per year is constant. Our starting or fixed amount is the <term>intercept</term>. In our example it's apartments. The dependent variable and the intercept always have the same units - apartments in our example. But <me>\text{units for slope} =\frac{\text{units for dep}}{\text{units for indep}}</me> so, in our example slope is measured in apartments <em>per year</em>. These units can help you identify the slope and intercept in a story - so keep a look out.
 		</p>
 
 		<p>
@@ -91,11 +85,18 @@
 			Subtract from each side to get 
 			<me>
 				\begin{array}{lcr}
-				\phantom{-}\cancel{64{,}100} + 7{,}800 Y \amp = \amp 150{,}000 \\
+				\phantom{-}\cancel{64{,}100} + 7{,}800 Y \amp \geq \amp 150{,}000 \\
 				-\cancel{64{,}100} \amp \amp -64{,}100
 				\end{array}
 			</me>
-			which simplifies to <me>7{,}800Y\ge 85{,}900</me> Divide each side by to get <me>\frac{\cancel{7{,}800}~Y}{\cancel{7{,}800}} \ge \frac{85{,}900}{7{,}800}</me> which simplifies to <me>Y \ge   \frac{85{,}900}{7{,}800} = 85{,}900 \div 7{,}800 = 11.0128205\ldots</me> To be sure <m>Y \ge 11.0128205\ldots</m> we need to round up to get <me>Y \ge 12</me>
+			which simplifies to <me>7{,}800Y\ge 85{,}900</me> 
+			Divide each side by 7,800 to get 
+			<me>
+				\frac{\cancel{7{,}800}~Y}{\cancel{7{,}800}} \ge \frac{85{,}900}{7{,}800}
+			</me> 
+			which simplifies to 
+			<me>Y \ge   \frac{85{,}900}{7{,}800} = 85{,}900 \div 7{,}800 = 11.0128205\ldots</me> 
+			To be sure <m>Y \ge 11.0128205\ldots</m> we need to round up to get <me>Y \ge 12</me>
 		</p>
 
 		<p>
@@ -108,7 +109,7 @@
 		</p>
 
 		<p>
-			As expected, the graph is a line. And we see that the city should reach its goal of 150,000 affordable apartments in 12 years, or slightly before then.
+			As expected, the graph is a straight line. And we see that the city should reach its goal of 150,000 affordable apartments in 12 years, or slightly before then.
 		</p>
 	</introduction>
 	

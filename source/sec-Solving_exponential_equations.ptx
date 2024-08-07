@@ -7,19 +7,10 @@
 	<introduction component="not-workbook">
 		<p>
 			Remember Jocelyn? She was asked to analyze information on rising health care costs. In 2007 the United States spent $2.26 trillion on health care and costs were projected to increase at an average of 6.7% annually for the subsequent decade. For the variables
-		</p>
-
-
-		<tabular>
-			<row class="odd">
-				<cell halign="left"><m>H=</m> health care costs ($ trillions) <m>\sim</m> dep</cell>
-			</row>
-			<row class="even">
-				<cell halign="left"><m>Y=</m> time (years since 2007) <m>\sim</m> indep</cell>
-			</row>
-		</tabular>
-
-		<p>
+			<md>
+				<mrow>H \amp= \text{ health care costs (\$ trillions) } \sim \text{ dep} </mrow>
+				<mrow>Y \amp= \text{ time (years since 2007) } \sim \text{ indep} </mrow>
+			</md>
 			she found the exponential equation <me>H = 2.26\ast 1.067^{Y}</me>
 		</p>
 
@@ -125,7 +116,7 @@
 		</assemblage>
 
 		<p>
-			Quick aside about the name. Some formulas have well-known names. Not this one. We call it the <q>Log-Divides Formula</q> because it has logs and divides in it. Perhaps you already guessed that. Other math books do not have an name for this formula, although it is related to something called the <q>change of base formula</q>.
+			Quick aside about the name. Some formulas have well-known names. Not this one. We call it the <q>Log-Divides Formula</q> because it has logs and divides in it. Perhaps you already guessed that. Other math books do not have a name for this formula, although it is related to something called the <q>change of base formula</q>.
 		</p>
 
 		<p>
@@ -136,7 +127,7 @@
 				<mrow>  \amp = \log (1.327433628\ldots) \div \log (1.067) </mrow>
 				<mrow>  \amp = 4.367667365 \approx  4.37 </mrow>
 			</md> 
-			Your calculator should have a key that says <q>log</q> or maybe <q>LOG</q>. Try typing <me>\log( 1.327433628) \div \log (1.067) = 4.367667365 \approx 4.37</me> A small note here about parentheses. Some calculators give the first parenthesis for free when you type log but you have to type the closing parenthesis in yourself.
+			Your calculator should have a key that says <kbd>log</kbd> or maybe <kbd>LOG</kbd>. Try typing <me>\log( 1.327433628) \div \log (1.067) = 4.367667365 \approx 4.37</me> A small note here about parentheses. Some calculators give the first parenthesis for free when you type <kbd>log</kbd> but you have to type the closing parenthesis in yourself.
 		</p>
 
 		<p>
@@ -155,7 +146,7 @@
 		</p>
 
 		<p>
-			Again that means 23 years after 2007, or 2007 + 23 = 2030. Health care costs are projected to exceed $10 million in the year 2030. Well, unless we do something about that. (Helps explain why government folks are often discussing how to contain health care costs.)
+			Again that means 23 years after 2007, or 2007 + 23 = 2030. Health care costs are projected to exceed $10 trillion in the year 2030. Well, unless we do something about that. (Helps explain why government folks are often discussing how to contain health care costs.)
 		</p>
 
 		<p>
@@ -202,28 +193,23 @@
 
 		<p>
 			Before we write down a general rule, let's check more numbers.
-		</p>
-
-
-		<tabular>
-			<row class="odd">
-				<cell halign="left"><m>7{,}420{,}000 =7.42 \times 10^6</m></cell>
-				<cell halign="center">and</cell>
-				<cell halign="left"><m>\log(7{,}420{,}000)=6.870403905\ldots \approx 6</m></cell>
-			</row>
-			<row class="even">
-				<cell halign="left"><m>4 = 4 \times 10^0</m></cell>
-				<cell halign="center">and</cell>
-				<cell halign="left"><m>\log ({4})=0.602059991\ldots \approx 0</m></cell>
-			</row>
-			<row class="odd">
-				<cell halign="left"><m>0.00917 = 9.17 \times 10^{-3}</m></cell>
-				<cell halign="center">and</cell>
-				<cell halign="left"><m>\log ({0.00917})=-2.037630664\ldots \approx -3</m></cell>
-			</row>
-		</tabular>
-
-		<p>
+			<md>
+				<mrow>
+					7{,}420{,}000 \amp= 7.42 \times 10^6 \amp 
+					\amp \text{ and } \amp
+					\log(7{,}420{,}000) \amp=6.870403905\ldots \approx 6
+				</mrow>
+				<mrow>
+					4 \amp= 4\times 10^0 \amp 
+					\amp \text{ and } \amp
+					\log(4) \amp= 0.602059991\ldots \approx 0
+				</mrow>
+				<mrow>
+					0.00917 \amp= 9.17\times 10^{-3} \amp 
+					\amp \text{ and } \amp
+					\log(0.00917) \amp= -2.037630664\ldots \approx -3
+				</mrow>
+			</md>
 			In every case we are rounding down, but it's always the same.
 		</p>
 

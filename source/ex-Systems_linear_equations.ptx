@@ -340,14 +340,14 @@
 				Just when Quia Xun thought she had things figured out, another possible option emerged. She can outsource her lock production to a different plant at the cost of $1.55 per lock. While that's more expensive per lock, it avoids having to buy a machine at all. Recall her first two options were
 			</p>
 
-			<tabular bottom="minor" top="minor">
-				<row left="minor" class="odd">
-					<cell right="minor" halign="left"><term>Machine #1:</term></cell>
-					<cell right="minor" halign="left"><m>E  =3{,}200 + 1.25 L</m></cell>
+			<tabular>
+				<row class="odd">
+					<cell halign="left"><term>Machine #1:</term></cell>
+					<cell halign="left"><m>E  =3{,}200 + 1.25 L</m></cell>
 				</row>
-				<row left="minor" class="even">
-					<cell right="minor" halign="left"><term>Machine #2:</term></cell>
-					<cell right="minor" halign="left"><m>E  =5{,}400 + 0.80 L</m></cell>
+				<row class="even">
+					<cell halign="left"><term>Machine #2:</term></cell>
+					<cell halign="left"><m>E  =5{,}400 + 0.80 L</m></cell>
 				</row>
 			</tabular>
 			
@@ -390,10 +390,7 @@
 			<statement>
 				<p>
 					Name the variables and write an equation for each option: rag versus mop.
-				</p>
-					
-				<p>
-					<em>Hint: time is the dependent variable</em>
+					<em>Hint: time is the dependent variable.</em>
 				</p>
 			</statement>
 		</task>
@@ -475,14 +472,14 @@
 			</p>
 			
 	
-			<tabular bottom="minor" top="minor">
-				<row left="minor" class="odd">
-					<cell right="minor" halign="left"><term>Pay as-you-go:</term></cell>
-					<cell right="minor" halign="left"><m>T = 20 + 15E</m></cell>
+			<tabular>
+				<row class="odd">
+					<cell halign="left"><term>Pay as-you-go:</term></cell>
+					<cell halign="left"><m>T = 20 + 15E</m></cell>
 				</row>
-				<row left="minor" class="even">
-					<cell right="minor" halign="left"><term>Member:</term></cell>
-					<cell right="minor" halign="left"><m>T= 150 + 10E</m></cell>
+				<row class="even">
+					<cell halign="left"><term>Member:</term></cell>
+					<cell halign="left"><m>T= 150 + 10E</m></cell>
 				</row>
 			</tabular>
 		</introduction>	
@@ -513,7 +510,7 @@
 		<task>
 			<statement>
 				<p>
-					Set up and solve a system of linear equations to determine the exact break even point
+					Set up and solve a system of linear equations to determine the exact break even point.
 				</p>
 			</statement>
 		</task>
@@ -534,14 +531,14 @@
 			</p>
 			
 	
-			<tabular bottom="minor" top="minor">
-				<row left="minor" class="odd">
-					<cell right="minor" halign="left"><term>Supply:</term></cell>
-					<cell right="minor" halign="left"><m>S = 1.5P+6</m></cell>
+			<tabular>
+				<row class="odd">
+					<cell halign="left"><term>Supply:</term></cell>
+					<cell halign="left"><m>S = 1.5P+6</m></cell>
 				</row>
-				<row left="minor" class="even">
-					<cell right="minor" halign="left"><term>Demand:</term></cell>
-					<cell right="minor" halign="left"><m>D= 11 - 0.9P</m></cell>
+				<row class="even">
+					<cell halign="left"><term>Demand:</term></cell>
+					<cell halign="left"><m>D= 11 - 0.9P</m></cell>
 				</row>
 			</tabular>
 			
@@ -581,14 +578,14 @@
 			</p>
 			
 	
-			<tabular bottom="minor" top="minor">
-				<row left="minor" class="odd">
-					<cell right="minor" halign="left"><term>Solar:</term></cell>
-					<cell right="minor" halign="left"><m>T  =30{,}000 + 150Y</m></cell>
+			<tabular>
+				<row class="odd">
+					<cell halign="left"><term>Solar:</term></cell>
+					<cell halign="left"><m>T  =30{,}000 + 150Y</m></cell>
 				</row>
-				<row left="minor" class="even">
-					<cell right="minor" halign="left"><term>Gas:</term></cell>
-					<cell right="minor" halign="left"><m>T  = 12{,}000 + 700Y</m></cell>
+				<row class="even">
+					<cell halign="left"><term>Gas:</term></cell>
+					<cell halign="left"><m>T  = 12{,}000 + 700Y</m></cell>
 				</row>
 			</tabular>
 			
@@ -615,7 +612,7 @@
 		<task>
 			<statement>
 				<p>
-					How high a rebate would the state have to offer to insure a payback time of 15 years? <em>Hint: compare the costs of gas and solar heating systems at 15 years.</em>
+					How high a rebate would the state have to offer to ensure a payback time of 15 years? <em>Hint: compare the costs of gas and solar heating systems at 15 years.</em>
 				</p>
 			</statement>
 		</task>

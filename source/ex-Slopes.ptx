@@ -253,7 +253,7 @@
 		<task>
 			<statement>
 				<p>
-					But, at the office we pay a delivery charge. Compare the cost of having just one case delivered versus my buying one case at the store. Recall that the office pays $15 delivery fee and $39.99 per case.
+					But, at the office we pay a delivery charge. Compare the cost of having just one case delivered versus me buying one case at the store. Recall that the office pays $15 delivery fee and $39.99 per case.
 				</p>
 			</statement>
 		</task>
@@ -261,7 +261,7 @@
 		<task>
 			<statement>
 				<p>
-					Write new equation for paper cost assuming I pick it up at the store. Use <m>N</m> for the number of cases of paper and <m>C</m> is the total cost, in dollars. <em>Hint: this equation is a direct proportionality.</em>
+					Write a new equation for paper cost assuming I pick it up at the store. Use <m>N</m> for the number of cases of paper and <m>C</m> is the total cost, in dollars. <em>Hint: this equation is a direct proportionality.</em>
 				</p>
 			</statement>
 		</task>
@@ -269,7 +269,7 @@
 		<task>
 			<statement>
 				<p>
-					Compare total cost if get 4 cases either delivered or from store. Repeat 13 cases. Recall that the equation for delivered paper is <m>C=15+39.99N</m>.
+					Compare total cost if we get 4 cases either delivered or from the store. Repeat for 13 cases. Recall that the equation for delivered paper is <m>C=15+39.99N</m>.
 				</p>
 			</statement>
 		</task>
@@ -309,7 +309,7 @@
 		<task>
 			<statement>
 				<p>
-					Assume the amount of garbage increases linearly, by how much has garbage increased each year?
+					Assuming the amount of garbage increases linearly, by how much has garbage increased each year?
 				</p>
 			</statement>
 		</task>
@@ -350,7 +350,7 @@
 	<exercise xml:id="pension-slopes" component="not-workbook">
 		<introduction>
 			<p>
-				Now that he is retired, Elmer gets a pension check from the Railroad Company each month. There's a set amount he gets each month but the company deducts a fixed percentage of whatever outside income he earns. Elmer works part-time at the local hardware store. In February he earned $444.10 at the hardware store and his pension check that month was $886.23. In March he worked much less, earning only $179.30 at the hardware store; his pension check that month was $912.71
+				Now that he is retired, Elmer gets a pension check from the Railroad Company each month. There's a set amount he gets each month but the company deducts a fixed percentage of whatever outside income he earns. Elmer works part-time at the local hardware store. In February he earned $444.10 at the hardware store and his pension check that month was $886.23. In March he worked much less, earning only $179.30 at the hardware store; his pension check that month was $912.71.
 			</p>
 		</introduction>	
 		<task>

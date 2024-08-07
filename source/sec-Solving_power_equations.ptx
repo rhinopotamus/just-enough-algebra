@@ -7,17 +7,11 @@
 	<introduction component="not-workbook">
 		<p>
 			There's an old saying - <q>when life gives you lemons, make lemonade.</q> But how many lemons do you need? It turns out a reasonable equation describing the juice from a single lemon is given by <me>J = 0.0056C^3</me> where
+			<md>
+				<mrow>J \amp= \text{ juice (tablespoons) } \sim \text{ dep} </mrow>
+				<mrow>C \amp= \text{ circumference (inches) } \sim \text{ indep} </mrow>
+			</md>
 		</p>
-
-
-		<tabular>
-			<row class="odd">
-				<cell halign="left"><m>J=</m> juice (tablespoons) <m>\sim</m> dep</cell>
-			</row>
-			<row class="even">
-				<cell halign="left"><m>C=</m> circumference (inches) <m>\sim</m> indep</cell>
-			</row>
-		</tabular>
 
 		<p>
 			In case you've forgotten, the <term>circumference</term> is the distance <em>around</em> the lemon. Think of taking wrapping a piece of string around the middle part of the lemon. Then stretch it out on a ruler to see how long it is.
@@ -59,17 +53,11 @@
 
 		<p>
 			Now, what goes better with lemonade than lemon cheesecake? For that we need lemon zest. <term>Zest</term> is what you get when you grate the lemon peel in long skinny strips. As with juice, the amount of lemon zest depends on the size of the lemon. Our variables are
+			<md>
+				<mrow>Z \amp= \text{ amount of lemon zest (tablespoons) } \sim \text{ dep} </mrow>
+				<mrow>C \amp= \text{ circumference (inches) } \sim \text{ indep} </mrow>
+			</md>
 		</p>
-
-
-		<tabular>
-			<row class="odd">
-				<cell halign="left"><m>Z=</m> amount of lemon zest (tablespoons) <m>\sim</m> dep</cell>
-			</row>
-			<row class="even">
-				<cell halign="left"><m>C=</m> circumference (inches) <m>\sim</m> indep <em>as before</em></cell>
-			</row>
-		</tabular>
 
 		<p>
 			and an equation is <me>Z=0.018C^2</me> We have another power equation, this time with power <m>n=2</m> and proportionality constant <m>k=0.018</m>.
@@ -143,11 +131,11 @@
 		</p>
 
 		<p>
-			The same idea works for higher powers. Like <me>10^3 =10 \times 10 \times 10 = 1{,}000</me> That's really <me>10^3 = 10 \wedge 3 = 1{,}000</me> and we say 10 <term>cubed</term> is . The <term>cube root</term> of a number is whatever number you would cube to get that number. So, for example, <m>\sqrt[3]{1{,}000} = 10</m>. Many calculators have a special root key that looks like <m>\sqrt[x]{~\text{  }}</m>. That <m>x</m> looks similar to multiplication (<m>\times</m>), but it isn't. The <m>x</m> is like a placeholder for the real root you want - for a cube root <m>x</m> is just 3.
+			The same idea works for higher powers. Like <me>10^3 =10 \times 10 \times 10 = 1{,}000</me> That's really <me>10^3 = 10 \wedge 3 = 1{,}000</me> and we say 10 <term>cubed</term> is 1,000. The <term>cube root</term> of a number is whatever number you would cube to get that number. So, for example, <m>\sqrt[3]{1{,}000} = 10</m>. Many calculators have a special root key that looks like <m>\sqrt[x]{~\text{  }}</m>. That <m>x</m> looks similar to multiplication (<m>\times</m>), but it isn't. The <m>x</m> is like a placeholder for the real root you want - for a cube root <m>x</m> is just 3.
 		</p>
 
 		<p>
-			Here's how to use that root key. First you type in the root you want (3), second you use that key (<m>\sqrt[x]{~\text{  }}</m>), and last you type in the number you're taking the root of () like this <me>\sqrt[3]{1{,}000} = 3\sqrt[x]{~\text{  }}1{,}000= 10</me> Like with squareroots, your calculator might introduce a parenthesis, or you might do a slightly different order. You might have to use a shift or second key to get to the root key. On many graphing calculators the <m>\sqrt[x]{~\text{  }}</m> key is one of the MATH functions, so you have to type something like MATH 5 to get it. Again, ask if you need help figuring it out.
+			Here's how to use that root key. First you type in the root you want (3), second you use that key (<m>\sqrt[x]{~\text{  }}</m>), and last you type in the number you're taking the root of (1,000) like this <me>\sqrt[3]{1{,}000} = 3\sqrt[x]{~\text{  }}1{,}000= 10</me> Like with squareroots, your calculator might introduce a parenthesis, or you might do a slightly different order. You might have to use a shift or second key to get to the root key. On many graphing calculators the <m>\sqrt[x]{~\text{  }}</m> key is one of the MATH functions, so you have to type something like MATH 5 to get it. Again, ask if you need help figuring it out.
 		</p>
 
 		<p>

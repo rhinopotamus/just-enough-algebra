@@ -15,20 +15,11 @@
 
 		<p>
 			Since Quia Xun is interested in how the total expenditure, including both the purchase price and the running cost, depend on the number of locks produced, the variables are
-		</p>
-
-
-		<tabular>
-			<row class="odd">
-				<cell halign="left"><m>L=</m> amount produced (locks) <m>\sim</m> indep</cell>
-			</row>
-			<row class="even">
-				<cell halign="left"><m>E=</m> total expenditure ($) <m>\sim</m> dep</cell>
-			</row>
-		</tabular>
-
-		<p>
-			She recognizes that total expenditure is a linear function of the purchase price and the running cost for each machine. In each case, the starting amount (intercept) is the purchase price: $3,200 for Machine #1 and $5,400 for Machine #2. The slope (rate of change) is the constant running cost: $0.80 per lock for Machine #1 and $1.25 per lock for Machine #2. Using the template for a linear equation <me>\text{dep }=\text{ start } + \text{ slope} \ast {\text{indep}}</me> she writes the equations
+			<md>
+				<mrow>L \amp= \text{ amount produced (locks) } \sim \text{ dep} </mrow>
+				<mrow>E \amp= \text{ total expenditure (\$) } \sim \text{ indep} </mrow>
+			</md>
+			She recognizes that total expenditure is a linear function that depends on the purchase price and the running cost for each machine. In each case, the starting amount (intercept) is the purchase price: $3,200 for Machine #1 and $5,400 for Machine #2. The slope (rate of change) is the constant running cost: $0.80 per lock for Machine #1 and $1.25 per lock for Machine #2. Using the template for a linear equation <me>\text{dep }=\text{ start } + \text{ slope} \ast {\text{indep}}</me> she writes the equations
 		</p>
 
 
@@ -178,7 +169,7 @@
 					-0.80L \amp  \amp -\cancel{0.80L}
 				\end{array}
 			</me>
-			How do we simplify <m>1.25L-0.80L</m>? Think about what these numbers represent in the story. The cost was $1.25 per lock versus $0.80 per lock. The difference is $1.25-$0.80 = $0.45 per lock. So that means <me>1.25L -0.80L = 0.45L</me> Think: 125 apples <m>-</m> 80 apples <m>=</m> 45 apples. She can now simplify her equation to get <me>0.45L = 2{,}200</me> Ah, she can solve this equation just by dividing each side by 0.45 to get <me>\frac{\cancel{0.45}L}{\cancel{0.45}}= \frac{2{,}200}{0.45}</me> which simplifies to <me>L = \frac{2{,}200}{0.45}= 2{,}200 \div 0.45 = 4888.88888\ldots \approx 4{,}889 \text{ locks}</me> If they plan to produce 4,889 locks or more, Quia Xun should go ahead and buy the more expensive machine, Machine #2. Yeah, that's what we guessed – just under 4,900 locks is the payoff.
+			How do we simplify <m>1.25L-0.80L</m>? Think about what these numbers represent in the story. The cost was $1.25 per lock versus $0.80 per lock. The difference is $1.25 - $0.80 = $0.45 per lock. So that means <me>1.25L -0.80L = 0.45L</me> Think: 125 apples - 80 apples = 45 apples. She can now simplify her equation to get <me>0.45L = 2{,}200</me> Ah, she can solve this equation just by dividing each side by 0.45 to get <me>\frac{\cancel{0.45}L}{\cancel{0.45}}= \frac{2{,}200}{0.45}</me> which simplifies to <me>L = \frac{2{,}200}{0.45}= 2{,}200 \div 0.45 = 4888.88888\ldots \approx 4{,}889 \text{ locks}</me> If they plan to produce 4,889 locks or more, Quia Xun should go ahead and buy the more expensive machine, Machine #2. Yeah, that's what we guessed – just under 4,900 locks is the payoff.
 		</p>
 
 		<p>

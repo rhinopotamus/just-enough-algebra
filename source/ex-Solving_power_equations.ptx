@@ -173,7 +173,7 @@
 		<task>
 			<statement>
 				<p>
-					Suppose the formula holds for grapefruit too. I don't know of any recipe that calls for grapefruit zest; it is very bitter! But grapefruit is notorious for interacting with certain medications, and so we're collecting some zest for an experiment. Let's say we need cup of zest. How large a grapefruit will we need? Set up and solve an equation to answer. Use that 1 cup = 16 tablespoons.
+					Suppose the formula holds for grapefruit too. I don't know of any recipe that calls for grapefruit zest; it is very bitter! But grapefruit is notorious for interacting with certain medications, and so we're collecting some zest for an experiment. Let's say we need <m>\tfrac14</m> cup of zest. How large a grapefruit will we need? Set up and solve an equation to answer. Use that 1 cup = 16 tablespoons.
 				</p>
 			</statement>
 		</task>
@@ -305,7 +305,7 @@
 		<task>
 			<statement>
 				<p>
-					If you evaluate at <m>T=5</m>, what value of <m>R</m> do you get and what does it mean in the story, again assuming the rock is dropped from 300 feet up.
+					If you evaluate at <m>T=5</m>, what value of <m>R</m> do you get? What does this value mean in the story? Again assume the rock is dropped from 300 feet up.
 				</p>
 			</statement>
 		</task>

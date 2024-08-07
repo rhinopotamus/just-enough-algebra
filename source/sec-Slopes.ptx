@@ -11,19 +11,10 @@
 
 		<p>
 			What to do? We can name the variables and put the information we are given into a table. That's a start. The variables must be
-		</p>
-
-
-		<tabular>
-			<row class="odd">
-				<cell halign="left"><m>C=</m> total charge ($) <m>\sim</m> dep</cell>
-			</row>
-			<row class="even">
-				<cell halign="left"><m>N =</m> number of cases delivered (cases) <m>\sim</m> indep</cell>
-			</row>
-		</tabular>
-
-		<p>
+			<md>
+				<mrow>C \amp= \text{ total charge (\$) } \sim \text{ dep} </mrow>
+				<mrow>N \amp= \text{ number of cases delivered (cases) } \sim \text{ indep} </mrow>
+			</md>
 			and we know
 		</p>
 
@@ -67,7 +58,7 @@
 		</p>
 
 		<p>
-			Why did we use 13 cases? No good reason. Look what happens if we use 20 cases at $814.80 instead. <me>\text{intercept} = \text{dep} -\text{slope}\ast\text{indep}= 814.80 - 39.99\times 20= \$15</me> Yup. Still $15 delivery fee.
+			Why did we use 13 cases instead of 20 cases? No particular reason. Look what happens if we use 20 cases at $814.80 instead. <me>\text{intercept} = \text{dep} -\text{slope}\ast\text{indep}= 814.80 - 39.99\times 20= \$15</me> Yup. Still $15 delivery fee.
 		</p>
 
 		<p>
@@ -85,19 +76,10 @@
 
 		<p>
 			Now we're interested in how the recycling charge depends on the number of boxes in good condition that we return. The new variables are
-		</p>
-
-
-		<tabular>
-			<row class="odd">
-				<cell halign="left"><m>R=</m> recycling charge ($) <m>\sim</m> dep</cell>
-			</row>
-			<row class="even">
-				<cell halign="left"><m>B =</m> number of boxes returned (boxes) <m>\sim</m> indep</cell>
-			</row>
-		</tabular>
-
-		<p>
+			<md>
+				<mrow>R \amp= \text{ recycling charge (\$) } \sim \text{ dep} </mrow>
+				<mrow>B \amp= \text{ number of boxes returned (boxes) } \sim \text{ indep} </mrow>
+			</md>
 			and we know
 		</p>
 
