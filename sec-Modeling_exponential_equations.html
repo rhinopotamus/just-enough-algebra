@@ -469,12 +469,14 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Modeling_exponential_equations"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">5.1</span><span class="space"> </span><span class="title">Modeling with exponential equations</span>
 </h2>
-<section class="introduction" id="sec-Modeling_exponential_equations-2"><div class="para" id="sec-Modeling_exponential_equations-2-1">My grandmother was born in eastern Europe at the end of the 1800s. When she was eight years old her parents brought her and her younger sister and brother to the United States to escape harsh treatment by the government. Both her parents had to work, so my grandmother dropped out of school when she was thirteen years old to take care of the children, which now included another brother and sister.</div> <div class="para" id="sec-Modeling_exponential_equations-2-2">Time passed and she married a handsome young veteran of World War I, who had also immigrated to the country as a young child. For her wedding dowry his parents bought my grandmother a set of sterling silverware, valued at $800 in 1920. My grandmother was very proud of her sterling and used it often.</div> <div class="para" id="sec-Modeling_exponential_equations-2-3">Over the years, the sterling has increased in value, let’s say by around 3% per year. In 1957, my grandmother handed it down to my mother as a wedding present. In 1990, I married and my mother handed the sterling down to me. What was it was it worth at those times, and how much should it be insured for through 2015?</div> <div class="para" id="sec-Modeling_exponential_equations-2-4">Let’s write the equation to answer these questions. The variables should be</div> <div class="tabular-box natural-width"><table class="tabular">
-<tr><td class="l m b0 r0 l0 t0 lines">
-<span class="process-math">\(S=\)</span> value of sterling ($) <span class="process-math">\(\sim\)</span> dep</td></tr>
-<tr><td class="l m b0 r0 l0 t0 lines">
-<span class="process-math">\(Y =\)</span> time (years since 1920) <span class="process-math">\(\sim\)</span> indep</td></tr>
-</table></div> <div class="para logical" id="sec-Modeling_exponential_equations-2-6">
+<section class="introduction" id="sec-Modeling_exponential_equations-2"><div class="para" id="sec-Modeling_exponential_equations-2-1">My grandmother was born in eastern Europe at the end of the 1800s. When she was eight years old her parents brought her and her younger sister and brother to the United States to escape harsh treatment by the government. Both her parents had to work, so my grandmother dropped out of school when she was thirteen years old to take care of the children, which now included another brother and sister.</div> <div class="para" id="sec-Modeling_exponential_equations-2-2">Time passed and she married a handsome young veteran of World War I, who had also immigrated to the country as a young child. For her wedding dowry his parents bought my grandmother a set of sterling silverware, valued at $800 in 1920. My grandmother was very proud of her sterling and used it often.</div> <div class="para" id="sec-Modeling_exponential_equations-2-3">Over the years, the sterling has increased in value, let’s say by around 3% per year. In 1957, my grandmother handed it down to my mother as a wedding present. In 1990, I married and my mother handed the sterling down to me. What was it was it worth at those times, and how much should it be insured for through 2015?</div> <div class="para logical" id="sec-Modeling_exponential_equations-2-4">
+<div class="para">Let’s write the equation to answer these questions. The variables should be</div>
+<div class="displaymath process-math" id="sec-Modeling_exponential_equations-2-4-1">
+\begin{align*}
+S \amp= \text{ value of sterling (\$) } \sim \text{ dep} \\
+Y \amp= \text{ time (years since 1920) } \sim \text{ indep} 
+\end{align*}
+</div>
 <div class="para">We’re saying that the sterling increased 3% per year in value. For example, in 1921, the sterling was worth</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -488,7 +490,7 @@ window.MathJax = {
 \end{equation*}
 </div>
 <div class="para">The idea is after one year we have the original $800 plus 3% more for a grand total of 103% of what we had before. And 103% = 1.03.</div>
-</div> <div class="para logical" id="sec-Modeling_exponential_equations-2-7">
+</div> <div class="para logical" id="sec-Modeling_exponential_equations-2-5">
 <div class="para">After 5 years, the sterling was worth</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -501,7 +503,7 @@ window.MathJax = {
 800 \times 1.03 \wedge 5 = 927.4192594 \approx \$927
 \end{equation*}
 </div>
-</div> <div class="para logical" id="sec-Modeling_exponential_equations-2-8">
+</div> <div class="para logical" id="sec-Modeling_exponential_equations-2-6">
 <div class="para">Generalizing, we get our equation</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -520,14 +522,14 @@ S=800 \ast 1.03 ^ Y
 \text{dep }=\text{ start } \ast \text{growth factor}^{\text{indep}}
 \end{equation*}
 </div>
-</div> <div class="para logical" id="sec-Modeling_exponential_equations-2-9">
+</div> <div class="para logical" id="sec-Modeling_exponential_equations-2-7">
 <div class="para">Quick recap. A function is <dfn class="terminology">exponential</dfn> if it corresponds to a fixed percent increase (or decrease). The percent increase is the <dfn class="terminology">growth rate</dfn>; in our example, the growth rate is <span class="process-math">\(r=3\%=0.03\text{.}\)</span> The number we multiply by is the <dfn class="terminology">growth factor</dfn> and it is also the base of the power in the equation; in our example, the growth factor is <span class="process-math">\(g =  1.03\text{.}\)</span> The <a href="sec-Growth_factor.html#percent-change-formula" class="xref" data-knowl="./knowl/xref/percent-change-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Percent Change Formula">Percent Change Formula</a> from Section 2.2 reminds us that</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/percent-change-formula.html">
 \begin{equation*}
 g=1 + r = 1+0.03 =1.03
 \end{equation*}
 </div>
-</div> <div class="para logical" id="sec-Modeling_exponential_equations-2-10">
+</div> <div class="para logical" id="sec-Modeling_exponential_equations-2-8">
 <div class="para">Let’s answer those questions. In 1957, we had <span class="process-math">\(Y = 1957 - 1920 = 37\)</span> years and so</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -546,7 +548,7 @@ S = 800\ast1.03^{70} = 800 \times 1.03 \wedge \underline{70}= 6334.2575\ldots \a
 S = 800\ast1.03^{95} = 800 \times 1.03 \wedge \underline{95}= 13262.5286\ldots \approx \$13{,}262
 \end{equation*}
 </div>
-</div> <div class="para" id="sec-Modeling_exponential_equations-2-11">Let’s summarize this information in a table and draw a graph.</div> <div class="tabular-box natural-width"><table class="tabular">
+</div> <div class="para" id="sec-Modeling_exponential_equations-2-9">Let’s summarize this information in a table and draw a graph.</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines">year</td>
 <td class="c m b1 r1 l0 t1 lines">1920</td>
@@ -570,11 +572,11 @@ S = 800\ast1.03^{95} = 800 \times 1.03 \wedge \underline{95}= 13262.5286\ldots \
 <td class="c m b1 r1 l0 t0 lines">800</td>
 <td class="c m b1 r1 l0 t0 lines">824</td>
 <td class="c m b1 r1 l0 t0 lines">927</td>
-<td class="c m b1 r1 l0 t0 lines">2{,}388</td>
-<td class="c m b1 r1 l0 t0 lines">6{,}334</td>
-<td class="c m b1 r1 l0 t0 lines">13{,}262</td>
+<td class="c m b1 r1 l0 t0 lines">2,388</td>
+<td class="c m b1 r1 l0 t0 lines">6,334</td>
+<td class="c m b1 r1 l0 t0 lines">13,262</td>
 </tr>
-</table></div> <div class="para" id="sec-Modeling_exponential_equations-2-13"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/grandmasterling.png" class="contained"></div></div> <div class="para" id="sec-Modeling_exponential_equations-2-14">Actually, the insurance policy allows for up to $20{,}000. The curve we drew suggests that the value will be $20{,}000 just past <span class="process-math">\(Y=100\)</span> (the year 2020), probably somewhere around <span class="process-math">\(Y=110\)</span> (the year 2030).</div> <div class="para" id="sec-Modeling_exponential_equations-2-15">We can use successive approximation to improve our answer.</div> <div class="tabular-box natural-width"><table class="tabular">
+</table></div> <div class="para" id="sec-Modeling_exponential_equations-2-11"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/grandmasterling.png" class="contained"></div></div> <div class="para" id="sec-Modeling_exponential_equations-2-12">Actually, the insurance policy allows for up to $20,000. The curve we drew suggests that the value will be $20,000 just past <span class="process-math">\(Y=100\)</span> (the year 2020), probably somewhere around <span class="process-math">\(Y=110\)</span> (the year 2030).</div> <div class="para" id="sec-Modeling_exponential_equations-2-13">We can use successive approximation to improve our answer.</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines">year</td>
 <td class="c m b1 r1 l0 t1 lines">2020</td>
@@ -591,19 +593,19 @@ S = 800\ast1.03^{95} = 800 \times 1.03 \wedge \underline{95}= 13262.5286\ldots \
 </tr>
 <tr>
 <td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(S\)</span></td>
-<td class="c m b1 r1 l0 t0 lines">15{,}375</td>
-<td class="c m b1 r1 l0 t0 lines">20{,}663</td>
-<td class="c m b1 r1 l0 t0 lines">20{,}061</td>
-<td class="c m b1 r1 l0 t0 lines">19{,}476</td>
+<td class="c m b1 r1 l0 t0 lines">15,375</td>
+<td class="c m b1 r1 l0 t0 lines">20,663</td>
+<td class="c m b1 r1 l0 t0 lines">20,061</td>
+<td class="c m b1 r1 l0 t0 lines">19,476</td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0 lines">vs. 20{,}000</td>
+<td class="c m b1 r1 l1 t0 lines">vs. 20,000</td>
 <td class="c m b1 r1 l0 t0 lines">low</td>
 <td class="c m b1 r1 l0 t0 lines">high</td>
 <td class="c m b1 r1 l0 t0 lines">high</td>
 <td class="c m b1 r1 l0 t0 lines">low</td>
 </tr>
-</table></div> <div class="para" id="sec-Modeling_exponential_equations-2-17">Seems to be around the year 2029, where <span class="process-math">\(Y=109\text{,}\)</span> as we had guessed.</div> <div class="para logical" id="sec-Modeling_exponential_equations-2-18">
+</table></div> <div class="para" id="sec-Modeling_exponential_equations-2-15">Seems to be around the year 2029, where <span class="process-math">\(Y=109\text{,}\)</span> as we had guessed.</div> <div class="para logical" id="sec-Modeling_exponential_equations-2-16">
 <div class="para">Of course, we can solve the exponential equation instead. To find when <span class="process-math">\(S= 20{,}000\)</span> we use our equation <span class="process-math">\(S = 800 \ast 1.03^Y\)</span> to get</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/log-divides-formula.html">
 \begin{equation*}
@@ -628,8 +630,8 @@ S = 800\ast1.03^{95} = 800 \times 1.03 \wedge \underline{95}= 13262.5286\ldots \
 Y =  \frac{\log (v)}{\log(g)} =  \frac{\log (25)}{\log(1.03)} = \log (25) \div \log (1.03) = 108.89737 \approx 109
 \end{equation*}
 </div>
-<div class="para">We rounded up to make sure it would reach the full $20{,}000. Since 1920 + 109 = 2029, we see (again) that the value should reach $20{,}000 in the year 2029.</div>
-</div> <div class="para logical" id="sec-Modeling_exponential_equations-2-19">
+<div class="para">We rounded up to make sure it would reach the full $20,000. Since 1920 + 109 = 2029, we see (again) that the value should reach $20,000 in the year 2029.</div>
+</div> <div class="para logical" id="sec-Modeling_exponential_equations-2-17">
 <div class="para">As an aside, look what happens when we calculate the rate of change for this function. For example, during the first five years,</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -643,7 +645,7 @@ Y =  \frac{\log (v)}{\log(g)} =  \frac{\log (25)}{\log(1.03)} = \log (25) \div \
 \end{equation*}
 </div>
 <div class="para">In the first few years, the value increased an average of $25.40 a year, but from 1925 to 1957 it increased an average of about $45.66 per year.</div>
-</div> <div class="para" id="sec-Modeling_exponential_equations-2-20">Were we supposed to get different numbers here? Well, the graph’s not a line and it’s not a linear equation. That tells us the rate of change isn’t going to be constant. So, sure, different numbers are fine. Does it make sense that the rate of change would itself increase? That the value increases at an increasing rate? Yes. Although we are always just adding on 3%, we’re taking 3% of larger numbers each year. So more is added each year.</div></section><section class="conclusion" id="sec-Modeling_exponential_equations-3"><h3 class="heading">Do you know ….<span></span>
+</div> <div class="para" id="sec-Modeling_exponential_equations-2-18">Were we supposed to get different numbers here? Well, the graph’s not a straight line and it’s not a linear equation. That tells us the rate of change isn’t going to be constant. So, sure, different numbers are fine. Does it make sense that the rate of change would itself increase? That the value increases at an increasing rate? Yes. Although we are always just adding on 3%, we’re taking 3% of larger numbers each year. So more is added each year.</div></section><section class="conclusion" id="sec-Modeling_exponential_equations-3"><h3 class="heading">Do you know ….<span></span>
 </h3> <div class="para logical" id="sec-Modeling_exponential_equations-3-2"><ol class="upper-alpha" id="sec-Modeling_exponential_equations-3-2-1">
 <li id="sec-Modeling_exponential_equations-3-2-1-1"><div class="para" id="sec-Modeling_exponential_equations-3-2-1-1-1">What makes a function exponential?</div></li>
 <li id="sec-Modeling_exponential_equations-3-2-1-2"><div class="para" id="sec-Modeling_exponential_equations-3-2-1-2-1">The template for an exponential equation? <em class="emphasis">Ask your instructor if you need to remember the template or if it will be provided during the exam.</em>
@@ -672,12 +674,12 @@ Y =  \frac{\log (v)}{\log(g)} =  \frac{\log (25)}{\log(1.03)} = \log (25) \div \
 <div class="para" id="buenos-aires-modeling-exponential-7-1-1">In 2000 the actual population of Buenos Aires was around 12.6 million and by 2010 it was around 15.2 million. How do these data compare to the estimates?</div></article></article><article class="exercise exercise-like" id="flu-dorm-modeling-exponential"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
 <div class="introduction" id="flu-dorm-modeling-exponential-1"><div class="para logical" id="flu-dorm-modeling-exponential-1-1">
 <div class="para">A flu virus has been spreading through the college dormitories. Initially 8 students were diagnosed with the flu, but that number has been growing 16% per day. Earlier we found the equation</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/flu-dorm-first-look-exponential.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/flu-dorm-first-look-exponential.html ./knowl/xref/sec-Logistic_growth.html">
 \begin{equation*}
 N=8 \ast1.16^T
 \end{equation*}
 </div>
-<div class="para">where <span class="process-math">\(T\)</span> is the time in days (since the first diagnosis) and <span class="process-math">\(N\)</span> is the total number of students who had the flu. <em class="emphasis">(Story also appears in <a href="sec-First_look_exponential.html#flu-dorm-first-look-exponential" class="xref" data-knowl="./knowl/xref/flu-dorm-first-look-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.2.3">2.2.3</a> and 5.5 textbook)</em>
+<div class="para">where <span class="process-math">\(T\)</span> is the time in days (since the first diagnosis) and <span class="process-math">\(N\)</span> is the total number of students who had the flu. <em class="emphasis">(Story also appears in <a href="sec-First_look_exponential.html#flu-dorm-first-look-exponential" class="xref" data-knowl="./knowl/xref/flu-dorm-first-look-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.2.3">2.2.3</a> and <a href="sec-Logistic_growth.html" class="internal" title="Section 5.5: Logistic and other growth models">Section 5.5</a>)</em>
 </div>
 </div></div>
 <article class="task exercise-like" id="flu-dorm-modeling-exponential-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
@@ -701,8 +703,7 @@ B = 1{,}800 \ast 1.13^T
 <div class="para" id="bunnies-modeling-exponential-4-1-1">
 <em class="emphasis">Approximately</em> when will the population pass 5,000 bunnies? Guess from the graph. Then refine your answer using successive approximation.</div></article><article class="task exercise-like" id="bunnies-modeling-exponential-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
 <div class="para" id="bunnies-modeling-exponential-5-1-1">Solve your equation and check that you get the same answer.</div></article></article><article class="exercise exercise-like" id="greenhouse-co2-modeling-exponential"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
-<div class="introduction" id="greenhouse-co2-modeling-exponential-1"><div class="para" id="greenhouse-co2-modeling-exponential-1-1">Carbon dioxide is a greenhouse gas in our atmosphere. Increasing carbon dioxide concentrations are related to global climate change. In 1980, the carbon dioxide concentration was 338 ppm (parts per million). At that time it was assumed that carbon dioxide concentrations would increase 0.42% per year. <aside class="aside aside-like" id="greenhouse-co2-modeling-exponential-1-1-1"><div class="para" id="greenhouse-co2-modeling-exponential-1-1-1-1">Source: Earth Systems Research Laboratory, NOAA</div></aside>
-</div></div>
+<div class="introduction" id="greenhouse-co2-modeling-exponential-1"><div class="para" id="greenhouse-co2-modeling-exponential-1-1">Carbon dioxide is a greenhouse gas in our atmosphere. Increasing carbon dioxide concentrations are related to global climate change. <aside class="aside aside-like" id="greenhouse-co2-modeling-exponential-1-1-1"><div class="para" id="greenhouse-co2-modeling-exponential-1-1-1-1">Source: Earth Systems Research Laboratory, NOAA</div></aside> In 1980, the carbon dioxide concentration was 338 ppm (parts per million). At that time it was assumed that carbon dioxide concentrations would increase 0.42% per year.</div></div>
 <article class="task exercise-like" id="greenhouse-co2-modeling-exponential-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="greenhouse-co2-modeling-exponential-2-1-1">Name the variables including units.</div></article><article class="task exercise-like" id="greenhouse-co2-modeling-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="greenhouse-co2-modeling-exponential-3-1-1">Assuming the growth is exponential as predicted, write an equation that describes the increase in carbon dioxide concentrations.</div></article><article class="task exercise-like" id="greenhouse-co2-modeling-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
@@ -713,8 +714,9 @@ B = 1{,}800 \ast 1.13^T
 <div class="para" id="sterling-silver-modeling-exponential-2-1-1">First, estimate the answer from our table and graph.</div></article><article class="task exercise-like" id="sterling-silver-modeling-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="sterling-silver-modeling-exponential-3-1-1">Next, use successive approximation to refine your answer. Display your work in a table.</div></article><article class="task exercise-like" id="sterling-silver-modeling-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="sterling-silver-modeling-exponential-4-1-1">Last, practice setting up and solving an equation using the <a href="sec-Solving_exponential_equations.html#log-divides-formula" class="xref" data-knowl="./knowl/xref/log-divides-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Log-Divides Formula">Log-Divides Formula</a>.</div></article></article><article class="exercise exercise-like" id="social-security-modeling-exponential"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
-<div class="introduction" id="social-security-modeling-exponential-1"><div class="para" id="social-security-modeling-exponential-1-1">Mrs. Nystrom’s Social Security benefit was $746.17/month when she retired from teaching in 2009. She had taught in elementary school since I was a girl. Benefits have increased by 4% per year. <em class="emphasis">(Story also appears in <a href="sec-Arithmetic_operations.html#social-security-arithmetic-operations" class="xref" data-knowl="./knowl/xref/social-security-arithmetic-operations.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.2.5">0.2.5</a>, <a href="sec-Variables_and_functions.html#social-security-variables-functions" class="xref" data-knowl="./knowl/xref/social-security-variables-functions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.1.7">1.1.7</a> and <a href="sec-Tables_and_graphs.html#social-security-tables-graphs" class="xref" data-knowl="./knowl/xref/social-security-tables-graphs.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.2.8">1.2.8</a>)</em>
-</div></div>
+<div class="introduction" id="social-security-modeling-exponential-1">
+<div class="para" id="social-security-modeling-exponential-1-1">Mrs. Nystrom’s Social Security benefit was $746.17/month when she retired from teaching in 2009. She had taught in elementary school since I was a girl. Benefits have increased by 4% per year.</div> <div class="para" id="social-security-modeling-exponential-1-2"><em class="emphasis">(Story also appears in <a href="sec-Arithmetic_operations.html#social-security-arithmetic-operations" class="xref" data-knowl="./knowl/xref/social-security-arithmetic-operations.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.2.5">0.2.5</a>, <a href="sec-Variables_and_functions.html#social-security-variables-functions" class="xref" data-knowl="./knowl/xref/social-security-variables-functions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.1.7">1.1.7</a> and <a href="sec-Tables_and_graphs.html#social-security-tables-graphs" class="xref" data-knowl="./knowl/xref/social-security-tables-graphs.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.2.8">1.2.8</a>)</em></div>
+</div>
 <article class="task exercise-like" id="social-security-modeling-exponential-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="social-security-modeling-exponential-2-1-1">Name the variables and write an equation relating them.</div></article><article class="task exercise-like" id="social-security-modeling-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="social-security-modeling-exponential-3-1-1">Use your equation to estimate her benefit in the year 2020.</div></article><article class="task exercise-like" id="social-security-modeling-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
@@ -744,16 +746,17 @@ N = 2 \ast 1.57^W
 <div class="para" id="minnesota-pop-modeling-exponential-5-1-1">Make a table of values showing the projected population every two years from 2006 to 2020.</div></article><article class="task exercise-like" id="minnesota-pop-modeling-exponential-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
 <div class="para" id="minnesota-pop-modeling-exponential-6-1-1">Draw a graph illustrating the dependence.</div></article><article class="task exercise-like" id="minnesota-pop-modeling-exponential-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
 <div class="para" id="minnesota-pop-modeling-exponential-7-1-1">Set up and solve an equation to determine when Minnesota’s population is expected to be double the population from 2006.</div></article></article><article class="exercise exercise-like" id="um-archivo-modeling-exponential"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
-<div class="introduction" id="um-archivo-modeling-exponential-1"><div class="para logical" id="um-archivo-modeling-exponential-1-1">
+<div class="introduction" id="um-archivo-modeling-exponential-1">
+<div class="para logical" id="um-archivo-modeling-exponential-1-1">
 <div class="para">Um Archivo data consultant group reported earnings of $42.7 billion in 2012. At that time executives projected 17% increase in earnings annually. Based on that information, we wrote the equation</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/um-archivo-first-look-exponential.html">
+<div class="displaymath process-math">
 \begin{equation*}
 U = 42.7 \ast 1.17^Y
 \end{equation*}
 </div>
-<div class="para">where <span class="process-math">\(U\)</span> is Um Archivo’s reported earnings (in $billions) and <span class="process-math">\(Y\)</span> is the years since 2012. <em class="emphasis">(Story also appears in <a href="sec-First_look_exponential.html#um-archivo-first-look-exponential" class="xref" data-knowl="./knowl/xref/um-archivo-first-look-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.2.7">2.2.7</a>)</em>
+<div class="para">where <span class="process-math">\(U\)</span> is Um Archivo’s reported earnings (in $billions) and <span class="process-math">\(Y\)</span> is the years since 2012.</div>
+</div> <div class="para" id="um-archivo-modeling-exponential-1-2"><em class="emphasis">(Story also appears in <a href="sec-First_look_exponential.html#um-archivo-first-look-exponential" class="xref" data-knowl="./knowl/xref/um-archivo-first-look-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.2.7">2.2.7</a>)</em></div>
 </div>
-</div></div>
 <article class="task exercise-like" id="um-archivo-modeling-exponential-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="um-archivo-modeling-exponential-2-1-1">According to your equation, in what year would Um Archivo’s reported earnings pass $60 billion? Set up and solve an equation. Then check your answer.</div></article><article class="task exercise-like" id="um-archivo-modeling-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="um-archivo-modeling-exponential-3-1-1">Repeat for $100 billion.</div></article></article><article class="exercise exercise-like" id="reality-tv-modeling-exponential"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>

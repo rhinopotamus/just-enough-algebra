@@ -478,7 +478,7 @@ window.MathJax = {
 </div>
 <div class="para">which is a lot of caffeine, probably more than he needed to stay awake.</div>
 </div> <div class="para" id="sec-Exp_growth_decay-2-3">At this point Joe is stuck so let’s help him. Let’s say that at 2:00 a.m. he has 1,000 mg of caffeine in his blood. Joe searches online and discovers that 13% of the caffeine should leave his body each hour and below 300 mg he should be fine. When will that happen?</div> <div class="para logical" id="sec-Exp_growth_decay-2-4">
-<div class="para">We know how percent <em class="emphasis">increase</em> works, but here the caffiene is leaving his body according to a percent <em class="emphasis">decrease</em>. I guess we need to figure it out one step at a time. After one hour (by 3:00 a.m.), Joe will have</div>
+<div class="para">We know how percent <em class="emphasis">increase</em> works, but here the caffeine is leaving his body according to a percent <em class="emphasis">decrease</em>. I guess we need to figure it out one step at a time. After one hour (by 3:00 a.m.), Joe will have</div>
 <div class="displaymath process-math">
 \begin{equation*}
 1{,}000 \text{ mg} - 13 \% \text{ of }  1{,}000 \text{ mg} =  1{,}000- 0.13 \times  1{,}000 =  1{,}000 - 130 = 870 \text{ mg}
@@ -517,12 +517,14 @@ window.MathJax = {
 1000 \ast 0.87^5 =  1{,}000 \times 0.87 \wedge 5 = 498.420920\ldots \approx 498.4 \text{ mg}
 \end{equation*}
 </div>
-</div> <div class="para" id="sec-Exp_growth_decay-2-7">The bad news is that it’s 7:00 a.m. and Joe is still too jittery to sleep. The good news is that we can write the equation. The variables are</div> <div class="tabular-box natural-width"><table class="tabular">
-<tr><td class="l m b0 r0 l0 t0 lines">
-<span class="process-math">\(J=\)</span> Joe’s caffeine level (mg) <span class="process-math">\(\sim\)</span> dep</td></tr>
-<tr><td class="l m b0 r0 l0 t0 lines">
-<span class="process-math">\(H =\)</span> time (hours since 2:00 a.m.) <span class="process-math">\(\sim\)</span> indep</td></tr>
-</table></div> <div class="para logical" id="sec-Exp_growth_decay-2-9">
+</div> <div class="para logical" id="sec-Exp_growth_decay-2-7">
+<div class="para">The bad news is that it’s 7:00 a.m. and Joe is still too jittery to sleep. The good news is that we can write the equation. The variables are</div>
+<div class="displaymath process-math" id="sec-Exp_growth_decay-2-7-1">
+\begin{align*}
+J \amp= \text{ Joe's caffeine level (mg) } \sim \text{ dep} \\
+H \amp= \text{ time (hours since 2:00 a.m.) } \sim \text{ indep} 
+\end{align*}
+</div>
 <div class="para">Our equation must be</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -535,14 +537,14 @@ J = 1{,}000 \ast0.87^H
 \text{dep }=\text{ start } \ast \text{growth factor}^{\text{indep}}
 \end{equation*}
 </div>
-</div> <div class="para logical" id="sec-Exp_growth_decay-2-10">
+</div> <div class="para logical" id="sec-Exp_growth_decay-2-8">
 <div class="para">A little terminology here. When a function is exponential but decreasing, it’s called <dfn class="terminology">exponential decay</dfn>. It sounds a little odd to say “growth factor” if the quantity is getting smaller so we sometimes say <dfn class="terminology">decay factor</dfn> instead. We know from the <a href="sec-Growth_factor.html#percent-change-formula" class="xref" data-knowl="./knowl/xref/percent-change-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Percent Change Formula">Percent Change Formula</a> that the growth factor (<span class="process-math">\(g\)</span>) can be found from the growth rate (r) by the formula <span class="process-math">\(g=1+r\text{.}\)</span> If we think of 13% decrease as negative growth rate, <span class="process-math">\(r=-13\%=-0.13\text{,}\)</span> then the formula still works to find the decay factor (<span class="process-math">\(g\)</span>)</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/percent-change-formula.html">
 \begin{equation*}
 g= 1 + r = 1 + -0.13 = 1-0.13 = 0.87
 \end{equation*}
 </div>
-</div> <div class="para" id="sec-Exp_growth_decay-2-11">Back to jittery Joe. Let’s summarize what we’ve found and add a few more times to see when Joe’s caffeine level should fall below 300 mg.</div> <div class="tabular-box natural-width"><table class="tabular">
+</div> <div class="para" id="sec-Exp_growth_decay-2-9">Back to jittery Joe. Let’s summarize what we’ve found and add a few more times to see when Joe’s caffeine level should fall below 300 mg.</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines">time</td>
 <td class="c m b1 r1 l0 t1 lines">2:00</td>
@@ -595,7 +597,7 @@ g= 1 + r = 1 + -0.13 = 1-0.13 = 0.87
 <td class="c m b1 r1 l0 t0 lines">high</td>
 <td class="c m b1 r1 l0 t0 lines">low</td>
 </tr>
-</table></div> <div class="para" id="sec-Exp_growth_decay-2-13">That means Joe should be able to fall asleep by around 11:00 a.m. Exactly when his exam starts. Sorry, Joe.</div> <div class="para logical" id="sec-Exp_growth_decay-2-14">
+</table></div> <div class="para" id="sec-Exp_growth_decay-2-11">That means Joe should be able to fall asleep by around 11:00 a.m. Exactly when his exam starts. Sorry, Joe.</div> <div class="para logical" id="sec-Exp_growth_decay-2-12">
 <div class="para">We could have solved the equation instead. We were looking for <span class="process-math">\(J = 300\text{.}\)</span> Using our equation <span class="process-math">\(J = 1{,}000 \ast 0.87^H\)</span> we get</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -614,7 +616,7 @@ g= 1 + r = 1 + -0.13 = 1-0.13 = 0.87
 0.87^H = \frac{300}{1{,}000} = 300 \div 1{,}000 = 0.3
 \end{equation*}
 </div>
-</div> <div class="para logical" id="sec-Exp_growth_decay-2-15">
+</div> <div class="para logical" id="sec-Exp_growth_decay-2-13">
 <div class="para">We find ourselves in the familiar situation – solving to find the exponent. Logs to the rescue. By the <a href="sec-Solving_exponential_equations.html#log-divides-formula" class="xref" data-knowl="./knowl/xref/log-divides-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Log-Divides Formula">Log-Divides Formula</a> with growth factor <span class="process-math">\(g=0.87\)</span> and value <span class="process-math">\(v= 0.3\)</span> we get</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/log-divides-formula.html">
 \begin{equation*}
@@ -622,7 +624,7 @@ Y =  \frac{\log (v)}{\log(g)}=  \frac{\log (0.3)}{\log(0.87)} =  \log (0.3) \div
 \end{equation*}
 </div>
 <div class="para">which corresponds to 11:00 a.m. Same answer. Much quicker.</div>
-</div> <div class="para logical" id="sec-Exp_growth_decay-2-16">
+</div> <div class="para logical" id="sec-Exp_growth_decay-2-14">
 <div class="para">Quick side note. We could have rounded to 8.64 hours and then converted units to get</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -630,7 +632,7 @@ Y =  \frac{\log (v)}{\log(g)}=  \frac{\log (0.3)}{\log(0.87)} =  \log (0.3) \div
 \end{equation*}
 </div>
 <div class="para">Counting from 2:00 a.m., we see that Joe’s caffeine levels drop below 300 mg at 10:39 a.m. Since we are approximating throughout the problem, we should round to 11:00 a.m. anyway.</div>
-</div> <div class="para logical" id="sec-Exp_growth_decay-2-17">
+</div> <div class="para logical" id="sec-Exp_growth_decay-2-15">
 <div class="para">Let’s calculate the rate of change and think about what it means. During the first hour,</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -647,7 +649,7 @@ Y =  \frac{\log (v)}{\log(g)}=  \frac{\log (0.3)}{\log(0.87)} =  \log (0.3) \div
 \end{equation*}
 </div>
 <div class="para">Joe’s caffeine level was dropping faster at first and is not dropping as fast now.</div>
-</div> <div class="para" id="sec-Exp_growth_decay-2-18">A glance at the graph confirms our findings.</div> <div class="para" id="sec-Exp_growth_decay-2-19"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/caffeine.png" class="contained"></div></div> <div class="para" id="sec-Exp_growth_decay-2-20">One last thing. There’s another way to describe the decrease here. When our story began Joe’s caffeine level was around 1,000 mg and after 5 hours it was at 498.4 mg. That’s just about 500 mg, or <em class="emphasis">half</em> of what he started with. We say the <dfn class="terminology">half-life</dfn> of caffeine is around 5 hours.</div> <div class="para logical" id="sec-Exp_growth_decay-2-21">
+</div> <div class="para" id="sec-Exp_growth_decay-2-16">A glance at the graph confirms our findings.</div> <div class="para" id="sec-Exp_growth_decay-2-17"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/caffeine.png" class="contained"></div></div> <div class="para" id="sec-Exp_growth_decay-2-18">One last thing. There’s another way to describe the decrease here. When our story began Joe’s caffeine level was around 1,000 mg and after 5 hours it was at 498.4 mg. That’s just about 500 mg, or <em class="emphasis">half</em> of what he started with. We say the <dfn class="terminology">half-life</dfn> of caffeine is around 5 hours.</div> <div class="para logical" id="sec-Exp_growth_decay-2-19">
 <div class="para">Doesn’t sound very important but check this out. Start with 1,000 mg. After 5 hours, there’s 500 mg left. (Okay, approximately.) Now go another 5 hours, which means 10 hours total. Evaluate our equation <span class="process-math">\(J = 1{,}000 \ast 0.87^H\)</span> when <span class="process-math">\(H =10\)</span> to get</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -689,8 +691,7 @@ J = 1{,}000 \ast 0.87^{15} = 1{,}000 \ast 0.87 \wedge \underline{15} = 123.81942
 <div class="para" id="cellphone-doubling-growth-decay-4-1-1">At this rate, how many years would it take for the number of people owning a cell phone to double? That is called the <dfn class="terminology">doubling time</dfn>. Show how to set up and solve an equation to find the answer.</div></article><article class="task exercise-like" id="cellphone-doubling-growth-decay-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
 <div class="para" id="cellphone-doubling-growth-decay-5-1-1">In 2011, about 682,000 people owned a cellphone. Is that count higher or lower than predicted from your equation? Explain.</div></article><article class="task exercise-like" id="cellphone-doubling-growth-decay-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
 <div class="para" id="cellphone-doubling-growth-decay-6-1-1">Based on the 2011 data, would you say that cell phone usage was growing slower or faster than 1.4%?</div></article></article><article class="exercise exercise-like" id="heart-attack-growth-decay"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
-<div class="introduction" id="heart-attack-growth-decay-1"><div class="para" id="heart-attack-growth-decay-1-1">If a person has a heart attack and their heart stops beating, the amount of time it takes paramedics to restart their heart with a defibrillator is critical. Each minute that passes decreases the person’s chance of survival by 10%. Assume that this statement means the decrease is exponential and that the survival rate is 100% if the defibrillator is used immediately. <aside class="aside aside-like" id="heart-attack-growth-decay-1-1-1"><div class="para" id="heart-attack-growth-decay-1-1-1-1">Source: American Red Cross</div></aside>
-</div></div>
+<div class="introduction" id="heart-attack-growth-decay-1"><div class="para" id="heart-attack-growth-decay-1-1">If a person has a heart attack and their heart stops beating, the amount of time it takes paramedics to restart their heart with a defibrillator is critical. Each minute that passes decreases the person’s chance of survival by 10%. <aside class="aside aside-like" id="heart-attack-growth-decay-1-1-1"><div class="para" id="heart-attack-growth-decay-1-1-1-1">Source: American Red Cross</div></aside> Assume that this statement means the decrease is exponential and that the survival rate is 100% if the defibrillator is used immediately.</div></div>
 <article class="task exercise-like" id="heart-attack-growth-decay-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="heart-attack-growth-decay-2-1-1">Name the variables, including units, and write an equation.</div></article><article class="task exercise-like" id="heart-attack-growth-decay-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="heart-attack-growth-decay-3-1-1">If it takes the paramedics 2 minutes to use the defibrillator, what is the person’s chance of survival?</div></article><article class="task exercise-like" id="heart-attack-growth-decay-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
@@ -731,13 +732,13 @@ J = 1{,}000 \ast 0.87^{15} = 1{,}000 \ast 0.87 \wedge \underline{15} = 123.81942
 <div class="para" id="house-value-growth-decay-3-1-1">At this rate, how many years would it take for the value of Tenzin’s house to drop below $240,000? Use successive approximation to guess the year.</div></article><article class="task exercise-like" id="house-value-growth-decay-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="house-value-growth-decay-4-1-1">Now set up and solve an equation.</div></article></article><article class="exercise exercise-like" id="wetlands-growth-decay"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
 <div class="introduction" id="wetlands-growth-decay-1">
-<div class="para" id="wetlands-growth-decay-1-1">One modern technique for cleaning waste water involves the use of constructed (man-made) wetlands. Wetlands act as a natural biofilter for various contaminants in the waste water. After each month in the wetlands, only about of the contaminants remain in any given sample. Suppose a sample had 8 grams of contaminants before processed in the constructed wetlands.</div> <div class="para" id="wetlands-growth-decay-1-2"><em class="emphasis">(Story also appears in <a href="sec-Growth_factor.html#find-rate-growth-factor" class="xref" data-knowl="./knowl/xref/find-rate-growth-factor.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 5.3.6">5.3.6</a>)</em></div>
+<div class="para" id="wetlands-growth-decay-1-1">One modern technique for cleaning waste water involves the use of constructed (man-made) wetlands. Wetlands act as a natural biofilter for various contaminants in the waste water. After each month in the wetlands, only about of the contaminants remain in any given sample. Suppose a sample had 8 grams of contaminants before it was processed in the constructed wetlands.</div> <div class="para" id="wetlands-growth-decay-1-2"><em class="emphasis">(Story also appears in <a href="sec-Growth_factor.html#find-rate-growth-factor" class="xref" data-knowl="./knowl/xref/find-rate-growth-factor.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 5.3.6">5.3.6</a>)</em></div>
 </div>
 <article class="task exercise-like" id="wetlands-growth-decay-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="wetlands-growth-decay-2-1-1">How much would remain in the sample after 1 month? 2 months? 3 months?</div></article><article class="task exercise-like" id="wetlands-growth-decay-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="wetlands-growth-decay-3-1-1">Name the variables and write an equation relating them.</div></article><article class="task exercise-like" id="wetlands-growth-decay-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="wetlands-growth-decay-4-1-1">Your equation should fit the template for an exponential equation. What is the monthly decay factor?</div></article><article class="task exercise-like" id="wetlands-growth-decay-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="wetlands-growth-decay-5-1-1">According to your equation, when will the contaminants fall below 1 mg? 1 <span class="process-math">\(\mu\)</span>g? Remember <span class="process-math">\(1 \text{ gram} = 1{,}000 \text{ mg}\)</span> and <span class="process-math">\(1 \text{ gram} = 1{,}000{,}000\, \mu \text{g}\)</span>
+<div class="para" id="wetlands-growth-decay-5-1-1">According to your equation, when will the contaminants fall below 1 mg? 1 <span class="process-math">\(\mu\)</span>g? Remember <span class="process-math">\(1 \text{ gram} = 1{,}000 \text{ mg}\)</span> and <span class="process-math">\(1 \text{ gram} = 1{,}000{,}000\, \mu \text{g}\text{.}\)</span>
 </div></article><article class="task exercise-like" id="wetlands-growth-decay-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
 <div class="para" id="wetlands-growth-decay-6-1-1">Draw a graph illustrating the waste water treatment process for the first 6 months.</div></article></article><article class="exercise exercise-like" id="hibbing-growth-decay"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
 <div class="introduction" id="hibbing-growth-decay-1">
@@ -749,8 +750,7 @@ J = 1{,}000 \ast 0.87^{15} = 1{,}000 \ast 0.87 \wedge \underline{15} = 123.81942
 <div class="para" id="hibbing-growth-decay-4-1-1">Based on these estimates, what was the anticipated population of Hibbing in 2010?</div></article><article class="task exercise-like" id="hibbing-growth-decay-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
 <div class="para" id="hibbing-growth-decay-5-1-1">The actual 2010 U.S. Census estimate of Hibbing’s population was 16,361 people. Was the decrease slower or faster than expected? Was the decay rate more or less than 0.4%? Explain.</div></article></article><article class="exercise exercise-like" id="food-shelf-growth-decay"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
 <div class="introduction" id="food-shelf-growth-decay-1">
-<div class="para" id="food-shelf-growth-decay-1-1">Donations to a local food shelf have increased 35% over last year. There were 3,400 pounds of food donated last year. <em class="emphasis">Story also appears in 5.3 #4</em>
-</div> <div class="para" id="food-shelf-growth-decay-1-2"><em class="emphasis">(Story also appears in <a href="sec-Growth_factor.html#find-growth-factor" class="xref" data-knowl="./knowl/xref/find-growth-factor.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 5.3.3">5.3.3</a>)</em></div>
+<div class="para" id="food-shelf-growth-decay-1-1">Donations to a local food shelf have increased 35% over last year. There were 3,400 pounds of food donated last year.</div> <div class="para" id="food-shelf-growth-decay-1-2"><em class="emphasis">(Story also appears in <a href="sec-Growth_factor.html#find-growth-factor" class="xref" data-knowl="./knowl/xref/find-growth-factor.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 5.3.3">5.3.3</a>)</em></div>
 </div>
 <article class="task exercise-like" id="food-shelf-growth-decay-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="food-shelf-growth-decay-2-1-1">Name the variables, measuring time since last year. (Yes, it’s a little awkward.)</div></article><article class="task exercise-like" id="food-shelf-growth-decay-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>

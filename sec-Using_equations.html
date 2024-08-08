@@ -469,12 +469,14 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Using_equations"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">2.3</span><span class="space"> </span><span class="title">Using equations</span>
 </h2>
-<section class="introduction" id="sec-Using_equations-2"><div class="para" id="sec-Using_equations-2-1">The Cadillac Escalade is a cross between a sports utility vehicle (SUV) and luxury car. Either way, it’s a big car. And it takes awhile to stop. One study showed that the 2010 Escalade traveling at 60 miles per hour takes about 144 feet to come to a complete stop from when the driver first hits the brakes. In fact, the braking distance of any car depends on how fast it is going. If someone is driving slowly they can stop in shorter distance than if they are driving fast. Which is why you should drive slowly on residential streets.</div> <div class="para" id="sec-Using_equations-2-2">We would like to be able to calculate the braking distances at other speeds, so our two variables are</div> <div class="tabular-box natural-width"><table class="tabular">
-<tr><td class="l m b0 r0 l0 t0 lines">
-<span class="process-math">\(S=\)</span> speed (mph) <span class="process-math">\(\sim\)</span> indep</td></tr>
-<tr><td class="l m b0 r0 l0 t0 lines">
-<span class="process-math">\(B=\)</span> braking distance (feet) <span class="process-math">\(\sim\)</span> dep</td></tr>
-</table></div> <div class="para logical" id="sec-Using_equations-2-4">
+<section class="introduction" id="sec-Using_equations-2"><div class="para" id="sec-Using_equations-2-1">The Cadillac Escalade is a cross between a sports utility vehicle (SUV) and luxury car. Either way, it’s a big car. And it takes awhile to stop. One study showed that the 2010 Escalade traveling at 60 miles per hour takes about 144 feet to come to a complete stop from when the driver first hits the brakes. In fact, the braking distance of any car depends on how fast it is going. If someone is driving slowly they can stop in shorter distance than if they are driving fast. Which is why you should drive slowly on residential streets.</div> <div class="para logical" id="sec-Using_equations-2-2">
+<div class="para">We would like to be able to calculate the braking distances at other speeds, so our two variables are</div>
+<div class="displaymath process-math" id="sec-Using_equations-2-2-1">
+\begin{align*}
+S \amp= \text{ speed (mph) } \sim \text{ indep} \\
+B \amp= \text{ braking distance (feet) } \sim \text{ dep} 
+\end{align*}
+</div>
 <div class="para">Using the data and equations from physics, automobile analysts were able to determine that the equation relating these two variables is</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -487,14 +489,14 @@ B=0.04S^2
 B = 0.04 \ast S^2
 \end{equation*}
 </div>
-</div> <div class="para" id="sec-Using_equations-2-5">You may be a little surprised to see the variable <span class="process-math">\(S\)</span> <dfn class="terminology">squared</dfn> (raised to the 2nd power) or wonder what the number 0.04 means. This equation is not something we can figure out because it relies both on the data and knowledge of the physics involved. But, we can still work with this equation to find the braking distances at any speed. (If you must know, this equation is only approximate since things like tire and road conditions are a factor, but for what we want it is good enough.)</div> <div class="para" id="sec-Using_equations-2-6">Although in the last couple of sections we were able to find equations by generalizing examples, there are actually many different mathematical and statistical techniques for finding equations. A scientist might use lab experiments and some theory to figure it out. An economist might recognize that the equation fits a certain template because of the underlying economics. A store manager might know from years of experience that a certain equation works well to predict sales. It can be comforting to know where an equation comes from but whether we find an equation for ourselves or get it from an expert, we can use it to answer our questions and make predictions.</div> <div class="para logical" id="sec-Using_equations-2-7">
+</div> <div class="para" id="sec-Using_equations-2-3">You may be a little surprised to see the variable <span class="process-math">\(S\)</span> <dfn class="terminology">squared</dfn> (raised to the 2nd power) or wonder what the number 0.04 means. This equation is not something we can figure out because it relies both on the data and knowledge of the physics involved. But, we can still work with this equation to find the braking distances at any speed. (If you must know, this equation is only approximate since things like tire and road conditions are a factor, but for what we want it is good enough.)</div> <div class="para" id="sec-Using_equations-2-4">Although in the last couple of sections we were able to find equations by generalizing examples, there are actually many different mathematical and statistical techniques for finding equations. A scientist might use lab experiments and some theory to figure it out. An economist might recognize that the equation fits a certain template because of the underlying economics. A store manager might know from years of experience that a certain equation works well to predict sales. It can be comforting to know where an equation comes from but whether we find an equation for ourselves or get it from an expert, we can use it to answer our questions and make predictions.</div> <div class="para logical" id="sec-Using_equations-2-5">
 <div class="para">Now that we have an equation we should check the reported stopping distance at 60 mph. We have <span class="process-math">\(S=60\)</span> so we substitute 60 in place of <span class="process-math">\(S\)</span> in the equation to get</div>
 <div class="displaymath process-math">
 \begin{equation*}
 B = 0.04 \ast 60^2 = 0.04 \times \underline{60} \wedge 2 = 144 \text{ feet} \quad \checkmark
 \end{equation*}
 </div>
-</div> <div class="para" id="sec-Using_equations-2-8">Quick bit of terminology. When we know the independent variable, like <span class="process-math">\(S=60\)</span> and we substitute into the equation to find the dependent variable, like <span class="process-math">\(B\text{,}\)</span> we say we <dfn class="terminology">evaluate</dfn> the function <span class="process-math">\(B\)</span> at <span class="process-math">\(S=60\text{.}\)</span> You might have noticed that the 60 was underlined in the calculation above. In this book we underline the value of the independent variable when we are evaluating. That way it’s easier to see which numbers come from the equation and which number we’re plugging in. Feel free to do the same. Or not.</div> <div class="para logical" id="sec-Using_equations-2-9">
+</div> <div class="para" id="sec-Using_equations-2-6">Quick bit of terminology. When we know the independent variable, like <span class="process-math">\(S=60\)</span> and we substitute into the equation to find the dependent variable, like <span class="process-math">\(B\text{,}\)</span> we say we <dfn class="terminology">evaluate</dfn> the function <span class="process-math">\(B\)</span> at <span class="process-math">\(S=60\text{.}\)</span> You might have noticed that the 60 was underlined in the calculation above. In this book we underline the value of the independent variable when we are evaluating. That way it’s easier to see which numbers come from the equation and which number we’re plugging in. Feel free to do the same. Or not.</div> <div class="para logical" id="sec-Using_equations-2-7">
 <div class="para">Let’s use our equation to calculate the braking distance for a Cadillac Escalade traveling 30, 50, 70 or 90 miles per hour. For 30 miles per hour, we have <span class="process-math">\(S=30\text{.}\)</span> So, we evaluate at <span class="process-math">\(S=30\)</span> to get</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -545,7 +547,7 @@ B = 0.04 \ast 0^2 = 0.04\times \underline{0} \wedge 2 = 0 \text{ feet}
 <td class="c m b1 r1 l0 t0 lines">196</td>
 <td class="c m b1 r1 l0 t0 lines">324</td>
 </tr>
-</table></div> <div class="para" id="sec-Using_equations-2-11">My neighbor Jeff happens to drive a 2010 Cadillac Escalade. The other day he almost was in an accident on the highway. Luckily no one was hurt, but he had to slam on the brakes to stop. The police report mentioned they believe it took his car 183 feet to stop. Jeff says he was not driving over the posted speed limit of 65 mph. Should we believe him?</div> <div class="para logical" id="sec-Using_equations-2-12">
+</table></div> <div class="para" id="sec-Using_equations-2-9">My neighbor Jeff happens to drive a 2010 Cadillac Escalade. The other day he almost was in an accident on the highway. Luckily no one was hurt, but he had to slam on the brakes to stop. The police report mentioned they believe it took his car 183 feet to stop. Jeff says he was not driving over the posted speed limit of 65 mph. Should we believe him?</div> <div class="para logical" id="sec-Using_equations-2-10">
 <div class="para">We can see from the table that braking distance of 183 feet falls in between the 144 and 196 on our table which leads us to believe that Jeff was traveling faster than 60 mph and slower than 70 mph. We can figure out if Jeff were driving at 65 mph, then his braking distance would have been</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -553,15 +555,16 @@ B = 0.04 \ast 65^2 = 0.04\times \underline{65} \wedge 2 = 169 \text{ feet}
 \end{equation*}
 </div>
 <div class="para">That’s less than the 183 feet Jeff took to stop. So, it appears that Jeff was driving faster than 65 mph.</div>
-</div> <div class="para" id="sec-Using_equations-2-13">But wait a minute. The braking distance is just the time it takes from when the driver’s foot hits the brake until the car stops. That distance doesn’t take into account the driver’s reaction time - how long between when the driver thinks to stop and when the driver’s foot actually hits the brake. We have a new dependent variable</div> <div class="tabular-box natural-width"><table class="tabular">
-<tr><td class="l m b0 r0 l0 t0 lines">
-<span class="process-math">\(D=\)</span> total stopping distance (feet) <span class="process-math">\(\sim\)</span> dep</td></tr>
-<tr><td class="l m b0 r0 l0 t0 lines">
-<span class="process-math">\(S=\)</span> speed (mph) <span class="process-math">\(\sim\)</span> indep <em class="emphasis">as before</em>
-</td></tr>
-</table></div> <div class="para logical" id="sec-Using_equations-2-15">
+</div> <div class="para logical" id="sec-Using_equations-2-11">
+<div class="para">But wait a minute. The braking distance is just the time it takes from when the driver’s foot hits the brake until the car stops. That distance doesn’t take into account the driver’s reaction time - how long between when the driver thinks to stop and when the driver’s foot actually hits the brake. We have a new dependent variable</div>
+<div class="displaymath process-math" id="sec-Using_equations-2-11-1">
+\begin{align*}
+D \amp= \text{ total stopping distance distance (feet) } \sim \text{ dep} \\
+S \amp= \text{ speed (mph) } \sim \text{ indep} 
+\end{align*}
+</div>
 <div class="para">How can we include this reaction time into an equation? Suppose it takes 1 second to react. We would like to know how many feet that adds to the equation. This is something we can figure out. We know the speed and the time, so multiply them to get the distance, right? One small snag: the speed is in mph (miles per hour). We need to convert units.</div>
-<div class="displaymath process-math" id="sec-Using_equations-2-15-1">
+<div class="displaymath process-math" id="sec-Using_equations-2-11-2">
 \begin{align*}
 1 \cancel{\text{ sec}} \ast 
 \frac{1 \cancel{\text{ min}}}{60 \cancel{\text{ sec}}} \ast 
@@ -583,7 +586,7 @@ B = 0.04 \ast 65^2 = 0.04\times \underline{65} \wedge 2 = 169 \text{ feet}
 D=0.04S^2+1.47S
 \end{equation*}
 </div>
-</div> <div class="para logical" id="sec-Using_equations-2-16">
+</div> <div class="para logical" id="sec-Using_equations-2-12">
 <div class="para">Something interesting about this equation. The independent variable <span class="process-math">\(S\)</span> appears twice; first for the braking distance and again because of the reaction time. When we evaluate the equation we need to plug in the value of <span class="process-math">\(S\)</span> in two places. Check it out. When <span class="process-math">\(S=30\)</span> mph we have</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -616,7 +619,7 @@ D = 0.04 \ast  50^2 +1.47\ast 50 =  0.04\times \underline{50} \wedge 2 +1.47\tim
 <td class="c m b1 r1 l0 t0 lines">299</td>
 <td class="c m b1 r1 l0 t0 lines">456</td>
 </tr>
-</table></div> <div class="para logical" id="sec-Using_equations-2-18">
+</table></div> <div class="para logical" id="sec-Using_equations-2-14">
 <div class="para">These numbers make us rethink Jeff’s assertion. Given that he stopped in 183 feet, which is much less than the 232 feet it takes to stop at 60 mph, it looks like Jeff was driving less than 60 mph. To be sure, calculate that at 65 mph, it would have taken Jeff</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -624,7 +627,7 @@ D = 0.04 \ast  65^2 + 1.47 \ast  65  = 0.04\times \underline{65} \wedge 2+ 1.47\
 \end{equation*}
 </div>
 <div class="para">Again, we should believe Jeff. And, be glad nobody was hurt.</div>
-</div> <div class="para" id="sec-Using_equations-2-19">A quick glance at the graph confirms our findings.</div> <div class="para" id="sec-Using_equations-2-20"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/cadillacBRAKESTOP.png" class="contained"></div></div> <div class="para" id="sec-Using_equations-2-21">The distance of 183 feet falls just above the unlabeled gridline for 175 and below the gridline for 200. Looking at the corresponding point on the braking distance curve, it looks like it falls around 67 mph, but looking at the corresponding point on the stopping distance curve, it looks like just over 50 mph.</div> <div class="para logical" id="sec-Using_equations-2-22">
+</div> <div class="para" id="sec-Using_equations-2-15">A quick glance at the graph confirms our findings.</div> <div class="para" id="sec-Using_equations-2-16"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/cadillacBRAKESTOP.png" class="contained"></div></div> <div class="para" id="sec-Using_equations-2-17">The distance of 183 feet falls just above the unlabeled gridline for 175 and below the gridline for 200. Looking at the corresponding point on the braking distance curve, it looks like it falls around 67 mph, but looking at the corresponding point on the stopping distance curve, it looks like just over 50 mph.</div> <div class="para logical" id="sec-Using_equations-2-18">
 <div class="para">By the way, our first equation</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -637,7 +640,7 @@ B = 0.04 \ast S^2
 \begin{equation*}
 \text{dep} = k \ast \text{indep}^{n}
 \end{equation*}
-</div></div></article> <div class="para logical" id="sec-Using_equations-2-24">
+</div></div></article> <div class="para logical" id="sec-Using_equations-2-20">
 <div class="para">Our second equation</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -650,7 +653,7 @@ D=0.04S^2 + 1.47S
 \begin{equation*}
 \text{dep} = a \ast \text{indep}^2 + b \ast\text{indep} + c
 \end{equation*}
-</div></div></article> <div class="para" id="sec-Using_equations-2-26">For our equation <span class="process-math">\(a=0.04\text{,}\)</span> <span class="process-math">\(b=1.47\text{,}\)</span> and the mysteriously missing <span class="process-math">\(c=0\text{.}\)</span>
+</div></div></article> <div class="para" id="sec-Using_equations-2-22">For our equation <span class="process-math">\(a=0.04\text{,}\)</span> <span class="process-math">\(b=1.47\text{,}\)</span> and the mysteriously missing <span class="process-math">\(c=0\text{.}\)</span>
 </div></section><section class="conclusion" id="sec-Using_equations-3"><h3 class="heading">Do you know ….<span></span>
 </h3> <div class="para logical" id="sec-Using_equations-3-2"><ol class="upper-alpha" id="sec-Using_equations-3-2-1">
 <li id="sec-Using_equations-3-2-1-1"><div class="para" id="sec-Using_equations-3-2-1-1-1">What it means to “evaluate” a function?</div></li>

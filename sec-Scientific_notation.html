@@ -469,24 +469,18 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Scientific_notation"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">0.8</span><span class="space"> </span><span class="title">Prelude: Scientific notation</span>
 </h2>
-<section class="introduction" id="sec-Scientific_notation-2"><div class="para" id="sec-Scientific_notation-2-1">Tara is working on a big project at work. She wants to back up her files to her online drop box. The site says she has 72 GB of memory remaining. Tara has about 200 files at an average of 42.3 MB each that she would like to upload. Will she have room?</div> <div class="para" id="sec-Scientific_notation-2-2">To answer Tara’s question we need to know that GB is short for “gigabyte” and MB is short for “megabyte.” A <dfn class="terminology">byte</dfn> is a very small unit of computer memory storage space just enough for about one letter. You may have heard the word “mega” used to mean “really big.” There’s a reason for that. <dfn class="terminology">Mega</dfn> is short for 1 million. That’s pretty big. But <dfn class="terminology">giga</dfn> stands for 1 billion, so that’s even bigger. So, really</div> <div class="tabular-box natural-width"><table class="tabular">
-<tr>
-<td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">megabyte</dfn></td>
-<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(=\)</span></td>
-<td class="l m b0 r0 l0 t0 lines">1 <dfn class="terminology">million bytes</dfn>
-</td>
-<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(=\)</span></td>
-<td class="r m b0 r0 l0 t0 lines"><span class="process-math">\(1{,}000{,}000\text{ bytes}\)</span></td>
-</tr>
-<tr>
-<td class="l m b0 r0 l0 t0 lines"><dfn class="terminology">gigabyte</dfn></td>
-<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(=\)</span></td>
-<td class="l m b0 r0 l0 t0 lines">1 <dfn class="terminology">billion bytes</dfn>
-</td>
-<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(=\)</span></td>
-<td class="r m b0 r0 l0 t0 lines"><span class="process-math">\(1{,}000{,}000{,}000\text{ bytes}\)</span></td>
-</tr>
-</table></div> <div class="para logical" id="sec-Scientific_notation-2-4">
+<section class="introduction" id="sec-Scientific_notation-2"><div class="para" id="sec-Scientific_notation-2-1">Tara is working on a big project at work. She wants to back up her files to her online drop box. The site says she has 72 GB of memory remaining. Tara has about 200 files at an average of 42.3 MB each that she would like to upload. Will she have room?</div> <div class="para logical" id="sec-Scientific_notation-2-2">
+<div class="para">To answer Tara’s question we need to know that GB is short for “gigabyte” and MB is short for “megabyte.” A <dfn class="terminology">byte</dfn> is a very small unit of computer memory storage space just enough for about one letter. You may have heard the word “mega” used to mean “really big.” There’s a reason for that. <dfn class="terminology">Mega</dfn> is short for 1 million. That’s pretty big. But <dfn class="terminology">giga</dfn> stands for 1 billion, so that’s even bigger. So, really</div>
+<div class="displaymath process-math" id="sec-Scientific_notation-2-2-8">
+\begin{align*}
+\textbf{megabyte} \amp= \amp 
+1 \textbf{ million bytes} \amp=\amp
+1{,}000{,}000\text{ bytes}\\
+\textbf{gigabyte} \amp= \amp 
+1 \textbf{ billion bytes} \amp=\amp
+1{,}000{,}000{,}000\text{ bytes}
+\end{align*}
+</div>
 <div class="para">What all this means is Tara has</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -500,14 +494,14 @@ window.MathJax = {
 \end{equation*}
 </div>
 <div class="para">which is really</div>
-<div class="displaymath process-math" id="sec-Scientific_notation-2-4-3">
+<div class="displaymath process-math" id="sec-Scientific_notation-2-2-11">
 \begin{align*}
 8{,}460\text{ MB} \amp= 8{,}460\text{ million bytes} = 8{,}460{,}000{,}000 \text{ bytes} \\
 \amp= 8.46 \text{ billion bytes} = 8.46 \text{ GB } 
 \end{align*}
 </div>
 <div class="para">So Tara wants to store less than 9 GB of information and she has 72 GB remaining. She has plenty of room. Save away!</div>
-</div> <div class="para" id="sec-Scientific_notation-2-5">Really large numbers, like 8,460,000,000, are awkward to read and awkward to work with. Words like million and billion or metric prefixes (words like mega and giga) allow us to rewrite these large numbers in a way that’s much easier both to read and to work with. There’s another option that’s used often in the sciences (and by your calculator). To explain it we need to understand powers of 10.</div> <div class="para logical" id="sec-Scientific_notation-2-6">
+</div> <div class="para" id="sec-Scientific_notation-2-3">Really large numbers, like 8,460,000,000, are awkward to read and awkward to work with. Words like million and billion or metric prefixes (words like mega and giga) allow us to rewrite these large numbers in a way that’s much easier both to read and to work with. There’s another option that’s used often in the sciences (and by your calculator). To explain it we need to understand powers of 10.</div> <div class="para logical" id="sec-Scientific_notation-2-4">
 <div class="para">Perhaps you know what happens when we multiply a number by 10, like <span class="process-math">\(5 \times 10 = 50\)</span> or, more appropriate to our example,</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -527,21 +521,21 @@ window.MathJax = {
 \end{equation*}
 </div>
 <div class="para">Each <span class="process-math">\(\times 10\)</span> has the effect of moving the decimal point one place to the right so <span class="process-math">\(\times 1{,}000\)</span> has the same effect as multiplying by 10 three times, so the decimal point moves three places to the right. That means</div>
-<div class="displaymath process-math" id="sec-Scientific_notation-2-6-8">
+<div class="displaymath process-math" id="sec-Scientific_notation-2-4-8">
 \begin{align*}
 8{,}460{,}000{,}000 \amp = 8.46
 \underbrace{\hbox{$\times 10 \times 10  \times 10  \times 10  \times 10  \times 10  \times 10  \times 10  \times 10 $}}_{\text{9 times}}\\
 \amp=8.46 \ast 10^9 
 \end{align*}
 </div>
-</div> <div class="para logical" id="sec-Scientific_notation-2-7">
+</div> <div class="para logical" id="sec-Scientific_notation-2-5">
 <div class="para">This shorthand is called <dfn class="terminology">scientific notation</dfn>. The base is always 10. The exponent is always a whole number. The number out front, like 8.46 in our example, is always between 1 and 10, which means there’s exactly one digit before the decimal point (and any others must come afterwards). It is customary to use <span class="process-math">\(\times\)</span> instead of <span class="process-math">\(\ast\)</span> in scientific notation, so we should write</div>
 <div class="displaymath process-math">
 \begin{equation*}
 8.46\times10^9
 \end{equation*}
 </div>
-</div> <div class="para logical" id="sec-Scientific_notation-2-8">
+</div> <div class="para logical" id="sec-Scientific_notation-2-6">
 <div class="para">As another example, we saw earlier that</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -554,7 +548,7 @@ window.MathJax = {
 5 \times 10 \wedge 3 = 5000
 \end{equation*}
 </div>
-</div> <div class="para logical" id="sec-Scientific_notation-2-9">
+</div> <div class="para logical" id="sec-Scientific_notation-2-7">
 <div class="para">Back to our large number. Enter</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -562,7 +556,7 @@ window.MathJax = {
 \end{equation*}
 </div>
 <div class="para">What do you see? Some calculators correctly show <span class="process-math">\(8{,}460{,}000{,}000\)</span> while other calculators report the number back in scientific notation, which is not particularly useful. (Sigh.)</div>
-</div> <div class="para logical" id="sec-Scientific_notation-2-10">
+</div> <div class="para logical" id="sec-Scientific_notation-2-8">
 <div class="para">Let’s try a number so big that (nearly) every calculator will switch to scientific notation. Enter</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -583,14 +577,14 @@ window.MathJax = {
 2.7 \times 10^{30}
 \end{equation*}
 </div>
-</div> <div class="para logical" id="sec-Scientific_notation-2-11">
+</div> <div class="para logical" id="sec-Scientific_notation-2-9">
 <div class="para">Interested in what that number is in our usual decimal notation? It’s</div>
 <div class="displaymath process-math">
 \begin{equation*}
 2, \underbrace{ \hbox{$700{,}000{,}000{,}000{,}000{,}000{,}000{,}000{,}000{,}000 $}}_{\text{decimal point moves 30 places}}
 \end{equation*}
 </div>
-</div> <div class="para" id="sec-Scientific_notation-2-12">Enough of that. Poor Tara is pulling her hair out over this project. Well, not literally, but she is quite frustrated over how slowly the project is going. She wonders: how thick is a human hair?</div> <div class="para" id="sec-Scientific_notation-2-13">Turns out that a typical human hair is about <span class="process-math">\(0.00012\)</span> meters across. Very small numbers are also awkward to read and awkward to work with. In this section, we write <span class="process-math">\(0.000~12\)</span> where we insert a space to help you read the number.</div> <div class="para logical" id="sec-Scientific_notation-2-14">
+</div> <div class="para" id="sec-Scientific_notation-2-10">Enough of that. Poor Tara is pulling her hair out over this project. Well, not literally, but she is quite frustrated over how slowly the project is going. She wonders: how thick is a human hair?</div> <div class="para" id="sec-Scientific_notation-2-11">Turns out that a typical human hair is about <span class="process-math">\(0.00012\)</span> meters across. Very small numbers are also awkward to read and awkward to work with. In this section, we write <span class="process-math">\(0.000~12\)</span> where we insert a space to help you read the number.</div> <div class="para logical" id="sec-Scientific_notation-2-12">
 <div class="para">We can also describe really small numbers using scientific notation. Perhaps you know what happens when we divide a number by 10, like <span class="process-math">\(50 \div 10 = 5\)</span> or, more appropriate to our example,</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -610,7 +604,7 @@ window.MathJax = {
 \end{equation*}
 </div>
 <div class="para">and so dividing by 1,000,000 moves the decimal point six places to the left. Notice that we have to introduce zeros as placeholders.</div>
-</div> <div class="para logical" id="sec-Scientific_notation-2-15">
+</div> <div class="para logical" id="sec-Scientific_notation-2-13">
 <div class="para">The width of a hair was 0.00012 meters. To get that number from 1.2, we need to move the decimal point 4 places to the left.</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -630,14 +624,14 @@ window.MathJax = {
 \end{equation*}
 </div>
 <div class="para">Use your calculator to check!</div>
-</div> <div class="para logical" id="sec-Scientific_notation-2-16">
+</div> <div class="para logical" id="sec-Scientific_notation-2-14">
 <div class="para">Once again we have scientific notation. The base is still 10. The exponent is still a whole number, although now it’s negative. The number out front, like 1.2 in our example, is still between 1 and 10, which means there’s exactly one digit before the decimal point (and any others must come afterwards). As before, we’ll write <span class="process-math">\(\times\)</span> instead of <span class="process-math">\(\ast\)</span> to get:</div>
 <div class="displaymath process-math">
 \begin{equation*}
 1.2 \times 10^{-4}
 \end{equation*}
 </div>
-</div> <div class="para" id="sec-Scientific_notation-2-17">When you see a number written in scientific notation, the power of 10 tells you a lot. For example, we saw that <span class="process-math">\(8.46 \times 10^ 9 = 8{,}460{,}000{,}000\)</span> and <span class="process-math">\(1.2 \times10^{-4} = 0.000~12\text{.}\)</span> A positive power of 10 says you have a big number, and a negative power of 10 says you’re dealing with a very small number.</div></section><section class="conclusion" id="sec-Scientific_notation-3"><h3 class="heading">Do you know ….<span></span>
+</div> <div class="para" id="sec-Scientific_notation-2-15">When you see a number written in scientific notation, the power of 10 tells you a lot. For example, we saw that <span class="process-math">\(8.46 \times 10^ 9 = 8{,}460{,}000{,}000\)</span> and <span class="process-math">\(1.2 \times10^{-4} = 0.000~12\text{.}\)</span> A positive power of 10 says you have a big number, and a negative power of 10 says you’re dealing with a very small number.</div></section><section class="conclusion" id="sec-Scientific_notation-3"><h3 class="heading">Do you know ….<span></span>
 </h3> <div class="para logical" id="sec-Scientific_notation-3-2"><ol class="upper-alpha" id="sec-Scientific_notation-3-2-1">
 <li id="sec-Scientific_notation-3-2-1-1"><div class="para" id="sec-Scientific_notation-3-2-1-1-1">What million, billion, and trillion mean?</div></li>
 <li id="sec-Scientific_notation-3-2-1-2"><div class="para" id="sec-Scientific_notation-3-2-1-2-1">Why scientific notation is used?</div></li>

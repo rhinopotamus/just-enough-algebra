@@ -478,12 +478,12 @@ window.MathJax = {
 \end{equation*}
 </div>
 <div class="para">The variables are</div>
-</div> <div class="tabular-box natural-width"><table class="tabular">
-<tr><td class="l m b0 r0 l0 t0 lines">
-<span class="process-math">\(C=\)</span> obese children (out of every ten) <span class="process-math">\(\sim\)</span> dep</td></tr>
-<tr><td class="l m b0 r0 l0 t0 lines">
-<span class="process-math">\(Y =\)</span> year (years since 1994) <span class="process-math">\(\sim\)</span> indep</td></tr>
-</table></div> <div class="para logical" id="sec-Growth_factor-2-5">
+<div class="displaymath process-math" id="sec-Growth_factor-2-3-2">
+\begin{align*}
+C \amp= \text{ obese children (out of every ten) } \sim \text{ dep} \\
+Y \amp= \text{ time (years since 1994) } \sim \text{ indep} 
+\end{align*}
+</div>
 <div class="para">The starting amount is 1.1 children out of every ten in 1994 so our equation is of the form</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -491,15 +491,15 @@ C = 1.1 \ast g^Y
 \end{equation*}
 </div>
 <div class="para">Trouble is we don’t actually know what the growth factor <span class="process-math">\(g\)</span> is. Yet.</div>
-</div> <div class="para logical" id="sec-Growth_factor-2-6">
+</div> <div class="para logical" id="sec-Growth_factor-2-4">
 <div class="para">We do know that in 2010 we have <span class="process-math">\(Y = 2010 - 1994 = 16\)</span> years and <span class="process-math">\(C = 2\text{.}\)</span> We can put those values into our equation to get</div>
 <div class="displaymath process-math">
 \begin{equation*}
 1.1 \ast g^{16}=2
 \end{equation*}
 </div>
-<div class="para">No good reason for switching sides, just wanted to have the variable on the left. That’s supposed to be true but we don’t know what number <span class="process-math">\(g\)</span> is so we can’t check. Argh.</div>
-</div> <div class="para logical" id="sec-Growth_factor-2-7">
+<div class="para">No particular reason for switching sides, just wanted to have the variable on the left. That’s supposed to be true but we don’t know what number <span class="process-math">\(g\)</span> is so we can’t check. Argh.</div>
+</div> <div class="para logical" id="sec-Growth_factor-2-5">
 <div class="para">Oh, wait a minute. The only unknown in that equation is the growth factor <span class="process-math">\(g\text{.}\)</span> What if we solve for <span class="process-math">\(g\text{?}\)</span> First, divide each side by 1.1 to get</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/root-formula.html">
 \begin{equation*}
@@ -518,7 +518,7 @@ g^{16} = \frac{2}{1.1} = 2 \div 1.1= 1.818181818\ldots
 g = \sqrt[n]{v} = \sqrt[16]{1.818181818} = 16 \sqrt[x]{~\text{  }} 1.818181818 = 1.038071653 \approx 1.0381
 \end{equation*}
 </div>
-</div> <div class="para logical" id="sec-Growth_factor-2-8">
+</div> <div class="para logical" id="sec-Growth_factor-2-6">
 <div class="para">Want a quicker way to find the growth factor? Forget the entire calculation we just did. It all boils down to two steps:</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -538,7 +538,7 @@ g =  \sqrt[16]{\frac{2}{1.1}} = 16 \sqrt[x]{~\text{  }} (2 \div 1.1)= 1.03807165
 \end{equation*}
 </div>
 <div class="para">Notice we added parentheses because the normal order of operations would do the root first and division second. We wanted the division calculated before the root.</div>
-</div> <div class="para" id="sec-Growth_factor-2-9">Here’s the easy version in a formula.</div> <article class="assemblage assemblage-like" id="growth-factor-formula"><h3 class="heading"><span class="title">Growth Factor Formula.</span></h3>
+</div> <div class="para" id="sec-Growth_factor-2-7">Here’s the easy version in a formula.</div> <article class="assemblage assemblage-like" id="growth-factor-formula"><h3 class="heading"><span class="title">Growth Factor Formula.</span></h3>
 <div class="para logical" id="growth-factor-formula-2">
 <div class="para">If a quantity is growing (or decaying) exponentially, then the growth (or decay) factor is</div>
 <div class="displaymath process-math">
@@ -547,7 +547,7 @@ g =  \sqrt[16]{\frac{2}{1.1}} = 16 \sqrt[x]{~\text{  }} (2 \div 1.1)= 1.03807165
 \end{equation*}
 </div>
 <div class="para">where <span class="process-math">\(s\)</span> is the starting amount and <span class="process-math">\(a\)</span> is the amount after <span class="process-math">\(t\)</span> time periods.</div>
-</div></article> <div class="para logical" id="sec-Growth_factor-2-11">
+</div></article> <div class="para logical" id="sec-Growth_factor-2-9">
 <div class="para">We knew from the beginning that our equation was in the form <span class="process-math">\(C = 1.1 \ast g^Y\text{.}\)</span> Now that we found the growth factor <span class="process-math">\(g \approx 1.0381\)</span> we get our final equation</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -560,7 +560,7 @@ C = 1.1 \ast 1.0381^Y
 C = 1.1 \ast 1.0381^{16} = 1.1 \times 1.0381 \wedge \underline{16} =  2.000874004 \approx 2 \quad \checkmark
 \end{equation*}
 </div>
-</div> <div class="para logical" id="sec-Growth_factor-2-12">
+</div> <div class="para logical" id="sec-Growth_factor-2-10">
 <div class="para">You might wonder why we didn’t just round off and use the equation</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -575,7 +575,7 @@ C = 1.1 \ast1.04^{16} = 1.1 \times 1.04 \wedge \underline{16} = 2.06027937 \appr
 </div>
 <div class="para">Not a big difference (2.1 vs. 2.0) but enough to encourage us to keep extra digits in the growth factor in our equation. Lesson here is: <em class="emphasis">don’t round off the growth factor too much.</em>
 </div>
-</div> <div class="para logical" id="sec-Growth_factor-2-13">
+</div> <div class="para logical" id="sec-Growth_factor-2-11">
 <div class="para">Back to the more reliable equation</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -589,7 +589,7 @@ C = 1.1 \ast 1.0381^{26} = 1.1 \times 1.0381 \wedge \underline{26} = 2.908115507
 \end{equation*}
 </div>
 <div class="para">According to our equation, by 2020 there would be approximately 2.9 obese children for every ten children.</div>
-</div> <div class="para logical" id="sec-Growth_factor-2-14">
+</div> <div class="para logical" id="sec-Growth_factor-2-12">
 <div class="para">The other question was what the annual percent increase is. Think back to an earlier example. Remember that Jocelyn was analyzing health care costs in Section 2.2? They began at $2.26 million and grew 6.7% per year. She had the equation</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -603,7 +603,7 @@ C = 1.1 \ast 1.0381^Y
 \end{equation*}
 </div>
 <div class="para">The growth factor of <span class="process-math">\(g=1.0381\)</span> in our equation must come must come from the growth rate <span class="process-math">\(r= 0.0381=3.81\%\text{.}\)</span> Think of it as converting to percent <span class="process-math">\(1.0381 = 103.81 \%\)</span> and then ignoring the 100% to see the 3.81% increase. Childhood obesity has increased around 3.81% each year. Well, on average.</div>
-</div> <div class="para" id="sec-Growth_factor-2-15">Here’s the general formula relating the growth rate and growth factor.</div> <article class="assemblage assemblage-like" id="percent-change-formula"><h3 class="heading"><span class="title">Percent Change Formula.</span></h3>
+</div> <div class="para" id="sec-Growth_factor-2-13">Here’s the general formula relating the growth rate and growth factor.</div> <article class="assemblage assemblage-like" id="percent-change-formula"><h3 class="heading"><span class="title">Percent Change Formula.</span></h3>
 <div class="para logical" id="percent-change-formula-2"><ul class="disc" id="percent-change-formula-2-1">
 <li id="percent-change-formula-2-1-1"><div class="para logical" id="percent-change-formula-2-1-1-1">
 <div class="para">If a quantity changes by a percentage corresponding to growth rate <span class="process-math">\(r\text{,}\)</span> then the growth factor is</div>
@@ -621,7 +621,7 @@ r = g-1
 \end{equation*}
 </div>
 </div></li>
-</ul></div></article> <div class="para logical" id="sec-Growth_factor-2-17">
+</ul></div></article> <div class="para logical" id="sec-Growth_factor-2-15">
 <div class="para">Let’s check. We have <span class="process-math">\(g=1.0381\)</span> and so the growth rate is</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -629,7 +629,7 @@ r=g-1 = 1.0381-1 = 0.0381= 3.81\%
 \end{equation*}
 </div>
 <div class="para">Not sure we really need these formulas, but there you have it.</div>
-</div> <div class="para logical" id="sec-Growth_factor-2-18">
+</div> <div class="para logical" id="sec-Growth_factor-2-16">
 <div class="para">By the way, formula works just fine if a quantity decreases by a fixed percent. One example we saw was Joe, who drank too much coffee. The growth (or should I say decay) factor was <span class="process-math">\(g=0.87\text{.}\)</span> That corresponds to a growth (decay) rate of</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -690,8 +690,7 @@ r=g-1=0.87-1=-0.83=-13\%
 <div class="para" id="grandfather-bonds-growth-factor-8-1-1">In what year will the bond be worth over $5,000? Set up and solve an equation to decide.</div></article><article class="task exercise-like" id="grandfather-bonds-growth-factor-9"><h5 class="heading"><span class="codenumber">(h)</span></h5>
 <div class="para" id="grandfather-bonds-growth-factor-9-1-1">Draw a graph using the data in the table, but not your answer to part (g). Include another year that is later than your answer to part (g).</div></article><article class="task exercise-like" id="grandfather-bonds-growth-factor-10"><h5 class="heading"><span class="codenumber">(i)</span></h5>
 <div class="para" id="grandfather-bonds-growth-factor-10-1-1">Does your answer to part (g) agree with your graph? If not, fix your work.</div></article></article><article class="exercise exercise-like" id="carbon-14-growth-factor"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
-<div class="introduction" id="carbon-14-growth-factor-1"><div class="para" id="carbon-14-growth-factor-1-1">Have you read news stories about archaeological digs where a specimen (like a bone) is found that dates back thousands of years? How do scientists know how old something is? One method uses the radioactive decay of carbon. After an animal dies the carbon-14 in its body very slowly decays. By comparing how much carbon-14 remains in the bone to how much carbon-14 should have been in the bone when the animal was alive, scientist can estimate how long the animal has been dead. Clever, huh? Actually, it is so clever that Willard Libby won the Nobel Prize in Chemistry for it. The key information to know is that the <dfn class="terminology">half-life</dfn> of carbon-14 (the amount of time it takes for half of the original amount of carbon-14 to decay) is about 5,730 years. For this problem, suppose a bone were found that should have contained 300 milligrams of carbon-14 when the animal was alive. <aside class="aside aside-like" id="carbon-14-growth-factor-1-1-2"><div class="para" id="carbon-14-growth-factor-1-1-2-1">Source: Wikipedia (Radiocarbon Dating)</div></aside>
-</div></div>
+<div class="introduction" id="carbon-14-growth-factor-1"><div class="para" id="carbon-14-growth-factor-1-1">Have you read news stories about archaeological digs where a specimen (like a bone) is found that dates back thousands of years? How do scientists know how old something is? One method uses the radioactive decay of carbon. <aside class="aside aside-like" id="carbon-14-growth-factor-1-1-1"><div class="para" id="carbon-14-growth-factor-1-1-1-1">Source: Wikipedia (Radiocarbon Dating)</div></aside> After an animal dies the carbon-14 in its body very slowly decays. By comparing how much carbon-14 remains in the bone to how much carbon-14 should have been in the bone when the animal was alive, scientist can estimate how long the animal has been dead. Clever, huh? Actually, it is so clever that Willard Libby won the Nobel Prize in Chemistry for it. The key information to know is that the <dfn class="terminology">half-life</dfn> of carbon-14 (the amount of time it takes for half of the original amount of carbon-14 to decay) is about 5,730 years. For this problem, suppose a bone were found that should have contained 300 milligrams of carbon-14 when the animal was alive.</div></div>
 <article class="task exercise-like" id="carbon-14-growth-factor-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="carbon-14-growth-factor-2-1-1">Find the annual “growth” factor. Keep at least six digits after the decimal place for your calculations.</div>
 <div class="solutions"><details id="carbon-14-growth-factor-2-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="carbon-14-growth-factor-2-2-1">If the bone started off with 300 mg of carbon-14, how much carbon-14 would be left after 5,730 years?</div></div></details></div></article><article class="task exercise-like" id="carbon-14-growth-factor-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>

@@ -469,20 +469,22 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Logistic_growth"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">5.5</span><span class="space"> </span><span class="title">Logistic and other growth models</span>
 </h2>
-<section class="introduction" id="sec-Logistic_growth-2"><div class="para" id="sec-Logistic_growth-2-1">A flu virus has been spreading through the college dormitories. Initially 8 students were diagnosed with the flu, but that number has been growing rapidly. After 2 weeks, there were 64 students with the flu. We are interested in predicting how many students will catch the flu over the next 6 weeks or so. To get a sense of scale, there are students currently living in the dorms.</div> <div class="para" id="sec-Logistic_growth-2-2">The variables are</div> <div class="tabular-box natural-width"><table class="tabular">
-<tr><td class="l m b0 r0 l0 t0 lines">
-<span class="process-math">\(D=\)</span> time since first cases (days) <span class="process-math">\(\sim\)</span> indep</td></tr>
-<tr><td class="l m b0 r0 l0 t0 lines">
-<span class="process-math">\(F=\)</span> total number of students with the flu (students) <span class="process-math">\(\sim\)</span> dep</td></tr>
-</table></div> <div class="para logical" id="sec-Logistic_growth-2-4">
-<div class="para">One model estimates that the number of students diagnosed with the flu was growing 16% per day. (If this story sounds familiar, it’s because the story also appears in the practice exercises 2.2 #3 and 5.1 #2.) The corresponding equation is</div>
-<div class="displaymath process-math">
+<section class="introduction" id="sec-Logistic_growth-2"><div class="para" id="sec-Logistic_growth-2-1">A flu virus has been spreading through the college dormitories. Initially 8 students were diagnosed with the flu, but that number has been growing rapidly. After 2 weeks, there were 64 students with the flu. We are interested in predicting how many students will catch the flu over the next 6 weeks or so. To get a sense of scale, there are 1,094 students currently living in the dorms.</div> <div class="para logical" id="sec-Logistic_growth-2-2">
+<div class="para">The variables are</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/flu-dorm-first-look-exponential.html ./knowl/xref/flu-dorm-modeling-exponential.html" id="sec-Logistic_growth-2-2-1">
+\begin{align*}
+F \amp= \text{ total number of students with the flu (students) } \sim \text{ dep} \\
+D \amp= \text{ time since first cases (days) } \sim \text{ indep} 
+\end{align*}
+</div>
+<div class="para">One model estimates that the number of students diagnosed with the flu was growing 16% per day. (If this story sounds familiar, it’s because the story also appears in the practice exercises <a href="sec-First_look_exponential.html#flu-dorm-first-look-exponential" class="xref" data-knowl="./knowl/xref/flu-dorm-first-look-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.2.3">2.2.3</a> and <a href="sec-Modeling_exponential_equations.html#flu-dorm-modeling-exponential" class="xref" data-knowl="./knowl/xref/flu-dorm-modeling-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 5.1.2">5.1.2</a>.) The corresponding equation is</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/flu-dorm-first-look-exponential.html ./knowl/xref/flu-dorm-modeling-exponential.html">
 \begin{equation*}
 \textbf{exponential:} \quad F = 8 \ast 1.16^D
 \end{equation*}
 </div>
 <div class="para">As a check, at 14 days there were</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/flu-dorm-first-look-exponential.html ./knowl/xref/flu-dorm-modeling-exponential.html">
 \begin{equation*}
 F = 8 \ast 1.16^{14} = 8 \times 1.16 \wedge \underline{14} = 63.900143\ldots \approx 64 \text{ students}
 \end{equation*}
@@ -510,7 +512,7 @@ F = 8 \ast 1.16^{14} = 8 \times 1.16 \wedge \underline{14} = 63.900143\ldots \ap
 <td class="c m b1 r1 l0 t0 lines">1,442</td>
 <td class="c m b1 r1 l0 t0 lines">4,077</td>
 </tr>
-</table></div> <div class="para" id="sec-Logistic_growth-2-6">While at first the exponential model seems reasonable, it quickly gets too large to make sense. After all, there are only students currently living in the dorms so the numbers we found at 5 and 6 weeks (also known as 35 and 42 days) are totally unrealistic. The exponential model is based on the assumption that the rate of change of the number of new cases is proportional to the number of <dfn class="terminology">infected</dfn> students: those who already have the flu.</div> <div class="para" id="sec-Logistic_growth-2-7">There are both advantages and disadvantages of the exponential model. To it’s credit, the exponential model captures the reality of the first few weeks, where the flu spreads very rapidly. But, the exponential model misses several basic facts. First, as more students catch the flu, the number of new cases decreases in part because sick people are already surrounded by sick people so there aren’t new people to get sick. Second, for whatever reasons, not everyone is going to catch the flu no matter how exposed they are. We would like to have an alternative model that keeps what works (rapid increase at first) but deals better with the long term (the growth slows down and not everyone catches the flu). There are two different models we consider that have these properties: saturation and logistic.</div> <div class="para" id="sec-Logistic_growth-2-8">The first example is a <dfn class="terminology">saturation</dfn> model. Basically it assumes that the rate of change of the number of new cases is proportional to the number of <dfn class="terminology">susceptible</dfn> students: those who are likely to catch the flu but haven’t already. Since at the beginning many susceptible students don’t have the flu, it spreads very quickly, even faster than the exponential does. But once most susceptible students have caught the flu, the number of new cases dwindles.</div> <div class="para logical" id="sec-Logistic_growth-2-9">
+</table></div> <div class="para" id="sec-Logistic_growth-2-4">While at first the exponential model seems reasonable, it quickly gets too large to make sense. After all, there are only 1,094 students currently living in the dorms so the numbers we found at 5 and 6 weeks (also known as 35 and 42 days) are totally unrealistic. The exponential model is based on the assumption that the rate of change of the number of new cases is proportional to the number of <dfn class="terminology">infected</dfn> students: those who already have the flu.</div> <div class="para" id="sec-Logistic_growth-2-5">There are both advantages and disadvantages of the exponential model. To its credit, the exponential model captures the reality of the first few weeks, where the flu spreads very rapidly. But, the exponential model misses several basic facts. First, as more students catch the flu, the number of new cases decreases in part because sick people are already surrounded by sick people so there aren’t new people to get sick. Second, for whatever reasons, not everyone is going to catch the flu no matter how exposed they are. We would like to have an alternative model that keeps what works (rapid increase at first) but deals better with the long term (the growth slows down and not everyone catches the flu). There are two different models we consider that have these properties: saturation and logistic.</div> <div class="para" id="sec-Logistic_growth-2-6">The first example is a <dfn class="terminology">saturation</dfn> model. Basically it assumes that the rate of change of the number of new cases is proportional to the number of <dfn class="terminology">susceptible</dfn> students: those who are likely to catch the flu but haven’t already. Since at the beginning many susceptible students don’t have the flu, it spreads very quickly, even faster than the exponential does. But once most susceptible students have caught the flu, the number of new cases dwindles.</div> <div class="para logical" id="sec-Logistic_growth-2-7">
 <div class="para">Leaving out the details of how we found it, a possible saturation equation for our example is</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -552,7 +554,7 @@ F = 96-88 \ast 0.93^{14} = 96 - 88 \times 0.93 \wedge \underline{14} =64.1401334
 <td class="c m b1 r1 l0 t0 lines">89</td>
 <td class="c m b1 r1 l0 t0 lines">92</td>
 </tr>
-</table></div> <div class="para" id="sec-Logistic_growth-2-11">The saturation model predicts that 92 students (total) will have (or have had) the flu over the next 6 weeks.</div> <div class="para" id="sec-Logistic_growth-2-12">The second example is a <dfn class="terminology">logistic</dfn> (or <dfn class="terminology">S-curve</dfn>) model. Basically it assumes that the rate of change of the number of new cases is jointly proportional to the number of infected students and the number of susceptible students. It acknowledges the heavy influence the number of infected students have initially on the growth, but balances it with the limiting influence of the diminishing number of susceptible students over time.</div> <div class="para logical" id="sec-Logistic_growth-2-13">
+</table></div> <div class="para" id="sec-Logistic_growth-2-9">The saturation model predicts that 92 students (total) will have (or have had) the flu over the next 6 weeks.</div> <div class="para" id="sec-Logistic_growth-2-10">The second example is a <dfn class="terminology">logistic</dfn> (or <dfn class="terminology">S-curve</dfn>) model. Basically it assumes that the rate of change of the number of new cases is jointly proportional to the number of infected students and the number of susceptible students. It acknowledges the heavy influence the number of infected students have initially on the growth, but balances it with the limiting influence of the diminishing number of susceptible students over time.</div> <div class="para logical" id="sec-Logistic_growth-2-11">
 <div class="para">It turns out that a possible logistic equation for our example is</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -595,7 +597,7 @@ F = \frac{129}{1+15\ast 0.825^{14}} = 129 \div ( 1 + 15 \times 0.825 \wedge \und
 <td class="c m b1 r1 l0 t0 lines">127</td>
 <td class="c m b1 r1 l0 t0 lines">128</td>
 </tr>
-</table></div> <div class="para" id="sec-Logistic_growth-2-15">The logistic model projects that 128 students (total) will have (or have had) the flu over the next 6 weeks, considerably more than projected by the saturation model.</div> <div class="para" id="sec-Logistic_growth-2-16">Here are all three models on the same graph.</div> <div class="para" id="sec-Logistic_growth-2-17"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/flumodels.png" class="contained"></div></div> <div class="para" id="sec-Logistic_growth-2-18">As you can see from the graph, both the saturation and logistic curves level off as expected. One way to estimate those <dfn class="terminology">limiting values</dfn> (or <dfn class="terminology">carrying capacity</dfn>) is to evaluate the functions at large values, say 60 days, 100 days, and (the unrealistic) days.</div> <div class="tabular-box natural-width"><table class="tabular">
+</table></div> <div class="para" id="sec-Logistic_growth-2-13">The logistic model projects that 128 students (total) will have (or have had) the flu over the next 6 weeks, considerably more than projected by the saturation model.</div> <div class="para" id="sec-Logistic_growth-2-14">Here are all three models on the same graph.</div> <div class="para" id="sec-Logistic_growth-2-15"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/flumodels.png" class="contained"></div></div> <div class="para" id="sec-Logistic_growth-2-16">As you can see from the graph, both the saturation and logistic curves level off as expected. One way to estimate those <dfn class="terminology">limiting values</dfn> (or <dfn class="terminology">carrying capacity</dfn>) is to evaluate the functions at large values, say 60 days, 100 days, and (the unrealistic) 1,000 days.</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(D\)</span></td>
 <td class="c m b1 r1 l0 t1 lines">60</td>
@@ -623,7 +625,7 @@ F = \frac{129}{1+15\ast 0.825^{14}} = 129 \div ( 1 + 15 \times 0.825 \wedge \und
 <td class="c m b1 r1 l0 t0 lines">128.99</td>
 <td class="c m b1 r1 l0 t0 lines">129.00</td>
 </tr>
-</table></div> <div class="para" id="sec-Logistic_growth-2-20">We crossed out the unrealistic values from the exponential equation. So, if the saturation model is accurate, then we should expect around 96 total cases. But, if the logistic model is accurate, then we should expect around 129 total cases instead.</div> <div class="para logical" id="sec-Logistic_growth-2-21">
+</table></div> <div class="para" id="sec-Logistic_growth-2-18">We crossed out the unrealistic values from the exponential equation. So, if the saturation model is accurate, then we should expect around 96 total cases. But, if the logistic model is accurate, then we should expect around 129 total cases instead.</div> <div class="para logical" id="sec-Logistic_growth-2-19">
 <div class="para">Look back at the equations:</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -679,7 +681,7 @@ H = \frac{200}{1+70\ast0.965^T}
 <div class="para" id="corn-growth-logistic-6-1-1">Add the graph of this function to your graph of the original equation on the previous problem. Again, include when <span class="process-math">\(T=0\text{.}\)</span>
 </div></article></article><article class="exercise exercise-like" id="fish-pond-logistic"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
 <div class="introduction" id="fish-pond-logistic-1"><div class="para logical" id="fish-pond-logistic-1-1">
-<div class="para">Back in 1975 when my aunt and uncle bought their house upstate New York, there was a small pond in the yard. They enlarged it and stocked it with 10 small fish. The number of fish <span class="process-math">\(F\)</span> increased over time, approximately according to the equation</div>
+<div class="para">Back in 1975 when my aunt and uncle bought their house in upstate New York, there was a small pond in the yard. They enlarged it and stocked it with 10 small fish. The number of fish <span class="process-math">\(F\)</span> increased over time, approximately according to the equation</div>
 <div class="displaymath process-math">
 \begin{equation*}
 F=\frac{1{,}000}{1+99 \ast 0.65^T}
@@ -759,22 +761,16 @@ W=15-11.5\ast0.932^M
 <div class="para"><em class="emphasis">Hint: first convert to pounds. Then convert just the decimal part to ounces.</em></div>
 </div></article><article class="task exercise-like" id="baby-weight-logistic-growth-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="baby-weight-logistic-growth-4-1-1">The equation is valid for <span class="process-math">\(0 \le M \le 36\text{,}\)</span> or up to three years old. Draw a graph that includes your points from earlier and the values at 3, 4, 5, and 6 years. Can you explain why the equation doesn’t make sense after around 3 years?</div></article></article><article class="exercise exercise-like" id="bass-fishing-logistic-growth"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
-<div class="introduction" id="bass-fishing-logistic-growth-1">
-<div class="para" id="bass-fishing-logistic-growth-1-1">The lake by Rodney’s condo was stocked with bass (fish) 10 years ago. There were initially 400 bass introduced. The carrying capacity of the lake is estimated at 4,000 bass. Two potential models for the number of bass (<span class="process-math">\(B\)</span>) over time, where <span class="process-math">\(Y\)</span> measures the years from when the lake was stocked 10 years ago are</div> <div class="tabular-box natural-width"><table class="tabular">
-<tr>
-<td class="l m b1 r1 l1 t1 lines"><dfn class="terminology">saturation:</dfn></td>
-<td class="l m b1 r1 l0 t1 lines"><span class="process-math">\(B=4{,}000-3{,}600\ast0.78^Y\)</span></td>
-</tr>
-<tr>
-<td class="l m b1 r1 l1 t0 lines"></td>
-<td class="l m b1 r1 l0 t0 lines"></td>
-</tr>
-<tr>
-<td class="l m b1 r1 l1 t0 lines"><dfn class="terminology">logistic:</dfn></td>
-<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(\displaystyle B=\frac{4{,}000}{1+9 \ast 0.78^Y}\)</span></td>
-</tr>
-</table></div> <div class="para" id="bass-fishing-logistic-growth-1-3"><em class="emphasis">(Story also appears in <a href="sec-Algebraic_notation.html#bass-fishing-algebraic-notation" class="xref" data-knowl="./knowl/xref/bass-fishing-algebraic-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.7.8">0.7.8</a> and <a href="sec-Solving_power_equations.html#bass-fishing-solving-power" class="xref" data-knowl="./knowl/xref/bass-fishing-solving-power.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.3.8">3.3.8</a>)</em></div>
+<div class="introduction" id="bass-fishing-logistic-growth-1"><div class="para logical" id="bass-fishing-logistic-growth-1-1">
+<div class="para">The lake by Rodney’s condo was stocked with bass (fish) 10 years ago. There were initially 400 bass introduced. The carrying capacity of the lake is estimated at 4,000 bass. Two potential models for the number of bass (<span class="process-math">\(B\)</span>) over time, where <span class="process-math">\(Y\)</span> measures the years from when the lake was stocked 10 years ago are</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/bass-fishing-algebraic-notation.html ./knowl/xref/bass-fishing-solving-power.html" id="bass-fishing-logistic-growth-1-1-3">
+\begin{align*}
+\textbf{saturation:}\qquad B\amp=4{,}000-3{,}600\ast0.78^Y \\
+\textbf{logistic:}\qquad B\amp=\frac{4{,}000}{1+9 \ast 0.78^Y} 
+\end{align*}
 </div>
+<div class="para"><em class="emphasis">(Story also appears in <a href="sec-Algebraic_notation.html#bass-fishing-algebraic-notation" class="xref" data-knowl="./knowl/xref/bass-fishing-algebraic-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.7.8">0.7.8</a> and <a href="sec-Solving_power_equations.html#bass-fishing-solving-power" class="xref" data-knowl="./knowl/xref/bass-fishing-solving-power.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.3.8">3.3.8</a>)</em></div>
+</div></div>
 <article class="task exercise-like" id="bass-fishing-logistic-growth-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="bass-fishing-logistic-growth-2-1-1">Make a table showing the bass population projected by each model, including 10 years ago, now, in 10 more years, in 20 more years, and in 30 more years.</div></article><article class="task exercise-like" id="bass-fishing-logistic-growth-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="bass-fishing-logistic-growth-3-1-1">Draw a graph showing both curves.</div></article><article class="task exercise-like" id="bass-fishing-logistic-growth-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
