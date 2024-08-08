@@ -78,19 +78,10 @@
 
 		<p>
 			We're so close to the equation now, we can smell it. Our variables are
-		</p>
-
-
-		<tabular>
-			<row class="odd">
-				<cell halign="left"><m>H=</m> health care costs ($ trillions) <m>\sim</m> dep</cell>
-			</row>
-			<row class="even">
-				<cell halign="left"><m>Y=</m> time (years since 2007) <m>\sim</m> indep</cell>
-			</row>
-		</tabular>
-
-		<p>
+			<md>
+				<mrow>H \amp= \text{ health care costs (\$ trillions) } \sim \text{ dep} </mrow>
+				<mrow>Y \amp= \text{ time (years since 2007) } \sim \text{ indep} </mrow>
+			</md>
 			We just found the cost after 10 years was <me> \$2.26 \ast 1.067^{10}\approx \$4.32 \text{ trillion}</me> We can generalize to get the equation by putting in <m>Y</m> (instead of 10) and <m>H</m> (instead of $4.32 trillion). When we do we get <me>2.26  \ast 1.067^{Y} = H</me> Rewriting the equation to begin with the dependent variable we get <me>H = 2.26\ast 1.067^{Y}</me> By the way, there are two other standard ways of writing this equation <me>H= 2.26(1.067)^{Y} \quad \text{ and } \quad H = 2.26\left(1.067^{Y}\right)</me>
 		</p>
 

@@ -11,26 +11,18 @@
 
 		<p>
 			To answer Tara's question we need to know that GB is short for <q>gigabyte</q> and MB is short for <q>megabyte.</q> A <term>byte</term> is a very small unit of computer memory storage space just enough for about one letter. You may have heard the word <q>mega</q> used to mean <q>really big.</q> There's a reason for that. <term>Mega</term> is short for 1 million. That's pretty big. But <term>giga</term> stands for 1 billion, so that's even bigger. So, really
-		</p>
-
-		<tabular>
-			<row class="odd">
-				<cell halign="left"><term>megabyte</term></cell>
-				<cell halign="center"><m>=</m></cell>
-				<cell halign="left">1 <term>million bytes</term></cell>
-				<cell halign="center"><m>=</m></cell>
-				<cell halign="right"><m>1{,}000{,}000\text{ bytes}</m></cell>
-			</row>
-			<row class="even">
-				<cell halign="left"><term>gigabyte</term></cell>
-				<cell halign="center"><m>=</m></cell>
-				<cell halign="left">1 <term>billion bytes</term></cell>
-				<cell halign="center"><m>=</m></cell>
-				<cell halign="right"><m>1{,}000{,}000{,}000\text{ bytes}</m></cell>
-			</row>
-		</tabular>
-
-		<p>
+			<md>
+				<mrow>
+					\textbf{megabyte} \amp= \amp 
+					1 \textbf{ million bytes} \amp=\amp
+					1{,}000{,}000\text{ bytes}
+				</mrow>
+				<mrow>
+					\textbf{gigabyte} \amp= \amp 
+					1 \textbf{ billion bytes} \amp=\amp
+					1{,}000{,}000{,}000\text{ bytes}
+				</mrow>
+			</md>
 			What all this means is Tara has <me>72\text{ GB} = 72 \text{ billion bytes} = 72{,}000{,}000{,}000 \text{ bytes}</me> of memory remaining. She would like to save 200 files at 42.3 MB each which comes to <me>200 \times 42.3 = 8{,}460\text{ MB}</me> which is really 
 			<md>
 				<mrow> 8{,}460\text{ MB} \amp= 8{,}460\text{ million bytes} = 8{,}460{,}000{,}000 \text{ bytes} </mrow>

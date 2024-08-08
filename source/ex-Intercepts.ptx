@@ -207,7 +207,7 @@
 			
 	
 			<tabular bottom="minor" top="minor">
-				<row left="minor" class="odd">
+				<row left="minor" header="yes">
 					<cell right="minor" halign="center">Name</cell>
 					<cell right="minor" halign="center">Yannick</cell>
 					<cell right="minor" halign="center">Olga</cell>

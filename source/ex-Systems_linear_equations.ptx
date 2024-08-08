@@ -64,22 +64,20 @@
 			<introduction>
 				<p>
 					A mug of coffee costs $3.45 at Juan's favorite cafe, unless he buys their discount card for $10 in which case a mug costs $2.90. Or, he can buy a membership for $59.99 and then coffee is only $1/mug. If we let <m>M</m> represent the number of mugs of coffee he buys and <m>T</m> represent the total cost in dollars, then the equations are:
-					<tabular>
-						<row>
-							<cell><em>No card:</em></cell>
-							<cell><m>T=3.45M</m></cell>
-						</row>
-						<row>
-							<cell><em>With card:</em></cell>
-							<cell><m>T=10.00+2.90M</m></cell>
-						</row>
-						<row>
-							<cell><em>Member:</em></cell>
-							<cell><m>T=59.99+1.00M</m></cell>
-						</row>
-					</tabular>
-				</p>
-				<p>
+					<md>
+						<mrow>
+							\textit{No card: } \qquad  
+							T \amp= 3.45M
+						</mrow>
+						<mrow>
+							\textit{With card: } \qquad  
+							T \amp= 10.00 + 2.90M
+						</mrow>
+						<mrow>
+							\textit{Membership: } \qquad  
+							T \amp= 59.99 + 1.00 M
+						</mrow>
+					</md>
 					<em>
 						(Story also appears in 
 						<xref ref="juan-coffee-order-operations" />, 
@@ -193,18 +191,16 @@
 			<introduction>
 				<p>
 					Ahmed planted two shrubs in the backyard on May 1. The viburnum was 16.9 inches tall and expected to grow 0.4 inches each week this summer. The weigela was 20.3 inches tall but only expected to grow 0.2 inches per week. If we let <m>S</m> represent the total height of the shrub in inches after <m>T</m> weeks, then the equations are:
-				</p>
-				<tabular>
-					<row class="odd">
-						<cell halign="left"><term>Viburnum:</term></cell>
-						<cell halign="left"><m>S=16.9+0.4T</m></cell>
-					</row>
-					<row class="even">
-						<cell halign="left"><term>Weigela:</term></cell>
-						<cell halign="left"><m>S=20.3+0.2T</m></cell>
-					</row>
-				</tabular>
-				<p>
+					<md>
+						<mrow>
+							\textbf{Viburnum:} \qquad 
+							S \amp= 16.9 + 0.4T
+						</mrow>
+						<mrow>
+							\textbf{Weigela:} \qquad 
+							S \amp= 20.3 + 0.2T
+						</mrow>
+					</md>
 					<em component="not-workbook">(Story also appears in <xref ref="check-linear-modeling-linear"/>)</em>
 					<em component="workbook">(Story also appears in <xref ref="sec-Modeling_linear_equations"/> Exercises)</em>
 				</p>
@@ -338,20 +334,16 @@
 		<introduction>
 			<p>
 				Just when Quia Xun thought she had things figured out, another possible option emerged. She can outsource her lock production to a different plant at the cost of $1.55 per lock. While that's more expensive per lock, it avoids having to buy a machine at all. Recall her first two options were
-			</p>
-
-			<tabular>
-				<row class="odd">
-					<cell halign="left"><term>Machine #1:</term></cell>
-					<cell halign="left"><m>E  =3{,}200 + 1.25 L</m></cell>
-				</row>
-				<row class="even">
-					<cell halign="left"><term>Machine #2:</term></cell>
-					<cell halign="left"><m>E  =5{,}400 + 0.80 L</m></cell>
-				</row>
-			</tabular>
-			
-			<p>
+				<md>
+					<mrow>
+						\textbf{Machine 1: } \qquad  
+						E\amp= 3{,}200 + 1.25 L 
+					</mrow>
+					<mrow>
+						\textbf{Machine 2: } \qquad  
+						E\amp= 5{,}400 + 0.80 L 
+					</mrow>
+				</md>
 				where <m>E</m> is the total expenditure to produce <m>L</m> locks on that machine.
 			</p>
 		</introduction>	
@@ -366,7 +358,7 @@
 		<task>
 			<statement>
 				<p>
-					For what number of locks does outsourcing make financial sense versus Machine #1? Set up and solve a system of equations.
+					For what number of locks does outsourcing make financial sense versus Machine 1? Set up and solve a system of equations.
 				</p>
 			</statement>
 		</task>
@@ -374,7 +366,7 @@
 		<task>
 			<statement>
 				<p>
-					Repeat for Machine #2.
+					Repeat for Machine 2.
 				</p>
 			</statement>
 		</task>
@@ -469,19 +461,17 @@
 		<introduction>
 			<p>
 				The community center offers exercise classes on a pay-as-you-go basis. It normally costs $20 to register and then $15 per exercise class. Alternatively, you can pay $150 to become a member, and then $10 per exercise class. If we let <m>E</m> represent the number of exercise classes I attend and <m>T</m> represent the total cost in dollars, then the equations are:
+				<md>
+					<mrow>
+						\textbf{Pay as you go:} \qquad  
+						T \amp= 20 + 15E
+					</mrow>
+					<mrow>
+						\textbf{Member} \qquad  
+						T \amp= 150 + 10E
+					</mrow>
+				</md>
 			</p>
-			
-	
-			<tabular>
-				<row class="odd">
-					<cell halign="left"><term>Pay as-you-go:</term></cell>
-					<cell halign="left"><m>T = 20 + 15E</m></cell>
-				</row>
-				<row class="even">
-					<cell halign="left"><term>Member:</term></cell>
-					<cell halign="left"><m>T= 150 + 10E</m></cell>
-				</row>
-			</tabular>
 		</introduction>	
 		<task>
 			<statement>
@@ -528,21 +518,16 @@
 		<introduction>
 			<p>
 				The weekly supply <m>S</m> and demand <m>D</m> for corn-on-the-cob (in hundreds) at a local market are given by the equations
-			</p>
-			
-	
-			<tabular>
-				<row class="odd">
-					<cell halign="left"><term>Supply:</term></cell>
-					<cell halign="left"><m>S = 1.5P+6</m></cell>
-				</row>
-				<row class="even">
-					<cell halign="left"><term>Demand:</term></cell>
-					<cell halign="left"><m>D= 11 - 0.9P</m></cell>
-				</row>
-			</tabular>
-			
-			<p>
+				<md>
+					<mrow>
+						\textbf{Supply:} \qquad  
+						S \amp= 1.5P+6
+					</mrow>
+					<mrow>
+						\textbf{Demand:} \qquad  
+						D \amp= 11 - 0.9P
+					</mrow>
+				</md>
 				where <m>P</m> is the price per unit, in dollars per dozen.
 			</p>
 		</introduction>	
@@ -575,21 +560,16 @@
 		<introduction>
 			<p>
 				A solar heating system costs approximately $30,000 to install and $150 per year to run. By comparison, a gas heating system costs approximately $12,000 to install and $700 per year to run. Earlier we wrote equations showing how the total cost $<m>T</m> depends on the time, <m>Y</m> years.
-			</p>
-			
-	
-			<tabular>
-				<row class="odd">
-					<cell halign="left"><term>Solar:</term></cell>
-					<cell halign="left"><m>T  =30{,}000 + 150Y</m></cell>
-				</row>
-				<row class="even">
-					<cell halign="left"><term>Gas:</term></cell>
-					<cell halign="left"><m>T  = 12{,}000 + 700Y</m></cell>
-				</row>
-			</tabular>
-			
-			<p>
+				<md>
+					<mrow>
+						\textbf{Solar:} \qquad  
+						T \amp= 30{,}000 + 150Y
+					</mrow>
+					<mrow>
+						\textbf{Gas:} \qquad  
+						T \amp= 12{,}000 + 700Y 
+					</mrow>
+				</md>
 				<em>(Story also appears in <xref ref="solar-heating-modeling-linear"/>)</em>
 			</p>
 		</introduction>	

@@ -180,18 +180,9 @@
 
 		<p>
 			To see what's happening we want to involve powers of 10. Scientific notation will do that for us. Let's write these numbers in scientific notation and see what we learn. For example. <me>25{,}000 = 2.5 \times 10^4 \text{ and } \log( 25{,}000)=4.3979\ldots \approx 4</me> We are back to the power of 10. Well, approximately. Let's check another number.
-		</p>
-
-
-		<tabular>
-			<row class="odd">
-				<cell halign="left"><m>250=2.5 \times 10^2</m></cell>
-				<cell halign="center">and</cell>
-				<cell halign="left"><m>\log(250)=2.3979\ldots \approx 2</m></cell>
-			</row>
-		</tabular>
-
-		<p>
+			<me>
+				250 = 2.5 \times 10^2 \qquad \text{ and } \log(250) = 2.3979\ldots \approx 2
+			</me>
 			Before we write down a general rule, let's check more numbers.
 			<md>
 				<mrow>

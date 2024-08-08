@@ -82,19 +82,10 @@
 
 		<p>
 			What's changing are the number of cigarettes smoked per person per year and the year. Those are our variables. The smoking rate is a function of year, and it's what we care about, so it's the dependent variable. Time, as measured in years, is the independent variable.
-		</p>
-
-
-		<tabular>
-			<row >
-				<cell  halign="left"><m>S=</m> smoking rate (cigarettes per year per person) <m>\sim</m> dep</cell>
-			</row>
-			<row >
-				<cell halign="left"><m>Y=</m> year (years since 1900) <m>\sim</m> indep</cell>
-			</row>
-		</tabular>
-
-		<p>
+			<md>
+				<mrow>S \amp= \text{ smoking rate (cigarettes per year per person) } \sim \text{ dep} </mrow>
+				<mrow>Y \amp= \text{ year (years since 1900) } \sim \text{ indep} </mrow>
+			</md>
 			Quick note on how we deal with actual years. Since the year 0 doesn't make sense in this problem, it is convenient to measure time in years since 1900, since that's the earliest year mentioned. Officially we should rewrite our table as:
 		</p>
 
@@ -102,16 +93,16 @@
 		<tabular bottom="minor" top="minor">
 			<row left="minor" class="odd">
 				<cell right="minor" halign="center"><m>Y</m></cell>
-				<cell right="minor" halign="center">1900</cell>
-				<cell right="minor" halign="center">1915</cell>
-				<cell right="minor" halign="center">1930</cell>
-				<cell right="minor" halign="center">1940</cell>
-				<cell right="minor" halign="center">1950</cell>
-				<cell right="minor" halign="center">1965</cell>
-				<cell right="minor" halign="center">1975</cell>
-				<cell right="minor" halign="center">1990</cell>
-				<cell right="minor" halign="center">2000</cell>
-				<cell right="minor" halign="center">2006</cell>
+				<cell right="minor" halign="center">0</cell>
+				<cell right="minor" halign="center">15</cell>
+				<cell right="minor" halign="center">30</cell>
+				<cell right="minor" halign="center">40</cell>
+				<cell right="minor" halign="center">50</cell>
+				<cell right="minor" halign="center">65</cell>
+				<cell right="minor" halign="center">75</cell>
+				<cell right="minor" halign="center">90</cell>
+				<cell right="minor" halign="center">00</cell>
+				<cell right="minor" halign="center">06</cell>
 			</row>
 			<row left="minor" class="odd">
 				<cell right="minor" halign="center"><m>S</m></cell>
@@ -187,9 +178,6 @@
 				</tabular>
 			</stack>
 		</sidebyside>
-
-
-	<!-- Example horizontal table layout and vertical table layout -->
 
 		<p>
 			Tables are useful because they contain specific numbers, but it can be difficult to guess or see general trends. For that, a picture is worth a thousand words - or numbers, in this case. By <q>picture</q> we mean a graph of the function.
