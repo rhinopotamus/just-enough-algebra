@@ -20,24 +20,15 @@
 
 		<p>
 			Because we are told obesity is increasing exponentially we can use the template for an exponential equation. <me>\text{dep }=\text{ start } \ast \text{growth factor}^{\text{indep}}</me> The variables are
-		</p>
-
-
-		<tabular>
-			<row class="odd">
-				<cell halign="left"><m>C=</m> obese children (out of every ten) <m>\sim</m> dep</cell>
-			</row>
-			<row class="even">
-				<cell halign="left"><m>Y =</m> year (years since 1994) <m>\sim</m> indep</cell>
-			</row>
-		</tabular>
-
-		<p>
+			<md>
+				<mrow>C \amp= \text{ obese children (out of every ten) } \sim \text{ dep} </mrow>
+				<mrow>Y \amp= \text{ time (years since 1994) } \sim \text{ indep} </mrow>
+			</md>
 			The starting amount is 1.1 children out of every ten in 1994 so our equation is of the form <me>C = 1.1 \ast g^Y</me> Trouble is we don't actually know what the growth factor <m>g</m> is. Yet.
 		</p>
 
 		<p>
-			We do know that in 2010 we have <m>Y = 2010 - 1994 = 16</m> years and <m>C = 2</m>. We can put those values into our equation to get <me>1.1 \ast g^{16}=2</me> No good reason for switching sides, just wanted to have the variable on the left. That's supposed to be true but we don't know what number <m>g</m> is so we can't check. Argh.
+			We do know that in 2010 we have <m>Y = 2010 - 1994 = 16</m> years and <m>C = 2</m>. We can put those values into our equation to get <me>1.1 \ast g^{16}=2</me> No particular reason for switching sides, just wanted to have the variable on the left. That's supposed to be true but we don't know what number <m>g</m> is so we can't check. Argh.
 		</p>
 
 		<p>

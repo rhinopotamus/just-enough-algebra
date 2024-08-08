@@ -6,25 +6,20 @@
 	<title component="workbook">Logistic and other growth models - Practice exercises</title>
 	<introduction component="not-workbook">
 		<p>
-			A flu virus has been spreading through the college dormitories. Initially 8 students were diagnosed with the flu, but that number has been growing rapidly. After 2 weeks, there were 64 students with the flu. We are interested in predicting how many students will catch the flu over the next 6 weeks or so. To get a sense of scale, there are students currently living in the dorms.
+			A flu virus has been spreading through the college dormitories. Initially 8 students were diagnosed with the flu, but that number has been growing rapidly. After 2 weeks, there were 64 students with the flu. We are interested in predicting how many students will catch the flu over the next 6 weeks or so. To get a sense of scale, there are 1,094 students currently living in the dorms.
 		</p>
 
 		<p>
 			The variables are
-		</p>
-
-
-		<tabular>
-			<row class="odd">
-				<cell halign="left"><m>D=</m> time since first cases (days) <m>\sim</m> indep</cell>
-			</row>
-			<row class="even">
-				<cell halign="left"><m>F=</m> total number of students with the flu (students) <m>\sim</m> dep</cell>
-			</row>
-		</tabular>
-
-		<p>
-			One model estimates that the number of students diagnosed with the flu was growing 16% per day. (If this story sounds familiar, it's because the story also appears in the practice exercises 2.2 #3 and 5.1 #2.) The corresponding equation is <me>\textbf{exponential:} \quad F = 8 \ast 1.16^D</me> As a check, at 14 days there were <me>F = 8 \ast 1.16^{14} = 8 \times 1.16 \wedge \underline{14} = 63.900143\ldots \approx 64 \text{ students}</me> We rounded the numbers in our table to the nearest person.
+			<md>
+				<mrow>F \amp= \text{ total number of students with the flu (students) } \sim \text{ dep} </mrow>
+				<mrow>D \amp= \text{ time since first cases (days) } \sim \text{ indep} </mrow>
+			</md>
+			One model estimates that the number of students diagnosed with the flu was growing 16% per day. 
+			(If this story sounds familiar, it's because the story also appears in the practice exercises 
+			<xref ref="flu-dorm-first-look-exponential"/> and
+			<xref ref="flu-dorm-modeling-exponential"/>.) 
+			The corresponding equation is <me>\textbf{exponential:} \quad F = 8 \ast 1.16^D</me> As a check, at 14 days there were <me>F = 8 \ast 1.16^{14} = 8 \times 1.16 \wedge \underline{14} = 63.900143\ldots \approx 64 \text{ students}</me> We rounded the numbers in our table to the nearest person.
 		</p>
 
 
@@ -52,11 +47,11 @@
 		</tabular>
 
 		<p>
-			While at first the exponential model seems reasonable, it quickly gets too large to make sense. After all, there are only students currently living in the dorms so the numbers we found at 5 and 6 weeks (also known as 35 and 42 days) are totally unrealistic. The exponential model is based on the assumption that the rate of change of the number of new cases is proportional to the number of <term>infected</term> students: those who already have the flu.
+			While at first the exponential model seems reasonable, it quickly gets too large to make sense. After all, there are only 1,094 students currently living in the dorms so the numbers we found at 5 and 6 weeks (also known as 35 and 42 days) are totally unrealistic. The exponential model is based on the assumption that the rate of change of the number of new cases is proportional to the number of <term>infected</term> students: those who already have the flu.
 		</p>
 
 		<p>
-			There are both advantages and disadvantages of the exponential model. To it's credit, the exponential model captures the reality of the first few weeks, where the flu spreads very rapidly. But, the exponential model misses several basic facts. First, as more students catch the flu, the number of new cases decreases in part because sick people are already surrounded by sick people so there aren't new people to get sick. Second, for whatever reasons, not everyone is going to catch the flu no matter how exposed they are. We would like to have an alternative model that keeps what works (rapid increase at first) but deals better with the long term (the growth slows down and not everyone catches the flu). There are two different models we consider that have these properties: saturation and logistic.
+			There are both advantages and disadvantages of the exponential model. To its credit, the exponential model captures the reality of the first few weeks, where the flu spreads very rapidly. But, the exponential model misses several basic facts. First, as more students catch the flu, the number of new cases decreases in part because sick people are already surrounded by sick people so there aren't new people to get sick. Second, for whatever reasons, not everyone is going to catch the flu no matter how exposed they are. We would like to have an alternative model that keeps what works (rapid increase at first) but deals better with the long term (the growth slows down and not everyone catches the flu). There are two different models we consider that have these properties: saturation and logistic.
 		</p>
 
 		<p>
@@ -64,7 +59,9 @@
 		</p>
 
 		<p>
-			Leaving out the details of how we found it, a possible saturation equation for our example is <me>\textbf{saturation:} \quad F=96-88\ast0.93^D</me> As a check, initially there were <me>F = 96-88 \ast 0.93^0 = 96 - 88 \times 0.93 \wedge \underline{0} = 8 \text{ students} \quad \checkmark</me> and at 14 days there were <me>F = 96-88 \ast 0.93^{14} = 96 - 88 \times 0.93 \wedge \underline{14} =64.1401334\ldots \approx 64 \quad \checkmark</me> We rounded the numbers in our table to the nearest person.
+			Leaving out the details of how we found it, a possible saturation equation for our example is 
+			<me>\textbf{saturation:} \quad F=96-88\ast0.93^D</me> 
+			As a check, initially there were <me>F = 96-88 \ast 0.93^0 = 96 - 88 \times 0.93 \wedge \underline{0} = 8 \text{ students} \quad \checkmark</me> and at 14 days there were <me>F = 96-88 \ast 0.93^{14} = 96 - 88 \times 0.93 \wedge \underline{14} =64.1401334\ldots \approx 64 \quad \checkmark</me> We rounded the numbers in our table to the nearest person.
 		</p>
 
 
@@ -142,7 +139,7 @@
 		</p>
 
 		<p>
-			As you can see from the graph, both the saturation and logistic curves level off as expected. One way to estimate those <term>limiting values</term> (or <term>carrying capacity</term>) is to evaluate the functions at large values, say 60 days, 100 days, and (the unrealistic) days.
+			As you can see from the graph, both the saturation and logistic curves level off as expected. One way to estimate those <term>limiting values</term> (or <term>carrying capacity</term>) is to evaluate the functions at large values, say 60 days, 100 days, and (the unrealistic) 1,000 days.
 		</p>
 
 

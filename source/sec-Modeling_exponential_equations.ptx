@@ -19,18 +19,10 @@
 
 		<p>
 			Let's write the equation to answer these questions. The variables should be
-		</p>
-
-		<tabular>
-			<row class="odd">
-				<cell halign="left"><m>S=</m> value of sterling ($) <m>\sim</m> dep</cell>
-			</row>
-			<row class="even">
-				<cell halign="left"><m>Y =</m> time (years since 1920) <m>\sim</m> indep</cell>
-			</row>
-		</tabular>
-
-		<p>
+			<md>
+				<mrow>S \amp= \text{ value of sterling (\$) } \sim \text{ dep} </mrow>
+				<mrow>Y \amp= \text{ time (years since 1920) } \sim \text{ indep} </mrow>
+			</md>
 			We're saying that the sterling increased 3% per year in value. For example, in 1921, the sterling was worth <me>\$800 + 3\% \text{ of } \$800 = 800 + 0.03 \times 800 = 800 + 24= \$824</me> Remember the shortcut here? <me>800 \times 1.03 = 824</me> The idea is after one year we have the original $800 plus 3% more for a grand total of 103% of what we had before. And 103% = 1.03.
 		</p>
 
@@ -78,9 +70,9 @@
 				<cell right="minor" halign="center">800</cell>
 				<cell right="minor" halign="center">824</cell>
 				<cell right="minor" halign="center">927</cell>
-				<cell right="minor" halign="center">2{,}388</cell>
-				<cell right="minor" halign="center">6{,}334</cell>
-				<cell right="minor" halign="center">13{,}262</cell>
+				<cell right="minor" halign="center">2,388</cell>
+				<cell right="minor" halign="center">6,334</cell>
+				<cell right="minor" halign="center">13,262</cell>
 			</row>
 		</tabular>
 
@@ -89,7 +81,7 @@
 		</p>
 
 		<p>
-			Actually, the insurance policy allows for up to $20{,}000. The curve we drew suggests that the value will be $20{,}000 just past <m>Y=100</m> (the year 2020), probably somewhere around <m>Y=110</m> (the year 2030).
+			Actually, the insurance policy allows for up to $20,000. The curve we drew suggests that the value will be $20,000 just past <m>Y=100</m> (the year 2020), probably somewhere around <m>Y=110</m> (the year 2030).
 		</p>
 
 		<p>
@@ -113,13 +105,13 @@
 			</row>
 			<row left="minor" class="even">
 				<cell right="minor" halign="center"><m>S</m></cell>
-				<cell right="minor" halign="center">15{,}375</cell>
-				<cell right="minor" halign="center">20{,}663</cell>
-				<cell right="minor" halign="center">20{,}061</cell>
-				<cell right="minor" halign="center">19{,}476</cell>
+				<cell right="minor" halign="center">15,375</cell>
+				<cell right="minor" halign="center">20,663</cell>
+				<cell right="minor" halign="center">20,061</cell>
+				<cell right="minor" halign="center">19,476</cell>
 			</row>
 			<row left="minor" class="odd">
-				<cell right="minor" halign="center">vs. 20{,}000</cell>
+				<cell right="minor" halign="center">vs. 20,000</cell>
 				<cell right="minor" halign="center">low</cell>
 				<cell right="minor" halign="center">high</cell>
 				<cell right="minor" halign="center">high</cell>
@@ -132,7 +124,7 @@
 		</p>
 
 		<p>
-			Of course, we can solve the exponential equation instead. To find when <m>S= 20{,}000</m> we use our equation <m>S = 800 \ast 1.03^Y</m> to get <me>800 \ast 1.03^Y =  20{,}000</me> Divide each side by 800 to get <me>\frac{\cancel{800} \ast 1.03^Y}{\cancel{800}} = \frac{ 20{,}000}{800}</me> and so <me>1.03^Y = \frac{ 20{,}000}{800}  =  20{,}000 \div {800} = 25</me> Since we want to solve for the exponent, we use the <xref ref="log-divides-formula" text="title"/> with growth factor <m>g=1.03</m> and the value <m>v= 25</m> to get <me>Y =  \frac{\log (v)}{\log(g)} =  \frac{\log (25)}{\log(1.03)} = \log (25) \div \log (1.03) = 108.89737 \approx 109</me> We rounded up to make sure it would reach the full $20{,}000. Since 1920 + 109 = 2029, we see (again) that the value should reach $20{,}000 in the year 2029.
+			Of course, we can solve the exponential equation instead. To find when <m>S= 20{,}000</m> we use our equation <m>S = 800 \ast 1.03^Y</m> to get <me>800 \ast 1.03^Y =  20{,}000</me> Divide each side by 800 to get <me>\frac{\cancel{800} \ast 1.03^Y}{\cancel{800}} = \frac{ 20{,}000}{800}</me> and so <me>1.03^Y = \frac{ 20{,}000}{800}  =  20{,}000 \div {800} = 25</me> Since we want to solve for the exponent, we use the <xref ref="log-divides-formula" text="title"/> with growth factor <m>g=1.03</m> and the value <m>v= 25</m> to get <me>Y =  \frac{\log (v)}{\log(g)} =  \frac{\log (25)}{\log(1.03)} = \log (25) \div \log (1.03) = 108.89737 \approx 109</me> We rounded up to make sure it would reach the full $20,000. Since 1920 + 109 = 2029, we see (again) that the value should reach $20,000 in the year 2029.
 		</p>
 
 		<p>
@@ -140,7 +132,7 @@
 		</p>
 
 		<p>
-			Were we supposed to get different numbers here? Well, the graph's not a line and it's not a linear equation. That tells us the rate of change isn't going to be constant. So, sure, different numbers are fine. Does it make sense that the rate of change would itself increase? That the value increases at an increasing rate? Yes. Although we are always just adding on 3%, we're taking 3% of larger numbers each year. So more is added each year.
+			Were we supposed to get different numbers here? Well, the graph's not a straight line and it's not a linear equation. That tells us the rate of change isn't going to be constant. So, sure, different numbers are fine. Does it make sense that the rate of change would itself increase? That the value increases at an increasing rate? Yes. Although we are always just adding on 3%, we're taking 3% of larger numbers each year. So more is added each year.
 		</p>
 	</introduction>	
 

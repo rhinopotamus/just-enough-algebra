@@ -11,18 +11,10 @@
 
 		<p>
 			We can describe the variables in this story.
-		</p>
-
-		<tabular>
-			<row class="odd">
-				<cell halign="left"><m>M =</m> mileage (thousand miles) <m>\sim</m> indep</cell>
-			</row>
-			<row class="even">
-				<cell halign="left"><m>C=</m> value of car ($) <m>\sim</m> dep</cell>
-			</row>
-		</tabular>
-
-		<p>
+			<md>
+				<mrow>M \amp= \text{ mileage (thousand miles) } \sim \text{ dep} </mrow>
+				<mrow>C \amp= \text{ value of car (\$) } \sim \text{ indep} </mrow>
+			</md>
 			Notice we are measuring the mileage in thousands. The information we are given is
 		</p>
 
@@ -45,15 +37,17 @@
 
 		<p>
 			First, linear. The template is 
-			<assemblage>
-				<title>Linear Equation Template</title>
-				<p>
-					<me>
-						\text{dep} = \text{start} + \text{slope} \ast \text{indep}
-					</me>
-				</p>
-			</assemblage> 
-			The starting value of Sofía's car is $22,500 so we just need to find the slope. We expect the slope to be negative because her car is worth less the more she drives it. 
+		</p>
+		<assemblage>
+			<title>Linear Equation Template</title>
+			<p>
+				<me>
+					\text{dep} = \text{start} + \text{slope} \ast \text{indep}
+				</me>
+			</p>
+		</assemblage> 
+		<p>
+			The starting value of Sofía's car is $22,500 so we just need to find the slope. We expect the slope to be negative because her car is worth less the more she drives it.
 			<md>
 				<mrow>\text{slope} \amp = \text{rate of change} = \frac{\text{change dep}}{\text{change indep}} </mrow>
 				<mrow> \amp = \frac{\$5{,}700-\$22{,}500}{109 \text{ thousand miles} - 0 \text{ thousand miles}} =   \frac{-\$16{,}800}{109\text{ thousand miles}}</mrow>
@@ -72,12 +66,14 @@
 
 		<p>
 			Next, let's take a look at the exponential model. Here goes. The template is 
-			<assemblage>
-				<title>Exponential Equation Template</title>
-				
-				
-				<p><me>\text{dep} = \text{start} \ast \text{growth factor} ^ {\text{indep}}</me></p>
-			</assemblage>
+	</p>
+		<assemblage>
+			<title>Exponential Equation Template</title>
+			
+			
+			<p><me>\text{dep} = \text{start} \ast \text{growth factor} ^ {\text{indep}}</me></p>
+		</assemblage>
+		<p>
 			We know everything except the growth factor. We expect it to be less than 1 because her car is worth less the more she drives it. Perhaps we should say <q>decay</q> factor here since the function is decreasing. The starting amount is <m>s=22{,}500</m> and the ending amount is <m>a=5{,}700</m> after <m>t=109</m> thousand miles. Using the <xref ref="growth-factor-formula" text="title"/> we have 
 			<md>
 				<mrow>g \amp = \sqrt[t]{\frac{a}{s}} = \sqrt[109]{\frac{5{,}700}{22{,}500}} </mrow>

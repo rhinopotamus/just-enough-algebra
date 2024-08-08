@@ -63,7 +63,8 @@
 		<exercise xml:id="flu-dorm-modeling-exponential" workspace="1.2in">
 			<introduction>
 				<p>
-					A flu virus has been spreading through the college dormitories. Initially 8 students were diagnosed with the flu, but that number has been growing 16% per day. Earlier we found the equation <me>N=8 \ast1.16^T</me> where <m>T</m> is the time in days (since the first diagnosis) and <m>N</m> is the total number of students who had the flu. <em>(Story also appears in <xref ref="flu-dorm-first-look-exponential"/> and 5.5 textbook)</em>
+					A flu virus has been spreading through the college dormitories. Initially 8 students were diagnosed with the flu, but that number has been growing 16% per day. Earlier we found the equation <me>N=8 \ast1.16^T</me> where <m>T</m> is the time in days (since the first diagnosis) and <m>N</m> is the total number of students who had the flu. 
+					<em>(Story also appears in <xref ref="flu-dorm-first-look-exponential"/> and <xref ref="sec-Logistic_growth" text="type-global" />)</em>
 				</p>
 			</introduction>
 			<task>
@@ -145,8 +146,9 @@
 		<exercise xml:id="greenhouse-co2-modeling-exponential" workspace="1.4in">
 			<introduction>
 				<p>
-					Carbon dioxide is a greenhouse gas in our atmosphere. Increasing carbon dioxide concentrations are related to global climate change. In 1980, the carbon dioxide concentration was 338 ppm (parts per million). At that time it was assumed that carbon dioxide concentrations would increase 0.42% per year.
+					Carbon dioxide is a greenhouse gas in our atmosphere. Increasing carbon dioxide concentrations are related to global climate change. 
 					<aside><p>Source: Earth Systems Research Laboratory, NOAA</p></aside>
+					In 1980, the carbon dioxide concentration was 338 ppm (parts per million). At that time it was assumed that carbon dioxide concentrations would increase 0.42% per year.
 				</p>
 			</introduction>
 			<task>
@@ -217,13 +219,13 @@
 		<introduction>
 			<p>
 				Mrs. Nystrom's Social Security benefit was $746.17/month when she retired from teaching in 2009. She had taught in elementary school since I was a girl. Benefits have increased by 4% per year. 
-				<em>
-					(Story also appears in 
-					<xref ref="social-security-arithmetic-operations"/>,
-					<xref ref="social-security-variables-functions"/> and 
-					<xref ref="social-security-tables-graphs"/>)
-				</em>
 			</p>
+			<p><em>
+				(Story also appears in 
+				<xref ref="social-security-arithmetic-operations"/>,
+				<xref ref="social-security-variables-functions"/> and 
+				<xref ref="social-security-tables-graphs"/>)
+			</em></p>
 		</introduction>	
 		<task>
 			<statement>
@@ -358,8 +360,9 @@
 	<exercise xml:id="um-archivo-modeling-exponential" component="not-workbook">
 		<introduction>
 			<p>
-				Um Archivo data consultant group reported earnings of $42.7 billion in 2012. At that time executives projected 17% increase in earnings annually. Based on that information, we wrote the equation <me>U = 42.7 \ast 1.17^Y</me> where <m>U</m> is Um Archivo's reported earnings (in $billions) and <m>Y</m> is the years since 2012. <em>(Story also appears in <xref ref="um-archivo-first-look-exponential"/>)</em>
+				Um Archivo data consultant group reported earnings of $42.7 billion in 2012. At that time executives projected 17% increase in earnings annually. Based on that information, we wrote the equation <me>U = 42.7 \ast 1.17^Y</me> where <m>U</m> is Um Archivo's reported earnings (in $billions) and <m>Y</m> is the years since 2012. 
 			</p>
+			<p><em>(Story also appears in <xref ref="um-archivo-first-look-exponential"/>)</em></p>
 		</introduction>	
 			<task>
 				<statement>

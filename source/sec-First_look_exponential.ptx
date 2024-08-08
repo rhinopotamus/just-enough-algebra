@@ -144,7 +144,7 @@
 		</p>
 
 		<assemblage xml:id="exp-eqn-template">
-			<title>Exponential equation template</title>
+			<title>Exponential Equation Template</title>
 			
 			
 			<p><me>\text{dep} = \text{start} \ast \text{growth factor} ^ {\text{indep}}</me></p>
