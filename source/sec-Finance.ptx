@@ -76,7 +76,7 @@
 		</p>
 
 		<p>
-			The acronymn <term>APR</term> stands for <term>annual percentage rate</term>. It means that 1.2% interest compounded monthly has the same net effect as paying 1.207% at the end of each year. where does that number come from? Imagine $1 in the account (<m>p=1</m>) for one year (<m>y=1</m>) with at 1.2% interest (so <m>r=0.012</m> again). Silly, yes, but watch what we learn. The balance from the <xref ref="compound-interest-formula" text="title"/> would be around $1.01207, as you can (and should) check. That means the annual growth factor is <m>g=1.01207</m> which corresponds to the equivalent of annual growth rate of <me>r=g-1=1.01207-1 = 0.01207 = 1.207\% \text{ APR}</me> There's a formula for this too.
+			The acronymn <term>APR</term> stands for <term>annual percentage rate</term>. It means that 1.2% interest compounded monthly has the same net effect as paying 1.207% at the end of each year. where does that number come from? Imagine $1 in the account (<m>p=1</m>) for one year (<m>y=1</m>) at 1.2% interest (so <m>r=0.012</m> again). Silly, yes, but watch what we learn. The balance from the <xref ref="compound-interest-formula" text="title"/> would be around $1.01207, as you can (and should) check. That means the annual growth factor is <m>g=1.01207</m> which corresponds to the equivalent of annual growth rate of <me>r=g-1=1.01207-1 = 0.01207 = 1.207\% \text{ APR}</me> There's a formula for this too.
 		</p>
 
 		<assemblage xml:id="equivalent-apr-formula">

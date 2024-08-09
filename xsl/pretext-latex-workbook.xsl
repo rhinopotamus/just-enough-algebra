@@ -1,29 +1,5 @@
 <?xml version='1.0'?>
 
-<!--********************************************************************
-Copyright 2020 Robert A. Beezer
-
-This file is part of PreTeXt.
-
-PreTeXt is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 2 or version 3 of the
-License (at your option).
-
-PreTeXt is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
-*********************************************************************-->
-
-<!-- This file isolates customizations for the PreText documentation,  -->
-<!-- The PreTeXt Guide, when produced as a PDF via LaTeX.  It is meant -->
-<!-- to be used only with the PreTeXt "book" element.  At inception,   -->
-<!-- 2019-11-07, it is not meant to yet be a general-purpose style.    -->
-
 <!-- Conveniences for classes of similar elements -->
 <!DOCTYPE xsl:stylesheet [
     <!ENTITY % entities SYSTEM "./core/entities.ent">
@@ -238,8 +214,10 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
 </xsl:template>
 
 <!-- kill trailing period on conclusions "When you're done ..." etc -->
+<!-- also kill for assemblages -->
 
-<xsl:template match="section/conclusion" mode="title-wants-punctuation">
+<xsl:template match="section/conclusion|assemblage" 
+              mode="title-wants-punctuation">
     <xsl:value-of select="false()"/>
 </xsl:template>
 

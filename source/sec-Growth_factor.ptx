@@ -65,7 +65,7 @@
 		</p>
 
 		<p>
-			The other question was what the annual percent increase is. Think back to an earlier example. Remember that Jocelyn was analyzing health care costs in Section 2.2? They began at $2.26 million and grew 6.7% per year. She had the equation <me>H=2.26\ast1.067^Y</me> So the growth factor <m>g=1.067</m> in the equation came from the growth rate <m>r=6.7\%=0.067</m>. Our equation modeling childhood obesity is <me>C = 1.1 \ast 1.0381^Y</me> The growth factor of <m>g=1.0381</m> in our equation must come must come from the growth rate <m>r= 0.0381=3.81\%</m>. Think of it as converting to percent <m>1.0381 = 103.81 \%</m> and then ignoring the 100% to see the 3.81% increase. Childhood obesity has increased around 3.81% each year. Well, on average.
+			The other question was what the annual percent increase is. Think back to an earlier example. Remember that Jocelyn was analyzing health care costs in Section 2.2? They began at $2.26 million and grew 6.7% per year. She had the equation <me>H=2.26\ast1.067^Y</me> So the growth factor <m>g=1.067</m> in the equation came from the growth rate <m>r=6.7\%=0.067</m>. Our equation modeling childhood obesity is <me>C = 1.1 \ast 1.0381^Y</me> The growth factor of <m>g=1.0381</m> in our equation must come from the growth rate <m>r= 0.0381=3.81\%</m>. Think of it as converting to percent <m>1.0381 = 103.81 \%</m> and then ignoring the 100% to see the 3.81% increase. Childhood obesity has increased around 3.81% each year. Well, on average.
 		</p>
 
 		<p>
