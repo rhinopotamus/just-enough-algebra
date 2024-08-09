@@ -124,8 +124,8 @@
 			<introduction>
 				<p>
 					If a person has a heart attack and their heart stops beating, the amount of time it takes paramedics to restart their heart with a defibrillator is critical. Each minute that passes decreases the person's chance of survival by 10%.
-					Assume that this statement means the decrease is exponential and that the survival rate is 100% if the defibrillator is used immediately.
 					<aside><p>Source: American Red Cross</p></aside>
+					Assume that this statement means the decrease is exponential and that the survival rate is 100% if the defibrillator is used immediately.
 				</p>
 			</introduction>
 			<task workspace="1in">
@@ -350,7 +350,7 @@
 	<exercise xml:id="wetlands-growth-decay" component="not-workbook">
 		<introduction>
 			<p>
-				One modern technique for cleaning waste water involves the use of constructed (man-made) wetlands. Wetlands act as a natural biofilter for various contaminants in the waste water. After each month in the wetlands, only about of the contaminants remain in any given sample. Suppose a sample had 8 grams of contaminants before processed in the constructed wetlands.
+				One modern technique for cleaning waste water involves the use of constructed (man-made) wetlands. Wetlands act as a natural biofilter for various contaminants in the waste water. After each month in the wetlands, only about of the contaminants remain in any given sample. Suppose a sample had 8 grams of contaminants before it was processed in the constructed wetlands.
 			</p>
 			<p>
 				<em>
@@ -386,7 +386,7 @@
 			<task>
 				<statement>
 					<p>
-						According to your equation, when will the contaminants fall below 1 mg? 1 <m>\mu</m>g? Remember <m>1 \text{ gram} = 1{,}000 \text{ mg}</m> and <m>1 \text{ gram} = 1{,}000{,}000\, \mu \text{g}</m>
+						According to your equation, when will the contaminants fall below 1 mg? 1 <m>\mu</m>g? Remember <m>1 \text{ gram} = 1{,}000 \text{ mg}</m> and <m>1 \text{ gram} = 1{,}000{,}000\, \mu \text{g}</m>.
 					</p>
 				</statement>
 			</task>
@@ -445,7 +445,7 @@
 	<exercise xml:id="food-shelf-growth-decay" component="not-workbook">
 		<introduction> 
 			<p>
-				Donations to a local food shelf have increased 35% over last year. There were 3,400 pounds of food donated last year. <em>Story also appears in 5.3 #4</em>
+				Donations to a local food shelf have increased 35% over last year. There were 3,400 pounds of food donated last year.
 			</p>
 			<p>
 				<em>

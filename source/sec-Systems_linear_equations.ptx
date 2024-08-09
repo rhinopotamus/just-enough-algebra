@@ -6,11 +6,11 @@
 	<title component="workbook">Systems of linear equations - Practice exercises</title>
 	<introduction component="not-workbook">
 		<p>
-			A local factory produces small locks for industrial use. The old machine has seen better days and Quia Xun, the manager, is shopping around for a new machine. She's narrowed it down to two options. The first option is replace the old machine with a new model (Machine #1) for $3,200. The second is a larger unit (Machine #2) priced at $5,400. In each case, the price includes installation and the standard service contract. The reason she is considering the more expensive machine is Machine #2 runs at a cost of only $0.80 per lock, whereas the replacement Machine #1 runs at a cost of $1.25 per lock.
+			A local factory produces small locks for industrial use. The old machine has seen better days and Quia Xun, the manager, is shopping around for a new machine. She's narrowed it down to two options. The first option is replace the old machine with a new model (Machine 1) for $3,200. The second is a larger unit (Machine 2) priced at $5,400. In each case, the price includes installation and the standard service contract. The reason she is considering the more expensive machine is Machine 2 runs at a cost of only $0.80 per lock, whereas the replacement Machine 1 runs at a cost of $1.25 per lock.
 		</p>
 
 		<p>
-			Since Machine #1 is less expensive, Quia Xun knows it is the right choice if the factory only produces a small number of locks. But since Machine #2 costs less per lock to run, she knows it will pay off if the factory makes a large number of locks. She would like to understand the total expenditure better, particularly the number of locks at which it would be worthwhile to invest in the more expensive machine.
+			Since Machine 1 is less expensive, Quia Xun knows it is the right choice if the factory only produces a small number of locks. But since Machine 2 costs less per lock to run, she knows it will pay off if the factory makes a large number of locks. She would like to understand the total expenditure better, particularly the number of locks at which it would be worthwhile to invest in the more expensive machine.
 		</p>
 
 		<p>
@@ -19,43 +19,33 @@
 				<mrow>L \amp= \text{ amount produced (locks) } \sim \text{ dep} </mrow>
 				<mrow>E \amp= \text{ total expenditure (\$) } \sim \text{ indep} </mrow>
 			</md>
-			She recognizes that total expenditure is a linear function that depends on the purchase price and the running cost for each machine. In each case, the starting amount (intercept) is the purchase price: $3,200 for Machine #1 and $5,400 for Machine #2. The slope (rate of change) is the constant running cost: $0.80 per lock for Machine #1 and $1.25 per lock for Machine #2. Using the template for a linear equation <me>\text{dep }=\text{ start } + \text{ slope} \ast {\text{indep}}</me> she writes the equations
-		</p>
-
-
-		<tabular>
-			<row class="odd">
-				<cell halign="left"><term>Machine #1:</term></cell>
-				<cell halign="left"><m>E  =3{,}200 + 1.25 L</m></cell>
-			</row>
-			<row class="even">
-				<cell halign="left"><term>Machine #2:</term></cell>
-				<cell halign="left"><m>E  =5{,}400 + 0.80 L</m></cell>
-			</row>
-		</tabular>
-
-		<p>
+			She recognizes that total expenditure is a linear function that depends on the purchase price and the running cost for each machine. In each case, the starting amount (intercept) is the purchase price: $3,200 for Machine 1 and $5,400 for Machine 2. The slope (rate of change) is the constant running cost: $0.80 per lock for Machine 1 and $1.25 per lock for Machine 2. Using the template for a linear equation <me>\text{dep }=\text{ start } + \text{ slope} \ast {\text{indep}}</me> she writes the equations
+			<md>
+				<mrow>
+					\textbf{Machine 1: } \qquad  
+					E\amp= 3{,}200 + 1.25 L 
+				</mrow>
+				<mrow>
+					\textbf{Machine 2: } \qquad  
+					E\amp= 5{,}400 + 0.80 L 
+				</mrow>
+			</md>
 			Since there are two linear equations and we are interested in a comparison, we have a <term>system (of linear equations)</term>.
 		</p>
 
 		<p>
 			To begin the comparison, Quia Xun starts with figuring out what the expenditure to produce 2,000 locks would be for each machine.
-		</p>
-
-
-		<tabular>
-			<row class="odd">
-				<cell halign="left"><term>Machine #1:</term></cell>
-				<cell halign="left"><m>E  =3{,}200 + 1.25 \times \underline{2{,}000}=\$5{,}700</m></cell>
-			</row>
-			<row class="even">
-				<cell halign="left"><term>Machine #2:</term></cell>
-				<cell halign="left"><m>E  =5{,}400 + 0.80 \times \underline{2{,}000}=\$7{,}000</m></cell>
-			</row>
-		</tabular>
-
-		<p>
-			If the factory were only going to make only 2,000 locks, then Machine #2 would not be worth it. She calculates a few more examples to see what the cutoff would be.
+			<md>
+				<mrow>
+					\textbf{Machine 1: } \qquad  
+					E\amp= 3{,}200 + 1.25 \times \underline{2{,}000}=\$5{,}700 
+				</mrow>
+				<mrow>
+					\textbf{Machine 2: } \qquad  
+					E\amp=5{,}400 + 0.80 \times \underline{2{,}000}=\$7{,}000 
+				</mrow>
+			</md>
+			If the factory were only going to make only 2,000 locks, then Machine 2 would not be worth it. She calculates a few more examples to see what the cutoff would be.
 		</p>
 
 
@@ -69,7 +59,7 @@
 				<cell right="minor" halign="center">10,000</cell>
 			</row>
 			<row left="minor" class="odd">
-				<cell right="minor" halign="center"><term>Machine #1:</term> <m>E</m></cell>
+				<cell right="minor" halign="center"><term>Machine 1:</term> <m>E</m></cell>
 				<cell right="minor" halign="center">5,700</cell>
 				<cell right="minor" halign="center">8,200</cell>
 				<cell right="minor" halign="center">10,700</cell>
@@ -77,7 +67,7 @@
 				<cell right="minor" halign="center">15,700</cell>
 			</row>
 			<row left="minor" class="even">
-				<cell right="minor" halign="center"><term>Machine #2:</term> <m>E</m></cell>
+				<cell right="minor" halign="center"><term>Machine 2:</term> <m>E</m></cell>
 				<cell right="minor" halign="center">7,000</cell>
 				<cell right="minor" halign="center">8,600</cell>
 				<cell right="minor" halign="center">10,200</cell>
@@ -87,11 +77,11 @@
 		</tabular>
 
 		<p>
-			Even at 4,000 locks, Machine #1 is the better deal. By 6,000 locks, Machine #2 becomes the better deal. Somewhere in between it switches.
+			Even at 4,000 locks, Machine 1 is the better deal. By 6,000 locks, Machine 2 becomes the better deal. Somewhere in between it switches.
 		</p>
 
 		<p>
-			Quia Xun makes a quick graph to see what's going on. On the graph, whichever line is lower corresonds to the lower total expenditure and whichever line is higher corresponds to the higher total expenditure. As suspected, for a smaller number of locks the line for Machine #1 is lower on the graph, so that's the better deal. For a larger number of locks it switches and the line for Machine #2 is lower on the graph, since that's the better deal instead. Where they switch corresponds to the point on the graph where the two lines cross, somewhere around 5,000 locks.
+			Quia Xun makes a quick graph to see what's going on. On the graph, whichever line is lower corresonds to the lower total expenditure and whichever line is higher corresponds to the higher total expenditure. As suspected, for a smaller number of locks the line for Machine 1 is lower on the graph, so that's the better deal. For a larger number of locks it switches and the line for Machine 2 is lower on the graph, since that's the better deal instead. Where they switch corresponds to the point on the graph where the two lines cross, somewhere around 5,000 locks.
 		</p>
 
 
@@ -115,7 +105,7 @@
 				<cell right="minor" halign="center">4,900</cell>
 			</row>
 			<row left="minor" class="odd">
-				<cell right="minor" halign="center"><m>E</m> (for Machine #1)</cell>
+				<cell right="minor" halign="center"><m>E</m> (for Machine 1)</cell>
 				<cell right="minor" halign="center">8,200</cell>
 				<cell right="minor" halign="center">10,700</cell>
 				<cell right="minor" halign="center">9,450</cell>
@@ -124,7 +114,7 @@
 				<cell right="minor" halign="center">9,325</cell>
 			</row>
 			<row left="minor" class="even">
-				<cell right="minor" halign="center"><m>E</m> (for Machine #2)</cell>
+				<cell right="minor" halign="center"><m>E</m> (for Machine 2)</cell>
 				<cell right="minor" halign="center">8,600</cell>
 				<cell right="minor" halign="center">10,200</cell>
 				<cell right="minor" halign="center">9,400</cell>
@@ -134,12 +124,12 @@
 			</row>
 			<row left="minor" class="odd">
 				<cell right="minor" halign="center">Less expensive option</cell>
-				<cell right="minor" halign="center">#1</cell>
-				<cell right="minor" halign="center">#2</cell>
-				<cell right="minor" halign="center">#2</cell>
-				<cell right="minor" halign="center">#1</cell>
-				<cell right="minor" halign="center">#1</cell>
-				<cell right="minor" halign="center">#2</cell>
+				<cell right="minor" halign="center">Machine 1</cell>
+				<cell right="minor" halign="center">Machine 2</cell>
+				<cell right="minor" halign="center">Machine 2</cell>
+				<cell right="minor" halign="center">Machine 1</cell>
+				<cell right="minor" halign="center">Machine 1</cell>
+				<cell right="minor" halign="center">Machine 2</cell>
 			</row>
 		</tabular>
 
@@ -149,16 +139,15 @@
 
 		<p>
 			There is a way for Quia Xun to solve the problem symbolically; we refer to this process as <term>solving the system</term>. She wants to find the number of locks where 
-			<me component="web">E \text{ (Machine #1)} = E \text{ (Machine #2)}</me> 
-			<me component="not-web">E \text{ (Machine \#1)} = E \text{ (Machine \#2)}</me>
-			Using her equations <m>E  =3{,}200 + 1.25L</m> for Machine #1 and <m>E  =5{,}400 + 0.80L</m> for Machine #2 she has <me>3{,}200 + 1.25L=5{,}400 + 0.80L</me> She wants to find the value of <m>L</m> that makes both sides the same number. To solve, Quia Xun subtracts 3,200, the smaller of the two purchase prices, from each side to get 
+			<me>E \text{ (Machine 1)} = E \text{ (Machine 2)}</me>
+			Using her equations <m>E  =3{,}200 + 1.25L</m> for Machine 1 and <m>E  =5{,}400 + 0.80L</m> for Machine 2 she has <me>3{,}200 + 1.25L=5{,}400 + 0.80L</me> She wants to find the value of <m>L</m> that makes both sides the same number. To solve, Quia Xun subtracts 3,200, the smaller of the two purchase prices, from each side to get 
 			<me>
 				\begin{array}{lcl}
 				\phantom{-}\cancel{3{,}200}+1.25L \amp = \amp \phantom{-}5{,}400+0.80L \\
 				-\cancel{3{,}200}                  \amp = \amp -3{,}200
 				\end{array}
 			</me>
-			which simplifies to <me>1.25L = 2{,}200 + 0.80L</me> Pause for a minute. What does that $2,200 mean in the story? It's the extra cost of buying Machine #2 because <m>\$5{,}400 - \$3{,}200 = \$2{,}200</m>.
+			which simplifies to <me>1.25L = 2{,}200 + 0.80L</me> Pause for a minute. What does that $2,200 mean in the story? It's the extra cost of buying Machine 2 because <m>\$5{,}400 - \$3{,}200 = \$2{,}200</m>.
 		</p>
 
 		<p>
@@ -169,13 +158,12 @@
 					-0.80L \amp  \amp -\cancel{0.80L}
 				\end{array}
 			</me>
-			How do we simplify <m>1.25L-0.80L</m>? Think about what these numbers represent in the story. The cost was $1.25 per lock versus $0.80 per lock. The difference is $1.25 - $0.80 = $0.45 per lock. So that means <me>1.25L -0.80L = 0.45L</me> Think: 125 apples - 80 apples = 45 apples. She can now simplify her equation to get <me>0.45L = 2{,}200</me> Ah, she can solve this equation just by dividing each side by 0.45 to get <me>\frac{\cancel{0.45}L}{\cancel{0.45}}= \frac{2{,}200}{0.45}</me> which simplifies to <me>L = \frac{2{,}200}{0.45}= 2{,}200 \div 0.45 = 4888.88888\ldots \approx 4{,}889 \text{ locks}</me> If they plan to produce 4,889 locks or more, Quia Xun should go ahead and buy the more expensive machine, Machine #2. Yeah, that's what we guessed – just under 4,900 locks is the payoff.
+			How do we simplify <m>1.25L-0.80L</m>? Think about what these numbers represent in the story. The cost was $1.25 per lock versus $0.80 per lock. The difference is $1.25 - $0.80 = $0.45 per lock. So that means <me>1.25L -0.80L = 0.45L</me> Think: 125 apples - 80 apples = 45 apples. She can now simplify her equation to get <me>0.45L = 2{,}200</me> Ah, she can solve this equation just by dividing each side by 0.45 to get <me>\frac{\cancel{0.45}L}{\cancel{0.45}}= \frac{2{,}200}{0.45}</me> which simplifies to <me>L = \frac{2{,}200}{0.45}= 2{,}200 \div 0.45 = 4888.88888\ldots \approx 4{,}889 \text{ locks}</me> If they plan to produce 4,889 locks or more, Quia Xun should go ahead and buy the more expensive machine, Machine 2. Yeah, that's what we guessed – just under 4,900 locks is the payoff.
 		</p>
 
 		<p>
 			She solved an equation here, but Quia Xun really wanted to know when 
-			<me component="web">E \text{ (Machine #1)} \geq E \text{ (Machine #2)}</me> 
-			<me component="not-web">E \text{ (Machine \#1)} \geq E \text{ (Machine \#2)}</me> 
+			<me>E \text{ (Machine 1)} \geq E \text{ (Machine 2)}</me>
 			so she could have solved the inequality <me>3{,}200 + 1.25L \ge 5{,}400 + 0.80L</me> instead. Check that the same steps give <me>L \ge 4{,}889 \text{ locks}</me>.
 		</p>
 	</introduction>

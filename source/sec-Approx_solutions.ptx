@@ -42,19 +42,10 @@
 
 		<p>
 			Start by writing an equation. The variables are
-		</p>
-
-
-		<tabular>
-			<row class="odd">
-				<cell halign="left"><m>P=</m> population of India (billion people) <m>\sim</m> dep</cell>
-			</row>
-			<row class="even">
-				<cell halign="left"><m>Y=</m> time (years since 2011) <m>\sim</m> indep</cell>
-			</row>
-		</tabular>
-
-		<p>
+			<md>
+				<mrow>P \amp= \text{ population of India (billion people) } \sim \text{ dep} </mrow>
+				<mrow>Y \amp= \text{ time (years since 2011) } \sim \text{ indep} </mrow>
+			</md>
 			Since there is a fixed percentage growth, or at least that's what we're assuming, the population grows exponentially. The template for an exponential equation is <me>\text{dep} = \text{start} \ast \text{growth factor} ^ {\text{indep}}</me> For India's population, we know that the growth rate is <me>r=1.31\% = \frac{1.31}{100} = 1.31 \div 100 = 0.0131</me> so the corresponding growth factor is <me>g=1+r=1+0.0131=1.0131</me> We also know that the starting population is 1.205 billion in 2011. We're good to go. The equation is <me>P = 1.205 \ast 1.0131^Y</me>
 		</p>
 

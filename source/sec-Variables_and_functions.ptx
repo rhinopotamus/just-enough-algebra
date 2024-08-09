@@ -27,18 +27,10 @@
 
 		<p>
 			Gas prices have been changing wildly, and along with them, the price of 10 gallons of gas. In mathematics, things that change are called <term>variables</term>. The two variables we're focusing on in this story are
-		</p>
-
-		<tabular>
-			<row>
-				<cell halign="left"><m>P=</m> price of gasoline ($/gal)</cell>
-			</row>
-			<row>
-				<cell halign="left"><m>C=</m> total cost ($)</cell>
-			</row>
-		</tabular>
-
-		<p>
+			<md>
+				<mrow>P \amp= \text{ price of gasoline (\$/gal) }</mrow>
+				<mrow>C \amp= \text{ total cost (\$) }</mrow>
+			</md>
 			Notice that we gave each variable a letter name. It is helpful to just use a single letter chosen from the word it stands for. In our example, <m>P</m> stands for <q>price</q> and <m>C</m> stands for <q>cost</q>. In this course we rarely use the letter <m>X</m> simply because so few words begin with <m>X</m>. Whenever we name a variable (<m>P</m>) we also describe in words what it represents (the price of gasoline), and we state what units it's measured in ($/gal).
 		</p>
 
@@ -48,18 +40,10 @@
 
 		<p>
 			Knowing which variable is independent or dependent is helpful to us. To emphasize the dependence, we often make a notation next to the variable name.
-		</p>
-
-		<tabular>
-			<row>
-				<cell halign="left"><m>P=</m> price of gasoline ($/gal) <m>\sim</m> indep</cell>
-			</row>
-			<row>
-				<cell halign="left"><m>C=</m> total cost ($) <m>\sim</m> dep</cell>
-			</row>
-		</tabular>
-
-		<p>
+			<md>
+				<mrow>P \amp= \text{ price of gasoline (\$/gal) } \sim \text{ indep}</mrow>
+				<mrow>C \amp= \text{ total cost (\$) } \sim \text{ dep}</mrow>
+			</md>
 			This labeling is rarely used outside this textbook, so add it in for yourself if you need it. In some situations dependency can be viewed either way; there might not be one correct way to do it. Labeling the dependence is extra important then, so anyone reading your work knows which way you are thinking of it.
 		</p>
 

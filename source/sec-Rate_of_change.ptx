@@ -37,19 +37,10 @@
 
 		<p>
 			where
-		</p>
-
-
-		<tabular >
-			<row class="odd">
-				<cell halign="left"><m>H=</m> diver's height (meters) <m>\sim</m> dep</cell>
-			</row>
-			<row class="even">
-				<cell halign="left"><m>T=</m> time (seconds) <m>\sim</m> indep</cell>
-			</row>
-		</tabular>
-
-		<p>
+			<md>
+				<mrow>H \amp= \text{ diver's height (meters) } \sim \text{ dep} </mrow>
+				<mrow>T \amp= \text{ time (seconds) } \sim \text{ indep} </mrow>
+			</md>
 			In case you're wondering, 3 meters is nearly 10 feet up and the highest height listed, 4.48 meters, is close to 15 feet above the water. More on how we figured those numbers out in the next section, but thought you might like to know.
 		</p>
 

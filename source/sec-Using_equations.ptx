@@ -11,19 +11,10 @@
 
 		<p>
 			We would like to be able to calculate the braking distances at other speeds, so our two variables are
-		</p>
-
-
-		<tabular>
-			<row class="odd">
-				<cell halign="left"><m>S=</m> speed (mph) <m>\sim</m> indep</cell>
-			</row>
-			<row class="even">
-				<cell halign="left"><m>B=</m> braking distance (feet) <m>\sim</m> dep</cell>
-			</row>
-		</tabular>
-
-		<p>
+			<md>
+				<mrow>S \amp= \text{ speed (mph) } \sim \text{ indep} </mrow>
+				<mrow>B \amp= \text{ braking distance (feet) } \sim \text{ dep} </mrow>
+			</md>
 			Using the data and equations from physics, automobile analysts were able to determine that the equation relating these two variables is <me>B=0.04S^2</me> Remember that the 0.04 written next to the <m>S^2</m> means they are multiplied. We might equally well have written <me>B = 0.04 \ast S^2</me>
 		</p>
 
@@ -79,19 +70,10 @@
 
 		<p>
 			But wait a minute. The braking distance is just the time it takes from when the driver's foot hits the brake until the car stops. That distance doesn't take into account the driver's reaction time - how long between when the driver thinks to stop and when the driver's foot actually hits the brake. We have a new dependent variable
-		</p>
-
-
-		<tabular>
-			<row class="odd">
-				<cell halign="left"><m>D=</m> total stopping distance (feet) <m>\sim</m> dep</cell>
-			</row>
-			<row class="even">
-				<cell halign="left"><m>S=</m> speed (mph) <m>\sim</m> indep <em>as before</em></cell>
-			</row>
-		</tabular>
-
-		<p>
+			<md>
+				<mrow>D \amp= \text{ total stopping distance distance (feet) } \sim \text{ dep} </mrow>
+				<mrow>S \amp= \text{ speed (mph) } \sim \text{ indep} </mrow>
+			</md>
 			How can we include this reaction time into an equation? Suppose it takes 1 second to react. We would like to know how many feet that adds to the equation. This is something we can figure out. We know the speed and the time, so multiply them to get the distance, right? One small snag: the speed is in mph (miles per hour). We need to convert units. 
 			<md>
 				<mrow>1 \cancel{\text{ sec}} \ast 

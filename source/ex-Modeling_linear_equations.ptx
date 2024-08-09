@@ -235,7 +235,7 @@
 					<em component="workbook">(Story also appears in <xref ref="sec-First_look_linear"/> Exercises)</em>
 				</p>
 				<tabular bottom="minor" top="minor">
-					<row left="minor" class="odd">
+					<row left="minor" header="yes">
 						<cell right="minor" halign="center">Plumber</cell>
 						<cell right="minor" halign="center">James</cell>
 						<cell right="minor" halign="center">Jo</cell>

@@ -18,7 +18,7 @@
 		</p>
 
 		<p>
-			We know how percent <em>increase</em> works, but here the caffiene is leaving his body according to a percent <em>decrease</em>. I guess we need to figure it out one step at a time. After one hour (by 3:00 a.m.), Joe will have <me>1{,}000 \text{ mg} - 13 \% \text{ of }  1{,}000 \text{ mg} =  1{,}000- 0.13 \times  1{,}000 =  1{,}000 - 130 = 870 \text{ mg}</me> By 4:00 a.m. (after 2 hours), Joe will have <me>870 \text{ mg} - 13 \% \text{ of } 870 \text{ mg} = 870 - 0.13 \times 870 = 870 - 113.1 =  756.9 \text{ mg}</me>
+			We know how percent <em>increase</em> works, but here the caffeine is leaving his body according to a percent <em>decrease</em>. I guess we need to figure it out one step at a time. After one hour (by 3:00 a.m.), Joe will have <me>1{,}000 \text{ mg} - 13 \% \text{ of }  1{,}000 \text{ mg} =  1{,}000- 0.13 \times  1{,}000 =  1{,}000 - 130 = 870 \text{ mg}</me> By 4:00 a.m. (after 2 hours), Joe will have <me>870 \text{ mg} - 13 \% \text{ of } 870 \text{ mg} = 870 - 0.13 \times 870 = 870 - 113.1 =  756.9 \text{ mg}</me>
 		</p>
 
 		<p>
@@ -31,18 +31,10 @@
 
 		<p>
 			The bad news is that it's 7:00 a.m. and Joe is still too jittery to sleep. The good news is that we can write the equation. The variables are
-		</p>
-
-		<tabular>
-			<row class="odd">
-				<cell halign="left"><m>J=</m> Joe's caffeine level (mg) <m>\sim</m> dep</cell>
-			</row>
-			<row class="even">
-				<cell halign="left"><m>H =</m> time (hours since 2:00 a.m.) <m>\sim</m> indep</cell>
-			</row>
-		</tabular>
-
-		<p>
+			<md>
+				<mrow>J \amp= \text{ Joe's caffeine level (mg) } \sim \text{ dep} </mrow>
+				<mrow>H \amp= \text{ time (hours since 2:00 a.m.) } \sim \text{ indep} </mrow>
+			</md>
 			Our equation must be <me>J = 1{,}000 \ast0.87^H</me> Notice this equation fits our template for an exponential equation. <me>\text{dep }=\text{ start } \ast \text{growth factor}^{\text{indep}}</me>
 		</p>
 

@@ -23,19 +23,10 @@
 
 		<p>
 			We see that the plumber's charge depends on the amount of time it takes to unclog the sink. We can name these variables.
-		</p>
-
-
-		<tabular>
-			<row class="odd">
-				<cell halign="left"><m>T=</m> time plumber takes (hours) <m>\sim</m> indep</cell>
-			</row>
-			<row class="even">
-				<cell halign="left"><m>P=</m> total plumber's charge ($) <m>\sim</m> dep</cell>
-			</row>
-		</tabular>
-
-		<p>
+			<md>
+				<mrow>T \amp= \text{ time plumber takes (hours) } \sim \text{ indep} </mrow>
+				<mrow>P \amp= \text{ total plumber's charge (\$) } \sim \text{ dep} </mrow>
+			</md>
 			Look at the the relationship between <m>T</m> and <m>P</m> by making a table to describe how the plumber's bill is a function of the time.
 		</p>
 
