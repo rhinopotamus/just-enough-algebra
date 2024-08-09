@@ -16,17 +16,11 @@
 		<introduction>
 			<p>
 				The Vang family wants to buy a new washing machine. The first model costs $645 and then $13.29 per month to run. A more efficient model costs $940 and then $7.82 per month to run. If <m>T</m> is the time in months and <m>V</m> is the Vang family's total cost (in $), then the equations and some comparable values (to the nearest $) are:
+				<md>
+					<mrow>\textbf{First model: }  V \amp= 645 + 13.29T </mrow>
+					<mrow>\textbf{Second model: } V \amp= 940 + 7.82T </mrow>
+				</md>
 			</p>
-			<tabular>
-				<row class="odd">
-					<cell halign="left"><term>First model:</term></cell>
-					<cell halign="left"><m>V = 645 + 13.29T</m></cell>
-				</row>
-				<row class="even">
-					<cell halign="left"><term>Second model:</term></cell>
-					<cell halign="left"><m>V = 940 + 7.82T</m></cell>
-				</row>
-			</tabular>
 			<tabular bottom="minor" top="minor">
 				<row left="minor" class="odd">
 					<cell right="minor" halign="left"><m>T</m></cell>

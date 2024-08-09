@@ -155,7 +155,7 @@
 				As people age they experience some hearing loss. A study was done to determine the <term>comfort level of sound</term> for people of different ages, meaning the loudest sound (in decibels) that the person could listen to comfortably. The data are given in the table.
 			</p>
 			<tabular bottom="minor" top="minor">
-				<row left="minor" class="odd">
+				<row left="minor" header="yes">
 					<cell right="minor" halign="left">Name</cell>
 					<cell right="minor" halign="center">Akbar</cell>
 					<cell right="minor" halign="center">Javier</cell>
