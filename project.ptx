@@ -5,20 +5,21 @@
 <!-- Web target -->
         <target name="web" 
                 format="html" 
+                xsl="custom-web.xsl" 
                 publication="publication-web.ptx" />
 
 <!-- Workbook targets -->
         <target name="workbook" 
                 format="pdf" 
                 publication="publication-workbook.ptx"
-                xsl="pretext-latex-workbook.xsl" 
+                xsl="custom-latex-workbook.xsl" 
                 latex-engine="pdflatex">
                 <stringparams latex.preamble.early="\usepackage{parskip}" />
         </target> 
         <target name="workbook-latex" 
                 format="latex" 
                 publication="publication-workbook.ptx"
-                xsl="pretext-latex-workbook.xsl">
+                xsl="custom-latex-workbook.xsl">
                 <stringparams latex.preamble.early="\usepackage{parskip}" />
         </target>
 
@@ -26,11 +27,11 @@
         <target name="fullprint" 
                 format="pdf" 
                 publication="publication-fullprint.ptx"
-                xsl="pretext-latex-fullprint.xsl" 
+                xsl="custom-latex-fullprint.xsl" 
                 latex-engine="pdflatex" />
         <target name="fullprint-latex" 
                 format="latex" 
                 publication="publication-fullprint.ptx"
-                xsl="pretext-latex-fullprint.xsl" />
+                xsl="custom-latex-fullprint.xsl" />
     </targets>
 </project>
