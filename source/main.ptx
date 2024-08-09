@@ -34,12 +34,11 @@
             </appendix>
 
             <!-- templates and formulas -->
-            <xi:include href="./app-Templates.ptx" />
             <xi:include href="./app-Formulas.ptx" />
 
-            <colophon>
+            <!-- <colophon>
                 <p> This book was authored in <pretext />. </p>
-            </colophon>
+            </colophon> -->
         </backmatter>
 
     </book>

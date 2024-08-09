@@ -1,12 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<appendix xml:id="app-Formulas" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Formulas</title>
+<appendix xml:id="app-templates-formulas" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Templates and Formulas</title>
     <introduction>
+        <p>
+            Templates are used to write equations from given or calculated information, to read constants from the equations, or simply to identify the type of equation in order to use type-specific formulas or information.
+        </p>
         <p>
             Formulas are used for many purposes, including finding constants or solving specific types of equations. Various disciplines, such as finance, have specific formulas to evaluate quantities.
         </p>
     </introduction>
+
+    <section xml:id="sec-templates">
+        <title>Templates</title>
+        <assemblage>
+            <title>Linear Equation Template</title>
+            <p>
+                <me>
+                    \text{dep} = \text{start} + \text{slope} \ast \text{indep}
+                </me>
+            </p>
+        </assemblage>
+
+        <assemblage>
+			<title>Power Equation Template</title>
+			
+			
+			<p><me>\text{dep} = k \ast \text{indep}^{n}</me></p>
+		</assemblage>
+
+        <assemblage>
+			<title>Quadratic Equation Template</title>
+				
+				
+			<p><me>\text{dep} = a \ast \text{indep}^2 + b \ast\text{indep} + c</me></p>
+		</assemblage>
+
+        <assemblage>
+            <title>Exponential Equation Template</title>
+            
+            
+            <p><me>\text{dep} = \text{start} \ast \text{growth factor} ^ {\text{indep}}</me></p>
+        </assemblage>
+
+        
+    </section>
 
     <section xml:id="sec-formula-constants">
         <title>Formulas used to find constants</title>

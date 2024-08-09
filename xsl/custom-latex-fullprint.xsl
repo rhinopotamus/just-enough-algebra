@@ -72,7 +72,6 @@
     <xsl:text>]%&#xa;</xsl:text>
 </xsl:template>
 
-
 <!-- make it so sections BEGIN with a pagebreak -->
 
 <xsl:template match="section" mode="environment">
@@ -142,6 +141,5 @@
     <xsl:text>phantomlabel={#3}, asidestyle] #4 \end{tcolorbox} } }&#xa;</xsl:text>
     <xsl:text>{}&#xa;</xsl:text>
 </xsl:template>
-
 
 </xsl:stylesheet>
