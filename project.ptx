@@ -11,7 +11,7 @@
 <!-- Workbook targets -->
         <target name="workbook" 
                 format="pdf" 
-                publication="publication-workbook.ptx"
+        publication="publication-workbook.ptx"
                 xsl="custom-latex-workbook.xsl" 
                 latex-engine="pdflatex">
                 <stringparams latex.preamble.early="\usepackage{parskip}" />
