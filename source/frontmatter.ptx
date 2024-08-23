@@ -126,7 +126,7 @@
         </paragraphs>
     </preface>
 
-    <preface component="web" xml:id="preface-why-this-book">
+    <preface component="web" xml:id="preface-why-this-book-web">
         <title>Why <em>Just Enough Algebra</em>?</title>
         <p>
             In 1994, my colleagues at Augsburg College and I had a vision for a new course to replace our intermediate algebra course. We wanted a college level course that would serve primarily as preparation for quantitative courses across the curriculum. The framing question that led to our curricular adventure of the past three decades was
@@ -162,7 +162,7 @@
         </attribution>
     </preface>
     
-    <preface component="web" xml:id="preface-for-students">
+    <preface component="web" xml:id="preface-for-students-web">
         <title>Students! Read this!</title>
         <p>
             This textbook is written for you. 
@@ -178,7 +178,7 @@
         </attribution>
     </preface>
 
-    <preface component="web" xml:id="preface-for-instructors">
+    <preface component="web" xml:id="preface-for-instructors-web">
         <title>Instructors! Read this!</title>
         <p>
             This textbook is written for students. That means you won't find list of student learning objectives anywhere, although I'm sure you can infer them from the student-focused <q>Do you know <ellipsis/></q> questions in each section. While the narrative examples develop the main theme of each section, I've deliberately left some variations for the practice exercises (#1-4 in each section). These practice exercises are designed to be started during class and are printed in a separate workbook for that purpose. Hand-written solutions to the practice exercises are available (in electronic format) for students to check their work, whether in class or at home.
