@@ -344,7 +344,7 @@
 		<task>
 			<statement>
 				<p>
-					Calculate the rate of change for each time period.
+					Calculate the rate of change for each distance interval.
 				</p>
 			</statement>
 		</task>
@@ -352,7 +352,7 @@
 		<task>
 			<statement>
 				<p>
-					Can you use figure out what it probably costs to rent a truck to drive 75 miles?
+					Can you use this calculated rate of change to figure out what it probably costs to rent a truck to drive 75 miles?
 				</p>
 			</statement>
 		</task>
@@ -426,7 +426,7 @@
 		<task>
 			<statement>
 				<p>
-					Repeat for wind speeds from 10 to 20 mph. Is the electricity produced increasing faster or increasing slower than for lower wind speeds.
+					Repeat for wind speeds from 10 to 20 mph. Is the electricity produced increasing faster or increasing slower than for lower wind speeds?
 				</p>
 			</statement>
 		</task>
@@ -487,7 +487,7 @@
 	<exercise xml:id="backpacks-rate-of-change" component="not-workbook">
 		<introduction>
 			<p>
-				A company produces backpacks. The more they make, the less it costs for each one. For example, if they produce 10 backpack it would cost $39 each. For 40 backpacks, they would cost $18 each. By 70 backpacks, the unit cost is down to $15 each. At 100 backpacks, the unit cost is $30 each. 
+				A company produces backpacks. The more they make, the less it costs for each one, but only up to a certain point. For example, if they produce 10 backpacks, it would cost $39 each. For 40 backpacks, they would cost $18 each. By 70 backpacks, the unit cost is down to $15 each. But at 100 backpacks, the unit cost is back up to $30 each. 
 				<em>(Story also appears in <xref ref="backpacks-solving-quadratic"/>)</em>
 			</p>
 		</introduction>	

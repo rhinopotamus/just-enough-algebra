@@ -6,7 +6,7 @@
 	<title component="workbook">Rate of change - Practice exercises</title>
 	<introduction component="not-workbook">
 		<p>
-			A diver bounces on a 3-meter springboard. Up she goes. A somersault, a twist, then whoosh, into the water. The table shows the diver's height as a function of time,
+			A diver bounces on a 3-meter springboard. Up she goes. A somersault, a twist, then whoosh, into the water. This table shows the diver's height as a function of time:
 		</p>
 
 
@@ -49,7 +49,7 @@
 		</p>
 
 		<p>
-			What about during the next 0.2 seconds? Does she move faster, slower, or the same? During this time, her height changed from 3.88 meters to 4.38 meters. In these 0.2 seconds she rose <me>4.38-3.88 = 0.50 \text{ meters}</me> That's less than before (since <m>0.50 &lt; 0.88</m>), which means so she is going slower. Let's double check by calculating her speed. <me>\frac{0.50 \text{ meters}}{0.2 \text{ seconds}} = 0.50 \div 0.2 = 2.5 \text{ meters/sec}</me> Yup, slower.
+			What about during the next 0.2 seconds? Does she move faster, slower, or the same? During this time, her height changed from 3.88 meters to 4.38 meters. In these 0.2 seconds she rose <me>4.38-3.88 = 0.50 \text{ meters}</me> That's less than before (since <m>0.50 &lt; 0.88</m>), which means she is going slower. Let's double check by calculating her speed. <me>\frac{0.50 \text{ meters}}{0.2 \text{ seconds}} = 0.50 \div 0.2 = 2.5 \text{ meters/sec}</me> Yup, slower.
 		</p>
 
 		<p>
@@ -91,7 +91,7 @@
 
 		<p>
 			You may notice that the sign <minus/> used for subtraction and - used for negation look very similar. On the calculator these are two different keys. The subtraction key reads just <kbd name="minus"/>. The negation key often reads <kbd>(-)</kbd> and is done before the number. This does not mean you type in parentheses, just hit the key that is labeled <kbd>(-)</kbd> already.
-			(If your calculator does not have a key labeled <kbd>(-)</kbd>, look for a key labeled <kbd>+/-</kbd> instead. That is not three keys, just one labeled <kbd>+/-</kbd>. To emphasize that it is one key, we just write <kbd>±</kbd>. Often that key needs to follow the number, so enter <me>0.28\pm \div 0.2 =</me> You should get -1.4 meters/sec again.)
+			(If your calculator does not have a key labeled <kbd>(-)</kbd>, look for a key labeled <kbd>+/-</kbd> instead. That is not three keys, just one labeled <kbd>+/-</kbd>. To emphasize that it is one key, we just write <kbd>±</kbd>. Often that key needs to follow the number, so enter <me>0.28\pm \div 0.2 =</me> You should get -1.4 meters/sec again.
 		</p>
 
 		<p>
