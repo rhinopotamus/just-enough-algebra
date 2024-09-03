@@ -101,8 +101,8 @@
 				<cell right="minor" halign="center">65</cell>
 				<cell right="minor" halign="center">75</cell>
 				<cell right="minor" halign="center">90</cell>
-				<cell right="minor" halign="center">00</cell>
-				<cell right="minor" halign="center">06</cell>
+				<cell right="minor" halign="center">100</cell>
+				<cell right="minor" halign="center">106</cell>
 			</row>
 			<row left="minor" class="odd">
 				<cell right="minor" halign="center"><m>S</m></cell>
