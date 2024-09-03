@@ -344,6 +344,20 @@
 		<task>
 			<statement>
 				<p>
+					Name the variables, including units and dependence.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Plot the points from the table on a graph.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
 					Calculate the rate of change for each distance interval.
 				</p>
 			</statement>
