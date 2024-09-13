@@ -18,7 +18,7 @@
 		</p>
 
 		<p>
-			What would happen if the plumber was taking so long that before he got there you dumped another bottle of drain opener in the sink and that did the trick. But before you could call and cancel the plumber, wouldn't you know it, there he was. What do you owe him for that 0 hours of work? Probably $100. Unless your plumber says to <q>forget it.</q>
+			What would happen if the plumber was taking so long to get to your house that before he got there you dumped another bottle of drain opener in the sink and that did the trick? But before you could call and cancel the plumber, wouldn't you know it, there he was. What do you owe him for that 0 hours of work? Probably $100. Unless your plumber says to <q>forget it.</q>
 		</p>
 
 		<p>
@@ -67,7 +67,7 @@
 		</p>
 
 		<p>
-			Suppose the plumber shows up at your house and fixed the sink in 25 minutes. Whew! No sooner do you pay your bill than your first dinner guest arrives. How much do you owe the plumber? Notice that <me>25 \text{ minutes} \ast \frac{1 \text{ hour}}{60 \text{ minutes}} = 25 \div 60 = 0.4166666\ldots \text{ hours}</me> Therefore for 25 minutes we have <m>T \approx 0.4166 \text{ hours}</m>
+			Suppose the plumber shows up at your house and fixed the sink in 25 minutes. Whew! No sooner do you pay your bill than your first dinner guest arrives. How much do you owe the plumber? Notice that <me>25 \text{ minutes} \ast \frac{1 \text{ hour}}{60 \text{ minutes}} = 25 \div 60 = 0.4166666\ldots \text{ hours}</me> Therefore for 25 minutes we have <m>T \approx 0.4166 \text{ hours}</m>.
 		</p>
 
 		<p>
@@ -80,7 +80,7 @@
 
 
 		<p>
-			<image source='Plumber.png'/>
+			<image source='plumber.png'/>
 		</p>
 
 		<p>
@@ -105,7 +105,7 @@
 		</p>
 
 		<p>
-			The second constant is 75 and though it's tempting to say it is measured in dollars, it is really measured in $ per hour. This number is the rate of change and in the context of linear equations it gets its own name too: it's called the <term>slope</term>. Since the rate of change measures the steepness of any curve or line, the word <q>slope</q>, like mountain slope, makes sense. In our plumber example the intercept was $100 and the slope was $75/hour.
+			The second constant is 75, and though it's tempting to say it is measured in dollars, it is really measured in $ per hour. This number is the rate of change, and in the context of linear equations it gets its own name too: it's called the <term>slope</term>. Since the rate of change measures the steepness of any curve or line, the word <q>slope</q>, like mountain slope, makes sense. In our plumber example the intercept was $100 and the slope was $75/hour.
 		</p>
 	</introduction>
 	<conclusion component="not-workbook">
