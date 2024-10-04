@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Practice Final Exam A</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Just Enough Algebra">
+<meta property="book:author" content="Dr. Suzanne Dorée">
+<meta property="book:author" content="Dr. Spencer Bagley">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<style>
+#sec-Approximation_and_rounding-3-2-1 { counter-set: sec-Approximation_and_rounding-3-2-1 0; }
+#sec-Approximation_and_rounding-3-2-1 > li::marker { content: ""counter(sec-Approximation_and_rounding-3-2-1,upper-alpha)"."; }
+#sec-Approximation_and_rounding-3-2-1 > li { counter-increment: sec-Approximation_and_rounding-3-2-1; }
+#sec-Arithmetic_operations-3-2-1 { counter-set: sec-Arithmetic_operations-3-2-1 0; }
+#sec-Arithmetic_operations-3-2-1 > li::marker { content: ""counter(sec-Arithmetic_operations-3-2-1,upper-alpha)"."; }
+#sec-Arithmetic_operations-3-2-1 > li { counter-increment: sec-Arithmetic_operations-3-2-1; }
+#sec-Percentages-3-2-1 { counter-set: sec-Percentages-3-2-1 0; }
+#sec-Percentages-3-2-1 > li::marker { content: ""counter(sec-Percentages-3-2-1,upper-alpha)"."; }
+#sec-Percentages-3-2-1 > li { counter-increment: sec-Percentages-3-2-1; }
+#sec-Order_of_operations-3-2-1 { counter-set: sec-Order_of_operations-3-2-1 0; }
+#sec-Order_of_operations-3-2-1 > li::marker { content: ""counter(sec-Order_of_operations-3-2-1,upper-alpha)"."; }
+#sec-Order_of_operations-3-2-1 > li { counter-increment: sec-Order_of_operations-3-2-1; }
+#sec-Fractions-3-2-1 { counter-set: sec-Fractions-3-2-1 0; }
+#sec-Fractions-3-2-1 > li::marker { content: ""counter(sec-Fractions-3-2-1,upper-alpha)"."; }
+#sec-Fractions-3-2-1 > li { counter-increment: sec-Fractions-3-2-1; }
+#sec-Powers_and_roots-3-2-1 { counter-set: sec-Powers_and_roots-3-2-1 0; }
+#sec-Powers_and_roots-3-2-1 > li::marker { content: ""counter(sec-Powers_and_roots-3-2-1,upper-alpha)"."; }
+#sec-Powers_and_roots-3-2-1 > li { counter-increment: sec-Powers_and_roots-3-2-1; }
+#sec-Algebraic_notation-3-2-1 { counter-set: sec-Algebraic_notation-3-2-1 0; }
+#sec-Algebraic_notation-3-2-1 > li::marker { content: ""counter(sec-Algebraic_notation-3-2-1,upper-alpha)"."; }
+#sec-Algebraic_notation-3-2-1 > li { counter-increment: sec-Algebraic_notation-3-2-1; }
+#sec-Scientific_notation-3-2-1 { counter-set: sec-Scientific_notation-3-2-1 0; }
+#sec-Scientific_notation-3-2-1 > li::marker { content: ""counter(sec-Scientific_notation-3-2-1,upper-alpha)"."; }
+#sec-Scientific_notation-3-2-1 > li { counter-increment: sec-Scientific_notation-3-2-1; }
+#sec-Logarithms-3-2-1 { counter-set: sec-Logarithms-3-2-1 0; }
+#sec-Logarithms-3-2-1 > li::marker { content: ""counter(sec-Logarithms-3-2-1,upper-alpha)"."; }
+#sec-Logarithms-3-2-1 > li { counter-increment: sec-Logarithms-3-2-1; }
+#sec-Variables_and_functions-3-2-1 { counter-set: sec-Variables_and_functions-3-2-1 0; }
+#sec-Variables_and_functions-3-2-1 > li::marker { content: ""counter(sec-Variables_and_functions-3-2-1,upper-alpha)"."; }
+#sec-Variables_and_functions-3-2-1 > li { counter-increment: sec-Variables_and_functions-3-2-1; }
+#sec-Tables_and_graphs-3-2-1 { counter-set: sec-Tables_and_graphs-3-2-1 0; }
+#sec-Tables_and_graphs-3-2-1 > li::marker { content: ""counter(sec-Tables_and_graphs-3-2-1,upper-alpha)"."; }
+#sec-Tables_and_graphs-3-2-1 > li { counter-increment: sec-Tables_and_graphs-3-2-1; }
+#sec-Rate_of_change-3-2-1 { counter-set: sec-Rate_of_change-3-2-1 0; }
+#sec-Rate_of_change-3-2-1 > li::marker { content: ""counter(sec-Rate_of_change-3-2-1,upper-alpha)"."; }
+#sec-Rate_of_change-3-2-1 > li { counter-increment: sec-Rate_of_change-3-2-1; }
+#sec-Units-3-2-1 { counter-set: sec-Units-3-2-1 0; }
+#sec-Units-3-2-1 > li::marker { content: ""counter(sec-Units-3-2-1,upper-alpha)"."; }
+#sec-Units-3-2-1 > li { counter-increment: sec-Units-3-2-1; }
+#sec-Metric_system_and_scientific_notation-3-2-1 { counter-set: sec-Metric_system_and_scientific_notation-3-2-1 0; }
+#sec-Metric_system_and_scientific_notation-3-2-1 > li::marker { content: ""counter(sec-Metric_system_and_scientific_notation-3-2-1,upper-alpha)"."; }
+#sec-Metric_system_and_scientific_notation-3-2-1 > li { counter-increment: sec-Metric_system_and_scientific_notation-3-2-1; }
+#sec-First_look_linear-3-2-1 { counter-set: sec-First_look_linear-3-2-1 0; }
+#sec-First_look_linear-3-2-1 > li::marker { content: ""counter(sec-First_look_linear-3-2-1,upper-alpha)"."; }
+#sec-First_look_linear-3-2-1 > li { counter-increment: sec-First_look_linear-3-2-1; }
+#sec-First_look_exponential-3-2-1 { counter-set: sec-First_look_exponential-3-2-1 0; }
+#sec-First_look_exponential-3-2-1 > li::marker { content: ""counter(sec-First_look_exponential-3-2-1,upper-alpha)"."; }
+#sec-First_look_exponential-3-2-1 > li { counter-increment: sec-First_look_exponential-3-2-1; }
+#sec-Using_equations-3-2-1 { counter-set: sec-Using_equations-3-2-1 0; }
+#sec-Using_equations-3-2-1 > li::marker { content: ""counter(sec-Using_equations-3-2-1,upper-alpha)"."; }
+#sec-Using_equations-3-2-1 > li { counter-increment: sec-Using_equations-3-2-1; }
+#sec-Approx_solutions-3-2-1 { counter-set: sec-Approx_solutions-3-2-1 0; }
+#sec-Approx_solutions-3-2-1 > li::marker { content: ""counter(sec-Approx_solutions-3-2-1,upper-alpha)"."; }
+#sec-Approx_solutions-3-2-1 > li { counter-increment: sec-Approx_solutions-3-2-1; }
+#sec-Finance-3-2-1 { counter-set: sec-Finance-3-2-1 0; }
+#sec-Finance-3-2-1 > li::marker { content: ""counter(sec-Finance-3-2-1,upper-alpha)"."; }
+#sec-Finance-3-2-1 > li { counter-increment: sec-Finance-3-2-1; }
+#sec-Solving_linear_equations-3-2-1 { counter-set: sec-Solving_linear_equations-3-2-1 0; }
+#sec-Solving_linear_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_linear_equations-3-2-1,upper-alpha)"."; }
+#sec-Solving_linear_equations-3-2-1 > li { counter-increment: sec-Solving_linear_equations-3-2-1; }
+#sec-Solving_linear_inequalities-3-2-1 { counter-set: sec-Solving_linear_inequalities-3-2-1 0; }
+#sec-Solving_linear_inequalities-3-2-1 > li::marker { content: ""counter(sec-Solving_linear_inequalities-3-2-1,upper-alpha)"."; }
+#sec-Solving_linear_inequalities-3-2-1 > li { counter-increment: sec-Solving_linear_inequalities-3-2-1; }
+#sec-Solving_power_equations-3-2-1 { counter-set: sec-Solving_power_equations-3-2-1 0; }
+#sec-Solving_power_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_power_equations-3-2-1,upper-alpha)"."; }
+#sec-Solving_power_equations-3-2-1 > li { counter-increment: sec-Solving_power_equations-3-2-1; }
+#sec-Solving_exponential_equations-3-2-1 { counter-set: sec-Solving_exponential_equations-3-2-1 0; }
+#sec-Solving_exponential_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_exponential_equations-3-2-1,upper-alpha)"."; }
+#sec-Solving_exponential_equations-3-2-1 > li { counter-increment: sec-Solving_exponential_equations-3-2-1; }
+#sec-Solving_quadratic_equations-3-2-1 { counter-set: sec-Solving_quadratic_equations-3-2-1 0; }
+#sec-Solving_quadratic_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_quadratic_equations-3-2-1,upper-alpha)"."; }
+#sec-Solving_quadratic_equations-3-2-1 > li { counter-increment: sec-Solving_quadratic_equations-3-2-1; }
+#sec-Modeling_linear_equations-3-2-1 { counter-set: sec-Modeling_linear_equations-3-2-1 0; }
+#sec-Modeling_linear_equations-3-2-1 > li::marker { content: ""counter(sec-Modeling_linear_equations-3-2-1,upper-alpha)"."; }
+#sec-Modeling_linear_equations-3-2-1 > li { counter-increment: sec-Modeling_linear_equations-3-2-1; }
+#sec-Systems_linear_equations-3-2-1 { counter-set: sec-Systems_linear_equations-3-2-1 0; }
+#sec-Systems_linear_equations-3-2-1 > li::marker { content: ""counter(sec-Systems_linear_equations-3-2-1,upper-alpha)"."; }
+#sec-Systems_linear_equations-3-2-1 > li { counter-increment: sec-Systems_linear_equations-3-2-1; }
+#sec-Intercepts-3-2-1 { counter-set: sec-Intercepts-3-2-1 0; }
+#sec-Intercepts-3-2-1 > li::marker { content: ""counter(sec-Intercepts-3-2-1,upper-alpha)"."; }
+#sec-Intercepts-3-2-1 > li { counter-increment: sec-Intercepts-3-2-1; }
+#sec-Slopes-3-2-1 { counter-set: sec-Slopes-3-2-1 0; }
+#sec-Slopes-3-2-1 > li::marker { content: ""counter(sec-Slopes-3-2-1,upper-alpha)"."; }
+#sec-Slopes-3-2-1 > li { counter-increment: sec-Slopes-3-2-1; }
+#sec-Fitting_lines_to_data-3-2-1 { counter-set: sec-Fitting_lines_to_data-3-2-1 0; }
+#sec-Fitting_lines_to_data-3-2-1 > li::marker { content: ""counter(sec-Fitting_lines_to_data-3-2-1,upper-alpha)"."; }
+#sec-Fitting_lines_to_data-3-2-1 > li { counter-increment: sec-Fitting_lines_to_data-3-2-1; }
+#sec-Modeling_exponential_equations-3-2-1 { counter-set: sec-Modeling_exponential_equations-3-2-1 0; }
+#sec-Modeling_exponential_equations-3-2-1 > li::marker { content: ""counter(sec-Modeling_exponential_equations-3-2-1,upper-alpha)"."; }
+#sec-Modeling_exponential_equations-3-2-1 > li { counter-increment: sec-Modeling_exponential_equations-3-2-1; }
+#sec-Exp_growth_decay-3-2-1 { counter-set: sec-Exp_growth_decay-3-2-1 0; }
+#sec-Exp_growth_decay-3-2-1 > li::marker { content: ""counter(sec-Exp_growth_decay-3-2-1,upper-alpha)"."; }
+#sec-Exp_growth_decay-3-2-1 > li { counter-increment: sec-Exp_growth_decay-3-2-1; }
+#sec-Growth_factor-3-2-1 { counter-set: sec-Growth_factor-3-2-1 0; }
+#sec-Growth_factor-3-2-1 > li::marker { content: ""counter(sec-Growth_factor-3-2-1,upper-alpha)"."; }
+#sec-Growth_factor-3-2-1 > li { counter-increment: sec-Growth_factor-3-2-1; }
+#sec-Linear_vs_exponential-3-2-1 { counter-set: sec-Linear_vs_exponential-3-2-1 0; }
+#sec-Linear_vs_exponential-3-2-1 > li::marker { content: ""counter(sec-Linear_vs_exponential-3-2-1,upper-alpha)"."; }
+#sec-Linear_vs_exponential-3-2-1 > li { counter-increment: sec-Linear_vs_exponential-3-2-1; }
+#sec-Logistic_growth-3-2-1 { counter-set: sec-Logistic_growth-3-2-1 0; }
+#sec-Logistic_growth-3-2-1 > li::marker { content: ""counter(sec-Logistic_growth-3-2-1,upper-alpha)"."; }
+#sec-Logistic_growth-3-2-1 > li { counter-increment: sec-Logistic_growth-3-2-1; }
+</style>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="just-enough-algebra.html"><span class="title">Just Enough Algebra</span></a></h1>
+<p class="byline">Dr. Suzanne Dorée, Dr. Spencer Bagley</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="backmatter.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="backmatter.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-PE6B.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Just Enough Algebra</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Preface</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-tx-Prelude.html" class="internal"><span class="codenumber">0</span> <span class="title">Prelude</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approximation_and_rounding.html" class="internal"><span class="codenumber">0.1</span> <span class="title">Prelude: Approximation &amp; rounding</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approximation_and_rounding.html#ex-Approximation_and_rounding" class="internal"><span class="codenumber">0.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Arithmetic_operations.html" class="internal"><span class="codenumber">0.2</span> <span class="title">Prelude: Arithmetic operations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Arithmetic_operations.html#ex-Arithmetic_operations" class="internal"><span class="codenumber">0.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Percentages.html" class="internal"><span class="codenumber">0.3</span> <span class="title">Prelude: Percentages</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Percentages.html#ex-Percentages" class="internal"><span class="codenumber">0.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Order_of_operations.html" class="internal"><span class="codenumber">0.4</span> <span class="title">Prelude: Order of operations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Order_of_operations.html#ex-Order_of_operations" class="internal"><span class="codenumber">0.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fractions.html" class="internal"><span class="codenumber">0.5</span> <span class="title">Prelude: Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fractions.html#ex-Fractions" class="internal"><span class="codenumber">0.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Powers_and_roots.html" class="internal"><span class="codenumber">0.6</span> <span class="title">Prelude: Powers and roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Powers_and_roots.html#ex-Powers_and_roots" class="internal"><span class="codenumber">0.6</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Algebraic_notation.html" class="internal"><span class="codenumber">0.7</span> <span class="title">Prelude: Algebraic notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Algebraic_notation.html#ex-Algebraic-notation" class="internal"><span class="codenumber">0.7</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Scientific_notation.html" class="internal"><span class="codenumber">0.8</span> <span class="title">Prelude: Scientific notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Scientific_notation.html#ex-Scientific_notation" class="internal"><span class="codenumber">0.8</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logarithms.html" class="internal"><span class="codenumber">0.9</span> <span class="title">Prelude: Logarithms</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logarithms.html#ex-Logarithms" class="internal"><span class="codenumber">0.9</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-tx-Variables.html" class="internal"><span class="codenumber">1</span> <span class="title">Variables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Variables_and_functions.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Variables and functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Variables_and_functions.html#exercises-variables-functions" class="internal"><span class="codenumber">1.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Tables_and_graphs.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Tables and graphs</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Tables_and_graphs.html#ex-Tables_and_graphs" class="internal"><span class="codenumber">1.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Rate_of_change.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Rate of change</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Rate_of_change.html#ex-Rate_of_change" class="internal"><span class="codenumber">1.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Units.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Units</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Units.html#ex-Units" class="internal"><span class="codenumber">1.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Metric_system_and_scientific_notation.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Metric prefixes and scientific notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Metric_system_and_scientific_notation.html#ex-Metric_system_and_scientific_notation" class="internal"><span class="codenumber">1.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1A.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Practice Exam 1A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1A.html#ws-PE1A" class="internal"><span class="codenumber">1.6</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1B.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1B.html#ws-PE1B" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-tx-Equations.html" class="internal"><span class="codenumber">2</span> <span class="title">Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_linear.html#ex-First_look_linear" class="internal"><span class="codenumber">2.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_exponential.html#ex-First_look_exponentialEX" class="internal"><span class="codenumber">2.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Using_equations.html#ex-Using_equations" class="internal"><span class="codenumber">2.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approx_solutions.html#ex-Approx_solutions" class="internal"><span class="codenumber">2.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Finance.html#ex-Finance" class="internal"><span class="codenumber">2.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2A.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2A.html#ws-PE2A" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2B.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2B.html#ws-PE2B" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-tx-Solving_equations.html" class="internal"><span class="codenumber">3</span> <span class="title">Solving equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html#ex-Solving_linear_equations" class="internal"><span class="codenumber">3.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html#ex-Solving_linear_inequalitiesEX" class="internal"><span class="codenumber">3.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_power_equations.html#ex-Solving_power_equations" class="internal"><span class="codenumber">3.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html#ex-Solving_exponential_equations" class="internal"><span class="codenumber">3.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html#ex-Solving_quadratic_equations" class="internal"><span class="codenumber">3.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3A.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3A.html#ws-PE3A" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3B.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3B.html#ws-PE3B" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-tx-Closer_look_linear.html" class="internal"><span class="codenumber">4</span> <span class="title">A closer look at linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html#ex-Modeling_linear_equations" class="internal"><span class="codenumber">4.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html#ex-Systems_linear_equations" class="internal"><span class="codenumber">4.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Intercepts.html#ex-Intercepts" class="internal"><span class="codenumber">4.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Slopes.html#ex-Slopes" class="internal"><span class="codenumber">4.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html#ex-Fitting_lines_to_data" class="internal"><span class="codenumber">4.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4A.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4A.html#ws-PE4A" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4B.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4B.html#ws-PE4B" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-tx-Closer_look_exponential.html" class="internal"><span class="codenumber">5</span> <span class="title">A closer look at exponential functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html#ex-Modeling_exponential_equations" class="internal"><span class="codenumber">5.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html#ex-Exp_growth_decay" class="internal"><span class="codenumber">5.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Growth_factor.html#ex-Growth_factor" class="internal"><span class="codenumber">5.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html#ex-Linear_vs_exponential" class="internal"><span class="codenumber">5.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logistic_growth.html#ex-Logistic_growth" class="internal"><span class="codenumber">5.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5A.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-PE5A.html#ws-PE5A" class="internal"><span class="codenumber">5.6.1</span> <span class="title">Practice Exam 5A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5B.html" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-PE5B.html#ws-PE5B" class="internal"><span class="codenumber">5.7.1</span> <span class="title">Practice Exam 5B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter contains-active">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-appendix active">
+<div class="toc-title-box"><a href="sec-PE6A.html" class="internal"><span class="codenumber">A</span> <span class="title">Practice Final Exam A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ws-Review_exercisesA.html" class="internal"><span class="codenumber">A</span> <span class="title">Practice Final Exam A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="sec-PE6B.html" class="internal"><span class="codenumber">B</span> <span class="title">Practice Final Exam B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ws-PE6B.html" class="internal"><span class="codenumber">B</span> <span class="title">Practice Final Exam B</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="app-Templates.html" class="internal"><span class="codenumber">C</span> <span class="title">Templates</span></a></div></li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="app-Formulas.html" class="internal"><span class="codenumber">D</span> <span class="title">Formulas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-formula-constants.html" class="internal"><span class="codenumber">D.1</span> <span class="title">Formulas used to find constants</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-formula-solve.html" class="internal"><span class="codenumber">D.2</span> <span class="title">Formulas used to solve specific types of equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-formula-finance.html" class="internal"><span class="codenumber">D.3</span> <span class="title">Formulas from finance</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-6.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="appendix" id="sec-PE6A"><h2 class="heading">
+<span class="type">Appendix</span><span class="space"> </span><span class="codenumber">A</span><span class="space"> </span><span class="title">Practice Final Exam A</span>
+</h2>
+<section class="exercises" id="ws-Review_exercisesA"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Practice Final Exam A</span>
+</h3>
+<section class="introduction" id="ws-Review_exercisesA-2"><div class="para" id="ws-Review_exercisesA-2-1">Relax. You have done problems like these before. Even if these problems look a bit different, just do what you can. If you’re not sure of something, please ask! You may use your calculator. Please show all of your work and write down as many steps as you can. Don’t spend too much time on any one problem. Do well. And remember, ask me if you’re not sure about something.</div> <div class="para" id="ws-Review_exercisesA-2-2"><em class="emphasis">As you work, make a “don’t forget” list of any information you need to look up or ask about.</em></div> <div class="para" id="ws-Review_exercisesA-2-3">
+<dfn class="terminology">Caution:</dfn> These review exercises do not include every possible problem you might be asked on a final exam. For example, there are no problems here from Sections 1.5, 2.5, 3.5, 4.5, or 5.5, so be sure to ask your instructor which of those sections are going to be on your final exam.</div></section><article class="exercise exercise-like" id="car-production-PE6A"><h3 class="heading"><span class="codenumber">1<span class="period">.</span></span></h3>
+<div class="introduction" id="car-production-PE6A-1">
+<div class="para" id="car-production-PE6A-1-1">The graph shows the number of cars produced in North America (in millions/year) during 1951-2011. <aside class="aside aside-like" id="car-production-PE6A-1-1-1"><div class="para" id="car-production-PE6A-1-1-1-1">Source: Ward’s Automotive Yearbooks</div></aside>
+</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/CarProduction.png" class="contained"></div>
+</div>
+<article class="task exercise-like" id="car-production-PE6A-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="car-production-PE6A-2-1-1">Identify the variables, including units and dependence.</div></article><article class="task exercise-like" id="car-production-PE6A-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="car-production-PE6A-3-1-1">Approximately when did North American car production first pass 9 million/year? Indicate the corresponding point on the graph.</div></article><article class="task exercise-like" id="car-production-PE6A-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="car-production-PE6A-4-1-1">In which year were the most cars produced? Again, also indicate the point.</div></article><article class="task exercise-like" id="car-production-PE6A-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="car-production-PE6A-5-1-1">Best as you can tell from your graph, what might be a reasonable estimate of North American car production in 2015? Just guess to the nearest million/year.</div></article><article class="task exercise-like" id="car-production-PE6A-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<div class="para" id="car-production-PE6A-6-1-1">Calculate the rate of change from 1958 when production was 4.57 million cars/year to 1971 when it was 9.83 cars million/year. What does that tell you about North American car production during 1958-1971?</div></article><article class="task exercise-like" id="car-production-PE6A-7"><h4 class="heading"><span class="codenumber">(f)</span></h4>
+<div class="para" id="car-production-PE6A-7-1-1">Now calculate the rate of change of from 1984 when production was 9.03 million cars/year to 2006 when it was 6.84 million cars/year. What does that tell you about North American car production during 1984-2006?</div></article></article><article class="exercise exercise-like" id="stuffed-animals-PE6A"><h3 class="heading"><span class="codenumber">2<span class="period">.</span></span></h3>
+<div class="introduction" id="stuffed-animals-PE6A-1"><div class="para logical" id="stuffed-animals-PE6A-1-1">
+<div class="para">Sarah and Koal are bringing a large basket of stuffed animals to the crisis nursery as gifts for the children. They estimate it will cost $<span class="process-math">\(T\)</span> for <span class="process-math">\(S\)</span> stuffed animals where</div>
+<div class="displaymath process-math">
+\begin{equation*}
+T = 39.99 + 6.95S
+\end{equation*}
+</div>
+</div></div>
+<article class="task exercise-like" id="stuffed-animals-PE6A-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="stuffed-animals-PE6A-2-1-1">Make a table showing the cost if Sarah and Koal include 10, 20, or 40 stuffed animals.</div></article><article class="task exercise-like" id="stuffed-animals-PE6A-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="stuffed-animals-PE6A-3-1-1">Included in the cost is a new toy box for the animals. What does it cost?</div></article><article class="task exercise-like" id="stuffed-animals-PE6A-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="stuffed-animals-PE6A-4-1-1">What does the 6.95 represent and what are its units?</div></article><article class="task exercise-like" id="stuffed-animals-PE6A-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="stuffed-animals-PE6A-5-1-1">Draw a detailed graph, starting at 0.</div></article><article class="task exercise-like" id="stuffed-animals-PE6A-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<div class="para" id="stuffed-animals-PE6A-6-1-1">If Sarah and Koal spent $262.39, how many stuffed animals were in the toy box they gave to the crisis nursery? Show how to set up and solve an equation to answer the question.</div></article><article class="task exercise-like" id="stuffed-animals-PE6A-7"><h4 class="heading"><span class="codenumber">(f)</span></h4>
+<div class="para logical" id="stuffed-animals-PE6A-7-1-1">
+<div class="para">Solve the inequality</div>
+<div class="displaymath process-math">
+\begin{equation*}
+200 \le 39.99 + 6.95S \le 300
+\end{equation*}
+</div>
+<div class="para">What does the answer mean in terms of the story?</div>
+</div></article></article><article class="exercise exercise-like" id="lbd-PE6A"><h3 class="heading"><span class="codenumber">3<span class="period">.</span></span></h3>
+<div class="introduction" id="lbd-PE6A-1"><div class="para logical" id="lbd-PE6A-1-1">
+<div class="para">My favorite little black dress is machine washable. Unfortunately each time I wash it the color fades a little. The intensity of black color remaining, <span class="process-math">\(B\text{,}\)</span> is a function of the number of times I have washed the dress, <span class="process-math">\(W\text{,}\)</span> according to the equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+B=100 \ast 0.985^W
+\end{equation*}
+</div>
+</div></div>
+<article class="task exercise-like" id="lbd-PE6A-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="lbd-PE6A-2-1-1">It will still look new as long as the intensity stays above 90%. Set up and solve an equation to figure out how many times I can wash the dress and keep it looking new. Then check some other way.</div></article><article class="task exercise-like" id="lbd-PE6A-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="lbd-PE6A-3-1-1">By the time only 75% of the color remains, the dress will look too faded to wear formally. How many washes before then? Find the answer to the nearest number of washes by any method you prefer.</div></article><article class="task exercise-like" id="lbd-PE6A-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="lbd-PE6A-4-1-1">Draw a graph showing how the color of my favorite little black dress fades.</div></article></article><article class="exercise exercise-like" id="gym-machines-PE6A"><h3 class="heading"><span class="codenumber">4<span class="period">.</span></span></h3>
+<div class="introduction" id="gym-machines-PE6A-1"><div class="para" id="gym-machines-PE6A-1-1">Brock is working as the equipment manager at a local gym. They need to replace several weight machines. One option will cost $475 per month to rent the machines plus a delivery/removal fee of $300. The other option is to buy the machines for $23,600 and pay $92/month for a service contract.</div></div>
+<article class="task exercise-like" id="gym-machines-PE6A-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="gym-machines-PE6A-2-1-1">Name the variables and write an equation for each option.</div></article><article class="task exercise-like" id="gym-machines-PE6A-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="gym-machines-PE6A-3-1-1">What should Brock recommend if they plan to have the machines for 3 years?</div></article><article class="task exercise-like" id="gym-machines-PE6A-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="gym-machines-PE6A-4-1-1">Set up and solve a system of equations to determine when the options cost the same.</div></article><article class="task exercise-like" id="gym-machines-PE6A-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="gym-machines-PE6A-5-1-1">What does the answer tell Brock?</div></article></article><article class="exercise exercise-like" id="business-sales-PE6A"><h3 class="heading"><span class="codenumber">5<span class="period">.</span></span></h3>
+<div class="introduction" id="business-sales-PE6A-1">
+<div class="para logical" id="business-sales-PE6A-1-1">
+<div class="para">Dwight’s company was doing great business in 2000, but a few years later sales began to drop, and have only gotten worse. Their sales $<span class="process-math">\(S\)</span> in millions <span class="process-math">\(T\)</span> years from 2000 is given by the following equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+S = 78.1+5.75T-0.7T^2
+\end{equation*}
+</div>
+</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/salesquad.png" class="contained"></div>
+</div>
+<article class="task exercise-like" id="business-sales-PE6A-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="business-sales-PE6A-2-1-1">According to this equation, what were the company’s sales in 2000, 2004, 2009? <em class="emphasis">You may confirm your answers with the graph, but use the equation to calculate.</em>
+</div></article><article class="task exercise-like" id="business-sales-PE6A-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="business-sales-PE6A-3-1-1">The company decided to declare bankruptcy when sales fell below $10 million. In what year was that? Find the answer to the nearest year, showing work to justify your answer. Also, indicate the point on the graph where you can check. <em class="emphasis">You may use successive approximations or the appropriate formula.</em>
+</div></article></article><article class="exercise exercise-like" id="infant-weight-PE6A"><h3 class="heading"><span class="codenumber">6<span class="period">.</span></span></h3>
+<div class="introduction" id="infant-weight-PE6A-1"><div class="para logical" id="infant-weight-PE6A-1-1">
+<div class="para">Infants are regularly checked to make sure they are growing accordingly. The World Health Organization publishes growth charts to evaluate infant weight <span class="process-math">\(W\)</span> in kilograms at a given age <span class="process-math">\(A\)</span> in months since birth (for up to three years). An equation that describes an average infant boy is the following:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+W=15-11.5\ast0.932^A
+\end{equation*}
+</div>
+</div></div>
+<article class="task exercise-like" id="infant-weight-PE6A-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="infant-weight-PE6A-2-1-1">According to this equation, what is the average infant boy weight at birth, 4 months, a year, and 2 years?</div></article><article class="task exercise-like" id="infant-weight-PE6A-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para logical" id="infant-weight-PE6A-3-1-1">
+<div class="para">Convert your answer for 4 months to pounds and ounces using</div>
+<div class="displaymath process-math">
+\begin{equation*}
+1 \text{ kilogram } \approx 2.2 \text{ pounds} \quad \text{ and } \quad 1 \text{ pound } = 16 \text{ ounces}
+\end{equation*}
+</div>
+<div class="para"><em class="emphasis">Hint: first convert to pounds. Then convert just the decimal part to ounces.</em></div>
+</div></article></article><article class="exercise exercise-like" id="fudge-square-PE6A"><h3 class="heading"><span class="codenumber">7<span class="period">.</span></span></h3>
+<div class="introduction" id="fudge-square-PE6A-1"><div class="para logical" id="fudge-square-PE6A-1-1">
+<div class="para">Gail calculated that number of pieces of fudge <span class="process-math">\(F\)</span> she can cut from a square that is <span class="process-math">\(D\)</span> inches on each edge is given by the formula</div>
+<div class="displaymath process-math">
+\begin{equation*}
+F=1.5625\, D^2
+\end{equation*}
+</div>
+</div></div>
+<article class="task exercise-like" id="fudge-square-PE6A-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="fudge-square-PE6A-2-1-1">Make a table showing the number of pieces of fudge from a square with edge: 5 inches, 10 inches, and 2 feet. Include the value for a 0 inch square too.</div></article><article class="task exercise-like" id="fudge-square-PE6A-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="fudge-square-PE6A-3-1-1">Draw a graph showing how the number of pieces of fudge depends on the length of the edge of the square.</div></article><article class="task exercise-like" id="fudge-square-PE6A-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="fudge-square-PE6A-4-1-1">According to your graph, <em class="emphasis">approximately</em> what size square should Gail make if she wants 200 pieces of fudge?</div></article><article class="task exercise-like" id="fudge-square-PE6A-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="fudge-square-PE6A-5-1-1">Now set up and solve an equation to find the answer to the nearest one decimal place.</div></article></article><article class="exercise exercise-like" id="texas-population-PE6A"><h3 class="heading"><span class="codenumber">8<span class="period">.</span></span></h3>
+<div class="introduction" id="texas-population-PE6A-1"><div class="para" id="texas-population-PE6A-1-1">In 2000 there were an estimated 20,851,820 Texans. The population of Texas has grown around 1.89% per year since then. <aside class="aside aside-like" id="texas-population-PE6A-1-1-1"><div class="para" id="texas-population-PE6A-1-1-1-1">Source: United States Census Bureau</div></aside>
+</div></div>
+<article class="task exercise-like" id="texas-population-PE6A-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="texas-population-PE6A-2-1-1">Name the variables and write an equation relating them.</div></article><article class="task exercise-like" id="texas-population-PE6A-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="texas-population-PE6A-3-1-1">According to your equation, what was the population of Texas in 2010?</div></article><article class="task exercise-like" id="texas-population-PE6A-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="texas-population-PE6A-4-1-1">The U.S. Census Bureau counted 25,145,561 Texans in 2010. Does that mean the actual growth rate was slightly more or slightly less than 1.89%? Explain.</div></article></article><article class="exercise exercise-like" id="curl-weight-PE6A"><h3 class="heading"><span class="codenumber">9<span class="period">.</span></span></h3>
+<div class="introduction" id="curl-weight-PE6A-1"><div class="para" id="curl-weight-PE6A-1-1">Ericson has been lifting weight for the past 12 weeks. He has increased his curl weight by about 1.5 pounds per week and is up to 30 pounds.</div></div>
+<article class="task exercise-like" id="curl-weight-PE6A-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="curl-weight-PE6A-2-1-1">What weight could Ericson curl 12 weeks ago?</div></article><article class="task exercise-like" id="curl-weight-PE6A-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="curl-weight-PE6A-3-1-1">Name the variables and write a linear equation relating them.</div></article><article class="task exercise-like" id="curl-weight-PE6A-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="curl-weight-PE6A-4-1-1">At this rate when will Ericson be able to curl his goal of at least 45 pounds? Set up and solve an inequality.</div></article></article><article class="exercise exercise-like" id="calories-PE6A"><h3 class="heading"><span class="codenumber">10<span class="period">.</span></span></h3>
+<div class="introduction" id="calories-PE6A-1"><div class="para" id="calories-PE6A-1-1">In the United States in 1970, the average person ate 2,169 calories per day. By 2008 that number had increased to 2,674 calories per day. Let <span class="process-math">\(C\)</span> be the amount a typical person eats (in calories per day) and <span class="process-math">\(T\)</span> the number of years since 1970. Compare what the linear and exponential models project for the years 2015 and 2030. Include both equations and a graph showing both functions on the same axes. <aside class="aside aside-like" id="calories-PE6A-1-1-3"><div class="para" id="calories-PE6A-1-1-3-1">Source: United States Department of Agriculture</div></aside>
+</div></div></article></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="backmatter.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-PE6B.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
