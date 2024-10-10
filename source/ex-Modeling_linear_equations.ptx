@@ -354,7 +354,7 @@
 			<task>
 				<statement>
 					<p>
-						Find the slope and intercept and explain what each means in terms of the story.
+						Find the slope and intercept for the state university and explain what each means in terms of the story.
 					</p>
 				</statement>
 			</task>
@@ -362,19 +362,15 @@
 			<task>
 				<statement>
 					<p>
-						Make a table of values showing the tuition cost for 3 credits, 12 credits, or 16 credits.
+						Make a table of values showing the tuition cost at the state university for 3 credits, 12 credits, or 16 credits.
 					</p>
 				</statement>
 			</task>
-			
-		<interlude>
-			<p>
-				At the local <term>community college</term>, the tuition each student pays is based only on the number of credits. The college charges $415 per credit.
-			</p>
-		</interlude>
-
 			<task>
 				<statement>
+					<p>
+						At the local <term>community college</term>, the tuition each student pays is based only on the number of credits. The college charges $415 per credit.
+					</p>
 					<p>
 						Using the same variables as before, write an equation relating them for the community college.
 					</p>
@@ -384,7 +380,7 @@
 			<task>
 				<statement>
 					<p>
-						Find the slope and intercept and explain what each means in terms of the story.
+						Find the slope and intercept for the community college and explain what each means in terms of the story.
 					</p>
 				</statement>
 			</task>
@@ -392,7 +388,7 @@
 			<task>
 				<statement>
 					<p>
-						Make a table of values showing the tuition cost for 3 credits, 12 credits, or 16 credits.
+						Make a table of values showing the tuition cost at the community college for 3 credits, 12 credits, or 16 credits.
 					</p>
 				</statement>
 			</task>
