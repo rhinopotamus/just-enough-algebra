@@ -14,7 +14,7 @@
             Everything we learned about tables, graphs, and approximating solutions is still important.  Even if we solve an equation exactly, we still want to know that the answer makes sense.  That's the one thing an equation cannot do.  We continue to rely on words, numbers, and graphs for that.  You will likely find it a good habit to use those tools to estimate the answer before solving an equation as well as doing the <q>reality check</q> after.
         </p>
         <p>
-            Okay, I have to mention something here.  That list of types of equations we know how to solve.  That's the good news.  The bad news?  Many other types of equations, including polynomials in general, do not have a sure way to solve them.  So what do we do in practice?  Well, for starters, successive approximation works for any type of equation.  Not always quickly or easily, but if there's a solution (and the function is nice enough), we can find it.  Happily there are much fancier numeric method to approximate solutions of equations, especially using a computer.
+            Okay, I have to mention something here.  That list of types of equations we know how to solve.  That's the good news.  The bad news?  Many other types of equations, including polynomials in general, do not have a sure way to solve them.  So what do we do in practice?  Well, for starters, successive approximation works for any type of equation.  Not always quickly or easily, but if there's a solution (and the function is nice enough), we can find it.  Happily there are much fancier numeric methods to approximate solutions of equations, especially using a computer.
         </p>
         <p>
             But for now, let's solve what we can.
