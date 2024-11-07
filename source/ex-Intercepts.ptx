@@ -273,7 +273,7 @@
 	<exercise xml:id="snowfall-intercept" component="not-workbook">
 		<introduction>
 			<p>
-				At 10:00 a.m. we've got snowy skies and 4 inches of new snow on the ground. It's coming down fast out there at of an inch per hour.
+				At 10:00 a.m. we've got snowy skies and 4 inches of new snow on the ground. It's coming down fast out there at a rate of an inch per hour.
 			</p>
 		</introduction>	
 		<task>
@@ -303,7 +303,7 @@
 		<task>
 			<statement>
 				<p>
-					Name a new variable for time measured this time in hours since the snowstorm started.
+					Name a new variable for the time measured in hours since the snowstorm started.
 				</p>
 			</statement>
 		</task>
