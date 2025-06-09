@@ -4,6 +4,7 @@
     <targets>
 <!-- Web target -->
         <target name="web" 
+                deploy-dir="summer-2025"
                 format="html" 
                 xsl="custom-web.xsl" 
                 publication="publication-web.ptx" />
@@ -11,7 +12,7 @@
 <!-- Workbook targets -->
         <target name="workbook" 
                 format="pdf" 
-        publication="publication-workbook.ptx"
+                publication="publication-workbook.ptx"
                 xsl="custom-latex-workbook.xsl" 
                 latex-engine="pdflatex">
                 <stringparams latex.preamble.early="\usepackage{parskip}" />
