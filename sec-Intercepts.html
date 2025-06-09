@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr" data-legacy-colorscheme="blue_red">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-legacy                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Intercepts and direct proportionality</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;" rel="stylesheet">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Just Enough Algebra">
+<meta property="book:author" content="Dr. Suzanne Dorée">
+<meta property="book:author" content="Dr. Spencer Bagley">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.7.5';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.107bf2d9be20d9c4.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="justenoughalgebra" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""><img src="external/book-open-solid.png" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="just-enough-algebra.html"><span class="title">Just Enough Algebra</span></a></h1>
+<p class="byline">Dr. Suzanne Dorée, Dr. Spencer Bagley</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-Systems_linear_equations.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-Closer_look_linear.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-Slopes.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-why-this-book-web.html" class="internal"><span class="title">Why <em class="emphasis">Just Enough Algebra</em>?</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-students-web.html" class="internal"><span class="title">Students! Read this!</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-instructors-web.html" class="internal"><span class="title">Instructors! Read this!</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Prelude.html" class="internal"><span class="codenumber">0</span> <span class="title">Prelude</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approximation_and_rounding.html" class="internal"><span class="codenumber">0.1</span> <span class="title">Prelude: Approximation &amp; rounding</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approximation_and_rounding.html#ex-Approximation_and_rounding" class="internal"><span class="codenumber">0.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Arithmetic_operations.html" class="internal"><span class="codenumber">0.2</span> <span class="title">Prelude: Arithmetic operations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Arithmetic_operations.html#ex-Arithmetic_operations" class="internal"><span class="codenumber">0.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Percentages.html" class="internal"><span class="codenumber">0.3</span> <span class="title">Prelude: Percentages</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Percentages.html#ex-Percentages" class="internal"><span class="codenumber">0.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Order_of_operations.html" class="internal"><span class="codenumber">0.4</span> <span class="title">Prelude: Order of operations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Order_of_operations.html#ex-Order_of_operations" class="internal"><span class="codenumber">0.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fractions.html" class="internal"><span class="codenumber">0.5</span> <span class="title">Prelude: Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fractions.html#ex-Fractions" class="internal"><span class="codenumber">0.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Powers_and_roots.html" class="internal"><span class="codenumber">0.6</span> <span class="title">Prelude: Powers and roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Powers_and_roots.html#ex-Powers_and_roots" class="internal"><span class="codenumber">0.6</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Algebraic_notation.html" class="internal"><span class="codenumber">0.7</span> <span class="title">Prelude: Algebraic notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Algebraic_notation.html#ex-Algebraic-notation" class="internal"><span class="codenumber">0.7</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Scientific_notation.html" class="internal"><span class="codenumber">0.8</span> <span class="title">Prelude: Scientific notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Scientific_notation.html#ex-Scientific_notation" class="internal"><span class="codenumber">0.8</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logarithms.html" class="internal"><span class="codenumber">0.9</span> <span class="title">Prelude: Logarithms</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logarithms.html#ex-Logarithms" class="internal"><span class="codenumber">0.9</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Variables.html" class="internal"><span class="codenumber">1</span> <span class="title">Variables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Variables_and_functions.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Variables and functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Variables_and_functions.html#exercises-variables-functions" class="internal"><span class="codenumber">1.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Tables_and_graphs.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Tables and graphs</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Tables_and_graphs.html#ex-Tables_and_graphs" class="internal"><span class="codenumber">1.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Rate_of_change.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Rate of change</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Rate_of_change.html#ex-Rate_of_change" class="internal"><span class="codenumber">1.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Units.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Units</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Units.html#ex-Units" class="internal"><span class="codenumber">1.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Metric_system_and_scientific_notation.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Metric prefixes and scientific notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Metric_system_and_scientific_notation.html#ex-Metric_system_and_scientific_notation" class="internal"><span class="codenumber">1.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1A.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Practice Exam 1A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1A.html#ws-PE1A" class="internal"><span class="codenumber">1.6</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1B.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1B.html#ws-PE1B" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Equations.html" class="internal"><span class="codenumber">2</span> <span class="title">Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_linear.html#ex-First_look_linear" class="internal"><span class="codenumber">2.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_exponential.html#ex-First_look_exponentialEX" class="internal"><span class="codenumber">2.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Using_equations.html#ex-Using_equations" class="internal"><span class="codenumber">2.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approx_solutions.html#ex-Approx_solutions" class="internal"><span class="codenumber">2.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Finance.html#ex-Finance" class="internal"><span class="codenumber">2.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2A.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2A.html#ws-PE2A" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2B.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2B.html#ws-PE2B" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Solving_equations.html" class="internal"><span class="codenumber">3</span> <span class="title">Solving equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html#ex-Solving_linear_equations" class="internal"><span class="codenumber">3.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html#ex-Solving_linear_inequalitiesEX" class="internal"><span class="codenumber">3.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_power_equations.html#ex-Solving_power_equations" class="internal"><span class="codenumber">3.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html#ex-Solving_exponential_equations" class="internal"><span class="codenumber">3.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html#ex-Solving_quadratic_equations" class="internal"><span class="codenumber">3.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3A.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3A.html#ws-PE3A" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3B.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3B.html#ws-PE3B" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-Closer_look_linear.html" class="internal"><span class="codenumber">4</span> <span class="title">A closer look at linear equations</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html#ex-Modeling_linear_equations" class="internal"><span class="codenumber">4.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html#ex-Systems_linear_equations" class="internal"><span class="codenumber">4.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div>
+<ul class="structural toc-item-list active"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Intercepts.html#ex-Intercepts" class="internal"><span class="codenumber">4.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Slopes.html#ex-Slopes" class="internal"><span class="codenumber">4.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html#ex-Fitting_lines_to_data" class="internal"><span class="codenumber">4.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4A.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4A.html#ws-PE4A" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4B.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4B.html#ws-PE4B" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Closer_look_exponential.html" class="internal"><span class="codenumber">5</span> <span class="title">A closer look at exponential equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html#ex-Modeling_exponential_equations" class="internal"><span class="codenumber">5.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html#ex-Exp_growth_decay" class="internal"><span class="codenumber">5.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Growth_factor.html#ex-Growth_factor" class="internal"><span class="codenumber">5.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html#ex-Linear_vs_exponential" class="internal"><span class="codenumber">5.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logistic_growth.html#ex-Logistic_growth" class="internal"><span class="codenumber">5.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5A.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE5A.html#ws-PE5A" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5B.html" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE5B.html#ws-PE5B" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="backmatter-2.html" class="internal"><span class="codenumber">A</span> <span class="title">Practice Final Exams</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pfe1.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Practice Final Exam 1</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-pfe1.html#ws-PE6A" class="internal"><span class="codenumber">A.1</span> <span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pfe2.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Practice Final Exam 2</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-pfe2.html#ws-PE6B" class="internal"><span class="codenumber">A.2</span> <span class="title"></span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="app-templates-formulas.html" class="internal"><span class="codenumber">B</span> <span class="title">Templates and Formulas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-templates.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Templates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-constants.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Formulas used to find constants</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-solve.html" class="internal"><span class="codenumber">B.3</span> <span class="title">Formulas used to solve specific types of equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-finance.html" class="internal"><span class="codenumber">B.4</span> <span class="title">Formulas from finance</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Intercepts"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">4.3</span><span class="space"> </span><span class="title">Intercepts and direct proportionality</span>
+</h2>
+<section class="introduction" id="sec-Intercepts-2"><div class="para logical" id="sec-Intercepts-2-1">
+<div class="para">Kaleb runs <span class="process-math">\(8 \tfrac12\)</span> minute miles, which means it takes him around 8.5 minutes to run each mile. Yesterday he was out for about 30 minutes and ran the 2.8 mile loop by our house. That strikes me as curious because if he ran 2.8 miles at 8.5 minutes per mile that should take</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{8.5 \text{ minutes}}{\text{mile}} \ast 2.8 \text{ miles} = 8.5 \times 2.8 = 23.8 \approx 24 \text{ minutes}
+\end{equation*}
+</div>
+<div class="para">But Kaleb took 30 minutes. That’s 6 minutes longer than expected. Well, technically 6.2 minutes since</div>
+<div class="displaymath process-math">
+\begin{equation*}
+30 - 23.8 = 6.2 \approx 6 \text{ minutes}
+\end{equation*}
+</div>
+<div class="para">but let’s work with 6 since the 30 was only approximate to begin with.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Intercepts-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Intercepts-2-2">The point is, what’s up with that missing 6 minutes? Oh, I bet I know what it is. Ever since Kaleb turned fifty years old, he’s been having trouble with his knees. I bet he’s finally stretching like his doctor ordered. Must be around 6 minutes of stretches after each run.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Intercepts-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Intercepts-2-3">
+<div class="para">Since Kaleb’s total time is function of how far he runs, our variables are</div>
+<div class="displaymath process-math" id="sec-Intercepts-2-3-1">
+\begin{align*}
+T \amp= \text{ total time (minutes) } \sim \text{ dep} \\
+D \amp= \text{ distance (miles) } \sim \text{ indep} 
+\end{align*}
+</div>
+<div class="para">Notice that we are determining how the time Kaleb spends running depends on the distance he runs, so the time <span class="process-math">\(T\)</span> is our dependent variable. Often time is the independent variable, but not so here.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Intercepts-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Intercepts-2-4">
+<div class="para">For the sake of this problem, we assume Kaleb runs a steady 8.5 minutes per mile so the rate of change is constant. The equation must be linear and so it fits the template</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{dep }=\text{ start } + \text{slope} \ast {\text{indep}}
+\end{equation*}
+</div>
+<div class="para">The slope is 8.5 minutes per mile. The 6 minutes Kaleb spends stretching is the intercept, even though it’s named “start” in the template and Kaleb is actually stretching at the end of his run. A better name might be “fixed.” Whatever you call it, the equation is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\textbf{Kaleb:}\quad  T = 6 + 8.5D
+\end{equation*}
+</div>
+<div class="para">As a quick check, for that 2.8 mile run we have <span class="process-math">\(D=2.8\)</span> and so</div>
+<div class="displaymath process-math">
+\begin{equation*}
+T = 6 + 8.5 \ast 2.8 = 6 + 8.5 \times \underline{2.8} = 29.8 \approx 30 \text{ minutes}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Intercepts-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Intercepts-2-5">
+<div class="para">By the way, there’s a shorter way to find the intercept. The intercept is the “starting value,” or in this case the time spent stretching. So we take the total time and then subtract out the time spent running</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{intercept }=30 - 8.5 \times 2.8 = 6.2 \approx 6 \text{ minutes}
+\end{equation*}
+</div>
+<div class="para">In general, <article class="assemblage assemblage-like" id="intercept-formula"><h3 class="heading"><span class="title">Intercept (of Linear) Formula</span></h3>
+<div class="para logical" id="intercept-formula-2">
+<div class="displaymath process-math">
+\begin{equation*}
+\text{intercept} = \text{dep} - \text{slope}\ast\text{indep}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#intercept-formula-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Intercept (of Linear) Formula"><a href="#intercept-formula" title="Copy permalink for Assemblage: Intercept (of Linear) Formula">🔗</a></div></article>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Intercepts-2-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Intercepts-2-6">
+<div class="para">Kaleb’s daughter Muna runs considerably faster, 7 minute miles, and she’s not into stretching at all. For her to run the 2.8 mile loop by our house, it would take</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{7 \text{ minutes}}{\text{mile}} \ast 2.8 \text{ miles} = 7 \times 2.8 = 19.6 \text{ minutes}
+\end{equation*}
+</div>
+<div class="para">That means while her dad would take 30 minutes to run the loop and do his stretches, Muna can run it in just under 20 minutes.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Intercepts-2-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Intercepts-2-7">
+<div class="para">The equation for Muna is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\textbf{Muna:}\quad  T = 7D
+\end{equation*}
+</div>
+<div class="para">The slope is 7 minutes per mile. What’s the intercept for this equation? There’s no time for stretching in her equation, so it’s like <span class="process-math">\(T = 0 + 7D\text{.}\)</span> The intercept is 0 minutes.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Intercepts-2-7" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Intercepts-2-8">Compare the graphs. Each intercept shows where that line meets the vertical axis. Kaleb’s crosses at 6 minutes, but Muna’s crosses at 0 minutes, at the origin (where the two axes cross).<div class="autopermalink" data-description="Paragraph"><a href="#sec-Intercepts-2-8" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Intercepts-2-9">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/runtimes.png" class="contained"></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Intercepts-2-9" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Intercepts-2-10">By the way, Muna’s equation <span class="process-math">\(T = 7D\)</span> is a <dfn class="terminology">direct proportionality</dfn> because the only thing happening is that the independent variable is being scaled by a <dfn class="terminology">proportionality constant</dfn>, <span class="process-math">\(k=7\text{.}\)</span> Any direct proportionality fits this template.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Intercepts-2-10" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<article class="assemblage assemblage-like" id="direct-prop-template"><h3 class="heading"><span class="title">Direct Proportionality Template</span></h3>
+<div class="para logical" id="direct-prop-template-2">
+<div class="displaymath process-math">
+\begin{equation*}
+\text{dep} = k \ast \text{indep}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#direct-prop-template-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Direct Proportionality Template"><a href="#direct-prop-template" title="Copy permalink for Assemblage: Direct Proportionality Template">🔗</a></div></article><div class="para logical" id="sec-Intercepts-2-12">
+<div class="para">To understand what “proportionality” means, recall that Muna can run 2.8 miles in 19.6 minutes. What happens if she goes for a run twice as long? Then she would be running <span class="process-math">\(2 \times 2.8 = 5.6\)</span> miles. Her time would be</div>
+<div class="displaymath process-math">
+\begin{equation*}
+T = 7 \ast 5.6 = 7 \times \underline{5.6} = 39.2 \text{ minutes}
+\end{equation*}
+</div>
+<div class="para">Notice that <span class="process-math">\(2 \times 19.6 = 39.2\text{.}\)</span> So, it would take her twice the time to run twice the distance. This general idea - that you get twice the value of the dependent variable if you have twice the value of the independent variable - characterizes direct proportions. We sometimes say that Muna’s time is <dfn class="terminology">proportional</dfn> to how far she runs. Nothing special about twice here, as it would take her three times the time to run three times the distance, etc.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Intercepts-2-12" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Intercepts-2-13">
+<div class="para">Not so for Kaleb. Remember it takes him 29.8 minutes to run that 2.8 miles. If he runs twice the distance, which is 5.6 miles, it takes</div>
+<div class="displaymath process-math">
+\begin{equation*}
+T = 6+8.5 \ast 5.6 = 6+ 8.5 \times \underline{5.6} = 53.6 \text{ minutes}
+\end{equation*}
+</div>
+<div class="para">which is not quite twice the time, since <span class="process-math">\(2 \times 29.8 = 59.6 \text{ minutes}\text{.}\)</span> The key is that Kaleb does not stretch twice, only once, for the longer run so double the distance does not count the 6 minutes again. Kaleb’s equation is not a direct proportionality. Another way to say that is that Kaleb’s time is not proportional to how far he runs. It is a function of how far he runs, yes, but not proportionally so.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Intercepts-2-13" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="conclusion" id="sec-Intercepts-3"><h3 class="heading">Do you know …<span></span>
+</h3>
+<div class="para logical" id="sec-Intercepts-3-2">
+<ol class="upper-alpha ol-marker-1" id="sec-Intercepts-3-2-1">
+<li id="sec-Intercepts-3-2-1-1">
+<div class="para" id="sec-Intercepts-3-2-1-1-1">What the intercept of a linear function means in the story and what it tells us about the graph?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Intercepts-3-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item A"><a href="#sec-Intercepts-3-2-1-1" title="Copy permalink for Item A">🔗</a></div>
+</li>
+<li id="sec-Intercepts-3-2-1-2">
+<div class="para" id="sec-Intercepts-3-2-1-2-1">How to calculate the intercept given the slope and an example (another point on the graph)?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Intercepts-3-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item B"><a href="#sec-Intercepts-3-2-1-2" title="Copy permalink for Item B">🔗</a></div>
+</li>
+<li id="sec-Intercepts-3-2-1-3">
+<div class="para" id="sec-Intercepts-3-2-1-3-1">Why an intercept might not make sense, for example if it’s outside the domain of the function?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Intercepts-3-2-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item C"><a href="#sec-Intercepts-3-2-1-3" title="Copy permalink for Item C">🔗</a></div>
+</li>
+<li id="sec-Intercepts-3-2-1-4">
+<div class="para" id="sec-Intercepts-3-2-1-4-1">When a linear function is a direct proportion?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Intercepts-3-2-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item D"><a href="#sec-Intercepts-3-2-1-4" title="Copy permalink for Item D">🔗</a></div>
+</li>
+<li id="sec-Intercepts-3-2-1-5">
+<div class="para" id="sec-Intercepts-3-2-1-5-1">Why you cannot reason proportionally if the linear function is not a direct proportion?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Intercepts-3-2-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item E"><a href="#sec-Intercepts-3-2-1-5" title="Copy permalink for Item E">🔗</a></div>
+</li>
+<li id="sec-Intercepts-3-2-1-6">
+<div class="para" id="sec-Intercepts-3-2-1-6-1">What the graph of a direct proportion looks like?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Intercepts-3-2-1-6-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item F"><a href="#sec-Intercepts-3-2-1-6" title="Copy permalink for Item F">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Intercepts-3-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Intercepts-3-3">
+<em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-Intercepts-3-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="exercises" id="ex-Intercepts"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<section class="introduction" id="ex-Intercepts-2"><div class="para" id="ex-Intercepts-2-1">Exercises 1-4 are available in a separate workbook format.<div class="autopermalink" data-description="Paragraph"><a href="#ex-Intercepts-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><article class="exercise exercise-like" id="temperature-intercepts"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="introduction" id="temperature-intercepts-1"><div class="para" id="temperature-intercepts-1-1">In each of the following stories, the temperature changes over time. It might be confusing to call either variable <span class="process-math">\(T\text{,}\)</span> so use <span class="process-math">\(H\)</span> for the time in hours and <span class="process-math">\(D\)</span> for the temperature in degrees (°F). In each case, time should be measured from the start of the story.<div class="autopermalink" data-description="Paragraph"><a href="#temperature-intercepts-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="temperature-intercepts-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="introduction" id="temperature-intercepts-2-1"><div class="para" id="temperature-intercepts-2-1-1">It was really cold at 8:30 this morning when Raina arrived at the office. Luckily the heating system warms things up very quickly, 4°F per hour. By 11:00 a.m. it was a very comfortable 72°F.<div class="autopermalink" data-description="Paragraph"><a href="#temperature-intercepts-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="temperature-intercepts-2-2"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<div class="para" id="temperature-intercepts-2-2-1-1">Figure out what the temperature was at 8:30 a.m.<div class="autopermalink" data-description="Paragraph"><a href="#temperature-intercepts-2-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.1.a.i"><a href="#temperature-intercepts-2-2" title="Copy permalink for Task 4.3.1.a.i">🔗</a></div></article><article class="task exercise-like" id="temperature-intercepts-2-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="temperature-intercepts-2-3-1-1">Write an equation illustrating the function.<div class="autopermalink" data-description="Paragraph"><a href="#temperature-intercepts-2-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.1.a.ii"><a href="#temperature-intercepts-2-3" title="Copy permalink for Task 4.3.1.a.ii">🔗</a></div></article><div class="autopermalink" data-description="Task 4.3.1.a"><a href="#temperature-intercepts-2" title="Copy permalink for Task 4.3.1.a">🔗</a></div></article><article class="task exercise-like" id="temperature-intercepts-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="introduction" id="temperature-intercepts-3-1"><div class="para" id="temperature-intercepts-3-1-1">While 72°F is a perfectly good temperature for an office, not so for ballroom dancing. When Raina arrived for her practice at 5:30 that evening, she began to sweat before she even took the floor. Turns out the air conditioner had been running since 4:00 p.m. but it only cools down the room 3°F per hour.<div class="autopermalink" data-description="Paragraph"><a href="#temperature-intercepts-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="temperature-intercepts-3-2"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<div class="para" id="temperature-intercepts-3-2-1-1">Figure out what the temperature was at 4:00 p.m.<div class="autopermalink" data-description="Paragraph"><a href="#temperature-intercepts-3-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.1.b.i"><a href="#temperature-intercepts-3-2" title="Copy permalink for Task 4.3.1.b.i">🔗</a></div></article><article class="task exercise-like" id="temperature-intercepts-3-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="temperature-intercepts-3-3-1-1">Write an equation illustrating the function.<div class="autopermalink" data-description="Paragraph"><a href="#temperature-intercepts-3-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.1.b.ii"><a href="#temperature-intercepts-3-3" title="Copy permalink for Task 4.3.1.b.ii">🔗</a></div></article><div class="autopermalink" data-description="Task 4.3.1.b"><a href="#temperature-intercepts-3" title="Copy permalink for Task 4.3.1.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.3.1"><a href="#temperature-intercepts" title="Copy permalink for Exercise 4.3.1">🔗</a></div></article><article class="exercise exercise-like" id="design-business-intercepts"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="introduction" id="design-business-intercepts-1"><div class="para" id="design-business-intercepts-1-1">Maryn is very happy. Her interior design business is finally showing a profit. She has logged a total of 471 billable hours at $35 per hour since she started her business. Accounting for start up costs, her net profit now totals $2,194.<div class="autopermalink" data-description="Paragraph"><a href="#design-business-intercepts-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="design-business-intercepts-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="design-business-intercepts-2-1-1">How much were Maryn’s start up costs?<div class="autopermalink" data-description="Paragraph"><a href="#design-business-intercepts-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.2.a"><a href="#design-business-intercepts-2" title="Copy permalink for Task 4.3.2.a">🔗</a></div></article><article class="task exercise-like" id="design-business-intercepts-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="design-business-intercepts-3-1-1">Identify the slope and intercept (including their units and sign) and explain what each means in terms of the story.<div class="autopermalink" data-description="Paragraph"><a href="#design-business-intercepts-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.2.b"><a href="#design-business-intercepts-3" title="Copy permalink for Task 4.3.2.b">🔗</a></div></article><article class="task exercise-like" id="design-business-intercepts-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="design-business-intercepts-4-1-1">Calculate what Maryn’s profits will be once she has logged a total of 1,000 hours.<div class="autopermalink" data-description="Paragraph"><a href="#design-business-intercepts-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.2.c"><a href="#design-business-intercepts-4" title="Copy permalink for Task 4.3.2.c">🔗</a></div></article><article class="task exercise-like" id="design-business-intercepts-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="design-business-intercepts-5-1-1">Name the variables and write an equation relating them.<div class="autopermalink" data-description="Paragraph"><a href="#design-business-intercepts-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.2.d"><a href="#design-business-intercepts-5" title="Copy permalink for Task 4.3.2.d">🔗</a></div></article><article class="task exercise-like" id="design-business-intercepts-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="design-business-intercepts-6-1-1">Graph the function.<div class="autopermalink" data-description="Paragraph"><a href="#design-business-intercepts-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.2.e"><a href="#design-business-intercepts-6" title="Copy permalink for Task 4.3.2.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.3.2"><a href="#design-business-intercepts" title="Copy permalink for Exercise 4.3.2">🔗</a></div></article><article class="exercise exercise-like" id="weight-change-intercepts"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="weight-change-intercepts-1"><div class="para" id="weight-change-intercepts-1-1">For each story, find the initial weight of the person and use it to write an equation showing how the person’s weight <span class="process-math">\(W\)</span> pounds depends on the time, <span class="process-math">\(T\)</span> weeks. <em class="emphasis">(Stories also appear in <a href="sec-Order_of_operations.html#weight-change-order-operations" class="xref" data-knowl="./knowl/xref/weight-change-order-operations.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.4.3">0.4.3</a> and <a href="sec-Algebraic_notation.html#weight-change-algebraic-notation" class="xref" data-knowl="./knowl/xref/weight-change-algebraic-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.7.1">0.7.1</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#weight-change-intercepts-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="weight-change-intercepts-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="weight-change-intercepts-2-1-1">Jerome has gained weight since he took his power training to the next level ten weeks ago, at the rate of around 1 pound a week. He now weighs 198 pounds.<div class="autopermalink" data-description="Paragraph"><a href="#weight-change-intercepts-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.3.a"><a href="#weight-change-intercepts-2" title="Copy permalink for Task 4.3.3.a">🔗</a></div></article><article class="task exercise-like" id="weight-change-intercepts-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="weight-change-intercepts-3-1-1">Vanessa’s doctor put her on a sensible diet and exercise plan to get her back to a healthy weight. She will need to lose an average of 1.25 pounds a week to reach her goal weight of 148 pounds in a year. Use 1 year = 52 weeks.<div class="autopermalink" data-description="Paragraph"><a href="#weight-change-intercepts-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.3.b"><a href="#weight-change-intercepts-3" title="Copy permalink for Task 4.3.3.b">🔗</a></div></article><article class="task exercise-like" id="weight-change-intercepts-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="weight-change-intercepts-4-1-1">After the past 6 weeks of terrible migrane headaches, Carlos is down to 158 pounds. He has lost 4 pounds a week.<div class="autopermalink" data-description="Paragraph"><a href="#weight-change-intercepts-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.3.c"><a href="#weight-change-intercepts-4" title="Copy permalink for Task 4.3.3.c">🔗</a></div></article><article class="task exercise-like" id="weight-change-intercepts-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="weight-change-intercepts-5-1-1">Since she has been pregnant, Zoe has gained the recommended <span class="process-math">\(\sfrac{1}{2}\)</span> pound per week. Now 30 weeks pregnant and 168 pounds, she wonders if she will ever see her feet again.<div class="autopermalink" data-description="Paragraph"><a href="#weight-change-intercepts-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.3.d"><a href="#weight-change-intercepts-5" title="Copy permalink for Task 4.3.3.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.3.3"><a href="#weight-change-intercepts" title="Copy permalink for Exercise 4.3.3">🔗</a></div></article><article class="exercise exercise-like" id="proportional-intercepts"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="proportional-intercepts-1"><div class="para" id="proportional-intercepts-1-1">Each story describes a situation that we are assuming is linear. Decide whether it is <dfn class="terminology">proportional</dfn>, meaning the intercept equals zero. If it is proportional, explain why the intercept would be zero. If it is not proportional, explain what the intercept would mean in the story.<div class="autopermalink" data-description="Paragraph"><a href="#proportional-intercepts-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="proportional-intercepts-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="proportional-intercepts-2-1-1">The price of <dfn class="terminology">kiwis</dfn> (a kind of fruit) depends on how many kiwis you buy.<div class="autopermalink" data-description="Paragraph"><a href="#proportional-intercepts-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.4.a"><a href="#proportional-intercepts-2" title="Copy permalink for Task 4.3.4.a">🔗</a></div></article><article class="task exercise-like" id="proportional-intercepts-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="proportional-intercepts-3-1-1">The price of a bag of tortillas depends on how many tortillas are in the bag.<div class="autopermalink" data-description="Paragraph"><a href="#proportional-intercepts-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.4.b"><a href="#proportional-intercepts-3" title="Copy permalink for Task 4.3.4.b">🔗</a></div></article><article class="task exercise-like" id="proportional-intercepts-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="proportional-intercepts-4-1-1">The time it takes to vacuum a rug depends on the area of the rug.<div class="autopermalink" data-description="Paragraph"><a href="#proportional-intercepts-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.4.c"><a href="#proportional-intercepts-4" title="Copy permalink for Task 4.3.4.c">🔗</a></div></article><article class="task exercise-like" id="proportional-intercepts-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="proportional-intercepts-5-1-1">The time it takes to wash dishes depends on how many dirty dishes there are.<div class="autopermalink" data-description="Paragraph"><a href="#proportional-intercepts-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.4.d"><a href="#proportional-intercepts-5" title="Copy permalink for Task 4.3.4.d">🔗</a></div></article><article class="task exercise-like" id="proportional-intercepts-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="proportional-intercepts-6-1-1">The amount of laundry detergent I have left depends on how many loads of laundry I did.<div class="autopermalink" data-description="Paragraph"><a href="#proportional-intercepts-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.4.e"><a href="#proportional-intercepts-6" title="Copy permalink for Task 4.3.4.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.3.4"><a href="#proportional-intercepts" title="Copy permalink for Exercise 4.3.4">🔗</a></div></article><article class="exercise exercise-like" id="runners-warmup-intercepts"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="introduction" id="runners-warmup-intercepts-1">
+<div class="para" id="runners-warmup-intercepts-1-1">Different runners run at different paces. And take a different amount of extra time to warm-up and/or cool down. The table lists six runners, their training time to run a 5K (rounded to the nearest minute), and their pace (in minutes per mile).<div class="autopermalink" data-description="Paragraph"><a href="#runners-warmup-intercepts-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Name</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Yannick</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Olga</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Aziz</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Hitomi</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Galen</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Fiona</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Pace</td>
+<td class="c m b1 r1 l0 t0 lines">8.2</td>
+<td class="c m b1 r1 l0 t0 lines">8.6</td>
+<td class="c m b1 r1 l0 t0 lines">9.5</td>
+<td class="c m b1 r1 l0 t0 lines">10</td>
+<td class="c m b1 r1 l0 t0 lines">10</td>
+<td class="c m b1 r1 l0 t0 lines">11.2</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">5K time</td>
+<td class="c m b1 r1 l0 t0 lines">32</td>
+<td class="c m b1 r1 l0 t0 lines">35</td>
+<td class="c m b1 r1 l0 t0 lines">33</td>
+<td class="c m b1 r1 l0 t0 lines">36</td>
+<td class="c m b1 r1 l0 t0 lines">31</td>
+<td class="c m b1 r1 l0 t0 lines">44</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">extra time</td>
+<td class="c m b1 r1 l0 t0 lines">?</td>
+<td class="c m b1 r1 l0 t0 lines">?</td>
+<td class="c m b1 r1 l0 t0 lines">?</td>
+<td class="c m b1 r1 l0 t0 lines">?</td>
+<td class="c m b1 r1 l0 t0 lines">?</td>
+<td class="c m b1 r1 l0 t0 lines">?</td>
+</tr>
+</table></div>
+</div>
+<article class="task exercise-like" id="runners-warmup-intercepts-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="runners-warmup-intercepts-2-1-1">We are interested in each runner’s extra time, but first convert 5K, which is short for 5 kilometers, to miles using <span class="process-math">\(1 \text{ mile} \approx 1.609 \text{ kilometers}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#runners-warmup-intercepts-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.5.a"><a href="#runners-warmup-intercepts-2" title="Copy permalink for Task 4.3.5.a">🔗</a></div></article><article class="task exercise-like" id="runners-warmup-intercepts-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="runners-warmup-intercepts-3-1-1">Now, determine the extra (warm up/cool down) time for each runner and list your answer in the table. Report your answer to the nearest minute.<div class="autopermalink" data-description="Paragraph"><a href="#runners-warmup-intercepts-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.5.b"><a href="#runners-warmup-intercepts-3" title="Copy permalink for Task 4.3.5.b">🔗</a></div></article><article class="task exercise-like" id="runners-warmup-intercepts-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="runners-warmup-intercepts-4-1-1">List the runners in order from least to most warm up/cool down time.<div class="autopermalink" data-description="Paragraph"><a href="#runners-warmup-intercepts-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.5.c"><a href="#runners-warmup-intercepts-4" title="Copy permalink for Task 4.3.5.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.3.5"><a href="#runners-warmup-intercepts" title="Copy permalink for Exercise 4.3.5">🔗</a></div></article><article class="exercise exercise-like" id="snowfall-intercept"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="introduction" id="snowfall-intercept-1"><div class="para" id="snowfall-intercept-1-1">At 10:00 a.m. we’ve got snowy skies and 4 inches of new snow on the ground. It’s coming down fast out there at a rate of an inch per hour.<div class="autopermalink" data-description="Paragraph"><a href="#snowfall-intercept-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="snowfall-intercept-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="snowfall-intercept-2-1-1">Name the variables, measuring time in hours since 10:00 a.m.<div class="autopermalink" data-description="Paragraph"><a href="#snowfall-intercept-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.6.a"><a href="#snowfall-intercept-2" title="Copy permalink for Task 4.3.6.a">🔗</a></div></article><article class="task exercise-like" id="snowfall-intercept-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="snowfall-intercept-3-1-1">Write an equation illustrating the dependence.<div class="autopermalink" data-description="Paragraph"><a href="#snowfall-intercept-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.6.b"><a href="#snowfall-intercept-3" title="Copy permalink for Task 4.3.6.b">🔗</a></div></article><article class="task exercise-like" id="snowfall-intercept-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="snowfall-intercept-4-1-1">When did the snowstorm start?<div class="autopermalink" data-description="Paragraph"><a href="#snowfall-intercept-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.6.c"><a href="#snowfall-intercept-4" title="Copy permalink for Task 4.3.6.c">🔗</a></div></article><article class="task exercise-like" id="snowfall-intercept-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="snowfall-intercept-5-1-1">Name a new variable for the time measured in hours since the snowstorm started.<div class="autopermalink" data-description="Paragraph"><a href="#snowfall-intercept-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.6.d"><a href="#snowfall-intercept-5" title="Copy permalink for Task 4.3.6.d">🔗</a></div></article><article class="task exercise-like" id="snowfall-intercept-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="snowfall-intercept-6-1-1">Write an equation illustrating the dependence using this new variable instead.<div class="autopermalink" data-description="Paragraph"><a href="#snowfall-intercept-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.6.e"><a href="#snowfall-intercept-6" title="Copy permalink for Task 4.3.6.e">🔗</a></div></article><article class="task exercise-like" id="snowfall-intercept-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="snowfall-intercept-7-1-1">Check that this equation confirms 4 inches of new snow at 10:00 a.m.<div class="autopermalink" data-description="Paragraph"><a href="#snowfall-intercept-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.6.f"><a href="#snowfall-intercept-7" title="Copy permalink for Task 4.3.6.f">🔗</a></div></article><article class="task exercise-like" id="snowfall-intercept-8"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<div class="para" id="snowfall-intercept-8-1-1">Explain why the two equations have different intercepts.<div class="autopermalink" data-description="Paragraph"><a href="#snowfall-intercept-8-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.6.g"><a href="#snowfall-intercept-8" title="Copy permalink for Task 4.3.6.g">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.3.6"><a href="#snowfall-intercept" title="Copy permalink for Exercise 4.3.6">🔗</a></div></article><article class="exercise exercise-like" id="beach-erosion-intercepts"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="introduction" id="beach-erosion-intercepts-1">
+<div class="para" id="beach-erosion-intercepts-1-1">The public beach near Paloma’s house has lost about 3′9″ feet a year of beach depth (measured from the dunes to the high water mark) due to erosion since they started keeping records 60 years ago. Currently it’s 210 feet deep.<div class="autopermalink" data-description="Paragraph"><a href="#beach-erosion-intercepts-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="beach-erosion-intercepts-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Arithmetic_operations.html#beach-erosion-arithmetic-operations" class="xref" data-knowl="./knowl/xref/beach-erosion-arithmetic-operations.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.2.8">0.2.8</a> and <a href="sec-Rate_of_change.html#beach-erosion-rate-of-change" class="xref" data-knowl="./knowl/xref/beach-erosion-rate-of-change.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.3.10">1.3.10</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#beach-erosion-intercepts-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="beach-erosion-intercepts-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="beach-erosion-intercepts-2-1-1">The county is considering filling in sand to offset the erosion, back to the historical mark (60 years ago). How deep was it then? Notice that you need to convert 3′9″ to (decimal) feet first.<div class="autopermalink" data-description="Paragraph"><a href="#beach-erosion-intercepts-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.7.a"><a href="#beach-erosion-intercepts-2" title="Copy permalink for Task 4.3.7.a">🔗</a></div></article><article class="task exercise-like" id="beach-erosion-intercepts-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="beach-erosion-intercepts-3-1-1">Name the variables and write an equation relating them, assuming the county does not fill in the beach now. Measure time from 60 years ago.<div class="autopermalink" data-description="Paragraph"><a href="#beach-erosion-intercepts-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.7.b"><a href="#beach-erosion-intercepts-3" title="Copy permalink for Task 4.3.7.b">🔗</a></div></article><article class="task exercise-like" id="beach-erosion-intercepts-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="beach-erosion-intercepts-4-1-1">The country agrees to start filling in sand when the depth drops below 180 feet. How many (more) years will that take to happen? First estimate the answer using successive approximation. Then set up and solve an inequality to find the answer.<div class="autopermalink" data-description="Paragraph"><a href="#beach-erosion-intercepts-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.7.c"><a href="#beach-erosion-intercepts-4" title="Copy permalink for Task 4.3.7.c">🔗</a></div></article><article class="task exercise-like" id="beach-erosion-intercepts-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="beach-erosion-intercepts-5-1-1">Draw a graph showing the sand erosion over the past 60 years and including the next 20 years, assuming the county does not do any filling.<div class="autopermalink" data-description="Paragraph"><a href="#beach-erosion-intercepts-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.7.d"><a href="#beach-erosion-intercepts-5" title="Copy permalink for Task 4.3.7.d">🔗</a></div></article><article class="task exercise-like" id="beach-erosion-intercepts-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="beach-erosion-intercepts-6-1-1">Identify the slope and intercept and explain their meaning in the story.<div class="autopermalink" data-description="Paragraph"><a href="#beach-erosion-intercepts-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.7.e"><a href="#beach-erosion-intercepts-6" title="Copy permalink for Task 4.3.7.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.3.7"><a href="#beach-erosion-intercepts" title="Copy permalink for Exercise 4.3.7">🔗</a></div></article><article class="exercise exercise-like" id="brick-weight-intercepts"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="introduction" id="brick-weight-intercepts-1"><div class="para" id="brick-weight-intercepts-1-1">Clyde is loading bricks weighing 4.5 pounds each onto his wheelbarrow. The wheelbarrow weighs 89 pounds when it has 16 bricks in it. (That weight includes both the bricks and the wheelbarrow itself.)<div class="autopermalink" data-description="Paragraph"><a href="#brick-weight-intercepts-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="brick-weight-intercepts-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="brick-weight-intercepts-2-1-1">How much would Clyde’s wheelbarrow weigh if it were empty?<div class="autopermalink" data-description="Paragraph"><a href="#brick-weight-intercepts-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.8.a"><a href="#brick-weight-intercepts-2" title="Copy permalink for Task 4.3.8.a">🔗</a></div></article><article class="task exercise-like" id="brick-weight-intercepts-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="brick-weight-intercepts-3-1-1">Name the variables and write an equation relating them.<div class="autopermalink" data-description="Paragraph"><a href="#brick-weight-intercepts-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.8.b"><a href="#brick-weight-intercepts-3" title="Copy permalink for Task 4.3.8.b">🔗</a></div></article><article class="task exercise-like" id="brick-weight-intercepts-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="brick-weight-intercepts-4-1-1">How much (total) will the wheelbarrow weigh if he loads a total of 30 bricks?<div class="autopermalink" data-description="Paragraph"><a href="#brick-weight-intercepts-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.8.c"><a href="#brick-weight-intercepts-4" title="Copy permalink for Task 4.3.8.c">🔗</a></div></article><article class="task exercise-like" id="brick-weight-intercepts-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="brick-weight-intercepts-5-1-1">Clyde continues loading bricks until the wheelbarrow full of bricks weighs 206 pounds. How many bricks are in it?<div class="autopermalink" data-description="Paragraph"><a href="#brick-weight-intercepts-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.8.d"><a href="#brick-weight-intercepts-5" title="Copy permalink for Task 4.3.8.d">🔗</a></div></article><article class="task exercise-like" id="brick-weight-intercepts-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="brick-weight-intercepts-6-1-1">Graph and check.<div class="autopermalink" data-description="Paragraph"><a href="#brick-weight-intercepts-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.8.e"><a href="#brick-weight-intercepts-6" title="Copy permalink for Task 4.3.8.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.3.8"><a href="#brick-weight-intercepts" title="Copy permalink for Exercise 4.3.8">🔗</a></div></article><article class="exercise exercise-like" id="bus-passes-intercepts"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="introduction" id="bus-passes-intercepts-1"><div class="para" id="bus-passes-intercepts-1-1">The city offers bus “convenience” passes - 20 rides for $12.95 or 80 rides for $51.80.<div class="autopermalink" data-description="Paragraph"><a href="#bus-passes-intercepts-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="bus-passes-intercepts-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="bus-passes-intercepts-2-1-1">Calculate the rate of change.<div class="autopermalink" data-description="Paragraph"><a href="#bus-passes-intercepts-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.9.a"><a href="#bus-passes-intercepts-2" title="Copy permalink for Task 4.3.9.a">🔗</a></div></article><article class="task exercise-like" id="bus-passes-intercepts-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="bus-passes-intercepts-3-1-1">Is there a convenience charge?<div class="autopermalink" data-description="Paragraph"><a href="#bus-passes-intercepts-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.9.b"><a href="#bus-passes-intercepts-3" title="Copy permalink for Task 4.3.9.b">🔗</a></div></article><article class="task exercise-like" id="bus-passes-intercepts-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="bus-passes-intercepts-4-1-1">What is the name for this type of function?<div class="autopermalink" data-description="Paragraph"><a href="#bus-passes-intercepts-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.9.c"><a href="#bus-passes-intercepts-4" title="Copy permalink for Task 4.3.9.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.3.9"><a href="#bus-passes-intercepts" title="Copy permalink for Exercise 4.3.9">🔗</a></div></article><article class="exercise exercise-like" id="cookies-intercepts"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<div class="introduction" id="cookies-intercepts-1"><div class="para" id="cookies-intercepts-1-1">To make cookies it takes a few minutes to prepare the dough. After that it takes 12 minutes per batch to bake in the oven. Last time I made 3 batches of cookies and it took a total of 54 minutes.<div class="autopermalink" data-description="Paragraph"><a href="#cookies-intercepts-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="cookies-intercepts-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="cookies-intercepts-2-1-1">How long does it take me to prepare the dough?<div class="autopermalink" data-description="Paragraph"><a href="#cookies-intercepts-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.10.a"><a href="#cookies-intercepts-2" title="Copy permalink for Task 4.3.10.a">🔗</a></div></article><article class="task exercise-like" id="cookies-intercepts-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="cookies-intercepts-3-1-1">How long would it take me to make 10 batches of cookies for the cookie swap? Assume the time to prepare the dough remains the same and only one batch bakes in the oven at a time.<div class="autopermalink" data-description="Paragraph"><a href="#cookies-intercepts-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.10.b"><a href="#cookies-intercepts-3" title="Copy permalink for Task 4.3.10.b">🔗</a></div></article><article class="task exercise-like" id="cookies-intercepts-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="cookies-intercepts-4-1-1">Name the variables and write an equation describing the function.<div class="autopermalink" data-description="Paragraph"><a href="#cookies-intercepts-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.10.c"><a href="#cookies-intercepts-4" title="Copy permalink for Task 4.3.10.c">🔗</a></div></article><article class="task exercise-like" id="cookies-intercepts-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="cookies-intercepts-5-1-1">Identify the slope and intercept and explain their meaning in the story.<div class="autopermalink" data-description="Paragraph"><a href="#cookies-intercepts-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.3.10.d"><a href="#cookies-intercepts-5" title="Copy permalink for Task 4.3.10.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.3.10"><a href="#cookies-intercepts" title="Copy permalink for Exercise 4.3.10">🔗</a></div></article><div class="autopermalink" data-description="Exercises 4.3: Exercises"><a href="#ex-Intercepts" title="Copy permalink for Exercises 4.3: Exercises">🔗</a></div></section><div class="autopermalink" data-description="Section 4.3: Intercepts and direct proportionality"><a href="#sec-Intercepts" title="Copy permalink for Section 4.3: Intercepts and direct proportionality">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-Systems_linear_equations.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-Slopes.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
