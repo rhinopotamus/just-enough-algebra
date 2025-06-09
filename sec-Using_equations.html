@@ -5,16 +5,25 @@
 <!--*         https://pretextbook.org          *-->
 <!--*                                          *-->
 <!--********************************************-->
-<html lang="en-US" dir="ltr">
+<html lang="en-US" dir="ltr" data-legacy-colorscheme="blue_red">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-legacy                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Using equations</title>
-<meta name="Keywords" content="Authored in PreTeXt">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta property="og:type" content="book">
-<meta property="book:title" content="Just Enough Algebra">
-<meta property="book:author" content="Dr. Suzanne Dorée">
-<meta property="book:author" content="Dr. Spencer Bagley">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;" rel="stylesheet">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
 <script>
 var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
 window.MathJax = {
@@ -70,137 +79,54 @@ window.MathJax = {
     )}
   }
 };
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
-<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
-</script><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
-<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
-<style>
-#sec-Approximation_and_rounding-3-2-1 { counter-set: sec-Approximation_and_rounding-3-2-1 0; }
-#sec-Approximation_and_rounding-3-2-1 > li::marker { content: ""counter(sec-Approximation_and_rounding-3-2-1,upper-alpha)"."; }
-#sec-Approximation_and_rounding-3-2-1 > li { counter-increment: sec-Approximation_and_rounding-3-2-1; }
-#sec-Arithmetic_operations-3-2-1 { counter-set: sec-Arithmetic_operations-3-2-1 0; }
-#sec-Arithmetic_operations-3-2-1 > li::marker { content: ""counter(sec-Arithmetic_operations-3-2-1,upper-alpha)"."; }
-#sec-Arithmetic_operations-3-2-1 > li { counter-increment: sec-Arithmetic_operations-3-2-1; }
-#sec-Percentages-3-2-1 { counter-set: sec-Percentages-3-2-1 0; }
-#sec-Percentages-3-2-1 > li::marker { content: ""counter(sec-Percentages-3-2-1,upper-alpha)"."; }
-#sec-Percentages-3-2-1 > li { counter-increment: sec-Percentages-3-2-1; }
-#sec-Order_of_operations-3-2-1 { counter-set: sec-Order_of_operations-3-2-1 0; }
-#sec-Order_of_operations-3-2-1 > li::marker { content: ""counter(sec-Order_of_operations-3-2-1,upper-alpha)"."; }
-#sec-Order_of_operations-3-2-1 > li { counter-increment: sec-Order_of_operations-3-2-1; }
-#sec-Fractions-3-2-1 { counter-set: sec-Fractions-3-2-1 0; }
-#sec-Fractions-3-2-1 > li::marker { content: ""counter(sec-Fractions-3-2-1,upper-alpha)"."; }
-#sec-Fractions-3-2-1 > li { counter-increment: sec-Fractions-3-2-1; }
-#sec-Powers_and_roots-3-2-1 { counter-set: sec-Powers_and_roots-3-2-1 0; }
-#sec-Powers_and_roots-3-2-1 > li::marker { content: ""counter(sec-Powers_and_roots-3-2-1,upper-alpha)"."; }
-#sec-Powers_and_roots-3-2-1 > li { counter-increment: sec-Powers_and_roots-3-2-1; }
-#sec-Algebraic_notation-3-2-1 { counter-set: sec-Algebraic_notation-3-2-1 0; }
-#sec-Algebraic_notation-3-2-1 > li::marker { content: ""counter(sec-Algebraic_notation-3-2-1,upper-alpha)"."; }
-#sec-Algebraic_notation-3-2-1 > li { counter-increment: sec-Algebraic_notation-3-2-1; }
-#sec-Scientific_notation-3-2-1 { counter-set: sec-Scientific_notation-3-2-1 0; }
-#sec-Scientific_notation-3-2-1 > li::marker { content: ""counter(sec-Scientific_notation-3-2-1,upper-alpha)"."; }
-#sec-Scientific_notation-3-2-1 > li { counter-increment: sec-Scientific_notation-3-2-1; }
-#sec-Logarithms-3-2-1 { counter-set: sec-Logarithms-3-2-1 0; }
-#sec-Logarithms-3-2-1 > li::marker { content: ""counter(sec-Logarithms-3-2-1,upper-alpha)"."; }
-#sec-Logarithms-3-2-1 > li { counter-increment: sec-Logarithms-3-2-1; }
-#sec-Variables_and_functions-3-2-1 { counter-set: sec-Variables_and_functions-3-2-1 0; }
-#sec-Variables_and_functions-3-2-1 > li::marker { content: ""counter(sec-Variables_and_functions-3-2-1,upper-alpha)"."; }
-#sec-Variables_and_functions-3-2-1 > li { counter-increment: sec-Variables_and_functions-3-2-1; }
-#sec-Tables_and_graphs-3-2-1 { counter-set: sec-Tables_and_graphs-3-2-1 0; }
-#sec-Tables_and_graphs-3-2-1 > li::marker { content: ""counter(sec-Tables_and_graphs-3-2-1,upper-alpha)"."; }
-#sec-Tables_and_graphs-3-2-1 > li { counter-increment: sec-Tables_and_graphs-3-2-1; }
-#sec-Rate_of_change-3-2-1 { counter-set: sec-Rate_of_change-3-2-1 0; }
-#sec-Rate_of_change-3-2-1 > li::marker { content: ""counter(sec-Rate_of_change-3-2-1,upper-alpha)"."; }
-#sec-Rate_of_change-3-2-1 > li { counter-increment: sec-Rate_of_change-3-2-1; }
-#sec-Units-3-2-1 { counter-set: sec-Units-3-2-1 0; }
-#sec-Units-3-2-1 > li::marker { content: ""counter(sec-Units-3-2-1,upper-alpha)"."; }
-#sec-Units-3-2-1 > li { counter-increment: sec-Units-3-2-1; }
-#sec-Metric_system_and_scientific_notation-3-2-1 { counter-set: sec-Metric_system_and_scientific_notation-3-2-1 0; }
-#sec-Metric_system_and_scientific_notation-3-2-1 > li::marker { content: ""counter(sec-Metric_system_and_scientific_notation-3-2-1,upper-alpha)"."; }
-#sec-Metric_system_and_scientific_notation-3-2-1 > li { counter-increment: sec-Metric_system_and_scientific_notation-3-2-1; }
-#sec-First_look_linear-3-2-1 { counter-set: sec-First_look_linear-3-2-1 0; }
-#sec-First_look_linear-3-2-1 > li::marker { content: ""counter(sec-First_look_linear-3-2-1,upper-alpha)"."; }
-#sec-First_look_linear-3-2-1 > li { counter-increment: sec-First_look_linear-3-2-1; }
-#sec-First_look_exponential-3-2-1 { counter-set: sec-First_look_exponential-3-2-1 0; }
-#sec-First_look_exponential-3-2-1 > li::marker { content: ""counter(sec-First_look_exponential-3-2-1,upper-alpha)"."; }
-#sec-First_look_exponential-3-2-1 > li { counter-increment: sec-First_look_exponential-3-2-1; }
-#sec-Using_equations-3-2-1 { counter-set: sec-Using_equations-3-2-1 0; }
-#sec-Using_equations-3-2-1 > li::marker { content: ""counter(sec-Using_equations-3-2-1,upper-alpha)"."; }
-#sec-Using_equations-3-2-1 > li { counter-increment: sec-Using_equations-3-2-1; }
-#sec-Approx_solutions-3-2-1 { counter-set: sec-Approx_solutions-3-2-1 0; }
-#sec-Approx_solutions-3-2-1 > li::marker { content: ""counter(sec-Approx_solutions-3-2-1,upper-alpha)"."; }
-#sec-Approx_solutions-3-2-1 > li { counter-increment: sec-Approx_solutions-3-2-1; }
-#sec-Finance-3-2-1 { counter-set: sec-Finance-3-2-1 0; }
-#sec-Finance-3-2-1 > li::marker { content: ""counter(sec-Finance-3-2-1,upper-alpha)"."; }
-#sec-Finance-3-2-1 > li { counter-increment: sec-Finance-3-2-1; }
-#sec-Solving_linear_equations-3-2-1 { counter-set: sec-Solving_linear_equations-3-2-1 0; }
-#sec-Solving_linear_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_linear_equations-3-2-1,upper-alpha)"."; }
-#sec-Solving_linear_equations-3-2-1 > li { counter-increment: sec-Solving_linear_equations-3-2-1; }
-#sec-Solving_linear_inequalities-3-2-1 { counter-set: sec-Solving_linear_inequalities-3-2-1 0; }
-#sec-Solving_linear_inequalities-3-2-1 > li::marker { content: ""counter(sec-Solving_linear_inequalities-3-2-1,upper-alpha)"."; }
-#sec-Solving_linear_inequalities-3-2-1 > li { counter-increment: sec-Solving_linear_inequalities-3-2-1; }
-#sec-Solving_power_equations-3-2-1 { counter-set: sec-Solving_power_equations-3-2-1 0; }
-#sec-Solving_power_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_power_equations-3-2-1,upper-alpha)"."; }
-#sec-Solving_power_equations-3-2-1 > li { counter-increment: sec-Solving_power_equations-3-2-1; }
-#sec-Solving_exponential_equations-3-2-1 { counter-set: sec-Solving_exponential_equations-3-2-1 0; }
-#sec-Solving_exponential_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_exponential_equations-3-2-1,upper-alpha)"."; }
-#sec-Solving_exponential_equations-3-2-1 > li { counter-increment: sec-Solving_exponential_equations-3-2-1; }
-#sec-Solving_quadratic_equations-3-2-1 { counter-set: sec-Solving_quadratic_equations-3-2-1 0; }
-#sec-Solving_quadratic_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_quadratic_equations-3-2-1,upper-alpha)"."; }
-#sec-Solving_quadratic_equations-3-2-1 > li { counter-increment: sec-Solving_quadratic_equations-3-2-1; }
-#sec-Modeling_linear_equations-3-2-1 { counter-set: sec-Modeling_linear_equations-3-2-1 0; }
-#sec-Modeling_linear_equations-3-2-1 > li::marker { content: ""counter(sec-Modeling_linear_equations-3-2-1,upper-alpha)"."; }
-#sec-Modeling_linear_equations-3-2-1 > li { counter-increment: sec-Modeling_linear_equations-3-2-1; }
-#sec-Systems_linear_equations-3-2-1 { counter-set: sec-Systems_linear_equations-3-2-1 0; }
-#sec-Systems_linear_equations-3-2-1 > li::marker { content: ""counter(sec-Systems_linear_equations-3-2-1,upper-alpha)"."; }
-#sec-Systems_linear_equations-3-2-1 > li { counter-increment: sec-Systems_linear_equations-3-2-1; }
-#sec-Intercepts-3-2-1 { counter-set: sec-Intercepts-3-2-1 0; }
-#sec-Intercepts-3-2-1 > li::marker { content: ""counter(sec-Intercepts-3-2-1,upper-alpha)"."; }
-#sec-Intercepts-3-2-1 > li { counter-increment: sec-Intercepts-3-2-1; }
-#sec-Slopes-3-2-1 { counter-set: sec-Slopes-3-2-1 0; }
-#sec-Slopes-3-2-1 > li::marker { content: ""counter(sec-Slopes-3-2-1,upper-alpha)"."; }
-#sec-Slopes-3-2-1 > li { counter-increment: sec-Slopes-3-2-1; }
-#sec-Fitting_lines_to_data-3-2-1 { counter-set: sec-Fitting_lines_to_data-3-2-1 0; }
-#sec-Fitting_lines_to_data-3-2-1 > li::marker { content: ""counter(sec-Fitting_lines_to_data-3-2-1,upper-alpha)"."; }
-#sec-Fitting_lines_to_data-3-2-1 > li { counter-increment: sec-Fitting_lines_to_data-3-2-1; }
-#sec-Modeling_exponential_equations-3-2-1 { counter-set: sec-Modeling_exponential_equations-3-2-1 0; }
-#sec-Modeling_exponential_equations-3-2-1 > li::marker { content: ""counter(sec-Modeling_exponential_equations-3-2-1,upper-alpha)"."; }
-#sec-Modeling_exponential_equations-3-2-1 > li { counter-increment: sec-Modeling_exponential_equations-3-2-1; }
-#sec-Exp_growth_decay-3-2-1 { counter-set: sec-Exp_growth_decay-3-2-1 0; }
-#sec-Exp_growth_decay-3-2-1 > li::marker { content: ""counter(sec-Exp_growth_decay-3-2-1,upper-alpha)"."; }
-#sec-Exp_growth_decay-3-2-1 > li { counter-increment: sec-Exp_growth_decay-3-2-1; }
-#sec-Growth_factor-3-2-1 { counter-set: sec-Growth_factor-3-2-1 0; }
-#sec-Growth_factor-3-2-1 > li::marker { content: ""counter(sec-Growth_factor-3-2-1,upper-alpha)"."; }
-#sec-Growth_factor-3-2-1 > li { counter-increment: sec-Growth_factor-3-2-1; }
-#sec-Linear_vs_exponential-3-2-1 { counter-set: sec-Linear_vs_exponential-3-2-1 0; }
-#sec-Linear_vs_exponential-3-2-1 > li::marker { content: ""counter(sec-Linear_vs_exponential-3-2-1,upper-alpha)"."; }
-#sec-Linear_vs_exponential-3-2-1 > li { counter-increment: sec-Linear_vs_exponential-3-2-1; }
-#sec-Logistic_growth-3-2-1 { counter-set: sec-Logistic_growth-3-2-1 0; }
-#sec-Logistic_growth-3-2-1 > li::marker { content: ""counter(sec-Logistic_growth-3-2-1,upper-alpha)"."; }
-#sec-Logistic_growth-3-2-1 > li { counter-increment: sec-Logistic_growth-3-2-1; }
-</style>
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Just Enough Algebra">
+<meta property="book:author" content="Dr. Suzanne Dorée">
+<meta property="book:author" content="Dr. Spencer Bagley">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.7.5';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.107bf2d9be20d9c4.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
 </head>
 <body id="justenoughalgebra" class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
 <a id="logo-link" class="logo-link" target="_blank" href=""><img src="external/book-open-solid.png" alt="Logo image"></a><div class="title-container">
-<h1 class="heading"><a href="just-enough-algebra.html"><span class="title">Just Enough Algebra</span></a></h1>
+<h1 class="heading"><a href="just-enough-algebra.html"><span class="title">Just Enough Algebra</span> <span class="subtitle">Summer 2025 edition</span></a></h1>
 <p class="byline">Dr. Suzanne Dorée, Dr. Spencer Bagley</p>
 </div>
-</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
 <div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
 <div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
 <div class="search-results-controls">
@@ -211,7 +137,8 @@ window.MathJax = {
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-First_look_exponential.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-Equations.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-Approx_solutions.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-First_look_exponential.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-Equations.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-Approx_solutions.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -220,12 +147,12 @@ window.MathJax = {
 \newcommand{\sfrac}[2]{{#1}/{#2}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter">
 <div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
-<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-why-this-book-web.html" class="internal"><span class="title">Why <em class="emphasis">Just Enough Algebra</em>?</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-students-web.html" class="internal"><span class="title">Students! Read this!</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-instructors-web.html" class="internal"><span class="title">Instructors! Read this!</span></a></div></li>
@@ -316,9 +243,9 @@ window.MathJax = {
 <div class="toc-title-box"><a href="sec-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_exponential.html#ex-First_look_exponentialEX" class="internal"><span class="codenumber">2.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
-<li class="toc-item toc-section active">
+<li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="sec-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Using_equations.html#ex-Using_equations" class="internal"><span class="codenumber">2.3</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural toc-item-list active"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Using_equations.html#ex-Using_equations" class="internal"><span class="codenumber">2.3</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div>
@@ -468,7 +395,9 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Using_equations"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">2.3</span><span class="space"> </span><span class="title">Using equations</span>
 </h2>
-<section class="introduction" id="sec-Using_equations-2"><div class="para" id="sec-Using_equations-2-1">The Cadillac Escalade is a cross between a sports utility vehicle (SUV) and luxury car. Either way, it’s a big car. And it takes awhile to stop. One study showed that the 2010 Escalade traveling at 60 miles per hour takes about 144 feet to come to a complete stop from when the driver first hits the brakes. In fact, the braking distance of any car depends on how fast it is going. If someone is driving slowly they can stop in shorter distance than if they are driving fast. Which is why you should drive slowly on residential streets.</div> <div class="para logical" id="sec-Using_equations-2-2">
+<section class="introduction" id="sec-Using_equations-2"><div class="para" id="sec-Using_equations-2-1">The Cadillac Escalade is a cross between a sports utility vehicle (SUV) and luxury car. Either way, it’s a big car. And it takes awhile to stop. One study showed that the 2010 Escalade traveling at 60 miles per hour takes about 144 feet to come to a complete stop from when the driver first hits the brakes. In fact, the braking distance of any car depends on how fast it is going. If someone is driving slowly they can stop in shorter distance than if they are driving fast. Which is why you should drive slowly on residential streets.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Using_equations-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Using_equations-2-2">
 <div class="para">We would like to be able to calculate the braking distances at other speeds, so our two variables are</div>
 <div class="displaymath process-math" id="sec-Using_equations-2-2-1">
 \begin{align*}
@@ -488,14 +417,24 @@ B=0.04S^2
 B = 0.04 \ast S^2
 \end{equation*}
 </div>
-</div> <div class="para" id="sec-Using_equations-2-3">You may be a little surprised to see the variable <span class="process-math">\(S\)</span> <dfn class="terminology">squared</dfn> (raised to the 2nd power) or wonder what the number 0.04 means. This equation is not something we can figure out because it relies both on the data and knowledge of the physics involved. But, we can still work with this equation to find the braking distances at any speed. (If you must know, this equation is only approximate since things like tire and road conditions are a factor, but for what we want it is good enough.)</div> <div class="para" id="sec-Using_equations-2-4">Although in the last couple of sections we were able to find equations by generalizing examples, there are actually many different mathematical and statistical techniques for finding equations. A scientist might use lab experiments and some theory to figure it out. An economist might recognize that the equation fits a certain template because of the underlying economics. A store manager might know from years of experience that a certain equation works well to predict sales. It can be comforting to know where an equation comes from but whether we find an equation for ourselves or get it from an expert, we can use it to answer our questions and make predictions.</div> <div class="para logical" id="sec-Using_equations-2-5">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Using_equations-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Using_equations-2-3">You may be a little surprised to see the variable <span class="process-math">\(S\)</span> <dfn class="terminology">squared</dfn> (raised to the 2nd power) or wonder what the number 0.04 means. This equation is not something we can figure out because it relies both on the data and knowledge of the physics involved. But, we can still work with this equation to find the braking distances at any speed. (If you must know, this equation is only approximate since things like tire and road conditions are a factor, but for what we want it is good enough.)<div class="autopermalink" data-description="Paragraph"><a href="#sec-Using_equations-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Using_equations-2-4">Although in the last couple of sections we were able to find equations by generalizing examples, there are actually many different mathematical and statistical techniques for finding equations. A scientist might use lab experiments and some theory to figure it out. An economist might recognize that the equation fits a certain template because of the underlying economics. A store manager might know from years of experience that a certain equation works well to predict sales. It can be comforting to know where an equation comes from but whether we find an equation for ourselves or get it from an expert, we can use it to answer our questions and make predictions.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Using_equations-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Using_equations-2-5">
 <div class="para">Now that we have an equation we should check the reported stopping distance at 60 mph. We have <span class="process-math">\(S=60\)</span> so we substitute 60 in place of <span class="process-math">\(S\)</span> in the equation to get</div>
 <div class="displaymath process-math">
 \begin{equation*}
 B = 0.04 \ast 60^2 = 0.04 \times \underline{60} \wedge 2 = 144 \text{ feet} \quad \checkmark
 \end{equation*}
 </div>
-</div> <div class="para" id="sec-Using_equations-2-6">Quick bit of terminology. When we know the independent variable, like <span class="process-math">\(S=60\)</span> and we substitute into the equation to find the dependent variable, like <span class="process-math">\(B\text{,}\)</span> we say we <dfn class="terminology">evaluate</dfn> the function <span class="process-math">\(B\)</span> at <span class="process-math">\(S=60\text{.}\)</span> You might have noticed that the 60 was underlined in the calculation above. In this book we underline the value of the independent variable when we are evaluating. That way it’s easier to see which numbers come from the equation and which number we’re plugging in. Feel free to do the same. Or not.</div> <div class="para logical" id="sec-Using_equations-2-7">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Using_equations-2-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Using_equations-2-6">Quick bit of terminology. When we know the independent variable, like <span class="process-math">\(S=60\)</span> and we substitute into the equation to find the dependent variable, like <span class="process-math">\(B\text{,}\)</span> we say we <dfn class="terminology">evaluate</dfn> the function <span class="process-math">\(B\)</span> at <span class="process-math">\(S=60\text{.}\)</span> You might have noticed that the 60 was underlined in the calculation above. In this book we underline the value of the independent variable when we are evaluating. That way it’s easier to see which numbers come from the equation and which number we’re plugging in. Feel free to do the same. Or not.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Using_equations-2-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Using_equations-2-7">
 <div class="para">Let’s use our equation to calculate the braking distance for a Cadillac Escalade traveling 30, 50, 70 or 90 miles per hour. For 30 miles per hour, we have <span class="process-math">\(S=30\text{.}\)</span> So, we evaluate at <span class="process-math">\(S=30\)</span> to get</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -527,7 +466,9 @@ B = 0.04 \ast 0^2 = 0.04\times \underline{0} \wedge 2 = 0 \text{ feet}
 \end{equation*}
 </div>
 <div class="para">Well, sure! If the car isn’t moving, then it won’t need any distance to stop. Here’s what we’ve found so far, displayed in a table.</div>
-</div> <div class="tabular-box natural-width"><table class="tabular">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Using_equations-2-7" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(S\)</span></td>
 <td class="c m b1 r1 l0 t1 lines">0</td>
@@ -546,7 +487,10 @@ B = 0.04 \ast 0^2 = 0.04\times \underline{0} \wedge 2 = 0 \text{ feet}
 <td class="c m b1 r1 l0 t0 lines">196</td>
 <td class="c m b1 r1 l0 t0 lines">324</td>
 </tr>
-</table></div> <div class="para" id="sec-Using_equations-2-9">My neighbor Jeff happens to drive a 2010 Cadillac Escalade. The other day he almost was in an accident on the highway. Luckily no one was hurt, but he had to slam on the brakes to stop. The police report mentioned they believe it took his car 183 feet to stop. Jeff says he was not driving over the posted speed limit of 65 mph. Should we believe him?</div> <div class="para logical" id="sec-Using_equations-2-10">
+</table></div>
+<div class="para" id="sec-Using_equations-2-9">My neighbor Jeff happens to drive a 2010 Cadillac Escalade. The other day he almost was in an accident on the highway. Luckily no one was hurt, but he had to slam on the brakes to stop. The police report mentioned they believe it took his car 183 feet to stop. Jeff says he was not driving over the posted speed limit of 65 mph. Should we believe him?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Using_equations-2-9" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Using_equations-2-10">
 <div class="para">We can see from the table that braking distance of 183 feet falls in between the 144 and 196 on our table which leads us to believe that Jeff was traveling faster than 60 mph and slower than 70 mph. We can figure out if Jeff were driving at 65 mph, then his braking distance would have been</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -554,7 +498,9 @@ B = 0.04 \ast 65^2 = 0.04\times \underline{65} \wedge 2 = 169 \text{ feet}
 \end{equation*}
 </div>
 <div class="para">That’s less than the 183 feet Jeff took to stop. So, it appears that Jeff was driving faster than 65 mph.</div>
-</div> <div class="para logical" id="sec-Using_equations-2-11">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Using_equations-2-10" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Using_equations-2-11">
 <div class="para">But wait a minute. The braking distance is just the time it takes from when the driver’s foot hits the brake until the car stops. That distance doesn’t take into account the driver’s reaction time - how long between when the driver thinks to stop and when the driver’s foot actually hits the brake. We have a new dependent variable</div>
 <div class="displaymath process-math" id="sec-Using_equations-2-11-1">
 \begin{align*}
@@ -585,7 +531,9 @@ S \amp= \text{ speed (mph) } \sim \text{ indep}
 D=0.04S^2+1.47S
 \end{equation*}
 </div>
-</div> <div class="para logical" id="sec-Using_equations-2-12">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Using_equations-2-11" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Using_equations-2-12">
 <div class="para">Something interesting about this equation. The independent variable <span class="process-math">\(S\)</span> appears twice; first for the braking distance and again because of the reaction time. When we evaluate the equation we need to plug in the value of <span class="process-math">\(S\)</span> in two places. Check it out. When <span class="process-math">\(S=30\)</span> mph we have</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -599,7 +547,9 @@ D = 0.04 \ast  50^2 +1.47\ast 50 =  0.04\times \underline{50} \wedge 2 +1.47\tim
 \end{equation*}
 </div>
 <div class="para">again, much more than the braking distance of 100 feet. Here’s the revised table of values.</div>
-</div> <div class="tabular-box natural-width"><table class="tabular">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Using_equations-2-12" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(S\)</span></td>
 <td class="c m b1 r1 l0 t1 lines">0</td>
@@ -618,7 +568,8 @@ D = 0.04 \ast  50^2 +1.47\ast 50 =  0.04\times \underline{50} \wedge 2 +1.47\tim
 <td class="c m b1 r1 l0 t0 lines">299</td>
 <td class="c m b1 r1 l0 t0 lines">456</td>
 </tr>
-</table></div> <div class="para logical" id="sec-Using_equations-2-14">
+</table></div>
+<div class="para logical" id="sec-Using_equations-2-14">
 <div class="para">These numbers make us rethink Jeff’s assertion. Given that he stopped in 183 feet, which is much less than the 232 feet it takes to stop at 60 mph, it looks like Jeff was driving less than 60 mph. To be sure, calculate that at 65 mph, it would have taken Jeff</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -626,7 +577,17 @@ D = 0.04 \ast  65^2 + 1.47 \ast  65  = 0.04\times \underline{65} \wedge 2+ 1.47\
 \end{equation*}
 </div>
 <div class="para">Again, we should believe Jeff. And, be glad nobody was hurt.</div>
-</div> <div class="para" id="sec-Using_equations-2-15">A quick glance at the graph confirms our findings.</div> <div class="para" id="sec-Using_equations-2-16"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/cadillacBRAKESTOP.png" class="contained"></div></div> <div class="para" id="sec-Using_equations-2-17">The distance of 183 feet falls just above the unlabeled gridline for 175 and below the gridline for 200. Looking at the corresponding point on the braking distance curve, it looks like it falls around 67 mph, but looking at the corresponding point on the stopping distance curve, it looks like just over 50 mph.</div> <div class="para logical" id="sec-Using_equations-2-18">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Using_equations-2-14" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Using_equations-2-15">A quick glance at the graph confirms our findings.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Using_equations-2-15" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Using_equations-2-16">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/cadillacBRAKESTOP.png" class="contained"></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Using_equations-2-16" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Using_equations-2-17">The distance of 183 feet falls just above the unlabeled gridline for 175 and below the gridline for 200. Looking at the corresponding point on the braking distance curve, it looks like it falls around 67 mph, but looking at the corresponding point on the stopping distance curve, it looks like just over 50 mph.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Using_equations-2-17" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Using_equations-2-18">
 <div class="para">By the way, our first equation</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -634,12 +595,18 @@ B = 0.04 \ast S^2
 \end{equation*}
 </div>
 <div class="para">is a <dfn class="terminology">power equation</dfn> because the independent variable is being raised to a power, <span class="process-math">\(n=2\text{,}\)</span> and then scaled by a <dfn class="terminology">proportionality constant</dfn>, <span class="process-math">\(k=0.04\text{.}\)</span> Any power equation fits this template.</div>
-</div> <article class="assemblage assemblage-like" id="power-equation-template"><h3 class="heading"><span class="title">Power Equation Template</span></h3>
-<div class="para logical" id="power-equation-template-2"><div class="displaymath process-math">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Using_equations-2-18" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<article class="assemblage assemblage-like" id="power-equation-template"><h3 class="heading"><span class="title">Power Equation Template</span></h3>
+<div class="para logical" id="power-equation-template-2">
+<div class="displaymath process-math">
 \begin{equation*}
 \text{dep} = k \ast \text{indep}^{n}
 \end{equation*}
-</div></div></article> <div class="para logical" id="sec-Using_equations-2-20">
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#power-equation-template-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Power Equation Template"><a href="#power-equation-template" title="Copy permalink for Assemblage: Power Equation Template">🔗</a></div></article><div class="para logical" id="sec-Using_equations-2-20">
 <div class="para">Our second equation</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -647,24 +614,62 @@ D=0.04S^2 + 1.47S
 \end{equation*}
 </div>
 <div class="para">is a <dfn class="terminology">polynomial equation</dfn> because it includes both a linear term and powers. The exercises introduce more polynomial equations. Polynomials can have any powers, but in this equation the highest power happens to be 2. This type of polynomial equation has a special name. It is a <dfn class="terminology">quadratic equation</dfn>. Any quadratic equation fits this template.</div>
-</div> <article class="assemblage assemblage-like" id="quadratic-equation-template-2-3"><h3 class="heading"><span class="title">Quadratic Equation Template</span></h3>
-<div class="para logical" id="quadratic-equation-template-2-3-2"><div class="displaymath process-math">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Using_equations-2-20" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<article class="assemblage assemblage-like" id="quadratic-equation-template-2-3"><h3 class="heading"><span class="title">Quadratic Equation Template</span></h3>
+<div class="para logical" id="quadratic-equation-template-2-3-2">
+<div class="displaymath process-math">
 \begin{equation*}
 \text{dep} = a \ast \text{indep}^2 + b \ast\text{indep} + c
 \end{equation*}
-</div></div></article> <div class="para" id="sec-Using_equations-2-22">For our equation <span class="process-math">\(a=0.04\text{,}\)</span> <span class="process-math">\(b=1.47\text{,}\)</span> and the mysteriously missing <span class="process-math">\(c=0\text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#quadratic-equation-template-2-3-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Quadratic Equation Template"><a href="#quadratic-equation-template-2-3" title="Copy permalink for Assemblage: Quadratic Equation Template">🔗</a></div></article><div class="para" id="sec-Using_equations-2-22">For our equation <span class="process-math">\(a=0.04\text{,}\)</span> <span class="process-math">\(b=1.47\text{,}\)</span> and the mysteriously missing <span class="process-math">\(c=0\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-Using_equations-2-22" title="Copy permalink for Paragraph">🔗</a></div>
 </div></section><section class="conclusion" id="sec-Using_equations-3"><h3 class="heading">Do you know …<span></span>
-</h3> <div class="para logical" id="sec-Using_equations-3-2"><ol class="upper-alpha" id="sec-Using_equations-3-2-1">
-<li id="sec-Using_equations-3-2-1-1"><div class="para" id="sec-Using_equations-3-2-1-1-1">What it means to “evaluate” a function?</div></li>
-<li id="sec-Using_equations-3-2-1-2"><div class="para" id="sec-Using_equations-3-2-1-2-1">Why some numbers are underlined in our calculation?</div></li>
-<li id="sec-Using_equations-3-2-1-3"><div class="para" id="sec-Using_equations-3-2-1-3-1">How to evaluate an function when the independent variable occurs more than once?</div></li>
-<li id="sec-Using_equations-3-2-1-4"><div class="para" id="sec-Using_equations-3-2-1-4-1">How to generate a table or graph from an equation?</div></li>
-<li id="sec-Using_equations-3-2-1-5"><div class="para" id="sec-Using_equations-3-2-1-5-1">What graphs of different types of functions look like?</div></li>
-<li id="sec-Using_equations-3-2-1-6"><div class="para" id="sec-Using_equations-3-2-1-6-1">What a power, polynomial, or quadratic equation look like?</div></li>
-</ol></div> <div class="para" id="sec-Using_equations-3-3"><em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em></div></section><section class="exercises" id="ex-Using_equations"><h3 class="heading hide-type">
+</h3>
+<div class="para logical" id="sec-Using_equations-3-2">
+<ol class="upper-alpha ol-marker-1" id="sec-Using_equations-3-2-1">
+<li id="sec-Using_equations-3-2-1-1">
+<div class="para" id="sec-Using_equations-3-2-1-1-1">What it means to “evaluate” a function?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Using_equations-3-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item A"><a href="#sec-Using_equations-3-2-1-1" title="Copy permalink for Item A">🔗</a></div>
+</li>
+<li id="sec-Using_equations-3-2-1-2">
+<div class="para" id="sec-Using_equations-3-2-1-2-1">Why some numbers are underlined in our calculation?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Using_equations-3-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item B"><a href="#sec-Using_equations-3-2-1-2" title="Copy permalink for Item B">🔗</a></div>
+</li>
+<li id="sec-Using_equations-3-2-1-3">
+<div class="para" id="sec-Using_equations-3-2-1-3-1">How to evaluate an function when the independent variable occurs more than once?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Using_equations-3-2-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item C"><a href="#sec-Using_equations-3-2-1-3" title="Copy permalink for Item C">🔗</a></div>
+</li>
+<li id="sec-Using_equations-3-2-1-4">
+<div class="para" id="sec-Using_equations-3-2-1-4-1">How to generate a table or graph from an equation?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Using_equations-3-2-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item D"><a href="#sec-Using_equations-3-2-1-4" title="Copy permalink for Item D">🔗</a></div>
+</li>
+<li id="sec-Using_equations-3-2-1-5">
+<div class="para" id="sec-Using_equations-3-2-1-5-1">What graphs of different types of functions look like?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Using_equations-3-2-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item E"><a href="#sec-Using_equations-3-2-1-5" title="Copy permalink for Item E">🔗</a></div>
+</li>
+<li id="sec-Using_equations-3-2-1-6">
+<div class="para" id="sec-Using_equations-3-2-1-6-1">What a power, polynomial, or quadratic equation look like?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Using_equations-3-2-1-6-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item F"><a href="#sec-Using_equations-3-2-1-6" title="Copy permalink for Item F">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Using_equations-3-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Using_equations-3-3">
+<em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-Using_equations-3-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="exercises" id="ex-Using_equations"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises</span>
 </h3>
-<section class="introduction" id="ex-Using_equations-2"><div class="para" id="ex-Using_equations-2-1">Exercises 1-4 are available in a separate workbook format.</div></section><article class="exercise exercise-like" id="mortgage-payoff-using-equations"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<section class="introduction" id="ex-Using_equations-2"><div class="para" id="ex-Using_equations-2-1">Exercises 1-4 are available in a separate workbook format.<div class="autopermalink" data-description="Paragraph"><a href="#ex-Using_equations-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><article class="exercise exercise-like" id="mortgage-payoff-using-equations"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
 <div class="introduction" id="mortgage-payoff-using-equations-1"><div class="para logical" id="mortgage-payoff-using-equations-1-1">
 <div class="para">Dontrell and Kim borrowed money to buy a house on a 30-year mortgage. After <span class="process-math">\(T\)</span> months of making payments, Dontrell and Kim will still owe $<span class="process-math">\(D\)</span> where</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/mortgage-payoff-solving-exponential.html">
@@ -675,15 +680,24 @@ D=236{,}000-56{,}000 \ast 1.004^T
 <div class="para">
 <span class="process-math">\(D\)</span> is also known as the <dfn class="terminology">payoff</dfn> (how much they would need to pay to settle the debt). <em class="emphasis">(Story also appears in <a href="sec-Solving_exponential_equations.html#mortgage-payoff-solving-exponential" class="xref" data-knowl="./knowl/xref/mortgage-payoff-solving-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.4.4">3.4.4</a>)</em>
 </div>
+<div class="autopermalink" data-description="Paragraph"><a href="#mortgage-payoff-using-equations-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div></div>
 <article class="task exercise-like" id="mortgage-payoff-using-equations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="mortgage-payoff-using-equations-2-1-1">Name the variables <span class="process-math">\(T\)</span> and <span class="process-math">\(D\text{,}\)</span> including units and dependence.</div></article><article class="task exercise-like" id="dontrell-kim-orig"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="dontrell-kim-orig-1-1">How much did Dontrell and Kim originally borrow to buy their house? What value of <span class="process-math">\(T\)</span> did you evaluate at to answer the question?</div></article><article class="task exercise-like" id="mortgage-payoff-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="mortgage-payoff-using-equations-4-1-1">Evaluate the equation at <span class="process-math">\(T=12\text{.}\)</span> What does this number mean in terms of the story?</div></article><article class="task exercise-like" id="mortgage-payoff-using-equations-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="mortgage-payoff-using-equations-5-1-1">After making half the payments, how much money will Dontrell and Kim still owe on the house? Will they have paid more or less (or exactly) half of the amount they originally borrowed? <em class="emphasis">Hint: Find the total number of payments by converting 30 years into months. Then, divide by 2 to find the halfway point.</em>
-</div></article><article class="task exercise-like" id="mortgage-payoff-using-equations-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="mortgage-payoff-using-equations-6-1-1">The very last month they do not actually pay the regular monthly payment, just whatever balance is left on the loan. How much will that be? <em class="emphasis">Hint: they will have made all but one of the payments.</em>
-</div></article></article><article class="exercise exercise-like" id="rose-gold-using-equations"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="para" id="mortgage-payoff-using-equations-2-1-1">Name the variables <span class="process-math">\(T\)</span> and <span class="process-math">\(D\text{,}\)</span> including units and dependence.<div class="autopermalink" data-description="Paragraph"><a href="#mortgage-payoff-using-equations-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.1.a"><a href="#mortgage-payoff-using-equations-2" title="Copy permalink for Task 2.3.1.a">🔗</a></div></article><article class="task exercise-like" id="dontrell-kim-orig"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="dontrell-kim-orig-1-1">How much did Dontrell and Kim originally borrow to buy their house? What value of <span class="process-math">\(T\)</span> did you evaluate at to answer the question?<div class="autopermalink" data-description="Paragraph"><a href="#dontrell-kim-orig-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.1.b"><a href="#dontrell-kim-orig" title="Copy permalink for Task 2.3.1.b">🔗</a></div></article><article class="task exercise-like" id="mortgage-payoff-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="mortgage-payoff-using-equations-4-1-1">Evaluate the equation at <span class="process-math">\(T=12\text{.}\)</span> What does this number mean in terms of the story?<div class="autopermalink" data-description="Paragraph"><a href="#mortgage-payoff-using-equations-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.1.c"><a href="#mortgage-payoff-using-equations-4" title="Copy permalink for Task 2.3.1.c">🔗</a></div></article><article class="task exercise-like" id="mortgage-payoff-using-equations-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="mortgage-payoff-using-equations-5-1-1">After making half the payments, how much money will Dontrell and Kim still owe on the house? Will they have paid more or less (or exactly) half of the amount they originally borrowed? <em class="emphasis">Hint: Find the total number of payments by converting 30 years into months. Then, divide by 2 to find the halfway point.</em><div class="autopermalink" data-description="Paragraph"><a href="#mortgage-payoff-using-equations-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.1.d"><a href="#mortgage-payoff-using-equations-5" title="Copy permalink for Task 2.3.1.d">🔗</a></div></article><article class="task exercise-like" id="mortgage-payoff-using-equations-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="mortgage-payoff-using-equations-6-1-1">The very last month they do not actually pay the regular monthly payment, just whatever balance is left on the loan. How much will that be? <em class="emphasis">Hint: they will have made all but one of the payments.</em><div class="autopermalink" data-description="Paragraph"><a href="#mortgage-payoff-using-equations-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.1.e"><a href="#mortgage-payoff-using-equations-6" title="Copy permalink for Task 2.3.1.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.3.1"><a href="#mortgage-payoff-using-equations" title="Copy permalink for Exercise 2.3.1">🔗</a></div></article><article class="exercise exercise-like" id="rose-gold-using-equations"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
 <div class="introduction" id="rose-gold-using-equations-1"><div class="para logical" id="rose-gold-using-equations-1-1">
 <div class="para">“Rose gold” is a mix of gold and copper. We start with 2 grams of an alloy that is equal parts gold and copper and add <span class="process-math">\(A\)</span> grams of pure gold to lighten the color. The percentage of gold in the resulting rose gold alloy, <span class="process-math">\(R\)</span> is given by</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/rose-gold-order-operations.html ./knowl/xref/rose-gold-algebraic-notation.html ./knowl/xref/check-linear-modeling-linear.html">
@@ -698,11 +712,17 @@ R=100\left(\frac{1+0.8}{2+0.8}\right)= 100 \times (1 + \underline{0.8})\div(2+\u
 \end{equation*}
 </div>
 <div class="para"><em class="emphasis">(Story also appears in <a href="sec-Order_of_operations.html#rose-gold-order-operations" class="xref" data-knowl="./knowl/xref/rose-gold-order-operations.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.4.2">0.4.2</a>, <a href="sec-Algebraic_notation.html#rose-gold-algebraic-notation" class="xref" data-knowl="./knowl/xref/rose-gold-algebraic-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.7.4">0.7.4</a>, and <a href="sec-Modeling_linear_equations.html#check-linear-modeling-linear" class="xref" data-knowl="./knowl/xref/check-linear-modeling-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 4.1.7">4.1.7</a>)</em></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#rose-gold-using-equations-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div></div>
 <article class="task exercise-like" id="rose-gold-using-equations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="rose-gold-using-equations-2-1-1">Name the variables <span class="process-math">\(A\)</span> and <span class="process-math">\(R\text{,}\)</span> including units and dependence.</div></article><article class="task exercise-like" id="rose-gold-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="rose-gold-using-equations-3-1-1">Calculate the percentage of gold in the alloy if we add 1.2 grams of pure gold.</div></article><article class="task exercise-like" id="rose-gold-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="rose-gold-using-equations-4-1-1">Fill in all the missing values in this table.</div> <div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="rose-gold-using-equations-2-1-1">Name the variables <span class="process-math">\(A\)</span> and <span class="process-math">\(R\text{,}\)</span> including units and dependence.<div class="autopermalink" data-description="Paragraph"><a href="#rose-gold-using-equations-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.2.a"><a href="#rose-gold-using-equations-2" title="Copy permalink for Task 2.3.2.a">🔗</a></div></article><article class="task exercise-like" id="rose-gold-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="rose-gold-using-equations-3-1-1">Calculate the percentage of gold in the alloy if we add 1.2 grams of pure gold.<div class="autopermalink" data-description="Paragraph"><a href="#rose-gold-using-equations-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.2.b"><a href="#rose-gold-using-equations-3" title="Copy permalink for Task 2.3.2.b">🔗</a></div></article><article class="task exercise-like" id="rose-gold-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="rose-gold-using-equations-4-1-1">Fill in all the missing values in this table.<div class="autopermalink" data-description="Paragraph"><a href="#rose-gold-using-equations-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(A\)</span></td>
 <td class="c m b1 r1 l0 t1 lines">0</td>
@@ -725,9 +745,14 @@ R=100\left(\frac{1+0.8}{2+0.8}\right)= 100 \times (1 + \underline{0.8})\div(2+\u
 <td class="c m b1 r1 l0 t0 lines">80.0</td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int}\)</span></td>
 </tr>
-</table></div></article><article class="task exercise-like" id="rose-gold-using-equations-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="rose-gold-using-equations-5-1-1">Graph the function.</div></article><article class="task exercise-like" id="rose-gold-using-equations-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="rose-gold-using-equations-6-1-1">What do you think happens to the percentage of gold as we add more and more pure gold? Try adding 10 grams, and then try adding 100 grams to check.</div></article></article><article class="exercise exercise-like" id="monty-orchids-using-equations"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+</table></div>
+<div class="autopermalink" data-description="Task 2.3.2.c"><a href="#rose-gold-using-equations-4" title="Copy permalink for Task 2.3.2.c">🔗</a></div></article><article class="task exercise-like" id="rose-gold-using-equations-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="rose-gold-using-equations-5-1-1">Graph the function.<div class="autopermalink" data-description="Paragraph"><a href="#rose-gold-using-equations-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.2.d"><a href="#rose-gold-using-equations-5" title="Copy permalink for Task 2.3.2.d">🔗</a></div></article><article class="task exercise-like" id="rose-gold-using-equations-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="rose-gold-using-equations-6-1-1">What do you think happens to the percentage of gold as we add more and more pure gold? Try adding 10 grams, and then try adding 100 grams to check.<div class="autopermalink" data-description="Paragraph"><a href="#rose-gold-using-equations-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.2.e"><a href="#rose-gold-using-equations-6" title="Copy permalink for Task 2.3.2.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.3.2"><a href="#rose-gold-using-equations" title="Copy permalink for Exercise 2.3.2">🔗</a></div></article><article class="exercise exercise-like" id="monty-orchids-using-equations"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
 <div class="introduction" id="monty-orchids-using-equations-1"><div class="para logical" id="monty-orchids-using-equations-1-1">
 <div class="para">Monty hopes to grow orchids but they are fragile plants. He will consider his greenhouse a success if at least nine of the ten orchids survive. Assuming the orchids each survive at rate <span class="process-math">\(S\text{,}\)</span> the probability his greenhouse is a success, <span class="process-math">\(P\text{,}\)</span> is given by</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/monty-orchids-approx-solutions.html">
@@ -736,21 +761,42 @@ P= 10S^9-9S^{10}
 \end{equation*}
 </div>
 <div class="para"><em class="emphasis">(Story also appears in <a href="sec-Approx_solutions.html#monty-orchids-approx-solutions" class="xref" data-knowl="./knowl/xref/monty-orchids-approx-solutions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.4.3">2.4.3</a>)</em></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#monty-orchids-using-equations-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div></div>
 <article class="task exercise-like" id="monty-orchids-using-equations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="monty-orchids-using-equations-2-1-1">Name the variables <span class="process-math">\(S\)</span> and <span class="process-math">\(P\text{,}\)</span> including units and dependence.</div></article><article class="task exercise-like" id="monty-orchids-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="monty-orchids-using-equations-3-1-1">If the orchids are perfect (<span class="process-math">\(S=1\)</span>), what is the probability of a successful greenhouse? Explain how this answer makes sense in the story.</div></article><article class="task exercise-like" id="monty-orchids-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="monty-orchids-using-equations-4-1-1">If the orchids are complete duds (<span class="process-math">\(S=0\)</span>), what is the probability of a successful greenhouse? Explain how this answer makes sense in the story.</div></article><article class="task exercise-like" id="monty-orchids-using-equations-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="monty-orchids-using-equations-5-1-1">Make a table comparing the probability of a successful greenhouse if the orchids each survive at rate S = 0, 0.5, 0.8, 0.9, 0.95, or 1.</div></article><article class="task exercise-like" id="monty-orchids-using-equations-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="monty-orchids-using-equations-6-1-1">Draw a graph of the function.</div></article></article><article class="exercise exercise-like" id="charity-walk-using-equations"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
-<div class="introduction" id="charity-walk-using-equations-1"><div class="para" id="charity-walk-using-equations-1-1">Valerie plans to do a charity walk to raise money for breast cancer research, in honor of her aunt. Valerie’s friends have pledged a total of $93 per mile.</div></div>
+<div class="para" id="monty-orchids-using-equations-2-1-1">Name the variables <span class="process-math">\(S\)</span> and <span class="process-math">\(P\text{,}\)</span> including units and dependence.<div class="autopermalink" data-description="Paragraph"><a href="#monty-orchids-using-equations-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.3.a"><a href="#monty-orchids-using-equations-2" title="Copy permalink for Task 2.3.3.a">🔗</a></div></article><article class="task exercise-like" id="monty-orchids-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="monty-orchids-using-equations-3-1-1">If the orchids are perfect (<span class="process-math">\(S=1\)</span>), what is the probability of a successful greenhouse? Explain how this answer makes sense in the story.<div class="autopermalink" data-description="Paragraph"><a href="#monty-orchids-using-equations-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.3.b"><a href="#monty-orchids-using-equations-3" title="Copy permalink for Task 2.3.3.b">🔗</a></div></article><article class="task exercise-like" id="monty-orchids-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="monty-orchids-using-equations-4-1-1">If the orchids are complete duds (<span class="process-math">\(S=0\)</span>), what is the probability of a successful greenhouse? Explain how this answer makes sense in the story.<div class="autopermalink" data-description="Paragraph"><a href="#monty-orchids-using-equations-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.3.c"><a href="#monty-orchids-using-equations-4" title="Copy permalink for Task 2.3.3.c">🔗</a></div></article><article class="task exercise-like" id="monty-orchids-using-equations-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="monty-orchids-using-equations-5-1-1">Make a table comparing the probability of a successful greenhouse if the orchids each survive at rate S = 0, 0.5, 0.8, 0.9, 0.95, or 1.<div class="autopermalink" data-description="Paragraph"><a href="#monty-orchids-using-equations-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.3.d"><a href="#monty-orchids-using-equations-5" title="Copy permalink for Task 2.3.3.d">🔗</a></div></article><article class="task exercise-like" id="monty-orchids-using-equations-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="monty-orchids-using-equations-6-1-1">Draw a graph of the function.<div class="autopermalink" data-description="Paragraph"><a href="#monty-orchids-using-equations-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.3.e"><a href="#monty-orchids-using-equations-6" title="Copy permalink for Task 2.3.3.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.3.3"><a href="#monty-orchids-using-equations" title="Copy permalink for Exercise 2.3.3">🔗</a></div></article><article class="exercise exercise-like" id="charity-walk-using-equations"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="charity-walk-using-equations-1"><div class="para" id="charity-walk-using-equations-1-1">Valerie plans to do a charity walk to raise money for breast cancer research, in honor of her aunt. Valerie’s friends have pledged a total of $93 per mile.<div class="autopermalink" data-description="Paragraph"><a href="#charity-walk-using-equations-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
 <article class="task exercise-like" id="charity-walk-using-equations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="charity-walk-using-equations-2-1-1">Valerie hopes to walk all 50 miles of the event. If so, how much money will she raise?</div></article><article class="task exercise-like" id="charity-walk-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="charity-walk-using-equations-3-1-1">She might have to stop sooner, however. Name variables and write an equation showing how the money Valerie raises is a function of how far she is able to walk.</div></article><article class="task exercise-like" id="charity-walk-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="charity-walk-using-equations-4-1-1">How long will it take Valerie to walk the full 50 miles if she is able to keep a pace (speed) of 3.2 miles per hour? Write your answer in H:MM format.</div></article><article class="task exercise-like" id="charity-walk-using-equations-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="charity-walk-using-equations-5-1-1">Name the new variables and write a new equation showing how the time it takes Valerie to walk the full 50 miles depends on her pace.</div></article><article class="task exercise-like" id="charity-walk-using-equations-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="charity-walk-using-equations-6-1-1">Good news. Valerie walked the full 50 miles at a pace of 3.2 miles per hour. Way to go, girl! How much money did she raise each hour? <em class="emphasis">Hint: Use your answers from (a) and (c) as unit conversions to get $/hour.</em>
-</div></article></article><article class="exercise exercise-like" id="braking-distance-using-equations"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="para" id="charity-walk-using-equations-2-1-1">Valerie hopes to walk all 50 miles of the event. If so, how much money will she raise?<div class="autopermalink" data-description="Paragraph"><a href="#charity-walk-using-equations-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.4.a"><a href="#charity-walk-using-equations-2" title="Copy permalink for Task 2.3.4.a">🔗</a></div></article><article class="task exercise-like" id="charity-walk-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="charity-walk-using-equations-3-1-1">She might have to stop sooner, however. Name variables and write an equation showing how the money Valerie raises is a function of how far she is able to walk.<div class="autopermalink" data-description="Paragraph"><a href="#charity-walk-using-equations-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.4.b"><a href="#charity-walk-using-equations-3" title="Copy permalink for Task 2.3.4.b">🔗</a></div></article><article class="task exercise-like" id="charity-walk-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="charity-walk-using-equations-4-1-1">How long will it take Valerie to walk the full 50 miles if she is able to keep a pace (speed) of 3.2 miles per hour? Write your answer in H:MM format.<div class="autopermalink" data-description="Paragraph"><a href="#charity-walk-using-equations-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.4.c"><a href="#charity-walk-using-equations-4" title="Copy permalink for Task 2.3.4.c">🔗</a></div></article><article class="task exercise-like" id="charity-walk-using-equations-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="charity-walk-using-equations-5-1-1">Name the new variables and write a new equation showing how the time it takes Valerie to walk the full 50 miles depends on her pace.<div class="autopermalink" data-description="Paragraph"><a href="#charity-walk-using-equations-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.4.d"><a href="#charity-walk-using-equations-5" title="Copy permalink for Task 2.3.4.d">🔗</a></div></article><article class="task exercise-like" id="charity-walk-using-equations-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="charity-walk-using-equations-6-1-1">Good news. Valerie walked the full 50 miles at a pace of 3.2 miles per hour. Way to go, girl! How much money did she raise each hour? <em class="emphasis">Hint: Use your answers from (a) and (c) as unit conversions to get $/hour.</em><div class="autopermalink" data-description="Paragraph"><a href="#charity-walk-using-equations-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.4.e"><a href="#charity-walk-using-equations-6" title="Copy permalink for Task 2.3.4.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.3.4"><a href="#charity-walk-using-equations" title="Copy permalink for Exercise 2.3.4">🔗</a></div></article><article class="exercise exercise-like" id="braking-distance-using-equations"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
 <div class="introduction" id="braking-distance-using-equations-1">
 <div class="para logical" id="braking-distance-using-equations-1-1">
 <div class="para">The 2002 Chevrolet Tahoe 4WD will take about 158.1 feet to stop when traveling at 60 mph in normal highway conditions. Let <span class="process-math">\(S\)</span> be the speed at which the vehicle is traveling, in miles per hour (mph), and <span class="process-math">\(D\)</span> the distance it takes to stop, in feet. This information together with a little physics gives the equation</div>
@@ -759,14 +805,25 @@ P= 10S^9-9S^{10}
 D = 0.0439S^2 + 1.47S
 \end{equation*}
 </div>
-</div> <div class="para" id="braking-distance-using-equations-1-2"><em class="emphasis">(Story also appears in <a href="sec-Solving_quadratic_equations.html#braking-distance-solving-quadratic" class="xref" data-knowl="./knowl/xref/braking-distance-solving-quadratic.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.5.6">3.5.6</a>)</em></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#braking-distance-using-equations-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="braking-distance-using-equations-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Solving_quadratic_equations.html#braking-distance-solving-quadratic" class="xref" data-knowl="./knowl/xref/braking-distance-solving-quadratic.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.5.6">3.5.6</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#braking-distance-using-equations-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 </div>
 <article class="task exercise-like" id="braking-distance-using-equations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="braking-distance-using-equations-2-1-1">According to this equation, how many feet does it take to stop the Tahoe when traveling 80 miles per hour?</div></article><article class="task exercise-like" id="braking-distance-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="braking-distance-using-equations-3-1-1">In driver’s training classes they teach the “two-second rule” for safety: you should follow no closer than two seconds behind the car in front of you. If you are traveling 80 miles per hour, how many feet can you travel in two seconds? <em class="emphasis">Hint: convert to feet per second, then multiply by two seconds.</em>
-</div></article><article class="task exercise-like" id="braking-distance-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="braking-distance-using-equations-4-1-1">Compare your results from parts (a) and (b) to decide if the “two-second rule” is adequate for safety at 80 miles per hour. That is, if you are following two seconds behind the car in front of you and calamity strikes that car, will you be able to stop before hitting it?</div></article><article class="task exercise-like" id="braking-distance-using-equations-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="braking-distance-using-equations-5-1-1">Is the “two-second rule” adequate at 50 mph?</div></article></article><article class="exercise exercise-like" id="lamp-intensity-using-equations"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="para" id="braking-distance-using-equations-2-1-1">According to this equation, how many feet does it take to stop the Tahoe when traveling 80 miles per hour?<div class="autopermalink" data-description="Paragraph"><a href="#braking-distance-using-equations-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.5.a"><a href="#braking-distance-using-equations-2" title="Copy permalink for Task 2.3.5.a">🔗</a></div></article><article class="task exercise-like" id="braking-distance-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="braking-distance-using-equations-3-1-1">In driver’s training classes they teach the “two-second rule” for safety: you should follow no closer than two seconds behind the car in front of you. If you are traveling 80 miles per hour, how many feet can you travel in two seconds? <em class="emphasis">Hint: convert to feet per second, then multiply by two seconds.</em><div class="autopermalink" data-description="Paragraph"><a href="#braking-distance-using-equations-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.5.b"><a href="#braking-distance-using-equations-3" title="Copy permalink for Task 2.3.5.b">🔗</a></div></article><article class="task exercise-like" id="braking-distance-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="braking-distance-using-equations-4-1-1">Compare your results from parts (a) and (b) to decide if the “two-second rule” is adequate for safety at 80 miles per hour. That is, if you are following two seconds behind the car in front of you and calamity strikes that car, will you be able to stop before hitting it?<div class="autopermalink" data-description="Paragraph"><a href="#braking-distance-using-equations-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.5.c"><a href="#braking-distance-using-equations-4" title="Copy permalink for Task 2.3.5.c">🔗</a></div></article><article class="task exercise-like" id="braking-distance-using-equations-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="braking-distance-using-equations-5-1-1">Is the “two-second rule” adequate at 50 mph?<div class="autopermalink" data-description="Paragraph"><a href="#braking-distance-using-equations-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.5.d"><a href="#braking-distance-using-equations-5" title="Copy permalink for Task 2.3.5.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.3.5"><a href="#braking-distance-using-equations" title="Copy permalink for Exercise 2.3.5">🔗</a></div></article><article class="exercise exercise-like" id="lamp-intensity-using-equations"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
 <div class="introduction" id="lamp-intensity-using-equations-1"><div class="para logical" id="lamp-intensity-using-equations-1-1">
 <div class="para">Mom always said to sit close to the lamp when I was reading. The intensity of light <span class="process-math">\(L\text{,}\)</span> measured in percentage (%) that you see from a lamp depends on your distance from the lamp, <span class="process-math">\(F\)</span> feet as described by the formula</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/name-vars-variables-functions.html ./knowl/xref/lamp-intensity-solving-power.html">
@@ -775,19 +832,44 @@ L=\frac{100}{F^2}
 \end{equation*}
 </div>
 <div class="para"><em class="emphasis">(Story also appears in <a href="sec-Variables_and_functions.html#name-vars-variables-functions" class="xref" data-knowl="./knowl/xref/name-vars-variables-functions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.1.10">1.1.10</a> and <a href="sec-Solving_power_equations.html#lamp-intensity-solving-power" class="xref" data-knowl="./knowl/xref/lamp-intensity-solving-power.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.3.7">3.3.7</a>)</em></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#lamp-intensity-using-equations-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div></div>
 <article class="task exercise-like" id="lamp-intensity-using-equations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="lamp-intensity-using-equations-2-1-1">Calculate the intensity when I sit 1 foot, 2 feet, or 3 feet away. Record your answers in a table.</div></article><article class="task exercise-like" id="lamp-intensity-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="lamp-intensity-using-equations-3-1-1">The other day I was sitting 27 inches from the lamp. What was the intensity of the light there?</div></article><article class="task exercise-like" id="lamp-intensity-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="lamp-intensity-using-equations-4-1-1">Calculate the rate of change of light intensity between 2 feet and 27 inches. What does that tell you in terms of the story?</div></article><article class="task exercise-like" id="lamp-intensity-using-equations-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="lamp-intensity-using-equations-5-1-1">Draw a graph illustrating the function.</div></article></article><article class="exercise exercise-like" id="gravel-path-using-equations"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="para" id="lamp-intensity-using-equations-2-1-1">Calculate the intensity when I sit 1 foot, 2 feet, or 3 feet away. Record your answers in a table.<div class="autopermalink" data-description="Paragraph"><a href="#lamp-intensity-using-equations-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.6.a"><a href="#lamp-intensity-using-equations-2" title="Copy permalink for Task 2.3.6.a">🔗</a></div></article><article class="task exercise-like" id="lamp-intensity-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="lamp-intensity-using-equations-3-1-1">The other day I was sitting 27 inches from the lamp. What was the intensity of the light there?<div class="autopermalink" data-description="Paragraph"><a href="#lamp-intensity-using-equations-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.6.b"><a href="#lamp-intensity-using-equations-3" title="Copy permalink for Task 2.3.6.b">🔗</a></div></article><article class="task exercise-like" id="lamp-intensity-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="lamp-intensity-using-equations-4-1-1">Calculate the rate of change of light intensity between 2 feet and 27 inches. What does that tell you in terms of the story?<div class="autopermalink" data-description="Paragraph"><a href="#lamp-intensity-using-equations-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.6.c"><a href="#lamp-intensity-using-equations-4" title="Copy permalink for Task 2.3.6.c">🔗</a></div></article><article class="task exercise-like" id="lamp-intensity-using-equations-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="lamp-intensity-using-equations-5-1-1">Draw a graph illustrating the function.<div class="autopermalink" data-description="Paragraph"><a href="#lamp-intensity-using-equations-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.6.d"><a href="#lamp-intensity-using-equations-5" title="Copy permalink for Task 2.3.6.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.3.6"><a href="#lamp-intensity-using-equations" title="Copy permalink for Exercise 2.3.6">🔗</a></div></article><article class="exercise exercise-like" id="gravel-path-using-equations"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
 <div class="introduction" id="gravel-path-using-equations-1">
-<div class="para" id="gravel-path-using-equations-1-1">Urban community gardens are catching on. What was once an abandoned lot down the block is now a thriving 10′<span class="process-math">\(\times\)</span>25′ vegetable and berry garden for the neighborhood. (Remember ′ stands for “feet,” so the garden is 10 feet wide and 25 feet long.) One neighbor volunteered to donate gravel to make a path around the garden. The path will be 3 inches deep and the same width all around.</div> <div class="para" id="gravel-path-using-equations-1-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/GravelPath.png" class="contained"></div></div> <div class="para" id="gravel-path-using-equations-1-3"><em class="emphasis">(Story also appears in <a href="sec-Approx_solutions.html#gravel-path-approx-solutions" class="xref" data-knowl="./knowl/xref/gravel-path-approx-solutions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.4.10">2.4.10</a> and <a href="sec-Solving_quadratic_equations.html#gravel-path-quadratic" class="xref" data-knowl="./knowl/xref/gravel-path-quadratic.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.5.4">3.5.4</a>)</em></div>
+<div class="para" id="gravel-path-using-equations-1-1">Urban community gardens are catching on. What was once an abandoned lot down the block is now a thriving 10′<span class="process-math">\(\times\)</span>25′ vegetable and berry garden for the neighborhood. (Remember ′ stands for “feet,” so the garden is 10 feet wide and 25 feet long.) One neighbor volunteered to donate gravel to make a path around the garden. The path will be 3 inches deep and the same width all around.<div class="autopermalink" data-description="Paragraph"><a href="#gravel-path-using-equations-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="gravel-path-using-equations-1-2">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/GravelPath.png" class="contained"></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#gravel-path-using-equations-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="gravel-path-using-equations-1-3">
+<em class="emphasis">(Story also appears in <a href="sec-Approx_solutions.html#gravel-path-approx-solutions" class="xref" data-knowl="./knowl/xref/gravel-path-approx-solutions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.4.10">2.4.10</a> and <a href="sec-Solving_quadratic_equations.html#gravel-path-quadratic" class="xref" data-knowl="./knowl/xref/gravel-path-quadratic.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.5.4">3.5.4</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#gravel-path-using-equations-1-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 </div>
 <article class="task exercise-like" id="gravel-path-using-equations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="gravel-path-using-equations-2-1-1">The other measurements are in feet, so convert the depth of the path (3 inches) into feet also.</div></article><article class="task exercise-like" id="gravel-path-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="gravel-path-using-equations-3-1-1">Suppose for the moment that the path will be 4 feet wide. Calculate the area of the path. Here’s one way to do it: first, find the area of the outer rectangle, then subtract the area of the garden itself.</div> <div class="para" id="gravel-path-using-equations-3-1-2"><em class="emphasis">Hint: the length of that outer rectangle includes the 25 feet of garden plus the width of the path on each side. Same for the width of that outer rectangle.</em></div></article><article class="task exercise-like" id="gravel-path-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="gravel-path-using-equations-4-1-1">Figure out how much gravel they would need (in cubic feet) for a 4 foot wide path by multiplying your answers to (a) and (b).</div></article><article class="task exercise-like" id="gravel-path-using-equations-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="gravel-path-using-equations-2-1-1">The other measurements are in feet, so convert the depth of the path (3 inches) into feet also.<div class="autopermalink" data-description="Paragraph"><a href="#gravel-path-using-equations-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.7.a"><a href="#gravel-path-using-equations-2" title="Copy permalink for Task 2.3.7.a">🔗</a></div></article><article class="task exercise-like" id="gravel-path-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="gravel-path-using-equations-3-1-1">Suppose for the moment that the path will be 4 feet wide. Calculate the area of the path. Here’s one way to do it: first, find the area of the outer rectangle, then subtract the area of the garden itself.<div class="autopermalink" data-description="Paragraph"><a href="#gravel-path-using-equations-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="gravel-path-using-equations-3-1-2">
+<em class="emphasis">Hint: the length of that outer rectangle includes the 25 feet of garden plus the width of the path on each side. Same for the width of that outer rectangle.</em><div class="autopermalink" data-description="Paragraph"><a href="#gravel-path-using-equations-3-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.7.b"><a href="#gravel-path-using-equations-3" title="Copy permalink for Task 2.3.7.b">🔗</a></div></article><article class="task exercise-like" id="gravel-path-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="gravel-path-using-equations-4-1-1">Figure out how much gravel they would need (in cubic feet) for a 4 foot wide path by multiplying your answers to (a) and (b).<div class="autopermalink" data-description="Paragraph"><a href="#gravel-path-using-equations-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.7.c"><a href="#gravel-path-using-equations-4" title="Copy permalink for Task 2.3.7.c">🔗</a></div></article><article class="task exercise-like" id="gravel-path-using-equations-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
 <div class="para logical" id="gravel-path-using-equations-5-1-1">
 <div class="para">Actually, they aren’t sure how wide the path should be and how much gravel they can get. Let’s write <span class="process-math">\(W\)</span> = width of path (feet) and <span class="process-math">\(G\)</span> = amount of gravel (cubic feet). It turns out that</div>
 <div class="displaymath process-math">
@@ -796,8 +878,12 @@ G = W^2 + 17.5W
 \end{equation*}
 </div>
 <div class="para">Check that when you evaluate at <span class="process-math">\(W=4\)</span> you get the same answer as in (c).</div>
-</div></article><article class="task exercise-like" id="gravel-path-using-equations-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="gravel-path-using-equations-6-1-1">How many cubic feet of gravel would they need to make the path 2 feet wide? 3 feet wide? 42 inches?</div></article></article><article class="exercise exercise-like" id="newspapers-using-equations"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="autopermalink" data-description="Paragraph"><a href="#gravel-path-using-equations-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.7.d"><a href="#gravel-path-using-equations-5" title="Copy permalink for Task 2.3.7.d">🔗</a></div></article><article class="task exercise-like" id="gravel-path-using-equations-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="gravel-path-using-equations-6-1-1">How many cubic feet of gravel would they need to make the path 2 feet wide? 3 feet wide? 42 inches?<div class="autopermalink" data-description="Paragraph"><a href="#gravel-path-using-equations-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.7.e"><a href="#gravel-path-using-equations-6" title="Copy permalink for Task 2.3.7.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.3.7"><a href="#gravel-path-using-equations" title="Copy permalink for Exercise 2.3.7">🔗</a></div></article><article class="exercise exercise-like" id="newspapers-using-equations"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
 <div class="introduction" id="newspapers-using-equations-1"><div class="para logical" id="newspapers-using-equations-1-1">
 <div class="para">One measure of the diversity of our news source is the count of the number of different daily newspapers in circulation. A reasonable equation estimating this count over the past century is</div>
 <div class="displaymath process-math">
@@ -806,11 +892,18 @@ N = -0.0021T^3+0.34T^2-20T+ 2{,}226
 \end{equation*}
 </div>
 <div class="para">where <span class="process-math">\(N\)</span> is the number of daily newspapers in circulation in the United States <span class="process-math">\(T\)</span> years after 1900.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#newspapers-using-equations-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div></div>
 <article class="task exercise-like" id="newspapers-using-equations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="newspapers-using-equations-2-1-1">Based on this equation, how many daily newspapers were in circulation in 1920? In 1955? In 1995? In 2010?</div></article><article class="task exercise-like" id="newspapers-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="newspapers-using-equations-3-1-1">During which period were the number of newspapers in circulation dropping faster: 1900 to 1920 or 1995 to 2010?</div></article><article class="task exercise-like" id="newspapers-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="newspapers-using-equations-4-1-1">Draw a graph illustrating the dependence.</div></article></article><article class="exercise exercise-like" id="grilling-fish-using-equations"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="para" id="newspapers-using-equations-2-1-1">Based on this equation, how many daily newspapers were in circulation in 1920? In 1955? In 1995? In 2010?<div class="autopermalink" data-description="Paragraph"><a href="#newspapers-using-equations-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.8.a"><a href="#newspapers-using-equations-2" title="Copy permalink for Task 2.3.8.a">🔗</a></div></article><article class="task exercise-like" id="newspapers-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="newspapers-using-equations-3-1-1">During which period were the number of newspapers in circulation dropping faster: 1900 to 1920 or 1995 to 2010?<div class="autopermalink" data-description="Paragraph"><a href="#newspapers-using-equations-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.8.b"><a href="#newspapers-using-equations-3" title="Copy permalink for Task 2.3.8.b">🔗</a></div></article><article class="task exercise-like" id="newspapers-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="newspapers-using-equations-4-1-1">Draw a graph illustrating the dependence.<div class="autopermalink" data-description="Paragraph"><a href="#newspapers-using-equations-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.8.c"><a href="#newspapers-using-equations-4" title="Copy permalink for Task 2.3.8.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.3.8"><a href="#newspapers-using-equations" title="Copy permalink for Exercise 2.3.8">🔗</a></div></article><article class="exercise exercise-like" id="grilling-fish-using-equations"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
 <div class="introduction" id="grilling-fish-using-equations-1">
 <div class="para logical" id="grilling-fish-using-equations-1-1">
 <div class="para">Mrs. Weber’s cooking class came up with the equation</div>
@@ -820,13 +913,25 @@ M = 1.2F^2+4F+7
 \end{equation*}
 </div>
 <div class="para">to approximate the grilling time of a piece of fish depending on its thickness. Here <span class="process-math">\(M\)</span> is the number of minutes to grill the fish and <span class="process-math">\(F\)</span> is the thickness of the fish (in inches).</div>
-</div> <div class="para" id="grilling-fish-using-equations-1-2"><em class="emphasis">(Story also appears in <a href="sec-Variables_and_functions.html#name-vars-variables-functions" class="xref" data-knowl="./knowl/xref/name-vars-variables-functions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.1.10">1.1.10</a> and <a href="sec-Solving_quadratic_equations.html#grilling-fish-solving-quadratic" class="xref" data-knowl="./knowl/xref/grilling-fish-solving-quadratic.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.5.8">3.5.8</a>)</em></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#grilling-fish-using-equations-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="grilling-fish-using-equations-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Variables_and_functions.html#name-vars-variables-functions" class="xref" data-knowl="./knowl/xref/name-vars-variables-functions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.1.10">1.1.10</a> and <a href="sec-Solving_quadratic_equations.html#grilling-fish-solving-quadratic" class="xref" data-knowl="./knowl/xref/grilling-fish-solving-quadratic.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.5.8">3.5.8</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#grilling-fish-using-equations-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 </div>
 <article class="task exercise-like" id="grilling-fish-using-equations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="grilling-fish-using-equations-2-1-1">Evaluate the equation at <span class="process-math">\(F=0.25, 1, 1.5,\)</span> and <span class="process-math">\(2\text{.}\)</span> Record your answers in a table.</div></article><article class="task exercise-like" id="grilling-fish-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="grilling-fish-using-equations-3-1-1">What do the answers you found say about cooking fish?</div></article><article class="task exercise-like" id="grilling-fish-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="grilling-fish-using-equations-4-1-1">Draw a graph showing how the cooking time depends on the thickness of the fish.</div></article><article class="task exercise-like" id="grilling-fish-using-equations-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="grilling-fish-using-equations-5-1-1">Your graph should show that the function is increasing. Explain how that makes sense in terms of the story.</div></article></article><article class="exercise exercise-like" id="salary-using-equations"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<div class="para" id="grilling-fish-using-equations-2-1-1">Evaluate the equation at <span class="process-math">\(F=0.25, 1, 1.5,\)</span> and <span class="process-math">\(2\text{.}\)</span> Record your answers in a table.<div class="autopermalink" data-description="Paragraph"><a href="#grilling-fish-using-equations-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.9.a"><a href="#grilling-fish-using-equations-2" title="Copy permalink for Task 2.3.9.a">🔗</a></div></article><article class="task exercise-like" id="grilling-fish-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="grilling-fish-using-equations-3-1-1">What do the answers you found say about cooking fish?<div class="autopermalink" data-description="Paragraph"><a href="#grilling-fish-using-equations-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.9.b"><a href="#grilling-fish-using-equations-3" title="Copy permalink for Task 2.3.9.b">🔗</a></div></article><article class="task exercise-like" id="grilling-fish-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="grilling-fish-using-equations-4-1-1">Draw a graph showing how the cooking time depends on the thickness of the fish.<div class="autopermalink" data-description="Paragraph"><a href="#grilling-fish-using-equations-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.9.c"><a href="#grilling-fish-using-equations-4" title="Copy permalink for Task 2.3.9.c">🔗</a></div></article><article class="task exercise-like" id="grilling-fish-using-equations-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="grilling-fish-using-equations-5-1-1">Your graph should show that the function is increasing. Explain how that makes sense in terms of the story.<div class="autopermalink" data-description="Paragraph"><a href="#grilling-fish-using-equations-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.9.d"><a href="#grilling-fish-using-equations-5" title="Copy permalink for Task 2.3.9.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.3.9"><a href="#grilling-fish-using-equations" title="Copy permalink for Exercise 2.3.9">🔗</a></div></article><article class="exercise exercise-like" id="salary-using-equations"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
 <div class="introduction" id="salary-using-equations-1">
 <div class="para logical" id="salary-using-equations-1-1">
 <div class="para">Wynter has a pretty decent job. He is paid a salary of $780 per week but his hours vary week-to-week. Even though Wynter is not paid by the hour, he can figure out what his hourly wage would be depending on the number of hours he works. For example, in a week where Wynter works 40 hours, he’s earning the equivalent of $19.50/hr because</div>
@@ -835,18 +940,28 @@ M = 1.2F^2+4F+7
 \frac{\$780}{40 \text{ hours}} = 780 \div 40 =\$19.50\text{/hour}
 \end{equation*}
 </div>
-</div> <div class="para" id="salary-using-equations-1-2"><em class="emphasis">(Story also appears in <a href="sec-Solving_power_equations.html#salary-solving-power" class="xref" data-knowl="./knowl/xref/salary-solving-power.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.3.10">3.3.10</a>)</em></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#salary-using-equations-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="salary-using-equations-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Solving_power_equations.html#salary-solving-power" class="xref" data-knowl="./knowl/xref/salary-solving-power.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.3.10">3.3.10</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#salary-using-equations-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 </div>
 <article class="task exercise-like" id="salary-using-equations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="salary-using-equations-2-1-1">What’s Wynter’s equivalent hourly wage in a week when he works 50 hours? 60 hours?</div></article><article class="task exercise-like" id="salary-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="salary-using-equations-3-1-1">Name the variables and write an equation relating them.</div></article><article class="task exercise-like" id="salary-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="salary-using-equations-4-1-1">Explain why this function is decreasing.</div></article></article></section></section></div>
-<div class="ptx-content-footer">
+<div class="para" id="salary-using-equations-2-1-1">What’s Wynter’s equivalent hourly wage in a week when he works 50 hours? 60 hours?<div class="autopermalink" data-description="Paragraph"><a href="#salary-using-equations-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.10.a"><a href="#salary-using-equations-2" title="Copy permalink for Task 2.3.10.a">🔗</a></div></article><article class="task exercise-like" id="salary-using-equations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="salary-using-equations-3-1-1">Name the variables and write an equation relating them.<div class="autopermalink" data-description="Paragraph"><a href="#salary-using-equations-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.10.b"><a href="#salary-using-equations-3" title="Copy permalink for Task 2.3.10.b">🔗</a></div></article><article class="task exercise-like" id="salary-using-equations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="salary-using-equations-4-1-1">Explain why this function is decreasing.<div class="autopermalink" data-description="Paragraph"><a href="#salary-using-equations-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.3.10.c"><a href="#salary-using-equations-4" title="Copy permalink for Task 2.3.10.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.3.10"><a href="#salary-using-equations" title="Copy permalink for Exercise 2.3.10">🔗</a></div></article><div class="autopermalink" data-description="Exercises 2.3: Exercises"><a href="#ex-Using_equations" title="Copy permalink for Exercises 2.3: Exercises">🔗</a></div></section><div class="autopermalink" data-description="Section 2.3: Using equations"><a href="#sec-Using_equations" title="Copy permalink for Section 2.3: Using equations">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="sec-First_look_exponential.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-Approx_solutions.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
-<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
 </div>
 </body>
 </html>

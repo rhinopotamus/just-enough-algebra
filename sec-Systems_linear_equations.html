@@ -5,16 +5,25 @@
 <!--*         https://pretextbook.org          *-->
 <!--*                                          *-->
 <!--********************************************-->
-<html lang="en-US" dir="ltr">
+<html lang="en-US" dir="ltr" data-legacy-colorscheme="blue_red">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-legacy                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Systems of linear equations</title>
-<meta name="Keywords" content="Authored in PreTeXt">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta property="og:type" content="book">
-<meta property="book:title" content="Just Enough Algebra">
-<meta property="book:author" content="Dr. Suzanne Dorée">
-<meta property="book:author" content="Dr. Spencer Bagley">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;" rel="stylesheet">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
 <script>
 var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
 window.MathJax = {
@@ -70,137 +79,54 @@ window.MathJax = {
     )}
   }
 };
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
-<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
-</script><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
-<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
-<style>
-#sec-Approximation_and_rounding-3-2-1 { counter-set: sec-Approximation_and_rounding-3-2-1 0; }
-#sec-Approximation_and_rounding-3-2-1 > li::marker { content: ""counter(sec-Approximation_and_rounding-3-2-1,upper-alpha)"."; }
-#sec-Approximation_and_rounding-3-2-1 > li { counter-increment: sec-Approximation_and_rounding-3-2-1; }
-#sec-Arithmetic_operations-3-2-1 { counter-set: sec-Arithmetic_operations-3-2-1 0; }
-#sec-Arithmetic_operations-3-2-1 > li::marker { content: ""counter(sec-Arithmetic_operations-3-2-1,upper-alpha)"."; }
-#sec-Arithmetic_operations-3-2-1 > li { counter-increment: sec-Arithmetic_operations-3-2-1; }
-#sec-Percentages-3-2-1 { counter-set: sec-Percentages-3-2-1 0; }
-#sec-Percentages-3-2-1 > li::marker { content: ""counter(sec-Percentages-3-2-1,upper-alpha)"."; }
-#sec-Percentages-3-2-1 > li { counter-increment: sec-Percentages-3-2-1; }
-#sec-Order_of_operations-3-2-1 { counter-set: sec-Order_of_operations-3-2-1 0; }
-#sec-Order_of_operations-3-2-1 > li::marker { content: ""counter(sec-Order_of_operations-3-2-1,upper-alpha)"."; }
-#sec-Order_of_operations-3-2-1 > li { counter-increment: sec-Order_of_operations-3-2-1; }
-#sec-Fractions-3-2-1 { counter-set: sec-Fractions-3-2-1 0; }
-#sec-Fractions-3-2-1 > li::marker { content: ""counter(sec-Fractions-3-2-1,upper-alpha)"."; }
-#sec-Fractions-3-2-1 > li { counter-increment: sec-Fractions-3-2-1; }
-#sec-Powers_and_roots-3-2-1 { counter-set: sec-Powers_and_roots-3-2-1 0; }
-#sec-Powers_and_roots-3-2-1 > li::marker { content: ""counter(sec-Powers_and_roots-3-2-1,upper-alpha)"."; }
-#sec-Powers_and_roots-3-2-1 > li { counter-increment: sec-Powers_and_roots-3-2-1; }
-#sec-Algebraic_notation-3-2-1 { counter-set: sec-Algebraic_notation-3-2-1 0; }
-#sec-Algebraic_notation-3-2-1 > li::marker { content: ""counter(sec-Algebraic_notation-3-2-1,upper-alpha)"."; }
-#sec-Algebraic_notation-3-2-1 > li { counter-increment: sec-Algebraic_notation-3-2-1; }
-#sec-Scientific_notation-3-2-1 { counter-set: sec-Scientific_notation-3-2-1 0; }
-#sec-Scientific_notation-3-2-1 > li::marker { content: ""counter(sec-Scientific_notation-3-2-1,upper-alpha)"."; }
-#sec-Scientific_notation-3-2-1 > li { counter-increment: sec-Scientific_notation-3-2-1; }
-#sec-Logarithms-3-2-1 { counter-set: sec-Logarithms-3-2-1 0; }
-#sec-Logarithms-3-2-1 > li::marker { content: ""counter(sec-Logarithms-3-2-1,upper-alpha)"."; }
-#sec-Logarithms-3-2-1 > li { counter-increment: sec-Logarithms-3-2-1; }
-#sec-Variables_and_functions-3-2-1 { counter-set: sec-Variables_and_functions-3-2-1 0; }
-#sec-Variables_and_functions-3-2-1 > li::marker { content: ""counter(sec-Variables_and_functions-3-2-1,upper-alpha)"."; }
-#sec-Variables_and_functions-3-2-1 > li { counter-increment: sec-Variables_and_functions-3-2-1; }
-#sec-Tables_and_graphs-3-2-1 { counter-set: sec-Tables_and_graphs-3-2-1 0; }
-#sec-Tables_and_graphs-3-2-1 > li::marker { content: ""counter(sec-Tables_and_graphs-3-2-1,upper-alpha)"."; }
-#sec-Tables_and_graphs-3-2-1 > li { counter-increment: sec-Tables_and_graphs-3-2-1; }
-#sec-Rate_of_change-3-2-1 { counter-set: sec-Rate_of_change-3-2-1 0; }
-#sec-Rate_of_change-3-2-1 > li::marker { content: ""counter(sec-Rate_of_change-3-2-1,upper-alpha)"."; }
-#sec-Rate_of_change-3-2-1 > li { counter-increment: sec-Rate_of_change-3-2-1; }
-#sec-Units-3-2-1 { counter-set: sec-Units-3-2-1 0; }
-#sec-Units-3-2-1 > li::marker { content: ""counter(sec-Units-3-2-1,upper-alpha)"."; }
-#sec-Units-3-2-1 > li { counter-increment: sec-Units-3-2-1; }
-#sec-Metric_system_and_scientific_notation-3-2-1 { counter-set: sec-Metric_system_and_scientific_notation-3-2-1 0; }
-#sec-Metric_system_and_scientific_notation-3-2-1 > li::marker { content: ""counter(sec-Metric_system_and_scientific_notation-3-2-1,upper-alpha)"."; }
-#sec-Metric_system_and_scientific_notation-3-2-1 > li { counter-increment: sec-Metric_system_and_scientific_notation-3-2-1; }
-#sec-First_look_linear-3-2-1 { counter-set: sec-First_look_linear-3-2-1 0; }
-#sec-First_look_linear-3-2-1 > li::marker { content: ""counter(sec-First_look_linear-3-2-1,upper-alpha)"."; }
-#sec-First_look_linear-3-2-1 > li { counter-increment: sec-First_look_linear-3-2-1; }
-#sec-First_look_exponential-3-2-1 { counter-set: sec-First_look_exponential-3-2-1 0; }
-#sec-First_look_exponential-3-2-1 > li::marker { content: ""counter(sec-First_look_exponential-3-2-1,upper-alpha)"."; }
-#sec-First_look_exponential-3-2-1 > li { counter-increment: sec-First_look_exponential-3-2-1; }
-#sec-Using_equations-3-2-1 { counter-set: sec-Using_equations-3-2-1 0; }
-#sec-Using_equations-3-2-1 > li::marker { content: ""counter(sec-Using_equations-3-2-1,upper-alpha)"."; }
-#sec-Using_equations-3-2-1 > li { counter-increment: sec-Using_equations-3-2-1; }
-#sec-Approx_solutions-3-2-1 { counter-set: sec-Approx_solutions-3-2-1 0; }
-#sec-Approx_solutions-3-2-1 > li::marker { content: ""counter(sec-Approx_solutions-3-2-1,upper-alpha)"."; }
-#sec-Approx_solutions-3-2-1 > li { counter-increment: sec-Approx_solutions-3-2-1; }
-#sec-Finance-3-2-1 { counter-set: sec-Finance-3-2-1 0; }
-#sec-Finance-3-2-1 > li::marker { content: ""counter(sec-Finance-3-2-1,upper-alpha)"."; }
-#sec-Finance-3-2-1 > li { counter-increment: sec-Finance-3-2-1; }
-#sec-Solving_linear_equations-3-2-1 { counter-set: sec-Solving_linear_equations-3-2-1 0; }
-#sec-Solving_linear_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_linear_equations-3-2-1,upper-alpha)"."; }
-#sec-Solving_linear_equations-3-2-1 > li { counter-increment: sec-Solving_linear_equations-3-2-1; }
-#sec-Solving_linear_inequalities-3-2-1 { counter-set: sec-Solving_linear_inequalities-3-2-1 0; }
-#sec-Solving_linear_inequalities-3-2-1 > li::marker { content: ""counter(sec-Solving_linear_inequalities-3-2-1,upper-alpha)"."; }
-#sec-Solving_linear_inequalities-3-2-1 > li { counter-increment: sec-Solving_linear_inequalities-3-2-1; }
-#sec-Solving_power_equations-3-2-1 { counter-set: sec-Solving_power_equations-3-2-1 0; }
-#sec-Solving_power_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_power_equations-3-2-1,upper-alpha)"."; }
-#sec-Solving_power_equations-3-2-1 > li { counter-increment: sec-Solving_power_equations-3-2-1; }
-#sec-Solving_exponential_equations-3-2-1 { counter-set: sec-Solving_exponential_equations-3-2-1 0; }
-#sec-Solving_exponential_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_exponential_equations-3-2-1,upper-alpha)"."; }
-#sec-Solving_exponential_equations-3-2-1 > li { counter-increment: sec-Solving_exponential_equations-3-2-1; }
-#sec-Solving_quadratic_equations-3-2-1 { counter-set: sec-Solving_quadratic_equations-3-2-1 0; }
-#sec-Solving_quadratic_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_quadratic_equations-3-2-1,upper-alpha)"."; }
-#sec-Solving_quadratic_equations-3-2-1 > li { counter-increment: sec-Solving_quadratic_equations-3-2-1; }
-#sec-Modeling_linear_equations-3-2-1 { counter-set: sec-Modeling_linear_equations-3-2-1 0; }
-#sec-Modeling_linear_equations-3-2-1 > li::marker { content: ""counter(sec-Modeling_linear_equations-3-2-1,upper-alpha)"."; }
-#sec-Modeling_linear_equations-3-2-1 > li { counter-increment: sec-Modeling_linear_equations-3-2-1; }
-#sec-Systems_linear_equations-3-2-1 { counter-set: sec-Systems_linear_equations-3-2-1 0; }
-#sec-Systems_linear_equations-3-2-1 > li::marker { content: ""counter(sec-Systems_linear_equations-3-2-1,upper-alpha)"."; }
-#sec-Systems_linear_equations-3-2-1 > li { counter-increment: sec-Systems_linear_equations-3-2-1; }
-#sec-Intercepts-3-2-1 { counter-set: sec-Intercepts-3-2-1 0; }
-#sec-Intercepts-3-2-1 > li::marker { content: ""counter(sec-Intercepts-3-2-1,upper-alpha)"."; }
-#sec-Intercepts-3-2-1 > li { counter-increment: sec-Intercepts-3-2-1; }
-#sec-Slopes-3-2-1 { counter-set: sec-Slopes-3-2-1 0; }
-#sec-Slopes-3-2-1 > li::marker { content: ""counter(sec-Slopes-3-2-1,upper-alpha)"."; }
-#sec-Slopes-3-2-1 > li { counter-increment: sec-Slopes-3-2-1; }
-#sec-Fitting_lines_to_data-3-2-1 { counter-set: sec-Fitting_lines_to_data-3-2-1 0; }
-#sec-Fitting_lines_to_data-3-2-1 > li::marker { content: ""counter(sec-Fitting_lines_to_data-3-2-1,upper-alpha)"."; }
-#sec-Fitting_lines_to_data-3-2-1 > li { counter-increment: sec-Fitting_lines_to_data-3-2-1; }
-#sec-Modeling_exponential_equations-3-2-1 { counter-set: sec-Modeling_exponential_equations-3-2-1 0; }
-#sec-Modeling_exponential_equations-3-2-1 > li::marker { content: ""counter(sec-Modeling_exponential_equations-3-2-1,upper-alpha)"."; }
-#sec-Modeling_exponential_equations-3-2-1 > li { counter-increment: sec-Modeling_exponential_equations-3-2-1; }
-#sec-Exp_growth_decay-3-2-1 { counter-set: sec-Exp_growth_decay-3-2-1 0; }
-#sec-Exp_growth_decay-3-2-1 > li::marker { content: ""counter(sec-Exp_growth_decay-3-2-1,upper-alpha)"."; }
-#sec-Exp_growth_decay-3-2-1 > li { counter-increment: sec-Exp_growth_decay-3-2-1; }
-#sec-Growth_factor-3-2-1 { counter-set: sec-Growth_factor-3-2-1 0; }
-#sec-Growth_factor-3-2-1 > li::marker { content: ""counter(sec-Growth_factor-3-2-1,upper-alpha)"."; }
-#sec-Growth_factor-3-2-1 > li { counter-increment: sec-Growth_factor-3-2-1; }
-#sec-Linear_vs_exponential-3-2-1 { counter-set: sec-Linear_vs_exponential-3-2-1 0; }
-#sec-Linear_vs_exponential-3-2-1 > li::marker { content: ""counter(sec-Linear_vs_exponential-3-2-1,upper-alpha)"."; }
-#sec-Linear_vs_exponential-3-2-1 > li { counter-increment: sec-Linear_vs_exponential-3-2-1; }
-#sec-Logistic_growth-3-2-1 { counter-set: sec-Logistic_growth-3-2-1 0; }
-#sec-Logistic_growth-3-2-1 > li::marker { content: ""counter(sec-Logistic_growth-3-2-1,upper-alpha)"."; }
-#sec-Logistic_growth-3-2-1 > li { counter-increment: sec-Logistic_growth-3-2-1; }
-</style>
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Just Enough Algebra">
+<meta property="book:author" content="Dr. Suzanne Dorée">
+<meta property="book:author" content="Dr. Spencer Bagley">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.7.5';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.107bf2d9be20d9c4.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
 </head>
 <body id="justenoughalgebra" class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
 <a id="logo-link" class="logo-link" target="_blank" href=""><img src="external/book-open-solid.png" alt="Logo image"></a><div class="title-container">
-<h1 class="heading"><a href="just-enough-algebra.html"><span class="title">Just Enough Algebra</span></a></h1>
+<h1 class="heading"><a href="just-enough-algebra.html"><span class="title">Just Enough Algebra</span> <span class="subtitle">Summer 2025 edition</span></a></h1>
 <p class="byline">Dr. Suzanne Dorée, Dr. Spencer Bagley</p>
 </div>
-</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
 <div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
 <div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
 <div class="search-results-controls">
@@ -211,7 +137,8 @@ window.MathJax = {
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-Modeling_linear_equations.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-Closer_look_linear.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-Intercepts.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-Modeling_linear_equations.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-Closer_look_linear.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-Intercepts.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -220,12 +147,12 @@ window.MathJax = {
 \newcommand{\sfrac}[2]{{#1}/{#2}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter">
 <div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
-<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-why-this-book-web.html" class="internal"><span class="title">Why <em class="emphasis">Just Enough Algebra</em>?</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-students-web.html" class="internal"><span class="title">Students! Read this!</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-instructors-web.html" class="internal"><span class="title">Instructors! Read this!</span></a></div></li>
@@ -378,9 +305,9 @@ window.MathJax = {
 <div class="toc-title-box"><a href="sec-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html#ex-Modeling_linear_equations" class="internal"><span class="codenumber">4.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
-<li class="toc-item toc-section active">
+<li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="sec-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html#ex-Systems_linear_equations" class="internal"><span class="codenumber">4.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural toc-item-list active"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html#ex-Systems_linear_equations" class="internal"><span class="codenumber">4.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div>
@@ -468,7 +395,11 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Systems_linear_equations"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">4.2</span><span class="space"> </span><span class="title">Systems of linear equations</span>
 </h2>
-<section class="introduction" id="sec-Systems_linear_equations-2"><div class="para" id="sec-Systems_linear_equations-2-1">A local factory produces small locks for industrial use. The old machine has seen better days and Quia Xun, the manager, is shopping around for a new machine. She’s narrowed it down to two options. The first option is replace the old machine with a new model (Machine 1) for $3,200. The second is a larger unit (Machine 2) priced at $5,400. In each case, the price includes installation and the standard service contract. The reason she is considering the more expensive machine is Machine 2 runs at a cost of only $0.80 per lock, whereas the replacement Machine 1 runs at a cost of $1.25 per lock.</div> <div class="para" id="sec-Systems_linear_equations-2-2">Since Machine 1 is less expensive, Quia Xun knows it is the right choice if the factory only produces a small number of locks. But since Machine 2 costs less per lock to run, she knows it will pay off if the factory makes a large number of locks. She would like to understand the total expenditure better, particularly the number of locks at which it would be worthwhile to invest in the more expensive machine.</div> <div class="para logical" id="sec-Systems_linear_equations-2-3">
+<section class="introduction" id="sec-Systems_linear_equations-2"><div class="para" id="sec-Systems_linear_equations-2-1">A local factory produces small locks for industrial use. The old machine has seen better days and Quia Xun, the manager, is shopping around for a new machine. She’s narrowed it down to two options. The first option is replace the old machine with a new model (Machine 1) for $3,200. The second is a larger unit (Machine 2) priced at $5,400. In each case, the price includes installation and the standard service contract. The reason she is considering the more expensive machine is Machine 2 runs at a cost of only $0.80 per lock, whereas the replacement Machine 1 runs at a cost of $1.25 per lock.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Systems_linear_equations-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Systems_linear_equations-2-2">Since Machine 1 is less expensive, Quia Xun knows it is the right choice if the factory only produces a small number of locks. But since Machine 2 costs less per lock to run, she knows it will pay off if the factory makes a large number of locks. She would like to understand the total expenditure better, particularly the number of locks at which it would be worthwhile to invest in the more expensive machine.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Systems_linear_equations-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Systems_linear_equations-2-3">
 <div class="para">Since Quia Xun is interested in how the total expenditure, including both the purchase price and the running cost, depend on the number of locks produced, the variables are</div>
 <div class="displaymath process-math" id="sec-Systems_linear_equations-2-3-1">
 \begin{align*}
@@ -492,7 +423,9 @@ E\amp= 5{,}400 + 0.80 L
 \end{align*}
 </div>
 <div class="para">Since there are two linear equations and we are interested in a comparison, we have a <dfn class="terminology">system (of linear equations)</dfn>.</div>
-</div> <div class="para logical" id="sec-Systems_linear_equations-2-4">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Systems_linear_equations-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Systems_linear_equations-2-4">
 <div class="para">To begin the comparison, Quia Xun starts with figuring out what the expenditure to produce 2,000 locks would be for each machine.</div>
 <div class="displaymath process-math" id="sec-Systems_linear_equations-2-4-1">
 \begin{align*}
@@ -503,7 +436,9 @@ E\amp=5{,}400 + 0.80 \times \underline{2{,}000}=\$7{,}000
 \end{align*}
 </div>
 <div class="para">If the factory were only going to make only 2,000 locks, then Machine 2 would not be worth it. She calculates a few more examples to see what the cutoff would be.</div>
-</div> <div class="tabular-box natural-width"><table class="tabular">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Systems_linear_equations-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(L\)</span></td>
 <td class="c m b1 r1 l0 t1 lines">2,000</td>
@@ -532,7 +467,18 @@ E\amp=5{,}400 + 0.80 \times \underline{2{,}000}=\$7{,}000
 <td class="c m b1 r1 l0 t0 lines">11,800</td>
 <td class="c m b1 r1 l0 t0 lines">13,400</td>
 </tr>
-</table></div> <div class="para" id="sec-Systems_linear_equations-2-6">Even at 4,000 locks, Machine 1 is the better deal. By 6,000 locks, Machine 2 becomes the better deal. Somewhere in between it switches.</div> <div class="para" id="sec-Systems_linear_equations-2-7">Quia Xun makes a quick graph to see what’s going on. On the graph, whichever line is lower corresonds to the lower total expenditure and whichever line is higher corresponds to the higher total expenditure. As suspected, for a smaller number of locks the line for Machine 1 is lower on the graph, so that’s the better deal. For a larger number of locks it switches and the line for Machine 2 is lower on the graph, since that’s the better deal instead. Where they switch corresponds to the point on the graph where the two lines cross, somewhere around 5,000 locks.</div> <div class="para" id="sec-Systems_linear_equations-2-8"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/locks.png" class="contained"></div></div> <div class="para" id="sec-Systems_linear_equations-2-9">A quick successive approximation narrows down the answer.</div> <div class="tabular-box natural-width"><table class="tabular">
+</table></div>
+<div class="para" id="sec-Systems_linear_equations-2-6">Even at 4,000 locks, Machine 1 is the better deal. By 6,000 locks, Machine 2 becomes the better deal. Somewhere in between it switches.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Systems_linear_equations-2-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Systems_linear_equations-2-7">Quia Xun makes a quick graph to see what’s going on. On the graph, whichever line is lower corresonds to the lower total expenditure and whichever line is higher corresponds to the higher total expenditure. As suspected, for a smaller number of locks the line for Machine 1 is lower on the graph, so that’s the better deal. For a larger number of locks it switches and the line for Machine 2 is lower on the graph, since that’s the better deal instead. Where they switch corresponds to the point on the graph where the two lines cross, somewhere around 5,000 locks.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Systems_linear_equations-2-7" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Systems_linear_equations-2-8">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/locks.png" class="contained"></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Systems_linear_equations-2-8" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Systems_linear_equations-2-9">A quick successive approximation narrows down the answer.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Systems_linear_equations-2-9" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(L\)</span></td>
 <td class="c m b1 r1 l0 t1 lines">4,000</td>
@@ -571,7 +517,10 @@ E\amp=5{,}400 + 0.80 \times \underline{2{,}000}=\$7{,}000
 <td class="c m b1 r1 l0 t0 lines">Machine 1</td>
 <td class="c m b1 r1 l0 t0 lines">Machine 2</td>
 </tr>
-</table></div> <div class="para" id="sec-Systems_linear_equations-2-11">So the choice changes somewhere between 4,800 and 4,900 locks.</div> <div class="para logical" id="sec-Systems_linear_equations-2-12">
+</table></div>
+<div class="para" id="sec-Systems_linear_equations-2-11">So the choice changes somewhere between 4,800 and 4,900 locks.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Systems_linear_equations-2-11" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Systems_linear_equations-2-12">
 <div class="para">There is a way for Quia Xun to solve the problem symbolically; we refer to this process as <dfn class="terminology">solving the system</dfn>. She wants to find the number of locks where</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -601,7 +550,9 @@ E \text{ (Machine 1)} = E \text{ (Machine 2)}
 </div>
 <div class="para">Pause for a minute. What does that $2,200 mean in the story? It’s the extra cost of buying Machine 2 because <span class="process-math">\(\$5{,}400 - \$3{,}200 = \$2{,}200\text{.}\)</span>
 </div>
-</div> <div class="para logical" id="sec-Systems_linear_equations-2-13">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Systems_linear_equations-2-12" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Systems_linear_equations-2-13">
 <div class="para">What next? This equation has the variable <span class="process-math">\(L\)</span> on each side. Quia Xun needs to combine them somehow. Here’s how to do that. Subtract <span class="process-math">\(0.80L\)</span> from each side. Look closely. She is subtracting <span class="process-math">\(0.80L\text{,}\)</span> not just <span class="process-math">\(0.80\text{.}\)</span> We get</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -636,7 +587,9 @@ L = \frac{2{,}200}{0.45}= 2{,}200 \div 0.45 = 4888.88888\ldots \approx 4{,}889 \
 \end{equation*}
 </div>
 <div class="para">If they plan to produce 4,889 locks or more, Quia Xun should go ahead and buy the more expensive machine, Machine 2. Yeah, that’s what we guessed – just under 4,900 locks is the payoff.</div>
-</div> <div class="para logical" id="sec-Systems_linear_equations-2-14">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Systems_linear_equations-2-13" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Systems_linear_equations-2-14">
 <div class="para">She solved an equation here, but Quia Xun really wanted to know when</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -655,27 +608,77 @@ E \text{ (Machine 1)} \geq E \text{ (Machine 2)}
 L \ge 4{,}889 \text{ locks}\text{.}
 \end{equation*}
 </div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Systems_linear_equations-2-14" title="Copy permalink for Paragraph">🔗</a></div>
 </div></section><section class="conclusion" id="sec-Systems_linear_equations-3"><h3 class="heading">Do you know …<span></span>
-</h3> <div class="para logical" id="sec-Systems_linear_equations-3-2"><ol class="upper-alpha" id="sec-Systems_linear_equations-3-2-1">
-<li id="sec-Systems_linear_equations-3-2-1-1"><div class="para" id="sec-Systems_linear_equations-3-2-1-1-1">How to compare two linear functions using a table?</div></li>
-<li id="sec-Systems_linear_equations-3-2-1-2"><div class="para" id="sec-Systems_linear_equations-3-2-1-2-1">How to graph two linear functions on the same axes?</div></li>
-<li id="sec-Systems_linear_equations-3-2-1-3"><div class="para" id="sec-Systems_linear_equations-3-2-1-3-1">What the solution of a linear system means in terms of the story?</div></li>
-<li id="sec-Systems_linear_equations-3-2-1-4"><div class="para" id="sec-Systems_linear_equations-3-2-1-4-1">Where to look on a graph to see the solution of a linear system?</div></li>
-<li id="sec-Systems_linear_equations-3-2-1-5"><div class="para" id="sec-Systems_linear_equations-3-2-1-5-1">How to successively approximate the solution of a linear system?</div></li>
-<li id="sec-Systems_linear_equations-3-2-1-6"><div class="para" id="sec-Systems_linear_equations-3-2-1-6-1">How to solve a linear system?</div></li>
-<li id="sec-Systems_linear_equations-3-2-1-7"><div class="para" id="sec-Systems_linear_equations-3-2-1-7-1">When to use inequality instead of an equation for a linear system?</div></li>
-</ol></div> <div class="para" id="sec-Systems_linear_equations-3-3"><em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em></div></section><section class="exercises" id="ex-Systems_linear_equations"><h3 class="heading hide-type">
+</h3>
+<div class="para logical" id="sec-Systems_linear_equations-3-2">
+<ol class="upper-alpha ol-marker-1" id="sec-Systems_linear_equations-3-2-1">
+<li id="sec-Systems_linear_equations-3-2-1-1">
+<div class="para" id="sec-Systems_linear_equations-3-2-1-1-1">How to compare two linear functions using a table?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Systems_linear_equations-3-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item A"><a href="#sec-Systems_linear_equations-3-2-1-1" title="Copy permalink for Item A">🔗</a></div>
+</li>
+<li id="sec-Systems_linear_equations-3-2-1-2">
+<div class="para" id="sec-Systems_linear_equations-3-2-1-2-1">How to graph two linear functions on the same axes?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Systems_linear_equations-3-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item B"><a href="#sec-Systems_linear_equations-3-2-1-2" title="Copy permalink for Item B">🔗</a></div>
+</li>
+<li id="sec-Systems_linear_equations-3-2-1-3">
+<div class="para" id="sec-Systems_linear_equations-3-2-1-3-1">What the solution of a linear system means in terms of the story?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Systems_linear_equations-3-2-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item C"><a href="#sec-Systems_linear_equations-3-2-1-3" title="Copy permalink for Item C">🔗</a></div>
+</li>
+<li id="sec-Systems_linear_equations-3-2-1-4">
+<div class="para" id="sec-Systems_linear_equations-3-2-1-4-1">Where to look on a graph to see the solution of a linear system?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Systems_linear_equations-3-2-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item D"><a href="#sec-Systems_linear_equations-3-2-1-4" title="Copy permalink for Item D">🔗</a></div>
+</li>
+<li id="sec-Systems_linear_equations-3-2-1-5">
+<div class="para" id="sec-Systems_linear_equations-3-2-1-5-1">How to successively approximate the solution of a linear system?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Systems_linear_equations-3-2-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item E"><a href="#sec-Systems_linear_equations-3-2-1-5" title="Copy permalink for Item E">🔗</a></div>
+</li>
+<li id="sec-Systems_linear_equations-3-2-1-6">
+<div class="para" id="sec-Systems_linear_equations-3-2-1-6-1">How to solve a linear system?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Systems_linear_equations-3-2-1-6-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item F"><a href="#sec-Systems_linear_equations-3-2-1-6" title="Copy permalink for Item F">🔗</a></div>
+</li>
+<li id="sec-Systems_linear_equations-3-2-1-7">
+<div class="para" id="sec-Systems_linear_equations-3-2-1-7-1">When to use inequality instead of an equation for a linear system?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Systems_linear_equations-3-2-1-7-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item G"><a href="#sec-Systems_linear_equations-3-2-1-7" title="Copy permalink for Item G">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Systems_linear_equations-3-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Systems_linear_equations-3-3">
+<em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-Systems_linear_equations-3-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="exercises" id="ex-Systems_linear_equations"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises</span>
 </h3>
-<section class="introduction" id="ex-Systems_linear_equations-2"><div class="para" id="ex-Systems_linear_equations-2-1">Exercises 1-4 are available in a separate workbook format.</div></section><article class="exercise exercise-like" id="car-comparison-systems-linear"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
-<div class="introduction" id="car-comparison-systems-linear-1"><div class="para" id="car-comparison-systems-linear-1-1">Madison wants to buy a new car, either Car A: a hybrid priced at $26,100, or Car B: a high-efficiency gas car priced at $23,700. Annual fuel costs for Car A are currently $1,100. For Car B annual fuel costs are currently $1,800. The total cost of each car will depend on how many years she keeps it.</div></div>
+<section class="introduction" id="ex-Systems_linear_equations-2"><div class="para" id="ex-Systems_linear_equations-2-1">Exercises 1-4 are available in a separate workbook format.<div class="autopermalink" data-description="Paragraph"><a href="#ex-Systems_linear_equations-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><article class="exercise exercise-like" id="car-comparison-systems-linear"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="introduction" id="car-comparison-systems-linear-1"><div class="para" id="car-comparison-systems-linear-1-1">Madison wants to buy a new car, either Car A: a hybrid priced at $26,100, or Car B: a high-efficiency gas car priced at $23,700. Annual fuel costs for Car A are currently $1,100. For Car B annual fuel costs are currently $1,800. The total cost of each car will depend on how many years she keeps it.<div class="autopermalink" data-description="Paragraph"><a href="#car-comparison-systems-linear-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
 <article class="task exercise-like" id="car-comparison-systems-linear-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="car-comparison-systems-linear-2-1-1">Name the variables.</div></article><article class="task exercise-like" id="car-comparison-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="car-comparison-systems-linear-3-1-1">Write a linear equation for the total cost (including purchase price and fuel costs) of <dfn class="terminology">Car A</dfn> as a function of how long she keeps it. Assume fuel costs are constant.</div></article><article class="task exercise-like" id="car-comparison-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="car-comparison-systems-linear-4-1-1">Write a linear equation for the total cost (including purchase price and fuel costs) of <dfn class="terminology">Car B</dfn> as a function of how long she keeps it. Assume fuel costs are constant.</div></article><article class="task exercise-like" id="car-comparison-systems-linear-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="car-comparison-systems-linear-5-1-1">Make a table comparing the total costs for the two cars if Madison keeps the car she buys for 3, 5, or 10 years.</div></article><article class="task exercise-like" id="car-comparison-systems-linear-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="car-comparison-systems-linear-6-1-1">Set up and solve a system of linear equations to determine the <dfn class="terminology">payoff time</dfn>, or the number of years for which the total costs of each car are equal.</div></article><article class="task exercise-like" id="car-comparison-systems-linear-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
-<div class="para" id="car-comparison-systems-linear-7-1-1">Based on what you have learned, fill in the blank: The more expensive hybrid pays off if Madison is going to keep it for <span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span> years or more.</div></article></article><article class="exercise exercise-like" id="juan-coffee-systems-linear"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="para" id="car-comparison-systems-linear-2-1-1">Name the variables.<div class="autopermalink" data-description="Paragraph"><a href="#car-comparison-systems-linear-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.1.a"><a href="#car-comparison-systems-linear-2" title="Copy permalink for Task 4.2.1.a">🔗</a></div></article><article class="task exercise-like" id="car-comparison-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="car-comparison-systems-linear-3-1-1">Write a linear equation for the total cost (including purchase price and fuel costs) of <dfn class="terminology">Car A</dfn> as a function of how long she keeps it. Assume fuel costs are constant.<div class="autopermalink" data-description="Paragraph"><a href="#car-comparison-systems-linear-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.1.b"><a href="#car-comparison-systems-linear-3" title="Copy permalink for Task 4.2.1.b">🔗</a></div></article><article class="task exercise-like" id="car-comparison-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="car-comparison-systems-linear-4-1-1">Write a linear equation for the total cost (including purchase price and fuel costs) of <dfn class="terminology">Car B</dfn> as a function of how long she keeps it. Assume fuel costs are constant.<div class="autopermalink" data-description="Paragraph"><a href="#car-comparison-systems-linear-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.1.c"><a href="#car-comparison-systems-linear-4" title="Copy permalink for Task 4.2.1.c">🔗</a></div></article><article class="task exercise-like" id="car-comparison-systems-linear-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="car-comparison-systems-linear-5-1-1">Make a table comparing the total costs for the two cars if Madison keeps the car she buys for 3, 5, or 10 years.<div class="autopermalink" data-description="Paragraph"><a href="#car-comparison-systems-linear-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.1.d"><a href="#car-comparison-systems-linear-5" title="Copy permalink for Task 4.2.1.d">🔗</a></div></article><article class="task exercise-like" id="car-comparison-systems-linear-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="car-comparison-systems-linear-6-1-1">Set up and solve a system of linear equations to determine the <dfn class="terminology">payoff time</dfn>, or the number of years for which the total costs of each car are equal.<div class="autopermalink" data-description="Paragraph"><a href="#car-comparison-systems-linear-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.1.e"><a href="#car-comparison-systems-linear-6" title="Copy permalink for Task 4.2.1.e">🔗</a></div></article><article class="task exercise-like" id="car-comparison-systems-linear-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="car-comparison-systems-linear-7-1-1">Based on what you have learned, fill in the blank: The more expensive hybrid pays off if Madison is going to keep it for <span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span> years or more.<div class="autopermalink" data-description="Paragraph"><a href="#car-comparison-systems-linear-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.1.f"><a href="#car-comparison-systems-linear-7" title="Copy permalink for Task 4.2.1.f">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.2.1"><a href="#car-comparison-systems-linear" title="Copy permalink for Exercise 4.2.1">🔗</a></div></article><article class="exercise exercise-like" id="juan-coffee-systems-linear"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
 <div class="introduction" id="juan-coffee-systems-linear-1"><div class="para logical" id="juan-coffee-systems-linear-1-1">
 <div class="para">A mug of coffee costs $3.45 at Juan’s favorite cafe, unless he buys their discount card for $10 in which case a mug costs $2.90. Or, he can buy a membership for $59.99 and then coffee is only $1/mug. If we let <span class="process-math">\(M\)</span> represent the number of mugs of coffee he buys and <span class="process-math">\(T\)</span> represent the total cost in dollars, then the equations are:</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/juan-coffee-order-operations.html ./knowl/xref/juan-coffee-tables-graphs.html ./knowl/xref/juan-coffee-systems-linear.html" id="juan-coffee-systems-linear-1-1-3">
@@ -689,9 +692,11 @@ T \amp= 59.99 + 1.00 M
 \end{align*}
 </div>
 <div class="para"><em class="emphasis">(Story also appears in <a href="sec-Order_of_operations.html#juan-coffee-order-operations" class="xref" data-knowl="./knowl/xref/juan-coffee-order-operations.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.4.1">0.4.1</a>, <a href="sec-Tables_and_graphs.html#juan-coffee-tables-graphs" class="xref" data-knowl="./knowl/xref/juan-coffee-tables-graphs.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.2.4">1.2.4</a>, and <a href="sec-Systems_linear_equations.html#juan-coffee-systems-linear" class="xref" data-knowl="./knowl/xref/juan-coffee-systems-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 4.2.2">4.2.2</a>)</em></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#juan-coffee-systems-linear-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div></div>
 <article class="task exercise-like" id="juan-coffee-systems-linear-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="juan-coffee-systems-linear-2-1-1">Compare the total costs for all three options.</div> <div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="juan-coffee-systems-linear-2-1-1">Compare the total costs for all three options.<div class="autopermalink" data-description="Paragraph"><a href="#juan-coffee-systems-linear-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b1 r1 l1 t1 lines">Mugs</td>
 <td class="c m b1 r1 l0 t1 lines">0</td>
@@ -720,16 +725,42 @@ T \amp= 59.99 + 1.00 M
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
 </tr>
-</table></div></article><article class="task exercise-like" id="juan-coffee-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="juan-coffee-systems-linear-3-1-1">Draw a graph showing all three options.</div></article><article class="task exercise-like" id="juan-coffee-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="juan-coffee-systems-linear-4-1-1">Which option is least expensive if Juan plans to buy</div> <div class="para logical" id="juan-coffee-systems-linear-4-1-2"><ul class="disc" id="juan-coffee-systems-linear-4-1-2-1">
-<li id="juan-coffee-systems-linear-4-1-2-1-1"><div class="para" id="juan-coffee-systems-linear-4-1-2-1-1-1">A small number of mugs of coffee:</div></li>
-<li id="juan-coffee-systems-linear-4-1-2-1-2"><div class="para" id="juan-coffee-systems-linear-4-1-2-1-2-1">A medium number of mugs of coffee:</div></li>
-<li id="juan-coffee-systems-linear-4-1-2-1-3"><div class="para" id="juan-coffee-systems-linear-4-1-2-1-3-1">A large number of mugs of coffee:</div></li>
-</ul></div></article><article class="task exercise-like" id="juan-coffee-systems-linear-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="juan-coffee-systems-linear-5-1-1">Set up and solve a system of linear equations to compare total cost with no card to the total cost with the card.</div></article><article class="task exercise-like" id="juan-coffee-systems-linear-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="juan-coffee-systems-linear-6-1-1">Set up and solve a system of linear equation to compare the total cost with the card to the total cost with the membership.</div></article><article class="task exercise-like" id="juan-coffee-systems-linear-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
-<div class="para" id="juan-coffee-systems-linear-7-1-1">Describe in words what you have learned.</div></article></article><article class="exercise exercise-like" id="shrub-growth-systems-linear"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+</table></div>
+<div class="autopermalink" data-description="Task 4.2.2.a"><a href="#juan-coffee-systems-linear-2" title="Copy permalink for Task 4.2.2.a">🔗</a></div></article><article class="task exercise-like" id="juan-coffee-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="juan-coffee-systems-linear-3-1-1">Draw a graph showing all three options.<div class="autopermalink" data-description="Paragraph"><a href="#juan-coffee-systems-linear-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.2.b"><a href="#juan-coffee-systems-linear-3" title="Copy permalink for Task 4.2.2.b">🔗</a></div></article><article class="task exercise-like" id="juan-coffee-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="juan-coffee-systems-linear-4-1-1">Which option is least expensive if Juan plans to buy<div class="autopermalink" data-description="Paragraph"><a href="#juan-coffee-systems-linear-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="juan-coffee-systems-linear-4-1-2">
+<ul class="disc" id="juan-coffee-systems-linear-4-1-2-1">
+<li id="juan-coffee-systems-linear-4-1-2-1-1">
+<div class="para" id="juan-coffee-systems-linear-4-1-2-1-1-1">A small number of mugs of coffee:<div class="autopermalink" data-description="Paragraph"><a href="#juan-coffee-systems-linear-4-1-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#juan-coffee-systems-linear-4-1-2-1-1" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="juan-coffee-systems-linear-4-1-2-1-2">
+<div class="para" id="juan-coffee-systems-linear-4-1-2-1-2-1">A medium number of mugs of coffee:<div class="autopermalink" data-description="Paragraph"><a href="#juan-coffee-systems-linear-4-1-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#juan-coffee-systems-linear-4-1-2-1-2" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="juan-coffee-systems-linear-4-1-2-1-3">
+<div class="para" id="juan-coffee-systems-linear-4-1-2-1-3-1">A large number of mugs of coffee:<div class="autopermalink" data-description="Paragraph"><a href="#juan-coffee-systems-linear-4-1-2-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#juan-coffee-systems-linear-4-1-2-1-3" title="Copy permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#juan-coffee-systems-linear-4-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.2.c"><a href="#juan-coffee-systems-linear-4" title="Copy permalink for Task 4.2.2.c">🔗</a></div></article><article class="task exercise-like" id="juan-coffee-systems-linear-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="juan-coffee-systems-linear-5-1-1">Set up and solve a system of linear equations to compare total cost with no card to the total cost with the card.<div class="autopermalink" data-description="Paragraph"><a href="#juan-coffee-systems-linear-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.2.d"><a href="#juan-coffee-systems-linear-5" title="Copy permalink for Task 4.2.2.d">🔗</a></div></article><article class="task exercise-like" id="juan-coffee-systems-linear-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="juan-coffee-systems-linear-6-1-1">Set up and solve a system of linear equation to compare the total cost with the card to the total cost with the membership.<div class="autopermalink" data-description="Paragraph"><a href="#juan-coffee-systems-linear-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.2.e"><a href="#juan-coffee-systems-linear-6" title="Copy permalink for Task 4.2.2.e">🔗</a></div></article><article class="task exercise-like" id="juan-coffee-systems-linear-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="juan-coffee-systems-linear-7-1-1">Describe in words what you have learned.<div class="autopermalink" data-description="Paragraph"><a href="#juan-coffee-systems-linear-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.2.f"><a href="#juan-coffee-systems-linear-7" title="Copy permalink for Task 4.2.2.f">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.2.2"><a href="#juan-coffee-systems-linear" title="Copy permalink for Exercise 4.2.2">🔗</a></div></article><article class="exercise exercise-like" id="shrub-growth-systems-linear"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
 <div class="introduction" id="shrub-growth-systems-linear-1"><div class="para logical" id="shrub-growth-systems-linear-1-1">
 <div class="para">Ahmed planted two shrubs in the backyard on May 1. The viburnum was 16.9 inches tall and expected to grow 0.4 inches each week this summer. The weigela was 20.3 inches tall but only expected to grow 0.2 inches per week. If we let <span class="process-math">\(S\)</span> represent the total height of the shrub in inches after <span class="process-math">\(T\)</span> weeks, then the equations are:</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/check-linear-modeling-linear.html" id="shrub-growth-systems-linear-1-1-3">
@@ -741,9 +772,11 @@ S \amp= 20.3 + 0.2T
 \end{align*}
 </div>
 <div class="para"><em class="emphasis">(Story also appears in <a href="sec-Modeling_linear_equations.html#check-linear-modeling-linear" class="xref" data-knowl="./knowl/xref/check-linear-modeling-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 4.1.7">4.1.7</a>)</em></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#shrub-growth-systems-linear-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div></div>
 <article class="task exercise-like" id="shrub-growth-systems-linear-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="shrub-growth-systems-linear-2-1-1">Compare the height of the shrubs on the given dates.</div> <div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="shrub-growth-systems-linear-2-1-1">Compare the height of the shrubs on the given dates.<div class="autopermalink" data-description="Paragraph"><a href="#shrub-growth-systems-linear-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b1 r1 l1 t1 lines">date</td>
 <td class="r m b1 r1 l0 t1 lines">May 1</td>
@@ -774,10 +807,15 @@ S \amp= 20.3 + 0.2T
 <td class="r m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
 <td class="r m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
 </tr>
-</table></div></article><article class="task exercise-like" id="shrub-growth-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+</table></div>
+<div class="autopermalink" data-description="Task 4.2.3.a"><a href="#shrub-growth-systems-linear-2" title="Copy permalink for Task 4.2.3.a">🔗</a></div></article><article class="task exercise-like" id="shrub-growth-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="shrub-growth-systems-linear-3-1-1">
-<em class="emphasis">Approximately</em> when will the shrubs be the same height? Continue successive approximation to find the answer to the nearest week.</div></article><article class="task exercise-like" id="shrub-growth-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="shrub-growth-systems-linear-4-1-1">Set up and solve an equation to find <em class="emphasis">exactly</em> the day when the two shrubs are the same height. In what month does that happen?</div></article></article><article class="exercise exercise-like" id="supply-demand-systems-linear"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<em class="emphasis">Approximately</em> when will the shrubs be the same height? Continue successive approximation to find the answer to the nearest week.<div class="autopermalink" data-description="Paragraph"><a href="#shrub-growth-systems-linear-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.3.b"><a href="#shrub-growth-systems-linear-3" title="Copy permalink for Task 4.2.3.b">🔗</a></div></article><article class="task exercise-like" id="shrub-growth-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="shrub-growth-systems-linear-4-1-1">Set up and solve an equation to find <em class="emphasis">exactly</em> the day when the two shrubs are the same height. In what month does that happen?<div class="autopermalink" data-description="Paragraph"><a href="#shrub-growth-systems-linear-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.3.c"><a href="#shrub-growth-systems-linear-4" title="Copy permalink for Task 4.2.3.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.2.3"><a href="#shrub-growth-systems-linear" title="Copy permalink for Exercise 4.2.3">🔗</a></div></article><article class="exercise exercise-like" id="supply-demand-systems-linear"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
 <div class="introduction" id="supply-demand-systems-linear-1">
 <div class="para logical" id="supply-demand-systems-linear-1-1">
 <div class="para">The <dfn class="terminology">supply</dfn> of flour is the amount of flour produced. It depends on the price of flour. A high price encourages producers to make more flour. If the price is low, they tend to make less of it. The dependence of the supply of flour <span class="process-math">\(S\)</span> (in loads) on the price <span class="process-math">\(P\)</span> (in $/pound) is given by the equation</div>
@@ -786,23 +824,40 @@ S \amp= 20.3 + 0.2T
 \textbf{Supply: } S = 0.8P + 0.5
 \end{equation*}
 </div>
-</div> <div class="para logical" id="supply-demand-systems-linear-1-2">
+<div class="autopermalink" data-description="Paragraph"><a href="#supply-demand-systems-linear-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="supply-demand-systems-linear-1-2">
 <div class="para">The <dfn class="terminology">demand</dfn> of flour is the amount of flour consumers want to buy. It also depends on the price of flour. If flour sells for a high price, then consumers will buy less. If flour sells for a low price instead, then consumers will buy more. The dependence of the demand of flour <span class="process-math">\(D\)</span> (in loads) on the price <span class="process-math">\(P\)</span> (in $/pound) is given by the equation</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \textbf{Demand: } D = 1.5 - 0.4 P
 \end{equation*}
 </div>
-</div> <div class="para" id="supply-demand-systems-linear-1-3">The <dfn class="terminology">equilibrium price</dfn> of flour is the price where the supply equals the demand. <aside class="aside aside-like" id="supply-demand-systems-linear-1-3-2"><div class="para" id="supply-demand-systems-linear-1-3-2-1">Source: “Using Algebra” by Ethan Bolker</div></aside>
+<div class="autopermalink" data-description="Paragraph"><a href="#supply-demand-systems-linear-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="supply-demand-systems-linear-1-3">The <dfn class="terminology">equilibrium price</dfn> of flour is the price where the supply equals the demand. <aside class="aside aside-like" id="supply-demand-systems-linear-1-3-2"><div class="para" id="supply-demand-systems-linear-1-3-2-1">Source: “Using Algebra” by Ethan Bolker<div class="autopermalink" data-description="Paragraph"><a href="#supply-demand-systems-linear-1-3-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></aside><div class="autopermalink" data-description="Paragraph"><a href="#supply-demand-systems-linear-1-3" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 </div>
 <article class="task exercise-like" id="supply-demand-systems-linear-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="supply-demand-systems-linear-2-1-1">What happens if flour is priced at $1.00/pound? That is, how much flour will be produced and how much will consumers demand?</div></article><article class="task exercise-like" id="supply-demand-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="supply-demand-systems-linear-3-1-1">What happens if flour is priced at $0.50/pound? That is, how much flour will be produced and how much will consumers demand?</div></article><article class="task exercise-like" id="supply-demand-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="supply-demand-systems-linear-4-1-1">Graph each dependence on the same set of axes. <em class="emphasis">Approximately</em> what is the equilibrium price, according to your graph?</div></article><article class="task exercise-like" id="supply-demand-systems-linear-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="supply-demand-systems-linear-5-1-1">Set up and solve an equation to find the equilibrium price of flour <em class="emphasis">exactly</em>.</div></article><article class="task exercise-like" id="supply-demand-systems-linear-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="supply-demand-systems-linear-6-1-1">When more of a product is produced than consumers want to buy, we have a <dfn class="terminology">surplus</dfn> of the product. Solve an inequality to find the range of price values for which there will be a surplus of flour. Compare your answer to part (d).</div></article><article class="task exercise-like" id="supply-demand-systems-linear-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
-<div class="para" id="supply-demand-systems-linear-7-1-1">When less of a product is produced than consumers want to buy, we have a <dfn class="terminology">shortage</dfn> of the product. Solve an inequality to find the range of price values for which there will be a shortage of flour. Compare your answer to parts (d) and (e).</div></article></article><article class="exercise exercise-like" id="lock-machines-systems-linear"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="para" id="supply-demand-systems-linear-2-1-1">What happens if flour is priced at $1.00/pound? That is, how much flour will be produced and how much will consumers demand?<div class="autopermalink" data-description="Paragraph"><a href="#supply-demand-systems-linear-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.4.a"><a href="#supply-demand-systems-linear-2" title="Copy permalink for Task 4.2.4.a">🔗</a></div></article><article class="task exercise-like" id="supply-demand-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="supply-demand-systems-linear-3-1-1">What happens if flour is priced at $0.50/pound? That is, how much flour will be produced and how much will consumers demand?<div class="autopermalink" data-description="Paragraph"><a href="#supply-demand-systems-linear-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.4.b"><a href="#supply-demand-systems-linear-3" title="Copy permalink for Task 4.2.4.b">🔗</a></div></article><article class="task exercise-like" id="supply-demand-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="supply-demand-systems-linear-4-1-1">Graph each dependence on the same set of axes. <em class="emphasis">Approximately</em> what is the equilibrium price, according to your graph?<div class="autopermalink" data-description="Paragraph"><a href="#supply-demand-systems-linear-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.4.c"><a href="#supply-demand-systems-linear-4" title="Copy permalink for Task 4.2.4.c">🔗</a></div></article><article class="task exercise-like" id="supply-demand-systems-linear-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="supply-demand-systems-linear-5-1-1">Set up and solve an equation to find the equilibrium price of flour <em class="emphasis">exactly</em>.<div class="autopermalink" data-description="Paragraph"><a href="#supply-demand-systems-linear-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.4.d"><a href="#supply-demand-systems-linear-5" title="Copy permalink for Task 4.2.4.d">🔗</a></div></article><article class="task exercise-like" id="supply-demand-systems-linear-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="supply-demand-systems-linear-6-1-1">When more of a product is produced than consumers want to buy, we have a <dfn class="terminology">surplus</dfn> of the product. Solve an inequality to find the range of price values for which there will be a surplus of flour. Compare your answer to part (d).<div class="autopermalink" data-description="Paragraph"><a href="#supply-demand-systems-linear-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.4.e"><a href="#supply-demand-systems-linear-6" title="Copy permalink for Task 4.2.4.e">🔗</a></div></article><article class="task exercise-like" id="supply-demand-systems-linear-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="supply-demand-systems-linear-7-1-1">When less of a product is produced than consumers want to buy, we have a <dfn class="terminology">shortage</dfn> of the product. Solve an inequality to find the range of price values for which there will be a shortage of flour. Compare your answer to parts (d) and (e).<div class="autopermalink" data-description="Paragraph"><a href="#supply-demand-systems-linear-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.4.f"><a href="#supply-demand-systems-linear-7" title="Copy permalink for Task 4.2.4.f">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.2.4"><a href="#supply-demand-systems-linear" title="Copy permalink for Exercise 4.2.4">🔗</a></div></article><article class="exercise exercise-like" id="lock-machines-systems-linear"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
 <div class="introduction" id="lock-machines-systems-linear-1"><div class="para logical" id="lock-machines-systems-linear-1-1">
 <div class="para">Just when Quia Xun thought she had things figured out, another possible option emerged. She can outsource her lock production to a different plant at the cost of $1.55 per lock. While that’s more expensive per lock, it avoids having to buy a machine at all. Recall her first two options were</div>
 <div class="displaymath process-math" id="lock-machines-systems-linear-1-1-1">
@@ -814,24 +869,52 @@ E\amp= 5{,}400 + 0.80 L
 \end{align*}
 </div>
 <div class="para">where <span class="process-math">\(E\)</span> is the total expenditure to produce <span class="process-math">\(L\)</span> locks on that machine.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#lock-machines-systems-linear-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div></div>
 <article class="task exercise-like" id="lock-machines-systems-linear-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="lock-machines-systems-linear-2-1-1">Write an equation showing how <span class="process-math">\(E\)</span> depends on <span class="process-math">\(L\)</span> if Quia Xun decides to outsource lock production.</div></article><article class="task exercise-like" id="lock-machines-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="lock-machines-systems-linear-3-1-1">For what number of locks does outsourcing make financial sense versus Machine 1? Set up and solve a system of equations.</div></article><article class="task exercise-like" id="lock-machines-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="lock-machines-systems-linear-4-1-1">Repeat for Machine 2.</div></article></article><article class="exercise exercise-like" id="wash-floor-systems-linear"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
-<div class="introduction" id="wash-floor-systems-linear-1"><div class="para" id="wash-floor-systems-linear-1-1">Don’t ask why I know this, but it takes me 80 seconds per square foot to wash a floor using a rag. If I use a mop, it’s slightly quicker at 75 seconds per square foot, but another 3 minutes at the end to wring out the mop. (The rag just pops in the washing machine.)</div></div>
+<div class="para" id="lock-machines-systems-linear-2-1-1">Write an equation showing how <span class="process-math">\(E\)</span> depends on <span class="process-math">\(L\)</span> if Quia Xun decides to outsource lock production.<div class="autopermalink" data-description="Paragraph"><a href="#lock-machines-systems-linear-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.5.a"><a href="#lock-machines-systems-linear-2" title="Copy permalink for Task 4.2.5.a">🔗</a></div></article><article class="task exercise-like" id="lock-machines-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="lock-machines-systems-linear-3-1-1">For what number of locks does outsourcing make financial sense versus Machine 1? Set up and solve a system of equations.<div class="autopermalink" data-description="Paragraph"><a href="#lock-machines-systems-linear-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.5.b"><a href="#lock-machines-systems-linear-3" title="Copy permalink for Task 4.2.5.b">🔗</a></div></article><article class="task exercise-like" id="lock-machines-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="lock-machines-systems-linear-4-1-1">Repeat for Machine 2.<div class="autopermalink" data-description="Paragraph"><a href="#lock-machines-systems-linear-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.5.c"><a href="#lock-machines-systems-linear-4" title="Copy permalink for Task 4.2.5.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.2.5"><a href="#lock-machines-systems-linear" title="Copy permalink for Exercise 4.2.5">🔗</a></div></article><article class="exercise exercise-like" id="wash-floor-systems-linear"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="introduction" id="wash-floor-systems-linear-1"><div class="para" id="wash-floor-systems-linear-1-1">Don’t ask why I know this, but it takes me 80 seconds per square foot to wash a floor using a rag. If I use a mop, it’s slightly quicker at 75 seconds per square foot, but another 3 minutes at the end to wring out the mop. (The rag just pops in the washing machine.)<div class="autopermalink" data-description="Paragraph"><a href="#wash-floor-systems-linear-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
 <article class="task exercise-like" id="wash-floor-systems-linear-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="wash-floor-systems-linear-2-1-1">Name the variables and write an equation for each option: rag versus mop. <em class="emphasis">Hint: time is the dependent variable.</em>
-</div></article><article class="task exercise-like" id="wash-floor-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="wash-floor-systems-linear-3-1-1">Set up and solve the system to determine the area of a room where either option takes the same amount of total time.</div></article><article class="task exercise-like" id="wash-floor-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="wash-floor-systems-linear-4-1-1">What do you suggest for each room? (Note: find the area by multiplying the length times the width.) My bathroom floor is 5′<span class="process-math">\(\times\)</span>5′. My kitchen floor is 8′<span class="process-math">\(\times\)</span>10′. The laundry room is 10′<span class="process-math">\(\times\)</span>14′.</div></article></article><article class="exercise exercise-like" id="light-bulbs-systems-linear"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
-<div class="introduction" id="light-bulbs-systems-linear-1"><div class="para" id="light-bulbs-systems-linear-1-1">Maria needed to replace the light bulb in the hallway. When she went to the home improvement store she was overwhelmed with the choices of light bulbs. One option is a compact fluorescent light (CFL) bulb. A CFL bulb costs $1. This fixture will cost $0.95 per month to run with a CFL bulb. A different option Maria is considering is a light-emitting diode (LED) instead of a bulb. A LED costs $24 but reduces the cost for the fixture to $0.60 per month.</div></div>
+<div class="para" id="wash-floor-systems-linear-2-1-1">Name the variables and write an equation for each option: rag versus mop. <em class="emphasis">Hint: time is the dependent variable.</em><div class="autopermalink" data-description="Paragraph"><a href="#wash-floor-systems-linear-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.6.a"><a href="#wash-floor-systems-linear-2" title="Copy permalink for Task 4.2.6.a">🔗</a></div></article><article class="task exercise-like" id="wash-floor-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="wash-floor-systems-linear-3-1-1">Set up and solve the system to determine the area of a room where either option takes the same amount of total time.<div class="autopermalink" data-description="Paragraph"><a href="#wash-floor-systems-linear-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.6.b"><a href="#wash-floor-systems-linear-3" title="Copy permalink for Task 4.2.6.b">🔗</a></div></article><article class="task exercise-like" id="wash-floor-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="wash-floor-systems-linear-4-1-1">What do you suggest for each room? (Note: find the area by multiplying the length times the width.) My bathroom floor is 5′<span class="process-math">\(\times\)</span>5′. My kitchen floor is 8′<span class="process-math">\(\times\)</span>10′. The laundry room is 10′<span class="process-math">\(\times\)</span>14′.<div class="autopermalink" data-description="Paragraph"><a href="#wash-floor-systems-linear-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.6.c"><a href="#wash-floor-systems-linear-4" title="Copy permalink for Task 4.2.6.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.2.6"><a href="#wash-floor-systems-linear" title="Copy permalink for Exercise 4.2.6">🔗</a></div></article><article class="exercise exercise-like" id="light-bulbs-systems-linear"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="introduction" id="light-bulbs-systems-linear-1"><div class="para" id="light-bulbs-systems-linear-1-1">Maria needed to replace the light bulb in the hallway. When she went to the home improvement store she was overwhelmed with the choices of light bulbs. One option is a compact fluorescent light (CFL) bulb. A CFL bulb costs $1. This fixture will cost $0.95 per month to run with a CFL bulb. A different option Maria is considering is a light-emitting diode (LED) instead of a bulb. A LED costs $24 but reduces the cost for the fixture to $0.60 per month.<div class="autopermalink" data-description="Paragraph"><a href="#light-bulbs-systems-linear-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
 <article class="task exercise-like" id="light-bulbs-systems-linear-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="light-bulbs-systems-linear-2-1-1">Name the variables and write an equation for each option: LED versus CFL.</div></article><article class="task exercise-like" id="light-bulbs-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="light-bulbs-systems-linear-3-1-1">Compare the total cost for each bulb for 1, 6, 18, and 36 months.</div></article><article class="task exercise-like" id="light-bulbs-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="light-bulbs-systems-linear-4-1-1">Draw a graph showing both functions on the same axes.</div></article><article class="task exercise-like" id="light-bulbs-systems-linear-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="light-bulbs-systems-linear-5-1-1">Set up and solve a system of linear equations to determine the payback time.</div></article><article class="task exercise-like" id="light-bulbs-systems-linear-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="light-bulbs-systems-linear-6-1-1">Based on what you’ve learned, fill in the blank and circle the correct word.</div> <blockquote class="blockquote" id="light-bulbs-systems-linear-6-1-2"><div class="para" id="light-bulbs-systems-linear-6-1-2-1">The more expensive LED pays off if Maria is going to use it for <span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span> or more months.</div></blockquote></article></article><article class="exercise exercise-like" id="exercise-classes-systems-linear"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="para" id="light-bulbs-systems-linear-2-1-1">Name the variables and write an equation for each option: LED versus CFL.<div class="autopermalink" data-description="Paragraph"><a href="#light-bulbs-systems-linear-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.7.a"><a href="#light-bulbs-systems-linear-2" title="Copy permalink for Task 4.2.7.a">🔗</a></div></article><article class="task exercise-like" id="light-bulbs-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="light-bulbs-systems-linear-3-1-1">Compare the total cost for each bulb for 1, 6, 18, and 36 months.<div class="autopermalink" data-description="Paragraph"><a href="#light-bulbs-systems-linear-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.7.b"><a href="#light-bulbs-systems-linear-3" title="Copy permalink for Task 4.2.7.b">🔗</a></div></article><article class="task exercise-like" id="light-bulbs-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="light-bulbs-systems-linear-4-1-1">Draw a graph showing both functions on the same axes.<div class="autopermalink" data-description="Paragraph"><a href="#light-bulbs-systems-linear-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.7.c"><a href="#light-bulbs-systems-linear-4" title="Copy permalink for Task 4.2.7.c">🔗</a></div></article><article class="task exercise-like" id="light-bulbs-systems-linear-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="light-bulbs-systems-linear-5-1-1">Set up and solve a system of linear equations to determine the payback time.<div class="autopermalink" data-description="Paragraph"><a href="#light-bulbs-systems-linear-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.7.d"><a href="#light-bulbs-systems-linear-5" title="Copy permalink for Task 4.2.7.d">🔗</a></div></article><article class="task exercise-like" id="light-bulbs-systems-linear-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="light-bulbs-systems-linear-6-1-1">Based on what you’ve learned, fill in the blank and circle the correct word.<div class="autopermalink" data-description="Paragraph"><a href="#light-bulbs-systems-linear-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <blockquote class="blockquote" id="light-bulbs-systems-linear-6-1-2">
+<div class="para" id="light-bulbs-systems-linear-6-1-2-1">The more expensive LED pays off if Maria is going to use it for <span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span> or more months.<div class="autopermalink" data-description="Paragraph"><a href="#light-bulbs-systems-linear-6-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Quotation"><a href="#light-bulbs-systems-linear-6-1-2" title="Copy permalink for Quotation">🔗</a></div>
+</blockquote>
+<div class="autopermalink" data-description="Task 4.2.7.e"><a href="#light-bulbs-systems-linear-6" title="Copy permalink for Task 4.2.7.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.2.7"><a href="#light-bulbs-systems-linear" title="Copy permalink for Exercise 4.2.7">🔗</a></div></article><article class="exercise exercise-like" id="exercise-classes-systems-linear"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
 <div class="introduction" id="exercise-classes-systems-linear-1"><div class="para logical" id="exercise-classes-systems-linear-1-1">
 <div class="para">The community center offers exercise classes on a pay-as-you-go basis. It normally costs $20 to register and then $15 per exercise class. Alternatively, you can pay $150 to become a member, and then $10 per exercise class. If we let <span class="process-math">\(E\)</span> represent the number of exercise classes I attend and <span class="process-math">\(T\)</span> represent the total cost in dollars, then the equations are:</div>
 <div class="displaymath process-math" id="exercise-classes-systems-linear-1-1-3">
@@ -842,13 +925,24 @@ T \amp= 20 + 15E\\
 T \amp= 150 + 10E
 \end{align*}
 </div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercise-classes-systems-linear-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div></div>
 <article class="task exercise-like" id="exercise-classes-systems-linear-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="exercise-classes-systems-linear-2-1-1">Create a table of reasonable values and draw a graph showing both options.</div></article><article class="task exercise-like" id="exercise-classes-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="exercise-classes-systems-linear-3-1-1">According to your graph, what is the break even point?</div></article><article class="task exercise-like" id="exercise-classes-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="exercise-classes-systems-linear-4-1-1">Use successive approximations to find the break even point.</div></article><article class="task exercise-like" id="exercise-classes-systems-linear-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="exercise-classes-systems-linear-5-1-1">Set up and solve a system of linear equations to determine the exact break even point.</div></article><article class="task exercise-like" id="exercise-classes-systems-linear-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="exercise-classes-systems-linear-6-1-1">Describe in words what you’ve learned about whether or not to buy membership.</div></article></article><article class="exercise exercise-like" id="supply-demand-corn-systems-linear"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="para" id="exercise-classes-systems-linear-2-1-1">Create a table of reasonable values and draw a graph showing both options.<div class="autopermalink" data-description="Paragraph"><a href="#exercise-classes-systems-linear-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.8.a"><a href="#exercise-classes-systems-linear-2" title="Copy permalink for Task 4.2.8.a">🔗</a></div></article><article class="task exercise-like" id="exercise-classes-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="exercise-classes-systems-linear-3-1-1">According to your graph, what is the break even point?<div class="autopermalink" data-description="Paragraph"><a href="#exercise-classes-systems-linear-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.8.b"><a href="#exercise-classes-systems-linear-3" title="Copy permalink for Task 4.2.8.b">🔗</a></div></article><article class="task exercise-like" id="exercise-classes-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="exercise-classes-systems-linear-4-1-1">Use successive approximations to find the break even point.<div class="autopermalink" data-description="Paragraph"><a href="#exercise-classes-systems-linear-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.8.c"><a href="#exercise-classes-systems-linear-4" title="Copy permalink for Task 4.2.8.c">🔗</a></div></article><article class="task exercise-like" id="exercise-classes-systems-linear-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="exercise-classes-systems-linear-5-1-1">Set up and solve a system of linear equations to determine the exact break even point.<div class="autopermalink" data-description="Paragraph"><a href="#exercise-classes-systems-linear-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.8.d"><a href="#exercise-classes-systems-linear-5" title="Copy permalink for Task 4.2.8.d">🔗</a></div></article><article class="task exercise-like" id="exercise-classes-systems-linear-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="exercise-classes-systems-linear-6-1-1">Describe in words what you’ve learned about whether or not to buy membership.<div class="autopermalink" data-description="Paragraph"><a href="#exercise-classes-systems-linear-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.8.e"><a href="#exercise-classes-systems-linear-6" title="Copy permalink for Task 4.2.8.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.2.8"><a href="#exercise-classes-systems-linear" title="Copy permalink for Exercise 4.2.8">🔗</a></div></article><article class="exercise exercise-like" id="supply-demand-corn-systems-linear"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
 <div class="introduction" id="supply-demand-corn-systems-linear-1"><div class="para logical" id="supply-demand-corn-systems-linear-1-1">
 <div class="para">The weekly supply <span class="process-math">\(S\)</span> and demand <span class="process-math">\(D\)</span> for corn-on-the-cob (in hundreds) at a local market are given by the equations</div>
 <div class="displaymath process-math" id="supply-demand-corn-systems-linear-1-1-3">
@@ -860,11 +954,18 @@ D \amp= 11 - 0.9P
 \end{align*}
 </div>
 <div class="para">where <span class="process-math">\(P\)</span> is the price per unit, in dollars per dozen.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#supply-demand-corn-systems-linear-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div></div>
 <article class="task exercise-like" id="supply-demand-corn-systems-linear-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="supply-demand-corn-systems-linear-2-1-1">Is there a shortage or surplus if corn is priced at $3.25/dozen? What if it’s priced at $1.75/dozen?</div></article><article class="task exercise-like" id="supply-demand-corn-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="supply-demand-corn-systems-linear-3-1-1">Set up and solve an equation to find the equilibrium price of corn.</div></article><article class="task exercise-like" id="supply-demand-corn-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="supply-demand-corn-systems-linear-4-1-1">Make a small table of values and graph. Does your answer to (b) agree with your graph? Explain.</div></article></article><article class="exercise exercise-like" id="solar-heating-systems-linear"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<div class="para" id="supply-demand-corn-systems-linear-2-1-1">Is there a shortage or surplus if corn is priced at $3.25/dozen? What if it’s priced at $1.75/dozen?<div class="autopermalink" data-description="Paragraph"><a href="#supply-demand-corn-systems-linear-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.9.a"><a href="#supply-demand-corn-systems-linear-2" title="Copy permalink for Task 4.2.9.a">🔗</a></div></article><article class="task exercise-like" id="supply-demand-corn-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="supply-demand-corn-systems-linear-3-1-1">Set up and solve an equation to find the equilibrium price of corn.<div class="autopermalink" data-description="Paragraph"><a href="#supply-demand-corn-systems-linear-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.9.b"><a href="#supply-demand-corn-systems-linear-3" title="Copy permalink for Task 4.2.9.b">🔗</a></div></article><article class="task exercise-like" id="supply-demand-corn-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="supply-demand-corn-systems-linear-4-1-1">Make a small table of values and graph. Does your answer to (b) agree with your graph? Explain.<div class="autopermalink" data-description="Paragraph"><a href="#supply-demand-corn-systems-linear-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.9.c"><a href="#supply-demand-corn-systems-linear-4" title="Copy permalink for Task 4.2.9.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.2.9"><a href="#supply-demand-corn-systems-linear" title="Copy permalink for Exercise 4.2.9">🔗</a></div></article><article class="exercise exercise-like" id="solar-heating-systems-linear"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
 <div class="introduction" id="solar-heating-systems-linear-1"><div class="para logical" id="solar-heating-systems-linear-1-1">
 <div class="para">A solar heating system costs approximately $30,000 to install and $150 per year to run. By comparison, a gas heating system costs approximately $12,000 to install and $700 per year to run. Earlier we wrote equations showing how the total cost $<span class="process-math">\(T\)</span> depends on the time, <span class="process-math">\(Y\)</span> years.</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/solar-heating-modeling-linear.html" id="solar-heating-systems-linear-1-1-3">
@@ -876,18 +977,24 @@ T \amp= 12{,}000 + 700Y
 \end{align*}
 </div>
 <div class="para"><em class="emphasis">(Story also appears in <a href="sec-Modeling_linear_equations.html#solar-heating-modeling-linear" class="xref" data-knowl="./knowl/xref/solar-heating-modeling-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 4.1.1">4.1.1</a>)</em></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#solar-heating-systems-linear-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div></div>
 <article class="task exercise-like" id="solar-heating-systems-linear-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="solar-heating-systems-linear-2-1-1">Set up an solve a system to determine the payback time of installing the solar heating system.</div></article><article class="task exercise-like" id="solar-heating-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="solar-heating-systems-linear-3-1-1">How does the payback time change if the state offers a $7,000 rebate? That means, in effect, that the solar system costs $7,000 less to install. Write a new equation for the solar heating system. Then set up and solve the new system.</div></article><article class="task exercise-like" id="solar-heating-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="solar-heating-systems-linear-4-1-1">How high a rebate would the state have to offer to ensure a payback time of 15 years? <em class="emphasis">Hint: compare the costs of gas and solar heating systems at 15 years.</em>
-</div></article></article></section></section></div>
-<div class="ptx-content-footer">
+<div class="para" id="solar-heating-systems-linear-2-1-1">Set up an solve a system to determine the payback time of installing the solar heating system.<div class="autopermalink" data-description="Paragraph"><a href="#solar-heating-systems-linear-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.10.a"><a href="#solar-heating-systems-linear-2" title="Copy permalink for Task 4.2.10.a">🔗</a></div></article><article class="task exercise-like" id="solar-heating-systems-linear-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="solar-heating-systems-linear-3-1-1">How does the payback time change if the state offers a $7,000 rebate? That means, in effect, that the solar system costs $7,000 less to install. Write a new equation for the solar heating system. Then set up and solve the new system.<div class="autopermalink" data-description="Paragraph"><a href="#solar-heating-systems-linear-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.10.b"><a href="#solar-heating-systems-linear-3" title="Copy permalink for Task 4.2.10.b">🔗</a></div></article><article class="task exercise-like" id="solar-heating-systems-linear-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="solar-heating-systems-linear-4-1-1">How high a rebate would the state have to offer to ensure a payback time of 15 years? <em class="emphasis">Hint: compare the costs of gas and solar heating systems at 15 years.</em><div class="autopermalink" data-description="Paragraph"><a href="#solar-heating-systems-linear-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.2.10.c"><a href="#solar-heating-systems-linear-4" title="Copy permalink for Task 4.2.10.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.2.10"><a href="#solar-heating-systems-linear" title="Copy permalink for Exercise 4.2.10">🔗</a></div></article><div class="autopermalink" data-description="Exercises 4.2: Exercises"><a href="#ex-Systems_linear_equations" title="Copy permalink for Exercises 4.2: Exercises">🔗</a></div></section><div class="autopermalink" data-description="Section 4.2: Systems of linear equations"><a href="#sec-Systems_linear_equations" title="Copy permalink for Section 4.2: Systems of linear equations">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="sec-Modeling_linear_equations.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-Intercepts.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
-<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
 </div>
 </body>
 </html>

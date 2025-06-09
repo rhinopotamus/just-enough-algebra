@@ -5,16 +5,25 @@
 <!--*         https://pretextbook.org          *-->
 <!--*                                          *-->
 <!--********************************************-->
-<html lang="en-US" dir="ltr">
+<html lang="en-US" dir="ltr" data-legacy-colorscheme="blue_red">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-legacy                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Prelude: Scientific notation</title>
-<meta name="Keywords" content="Authored in PreTeXt">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta property="og:type" content="book">
-<meta property="book:title" content="Just Enough Algebra">
-<meta property="book:author" content="Dr. Suzanne Dorée">
-<meta property="book:author" content="Dr. Spencer Bagley">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;" rel="stylesheet">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
 <script>
 var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
 window.MathJax = {
@@ -70,137 +79,54 @@ window.MathJax = {
     )}
   }
 };
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
-<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
-</script><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
-<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
-<style>
-#sec-Approximation_and_rounding-3-2-1 { counter-set: sec-Approximation_and_rounding-3-2-1 0; }
-#sec-Approximation_and_rounding-3-2-1 > li::marker { content: ""counter(sec-Approximation_and_rounding-3-2-1,upper-alpha)"."; }
-#sec-Approximation_and_rounding-3-2-1 > li { counter-increment: sec-Approximation_and_rounding-3-2-1; }
-#sec-Arithmetic_operations-3-2-1 { counter-set: sec-Arithmetic_operations-3-2-1 0; }
-#sec-Arithmetic_operations-3-2-1 > li::marker { content: ""counter(sec-Arithmetic_operations-3-2-1,upper-alpha)"."; }
-#sec-Arithmetic_operations-3-2-1 > li { counter-increment: sec-Arithmetic_operations-3-2-1; }
-#sec-Percentages-3-2-1 { counter-set: sec-Percentages-3-2-1 0; }
-#sec-Percentages-3-2-1 > li::marker { content: ""counter(sec-Percentages-3-2-1,upper-alpha)"."; }
-#sec-Percentages-3-2-1 > li { counter-increment: sec-Percentages-3-2-1; }
-#sec-Order_of_operations-3-2-1 { counter-set: sec-Order_of_operations-3-2-1 0; }
-#sec-Order_of_operations-3-2-1 > li::marker { content: ""counter(sec-Order_of_operations-3-2-1,upper-alpha)"."; }
-#sec-Order_of_operations-3-2-1 > li { counter-increment: sec-Order_of_operations-3-2-1; }
-#sec-Fractions-3-2-1 { counter-set: sec-Fractions-3-2-1 0; }
-#sec-Fractions-3-2-1 > li::marker { content: ""counter(sec-Fractions-3-2-1,upper-alpha)"."; }
-#sec-Fractions-3-2-1 > li { counter-increment: sec-Fractions-3-2-1; }
-#sec-Powers_and_roots-3-2-1 { counter-set: sec-Powers_and_roots-3-2-1 0; }
-#sec-Powers_and_roots-3-2-1 > li::marker { content: ""counter(sec-Powers_and_roots-3-2-1,upper-alpha)"."; }
-#sec-Powers_and_roots-3-2-1 > li { counter-increment: sec-Powers_and_roots-3-2-1; }
-#sec-Algebraic_notation-3-2-1 { counter-set: sec-Algebraic_notation-3-2-1 0; }
-#sec-Algebraic_notation-3-2-1 > li::marker { content: ""counter(sec-Algebraic_notation-3-2-1,upper-alpha)"."; }
-#sec-Algebraic_notation-3-2-1 > li { counter-increment: sec-Algebraic_notation-3-2-1; }
-#sec-Scientific_notation-3-2-1 { counter-set: sec-Scientific_notation-3-2-1 0; }
-#sec-Scientific_notation-3-2-1 > li::marker { content: ""counter(sec-Scientific_notation-3-2-1,upper-alpha)"."; }
-#sec-Scientific_notation-3-2-1 > li { counter-increment: sec-Scientific_notation-3-2-1; }
-#sec-Logarithms-3-2-1 { counter-set: sec-Logarithms-3-2-1 0; }
-#sec-Logarithms-3-2-1 > li::marker { content: ""counter(sec-Logarithms-3-2-1,upper-alpha)"."; }
-#sec-Logarithms-3-2-1 > li { counter-increment: sec-Logarithms-3-2-1; }
-#sec-Variables_and_functions-3-2-1 { counter-set: sec-Variables_and_functions-3-2-1 0; }
-#sec-Variables_and_functions-3-2-1 > li::marker { content: ""counter(sec-Variables_and_functions-3-2-1,upper-alpha)"."; }
-#sec-Variables_and_functions-3-2-1 > li { counter-increment: sec-Variables_and_functions-3-2-1; }
-#sec-Tables_and_graphs-3-2-1 { counter-set: sec-Tables_and_graphs-3-2-1 0; }
-#sec-Tables_and_graphs-3-2-1 > li::marker { content: ""counter(sec-Tables_and_graphs-3-2-1,upper-alpha)"."; }
-#sec-Tables_and_graphs-3-2-1 > li { counter-increment: sec-Tables_and_graphs-3-2-1; }
-#sec-Rate_of_change-3-2-1 { counter-set: sec-Rate_of_change-3-2-1 0; }
-#sec-Rate_of_change-3-2-1 > li::marker { content: ""counter(sec-Rate_of_change-3-2-1,upper-alpha)"."; }
-#sec-Rate_of_change-3-2-1 > li { counter-increment: sec-Rate_of_change-3-2-1; }
-#sec-Units-3-2-1 { counter-set: sec-Units-3-2-1 0; }
-#sec-Units-3-2-1 > li::marker { content: ""counter(sec-Units-3-2-1,upper-alpha)"."; }
-#sec-Units-3-2-1 > li { counter-increment: sec-Units-3-2-1; }
-#sec-Metric_system_and_scientific_notation-3-2-1 { counter-set: sec-Metric_system_and_scientific_notation-3-2-1 0; }
-#sec-Metric_system_and_scientific_notation-3-2-1 > li::marker { content: ""counter(sec-Metric_system_and_scientific_notation-3-2-1,upper-alpha)"."; }
-#sec-Metric_system_and_scientific_notation-3-2-1 > li { counter-increment: sec-Metric_system_and_scientific_notation-3-2-1; }
-#sec-First_look_linear-3-2-1 { counter-set: sec-First_look_linear-3-2-1 0; }
-#sec-First_look_linear-3-2-1 > li::marker { content: ""counter(sec-First_look_linear-3-2-1,upper-alpha)"."; }
-#sec-First_look_linear-3-2-1 > li { counter-increment: sec-First_look_linear-3-2-1; }
-#sec-First_look_exponential-3-2-1 { counter-set: sec-First_look_exponential-3-2-1 0; }
-#sec-First_look_exponential-3-2-1 > li::marker { content: ""counter(sec-First_look_exponential-3-2-1,upper-alpha)"."; }
-#sec-First_look_exponential-3-2-1 > li { counter-increment: sec-First_look_exponential-3-2-1; }
-#sec-Using_equations-3-2-1 { counter-set: sec-Using_equations-3-2-1 0; }
-#sec-Using_equations-3-2-1 > li::marker { content: ""counter(sec-Using_equations-3-2-1,upper-alpha)"."; }
-#sec-Using_equations-3-2-1 > li { counter-increment: sec-Using_equations-3-2-1; }
-#sec-Approx_solutions-3-2-1 { counter-set: sec-Approx_solutions-3-2-1 0; }
-#sec-Approx_solutions-3-2-1 > li::marker { content: ""counter(sec-Approx_solutions-3-2-1,upper-alpha)"."; }
-#sec-Approx_solutions-3-2-1 > li { counter-increment: sec-Approx_solutions-3-2-1; }
-#sec-Finance-3-2-1 { counter-set: sec-Finance-3-2-1 0; }
-#sec-Finance-3-2-1 > li::marker { content: ""counter(sec-Finance-3-2-1,upper-alpha)"."; }
-#sec-Finance-3-2-1 > li { counter-increment: sec-Finance-3-2-1; }
-#sec-Solving_linear_equations-3-2-1 { counter-set: sec-Solving_linear_equations-3-2-1 0; }
-#sec-Solving_linear_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_linear_equations-3-2-1,upper-alpha)"."; }
-#sec-Solving_linear_equations-3-2-1 > li { counter-increment: sec-Solving_linear_equations-3-2-1; }
-#sec-Solving_linear_inequalities-3-2-1 { counter-set: sec-Solving_linear_inequalities-3-2-1 0; }
-#sec-Solving_linear_inequalities-3-2-1 > li::marker { content: ""counter(sec-Solving_linear_inequalities-3-2-1,upper-alpha)"."; }
-#sec-Solving_linear_inequalities-3-2-1 > li { counter-increment: sec-Solving_linear_inequalities-3-2-1; }
-#sec-Solving_power_equations-3-2-1 { counter-set: sec-Solving_power_equations-3-2-1 0; }
-#sec-Solving_power_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_power_equations-3-2-1,upper-alpha)"."; }
-#sec-Solving_power_equations-3-2-1 > li { counter-increment: sec-Solving_power_equations-3-2-1; }
-#sec-Solving_exponential_equations-3-2-1 { counter-set: sec-Solving_exponential_equations-3-2-1 0; }
-#sec-Solving_exponential_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_exponential_equations-3-2-1,upper-alpha)"."; }
-#sec-Solving_exponential_equations-3-2-1 > li { counter-increment: sec-Solving_exponential_equations-3-2-1; }
-#sec-Solving_quadratic_equations-3-2-1 { counter-set: sec-Solving_quadratic_equations-3-2-1 0; }
-#sec-Solving_quadratic_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_quadratic_equations-3-2-1,upper-alpha)"."; }
-#sec-Solving_quadratic_equations-3-2-1 > li { counter-increment: sec-Solving_quadratic_equations-3-2-1; }
-#sec-Modeling_linear_equations-3-2-1 { counter-set: sec-Modeling_linear_equations-3-2-1 0; }
-#sec-Modeling_linear_equations-3-2-1 > li::marker { content: ""counter(sec-Modeling_linear_equations-3-2-1,upper-alpha)"."; }
-#sec-Modeling_linear_equations-3-2-1 > li { counter-increment: sec-Modeling_linear_equations-3-2-1; }
-#sec-Systems_linear_equations-3-2-1 { counter-set: sec-Systems_linear_equations-3-2-1 0; }
-#sec-Systems_linear_equations-3-2-1 > li::marker { content: ""counter(sec-Systems_linear_equations-3-2-1,upper-alpha)"."; }
-#sec-Systems_linear_equations-3-2-1 > li { counter-increment: sec-Systems_linear_equations-3-2-1; }
-#sec-Intercepts-3-2-1 { counter-set: sec-Intercepts-3-2-1 0; }
-#sec-Intercepts-3-2-1 > li::marker { content: ""counter(sec-Intercepts-3-2-1,upper-alpha)"."; }
-#sec-Intercepts-3-2-1 > li { counter-increment: sec-Intercepts-3-2-1; }
-#sec-Slopes-3-2-1 { counter-set: sec-Slopes-3-2-1 0; }
-#sec-Slopes-3-2-1 > li::marker { content: ""counter(sec-Slopes-3-2-1,upper-alpha)"."; }
-#sec-Slopes-3-2-1 > li { counter-increment: sec-Slopes-3-2-1; }
-#sec-Fitting_lines_to_data-3-2-1 { counter-set: sec-Fitting_lines_to_data-3-2-1 0; }
-#sec-Fitting_lines_to_data-3-2-1 > li::marker { content: ""counter(sec-Fitting_lines_to_data-3-2-1,upper-alpha)"."; }
-#sec-Fitting_lines_to_data-3-2-1 > li { counter-increment: sec-Fitting_lines_to_data-3-2-1; }
-#sec-Modeling_exponential_equations-3-2-1 { counter-set: sec-Modeling_exponential_equations-3-2-1 0; }
-#sec-Modeling_exponential_equations-3-2-1 > li::marker { content: ""counter(sec-Modeling_exponential_equations-3-2-1,upper-alpha)"."; }
-#sec-Modeling_exponential_equations-3-2-1 > li { counter-increment: sec-Modeling_exponential_equations-3-2-1; }
-#sec-Exp_growth_decay-3-2-1 { counter-set: sec-Exp_growth_decay-3-2-1 0; }
-#sec-Exp_growth_decay-3-2-1 > li::marker { content: ""counter(sec-Exp_growth_decay-3-2-1,upper-alpha)"."; }
-#sec-Exp_growth_decay-3-2-1 > li { counter-increment: sec-Exp_growth_decay-3-2-1; }
-#sec-Growth_factor-3-2-1 { counter-set: sec-Growth_factor-3-2-1 0; }
-#sec-Growth_factor-3-2-1 > li::marker { content: ""counter(sec-Growth_factor-3-2-1,upper-alpha)"."; }
-#sec-Growth_factor-3-2-1 > li { counter-increment: sec-Growth_factor-3-2-1; }
-#sec-Linear_vs_exponential-3-2-1 { counter-set: sec-Linear_vs_exponential-3-2-1 0; }
-#sec-Linear_vs_exponential-3-2-1 > li::marker { content: ""counter(sec-Linear_vs_exponential-3-2-1,upper-alpha)"."; }
-#sec-Linear_vs_exponential-3-2-1 > li { counter-increment: sec-Linear_vs_exponential-3-2-1; }
-#sec-Logistic_growth-3-2-1 { counter-set: sec-Logistic_growth-3-2-1 0; }
-#sec-Logistic_growth-3-2-1 > li::marker { content: ""counter(sec-Logistic_growth-3-2-1,upper-alpha)"."; }
-#sec-Logistic_growth-3-2-1 > li { counter-increment: sec-Logistic_growth-3-2-1; }
-</style>
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Just Enough Algebra">
+<meta property="book:author" content="Dr. Suzanne Dorée">
+<meta property="book:author" content="Dr. Spencer Bagley">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.7.5';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.107bf2d9be20d9c4.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
 </head>
 <body id="justenoughalgebra" class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
 <a id="logo-link" class="logo-link" target="_blank" href=""><img src="external/book-open-solid.png" alt="Logo image"></a><div class="title-container">
-<h1 class="heading"><a href="just-enough-algebra.html"><span class="title">Just Enough Algebra</span></a></h1>
+<h1 class="heading"><a href="just-enough-algebra.html"><span class="title">Just Enough Algebra</span> <span class="subtitle">Summer 2025 edition</span></a></h1>
 <p class="byline">Dr. Suzanne Dorée, Dr. Spencer Bagley</p>
 </div>
-</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
 <div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
 <div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
 <div class="search-results-controls">
@@ -211,7 +137,8 @@ window.MathJax = {
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-Algebraic_notation.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-Prelude.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-Logarithms.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-Algebraic_notation.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-Prelude.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-Logarithms.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -220,12 +147,12 @@ window.MathJax = {
 \newcommand{\sfrac}[2]{{#1}/{#2}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter">
 <div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
-<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-why-this-book-web.html" class="internal"><span class="title">Why <em class="emphasis">Just Enough Algebra</em>?</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-students-web.html" class="internal"><span class="title">Students! Read this!</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-instructors-web.html" class="internal"><span class="title">Instructors! Read this!</span></a></div></li>
@@ -262,9 +189,9 @@ window.MathJax = {
 <div class="toc-title-box"><a href="sec-Algebraic_notation.html" class="internal"><span class="codenumber">0.7</span> <span class="title">Prelude: Algebraic notation</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Algebraic_notation.html#ex-Algebraic-notation" class="internal"><span class="codenumber">0.7</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
-<li class="toc-item toc-section active">
+<li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="sec-Scientific_notation.html" class="internal"><span class="codenumber">0.8</span> <span class="title">Prelude: Scientific notation</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Scientific_notation.html#ex-Scientific_notation" class="internal"><span class="codenumber">0.8</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural toc-item-list active"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Scientific_notation.html#ex-Scientific_notation" class="internal"><span class="codenumber">0.8</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-Logarithms.html" class="internal"><span class="codenumber">0.9</span> <span class="title">Prelude: Logarithms</span></a></div>
@@ -468,7 +395,9 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Scientific_notation"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">0.8</span><span class="space"> </span><span class="title">Prelude: Scientific notation</span>
 </h2>
-<section class="introduction" id="sec-Scientific_notation-2"><div class="para" id="sec-Scientific_notation-2-1">Tara is working on a big project at work. She wants to back up her files to her online drop box. The site says she has 72 GB of memory remaining. Tara has about 200 files at an average of 42.3 MB each that she would like to upload. Will she have room?</div> <div class="para logical" id="sec-Scientific_notation-2-2">
+<section class="introduction" id="sec-Scientific_notation-2"><div class="para" id="sec-Scientific_notation-2-1">Tara is working on a big project at work. She wants to back up her files to her online drop box. The site says she has 72 GB of memory remaining. Tara has about 200 files at an average of 42.3 MB each that she would like to upload. Will she have room?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Scientific_notation-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Scientific_notation-2-2">
 <div class="para">To answer Tara’s question we need to know that GB is short for “gigabyte” and MB is short for “megabyte.” A <dfn class="terminology">byte</dfn> is a very small unit of computer memory storage space just enough for about one letter. You may have heard the word “mega” used to mean “really big.” There’s a reason for that. <dfn class="terminology">Mega</dfn> is short for 1 million. That’s pretty big. But <dfn class="terminology">giga</dfn> stands for 1 billion, so that’s even bigger. So, really</div>
 <div class="displaymath process-math" id="sec-Scientific_notation-2-2-8">
 \begin{align*}
@@ -500,7 +429,11 @@ window.MathJax = {
 \end{align*}
 </div>
 <div class="para">So Tara wants to store less than 9 GB of information and she has 72 GB remaining. She has plenty of room. Save away!</div>
-</div> <div class="para" id="sec-Scientific_notation-2-3">Really large numbers, like 8,460,000,000, are awkward to read and awkward to work with. Words like million and billion or metric prefixes (words like mega and giga) allow us to rewrite these large numbers in a way that’s much easier both to read and to work with. There’s another option that’s used often in the sciences (and by your calculator). To explain it we need to understand powers of 10.</div> <div class="para logical" id="sec-Scientific_notation-2-4">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Scientific_notation-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Scientific_notation-2-3">Really large numbers, like 8,460,000,000, are awkward to read and awkward to work with. Words like million and billion or metric prefixes (words like mega and giga) allow us to rewrite these large numbers in a way that’s much easier both to read and to work with. There’s another option that’s used often in the sciences (and by your calculator). To explain it we need to understand powers of 10.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Scientific_notation-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Scientific_notation-2-4">
 <div class="para">Perhaps you know what happens when we multiply a number by 10, like <span class="process-math">\(5 \times 10 = 50\)</span> or, more appropriate to our example,</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -527,14 +460,18 @@ window.MathJax = {
 \amp=8.46 \ast 10^9 
 \end{align*}
 </div>
-</div> <div class="para logical" id="sec-Scientific_notation-2-5">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Scientific_notation-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Scientific_notation-2-5">
 <div class="para">This shorthand is called <dfn class="terminology">scientific notation</dfn>. The base is always 10. The exponent is always a whole number. The number out front, like 8.46 in our example, is always between 1 and 10, which means there’s exactly one digit before the decimal point (and any others must come afterwards). It is customary to use <span class="process-math">\(\times\)</span> instead of <span class="process-math">\(\ast\)</span> in scientific notation, so we should write</div>
 <div class="displaymath process-math">
 \begin{equation*}
 8.46\times10^9
 \end{equation*}
 </div>
-</div> <div class="para logical" id="sec-Scientific_notation-2-6">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Scientific_notation-2-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Scientific_notation-2-6">
 <div class="para">As another example, we saw earlier that</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -547,7 +484,9 @@ window.MathJax = {
 5 \times 10 \wedge 3 = 5000
 \end{equation*}
 </div>
-</div> <div class="para logical" id="sec-Scientific_notation-2-7">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Scientific_notation-2-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Scientific_notation-2-7">
 <div class="para">Back to our large number. Enter</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -555,7 +494,9 @@ window.MathJax = {
 \end{equation*}
 </div>
 <div class="para">What do you see? Some calculators correctly show <span class="process-math">\(8{,}460{,}000{,}000\)</span> while other calculators report the number back in scientific notation, which is not particularly useful. (Sigh.)</div>
-</div> <div class="para logical" id="sec-Scientific_notation-2-8">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Scientific_notation-2-7" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Scientific_notation-2-8">
 <div class="para">Let’s try a number so big that (nearly) every calculator will switch to scientific notation. Enter</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -576,14 +517,22 @@ window.MathJax = {
 2.7 \times 10^{30}
 \end{equation*}
 </div>
-</div> <div class="para logical" id="sec-Scientific_notation-2-9">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Scientific_notation-2-8" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Scientific_notation-2-9">
 <div class="para">Interested in what that number is in our usual decimal notation? It’s</div>
 <div class="displaymath process-math">
 \begin{equation*}
 2, \underbrace{ \hbox{$700{,}000{,}000{,}000{,}000{,}000{,}000{,}000{,}000{,}000 $}}_{\text{decimal point moves 30 places}}
 \end{equation*}
 </div>
-</div> <div class="para" id="sec-Scientific_notation-2-10">Enough of that. Poor Tara is pulling her hair out over this project. Well, not literally, but she is quite frustrated over how slowly the project is going. She wonders: how thick is a human hair?</div> <div class="para" id="sec-Scientific_notation-2-11">Turns out that a typical human hair is about <span class="process-math">\(0.00012\)</span> meters across. Very small numbers are also awkward to read and awkward to work with. In this section, we write <span class="process-math">\(0.000~12\)</span> where we insert a space to help you read the number.</div> <div class="para logical" id="sec-Scientific_notation-2-12">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Scientific_notation-2-9" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Scientific_notation-2-10">Enough of that. Poor Tara is pulling her hair out over this project. Well, not literally, but she is quite frustrated over how slowly the project is going. She wonders: how thick is a human hair?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Scientific_notation-2-10" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Scientific_notation-2-11">Turns out that a typical human hair is about <span class="process-math">\(0.00012\)</span> meters across. Very small numbers are also awkward to read and awkward to work with. In this section, we write <span class="process-math">\(0.000~12\)</span> where we insert a space to help you read the number.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Scientific_notation-2-11" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Scientific_notation-2-12">
 <div class="para">We can also describe really small numbers using scientific notation. Perhaps you know what happens when we divide a number by 10, like <span class="process-math">\(50 \div 10 = 5\)</span> or, more appropriate to our example,</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -603,7 +552,9 @@ window.MathJax = {
 \end{equation*}
 </div>
 <div class="para">and so dividing by 1,000,000 moves the decimal point six places to the left. Notice that we have to introduce zeros as placeholders.</div>
-</div> <div class="para logical" id="sec-Scientific_notation-2-13">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Scientific_notation-2-12" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Scientific_notation-2-13">
 <div class="para">The width of a hair was 0.00012 meters. To get that number from 1.2, we need to move the decimal point 4 places to the left.</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -623,38 +574,92 @@ window.MathJax = {
 \end{equation*}
 </div>
 <div class="para">Use your calculator to check!</div>
-</div> <div class="para logical" id="sec-Scientific_notation-2-14">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Scientific_notation-2-13" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Scientific_notation-2-14">
 <div class="para">Once again we have scientific notation. The base is still 10. The exponent is still a whole number, although now it’s negative. The number out front, like 1.2 in our example, is still between 1 and 10, which means there’s exactly one digit before the decimal point (and any others must come afterwards). As before, we’ll write <span class="process-math">\(\times\)</span> instead of <span class="process-math">\(\ast\)</span> to get:</div>
 <div class="displaymath process-math">
 \begin{equation*}
 1.2 \times 10^{-4}
 \end{equation*}
 </div>
-</div> <div class="para" id="sec-Scientific_notation-2-15">When you see a number written in scientific notation, the power of 10 tells you a lot. For example, we saw that <span class="process-math">\(8.46 \times 10^ 9 = 8{,}460{,}000{,}000\)</span> and <span class="process-math">\(1.2 \times10^{-4} = 0.000~12\text{.}\)</span> A positive power of 10 says you have a big number, and a negative power of 10 says you’re dealing with a very small number.</div></section><section class="conclusion" id="sec-Scientific_notation-3"><h3 class="heading">Do you know …<span></span>
-</h3> <div class="para logical" id="sec-Scientific_notation-3-2"><ol class="upper-alpha" id="sec-Scientific_notation-3-2-1">
-<li id="sec-Scientific_notation-3-2-1-1"><div class="para" id="sec-Scientific_notation-3-2-1-1-1">What million, billion, and trillion mean?</div></li>
-<li id="sec-Scientific_notation-3-2-1-2"><div class="para" id="sec-Scientific_notation-3-2-1-2-1">Why scientific notation is used?</div></li>
-<li id="sec-Scientific_notation-3-2-1-3"><div class="para" id="sec-Scientific_notation-3-2-1-3-1">The standard format for scientific notation?</div></li>
-<li id="sec-Scientific_notation-3-2-1-4"><div class="para" id="sec-Scientific_notation-3-2-1-4-1">Why a positive exponent corresponds to a big number and a negative exponent corresponds to a tiny number?</div></li>
-<li id="sec-Scientific_notation-3-2-1-5"><div class="para" id="sec-Scientific_notation-3-2-1-5-1">How to convert from scientific notation to decimal?</div></li>
-<li id="sec-Scientific_notation-3-2-1-6"><div class="para" id="sec-Scientific_notation-3-2-1-6-1">How your calculator reports numbers in scientific notation, and what (might be) different when you’re reporting that number?</div></li>
-</ol></div> <div class="para" id="sec-Scientific_notation-3-3"><em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em></div></section><section class="exercises" id="ex-Scientific_notation"><h3 class="heading hide-type">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Scientific_notation-2-14" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Scientific_notation-2-15">When you see a number written in scientific notation, the power of 10 tells you a lot. For example, we saw that <span class="process-math">\(8.46 \times 10^ 9 = 8{,}460{,}000{,}000\)</span> and <span class="process-math">\(1.2 \times10^{-4} = 0.000~12\text{.}\)</span> A positive power of 10 says you have a big number, and a negative power of 10 says you’re dealing with a very small number.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Scientific_notation-2-15" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="conclusion" id="sec-Scientific_notation-3"><h3 class="heading">Do you know …<span></span>
+</h3>
+<div class="para logical" id="sec-Scientific_notation-3-2">
+<ol class="upper-alpha ol-marker-1" id="sec-Scientific_notation-3-2-1">
+<li id="sec-Scientific_notation-3-2-1-1">
+<div class="para" id="sec-Scientific_notation-3-2-1-1-1">What million, billion, and trillion mean?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Scientific_notation-3-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item A"><a href="#sec-Scientific_notation-3-2-1-1" title="Copy permalink for Item A">🔗</a></div>
+</li>
+<li id="sec-Scientific_notation-3-2-1-2">
+<div class="para" id="sec-Scientific_notation-3-2-1-2-1">Why scientific notation is used?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Scientific_notation-3-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item B"><a href="#sec-Scientific_notation-3-2-1-2" title="Copy permalink for Item B">🔗</a></div>
+</li>
+<li id="sec-Scientific_notation-3-2-1-3">
+<div class="para" id="sec-Scientific_notation-3-2-1-3-1">The standard format for scientific notation?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Scientific_notation-3-2-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item C"><a href="#sec-Scientific_notation-3-2-1-3" title="Copy permalink for Item C">🔗</a></div>
+</li>
+<li id="sec-Scientific_notation-3-2-1-4">
+<div class="para" id="sec-Scientific_notation-3-2-1-4-1">Why a positive exponent corresponds to a big number and a negative exponent corresponds to a tiny number?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Scientific_notation-3-2-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item D"><a href="#sec-Scientific_notation-3-2-1-4" title="Copy permalink for Item D">🔗</a></div>
+</li>
+<li id="sec-Scientific_notation-3-2-1-5">
+<div class="para" id="sec-Scientific_notation-3-2-1-5-1">How to convert from scientific notation to decimal?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Scientific_notation-3-2-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item E"><a href="#sec-Scientific_notation-3-2-1-5" title="Copy permalink for Item E">🔗</a></div>
+</li>
+<li id="sec-Scientific_notation-3-2-1-6">
+<div class="para" id="sec-Scientific_notation-3-2-1-6-1">How your calculator reports numbers in scientific notation, and what (might be) different when you’re reporting that number?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Scientific_notation-3-2-1-6-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item F"><a href="#sec-Scientific_notation-3-2-1-6" title="Copy permalink for Item F">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Scientific_notation-3-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Scientific_notation-3-3">
+<em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-Scientific_notation-3-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="exercises" id="ex-Scientific_notation"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises</span>
 </h3>
-<section class="introduction" id="ex-Scientific_notation-2"><div class="para" id="ex-Scientific_notation-2-1">Exercises 1-4 are available in a separate workbook format.</div></section><article class="exercise exercise-like" id="ex-Scientific_notation-3-1"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
-<div class="introduction" id="ex-Scientific_notation-3-1-1"><div class="para" id="ex-Scientific_notation-3-1-1-1">In each story, write out the highlighted numbers (with all the zeros).</div></div>
+<section class="introduction" id="ex-Scientific_notation-2"><div class="para" id="ex-Scientific_notation-2-1">Exercises 1-4 are available in a separate workbook format.<div class="autopermalink" data-description="Paragraph"><a href="#ex-Scientific_notation-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><article class="exercise exercise-like" id="ex-Scientific_notation-3-1"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="introduction" id="ex-Scientific_notation-3-1-1"><div class="para" id="ex-Scientific_notation-3-1-1-1">In each story, write out the highlighted numbers (with all the zeros).<div class="autopermalink" data-description="Paragraph"><a href="#ex-Scientific_notation-3-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
 <article class="task exercise-like" id="population-prelude-scientific-notation"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="population-prelude-scientific-notation-1-1">Melvin was looking at populations based on the 2020 Census and saw the population of Saint Paul, MN listed as <span class="process-math">\(\mathbf{3.10942 \times 10^{5}}\)</span> <dfn class="terminology">people</dfn>. Hint: you can check the answer to this part by evaluating on your calculator.</div></article><article class="task exercise-like" id="gdp-prelude-scientific-notation"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="gdp-prelude-scientific-notation-1-1">The gross domestic product (GDP) measures the market value of all final goods and services produced by an economy. The United States GDP is approximately <span class="process-math">\(\mathbf{\$2.332 \times 10^{13}}\text{.}\)</span> <em class="emphasis">(Story also appears in <a href="sec-Metric_system_and_scientific_notation.html#gdp-scientific-notation" class="xref" data-knowl="./knowl/xref/gdp-scientific-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.5.1">1.5.1</a>)</em>
-</div></article><article class="task exercise-like" id="earth-weight-prelude-scientific-notation"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="earth-weight-prelude-scientific-notation-1-1">The Earth weighs approximately <span class="process-math">\(\mathbf{5.972 \times 10^{24}}\)</span> <dfn class="terminology">kilograms</dfn>. <em class="emphasis">(Story also appears in <a href="sec-Metric_system_and_scientific_notation.html#planet-weight-scientific-notation" class="xref" data-knowl="./knowl/xref/planet-weight-scientific-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.5.3">1.5.3</a>)</em>
-</div></article></article> <article class="exercise exercise-like" id="ex-Scientific_notation-3-2"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
-<div class="introduction" id="ex-Scientific_notation-3-2-1"><div class="para" id="ex-Scientific_notation-3-2-1-1">In each story, write out the highlighted numbers (with all the zeros).</div></div>
+<div class="para" id="population-prelude-scientific-notation-1-1">Melvin was looking at populations based on the 2020 Census and saw the population of Saint Paul, MN listed as <span class="process-math">\(\mathbf{3.10942 \times 10^{5}}\)</span> <dfn class="terminology">people</dfn>. Hint: you can check the answer to this part by evaluating on your calculator.<div class="autopermalink" data-description="Paragraph"><a href="#population-prelude-scientific-notation-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.8.1.a"><a href="#population-prelude-scientific-notation" title="Copy permalink for Task 0.8.1.a">🔗</a></div></article><article class="task exercise-like" id="gdp-prelude-scientific-notation"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="gdp-prelude-scientific-notation-1-1">The gross domestic product (GDP) measures the market value of all final goods and services produced by an economy. The United States GDP is approximately <span class="process-math">\(\mathbf{\$2.332 \times 10^{13}}\text{.}\)</span> <em class="emphasis">(Story also appears in <a href="sec-Metric_system_and_scientific_notation.html#gdp-scientific-notation" class="xref" data-knowl="./knowl/xref/gdp-scientific-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.5.1">1.5.1</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#gdp-prelude-scientific-notation-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.8.1.b"><a href="#gdp-prelude-scientific-notation" title="Copy permalink for Task 0.8.1.b">🔗</a></div></article><article class="task exercise-like" id="earth-weight-prelude-scientific-notation"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="earth-weight-prelude-scientific-notation-1-1">The Earth weighs approximately <span class="process-math">\(\mathbf{5.972 \times 10^{24}}\)</span> <dfn class="terminology">kilograms</dfn>. <em class="emphasis">(Story also appears in <a href="sec-Metric_system_and_scientific_notation.html#planet-weight-scientific-notation" class="xref" data-knowl="./knowl/xref/planet-weight-scientific-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.5.3">1.5.3</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#earth-weight-prelude-scientific-notation-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.8.1.c"><a href="#earth-weight-prelude-scientific-notation" title="Copy permalink for Task 0.8.1.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.8.1"><a href="#ex-Scientific_notation-3-1" title="Copy permalink for Exercise 0.8.1">🔗</a></div></article> <article class="exercise exercise-like" id="ex-Scientific_notation-3-2"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="introduction" id="ex-Scientific_notation-3-2-1"><div class="para" id="ex-Scientific_notation-3-2-1-1">In each story, write out the highlighted numbers (with all the zeros).<div class="autopermalink" data-description="Paragraph"><a href="#ex-Scientific_notation-3-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
 <article class="task exercise-like" id="alpaca-prelude-scientific-notation"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="alpaca-prelude-scientific-notation-1-1">Alpacas have very fine hairs which can be spun into yarn to make very soft sweaters. The width of an alpaca hair is around <span class="process-math">\(\mathbf{2.5 \times 10^{-7}}\)</span> <dfn class="terminology">meters</dfn>. Hint: you can check the answer to this part by evaluating on your calculator.</div></article><article class="task exercise-like" id="dust-particle-prelude-scientific-notation"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="dust-particle-prelude-scientific-notation-1-1">A dust particle weighs approximately <span class="process-math">\(\mathbf{7.53 \times 10^{-10}}\)</span> <dfn class="terminology">grams</dfn>.</div> <div class="para" id="dust-particle-prelude-scientific-notation-1-2"><em class="emphasis">(Story also appears in <a href="sec-Metric_system_and_scientific_notation.html#dust-particle-scientific-notation" class="xref" data-knowl="./knowl/xref/dust-particle-scientific-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.5.2">1.5.2</a>)</em></div></article><article class="task exercise-like" id="proton-mass-prelude-scientific-notation"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="proton-mass-prelude-scientific-notation-1-1">A proton (part of an atom) has mass of about <span class="process-math">\(\mathbf{1.67262 \times 10^{-27}}\)</span> <dfn class="terminology">kilograms</dfn>.</div> <div class="para" id="proton-mass-prelude-scientific-notation-1-2"><em class="emphasis">(Story also appears in <a href="sec-Metric_system_and_scientific_notation.html#proton-mass-scientific-notation" class="xref" data-knowl="./knowl/xref/proton-mass-scientific-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.5.7">1.5.7</a>)</em></div></article></article><article class="exercise exercise-like" id="ex-Scientific_notation-4-1"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
-<div class="introduction" id="ex-Scientific_notation-4-1-1"><div class="para" id="ex-Scientific_notation-4-1-1-1">In each story, evaluate the number and report your answer in scientific notation.</div></div>
+<div class="para" id="alpaca-prelude-scientific-notation-1-1">Alpacas have very fine hairs which can be spun into yarn to make very soft sweaters. The width of an alpaca hair is around <span class="process-math">\(\mathbf{2.5 \times 10^{-7}}\)</span> <dfn class="terminology">meters</dfn>. Hint: you can check the answer to this part by evaluating on your calculator.<div class="autopermalink" data-description="Paragraph"><a href="#alpaca-prelude-scientific-notation-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.8.2.a"><a href="#alpaca-prelude-scientific-notation" title="Copy permalink for Task 0.8.2.a">🔗</a></div></article><article class="task exercise-like" id="dust-particle-prelude-scientific-notation"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="dust-particle-prelude-scientific-notation-1-1">A dust particle weighs approximately <span class="process-math">\(\mathbf{7.53 \times 10^{-10}}\)</span> <dfn class="terminology">grams</dfn>.<div class="autopermalink" data-description="Paragraph"><a href="#dust-particle-prelude-scientific-notation-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="dust-particle-prelude-scientific-notation-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Metric_system_and_scientific_notation.html#dust-particle-scientific-notation" class="xref" data-knowl="./knowl/xref/dust-particle-scientific-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.5.2">1.5.2</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#dust-particle-prelude-scientific-notation-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.8.2.b"><a href="#dust-particle-prelude-scientific-notation" title="Copy permalink for Task 0.8.2.b">🔗</a></div></article><article class="task exercise-like" id="proton-mass-prelude-scientific-notation"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="proton-mass-prelude-scientific-notation-1-1">A proton (part of an atom) has mass of about <span class="process-math">\(\mathbf{1.67262 \times 10^{-27}}\)</span> <dfn class="terminology">kilograms</dfn>.<div class="autopermalink" data-description="Paragraph"><a href="#proton-mass-prelude-scientific-notation-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="proton-mass-prelude-scientific-notation-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Metric_system_and_scientific_notation.html#proton-mass-scientific-notation" class="xref" data-knowl="./knowl/xref/proton-mass-scientific-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.5.7">1.5.7</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#proton-mass-prelude-scientific-notation-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.8.2.c"><a href="#proton-mass-prelude-scientific-notation" title="Copy permalink for Task 0.8.2.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.8.2"><a href="#ex-Scientific_notation-3-2" title="Copy permalink for Exercise 0.8.2">🔗</a></div></article><article class="exercise exercise-like" id="ex-Scientific_notation-4-1"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="ex-Scientific_notation-4-1-1"><div class="para" id="ex-Scientific_notation-4-1-1-1">In each story, evaluate the number and report your answer in scientific notation.<div class="autopermalink" data-description="Paragraph"><a href="#ex-Scientific_notation-4-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
 <article class="task exercise-like" id="bunnies-prelude-scientific-notation"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para logical" id="bunnies-prelude-scientific-notation-1-1">
 <div class="para">Bunnies, bunnies, everywhere. In 2007 there were 1800 and that number was predicted to increase 13% each year. I was trying to predict the number of rabbits in 2023 (after 16 years) but I accidentally typed in 166 years by mistake:</div>
@@ -664,7 +669,11 @@ window.MathJax = {
 \end{equation*}
 </div>
 <div class="para">Report the answer I got in scientific notation. (Yes, this is a gigantic number. The exponential model I used doesn’t actually make sense for that many years.)</div>
-</div> <div class="para" id="bunnies-prelude-scientific-notation-1-2"><em class="emphasis">(Story also appears in <a href="sec-First_look_exponential.html#bunnies-first-look-exponential" class="xref" data-knowl="./knowl/xref/bunnies-first-look-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.2.2">2.2.2</a> and <a href="sec-Modeling_exponential_equations.html#bunnies-modeling-exponential" class="xref" data-knowl="./knowl/xref/bunnies-modeling-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 5.1.3">5.1.3</a>)</em></div></article><article class="task exercise-like" id="fiber-optic-prelude-scientific-notation"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="autopermalink" data-description="Paragraph"><a href="#bunnies-prelude-scientific-notation-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="bunnies-prelude-scientific-notation-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-First_look_exponential.html#bunnies-first-look-exponential" class="xref" data-knowl="./knowl/xref/bunnies-first-look-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.2.2">2.2.2</a> and <a href="sec-Modeling_exponential_equations.html#bunnies-modeling-exponential" class="xref" data-knowl="./knowl/xref/bunnies-modeling-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 5.1.3">5.1.3</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#bunnies-prelude-scientific-notation-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.8.3.a"><a href="#bunnies-prelude-scientific-notation" title="Copy permalink for Task 0.8.3.a">🔗</a></div></article><article class="task exercise-like" id="fiber-optic-prelude-scientific-notation"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para logical" id="fiber-optic-prelude-scientific-notation-1-1">
 <div class="para">A signal is sent down a fiber optic cable. Its strength decreases by 2% each mile it travels. We can calculate the signal strength after 1000 miles by evaluating</div>
 <div class="displaymath process-math">
@@ -673,44 +682,81 @@ window.MathJax = {
 \end{equation*}
 </div>
 <div class="para">Report the answer you get in scientific notation. (Yes, this is a teeny number. In reality there would be signal booster installed along the route.)</div>
-</div> <div class="para" id="fiber-optic-prelude-scientific-notation-1-2"><em class="emphasis">(Story also appears in <a href="sec-Powers_and_roots.html#fiber-optic-powers-roots" class="xref" data-knowl="./knowl/xref/fiber-optic-powers-roots.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.6.3">0.6.3</a> and <a href="sec-Exp_growth_decay.html#fiber-optic-growth-decay" class="xref" data-knowl="./knowl/xref/fiber-optic-growth-decay.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 5.2.1">5.2.1</a>)</em></div></article></article> <article class="exercise exercise-like" id="ex-Scientific_notation-4-2"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
-<div class="introduction" id="ex-Scientific_notation-4-2-1"><div class="para" id="ex-Scientific_notation-4-2-1-1">In each story, write out the highlighted number (with all the 0s). Note that <dfn class="terminology">million</dfn> is short for <span class="process-math">\(\times 10^6\text{,}\)</span> <dfn class="terminology">billion</dfn> is short for <span class="process-math">\(\times 10^9\text{,}\)</span> and <dfn class="terminology">trillion</dfn> is short for <span class="process-math">\(\times 10^{12}\text{.}\)</span>
+<div class="autopermalink" data-description="Paragraph"><a href="#fiber-optic-prelude-scientific-notation-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="fiber-optic-prelude-scientific-notation-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Powers_and_roots.html#fiber-optic-powers-roots" class="xref" data-knowl="./knowl/xref/fiber-optic-powers-roots.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.6.3">0.6.3</a> and <a href="sec-Exp_growth_decay.html#fiber-optic-growth-decay" class="xref" data-knowl="./knowl/xref/fiber-optic-growth-decay.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 5.2.1">5.2.1</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#fiber-optic-prelude-scientific-notation-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.8.3.b"><a href="#fiber-optic-prelude-scientific-notation" title="Copy permalink for Task 0.8.3.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.8.3"><a href="#ex-Scientific_notation-4-1" title="Copy permalink for Exercise 0.8.3">🔗</a></div></article> <article class="exercise exercise-like" id="ex-Scientific_notation-4-2"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="ex-Scientific_notation-4-2-1"><div class="para" id="ex-Scientific_notation-4-2-1-1">In each story, write out the highlighted number (with all the 0s). Note that <dfn class="terminology">million</dfn> is short for <span class="process-math">\(\times 10^6\text{,}\)</span> <dfn class="terminology">billion</dfn> is short for <span class="process-math">\(\times 10^9\text{,}\)</span> and <dfn class="terminology">trillion</dfn> is short for <span class="process-math">\(\times 10^{12}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ex-Scientific_notation-4-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div></div>
 <article class="task exercise-like" id="currency-prelude-scientific-notation"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="currency-prelude-scientific-notation-1-1">There are approximately <dfn class="terminology">1.084 million quarters</dfn> in circulation in the United States. <em class="emphasis">(Story also appears in <a href="sec-Approximation_and_rounding.html#currency-approx-rounding" class="xref" data-knowl="./knowl/xref/currency-approx-rounding.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 0.1.4.b">0.1.4.b</a>)</em>
-</div></article><article class="task exercise-like" id="world-population-prelude-scientific-notation"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="world-population-prelude-scientific-notation-1-1">The population of the world is approximately <dfn class="terminology">8.1 billion people</dfn>. <em class="emphasis">(Story also appears in <a href="sec-Percentages.html#world-population-percentages" class="xref" data-knowl="./knowl/xref/world-population-percentages.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.3.1">0.3.1</a>)</em>
-</div></article><article class="task exercise-like" id="t-bonds-prelude-scientific-notation"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="t-bonds-prelude-scientific-notation-1-1">One way that the United States government can borrow money is by selling Treasury bonds (T-bonds). There are approximately <dfn class="terminology">$24 trillion</dfn> worth of T-bonds currently.</div></article></article><article class="exercise exercise-like" id="billion-seconds-prelude-scientific-notation"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="para" id="currency-prelude-scientific-notation-1-1">There are approximately <dfn class="terminology">1.084 million quarters</dfn> in circulation in the United States. <em class="emphasis">(Story also appears in <a href="sec-Approximation_and_rounding.html#currency-approx-rounding" class="xref" data-knowl="./knowl/xref/currency-approx-rounding.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 0.1.4.b">0.1.4.b</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#currency-prelude-scientific-notation-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.8.4.a"><a href="#currency-prelude-scientific-notation" title="Copy permalink for Task 0.8.4.a">🔗</a></div></article><article class="task exercise-like" id="world-population-prelude-scientific-notation"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="world-population-prelude-scientific-notation-1-1">The population of the world is approximately <dfn class="terminology">8.1 billion people</dfn>. <em class="emphasis">(Story also appears in <a href="sec-Percentages.html#world-population-percentages" class="xref" data-knowl="./knowl/xref/world-population-percentages.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.3.1">0.3.1</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#world-population-prelude-scientific-notation-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.8.4.b"><a href="#world-population-prelude-scientific-notation" title="Copy permalink for Task 0.8.4.b">🔗</a></div></article><article class="task exercise-like" id="t-bonds-prelude-scientific-notation"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="t-bonds-prelude-scientific-notation-1-1">One way that the United States government can borrow money is by selling Treasury bonds (T-bonds). There are approximately <dfn class="terminology">$24 trillion</dfn> worth of T-bonds currently.<div class="autopermalink" data-description="Paragraph"><a href="#t-bonds-prelude-scientific-notation-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.8.4.c"><a href="#t-bonds-prelude-scientific-notation" title="Copy permalink for Task 0.8.4.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.8.4"><a href="#ex-Scientific_notation-4-2" title="Copy permalink for Exercise 0.8.4">🔗</a></div></article><article class="exercise exercise-like" id="billion-seconds-prelude-scientific-notation"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
 <div class="introduction" id="billion-seconds-prelude-scientific-notation-1">
-<div class="para" id="billion-seconds-prelude-scientific-notation-1-1"><em class="emphasis">(Story also appears in <a href="sec-Metric_system_and_scientific_notation.html#billion-seconds-scientific-notation" class="xref" data-knowl="./knowl/xref/billion-seconds-scientific-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.5.6">1.5.6</a>)</em></div> <aside class="aside aside-like" id="billion-seconds-prelude-scientific-notation-1-2"><div class="para" id="billion-seconds-prelude-scientific-notation-1-2-1">Source: Mathew Foss, North Hennepin Community College</div></aside>
+<div class="para" id="billion-seconds-prelude-scientific-notation-1-1">
+<em class="emphasis">(Story also appears in <a href="sec-Metric_system_and_scientific_notation.html#billion-seconds-scientific-notation" class="xref" data-knowl="./knowl/xref/billion-seconds-scientific-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.5.6">1.5.6</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#billion-seconds-prelude-scientific-notation-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<aside class="aside aside-like" id="billion-seconds-prelude-scientific-notation-1-2"><div class="para" id="billion-seconds-prelude-scientific-notation-1-2-1">Source: Mathew Foss, North Hennepin Community College<div class="autopermalink" data-description="Paragraph"><a href="#billion-seconds-prelude-scientific-notation-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></aside>
 </div>
 <article class="task exercise-like" id="billion-seconds-prelude-scientific-notation-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="billion-seconds-prelude-scientific-notation-2-1-1">Convert 1 million seconds into an understandable unit of time.</div></article><article class="task exercise-like" id="billion-seconds-prelude-scientific-notation-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="billion-seconds-prelude-scientific-notation-3-1-1">Billy Bob wants to throw a party when he turns 1 billion seconds old. About how many years old will he be?</div></article><article class="task exercise-like" id="billion-seconds-prelude-scientific-notation-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="billion-seconds-prelude-scientific-notation-2-1-1">Convert 1 million seconds into an understandable unit of time.<div class="autopermalink" data-description="Paragraph"><a href="#billion-seconds-prelude-scientific-notation-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.8.5.a"><a href="#billion-seconds-prelude-scientific-notation-2" title="Copy permalink for Task 0.8.5.a">🔗</a></div></article><article class="task exercise-like" id="billion-seconds-prelude-scientific-notation-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="billion-seconds-prelude-scientific-notation-3-1-1">Billy Bob wants to throw a party when he turns 1 billion seconds old. About how many years old will he be?<div class="autopermalink" data-description="Paragraph"><a href="#billion-seconds-prelude-scientific-notation-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.8.5.b"><a href="#billion-seconds-prelude-scientific-notation-3" title="Copy permalink for Task 0.8.5.b">🔗</a></div></article><article class="task exercise-like" id="billion-seconds-prelude-scientific-notation-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="billion-seconds-prelude-scientific-notation-4-1-1">
-<em class="emphasis">Bonus question:</em> On what date were you or will you be 1 billion seconds old? Don’t forget leap years!</div></article></article><article class="exercise exercise-like" id="planet-weight-prelude-scientific-notation"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
-<div class="introduction" id="planet-weight-prelude-scientific-notation-1"><div class="para" id="planet-weight-prelude-scientific-notation-1-1"><em class="emphasis">(Story also appears in <a href="sec-Metric_system_and_scientific_notation.html#planet-weight-scientific-notation" class="xref" data-knowl="./knowl/xref/planet-weight-scientific-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.5.3">1.5.3</a>)</em></div></div>
+<em class="emphasis">Bonus question:</em> On what date were you or will you be 1 billion seconds old? Don’t forget leap years!<div class="autopermalink" data-description="Paragraph"><a href="#billion-seconds-prelude-scientific-notation-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.8.5.c"><a href="#billion-seconds-prelude-scientific-notation-4" title="Copy permalink for Task 0.8.5.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.8.5"><a href="#billion-seconds-prelude-scientific-notation" title="Copy permalink for Exercise 0.8.5">🔗</a></div></article><article class="exercise exercise-like" id="planet-weight-prelude-scientific-notation"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="introduction" id="planet-weight-prelude-scientific-notation-1"><div class="para" id="planet-weight-prelude-scientific-notation-1-1">
+<em class="emphasis">(Story also appears in <a href="sec-Metric_system_and_scientific_notation.html#planet-weight-scientific-notation" class="xref" data-knowl="./knowl/xref/planet-weight-scientific-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.5.3">1.5.3</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#planet-weight-prelude-scientific-notation-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
 <article class="task exercise-like" id="planet-weight-prelude-scientific-notation-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="planet-weight-prelude-scientific-notation-2-1-1">The planet Jupiter weighs approximately <span class="process-math">\(\mathbf{1.9 \times 10^{27}}\)</span> <dfn class="terminology">kilograms</dfn>. Write out this number (with all the zeros).</div></article><article class="task exercise-like" id="planet-weight-prelude-scientific-notation-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="planet-weight-prelude-scientific-notation-3-1-1">The planet Mars weighs approximately <span class="process-math">\(\mathbf{6.4 \times 10^{23}}\)</span> <dfn class="terminology">kilograms</dfn>. Write out this number (with all the zeros).</div></article><article class="task exercise-like" id="planet-weight-prelude-scientific-notation-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="planet-weight-prelude-scientific-notation-4-1-1">Which planet weighs more: Jupiter or Mars? Explain.</div></article></article><article class="exercise exercise-like" id="virus-size-prelude-scientific-notation"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
-<div class="introduction" id="virus-size-prelude-scientific-notation-1"><div class="para" id="virus-size-prelude-scientific-notation-1-1">The SARS-CoV-2 virus is approximately 125 nanometers wide which is <span class="process-math">\(\mathbf{125 \times 10^{-9}}\)</span> <dfn class="terminology">meters</dfn> wide.</div></div>
+<div class="para" id="planet-weight-prelude-scientific-notation-2-1-1">The planet Jupiter weighs approximately <span class="process-math">\(\mathbf{1.9 \times 10^{27}}\)</span> <dfn class="terminology">kilograms</dfn>. Write out this number (with all the zeros).<div class="autopermalink" data-description="Paragraph"><a href="#planet-weight-prelude-scientific-notation-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.8.6.a"><a href="#planet-weight-prelude-scientific-notation-2" title="Copy permalink for Task 0.8.6.a">🔗</a></div></article><article class="task exercise-like" id="planet-weight-prelude-scientific-notation-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="planet-weight-prelude-scientific-notation-3-1-1">The planet Mars weighs approximately <span class="process-math">\(\mathbf{6.4 \times 10^{23}}\)</span> <dfn class="terminology">kilograms</dfn>. Write out this number (with all the zeros).<div class="autopermalink" data-description="Paragraph"><a href="#planet-weight-prelude-scientific-notation-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.8.6.b"><a href="#planet-weight-prelude-scientific-notation-3" title="Copy permalink for Task 0.8.6.b">🔗</a></div></article><article class="task exercise-like" id="planet-weight-prelude-scientific-notation-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="planet-weight-prelude-scientific-notation-4-1-1">Which planet weighs more: Jupiter or Mars? Explain.<div class="autopermalink" data-description="Paragraph"><a href="#planet-weight-prelude-scientific-notation-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.8.6.c"><a href="#planet-weight-prelude-scientific-notation-4" title="Copy permalink for Task 0.8.6.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.8.6"><a href="#planet-weight-prelude-scientific-notation" title="Copy permalink for Exercise 0.8.6">🔗</a></div></article><article class="exercise exercise-like" id="virus-size-prelude-scientific-notation"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="introduction" id="virus-size-prelude-scientific-notation-1"><div class="para" id="virus-size-prelude-scientific-notation-1-1">The SARS-CoV-2 virus is approximately 125 nanometers wide which is <span class="process-math">\(\mathbf{125 \times 10^{-9}}\)</span> <dfn class="terminology">meters</dfn> wide.<div class="autopermalink" data-description="Paragraph"><a href="#virus-size-prelude-scientific-notation-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
 <article class="task exercise-like" id="virus-size-prelude-scientific-notation-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="virus-size-prelude-scientific-notation-2-1-1">Write out this number (with all the zeros).</div></article><article class="task exercise-like" id="virus-size-prelude-scientific-notation-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="virus-size-prelude-scientific-notation-3-1-1">The N95 mask captures particles down to 0.3 microns which is <span class="process-math">\(\mathbf{3 \times 10^{-6}}\)</span> <dfn class="terminology">meters</dfn> wide but not smaller. Write out this number (with all the zeros).</div></article><article class="task exercise-like" id="virus-size-prelude-scientific-notation-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="virus-size-prelude-scientific-notation-4-1-1">Can the N95 mask capture the SARS-CoV-2 virus? Explain.</div></article></article><article class="exercise exercise-like" id="cells-prelude-scientific-notation"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
-<div class="introduction" id="cells-prelude-scientific-notation-1"><div class="para" id="cells-prelude-scientific-notation-1-1">Rayka would like to approximate how many cells are in her body. Use the following information: Rayka weighs 140 pounds, <span class="process-math">\(1 \text{ gram} \approx 10^{15} \text{ cells}\)</span> and <span class="process-math">\(1{,}000 \text{ grams} \approx 2.2 \text{ pounds}\text{.}\)</span> <em class="emphasis">(Story also appears in <a href="sec-Metric_system_and_scientific_notation.html#cells-scientific-notation" class="xref" data-knowl="./knowl/xref/cells-scientific-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.5.9">1.5.9</a>)</em>
+<div class="para" id="virus-size-prelude-scientific-notation-2-1-1">Write out this number (with all the zeros).<div class="autopermalink" data-description="Paragraph"><a href="#virus-size-prelude-scientific-notation-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.8.7.a"><a href="#virus-size-prelude-scientific-notation-2" title="Copy permalink for Task 0.8.7.a">🔗</a></div></article><article class="task exercise-like" id="virus-size-prelude-scientific-notation-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="virus-size-prelude-scientific-notation-3-1-1">The N95 mask captures particles down to 0.3 microns which is <span class="process-math">\(\mathbf{3 \times 10^{-6}}\)</span> <dfn class="terminology">meters</dfn> wide but not smaller. Write out this number (with all the zeros).<div class="autopermalink" data-description="Paragraph"><a href="#virus-size-prelude-scientific-notation-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.8.7.b"><a href="#virus-size-prelude-scientific-notation-3" title="Copy permalink for Task 0.8.7.b">🔗</a></div></article><article class="task exercise-like" id="virus-size-prelude-scientific-notation-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="virus-size-prelude-scientific-notation-4-1-1">Can the N95 mask capture the SARS-CoV-2 virus? Explain.<div class="autopermalink" data-description="Paragraph"><a href="#virus-size-prelude-scientific-notation-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.8.7.c"><a href="#virus-size-prelude-scientific-notation-4" title="Copy permalink for Task 0.8.7.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.8.7"><a href="#virus-size-prelude-scientific-notation" title="Copy permalink for Exercise 0.8.7">🔗</a></div></article><article class="exercise exercise-like" id="cells-prelude-scientific-notation"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="introduction" id="cells-prelude-scientific-notation-1"><div class="para" id="cells-prelude-scientific-notation-1-1">Rayka would like to approximate how many cells are in her body. Use the following information: Rayka weighs 140 pounds, <span class="process-math">\(1 \text{ gram} \approx 10^{15} \text{ cells}\)</span> and <span class="process-math">\(1{,}000 \text{ grams} \approx 2.2 \text{ pounds}\text{.}\)</span> <em class="emphasis">(Story also appears in <a href="sec-Metric_system_and_scientific_notation.html#cells-scientific-notation" class="xref" data-knowl="./knowl/xref/cells-scientific-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.5.9">1.5.9</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#cells-prelude-scientific-notation-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div></div>
 <article class="task exercise-like" id="cells-prelude-scientific-notation-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="cells-prelude-scientific-notation-2-1-1">How many cells are in Rayka’s body? Hint: this is a unit conversion question asking you to convert 140 pounds to cells. Write your answer in scientific notation.</div></article><article class="task exercise-like" id="cells-prelude-scientific-notation-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="cells-prelude-scientific-notation-3-1-1">Rewrite your answer in the most appropriate unit: millions (<span class="process-math">\(10^6\)</span>), billions (<span class="process-math">\(10^9\)</span>), trillions (<span class="process-math">\(10^{12}\)</span>), quadrillions (<span class="process-math">\(10^{15}\)</span>), or quintillions (<span class="process-math">\(10^{18}\)</span>).</div></article></article></section></section></div>
-<div class="ptx-content-footer">
+<div class="para" id="cells-prelude-scientific-notation-2-1-1">How many cells are in Rayka’s body? Hint: this is a unit conversion question asking you to convert 140 pounds to cells. Write your answer in scientific notation.<div class="autopermalink" data-description="Paragraph"><a href="#cells-prelude-scientific-notation-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.8.8.a"><a href="#cells-prelude-scientific-notation-2" title="Copy permalink for Task 0.8.8.a">🔗</a></div></article><article class="task exercise-like" id="cells-prelude-scientific-notation-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="cells-prelude-scientific-notation-3-1-1">Rewrite your answer in the most appropriate unit: millions (<span class="process-math">\(10^6\)</span>), billions (<span class="process-math">\(10^9\)</span>), trillions (<span class="process-math">\(10^{12}\)</span>), quadrillions (<span class="process-math">\(10^{15}\)</span>), or quintillions (<span class="process-math">\(10^{18}\)</span>).<div class="autopermalink" data-description="Paragraph"><a href="#cells-prelude-scientific-notation-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.8.8.b"><a href="#cells-prelude-scientific-notation-3" title="Copy permalink for Task 0.8.8.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.8.8"><a href="#cells-prelude-scientific-notation" title="Copy permalink for Exercise 0.8.8">🔗</a></div></article><div class="autopermalink" data-description="Exercises 0.8: Exercises"><a href="#ex-Scientific_notation" title="Copy permalink for Exercises 0.8: Exercises">🔗</a></div></section><div class="autopermalink" data-description="Section 0.8: Prelude: Scientific notation"><a href="#sec-Scientific_notation" title="Copy permalink for Section 0.8: Prelude: Scientific notation">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="sec-Algebraic_notation.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-Logarithms.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
-<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
 </div>
 </body>
 </html>

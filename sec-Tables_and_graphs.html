@@ -5,16 +5,25 @@
 <!--*         https://pretextbook.org          *-->
 <!--*                                          *-->
 <!--********************************************-->
-<html lang="en-US" dir="ltr">
+<html lang="en-US" dir="ltr" data-legacy-colorscheme="blue_red">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-legacy                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Tables and graphs</title>
-<meta name="Keywords" content="Authored in PreTeXt">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta property="og:type" content="book">
-<meta property="book:title" content="Just Enough Algebra">
-<meta property="book:author" content="Dr. Suzanne Dorée">
-<meta property="book:author" content="Dr. Spencer Bagley">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;" rel="stylesheet">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
 <script>
 var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
 window.MathJax = {
@@ -70,137 +79,54 @@ window.MathJax = {
     )}
   }
 };
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
-<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
-</script><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
-<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
-<style>
-#sec-Approximation_and_rounding-3-2-1 { counter-set: sec-Approximation_and_rounding-3-2-1 0; }
-#sec-Approximation_and_rounding-3-2-1 > li::marker { content: ""counter(sec-Approximation_and_rounding-3-2-1,upper-alpha)"."; }
-#sec-Approximation_and_rounding-3-2-1 > li { counter-increment: sec-Approximation_and_rounding-3-2-1; }
-#sec-Arithmetic_operations-3-2-1 { counter-set: sec-Arithmetic_operations-3-2-1 0; }
-#sec-Arithmetic_operations-3-2-1 > li::marker { content: ""counter(sec-Arithmetic_operations-3-2-1,upper-alpha)"."; }
-#sec-Arithmetic_operations-3-2-1 > li { counter-increment: sec-Arithmetic_operations-3-2-1; }
-#sec-Percentages-3-2-1 { counter-set: sec-Percentages-3-2-1 0; }
-#sec-Percentages-3-2-1 > li::marker { content: ""counter(sec-Percentages-3-2-1,upper-alpha)"."; }
-#sec-Percentages-3-2-1 > li { counter-increment: sec-Percentages-3-2-1; }
-#sec-Order_of_operations-3-2-1 { counter-set: sec-Order_of_operations-3-2-1 0; }
-#sec-Order_of_operations-3-2-1 > li::marker { content: ""counter(sec-Order_of_operations-3-2-1,upper-alpha)"."; }
-#sec-Order_of_operations-3-2-1 > li { counter-increment: sec-Order_of_operations-3-2-1; }
-#sec-Fractions-3-2-1 { counter-set: sec-Fractions-3-2-1 0; }
-#sec-Fractions-3-2-1 > li::marker { content: ""counter(sec-Fractions-3-2-1,upper-alpha)"."; }
-#sec-Fractions-3-2-1 > li { counter-increment: sec-Fractions-3-2-1; }
-#sec-Powers_and_roots-3-2-1 { counter-set: sec-Powers_and_roots-3-2-1 0; }
-#sec-Powers_and_roots-3-2-1 > li::marker { content: ""counter(sec-Powers_and_roots-3-2-1,upper-alpha)"."; }
-#sec-Powers_and_roots-3-2-1 > li { counter-increment: sec-Powers_and_roots-3-2-1; }
-#sec-Algebraic_notation-3-2-1 { counter-set: sec-Algebraic_notation-3-2-1 0; }
-#sec-Algebraic_notation-3-2-1 > li::marker { content: ""counter(sec-Algebraic_notation-3-2-1,upper-alpha)"."; }
-#sec-Algebraic_notation-3-2-1 > li { counter-increment: sec-Algebraic_notation-3-2-1; }
-#sec-Scientific_notation-3-2-1 { counter-set: sec-Scientific_notation-3-2-1 0; }
-#sec-Scientific_notation-3-2-1 > li::marker { content: ""counter(sec-Scientific_notation-3-2-1,upper-alpha)"."; }
-#sec-Scientific_notation-3-2-1 > li { counter-increment: sec-Scientific_notation-3-2-1; }
-#sec-Logarithms-3-2-1 { counter-set: sec-Logarithms-3-2-1 0; }
-#sec-Logarithms-3-2-1 > li::marker { content: ""counter(sec-Logarithms-3-2-1,upper-alpha)"."; }
-#sec-Logarithms-3-2-1 > li { counter-increment: sec-Logarithms-3-2-1; }
-#sec-Variables_and_functions-3-2-1 { counter-set: sec-Variables_and_functions-3-2-1 0; }
-#sec-Variables_and_functions-3-2-1 > li::marker { content: ""counter(sec-Variables_and_functions-3-2-1,upper-alpha)"."; }
-#sec-Variables_and_functions-3-2-1 > li { counter-increment: sec-Variables_and_functions-3-2-1; }
-#sec-Tables_and_graphs-3-2-1 { counter-set: sec-Tables_and_graphs-3-2-1 0; }
-#sec-Tables_and_graphs-3-2-1 > li::marker { content: ""counter(sec-Tables_and_graphs-3-2-1,upper-alpha)"."; }
-#sec-Tables_and_graphs-3-2-1 > li { counter-increment: sec-Tables_and_graphs-3-2-1; }
-#sec-Rate_of_change-3-2-1 { counter-set: sec-Rate_of_change-3-2-1 0; }
-#sec-Rate_of_change-3-2-1 > li::marker { content: ""counter(sec-Rate_of_change-3-2-1,upper-alpha)"."; }
-#sec-Rate_of_change-3-2-1 > li { counter-increment: sec-Rate_of_change-3-2-1; }
-#sec-Units-3-2-1 { counter-set: sec-Units-3-2-1 0; }
-#sec-Units-3-2-1 > li::marker { content: ""counter(sec-Units-3-2-1,upper-alpha)"."; }
-#sec-Units-3-2-1 > li { counter-increment: sec-Units-3-2-1; }
-#sec-Metric_system_and_scientific_notation-3-2-1 { counter-set: sec-Metric_system_and_scientific_notation-3-2-1 0; }
-#sec-Metric_system_and_scientific_notation-3-2-1 > li::marker { content: ""counter(sec-Metric_system_and_scientific_notation-3-2-1,upper-alpha)"."; }
-#sec-Metric_system_and_scientific_notation-3-2-1 > li { counter-increment: sec-Metric_system_and_scientific_notation-3-2-1; }
-#sec-First_look_linear-3-2-1 { counter-set: sec-First_look_linear-3-2-1 0; }
-#sec-First_look_linear-3-2-1 > li::marker { content: ""counter(sec-First_look_linear-3-2-1,upper-alpha)"."; }
-#sec-First_look_linear-3-2-1 > li { counter-increment: sec-First_look_linear-3-2-1; }
-#sec-First_look_exponential-3-2-1 { counter-set: sec-First_look_exponential-3-2-1 0; }
-#sec-First_look_exponential-3-2-1 > li::marker { content: ""counter(sec-First_look_exponential-3-2-1,upper-alpha)"."; }
-#sec-First_look_exponential-3-2-1 > li { counter-increment: sec-First_look_exponential-3-2-1; }
-#sec-Using_equations-3-2-1 { counter-set: sec-Using_equations-3-2-1 0; }
-#sec-Using_equations-3-2-1 > li::marker { content: ""counter(sec-Using_equations-3-2-1,upper-alpha)"."; }
-#sec-Using_equations-3-2-1 > li { counter-increment: sec-Using_equations-3-2-1; }
-#sec-Approx_solutions-3-2-1 { counter-set: sec-Approx_solutions-3-2-1 0; }
-#sec-Approx_solutions-3-2-1 > li::marker { content: ""counter(sec-Approx_solutions-3-2-1,upper-alpha)"."; }
-#sec-Approx_solutions-3-2-1 > li { counter-increment: sec-Approx_solutions-3-2-1; }
-#sec-Finance-3-2-1 { counter-set: sec-Finance-3-2-1 0; }
-#sec-Finance-3-2-1 > li::marker { content: ""counter(sec-Finance-3-2-1,upper-alpha)"."; }
-#sec-Finance-3-2-1 > li { counter-increment: sec-Finance-3-2-1; }
-#sec-Solving_linear_equations-3-2-1 { counter-set: sec-Solving_linear_equations-3-2-1 0; }
-#sec-Solving_linear_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_linear_equations-3-2-1,upper-alpha)"."; }
-#sec-Solving_linear_equations-3-2-1 > li { counter-increment: sec-Solving_linear_equations-3-2-1; }
-#sec-Solving_linear_inequalities-3-2-1 { counter-set: sec-Solving_linear_inequalities-3-2-1 0; }
-#sec-Solving_linear_inequalities-3-2-1 > li::marker { content: ""counter(sec-Solving_linear_inequalities-3-2-1,upper-alpha)"."; }
-#sec-Solving_linear_inequalities-3-2-1 > li { counter-increment: sec-Solving_linear_inequalities-3-2-1; }
-#sec-Solving_power_equations-3-2-1 { counter-set: sec-Solving_power_equations-3-2-1 0; }
-#sec-Solving_power_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_power_equations-3-2-1,upper-alpha)"."; }
-#sec-Solving_power_equations-3-2-1 > li { counter-increment: sec-Solving_power_equations-3-2-1; }
-#sec-Solving_exponential_equations-3-2-1 { counter-set: sec-Solving_exponential_equations-3-2-1 0; }
-#sec-Solving_exponential_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_exponential_equations-3-2-1,upper-alpha)"."; }
-#sec-Solving_exponential_equations-3-2-1 > li { counter-increment: sec-Solving_exponential_equations-3-2-1; }
-#sec-Solving_quadratic_equations-3-2-1 { counter-set: sec-Solving_quadratic_equations-3-2-1 0; }
-#sec-Solving_quadratic_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_quadratic_equations-3-2-1,upper-alpha)"."; }
-#sec-Solving_quadratic_equations-3-2-1 > li { counter-increment: sec-Solving_quadratic_equations-3-2-1; }
-#sec-Modeling_linear_equations-3-2-1 { counter-set: sec-Modeling_linear_equations-3-2-1 0; }
-#sec-Modeling_linear_equations-3-2-1 > li::marker { content: ""counter(sec-Modeling_linear_equations-3-2-1,upper-alpha)"."; }
-#sec-Modeling_linear_equations-3-2-1 > li { counter-increment: sec-Modeling_linear_equations-3-2-1; }
-#sec-Systems_linear_equations-3-2-1 { counter-set: sec-Systems_linear_equations-3-2-1 0; }
-#sec-Systems_linear_equations-3-2-1 > li::marker { content: ""counter(sec-Systems_linear_equations-3-2-1,upper-alpha)"."; }
-#sec-Systems_linear_equations-3-2-1 > li { counter-increment: sec-Systems_linear_equations-3-2-1; }
-#sec-Intercepts-3-2-1 { counter-set: sec-Intercepts-3-2-1 0; }
-#sec-Intercepts-3-2-1 > li::marker { content: ""counter(sec-Intercepts-3-2-1,upper-alpha)"."; }
-#sec-Intercepts-3-2-1 > li { counter-increment: sec-Intercepts-3-2-1; }
-#sec-Slopes-3-2-1 { counter-set: sec-Slopes-3-2-1 0; }
-#sec-Slopes-3-2-1 > li::marker { content: ""counter(sec-Slopes-3-2-1,upper-alpha)"."; }
-#sec-Slopes-3-2-1 > li { counter-increment: sec-Slopes-3-2-1; }
-#sec-Fitting_lines_to_data-3-2-1 { counter-set: sec-Fitting_lines_to_data-3-2-1 0; }
-#sec-Fitting_lines_to_data-3-2-1 > li::marker { content: ""counter(sec-Fitting_lines_to_data-3-2-1,upper-alpha)"."; }
-#sec-Fitting_lines_to_data-3-2-1 > li { counter-increment: sec-Fitting_lines_to_data-3-2-1; }
-#sec-Modeling_exponential_equations-3-2-1 { counter-set: sec-Modeling_exponential_equations-3-2-1 0; }
-#sec-Modeling_exponential_equations-3-2-1 > li::marker { content: ""counter(sec-Modeling_exponential_equations-3-2-1,upper-alpha)"."; }
-#sec-Modeling_exponential_equations-3-2-1 > li { counter-increment: sec-Modeling_exponential_equations-3-2-1; }
-#sec-Exp_growth_decay-3-2-1 { counter-set: sec-Exp_growth_decay-3-2-1 0; }
-#sec-Exp_growth_decay-3-2-1 > li::marker { content: ""counter(sec-Exp_growth_decay-3-2-1,upper-alpha)"."; }
-#sec-Exp_growth_decay-3-2-1 > li { counter-increment: sec-Exp_growth_decay-3-2-1; }
-#sec-Growth_factor-3-2-1 { counter-set: sec-Growth_factor-3-2-1 0; }
-#sec-Growth_factor-3-2-1 > li::marker { content: ""counter(sec-Growth_factor-3-2-1,upper-alpha)"."; }
-#sec-Growth_factor-3-2-1 > li { counter-increment: sec-Growth_factor-3-2-1; }
-#sec-Linear_vs_exponential-3-2-1 { counter-set: sec-Linear_vs_exponential-3-2-1 0; }
-#sec-Linear_vs_exponential-3-2-1 > li::marker { content: ""counter(sec-Linear_vs_exponential-3-2-1,upper-alpha)"."; }
-#sec-Linear_vs_exponential-3-2-1 > li { counter-increment: sec-Linear_vs_exponential-3-2-1; }
-#sec-Logistic_growth-3-2-1 { counter-set: sec-Logistic_growth-3-2-1 0; }
-#sec-Logistic_growth-3-2-1 > li::marker { content: ""counter(sec-Logistic_growth-3-2-1,upper-alpha)"."; }
-#sec-Logistic_growth-3-2-1 > li { counter-increment: sec-Logistic_growth-3-2-1; }
-</style>
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Just Enough Algebra">
+<meta property="book:author" content="Dr. Suzanne Dorée">
+<meta property="book:author" content="Dr. Spencer Bagley">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.7.5';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.107bf2d9be20d9c4.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
 </head>
 <body id="justenoughalgebra" class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
 <a id="logo-link" class="logo-link" target="_blank" href=""><img src="external/book-open-solid.png" alt="Logo image"></a><div class="title-container">
-<h1 class="heading"><a href="just-enough-algebra.html"><span class="title">Just Enough Algebra</span></a></h1>
+<h1 class="heading"><a href="just-enough-algebra.html"><span class="title">Just Enough Algebra</span> <span class="subtitle">Summer 2025 edition</span></a></h1>
 <p class="byline">Dr. Suzanne Dorée, Dr. Spencer Bagley</p>
 </div>
-</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
 <div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
 <div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
 <div class="search-results-controls">
@@ -211,7 +137,8 @@ window.MathJax = {
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-Variables_and_functions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-Variables.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-Rate_of_change.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-Variables_and_functions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-Variables.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-Rate_of_change.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -220,12 +147,12 @@ window.MathJax = {
 \newcommand{\sfrac}[2]{{#1}/{#2}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter">
 <div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
-<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-why-this-book-web.html" class="internal"><span class="title">Why <em class="emphasis">Just Enough Algebra</em>?</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-students-web.html" class="internal"><span class="title">Students! Read this!</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-instructors-web.html" class="internal"><span class="title">Instructors! Read this!</span></a></div></li>
@@ -279,9 +206,9 @@ window.MathJax = {
 <div class="toc-title-box"><a href="sec-Variables_and_functions.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Variables and functions</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Variables_and_functions.html#exercises-variables-functions" class="internal"><span class="codenumber">1.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
-<li class="toc-item toc-section active">
+<li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="sec-Tables_and_graphs.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Tables and graphs</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Tables_and_graphs.html#ex-Tables_and_graphs" class="internal"><span class="codenumber">1.2</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural toc-item-list active"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Tables_and_graphs.html#ex-Tables_and_graphs" class="internal"><span class="codenumber">1.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-Rate_of_change.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Rate of change</span></a></div>
@@ -468,7 +395,16 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Tables_and_graphs"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">1.2</span><span class="space"> </span><span class="title">Tables and graphs</span>
 </h2>
-<section class="introduction" id="sec-Tables_and_graphs-2"><div class="para" id="sec-Tables_and_graphs-2-1">Lung cancer, chronic bronchitis, bad breath, stains on your clothes, and the expense. These are just a few of the consequences of smoking cigarettes. With what we know now about the dangers of smoking, are people smoking more or less than they were ten years ago, fifty years ago, or even one hundred years ago?</div> <div class="para" id="sec-Tables_and_graphs-2-2">Reality is, we don’t have information on each individual person’s smoking rate, so we can’t answer this question exactly. We do have information on the total number of cigarettes sold each year. So maybe we should look at that total. Uh oh, that isn’t going to work. There are way more people now than there were fifty or a hundred years ago. So, even if the same percentage of people smoke, and even if they each smoke the same amount as their predecessors did, we would have a much bigger number of cigarettes smoked now just because there are more people now.</div> <div class="para" id="sec-Tables_and_graphs-2-3">Turns out a reasonable measure is to compare the number of cigarettes smoked per year <em class="emphasis">per person</em>. By taking into account the number of people we will be able to see whether people are smoking more or less, on average. That’s what we want.</div> <div class="para" id="sec-Tables_and_graphs-2-4">The table showing the smoking rate for select years. The smoking rate is the average cigarettes per year per person (adults).</div> <aside class="aside aside-like" id="sec-Tables_and_graphs-2-5"><div class="para" id="sec-Tables_and_graphs-2-5-1">Source: Centers for Disease Control and Prevention</div></aside> <div class="tabular-box natural-width"><table class="tabular">
+<section class="introduction" id="sec-Tables_and_graphs-2"><div class="para" id="sec-Tables_and_graphs-2-1">Lung cancer, chronic bronchitis, bad breath, stains on your clothes, and the expense. These are just a few of the consequences of smoking cigarettes. With what we know now about the dangers of smoking, are people smoking more or less than they were ten years ago, fifty years ago, or even one hundred years ago?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Tables_and_graphs-2-2">Reality is, we don’t have information on each individual person’s smoking rate, so we can’t answer this question exactly. We do have information on the total number of cigarettes sold each year. So maybe we should look at that total. Uh oh, that isn’t going to work. There are way more people now than there were fifty or a hundred years ago. So, even if the same percentage of people smoke, and even if they each smoke the same amount as their predecessors did, we would have a much bigger number of cigarettes smoked now just because there are more people now.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Tables_and_graphs-2-3">Turns out a reasonable measure is to compare the number of cigarettes smoked per year <em class="emphasis">per person</em>. By taking into account the number of people we will be able to see whether people are smoking more or less, on average. That’s what we want.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Tables_and_graphs-2-4">The table showing the smoking rate for select years. The smoking rate is the average cigarettes per year per person (adults).<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<aside class="aside aside-like" id="sec-Tables_and_graphs-2-5"><div class="para" id="sec-Tables_and_graphs-2-5-1">Source: Centers for Disease Control and Prevention<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></aside><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines">Year</td>
 <td class="c m b1 r1 l0 t1 lines">1900</td>
@@ -495,7 +431,8 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines">2,049</td>
 <td class="c m b1 r1 l0 t0 lines">1,619</td>
 </tr>
-</table></div> <div class="para logical" id="sec-Tables_and_graphs-2-7">
+</table></div>
+<div class="para logical" id="sec-Tables_and_graphs-2-7">
 <div class="para">To make sense of these numbers, suppose there are five friends. Three don’t smoke at all, so that is 0 cigarettes in a year. Another smokes only occasionally, maybe 100 cigarettes a year. The fifth smokes “a pack a day,” which adds up to 7,300 cigarettes in a year because</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/sec-Units.html">
 \begin{equation*}
@@ -519,7 +456,15 @@ window.MathJax = {
 \end{equation*}
 </div>
 <div class="para">which is less than the average of 1,619 cigarettes per year per person for 2006 (the last year the CDC published the data), which is the way things seem to be heading.</div>
-</div> <div class="para" id="sec-Tables_and_graphs-2-8">We can tell a lot of information from this table. For example, what was the smoking rate in 1965, and how does that compare to 2006? The answers appears in the table, a whopping 4,258 cigarettes per person in 1965 and 1,619 cigarettes per person in 2006.</div> <div class="para" id="sec-Tables_and_graphs-2-9">When did the consumption first pass 3,000? That answer does not appear in the table, but we can use the information in the table to make a good guess. In 1940, there were an average of 1,976 cigarettes per person per year and by 1950, there were 3,552. Somewhere between 1940 and 1950 the number first climbed above 3,000. More specifically, the number we’re looking for (3,000) is a lot closer to the 1950 figure (3,552) than to the 1940 figure (1,976). So, it would be reasonable to guess close to 1950. I’d say 1947. Of course, you might guess 1946 or 1948, or even 1949 and those would be good guesses too.</div> <div class="para" id="sec-Tables_and_graphs-2-10">When did the consumption drop below 3,000 again? This answer also does not appear in the table, but falls somewhere between 1975 when consumption was 4,122 and 1990 when consumption was 2,834. Here I’d guess just before 1990, say in 1989.</div> <div class="para logical" id="sec-Tables_and_graphs-2-11">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-7" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Tables_and_graphs-2-8">We can tell a lot of information from this table. For example, what was the smoking rate in 1965, and how does that compare to 2006? The answers appears in the table, a whopping 4,258 cigarettes per person in 1965 and 1,619 cigarettes per person in 2006.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-8" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Tables_and_graphs-2-9">When did the consumption first pass 3,000? That answer does not appear in the table, but we can use the information in the table to make a good guess. In 1940, there were an average of 1,976 cigarettes per person per year and by 1950, there were 3,552. Somewhere between 1940 and 1950 the number first climbed above 3,000. More specifically, the number we’re looking for (3,000) is a lot closer to the 1950 figure (3,552) than to the 1940 figure (1,976). So, it would be reasonable to guess close to 1950. I’d say 1947. Of course, you might guess 1946 or 1948, or even 1949 and those would be good guesses too.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-9" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Tables_and_graphs-2-10">When did the consumption drop below 3,000 again? This answer also does not appear in the table, but falls somewhere between 1975 when consumption was 4,122 and 1990 when consumption was 2,834. Here I’d guess just before 1990, say in 1989.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-10" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Tables_and_graphs-2-11">
 <div class="para">What’s changing are the number of cigarettes smoked per person per year and the year. Those are our variables. The smoking rate is a function of year, and it’s what we care about, so it’s the dependent variable. Time, as measured in years, is the independent variable.</div>
 <div class="displaymath process-math" id="sec-Tables_and_graphs-2-11-1">
 \begin{align*}
@@ -528,7 +473,9 @@ Y \amp= \text{ year (years since 1900) } \sim \text{ indep}
 \end{align*}
 </div>
 <div class="para">Quick note on how we deal with actual years. Since the year 0 doesn’t make sense in this problem, it is convenient to measure time in years since 1900, since that’s the earliest year mentioned. Officially we should rewrite our table as:</div>
-</div> <div class="tabular-box natural-width"><table class="tabular">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-11" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(Y\)</span></td>
 <td class="c m b1 r1 l0 t1 lines">0</td>
@@ -555,9 +502,15 @@ Y \amp= \text{ year (years since 1900) } \sim \text{ indep}
 <td class="c m b1 r1 l0 t0 lines">2,049</td>
 <td class="c m b1 r1 l0 t0 lines">1,619</td>
 </tr>
-</table></div> <div class="para" id="sec-Tables_and_graphs-2-13">Notice where the variable names are listed in the table. In a horizontal format like this table, the independent variable (<span class="process-math">\(Y\)</span>) is in the top row, with the dependent variable (<span class="process-math">\(S\)</span>) is in the bottom row. If you want to write your table in a vertical format, that’s okay too. Just put the independent variable in the left column, with the dependent variable in the right column. It might help to remember that the independent variable goes first (either top or left) and the dependent variable follows (either bottom or right).</div> <div class="para" id="sec-Tables_and_graphs-2-14">Where the variables go in a table is not something you can figure out. It’s a <dfn class="terminology">convention</dfn> - a custom, practice, or standard used within the mathematical community. Though based on reason, it often involves some arbitrary choice, which is why we can’t figure it out. So, whenever some practice is introduced to you as a “convention,” you need to memorize it.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+</table></div>
+<div class="para" id="sec-Tables_and_graphs-2-13">Notice where the variable names are listed in the table. In a horizontal format like this table, the independent variable (<span class="process-math">\(Y\)</span>) is in the top row, with the dependent variable (<span class="process-math">\(S\)</span>) is in the bottom row. If you want to write your table in a vertical format, that’s okay too. Just put the independent variable in the left column, with the dependent variable in the right column. It might help to remember that the independent variable goes first (either top or left) and the dependent variable follows (either bottom or right).<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-13" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Tables_and_graphs-2-14">Where the variables go in a table is not something you can figure out. It’s a <dfn class="terminology">convention</dfn> - a custom, practice, or standard used within the mathematical community. Though based on reason, it often involves some arbitrary choice, which is why we can’t figure it out. So, whenever some practice is introduced to you as a “convention,” you need to memorize it.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-14" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
 <div class="sbspanel top" style="width:50%;">
-<div class="para" id="sec-Tables_and_graphs-2-15-1-1">Horizontal table format:</div>
+<div class="para" id="sec-Tables_and_graphs-2-15-1-1">Horizontal table format:<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-15-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <table class="tabular">
 <tr>
 <td class="l m b1 r1 l1 t1 lines">indep</td>
@@ -576,7 +529,8 @@ Y \amp= \text{ year (years since 1900) } \sim \text{ indep}
 </table>
 </div>
 <div class="sbspanel top" style="width:50%;">
-<div class="para" id="sec-Tables_and_graphs-2-15-2-1">Vertical table format:</div>
+<div class="para" id="sec-Tables_and_graphs-2-15-2-1">Vertical table format:<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-15-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 <table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines">indep</td>
@@ -600,24 +554,105 @@ Y \amp= \text{ year (years since 1900) } \sim \text{ indep}
 </tr>
 </table>
 </div>
-</div></div> <div class="para" id="sec-Tables_and_graphs-2-16">Tables are useful because they contain specific numbers, but it can be difficult to guess or see general trends. For that, a picture is worth a thousand words - or numbers, in this case. By “picture” we mean a graph of the function.</div> <div class="para" id="sec-Tables_and_graphs-2-17">Throughout this text, we draw graphs by hand. On graph paper. Seriously. You might wonder why we do that when graphing calculators, spreadsheet programs, graphing “apps,” or computer algebra systems all can draw graphs for us. The answer is we want to understand graphs better, and I promise that drawing them by hand will help you do that. (Different instructors have different opinions on the importance of graphing by hand, so be sure to ask your instructor what you are expected to do. Even if you’re allowed to use some type of graphing technology, I strongly encourage you to practice drawing graphs by hand as well.)</div> <div class="para" id="sec-Tables_and_graphs-2-18">There is a standard set-up for a graph.</div> <div class="para" id="sec-Tables_and_graphs-2-19"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/GraphLabelAxes.png" class="contained"></div></div> <div class="para" id="sec-Tables_and_graphs-2-20">The graph is based on a horizontal line and vertical line, called the <dfn class="terminology">axes</dfn>. <aside class="aside aside-like" id="sec-Tables_and_graphs-2-20-2"><div class="para" id="sec-Tables_and_graphs-2-20-2-1">That’s the plural of “axis”, and it rhymes with “jack cheese”.</div></aside> Where they cross is a point called the <dfn class="terminology">origin</dfn>. It represents where each variable is 0. By convention, the independent variable is measured along the horizontal axis, with larger values progressing to the right of the origin, and negatives to the left. Similarly, the dependent variable is measured along the vertical axis, with larger values progressing up from the origin, and negatives down. Each gridline counts the same number, called the <dfn class="terminology">scale</dfn>, but the scale for the vertical may be different from the scale for the horizontal. Each pair of values of the independent and dependent variable from our table correspond to a point on our graph.</div> <div class="para" id="sec-Tables_and_graphs-2-21">In the graph of smoking rates, the independent variable is <span class="process-math">\(Y\text{,}\)</span> the year, so that goes on the horizontal axis for our graph. Our dependent variable is <span class="process-math">\(S\text{,}\)</span> the smoking rate, so that goes on the vertical axis. For the scale, it works nicely to count by 10s for years and count by 500s for the smoking rate.</div> <div class="para" id="sec-Tables_and_graphs-2-22">There’s a certain amount of guess and check involved in figuring out a good scale for each axis. As a general rule of thumb we would like the graph to be as large as possible so we can see all of its features clearly. But, not so big that it runs off the graph paper. What matters is that the gridlines are evenly scaled and that they can handle large enough numbers. Speaking of which, it’s a good idea to leave a little room to extend the graph a little further than the information we have in the table, in case we get curious about values beyond what we have already.</div> <div class="para" id="sec-Tables_and_graphs-2-23">With realistic numbers it’s normal to have numbers in the table that are not exactly where the gridlines are. It is very helpful to count by round numbers (2s, 5s, 10s, etc.) because it makes guessing in between easier. Easier for you drawing the graph. Easier for someone reading your graph.</div> <div class="para" id="sec-Tables_and_graphs-2-24"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/CigScatter3.png" class="contained"></div></div> <div class="para" id="sec-Tables_and_graphs-2-25">To plot each point, we start at the origin and move right to that <span class="process-math">\(Y\)</span>-value, and then up to that <span class="process-math">\(S\)</span>-value. When a value doesn’t land exactly on a grid mark, we have to guess in between. For example, in 1900, <span class="process-math">\(Y=0\)</span> so we don’t move right at all, just up to <span class="process-math">\(S=54\text{.}\)</span> The first labeled gridline on our graph is 500. Where’s 54? It’s between 0 and 500, very close to 0. Our point is just a tiny bit above the origin. In 1915 we have <span class="process-math">\(Y=15\text{.}\)</span> Our labeled gridlines are for 10 and 20, so 15 must land halfway in between. The smoking rate is 285, which is around halfway between 0 and 500. Etc.</div> <div class="para" id="sec-Tables_and_graphs-2-26">What we have so far is a <dfn class="terminology">scatter plot</dfn> of points. Can you see why it’s called that? Anyway, our whole goal here was to be able to understand smoking rates better by having a graph. You may already begin to see a curve suggested by the points. Time to draw it in. I don’t mean drawing a line between each pair of points, like you do in the children’s game “connect the dots.” That isn’t quite right. It was probably more of a continuous trend and so the graph should be smoother.</div> <div class="para" id="sec-Tables_and_graphs-2-27"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/CigCurve.png" class="contained"></div></div> <div class="para" id="sec-Tables_and_graphs-2-28">When we draw in this smooth curve for the graph, what we are really doing is making a whole lot of guesses all at once. For example, from the table we guessed that the smoking rate passed 3,000 in around 1947, and dropped back to that level in around 1989. What does the graph show? If we look where the horizontal gridline for 3,000 crosses our graph, it crosses in two places. First, between the vertical gridlines for 40 and 50, and perhaps slightly closer to 50. I’d say <span class="process-math">\(Y \approx 47\text{,}\)</span> in the year 1947. Sure. The second time is between the gridlines for 80 and 90, much closer to 90. Looks like <span class="process-math">\(Y \approx 88\text{,}\)</span> in the year 1988. We guessed 1989. Close enough.</div> <div class="para" id="sec-Tables_and_graphs-2-29">Don’t forget that when we drew in that curve it was really just a guess. We’re sure about the points we plotted, but we’re only guessing about where to draw the curve in. That means we’re not sure about the other points. If we knew a lot more points we could have a more accurate graph.</div> <div class="para" id="sec-Tables_and_graphs-2-30">Turns out more data is available from the CDC. The full table of data from the CDC shows that consumption first topped 3,000 as early as 1944. Here’s an example where the history tells you more than the mathematics as cigarette consumption rose sharply during World War II. Our guess about 1988 or 1989 was spot on. Look at how the graph from the full data (the dotted line) compares to our guess.</div> <div class="para" id="sec-Tables_and_graphs-2-31"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/CigCompare.png" class="contained"></div></div></section><section class="conclusion" id="sec-Tables_and_graphs-3"><h3 class="heading">Do you know …<span></span>
-</h3> <div class="para logical" id="sec-Tables_and_graphs-3-2"><ol class="upper-alpha" id="sec-Tables_and_graphs-3-2-1">
-<li id="sec-Tables_and_graphs-3-2-1-1"><div class="para" id="sec-Tables_and_graphs-3-2-1-1-1">Where the independent and dependent variables appear in a table and in a graph?</div></li>
-<li id="sec-Tables_and_graphs-3-2-1-2"><div class="para" id="sec-Tables_and_graphs-3-2-1-2-1">How to guess values from a table or from a graph?</div></li>
-<li id="sec-Tables_and_graphs-3-2-1-3"><div class="para" id="sec-Tables_and_graphs-3-2-1-3-1">How to make a graph from a table?</div></li>
-<li id="sec-Tables_and_graphs-3-2-1-4"><div class="para" id="sec-Tables_and_graphs-3-2-1-4-1">Why we start each axis at 0?</div></li>
-<li id="sec-Tables_and_graphs-3-2-1-5"><div class="para" id="sec-Tables_and_graphs-3-2-1-5-1">What we mean by scaling an axis evenly?</div></li>
-<li id="sec-Tables_and_graphs-3-2-1-6"><div class="para" id="sec-Tables_and_graphs-3-2-1-6-1">How to make a table and then a graph from a story?</div></li>
-<li id="sec-Tables_and_graphs-3-2-1-7"><div class="para" id="sec-Tables_and_graphs-3-2-1-7-1">Why we draw in a smooth line or curve connecting the points?</div></li>
-<li id="sec-Tables_and_graphs-3-2-1-8"><div class="para" id="sec-Tables_and_graphs-3-2-1-8-1">What type of graphing technology, if any, you’re allowed to use? <em class="emphasis">Ask your instructor.</em>
-</div></li>
-</ol></div> <div class="para" id="sec-Tables_and_graphs-3-3"><em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em></div></section><section class="exercises" id="ex-Tables_and_graphs"><h3 class="heading hide-type">
+</div></div>
+<div class="para" id="sec-Tables_and_graphs-2-16">Tables are useful because they contain specific numbers, but it can be difficult to guess or see general trends. For that, a picture is worth a thousand words - or numbers, in this case. By “picture” we mean a graph of the function.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-16" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Tables_and_graphs-2-17">Throughout this text, we draw graphs by hand. On graph paper. Seriously. You might wonder why we do that when graphing calculators, spreadsheet programs, graphing “apps,” or computer algebra systems all can draw graphs for us. The answer is we want to understand graphs better, and I promise that drawing them by hand will help you do that. (Different instructors have different opinions on the importance of graphing by hand, so be sure to ask your instructor what you are expected to do. Even if you’re allowed to use some type of graphing technology, I strongly encourage you to practice drawing graphs by hand as well.)<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-17" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Tables_and_graphs-2-18">There is a standard set-up for a graph.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-18" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Tables_and_graphs-2-19">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/GraphLabelAxes.png" class="contained"></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-19" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Tables_and_graphs-2-20">The graph is based on a horizontal line and vertical line, called the <dfn class="terminology">axes</dfn>. <aside class="aside aside-like" id="sec-Tables_and_graphs-2-20-2"><div class="para" id="sec-Tables_and_graphs-2-20-2-1">That’s the plural of “axis”, and it rhymes with “jack cheese”.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-20-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></aside> Where they cross is a point called the <dfn class="terminology">origin</dfn>. It represents where each variable is 0. By convention, the independent variable is measured along the horizontal axis, with larger values progressing to the right of the origin, and negatives to the left. Similarly, the dependent variable is measured along the vertical axis, with larger values progressing up from the origin, and negatives down. Each gridline counts the same number, called the <dfn class="terminology">scale</dfn>, but the scale for the vertical may be different from the scale for the horizontal. Each pair of values of the independent and dependent variable from our table correspond to a point on our graph.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-20" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Tables_and_graphs-2-21">In the graph of smoking rates, the independent variable is <span class="process-math">\(Y\text{,}\)</span> the year, so that goes on the horizontal axis for our graph. Our dependent variable is <span class="process-math">\(S\text{,}\)</span> the smoking rate, so that goes on the vertical axis. For the scale, it works nicely to count by 10s for years and count by 500s for the smoking rate.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-21" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Tables_and_graphs-2-22">There’s a certain amount of guess and check involved in figuring out a good scale for each axis. As a general rule of thumb we would like the graph to be as large as possible so we can see all of its features clearly. But, not so big that it runs off the graph paper. What matters is that the gridlines are evenly scaled and that they can handle large enough numbers. Speaking of which, it’s a good idea to leave a little room to extend the graph a little further than the information we have in the table, in case we get curious about values beyond what we have already.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-22" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Tables_and_graphs-2-23">With realistic numbers it’s normal to have numbers in the table that are not exactly where the gridlines are. It is very helpful to count by round numbers (2s, 5s, 10s, etc.) because it makes guessing in between easier. Easier for you drawing the graph. Easier for someone reading your graph.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-23" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Tables_and_graphs-2-24">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/CigScatter3.png" class="contained"></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-24" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Tables_and_graphs-2-25">To plot each point, we start at the origin and move right to that <span class="process-math">\(Y\)</span>-value, and then up to that <span class="process-math">\(S\)</span>-value. When a value doesn’t land exactly on a grid mark, we have to guess in between. For example, in 1900, <span class="process-math">\(Y=0\)</span> so we don’t move right at all, just up to <span class="process-math">\(S=54\text{.}\)</span> The first labeled gridline on our graph is 500. Where’s 54? It’s between 0 and 500, very close to 0. Our point is just a tiny bit above the origin. In 1915 we have <span class="process-math">\(Y=15\text{.}\)</span> Our labeled gridlines are for 10 and 20, so 15 must land halfway in between. The smoking rate is 285, which is around halfway between 0 and 500. Etc.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-25" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Tables_and_graphs-2-26">What we have so far is a <dfn class="terminology">scatter plot</dfn> of points. Can you see why it’s called that? Anyway, our whole goal here was to be able to understand smoking rates better by having a graph. You may already begin to see a curve suggested by the points. Time to draw it in. I don’t mean drawing a line between each pair of points, like you do in the children’s game “connect the dots.” That isn’t quite right. It was probably more of a continuous trend and so the graph should be smoother.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-26" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Tables_and_graphs-2-27">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/CigCurve.png" class="contained"></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-27" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Tables_and_graphs-2-28">When we draw in this smooth curve for the graph, what we are really doing is making a whole lot of guesses all at once. For example, from the table we guessed that the smoking rate passed 3,000 in around 1947, and dropped back to that level in around 1989. What does the graph show? If we look where the horizontal gridline for 3,000 crosses our graph, it crosses in two places. First, between the vertical gridlines for 40 and 50, and perhaps slightly closer to 50. I’d say <span class="process-math">\(Y \approx 47\text{,}\)</span> in the year 1947. Sure. The second time is between the gridlines for 80 and 90, much closer to 90. Looks like <span class="process-math">\(Y \approx 88\text{,}\)</span> in the year 1988. We guessed 1989. Close enough.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-28" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Tables_and_graphs-2-29">Don’t forget that when we drew in that curve it was really just a guess. We’re sure about the points we plotted, but we’re only guessing about where to draw the curve in. That means we’re not sure about the other points. If we knew a lot more points we could have a more accurate graph.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-29" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Tables_and_graphs-2-30">Turns out more data is available from the CDC. The full table of data from the CDC shows that consumption first topped 3,000 as early as 1944. Here’s an example where the history tells you more than the mathematics as cigarette consumption rose sharply during World War II. Our guess about 1988 or 1989 was spot on. Look at how the graph from the full data (the dotted line) compares to our guess.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-30" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Tables_and_graphs-2-31">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/CigCompare.png" class="contained"></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-2-31" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="conclusion" id="sec-Tables_and_graphs-3"><h3 class="heading">Do you know …<span></span>
+</h3>
+<div class="para logical" id="sec-Tables_and_graphs-3-2">
+<ol class="upper-alpha ol-marker-1" id="sec-Tables_and_graphs-3-2-1">
+<li id="sec-Tables_and_graphs-3-2-1-1">
+<div class="para" id="sec-Tables_and_graphs-3-2-1-1-1">Where the independent and dependent variables appear in a table and in a graph?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-3-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item A"><a href="#sec-Tables_and_graphs-3-2-1-1" title="Copy permalink for Item A">🔗</a></div>
+</li>
+<li id="sec-Tables_and_graphs-3-2-1-2">
+<div class="para" id="sec-Tables_and_graphs-3-2-1-2-1">How to guess values from a table or from a graph?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-3-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item B"><a href="#sec-Tables_and_graphs-3-2-1-2" title="Copy permalink for Item B">🔗</a></div>
+</li>
+<li id="sec-Tables_and_graphs-3-2-1-3">
+<div class="para" id="sec-Tables_and_graphs-3-2-1-3-1">How to make a graph from a table?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-3-2-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item C"><a href="#sec-Tables_and_graphs-3-2-1-3" title="Copy permalink for Item C">🔗</a></div>
+</li>
+<li id="sec-Tables_and_graphs-3-2-1-4">
+<div class="para" id="sec-Tables_and_graphs-3-2-1-4-1">Why we start each axis at 0?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-3-2-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item D"><a href="#sec-Tables_and_graphs-3-2-1-4" title="Copy permalink for Item D">🔗</a></div>
+</li>
+<li id="sec-Tables_and_graphs-3-2-1-5">
+<div class="para" id="sec-Tables_and_graphs-3-2-1-5-1">What we mean by scaling an axis evenly?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-3-2-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item E"><a href="#sec-Tables_and_graphs-3-2-1-5" title="Copy permalink for Item E">🔗</a></div>
+</li>
+<li id="sec-Tables_and_graphs-3-2-1-6">
+<div class="para" id="sec-Tables_and_graphs-3-2-1-6-1">How to make a table and then a graph from a story?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-3-2-1-6-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item F"><a href="#sec-Tables_and_graphs-3-2-1-6" title="Copy permalink for Item F">🔗</a></div>
+</li>
+<li id="sec-Tables_and_graphs-3-2-1-7">
+<div class="para" id="sec-Tables_and_graphs-3-2-1-7-1">Why we draw in a smooth line or curve connecting the points?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-3-2-1-7-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item G"><a href="#sec-Tables_and_graphs-3-2-1-7" title="Copy permalink for Item G">🔗</a></div>
+</li>
+<li id="sec-Tables_and_graphs-3-2-1-8">
+<div class="para" id="sec-Tables_and_graphs-3-2-1-8-1">What type of graphing technology, if any, you’re allowed to use? <em class="emphasis">Ask your instructor.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-3-2-1-8-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item H"><a href="#sec-Tables_and_graphs-3-2-1-8" title="Copy permalink for Item H">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-3-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Tables_and_graphs-3-3">
+<em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-Tables_and_graphs-3-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="exercises" id="ex-Tables_and_graphs"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises</span>
 </h3>
-<section class="introduction" id="ex-Tables_and_graphs-1"><div class="para" id="ex-Tables_and_graphs-1-1">Exercises 1-4 are available in a separate workbook format.</div></section><article class="exercise exercise-like" id="grandfather-bonds-tables-graphs"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<section class="introduction" id="ex-Tables_and_graphs-1"><div class="para" id="ex-Tables_and_graphs-1-1">Exercises 1-4 are available in a separate workbook format.<div class="autopermalink" data-description="Paragraph"><a href="#ex-Tables_and_graphs-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><article class="exercise exercise-like" id="grandfather-bonds-tables-graphs"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
 <div class="introduction" id="grandfather-bonds-tables-graphs-1">
-<div class="para" id="grandfather-bonds-tables-graphs-1-1">My grandfather had $200 in savings bonds that matured in 1962 when he gave them to me. The bonds continue to earn interest at a fixed rate so I have yet to cash them in. The table shows some values. <em class="emphasis">(Story also appears in <a href="sec-Modeling_linear_equations.html#grandfather-bonds-modeling-linear" class="xref" data-knowl="./knowl/xref/grandfather-bonds-modeling-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 4.1.3.a">4.1.3.a</a> and <a href="sec-Growth_factor.html#grandfather-bonds-growth-factor" class="xref" data-knowl="./knowl/xref/grandfather-bonds-growth-factor.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 5.3.1">5.3.1</a>)</em>
-</div> <div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="grandfather-bonds-tables-graphs-1-1">My grandfather had $200 in savings bonds that matured in 1962 when he gave them to me. The bonds continue to earn interest at a fixed rate so I have yet to cash them in. The table shows some values. <em class="emphasis">(Story also appears in <a href="sec-Modeling_linear_equations.html#grandfather-bonds-modeling-linear" class="xref" data-knowl="./knowl/xref/grandfather-bonds-modeling-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 4.1.3.a">4.1.3.a</a> and <a href="sec-Growth_factor.html#grandfather-bonds-growth-factor" class="xref" data-knowl="./knowl/xref/grandfather-bonds-growth-factor.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 5.3.1">5.3.1</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#grandfather-bonds-tables-graphs-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines">year</th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">1962</th>
@@ -648,16 +683,32 @@ Y \amp= \text{ year (years since 1900) } \sim \text{ indep}
 </table></div>
 </div>
 <article class="task exercise-like" id="grandfather-bonds-tables-graphs-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="grandfather-bonds-tables-graphs-2-1-1">What do <span class="process-math">\(T\)</span> and <span class="process-math">\(B\)</span> stand for? Include the units and dependence.</div></article><article class="task exercise-like" id="grandfather-bonds-tables-graphs-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="grandfather-bonds-tables-graphs-3-1-1">What were the savings bonds worth in 1970?</div></article><article class="task exercise-like" id="grandfather-bonds-tables-graphs-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="grandfather-bonds-tables-graphs-4-1-1">When were the savings bonds worth $1,022.34?</div></article><article class="task exercise-like" id="grandfather-bonds-tables-graphs-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="grandfather-bonds-tables-graphs-5-1-1">Approximately when were the savings bonds worth $1,500?</div></article><article class="task exercise-like" id="grandfather-bonds-tables-graphs-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="grandfather-bonds-tables-graphs-6-1-1">What do you expect the savings bonds would be worth in 2020?</div></article><article class="task exercise-like" id="grandfather-bonds-tables-graphs-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
-<div class="para" id="grandfather-bonds-tables-graphs-7-1-1">Graph the function using the information given in the table.</div></article><article class="task exercise-like" id="grandfather-bonds-tables-graphs-8"><h5 class="heading"><span class="codenumber">(g)</span></h5>
-<div class="para" id="grandfather-bonds-tables-graphs-8-1-1">Use the graph to check your answers to the questions.</div></article></article><article class="exercise exercise-like" id="wind-chill-tables-graphs"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="para" id="grandfather-bonds-tables-graphs-2-1-1">What do <span class="process-math">\(T\)</span> and <span class="process-math">\(B\)</span> stand for? Include the units and dependence.<div class="autopermalink" data-description="Paragraph"><a href="#grandfather-bonds-tables-graphs-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.1.a"><a href="#grandfather-bonds-tables-graphs-2" title="Copy permalink for Task 1.2.1.a">🔗</a></div></article><article class="task exercise-like" id="grandfather-bonds-tables-graphs-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="grandfather-bonds-tables-graphs-3-1-1">What were the savings bonds worth in 1970?<div class="autopermalink" data-description="Paragraph"><a href="#grandfather-bonds-tables-graphs-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.1.b"><a href="#grandfather-bonds-tables-graphs-3" title="Copy permalink for Task 1.2.1.b">🔗</a></div></article><article class="task exercise-like" id="grandfather-bonds-tables-graphs-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="grandfather-bonds-tables-graphs-4-1-1">When were the savings bonds worth $1,022.34?<div class="autopermalink" data-description="Paragraph"><a href="#grandfather-bonds-tables-graphs-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.1.c"><a href="#grandfather-bonds-tables-graphs-4" title="Copy permalink for Task 1.2.1.c">🔗</a></div></article><article class="task exercise-like" id="grandfather-bonds-tables-graphs-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="grandfather-bonds-tables-graphs-5-1-1">Approximately when were the savings bonds worth $1,500?<div class="autopermalink" data-description="Paragraph"><a href="#grandfather-bonds-tables-graphs-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.1.d"><a href="#grandfather-bonds-tables-graphs-5" title="Copy permalink for Task 1.2.1.d">🔗</a></div></article><article class="task exercise-like" id="grandfather-bonds-tables-graphs-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="grandfather-bonds-tables-graphs-6-1-1">What do you expect the savings bonds would be worth in 2020?<div class="autopermalink" data-description="Paragraph"><a href="#grandfather-bonds-tables-graphs-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.1.e"><a href="#grandfather-bonds-tables-graphs-6" title="Copy permalink for Task 1.2.1.e">🔗</a></div></article><article class="task exercise-like" id="grandfather-bonds-tables-graphs-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="grandfather-bonds-tables-graphs-7-1-1">Graph the function using the information given in the table.<div class="autopermalink" data-description="Paragraph"><a href="#grandfather-bonds-tables-graphs-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.1.f"><a href="#grandfather-bonds-tables-graphs-7" title="Copy permalink for Task 1.2.1.f">🔗</a></div></article><article class="task exercise-like" id="grandfather-bonds-tables-graphs-8"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<div class="para" id="grandfather-bonds-tables-graphs-8-1-1">Use the graph to check your answers to the questions.<div class="autopermalink" data-description="Paragraph"><a href="#grandfather-bonds-tables-graphs-8-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.1.g"><a href="#grandfather-bonds-tables-graphs-8" title="Copy permalink for Task 1.2.1.g">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.2.1"><a href="#grandfather-bonds-tables-graphs" title="Copy permalink for Exercise 1.2.1">🔗</a></div></article><article class="exercise exercise-like" id="wind-chill-tables-graphs"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
 <div class="introduction" id="wind-chill-tables-graphs-1">
-<div class="para" id="wind-chill-tables-graphs-1-1">How cold is it? An air temperature of 10°F is cold but manageable. But add a 30 miles per hour wind and, brrr, it feels like it is -12°F (12 below zero). We say the <dfn class="terminology">wind chill</dfn> of 10°F with a 30 mph wind is -12°F. The table lists the wind chill for various wind speeds at an air temperature of 10°F. <em class="emphasis">(Story also appears in <a href="sec-Modeling_linear_equations.html#wind-chill-modeling-linear" class="xref" data-knowl="./knowl/xref/wind-chill-modeling-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 4.1.3.b">4.1.3.b</a> )</em> <aside class="aside aside-like" id="wind-chill-tables-graphs-1-1-8"><div class="para" id="wind-chill-tables-graphs-1-1-8-1">Source: National Weather Service</div></aside>
-</div> <div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="wind-chill-tables-graphs-1-1">How cold is it? An air temperature of 10°F is cold but manageable. But add a 30 miles per hour wind and, brrr, it feels like it is -12°F (12 below zero). We say the <dfn class="terminology">wind chill</dfn> of 10°F with a 30 mph wind is -12°F. The table lists the wind chill for various wind speeds at an air temperature of 10°F. <em class="emphasis">(Story also appears in <a href="sec-Modeling_linear_equations.html#wind-chill-modeling-linear" class="xref" data-knowl="./knowl/xref/wind-chill-modeling-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 4.1.3.b">4.1.3.b</a> )</em> <aside class="aside aside-like" id="wind-chill-tables-graphs-1-1-8"><div class="para" id="wind-chill-tables-graphs-1-1-8-1">Source: National Weather Service<div class="autopermalink" data-description="Paragraph"><a href="#wind-chill-tables-graphs-1-1-8-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></aside><div class="autopermalink" data-description="Paragraph"><a href="#wind-chill-tables-graphs-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b1 r1 l1 t1 lines">Wind speed (mph)</td>
 <td class="c m b1 r1 l0 t1 lines">0</td>
@@ -693,29 +744,64 @@ Y \amp= \text{ year (years since 1900) } \sim \text{ indep}
 </table></div>
 </div>
 <article class="task exercise-like" id="wind-chill-tables-graphs-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="wind-chill-tables-graphs-2-1-1">Name the variables, including units and dependence.</div></article><article class="task exercise-like" id="wind-chill-tables-graphs-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="wind-chill-tables-graphs-3-1-1">At an air temperature of 10°F with a 20 mph wind, what is the wind chill?</div></article><article class="task exercise-like" id="wind-chill-tables-graphs-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="wind-chill-tables-graphs-4-1-1">A <dfn class="terminology">cold advisory</dfn> is issued whenever the wind chill falls below 0°F. How fast does the wind need to be at an air temperature of 10°F to issue a cold advisory?</div></article><article class="task exercise-like" id="wind-chill-tables-graphs-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="wind-chill-tables-graphs-5-1-1">Between a wind chill of 0°F and -15°F, schools in our district are open but kids may not go outside for recess. What is the corresponding range of wind speeds at an air temperature of 10°F?</div></article><article class="task exercise-like" id="wind-chill-tables-graphs-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="wind-chill-tables-graphs-6-1-1">Draw a graph showing how wind chill depends on wind speed and use it to check your answers. To graph both positive and negative numbers on the vertical axis, put the horizontal axis somewhere in the middle of the graph paper.</div></article></article><article class="exercise exercise-like" id="wedding-rental-tables-graphs"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="para" id="wind-chill-tables-graphs-2-1-1">Name the variables, including units and dependence.<div class="autopermalink" data-description="Paragraph"><a href="#wind-chill-tables-graphs-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.2.a"><a href="#wind-chill-tables-graphs-2" title="Copy permalink for Task 1.2.2.a">🔗</a></div></article><article class="task exercise-like" id="wind-chill-tables-graphs-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="wind-chill-tables-graphs-3-1-1">At an air temperature of 10°F with a 20 mph wind, what is the wind chill?<div class="autopermalink" data-description="Paragraph"><a href="#wind-chill-tables-graphs-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.2.b"><a href="#wind-chill-tables-graphs-3" title="Copy permalink for Task 1.2.2.b">🔗</a></div></article><article class="task exercise-like" id="wind-chill-tables-graphs-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="wind-chill-tables-graphs-4-1-1">A <dfn class="terminology">cold advisory</dfn> is issued whenever the wind chill falls below 0°F. How fast does the wind need to be at an air temperature of 10°F to issue a cold advisory?<div class="autopermalink" data-description="Paragraph"><a href="#wind-chill-tables-graphs-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.2.c"><a href="#wind-chill-tables-graphs-4" title="Copy permalink for Task 1.2.2.c">🔗</a></div></article><article class="task exercise-like" id="wind-chill-tables-graphs-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="wind-chill-tables-graphs-5-1-1">Between a wind chill of 0°F and -15°F, schools in our district are open but kids may not go outside for recess. What is the corresponding range of wind speeds at an air temperature of 10°F?<div class="autopermalink" data-description="Paragraph"><a href="#wind-chill-tables-graphs-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.2.d"><a href="#wind-chill-tables-graphs-5" title="Copy permalink for Task 1.2.2.d">🔗</a></div></article><article class="task exercise-like" id="wind-chill-tables-graphs-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="wind-chill-tables-graphs-6-1-1">Draw a graph showing how wind chill depends on wind speed and use it to check your answers. To graph both positive and negative numbers on the vertical axis, put the horizontal axis somewhere in the middle of the graph paper.<div class="autopermalink" data-description="Paragraph"><a href="#wind-chill-tables-graphs-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.2.e"><a href="#wind-chill-tables-graphs-6" title="Copy permalink for Task 1.2.2.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.2.2"><a href="#wind-chill-tables-graphs" title="Copy permalink for Exercise 1.2.2">🔗</a></div></article><article class="exercise exercise-like" id="wedding-rental-tables-graphs"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
 <div class="introduction" id="wedding-rental-tables-graphs-1">
-<div class="para" id="wedding-rental-tables-graphs-1-1">Anthony and Christina are trying to decide where to hold their wedding reception. The Metropolitan Club costs $1,300 for the space and $92 per person.</div> <div class="para" id="wedding-rental-tables-graphs-1-2"><em class="emphasis">(Story also appears in <a href="sec-Rate_of_change.html#wedding-rental-rate-of-change" class="xref" data-knowl="./knowl/xref/wedding-rental-rate-of-change.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.3.2">1.3.2</a> and <a href="sec-Solving_linear_inequalities.html#wedding-rental-linear-ineq" class="xref" data-knowl="./knowl/xref/wedding-rental-linear-ineq.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.2.3">3.2.3</a>)</em></div>
+<div class="para" id="wedding-rental-tables-graphs-1-1">Anthony and Christina are trying to decide where to hold their wedding reception. The Metropolitan Club costs $1,300 for the space and $92 per person.<div class="autopermalink" data-description="Paragraph"><a href="#wedding-rental-tables-graphs-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="wedding-rental-tables-graphs-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Rate_of_change.html#wedding-rental-rate-of-change" class="xref" data-knowl="./knowl/xref/wedding-rental-rate-of-change.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.3.2">1.3.2</a> and <a href="sec-Solving_linear_inequalities.html#wedding-rental-linear-ineq" class="xref" data-knowl="./knowl/xref/wedding-rental-linear-ineq.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.2.3">3.2.3</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#wedding-rental-tables-graphs-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 </div>
 <article class="task exercise-like" id="wedding-rental-tables-graphs-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="wedding-rental-tables-graphs-2-1-1">Identify and name the variables, including units.</div></article><article class="task exercise-like" id="wedding-rental-tables-graphs-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="wedding-rental-tables-graphs-3-1-1">Explain the dependence using a sentence of the form “<span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span> is a function of <span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span>”.</div></article><article class="task exercise-like" id="wedding-rental-tables-graphs-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="wedding-rental-tables-graphs-4-1-1">Make a table showing the cost for 20, 50, 75, 100, or 150 people.</div></article><article class="task exercise-like" id="wedding-rental-tables-graphs-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="wedding-rental-tables-graphs-5-1-1">If Tony and Tina’s budget is $8,000, <em class="emphasis">about</em> how many people can they invite to their wedding reception? Give a <em class="emphasis">rough estimate</em> from your table.</div></article><article class="task exercise-like" id="wedding-rental-tables-graphs-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="wedding-rental-tables-graphs-6-1-1">Graph the function.</div></article><article class="task exercise-like" id="wedding-rental-tables-graphs-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
-<div class="para" id="wedding-rental-tables-graphs-7-1-1">Does your estimate agree with your graph?  If not, revise.</div></article><article class="task exercise-like" id="wedding-rental-tables-graphs-8"><h5 class="heading"><span class="codenumber">(g)</span></h5>
-<div class="para" id="wedding-rental-tables-graphs-8-1-1">Can you figure out from the story <em class="emphasis">exactly</em> how many guests Tony and Tina can invite to their wedding reception and stay within their $8,000 budget?</div></article></article><article class="exercise exercise-like" id="juan-coffee-tables-graphs"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
-<div class="introduction" id="juan-coffee-tables-graphs-1"><div class="para" id="juan-coffee-tables-graphs-1-1">A mug of coffee costs $3.45 at Juan’s favorite cafe. <em class="emphasis">(Story also appears in <a href="sec-Order_of_operations.html#juan-coffee-order-operations" class="xref" data-knowl="./knowl/xref/juan-coffee-order-operations.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.4.1">0.4.1</a>, <a href="sec-First_look_linear.html#juan-coffee-first-look-linear" class="xref" data-knowl="./knowl/xref/juan-coffee-first-look-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.1.4">2.1.4</a>, and <a href="sec-Systems_linear_equations.html#juan-coffee-systems-linear" class="xref" data-knowl="./knowl/xref/juan-coffee-systems-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 4.2.2">4.2.2</a>)</em>
+<div class="para" id="wedding-rental-tables-graphs-2-1-1">Identify and name the variables, including units.<div class="autopermalink" data-description="Paragraph"><a href="#wedding-rental-tables-graphs-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.3.a"><a href="#wedding-rental-tables-graphs-2" title="Copy permalink for Task 1.2.3.a">🔗</a></div></article><article class="task exercise-like" id="wedding-rental-tables-graphs-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="wedding-rental-tables-graphs-3-1-1">Explain the dependence using a sentence of the form “<span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span> is a function of <span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span>”.<div class="autopermalink" data-description="Paragraph"><a href="#wedding-rental-tables-graphs-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.3.b"><a href="#wedding-rental-tables-graphs-3" title="Copy permalink for Task 1.2.3.b">🔗</a></div></article><article class="task exercise-like" id="wedding-rental-tables-graphs-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="wedding-rental-tables-graphs-4-1-1">Make a table showing the cost for 20, 50, 75, 100, or 150 people.<div class="autopermalink" data-description="Paragraph"><a href="#wedding-rental-tables-graphs-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.3.c"><a href="#wedding-rental-tables-graphs-4" title="Copy permalink for Task 1.2.3.c">🔗</a></div></article><article class="task exercise-like" id="wedding-rental-tables-graphs-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="wedding-rental-tables-graphs-5-1-1">If Tony and Tina’s budget is $8,000, <em class="emphasis">about</em> how many people can they invite to their wedding reception? Give a <em class="emphasis">rough estimate</em> from your table.<div class="autopermalink" data-description="Paragraph"><a href="#wedding-rental-tables-graphs-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.3.d"><a href="#wedding-rental-tables-graphs-5" title="Copy permalink for Task 1.2.3.d">🔗</a></div></article><article class="task exercise-like" id="wedding-rental-tables-graphs-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="wedding-rental-tables-graphs-6-1-1">Graph the function.<div class="autopermalink" data-description="Paragraph"><a href="#wedding-rental-tables-graphs-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.3.e"><a href="#wedding-rental-tables-graphs-6" title="Copy permalink for Task 1.2.3.e">🔗</a></div></article><article class="task exercise-like" id="wedding-rental-tables-graphs-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="wedding-rental-tables-graphs-7-1-1">Does your estimate agree with your graph?  If not, revise.<div class="autopermalink" data-description="Paragraph"><a href="#wedding-rental-tables-graphs-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.3.f"><a href="#wedding-rental-tables-graphs-7" title="Copy permalink for Task 1.2.3.f">🔗</a></div></article><article class="task exercise-like" id="wedding-rental-tables-graphs-8"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<div class="para" id="wedding-rental-tables-graphs-8-1-1">Can you figure out from the story <em class="emphasis">exactly</em> how many guests Tony and Tina can invite to their wedding reception and stay within their $8,000 budget?<div class="autopermalink" data-description="Paragraph"><a href="#wedding-rental-tables-graphs-8-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.3.g"><a href="#wedding-rental-tables-graphs-8" title="Copy permalink for Task 1.2.3.g">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.2.3"><a href="#wedding-rental-tables-graphs" title="Copy permalink for Exercise 1.2.3">🔗</a></div></article><article class="exercise exercise-like" id="juan-coffee-tables-graphs"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="juan-coffee-tables-graphs-1"><div class="para" id="juan-coffee-tables-graphs-1-1">A mug of coffee costs $3.45 at Juan’s favorite cafe. <em class="emphasis">(Story also appears in <a href="sec-Order_of_operations.html#juan-coffee-order-operations" class="xref" data-knowl="./knowl/xref/juan-coffee-order-operations.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.4.1">0.4.1</a>, <a href="sec-First_look_linear.html#juan-coffee-first-look-linear" class="xref" data-knowl="./knowl/xref/juan-coffee-first-look-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.1.4">2.1.4</a>, and <a href="sec-Systems_linear_equations.html#juan-coffee-systems-linear" class="xref" data-knowl="./knowl/xref/juan-coffee-systems-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 4.2.2">4.2.2</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#juan-coffee-tables-graphs-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div></div>
 <article class="task exercise-like" id="juan-coffee-tables-graphs-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="juan-coffee-tables-graphs-2-1-1">Juan buys coffee on the way to work every day. How much does Juan spend on coffee in a month? Let’s say that’s 22 workdays.</div></article><article class="task exercise-like" id="juan-coffee-tables-graphs-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="juan-coffee-tables-graphs-3-1-1">If Juan pays $10 for a discount card, then coffee costs $2.90/mug instead. How much (total) would Juan spend on coffee in a month if he buys the discount card first? Still use 22 workdays. Include the $10.</div></article><article class="task exercise-like" id="juan-coffee-tables-graphs-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="juan-coffee-tables-graphs-4-1-1">Does the card pay for itself within the month? That means, is the total with the card (including the $10 for the card) less than the total without the card?</div></article><article class="task exercise-like" id="juan-coffee-tables-graphs-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="juan-coffee-tables-graphs-5-1-1">Complete the table, where <span class="process-math">\(M\)</span> is the number of mugs of coffee Juan buys and <span class="process-math">\(T\)</span> is the total cost, in dollars.</div> <div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="juan-coffee-tables-graphs-2-1-1">Juan buys coffee on the way to work every day. How much does Juan spend on coffee in a month? Let’s say that’s 22 workdays.<div class="autopermalink" data-description="Paragraph"><a href="#juan-coffee-tables-graphs-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.4.a"><a href="#juan-coffee-tables-graphs-2" title="Copy permalink for Task 1.2.4.a">🔗</a></div></article><article class="task exercise-like" id="juan-coffee-tables-graphs-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="juan-coffee-tables-graphs-3-1-1">If Juan pays $10 for a discount card, then coffee costs $2.90/mug instead. How much (total) would Juan spend on coffee in a month if he buys the discount card first? Still use 22 workdays. Include the $10.<div class="autopermalink" data-description="Paragraph"><a href="#juan-coffee-tables-graphs-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.4.b"><a href="#juan-coffee-tables-graphs-3" title="Copy permalink for Task 1.2.4.b">🔗</a></div></article><article class="task exercise-like" id="juan-coffee-tables-graphs-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="juan-coffee-tables-graphs-4-1-1">Does the card pay for itself within the month? That means, is the total with the card (including the $10 for the card) less than the total without the card?<div class="autopermalink" data-description="Paragraph"><a href="#juan-coffee-tables-graphs-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.4.c"><a href="#juan-coffee-tables-graphs-4" title="Copy permalink for Task 1.2.4.c">🔗</a></div></article><article class="task exercise-like" id="juan-coffee-tables-graphs-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="juan-coffee-tables-graphs-5-1-1">Complete the table, where <span class="process-math">\(M\)</span> is the number of mugs of coffee Juan buys and <span class="process-math">\(T\)</span> is the total cost, in dollars.<div class="autopermalink" data-description="Paragraph"><a href="#juan-coffee-tables-graphs-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(M\)</span></td>
 <td class="c m b1 r1 l0 t1 lines">0</td>
@@ -739,11 +825,17 @@ Y \amp= \text{ year (years since 1900) } \sim \text{ indep}
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int\int}\)</span></td>
 </tr>
-</table></div></article><article class="task exercise-like" id="juan-coffee-tables-graphs-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="juan-coffee-tables-graphs-6-1-1">Draw a graph illustrating both functions.</div> </article><article class="task exercise-like" id="juan-coffee-tables-graphs-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
-<div class="para" id="juan-coffee-tables-graphs-7-1-1">What does the point where the two lines cross mean in terms of the story?</div></article></article><article class="exercise exercise-like" id="earth-population-tables-graphs"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+</table></div>
+<div class="autopermalink" data-description="Task 1.2.4.d"><a href="#juan-coffee-tables-graphs-5" title="Copy permalink for Task 1.2.4.d">🔗</a></div></article><article class="task exercise-like" id="juan-coffee-tables-graphs-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="juan-coffee-tables-graphs-6-1-1">Draw a graph illustrating both functions.<div class="autopermalink" data-description="Paragraph"><a href="#juan-coffee-tables-graphs-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="autopermalink" data-description="Task 1.2.4.e"><a href="#juan-coffee-tables-graphs-6" title="Copy permalink for Task 1.2.4.e">🔗</a></div></article><article class="task exercise-like" id="juan-coffee-tables-graphs-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="juan-coffee-tables-graphs-7-1-1">What does the point where the two lines cross mean in terms of the story?<div class="autopermalink" data-description="Paragraph"><a href="#juan-coffee-tables-graphs-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.4.f"><a href="#juan-coffee-tables-graphs-7" title="Copy permalink for Task 1.2.4.f">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.2.4"><a href="#juan-coffee-tables-graphs" title="Copy permalink for Exercise 1.2.4">🔗</a></div></article><article class="exercise exercise-like" id="earth-population-tables-graphs"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
 <div class="introduction" id="earth-population-tables-graphs-1">
-<div class="para" id="earth-population-tables-graphs-1-1">The table lists estimates of Earth’s population, in billions, for select years since 1800.</div> <div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="earth-population-tables-graphs-1-1">The table lists estimates of Earth’s population, in billions, for select years since 1800.<div class="autopermalink" data-description="Paragraph"><a href="#earth-population-tables-graphs-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b1 r1 l1 t1 lines">Year</td>
 <td class="c m b1 r1 l0 t1 lines">1800</td>
@@ -764,17 +856,37 @@ Y \amp= \text{ year (years since 1900) } \sim \text{ indep}
 <td class="c m b1 r1 l0 t0 lines">5.27</td>
 <td class="c m b1 r1 l0 t0 lines">6.06</td>
 </tr>
-</table></div> <aside class="aside aside-like" id="earth-population-tables-graphs-1-3"><div class="para" id="earth-population-tables-graphs-1-3-1">Source: “The World at Six Billion” United Nations report</div></aside> <div class="para" id="earth-population-tables-graphs-1-4"><em class="emphasis">(Story also appears in <a href="sec-Rate_of_change.html#earth-population-rate-of-change" class="xref" data-knowl="./knowl/xref/earth-population-rate-of-change.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.3.8">1.3.8</a>)</em></div> <div class="para" id="earth-population-tables-graphs-1-5">Use the table to find or reasonably guess the answers to the following questions.</div>
+</table></div>
+<aside class="aside aside-like" id="earth-population-tables-graphs-1-3"><div class="para" id="earth-population-tables-graphs-1-3-1">Source: “The World at Six Billion” United Nations report<div class="autopermalink" data-description="Paragraph"><a href="#earth-population-tables-graphs-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></aside><div class="para" id="earth-population-tables-graphs-1-4">
+<em class="emphasis">(Story also appears in <a href="sec-Rate_of_change.html#earth-population-rate-of-change" class="xref" data-knowl="./knowl/xref/earth-population-rate-of-change.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.3.8">1.3.8</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#earth-population-tables-graphs-1-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="earth-population-tables-graphs-1-5">Use the table to find or reasonably guess the answers to the following questions.<div class="autopermalink" data-description="Paragraph"><a href="#earth-population-tables-graphs-1-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 </div>
 <article class="task exercise-like" id="earth-population-tables-graphs-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="earth-population-tables-graphs-2-1-1">What was the population of Earth in 1850?</div></article><article class="task exercise-like" id="earth-population-tables-graphs-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="earth-population-tables-graphs-3-1-1">What do you think the population of Earth was in 1860?</div></article><article class="task exercise-like" id="earth-population-tables-graphs-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="earth-population-tables-graphs-4-1-1">What do you think the population of Earth was in 1960?</div></article><article class="task exercise-like" id="earth-population-tables-graphs-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="earth-population-tables-graphs-5-1-1">In what year do you think the population of Earth first exceeded 2 billion?</div></article><article class="task exercise-like" id="earth-population-tables-graphs-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="earth-population-tables-graphs-6-1-1">In what year do you think the population of the world will exceed 7 billion?</div></article><article class="task exercise-like" id="earth-population-tables-graphs-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
-<div class="para" id="earth-population-tables-graphs-7-1-1">Identify the variables, including units and dependence.</div></article></article><article class="exercise exercise-like" id="truck-rental-tables-graphs"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="para" id="earth-population-tables-graphs-2-1-1">What was the population of Earth in 1850?<div class="autopermalink" data-description="Paragraph"><a href="#earth-population-tables-graphs-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.5.a"><a href="#earth-population-tables-graphs-2" title="Copy permalink for Task 1.2.5.a">🔗</a></div></article><article class="task exercise-like" id="earth-population-tables-graphs-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="earth-population-tables-graphs-3-1-1">What do you think the population of Earth was in 1860?<div class="autopermalink" data-description="Paragraph"><a href="#earth-population-tables-graphs-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.5.b"><a href="#earth-population-tables-graphs-3" title="Copy permalink for Task 1.2.5.b">🔗</a></div></article><article class="task exercise-like" id="earth-population-tables-graphs-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="earth-population-tables-graphs-4-1-1">What do you think the population of Earth was in 1960?<div class="autopermalink" data-description="Paragraph"><a href="#earth-population-tables-graphs-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.5.c"><a href="#earth-population-tables-graphs-4" title="Copy permalink for Task 1.2.5.c">🔗</a></div></article><article class="task exercise-like" id="earth-population-tables-graphs-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="earth-population-tables-graphs-5-1-1">In what year do you think the population of Earth first exceeded 2 billion?<div class="autopermalink" data-description="Paragraph"><a href="#earth-population-tables-graphs-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.5.d"><a href="#earth-population-tables-graphs-5" title="Copy permalink for Task 1.2.5.d">🔗</a></div></article><article class="task exercise-like" id="earth-population-tables-graphs-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="earth-population-tables-graphs-6-1-1">In what year do you think the population of the world will exceed 7 billion?<div class="autopermalink" data-description="Paragraph"><a href="#earth-population-tables-graphs-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.5.e"><a href="#earth-population-tables-graphs-6" title="Copy permalink for Task 1.2.5.e">🔗</a></div></article><article class="task exercise-like" id="earth-population-tables-graphs-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="earth-population-tables-graphs-7-1-1">Identify the variables, including units and dependence.<div class="autopermalink" data-description="Paragraph"><a href="#earth-population-tables-graphs-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.5.f"><a href="#earth-population-tables-graphs-7" title="Copy permalink for Task 1.2.5.f">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.2.5"><a href="#earth-population-tables-graphs" title="Copy permalink for Exercise 1.2.5">🔗</a></div></article><article class="exercise exercise-like" id="truck-rental-tables-graphs"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
 <div class="introduction" id="truck-rental-tables-graphs-1">
-<div class="para" id="truck-rental-tables-graphs-1-1">Your local truck rental agency lists what it costs to rent a truck (for one day) based on the number of miles you drive the truck.</div> <div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="truck-rental-tables-graphs-1-1">Your local truck rental agency lists what it costs to rent a truck (for one day) based on the number of miles you drive the truck.<div class="autopermalink" data-description="Paragraph"><a href="#truck-rental-tables-graphs-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b1 r1 l1 t1 lines">Distance driven (miles)</td>
 <td class="c m b1 r1 l0 t1 lines">50</td>
@@ -789,36 +901,83 @@ Y \amp= \text{ year (years since 1900) } \sim \text{ indep}
 <td class="c m b1 r1 l0 t0 lines">72.50</td>
 <td class="c m b1 r1 l0 t0 lines">90.00</td>
 </tr>
-</table></div> <div class="para" id="truck-rental-tables-graphs-1-3"><em class="emphasis">(Story also appears in <a href="sec-Rate_of_change.html#truck-rental-rate-of-change" class="xref" data-knowl="./knowl/xref/truck-rental-rate-of-change.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.3.6">1.3.6</a> and <a href="sec-Slopes.html#truck-rental-slopes" class="xref" data-knowl="./knowl/xref/truck-rental-slopes.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 4.4.8">4.4.8</a>)</em></div> <div class="para" id="truck-rental-tables-graphs-1-4">Use the table to find or reasonably guess the answers to the following questions.</div>
+</table></div>
+<div class="para" id="truck-rental-tables-graphs-1-3">
+<em class="emphasis">(Story also appears in <a href="sec-Rate_of_change.html#truck-rental-rate-of-change" class="xref" data-knowl="./knowl/xref/truck-rental-rate-of-change.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.3.6">1.3.6</a> and <a href="sec-Slopes.html#truck-rental-slopes" class="xref" data-knowl="./knowl/xref/truck-rental-slopes.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 4.4.8">4.4.8</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#truck-rental-tables-graphs-1-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="truck-rental-tables-graphs-1-4">Use the table to find or reasonably guess the answers to the following questions.<div class="autopermalink" data-description="Paragraph"><a href="#truck-rental-tables-graphs-1-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 </div>
 <article class="task exercise-like" id="truck-rental-tables-graphs-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="truck-rental-tables-graphs-2-1-1">How much does it cost to rent a truck if you drive it 100 miles?</div></article><article class="task exercise-like" id="truck-rental-tables-graphs-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="truck-rental-tables-graphs-3-1-1">How many miles did you drive a truck costing $90.00 to rent?</div></article><article class="task exercise-like" id="truck-rental-tables-graphs-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="truck-rental-tables-graphs-4-1-1">If you rent a truck and drive it 75 miles, how much do you think it will cost?</div></article><article class="task exercise-like" id="truck-rental-tables-graphs-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="truck-rental-tables-graphs-5-1-1">If you rent a truck and drive it 10 miles, how much do you think it will cost?</div></article><article class="task exercise-like" id="truck-rental-tables-graphs-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="truck-rental-tables-graphs-6-1-1">If you rent a truck and it costs $60.00, about how many miles was it driven?</div></article><article class="task exercise-like" id="truck-rental-tables-graphs-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
-<div class="para" id="truck-rental-tables-graphs-7-1-1">Identify the variables, including units, realistic domain, and dependence.</div></article><article class="task exercise-like" id="truck-rental-tables-graphs-8"><h5 class="heading"><span class="codenumber">(g)</span></h5>
-<div class="para" id="truck-rental-tables-graphs-8-1-1">Draw a detailed graph illustrating the dependence based on the points given in the table. Be sure your axes are labeled and evenly scaled. Sketch in a smooth curve connecting the points.</div></article><article class="task exercise-like" id="truck-rental-tables-graphs-9"><h5 class="heading"><span class="codenumber">(h)</span></h5>
-<div class="para" id="truck-rental-tables-graphs-9-1-1">Use your graph to check your answers to the questions. Modify, if necessary.</div></article></article><article class="exercise exercise-like" id="temp-mpls-tables-graphs"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="para" id="truck-rental-tables-graphs-2-1-1">How much does it cost to rent a truck if you drive it 100 miles?<div class="autopermalink" data-description="Paragraph"><a href="#truck-rental-tables-graphs-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.6.a"><a href="#truck-rental-tables-graphs-2" title="Copy permalink for Task 1.2.6.a">🔗</a></div></article><article class="task exercise-like" id="truck-rental-tables-graphs-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="truck-rental-tables-graphs-3-1-1">How many miles did you drive a truck costing $90.00 to rent?<div class="autopermalink" data-description="Paragraph"><a href="#truck-rental-tables-graphs-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.6.b"><a href="#truck-rental-tables-graphs-3" title="Copy permalink for Task 1.2.6.b">🔗</a></div></article><article class="task exercise-like" id="truck-rental-tables-graphs-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="truck-rental-tables-graphs-4-1-1">If you rent a truck and drive it 75 miles, how much do you think it will cost?<div class="autopermalink" data-description="Paragraph"><a href="#truck-rental-tables-graphs-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.6.c"><a href="#truck-rental-tables-graphs-4" title="Copy permalink for Task 1.2.6.c">🔗</a></div></article><article class="task exercise-like" id="truck-rental-tables-graphs-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="truck-rental-tables-graphs-5-1-1">If you rent a truck and drive it 10 miles, how much do you think it will cost?<div class="autopermalink" data-description="Paragraph"><a href="#truck-rental-tables-graphs-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.6.d"><a href="#truck-rental-tables-graphs-5" title="Copy permalink for Task 1.2.6.d">🔗</a></div></article><article class="task exercise-like" id="truck-rental-tables-graphs-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="truck-rental-tables-graphs-6-1-1">If you rent a truck and it costs $60.00, about how many miles was it driven?<div class="autopermalink" data-description="Paragraph"><a href="#truck-rental-tables-graphs-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.6.e"><a href="#truck-rental-tables-graphs-6" title="Copy permalink for Task 1.2.6.e">🔗</a></div></article><article class="task exercise-like" id="truck-rental-tables-graphs-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="truck-rental-tables-graphs-7-1-1">Identify the variables, including units, realistic domain, and dependence.<div class="autopermalink" data-description="Paragraph"><a href="#truck-rental-tables-graphs-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.6.f"><a href="#truck-rental-tables-graphs-7" title="Copy permalink for Task 1.2.6.f">🔗</a></div></article><article class="task exercise-like" id="truck-rental-tables-graphs-8"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<div class="para" id="truck-rental-tables-graphs-8-1-1">Draw a detailed graph illustrating the dependence based on the points given in the table. Be sure your axes are labeled and evenly scaled. Sketch in a smooth curve connecting the points.<div class="autopermalink" data-description="Paragraph"><a href="#truck-rental-tables-graphs-8-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.6.g"><a href="#truck-rental-tables-graphs-8" title="Copy permalink for Task 1.2.6.g">🔗</a></div></article><article class="task exercise-like" id="truck-rental-tables-graphs-9"><h5 class="heading"><span class="codenumber">(h)</span></h5>
+<div class="para" id="truck-rental-tables-graphs-9-1-1">Use your graph to check your answers to the questions. Modify, if necessary.<div class="autopermalink" data-description="Paragraph"><a href="#truck-rental-tables-graphs-9-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.6.h"><a href="#truck-rental-tables-graphs-9" title="Copy permalink for Task 1.2.6.h">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.2.6"><a href="#truck-rental-tables-graphs" title="Copy permalink for Exercise 1.2.6">🔗</a></div></article><article class="exercise exercise-like" id="temp-mpls-tables-graphs"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
 <div class="introduction" id="temp-mpls-tables-graphs-1">
-<div class="para" id="temp-mpls-tables-graphs-1-1">The temperature was 40°F at noon yesterday downtown Minneapolis but it dropped 3°F an hour in the afternoon.</div> <div class="para" id="temp-mpls-tables-graphs-1-2"><em class="emphasis">(Story also appears in <a href="sec-Modeling_linear_equations.html#temp-mpls-modeling-linear" class="xref" data-knowl="./knowl/xref/temp-mpls-modeling-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 4.1.8">4.1.8</a> and <a href="sec-Modeling_linear_equations.html#temp-mpls-modeling-linear" class="xref" data-knowl="./knowl/xref/temp-mpls-modeling-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 4.1.8">4.1.8</a>)</em></div>
+<div class="para" id="temp-mpls-tables-graphs-1-1">The temperature was 40°F at noon yesterday downtown Minneapolis but it dropped 3°F an hour in the afternoon.<div class="autopermalink" data-description="Paragraph"><a href="#temp-mpls-tables-graphs-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="temp-mpls-tables-graphs-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Modeling_linear_equations.html#temp-mpls-modeling-linear" class="xref" data-knowl="./knowl/xref/temp-mpls-modeling-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 4.1.8">4.1.8</a> and <a href="sec-Modeling_linear_equations.html#temp-mpls-modeling-linear" class="xref" data-knowl="./knowl/xref/temp-mpls-modeling-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 4.1.8">4.1.8</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#temp-mpls-tables-graphs-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 </div>
 <article class="task exercise-like" id="temp-mpls-tables-graphs-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="temp-mpls-tables-graphs-2-1-1">Make a table of reasonable values.</div></article><article class="task exercise-like" id="temp-mpls-tables-graphs-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="temp-mpls-tables-graphs-3-1-1">Draw a graph illustrating the dependence. Count time in hours after noon.</div></article><article class="task exercise-like" id="temp-mpls-tables-graphs-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="temp-mpls-tables-graphs-4-1-1">According to your table and graph, when did the temperature drop below freezing (32°F)?</div></article><article class="task exercise-like" id="temp-mpls-tables-graphs-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="temp-mpls-tables-graphs-5-1-1">According to your graph, when did the temperature drop below 0°F? Does that seem realistic? <em class="emphasis">Here in the midwest there are no oceans or mountains to moderate large temperature changes.</em>
-</div></article></article><article class="exercise exercise-like" id="social-security-tables-graphs"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="para" id="temp-mpls-tables-graphs-2-1-1">Make a table of reasonable values.<div class="autopermalink" data-description="Paragraph"><a href="#temp-mpls-tables-graphs-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.7.a"><a href="#temp-mpls-tables-graphs-2" title="Copy permalink for Task 1.2.7.a">🔗</a></div></article><article class="task exercise-like" id="temp-mpls-tables-graphs-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="temp-mpls-tables-graphs-3-1-1">Draw a graph illustrating the dependence. Count time in hours after noon.<div class="autopermalink" data-description="Paragraph"><a href="#temp-mpls-tables-graphs-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.7.b"><a href="#temp-mpls-tables-graphs-3" title="Copy permalink for Task 1.2.7.b">🔗</a></div></article><article class="task exercise-like" id="temp-mpls-tables-graphs-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="temp-mpls-tables-graphs-4-1-1">According to your table and graph, when did the temperature drop below freezing (32°F)?<div class="autopermalink" data-description="Paragraph"><a href="#temp-mpls-tables-graphs-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.7.c"><a href="#temp-mpls-tables-graphs-4" title="Copy permalink for Task 1.2.7.c">🔗</a></div></article><article class="task exercise-like" id="temp-mpls-tables-graphs-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="temp-mpls-tables-graphs-5-1-1">According to your graph, when did the temperature drop below 0°F? Does that seem realistic? <em class="emphasis">Here in the midwest there are no oceans or mountains to moderate large temperature changes.</em><div class="autopermalink" data-description="Paragraph"><a href="#temp-mpls-tables-graphs-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.7.d"><a href="#temp-mpls-tables-graphs-5" title="Copy permalink for Task 1.2.7.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.2.7"><a href="#temp-mpls-tables-graphs" title="Copy permalink for Exercise 1.2.7">🔗</a></div></article><article class="exercise exercise-like" id="social-security-tables-graphs"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
 <div class="introduction" id="social-security-tables-graphs-1">
-<div class="para" id="social-security-tables-graphs-1-1">Mrs. Nystrom’s Social Security benefit was $746.17/month when she retired from teaching in 2009. She had taught in elementary school since I was a girl. Benefits have increased by 4% per year.</div> <div class="para" id="social-security-tables-graphs-1-2"><em class="emphasis">(Story also appears in <a href="sec-Arithmetic_operations.html#social-security-arithmetic-operations" class="xref" data-knowl="./knowl/xref/social-security-arithmetic-operations.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.2.5">0.2.5</a>, <a href="sec-Variables_and_functions.html#social-security-variables-functions" class="xref" data-knowl="./knowl/xref/social-security-variables-functions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.1.7">1.1.7</a>, and <a href="sec-Modeling_exponential_equations.html#social-security-modeling-exponential" class="xref" data-knowl="./knowl/xref/social-security-modeling-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 5.1.6">5.1.6</a>)</em></div>
+<div class="para" id="social-security-tables-graphs-1-1">Mrs. Nystrom’s Social Security benefit was $746.17/month when she retired from teaching in 2009. She had taught in elementary school since I was a girl. Benefits have increased by 4% per year.<div class="autopermalink" data-description="Paragraph"><a href="#social-security-tables-graphs-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="social-security-tables-graphs-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Arithmetic_operations.html#social-security-arithmetic-operations" class="xref" data-knowl="./knowl/xref/social-security-arithmetic-operations.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.2.5">0.2.5</a>, <a href="sec-Variables_and_functions.html#social-security-variables-functions" class="xref" data-knowl="./knowl/xref/social-security-variables-functions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.1.7">1.1.7</a>, and <a href="sec-Modeling_exponential_equations.html#social-security-modeling-exponential" class="xref" data-knowl="./knowl/xref/social-security-modeling-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 5.1.6">5.1.6</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#social-security-tables-graphs-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 </div>
 <article class="task exercise-like" id="social-security-tables-graphs-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="social-security-tables-graphs-2-1-1">Make a table of reasonable values using <span class="process-math">\(N\)</span> for Mrs. Nystrom’s benefits (in dollars) and <span class="process-math">\(Y\)</span> for time (in years since 2009).</div></article><article class="task exercise-like" id="social-security-tables-graphs-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="social-security-tables-graphs-3-1-1">Draw a graph illustrating the dependence. Scale your graph to show up through the year 2020 and $1,200.</div></article><article class="task exercise-like" id="social-security-tables-graphs-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="social-security-tables-graphs-4-1-1">According to your table and graph, when did her benefit pass $900/month?</div></article><article class="task exercise-like" id="social-security-tables-graphs-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="social-security-tables-graphs-5-1-1">If you extend your graph to 2020, what would you estimate Mrs. Nystrom’s benefit will be then, assuming these increases continue?</div></article></article><article class="exercise exercise-like" id="heat-index-tables-graphs-ex"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="para" id="social-security-tables-graphs-2-1-1">Make a table of reasonable values using <span class="process-math">\(N\)</span> for Mrs. Nystrom’s benefits (in dollars) and <span class="process-math">\(Y\)</span> for time (in years since 2009).<div class="autopermalink" data-description="Paragraph"><a href="#social-security-tables-graphs-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.8.a"><a href="#social-security-tables-graphs-2" title="Copy permalink for Task 1.2.8.a">🔗</a></div></article><article class="task exercise-like" id="social-security-tables-graphs-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="social-security-tables-graphs-3-1-1">Draw a graph illustrating the dependence. Scale your graph to show up through the year 2020 and $1,200.<div class="autopermalink" data-description="Paragraph"><a href="#social-security-tables-graphs-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.8.b"><a href="#social-security-tables-graphs-3" title="Copy permalink for Task 1.2.8.b">🔗</a></div></article><article class="task exercise-like" id="social-security-tables-graphs-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="social-security-tables-graphs-4-1-1">According to your table and graph, when did her benefit pass $900/month?<div class="autopermalink" data-description="Paragraph"><a href="#social-security-tables-graphs-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.8.c"><a href="#social-security-tables-graphs-4" title="Copy permalink for Task 1.2.8.c">🔗</a></div></article><article class="task exercise-like" id="social-security-tables-graphs-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="social-security-tables-graphs-5-1-1">If you extend your graph to 2020, what would you estimate Mrs. Nystrom’s benefit will be then, assuming these increases continue?<div class="autopermalink" data-description="Paragraph"><a href="#social-security-tables-graphs-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.8.d"><a href="#social-security-tables-graphs-5" title="Copy permalink for Task 1.2.8.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.2.8"><a href="#social-security-tables-graphs" title="Copy permalink for Exercise 1.2.8">🔗</a></div></article><article class="exercise exercise-like" id="heat-index-tables-graphs-ex"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
 <div class="introduction" id="heat-index-tables-graphs-ex-1">
-<div class="para" id="heat-index-tables-graphs-ex-1-1">The table shows the “heat index” as a function of humidity at an air temperature of 88°F. With up to about 40% humidity, 88°F feels like it’s 88°F. But if the humidity rises to 60%, then it feels like it is 95°F; that is, the heat index is 95°F.</div> <aside class="aside aside-like" id="heat-index-tables-graphs-ex-1-2"><div class="para" id="heat-index-tables-graphs-ex-1-2-1">Source: National Oceanic and Atmospheric Administration</div></aside> <div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="heat-index-tables-graphs-ex-1-1">The table shows the “heat index” as a function of humidity at an air temperature of 88°F. With up to about 40% humidity, 88°F feels like it’s 88°F. But if the humidity rises to 60%, then it feels like it is 95°F; that is, the heat index is 95°F.<div class="autopermalink" data-description="Paragraph"><a href="#heat-index-tables-graphs-ex-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<aside class="aside aside-like" id="heat-index-tables-graphs-ex-1-2"><div class="para" id="heat-index-tables-graphs-ex-1-2-1">Source: National Oceanic and Atmospheric Administration<div class="autopermalink" data-description="Paragraph"><a href="#heat-index-tables-graphs-ex-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></aside><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b1 r1 l1 t1 lines">Humidity (%)</td>
 <td class="c m b1 r1 l0 t1 lines">50</td>
@@ -837,23 +996,41 @@ Y \amp= \text{ year (years since 1900) } \sim \text{ indep}
 <td class="c m b1 r1 l0 t0 lines">113</td>
 <td class="c m b1 r1 l0 t0 lines">117</td>
 </tr>
-</table></div> <div class="para" id="heat-index-tables-graphs-ex-1-4">All of the following questions refer to situations when the air temperature is 88°F.</div>
+</table></div>
+<div class="para" id="heat-index-tables-graphs-ex-1-4">All of the following questions refer to situations when the air temperature is 88°F.<div class="autopermalink" data-description="Paragraph"><a href="#heat-index-tables-graphs-ex-1-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 </div>
 <article class="task exercise-like" id="heat-index-tables-graphs-ex-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="heat-index-tables-graphs-ex-2-1-1">What is the heat index when the humidity level is 70%?</div></article><article class="task exercise-like" id="heat-index-tables-graphs-ex-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="heat-index-tables-graphs-ex-3-1-1">At what humidity level does it feel more like 98°F?</div></article><article class="task exercise-like" id="heat-index-tables-graphs-ex-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="heat-index-tables-graphs-ex-4-1-1">Heat exhaustion is likely to occur when the heat index reaches 105°F. At what humidity level will heat exhaustion likely occur?</div></article><article class="task exercise-like" id="heat-index-tables-graphs-ex-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="heat-index-tables-graphs-ex-5-1-1">The heat index is considered danger in the range from 105°F to 129°F. What range of humidity levels are considered dangerous?</div></article><article class="task exercise-like" id="heat-index-tables-graphs-ex-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="heat-index-tables-graphs-ex-6-1-1">What do you think the heat index would be at 99% humidity?</div></article><article class="task exercise-like" id="heat-index-tables-graphs-ex-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
-<div class="para" id="heat-index-tables-graphs-ex-7-1-1">Identify the variables, including units, realistic domain, and dependence.</div></article><article class="task exercise-like" id="heat-index-tables-graphs-ex-8"><h5 class="heading"><span class="codenumber">(g)</span></h5>
-<div class="para" id="heat-index-tables-graphs-ex-8-1-1">Draw a detailed graph illustrating the dependence based on the points given in the table. Be sure your axes are labeled and evenly scaled. Sketch in a smooth curve connecting the points.</div></article><article class="task exercise-like" id="heat-index-tables-graphs-ex-9"><h5 class="heading"><span class="codenumber">(h)</span></h5>
-<div class="para" id="heat-index-tables-graphs-ex-9-1-1">Use your graph to check your answers to the questions. Modify, if necessary.</div></article></article></section></section></div>
-<div class="ptx-content-footer">
+<div class="para" id="heat-index-tables-graphs-ex-2-1-1">What is the heat index when the humidity level is 70%?<div class="autopermalink" data-description="Paragraph"><a href="#heat-index-tables-graphs-ex-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.9.a"><a href="#heat-index-tables-graphs-ex-2" title="Copy permalink for Task 1.2.9.a">🔗</a></div></article><article class="task exercise-like" id="heat-index-tables-graphs-ex-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="heat-index-tables-graphs-ex-3-1-1">At what humidity level does it feel more like 98°F?<div class="autopermalink" data-description="Paragraph"><a href="#heat-index-tables-graphs-ex-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.9.b"><a href="#heat-index-tables-graphs-ex-3" title="Copy permalink for Task 1.2.9.b">🔗</a></div></article><article class="task exercise-like" id="heat-index-tables-graphs-ex-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="heat-index-tables-graphs-ex-4-1-1">Heat exhaustion is likely to occur when the heat index reaches 105°F. At what humidity level will heat exhaustion likely occur?<div class="autopermalink" data-description="Paragraph"><a href="#heat-index-tables-graphs-ex-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.9.c"><a href="#heat-index-tables-graphs-ex-4" title="Copy permalink for Task 1.2.9.c">🔗</a></div></article><article class="task exercise-like" id="heat-index-tables-graphs-ex-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="heat-index-tables-graphs-ex-5-1-1">The heat index is considered danger in the range from 105°F to 129°F. What range of humidity levels are considered dangerous?<div class="autopermalink" data-description="Paragraph"><a href="#heat-index-tables-graphs-ex-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.9.d"><a href="#heat-index-tables-graphs-ex-5" title="Copy permalink for Task 1.2.9.d">🔗</a></div></article><article class="task exercise-like" id="heat-index-tables-graphs-ex-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="heat-index-tables-graphs-ex-6-1-1">What do you think the heat index would be at 99% humidity?<div class="autopermalink" data-description="Paragraph"><a href="#heat-index-tables-graphs-ex-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.9.e"><a href="#heat-index-tables-graphs-ex-6" title="Copy permalink for Task 1.2.9.e">🔗</a></div></article><article class="task exercise-like" id="heat-index-tables-graphs-ex-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="heat-index-tables-graphs-ex-7-1-1">Identify the variables, including units, realistic domain, and dependence.<div class="autopermalink" data-description="Paragraph"><a href="#heat-index-tables-graphs-ex-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.9.f"><a href="#heat-index-tables-graphs-ex-7" title="Copy permalink for Task 1.2.9.f">🔗</a></div></article><article class="task exercise-like" id="heat-index-tables-graphs-ex-8"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<div class="para" id="heat-index-tables-graphs-ex-8-1-1">Draw a detailed graph illustrating the dependence based on the points given in the table. Be sure your axes are labeled and evenly scaled. Sketch in a smooth curve connecting the points.<div class="autopermalink" data-description="Paragraph"><a href="#heat-index-tables-graphs-ex-8-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.9.g"><a href="#heat-index-tables-graphs-ex-8" title="Copy permalink for Task 1.2.9.g">🔗</a></div></article><article class="task exercise-like" id="heat-index-tables-graphs-ex-9"><h5 class="heading"><span class="codenumber">(h)</span></h5>
+<div class="para" id="heat-index-tables-graphs-ex-9-1-1">Use your graph to check your answers to the questions. Modify, if necessary.<div class="autopermalink" data-description="Paragraph"><a href="#heat-index-tables-graphs-ex-9-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.2.9.h"><a href="#heat-index-tables-graphs-ex-9" title="Copy permalink for Task 1.2.9.h">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.2.9"><a href="#heat-index-tables-graphs-ex" title="Copy permalink for Exercise 1.2.9">🔗</a></div></article><div class="autopermalink" data-description="Exercises 1.2"><a href="#ex-Tables_and_graphs" title="Copy permalink for Exercises 1.2">🔗</a></div></section><div class="autopermalink" data-description="Section 1.2: Tables and graphs"><a href="#sec-Tables_and_graphs" title="Copy permalink for Section 1.2: Tables and graphs">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="sec-Variables_and_functions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-Rate_of_change.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
-<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
 </div>
 </body>
 </html>

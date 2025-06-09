@@ -5,16 +5,25 @@
 <!--*         https://pretextbook.org          *-->
 <!--*                                          *-->
 <!--********************************************-->
-<html lang="en-US" dir="ltr">
+<html lang="en-US" dir="ltr" data-legacy-colorscheme="blue_red">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-legacy                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Units</title>
-<meta name="Keywords" content="Authored in PreTeXt">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta property="og:type" content="book">
-<meta property="book:title" content="Just Enough Algebra">
-<meta property="book:author" content="Dr. Suzanne Dorée">
-<meta property="book:author" content="Dr. Spencer Bagley">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;" rel="stylesheet">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
 <script>
 var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
 window.MathJax = {
@@ -70,137 +79,54 @@ window.MathJax = {
     )}
   }
 };
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
-<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
-</script><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
-<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
-<style>
-#sec-Approximation_and_rounding-3-2-1 { counter-set: sec-Approximation_and_rounding-3-2-1 0; }
-#sec-Approximation_and_rounding-3-2-1 > li::marker { content: ""counter(sec-Approximation_and_rounding-3-2-1,upper-alpha)"."; }
-#sec-Approximation_and_rounding-3-2-1 > li { counter-increment: sec-Approximation_and_rounding-3-2-1; }
-#sec-Arithmetic_operations-3-2-1 { counter-set: sec-Arithmetic_operations-3-2-1 0; }
-#sec-Arithmetic_operations-3-2-1 > li::marker { content: ""counter(sec-Arithmetic_operations-3-2-1,upper-alpha)"."; }
-#sec-Arithmetic_operations-3-2-1 > li { counter-increment: sec-Arithmetic_operations-3-2-1; }
-#sec-Percentages-3-2-1 { counter-set: sec-Percentages-3-2-1 0; }
-#sec-Percentages-3-2-1 > li::marker { content: ""counter(sec-Percentages-3-2-1,upper-alpha)"."; }
-#sec-Percentages-3-2-1 > li { counter-increment: sec-Percentages-3-2-1; }
-#sec-Order_of_operations-3-2-1 { counter-set: sec-Order_of_operations-3-2-1 0; }
-#sec-Order_of_operations-3-2-1 > li::marker { content: ""counter(sec-Order_of_operations-3-2-1,upper-alpha)"."; }
-#sec-Order_of_operations-3-2-1 > li { counter-increment: sec-Order_of_operations-3-2-1; }
-#sec-Fractions-3-2-1 { counter-set: sec-Fractions-3-2-1 0; }
-#sec-Fractions-3-2-1 > li::marker { content: ""counter(sec-Fractions-3-2-1,upper-alpha)"."; }
-#sec-Fractions-3-2-1 > li { counter-increment: sec-Fractions-3-2-1; }
-#sec-Powers_and_roots-3-2-1 { counter-set: sec-Powers_and_roots-3-2-1 0; }
-#sec-Powers_and_roots-3-2-1 > li::marker { content: ""counter(sec-Powers_and_roots-3-2-1,upper-alpha)"."; }
-#sec-Powers_and_roots-3-2-1 > li { counter-increment: sec-Powers_and_roots-3-2-1; }
-#sec-Algebraic_notation-3-2-1 { counter-set: sec-Algebraic_notation-3-2-1 0; }
-#sec-Algebraic_notation-3-2-1 > li::marker { content: ""counter(sec-Algebraic_notation-3-2-1,upper-alpha)"."; }
-#sec-Algebraic_notation-3-2-1 > li { counter-increment: sec-Algebraic_notation-3-2-1; }
-#sec-Scientific_notation-3-2-1 { counter-set: sec-Scientific_notation-3-2-1 0; }
-#sec-Scientific_notation-3-2-1 > li::marker { content: ""counter(sec-Scientific_notation-3-2-1,upper-alpha)"."; }
-#sec-Scientific_notation-3-2-1 > li { counter-increment: sec-Scientific_notation-3-2-1; }
-#sec-Logarithms-3-2-1 { counter-set: sec-Logarithms-3-2-1 0; }
-#sec-Logarithms-3-2-1 > li::marker { content: ""counter(sec-Logarithms-3-2-1,upper-alpha)"."; }
-#sec-Logarithms-3-2-1 > li { counter-increment: sec-Logarithms-3-2-1; }
-#sec-Variables_and_functions-3-2-1 { counter-set: sec-Variables_and_functions-3-2-1 0; }
-#sec-Variables_and_functions-3-2-1 > li::marker { content: ""counter(sec-Variables_and_functions-3-2-1,upper-alpha)"."; }
-#sec-Variables_and_functions-3-2-1 > li { counter-increment: sec-Variables_and_functions-3-2-1; }
-#sec-Tables_and_graphs-3-2-1 { counter-set: sec-Tables_and_graphs-3-2-1 0; }
-#sec-Tables_and_graphs-3-2-1 > li::marker { content: ""counter(sec-Tables_and_graphs-3-2-1,upper-alpha)"."; }
-#sec-Tables_and_graphs-3-2-1 > li { counter-increment: sec-Tables_and_graphs-3-2-1; }
-#sec-Rate_of_change-3-2-1 { counter-set: sec-Rate_of_change-3-2-1 0; }
-#sec-Rate_of_change-3-2-1 > li::marker { content: ""counter(sec-Rate_of_change-3-2-1,upper-alpha)"."; }
-#sec-Rate_of_change-3-2-1 > li { counter-increment: sec-Rate_of_change-3-2-1; }
-#sec-Units-3-2-1 { counter-set: sec-Units-3-2-1 0; }
-#sec-Units-3-2-1 > li::marker { content: ""counter(sec-Units-3-2-1,upper-alpha)"."; }
-#sec-Units-3-2-1 > li { counter-increment: sec-Units-3-2-1; }
-#sec-Metric_system_and_scientific_notation-3-2-1 { counter-set: sec-Metric_system_and_scientific_notation-3-2-1 0; }
-#sec-Metric_system_and_scientific_notation-3-2-1 > li::marker { content: ""counter(sec-Metric_system_and_scientific_notation-3-2-1,upper-alpha)"."; }
-#sec-Metric_system_and_scientific_notation-3-2-1 > li { counter-increment: sec-Metric_system_and_scientific_notation-3-2-1; }
-#sec-First_look_linear-3-2-1 { counter-set: sec-First_look_linear-3-2-1 0; }
-#sec-First_look_linear-3-2-1 > li::marker { content: ""counter(sec-First_look_linear-3-2-1,upper-alpha)"."; }
-#sec-First_look_linear-3-2-1 > li { counter-increment: sec-First_look_linear-3-2-1; }
-#sec-First_look_exponential-3-2-1 { counter-set: sec-First_look_exponential-3-2-1 0; }
-#sec-First_look_exponential-3-2-1 > li::marker { content: ""counter(sec-First_look_exponential-3-2-1,upper-alpha)"."; }
-#sec-First_look_exponential-3-2-1 > li { counter-increment: sec-First_look_exponential-3-2-1; }
-#sec-Using_equations-3-2-1 { counter-set: sec-Using_equations-3-2-1 0; }
-#sec-Using_equations-3-2-1 > li::marker { content: ""counter(sec-Using_equations-3-2-1,upper-alpha)"."; }
-#sec-Using_equations-3-2-1 > li { counter-increment: sec-Using_equations-3-2-1; }
-#sec-Approx_solutions-3-2-1 { counter-set: sec-Approx_solutions-3-2-1 0; }
-#sec-Approx_solutions-3-2-1 > li::marker { content: ""counter(sec-Approx_solutions-3-2-1,upper-alpha)"."; }
-#sec-Approx_solutions-3-2-1 > li { counter-increment: sec-Approx_solutions-3-2-1; }
-#sec-Finance-3-2-1 { counter-set: sec-Finance-3-2-1 0; }
-#sec-Finance-3-2-1 > li::marker { content: ""counter(sec-Finance-3-2-1,upper-alpha)"."; }
-#sec-Finance-3-2-1 > li { counter-increment: sec-Finance-3-2-1; }
-#sec-Solving_linear_equations-3-2-1 { counter-set: sec-Solving_linear_equations-3-2-1 0; }
-#sec-Solving_linear_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_linear_equations-3-2-1,upper-alpha)"."; }
-#sec-Solving_linear_equations-3-2-1 > li { counter-increment: sec-Solving_linear_equations-3-2-1; }
-#sec-Solving_linear_inequalities-3-2-1 { counter-set: sec-Solving_linear_inequalities-3-2-1 0; }
-#sec-Solving_linear_inequalities-3-2-1 > li::marker { content: ""counter(sec-Solving_linear_inequalities-3-2-1,upper-alpha)"."; }
-#sec-Solving_linear_inequalities-3-2-1 > li { counter-increment: sec-Solving_linear_inequalities-3-2-1; }
-#sec-Solving_power_equations-3-2-1 { counter-set: sec-Solving_power_equations-3-2-1 0; }
-#sec-Solving_power_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_power_equations-3-2-1,upper-alpha)"."; }
-#sec-Solving_power_equations-3-2-1 > li { counter-increment: sec-Solving_power_equations-3-2-1; }
-#sec-Solving_exponential_equations-3-2-1 { counter-set: sec-Solving_exponential_equations-3-2-1 0; }
-#sec-Solving_exponential_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_exponential_equations-3-2-1,upper-alpha)"."; }
-#sec-Solving_exponential_equations-3-2-1 > li { counter-increment: sec-Solving_exponential_equations-3-2-1; }
-#sec-Solving_quadratic_equations-3-2-1 { counter-set: sec-Solving_quadratic_equations-3-2-1 0; }
-#sec-Solving_quadratic_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_quadratic_equations-3-2-1,upper-alpha)"."; }
-#sec-Solving_quadratic_equations-3-2-1 > li { counter-increment: sec-Solving_quadratic_equations-3-2-1; }
-#sec-Modeling_linear_equations-3-2-1 { counter-set: sec-Modeling_linear_equations-3-2-1 0; }
-#sec-Modeling_linear_equations-3-2-1 > li::marker { content: ""counter(sec-Modeling_linear_equations-3-2-1,upper-alpha)"."; }
-#sec-Modeling_linear_equations-3-2-1 > li { counter-increment: sec-Modeling_linear_equations-3-2-1; }
-#sec-Systems_linear_equations-3-2-1 { counter-set: sec-Systems_linear_equations-3-2-1 0; }
-#sec-Systems_linear_equations-3-2-1 > li::marker { content: ""counter(sec-Systems_linear_equations-3-2-1,upper-alpha)"."; }
-#sec-Systems_linear_equations-3-2-1 > li { counter-increment: sec-Systems_linear_equations-3-2-1; }
-#sec-Intercepts-3-2-1 { counter-set: sec-Intercepts-3-2-1 0; }
-#sec-Intercepts-3-2-1 > li::marker { content: ""counter(sec-Intercepts-3-2-1,upper-alpha)"."; }
-#sec-Intercepts-3-2-1 > li { counter-increment: sec-Intercepts-3-2-1; }
-#sec-Slopes-3-2-1 { counter-set: sec-Slopes-3-2-1 0; }
-#sec-Slopes-3-2-1 > li::marker { content: ""counter(sec-Slopes-3-2-1,upper-alpha)"."; }
-#sec-Slopes-3-2-1 > li { counter-increment: sec-Slopes-3-2-1; }
-#sec-Fitting_lines_to_data-3-2-1 { counter-set: sec-Fitting_lines_to_data-3-2-1 0; }
-#sec-Fitting_lines_to_data-3-2-1 > li::marker { content: ""counter(sec-Fitting_lines_to_data-3-2-1,upper-alpha)"."; }
-#sec-Fitting_lines_to_data-3-2-1 > li { counter-increment: sec-Fitting_lines_to_data-3-2-1; }
-#sec-Modeling_exponential_equations-3-2-1 { counter-set: sec-Modeling_exponential_equations-3-2-1 0; }
-#sec-Modeling_exponential_equations-3-2-1 > li::marker { content: ""counter(sec-Modeling_exponential_equations-3-2-1,upper-alpha)"."; }
-#sec-Modeling_exponential_equations-3-2-1 > li { counter-increment: sec-Modeling_exponential_equations-3-2-1; }
-#sec-Exp_growth_decay-3-2-1 { counter-set: sec-Exp_growth_decay-3-2-1 0; }
-#sec-Exp_growth_decay-3-2-1 > li::marker { content: ""counter(sec-Exp_growth_decay-3-2-1,upper-alpha)"."; }
-#sec-Exp_growth_decay-3-2-1 > li { counter-increment: sec-Exp_growth_decay-3-2-1; }
-#sec-Growth_factor-3-2-1 { counter-set: sec-Growth_factor-3-2-1 0; }
-#sec-Growth_factor-3-2-1 > li::marker { content: ""counter(sec-Growth_factor-3-2-1,upper-alpha)"."; }
-#sec-Growth_factor-3-2-1 > li { counter-increment: sec-Growth_factor-3-2-1; }
-#sec-Linear_vs_exponential-3-2-1 { counter-set: sec-Linear_vs_exponential-3-2-1 0; }
-#sec-Linear_vs_exponential-3-2-1 > li::marker { content: ""counter(sec-Linear_vs_exponential-3-2-1,upper-alpha)"."; }
-#sec-Linear_vs_exponential-3-2-1 > li { counter-increment: sec-Linear_vs_exponential-3-2-1; }
-#sec-Logistic_growth-3-2-1 { counter-set: sec-Logistic_growth-3-2-1 0; }
-#sec-Logistic_growth-3-2-1 > li::marker { content: ""counter(sec-Logistic_growth-3-2-1,upper-alpha)"."; }
-#sec-Logistic_growth-3-2-1 > li { counter-increment: sec-Logistic_growth-3-2-1; }
-</style>
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Just Enough Algebra">
+<meta property="book:author" content="Dr. Suzanne Dorée">
+<meta property="book:author" content="Dr. Spencer Bagley">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.7.5';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.107bf2d9be20d9c4.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
 </head>
 <body id="justenoughalgebra" class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
 <a id="logo-link" class="logo-link" target="_blank" href=""><img src="external/book-open-solid.png" alt="Logo image"></a><div class="title-container">
-<h1 class="heading"><a href="just-enough-algebra.html"><span class="title">Just Enough Algebra</span></a></h1>
+<h1 class="heading"><a href="just-enough-algebra.html"><span class="title">Just Enough Algebra</span> <span class="subtitle">Summer 2025 edition</span></a></h1>
 <p class="byline">Dr. Suzanne Dorée, Dr. Spencer Bagley</p>
 </div>
-</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
 <div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
 <div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
 <div class="search-results-controls">
@@ -211,7 +137,8 @@ window.MathJax = {
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-Rate_of_change.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-Variables.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-Metric_system_and_scientific_notation.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-Rate_of_change.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-Variables.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-Metric_system_and_scientific_notation.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -220,12 +147,12 @@ window.MathJax = {
 \newcommand{\sfrac}[2]{{#1}/{#2}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter">
 <div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
-<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-why-this-book-web.html" class="internal"><span class="title">Why <em class="emphasis">Just Enough Algebra</em>?</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-students-web.html" class="internal"><span class="title">Students! Read this!</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-instructors-web.html" class="internal"><span class="title">Instructors! Read this!</span></a></div></li>
@@ -287,9 +214,9 @@ window.MathJax = {
 <div class="toc-title-box"><a href="sec-Rate_of_change.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Rate of change</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Rate_of_change.html#ex-Rate_of_change" class="internal"><span class="codenumber">1.3</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
-<li class="toc-item toc-section active">
+<li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="sec-Units.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Units</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Units.html#ex-Units" class="internal"><span class="codenumber">1.4</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural toc-item-list active"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Units.html#ex-Units" class="internal"><span class="codenumber">1.4</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-Metric_system_and_scientific_notation.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Metric prefixes and scientific notation</span></a></div>
@@ -468,7 +395,11 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Units"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">1.4</span><span class="space"> </span><span class="title">Units</span>
 </h2>
-<section class="introduction" id="sec-Units-2"><div class="para" id="sec-Units-2-1">We know 5 city blocks and 5 miles are very different lengths to walk; $5 and 5 are very different values of money; 5 minutes and 5 years are very different amounts of time to wait - even though all of these quantities are represented by the number 5. Every variable is measured in terms of some unit. Since there are often several different units available to use it is important when naming a variable to state which units we are choosing to measure it in.</div> <div class="para" id="sec-Units-2-2">In the last section we examined the height of a springboard diver and her speed in the air. But, how high is 3 meters? How fast is 4.4 meters per second?</div> <div class="para logical" id="sec-Units-2-3">
+<section class="introduction" id="sec-Units-2"><div class="para" id="sec-Units-2-1">We know 5 city blocks and 5 miles are very different lengths to walk; $5 and 5 are very different values of money; 5 minutes and 5 years are very different amounts of time to wait - even though all of these quantities are represented by the number 5. Every variable is measured in terms of some unit. Since there are often several different units available to use it is important when naming a variable to state which units we are choosing to measure it in.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Units-2-2">In the last section we examined the height of a springboard diver and her speed in the air. But, how high is 3 meters? How fast is 4.4 meters per second?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Units-2-3">
 <div class="para">The metric unit of length called a meter is just over 3 feet (a yard). Let’s use</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -482,7 +413,9 @@ window.MathJax = {
 \end{equation*}
 </div>
 <div class="para">Since our conversion is just approximate, we rounded off our answer too.</div>
-</div> <div class="para logical" id="sec-Units-2-4">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Units-2-4">
 <div class="para">See that fraction? The 3.281 feet on the top and the 1 meter on the bottom are just two different ways of saying approximately the same distance. In other words,</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -490,14 +423,20 @@ window.MathJax = {
 \end{equation*}
 </div>
 <div class="para">A fraction where the top and bottom are equal quantities expressed in different units is sometimes called a <dfn class="terminology">unit conversion fraction</dfn>. Because it’s equal to 1 (or at least very close to 1), multiplying by the unit conversion fraction doesn’t change the value, just the units.</div>
-</div> <div class="para logical" id="sec-Units-2-5">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Units-2-5">
 <div class="para">You might wonder how we knew to put the feet on the top and the meters on the bottom. One reminder for how this works is to think fractions. It’s like the meters on the top and bottom cancel, leaving the units as feet.</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \frac{3 \cancel{\text{ meters}}}{1} \ast  \frac{3.281 \text{ feet}}{1 \cancel{\text{ meter}}} = 3 \times 3.281 \approx 9.8 \text{ feet}
 \end{equation*}
 </div>
-</div> <div class="para" id="sec-Units-2-6">One more idea to keep in mind when converting units: a few large things equals a lot of small things. Instead of buying a lot of small bags of ice to fill your cooler, you can buy a few larger bags of ice instead. In our example, a meter is much bigger than a foot. So it makes sense that a small number of meters (3 meters) equalled a larger number of feet (9.8 feet). That might seem backwards, but that’s how it works.</div> <div class="para logical" id="sec-Units-2-7">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-2-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Units-2-6">One more idea to keep in mind when converting units: a few large things equals a lot of small things. Instead of buying a lot of small bags of ice to fill your cooler, you can buy a few larger bags of ice instead. In our example, a meter is much bigger than a foot. So it makes sense that a small number of meters (3 meters) equalled a larger number of feet (9.8 feet). That might seem backwards, but that’s how it works.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-2-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Units-2-7">
 <div class="para">Of course, 9.8 feet might sound like a funny answer. We’re much more used to a whole number of feet and then the fraction in inches. It’s 9 feet and some number of inches. To figure out the inches we look at the decimal part <span class="process-math">\(9.8-9=0.8\text{.}\)</span> That’s the part we need to convert to inches. Since there are 12 inches in a foot, we use the (exact) conversion</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -510,7 +449,9 @@ window.MathJax = {
 0.8 \cancel{\text{ feet}} \ast \frac{12 \text{ inches}}{1 \cancel{\text{ foot}}} = 0.8 \times 12 = 9.6 \text{ inches} \approx 10 \text{ inches}
 \end{equation*}
 </div>
-</div> <div class="para logical" id="sec-Units-2-8">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-2-7" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Units-2-8">
 <div class="para">Quick caution here. We rounded off 9.843 to get 9.8 and then just used the 0.8 to find the extra inches. Maybe we should have used the 0.843 instead. Here’s what happens.</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -518,7 +459,9 @@ window.MathJax = {
 \end{equation*}
 </div>
 <div class="para">Phew! Either way, the board is about 9 feet and 10 inches high. The common shorthand for this answer is 9′10″. (That’s pronounced <em class="emphasis">9 foot 10</em>, as in our team’s new center is <em class="emphasis">6 foot 7</em>.) The ′ symbol indicates feet and ″ indicates inches.</div>
-</div> <div class="para logical" id="sec-Units-2-9">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-2-8" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Units-2-9">
 <div class="para">The highest height we had recorded for the diver was 4.48 meters. Now we know that’s</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -533,7 +476,9 @@ window.MathJax = {
 \end{equation*}
 </div>
 <div class="para">The diver’s highest height was around 14′8″.</div>
-</div> <div class="para logical" id="sec-Units-2-10">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-2-9" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Units-2-10">
 <div class="para">You might have guessed that 14.7 feet would be 14′7″. I mean, that sort of looks obvious. The reason it’s not is because decimal numbers are based on 10. The 0.7 really means <span class="process-math">\(\frac{7}{10}\text{.}\)</span> But inches are based on 12. Seven inches means</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -546,7 +491,9 @@ window.MathJax = {
 8'' = \frac{8}{12} = 8 \div 12 = 0.66666\ldots \approx 0.7
 \end{equation*}
 </div>
-</div> <div class="para logical" id="sec-Units-2-11">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-2-10" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Units-2-11">
 <div class="para">What about the diver’s speed? During the first 0.2 seconds we calculated her speed as 4.4 meters per second. How fast is that? We can certainly convert to feet per second.</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -554,7 +501,9 @@ window.MathJax = {
 \end{equation*}
 </div>
 <div class="para">Does that help us understand how fast she’s going? Maybe a little. But, we’re probably most familiar with speeds measured in miles per hour, that’s what <dfn class="terminology">mph</dfn> stands for.</div>
-</div> <div class="para logical" id="sec-Units-2-12">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-2-11" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Units-2-12">
 <div class="para">Let’s convert to miles per hour. First, use that</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -568,7 +517,9 @@ window.MathJax = {
 \end{equation*}
 </div>
 <div class="para">The larger number makes sense here because she can go more feet in a minute than in just one second.</div>
-</div> <div class="para logical" id="sec-Units-2-13">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-2-12" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Units-2-13">
 <div class="para">Next, use that</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -582,7 +533,9 @@ window.MathJax = {
 \end{equation*}
 </div>
 <div class="para">Again, the larger number makes sense because she can go more feet in an hour than in just one minute.</div>
-</div> <div class="para logical" id="sec-Units-2-14">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-2-13" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Units-2-14">
 <div class="para">Last, we need to convert to miles. Turns out that</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -600,7 +553,9 @@ window.MathJax = {
 \end{equation*}
 </div>
 <div class="para">This time we got a smaller number because she can go a lot fewer miles in an hour compared to feet in an hour. Notice how we needed to divide by 5,280. Numbers on top of the fraction multiply. Those on the bottom divide.</div>
-</div> <div class="para logical" id="sec-Units-2-15">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-2-14" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Units-2-15">
 <div class="para">We can do this entire calculation all at once. Notice how all of the units cancel to leave us with miles per hour.</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -616,7 +571,9 @@ window.MathJax = {
 = 4.4 \times 3.281 \times 60 \times 60 \div 5{,}280 = 9.843 \text{ mph} \approx 10 \text{ mph}.
 \end{equation*}
 </div>
-</div> <div class="para logical" id="sec-Units-2-16">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-2-15" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Units-2-16">
 <div class="para">Right before the diver hit the water she was going around 7.25 meters per second. How fast is that in mph? Ready for it all in one line? Here it is.</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -632,87 +589,209 @@ window.MathJax = {
 =7.25 \times 3.281 \times 60 \times 60 \div 5{,}280 = 16.2185\ldots \approx 16 \text{ mph}
 \end{equation*}
 </div>
-</div> <div class="para" id="sec-Units-2-17">If you’re having trouble setting up unit conversions, remember to write down the units so you can see how they cancel. If you can’t remember a number for a unit conversion, like feet for one mile, try searching online.</div></section><section class="conclusion" id="sec-Units-3"><h3 class="heading">Do you know …<span></span>
-</h3> <div class="para logical" id="sec-Units-3-2"><ol class="upper-alpha" id="sec-Units-3-2-1">
-<li id="sec-Units-3-2-1-1"><div class="para" id="sec-Units-3-2-1-1-1">How to convert from one unit of measurement to another?</div></li>
-<li id="sec-Units-3-2-1-2"><div class="para" id="sec-Units-3-2-1-2-1">What a unit conversion fraction is?</div></li>
-<li id="sec-Units-3-2-1-3"><div class="para" id="sec-Units-3-2-1-3-1">How to decide whether to multiply or divide?</div></li>
-<li id="sec-Units-3-2-1-4"><div class="para" id="sec-Units-3-2-1-4-1">Why multiplying by a unit conversion fraction doesn’t change the amount, just the units?</div></li>
-<li id="sec-Units-3-2-1-5"><div class="para" id="sec-Units-3-2-1-5-1">How to connect repeated conversions into one calculation?</div></li>
-<li id="sec-Units-3-2-1-6"><div class="para" id="sec-Units-3-2-1-6-1">Why if we convert an amount to a larger unit, we use a smaller number?</div></li>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-2-16" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Units-2-17">If you’re having trouble setting up unit conversions, remember to write down the units so you can see how they cancel. If you can’t remember a number for a unit conversion, like feet for one mile, try searching online.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-2-17" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="conclusion" id="sec-Units-3"><h3 class="heading">Do you know …<span></span>
+</h3>
+<div class="para logical" id="sec-Units-3-2">
+<ol class="upper-alpha ol-marker-1" id="sec-Units-3-2-1">
+<li id="sec-Units-3-2-1-1">
+<div class="para" id="sec-Units-3-2-1-1-1">How to convert from one unit of measurement to another?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-3-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item A"><a href="#sec-Units-3-2-1-1" title="Copy permalink for Item A">🔗</a></div>
+</li>
+<li id="sec-Units-3-2-1-2">
+<div class="para" id="sec-Units-3-2-1-2-1">What a unit conversion fraction is?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-3-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item B"><a href="#sec-Units-3-2-1-2" title="Copy permalink for Item B">🔗</a></div>
+</li>
+<li id="sec-Units-3-2-1-3">
+<div class="para" id="sec-Units-3-2-1-3-1">How to decide whether to multiply or divide?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-3-2-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item C"><a href="#sec-Units-3-2-1-3" title="Copy permalink for Item C">🔗</a></div>
+</li>
+<li id="sec-Units-3-2-1-4">
+<div class="para" id="sec-Units-3-2-1-4-1">Why multiplying by a unit conversion fraction doesn’t change the amount, just the units?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-3-2-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item D"><a href="#sec-Units-3-2-1-4" title="Copy permalink for Item D">🔗</a></div>
+</li>
+<li id="sec-Units-3-2-1-5">
+<div class="para" id="sec-Units-3-2-1-5-1">How to connect repeated conversions into one calculation?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-3-2-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item E"><a href="#sec-Units-3-2-1-5" title="Copy permalink for Item E">🔗</a></div>
+</li>
+<li id="sec-Units-3-2-1-6">
+<div class="para" id="sec-Units-3-2-1-6-1">Why if we convert an amount to a larger unit, we use a smaller number?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-3-2-1-6-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item F"><a href="#sec-Units-3-2-1-6" title="Copy permalink for Item F">🔗</a></div>
+</li>
 <li id="sec-Units-3-2-1-7">
-<div class="para" id="sec-Units-3-2-1-7-1">How many seconds in a minute, minutes in an hour, hours in a day, days in a year, inches in a foot, feet in a mile, and other common conversions?</div>
-<div class="para" id="sec-Units-3-2-1-7-2"><em class="emphasis">Ask your instructor which common conversions you need to remember, and whether any conversion formulas will be provided during the exam.</em></div>
+<div class="para" id="sec-Units-3-2-1-7-1">How many seconds in a minute, minutes in an hour, hours in a day, days in a year, inches in a foot, feet in a mile, and other common conversions?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-3-2-1-7-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Units-3-2-1-7-2">
+<em class="emphasis">Ask your instructor which common conversions you need to remember, and whether any conversion formulas will be provided during the exam.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-3-2-1-7-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item G"><a href="#sec-Units-3-2-1-7" title="Copy permalink for Item G">🔗</a></div>
 </li>
 <li id="sec-Units-3-2-1-8">
-<div class="para" id="sec-Units-3-2-1-8-1">How to convert between English and metric measurements?</div>
-<div class="para" id="sec-Units-3-2-1-8-2"><em class="emphasis">Again, ask your instructor which metric conversions you need to remember, and whether any conversion formulas will be provided during the exam.</em></div>
+<div class="para" id="sec-Units-3-2-1-8-1">How to convert between English and metric measurements?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-3-2-1-8-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Units-3-2-1-8-2">
+<em class="emphasis">Again, ask your instructor which metric conversions you need to remember, and whether any conversion formulas will be provided during the exam.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-3-2-1-8-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item H"><a href="#sec-Units-3-2-1-8" title="Copy permalink for Item H">🔗</a></div>
 </li>
-</ol></div> <div class="para" id="sec-Units-3-3"><em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em></div></section><section class="exercises" id="ex-Units"><h3 class="heading hide-type">
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-3-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Units-3-3">
+<em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-Units-3-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="exercises" id="ex-Units"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises</span>
 </h3>
-<section class="introduction" id="ex-Units-1"><div class="para" id="ex-Units-1-1">Exercises 1-4 are available in a separate workbook format.</div></section><article class="exercise exercise-like" id="compare-lengths-units"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<section class="introduction" id="ex-Units-1"><div class="para" id="ex-Units-1-1">Exercises 1-4 are available in a separate workbook format.<div class="autopermalink" data-description="Paragraph"><a href="#ex-Units-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><article class="exercise exercise-like" id="compare-lengths-units"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
 <article class="task exercise-like" id="compare-lengths-units-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="introduction" id="compare-lengths-units-1-1"><div class="para" id="compare-lengths-units-1-1-1">Compare centimeters (cm) and inches, using that 1 inch <span class="process-math">\(\approx\)</span> 2.54 cm.</div></div>
+<div class="introduction" id="compare-lengths-units-1-1"><div class="para" id="compare-lengths-units-1-1-1">Compare centimeters (cm) and inches, using that 1 inch <span class="process-math">\(\approx\)</span> 2.54 cm.<div class="autopermalink" data-description="Paragraph"><a href="#compare-lengths-units-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
 <article class="task exercise-like" id="compare-lengths-units-1-2"><h6 class="heading"><span class="codenumber">(i)</span></h6>
-<div class="para" id="compare-lengths-units-1-2-1-1">Which is longer: 1 inch or 1 centimeter?</div></article><article class="task exercise-like" id="compare-lengths-units-1-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
-<div class="para" id="compare-lengths-units-1-3-1-1">Kamari is shopping at an internationally-based retail store. She is looking at a curtain rod that projects 10 cm from the wall. What is that in inches?</div></article><article class="task exercise-like" id="compare-lengths-units-1-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
-<div class="para" id="compare-lengths-units-1-4-1-1">She also wants a basket no more than 1 foot wide or long to fit on her bookcase. How many centimeters are in a foot?</div></article></article><article class="task exercise-like" id="compare-lengths-units-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="introduction" id="compare-lengths-units-2-1"><div class="para" id="compare-lengths-units-2-1-1">Compare meters (m) and yards using that 1 yard <span class="process-math">\(\approx\)</span> 0.9144 m.</div></div>
+<div class="para" id="compare-lengths-units-1-2-1-1">Which is longer: 1 inch or 1 centimeter?<div class="autopermalink" data-description="Paragraph"><a href="#compare-lengths-units-1-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.1.a.i"><a href="#compare-lengths-units-1-2" title="Copy permalink for Task 1.4.1.a.i">🔗</a></div></article><article class="task exercise-like" id="compare-lengths-units-1-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="compare-lengths-units-1-3-1-1">Kamari is shopping at an internationally-based retail store. She is looking at a curtain rod that projects 10 cm from the wall. What is that in inches?<div class="autopermalink" data-description="Paragraph"><a href="#compare-lengths-units-1-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.1.a.ii"><a href="#compare-lengths-units-1-3" title="Copy permalink for Task 1.4.1.a.ii">🔗</a></div></article><article class="task exercise-like" id="compare-lengths-units-1-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="para" id="compare-lengths-units-1-4-1-1">She also wants a basket no more than 1 foot wide or long to fit on her bookcase. How many centimeters are in a foot?<div class="autopermalink" data-description="Paragraph"><a href="#compare-lengths-units-1-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.1.a.iii"><a href="#compare-lengths-units-1-4" title="Copy permalink for Task 1.4.1.a.iii">🔗</a></div></article><div class="autopermalink" data-description="Task 1.4.1.a"><a href="#compare-lengths-units-1" title="Copy permalink for Task 1.4.1.a">🔗</a></div></article><article class="task exercise-like" id="compare-lengths-units-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="introduction" id="compare-lengths-units-2-1"><div class="para" id="compare-lengths-units-2-1-1">Compare meters (m) and yards using that 1 yard <span class="process-math">\(\approx\)</span> 0.9144 m.<div class="autopermalink" data-description="Paragraph"><a href="#compare-lengths-units-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
 <article class="task exercise-like" id="compare-lengths-units-2-2"><h6 class="heading"><span class="codenumber">(i)</span></h6>
-<div class="para" id="compare-lengths-units-2-2-1-1">Which is longer: 1 yard or 1 meter?</div></article><article class="task exercise-like" id="compare-lengths-units-2-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
-<div class="para" id="compare-lengths-units-2-3-1-1">Princeton was watching the Olympics and noticed everything was measured in meters. He is curious how long a football field (100 yards) is in meters.</div></article><article class="task exercise-like" id="compare-lengths-units-2-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
-<div class="para" id="compare-lengths-units-2-4-1-1">Kamari found a really big bath towel she likes. It is 1 meter wide and 1.5 meters long. What are the dimensions in inches? Use that 1 yard = 3 feet.</div></article></article><article class="task exercise-like" id="compare-lengths-units-3"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="introduction" id="compare-lengths-units-3-1"><div class="para" id="compare-lengths-units-3-1-1">Compare kilometers (km) and miles using that 1 mile <span class="process-math">\(\approx\)</span> 1.609 km.</div></div>
+<div class="para" id="compare-lengths-units-2-2-1-1">Which is longer: 1 yard or 1 meter?<div class="autopermalink" data-description="Paragraph"><a href="#compare-lengths-units-2-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.1.b.i"><a href="#compare-lengths-units-2-2" title="Copy permalink for Task 1.4.1.b.i">🔗</a></div></article><article class="task exercise-like" id="compare-lengths-units-2-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="compare-lengths-units-2-3-1-1">Princeton was watching the Olympics and noticed everything was measured in meters. He is curious how long a football field (100 yards) is in meters.<div class="autopermalink" data-description="Paragraph"><a href="#compare-lengths-units-2-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.1.b.ii"><a href="#compare-lengths-units-2-3" title="Copy permalink for Task 1.4.1.b.ii">🔗</a></div></article><article class="task exercise-like" id="compare-lengths-units-2-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="para" id="compare-lengths-units-2-4-1-1">Kamari found a really big bath towel she likes. It is 1 meter wide and 1.5 meters long. What are the dimensions in inches? Use that 1 yard = 3 feet.<div class="autopermalink" data-description="Paragraph"><a href="#compare-lengths-units-2-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.1.b.iii"><a href="#compare-lengths-units-2-4" title="Copy permalink for Task 1.4.1.b.iii">🔗</a></div></article><div class="autopermalink" data-description="Task 1.4.1.b"><a href="#compare-lengths-units-2" title="Copy permalink for Task 1.4.1.b">🔗</a></div></article><article class="task exercise-like" id="compare-lengths-units-3"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="introduction" id="compare-lengths-units-3-1"><div class="para" id="compare-lengths-units-3-1-1">Compare kilometers (km) and miles using that 1 mile <span class="process-math">\(\approx\)</span> 1.609 km.<div class="autopermalink" data-description="Paragraph"><a href="#compare-lengths-units-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
 <article class="task exercise-like" id="compare-lengths-units-3-2"><h6 class="heading"><span class="codenumber">(i)</span></h6>
-<div class="para" id="compare-lengths-units-3-2-1-1">Which is longer: 1 mile or 1 kilometer?</div></article><article class="task exercise-like" id="compare-lengths-units-3-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
-<div class="para" id="compare-lengths-units-3-3-1-1">This weekend Princeton and Kamari are doing a 5K run. How many miles long is that? Note: <dfn class="terminology">5K</dfn> is short for 5 kilometers.</div></article><article class="task exercise-like" id="compare-lengths-units-3-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
-<div class="para" id="compare-lengths-units-3-4-1-1">Princeton is actually in training for a marathon. How many kilometers is that? Note: a <dfn class="terminology">marathon</dfn> is approximately 26.2 miles.</div></article></article></article><article class="exercise exercise-like" id="decimal-hours-lengths-units"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="para" id="compare-lengths-units-3-2-1-1">Which is longer: 1 mile or 1 kilometer?<div class="autopermalink" data-description="Paragraph"><a href="#compare-lengths-units-3-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.1.c.i"><a href="#compare-lengths-units-3-2" title="Copy permalink for Task 1.4.1.c.i">🔗</a></div></article><article class="task exercise-like" id="compare-lengths-units-3-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="compare-lengths-units-3-3-1-1">This weekend Princeton and Kamari are doing a 5K run. How many miles long is that? Note: <dfn class="terminology">5K</dfn> is short for 5 kilometers.<div class="autopermalink" data-description="Paragraph"><a href="#compare-lengths-units-3-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.1.c.ii"><a href="#compare-lengths-units-3-3" title="Copy permalink for Task 1.4.1.c.ii">🔗</a></div></article><article class="task exercise-like" id="compare-lengths-units-3-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="para" id="compare-lengths-units-3-4-1-1">Princeton is actually in training for a marathon. How many kilometers is that? Note: a <dfn class="terminology">marathon</dfn> is approximately 26.2 miles.<div class="autopermalink" data-description="Paragraph"><a href="#compare-lengths-units-3-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.1.c.iii"><a href="#compare-lengths-units-3-4" title="Copy permalink for Task 1.4.1.c.iii">🔗</a></div></article><div class="autopermalink" data-description="Task 1.4.1.c"><a href="#compare-lengths-units-3" title="Copy permalink for Task 1.4.1.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.4.1"><a href="#compare-lengths-units" title="Copy permalink for Exercise 1.4.1">🔗</a></div></article><article class="exercise exercise-like" id="decimal-hours-lengths-units"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
 <article class="task exercise-like" id="decimal-hours-lengths-units-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="decimal-hours-lengths-units-1-1-1">Yesterday Cameron worked for 2 hours and 15 minutes (that’s 2:15) and then went home and studied for 7 hours and 57 minutes (that’s 7:57). Convert each time into decimal hours.</div></article><article class="task exercise-like" id="decimal-hours-lengths-units-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="decimal-hours-lengths-units-2-1-1">Ephraim works at a plant that produces very delicate electronic switches. He measured the lifetime for one switch at 4.18 hours. Another had lifetime 19.50 hours. Convert each time into hours and minutes. <em class="emphasis">That means H:MM format.</em>
-</div></article><article class="task exercise-like" id="decimal-hours-lengths-units-3"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="decimal-hours-lengths-units-3-1-1">Phillip measured his office using a digital measure. One wall is 21.8 feet. The other is 10.2 feet. How long is each wall measured in the more usual feet and inches?</div></article><article class="task exercise-like" id="decimal-hours-lengths-units-4"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="decimal-hours-lengths-units-4-1-1">The couch Stetson wanted to buy is 92″ long and 44″ tall. Convert the length and height to feet and inches.</div></article><article class="task exercise-like" id="decimal-hours-lengths-units-5"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="decimal-hours-lengths-units-5-1-1">Abdi volunteers at a food bank. He noticed that the shelf on the back wall was bending so he measured its length at 12′5″. The formula for load needs the length written as a decimal. Convert the length to a decimal number of feet.</div></article></article><article class="exercise exercise-like" id="drink-water-units"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
-<div class="introduction" id="drink-water-units-1"><div class="para" id="drink-water-units-1-1">Some people say we should drink 8 glasses of water (or other liquids) every day, where a glass is defined as 8 (liquid) ounces.</div></div>
+<div class="para" id="decimal-hours-lengths-units-1-1-1">Yesterday Cameron worked for 2 hours and 15 minutes (that’s 2:15) and then went home and studied for 7 hours and 57 minutes (that’s 7:57). Convert each time into decimal hours.<div class="autopermalink" data-description="Paragraph"><a href="#decimal-hours-lengths-units-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.2.a"><a href="#decimal-hours-lengths-units-1" title="Copy permalink for Task 1.4.2.a">🔗</a></div></article><article class="task exercise-like" id="decimal-hours-lengths-units-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="decimal-hours-lengths-units-2-1-1">Ephraim works at a plant that produces very delicate electronic switches. He measured the lifetime for one switch at 4.18 hours. Another had lifetime 19.50 hours. Convert each time into hours and minutes. <em class="emphasis">That means H:MM format.</em><div class="autopermalink" data-description="Paragraph"><a href="#decimal-hours-lengths-units-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.2.b"><a href="#decimal-hours-lengths-units-2" title="Copy permalink for Task 1.4.2.b">🔗</a></div></article><article class="task exercise-like" id="decimal-hours-lengths-units-3"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="decimal-hours-lengths-units-3-1-1">Phillip measured his office using a digital measure. One wall is 21.8 feet. The other is 10.2 feet. How long is each wall measured in the more usual feet and inches?<div class="autopermalink" data-description="Paragraph"><a href="#decimal-hours-lengths-units-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.2.c"><a href="#decimal-hours-lengths-units-3" title="Copy permalink for Task 1.4.2.c">🔗</a></div></article><article class="task exercise-like" id="decimal-hours-lengths-units-4"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="decimal-hours-lengths-units-4-1-1">The couch Stetson wanted to buy is 92″ long and 44″ tall. Convert the length and height to feet and inches.<div class="autopermalink" data-description="Paragraph"><a href="#decimal-hours-lengths-units-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.2.d"><a href="#decimal-hours-lengths-units-4" title="Copy permalink for Task 1.4.2.d">🔗</a></div></article><article class="task exercise-like" id="decimal-hours-lengths-units-5"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="decimal-hours-lengths-units-5-1-1">Abdi volunteers at a food bank. He noticed that the shelf on the back wall was bending so he measured its length at 12′5″. The formula for load needs the length written as a decimal. Convert the length to a decimal number of feet.<div class="autopermalink" data-description="Paragraph"><a href="#decimal-hours-lengths-units-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.2.e"><a href="#decimal-hours-lengths-units-5" title="Copy permalink for Task 1.4.2.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.4.2"><a href="#decimal-hours-lengths-units" title="Copy permalink for Exercise 1.4.2">🔗</a></div></article><article class="exercise exercise-like" id="drink-water-units"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="drink-water-units-1"><div class="para" id="drink-water-units-1-1">Some people say we should drink 8 glasses of water (or other liquids) every day, where a glass is defined as 8 (liquid) ounces.<div class="autopermalink" data-description="Paragraph"><a href="#drink-water-units-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
 <article class="task exercise-like" id="drink-water-units-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="drink-water-units-2-1-1">Ingrid uses a 20 ounce unbreakable plastic bottle. How many of those bottles full of water does she need to drink each day?</div></article><article class="task exercise-like" id="drink-water-units-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="drink-water-units-3-1-1">Siri carries around a insulated water bottle that holds 0.6 liters. How many of those bottles full of water does she need to drink each day? Use that 1 liter <span class="process-math">\(\approx\)</span> 1.057 quarts and 1 quart = 32 (liquid) ounces.</div></article><article class="task exercise-like" id="drink-water-units-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="drink-water-units-4-1-1">To meet the recommendation, how much water would one person drink in an entire year? Give the answer in gallons. Use 1 gallon = 4 quarts.</div></article></article><article class="exercise exercise-like" id="finland-units"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
-<div class="introduction" id="finland-units-1"><div class="para" id="finland-units-1-1">Jenna is studying in Finland this term and rented an older car to drive.</div></div>
+<div class="para" id="drink-water-units-2-1-1">Ingrid uses a 20 ounce unbreakable plastic bottle. How many of those bottles full of water does she need to drink each day?<div class="autopermalink" data-description="Paragraph"><a href="#drink-water-units-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.3.a"><a href="#drink-water-units-2" title="Copy permalink for Task 1.4.3.a">🔗</a></div></article><article class="task exercise-like" id="drink-water-units-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="drink-water-units-3-1-1">Siri carries around a insulated water bottle that holds 0.6 liters. How many of those bottles full of water does she need to drink each day? Use that 1 liter <span class="process-math">\(\approx\)</span> 1.057 quarts and 1 quart = 32 (liquid) ounces.<div class="autopermalink" data-description="Paragraph"><a href="#drink-water-units-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.3.b"><a href="#drink-water-units-3" title="Copy permalink for Task 1.4.3.b">🔗</a></div></article><article class="task exercise-like" id="drink-water-units-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="drink-water-units-4-1-1">To meet the recommendation, how much water would one person drink in an entire year? Give the answer in gallons. Use 1 gallon = 4 quarts.<div class="autopermalink" data-description="Paragraph"><a href="#drink-water-units-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.3.c"><a href="#drink-water-units-4" title="Copy permalink for Task 1.4.3.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.4.3"><a href="#drink-water-units" title="Copy permalink for Exercise 1.4.3">🔗</a></div></article><article class="exercise exercise-like" id="finland-units"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="finland-units-1"><div class="para" id="finland-units-1-1">Jenna is studying in Finland this term and rented an older car to drive.<div class="autopermalink" data-description="Paragraph"><a href="#finland-units-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
 <article class="task exercise-like" id="finland-units-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="finland-units-2-1-1">She learns that no matter what the road signs might say, the maximum speed limit in Finland in winter is never more than 100 km/hr. How fast is that in miles per hour (mph)? Use 1 mile <span class="process-math">\(\approx\)</span> 1.609 km.</div></article><article class="task exercise-like" id="finland-units-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="finland-units-3-1-1">Jenna’s car holds 62 liters of gasoline in its tank. How many gallons is that? Use 1 liter <span class="process-math">\(\approx\)</span> 1.057 quarts and 1 gallon = 4 quarts.</div></article><article class="task exercise-like" id="finland-units-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="finland-units-4-1-1">Her car gets 7.6 km/liter. Convert to miles per gallon (mpg).</div></article><article class="task exercise-like" id="finland-units-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="finland-units-5-1-1">Gas prices in Finland were 1.658 €/liter. What’s the equivalent price in $/gal? The symbol € stands for euro. Use 1 € <span class="process-math">\(\approx\)</span> $1.23.</div></article><article class="task exercise-like" id="finland-units-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="finland-units-6-1-1">What would it cost Jenna, in euros, for a full tank of gas? How much is that in dollars?</div></article></article><article class="exercise exercise-like" id="phelps-units"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="para" id="finland-units-2-1-1">She learns that no matter what the road signs might say, the maximum speed limit in Finland in winter is never more than 100 km/hr. How fast is that in miles per hour (mph)? Use 1 mile <span class="process-math">\(\approx\)</span> 1.609 km.<div class="autopermalink" data-description="Paragraph"><a href="#finland-units-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.4.a"><a href="#finland-units-2" title="Copy permalink for Task 1.4.4.a">🔗</a></div></article><article class="task exercise-like" id="finland-units-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="finland-units-3-1-1">Jenna’s car holds 62 liters of gasoline in its tank. How many gallons is that? Use 1 liter <span class="process-math">\(\approx\)</span> 1.057 quarts and 1 gallon = 4 quarts.<div class="autopermalink" data-description="Paragraph"><a href="#finland-units-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.4.b"><a href="#finland-units-3" title="Copy permalink for Task 1.4.4.b">🔗</a></div></article><article class="task exercise-like" id="finland-units-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="finland-units-4-1-1">Her car gets 7.6 km/liter. Convert to miles per gallon (mpg).<div class="autopermalink" data-description="Paragraph"><a href="#finland-units-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.4.c"><a href="#finland-units-4" title="Copy permalink for Task 1.4.4.c">🔗</a></div></article><article class="task exercise-like" id="finland-units-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="finland-units-5-1-1">Gas prices in Finland were 1.658 €/liter. What’s the equivalent price in $/gal? The symbol € stands for euro. Use 1 € <span class="process-math">\(\approx\)</span> $1.23.<div class="autopermalink" data-description="Paragraph"><a href="#finland-units-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.4.d"><a href="#finland-units-5" title="Copy permalink for Task 1.4.4.d">🔗</a></div></article><article class="task exercise-like" id="finland-units-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="finland-units-6-1-1">What would it cost Jenna, in euros, for a full tank of gas? How much is that in dollars?<div class="autopermalink" data-description="Paragraph"><a href="#finland-units-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.4.e"><a href="#finland-units-6" title="Copy permalink for Task 1.4.4.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.4.4"><a href="#finland-units" title="Copy permalink for Exercise 1.4.4">🔗</a></div></article><article class="exercise exercise-like" id="phelps-units"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
 <div class="introduction" id="phelps-units-1">
-<div class="para" id="phelps-units-1-1">In August 2008, United States swimmer Michael Phelps set the world record for the 200 meter individual medley, swimming it in 1 minute, 54.80 seconds.</div> <aside class="aside aside-like" id="phelps-units-1-2"><div class="para" id="phelps-units-1-2-1">Source: Wikipedia (World record progression 200 metres IM)</div></aside>
+<div class="para" id="phelps-units-1-1">In August 2008, United States swimmer Michael Phelps set the world record for the 200 meter individual medley, swimming it in 1 minute, 54.80 seconds.<div class="autopermalink" data-description="Paragraph"><a href="#phelps-units-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<aside class="aside aside-like" id="phelps-units-1-2"><div class="para" id="phelps-units-1-2-1">Source: Wikipedia (World record progression 200 metres IM)<div class="autopermalink" data-description="Paragraph"><a href="#phelps-units-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></aside>
 </div>
 <article class="task exercise-like" id="phelps-units-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="phelps-units-2-1-1">Convert Phelps’s time into minutes.</div></article><article class="task exercise-like" id="phelps-units-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="phelps-units-3-1-1">How fast did Phelps swim, as measured in meters/min?</div></article><article class="task exercise-like" id="phelps-units-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="phelps-units-4-1-1">Convert Phelps’s speed to mph. Use <span class="process-math">\(1 \text{ mile} \approx {1{,}609} \text{ meters}\text{.}\)</span>
-</div></article></article><article class="exercise exercise-like" id="lochte-units"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
-<div class="introduction" id="lochte-units-1"><div class="para" id="lochte-units-1-1">In August 2012, Phelps improved his time and won Olympic gold, but failed to break the world record his teammate Ryan Lochte had set a year earlier of 1 minute, 54 seconds.</div></div>
+<div class="para" id="phelps-units-2-1-1">Convert Phelps’s time into minutes.<div class="autopermalink" data-description="Paragraph"><a href="#phelps-units-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.5.a"><a href="#phelps-units-2" title="Copy permalink for Task 1.4.5.a">🔗</a></div></article><article class="task exercise-like" id="phelps-units-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="phelps-units-3-1-1">How fast did Phelps swim, as measured in meters/min?<div class="autopermalink" data-description="Paragraph"><a href="#phelps-units-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.5.b"><a href="#phelps-units-3" title="Copy permalink for Task 1.4.5.b">🔗</a></div></article><article class="task exercise-like" id="phelps-units-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="phelps-units-4-1-1">Convert Phelps’s speed to mph. Use <span class="process-math">\(1 \text{ mile} \approx {1{,}609} \text{ meters}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#phelps-units-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.5.c"><a href="#phelps-units-4" title="Copy permalink for Task 1.4.5.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.4.5"><a href="#phelps-units" title="Copy permalink for Exercise 1.4.5">🔗</a></div></article><article class="exercise exercise-like" id="lochte-units"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="introduction" id="lochte-units-1"><div class="para" id="lochte-units-1-1">In August 2012, Phelps improved his time and won Olympic gold, but failed to break the world record his teammate Ryan Lochte had set a year earlier of 1 minute, 54 seconds.<div class="autopermalink" data-description="Paragraph"><a href="#lochte-units-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
 <article class="task exercise-like" id="lochte-units-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="lochte-units-2-1-1">Convert Lochte’s time into minutes.</div></article><article class="task exercise-like" id="lochte-units-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="lochte-units-3-1-1">How fast did Lochte swim, as measured in meters/min?</div></article><article class="task exercise-like" id="lochte-units-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="lochte-units-4-1-1">Convert Lochte’s speed to mph.</div></article></article><article class="exercise exercise-like" id="assorted-1-units"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="para" id="lochte-units-2-1-1">Convert Lochte’s time into minutes.<div class="autopermalink" data-description="Paragraph"><a href="#lochte-units-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.6.a"><a href="#lochte-units-2" title="Copy permalink for Task 1.4.6.a">🔗</a></div></article><article class="task exercise-like" id="lochte-units-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="lochte-units-3-1-1">How fast did Lochte swim, as measured in meters/min?<div class="autopermalink" data-description="Paragraph"><a href="#lochte-units-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.6.b"><a href="#lochte-units-3" title="Copy permalink for Task 1.4.6.b">🔗</a></div></article><article class="task exercise-like" id="lochte-units-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="lochte-units-4-1-1">Convert Lochte’s speed to mph.<div class="autopermalink" data-description="Paragraph"><a href="#lochte-units-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.6.c"><a href="#lochte-units-4" title="Copy permalink for Task 1.4.6.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.4.6"><a href="#lochte-units" title="Copy permalink for Exercise 1.4.6">🔗</a></div></article><article class="exercise exercise-like" id="assorted-1-units"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
 <article class="task exercise-like" id="assorted-1-units-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="assorted-1-units-1-1-1">The typical weight limit for a suitcase on flights within Africa is 20 kg. How many pounds is that? Use <span class="process-math">\(1 \text{ kilogram} \approx 2.2 \text{ pounds}\text{.}\)</span>
-</div></article><article class="task exercise-like" id="assorted-1-units-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="assorted-1-units-2-1-1">How many servings are in a 20 ounce package of cookies where a serving size is 3 cookies and each cookie weighs 11 grams? Use <span class="process-math">\(1 \text{ ounce} = 28.3 \text{ grams}\text{.}\)</span>
-</div></article><article class="task exercise-like" id="assorted-1-units-3"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="assorted-1-units-3-1-1">My corner convenience store sells a “thirst quencher” size of soft drink; it holds 64 (fluid) ounces. If a can of soft drink is 12 (fluid) ounces, how many cans are in the “thirst quencher”?</div></article></article><article class="exercise exercise-like" id="assorted-2-units"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="para" id="assorted-1-units-1-1-1">The typical weight limit for a suitcase on flights within Africa is 20 kg. How many pounds is that? Use <span class="process-math">\(1 \text{ kilogram} \approx 2.2 \text{ pounds}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#assorted-1-units-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.7.a"><a href="#assorted-1-units-1" title="Copy permalink for Task 1.4.7.a">🔗</a></div></article><article class="task exercise-like" id="assorted-1-units-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="assorted-1-units-2-1-1">How many servings are in a 20 ounce package of cookies where a serving size is 3 cookies and each cookie weighs 11 grams? Use <span class="process-math">\(1 \text{ ounce} = 28.3 \text{ grams}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#assorted-1-units-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.7.b"><a href="#assorted-1-units-2" title="Copy permalink for Task 1.4.7.b">🔗</a></div></article><article class="task exercise-like" id="assorted-1-units-3"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="assorted-1-units-3-1-1">My corner convenience store sells a “thirst quencher” size of soft drink; it holds 64 (fluid) ounces. If a can of soft drink is 12 (fluid) ounces, how many cans are in the “thirst quencher”?<div class="autopermalink" data-description="Paragraph"><a href="#assorted-1-units-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.7.c"><a href="#assorted-1-units-3" title="Copy permalink for Task 1.4.7.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.4.7"><a href="#assorted-1-units" title="Copy permalink for Exercise 1.4.7">🔗</a></div></article><article class="exercise exercise-like" id="assorted-2-units"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
 <article class="task exercise-like" id="assorted-2-units-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="assorted-2-units-1-1-1">The football coach wants everyone to sprint three-quarters of a mile, up and back on the field which is labeled in yards. How many yards are in three-quarters of a mile?</div> <div class="para" id="assorted-2-units-1-1-2"><em class="emphasis">(Story also appears in <a href="sec-Fractions.html#football-field-fractions" class="xref" data-knowl="./knowl/xref/football-field-fractions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.5.8">0.5.8</a>)</em></div></article><article class="task exercise-like" id="assorted-2-units-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="assorted-2-units-2-1-1">The quilt pattern calls for 0.375 yards of calico fabric. How many feet is 0.375 yards?</div></article><article class="task exercise-like" id="assorted-2-units-3"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="assorted-2-units-3-1-1">The website said that basil plants should be 0.35 feet tall a month after germinating. How many inches is 0.35 feet?</div></article></article><article class="exercise exercise-like" id="pollution-spill-units"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
-<div class="introduction" id="pollution-spill-units-1"><div class="para" id="pollution-spill-units-1-1">Authorities are tracking down the source of a pollution spill on a nearby river. They suspect that the local plant is inadvertently leaking waste water. Last week they found 35 minutes of waste water flow on Monday, 1 hour and 11 minutes on Tuesday, 1/4 hour on Wednesday (that’s 0.25 hours in decimal), none on Thursday, and then 98 minutes Friday.</div></div>
+<div class="para" id="assorted-2-units-1-1-1">The football coach wants everyone to sprint three-quarters of a mile, up and back on the field which is labeled in yards. How many yards are in three-quarters of a mile?<div class="autopermalink" data-description="Paragraph"><a href="#assorted-2-units-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="assorted-2-units-1-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Fractions.html#football-field-fractions" class="xref" data-knowl="./knowl/xref/football-field-fractions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.5.8">0.5.8</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#assorted-2-units-1-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.8.a"><a href="#assorted-2-units-1" title="Copy permalink for Task 1.4.8.a">🔗</a></div></article><article class="task exercise-like" id="assorted-2-units-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="assorted-2-units-2-1-1">The quilt pattern calls for 0.375 yards of calico fabric. How many feet is 0.375 yards?<div class="autopermalink" data-description="Paragraph"><a href="#assorted-2-units-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.8.b"><a href="#assorted-2-units-2" title="Copy permalink for Task 1.4.8.b">🔗</a></div></article><article class="task exercise-like" id="assorted-2-units-3"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="assorted-2-units-3-1-1">The website said that basil plants should be 0.35 feet tall a month after germinating. How many inches is 0.35 feet?<div class="autopermalink" data-description="Paragraph"><a href="#assorted-2-units-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.8.c"><a href="#assorted-2-units-3" title="Copy permalink for Task 1.4.8.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.4.8"><a href="#assorted-2-units" title="Copy permalink for Exercise 1.4.8">🔗</a></div></article><article class="exercise exercise-like" id="pollution-spill-units"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="introduction" id="pollution-spill-units-1"><div class="para" id="pollution-spill-units-1-1">Authorities are tracking down the source of a pollution spill on a nearby river. They suspect that the local plant is inadvertently leaking waste water. Last week they found 35 minutes of waste water flow on Monday, 1 hour and 11 minutes on Tuesday, 1/4 hour on Wednesday (that’s 0.25 hours in decimal), none on Thursday, and then 98 minutes Friday.<div class="autopermalink" data-description="Paragraph"><a href="#pollution-spill-units-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
 <article class="task exercise-like" id="pollution-spill-units-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="pollution-spill-units-2-1-1">Convert units as needed to complete the following table showing each time in minutes, each time in hours, and each time in hours and minutes (H:MM format).</div> <div class="para" id="pollution-spill-units-2-1-2"><em class="emphasis">Hint: 15 minutes in H:MM format would be 0:15</em></div> <div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="pollution-spill-units-2-1-1">Convert units as needed to complete the following table showing each time in minutes, each time in hours, and each time in hours and minutes (H:MM format).<div class="autopermalink" data-description="Paragraph"><a href="#pollution-spill-units-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="pollution-spill-units-2-1-2">
+<em class="emphasis">Hint: 15 minutes in H:MM format would be 0:15</em><div class="autopermalink" data-description="Paragraph"><a href="#pollution-spill-units-2-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="l m b1 r1 l1 t1 lines">Day</th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Mon</th>
@@ -745,20 +824,30 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int}\)</span></td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\displaystyle\int\int}\)</span></td>
 </tr>
-</table></div></article><article class="task exercise-like" id="pollution-spill-units-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="pollution-spill-units-3-1-1">Calculate the total waste water flow measured last week.</div></article></article><article class="exercise exercise-like" id="heart-beats-units"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
-<div class="para" id="heart-beats-units-1-1">If your heart beats around 70 times a minute, how many times does it beat in a week? A year?</div></article><article class="exercise exercise-like" id="assorted-3-units"><h4 class="heading"><span class="codenumber">11<span class="period">.</span></span></h4>
+</table></div>
+<div class="autopermalink" data-description="Task 1.4.9.a"><a href="#pollution-spill-units-2" title="Copy permalink for Task 1.4.9.a">🔗</a></div></article><article class="task exercise-like" id="pollution-spill-units-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="pollution-spill-units-3-1-1">Calculate the total waste water flow measured last week.<div class="autopermalink" data-description="Paragraph"><a href="#pollution-spill-units-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.9.b"><a href="#pollution-spill-units-3" title="Copy permalink for Task 1.4.9.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.4.9"><a href="#pollution-spill-units" title="Copy permalink for Exercise 1.4.9">🔗</a></div></article><article class="exercise exercise-like" id="heart-beats-units"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<div class="para" id="heart-beats-units-1-1">If your heart beats around 70 times a minute, how many times does it beat in a week? A year?<div class="autopermalink" data-description="Paragraph"><a href="#heart-beats-units-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 1.4.10"><a href="#heart-beats-units" title="Copy permalink for Exercise 1.4.10">🔗</a></div></article><article class="exercise exercise-like" id="assorted-3-units"><h4 class="heading"><span class="codenumber">11<span class="period">.</span></span></h4>
 <article class="task exercise-like" id="assorted-3-units-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="assorted-3-units-1-1-1">Harold’s Physics textbook says an object is thrown into the air at 36 feet per second. To understand how fast that is, convert to mph.</div></article><article class="task exercise-like" id="assorted-3-units-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="assorted-3-units-2-1-1">Harold’s History textbook mentions that in 1800 the city encompassed about 6,000 acres. How many square miles is that? Use <span class="process-math">\(1 \text{ square mile} = 640 \text{ acres}\text{.}\)</span>
-</div></article><article class="task exercise-like" id="assorted-3-units-3"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="assorted-3-units-3-1-1">Harold’s Economics textbooks lists the recent high price of crude oil at $100 per barrel. He’d like to know what that means in $/gallon of gasoline. It turns out that 1 barrel of crude oil produces about 19.4 gallons of gasoline.</div></article></article></section></section></div>
-<div class="ptx-content-footer">
+<div class="para" id="assorted-3-units-1-1-1">Harold’s Physics textbook says an object is thrown into the air at 36 feet per second. To understand how fast that is, convert to mph.<div class="autopermalink" data-description="Paragraph"><a href="#assorted-3-units-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.11.a"><a href="#assorted-3-units-1" title="Copy permalink for Task 1.4.11.a">🔗</a></div></article><article class="task exercise-like" id="assorted-3-units-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="assorted-3-units-2-1-1">Harold’s History textbook mentions that in 1800 the city encompassed about 6,000 acres. How many square miles is that? Use <span class="process-math">\(1 \text{ square mile} = 640 \text{ acres}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#assorted-3-units-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.11.b"><a href="#assorted-3-units-2" title="Copy permalink for Task 1.4.11.b">🔗</a></div></article><article class="task exercise-like" id="assorted-3-units-3"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="assorted-3-units-3-1-1">Harold’s Economics textbooks lists the recent high price of crude oil at $100 per barrel. He’d like to know what that means in $/gallon of gasoline. It turns out that 1 barrel of crude oil produces about 19.4 gallons of gasoline.<div class="autopermalink" data-description="Paragraph"><a href="#assorted-3-units-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.4.11.c"><a href="#assorted-3-units-3" title="Copy permalink for Task 1.4.11.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.4.11"><a href="#assorted-3-units" title="Copy permalink for Exercise 1.4.11">🔗</a></div></article><div class="autopermalink" data-description="Exercises 1.4"><a href="#ex-Units" title="Copy permalink for Exercises 1.4">🔗</a></div></section><div class="autopermalink" data-description="Section 1.4: Units"><a href="#sec-Units" title="Copy permalink for Section 1.4: Units">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="sec-Rate_of_change.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-Metric_system_and_scientific_notation.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
-<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
 </div>
 </body>
 </html>

@@ -5,16 +5,25 @@
 <!--*         https://pretextbook.org          *-->
 <!--*                                          *-->
 <!--********************************************-->
-<html lang="en-US" dir="ltr">
+<html lang="en-US" dir="ltr" data-legacy-colorscheme="blue_red">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-legacy                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Linear vs. exponential models</title>
-<meta name="Keywords" content="Authored in PreTeXt">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta property="og:type" content="book">
-<meta property="book:title" content="Just Enough Algebra">
-<meta property="book:author" content="Dr. Suzanne Dorée">
-<meta property="book:author" content="Dr. Spencer Bagley">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;" rel="stylesheet">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
 <script>
 var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
 window.MathJax = {
@@ -70,137 +79,54 @@ window.MathJax = {
     )}
   }
 };
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
-<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
-</script><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
-<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
-<style>
-#sec-Approximation_and_rounding-3-2-1 { counter-set: sec-Approximation_and_rounding-3-2-1 0; }
-#sec-Approximation_and_rounding-3-2-1 > li::marker { content: ""counter(sec-Approximation_and_rounding-3-2-1,upper-alpha)"."; }
-#sec-Approximation_and_rounding-3-2-1 > li { counter-increment: sec-Approximation_and_rounding-3-2-1; }
-#sec-Arithmetic_operations-3-2-1 { counter-set: sec-Arithmetic_operations-3-2-1 0; }
-#sec-Arithmetic_operations-3-2-1 > li::marker { content: ""counter(sec-Arithmetic_operations-3-2-1,upper-alpha)"."; }
-#sec-Arithmetic_operations-3-2-1 > li { counter-increment: sec-Arithmetic_operations-3-2-1; }
-#sec-Percentages-3-2-1 { counter-set: sec-Percentages-3-2-1 0; }
-#sec-Percentages-3-2-1 > li::marker { content: ""counter(sec-Percentages-3-2-1,upper-alpha)"."; }
-#sec-Percentages-3-2-1 > li { counter-increment: sec-Percentages-3-2-1; }
-#sec-Order_of_operations-3-2-1 { counter-set: sec-Order_of_operations-3-2-1 0; }
-#sec-Order_of_operations-3-2-1 > li::marker { content: ""counter(sec-Order_of_operations-3-2-1,upper-alpha)"."; }
-#sec-Order_of_operations-3-2-1 > li { counter-increment: sec-Order_of_operations-3-2-1; }
-#sec-Fractions-3-2-1 { counter-set: sec-Fractions-3-2-1 0; }
-#sec-Fractions-3-2-1 > li::marker { content: ""counter(sec-Fractions-3-2-1,upper-alpha)"."; }
-#sec-Fractions-3-2-1 > li { counter-increment: sec-Fractions-3-2-1; }
-#sec-Powers_and_roots-3-2-1 { counter-set: sec-Powers_and_roots-3-2-1 0; }
-#sec-Powers_and_roots-3-2-1 > li::marker { content: ""counter(sec-Powers_and_roots-3-2-1,upper-alpha)"."; }
-#sec-Powers_and_roots-3-2-1 > li { counter-increment: sec-Powers_and_roots-3-2-1; }
-#sec-Algebraic_notation-3-2-1 { counter-set: sec-Algebraic_notation-3-2-1 0; }
-#sec-Algebraic_notation-3-2-1 > li::marker { content: ""counter(sec-Algebraic_notation-3-2-1,upper-alpha)"."; }
-#sec-Algebraic_notation-3-2-1 > li { counter-increment: sec-Algebraic_notation-3-2-1; }
-#sec-Scientific_notation-3-2-1 { counter-set: sec-Scientific_notation-3-2-1 0; }
-#sec-Scientific_notation-3-2-1 > li::marker { content: ""counter(sec-Scientific_notation-3-2-1,upper-alpha)"."; }
-#sec-Scientific_notation-3-2-1 > li { counter-increment: sec-Scientific_notation-3-2-1; }
-#sec-Logarithms-3-2-1 { counter-set: sec-Logarithms-3-2-1 0; }
-#sec-Logarithms-3-2-1 > li::marker { content: ""counter(sec-Logarithms-3-2-1,upper-alpha)"."; }
-#sec-Logarithms-3-2-1 > li { counter-increment: sec-Logarithms-3-2-1; }
-#sec-Variables_and_functions-3-2-1 { counter-set: sec-Variables_and_functions-3-2-1 0; }
-#sec-Variables_and_functions-3-2-1 > li::marker { content: ""counter(sec-Variables_and_functions-3-2-1,upper-alpha)"."; }
-#sec-Variables_and_functions-3-2-1 > li { counter-increment: sec-Variables_and_functions-3-2-1; }
-#sec-Tables_and_graphs-3-2-1 { counter-set: sec-Tables_and_graphs-3-2-1 0; }
-#sec-Tables_and_graphs-3-2-1 > li::marker { content: ""counter(sec-Tables_and_graphs-3-2-1,upper-alpha)"."; }
-#sec-Tables_and_graphs-3-2-1 > li { counter-increment: sec-Tables_and_graphs-3-2-1; }
-#sec-Rate_of_change-3-2-1 { counter-set: sec-Rate_of_change-3-2-1 0; }
-#sec-Rate_of_change-3-2-1 > li::marker { content: ""counter(sec-Rate_of_change-3-2-1,upper-alpha)"."; }
-#sec-Rate_of_change-3-2-1 > li { counter-increment: sec-Rate_of_change-3-2-1; }
-#sec-Units-3-2-1 { counter-set: sec-Units-3-2-1 0; }
-#sec-Units-3-2-1 > li::marker { content: ""counter(sec-Units-3-2-1,upper-alpha)"."; }
-#sec-Units-3-2-1 > li { counter-increment: sec-Units-3-2-1; }
-#sec-Metric_system_and_scientific_notation-3-2-1 { counter-set: sec-Metric_system_and_scientific_notation-3-2-1 0; }
-#sec-Metric_system_and_scientific_notation-3-2-1 > li::marker { content: ""counter(sec-Metric_system_and_scientific_notation-3-2-1,upper-alpha)"."; }
-#sec-Metric_system_and_scientific_notation-3-2-1 > li { counter-increment: sec-Metric_system_and_scientific_notation-3-2-1; }
-#sec-First_look_linear-3-2-1 { counter-set: sec-First_look_linear-3-2-1 0; }
-#sec-First_look_linear-3-2-1 > li::marker { content: ""counter(sec-First_look_linear-3-2-1,upper-alpha)"."; }
-#sec-First_look_linear-3-2-1 > li { counter-increment: sec-First_look_linear-3-2-1; }
-#sec-First_look_exponential-3-2-1 { counter-set: sec-First_look_exponential-3-2-1 0; }
-#sec-First_look_exponential-3-2-1 > li::marker { content: ""counter(sec-First_look_exponential-3-2-1,upper-alpha)"."; }
-#sec-First_look_exponential-3-2-1 > li { counter-increment: sec-First_look_exponential-3-2-1; }
-#sec-Using_equations-3-2-1 { counter-set: sec-Using_equations-3-2-1 0; }
-#sec-Using_equations-3-2-1 > li::marker { content: ""counter(sec-Using_equations-3-2-1,upper-alpha)"."; }
-#sec-Using_equations-3-2-1 > li { counter-increment: sec-Using_equations-3-2-1; }
-#sec-Approx_solutions-3-2-1 { counter-set: sec-Approx_solutions-3-2-1 0; }
-#sec-Approx_solutions-3-2-1 > li::marker { content: ""counter(sec-Approx_solutions-3-2-1,upper-alpha)"."; }
-#sec-Approx_solutions-3-2-1 > li { counter-increment: sec-Approx_solutions-3-2-1; }
-#sec-Finance-3-2-1 { counter-set: sec-Finance-3-2-1 0; }
-#sec-Finance-3-2-1 > li::marker { content: ""counter(sec-Finance-3-2-1,upper-alpha)"."; }
-#sec-Finance-3-2-1 > li { counter-increment: sec-Finance-3-2-1; }
-#sec-Solving_linear_equations-3-2-1 { counter-set: sec-Solving_linear_equations-3-2-1 0; }
-#sec-Solving_linear_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_linear_equations-3-2-1,upper-alpha)"."; }
-#sec-Solving_linear_equations-3-2-1 > li { counter-increment: sec-Solving_linear_equations-3-2-1; }
-#sec-Solving_linear_inequalities-3-2-1 { counter-set: sec-Solving_linear_inequalities-3-2-1 0; }
-#sec-Solving_linear_inequalities-3-2-1 > li::marker { content: ""counter(sec-Solving_linear_inequalities-3-2-1,upper-alpha)"."; }
-#sec-Solving_linear_inequalities-3-2-1 > li { counter-increment: sec-Solving_linear_inequalities-3-2-1; }
-#sec-Solving_power_equations-3-2-1 { counter-set: sec-Solving_power_equations-3-2-1 0; }
-#sec-Solving_power_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_power_equations-3-2-1,upper-alpha)"."; }
-#sec-Solving_power_equations-3-2-1 > li { counter-increment: sec-Solving_power_equations-3-2-1; }
-#sec-Solving_exponential_equations-3-2-1 { counter-set: sec-Solving_exponential_equations-3-2-1 0; }
-#sec-Solving_exponential_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_exponential_equations-3-2-1,upper-alpha)"."; }
-#sec-Solving_exponential_equations-3-2-1 > li { counter-increment: sec-Solving_exponential_equations-3-2-1; }
-#sec-Solving_quadratic_equations-3-2-1 { counter-set: sec-Solving_quadratic_equations-3-2-1 0; }
-#sec-Solving_quadratic_equations-3-2-1 > li::marker { content: ""counter(sec-Solving_quadratic_equations-3-2-1,upper-alpha)"."; }
-#sec-Solving_quadratic_equations-3-2-1 > li { counter-increment: sec-Solving_quadratic_equations-3-2-1; }
-#sec-Modeling_linear_equations-3-2-1 { counter-set: sec-Modeling_linear_equations-3-2-1 0; }
-#sec-Modeling_linear_equations-3-2-1 > li::marker { content: ""counter(sec-Modeling_linear_equations-3-2-1,upper-alpha)"."; }
-#sec-Modeling_linear_equations-3-2-1 > li { counter-increment: sec-Modeling_linear_equations-3-2-1; }
-#sec-Systems_linear_equations-3-2-1 { counter-set: sec-Systems_linear_equations-3-2-1 0; }
-#sec-Systems_linear_equations-3-2-1 > li::marker { content: ""counter(sec-Systems_linear_equations-3-2-1,upper-alpha)"."; }
-#sec-Systems_linear_equations-3-2-1 > li { counter-increment: sec-Systems_linear_equations-3-2-1; }
-#sec-Intercepts-3-2-1 { counter-set: sec-Intercepts-3-2-1 0; }
-#sec-Intercepts-3-2-1 > li::marker { content: ""counter(sec-Intercepts-3-2-1,upper-alpha)"."; }
-#sec-Intercepts-3-2-1 > li { counter-increment: sec-Intercepts-3-2-1; }
-#sec-Slopes-3-2-1 { counter-set: sec-Slopes-3-2-1 0; }
-#sec-Slopes-3-2-1 > li::marker { content: ""counter(sec-Slopes-3-2-1,upper-alpha)"."; }
-#sec-Slopes-3-2-1 > li { counter-increment: sec-Slopes-3-2-1; }
-#sec-Fitting_lines_to_data-3-2-1 { counter-set: sec-Fitting_lines_to_data-3-2-1 0; }
-#sec-Fitting_lines_to_data-3-2-1 > li::marker { content: ""counter(sec-Fitting_lines_to_data-3-2-1,upper-alpha)"."; }
-#sec-Fitting_lines_to_data-3-2-1 > li { counter-increment: sec-Fitting_lines_to_data-3-2-1; }
-#sec-Modeling_exponential_equations-3-2-1 { counter-set: sec-Modeling_exponential_equations-3-2-1 0; }
-#sec-Modeling_exponential_equations-3-2-1 > li::marker { content: ""counter(sec-Modeling_exponential_equations-3-2-1,upper-alpha)"."; }
-#sec-Modeling_exponential_equations-3-2-1 > li { counter-increment: sec-Modeling_exponential_equations-3-2-1; }
-#sec-Exp_growth_decay-3-2-1 { counter-set: sec-Exp_growth_decay-3-2-1 0; }
-#sec-Exp_growth_decay-3-2-1 > li::marker { content: ""counter(sec-Exp_growth_decay-3-2-1,upper-alpha)"."; }
-#sec-Exp_growth_decay-3-2-1 > li { counter-increment: sec-Exp_growth_decay-3-2-1; }
-#sec-Growth_factor-3-2-1 { counter-set: sec-Growth_factor-3-2-1 0; }
-#sec-Growth_factor-3-2-1 > li::marker { content: ""counter(sec-Growth_factor-3-2-1,upper-alpha)"."; }
-#sec-Growth_factor-3-2-1 > li { counter-increment: sec-Growth_factor-3-2-1; }
-#sec-Linear_vs_exponential-3-2-1 { counter-set: sec-Linear_vs_exponential-3-2-1 0; }
-#sec-Linear_vs_exponential-3-2-1 > li::marker { content: ""counter(sec-Linear_vs_exponential-3-2-1,upper-alpha)"."; }
-#sec-Linear_vs_exponential-3-2-1 > li { counter-increment: sec-Linear_vs_exponential-3-2-1; }
-#sec-Logistic_growth-3-2-1 { counter-set: sec-Logistic_growth-3-2-1 0; }
-#sec-Logistic_growth-3-2-1 > li::marker { content: ""counter(sec-Logistic_growth-3-2-1,upper-alpha)"."; }
-#sec-Logistic_growth-3-2-1 > li { counter-increment: sec-Logistic_growth-3-2-1; }
-</style>
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Just Enough Algebra">
+<meta property="book:author" content="Dr. Suzanne Dorée">
+<meta property="book:author" content="Dr. Spencer Bagley">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.7.5';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.107bf2d9be20d9c4.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
 </head>
 <body id="justenoughalgebra" class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
 <a id="logo-link" class="logo-link" target="_blank" href=""><img src="external/book-open-solid.png" alt="Logo image"></a><div class="title-container">
-<h1 class="heading"><a href="just-enough-algebra.html"><span class="title">Just Enough Algebra</span></a></h1>
+<h1 class="heading"><a href="just-enough-algebra.html"><span class="title">Just Enough Algebra</span> <span class="subtitle">Summer 2025 edition</span></a></h1>
 <p class="byline">Dr. Suzanne Dorée, Dr. Spencer Bagley</p>
 </div>
-</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
 <div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
 <div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
 <div class="search-results-controls">
@@ -211,7 +137,8 @@ window.MathJax = {
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-Growth_factor.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-Closer_look_exponential.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-Logistic_growth.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-Growth_factor.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-Closer_look_exponential.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-Logistic_growth.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -220,12 +147,12 @@ window.MathJax = {
 \newcommand{\sfrac}[2]{{#1}/{#2}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter">
 <div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
-<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-why-this-book-web.html" class="internal"><span class="title">Why <em class="emphasis">Just Enough Algebra</em>?</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-students-web.html" class="internal"><span class="title">Students! Read this!</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-instructors-web.html" class="internal"><span class="title">Instructors! Read this!</span></a></div></li>
@@ -419,9 +346,9 @@ window.MathJax = {
 <div class="toc-title-box"><a href="sec-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Growth_factor.html#ex-Growth_factor" class="internal"><span class="codenumber">5.3</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
-<li class="toc-item toc-section active">
+<li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="sec-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html#ex-Linear_vs_exponential" class="internal"><span class="codenumber">5.4</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural toc-item-list active"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html#ex-Linear_vs_exponential" class="internal"><span class="codenumber">5.4</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div>
@@ -468,7 +395,9 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Linear_vs_exponential"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">5.4</span><span class="space"> </span><span class="title">Linear vs. exponential models</span>
 </h2>
-<section class="introduction" id="sec-Linear_vs_exponential-2"><div class="para" id="sec-Linear_vs_exponential-2-1">Sofía bought her car new for $22,500. Now the car is fairly old and just passed 109,000 miles. Sofía looked online and estimates the car is still worth $5,700. She wonders when the car would be practically worthless, meaning under $500.</div> <div class="para logical" id="sec-Linear_vs_exponential-2-2">
+<section class="introduction" id="sec-Linear_vs_exponential-2"><div class="para" id="sec-Linear_vs_exponential-2-1">Sofía bought her car new for $22,500. Now the car is fairly old and just passed 109,000 miles. Sofía looked online and estimates the car is still worth $5,700. She wonders when the car would be practically worthless, meaning under $500.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Linear_vs_exponential-2-2">
 <div class="para">We can describe the variables in this story.</div>
 <div class="displaymath process-math" id="sec-Linear_vs_exponential-2-2-1">
 \begin{align*}
@@ -477,7 +406,9 @@ C \amp= \text{ value of car (\$) } \sim \text{ indep}
 \end{align*}
 </div>
 <div class="para">Notice we are measuring the mileage in thousands. The information we are given is</div>
-</div> <div class="tabular-box natural-width"><table class="tabular">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(M\)</span></td>
 <td class="c m b1 r1 l0 t1 lines">0</td>
@@ -488,12 +419,21 @@ C \amp= \text{ value of car (\$) } \sim \text{ indep}
 <td class="c m b1 r1 l0 t0 lines">22,500</td>
 <td class="c m b1 r1 l0 t0 lines">5,700</td>
 </tr>
-</table></div> <div class="para" id="sec-Linear_vs_exponential-2-4">But what’s the equation? Hmm. Don’t know for sure what type of equation might work here. Tell you what, let’s compare what a linear and exponential model would tell us about the value of the car.</div> <div class="para" id="sec-Linear_vs_exponential-2-5">First, linear. The template is</div> <article class="assemblage assemblage-like" id="sec-Linear_vs_exponential-2-6"><h3 class="heading"><span class="title">Linear Equation Template</span></h3>
-<div class="para logical" id="sec-Linear_vs_exponential-2-6-2"><div class="displaymath process-math">
+</table></div>
+<div class="para" id="sec-Linear_vs_exponential-2-4">But what’s the equation? Hmm. Don’t know for sure what type of equation might work here. Tell you what, let’s compare what a linear and exponential model would tell us about the value of the car.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Linear_vs_exponential-2-5">First, linear. The template is<div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-2-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<article class="assemblage assemblage-like" id="sec-Linear_vs_exponential-2-6"><h3 class="heading"><span class="title">Linear Equation Template</span></h3>
+<div class="para logical" id="sec-Linear_vs_exponential-2-6-2">
+<div class="displaymath process-math">
 \begin{equation*}
 \text{dep} = \text{start} + \text{slope} \ast \text{indep}
 \end{equation*}
-</div></div></article> <div class="para logical" id="sec-Linear_vs_exponential-2-7">
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-2-6-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Linear Equation Template"><a href="#sec-Linear_vs_exponential-2-6" title="Copy permalink for Assemblage: Linear Equation Template">🔗</a></div></article><div class="para logical" id="sec-Linear_vs_exponential-2-7">
 <div class="para">The starting value of Sofía’s car is $22,500 so we just need to find the slope. We expect the slope to be negative because her car is worth less the more she drives it.</div>
 <div class="displaymath process-math" id="sec-Linear_vs_exponential-2-7-1">
 \begin{align*}
@@ -503,7 +443,9 @@ C \amp= \text{ value of car (\$) } \sim \text{ indep}
 \end{align*}
 </div>
 <div class="para">Her car loses value at a rate of around $154 for each thousand miles she drives.</div>
-</div> <div class="para logical" id="sec-Linear_vs_exponential-2-8">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-2-7" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Linear_vs_exponential-2-8">
 <div class="para">We are ready to write the linear equation.</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -517,7 +459,9 @@ C =  22{,}500 - 154\ast 109 =  22{,}500 - 154\times \underline{109}= 5{,}714 \ap
 \end{equation*}
 </div>
 <div class="para">Remember we don’t expect the exact answer because we rounded off the slope.</div>
-</div> <div class="para logical" id="sec-Linear_vs_exponential-2-9">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-2-8" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Linear_vs_exponential-2-9">
 <div class="para">When will Sofía’s car be worth under $500 according to this linear equation? Let’s solve to find out. When <span class="process-math">\(C=500\text{,}\)</span> use our linear equation to get</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -537,12 +481,20 @@ M = \frac{-22{,}000}{-154} = \text{(-)} 22{,}000 \div  \text{(-)}154= 142.738095
 \end{equation*}
 </div>
 <div class="para">According to the linear equation, Sofía’s car will be worth under $500 at about 143,000 miles. Since her car already has 109,000 miles on it, that means in another <span class="process-math">\(143{,}000-109{,}000 = 34{,}000\text{ miles}\text{.}\)</span> For a typical driver that’s two or three more years.</div>
-</div> <div class="para" id="sec-Linear_vs_exponential-2-10">Next, let’s take a look at the exponential model. Here goes. The template is</div> <article class="assemblage assemblage-like" id="sec-Linear_vs_exponential-2-11"><h3 class="heading"><span class="title">Exponential Equation Template</span></h3>
-<div class="para logical" id="sec-Linear_vs_exponential-2-11-2"><div class="displaymath process-math">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-2-9" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Linear_vs_exponential-2-10">Next, let’s take a look at the exponential model. Here goes. The template is<div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-2-10" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<article class="assemblage assemblage-like" id="sec-Linear_vs_exponential-2-11"><h3 class="heading"><span class="title">Exponential Equation Template</span></h3>
+<div class="para logical" id="sec-Linear_vs_exponential-2-11-2">
+<div class="displaymath process-math">
 \begin{equation*}
 \text{dep} = \text{start} \ast \text{growth factor} ^ {\text{indep}}
 \end{equation*}
-</div></div></article> <div class="para logical" id="sec-Linear_vs_exponential-2-12">
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-2-11-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Exponential Equation Template"><a href="#sec-Linear_vs_exponential-2-11" title="Copy permalink for Assemblage: Exponential Equation Template">🔗</a></div></article><div class="para logical" id="sec-Linear_vs_exponential-2-12">
 <div class="para">We know everything except the growth factor. We expect it to be less than 1 because her car is worth less the more she drives it. Perhaps we should say “decay” factor here since the function is decreasing. The starting amount is <span class="process-math">\(s=22{,}500\)</span> and the ending amount is <span class="process-math">\(a=5{,}700\)</span> after <span class="process-math">\(t=109\)</span> thousand miles. Using the <a href="sec-Growth_factor.html#growth-factor-formula" class="xref" data-knowl="./knowl/xref/growth-factor-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Growth Factor Formula">Growth Factor Formula</a> we have</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/growth-factor-formula.html" id="sec-Linear_vs_exponential-2-12-6">
 \begin{align*}
@@ -550,7 +502,9 @@ g \amp = \sqrt[t]{\frac{a}{s}} = \sqrt[109]{\frac{5{,}700}{22{,}500}} \\
 \amp = 109  \sqrt[x]{~\text{  }}( 5{,}700 \div 22{,}500)= 0.98748222\ldots \approx 0.9875 
 \end{align*}
 </div>
-</div> <div class="para logical" id="sec-Linear_vs_exponential-2-13">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-2-12" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Linear_vs_exponential-2-13">
 <div class="para">We are ready to write the exponential equation.</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -564,7 +518,9 @@ C =  22{,}500 \ast 0.9875^{109} =  22{,}500 \times 0.9875 \wedge\underline{109}=
 \end{equation*}
 </div>
 <div class="para">Again, we don’t expect the exact answer because we rounded off the decay factor.</div>
-</div> <div class="para logical" id="sec-Linear_vs_exponential-2-14">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-2-13" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Linear_vs_exponential-2-14">
 <div class="para">When will Sofía’s car be worth under $500 according to this exponential equation? Let’s solve to find out. When <span class="process-math">\(C=500\text{,}\)</span> use our exponential equation to get</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/log-divides-formula.html">
 \begin{equation*}
@@ -584,7 +540,11 @@ M =  \frac{\log (v)}{\log(g)}=  \frac{\log (0.022222222)}{\log(0.9875)} =  \log 
 \end{equation*}
 </div>
 <div class="para">According to the exponential equation, Sofía’s car will be worth under $500 at about 300,000 miles. Hard to imagine the car would last that long. Essentially the exponential model says the car will always be worth at least $500, if only for parts, I guess. Quite different from our answer from the linear equation.</div>
-</div> <div class="para" id="sec-Linear_vs_exponential-2-15">Time to compare models. Which one makes more sense? First things first, the car already has a lot of miles on it. Don’t know what make or model the car is, but another couple of years seems a reasonable time until is worth under $500. That’s what the linear equation projects. On the other hand, the exponential model project it will hold that value for a long time, essentially for parts. That makes sense too.</div> <div class="para logical" id="sec-Linear_vs_exponential-2-16">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-2-14" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Linear_vs_exponential-2-15">Time to compare models. Which one makes more sense? First things first, the car already has a lot of miles on it. Don’t know what make or model the car is, but another couple of years seems a reasonable time until is worth under $500. That’s what the linear equation projects. On the other hand, the exponential model project it will hold that value for a long time, essentially for parts. That makes sense too.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-2-15" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Linear_vs_exponential-2-16">
 <div class="para">Wait a minute. Does a car lose the same value for each thousand miles it’s driven? That’s what it means to be linear. Every thousand miles, same decrease. Nah, that’s not right. Once the car is old, another 1,000 miles or so probably won’t affect the value at all. Also, when a car is new, once you drive it off the lot and then that strange vinyl smell wears off and it’s officially “used,” the car is worth a lot less. Even if it hasn’t been driven much at all. What would each model say the car was worth soon after Sofía bought it, say with 10,000 miles on it? With <span class="process-math">\(M=10\text{,}\)</span> the estimates are</div>
 <div class="displaymath process-math" id="sec-Linear_vs_exponential-2-16-3">
 \begin{align*}
@@ -592,7 +552,13 @@ M =  \frac{\log (v)}{\log(g)}=  \frac{\log (0.022222222)}{\log(0.9875)} =  \log 
 \textbf{exponential:} \quad C \amp = 22{,}500 \ast 0.9875^{10}=  22{,}500 \times 0.9875 \wedge\underline{10} \approx \$19{,}841 
 \end{align*}
 </div>
-</div> <div class="para" id="sec-Linear_vs_exponential-2-17">The lower value, from the exponential equation, seems more reasonable.</div> <div class="para" id="sec-Linear_vs_exponential-2-18">Here are a few more values and the graph. The graph is shows both the line and exponential curve have intercept just over $22,000, which should be $22,500. The line and curve intersect again between 100,000 and 120,000 miles (close to the exact mileage of 109,000) at right under $6,000 (close to the exact value of $5,700).</div> <div class="tabular-box natural-width"><table class="tabular">
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-2-16" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Linear_vs_exponential-2-17">The lower value, from the exponential equation, seems more reasonable.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-2-17" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Linear_vs_exponential-2-18">Here are a few more values and the graph. The graph is shows both the line and exponential curve have intercept just over $22,000, which should be $22,500. The line and curve intersect again between 100,000 and 120,000 miles (close to the exact mileage of 109,000) at right under $6,000 (close to the exact value of $5,700).<div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-2-18" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(M\)</span></td>
 <td class="c m b1 r1 l0 t1 lines">0</td>
@@ -625,45 +591,124 @@ M =  \frac{\log (v)}{\log(g)}=  \frac{\log (0.022222222)}{\log(0.9875)} =  \log 
 <td class="c m b1 r1 l0 t0 lines">1,818</td>
 <td class="c m b1 r1 l0 t0 lines">969</td>
 </tr>
-</table></div> <div class="para" id="sec-Linear_vs_exponential-2-20"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/carvalue.png" class="contained"></div></div> <div class="para" id="sec-Linear_vs_exponential-2-21">There’s no way of knowing whether the function is linear or exponential. It is probably not exactly either one. But if we have to pick, the exponential model seems closer to reality.</div></section><section class="conclusion" id="sec-Linear_vs_exponential-3"><h3 class="heading">Do you know …<span></span>
-</h3> <div class="para logical" id="sec-Linear_vs_exponential-3-2"><ol class="upper-alpha" id="sec-Linear_vs_exponential-3-2-1">
-<li id="sec-Linear_vs_exponential-3-2-1-1"><div class="para" id="sec-Linear_vs_exponential-3-2-1-1-1">When we might think a model might be linear?</div></li>
-<li id="sec-Linear_vs_exponential-3-2-1-2"><div class="para" id="sec-Linear_vs_exponential-3-2-1-2-1">The template for a linear equation?</div></li>
-<li id="sec-Linear_vs_exponential-3-2-1-3"><div class="para" id="sec-Linear_vs_exponential-3-2-1-3-1">How to find the linear equation between two points (a start and end value)?</div></li>
-<li id="sec-Linear_vs_exponential-3-2-1-4"><div class="para" id="sec-Linear_vs_exponential-3-2-1-4-1">When we might think a model might be exponential?</div></li>
-<li id="sec-Linear_vs_exponential-3-2-1-5"><div class="para" id="sec-Linear_vs_exponential-3-2-1-5-1">The template for an exponential equation?</div></li>
-<li id="sec-Linear_vs_exponential-3-2-1-6"><div class="para" id="sec-Linear_vs_exponential-3-2-1-6-1">How to find the exponential equation between two points (a start and end value)?</div></li>
-<li id="sec-Linear_vs_exponential-3-2-1-7"><div class="para" id="sec-Linear_vs_exponential-3-2-1-7-1">Why we compare linear and exponential models?</div></li>
-</ol></div> <div class="para" id="sec-Linear_vs_exponential-3-3"><em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em></div></section><section class="exercises" id="ex-Linear_vs_exponential"><h3 class="heading hide-type">
+</table></div>
+<div class="para" id="sec-Linear_vs_exponential-2-20">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/carvalue.png" class="contained"></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-2-20" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Linear_vs_exponential-2-21">There’s no way of knowing whether the function is linear or exponential. It is probably not exactly either one. But if we have to pick, the exponential model seems closer to reality.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-2-21" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="conclusion" id="sec-Linear_vs_exponential-3"><h3 class="heading">Do you know …<span></span>
+</h3>
+<div class="para logical" id="sec-Linear_vs_exponential-3-2">
+<ol class="upper-alpha ol-marker-1" id="sec-Linear_vs_exponential-3-2-1">
+<li id="sec-Linear_vs_exponential-3-2-1-1">
+<div class="para" id="sec-Linear_vs_exponential-3-2-1-1-1">When we might think a model might be linear?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-3-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item A"><a href="#sec-Linear_vs_exponential-3-2-1-1" title="Copy permalink for Item A">🔗</a></div>
+</li>
+<li id="sec-Linear_vs_exponential-3-2-1-2">
+<div class="para" id="sec-Linear_vs_exponential-3-2-1-2-1">The template for a linear equation?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-3-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item B"><a href="#sec-Linear_vs_exponential-3-2-1-2" title="Copy permalink for Item B">🔗</a></div>
+</li>
+<li id="sec-Linear_vs_exponential-3-2-1-3">
+<div class="para" id="sec-Linear_vs_exponential-3-2-1-3-1">How to find the linear equation between two points (a start and end value)?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-3-2-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item C"><a href="#sec-Linear_vs_exponential-3-2-1-3" title="Copy permalink for Item C">🔗</a></div>
+</li>
+<li id="sec-Linear_vs_exponential-3-2-1-4">
+<div class="para" id="sec-Linear_vs_exponential-3-2-1-4-1">When we might think a model might be exponential?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-3-2-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item D"><a href="#sec-Linear_vs_exponential-3-2-1-4" title="Copy permalink for Item D">🔗</a></div>
+</li>
+<li id="sec-Linear_vs_exponential-3-2-1-5">
+<div class="para" id="sec-Linear_vs_exponential-3-2-1-5-1">The template for an exponential equation?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-3-2-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item E"><a href="#sec-Linear_vs_exponential-3-2-1-5" title="Copy permalink for Item E">🔗</a></div>
+</li>
+<li id="sec-Linear_vs_exponential-3-2-1-6">
+<div class="para" id="sec-Linear_vs_exponential-3-2-1-6-1">How to find the exponential equation between two points (a start and end value)?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-3-2-1-6-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item F"><a href="#sec-Linear_vs_exponential-3-2-1-6" title="Copy permalink for Item F">🔗</a></div>
+</li>
+<li id="sec-Linear_vs_exponential-3-2-1-7">
+<div class="para" id="sec-Linear_vs_exponential-3-2-1-7-1">Why we compare linear and exponential models?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-3-2-1-7-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item G"><a href="#sec-Linear_vs_exponential-3-2-1-7" title="Copy permalink for Item G">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-3-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Linear_vs_exponential-3-3">
+<em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-Linear_vs_exponential-3-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="exercises" id="ex-Linear_vs_exponential"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises</span>
 </h3>
-<section class="introduction" id="ex-Linear_vs_exponential-2"><div class="para" id="ex-Linear_vs_exponential-2-1">Exercises 1-4 are available in a separate workbook format.</div></section><article class="exercise exercise-like" id="parents-house-linear-exponential"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<section class="introduction" id="ex-Linear_vs_exponential-2"><div class="para" id="ex-Linear_vs_exponential-2-1">Exercises 1-4 are available in a separate workbook format.<div class="autopermalink" data-description="Paragraph"><a href="#ex-Linear_vs_exponential-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><article class="exercise exercise-like" id="parents-house-linear-exponential"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
 <div class="introduction" id="parents-house-linear-exponential-1">
-<div class="para" id="parents-house-linear-exponential-1-1">My parents bought the house I grew up in for $35,000 and sold it 40 years later for $342,000. True story. (It was before the housing bubble burst.)</div> <div class="para" id="parents-house-linear-exponential-1-2"><em class="alert">First, assume the value of the house increased exponentially.</em></div>
+<div class="para" id="parents-house-linear-exponential-1-1">My parents bought the house I grew up in for $35,000 and sold it 40 years later for $342,000. True story. (It was before the housing bubble burst.)<div class="autopermalink" data-description="Paragraph"><a href="#parents-house-linear-exponential-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="parents-house-linear-exponential-1-2">
+<em class="alert">First, assume the value of the house increased exponentially.</em><div class="autopermalink" data-description="Paragraph"><a href="#parents-house-linear-exponential-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 </div>
 <article class="task exercise-like" id="parents-house-linear-exponential-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="parents-house-linear-exponential-2-1-1">Calculate the annual growth factor using the <a href="sec-Growth_factor.html#growth-factor-formula" class="xref" data-knowl="./knowl/xref/growth-factor-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Growth Factor Formula">Growth Factor Formula</a>.</div></article><article class="task exercise-like" id="parents-house-linear-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="parents-house-linear-exponential-3-1-1">In this model, by what percentage did the house value increase each year? <em class="emphasis">Hint: use the <a href="sec-Growth_factor.html#percent-change-formula" class="xref" data-knowl="./knowl/xref/percent-change-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Percent Change Formula">Percent Change Formula</a>.</em>
-</div></article><article class="task exercise-like" id="parents-house-linear-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="parents-house-linear-exponential-4-1-1">Write an exponential equation showing how the value of the house increased. Don’t forget to name the variables, including units. <em class="emphasis">Hint: use the <a href="sec-First_look_exponential.html#exp-eqn-template" class="xref" data-knowl="./knowl/xref/exp-eqn-template.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Exponential Equation Template">Exponential Equation Template</a>.</em>
-</div></article><article class="task exercise-like" id="parents-house-linear-exponential-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="parents-house-linear-exponential-5-1-1">Check that your equation gives the correct sold value.</div></article><article class="task exercise-like" id="parents-house-linear-exponential-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="parents-house-linear-exponential-6-1-1"><em class="alert">Next, assume the value of the house increased linearly instead.</em></div> <div class="para" id="parents-house-linear-exponential-6-1-2">In this model, by what fixed amount did the house value increase each year? <em class="emphasis">Hint: calculate the slope using the <a href="sec-Rate_of_change.html#rate-of-change" class="xref" data-knowl="./knowl/xref/rate-of-change.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Rate of Change Formula">Rate of Change Formula</a>.</em>
-</div></article><article class="task exercise-like" id="parents-house-linear-exponential-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
-<div class="para" id="parents-house-linear-exponential-7-1-1">Using the same variables, write a linear equation showing how the value of the house increased. <em class="emphasis">Hint: use the <a href="sec-First_look_linear.html#linear-eq-template" class="xref" data-knowl="./knowl/xref/linear-eq-template.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Linear Equation Template">Linear Equation Template</a>.</em>
-</div></article><article class="task exercise-like" id="parents-house-linear-exponential-8"><h5 class="heading"><span class="codenumber">(g)</span></h5>
-<div class="para" id="parents-house-linear-exponential-8-1-1">Check that your equation gives the correct sold value.</div></article></article><article class="exercise exercise-like" id="manufacturing-jobs-linear-exponential"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="para" id="parents-house-linear-exponential-2-1-1">Calculate the annual growth factor using the <a href="sec-Growth_factor.html#growth-factor-formula" class="xref" data-knowl="./knowl/xref/growth-factor-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Growth Factor Formula">Growth Factor Formula</a>.<div class="autopermalink" data-description="Paragraph"><a href="#parents-house-linear-exponential-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.1.a"><a href="#parents-house-linear-exponential-2" title="Copy permalink for Task 5.4.1.a">🔗</a></div></article><article class="task exercise-like" id="parents-house-linear-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="parents-house-linear-exponential-3-1-1">In this model, by what percentage did the house value increase each year? <em class="emphasis">Hint: use the <a href="sec-Growth_factor.html#percent-change-formula" class="xref" data-knowl="./knowl/xref/percent-change-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Percent Change Formula">Percent Change Formula</a>.</em><div class="autopermalink" data-description="Paragraph"><a href="#parents-house-linear-exponential-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.1.b"><a href="#parents-house-linear-exponential-3" title="Copy permalink for Task 5.4.1.b">🔗</a></div></article><article class="task exercise-like" id="parents-house-linear-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="parents-house-linear-exponential-4-1-1">Write an exponential equation showing how the value of the house increased. Don’t forget to name the variables, including units. <em class="emphasis">Hint: use the <a href="sec-First_look_exponential.html#exp-eqn-template" class="xref" data-knowl="./knowl/xref/exp-eqn-template.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Exponential Equation Template">Exponential Equation Template</a>.</em><div class="autopermalink" data-description="Paragraph"><a href="#parents-house-linear-exponential-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.1.c"><a href="#parents-house-linear-exponential-4" title="Copy permalink for Task 5.4.1.c">🔗</a></div></article><article class="task exercise-like" id="parents-house-linear-exponential-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="parents-house-linear-exponential-5-1-1">Check that your equation gives the correct sold value.<div class="autopermalink" data-description="Paragraph"><a href="#parents-house-linear-exponential-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.1.d"><a href="#parents-house-linear-exponential-5" title="Copy permalink for Task 5.4.1.d">🔗</a></div></article><article class="task exercise-like" id="parents-house-linear-exponential-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="parents-house-linear-exponential-6-1-1">
+<em class="alert">Next, assume the value of the house increased linearly instead.</em><div class="autopermalink" data-description="Paragraph"><a href="#parents-house-linear-exponential-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="parents-house-linear-exponential-6-1-2">In this model, by what fixed amount did the house value increase each year? <em class="emphasis">Hint: calculate the slope using the <a href="sec-Rate_of_change.html#rate-of-change" class="xref" data-knowl="./knowl/xref/rate-of-change.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Rate of Change Formula">Rate of Change Formula</a>.</em><div class="autopermalink" data-description="Paragraph"><a href="#parents-house-linear-exponential-6-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.1.e"><a href="#parents-house-linear-exponential-6" title="Copy permalink for Task 5.4.1.e">🔗</a></div></article><article class="task exercise-like" id="parents-house-linear-exponential-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="parents-house-linear-exponential-7-1-1">Using the same variables, write a linear equation showing how the value of the house increased. <em class="emphasis">Hint: use the <a href="sec-First_look_linear.html#linear-eq-template" class="xref" data-knowl="./knowl/xref/linear-eq-template.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Linear Equation Template">Linear Equation Template</a>.</em><div class="autopermalink" data-description="Paragraph"><a href="#parents-house-linear-exponential-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.1.f"><a href="#parents-house-linear-exponential-7" title="Copy permalink for Task 5.4.1.f">🔗</a></div></article><article class="task exercise-like" id="parents-house-linear-exponential-8"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<div class="para" id="parents-house-linear-exponential-8-1-1">Check that your equation gives the correct sold value.<div class="autopermalink" data-description="Paragraph"><a href="#parents-house-linear-exponential-8-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.1.g"><a href="#parents-house-linear-exponential-8" title="Copy permalink for Task 5.4.1.g">🔗</a></div></article><div class="autopermalink" data-description="Exercise 5.4.1"><a href="#parents-house-linear-exponential" title="Copy permalink for Exercise 5.4.1">🔗</a></div></article><article class="exercise exercise-like" id="manufacturing-jobs-linear-exponential"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
 <div class="introduction" id="manufacturing-jobs-linear-exponential-1">
-<div class="para" id="manufacturing-jobs-linear-exponential-1-1">The number of manufacturing jobs in the state has been declining for decades. In 1970, there were 1.2 million such jobs in the state but by 2010 there were only 0.6 million such jobs. Write <span class="process-math">\(J\)</span> for the number of manufacturing jobs (in millions) and <span class="process-math">\(T\)</span> for time in years since 1970.</div> <div class="para" id="manufacturing-jobs-linear-exponential-1-2"><em class="alert">First, assume the number of jobs decreased linearly.</em></div>
+<div class="para" id="manufacturing-jobs-linear-exponential-1-1">The number of manufacturing jobs in the state has been declining for decades. In 1970, there were 1.2 million such jobs in the state but by 2010 there were only 0.6 million such jobs. Write <span class="process-math">\(J\)</span> for the number of manufacturing jobs (in millions) and <span class="process-math">\(T\)</span> for time in years since 1970.<div class="autopermalink" data-description="Paragraph"><a href="#manufacturing-jobs-linear-exponential-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="manufacturing-jobs-linear-exponential-1-2">
+<em class="alert">First, assume the number of jobs decreased linearly.</em><div class="autopermalink" data-description="Paragraph"><a href="#manufacturing-jobs-linear-exponential-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
 </div>
 <article class="task exercise-like" id="manufacturing-jobs-linear-exponential-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="manufacturing-jobs-linear-exponential-2-1-1">Calculate the slope.</div></article><article class="task exercise-like" id="manufacturing-jobs-linear-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="manufacturing-jobs-linear-exponential-3-1-1">Write a linear equation showing how the number of jobs declined.</div></article><article class="task exercise-like" id="manufacturing-jobs-linear-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="manufacturing-jobs-linear-exponential-4-1-1">Check that your equation gives the correct value for 2010.</div></article><article class="task exercise-like" id="manufacturing-jobs-linear-exponential-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="manufacturing-jobs-linear-exponential-5-1-1"><em class="alert">Next, assume the number of jobs decreased exponentially instead.</em></div> <div class="para" id="manufacturing-jobs-linear-exponential-5-1-2">Calculate the growth factor.</div></article><article class="task exercise-like" id="manufacturing-jobs-linear-exponential-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="manufacturing-jobs-linear-exponential-6-1-1">Write an exponential equation showing how the number of jobs declined.</div></article><article class="task exercise-like" id="manufacturing-jobs-linear-exponential-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
-<div class="para" id="manufacturing-jobs-linear-exponential-7-1-1">Check that your equation gives the correct value for 2010.</div></article><article class="task exercise-like" id="manufacturing-jobs-linear-exponential-8"><h5 class="heading"><span class="codenumber">(g)</span></h5>
-<div class="para" id="manufacturing-jobs-linear-exponential-8-1-1"><em class="alert">Now, compare the models.</em></div> <div class="para" id="manufacturing-jobs-linear-exponential-8-1-2">Complete the table of values.</div> <div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="manufacturing-jobs-linear-exponential-2-1-1">Calculate the slope.<div class="autopermalink" data-description="Paragraph"><a href="#manufacturing-jobs-linear-exponential-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.2.a"><a href="#manufacturing-jobs-linear-exponential-2" title="Copy permalink for Task 5.4.2.a">🔗</a></div></article><article class="task exercise-like" id="manufacturing-jobs-linear-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="manufacturing-jobs-linear-exponential-3-1-1">Write a linear equation showing how the number of jobs declined.<div class="autopermalink" data-description="Paragraph"><a href="#manufacturing-jobs-linear-exponential-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.2.b"><a href="#manufacturing-jobs-linear-exponential-3" title="Copy permalink for Task 5.4.2.b">🔗</a></div></article><article class="task exercise-like" id="manufacturing-jobs-linear-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="manufacturing-jobs-linear-exponential-4-1-1">Check that your equation gives the correct value for 2010.<div class="autopermalink" data-description="Paragraph"><a href="#manufacturing-jobs-linear-exponential-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.2.c"><a href="#manufacturing-jobs-linear-exponential-4" title="Copy permalink for Task 5.4.2.c">🔗</a></div></article><article class="task exercise-like" id="manufacturing-jobs-linear-exponential-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="manufacturing-jobs-linear-exponential-5-1-1">
+<em class="alert">Next, assume the number of jobs decreased exponentially instead.</em><div class="autopermalink" data-description="Paragraph"><a href="#manufacturing-jobs-linear-exponential-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="manufacturing-jobs-linear-exponential-5-1-2">Calculate the growth factor.<div class="autopermalink" data-description="Paragraph"><a href="#manufacturing-jobs-linear-exponential-5-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.2.d"><a href="#manufacturing-jobs-linear-exponential-5" title="Copy permalink for Task 5.4.2.d">🔗</a></div></article><article class="task exercise-like" id="manufacturing-jobs-linear-exponential-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="manufacturing-jobs-linear-exponential-6-1-1">Write an exponential equation showing how the number of jobs declined.<div class="autopermalink" data-description="Paragraph"><a href="#manufacturing-jobs-linear-exponential-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.2.e"><a href="#manufacturing-jobs-linear-exponential-6" title="Copy permalink for Task 5.4.2.e">🔗</a></div></article><article class="task exercise-like" id="manufacturing-jobs-linear-exponential-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="manufacturing-jobs-linear-exponential-7-1-1">Check that your equation gives the correct value for 2010.<div class="autopermalink" data-description="Paragraph"><a href="#manufacturing-jobs-linear-exponential-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.2.f"><a href="#manufacturing-jobs-linear-exponential-7" title="Copy permalink for Task 5.4.2.f">🔗</a></div></article><article class="task exercise-like" id="manufacturing-jobs-linear-exponential-8"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<div class="para" id="manufacturing-jobs-linear-exponential-8-1-1">
+<em class="alert">Now, compare the models.</em><div class="autopermalink" data-description="Paragraph"><a href="#manufacturing-jobs-linear-exponential-8-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="manufacturing-jobs-linear-exponential-8-1-2">Complete the table of values.<div class="autopermalink" data-description="Paragraph"><a href="#manufacturing-jobs-linear-exponential-8-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines">year</td>
 <td class="c m b1 r1 l0 t1 lines">1970</td>
@@ -698,68 +743,143 @@ M =  \frac{\log (v)}{\log(g)}=  \frac{\log (0.022222222)}{\log(0.9875)} =  \log 
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\begin{array}{cc}xxxx\\xxxx\end{array}}\)</span></td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\fillinmath{\begin{array}{cc}xxxx\\xxxx\end{array}}\)</span></td>
 </tr>
-</table></div></article><article class="task exercise-like" id="manufacturing-jobs-linear-exponential-9"><h5 class="heading"><span class="codenumber">(h)</span></h5>
-<div class="para" id="manufacturing-jobs-linear-exponential-9-1-1">Draw a graph showing both models.</div></article><article class="task exercise-like" id="manufacturing-jobs-linear-exponential-10"><h5 class="heading"><span class="codenumber">(i)</span></h5>
-<div class="para" id="manufacturing-jobs-linear-exponential-10-1-1">Which model has better news for 2030?</div></article></article><article class="exercise exercise-like" id="angry-birds-linear-exponential"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
-<div class="introduction" id="angry-birds-linear-exponential-1"><div class="para" id="angry-birds-linear-exponential-1-1">In December 2010, a popular mobile app game featuring animated birds launched from slingshots had 50 million downloads. Five months later (May 2011), the game had 200 million downloads. Let <span class="process-math">\(D\)</span> denote the number of downloads of the game (in millions) and <span class="process-math">\(T\)</span> the time in months since December 2010.</div></div>
+</table></div>
+<div class="autopermalink" data-description="Task 5.4.2.g"><a href="#manufacturing-jobs-linear-exponential-8" title="Copy permalink for Task 5.4.2.g">🔗</a></div></article><article class="task exercise-like" id="manufacturing-jobs-linear-exponential-9"><h5 class="heading"><span class="codenumber">(h)</span></h5>
+<div class="para" id="manufacturing-jobs-linear-exponential-9-1-1">Draw a graph showing both models.<div class="autopermalink" data-description="Paragraph"><a href="#manufacturing-jobs-linear-exponential-9-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.2.h"><a href="#manufacturing-jobs-linear-exponential-9" title="Copy permalink for Task 5.4.2.h">🔗</a></div></article><article class="task exercise-like" id="manufacturing-jobs-linear-exponential-10"><h5 class="heading"><span class="codenumber">(i)</span></h5>
+<div class="para" id="manufacturing-jobs-linear-exponential-10-1-1">Which model has better news for 2030?<div class="autopermalink" data-description="Paragraph"><a href="#manufacturing-jobs-linear-exponential-10-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.2.i"><a href="#manufacturing-jobs-linear-exponential-10" title="Copy permalink for Task 5.4.2.i">🔗</a></div></article><div class="autopermalink" data-description="Exercise 5.4.2"><a href="#manufacturing-jobs-linear-exponential" title="Copy permalink for Exercise 5.4.2">🔗</a></div></article><article class="exercise exercise-like" id="angry-birds-linear-exponential"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="angry-birds-linear-exponential-1"><div class="para" id="angry-birds-linear-exponential-1-1">In December 2010, a popular mobile app game featuring animated birds launched from slingshots had 50 million downloads. Five months later (May 2011), the game had 200 million downloads. Let <span class="process-math">\(D\)</span> denote the number of downloads of the game (in millions) and <span class="process-math">\(T\)</span> the time in months since December 2010.<div class="autopermalink" data-description="Paragraph"><a href="#angry-birds-linear-exponential-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
 <article class="task exercise-like" id="angry-birds-linear-exponential-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="angry-birds-linear-exponential-2-1-1">Suppose that the number of downloads have been increasing at a <em class="emphasis">constant rate each month</em>. What type of equation is suggested here? Write that equation and use it to estimate the number of downloads in November 2011 (when T = 11).</div></article><article class="task exercise-like" id="angry-birds-linear-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="angry-birds-linear-exponential-3-1-1">Suppose that the number of downloads have been increasing at a <em class="emphasis">fixed percentage each month</em>. What type of equation is suggested here? Write that equation and use it to estimate the number of downloads in November 2011 (when T = 11).</div></article><article class="task exercise-like" id="angry-birds-linear-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="angry-birds-linear-exponential-4-1-1">Which of these two models do you think is more sensible, and why?</div></article></article><article class="exercise exercise-like" id="bus-fares-linear-exponential"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
-<div class="introduction" id="bus-fares-linear-exponential-1"><div class="para" id="bus-fares-linear-exponential-1-1">Bus fares are up to $2.25 per ride during rush hour. Two different plans of increasing fares are being debated: 10¢ per year or 2.5% per year.</div></div>
+<div class="para" id="angry-birds-linear-exponential-2-1-1">Suppose that the number of downloads have been increasing at a <em class="emphasis">constant rate each month</em>. What type of equation is suggested here? Write that equation and use it to estimate the number of downloads in November 2011 (when T = 11).<div class="autopermalink" data-description="Paragraph"><a href="#angry-birds-linear-exponential-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.3.a"><a href="#angry-birds-linear-exponential-2" title="Copy permalink for Task 5.4.3.a">🔗</a></div></article><article class="task exercise-like" id="angry-birds-linear-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="angry-birds-linear-exponential-3-1-1">Suppose that the number of downloads have been increasing at a <em class="emphasis">fixed percentage each month</em>. What type of equation is suggested here? Write that equation and use it to estimate the number of downloads in November 2011 (when T = 11).<div class="autopermalink" data-description="Paragraph"><a href="#angry-birds-linear-exponential-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.3.b"><a href="#angry-birds-linear-exponential-3" title="Copy permalink for Task 5.4.3.b">🔗</a></div></article><article class="task exercise-like" id="angry-birds-linear-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="angry-birds-linear-exponential-4-1-1">Which of these two models do you think is more sensible, and why?<div class="autopermalink" data-description="Paragraph"><a href="#angry-birds-linear-exponential-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.3.c"><a href="#angry-birds-linear-exponential-4" title="Copy permalink for Task 5.4.3.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 5.4.3"><a href="#angry-birds-linear-exponential" title="Copy permalink for Exercise 5.4.3">🔗</a></div></article><article class="exercise exercise-like" id="bus-fares-linear-exponential"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="bus-fares-linear-exponential-1"><div class="para" id="bus-fares-linear-exponential-1-1">Bus fares are up to $2.25 per ride during rush hour. Two different plans of increasing fares are being debated: 10¢ per year or 2.5% per year.<div class="autopermalink" data-description="Paragraph"><a href="#bus-fares-linear-exponential-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
 <article class="task exercise-like" id="bus-fares-linear-exponential-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="bus-fares-linear-exponential-2-1-1">Which type of equation is being suggested in each plan? Write the equations. <em class="emphasis">Don’t forget to name the variables, including units.</em>
-</div></article><article class="task exercise-like" id="bus-fares-linear-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="bus-fares-linear-exponential-3-1-1">Make a table comparing these plans over the next <dfn class="terminology">decade</dfn> (ten years).</div></article><article class="task exercise-like" id="bus-fares-linear-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="bus-fares-linear-exponential-4-1-1">Draw a graph showing both options.</div></article><article class="task exercise-like" id="bus-fares-linear-exponential-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="bus-fares-linear-exponential-5-1-1">As a city council representative, you want to support the plan that your constituents prefer. If most of your constituents ride the bus, which plan should you support? Why?</div></article><article class="task exercise-like" id="bus-fares-linear-exponential-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="bus-fares-linear-exponential-6-1-1">If most of your constituents are members of the same union as the bus drivers (who count on solid earnings from the bus company to keep their jobs), then which plan should you support?</div></article></article><article class="exercise exercise-like" id="diet-linear-exponential"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
-<div class="introduction" id="diet-linear-exponential-1"><div class="para" id="diet-linear-exponential-1-1">Gina weighed 165 pounds when she started her diet three months ago. Now she weighs 153 pounds.</div></div>
+<div class="para" id="bus-fares-linear-exponential-2-1-1">Which type of equation is being suggested in each plan? Write the equations. <em class="emphasis">Don’t forget to name the variables, including units.</em><div class="autopermalink" data-description="Paragraph"><a href="#bus-fares-linear-exponential-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.4.a"><a href="#bus-fares-linear-exponential-2" title="Copy permalink for Task 5.4.4.a">🔗</a></div></article><article class="task exercise-like" id="bus-fares-linear-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="bus-fares-linear-exponential-3-1-1">Make a table comparing these plans over the next <dfn class="terminology">decade</dfn> (ten years).<div class="autopermalink" data-description="Paragraph"><a href="#bus-fares-linear-exponential-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.4.b"><a href="#bus-fares-linear-exponential-3" title="Copy permalink for Task 5.4.4.b">🔗</a></div></article><article class="task exercise-like" id="bus-fares-linear-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="bus-fares-linear-exponential-4-1-1">Draw a graph showing both options.<div class="autopermalink" data-description="Paragraph"><a href="#bus-fares-linear-exponential-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.4.c"><a href="#bus-fares-linear-exponential-4" title="Copy permalink for Task 5.4.4.c">🔗</a></div></article><article class="task exercise-like" id="bus-fares-linear-exponential-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="bus-fares-linear-exponential-5-1-1">As a city council representative, you want to support the plan that your constituents prefer. If most of your constituents ride the bus, which plan should you support? Why?<div class="autopermalink" data-description="Paragraph"><a href="#bus-fares-linear-exponential-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.4.d"><a href="#bus-fares-linear-exponential-5" title="Copy permalink for Task 5.4.4.d">🔗</a></div></article><article class="task exercise-like" id="bus-fares-linear-exponential-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="bus-fares-linear-exponential-6-1-1">If most of your constituents are members of the same union as the bus drivers (who count on solid earnings from the bus company to keep their jobs), then which plan should you support?<div class="autopermalink" data-description="Paragraph"><a href="#bus-fares-linear-exponential-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.4.e"><a href="#bus-fares-linear-exponential-6" title="Copy permalink for Task 5.4.4.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 5.4.4"><a href="#bus-fares-linear-exponential" title="Copy permalink for Exercise 5.4.4">🔗</a></div></article><article class="exercise exercise-like" id="diet-linear-exponential"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="introduction" id="diet-linear-exponential-1"><div class="para" id="diet-linear-exponential-1-1">Gina weighed 165 pounds when she started her diet three months ago. Now she weighs 153 pounds.<div class="autopermalink" data-description="Paragraph"><a href="#diet-linear-exponential-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
 <article class="task exercise-like" id="diet-linear-exponential-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="diet-linear-exponential-2-1-1">How much longer will she have to stay on her diet to reach her goal weight of 120 pounds? Make an initial guess of how long it will take her, and use a linear and an exponential model to predict how long she will be on her diet. <em class="emphasis">That means, write both equations and solve each to find the answer.</em>
-</div></article><article class="task exercise-like" id="diet-linear-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="diet-linear-exponential-3-1-1">Gina’s diet-buddy Casey started at 253 pounds and now weighs 235 pounds after 3 months. Casey’s goal weight is 178 pounds. How long will it take him? Again, make an initial guess, and then use a linear and an exponential model to predict. <em class="emphasis">Again, write and then solve both equations.</em>
-</div></article><article class="task exercise-like" id="diet-linear-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="diet-linear-exponential-4-1-1">Explain why weight loss might be similar to a car depreciating in value. Think about what happens at the start of a diet and what happens long run.</div></article></article><article class="exercise exercise-like" id="cfc-linear-exponential"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
-<div class="introduction" id="cfc-linear-exponential-1"><div class="para" id="cfc-linear-exponential-1-1">Chlorofluorocarbons (CFC) are greenhouse gases that result from our use of refrigeration, air conditioning, aerosols, and foams. In 1960, the concentration of CFC in the northern hemisphere was 11.1 parts per trillion (ppt), meaning on average, there are 11.1 CFC molecules in a trillion molecules of air. <aside class="aside aside-like" id="cfc-linear-exponential-1-1-1"><div class="para" id="cfc-linear-exponential-1-1-1-1">U.S. Department of Energy</div></aside> In 1980 the concentration was 177 ppt. Use <span class="process-math">\(C\)</span> for the concentration in the northern hemisphere in ppt and <span class="process-math">\(Y\)</span> for the year, measured in years since 1960.</div></div>
+<div class="para" id="diet-linear-exponential-2-1-1">How much longer will she have to stay on her diet to reach her goal weight of 120 pounds? Make an initial guess of how long it will take her, and use a linear and an exponential model to predict how long she will be on her diet. <em class="emphasis">That means, write both equations and solve each to find the answer.</em><div class="autopermalink" data-description="Paragraph"><a href="#diet-linear-exponential-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.5.a"><a href="#diet-linear-exponential-2" title="Copy permalink for Task 5.4.5.a">🔗</a></div></article><article class="task exercise-like" id="diet-linear-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="diet-linear-exponential-3-1-1">Gina’s diet-buddy Casey started at 253 pounds and now weighs 235 pounds after 3 months. Casey’s goal weight is 178 pounds. How long will it take him? Again, make an initial guess, and then use a linear and an exponential model to predict. <em class="emphasis">Again, write and then solve both equations.</em><div class="autopermalink" data-description="Paragraph"><a href="#diet-linear-exponential-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.5.b"><a href="#diet-linear-exponential-3" title="Copy permalink for Task 5.4.5.b">🔗</a></div></article><article class="task exercise-like" id="diet-linear-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="diet-linear-exponential-4-1-1">Explain why weight loss might be similar to a car depreciating in value. Think about what happens at the start of a diet and what happens long run.<div class="autopermalink" data-description="Paragraph"><a href="#diet-linear-exponential-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.5.c"><a href="#diet-linear-exponential-4" title="Copy permalink for Task 5.4.5.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 5.4.5"><a href="#diet-linear-exponential" title="Copy permalink for Exercise 5.4.5">🔗</a></div></article><article class="exercise exercise-like" id="cfc-linear-exponential"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="introduction" id="cfc-linear-exponential-1"><div class="para" id="cfc-linear-exponential-1-1">Chlorofluorocarbons (CFC) are greenhouse gases that result from our use of refrigeration, air conditioning, aerosols, and foams. In 1960, the concentration of CFC in the northern hemisphere was 11.1 parts per trillion (ppt), meaning on average, there are 11.1 CFC molecules in a trillion molecules of air. <aside class="aside aside-like" id="cfc-linear-exponential-1-1-1"><div class="para" id="cfc-linear-exponential-1-1-1-1">U.S. Department of Energy<div class="autopermalink" data-description="Paragraph"><a href="#cfc-linear-exponential-1-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></aside> In 1980 the concentration was 177 ppt. Use <span class="process-math">\(C\)</span> for the concentration in the northern hemisphere in ppt and <span class="process-math">\(Y\)</span> for the year, measured in years since 1960.<div class="autopermalink" data-description="Paragraph"><a href="#cfc-linear-exponential-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
 <article class="task exercise-like" id="cfc-linear-exponential-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="introduction" id="cfc-linear-exponential-2-1"><div class="para" id="cfc-linear-exponential-2-1-1">Suppose that this concentration has been increasing at a <em class="emphasis">constant rate each year</em>.</div></div>
+<div class="introduction" id="cfc-linear-exponential-2-1"><div class="para" id="cfc-linear-exponential-2-1-1">Suppose that this concentration has been increasing at a <em class="emphasis">constant rate each year</em>.<div class="autopermalink" data-description="Paragraph"><a href="#cfc-linear-exponential-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
 <article class="task exercise-like" id="cfc-linear-exponential-2-2"><h6 class="heading"><span class="codenumber">(i)</span></h6>
-<div class="para" id="cfc-linear-exponential-2-2-1-1">By how many parts per trillion per year have CFC concentrations increased?</div></article><article class="task exercise-like" id="cfc-linear-exponential-2-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
-<div class="para" id="cfc-linear-exponential-2-3-1-1">Write an equation illustrating this model.</div></article><article class="task exercise-like" id="cfc-linear-exponential-2-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
-<div class="para" id="cfc-linear-exponential-2-4-1-1">According to this equation, how much will the concentration of CFC be by the year 2015?</div></article><article class="task exercise-like" id="cfc-linear-exponential-2-5"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
-<div class="para" id="cfc-linear-exponential-2-5-1-1">What type of equation is being used here?</div></article></article><article class="task exercise-like" id="cfc-linear-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="introduction" id="cfc-linear-exponential-3-1"><div class="para" id="cfc-linear-exponential-3-1-1">Assume instead that the concentration of CFC has been increasing <em class="emphasis">a fixed percentage each year</em>.</div></div>
+<div class="para" id="cfc-linear-exponential-2-2-1-1">By how many parts per trillion per year have CFC concentrations increased?<div class="autopermalink" data-description="Paragraph"><a href="#cfc-linear-exponential-2-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.6.a.i"><a href="#cfc-linear-exponential-2-2" title="Copy permalink for Task 5.4.6.a.i">🔗</a></div></article><article class="task exercise-like" id="cfc-linear-exponential-2-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="cfc-linear-exponential-2-3-1-1">Write an equation illustrating this model.<div class="autopermalink" data-description="Paragraph"><a href="#cfc-linear-exponential-2-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.6.a.ii"><a href="#cfc-linear-exponential-2-3" title="Copy permalink for Task 5.4.6.a.ii">🔗</a></div></article><article class="task exercise-like" id="cfc-linear-exponential-2-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="para" id="cfc-linear-exponential-2-4-1-1">According to this equation, how much will the concentration of CFC be by the year 2015?<div class="autopermalink" data-description="Paragraph"><a href="#cfc-linear-exponential-2-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.6.a.iii"><a href="#cfc-linear-exponential-2-4" title="Copy permalink for Task 5.4.6.a.iii">🔗</a></div></article><article class="task exercise-like" id="cfc-linear-exponential-2-5"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
+<div class="para" id="cfc-linear-exponential-2-5-1-1">What type of equation is being used here?<div class="autopermalink" data-description="Paragraph"><a href="#cfc-linear-exponential-2-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.6.a.iv"><a href="#cfc-linear-exponential-2-5" title="Copy permalink for Task 5.4.6.a.iv">🔗</a></div></article><div class="autopermalink" data-description="Task 5.4.6.a"><a href="#cfc-linear-exponential-2" title="Copy permalink for Task 5.4.6.a">🔗</a></div></article><article class="task exercise-like" id="cfc-linear-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="introduction" id="cfc-linear-exponential-3-1"><div class="para" id="cfc-linear-exponential-3-1-1">Assume instead that the concentration of CFC has been increasing <em class="emphasis">a fixed percentage each year</em>.<div class="autopermalink" data-description="Paragraph"><a href="#cfc-linear-exponential-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
 <article class="task exercise-like" id="cfc-linear-exponential-3-2"><h6 class="heading"><span class="codenumber">(i)</span></h6>
-<div class="para" id="cfc-linear-exponential-3-2-1-1">What is the annual growth factor that CFC concentrations increased?</div></article><article class="task exercise-like" id="cfc-linear-exponential-3-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
-<div class="para" id="cfc-linear-exponential-3-3-1-1">Write an equation illustrating this model.</div></article><article class="task exercise-like" id="cfc-linear-exponential-3-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
-<div class="para" id="cfc-linear-exponential-3-4-1-1">According to this new equation, how much will the concentration of CFC be by the year 2015?</div></article><article class="task exercise-like" id="cfc-linear-exponential-3-5"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
-<div class="para" id="cfc-linear-exponential-3-5-1-1">What type of equation is being used here?</div></article></article></article><article class="exercise exercise-like" id="caloric-intake-linear-exponential"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
-<div class="introduction" id="caloric-intake-linear-exponential-1"><div class="para" id="caloric-intake-linear-exponential-1-1">According to an online calculator, the recommended daily caloric intake for a woman Diane’s height, weight, and activity level was 1,900 calories/day when she was 30 years old and 1,840 calories per day when she was 40 years old.</div></div>
+<div class="para" id="cfc-linear-exponential-3-2-1-1">What is the annual growth factor that CFC concentrations increased?<div class="autopermalink" data-description="Paragraph"><a href="#cfc-linear-exponential-3-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.6.b.i"><a href="#cfc-linear-exponential-3-2" title="Copy permalink for Task 5.4.6.b.i">🔗</a></div></article><article class="task exercise-like" id="cfc-linear-exponential-3-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="cfc-linear-exponential-3-3-1-1">Write an equation illustrating this model.<div class="autopermalink" data-description="Paragraph"><a href="#cfc-linear-exponential-3-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.6.b.ii"><a href="#cfc-linear-exponential-3-3" title="Copy permalink for Task 5.4.6.b.ii">🔗</a></div></article><article class="task exercise-like" id="cfc-linear-exponential-3-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="para" id="cfc-linear-exponential-3-4-1-1">According to this new equation, how much will the concentration of CFC be by the year 2015?<div class="autopermalink" data-description="Paragraph"><a href="#cfc-linear-exponential-3-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.6.b.iii"><a href="#cfc-linear-exponential-3-4" title="Copy permalink for Task 5.4.6.b.iii">🔗</a></div></article><article class="task exercise-like" id="cfc-linear-exponential-3-5"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
+<div class="para" id="cfc-linear-exponential-3-5-1-1">What type of equation is being used here?<div class="autopermalink" data-description="Paragraph"><a href="#cfc-linear-exponential-3-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.6.b.iv"><a href="#cfc-linear-exponential-3-5" title="Copy permalink for Task 5.4.6.b.iv">🔗</a></div></article><div class="autopermalink" data-description="Task 5.4.6.b"><a href="#cfc-linear-exponential-3" title="Copy permalink for Task 5.4.6.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 5.4.6"><a href="#cfc-linear-exponential" title="Copy permalink for Exercise 5.4.6">🔗</a></div></article><article class="exercise exercise-like" id="caloric-intake-linear-exponential"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="introduction" id="caloric-intake-linear-exponential-1"><div class="para" id="caloric-intake-linear-exponential-1-1">According to an online calculator, the recommended daily caloric intake for a woman Diane’s height, weight, and activity level was 1,900 calories/day when she was 30 years old and 1,840 calories per day when she was 40 years old.<div class="autopermalink" data-description="Paragraph"><a href="#caloric-intake-linear-exponential-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
 <article class="task exercise-like" id="caloric-intake-linear-exponential-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="caloric-intake-linear-exponential-2-1-1">Name the variables and summarize the information in a table. Start her age at 30 years old (so you will know the intercept).</div></article><article class="task exercise-like" id="caloric-intake-linear-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="caloric-intake-linear-exponential-3-1-1">Use a linear model to estimate the recommended daily caloric intake for Diane when she was 20 years old and now that she’s 50 years old. According to this model, what will it be when she’s 80 years old? <em class="emphasis">Note: because we started the age at 30 years old, you will need to use -10 to get her age of 20 years old. Looks weird, but 20 is 10 years before our starting value 30 so officially that’s a negative. It works fine.</em>
-</div></article><article class="task exercise-like" id="caloric-intake-linear-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="caloric-intake-linear-exponential-4-1-1">Repeat using an exponential model instead.</div></article><article class="task exercise-like" id="caloric-intake-linear-exponential-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="caloric-intake-linear-exponential-5-1-1">Thoughts?</div></article></article><article class="exercise exercise-like" id="movie-ticket-linear-exponential"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
-<div class="introduction" id="movie-ticket-linear-exponential-1"><div class="para" id="movie-ticket-linear-exponential-1-1">In 1995 the average price of a movie ticket was $4.35, and in 2011 the average price of a movie ticket was $7.93. <aside class="aside aside-like" id="movie-ticket-linear-exponential-1-1-1"><div class="para" id="movie-ticket-linear-exponential-1-1-1-1">Source: National Association of Theatre Owners</div></aside> The variables are <span class="process-math">\(T\text{,}\)</span> the average price of a movie ticket in dollars and <span class="process-math">\(Y\)</span> the number of years since 1995.</div></div>
+<div class="para" id="caloric-intake-linear-exponential-2-1-1">Name the variables and summarize the information in a table. Start her age at 30 years old (so you will know the intercept).<div class="autopermalink" data-description="Paragraph"><a href="#caloric-intake-linear-exponential-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.7.a"><a href="#caloric-intake-linear-exponential-2" title="Copy permalink for Task 5.4.7.a">🔗</a></div></article><article class="task exercise-like" id="caloric-intake-linear-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="caloric-intake-linear-exponential-3-1-1">Use a linear model to estimate the recommended daily caloric intake for Diane when she was 20 years old and now that she’s 50 years old. According to this model, what will it be when she’s 80 years old? <em class="emphasis">Note: because we started the age at 30 years old, you will need to use -10 to get her age of 20 years old. Looks weird, but 20 is 10 years before our starting value 30 so officially that’s a negative. It works fine.</em><div class="autopermalink" data-description="Paragraph"><a href="#caloric-intake-linear-exponential-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.7.b"><a href="#caloric-intake-linear-exponential-3" title="Copy permalink for Task 5.4.7.b">🔗</a></div></article><article class="task exercise-like" id="caloric-intake-linear-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="caloric-intake-linear-exponential-4-1-1">Repeat using an exponential model instead.<div class="autopermalink" data-description="Paragraph"><a href="#caloric-intake-linear-exponential-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.7.c"><a href="#caloric-intake-linear-exponential-4" title="Copy permalink for Task 5.4.7.c">🔗</a></div></article><article class="task exercise-like" id="caloric-intake-linear-exponential-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="caloric-intake-linear-exponential-5-1-1">Thoughts?<div class="autopermalink" data-description="Paragraph"><a href="#caloric-intake-linear-exponential-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.7.d"><a href="#caloric-intake-linear-exponential-5" title="Copy permalink for Task 5.4.7.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 5.4.7"><a href="#caloric-intake-linear-exponential" title="Copy permalink for Exercise 5.4.7">🔗</a></div></article><article class="exercise exercise-like" id="movie-ticket-linear-exponential"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="introduction" id="movie-ticket-linear-exponential-1"><div class="para" id="movie-ticket-linear-exponential-1-1">In 1995 the average price of a movie ticket was $4.35, and in 2011 the average price of a movie ticket was $7.93. <aside class="aside aside-like" id="movie-ticket-linear-exponential-1-1-1"><div class="para" id="movie-ticket-linear-exponential-1-1-1-1">Source: National Association of Theatre Owners<div class="autopermalink" data-description="Paragraph"><a href="#movie-ticket-linear-exponential-1-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></aside> The variables are <span class="process-math">\(T\text{,}\)</span> the average price of a movie ticket in dollars and <span class="process-math">\(Y\)</span> the number of years since 1995.<div class="autopermalink" data-description="Paragraph"><a href="#movie-ticket-linear-exponential-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
 <article class="task exercise-like" id="movie-ticket-linear-exponential-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="movie-ticket-linear-exponential-2-1-1">Write a linear equation that fits this information and use it to estimate the average price of a movie ticket in 2015 and 2025.</div></article><article class="task exercise-like" id="movie-ticket-linear-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="movie-ticket-linear-exponential-3-1-1">Write an exponential equation that fits this information and use it to estimate the average price of movie ticket in 2015 and 2025.</div></article><article class="task exercise-like" id="movie-ticket-linear-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="movie-ticket-linear-exponential-4-1-1">Draw a graph of each function on the same set of axes. (Include also what each equation said about ticket prices in the year 2000.)</div></article><article class="task exercise-like" id="movie-ticket-linear-exponential-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="movie-ticket-linear-exponential-5-1-1">The actual average movie ticket price in the year 2000 was $5.39. Which model predicted a closer value – linear or exponential?</div></article></article><article class="exercise exercise-like" id="asthma-linear-exponential"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
-<div class="para" id="asthma-linear-exponential-1-1">The number of asthma sufferers worldwide in 1990 was 84 million and 130 million in 2001. Let <span class="process-math">\(A\)</span> be the number of people with asthma (in millions) and <span class="process-math">\(Y\)</span> the year, measured in years since 1990. Compare what the linear and exponential models project for the year 2015 and 2030. Include a graph showing both functions on the same axes.</div></article><article class="exercise exercise-like" id="hybrid-cars-linear-exponential"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
-<div class="introduction" id="hybrid-cars-linear-exponential-1"><div class="para" id="hybrid-cars-linear-exponential-1-1">Sales of hybrid cars in the United States have continued to increase. <aside class="aside aside-like" id="hybrid-cars-linear-exponential-1-1-1"><div class="para" id="hybrid-cars-linear-exponential-1-1-1-1">Source: Earth Policy Institute</div></aside> In 1999, 17 (yes, seventeen) hybrid cars were sold. By 2002 that number was up to 34,521 hybrid cars sold. Write <span class="process-math">\(H\)</span> for the number of hybrid cars sold and <span class="process-math">\(Y\)</span> for the year, measured in years since 1999.</div></div>
+<div class="para" id="movie-ticket-linear-exponential-2-1-1">Write a linear equation that fits this information and use it to estimate the average price of a movie ticket in 2015 and 2025.<div class="autopermalink" data-description="Paragraph"><a href="#movie-ticket-linear-exponential-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.8.a"><a href="#movie-ticket-linear-exponential-2" title="Copy permalink for Task 5.4.8.a">🔗</a></div></article><article class="task exercise-like" id="movie-ticket-linear-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="movie-ticket-linear-exponential-3-1-1">Write an exponential equation that fits this information and use it to estimate the average price of movie ticket in 2015 and 2025.<div class="autopermalink" data-description="Paragraph"><a href="#movie-ticket-linear-exponential-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.8.b"><a href="#movie-ticket-linear-exponential-3" title="Copy permalink for Task 5.4.8.b">🔗</a></div></article><article class="task exercise-like" id="movie-ticket-linear-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="movie-ticket-linear-exponential-4-1-1">Draw a graph of each function on the same set of axes. (Include also what each equation said about ticket prices in the year 2000.)<div class="autopermalink" data-description="Paragraph"><a href="#movie-ticket-linear-exponential-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.8.c"><a href="#movie-ticket-linear-exponential-4" title="Copy permalink for Task 5.4.8.c">🔗</a></div></article><article class="task exercise-like" id="movie-ticket-linear-exponential-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="movie-ticket-linear-exponential-5-1-1">The actual average movie ticket price in the year 2000 was $5.39. Which model predicted a closer value – linear or exponential?<div class="autopermalink" data-description="Paragraph"><a href="#movie-ticket-linear-exponential-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.8.d"><a href="#movie-ticket-linear-exponential-5" title="Copy permalink for Task 5.4.8.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 5.4.8"><a href="#movie-ticket-linear-exponential" title="Copy permalink for Exercise 5.4.8">🔗</a></div></article><article class="exercise exercise-like" id="asthma-linear-exponential"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="para" id="asthma-linear-exponential-1-1">The number of asthma sufferers worldwide in 1990 was 84 million and 130 million in 2001. Let <span class="process-math">\(A\)</span> be the number of people with asthma (in millions) and <span class="process-math">\(Y\)</span> the year, measured in years since 1990. Compare what the linear and exponential models project for the year 2015 and 2030. Include a graph showing both functions on the same axes.<div class="autopermalink" data-description="Paragraph"><a href="#asthma-linear-exponential-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 5.4.9"><a href="#asthma-linear-exponential" title="Copy permalink for Exercise 5.4.9">🔗</a></div></article><article class="exercise exercise-like" id="hybrid-cars-linear-exponential"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<div class="introduction" id="hybrid-cars-linear-exponential-1"><div class="para" id="hybrid-cars-linear-exponential-1-1">Sales of hybrid cars in the United States have continued to increase. <aside class="aside aside-like" id="hybrid-cars-linear-exponential-1-1-1"><div class="para" id="hybrid-cars-linear-exponential-1-1-1-1">Source: Earth Policy Institute<div class="autopermalink" data-description="Paragraph"><a href="#hybrid-cars-linear-exponential-1-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></aside> In 1999, 17 (yes, seventeen) hybrid cars were sold. By 2002 that number was up to 34,521 hybrid cars sold. Write <span class="process-math">\(H\)</span> for the number of hybrid cars sold and <span class="process-math">\(Y\)</span> for the year, measured in years since 1999.<div class="autopermalink" data-description="Paragraph"><a href="#hybrid-cars-linear-exponential-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
 <article class="task exercise-like" id="hybrid-cars-linear-exponential-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="hybrid-cars-linear-exponential-2-1-1">Suppose that the hybrid car sales have been increasing <em class="emphasis">at a constant rate each year.</em> Write the appropriate equation and use it to estimate sales in 2011.</div></article><article class="task exercise-like" id="hybrid-cars-linear-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="hybrid-cars-linear-exponential-3-1-1">Assume instead that hybrid car sales have been increasing <em class="emphasis">a fixed percentage each year.</em> Write the appropriate equation and use it to estimate sales in 2011. Comment.</div></article><article class="task exercise-like" id="hybrid-cars-linear-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="hybrid-cars-linear-exponential-4-1-1">Actual sales of hybrid cars in 2010 were around 13,500. Why might the number be lower than the linear model predicted?</div></article></article></section></section></div>
-<div class="ptx-content-footer">
+<div class="para" id="hybrid-cars-linear-exponential-2-1-1">Suppose that the hybrid car sales have been increasing <em class="emphasis">at a constant rate each year.</em> Write the appropriate equation and use it to estimate sales in 2011.<div class="autopermalink" data-description="Paragraph"><a href="#hybrid-cars-linear-exponential-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.10.a"><a href="#hybrid-cars-linear-exponential-2" title="Copy permalink for Task 5.4.10.a">🔗</a></div></article><article class="task exercise-like" id="hybrid-cars-linear-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="hybrid-cars-linear-exponential-3-1-1">Assume instead that hybrid car sales have been increasing <em class="emphasis">a fixed percentage each year.</em> Write the appropriate equation and use it to estimate sales in 2011. Comment.<div class="autopermalink" data-description="Paragraph"><a href="#hybrid-cars-linear-exponential-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.10.b"><a href="#hybrid-cars-linear-exponential-3" title="Copy permalink for Task 5.4.10.b">🔗</a></div></article><article class="task exercise-like" id="hybrid-cars-linear-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="hybrid-cars-linear-exponential-4-1-1">Actual sales of hybrid cars in 2010 were around 13,500. Why might the number be lower than the linear model predicted?<div class="autopermalink" data-description="Paragraph"><a href="#hybrid-cars-linear-exponential-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.4.10.c"><a href="#hybrid-cars-linear-exponential-4" title="Copy permalink for Task 5.4.10.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 5.4.10"><a href="#hybrid-cars-linear-exponential" title="Copy permalink for Exercise 5.4.10">🔗</a></div></article><div class="autopermalink" data-description="Exercises 5.4: Exercises"><a href="#ex-Linear_vs_exponential" title="Copy permalink for Exercises 5.4: Exercises">🔗</a></div></section><div class="autopermalink" data-description="Section 5.4: Linear vs. exponential models"><a href="#sec-Linear_vs_exponential" title="Copy permalink for Section 5.4: Linear vs. exponential models">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="sec-Growth_factor.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-Logistic_growth.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
-<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
 </div>
 </body>
 </html>
