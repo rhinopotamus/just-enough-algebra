@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr" data-legacy-colorscheme="blue_red">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-legacy                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Exponential growth and decay</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;" rel="stylesheet">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Just Enough Algebra">
+<meta property="book:author" content="Dr. Suzanne Dorée">
+<meta property="book:author" content="Dr. Spencer Bagley">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.7.5';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.107bf2d9be20d9c4.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="justenoughalgebra" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""><img src="external/book-open-solid.png" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="just-enough-algebra.html"><span class="title">Just Enough Algebra</span> <span class="subtitle">- Summer 2025 edition</span></a></h1>
+<p class="byline">Dr. Suzanne Dorée, Dr. Spencer Bagley</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-Modeling_exponential_equations.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-Closer_look_exponential.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-Growth_factor.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-why-this-book-web.html" class="internal"><span class="title">Why <em class="emphasis">Just Enough Algebra</em>?</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-students-web.html" class="internal"><span class="title">Students! Read this!</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-instructors-web.html" class="internal"><span class="title">Instructors! Read this!</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Prelude.html" class="internal"><span class="codenumber">0</span> <span class="title">Prelude</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approximation_and_rounding.html" class="internal"><span class="codenumber">0.1</span> <span class="title">Prelude: Approximation &amp; rounding</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approximation_and_rounding.html#ex-Approximation_and_rounding" class="internal"><span class="codenumber">0.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Arithmetic_operations.html" class="internal"><span class="codenumber">0.2</span> <span class="title">Prelude: Arithmetic operations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Arithmetic_operations.html#ex-Arithmetic_operations" class="internal"><span class="codenumber">0.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Percentages.html" class="internal"><span class="codenumber">0.3</span> <span class="title">Prelude: Percentages</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Percentages.html#ex-Percentages" class="internal"><span class="codenumber">0.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Order_of_operations.html" class="internal"><span class="codenumber">0.4</span> <span class="title">Prelude: Order of operations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Order_of_operations.html#ex-Order_of_operations" class="internal"><span class="codenumber">0.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fractions.html" class="internal"><span class="codenumber">0.5</span> <span class="title">Prelude: Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fractions.html#ex-Fractions" class="internal"><span class="codenumber">0.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Powers_and_roots.html" class="internal"><span class="codenumber">0.6</span> <span class="title">Prelude: Powers and roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Powers_and_roots.html#ex-Powers_and_roots" class="internal"><span class="codenumber">0.6</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Algebraic_notation.html" class="internal"><span class="codenumber">0.7</span> <span class="title">Prelude: Algebraic notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Algebraic_notation.html#ex-Algebraic-notation" class="internal"><span class="codenumber">0.7</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Scientific_notation.html" class="internal"><span class="codenumber">0.8</span> <span class="title">Prelude: Scientific notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Scientific_notation.html#ex-Scientific_notation" class="internal"><span class="codenumber">0.8</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logarithms.html" class="internal"><span class="codenumber">0.9</span> <span class="title">Prelude: Logarithms</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logarithms.html#ex-Logarithms" class="internal"><span class="codenumber">0.9</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Variables.html" class="internal"><span class="codenumber">1</span> <span class="title">Variables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Variables_and_functions.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Variables and functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Variables_and_functions.html#exercises-variables-functions" class="internal"><span class="codenumber">1.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Tables_and_graphs.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Tables and graphs</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Tables_and_graphs.html#ex-Tables_and_graphs" class="internal"><span class="codenumber">1.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Rate_of_change.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Rate of change</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Rate_of_change.html#ex-Rate_of_change" class="internal"><span class="codenumber">1.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Units.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Units</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Units.html#ex-Units" class="internal"><span class="codenumber">1.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Metric_system_and_scientific_notation.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Metric prefixes and scientific notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Metric_system_and_scientific_notation.html#ex-Metric_system_and_scientific_notation" class="internal"><span class="codenumber">1.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1A.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Practice Exam 1A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1A.html#ws-PE1A" class="internal"><span class="codenumber">1.6</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1B.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1B.html#ws-PE1B" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Equations.html" class="internal"><span class="codenumber">2</span> <span class="title">Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_linear.html#ex-First_look_linear" class="internal"><span class="codenumber">2.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_exponential.html#ex-First_look_exponentialEX" class="internal"><span class="codenumber">2.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Using_equations.html#ex-Using_equations" class="internal"><span class="codenumber">2.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approx_solutions.html#ex-Approx_solutions" class="internal"><span class="codenumber">2.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Finance.html#ex-Finance" class="internal"><span class="codenumber">2.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2A.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2A.html#ws-PE2A" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2B.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2B.html#ws-PE2B" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Solving_equations.html" class="internal"><span class="codenumber">3</span> <span class="title">Solving equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html#ex-Solving_linear_equations" class="internal"><span class="codenumber">3.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html#ex-Solving_linear_inequalitiesEX" class="internal"><span class="codenumber">3.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_power_equations.html#ex-Solving_power_equations" class="internal"><span class="codenumber">3.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html#ex-Solving_exponential_equations" class="internal"><span class="codenumber">3.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html#ex-Solving_quadratic_equations" class="internal"><span class="codenumber">3.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3A.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3A.html#ws-PE3A" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3B.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3B.html#ws-PE3B" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Closer_look_linear.html" class="internal"><span class="codenumber">4</span> <span class="title">A closer look at linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html#ex-Modeling_linear_equations" class="internal"><span class="codenumber">4.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html#ex-Systems_linear_equations" class="internal"><span class="codenumber">4.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Intercepts.html#ex-Intercepts" class="internal"><span class="codenumber">4.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Slopes.html#ex-Slopes" class="internal"><span class="codenumber">4.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html#ex-Fitting_lines_to_data" class="internal"><span class="codenumber">4.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4A.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4A.html#ws-PE4A" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4B.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4B.html#ws-PE4B" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-Closer_look_exponential.html" class="internal"><span class="codenumber">5</span> <span class="title">A closer look at exponential equations</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html#ex-Modeling_exponential_equations" class="internal"><span class="codenumber">5.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div>
+<ul class="structural toc-item-list active"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html#ex-Exp_growth_decay" class="internal"><span class="codenumber">5.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Growth_factor.html#ex-Growth_factor" class="internal"><span class="codenumber">5.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html#ex-Linear_vs_exponential" class="internal"><span class="codenumber">5.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logistic_growth.html#ex-Logistic_growth" class="internal"><span class="codenumber">5.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5A.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE5A.html#ws-PE5A" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5B.html" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE5B.html#ws-PE5B" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="backmatter-2.html" class="internal"><span class="codenumber">A</span> <span class="title">Practice Final Exams</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pfe1.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Practice Final Exam 1</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-pfe1.html#ws-PE6A" class="internal"><span class="codenumber">A.1</span> <span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pfe2.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Practice Final Exam 2</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-pfe2.html#ws-PE6B" class="internal"><span class="codenumber">A.2</span> <span class="title"></span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="app-templates-formulas.html" class="internal"><span class="codenumber">B</span> <span class="title">Templates and Formulas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-templates.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Templates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-constants.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Formulas used to find constants</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-solve.html" class="internal"><span class="codenumber">B.3</span> <span class="title">Formulas used to solve specific types of equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-finance.html" class="internal"><span class="codenumber">B.4</span> <span class="title">Formulas from finance</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Exp_growth_decay"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">5.2</span><span class="space"> </span><span class="title">Exponential growth and decay</span>
+</h2>
+<section class="introduction" id="sec-Exp_growth_decay-2"><div class="para" id="sec-Exp_growth_decay-2-1">It is 2:00 a.m. and Joe is up studying. The dorm has quieted down, but Joe’s feeling mighty jittery. He drank 5 large mugs of coffee in the past few hours and all that caffeine is peaking in his system now. At around 200 mg per mug, Joe wonders when his caffeine levels will drop down to where he can sleep a little.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Exp_growth_decay-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Exp_growth_decay-2-2">
+<div class="para">First things first: staying up that late to study is probably a bad idea. I mean, who can think properly at 2:00 in the morning? And, how tired is Joe going to be by the time his test rolls around? Plus, we know that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+5 \text{ mugs} \ast \frac{200 \text{ mg}}{\text{mug}} = 5 \times 200 = 1{,}000\text{ mg}
+\end{equation*}
+</div>
+<div class="para">which is a lot of caffeine, probably more than he needed to stay awake.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Exp_growth_decay-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Exp_growth_decay-2-3">At this point Joe is stuck so let’s help him. Let’s say that at 2:00 a.m. he has 1,000 mg of caffeine in his blood. Joe searches online and discovers that 13% of the caffeine should leave his body each hour and below 300 mg he should be fine. When will that happen?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Exp_growth_decay-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Exp_growth_decay-2-4">
+<div class="para">We know how percent <em class="emphasis">increase</em> works, but here the caffeine is leaving his body according to a percent <em class="emphasis">decrease</em>. I guess we need to figure it out one step at a time. After one hour (by 3:00 a.m.), Joe will have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+1{,}000 \text{ mg} - 13 \% \text{ of }  1{,}000 \text{ mg} =  1{,}000- 0.13 \times  1{,}000 =  1{,}000 - 130 = 870 \text{ mg}
+\end{equation*}
+</div>
+<div class="para">By 4:00 a.m. (after 2 hours), Joe will have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+870 \text{ mg} - 13 \% \text{ of } 870 \text{ mg} = 870 - 0.13 \times 870 = 870 - 113.1 =  756.9 \text{ mg}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Exp_growth_decay-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Exp_growth_decay-2-5">
+<div class="para">Wait a minute. When we calculated 13% decrease on 1,000 mg we got 870 mg. That’s 87% of 1,000. Yeah, that’s right, take off 13% and you should be left with 87% of what you started with because <span class="process-math">\(100\% - 13\% = 87\%\text{.}\)</span> So we could have calculated</div>
+<div class="displaymath process-math">
+\begin{equation*}
+1{,}000 \times 0.87 = 870 \text{ mg}
+\end{equation*}
+</div>
+<div class="para">and then</div>
+<div class="displaymath process-math">
+\begin{equation*}
+870 \times 0.87 = 756.9 \text{ mg}
+\end{equation*}
+</div>
+<div class="para">Aha, to find the amount after a 13% decrease we just multiply by 0.87.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Exp_growth_decay-2-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Exp_growth_decay-2-6">
+<div class="para">Still nowhere near 300 mg so fast-forward. For example, after 5 hours (at 7:00 a.m.), we need to multiply 1,000 by 0.87 five times</div>
+<div class="displaymath process-math">
+\begin{equation*}
+1000 \ast 0.87 \ast 0.87 \ast 0.87 \ast 0.87 \ast 0.87=  1{,}000 \ast 0.87^5
+\end{equation*}
+</div>
+<div class="para">where we use a power to abbreviate repeatedly multiplying. So</div>
+<div class="displaymath process-math">
+\begin{equation*}
+1000 \ast 0.87^5 =  1{,}000 \times 0.87 \wedge 5 = 498.420920\ldots \approx 498.4 \text{ mg}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Exp_growth_decay-2-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Exp_growth_decay-2-7">
+<div class="para">The bad news is that it’s 7:00 a.m. and Joe is still too jittery to sleep. The good news is that we can write the equation. The variables are</div>
+<div class="displaymath process-math" id="sec-Exp_growth_decay-2-7-1">
+\begin{align*}
+J \amp= \text{ Joe's caffeine level (mg) } \sim \text{ dep} \\
+H \amp= \text{ time (hours since 2:00 a.m.) } \sim \text{ indep} 
+\end{align*}
+</div>
+<div class="para">Our equation must be</div>
+<div class="displaymath process-math">
+\begin{equation*}
+J = 1{,}000 \ast0.87^H
+\end{equation*}
+</div>
+<div class="para">Notice this equation fits our template for an exponential equation.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{dep }=\text{ start } \ast \text{growth factor}^{\text{indep}}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Exp_growth_decay-2-7" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Exp_growth_decay-2-8">
+<div class="para">A little terminology here. When a function is exponential but decreasing, it’s called <dfn class="terminology">exponential decay</dfn>. It sounds a little odd to say “growth factor” if the quantity is getting smaller so we sometimes say <dfn class="terminology">decay factor</dfn> instead. We know from the <a href="sec-Growth_factor.html#percent-change-formula" class="xref" data-knowl="./knowl/xref/percent-change-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Percent Change Formula">Percent Change Formula</a> that the growth factor (<span class="process-math">\(g\)</span>) can be found from the growth rate (r) by the formula <span class="process-math">\(g=1+r\text{.}\)</span> If we think of 13% decrease as negative growth rate, <span class="process-math">\(r=-13\%=-0.13\text{,}\)</span> then the formula still works to find the decay factor (<span class="process-math">\(g\)</span>)</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/percent-change-formula.html">
+\begin{equation*}
+g= 1 + r = 1 + -0.13 = 1-0.13 = 0.87
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Exp_growth_decay-2-8" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Exp_growth_decay-2-9">Back to jittery Joe. Let’s summarize what we’ve found and add a few more times to see when Joe’s caffeine level should fall below 300 mg.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Exp_growth_decay-2-9" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">time</td>
+<td class="c m b1 r1 l0 t1 lines">2:00</td>
+<td class="c m b1 r1 l0 t1 lines">3:00</td>
+<td class="c m b1 r1 l0 t1 lines">4:00</td>
+<td class="c m b1 r1 l0 t1 lines">5:00</td>
+<td class="c m b1 r1 l0 t1 lines">6:00</td>
+<td class="c m b1 r1 l0 t1 lines">7:00</td>
+<td class="c m b1 r1 l0 t1 lines">8:00</td>
+<td class="c m b1 r1 l0 t1 lines">9:00</td>
+<td class="c m b1 r1 l0 t1 lines">10:00</td>
+<td class="c m b1 r1 l0 t1 lines">11:00</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(H\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">0</td>
+<td class="c m b1 r1 l0 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines">2</td>
+<td class="c m b1 r1 l0 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines">6</td>
+<td class="c m b1 r1 l0 t0 lines">7</td>
+<td class="c m b1 r1 l0 t0 lines">8</td>
+<td class="c m b1 r1 l0 t0 lines">9</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(J\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">1,000</td>
+<td class="c m b1 r1 l0 t0 lines">870</td>
+<td class="c m b1 r1 l0 t0 lines">756.9</td>
+<td class="c m b1 r1 l0 t0 lines">658.5</td>
+<td class="c m b1 r1 l0 t0 lines">572.9</td>
+<td class="c m b1 r1 l0 t0 lines">498.4</td>
+<td class="c m b1 r1 l0 t0 lines">433.6</td>
+<td class="c m b1 r1 l0 t0 lines">377.3</td>
+<td class="c m b1 r1 l0 t0 lines">328.2</td>
+<td class="c m b1 r1 l0 t0 lines">285.5</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">vs. 300</td>
+<td class="c m b1 r1 l0 t0 lines">high</td>
+<td class="c m b1 r1 l0 t0 lines">high</td>
+<td class="c m b1 r1 l0 t0 lines">high</td>
+<td class="c m b1 r1 l0 t0 lines">high</td>
+<td class="c m b1 r1 l0 t0 lines">high</td>
+<td class="c m b1 r1 l0 t0 lines">high</td>
+<td class="c m b1 r1 l0 t0 lines">high</td>
+<td class="c m b1 r1 l0 t0 lines">high</td>
+<td class="c m b1 r1 l0 t0 lines">high</td>
+<td class="c m b1 r1 l0 t0 lines">low</td>
+</tr>
+</table></div>
+<div class="para" id="sec-Exp_growth_decay-2-11">That means Joe should be able to fall asleep by around 11:00 a.m. Exactly when his exam starts. Sorry, Joe.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Exp_growth_decay-2-11" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Exp_growth_decay-2-12">
+<div class="para">We could have solved the equation instead. We were looking for <span class="process-math">\(J = 300\text{.}\)</span> Using our equation <span class="process-math">\(J = 1{,}000 \ast 0.87^H\)</span> we get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+1{,}000 \ast 0.87^H=300
+\end{equation*}
+</div>
+<div class="para">Divide each side by 1,000 to get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\cancel{1{,}000} \ast 0.87^H}{\cancel{1{,}000}}= \frac{300}{1{,}000}
+\end{equation*}
+</div>
+<div class="para">which simplifies to</div>
+<div class="displaymath process-math">
+\begin{equation*}
+0.87^H = \frac{300}{1{,}000} = 300 \div 1{,}000 = 0.3
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Exp_growth_decay-2-12" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Exp_growth_decay-2-13">
+<div class="para">We find ourselves in the familiar situation – solving to find the exponent. Logs to the rescue. By the <a href="sec-Solving_exponential_equations.html#log-divides-formula" class="xref" data-knowl="./knowl/xref/log-divides-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Log-Divides Formula">Log-Divides Formula</a> with growth factor <span class="process-math">\(g=0.87\)</span> and value <span class="process-math">\(v= 0.3\)</span> we get</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/log-divides-formula.html">
+\begin{equation*}
+Y =  \frac{\log (v)}{\log(g)}=  \frac{\log (0.3)}{\log(0.87)} =  \log (0.3) \div \log (0.87) =  8.64537506\ldots \approx 9
+\end{equation*}
+</div>
+<div class="para">which corresponds to 11:00 a.m. Same answer. Much quicker.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Exp_growth_decay-2-13" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Exp_growth_decay-2-14">
+<div class="para">Quick side note. We could have rounded to 8.64 hours and then converted units to get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+0.64 \text{ hours} \ast \frac{60 \text{ minutes}}{1 \text{ hour}} = 0.64 \times 60 = 38.4 \approx 39 \text{ minutes}
+\end{equation*}
+</div>
+<div class="para">Counting from 2:00 a.m., we see that Joe’s caffeine levels drop below 300 mg at 10:39 a.m. Since we are approximating throughout the problem, we should round to 11:00 a.m. anyway.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Exp_growth_decay-2-14" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Exp_growth_decay-2-15">
+<div class="para">Let’s calculate the rate of change and think about what it means. During the first hour,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{rate of change} =  \frac{\text{change dep}}{\text{change indep}} 
+= \frac{870\text{ mg}-1{,}000\text{ mg}}{\text{3:00 a.m.} - \text{2:00 a.m.}} 
+= \frac{-130 \text{ mg}}{1 \text{ hour}} 
+= -130 \text{ mg/hour}
+\end{equation*}
+</div>
+<div class="para">Was the rate of change supposed to be negative? Sure. Joe’s caffeine level is dropping. Any decreasing function has a negative rate of change. And, as exam time approaches,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{rate of change} =  \frac{\text{change dep}}{\text{change indep}}  = \frac{285.5\text{ mg}-328.2 \text{ mg}}{\text{11:00 a.m.} - \text{10:00 a.m.}} = \frac{-42.7 \text{ mg}}{1 \text{ hour}} \approx -43 \text{ mg/hour}
+\end{equation*}
+</div>
+<div class="para">Joe’s caffeine level was dropping faster at first and is not dropping as fast now.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Exp_growth_decay-2-15" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Exp_growth_decay-2-16">A glance at the graph confirms our findings.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Exp_growth_decay-2-16" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Exp_growth_decay-2-17">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/caffeine.png" class="contained"></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Exp_growth_decay-2-17" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Exp_growth_decay-2-18">One last thing. There’s another way to describe the decrease here. When our story began Joe’s caffeine level was around 1,000 mg and after 5 hours it was at 498.4 mg. That’s just about 500 mg, or <em class="emphasis">half</em> of what he started with. We say the <dfn class="terminology">half-life</dfn> of caffeine is around 5 hours.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Exp_growth_decay-2-18" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Exp_growth_decay-2-19">
+<div class="para">Doesn’t sound very important but check this out. Start with 1,000 mg. After 5 hours, there’s 500 mg left. (Okay, approximately.) Now go another 5 hours, which means 10 hours total. Evaluate our equation <span class="process-math">\(J = 1{,}000 \ast 0.87^H\)</span> when <span class="process-math">\(H =10\)</span> to get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+J = 1{,}000 \ast 0.87^{10} = 1{,}000 \ast 0.87 \wedge \underline{10} = 248.423414\ldots \approx 250 \text{ mg}
+\end{equation*}
+</div>
+<div class="para">That means half of what was left is now gone. Go another 5 hours. Lose another half. Check for yourself:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+J = 1{,}000 \ast 0.87^{15} = 1{,}000 \ast 0.87 \wedge \underline{15} = 123.819426\ldots \approx 125 \text{ mg}
+\end{equation*}
+</div>
+<div class="para">And so on. Cool.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Exp_growth_decay-2-19" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="conclusion" id="sec-Exp_growth_decay-3"><h3 class="heading">Do you know …<span></span>
+</h3>
+<div class="para logical" id="sec-Exp_growth_decay-3-2">
+<ol class="upper-alpha ol-marker-1" id="sec-Exp_growth_decay-3-2-1">
+<li id="sec-Exp_growth_decay-3-2-1-1">
+<div class="para" id="sec-Exp_growth_decay-3-2-1-1-1">How to write an exponential equation given the starting amount and percent decrease?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Exp_growth_decay-3-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item A"><a href="#sec-Exp_growth_decay-3-2-1-1" title="Copy permalink for Item A">🔗</a></div>
+</li>
+<li id="sec-Exp_growth_decay-3-2-1-2">
+<div class="para" id="sec-Exp_growth_decay-3-2-1-2-1">What “half-life” means?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Exp_growth_decay-3-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item B"><a href="#sec-Exp_growth_decay-3-2-1-2" title="Copy permalink for Item B">🔗</a></div>
+</li>
+<li id="sec-Exp_growth_decay-3-2-1-3">
+<div class="para" id="sec-Exp_growth_decay-3-2-1-3-1">What “doubling time” means?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Exp_growth_decay-3-2-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item C"><a href="#sec-Exp_growth_decay-3-2-1-3" title="Copy permalink for Item C">🔗</a></div>
+</li>
+<li id="sec-Exp_growth_decay-3-2-1-4">
+<div class="para" id="sec-Exp_growth_decay-3-2-1-4-1">What the graph of exponential growth and exponential decay look like?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Exp_growth_decay-3-2-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item D"><a href="#sec-Exp_growth_decay-3-2-1-4" title="Copy permalink for Item D">🔗</a></div>
+</li>
+<li id="sec-Exp_growth_decay-3-2-1-5">
+<div class="para" id="sec-Exp_growth_decay-3-2-1-5-1">Why the rate of change for exponential decay is negative?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Exp_growth_decay-3-2-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item E"><a href="#sec-Exp_growth_decay-3-2-1-5" title="Copy permalink for Item E">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Exp_growth_decay-3-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Exp_growth_decay-3-3">
+<em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-Exp_growth_decay-3-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="exercises" id="ex-Exp_growth_decay"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<section class="introduction" id="ex-Exp_growth_decay-2"><div class="para" id="ex-Exp_growth_decay-2-1">Exercises 1-4 are available in a separate workbook format.<div class="autopermalink" data-description="Paragraph"><a href="#ex-Exp_growth_decay-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><article class="exercise exercise-like" id="fiber-optic-growth-decay"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="introduction" id="fiber-optic-growth-decay-1"><div class="para" id="fiber-optic-growth-decay-1-1">A signal is sent down a fiber optic cable. Its strength decreases by 2% each mile it travels. (Say it was one unit strong to start.) <em class="emphasis">(Story also appears in <a href="sec-Scientific_notation.html#fiber-optic-prelude-scientific-notation" class="xref" data-knowl="./knowl/xref/fiber-optic-prelude-scientific-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 0.8.3.b">0.8.3.b</a> and <a href="sec-Powers_and_roots.html#fiber-optic-powers-roots" class="xref" data-knowl="./knowl/xref/fiber-optic-powers-roots.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.6.3">0.6.3</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#fiber-optic-growth-decay-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="fiber-optic-growth-decay-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="fiber-optic-growth-decay-2-1-1">Name the variables, including units.<div class="autopermalink" data-description="Paragraph"><a href="#fiber-optic-growth-decay-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.1.a"><a href="#fiber-optic-growth-decay-2" title="Copy permalink for Task 5.2.1.a">🔗</a></div></article><article class="task exercise-like" id="fiber-optic-growth-decay-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="fiber-optic-growth-decay-3-1-1">Make a table showing the strength of the signal over the first five miles.<div class="autopermalink" data-description="Paragraph"><a href="#fiber-optic-growth-decay-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.1.b"><a href="#fiber-optic-growth-decay-3" title="Copy permalink for Task 5.2.1.b">🔗</a></div></article><article class="task exercise-like" id="fiber-optic-growth-decay-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="fiber-optic-growth-decay-4-1-1">Write an equation relating the variables.<div class="autopermalink" data-description="Paragraph"><a href="#fiber-optic-growth-decay-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.1.c"><a href="#fiber-optic-growth-decay-4" title="Copy permalink for Task 5.2.1.c">🔗</a></div></article><article class="task exercise-like" id="fiber-optic-growth-decay-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="fiber-optic-growth-decay-5-1-1">The signal will need a <dfn class="terminology">booster</dfn> (something to make the signal stronger again) when it has fallen to under 0.75 units. How far along the cable should the booster be placed? Set up and solve an equation.<div class="autopermalink" data-description="Paragraph"><a href="#fiber-optic-growth-decay-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.1.d"><a href="#fiber-optic-growth-decay-5" title="Copy permalink for Task 5.2.1.d">🔗</a></div></article><article class="task exercise-like" id="fiber-optic-growth-decay-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="fiber-optic-growth-decay-6-1-1">What is the half-life (or should we say half-distance) of a signal? That means, how far can it travel without dropping below 50%? (That will not actually happen because we would boost the signal.) Again, set up and solve an equation.<div class="autopermalink" data-description="Paragraph"><a href="#fiber-optic-growth-decay-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.1.e"><a href="#fiber-optic-growth-decay-6" title="Copy permalink for Task 5.2.1.e">🔗</a></div></article><article class="task exercise-like" id="fiber-optic-growth-decay-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="fiber-optic-growth-decay-7-1-1">Draw a graph illustrating the relationship.<div class="autopermalink" data-description="Paragraph"><a href="#fiber-optic-growth-decay-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.1.f"><a href="#fiber-optic-growth-decay-7" title="Copy permalink for Task 5.2.1.f">🔗</a></div></article><article class="task exercise-like" id="fiber-optic-growth-decay-8"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<div class="para" id="fiber-optic-growth-decay-8-1-1">Indicate the points on your graph where you can check your answers to parts (c) and (d).<div class="autopermalink" data-description="Paragraph"><a href="#fiber-optic-growth-decay-8-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.1.g"><a href="#fiber-optic-growth-decay-8" title="Copy permalink for Task 5.2.1.g">🔗</a></div></article><div class="autopermalink" data-description="Exercise 5.2.1"><a href="#fiber-optic-growth-decay" title="Copy permalink for Exercise 5.2.1">🔗</a></div></article><article class="exercise exercise-like" id="cellphone-doubling-growth-decay"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="introduction" id="cellphone-doubling-growth-decay-1"><div class="para" id="cellphone-doubling-growth-decay-1-1">A recent news report stated that cell phone usage is growing exponentially in developing countries. In one small country, 50,000 people owned a cell phone in the year 2000. It was estimated that usage would increase at 1.4% percent per year.<div class="autopermalink" data-description="Paragraph"><a href="#cellphone-doubling-growth-decay-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="cellphone-doubling-growth-decay-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="cellphone-doubling-growth-decay-2-1-1">Name the variables including units.<div class="autopermalink" data-description="Paragraph"><a href="#cellphone-doubling-growth-decay-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.2.a"><a href="#cellphone-doubling-growth-decay-2" title="Copy permalink for Task 5.2.2.a">🔗</a></div></article><article class="task exercise-like" id="cellphone-doubling-growth-decay-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="cellphone-doubling-growth-decay-3-1-1">Assuming the growth is exponential, write an equation for the function.<div class="autopermalink" data-description="Paragraph"><a href="#cellphone-doubling-growth-decay-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.2.b"><a href="#cellphone-doubling-growth-decay-3" title="Copy permalink for Task 5.2.2.b">🔗</a></div></article><article class="task exercise-like" id="cellphone-doubling-growth-decay-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="cellphone-doubling-growth-decay-4-1-1">At this rate, how many years would it take for the number of people owning a cell phone to double? That is called the <dfn class="terminology">doubling time</dfn>. Show how to set up and solve an equation to find the answer.<div class="autopermalink" data-description="Paragraph"><a href="#cellphone-doubling-growth-decay-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.2.c"><a href="#cellphone-doubling-growth-decay-4" title="Copy permalink for Task 5.2.2.c">🔗</a></div></article><article class="task exercise-like" id="cellphone-doubling-growth-decay-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="cellphone-doubling-growth-decay-5-1-1">In 2011, about 682,000 people owned a cellphone. Is that count higher or lower than predicted from your equation? Explain.<div class="autopermalink" data-description="Paragraph"><a href="#cellphone-doubling-growth-decay-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.2.d"><a href="#cellphone-doubling-growth-decay-5" title="Copy permalink for Task 5.2.2.d">🔗</a></div></article><article class="task exercise-like" id="cellphone-doubling-growth-decay-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="cellphone-doubling-growth-decay-6-1-1">Based on the 2011 data, would you say that cell phone usage was growing slower or faster than 1.4%?<div class="autopermalink" data-description="Paragraph"><a href="#cellphone-doubling-growth-decay-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.2.e"><a href="#cellphone-doubling-growth-decay-6" title="Copy permalink for Task 5.2.2.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 5.2.2"><a href="#cellphone-doubling-growth-decay" title="Copy permalink for Exercise 5.2.2">🔗</a></div></article><article class="exercise exercise-like" id="heart-attack-growth-decay"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="heart-attack-growth-decay-1"><div class="para" id="heart-attack-growth-decay-1-1">If a person has a heart attack and their heart stops beating, the amount of time it takes paramedics to restart their heart with a defibrillator is critical. Each minute that passes decreases the person’s chance of survival by 10%. <aside class="aside aside-like" id="heart-attack-growth-decay-1-1-1"><div class="para" id="heart-attack-growth-decay-1-1-1-1">Source: American Red Cross<div class="autopermalink" data-description="Paragraph"><a href="#heart-attack-growth-decay-1-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></aside> Assume that this statement means the decrease is exponential and that the survival rate is 100% if the defibrillator is used immediately.<div class="autopermalink" data-description="Paragraph"><a href="#heart-attack-growth-decay-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="heart-attack-growth-decay-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="heart-attack-growth-decay-2-1-1">Name the variables, including units, and write an equation.<div class="autopermalink" data-description="Paragraph"><a href="#heart-attack-growth-decay-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.3.a"><a href="#heart-attack-growth-decay-2" title="Copy permalink for Task 5.2.3.a">🔗</a></div></article><article class="task exercise-like" id="heart-attack-growth-decay-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="heart-attack-growth-decay-3-1-1">If it takes the paramedics 2 minutes to use the defibrillator, what is the person’s chance of survival?<div class="autopermalink" data-description="Paragraph"><a href="#heart-attack-growth-decay-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.3.b"><a href="#heart-attack-growth-decay-3" title="Copy permalink for Task 5.2.3.b">🔗</a></div></article><article class="task exercise-like" id="heart-attack-growth-decay-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="heart-attack-growth-decay-4-1-1">Use successive approximation to <em class="emphasis">estimate</em> to the nearest minute when the survival rate drops below 50%. Display your guesses in a table.<div class="autopermalink" data-description="Paragraph"><a href="#heart-attack-growth-decay-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.3.c"><a href="#heart-attack-growth-decay-4" title="Copy permalink for Task 5.2.3.c">🔗</a></div></article><article class="task exercise-like" id="heart-attack-growth-decay-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="heart-attack-growth-decay-5-1-1">Solve your equation to find <em class="emphasis">exactly</em> when the survival rate drops below 50%.<div class="autopermalink" data-description="Paragraph"><a href="#heart-attack-growth-decay-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.3.d"><a href="#heart-attack-growth-decay-5" title="Copy permalink for Task 5.2.3.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 5.2.3"><a href="#heart-attack-growth-decay" title="Copy permalink for Exercise 5.2.3">🔗</a></div></article><article class="exercise exercise-like" id="ten-likes-growth-decay"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="ten-likes-growth-decay-1"><div class="para" id="ten-likes-growth-decay-1-1">You and two buddies each invite 10 people to “like” your online group. Suppose everyone accepts and then they each invite 10 people. And then everyone accepts and they each invite 10 people. And so on. Of course, there is likely to be substantial overlap, but for the moment pretend that there is not any overlap.<div class="autopermalink" data-description="Paragraph"><a href="#ten-likes-growth-decay-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="ten-likes-growth-decay-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="ten-likes-growth-decay-2-1-1">There are 3 friends to start. In the first round they each invite 10 friends, so a total of 30 new people “like” your online group in the first round. How many new people “like” your group in the second round? The third?<div class="autopermalink" data-description="Paragraph"><a href="#ten-likes-growth-decay-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.4.a"><a href="#ten-likes-growth-decay-2" title="Copy permalink for Task 5.2.4.a">🔗</a></div></article><article class="task exercise-like" id="ten-likes-growth-decay-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="ten-likes-growth-decay-3-1-1">Name the variables and write an equation showing how the number of new people increases in each round. Think of the original 3 friends as round 0.<div class="autopermalink" data-description="Paragraph"><a href="#ten-likes-growth-decay-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.4.b"><a href="#ten-likes-growth-decay-3" title="Copy permalink for Task 5.2.4.b">🔗</a></div></article><article class="task exercise-like" id="ten-likes-growth-decay-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="ten-likes-growth-decay-4-1-1">Make a table showing this information. Continue your table to include the number of new people who “like” your group in the fourth and fifth rounds.<div class="autopermalink" data-description="Paragraph"><a href="#ten-likes-growth-decay-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.4.c"><a href="#ten-likes-growth-decay-4" title="Copy permalink for Task 5.2.4.c">🔗</a></div></article><article class="task exercise-like" id="ten-likes-growth-decay-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="ten-likes-growth-decay-5-1-1">What is the <em class="emphasis">total</em> number of people who “like” your online group after five rounds? <em class="emphasis">Hint: add</em><div class="autopermalink" data-description="Paragraph"><a href="#ten-likes-growth-decay-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.4.d"><a href="#ten-likes-growth-decay-5" title="Copy permalink for Task 5.2.4.d">🔗</a></div></article><article class="task exercise-like" id="ten-likes-growth-decay-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="ten-likes-growth-decay-6-1-1">Comment on why our assumption is unrealistic.<div class="autopermalink" data-description="Paragraph"><a href="#ten-likes-growth-decay-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.4.e"><a href="#ten-likes-growth-decay-6" title="Copy permalink for Task 5.2.4.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 5.2.4"><a href="#ten-likes-growth-decay" title="Copy permalink for Exercise 5.2.4">🔗</a></div></article><article class="exercise exercise-like" id="caffeine-growth-decay"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="introduction" id="caffeine-growth-decay-1">
+<div class="para" id="caffeine-growth-decay-1-1">Joe’s girlfriend Ceyda starts the day by downing two cans of Red Bull, containing a total of 160 mg of caffeine. Her body eliminates the caffeine at a slightly slower rate of 12% each hour.<div class="autopermalink" data-description="Paragraph"><a href="#caffeine-growth-decay-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="caffeine-growth-decay-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Percentages.html#caffeine-percentages" class="xref" data-knowl="./knowl/xref/caffeine-percentages.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.3.7">0.3.7</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#caffeine-growth-decay-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="caffeine-growth-decay-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="caffeine-growth-decay-2-1-1">Name the variables and write an equation to model this situation.<div class="autopermalink" data-description="Paragraph"><a href="#caffeine-growth-decay-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.5.a"><a href="#caffeine-growth-decay-2" title="Copy permalink for Task 5.2.5.a">🔗</a></div></article><article class="task exercise-like" id="caffeine-growth-decay-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="caffeine-growth-decay-3-1-1">What’s the half-life of caffeine for Ceyda? Set up and solve an equation.<div class="autopermalink" data-description="Paragraph"><a href="#caffeine-growth-decay-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.5.b"><a href="#caffeine-growth-decay-3" title="Copy permalink for Task 5.2.5.b">🔗</a></div></article><article class="task exercise-like" id="caffeine-growth-decay-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="caffeine-growth-decay-4-1-1">Ceyda heard that drinking a glass of water an hour can help eliminate caffeine faster. If so, would the half-life be shorter or longer? Explain.<div class="autopermalink" data-description="Paragraph"><a href="#caffeine-growth-decay-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.5.c"><a href="#caffeine-growth-decay-4" title="Copy permalink for Task 5.2.5.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 5.2.5"><a href="#caffeine-growth-decay" title="Copy permalink for Exercise 5.2.5">🔗</a></div></article><article class="exercise exercise-like" id="bacteria-growth-decay"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="introduction" id="bacteria-growth-decay-1">
+<div class="para" id="bacteria-growth-decay-1-1">The population of bacteria in a culture dish begins at 2,000 and will triple every day.<div class="autopermalink" data-description="Paragraph"><a href="#bacteria-growth-decay-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="bacteria-growth-decay-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Growth_factor.html#find-rate-growth-factor" class="xref" data-knowl="./knowl/xref/find-rate-growth-factor.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 5.3.6">5.3.6</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#bacteria-growth-decay-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="bacteria-growth-decay-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="bacteria-growth-decay-2-1-1">Name the variables, including units and dependence.<div class="autopermalink" data-description="Paragraph"><a href="#bacteria-growth-decay-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.6.a"><a href="#bacteria-growth-decay-2" title="Copy permalink for Task 5.2.6.a">🔗</a></div></article><article class="task exercise-like" id="bacteria-growth-decay-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="bacteria-growth-decay-3-1-1">Make a table showing the number of bacteria at the start and after 1 day, 2 days, and 3 days.<div class="autopermalink" data-description="Paragraph"><a href="#bacteria-growth-decay-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.6.b"><a href="#bacteria-growth-decay-3" title="Copy permalink for Task 5.2.6.b">🔗</a></div></article><article class="task exercise-like" id="bacteria-growth-decay-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="bacteria-growth-decay-4-1-1">Write an equation illustrating bacterial growth.<div class="autopermalink" data-description="Paragraph"><a href="#bacteria-growth-decay-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.6.c"><a href="#bacteria-growth-decay-4" title="Copy permalink for Task 5.2.6.c">🔗</a></div></article><article class="task exercise-like" id="bacteria-growth-decay-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="bacteria-growth-decay-5-1-1">Your equation should fit the template for an exponential equation. What is the daily growth factor?<div class="autopermalink" data-description="Paragraph"><a href="#bacteria-growth-decay-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.6.d"><a href="#bacteria-growth-decay-5" title="Copy permalink for Task 5.2.6.d">🔗</a></div></article><article class="task exercise-like" id="bacteria-growth-decay-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="bacteria-growth-decay-6-1-1">Use your equation to extend your table to include 10 days, 20 days, and 30 days. Be careful to report the large numbers appropriately. <em class="emphasis">Hint: scientific notation</em><div class="autopermalink" data-description="Paragraph"><a href="#bacteria-growth-decay-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.6.e"><a href="#bacteria-growth-decay-6" title="Copy permalink for Task 5.2.6.e">🔗</a></div></article><article class="task exercise-like" id="bacteria-growth-decay-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="bacteria-growth-decay-7-1-1">The dish can support around 1 million bacteria. When does that happen? Give your answer to the nearest hour.<div class="autopermalink" data-description="Paragraph"><a href="#bacteria-growth-decay-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.6.f"><a href="#bacteria-growth-decay-7" title="Copy permalink for Task 5.2.6.f">🔗</a></div></article><article class="task exercise-like" id="bacteria-growth-decay-8"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<div class="para" id="bacteria-growth-decay-8-1-1">Draw a graph, including a table of reasonable values. Remember, the dish can only support up to 1 million bacteria, so your graph should go up to 1 million.<div class="autopermalink" data-description="Paragraph"><a href="#bacteria-growth-decay-8-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.6.g"><a href="#bacteria-growth-decay-8" title="Copy permalink for Task 5.2.6.g">🔗</a></div></article><div class="autopermalink" data-description="Exercise 5.2.6"><a href="#bacteria-growth-decay" title="Copy permalink for Exercise 5.2.6">🔗</a></div></article><article class="exercise exercise-like" id="house-value-growth-decay"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="introduction" id="house-value-growth-decay-1">
+<div class="para" id="house-value-growth-decay-1-1">Tenzin bought a house for $291,900 but the housing market collapsed and his house value dropped 4.1% each year.<div class="autopermalink" data-description="Paragraph"><a href="#house-value-growth-decay-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="house-value-growth-decay-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Percentages.html#house-value-percentages" class="xref" data-knowl="./knowl/xref/house-value-percentages.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.3.9">0.3.9</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#house-value-growth-decay-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="house-value-growth-decay-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="house-value-growth-decay-2-1-1">Name the variables and write an equation relating them.<div class="autopermalink" data-description="Paragraph"><a href="#house-value-growth-decay-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.7.a"><a href="#house-value-growth-decay-2" title="Copy permalink for Task 5.2.7.a">🔗</a></div></article><article class="task exercise-like" id="house-value-growth-decay-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="house-value-growth-decay-3-1-1">At this rate, how many years would it take for the value of Tenzin’s house to drop below $240,000? Use successive approximation to guess the year.<div class="autopermalink" data-description="Paragraph"><a href="#house-value-growth-decay-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.7.b"><a href="#house-value-growth-decay-3" title="Copy permalink for Task 5.2.7.b">🔗</a></div></article><article class="task exercise-like" id="house-value-growth-decay-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="house-value-growth-decay-4-1-1">Now set up and solve an equation.<div class="autopermalink" data-description="Paragraph"><a href="#house-value-growth-decay-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.7.c"><a href="#house-value-growth-decay-4" title="Copy permalink for Task 5.2.7.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 5.2.7"><a href="#house-value-growth-decay" title="Copy permalink for Exercise 5.2.7">🔗</a></div></article><article class="exercise exercise-like" id="wetlands-growth-decay"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="introduction" id="wetlands-growth-decay-1">
+<div class="para" id="wetlands-growth-decay-1-1">One modern technique for cleaning waste water involves the use of constructed (man-made) wetlands. Wetlands act as a natural biofilter for various contaminants in the waste water. After each month in the wetlands, only about 1/4 of the contaminants remain in any given sample. Suppose a sample had 8 grams of contaminants before it was processed in the constructed wetlands.<div class="autopermalink" data-description="Paragraph"><a href="#wetlands-growth-decay-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="wetlands-growth-decay-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Growth_factor.html#find-rate-growth-factor" class="xref" data-knowl="./knowl/xref/find-rate-growth-factor.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 5.3.6">5.3.6</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#wetlands-growth-decay-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="wetlands-growth-decay-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="wetlands-growth-decay-2-1-1">How much would remain in the sample after 1 month? 2 months? 3 months?<div class="autopermalink" data-description="Paragraph"><a href="#wetlands-growth-decay-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.8.a"><a href="#wetlands-growth-decay-2" title="Copy permalink for Task 5.2.8.a">🔗</a></div></article><article class="task exercise-like" id="wetlands-growth-decay-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="wetlands-growth-decay-3-1-1">Name the variables and write an equation relating them.<div class="autopermalink" data-description="Paragraph"><a href="#wetlands-growth-decay-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.8.b"><a href="#wetlands-growth-decay-3" title="Copy permalink for Task 5.2.8.b">🔗</a></div></article><article class="task exercise-like" id="wetlands-growth-decay-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="wetlands-growth-decay-4-1-1">Your equation should fit the template for an exponential equation. What is the monthly decay factor?<div class="autopermalink" data-description="Paragraph"><a href="#wetlands-growth-decay-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.8.c"><a href="#wetlands-growth-decay-4" title="Copy permalink for Task 5.2.8.c">🔗</a></div></article><article class="task exercise-like" id="wetlands-growth-decay-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="wetlands-growth-decay-5-1-1">According to your equation, when will the contaminants fall below 1 mg? 1 <span class="process-math">\(\mu\)</span>g? Remember <span class="process-math">\(1 \text{ gram} = 1{,}000 \text{ mg}\)</span> and <span class="process-math">\(1 \text{ gram} = 1{,}000{,}000\, \mu \text{g}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#wetlands-growth-decay-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.8.d"><a href="#wetlands-growth-decay-5" title="Copy permalink for Task 5.2.8.d">🔗</a></div></article><article class="task exercise-like" id="wetlands-growth-decay-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="wetlands-growth-decay-6-1-1">Draw a graph illustrating the waste water treatment process for the first 6 months.<div class="autopermalink" data-description="Paragraph"><a href="#wetlands-growth-decay-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.8.e"><a href="#wetlands-growth-decay-6" title="Copy permalink for Task 5.2.8.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 5.2.8"><a href="#wetlands-growth-decay" title="Copy permalink for Exercise 5.2.8">🔗</a></div></article><article class="exercise exercise-like" id="hibbing-growth-decay"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="introduction" id="hibbing-growth-decay-1">
+<div class="para" id="hibbing-growth-decay-1-1">Hibbing, Minnesota is the hometown of baseball star Roger Maris, basketball great Kevin McHale, the Greyhound Bus lines, the Hull-Rust-Mahoning Open Pit Iron Mine and, perhaps most famously, songwriter Bob Dylan. It is not a big town. In 2000 the population was reported at 17,071 residents, with an expected decrease of around 0.4% per year.<div class="autopermalink" data-description="Paragraph"><a href="#hibbing-growth-decay-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="hibbing-growth-decay-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Approximation_and_rounding.html#round-calculated-approx-rounding" class="xref" data-knowl="./knowl/xref/round-calculated-approx-rounding.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.1.3">0.1.3</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#hibbing-growth-decay-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="hibbing-growth-decay-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="hibbing-growth-decay-2-1-1">What is the annual decay factor?<div class="autopermalink" data-description="Paragraph"><a href="#hibbing-growth-decay-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.9.a"><a href="#hibbing-growth-decay-2" title="Copy permalink for Task 5.2.9.a">🔗</a></div></article><article class="task exercise-like" id="hibbing-growth-decay-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="hibbing-growth-decay-3-1-1">Name the variables and write an equation relating them.<div class="autopermalink" data-description="Paragraph"><a href="#hibbing-growth-decay-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.9.b"><a href="#hibbing-growth-decay-3" title="Copy permalink for Task 5.2.9.b">🔗</a></div></article><article class="task exercise-like" id="hibbing-growth-decay-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="hibbing-growth-decay-4-1-1">Based on these estimates, what was the anticipated population of Hibbing in 2010?<div class="autopermalink" data-description="Paragraph"><a href="#hibbing-growth-decay-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.9.c"><a href="#hibbing-growth-decay-4" title="Copy permalink for Task 5.2.9.c">🔗</a></div></article><article class="task exercise-like" id="hibbing-growth-decay-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="hibbing-growth-decay-5-1-1">The actual 2010 U.S. Census estimate of Hibbing’s population was 16,361 people. Was the decrease slower or faster than expected? Was the decay rate more or less than 0.4%? Explain.<div class="autopermalink" data-description="Paragraph"><a href="#hibbing-growth-decay-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.9.d"><a href="#hibbing-growth-decay-5" title="Copy permalink for Task 5.2.9.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 5.2.9"><a href="#hibbing-growth-decay" title="Copy permalink for Exercise 5.2.9">🔗</a></div></article><article class="exercise exercise-like" id="food-shelf-growth-decay"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<div class="introduction" id="food-shelf-growth-decay-1">
+<div class="para" id="food-shelf-growth-decay-1-1">Donations to a local food shelf have increased 35% over last year. There were 3,400 pounds of food donated last year.<div class="autopermalink" data-description="Paragraph"><a href="#food-shelf-growth-decay-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="food-shelf-growth-decay-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Growth_factor.html#find-growth-factor" class="xref" data-knowl="./knowl/xref/find-growth-factor.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 5.3.3">5.3.3</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#food-shelf-growth-decay-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="food-shelf-growth-decay-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="food-shelf-growth-decay-2-1-1">Name the variables, measuring time since last year. (Yes, it’s a little awkward.)<div class="autopermalink" data-description="Paragraph"><a href="#food-shelf-growth-decay-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.10.a"><a href="#food-shelf-growth-decay-2" title="Copy permalink for Task 5.2.10.a">🔗</a></div></article><article class="task exercise-like" id="food-shelf-growth-decay-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="food-shelf-growth-decay-3-1-1">Write an exponential equation relating the variables, assuming the rate of increase continues.<div class="autopermalink" data-description="Paragraph"><a href="#food-shelf-growth-decay-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.10.b"><a href="#food-shelf-growth-decay-3" title="Copy permalink for Task 5.2.10.b">🔗</a></div></article><article class="task exercise-like" id="food-shelf-growth-decay-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="food-shelf-growth-decay-4-1-1">How much was donated this year? How much is expected next year? The year after?<div class="autopermalink" data-description="Paragraph"><a href="#food-shelf-growth-decay-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.10.c"><a href="#food-shelf-growth-decay-4" title="Copy permalink for Task 5.2.10.c">🔗</a></div></article><article class="task exercise-like" id="food-shelf-growth-decay-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="food-shelf-growth-decay-5-1-1">At this rate, what is the doubling time? That means, how long would it be until twice as much is donated. Set up and solve an equation to answer. Report your answer to the nearest month.<div class="autopermalink" data-description="Paragraph"><a href="#food-shelf-growth-decay-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.10.d"><a href="#food-shelf-growth-decay-5" title="Copy permalink for Task 5.2.10.d">🔗</a></div></article><article class="task exercise-like" id="food-shelf-growth-decay-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="food-shelf-growth-decay-6-1-1">The agency estimates that around 12,000 pounds of food is needed each year to meet the needs of the people they serve. In how many years will donations reach that level? (In your answer, say how many years from now.)<div class="autopermalink" data-description="Paragraph"><a href="#food-shelf-growth-decay-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.2.10.e"><a href="#food-shelf-growth-decay-6" title="Copy permalink for Task 5.2.10.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 5.2.10"><a href="#food-shelf-growth-decay" title="Copy permalink for Exercise 5.2.10">🔗</a></div></article><div class="autopermalink" data-description="Exercises 5.2: Exercises"><a href="#ex-Exp_growth_decay" title="Copy permalink for Exercises 5.2: Exercises">🔗</a></div></section><div class="autopermalink" data-description="Section 5.2: Exponential growth and decay"><a href="#sec-Exp_growth_decay" title="Copy permalink for Section 5.2: Exponential growth and decay">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-Modeling_exponential_equations.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-Growth_factor.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
