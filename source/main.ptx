@@ -7,6 +7,7 @@
     <book xml:id="just-enough-algebra">
         <!-- This xml:id points to the table of contents. -->
         <title>Just Enough Algebra</title>
+        <subtitle>- Summer 2025 edition</subtitle>
 
         <!-- Include frontmatter -->
         <xi:include href="./frontmatter.ptx" />
