@@ -3,8 +3,7 @@
 <project ptx-version="2">
     <targets>
 <!-- Web target -->
-        <target name="web" 
-                deploy-dir="summer-2025"
+        <target name="web"
                 format="html" 
                 xsl="custom-web.xsl" 
                 publication="publication-web.ptx" />
