@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette: blues                        *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>A first look at exponential equations</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Just Enough Algebra">
+<meta property="book:author" content="Dr. Suzanne Dorée">
+<meta property="book:author" content="Dr. Spencer Bagley">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.7.5';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.107bf2d9be20d9c4.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="justenoughalgebra" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""><img src="external/book-open-solid.png" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="just-enough-algebra.html"><span class="title">Just Enough Algebra</span> <span class="subtitle">- Summer 2025 edition</span></a></h1>
+<p class="byline">Dr. Suzanne Dorée, Dr. Spencer Bagley</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-First_look_linear.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-Equations.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-Using_equations.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-why-this-book-web.html" class="internal"><span class="title">Why <em class="emphasis">Just Enough Algebra</em>?</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-students-web.html" class="internal"><span class="title">Students! Read this!</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-instructors-web.html" class="internal"><span class="title">Instructors! Read this!</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Prelude.html" class="internal"><span class="codenumber">0</span> <span class="title">Prelude</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approximation_and_rounding.html" class="internal"><span class="codenumber">0.1</span> <span class="title">Prelude: Approximation &amp; rounding</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approximation_and_rounding.html#ex-Approximation_and_rounding" class="internal"><span class="codenumber">0.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Arithmetic_operations.html" class="internal"><span class="codenumber">0.2</span> <span class="title">Prelude: Arithmetic operations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Arithmetic_operations.html#ex-Arithmetic_operations" class="internal"><span class="codenumber">0.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Percentages.html" class="internal"><span class="codenumber">0.3</span> <span class="title">Prelude: Percentages</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Percentages.html#ex-Percentages" class="internal"><span class="codenumber">0.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Order_of_operations.html" class="internal"><span class="codenumber">0.4</span> <span class="title">Prelude: Order of operations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Order_of_operations.html#ex-Order_of_operations" class="internal"><span class="codenumber">0.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fractions.html" class="internal"><span class="codenumber">0.5</span> <span class="title">Prelude: Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fractions.html#ex-Fractions" class="internal"><span class="codenumber">0.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Powers_and_roots.html" class="internal"><span class="codenumber">0.6</span> <span class="title">Prelude: Powers and roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Powers_and_roots.html#ex-Powers_and_roots" class="internal"><span class="codenumber">0.6</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Algebraic_notation.html" class="internal"><span class="codenumber">0.7</span> <span class="title">Prelude: Algebraic notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Algebraic_notation.html#ex-Algebraic-notation" class="internal"><span class="codenumber">0.7</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Scientific_notation.html" class="internal"><span class="codenumber">0.8</span> <span class="title">Prelude: Scientific notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Scientific_notation.html#ex-Scientific_notation" class="internal"><span class="codenumber">0.8</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logarithms.html" class="internal"><span class="codenumber">0.9</span> <span class="title">Prelude: Logarithms</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logarithms.html#ex-Logarithms" class="internal"><span class="codenumber">0.9</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Variables.html" class="internal"><span class="codenumber">1</span> <span class="title">Variables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Variables_and_functions.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Variables and functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Variables_and_functions.html#exercises-variables-functions" class="internal"><span class="codenumber">1.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Tables_and_graphs.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Tables and graphs</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Tables_and_graphs.html#ex-Tables_and_graphs" class="internal"><span class="codenumber">1.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Rate_of_change.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Rate of change</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Rate_of_change.html#ex-Rate_of_change" class="internal"><span class="codenumber">1.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Units.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Units</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Units.html#ex-Units" class="internal"><span class="codenumber">1.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Metric_system_and_scientific_notation.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Metric prefixes and scientific notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Metric_system_and_scientific_notation.html#ex-Metric_system_and_scientific_notation" class="internal"><span class="codenumber">1.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1A.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Practice Exam 1A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1A.html#ws-PE1A" class="internal"><span class="codenumber">1.6</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1B.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1B.html#ws-PE1B" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-Equations.html" class="internal"><span class="codenumber">2</span> <span class="title">Equations</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_linear.html#ex-First_look_linear" class="internal"><span class="codenumber">2.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div>
+<ul class="structural toc-item-list active"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_exponential.html#ex-First_look_exponentialEX" class="internal"><span class="codenumber">2.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Using_equations.html#ex-Using_equations" class="internal"><span class="codenumber">2.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approx_solutions.html#ex-Approx_solutions" class="internal"><span class="codenumber">2.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Finance.html#ex-Finance" class="internal"><span class="codenumber">2.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2A.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2A.html#ws-PE2A" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2B.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2B.html#ws-PE2B" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Solving_equations.html" class="internal"><span class="codenumber">3</span> <span class="title">Solving equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html#ex-Solving_linear_equations" class="internal"><span class="codenumber">3.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html#ex-Solving_linear_inequalitiesEX" class="internal"><span class="codenumber">3.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_power_equations.html#ex-Solving_power_equations" class="internal"><span class="codenumber">3.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html#ex-Solving_exponential_equations" class="internal"><span class="codenumber">3.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html#ex-Solving_quadratic_equations" class="internal"><span class="codenumber">3.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3A.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3A.html#ws-PE3A" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3B.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3B.html#ws-PE3B" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Closer_look_linear.html" class="internal"><span class="codenumber">4</span> <span class="title">A closer look at linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html#ex-Modeling_linear_equations" class="internal"><span class="codenumber">4.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html#ex-Systems_linear_equations" class="internal"><span class="codenumber">4.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Intercepts.html#ex-Intercepts" class="internal"><span class="codenumber">4.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Slopes.html#ex-Slopes" class="internal"><span class="codenumber">4.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html#ex-Fitting_lines_to_data" class="internal"><span class="codenumber">4.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4A.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4A.html#ws-PE4A" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4B.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4B.html#ws-PE4B" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Closer_look_exponential.html" class="internal"><span class="codenumber">5</span> <span class="title">A closer look at exponential equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html#ex-Modeling_exponential_equations" class="internal"><span class="codenumber">5.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html#ex-Exp_growth_decay" class="internal"><span class="codenumber">5.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Growth_factor.html#ex-Growth_factor" class="internal"><span class="codenumber">5.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html#ex-Linear_vs_exponential" class="internal"><span class="codenumber">5.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logistic_growth.html#ex-Logistic_growth" class="internal"><span class="codenumber">5.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5A.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE5A.html#ws-PE5A" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5B.html" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE5B.html#ws-PE5B" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="backmatter-2.html" class="internal"><span class="codenumber">A</span> <span class="title">Practice Final Exams</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pfe1.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Practice Final Exam 1</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-pfe1.html#ws-PE6A" class="internal"><span class="codenumber">A.1</span> <span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pfe2.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Practice Final Exam 2</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-pfe2.html#ws-PE6B" class="internal"><span class="codenumber">A.2</span> <span class="title"></span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="app-templates-formulas.html" class="internal"><span class="codenumber">B</span> <span class="title">Templates and Formulas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-templates.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Templates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-constants.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Formulas used to find constants</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-solve.html" class="internal"><span class="codenumber">B.3</span> <span class="title">Formulas used to solve specific types of equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-finance.html" class="internal"><span class="codenumber">B.4</span> <span class="title">Formulas from finance</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-First_look_exponential"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">2.2</span><span class="space"> </span><span class="title">A first look at exponential equations</span>
+</h2>
+<section class="introduction" id="sec-First_look_exponential-2"><div class="para" id="sec-First_look_exponential-2-1">Jocelyn got a job right out of college, as an administrative assistant earning $28,000 a year. The position turned out to be a great fit for her, and after one year she was promoted to data analyst with a 15% raise. The next year Joceyln was promoted again, to senior data analyst along with a 21% raise. “Not bad,” her friend Audun said, “a 36% raise in two years.” But Jocelyn quickly corrected him. “Audun, it’s even better than that! It’s over 39%!”<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-First_look_exponential-2-2">
+<div class="para">After the first year, Jocelyn’s salary of $28,000 was increased by 15%. Remember that means 15% of $28,000 more. To calculate 15% of $28,000 we multiply using the decimal form</div>
+<div class="displaymath process-math">
+\begin{equation*}
+15\% = \frac{15}{100} = 15 \div 100 = 0.15
+\end{equation*}
+</div>
+<div class="para">to get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+15\% \text{ of } 28{,}000 = 0.15 \times 28{,}000 = 4{,}200
+\end{equation*}
+</div>
+<div class="para">That’s how much Jocelyn’s raise was that first year. By adding that amount to the original salary we get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+28{,}000 + 4{,}200 = 32{,}200
+\end{equation*}
+</div>
+<div class="para">After one year Jocelyn’s salary was $32,200.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-First_look_exponential-2-3">
+<div class="para">After the second year, Jocelyn got a 21% raise. This means her salary rose by 21% from what it was just before the raise, that is, from the $32,200. (The 21% does not refer back to the original $28,000 value.) So, to calculate the increase, we take 21% of $32,200, which is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+21\% \text{ of } \$32{,}200 = 0.21 \times 32{,}200 = \$6{,}762
+\end{equation*}
+</div>
+<div class="para">By adding on this raise we get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+32{,}200+ 6{,}762 = 38{,}962
+\end{equation*}
+</div>
+<div class="para">After the second year Jocelyn was earning $38,962.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-First_look_exponential-2-4">
+<div class="para">Since Jocelyn’s original salary was $28,000, the net increase in her salary is the difference</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\$38{,}962 - \$28{,}000 = \$10{,}962
+\end{equation*}
+</div>
+<div class="para">The corresponding percentage increase was</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{10{,}962}{28{,}000}= 10{,}962 \div 28{,}000 = 0.3915 = 0.3915 \times 100\% = 39.15\%
+\end{equation*}
+</div>
+<div class="para">As Jocelyn said, that’s over 39% increase.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-First_look_exponential-2-5">What’s going on here? Audun thought that 15% and 21% would be 36% because <span class="process-math">\(15 + 21 = 36\text{.}\)</span> The reason it doesn’t work that was is that while the 15% is of the original $28,000, the 21% was actually calculated on the $32,200. So, we can’t just combine percentages by adding.<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-2-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-First_look_exponential-2-6">Each time we figured out Jocelyn’s salary, we did a two-step process. First, we calculated the amount of the increase and second, we found the new value by adding on. There’s actually an easier way.<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-2-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-First_look_exponential-2-7">
+<div class="para">Jocelyn’s salary was $28,000 and then went up by 15%. For her new salary we want to add her old salary (all of it) plus 15%. So we want 100% plus 15%, or 115% of her old salary. That works in general. When we increase a number by 15%, we end up with 100% of what we started with plus 15% more, for a grand total of 115% of what we started with. So we can just multiply by 1.15, which is 115% written in decimal, since</div>
+<div class="displaymath process-math">
+\begin{equation*}
+115\% = \frac{115}{100} = 115 \div 100 = 1.15
+\end{equation*}
+</div>
+<div class="para">Looks weird, works great.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-2-7" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-First_look_exponential-2-8">
+<div class="para">That means all we have to do to find Jocelyn’s salary is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+28{,}000 \times 1.15 = 32{,}200
+\end{equation*}
+</div>
+<div class="para">We can do the same thing for the next calculation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+32{,}200 \times 1.21 = 38{,}962
+\end{equation*}
+</div>
+<div class="para">Here we multiplied by 1.21 because after a 21% increase you have 121% of what you started with. And 121% in decimal form is just 1.21.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-2-8" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-First_look_exponential-2-9">
+<div class="para">Now hang on to your hat, because we can combine these parts together. In our example, we started with $28,000. Then we multiplied by 1.15, which gave us $32,200. And then we multiplied that answer by 1.21, to get our final answer of $28,962. So really we just did</div>
+<div class="displaymath process-math">
+\begin{equation*}
+28{,}000 \times 1.15 \times 1.21 = 38{,}962
+\end{equation*}
+</div>
+<div class="para">Same answer. A lot less effort. And, check it out</div>
+<div class="displaymath process-math">
+\begin{equation*}
+1.15 \times 1.21 = 1.3915 =139.15\%
+\end{equation*}
+</div>
+<div class="para">That’s where the 39.15% increase is hidden. Cool.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-2-9" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-First_look_exponential-2-10">
+<div class="para">A little terminology before we move on. A percentage increase is known as the <dfn class="terminology">growth rate</dfn> and the number we multiply in the one-step method is called the <dfn class="terminology">growth factor</dfn>. For example, in calculating 15% increase, the growth rate was <span class="process-math">\(15\%=0.15\)</span> in decimal, and so the growth factor was</div>
+<div class="displaymath process-math">
+\begin{equation*}
+115\%=1.15
+\end{equation*}
+</div>
+<div class="para">If you’re into formulas here it is.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-2-10" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<article class="assemblage assemblage-like" id="sec-First_look_exponential-2-11"><h3 class="heading"><span class="title">Percent Change Formula</span></h3>
+<div class="para logical" id="sec-First_look_exponential-2-11-2">
+<div class="para">If a quantity increases by a percentage corresponding to growth rate 	<span class="process-math">\(r\text{,}\)</span> then the growth factor is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\displaystyle g=1+r
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-2-11-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Percent Change Formula"><a href="#sec-First_look_exponential-2-11" title="Copy permalink for Assemblage: Percent Change Formula">🔗</a></div></article><div class="para logical" id="sec-First_look_exponential-2-12">
+<div class="para">We had <span class="process-math">\(r=0.15\)</span> and so</div>
+<div class="displaymath process-math">
+\begin{equation*}
+g=1+r=1+0.15=1.15
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-2-12" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-First_look_exponential-2-13">
+<div class="para">Jocelyn’s most recent assignment has been analyzing information on rising health care costs. In 2007 the United States spent $2.26 trillion on health care. Written out with all its zeros that’s</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\$2.26 \text{ trillion} =  \$2{,}260{,}000{,}000{,}000
+\end{equation*}
+</div>
+<div class="para">Health care costs were projected to increase at an average of 6.7% annually. That means we have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+r= 6.7\% = 0.067
+\end{equation*}
+</div>
+<div class="para">and</div>
+<div class="displaymath process-math">
+\begin{equation*}
+g=1+r=1+0.067=1.067
+\end{equation*}
+</div>
+<div class="para">So, to find the effect of a 6.7% increase, we can just multiply by 1.067. Again, that’s the 100% of what we started with plus 6.7% more for a grand total of <span class="process-math">\(106.7\%= 1.067\text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-2-13" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-First_look_exponential-2-14">
+<div class="para">We are ready to do some examples. In 2007 the United States spent $2.26 trillion on health care. The projection for one year later is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2.26 \times 1.067 = 2.41142 \approx \$2.41 \text{ trillion}
+\end{equation*}
+</div>
+<div class="para">Another year later, projected health care costs are</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2.41  \times 1.067 = 2.57147 \approx \$2.57 \text{ trillion}
+\end{equation*}
+</div>
+<div class="para">And so on. For each year we multiply by another 1.067.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-2-14" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-First_look_exponential-2-15">
+<div class="para">For example, by 2017 (ten years later), health care costs are projected to be</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2.26 \times \underbrace{1.067  \times 1.067  \times 1.067  \times 1.067  \times 1.067  \times 1.067  \times 1.067  \times 1.067  \times 1.067  \times 1.067}_{10\text{ times}}
+\end{equation*}
+</div>
+<div class="para">I don’t know about you, but I would rather not type that all into a calculator. Luckily, multiplying by 1.067 ten times is the same as multiplying by <span class="process-math">\(1.067^{10}\text{.}\)</span> Recall that the <dfn class="terminology">base</dfn> <span class="process-math">\(1.067\)</span> is the number we multiply by and the <dfn class="terminology">exponent</dfn> (or <dfn class="terminology">power</dfn>) <span class="process-math">\(10\)</span> tells us how many times. So we can calculate</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2.26  \ast 1.067^{10} = 2.26 \times 1.067 \wedge 10 = 4.322675488 \approx \$ 4.32 \text{ trillion}
+\end{equation*}
+</div>
+<div class="para">Notice that the order of operations is exactly what we wanted here: first raise 1.067 to the 10th power, then multiply by 2.26. So we can enter it all at once without needing parentheses. Bottom line: health care costs are expected to be around $4.32 trillion by the year 2017. Oh my!</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-2-15" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-First_look_exponential-2-16">
+<div class="para">We’re so close to the equation now, we can smell it. Our variables are</div>
+<div class="displaymath process-math" id="sec-First_look_exponential-2-16-1">
+\begin{align*}
+H \amp= \text{ health care costs (\$ trillions) } \sim \text{ dep} \\
+Y \amp= \text{ time (years since 2007) } \sim \text{ indep} 
+\end{align*}
+</div>
+<div class="para">We just found the cost after 10 years was</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\$2.26 \ast 1.067^{10}\approx \$4.32 \text{ trillion}
+\end{equation*}
+</div>
+<div class="para">We can generalize to get the equation by putting in <span class="process-math">\(Y\)</span> (instead of 10) and <span class="process-math">\(H\)</span> (instead of $4.32 trillion). When we do we get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2.26  \ast 1.067^{Y} = H
+\end{equation*}
+</div>
+<div class="para">Rewriting the equation to begin with the dependent variable we get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+H = 2.26\ast 1.067^{Y}
+\end{equation*}
+</div>
+<div class="para">By the way, there are two other standard ways of writing this equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+H= 2.26(1.067)^{Y} \quad \text{ and } \quad H = 2.26\left(1.067^{Y}\right)
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-2-16" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-First_look_exponential-2-17">
+<div class="para">For example, in 2027 we have <span class="process-math">\(Y=2027 - 2007 = 20\)</span> years and our equation projects health care cost at</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2.26 \ast 1.067^{20} = 2.26 \times 1.067 \wedge 20 = 8.821882053 \approx \$8.82 \text{ trillion}
+\end{equation*}
+</div>
+<div class="para">Not sure it’s realistic to expect that steady an increase for 20 years, but that is what the equation projects, so let’s work with it for now.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-2-17" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-First_look_exponential-2-18">What does the graph of this function look like? Here are the values we found so far. That should be enough.<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-2-18" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">year</td>
+<td class="c m b1 r1 l0 t1 lines">2007</td>
+<td class="c m b1 r1 l0 t1 lines">2008</td>
+<td class="c m b1 r1 l0 t1 lines">2009</td>
+<td class="c m b1 r1 l0 t1 lines">2017</td>
+<td class="c m b1 r1 l0 t1 lines">2027</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(Y\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">0</td>
+<td class="c m b1 r1 l0 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines">2</td>
+<td class="c m b1 r1 l0 t0 lines">10</td>
+<td class="c m b1 r1 l0 t0 lines">20</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(H\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">2.26</td>
+<td class="c m b1 r1 l0 t0 lines">2.41</td>
+<td class="c m b1 r1 l0 t0 lines">2.57</td>
+<td class="c m b1 r1 l0 t0 lines">4.32</td>
+<td class="c m b1 r1 l0 t0 lines">8.82</td>
+</tr>
+</table></div>
+<div class="para" id="sec-First_look_exponential-2-20">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/healthcarecosts.png" class="contained"></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-2-20" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-First_look_exponential-2-21">Can you see that the graph curves slightly? It’s not a straight line. That’s because this function isn’t linear.<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-2-21" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-First_look_exponential-2-22">
+<div class="para">Look back at our equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+H = 2.26\ast 1.067^{Y}
+\end{equation*}
+</div>
+<div class="para">This type of equation is called an <dfn class="terminology">exponential equation</dfn> because the independent variable is in the exponent. Any exponential equation fits this template.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-2-22" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<article class="assemblage assemblage-like" id="exp-eqn-template"><h3 class="heading"><span class="title">Exponential Equation Template</span></h3>
+<div class="para logical" id="exp-eqn-template-2">
+<div class="displaymath process-math">
+\begin{equation*}
+\text{dep} = \text{start} \ast \text{growth factor} ^ {\text{indep}}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exp-eqn-template-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Exponential Equation Template"><a href="#exp-eqn-template" title="Copy permalink for Assemblage: Exponential Equation Template">🔗</a></div></article><div class="para" id="sec-First_look_exponential-2-24">Notice our two variables are in our equation and there are two constants. Each constant has its own meaning. The first constant is 2.26 and it is measured in trillions of dollars. It is the amount spent on health care in the starting year of 2007. In our standard form we refer to this quantity as the <dfn class="terminology">starting value</dfn> (or <dfn class="terminology">start</dfn> for short). As with linear equations, its official name is <dfn class="terminology">intercept</dfn> and it’s the value where the curve crosses the vertical axis on the graph.<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-2-24" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-First_look_exponential-2-25">The second constant is the <dfn class="terminology">growth factor</dfn> 1.067, and is the decimal equivalent of the 106.7%. The growth factor for an exponential equation is similar to the slope of a linear equation because both tell us how fast the function is increasing. But the slope measures the rate of change - how much is added at each step - while the growth factor corresponds to the percent increase. Another way to say that is linear functions correspond to situations where we are adding the same amount each time and exponential functions correspond to situations where we are adding the same percentage each time (or, equivalently, multiplying by the same amount each time).<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-2-25" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-First_look_exponential-2-26">Sometimes the graph of an exponential equation looks a lot like a line, especially if you only plot a few points. So, be sure to plot five or more points to see the curve in the graph of an exponential equation.<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-2-26" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="conclusion" id="sec-First_look_exponential-3"><h3 class="heading">Do you know …<span></span>
+</h3>
+<div class="para logical" id="sec-First_look_exponential-3-2">
+<ol class="upper-alpha ol-marker-1" id="sec-First_look_exponential-3-2-1">
+<li id="sec-First_look_exponential-3-2-1-1">
+<div class="para" id="sec-First_look_exponential-3-2-1-1-1">How to find the growth factor if you know the percent increase?<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-3-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item A"><a href="#sec-First_look_exponential-3-2-1-1" title="Copy permalink for Item A">🔗</a></div>
+</li>
+<li id="sec-First_look_exponential-3-2-1-2">
+<div class="para" id="sec-First_look_exponential-3-2-1-2-1">How to calculate percent increase in one step?<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-3-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item B"><a href="#sec-First_look_exponential-3-2-1-2" title="Copy permalink for Item B">🔗</a></div>
+</li>
+<li id="sec-First_look_exponential-3-2-1-3">
+<div class="para" id="sec-First_look_exponential-3-2-1-3-1">What makes a function exponential?<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-3-2-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item C"><a href="#sec-First_look_exponential-3-2-1-3" title="Copy permalink for Item C">🔗</a></div>
+</li>
+<li id="sec-First_look_exponential-3-2-1-4">
+<div class="para" id="sec-First_look_exponential-3-2-1-4-1">The template for an exponential equation? <em class="emphasis">Ask your instructor if you need to remember the template or if it will be provided during the exam.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-3-2-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item D"><a href="#sec-First_look_exponential-3-2-1-4" title="Copy permalink for Item D">🔗</a></div>
+</li>
+<li id="sec-First_look_exponential-3-2-1-5">
+<div class="para" id="sec-First_look_exponential-3-2-1-5-1">Where the starting value and growth factor appear in the template for an exponential equation?<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-3-2-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item E"><a href="#sec-First_look_exponential-3-2-1-5" title="Copy permalink for Item E">🔗</a></div>
+</li>
+<li id="sec-First_look_exponential-3-2-1-6">
+<div class="para" id="sec-First_look_exponential-3-2-1-6-1">What the graph of an exponential function looks like?<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-3-2-1-6-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item F"><a href="#sec-First_look_exponential-3-2-1-6" title="Copy permalink for Item F">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-3-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-First_look_exponential-3-3">
+<em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-First_look_exponential-3-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="exercises" id="ex-First_look_exponentialEX"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<section class="introduction" id="ex-First_look_exponentialEX-2"><div class="para" id="ex-First_look_exponentialEX-2-1">Exercises 1-4 are available in a separate workbook format.<div class="autopermalink" data-description="Paragraph"><a href="#ex-First_look_exponentialEX-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><article class="exercise exercise-like" id="private-college-first-look-exponential"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="introduction" id="private-college-first-look-exponential-1"><div class="para" id="private-college-first-look-exponential-1-1">The comprehensive fee at a local private college is $37,000. The fee is projected to increase 5.8% per year.<div class="autopermalink" data-description="Paragraph"><a href="#private-college-first-look-exponential-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="private-college-first-look-exponential-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="private-college-first-look-exponential-2-1-1">Calculate the annual growth factor.<div class="autopermalink" data-description="Paragraph"><a href="#private-college-first-look-exponential-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.1.a"><a href="#private-college-first-look-exponential-2" title="Copy permalink for Task 2.2.1.a">🔗</a></div></article><article class="task exercise-like" id="private-college-first-look-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="private-college-first-look-exponential-3-1-1">What do you expect the comprehensive fee will be in five years?<div class="autopermalink" data-description="Paragraph"><a href="#private-college-first-look-exponential-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.1.b"><a href="#private-college-first-look-exponential-3" title="Copy permalink for Task 2.2.1.b">🔗</a></div></article><article class="task exercise-like" id="private-college-first-look-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="private-college-first-look-exponential-4-1-1">Name the variables, including units, and write an equation describing the dependence.<div class="autopermalink" data-description="Paragraph"><a href="#private-college-first-look-exponential-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.1.c"><a href="#private-college-first-look-exponential-4" title="Copy permalink for Task 2.2.1.c">🔗</a></div></article><article class="task exercise-like" id="private-college-first-look-exponential-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="private-college-first-look-exponential-5-1-1">Make a table of values showing the comprehensive fee now, in 5 years, 10 years, 20 years, and 50 years (even though that’s not realistic).<div class="autopermalink" data-description="Paragraph"><a href="#private-college-first-look-exponential-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.1.d"><a href="#private-college-first-look-exponential-5" title="Copy permalink for Task 2.2.1.d">🔗</a></div></article><article class="task exercise-like" id="private-college-first-look-exponential-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="private-college-first-look-exponential-6-1-1">Draw a graph illustrating the function.<div class="autopermalink" data-description="Paragraph"><a href="#private-college-first-look-exponential-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.1.e"><a href="#private-college-first-look-exponential-6" title="Copy permalink for Task 2.2.1.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.2.1"><a href="#private-college-first-look-exponential" title="Copy permalink for Exercise 2.2.1">🔗</a></div></article><article class="exercise exercise-like" id="bunnies-first-look-exponential"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="introduction" id="bunnies-first-look-exponential-1"><div class="para" id="bunnies-first-look-exponential-1-1">Bunnies, bunnies, everywhere. They eat the tops of my tulips in early spring and my lilies all summer long. Back in 2007 there were an estimated 1,800 rabbits in my neighborhood. Rabbits multiply quickly, 13% per year by one estimate. <em class="emphasis">(Story also appears in <a href="sec-Scientific_notation.html#bunnies-prelude-scientific-notation" class="xref" data-knowl="./knowl/xref/bunnies-prelude-scientific-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 0.8.3.a">0.8.3.a</a> and <a href="sec-Modeling_exponential_equations.html#bunnies-modeling-exponential" class="xref" data-knowl="./knowl/xref/bunnies-modeling-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 5.1.3">5.1.3</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#bunnies-first-look-exponential-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="bunnies-first-look-exponential-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="bunnies-first-look-exponential-2-1-1">Name the variables, including dependency.<div class="autopermalink" data-description="Paragraph"><a href="#bunnies-first-look-exponential-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.2.a"><a href="#bunnies-first-look-exponential-2" title="Copy permalink for Task 2.2.2.a">🔗</a></div></article><article class="task exercise-like" id="bunnies-first-look-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="bunnies-first-look-exponential-3-1-1">Calculate the annual growth factor.<div class="autopermalink" data-description="Paragraph"><a href="#bunnies-first-look-exponential-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.2.b"><a href="#bunnies-first-look-exponential-3" title="Copy permalink for Task 2.2.2.b">🔗</a></div></article><article class="task exercise-like" id="bunnies-first-look-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="bunnies-first-look-exponential-4-1-1">What does this story suggest the rabbit population was in 2010? In 2013?<div class="autopermalink" data-description="Paragraph"><a href="#bunnies-first-look-exponential-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.2.c"><a href="#bunnies-first-look-exponential-4" title="Copy permalink for Task 2.2.2.c">🔗</a></div></article><article class="task exercise-like" id="bunnies-first-look-exponential-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="bunnies-first-look-exponential-5-1-1">Write an equation relating the variables.<div class="autopermalink" data-description="Paragraph"><a href="#bunnies-first-look-exponential-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.2.d"><a href="#bunnies-first-look-exponential-5" title="Copy permalink for Task 2.2.2.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.2.2"><a href="#bunnies-first-look-exponential" title="Copy permalink for Exercise 2.2.2">🔗</a></div></article><article class="exercise exercise-like" id="flu-dorm-first-look-exponential"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="flu-dorm-first-look-exponential-1"><div class="para" id="flu-dorm-first-look-exponential-1-1">A flu virus has been spreading through the college dormitories. Initially 8 students were diagnosed with the flu, but that number has been growing 16% per day. <em class="emphasis">(Story also appears in <a href="sec-Modeling_exponential_equations.html#flu-dorm-modeling-exponential" class="xref" data-knowl="./knowl/xref/flu-dorm-modeling-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 5.1.2">5.1.2</a> and <a href="sec-Logistic_growth.html" class="internal" title="Section 5.5: Logistic and other growth models">Section 5.5</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#flu-dorm-first-look-exponential-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="flu-dorm-first-look-exponential-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="flu-dorm-first-look-exponential-2-1-1">Calculate the daily growth factor and use it to write an equation describing the spread of the virus. Don’t forget to name the variables too.<div class="autopermalink" data-description="Paragraph"><a href="#flu-dorm-first-look-exponential-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.3.a"><a href="#flu-dorm-first-look-exponential-2" title="Copy permalink for Task 2.2.3.a">🔗</a></div></article><article class="task exercise-like" id="flu-dorm-first-look-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="flu-dorm-first-look-exponential-3-1-1">Make a table and graph for the six weeks following the initial diagnosis. (That means use 0, 7, 14, 21, 28, 35, and 42 days.)<div class="autopermalink" data-description="Paragraph"><a href="#flu-dorm-first-look-exponential-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.3.b"><a href="#flu-dorm-first-look-exponential-3" title="Copy permalink for Task 2.2.3.b">🔗</a></div></article><article class="task exercise-like" id="flu-dorm-first-look-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="flu-dorm-first-look-exponential-4-1-1">What is a realistic domain? That means, for how many days do you think this model is reasonable? To keep a sense of scale, there are 1,094 students currently living in the dorms.<div class="autopermalink" data-description="Paragraph"><a href="#flu-dorm-first-look-exponential-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.3.c"><a href="#flu-dorm-first-look-exponential-4" title="Copy permalink for Task 2.2.3.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.2.3"><a href="#flu-dorm-first-look-exponential" title="Copy permalink for Exercise 2.2.3">🔗</a></div></article><article class="exercise exercise-like" id="savings-interest-first-look-exponential"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="savings-interest-first-look-exponential-1">
+<div class="para" id="savings-interest-first-look-exponential-1-1">My savings account earns a modest amount of interest, the equivalent of 0.75% annually. I have $12,392.18 in the account now.<div class="autopermalink" data-description="Paragraph"><a href="#savings-interest-first-look-exponential-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="savings-interest-first-look-exponential-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Percentages.html#savings-interest-percentages" class="xref" data-knowl="./knowl/xref/savings-interest-percentages.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.3.4">0.3.4</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#savings-interest-first-look-exponential-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="savings-interest-first-look-exponential-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="savings-interest-first-look-exponential-2-1-1">Name the variables, including units and dependence.<div class="autopermalink" data-description="Paragraph"><a href="#savings-interest-first-look-exponential-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.4.a"><a href="#savings-interest-first-look-exponential-2" title="Copy permalink for Task 2.2.4.a">🔗</a></div></article><article class="task exercise-like" id="savings-interest-first-look-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="savings-interest-first-look-exponential-3-1-1">How much <em class="emphasis">interest</em> will I earn this year? What will my <em class="emphasis">balance</em> be at the end of the year?<div class="autopermalink" data-description="Paragraph"><a href="#savings-interest-first-look-exponential-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.4.b"><a href="#savings-interest-first-look-exponential-3" title="Copy permalink for Task 2.2.4.b">🔗</a></div></article><article class="task exercise-like" id="savings-interest-first-look-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="savings-interest-first-look-exponential-4-1-1">What will my balance be in three years, assuming I neither deposit nor withdraw money?<div class="autopermalink" data-description="Paragraph"><a href="#savings-interest-first-look-exponential-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.4.c"><a href="#savings-interest-first-look-exponential-4" title="Copy permalink for Task 2.2.4.c">🔗</a></div></article><article class="task exercise-like" id="savings-interest-first-look-exponential-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="savings-interest-first-look-exponential-5-1-1">Write an equation relating the variables.<div class="autopermalink" data-description="Paragraph"><a href="#savings-interest-first-look-exponential-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.4.d"><a href="#savings-interest-first-look-exponential-5" title="Copy permalink for Task 2.2.4.d">🔗</a></div></article><article class="task exercise-like" id="savings-interest-first-look-exponential-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="savings-interest-first-look-exponential-6-1-1">What would the equation be if I moved all of my money into a certificate of deposit earning the equivalent of 0.92%?<div class="autopermalink" data-description="Paragraph"><a href="#savings-interest-first-look-exponential-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.4.e"><a href="#savings-interest-first-look-exponential-6" title="Copy permalink for Task 2.2.4.e">🔗</a></div></article><article class="task exercise-like" id="savings-interest-first-look-exponential-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="savings-interest-first-look-exponential-7-1-1">What would the equation be if I moved $10,000 into that certificate of deposit, and kept the rest in savings? <em class="emphasis">Hint: to find the total balance, add the amounts.</em><div class="autopermalink" data-description="Paragraph"><a href="#savings-interest-first-look-exponential-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.4.f"><a href="#savings-interest-first-look-exponential-7" title="Copy permalink for Task 2.2.4.f">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.2.4"><a href="#savings-interest-first-look-exponential" title="Copy permalink for Exercise 2.2.4">🔗</a></div></article><article class="exercise exercise-like" id="raises-first-look-exponential"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="introduction" id="raises-first-look-exponential-1">
+<div class="para" id="raises-first-look-exponential-1-1">Mai’s salary was $78,000 before she got a 6% raise. Now the economy was not doing as well and she got only a 1.5% raise this year.<div class="autopermalink" data-description="Paragraph"><a href="#raises-first-look-exponential-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="raises-first-look-exponential-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Percentages.html#raises-percentages" class="xref" data-knowl="./knowl/xref/raises-percentages.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.3.10">0.3.10</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#raises-first-look-exponential-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="raises-first-look-exponential-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="raises-first-look-exponential-2-1-1">What was her salary after the second raise?<div class="autopermalink" data-description="Paragraph"><a href="#raises-first-look-exponential-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.5.a"><a href="#raises-first-look-exponential-2" title="Copy permalink for Task 2.2.5.a">🔗</a></div></article><article class="task exercise-like" id="raises-first-look-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="raises-first-look-exponential-3-1-1">Her colleague Tomáš started with a salary of $78,000 but did not get a raise the first year like Mai did. What percentage raise would Tomáš need now in order to have the same final salary as Mai?<div class="autopermalink" data-description="Paragraph"><a href="#raises-first-look-exponential-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.5.b"><a href="#raises-first-look-exponential-3" title="Copy permalink for Task 2.2.5.b">🔗</a></div></article><article class="task exercise-like" id="raises-first-look-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="raises-first-look-exponential-4-1-1">Would Mai’s salary have been the more than, less than, or the same as now if she had received the 1.5% raise first and then the 6% raise?<div class="autopermalink" data-description="Paragraph"><a href="#raises-first-look-exponential-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.5.c"><a href="#raises-first-look-exponential-4" title="Copy permalink for Task 2.2.5.c">🔗</a></div></article><article class="task exercise-like" id="raises-first-look-exponential-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="raises-first-look-exponential-5-1-1">Which order would you rather have: 6% then 1.5% or 1.5% then 6%? Why?<div class="autopermalink" data-description="Paragraph"><a href="#raises-first-look-exponential-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.5.d"><a href="#raises-first-look-exponential-5" title="Copy permalink for Task 2.2.5.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.2.5"><a href="#raises-first-look-exponential" title="Copy permalink for Exercise 2.2.5">🔗</a></div></article><article class="exercise exercise-like" id="sp-household-first-look-exponential"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="introduction" id="sp-household-first-look-exponential-1">
+<div class="para" id="sp-household-first-look-exponential-1-1">The number of school children in the district from a single parent household has been on the rise. In one district there were 1,290 children from single parent households in 2010 and that number was expected to increase about 3% per year.<div class="autopermalink" data-description="Paragraph"><a href="#sp-household-first-look-exponential-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sp-household-first-look-exponential-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Solving_exponential_equations.html#sp-household-solving-exponential" class="xref" data-knowl="./knowl/xref/sp-household-solving-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.4.6">3.4.6</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#sp-household-first-look-exponential-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="sp-household-first-look-exponential-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="sp-household-first-look-exponential-2-1-1">Calculate the annual growth factor.<div class="autopermalink" data-description="Paragraph"><a href="#sp-household-first-look-exponential-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.6.a"><a href="#sp-household-first-look-exponential-2" title="Copy permalink for Task 2.2.6.a">🔗</a></div></article><article class="task exercise-like" id="sp-household-first-look-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="sp-household-first-look-exponential-3-1-1">How many children from single parent households are expected in that district by 2015?<div class="autopermalink" data-description="Paragraph"><a href="#sp-household-first-look-exponential-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.6.b"><a href="#sp-household-first-look-exponential-3" title="Copy permalink for Task 2.2.6.b">🔗</a></div></article><article class="task exercise-like" id="sp-household-first-look-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="sp-household-first-look-exponential-4-1-1">Name the variables and write an equation relating them.<div class="autopermalink" data-description="Paragraph"><a href="#sp-household-first-look-exponential-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.6.c"><a href="#sp-household-first-look-exponential-4" title="Copy permalink for Task 2.2.6.c">🔗</a></div></article><article class="task exercise-like" id="sp-household-first-look-exponential-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="sp-household-first-look-exponential-5-1-1">Make a table showing the number of school children in the district from a single parent household in 2010, 2015, 2020, and 2030.<div class="autopermalink" data-description="Paragraph"><a href="#sp-household-first-look-exponential-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.6.d"><a href="#sp-household-first-look-exponential-5" title="Copy permalink for Task 2.2.6.d">🔗</a></div></article><article class="task exercise-like" id="sp-household-first-look-exponential-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="sp-household-first-look-exponential-6-1-1">Graph the function.<div class="autopermalink" data-description="Paragraph"><a href="#sp-household-first-look-exponential-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.6.e"><a href="#sp-household-first-look-exponential-6" title="Copy permalink for Task 2.2.6.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.2.6"><a href="#sp-household-first-look-exponential" title="Copy permalink for Exercise 2.2.6">🔗</a></div></article><article class="exercise exercise-like" id="um-archivo-first-look-exponential"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="introduction" id="um-archivo-first-look-exponential-1">
+<div class="para" id="um-archivo-first-look-exponential-1-1">Um Archivo data consultant group reported earnings of $42.7 billion in 2012. At that time executives projected 17% increase in earnings annually.<div class="autopermalink" data-description="Paragraph"><a href="#um-archivo-first-look-exponential-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="um-archivo-first-look-exponential-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Modeling_exponential_equations.html#um-archivo-modeling-exponential" class="xref" data-knowl="./knowl/xref/um-archivo-modeling-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 5.1.9">5.1.9</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#um-archivo-first-look-exponential-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="um-archivo-first-look-exponential-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="um-archivo-first-look-exponential-2-1-1">Name the variables and find an equation relating them.<div class="autopermalink" data-description="Paragraph"><a href="#um-archivo-first-look-exponential-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.7.a"><a href="#um-archivo-first-look-exponential-2" title="Copy permalink for Task 2.2.7.a">🔗</a></div></article><article class="task exercise-like" id="um-archivo-first-look-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="um-archivo-first-look-exponential-3-1-1">According to your equation, what would Um Archivo’s earnings be in 2020?<div class="autopermalink" data-description="Paragraph"><a href="#um-archivo-first-look-exponential-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.7.b"><a href="#um-archivo-first-look-exponential-3" title="Copy permalink for Task 2.2.7.b">🔗</a></div></article><article class="task exercise-like" id="um-archivo-first-look-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="um-archivo-first-look-exponential-4-1-1">If Um Archivo reports earnings of $78.1 billion in 2020, would you say the projected rate of 17% was too high or too low? Explain.<div class="autopermalink" data-description="Paragraph"><a href="#um-archivo-first-look-exponential-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.7.c"><a href="#um-archivo-first-look-exponential-4" title="Copy permalink for Task 2.2.7.c">🔗</a></div></article><article class="task exercise-like" id="um-archivo-first-look-exponential-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="um-archivo-first-look-exponential-5-1-1">Draw a graph showing how Um Archivo’s profits are expected to increase.<div class="autopermalink" data-description="Paragraph"><a href="#um-archivo-first-look-exponential-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.7.d"><a href="#um-archivo-first-look-exponential-5" title="Copy permalink for Task 2.2.7.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.2.7"><a href="#um-archivo-first-look-exponential" title="Copy permalink for Exercise 2.2.7">🔗</a></div></article><article class="exercise exercise-like" id="poultry-first-look-exponential"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="introduction" id="poultry-first-look-exponential-1">
+<div class="para" id="poultry-first-look-exponential-1-1">In 2005, poultry production was 78 million tons, estimated to be growing at a rate of around 1.6% per year.<div class="autopermalink" data-description="Paragraph"><a href="#poultry-first-look-exponential-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<aside class="aside aside-like" id="poultry-first-look-exponential-1-2"><div class="para" id="poultry-first-look-exponential-1-2-1">Source: Worldwatch Institute<div class="autopermalink" data-description="Paragraph"><a href="#poultry-first-look-exponential-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></aside><div class="para" id="poultry-first-look-exponential-1-3">
+<em class="emphasis">(Story also appears in <a href="sec-Solving_exponential_equations.html#poultry-solving-exponential" class="xref" data-knowl="./knowl/xref/poultry-solving-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.4.8">3.4.8</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#poultry-first-look-exponential-1-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="poultry-first-look-exponential-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="poultry-first-look-exponential-2-1-1">Write an equation showing how poultry production is expected to rise. Don’t forget to name the variables.<div class="autopermalink" data-description="Paragraph"><a href="#poultry-first-look-exponential-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.8.a"><a href="#poultry-first-look-exponential-2" title="Copy permalink for Task 2.2.8.a">🔗</a></div></article><article class="task exercise-like" id="poultry-first-look-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="poultry-first-look-exponential-3-1-1">Make a table showing the production in 2005, 2010, 2020, and 2050 (at least according to the equation.)<div class="autopermalink" data-description="Paragraph"><a href="#poultry-first-look-exponential-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.8.b"><a href="#poultry-first-look-exponential-3" title="Copy permalink for Task 2.2.8.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.2.8"><a href="#poultry-first-look-exponential" title="Copy permalink for Exercise 2.2.8">🔗</a></div></article><article class="exercise exercise-like" id="ebooks-first-look-exponential"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="introduction" id="ebooks-first-look-exponential-1">
+<div class="para" id="ebooks-first-look-exponential-1-1">Back in January 2008, e-book sales were averaging $5.1 million per month and were increasing approximately 6.3% per month. (We are ignoring seasonal variation in this problem.)<div class="autopermalink" data-description="Paragraph"><a href="#ebooks-first-look-exponential-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<aside class="aside aside-like" id="ebooks-first-look-exponential-1-2"><div class="para" id="ebooks-first-look-exponential-1-2-1">Source: ReadWriteWeb<div class="autopermalink" data-description="Paragraph"><a href="#ebooks-first-look-exponential-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></aside>
+</div>
+<article class="task exercise-like" id="ebooks-first-look-exponential-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="ebooks-first-look-exponential-2-1-1">Name the variables including units.<div class="autopermalink" data-description="Paragraph"><a href="#ebooks-first-look-exponential-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.9.a"><a href="#ebooks-first-look-exponential-2" title="Copy permalink for Task 2.2.9.a">🔗</a></div></article><article class="task exercise-like" id="ebooks-first-look-exponential-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="ebooks-first-look-exponential-3-1-1">Calculate the monthly growth factor.<div class="autopermalink" data-description="Paragraph"><a href="#ebooks-first-look-exponential-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.9.b"><a href="#ebooks-first-look-exponential-3" title="Copy permalink for Task 2.2.9.b">🔗</a></div></article><article class="task exercise-like" id="ebooks-first-look-exponential-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="ebooks-first-look-exponential-4-1-1">Write an exponential equation illustrating this dependence.<div class="autopermalink" data-description="Paragraph"><a href="#ebooks-first-look-exponential-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.9.c"><a href="#ebooks-first-look-exponential-4" title="Copy permalink for Task 2.2.9.c">🔗</a></div></article><article class="task exercise-like" id="ebooks-first-look-exponential-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="ebooks-first-look-exponential-5-1-1">By January 2010, monthly sales averaged 21.9 million. How does that compare to your equation’s estimate?<div class="autopermalink" data-description="Paragraph"><a href="#ebooks-first-look-exponential-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.9.d"><a href="#ebooks-first-look-exponential-5" title="Copy permalink for Task 2.2.9.d">🔗</a></div></article><article class="task exercise-like" id="ebooks-first-look-exponential-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="ebooks-first-look-exponential-6-1-1">What does your equation project for average monthly ebook sales in January 2014?<div class="autopermalink" data-description="Paragraph"><a href="#ebooks-first-look-exponential-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.9.e"><a href="#ebooks-first-look-exponential-6" title="Copy permalink for Task 2.2.9.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2.2.9"><a href="#ebooks-first-look-exponential" title="Copy permalink for Exercise 2.2.9">🔗</a></div></article><div class="autopermalink" data-description="Exercises 2.2: Exercises"><a href="#ex-First_look_exponentialEX" title="Copy permalink for Exercises 2.2: Exercises">🔗</a></div></section><div class="autopermalink" data-description="Section 2.2: A first look at exponential equations"><a href="#sec-First_look_exponential" title="Copy permalink for Section 2.2: A first look at exponential equations">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-First_look_linear.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-Using_equations.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

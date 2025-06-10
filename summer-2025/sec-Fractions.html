@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette: blues                        *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Prelude: Fractions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Just Enough Algebra">
+<meta property="book:author" content="Dr. Suzanne Dorée">
+<meta property="book:author" content="Dr. Spencer Bagley">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.7.5';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.107bf2d9be20d9c4.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="justenoughalgebra" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""><img src="external/book-open-solid.png" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="just-enough-algebra.html"><span class="title">Just Enough Algebra</span> <span class="subtitle">- Summer 2025 edition</span></a></h1>
+<p class="byline">Dr. Suzanne Dorée, Dr. Spencer Bagley</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-Order_of_operations.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-Prelude.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-Powers_and_roots.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-why-this-book-web.html" class="internal"><span class="title">Why <em class="emphasis">Just Enough Algebra</em>?</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-students-web.html" class="internal"><span class="title">Students! Read this!</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-instructors-web.html" class="internal"><span class="title">Instructors! Read this!</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-Prelude.html" class="internal"><span class="codenumber">0</span> <span class="title">Prelude</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approximation_and_rounding.html" class="internal"><span class="codenumber">0.1</span> <span class="title">Prelude: Approximation &amp; rounding</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approximation_and_rounding.html#ex-Approximation_and_rounding" class="internal"><span class="codenumber">0.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Arithmetic_operations.html" class="internal"><span class="codenumber">0.2</span> <span class="title">Prelude: Arithmetic operations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Arithmetic_operations.html#ex-Arithmetic_operations" class="internal"><span class="codenumber">0.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Percentages.html" class="internal"><span class="codenumber">0.3</span> <span class="title">Prelude: Percentages</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Percentages.html#ex-Percentages" class="internal"><span class="codenumber">0.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Order_of_operations.html" class="internal"><span class="codenumber">0.4</span> <span class="title">Prelude: Order of operations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Order_of_operations.html#ex-Order_of_operations" class="internal"><span class="codenumber">0.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-Fractions.html" class="internal"><span class="codenumber">0.5</span> <span class="title">Prelude: Fractions</span></a></div>
+<ul class="structural toc-item-list active"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fractions.html#ex-Fractions" class="internal"><span class="codenumber">0.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Powers_and_roots.html" class="internal"><span class="codenumber">0.6</span> <span class="title">Prelude: Powers and roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Powers_and_roots.html#ex-Powers_and_roots" class="internal"><span class="codenumber">0.6</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Algebraic_notation.html" class="internal"><span class="codenumber">0.7</span> <span class="title">Prelude: Algebraic notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Algebraic_notation.html#ex-Algebraic-notation" class="internal"><span class="codenumber">0.7</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Scientific_notation.html" class="internal"><span class="codenumber">0.8</span> <span class="title">Prelude: Scientific notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Scientific_notation.html#ex-Scientific_notation" class="internal"><span class="codenumber">0.8</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logarithms.html" class="internal"><span class="codenumber">0.9</span> <span class="title">Prelude: Logarithms</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logarithms.html#ex-Logarithms" class="internal"><span class="codenumber">0.9</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Variables.html" class="internal"><span class="codenumber">1</span> <span class="title">Variables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Variables_and_functions.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Variables and functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Variables_and_functions.html#exercises-variables-functions" class="internal"><span class="codenumber">1.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Tables_and_graphs.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Tables and graphs</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Tables_and_graphs.html#ex-Tables_and_graphs" class="internal"><span class="codenumber">1.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Rate_of_change.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Rate of change</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Rate_of_change.html#ex-Rate_of_change" class="internal"><span class="codenumber">1.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Units.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Units</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Units.html#ex-Units" class="internal"><span class="codenumber">1.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Metric_system_and_scientific_notation.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Metric prefixes and scientific notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Metric_system_and_scientific_notation.html#ex-Metric_system_and_scientific_notation" class="internal"><span class="codenumber">1.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1A.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Practice Exam 1A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1A.html#ws-PE1A" class="internal"><span class="codenumber">1.6</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1B.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1B.html#ws-PE1B" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Equations.html" class="internal"><span class="codenumber">2</span> <span class="title">Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_linear.html#ex-First_look_linear" class="internal"><span class="codenumber">2.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_exponential.html#ex-First_look_exponentialEX" class="internal"><span class="codenumber">2.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Using_equations.html#ex-Using_equations" class="internal"><span class="codenumber">2.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approx_solutions.html#ex-Approx_solutions" class="internal"><span class="codenumber">2.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Finance.html#ex-Finance" class="internal"><span class="codenumber">2.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2A.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2A.html#ws-PE2A" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2B.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2B.html#ws-PE2B" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Solving_equations.html" class="internal"><span class="codenumber">3</span> <span class="title">Solving equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html#ex-Solving_linear_equations" class="internal"><span class="codenumber">3.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html#ex-Solving_linear_inequalitiesEX" class="internal"><span class="codenumber">3.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_power_equations.html#ex-Solving_power_equations" class="internal"><span class="codenumber">3.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html#ex-Solving_exponential_equations" class="internal"><span class="codenumber">3.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html#ex-Solving_quadratic_equations" class="internal"><span class="codenumber">3.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3A.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3A.html#ws-PE3A" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3B.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3B.html#ws-PE3B" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Closer_look_linear.html" class="internal"><span class="codenumber">4</span> <span class="title">A closer look at linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html#ex-Modeling_linear_equations" class="internal"><span class="codenumber">4.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html#ex-Systems_linear_equations" class="internal"><span class="codenumber">4.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Intercepts.html#ex-Intercepts" class="internal"><span class="codenumber">4.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Slopes.html#ex-Slopes" class="internal"><span class="codenumber">4.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html#ex-Fitting_lines_to_data" class="internal"><span class="codenumber">4.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4A.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4A.html#ws-PE4A" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4B.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4B.html#ws-PE4B" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Closer_look_exponential.html" class="internal"><span class="codenumber">5</span> <span class="title">A closer look at exponential equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html#ex-Modeling_exponential_equations" class="internal"><span class="codenumber">5.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html#ex-Exp_growth_decay" class="internal"><span class="codenumber">5.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Growth_factor.html#ex-Growth_factor" class="internal"><span class="codenumber">5.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html#ex-Linear_vs_exponential" class="internal"><span class="codenumber">5.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logistic_growth.html#ex-Logistic_growth" class="internal"><span class="codenumber">5.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5A.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE5A.html#ws-PE5A" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5B.html" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE5B.html#ws-PE5B" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="backmatter-2.html" class="internal"><span class="codenumber">A</span> <span class="title">Practice Final Exams</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pfe1.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Practice Final Exam 1</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-pfe1.html#ws-PE6A" class="internal"><span class="codenumber">A.1</span> <span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pfe2.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Practice Final Exam 2</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-pfe2.html#ws-PE6B" class="internal"><span class="codenumber">A.2</span> <span class="title"></span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="app-templates-formulas.html" class="internal"><span class="codenumber">B</span> <span class="title">Templates and Formulas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-templates.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Templates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-constants.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Formulas used to find constants</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-solve.html" class="internal"><span class="codenumber">B.3</span> <span class="title">Formulas used to solve specific types of equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-finance.html" class="internal"><span class="codenumber">B.4</span> <span class="title">Formulas from finance</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Fractions"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">0.5</span><span class="space"> </span><span class="title">Prelude: Fractions</span>
+</h2>
+<section class="introduction" id="sec-Fractions-2"><div class="para" id="sec-Fractions-2-1">Piadina’s Restaurant specializes in flatbreads. My favorite is the grilled vegetable flatbread with smoked almond muhammara (a sauce made from almonds, red bell peppers, red chili peppers, pomegranate molasses, cumin, lemon juice, and olive oil). Last night I ordered that flatbread and a salad for dinner. They serve each flatbread cut into 5 equal slices.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fractions-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Fractions-2-2">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/Flatbread%20slices.png" class="contained"></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fractions-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Fractions-2-3">Turns out the salad was pretty big and so I only ate 3 slices of flatbread. One way to describe how much of the flatbread I ate is using the fraction <span class="process-math">\(\frac{3}{5}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-Fractions-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Fractions-2-4">
+<div class="para">When I mentioned my dinner to my friend Hayfa she had a strange response: “Last time I ate a flatbread at Piadina’s I only ate <span class="process-math">\(\frac{2}{3}\)</span> of what you ate.” I quickly figured it out that since I ate 3 slices and she ate <span class="process-math">\(\frac{2}{3}\)</span> of that, she must have eaten 2 slices, which we can calculate as</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{2}{3} \times 3 = 2 \div 3 \times 3 = 2
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fractions-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Fractions-2-5">
+<div class="para">I started to obsesses over these fractions. Remember that I ate <span class="process-math">\(\frac{3}{5}\)</span> of the flatbread and Hayfa ate <span class="process-math">\(\frac{2}{3}\)</span> of what I ate. So she must have eaten <span class="process-math">\(\frac{2}{3}\)</span> of <span class="process-math">\(\frac{3}{5}\text{,}\)</span> right? That means</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{2}{3} \times \frac{3}{5} = \frac{2}{5}
+\end{equation*}
+</div>
+<div class="para">Ah yes! She ate 2 out of 5 slices, or <span class="process-math">\(\frac{2}{5}\)</span> of the flatbread. That’s correct.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fractions-2-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Fractions-2-6">
+<div class="para">You might remember that we multiply fractions by multiplying the numerator (top) and the denominator (bottom). Let’s do that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{2}{3} \times \frac{3}{5} = \frac{2 \times 3}{3 \times 5} = \frac{6}{15}
+\end{equation*}
+</div>
+<div class="para">Uh oh. We got a different answer.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fractions-2-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Fractions-2-7">
+<div class="para">Wait a minute. Check it out:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{2}{5} = 2 \div 5 = 0.4  \quad \text{ and } \quad  \frac{6}{15} = 6 \div 15 = 0.4
+\end{equation*}
+</div>
+<div class="para">Whew! The fractions <span class="process-math">\(\frac{2}{5}\)</span> and <span class="process-math">\(\frac{6}{15}\)</span> are equal.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fractions-2-7" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Fractions-2-8">To see why, consider what happens when I cut the flatbread the other direction twice. Now the entire flatbread has 15 squares. Hayfa ate 2 slices out of the original 5 slices total. Or, equivalently, she ate 6 squares out of 15 original squares. You may have heard of reducing or cancelling fractions, which is a way to remember what’s happening here:<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fractions-2-8" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Fractions-2-9">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/Flatbread%20squares.png" class="contained"></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fractions-2-9" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Fractions-2-10">
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{2 \times 3}{3 \times 5} = \frac{2 \times \cancel{~3~}}{ \cancel{~3~} \times 5} = \frac{2}{5}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fractions-2-10" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Fractions-2-11">In practice when we have to evaluate a product of fractions we can do it a couple of ways. One way is to deal with each fraction separately:<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fractions-2-11" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Fractions-2-12">
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{2}{3} \times \frac{3}{5} = 2 \div 3 \times 3 \div 5 = 0.4
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fractions-2-12" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Fractions-2-13">Another way is to calculate the top and bottom of the fraction and divide. Notice how we need to use parentheses around the top and bottom of the fraction.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fractions-2-13" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Fractions-2-14">
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{2}{3} \times \frac{3}{5} = \frac{2 \times 3}{3 \times 5} = (2 \times 3)\div (3 \times 5) = 0.4
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fractions-2-14" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Fractions-2-15">
+<div class="para">By the way, flatbreads at Piadina’s are pricey: $17.49 each. At that rate, what does each slice cost? We can use a fraction</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\$17.49}{5 \text{ slices}} = \$17.49 \div 5 = 3.498 \approx \$3.50 \text{ per slice}
+\end{equation*}
+</div>
+<div class="para">Notice that the units on my answer are dollars per slice: the units of the numerator (top) per the units of the denominator (bottom). We sometimes even write the units themselves as a fraction:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\$}{\text{slice}}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fractions-2-15" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Fractions-2-16">There will be a few times during this course where you encounter fractions. Mostly we’ll switch to decimal approximations right away.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fractions-2-16" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="conclusion" id="sec-Fractions-3"><h3 class="heading">Do you know …<span></span>
+</h3>
+<div class="para logical" id="sec-Fractions-3-2">
+<ol class="upper-alpha ol-marker-1" id="sec-Fractions-3-2-1">
+<li id="sec-Fractions-3-2-1-1">
+<div class="para" id="sec-Fractions-3-2-1-1-1">How we represent a part of a whole as a fraction?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fractions-3-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item A"><a href="#sec-Fractions-3-2-1-1" title="Copy permalink for Item A">🔗</a></div>
+</li>
+<li id="sec-Fractions-3-2-1-2">
+<div class="para" id="sec-Fractions-3-2-1-2-1">How to multiply fractions?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fractions-3-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item B"><a href="#sec-Fractions-3-2-1-2" title="Copy permalink for Item B">🔗</a></div>
+</li>
+<li id="sec-Fractions-3-2-1-3">
+<div class="para" id="sec-Fractions-3-2-1-3-1">What “canceling” a factor means?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fractions-3-2-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item C"><a href="#sec-Fractions-3-2-1-3" title="Copy permalink for Item C">🔗</a></div>
+</li>
+<li id="sec-Fractions-3-2-1-4">
+<div class="para" id="sec-Fractions-3-2-1-4-1">How fractions are related to division?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fractions-3-2-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item D"><a href="#sec-Fractions-3-2-1-4" title="Copy permalink for Item D">🔗</a></div>
+</li>
+<li id="sec-Fractions-3-2-1-5">
+<div class="para" id="sec-Fractions-3-2-1-5-1">How to calculate the decimal approximation of a fraction?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fractions-3-2-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item E"><a href="#sec-Fractions-3-2-1-5" title="Copy permalink for Item E">🔗</a></div>
+</li>
+<li id="sec-Fractions-3-2-1-6">
+<div class="para" id="sec-Fractions-3-2-1-6-1">How to compare two fractions using their decimal approximations?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fractions-3-2-1-6-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item F"><a href="#sec-Fractions-3-2-1-6" title="Copy permalink for Item F">🔗</a></div>
+</li>
+<li id="sec-Fractions-3-2-1-7">
+<div class="para" id="sec-Fractions-3-2-1-7-1">How the units of a fraction are determined?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fractions-3-2-1-7-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item G"><a href="#sec-Fractions-3-2-1-7" title="Copy permalink for Item G">🔗</a></div>
+</li>
+<li id="sec-Fractions-3-2-1-8">
+<div class="para" id="sec-Fractions-3-2-1-8-1">When we need to use parentheses around the top (numerator) and bottom (denominator) to evaluate a fraction?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fractions-3-2-1-8-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item H"><a href="#sec-Fractions-3-2-1-8" title="Copy permalink for Item H">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fractions-3-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Fractions-3-3">
+<em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-Fractions-3-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="exercises" id="ex-Fractions"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<section class="introduction" id="ex-Fractions-2"><div class="para" id="ex-Fractions-2-1">Exercises 1-4 are available in a separate workbook format.<div class="autopermalink" data-description="Paragraph"><a href="#ex-Fractions-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="introduction" id="ex-Fractions-3"><div class="para" id="ex-Fractions-3-1">On each problem, write down what you enter into your calculator and don’t forget to write the units on your final answer. Challenge yourself to use one-line calculations. You are welcome to calculate the answer step-by-step to check.<div class="autopermalink" data-description="Paragraph"><a href="#ex-Fractions-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><article class="exercise exercise-like" id="students-fractions"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="introduction" id="students-fractions-1"><div class="para" id="students-fractions-1-1">There are 2,624 students at a local university.<div class="autopermalink" data-description="Paragraph"><a href="#students-fractions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="students-fractions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="students-fractions-2-1-1">Of those students, 673 of those students placed into this algebra class. What fraction of students placed into algebra?<div class="autopermalink" data-description="Paragraph"><a href="#students-fractions-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.5.1.a"><a href="#students-fractions-2" title="Copy permalink for Task 0.5.1.a">🔗</a></div></article><article class="task exercise-like" id="students-fractions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="students-fractions-3-1-1">The Dean said that approximately 1 in 4 students, or <span class="process-math">\(\frac{1}{4}\)</span> of all students, placed into algebra. Is that correct? Check by determining if your answer to part (a) <span class="process-math">\(\approx \frac{1}{4}\)</span> by comparing decimal approximations.<div class="autopermalink" data-description="Paragraph"><a href="#students-fractions-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.5.1.b"><a href="#students-fractions-3" title="Copy permalink for Task 0.5.1.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.5.1"><a href="#students-fractions" title="Copy permalink for Exercise 0.5.1">🔗</a></div></article> <article class="exercise exercise-like" id="gas-mileage-fractions"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="introduction" id="gas-mileage-fractions-1"><div class="para" id="gas-mileage-fractions-1-1">Gas mileage is usually rounded down to the nearest one decimal place. Gas mileage is measured in miles per gallon (mpg).<div class="autopermalink" data-description="Paragraph"><a href="#gas-mileage-fractions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="gas-mileage-fractions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="gas-mileage-fractions-2-1-1">Xu does gig work delivering take-out food from local restaurants. He started the week with a full tank of gas and drove 319 miles. When he went to fill the tank, he needed 11.3 gallons. What was Xu’s gas mileage?<div class="autopermalink" data-description="Paragraph"><a href="#gas-mileage-fractions-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.5.2.a"><a href="#gas-mileage-fractions-2" title="Copy permalink for Task 0.5.2.a">🔗</a></div></article><article class="task exercise-like" id="gas-mileage-fractions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="gas-mileage-fractions-3-1-1">Margaret and Cathy are on a cross-country trip. They’ve driven from Minnesota to Maine (approximately 1,430 miles). They have bought gas a few times along the way: 12.7 gallons, then 14.0 gallons, then 13.1 gallons, and then 12.4 gallons. What was Margaret and Cathy’s gas mileage?<div class="autopermalink" data-description="Paragraph"><a href="#gas-mileage-fractions-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.5.2.b"><a href="#gas-mileage-fractions-3" title="Copy permalink for Task 0.5.2.b">🔗</a></div></article><article class="task exercise-like" id="gas-mileage-fractions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="gas-mileage-fractions-4-1-1">How could you do the calculation in part (b) in one line on your calculator by using parentheses?<div class="autopermalink" data-description="Paragraph"><a href="#gas-mileage-fractions-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.5.2.c"><a href="#gas-mileage-fractions-4" title="Copy permalink for Task 0.5.2.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.5.2"><a href="#gas-mileage-fractions" title="Copy permalink for Exercise 0.5.2">🔗</a></div></article><article class="exercise exercise-like" id="vinyl-fractions"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="vinyl-fractions-1"><div class="para" id="vinyl-fractions-1-1">In January 2015, Graham had 47 albums in his vinyl collection. By September 2023 (that’s 8 years, 9 months later), he had 783 albums. Approximately how many albums per month did Graham buy?<div class="autopermalink" data-description="Paragraph"><a href="#vinyl-fractions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="vinyl-fractions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="vinyl-fractions-2-1-1">Figure out the answer step by step.<div class="autopermalink" data-description="Paragraph"><a href="#vinyl-fractions-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.5.3.a"><a href="#vinyl-fractions-2" title="Copy permalink for Task 0.5.3.a">🔗</a></div></article><article class="task exercise-like" id="vinyl-fractions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="vinyl-fractions-3-1-1">Now try to combine all of your calculations into one line on your calculator. Hint: write as a fraction first.<div class="autopermalink" data-description="Paragraph"><a href="#vinyl-fractions-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.5.3.b"><a href="#vinyl-fractions-3" title="Copy permalink for Task 0.5.3.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.5.3"><a href="#vinyl-fractions" title="Copy permalink for Exercise 0.5.3">🔗</a></div></article> <article class="exercise exercise-like" id="reading-fractions"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="reading-fractions-1"><div class="para" id="reading-fractions-1-1">It took Mariam 3 hours to complete the reading for her Religion class. The reading was 102 pages long.<div class="autopermalink" data-description="Paragraph"><a href="#reading-fractions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="reading-fractions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="reading-fractions-2-1-1">How fast did she read measured in pages per hour? Write the answer as a fraction and as a decimal.<div class="autopermalink" data-description="Paragraph"><a href="#reading-fractions-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.5.4.a"><a href="#reading-fractions-2" title="Copy permalink for Task 0.5.4.a">🔗</a></div></article><article class="task exercise-like" id="reading-fractions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="reading-fractions-3-1-1">Reading speed is often measured in words per minute. Assuming there are approximately 500 words per page, calculate Mariam’s reading speed step by step.<div class="autopermalink" data-description="Paragraph"><a href="#reading-fractions-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.5.4.b"><a href="#reading-fractions-3" title="Copy permalink for Task 0.5.4.b">🔗</a></div></article><article class="task exercise-like" id="reading-fractions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="reading-fractions-4-1-1">How could you do the calculation in part (b) one line on your calculator by using parentheses? Hint: the “hours” cancel!<div class="autopermalink" data-description="Paragraph"><a href="#reading-fractions-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.5.4.c"><a href="#reading-fractions-4" title="Copy permalink for Task 0.5.4.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.5.4"><a href="#reading-fractions" title="Copy permalink for Exercise 0.5.4">🔗</a></div></article><article class="exercise exercise-like" id="flatbread-squares-fractions"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="introduction" id="flatbread-squares-fractions-1"><div class="para" id="flatbread-squares-fractions-1-1">In our flatbread example, the flatbread was served cut into 5 slices and we cut it lengthwise into 15 squares.<div class="autopermalink" data-description="Paragraph"><a href="#flatbread-squares-fractions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="flatbread-squares-fractions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="flatbread-squares-fractions-2-1-1">Use our flatbread example to explain why <span class="process-math">\(\frac{12}{15} = \frac{4}{5}\)</span> and confirm by calculating the decimals.<div class="autopermalink" data-description="Paragraph"><a href="#flatbread-squares-fractions-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.5.5.a"><a href="#flatbread-squares-fractions-2" title="Copy permalink for Task 0.5.5.a">🔗</a></div></article><article class="task exercise-like" id="flatbread-squares-fractions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="flatbread-squares-fractions-3-1-1">Use our flatbread example to explain why <span class="process-math">\(\frac{10}{15} = \frac{2}{3}\)</span> (hint: think of very long strips!) and confirm by calculating the decimals.<div class="autopermalink" data-description="Paragraph"><a href="#flatbread-squares-fractions-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.5.5.b"><a href="#flatbread-squares-fractions-3" title="Copy permalink for Task 0.5.5.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.5.5"><a href="#flatbread-squares-fractions" title="Copy permalink for Exercise 0.5.5">🔗</a></div></article><article class="exercise exercise-like" id="porridge-fractions"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="introduction" id="porridge-fractions-1"><div class="para" id="porridge-fractions-1-1">Auriel is making porridge but doesn’t want too much. Last time she cut the recipe in half, but that was too little. Auriel has decided that making <span class="process-math">\(\frac{3}{4}\)</span> of the recipe will be just right. Figure out how much of each ingredient Auriel needs. Report each answer as both a fraction and a decimal.<div class="autopermalink" data-description="Paragraph"><a href="#porridge-fractions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="porridge-fractions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="porridge-fractions-2-1-1">The original recipe calls for 5 ounces of skim milk.<div class="autopermalink" data-description="Paragraph"><a href="#porridge-fractions-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.5.6.a"><a href="#porridge-fractions-2" title="Copy permalink for Task 0.5.6.a">🔗</a></div></article><article class="task exercise-like" id="porridge-fractions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="porridge-fractions-3-1-1">The original recipe calls for <span class="process-math">\(\frac{1}{2}\)</span> cup of oats.<div class="autopermalink" data-description="Paragraph"><a href="#porridge-fractions-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.5.6.b"><a href="#porridge-fractions-3" title="Copy permalink for Task 0.5.6.b">🔗</a></div></article><article class="task exercise-like" id="porridge-fractions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="porridge-fractions-4-1-1">The original recipe calls for <span class="process-math">\(\frac{2}{3}\)</span> cup of water.<div class="autopermalink" data-description="Paragraph"><a href="#porridge-fractions-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.5.6.c"><a href="#porridge-fractions-4" title="Copy permalink for Task 0.5.6.c">🔗</a></div></article><article class="task exercise-like" id="porridge-fractions-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="porridge-fractions-5-1-1">The original recipe calls for <span class="process-math">\(\frac{1}{3}\)</span> cup of raisins.<div class="autopermalink" data-description="Paragraph"><a href="#porridge-fractions-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.5.6.d"><a href="#porridge-fractions-5" title="Copy permalink for Task 0.5.6.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.5.6"><a href="#porridge-fractions" title="Copy permalink for Exercise 0.5.6">🔗</a></div></article><article class="exercise exercise-like" id="diver-fractions"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="introduction" id="diver-fractions-1"><div class="para" id="diver-fractions-1-1">A diver bounces on a 3-meter springboard. Up she goes. A somersault, a twist, and then whoosh, into the water. <em class="emphasis">(Story also appears in <a href="sec-Rate_of_change.html" class="internal" title="Section 1.3: Rate of change">1.3</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#diver-fractions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="diver-fractions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para logical" id="diver-fractions-2-1-1">
+<div class="para">At 0.2 seconds after take-off she was 3.88 meters above the water. Her initial speed can be calculated as</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{3.88-3}{0.2}
+\end{equation*}
+</div>
+<div class="para">Find the diver’s speed and don’t forget the units.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#diver-fractions-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.5.7.a"><a href="#diver-fractions-2" title="Copy permalink for Task 0.5.7.a">🔗</a></div></article><article class="task exercise-like" id="diver-fractions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para logical" id="diver-fractions-3-1-1">
+<div class="para">At 0.4 seconds after take-off she was 4.38 meters above the water. Her speed then can be calculated as</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{4.38-3.88}{0.4-0.2 }
+\end{equation*}
+</div>
+<div class="para">Find the diver’s speed and don’t forget the units.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#diver-fractions-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.5.7.b"><a href="#diver-fractions-3" title="Copy permalink for Task 0.5.7.b">🔗</a></div></article><article class="task exercise-like" id="diver-fractions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="diver-fractions-4-1-1">Which speed is larger? Explain why that might make sense in the story.<div class="autopermalink" data-description="Paragraph"><a href="#diver-fractions-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.5.7.c"><a href="#diver-fractions-4" title="Copy permalink for Task 0.5.7.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.5.7"><a href="#diver-fractions" title="Copy permalink for Exercise 0.5.7">🔗</a></div></article><article class="exercise exercise-like" id="football-field-fractions"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="introduction" id="football-field-fractions-1"><div class="para" id="football-field-fractions-1-1">The football coach wants everyone to sprint three-quarters of a mile, up and back on the field which is labeled in yards. <em class="emphasis">(Story also appears in <a href="sec-Units.html#assorted-2-units" class="xref" data-knowl="./knowl/xref/assorted-2-units.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.4.8">1.4.8</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#football-field-fractions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="football-field-fractions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para logical" id="football-field-fractions-2-1-1">
+<div class="para">Find the number of yards by calculating</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{3}{4} \text{ miles}
+\ast
+\frac{5{,}280 \text{ feet}}{1 \text{ mile}}
+\ast
+\frac{1 \text{ yard}}{3 \text{ feet}} = \frac{3 \times 5280}{4 \times 3}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#football-field-fractions-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.5.8.a"><a href="#football-field-fractions-2" title="Copy permalink for Task 0.5.8.a">🔗</a></div></article><article class="task exercise-like" id="football-field-fractions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="football-field-fractions-3-1-1">Approximately how many times will the players need to run up and back on the field? The field is 100 yards long so “up and back” is 200 yards.<div class="autopermalink" data-description="Paragraph"><a href="#football-field-fractions-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.5.8.b"><a href="#football-field-fractions-3" title="Copy permalink for Task 0.5.8.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.5.8"><a href="#football-field-fractions" title="Copy permalink for Exercise 0.5.8">🔗</a></div></article><div class="autopermalink" data-description="Exercises 0.5: Exercises"><a href="#ex-Fractions" title="Copy permalink for Exercises 0.5: Exercises">🔗</a></div></section><div class="autopermalink" data-description="Section 0.5: Prelude: Fractions"><a href="#sec-Fractions" title="Copy permalink for Section 0.5: Prelude: Fractions">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-Order_of_operations.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-Powers_and_roots.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

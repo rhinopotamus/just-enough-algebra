@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette: blues                        *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Solving power equations (and roots)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Just Enough Algebra">
+<meta property="book:author" content="Dr. Suzanne Dorée">
+<meta property="book:author" content="Dr. Spencer Bagley">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.7.5';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.107bf2d9be20d9c4.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="justenoughalgebra" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""><img src="external/book-open-solid.png" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="just-enough-algebra.html"><span class="title">Just Enough Algebra</span> <span class="subtitle">- Summer 2025 edition</span></a></h1>
+<p class="byline">Dr. Suzanne Dorée, Dr. Spencer Bagley</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-Solving_linear_inequalities.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-Solving_equations.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-Solving_exponential_equations.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-why-this-book-web.html" class="internal"><span class="title">Why <em class="emphasis">Just Enough Algebra</em>?</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-students-web.html" class="internal"><span class="title">Students! Read this!</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-instructors-web.html" class="internal"><span class="title">Instructors! Read this!</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Prelude.html" class="internal"><span class="codenumber">0</span> <span class="title">Prelude</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approximation_and_rounding.html" class="internal"><span class="codenumber">0.1</span> <span class="title">Prelude: Approximation &amp; rounding</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approximation_and_rounding.html#ex-Approximation_and_rounding" class="internal"><span class="codenumber">0.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Arithmetic_operations.html" class="internal"><span class="codenumber">0.2</span> <span class="title">Prelude: Arithmetic operations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Arithmetic_operations.html#ex-Arithmetic_operations" class="internal"><span class="codenumber">0.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Percentages.html" class="internal"><span class="codenumber">0.3</span> <span class="title">Prelude: Percentages</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Percentages.html#ex-Percentages" class="internal"><span class="codenumber">0.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Order_of_operations.html" class="internal"><span class="codenumber">0.4</span> <span class="title">Prelude: Order of operations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Order_of_operations.html#ex-Order_of_operations" class="internal"><span class="codenumber">0.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fractions.html" class="internal"><span class="codenumber">0.5</span> <span class="title">Prelude: Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fractions.html#ex-Fractions" class="internal"><span class="codenumber">0.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Powers_and_roots.html" class="internal"><span class="codenumber">0.6</span> <span class="title">Prelude: Powers and roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Powers_and_roots.html#ex-Powers_and_roots" class="internal"><span class="codenumber">0.6</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Algebraic_notation.html" class="internal"><span class="codenumber">0.7</span> <span class="title">Prelude: Algebraic notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Algebraic_notation.html#ex-Algebraic-notation" class="internal"><span class="codenumber">0.7</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Scientific_notation.html" class="internal"><span class="codenumber">0.8</span> <span class="title">Prelude: Scientific notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Scientific_notation.html#ex-Scientific_notation" class="internal"><span class="codenumber">0.8</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logarithms.html" class="internal"><span class="codenumber">0.9</span> <span class="title">Prelude: Logarithms</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logarithms.html#ex-Logarithms" class="internal"><span class="codenumber">0.9</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Variables.html" class="internal"><span class="codenumber">1</span> <span class="title">Variables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Variables_and_functions.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Variables and functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Variables_and_functions.html#exercises-variables-functions" class="internal"><span class="codenumber">1.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Tables_and_graphs.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Tables and graphs</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Tables_and_graphs.html#ex-Tables_and_graphs" class="internal"><span class="codenumber">1.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Rate_of_change.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Rate of change</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Rate_of_change.html#ex-Rate_of_change" class="internal"><span class="codenumber">1.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Units.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Units</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Units.html#ex-Units" class="internal"><span class="codenumber">1.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Metric_system_and_scientific_notation.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Metric prefixes and scientific notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Metric_system_and_scientific_notation.html#ex-Metric_system_and_scientific_notation" class="internal"><span class="codenumber">1.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1A.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Practice Exam 1A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1A.html#ws-PE1A" class="internal"><span class="codenumber">1.6</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1B.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1B.html#ws-PE1B" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Equations.html" class="internal"><span class="codenumber">2</span> <span class="title">Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_linear.html#ex-First_look_linear" class="internal"><span class="codenumber">2.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_exponential.html#ex-First_look_exponentialEX" class="internal"><span class="codenumber">2.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Using_equations.html#ex-Using_equations" class="internal"><span class="codenumber">2.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approx_solutions.html#ex-Approx_solutions" class="internal"><span class="codenumber">2.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Finance.html#ex-Finance" class="internal"><span class="codenumber">2.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2A.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2A.html#ws-PE2A" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2B.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2B.html#ws-PE2B" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-Solving_equations.html" class="internal"><span class="codenumber">3</span> <span class="title">Solving equations</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html#ex-Solving_linear_equations" class="internal"><span class="codenumber">3.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html#ex-Solving_linear_inequalitiesEX" class="internal"><span class="codenumber">3.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div>
+<ul class="structural toc-item-list active"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_power_equations.html#ex-Solving_power_equations" class="internal"><span class="codenumber">3.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html#ex-Solving_exponential_equations" class="internal"><span class="codenumber">3.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html#ex-Solving_quadratic_equations" class="internal"><span class="codenumber">3.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3A.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3A.html#ws-PE3A" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3B.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3B.html#ws-PE3B" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Closer_look_linear.html" class="internal"><span class="codenumber">4</span> <span class="title">A closer look at linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html#ex-Modeling_linear_equations" class="internal"><span class="codenumber">4.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html#ex-Systems_linear_equations" class="internal"><span class="codenumber">4.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Intercepts.html#ex-Intercepts" class="internal"><span class="codenumber">4.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Slopes.html#ex-Slopes" class="internal"><span class="codenumber">4.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html#ex-Fitting_lines_to_data" class="internal"><span class="codenumber">4.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4A.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4A.html#ws-PE4A" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4B.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4B.html#ws-PE4B" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Closer_look_exponential.html" class="internal"><span class="codenumber">5</span> <span class="title">A closer look at exponential equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html#ex-Modeling_exponential_equations" class="internal"><span class="codenumber">5.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html#ex-Exp_growth_decay" class="internal"><span class="codenumber">5.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Growth_factor.html#ex-Growth_factor" class="internal"><span class="codenumber">5.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html#ex-Linear_vs_exponential" class="internal"><span class="codenumber">5.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logistic_growth.html#ex-Logistic_growth" class="internal"><span class="codenumber">5.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5A.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE5A.html#ws-PE5A" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5B.html" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE5B.html#ws-PE5B" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="backmatter-2.html" class="internal"><span class="codenumber">A</span> <span class="title">Practice Final Exams</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pfe1.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Practice Final Exam 1</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-pfe1.html#ws-PE6A" class="internal"><span class="codenumber">A.1</span> <span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pfe2.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Practice Final Exam 2</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-pfe2.html#ws-PE6B" class="internal"><span class="codenumber">A.2</span> <span class="title"></span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="app-templates-formulas.html" class="internal"><span class="codenumber">B</span> <span class="title">Templates and Formulas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-templates.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Templates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-constants.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Formulas used to find constants</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-solve.html" class="internal"><span class="codenumber">B.3</span> <span class="title">Formulas used to solve specific types of equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-finance.html" class="internal"><span class="codenumber">B.4</span> <span class="title">Formulas from finance</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Solving_power_equations"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">3.3</span><span class="space"> </span><span class="title">Solving power equations (and roots)</span>
+</h2>
+<section class="introduction" id="sec-Solving_power_equations-2"><div class="para logical" id="sec-Solving_power_equations-2-1">
+<div class="para">There’s an old saying - “when life gives you lemons, make lemonade.” But how many lemons do you need? It turns out a reasonable equation describing the juice from a single lemon is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+J = 0.0056C^3
+\end{equation*}
+</div>
+<div class="para">where</div>
+<div class="displaymath process-math" id="sec-Solving_power_equations-2-1-3">
+\begin{align*}
+J \amp= \text{ juice (tablespoons) } \sim \text{ dep} \\
+C \amp= \text{ circumference (inches) } \sim \text{ indep} 
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Solving_power_equations-2-2">In case you’ve forgotten, the <dfn class="terminology">circumference</dfn> is the distance <em class="emphasis">around</em> the lemon. Think of taking wrapping a piece of string around the middle part of the lemon. Then stretch it out on a ruler to see how long it is.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Solving_power_equations-2-3">Recipes for lemonade vary widely, but for my recipe calls for 4 tablespoons of lemon juice for each 12 ounce glass. The rest is a syrup made of hot water and sugar, mulled with a sweet herb like basil or mint, then finished with ice and cold water. Yum.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Solving_power_equations-2-4">
+<div class="para">So, how large a lemon would yield 4 tablespoons of juice? Let’s try to guess the answer. For example, a small lemon 7 inches in circumference would yield</div>
+<div class="displaymath process-math">
+\begin{equation*}
+J = 0.0056 \ast 7^3 = 0.0056 \times \underline{7} \wedge 3 = 1.9208 \approx 2 \text{ tablespoons}
+\end{equation*}
+</div>
+<div class="para">A medium size lemon 8 inches in circumference would yield</div>
+<div class="displaymath process-math">
+\begin{equation*}
+J = 0.0056 \ast 8^3 = 0.0056 \times \underline{8} \wedge 3 = 2.8672 \approx 3 \text{ tablespoons}
+\end{equation*}
+</div>
+<div class="para">Bet 9 inches is a good next guess. We get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+J = 0.0056 \ast 9^3 = 0.0056 \times \underline{9} \wedge 3 = 4.0824 \approx 4  \text{ tablespoons}
+\end{equation*}
+</div>
+<div class="para">That was quick! A lemon 9 inches around should produce just over 4 tablespoons of juice.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Solving_power_equations-2-5">
+<div class="para">Much as we have learned to love successive approximation, this chapter is all about solving equations. Remember,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+J = 0.0056C^3
+\end{equation*}
+</div>
+<div class="para">is a power equation because it fits the template</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{dep} = k \ast \text{indep}^{n}
+\end{equation*}
+</div>
+<div class="para">with power <span class="process-math">\(n=3\)</span> and proportionality constant <span class="process-math">\(k=0.0056\text{.}\)</span> Turns out we can solve any power equation symbolically.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-2-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Solving_power_equations-2-6">
+<div class="para">Here’s how. We’re looking for <span class="process-math">\(J = 4\text{.}\)</span> Use our equation <span class="process-math">\(J=0.0056C^3\)</span> to get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+0.0056C^3=4
+\end{equation*}
+</div>
+<div class="para">We want to find the value of <span class="process-math">\(C\text{,}\)</span> so we can divide both sides by 0.0056 to get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\cancel{0.0056}C^3}{\cancel{0.0056}}=\frac{4}{0.0056}
+\end{equation*}
+</div>
+<div class="para">which simplifies to</div>
+<div class="displaymath process-math">
+\begin{equation*}
+C^3 = \frac{4}{0.0056}= 4 \div 0.0056 = 714.2857\ldots
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-2-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Solving_power_equations-2-7">
+<div class="para">We have found <span class="process-math">\(C^3\text{.}\)</span> How can we “undo” the <span class="process-math">\(\wedge 3\)</span> to find <span class="process-math">\(C\text{?}\)</span> The answer: take the cube root of each side. (More about roots at the end of this section.) That means</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\sqrt[3]{C^3} = \sqrt[3]{714.2857\ldots}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-2-7" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Solving_power_equations-2-8">
+<div class="para">which simplifies to</div>
+<div class="displaymath process-math">
+\begin{equation*}
+C = \sqrt[3]{714.2857\ldots} =3 \sqrt[x]{~\text{  }} 714.2857
+= 8.9390\ldots \approx 8.9 \text{ inches}
+\end{equation*}
+</div>
+<div class="para">as expected, just under 9 inches. (More about the <span class="process-math">\(\sqrt[x]{~\text{  }}\)</span> key later too.)</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-2-8" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Solving_power_equations-2-9">A look at the graph confirms our result.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-2-9" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Solving_power_equations-2-10">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/lemonade.png" class="contained"></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-2-10" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Solving_power_equations-2-11">
+<div class="para">Now, what goes better with lemonade than lemon cheesecake? For that we need lemon zest. <dfn class="terminology">Zest</dfn> is what you get when you grate the lemon peel in long skinny strips. As with juice, the amount of lemon zest depends on the size of the lemon. Our variables are</div>
+<div class="displaymath process-math" id="sec-Solving_power_equations-2-11-2">
+\begin{align*}
+Z \amp= \text{ amount of lemon zest (tablespoons) } \sim \text{ dep} \\
+C \amp= \text{ circumference (inches) } \sim \text{ indep} 
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-2-11" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Solving_power_equations-2-12">
+<div class="para">and an equation is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+Z=0.018C^2
+\end{equation*}
+</div>
+<div class="para">We have another power equation, this time with power <span class="process-math">\(n=2\)</span> and proportionality constant <span class="process-math">\(k=0.018\text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-2-12" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Solving_power_equations-2-13">
+<div class="para">My lemon cheesecake recipe calls for <span class="process-math">\(1 \tfrac12\)</span> tablespoons of zest. There are various sized lemons at the store. How large a lemon should I buy? A small lemon of circumference 7 inches produces less than 1 tablespoon of zest because</div>
+<div class="displaymath process-math">
+\begin{equation*}
+Z=0.018\ast7^2 = 0.018 \times \underline{7} \wedge 2 = 0.082 &lt; 1
+\end{equation*}
+</div>
+<div class="para">so that’s not large enough.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-2-13" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Solving_power_equations-2-14">Let’s use successive approximations, summarizing our guesses in a table. Of course, we don’t really need this precise an answer, but it’s good practice. Notice <span class="process-math">\(1 \tfrac12 = 1 + \tfrac12 = 1 + 1 \div 2 = 1.5\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-2-14" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(C\)</span></td>
+<td class="c m b1 r1 l0 t1 lines">7</td>
+<td class="c m b1 r1 l0 t1 lines">8</td>
+<td class="c m b1 r1 l0 t1 lines">9</td>
+<td class="c m b1 r1 l0 t1 lines">10</td>
+<td class="c m b1 r1 l0 t1 lines">9.5</td>
+<td class="c m b1 r1 l0 t1 lines">9.3</td>
+<td class="c m b1 r1 l0 t1 lines">9.2</td>
+<td class="c m b1 r1 l0 t1 lines">9.1</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(Z\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">0.882</td>
+<td class="c m b1 r1 l0 t0 lines">1.152</td>
+<td class="c m b1 r1 l0 t0 lines">1.458</td>
+<td class="c m b1 r1 l0 t0 lines">1.8</td>
+<td class="c m b1 r1 l0 t0 lines">1.6245</td>
+<td class="c m b1 r1 l0 t0 lines">1.55682</td>
+<td class="c m b1 r1 l0 t0 lines">1.52352</td>
+<td class="c m b1 r1 l0 t0 lines">1.49058</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">vs. 1.5</td>
+<td class="c m b1 r1 l0 t0 lines">low</td>
+<td class="c m b1 r1 l0 t0 lines">high</td>
+<td class="c m b1 r1 l0 t0 lines">low</td>
+<td class="c m b1 r1 l0 t0 lines">high</td>
+<td class="c m b1 r1 l0 t0 lines">high</td>
+<td class="c m b1 r1 l0 t0 lines">high</td>
+<td class="c m b1 r1 l0 t0 lines">high</td>
+<td class="c m b1 r1 l0 t0 lines">low</td>
+</tr>
+</table></div>
+<div class="para" id="sec-Solving_power_equations-2-16">We need a large lemon, somewhere between 9.1 and 9.2 inches around. Truth is, I’ll just buy the biggest lemon I can find because extra lemon zest looks wonderful on top of the cheesecake.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-2-16" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Solving_power_equations-2-17">
+<div class="para">We are supposed to be practicing solving the equation. Here goes. We want <span class="process-math">\(Z=1.5\text{.}\)</span> Use our equation <span class="process-math">\(Z=0.018C^2\)</span> to get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+0.018C^2=1.5
+\end{equation*}
+</div>
+<div class="para">We want to find the value of <span class="process-math">\(C\text{,}\)</span> so we can divide both sides by 0.018 to get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\cancel{0.018}C^2}{\cancel{0.018}}=\frac{1.5}{0.018}
+\end{equation*}
+</div>
+<div class="para">which simplifies to</div>
+<div class="displaymath process-math">
+\begin{equation*}
+C^2 = \frac{1.5}{0.018}= 1.5 \div 0.018 = 83.333333\ldots
+\end{equation*}
+</div>
+<div class="para">Take the square root of each side to get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\sqrt{C^2} = \sqrt{83.333333\ldots}
+\end{equation*}
+</div>
+<div class="para">which simplifies to</div>
+<div class="displaymath process-math">
+\begin{equation*}
+C = \sqrt{83.333333\ldots} 
+=\sqrt{~\text{  }} 83.333333
+= 9.128709292\ldots \approx 9.13 \text{ inches}
+\end{equation*}
+</div>
+<div class="para">as expected, between 9.1 and 9.2 inches.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-2-17" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Solving_power_equations-2-18">As when solving linear equations, notice that we do the opposite operation in reverse order from the usual order of operations. To evaluate a power equation we would first raise to the power and then multiply. To solve a power equation we first divide (that is the opposite of multiplying) and then we take a root (that is the opposite of raising to a power).<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-2-18" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Solving_power_equations-2-19">
+<div class="para">As promised, a brief discussion of roots is in order. Here’s the deal. Roots essentially “undo” powers. What this means is, for example, we know</div>
+<div class="displaymath process-math">
+\begin{equation*}
+10^2=10 \times 10 =100
+\end{equation*}
+</div>
+<div class="para">but it’s quicker to calculate it using powers as</div>
+<div class="displaymath process-math">
+\begin{equation*}
+10^2 = 10 \wedge 2 = 100
+\end{equation*}
+</div>
+<div class="para">We say 10 <dfn class="terminology">squared</dfn> is 100. The <dfn class="terminology">square root</dfn> of a number is just whatever number you would square to get that number. So, for example, <span class="process-math">\(\sqrt{100} = 10\)</span> because you would square 10 to get 100. Many calculators have a special square root key that looks like <span class="process-math">\(\sqrt{~\text{  }}\)</span> so we get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\sqrt{100} = \sqrt{~\text{  }} 100 = 10
+\end{equation*}
+</div>
+<div class="para">Your calculator might insert a parenthesis with the square root, in which case you should (but don’t need to) close it before hitting <span class="process-math">\(=\text{,}\)</span> like this</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\sqrt{100} = \sqrt{~\text{  }} ( 100 ) = 10
+\end{equation*}
+</div>
+<div class="para">Your calculator might not have this key, or might need the square root after the number. Ask a classmate or your instructor or search online if you can’t figure it out.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-2-19" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Solving_power_equations-2-20">
+<div class="para">The same idea works for higher powers. Like</div>
+<div class="displaymath process-math">
+\begin{equation*}
+10^3 =10 \times 10 \times 10 = 1{,}000
+\end{equation*}
+</div>
+<div class="para">That’s really</div>
+<div class="displaymath process-math">
+\begin{equation*}
+10^3 = 10 \wedge 3 = 1{,}000
+\end{equation*}
+</div>
+<div class="para">and we say 10 <dfn class="terminology">cubed</dfn> is 1,000. The <dfn class="terminology">cube root</dfn> of a number is whatever number you would cube to get that number. So, for example, <span class="process-math">\(\sqrt[3]{1{,}000} = 10\text{.}\)</span> Many calculators have a special root key that looks like <span class="process-math">\(\sqrt[x]{~\text{  }}\text{.}\)</span> That <span class="process-math">\(x\)</span> looks similar to multiplication (<span class="process-math">\(\times\)</span>), but it isn’t. The <span class="process-math">\(x\)</span> is like a placeholder for the real root you want - for a cube root <span class="process-math">\(x\)</span> is just 3.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-2-20" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Solving_power_equations-2-21">
+<div class="para">Here’s how to use that root key. First you type in the root you want (3), second you use that key (<span class="process-math">\(\sqrt[x]{~\text{  }}\)</span>), and last you type in the number you’re taking the root of (1,000) like this</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\sqrt[3]{1{,}000} = 3\sqrt[x]{~\text{  }}1{,}000= 10
+\end{equation*}
+</div>
+<div class="para">Like with squareroots, your calculator might introduce a parenthesis, or you might do a slightly different order. You might have to use a shift or second key to get to the root key. On many graphing calculators the <span class="process-math">\(\sqrt[x]{~\text{  }}\)</span> key is one of the MATH functions, so you have to type something like MATH 5 to get it. Again, ask if you need help figuring it out.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-2-21" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Solving_power_equations-2-22">
+<div class="para">There is a small chance that your calculator doesn’t have roots. In that case there is a strange-looking alternative</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\sqrt[3]{1{,}000} = 1{,}000 \wedge (1 \div 3)= 10
+\end{equation*}
+</div>
+<div class="para">Note the necessary parentheses. This process works for square roots too.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\sqrt{100} = 100 \wedge (1 \div 2)= 10
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-2-22" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Solving_power_equations-2-23">Bet you see how this idea of roots generalizes. The <dfn class="terminology"><span class="process-math">\(n\)</span>th root</dfn> of a number is whatever number you would raise to the <span class="process-math">\(n\)</span>th power to get the number. Stated in terms of equations we have<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-2-23" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<article class="assemblage assemblage-like" id="root-formula"><h3 class="heading"><span class="title">Root Formula</span></h3>
+<div class="para logical" id="root-formula-2">
+<div class="para">The equation <span class="process-math">\(C^n=v\)</span> has solution</div>
+<div class="displaymath process-math">
+\begin{equation*}
+C= \sqrt[n]{v}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#root-formula-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Root Formula"><a href="#root-formula" title="Copy permalink for Assemblage: Root Formula">🔗</a></div></article></section><section class="conclusion" id="sec-Solving_power_equations-3"><h3 class="heading">Do you know …<span></span>
+</h3>
+<div class="para logical" id="sec-Solving_power_equations-3-2">
+<ol class="upper-alpha ol-marker-1" id="sec-Solving_power_equations-3-2-1">
+<li id="sec-Solving_power_equations-3-2-1-1">
+<div class="para" id="sec-Solving_power_equations-3-2-1-1-1">What a “power” equation is?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-3-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item A"><a href="#sec-Solving_power_equations-3-2-1-1" title="Copy permalink for Item A">🔗</a></div>
+</li>
+<li id="sec-Solving_power_equations-3-2-1-2">
+<div class="para" id="sec-Solving_power_equations-3-2-1-2-1">What we mean by square root, cube root, and <span class="process-math">\(n\)</span>th root?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-3-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item B"><a href="#sec-Solving_power_equations-3-2-1-2" title="Copy permalink for Item B">🔗</a></div>
+</li>
+<li id="sec-Solving_power_equations-3-2-1-3">
+<div class="para" id="sec-Solving_power_equations-3-2-1-3-1">How to calculate square roots, cube roots, and <span class="process-math">\(n\)</span>th roots on your calculator?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-3-2-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item C"><a href="#sec-Solving_power_equations-3-2-1-3" title="Copy permalink for Item C">🔗</a></div>
+</li>
+<li id="sec-Solving_power_equations-3-2-1-4">
+<div class="para" id="sec-Solving_power_equations-3-2-1-4-1">How to evaluate the <a href="sec-Solving_power_equations.html#root-formula" class="xref" data-knowl="./knowl/xref/root-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Root Formula">Root Formula</a> on your calculator?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-3-2-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item D"><a href="#sec-Solving_power_equations-3-2-1-4" title="Copy permalink for Item D">🔗</a></div>
+</li>
+<li id="sec-Solving_power_equations-3-2-1-5">
+<div class="para" id="sec-Solving_power_equations-3-2-1-5-1">When to use the <a href="sec-Solving_power_equations.html#root-formula" class="xref" data-knowl="./knowl/xref/root-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Root Formula">Root Formula</a>? <em class="emphasis">Ask your instructor if you need to remember the <a href="sec-Solving_power_equations.html#root-formula" class="xref" data-knowl="./knowl/xref/root-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Root Formula">Root Formula</a> or it will be provided during the exam.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-3-2-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item E"><a href="#sec-Solving_power_equations-3-2-1-5" title="Copy permalink for Item E">🔗</a></div>
+</li>
+<li id="sec-Solving_power_equations-3-2-1-6">
+<div class="para" id="sec-Solving_power_equations-3-2-1-6-1">How to solve a power equation?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-3-2-1-6-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item F"><a href="#sec-Solving_power_equations-3-2-1-6" title="Copy permalink for Item F">🔗</a></div>
+</li>
+<li id="sec-Solving_power_equations-3-2-1-7">
+<div class="para" id="sec-Solving_power_equations-3-2-1-7-1">What the graph of a power function looks like?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-3-2-1-7-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item G"><a href="#sec-Solving_power_equations-3-2-1-7" title="Copy permalink for Item G">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-3-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Solving_power_equations-3-3">
+<em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-Solving_power_equations-3-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="exercises" id="ex-Solving_power_equations"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<section class="introduction" id="ex-Solving_power_equations-2"><div class="para" id="ex-Solving_power_equations-2-1">Exercises 1-4 are available in a separate workbook format.<div class="autopermalink" data-description="Paragraph"><a href="#ex-Solving_power_equations-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><article class="exercise exercise-like" id="pizza-diameter-solving-power"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="introduction" id="pizza-diameter-solving-power-1"><div class="para logical" id="pizza-diameter-solving-power-1-1">
+<div class="para">A pizza of diameter <span class="process-math">\(D\)</span> inches serves <span class="process-math">\(P\)</span> people where</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/pizza-diameter-powers-roots.html ./knowl/xref/pizza-diameter-approx-solutions.html ./knowl/xref/pizza-diameter-modeling-linear.html">
+\begin{equation*}
+P = 0.015625\, D^2
+\end{equation*}
+</div>
+<div class="para"><em class="emphasis">(Story also appears in <a href="sec-Powers_and_roots.html#pizza-diameter-powers-roots" class="xref" data-knowl="./knowl/xref/pizza-diameter-powers-roots.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.6.2">0.6.2</a>, <a href="sec-Approx_solutions.html#pizza-diameter-approx-solutions" class="xref" data-knowl="./knowl/xref/pizza-diameter-approx-solutions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.4.1">2.4.1</a>, and <a href="sec-Modeling_linear_equations.html#pizza-diameter-modeling-linear" class="xref" data-knowl="./knowl/xref/pizza-diameter-modeling-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 4.1.3.c">4.1.3.c</a>)</em></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#pizza-diameter-solving-power-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="pizza-diameter-solving-power-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="pizza-diameter-solving-power-2-1-1">Set up and solve an equation using the <a href="sec-Solving_power_equations.html#root-formula" class="xref" data-knowl="./knowl/xref/root-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Root Formula">Root Formula</a> to find the diameter of a personal pizza (<span class="process-math">\(P=1\)</span>). Answer to the nearest inch.<div class="autopermalink" data-description="Paragraph"><a href="#pizza-diameter-solving-power-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.1.a"><a href="#pizza-diameter-solving-power-2" title="Copy permalink for Task 3.3.1.a">🔗</a></div></article><article class="task exercise-like" id="pizza-diameter-solving-power-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="pizza-diameter-solving-power-3-1-1">Set up and solve an equation using the <a href="sec-Solving_power_equations.html#root-formula" class="xref" data-knowl="./knowl/xref/root-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Root Formula">Root Formula</a> to find the diameter of an extra large pizza to serve 6 people. Answer to the nearest inch.<div class="autopermalink" data-description="Paragraph"><a href="#pizza-diameter-solving-power-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.1.b"><a href="#pizza-diameter-solving-power-3" title="Copy permalink for Task 3.3.1.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 3.3.1"><a href="#pizza-diameter-solving-power" title="Copy permalink for Exercise 3.3.1">🔗</a></div></article><article class="exercise exercise-like" id="weight-cube-solving-power"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="introduction" id="weight-cube-solving-power-1"><div class="para logical" id="weight-cube-solving-power-1-1">
+<div class="para">The weight of a wood cube is a function of the length of the sides. A cube with sides each <span class="process-math">\(E\)</span> inches long has weight <span class="process-math">\(W\)</span> ounces according to the equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+W = 0.76\, E^3
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#weight-cube-solving-power-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="weight-cube-solving-power-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="weight-cube-solving-power-2-1-1">What is the weight of a cube with sides 2 inches long? 3 inches?<div class="autopermalink" data-description="Paragraph"><a href="#weight-cube-solving-power-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.2.a"><a href="#weight-cube-solving-power-2" title="Copy permalink for Task 3.3.2.a">🔗</a></div></article><article class="task exercise-like" id="weight-cube-solving-power-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="weight-cube-solving-power-3-1-1">Draw a graph showing how the weight depends on the side length. Include <span class="process-math">\(E=0\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#weight-cube-solving-power-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.2.b"><a href="#weight-cube-solving-power-3" title="Copy permalink for Task 3.3.2.b">🔗</a></div></article><article class="task exercise-like" id="weight-cube-solving-power-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="weight-cube-solving-power-4-1-1">Set up and solve an equation to find the length of the side of a wood cube weighing 8 ounces.<div class="autopermalink" data-description="Paragraph"><a href="#weight-cube-solving-power-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.2.c"><a href="#weight-cube-solving-power-4" title="Copy permalink for Task 3.3.2.c">🔗</a></div></article><article class="task exercise-like" id="weight-cube-solving-power-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="weight-cube-solving-power-5-1-1">Repeat for 1 pound (that is 16 ounces).<div class="autopermalink" data-description="Paragraph"><a href="#weight-cube-solving-power-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.2.d"><a href="#weight-cube-solving-power-5" title="Copy permalink for Task 3.3.2.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 3.3.2"><a href="#weight-cube-solving-power" title="Copy permalink for Exercise 3.3.2">🔗</a></div></article><article class="exercise exercise-like" id="fuel-350-solving-power"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="fuel-350-solving-power-1"><div class="para logical" id="fuel-350-solving-power-1-1">
+<div class="para">Suppose a car gas tank is designed to hold enough fuel to drive 350 miles. (That is fairly average.) That means the size tank, <span class="process-math">\(G\)</span> gallons, is a function of the fuel efficiency, <span class="process-math">\(F\)</span> miles per gallon (mpg), according to the equation</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/fuel-350-approx-solutions.html">
+\begin{equation*}
+\displaystyle G = \frac{350}{F}
+\end{equation*}
+</div>
+<div class="para"><em class="emphasis">(Story also appears in <a href="sec-Approx_solutions.html#fuel-350-approx-solutions" class="xref" data-knowl="./knowl/xref/fuel-350-approx-solutions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.4.2">2.4.2</a>)</em></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#fuel-350-solving-power-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="fuel-350-solving-power-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="fuel-350-solving-power-2-1-1">My Honda Accord’s tank holds about 16 gallons. According to the equation, what is the corresponding fuel efficiency? Set up and solve the equation. Start solving by multiplying both sides by <span class="process-math">\(F\text{.}\)</span> <em class="emphasis">Note: you will not need to take a root.</em><div class="autopermalink" data-description="Paragraph"><a href="#fuel-350-solving-power-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.3.a"><a href="#fuel-350-solving-power-2" title="Copy permalink for Task 3.3.3.a">🔗</a></div></article><article class="task exercise-like" id="fuel-350-solving-power-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="fuel-350-solving-power-3-1-1">My ex-husband’s Honda Civic’s tank holds only 13 gallons. According to the equation, what is the corresponding fuel efficiency. Set up and solve the equation.<div class="autopermalink" data-description="Paragraph"><a href="#fuel-350-solving-power-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.3.b"><a href="#fuel-350-solving-power-3" title="Copy permalink for Task 3.3.3.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 3.3.3"><a href="#fuel-350-solving-power" title="Copy permalink for Exercise 3.3.3">🔗</a></div></article><article class="exercise exercise-like" id="effective-return-solving-power"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="effective-return-solving-power-1"><div class="para logical" id="effective-return-solving-power-1-1">
+<div class="para">Moose bought a commemorative football jersey for $150 twelve years ago. Now he is planning to sell it and is interested in what the <dfn class="terminology">effective return</dfn> (equivalent annual percent increase) on his investment might be for various prices. If $<span class="process-math">\(J\)</span> is the current value of the jersey and <span class="process-math">\(g\)</span> is the annual growth factor, then</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/root-formula.html">
+\begin{equation*}
+J=150\, g^{12}
+\end{equation*}
+</div>
+<div class="para">For each part, first solve for <span class="process-math">\(g\)</span> using the <a href="sec-Solving_power_equations.html#root-formula" class="xref" data-knowl="./knowl/xref/root-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Root Formula">Root Formula</a>, then calculate <span class="process-math">\(r=g-1\text{.}\)</span> The effective return is <span class="process-math">\(r\)</span> written as a percentage.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#effective-return-solving-power-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="effective-return-solving-power-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="effective-return-solving-power-2-1-1">Find the effective return <span class="process-math">\(r\)</span> if the current value <span class="process-math">\(J\)</span> is $290.<div class="autopermalink" data-description="Paragraph"><a href="#effective-return-solving-power-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.4.a"><a href="#effective-return-solving-power-2" title="Copy permalink for Task 3.3.4.a">🔗</a></div></article><article class="task exercise-like" id="effective-return-solving-power-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="effective-return-solving-power-3-1-1">Find the effective return if the current value is $350.<div class="autopermalink" data-description="Paragraph"><a href="#effective-return-solving-power-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.4.b"><a href="#effective-return-solving-power-3" title="Copy permalink for Task 3.3.4.b">🔗</a></div></article><article class="task exercise-like" id="effective-return-solving-power-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="effective-return-solving-power-4-1-1">Find the effective return if the current value is $400.<div class="autopermalink" data-description="Paragraph"><a href="#effective-return-solving-power-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.4.c"><a href="#effective-return-solving-power-4" title="Copy permalink for Task 3.3.4.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 3.3.4"><a href="#effective-return-solving-power" title="Copy permalink for Exercise 3.3.4">🔗</a></div></article><article class="exercise exercise-like" id="lemon-zest-solving-power"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="introduction" id="lemon-zest-solving-power-1"><div class="para" id="lemon-zest-solving-power-1-1">Recall our lemon zest formula <span class="process-math">\(Z=0.018C^2\)</span> where <span class="process-math">\(C\)</span> is the circumference of the lemon, in inches, and <span class="process-math">\(Z\)</span> is the amount of lemon zest, in tablespoons.<div class="autopermalink" data-description="Paragraph"><a href="#lemon-zest-solving-power-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="lemon-zest-solving-power-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="lemon-zest-solving-power-2-1-1">Use the information we found earlier to draw a graph of the function. Include values <span class="process-math">\(0 \le C \le 10\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lemon-zest-solving-power-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.5.a"><a href="#lemon-zest-solving-power-2" title="Copy permalink for Task 3.3.5.a">🔗</a></div></article><article class="task exercise-like" id="lemon-zest-solving-power-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="lemon-zest-solving-power-3-1-1">Set up and solve an equation to find the size lemon needed for 1 tablespoon of zest.<div class="autopermalink" data-description="Paragraph"><a href="#lemon-zest-solving-power-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.5.b"><a href="#lemon-zest-solving-power-3" title="Copy permalink for Task 3.3.5.b">🔗</a></div></article><article class="task exercise-like" id="lemon-zest-solving-power-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="lemon-zest-solving-power-4-1-1">Suppose the formula holds for grapefruit too. I don’t know of any recipe that calls for grapefruit zest; it is very bitter! But grapefruit is notorious for interacting with certain medications, and so we’re collecting some zest for an experiment. Let’s say we need <span class="process-math">\(\tfrac14\)</span> cup of zest. How large a grapefruit will we need? Set up and solve an equation to answer. Use that 1 cup = 16 tablespoons.<div class="autopermalink" data-description="Paragraph"><a href="#lemon-zest-solving-power-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.5.c"><a href="#lemon-zest-solving-power-4" title="Copy permalink for Task 3.3.5.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 3.3.5"><a href="#lemon-zest-solving-power" title="Copy permalink for Exercise 3.3.5">🔗</a></div></article><article class="exercise exercise-like" id="wind-turbine-solving-power"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="introduction" id="wind-turbine-solving-power-1">
+<div class="para logical" id="wind-turbine-solving-power-1-1">
+<div class="para">Wind turbines are used to generate electricity. For a particular wind turbine, the equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+W = 2.4 S^3
+\end{equation*}
+</div>
+<div class="para">can be used to calculate the amount of electricity generated (<span class="process-math">\(W\)</span> watts) for a given wind speed (<span class="process-math">\(S\)</span> mph), over a fixed period of time.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#wind-turbine-solving-power-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="wind-turbine-solving-power-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Variables_and_functions.html#name-vars-variables-functions" class="xref" data-knowl="./knowl/xref/name-vars-variables-functions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.1.10">1.1.10</a>, <a href="sec-Rate_of_change.html#wind-turbine-rate-of-change" class="xref" data-knowl="./knowl/xref/wind-turbine-rate-of-change.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.3.7">1.3.7</a>, and <a href="sec-Approx_solutions.html#wind-turbine-approx-solutions" class="xref" data-knowl="./knowl/xref/wind-turbine-approx-solutions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.4.8">2.4.8</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#wind-turbine-solving-power-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="wind-turbine-solving-power-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="wind-turbine-solving-power-2-1-1">Set up and solve an equation to determine the wind speed that will generate 12,500 watts of electricity.<div class="autopermalink" data-description="Paragraph"><a href="#wind-turbine-solving-power-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.6.a"><a href="#wind-turbine-solving-power-2" title="Copy permalink for Task 3.3.6.a">🔗</a></div></article><article class="task exercise-like" id="wind-turbine-solving-power-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="wind-turbine-solving-power-3-1-1">Repeat for 45,000 watts.<div class="autopermalink" data-description="Paragraph"><a href="#wind-turbine-solving-power-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.6.b"><a href="#wind-turbine-solving-power-3" title="Copy permalink for Task 3.3.6.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 3.3.6"><a href="#wind-turbine-solving-power" title="Copy permalink for Exercise 3.3.6">🔗</a></div></article><article class="exercise exercise-like" id="lamp-intensity-solving-power"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="introduction" id="lamp-intensity-solving-power-1">
+<div class="para logical" id="lamp-intensity-solving-power-1-1">
+<div class="para">Mom always said to sit close to the lamp when I was reading. The intensity of light <span class="process-math">\(L\text{,}\)</span> measured in percentage (%) that you see from a lamp depends on your distance from the lamp, <span class="process-math">\(F\)</span> feet as described by the formula</div>
+<div class="displaymath process-math">
+\begin{equation*}
+L=\frac{100}{F^2}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#lamp-intensity-solving-power-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="lamp-intensity-solving-power-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Variables_and_functions.html#name-vars-variables-functions" class="xref" data-knowl="./knowl/xref/name-vars-variables-functions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.1.10">1.1.10</a> and <a href="sec-Using_equations.html#lamp-intensity-using-equations" class="xref" data-knowl="./knowl/xref/lamp-intensity-using-equations.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.3.6">2.3.6</a> )</em><div class="autopermalink" data-description="Paragraph"><a href="#lamp-intensity-solving-power-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="lamp-intensity-solving-power-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="lamp-intensity-solving-power-2-1-1">I am most comfortable reading in good light, say 70% intensity. According to the equation, how far away can I sit from the lamp? Use successive approximation to guess the answer to the nearest foot. Then set up and solve an equation. Answer to the nearest inch.<div class="autopermalink" data-description="Paragraph"><a href="#lamp-intensity-solving-power-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.7.a"><a href="#lamp-intensity-solving-power-2" title="Copy permalink for Task 3.3.7.a">🔗</a></div></article><article class="task exercise-like" id="lamp-intensity-solving-power-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="lamp-intensity-solving-power-3-1-1">For reading a magazine 35% intensity is enough light. According to the equation, how far away can I sit from the lamp? Use successive approximation to guess the answer to the nearest foot. Then set up and solve an equation. Answer to the nearest inch.<div class="autopermalink" data-description="Paragraph"><a href="#lamp-intensity-solving-power-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.7.b"><a href="#lamp-intensity-solving-power-3" title="Copy permalink for Task 3.3.7.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 3.3.7"><a href="#lamp-intensity-solving-power" title="Copy permalink for Exercise 3.3.7">🔗</a></div></article><article class="exercise exercise-like" id="bass-fishing-solving-power"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="introduction" id="bass-fishing-solving-power-1">
+<div class="para logical" id="bass-fishing-solving-power-1-1">
+<div class="para">The lake by Rodney’s condo was stocked with bass (fish) 10 years ago. There were initially 400 bass introduced. Rodney wonders what the annual percent increase of the bass has been and realizes he can calculate it from the number of fish now. He will use the equation</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/root-formula.html">
+\begin{equation*}
+B=400 g^{10}
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(B\)</span> is the number of bass in the lake now and <span class="process-math">\(g\)</span> is the annual growth factor. For each number of bass, first solve for <span class="process-math">\(g\)</span> using the <a href="sec-Solving_power_equations.html#root-formula" class="xref" data-knowl="./knowl/xref/root-formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Assemblage: Root Formula">Root Formula</a>, then calculate <span class="process-math">\(r=g-1\text{.}\)</span> The percent increase is <span class="process-math">\(r\)</span> written as a percent.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#bass-fishing-solving-power-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="bass-fishing-solving-power-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Algebraic_notation.html#bass-fishing-algebraic-notation" class="xref" data-knowl="./knowl/xref/bass-fishing-algebraic-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.7.8">0.7.8</a> and <a href="sec-Logistic_growth.html#bass-fishing-logistic-growth" class="xref" data-knowl="./knowl/xref/bass-fishing-logistic-growth.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 5.5.9">5.5.9</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#bass-fishing-solving-power-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="bass-fishing-solving-power-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="bass-fishing-solving-power-2-1-1">Find the annual percent increase if there are <span class="process-math">\(B=3{,}000\)</span> bass now.<div class="autopermalink" data-description="Paragraph"><a href="#bass-fishing-solving-power-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.8.a"><a href="#bass-fishing-solving-power-2" title="Copy permalink for Task 3.3.8.a">🔗</a></div></article><article class="task exercise-like" id="bass-fishing-solving-power-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="bass-fishing-solving-power-3-1-1">Find the annual percent increase if there are <span class="process-math">\(B=4{,}000\)</span> bass now.<div class="autopermalink" data-description="Paragraph"><a href="#bass-fishing-solving-power-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.8.b"><a href="#bass-fishing-solving-power-3" title="Copy permalink for Task 3.3.8.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 3.3.8"><a href="#bass-fishing-solving-power" title="Copy permalink for Exercise 3.3.8">🔗</a></div></article><article class="exercise exercise-like" id="rock-drop-solving-power"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="introduction" id="rock-drop-solving-power-1"><div class="para logical" id="rock-drop-solving-power-1-1">
+<div class="para">If you drop a rock from a high place, it falls <span class="process-math">\(R\)</span> feet in <span class="process-math">\(T\)</span> seconds where</div>
+<div class="displaymath process-math">
+\begin{equation*}
+R = 16T^2
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#rock-drop-solving-power-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="rock-drop-solving-power-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="rock-drop-solving-power-2-1-1">How far does the rock fall in 2 seconds? In 4 seconds?<div class="autopermalink" data-description="Paragraph"><a href="#rock-drop-solving-power-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.9.a"><a href="#rock-drop-solving-power-2" title="Copy permalink for Task 3.3.9.a">🔗</a></div></article><article class="task exercise-like" id="rock-drop-solving-power-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="rock-drop-solving-power-3-1-1">Is the rock falling faster during the first two seconds (<span class="process-math">\(T=0\)</span> to <span class="process-math">\(T=2\)</span>) or during the second two seconds (<span class="process-math">\(T=2\)</span> to <span class="process-math">\(T=4\)</span>)? Calculate the rate of change to decide.<div class="autopermalink" data-description="Paragraph"><a href="#rock-drop-solving-power-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.9.b"><a href="#rock-drop-solving-power-3" title="Copy permalink for Task 3.3.9.b">🔗</a></div></article><article class="task exercise-like" id="rock-drop-solving-power-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="rock-drop-solving-power-4-1-1">Tia dropped a rock from her apartment window that’s 300 feet above ground. Will the rock have hit the ground by 4 seconds after it was dropped?<div class="autopermalink" data-description="Paragraph"><a href="#rock-drop-solving-power-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.9.c"><a href="#rock-drop-solving-power-4" title="Copy permalink for Task 3.3.9.c">🔗</a></div></article><article class="task exercise-like" id="rock-drop-solving-power-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="rock-drop-solving-power-5-1-1">If you evaluate at <span class="process-math">\(T=5\text{,}\)</span> what value of <span class="process-math">\(R\)</span> do you get? What does this value mean in the story? Again assume the rock is dropped from 300 feet up.<div class="autopermalink" data-description="Paragraph"><a href="#rock-drop-solving-power-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.9.d"><a href="#rock-drop-solving-power-5" title="Copy permalink for Task 3.3.9.d">🔗</a></div></article><article class="task exercise-like" id="rock-drop-solving-power-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="rock-drop-solving-power-6-1-1">When does the rock hit the ground? Set up and solve an equation. <em class="emphasis">Hint: what value of <span class="process-math">\(R\)</span> do you solve for?</em><div class="autopermalink" data-description="Paragraph"><a href="#rock-drop-solving-power-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.9.e"><a href="#rock-drop-solving-power-6" title="Copy permalink for Task 3.3.9.e">🔗</a></div></article><article class="task exercise-like" id="rock-drop-solving-power-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="rock-drop-solving-power-7-1-1">Now suppose we have a new variable, <span class="process-math">\(H\text{,}\)</span> which represents the height of the rock Tia dropped after <span class="process-math">\(T\)</span> seconds, write a new equation for <span class="process-math">\(H\)</span> as a function of <span class="process-math">\(T\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#rock-drop-solving-power-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.9.f"><a href="#rock-drop-solving-power-7" title="Copy permalink for Task 3.3.9.f">🔗</a></div></article><article class="task exercise-like" id="rock-drop-solving-power-8"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<div class="para" id="rock-drop-solving-power-8-1-1">Show how to set up and solve an equation using this new equation to find when the rock hits the ground. <em class="emphasis">Hint: what value of <span class="process-math">\(H\)</span> do you solve for now?</em><div class="autopermalink" data-description="Paragraph"><a href="#rock-drop-solving-power-8-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.9.g"><a href="#rock-drop-solving-power-8" title="Copy permalink for Task 3.3.9.g">🔗</a></div></article><div class="autopermalink" data-description="Exercise 3.3.9"><a href="#rock-drop-solving-power" title="Copy permalink for Exercise 3.3.9">🔗</a></div></article><article class="exercise exercise-like" id="salary-solving-power"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<div class="introduction" id="salary-solving-power-1">
+<div class="para logical" id="salary-solving-power-1-1">
+<div class="para">Wynter has a pretty decent job. He is paid a salary of $780 per week but his hours vary week-to-week. Even though Wynter is not paid by the hour, he can figure out what his hourly wage would be depending on the number of hours he works using the equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+E = \frac{780}{H}
+\end{equation*}
+</div>
+<div class="para">where if he works <span class="process-math">\(H\)</span> hours, then he’s earning the equivalent of $<span class="process-math">\(E\)</span>/hour.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#salary-solving-power-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="salary-solving-power-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Using_equations.html#salary-using-equations" class="xref" data-knowl="./knowl/xref/salary-using-equations.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.3.10">2.3.10</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#salary-solving-power-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="salary-solving-power-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="salary-solving-power-2-1-1">Make a table showing Wynter’s equivalent hourly wage if he works 40, 50, or 60 hours a week.<div class="autopermalink" data-description="Paragraph"><a href="#salary-solving-power-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.10.a"><a href="#salary-solving-power-2" title="Copy permalink for Task 3.3.10.a">🔗</a></div></article><article class="task exercise-like" id="salary-solving-power-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="salary-solving-power-3-1-1">Wynter was complaining that things have been so busy lately at work that he’s earning the equivalent of only $9.25/hr. How many hours a week does that correspond to?<div class="autopermalink" data-description="Paragraph"><a href="#salary-solving-power-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.10.b"><a href="#salary-solving-power-3" title="Copy permalink for Task 3.3.10.b">🔗</a></div></article><article class="task exercise-like" id="salary-solving-power-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="salary-solving-power-4-1-1">Wynter was hoping to earn the equivalent of $14/hour. How many hours a week does that correspond to?<div class="autopermalink" data-description="Paragraph"><a href="#salary-solving-power-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.10.c"><a href="#salary-solving-power-4" title="Copy permalink for Task 3.3.10.c">🔗</a></div></article><article class="task exercise-like" id="salary-solving-power-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="salary-solving-power-5-1-1">Draw a graph illustrating how Wynter’s equivalent hourly wage decreases as a function of the number of hours he works. Include a few extreme values such as 10 hours and 100 hours to better see the shape of the graph.<div class="autopermalink" data-description="Paragraph"><a href="#salary-solving-power-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.3.10.d"><a href="#salary-solving-power-5" title="Copy permalink for Task 3.3.10.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 3.3.10"><a href="#salary-solving-power" title="Copy permalink for Exercise 3.3.10">🔗</a></div></article><div class="autopermalink" data-description="Exercises 3.3: Exercises"><a href="#ex-Solving_power_equations" title="Copy permalink for Exercises 3.3: Exercises">🔗</a></div></section><div class="autopermalink" data-description="Section 3.3: Solving power equations (and roots)"><a href="#sec-Solving_power_equations" title="Copy permalink for Section 3.3: Solving power equations (and roots)">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-Solving_linear_inequalities.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-Solving_exponential_equations.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
