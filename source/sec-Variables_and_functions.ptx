@@ -6,6 +6,12 @@
 	<introduction component="not-workbook">
 
 		<p>
+			The key to making algebra useful in the real world is to recognize <em>quantities</em>: things that we can measure with numbers and units. 
+		</p>
+
+		<xi:include href="./previews/pa-Variables_and_functions.ptx" />
+
+		<p>
 			Things change, like the price of gasoline, and just about every day it seems. What does it mean when the price of a gallon of gas drops from $3.999/gal to $3.299/gal? The symbol / is short for <q>per</q> or <q>for each,</q> so that means each gallon costs <me>\$3.999-\$3.299=\$0.70 = 70\text{¢}</me> less. Does this 70¢ truly matter?
 		</p>
 

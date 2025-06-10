@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-variables_and_functions">
+    <p>
+        What are some quantities in each of the following stories? Which quantities are changing and which quantities are staying the same?
+    </p>
+    <p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    You're filling up a rectangular fish tank that is 4 feet long by 2 feet wide by 3 feet high; as time goes on, the water level gets higher.
+                </p>
+            </li>
+            <li>
+                <p>
+                    You're putting a bunch of bricks in a wheelbarrow; the more bricks you add, the heavier the wheelbarrow is.
+                </p>
+            </li>
+            <li>
+                <p>
+                    You're building a gravel path around a community garden; the wider the path is, the more gravel you will need.
+                </p>
+            </li>
+            <li>
+                <p>
+                    You're driving 50 miles on the highway; the faster you drive, the sooner you will arrive at your destination.
+                </p>
+            </li>
+        </ol>
+    </p>
+</exploration>
