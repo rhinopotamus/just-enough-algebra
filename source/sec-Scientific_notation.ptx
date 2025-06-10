@@ -100,13 +100,13 @@
 		<title>Do you know <ellipsis /></title>
 
 		<p>
-			<xi:include href="./dyk-Scientific_notation.ptx" />
+			<xi:include href="./dyk/dyk-Scientific_notation.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>
 
 	
-	<xi:include href="./ex-Scientific_notation.ptx" />
+	<xi:include href="./exercises/ex-Scientific_notation.ptx" />
 
 	<xi:include href="./WYD.ptx" />
 		
@@ -114,7 +114,7 @@
 	<conclusion component="workbook">
 		<title>Do you know <ellipsis /></title>
 		<p>
-			<xi:include href="./dyk-Scientific_notation.ptx" />
+			<xi:include href="./dyk/dyk-Scientific_notation.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>

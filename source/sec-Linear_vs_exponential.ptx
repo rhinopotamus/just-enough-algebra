@@ -155,13 +155,13 @@
 		<title>Do you know <ellipsis /></title>
 
 		<p>
-			<xi:include href="./dyk-Linear_vs_exponential.ptx" />
+			<xi:include href="./dyk/dyk-Linear_vs_exponential.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>
 
 	
-	<xi:include href="./ex-Linear_vs_exponential.ptx" />
+	<xi:include href="./exercises/ex-Linear_vs_exponential.ptx" />
 
 	<xi:include href="./WYD.ptx" />
 		
@@ -169,7 +169,7 @@
 	<conclusion component="workbook">
 		<title>Do you know <ellipsis /></title>
 		<p>
-			<xi:include href="./dyk-Linear_vs_exponential.ptx" />
+			<xi:include href="./dyk/dyk-Linear_vs_exponential.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>

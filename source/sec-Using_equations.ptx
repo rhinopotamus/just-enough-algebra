@@ -165,13 +165,13 @@
 		<title>Do you know <ellipsis /></title>
 
 		<p>
-			<xi:include href="./dyk-Using_equations.ptx" />
+			<xi:include href="./dyk/dyk-Using_equations.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>
 
 	
-	<xi:include href="./ex-Using_equations.ptx" />
+	<xi:include href="./exercises/ex-Using_equations.ptx" />
 
 	<xi:include href="./WYD.ptx" />
 		
@@ -179,7 +179,7 @@
 	<conclusion component="workbook">
 		<title>Do you know <ellipsis /></title>
 		<p>
-			<xi:include href="./dyk-Using_equations.ptx" />
+			<xi:include href="./dyk/dyk-Using_equations.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>

@@ -34,13 +34,13 @@
 		<title>Do you know <ellipsis /></title>
 
 		<p>
-			<xi:include href="./dyk-Percentages.ptx" />
+			<xi:include href="./dyk/dyk-Percentages.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>
 
 	
-	<xi:include href="./ex-Percentages.ptx" />
+	<xi:include href="./exercises/ex-Percentages.ptx" />
 
 	<xi:include href="./WYD.ptx" />
 		
@@ -48,7 +48,7 @@
 	<conclusion component="workbook">
 		<title>Do you know <ellipsis /></title>
 		<p>
-			<xi:include href="./dyk-Percentages.ptx" />
+			<xi:include href="./dyk/dyk-Percentages.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>

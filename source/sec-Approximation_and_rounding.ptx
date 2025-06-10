@@ -56,13 +56,13 @@
 		<title>Do you know <ellipsis /></title>
 
 		<p>
-			<xi:include href="./dyk-Approximation_and_rounding.ptx" />
+			<xi:include href="./dyk/dyk-Approximation_and_rounding.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>
 
 
-	<xi:include href="./ex-Approximation_and_rounding.ptx" />
+	<xi:include href="./exercises/ex-Approximation_and_rounding.ptx" />
 
 	<xi:include href="./WYD.ptx" />
 		
@@ -70,7 +70,7 @@
 	<conclusion component="workbook">
 		<title>Do you know <ellipsis /></title>
 		<p>
-			<xi:include href="./dyk-Approximation_and_rounding.ptx" />
+			<xi:include href="./dyk/dyk-Approximation_and_rounding.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>

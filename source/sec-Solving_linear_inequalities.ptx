@@ -126,13 +126,13 @@
 		<title>Do you know <ellipsis /></title>
 
 		<p>
-			<xi:include href="./dyk-Solving_linear_inequalities.ptx" />
+			<xi:include href="./dyk/dyk-Solving_linear_inequalities.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>
 
 	
-	<xi:include href="./ex-Solving_linear_inequalities.ptx" />
+	<xi:include href="./exercises/ex-Solving_linear_inequalities.ptx" />
 
 	<xi:include href="./WYD.ptx" />
 		
@@ -140,7 +140,7 @@
 	<conclusion component="workbook">
 		<title>Do you know <ellipsis /></title>
 		<p>
-			<xi:include href="./dyk-Solving_linear_inequalities.ptx" />
+			<xi:include href="./dyk/dyk-Solving_linear_inequalities.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>

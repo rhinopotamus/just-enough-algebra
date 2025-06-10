@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="ws-PE1A" xmlns:xi="http://www.w3.org/2001/XInclude">
+	
+
+	<introduction>
+		<p>
+			Relax. You have done problems like these before. Even if these problems look a bit different, just do what you can. If you're not sure of something, please ask! You may use your calculator. Please show all of your work and write down as many steps as you can. Don't spend too much time on any one problem. Do well. And remember, ask me if you're not sure about something.
+		</p>
+
+		<p>
+			<em>As you work, make a <q>don't forget</q> list of any information you need to look up or ask about.</em>
+		</p>
+	</introduction>
+
+<page>
+	<exercise xml:id="hiking-PE1A" workspace="1in">
+		<introduction>
+			<p>
+				Arva and Ellie began hiking at an elevation of 1,500 feet and climbed at the steady rate of 600 vertical feet per hour.
+
+			</p>
+		</introduction>
+		<task>
+			<statement>
+				<p>
+					Name the variables, including units.
+				</p>
+			</statement>
+		</task>
+		<task workspace="0.5in">
+			<statement>
+				<p>
+					Explain the dependence using a sentence of the form <q><fillin characters="3" /> is a function of <fillin characters="3" />.</q>
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Make a table showing their elevation after 1 hour, 2 hours, and 5 hours.
+				</p>
+			</statement>
+		</task>
+		<task workspace="0.5in">
+			<statement>
+				<p>
+					Is the function increasing or decreasing?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					How long does it take them to reach 5,300 feet up? Try to figure out the answer in hours and minutes (H:MM format).
+				</p>
+			</statement>
+		</task>
+		
+	</exercise>
+</page>
+
+<page>
+	<exercise xml:id="baby-weight-PE1A" workspace="0.5in">
+		<introduction>
+			<p>
+				The table shows Henry's weight as a baby.
+			</p>
+	
+			<tabular bottom="minor" top="minor">
+			<row left="minor" class="even">
+				<cell right="minor" halign="left">Age (weeks)</cell>
+				<cell right="minor" halign="center">0</cell>
+				<cell right="minor" halign="center">12</cell>
+				<cell right="minor" halign="center">15</cell>
+			</row>
+			<row left="minor" class="odd">
+				<cell right="minor" halign="left">Weight (pounds)</cell>
+				<cell right="minor" halign="center">8</cell>
+				<cell right="minor" halign="center">14</cell>
+				<cell right="minor" halign="center">16</cell>
+			</row>
+			</tabular>
+		</introduction>
+		<task>
+			<statement>
+				<p>
+					Identify the variables, including units and dependence.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					How much weight did Henry gain, on average, each week during his first 12 weeks?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					During which time interval was Henry gaining weight faster? <em>Explain.</em>
+				</p>
+			</statement>
+		</task>
+		<task workspace="0in">
+			<statement>
+				<p>
+					Draw a graph illustrating the dependence. Choose a scale that shows up to 20 weeks and 20 pounds.
+				</p>
+				<xi:include href="../GraphPaper.ptx" />
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					What might you guess for Henry's weight at 20 weeks?
+				</p>
+			</statement>
+		</task>
+	</exercise>
+</page>
+
+<page>
+	<exercise xml:id="gas-PE1A" workspace="2in">
+		<introduction>
+			<p>
+				Pramesh's new car used 20.5 gallons of gas for a 715 mile trip.
+			</p>
+		</introduction>
+		<task>
+			<statement>
+				<p>
+					How many miles per gallon (mpg) does his car get?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					At that rate, how many gallons of gas would Pramesh use on his 3,200 mile cross-country trip?
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					If gas costs $3.799/gallon, how much will gas for that trip cost?
+				</p>
+			</statement>
+		</task>
+	</exercise>
+</page>
+		
+
+<page>
+	<exercise xml:id="atoms-PE1A" workspace="3in">
+		<introduction>
+			<p>
+				Ndwiga is reading an article in the paper about atoms. From his physics textbook he discovered that the size of an atom is 0.142 nanometers.
+			</p>
+		</introduction>
+		<task>
+			<statement>
+				<p>
+					Write the size of an atom in meters. Use 1 meter = 1,000,000,000 nanometers. Write your answer in usual decimal notation and in scientific notation.
+				</p>
+			</statement>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Ndwiga would like to know how many atoms across this sheet of paper which is 8.5 inches wide. Use that <m>1 \text{ inch} \approx 2.54 \text{ cm}</m> and <m>1 \text{ meter} = 100 \text{ cm}</m>. Express your final answer in billions of atoms.
+				</p>
+			</statement>
+		</task>
+	</exercise>
+</page>
+
+
+
+</exercises>

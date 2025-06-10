@@ -258,20 +258,20 @@
 		<title>Do you know <ellipsis /></title>
 
 		<p>
-			<xi:include href="./dyk-Tables_and_graphs.ptx" />
+			<xi:include href="./dyk/dyk-Tables_and_graphs.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>
 
 	
-	<xi:include href="./ex-Tables_and_graphs.ptx" />
+	<xi:include href="./exercises/ex-Tables_and_graphs.ptx" />
 	<xi:include href="./WYD.ptx" />
 		
 		
 	<conclusion component="workbook">
 		<title>Do you know <ellipsis /></title>
 		<p>
-			<xi:include href="./dyk-Tables_and_graphs.ptx" />
+			<xi:include href="./dyk/dyk-Tables_and_graphs.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>

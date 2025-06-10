@@ -204,13 +204,13 @@
 		<title>Do you know <ellipsis /></title>
 
 		<p>
-			<xi:include href="./dyk-Approx_solutions.ptx" />
+			<xi:include href="./dyk/dyk-Approx_solutions.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>
 
 	
-	<xi:include href="./ex-Approx_solutions.ptx" />
+	<xi:include href="./exercises/ex-Approx_solutions.ptx" />
 
 	<xi:include href="./WYD.ptx" />
 		
@@ -218,7 +218,7 @@
 	<conclusion component="workbook">
 		<title>Do you know <ellipsis /></title>
 		<p>
-			<xi:include href="./dyk-Approx_solutions.ptx" />
+			<xi:include href="./dyk/dyk-Approx_solutions.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>

@@ -230,13 +230,13 @@
 		<title>Do you know <ellipsis /></title>
 
 		<p>
-			<xi:include href="./dyk-Solving_quadratic_equations.ptx" />
+			<xi:include href="./dyk/dyk-Solving_quadratic_equations.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>
 
 	
-	<xi:include href="./ex-Solving_quadratic_equations.ptx" />
+	<xi:include href="./exercises/ex-Solving_quadratic_equations.ptx" />
 
 	<xi:include href="./WYD.ptx" />
 		
@@ -244,7 +244,7 @@
 	<conclusion component="workbook">
 		<title>Do you know <ellipsis /></title>
 		<p>
-			<xi:include href="./dyk-Solving_quadratic_equations.ptx" />
+			<xi:include href="./dyk/dyk-Solving_quadratic_equations.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>

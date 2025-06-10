@@ -30,8 +30,8 @@
 
             <appendix>
                 <title>Practice Final Exams</title>
-                <xi:include href="./ws-PE6A.ptx" />
-                <xi:include href="./ws-PE6B.ptx" />
+                <xi:include href="./practice-exams/ws-PE6A.ptx" />
+                <xi:include href="./practice-exams/ws-PE6B.ptx" />
             </appendix>
 
             <!-- templates and formulas -->

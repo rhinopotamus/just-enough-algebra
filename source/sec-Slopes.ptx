@@ -128,13 +128,13 @@
 		<title>Do you know <ellipsis /></title>
 
 		<p>
-			<xi:include href="./dyk-Slopes.ptx" />
+			<xi:include href="./dyk/dyk-Slopes.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>
 
 	
-	<xi:include href="./ex-Slopes.ptx" />
+	<xi:include href="./exercises/ex-Slopes.ptx" />
 
 	<xi:include href="./WYD.ptx" />
 		
@@ -142,7 +142,7 @@
 	<conclusion component="workbook">
 		<title>Do you know <ellipsis /></title>
 		<p>
-			<xi:include href="./dyk-Slopes.ptx" />
+			<xi:include href="./dyk/dyk-Slopes.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>

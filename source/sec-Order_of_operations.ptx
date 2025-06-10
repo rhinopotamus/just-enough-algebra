@@ -162,13 +162,13 @@
 		<title>Do you know <ellipsis /></title>
 
 		<p>
-			<xi:include href="./dyk-Order_of_operations.ptx" />
+			<xi:include href="./dyk/dyk-Order_of_operations.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>
 
 	
-	<xi:include href="./ex-Order_of_operations.ptx" />
+	<xi:include href="./exercises/ex-Order_of_operations.ptx" />
 
 	<xi:include href="./WYD.ptx" />
 		
@@ -176,7 +176,7 @@
 	<conclusion component="workbook">
 		<title>Do you know <ellipsis /></title>
 		<p>
-			<xi:include href="./dyk-Order_of_operations.ptx" />
+			<xi:include href="./dyk/dyk-Order_of_operations.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>

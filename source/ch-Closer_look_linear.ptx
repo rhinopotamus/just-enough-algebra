@@ -31,11 +31,11 @@
 
     <section xml:id="sec-PE4A">
         <title>Practice Exam 4A</title>
-        <xi:include href="./ws-PE4A.ptx" />
+        <xi:include href="./practice-exams/ws-PE4A.ptx" />
     </section>
     <section xml:id="sec-PE4B">
         <title>Practice Exam 4B</title>
-        <xi:include href="./ws-PE4B.ptx" />
+        <xi:include href="./practice-exams/ws-PE4B.ptx" />
     </section>
 
 </chapter>

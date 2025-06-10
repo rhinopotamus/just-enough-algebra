@@ -172,13 +172,13 @@
 		<title>Do you know <ellipsis /></title>
 
 		<p>
-			<xi:include href="./dyk-Systems_linear_equations.ptx" />
+			<xi:include href="./dyk/dyk-Systems_linear_equations.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>
 
 	
-	<xi:include href="./ex-Systems_linear_equations.ptx" />
+	<xi:include href="./exercises/ex-Systems_linear_equations.ptx" />
 
 	<xi:include href="./WYD.ptx" />
 		
@@ -186,7 +186,7 @@
 	<conclusion component="workbook">
 		<title>Do you know <ellipsis /></title>
 		<p>
-			<xi:include href="./dyk-Systems_linear_equations.ptx" />
+			<xi:include href="./dyk/dyk-Systems_linear_equations.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>

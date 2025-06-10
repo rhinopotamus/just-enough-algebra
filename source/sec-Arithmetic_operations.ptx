@@ -88,13 +88,13 @@
 		<title>Do you know <ellipsis /></title>
 
 		<p>
-			<xi:include href="./dyk-Arithmetic_operations.ptx" />
+			<xi:include href="./dyk/dyk-Arithmetic_operations.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>
 
 	
-	<xi:include href="./ex-Arithmetic_operations.ptx" />
+	<xi:include href="./exercises/ex-Arithmetic_operations.ptx" />
 
 	<xi:include href="./WYD.ptx" />
 		
@@ -102,7 +102,7 @@
 	<conclusion component="workbook">
 		<title>Do you know <ellipsis /></title>
 		<p>
-			<xi:include href="./dyk-Arithmetic_operations.ptx" />
+			<xi:include href="./dyk/dyk-Arithmetic_operations.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>

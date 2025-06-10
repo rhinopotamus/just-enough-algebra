@@ -105,13 +105,13 @@
 		<title>Do you know <ellipsis /></title>
 
 		<p>
-			<xi:include href="./dyk-Growth_factor.ptx" />
+			<xi:include href="./dyk/dyk-Growth_factor.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>
 
 	
-	<xi:include href="./ex-Growth_factor.ptx" />
+	<xi:include href="./exercises/ex-Growth_factor.ptx" />
 
 	<xi:include href="./WYD.ptx" />
 		
@@ -119,7 +119,7 @@
 	<conclusion component="workbook">
 		<title>Do you know <ellipsis /></title>
 		<p>
-			<xi:include href="./dyk-Growth_factor.ptx" />
+			<xi:include href="./dyk/dyk-Growth_factor.ptx" />
 		</p>
 		<xi:include href="./NotSure.ptx" />
 	</conclusion>
