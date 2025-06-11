@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-1-1-naming-variables">
+    <statement>
+        <p>
+            Here are the stories from the opening activity. We've provided some information about the variables in each story; try filling in the rest of the information in the <q>name-the-variables</q> tables.
+        </p>
+        <p>
+            <ol marker="(a)">
+                <li>
+                    <p>
+                        You're filling up a rectangular fish tank that is 4 feet long by 2 feet wide by 3 feet high; as time goes on, the water level gets higher.
+                    </p>
+                    <tabular left="minor" bottom="minor" top="minor" halign="center">
+                        <row header="yes">
+                            <cell>letter name</cell>
+                            <cell>=</cell>
+                            <cell>human words</cell>
+                            <cell right="minor" >(units)</cell>
+                        </row>
+                        <row>
+                            <cell><fillin characters="3" /></cell>
+                            <cell>=</cell>
+                            <cell>time since I turned on the hose</cell>
+                            <cell right="minor">(minutes)</cell>
+                        </row>
+                        <row>
+                            <cell><fillin characters="3" /></cell>
+                            <cell>=</cell>
+                            <cell>current water level</cell>
+                            <cell right="minor">(<fillin characters="5" />)</cell>
+                        </row>
+                    </tabular>
+                </li>
+                <li>
+                    <p>
+                        You're putting a bunch of bricks in a wheelbarrow; the more bricks you add, the heavier the wheelbarrow is.
+                    </p>
+                    <tabular left="minor" bottom="minor" top="minor" halign="center">
+                        <row header="yes">
+                            <cell>letter name</cell>
+                            <cell>=</cell>
+                            <cell>human words</cell>
+                            <cell right="minor" >(units)</cell>
+                        </row>
+                        <row>
+                            <cell><m>B</m></cell>
+                            <cell>=</cell>
+                            <cell><fillin characters="20" /></cell>
+                            <cell right="minor">(bricks)</cell>
+                        </row>
+                        <row>
+                            <cell><fillin characters="3" /></cell>
+                            <cell>=</cell>
+                            <cell><fillin characters="20" /></cell>
+                            <cell right="minor">(lbs)</cell>
+                        </row>
+                    </tabular>
+                </li>
+            </ol>
+        </p>
+    </statement>
+</activity>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-1-1-domain">
+    <statement>
+        <p>
+            Here are the same stories one more time. Decide a reasonable domain for each variable and explain why your values are reasonable.
+        </p>
+        <p>
+            <ol marker="(a)">
+                <li>
+                    <p>
+                        You're filling up a rectangular fish tank that is 4 feet long by 2 feet wide by 3 feet high; as time goes on, the water level gets higher.
+                    </p>
+                    <p>
+                        What do you think is a reasonable domain for the time since I turned on the hose? Why?
+                    </p>
+                    <p>
+                        What do you think is a reasonable domain for the current water level? Why?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        You're putting a bunch of bricks in a wheelbarrow; the more bricks you add, the heavier the wheelbarrow is.
+                    </p>
+                    <p>
+                        What do you think is a reasonable domain for the weight of the wheelbarrow? Why?
+                    </p>
+                    <p>
+                        What do you think is a reasonable domain for the number of bricks in the wheelbarrow? Why?
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+</activity>

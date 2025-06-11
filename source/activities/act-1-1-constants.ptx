@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-1-1-constants">
+    <statement>
+        <p>
+            Let's take a real close look at the fish tank story and identify some constants. Reminder of the story: You're filling up a rectangular fish tank that is 4 feet long by 2 feet wide by 3 feet high; as time goes on, the water level gets higher.
+        </p>
+        <p>
+            <ol marker="(a)">
+                <li>
+                    <p>
+                        What does the number 4 mean in the story? Does it ever change?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        What does the number 2 mean in the story? Does it ever change?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        What does the number 3 mean in the story? Does it ever change?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        How is the number 3 in the story different from the <em>variable</em> that describes the current water level?
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+</activity>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-variables_and_functions">
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="pa-1-1-quantities">
     <p>
         What are some quantities in each of the following stories? Which quantities are changing and which quantities are staying the same?
     </p>
@@ -16,7 +16,7 @@
                     You're putting a bunch of bricks in a wheelbarrow; the more bricks you add, the heavier the wheelbarrow is.
                 </p>
             </li>
-            <li>
+            <!-- <li>
                 <p>
                     You're building a gravel path around a community garden; the wider the path is, the more gravel you will need.
                 </p>
@@ -25,7 +25,7 @@
                 <p>
                     You're driving 50 miles on the highway; the faster you drive, the sooner you will arrive at your destination.
                 </p>
-            </li>
+            </li> -->
         </ol>
     </p>
 </exploration>

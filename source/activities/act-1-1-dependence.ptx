@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-1-1-dependence">
+    <statement>
+        <p>
+            Here are the same stories again. Your job this time is to decide which variable is independent and which variable is dependent. Write one or two sentences explaining your choice.
+        </p>
+        <p>
+            <ol marker="(a)">
+                <li>
+                    <p>
+                        You're filling up a rectangular fish tank that is 4 feet long by 2 feet wide by 3 feet high; as time goes on, the water level gets higher.
+                    </p>
+                    <tabular left="minor" bottom="minor" top="minor" halign="center">
+                        <row header="yes">
+                            <cell>letter name</cell>
+                            <cell>=</cell>
+                            <cell>human words</cell>
+                            <cell>(units)</cell>
+                            <cell>~</cell>
+                            <cell right="minor">dep or indep</cell>
+                        </row>
+                        <row>
+                            <cell><fillin characters="3" /></cell>
+                            <cell>=</cell>
+                            <cell>time since I turned on the hose</cell>
+                            <cell>(minutes)</cell>
+                            <cell>~</cell>
+                            <cell right="minor"><fillin characters="3" /></cell>
+                        </row>
+                        <row>
+                            <cell><fillin characters="3" /></cell>
+                            <cell>=</cell>
+                            <cell>current water level</cell>
+                            <cell>(<fillin characters="5" />)</cell>
+                            <cell>~</cell>
+                            <cell right="minor"><fillin characters="3" /></cell>
+                        </row>
+                    </tabular>
+                    <p>
+                        Explain why you chose dependent vs. independent the way you did.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        You're putting a bunch of bricks in a wheelbarrow; the more bricks you add, the heavier the wheelbarrow is.
+                    </p>
+                    <tabular left="minor" bottom="minor" top="minor" halign="center">
+                        <row header="yes">
+                            <cell>letter name</cell>
+                            <cell>=</cell>
+                            <cell>human words</cell>
+                            <cell>(units)</cell>
+                            <cell>~</cell>
+                            <cell right="minor">dep or indep</cell>
+                        </row>
+                        <row>
+                            <cell><m>B</m></cell>
+                            <cell>=</cell>
+                            <cell><fillin characters="20" /></cell>
+                            <cell>(bricks)</cell>
+                            <cell>~</cell>
+                            <cell right="minor"><fillin characters="3" /></cell>
+                        </row>
+                        <row>
+                            <cell><fillin characters="3" /></cell>
+                            <cell>=</cell>
+                            <cell><fillin characters="20" /></cell>
+                            <cell>(lbs)</cell>
+                            <cell>~</cell>
+                            <cell right="minor"><fillin characters="3" /></cell>
+                        </row>
+                    </tabular>
+                    <p>
+                        Explain why you chose dependent vs. independent the way you did.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+</activity>
