@@ -200,7 +200,15 @@ eBookConfig.enable_chatcodes =  false;
 <ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="sec-Variables_and_functions.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Variables and functions</span></a></div>
-<ul class="structural toc-item-list active"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Variables_and_functions.html#exercises-variables-functions" class="internal"><span class="codenumber">1.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Variables_and_functions.html#subsec-gasoline" class="internal"><span class="title">The changing cost of gasoline</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Variables_and_functions.html#subsec-variables" class="internal"><span class="title">Naming variables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Variables_and_functions.html#subsec-dependence" class="internal"><span class="title">Independent and dependent variables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Variables_and_functions.html#subsec-domain" class="internal"><span class="title">Domain</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Variables_and_functions.html#subsec-constants" class="internal"><span class="title">Constants</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Variables_and_functions.html#subsec-percents" class="internal"><span class="title">Percents</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Variables_and_functions.html#exercises-variables-functions" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-Tables_and_graphs.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Tables and graphs</span></a></div>
@@ -391,39 +399,51 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Variables_and_functions"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">1.1</span><span class="space"> </span><span class="title">Variables and functions</span>
 </h2>
-<section class="introduction" id="sec-Variables_and_functions-2"><div class="para" id="sec-Variables_and_functions-2-1">The key to making algebra useful in the real world is to recognize <em class="emphasis">quantities</em>: things that we can measure with numbers and units.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+<section class="introduction" id="sec-Variables_and_functions-2"><div class="para logical" id="sec-Variables_and_functions-2-1">
+<div class="para">The key to making algebra useful in the real world is to recognize <dfn class="terminology">quantities</dfn>: things that we can measure with numbers and units. Some example quantities that you’ll see in stories in this book include:</div>
+<ul class="disc" id="sec-Variables_and_functions-2-1-2">
+<li id="sec-Variables_and_functions-2-1-2-1">
+<div class="para" id="sec-Variables_and_functions-2-1-2-1-1">the height of a tree, measured in feet<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-2-1-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<article class="exploration project-like" id="PA-variables_and_functions"><h3 class="heading">
+<div class="autopermalink" data-description="Item"><a href="#sec-Variables_and_functions-2-1-2-1" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="sec-Variables_and_functions-2-1-2-2">
+<div class="para" id="sec-Variables_and_functions-2-1-2-2-1">time since a snowstorm started, measured in hours<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-2-1-2-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-Variables_and_functions-2-1-2-2" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="sec-Variables_and_functions-2-1-2-3">
+<div class="para" id="sec-Variables_and_functions-2-1-2-3-1">healthcare spending in the United States, measured in billions of dollars<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-2-1-2-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-Variables_and_functions-2-1-2-3" title="Copy permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<article class="exploration project-like" id="pa-1-1-quantities"><h3 class="heading">
 <span class="type">Exploration</span><span class="space"> </span><span class="codenumber">1.1.1</span><span class="period">.</span>
 </h3>
-<div class="para" id="PA-variables_and_functions-1">What are some quantities in each of the following stories? Which quantities are changing and which quantities are staying the same?<div class="autopermalink" data-description="Paragraph"><a href="#PA-variables_and_functions-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="pa-1-1-quantities-1">What are some quantities in each of the following stories? Which quantities are changing and which quantities are staying the same?<div class="autopermalink" data-description="Paragraph"><a href="#pa-1-1-quantities-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="PA-variables_and_functions-2">
-<ol class="lower-alpha ol-marker-2" id="PA-variables_and_functions-2-1">
-<li id="PA-variables_and_functions-2-1-1">
-<div class="para" id="PA-variables_and_functions-2-1-1-1">You’re filling up a rectangular fish tank that is 4 feet long by 2 feet wide by 3 feet high; as time goes on, the water level gets higher.<div class="autopermalink" data-description="Paragraph"><a href="#PA-variables_and_functions-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para logical" id="pa-1-1-quantities-2">
+<ol class="lower-alpha ol-marker-2" id="pa-1-1-quantities-2-1">
+<li id="pa-1-1-quantities-2-1-1">
+<div class="para" id="pa-1-1-quantities-2-1-1-1">You’re filling up a rectangular fish tank that is 4 feet long by 2 feet wide by 3 feet high; as time goes on, the water level gets higher.<div class="autopermalink" data-description="Paragraph"><a href="#pa-1-1-quantities-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item a"><a href="#PA-variables_and_functions-2-1-1" title="Copy permalink for Item a">🔗</a></div>
+<div class="autopermalink" data-description="Item a"><a href="#pa-1-1-quantities-2-1-1" title="Copy permalink for Item a">🔗</a></div>
 </li>
-<li id="PA-variables_and_functions-2-1-2">
-<div class="para" id="PA-variables_and_functions-2-1-2-1">You’re putting a bunch of bricks in a wheelbarrow; the more bricks you add, the heavier the wheelbarrow is.<div class="autopermalink" data-description="Paragraph"><a href="#PA-variables_and_functions-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+<li id="pa-1-1-quantities-2-1-2">
+<div class="para" id="pa-1-1-quantities-2-1-2-1">You’re putting a bunch of bricks in a wheelbarrow; the more bricks you add, the heavier the wheelbarrow is.<div class="autopermalink" data-description="Paragraph"><a href="#pa-1-1-quantities-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item b"><a href="#PA-variables_and_functions-2-1-2" title="Copy permalink for Item b">🔗</a></div>
-</li>
-<li id="PA-variables_and_functions-2-1-3">
-<div class="para" id="PA-variables_and_functions-2-1-3-1">You’re building a gravel path around a community garden; the wider the path is, the more gravel you will need.<div class="autopermalink" data-description="Paragraph"><a href="#PA-variables_and_functions-2-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item c"><a href="#PA-variables_and_functions-2-1-3" title="Copy permalink for Item c">🔗</a></div>
-</li>
-<li id="PA-variables_and_functions-2-1-4">
-<div class="para" id="PA-variables_and_functions-2-1-4-1">You’re driving 50 miles on the highway; the faster you drive, the sooner you will arrive at your destination.<div class="autopermalink" data-description="Paragraph"><a href="#PA-variables_and_functions-2-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item d"><a href="#PA-variables_and_functions-2-1-4" title="Copy permalink for Item d">🔗</a></div>
+<div class="autopermalink" data-description="Item b"><a href="#pa-1-1-quantities-2-1-2" title="Copy permalink for Item b">🔗</a></div>
 </li>
 </ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#PA-variables_and_functions-2" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#pa-1-1-quantities-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Exploration 1.1.1"><a href="#PA-variables_and_functions" title="Copy permalink for Exploration 1.1.1">🔗</a></div></article><div class="para logical" id="sec-Variables_and_functions-2-3">
+<div class="autopermalink" data-description="Exploration 1.1.1"><a href="#pa-1-1-quantities" title="Copy permalink for Exploration 1.1.1">🔗</a></div></article></section><section class="subsection" id="subsec-gasoline"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">The changing cost of gasoline</span>
+</h3>
+<div class="para logical" id="subsec-gasoline-2">
 <div class="para">Things change, like the price of gasoline, and just about every day it seems. What does it mean when the price of a gallon of gas drops from $3.999/gal to $3.299/gal? The symbol / is short for “per” or “for each,” so that means each gallon costs</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -431,13 +451,15 @@ eBookConfig.enable_chatcodes =  false;
 \end{equation*}
 </div>
 <div class="para">less. Does this 70¢ truly matter?</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gasoline-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec-Variables_and_functions-2-4">Before we answer that question, are you wondering why there’s that extra 9 at the end of the price? We might think a gallon costs $3.99 but there’s really a small 9 following it. Sometimes that 9 is raised up slightly on the gas station sign. You have to read the fine print. What it means is an extra <span class="process-math">\(\frac{9}{10}\)</span>¢ for each gallon. So the true price of a gallon of gas would be $3.999. Gas costs a tiny bit more than you thought. Good grief.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-gasoline-3">Before we answer that question, are you wondering why there’s that extra 9 at the end of the price? We might think a gallon costs $3.99 but there’s really a small 9 following it. Sometimes that 9 is raised up slightly on the gas station sign. You have to read the fine print. What it means is an extra <span class="process-math">\(\frac{9}{10}\)</span>¢ for each gallon. So the true price of a gallon of gas would be $3.999. Gas costs a tiny bit more than you thought. Good grief.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gasoline-3" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec-Variables_and_functions-2-5">Back to our question. Does 70¢ truly matter to us? Probably not. Can’t even buy a bag of potato chips for 70¢. But, how often do you buy just one gallon of gas? Typically you might put five, or ten, or even twenty gallons of gas into the tank. We want to understand how the price of gasoline influences what it really costs us at the pump. To do that let’s compare our costs when we buy ten gallons of gas. There’s no good reason for picking ten; it’s just a nice number to work with.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-2-5" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-gasoline-4">Back to our question. Does 70¢ truly matter to us? Probably not. Can’t even buy a bag of potato chips for 70¢. But, how often do you buy just one gallon of gas? Typically you might put five, or ten, or even twenty gallons of gas into the tank. We want to understand how the price of gasoline influences what it really costs us at the pump.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gasoline-4" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="sec-Variables_and_functions-2-6">
+<div class="para" id="subsec-gasoline-5">To do that let’s compare our costs when we buy ten gallons of gas. This is a new quantity in our story, but it’s one that we won’t change - it’s going to be <dfn class="terminology">constant</dfn> throughout our story. There’s no particular reason for picking ten; it’s just a nice number to work with.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gasoline-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-gasoline-6">
 <div class="para">If gas costs $3.999/gal and we buy 10 gallons, it costs</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -445,9 +467,9 @@ eBookConfig.enable_chatcodes =  false;
 \end{equation*}
 </div>
 <div class="para">See how we described the computation twice? First, with units, fractions, and <span class="process-math">\(\ast\)</span> for multiplication in what’s sometimes called “algebraic notation.” Then, with just numbers and <span class="process-math">\(\times\)</span> for multiplication - that’s what you can type into a calculator.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-2-6" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gasoline-6" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="sec-Variables_and_functions-2-7">
+<div class="para logical" id="subsec-gasoline-7">
 <div class="para">If gas drops to $3.299/gal and we buy 10 gallons, it costs</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -455,35 +477,100 @@ eBookConfig.enable_chatcodes =  false;
 \end{equation*}
 </div>
 <div class="para">That’s $7 less. For $7 savings on gas you could buy that bag of potato chips, and an iced tea to go with it, and still have change. That amount matters. I mean, especially since it’s $7 savings every time you put 10 gallons in the tank.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-2-7" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gasoline-7" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="sec-Variables_and_functions-2-8">
-<div class="para">Gas prices have been changing wildly, and along with them, the price of 10 gallons of gas. In mathematics, things that change are called <dfn class="terminology">variables</dfn>. The two variables we’re focusing on in this story are</div>
-<div class="displaymath process-math" id="sec-Variables_and_functions-2-8-2">
+<div class="autopermalink" data-description="Subsection: The changing cost of gasoline"><a href="#subsec-gasoline" title="Copy permalink for Subsection: The changing cost of gasoline">🔗</a></div></section><section class="subsection" id="subsec-variables"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Naming variables</span>
+</h3>
+<div class="para logical" id="subsec-variables-2">
+<div class="para">Gas prices have been changing wildly, and along with them, the price of 10 gallons of gas. In mathematics, quantities that change are called <dfn class="terminology">variables</dfn>. The two variables we’re focusing on in this story are</div>
+<div class="displaymath process-math" id="subsec-variables-2-2">
 \begin{align*}
 P \amp= \text{ price of gasoline (\$/gal) }\\
 C \amp= \text{ total cost (\$) }
 \end{align*}
 </div>
-<div class="para">Notice that we gave each variable a letter name. It is helpful to just use a single letter chosen from the word it stands for. In our example, <span class="process-math">\(P\)</span> stands for “price” and <span class="process-math">\(C\)</span> stands for “cost”. In this course we rarely use the letter <span class="process-math">\(X\)</span> simply because so few words begin with <span class="process-math">\(X\text{.}\)</span> Whenever we name a variable (<span class="process-math">\(P\)</span>) we also describe in words what it represents (the price of gasoline), and we state what units it’s measured in ($/gal).</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-2-8" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para">Notice that we gave each variable a letter name. It is helpful to just use a single letter chosen from the word it stands for. In our example, <span class="process-math">\(P\)</span> stands for “price” and <span class="process-math">\(C\)</span> stands for “cost”.  In this course we rarely use the letter <span class="process-math">\(X\)</span> simply because so few words begin with <span class="process-math">\(X\text{.}\)</span> Whenever we name a variable (<span class="process-math">\(P\)</span>) we also describe in words what it represents (the price of gasoline), and we state what units it’s measured in ($/gal).</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-variables-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec-Variables_and_functions-2-9">In talking about the relationship between these variables we might say “the total cost depends on the price of gas,” so <span class="process-math">\(C\)</span> depends on <span class="process-math">\(P\text{.}\)</span> That tells us that <span class="process-math">\(C\)</span> is the <dfn class="terminology">dependent variable</dfn> and <span class="process-math">\(P\)</span> is the <dfn class="terminology">independent variable</dfn>. In general, the variable we really care about is the dependent variable, in this case <span class="process-math">\(C\text{,}\)</span> the total amount of money it costs us. The concept of dependence is so important that there’s yet another word for it. We say that <span class="process-math">\(C\)</span> is a <dfn class="terminology">function</dfn> of <span class="process-math">\(P\text{,}\)</span> as in “cost is a function of price.”<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-2-9" title="Copy permalink for Paragraph">🔗</a></div>
+<article class="activity project-like" id="act-1-1-naming-variables"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="act-1-1-naming-variables-1-1">Here are the stories from the opening activity. We’ve provided some information about the variables in each story; try filling in the rest of the information in the “name-the-variables” tables.<div class="autopermalink" data-description="Paragraph"><a href="#act-1-1-naming-variables-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="act-1-1-naming-variables-1-2">
+<ol class="lower-alpha ol-marker-2" id="act-1-1-naming-variables-1-2-1">
+<li id="act-1-1-naming-variables-1-2-1-1">
+<div class="para" id="act-1-1-naming-variables-1-2-1-1-1">You’re filling up a rectangular fish tank that is 4 feet long by 2 feet wide by 3 feet high; as time goes on, the water level gets higher.<div class="autopermalink" data-description="Paragraph"><a href="#act-1-1-naming-variables-1-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="sec-Variables_and_functions-2-10">
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r0 l1 t1 lines">letter name</th>
+<th scope="col" class="c m b1 r0 l0 t1 lines">=</th>
+<th scope="col" class="c m b1 r0 l0 t1 lines">human words</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">(units)</th>
+</tr>
+<tr>
+<td class="c m b1 r0 l1 t0 lines"><span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span></td>
+<td class="c m b1 r0 l0 t0 lines">=</td>
+<td class="c m b1 r0 l0 t0 lines">time since I turned on the hose</td>
+<td class="c m b1 r1 l0 t0 lines">(minutes)</td>
+</tr>
+<tr>
+<td class="c m b1 r0 l1 t0 lines"><span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span></td>
+<td class="c m b1 r0 l0 t0 lines">=</td>
+<td class="c m b1 r0 l0 t0 lines">current water level</td>
+<td class="c m b1 r1 l0 t0 lines">(<span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span>)</td>
+</tr>
+</table></div>
+<div class="autopermalink" data-description="Item a"><a href="#act-1-1-naming-variables-1-2-1-1" title="Copy permalink for Item a">🔗</a></div>
+</li>
+<li id="act-1-1-naming-variables-1-2-1-2">
+<div class="para" id="act-1-1-naming-variables-1-2-1-2-1">You’re putting a bunch of bricks in a wheelbarrow; the more bricks you add, the heavier the wheelbarrow is.<div class="autopermalink" data-description="Paragraph"><a href="#act-1-1-naming-variables-1-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r0 l1 t1 lines">letter name</th>
+<th scope="col" class="c m b1 r0 l0 t1 lines">=</th>
+<th scope="col" class="c m b1 r0 l0 t1 lines">human words</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">(units)</th>
+</tr>
+<tr>
+<td class="c m b1 r0 l1 t0 lines"><span class="process-math">\(B\)</span></td>
+<td class="c m b1 r0 l0 t0 lines">=</td>
+<td class="c m b1 r0 l0 t0 lines"><span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span></td>
+<td class="c m b1 r1 l0 t0 lines">(bricks)</td>
+</tr>
+<tr>
+<td class="c m b1 r0 l1 t0 lines"><span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span></td>
+<td class="c m b1 r0 l0 t0 lines">=</td>
+<td class="c m b1 r0 l0 t0 lines"><span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span></td>
+<td class="c m b1 r1 l0 t0 lines">(lbs)</td>
+</tr>
+</table></div>
+<div class="autopermalink" data-description="Item b"><a href="#act-1-1-naming-variables-1-2-1-2" title="Copy permalink for Item b">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#act-1-1-naming-variables-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Activity 1.1.2"><a href="#act-1-1-naming-variables" title="Copy permalink for Activity 1.1.2">🔗</a></div></article><div class="autopermalink" data-description="Subsection: Naming variables"><a href="#subsec-variables" title="Copy permalink for Subsection: Naming variables">🔗</a></div></section><section class="subsection" id="subsec-dependence"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Independent and dependent variables</span>
+</h3>
+<div class="para" id="subsec-dependence-2">In talking about the relationship between these variables we might say “the total cost depends on the price of gas,” so <span class="process-math">\(C\)</span> depends on <span class="process-math">\(P\text{.}\)</span> That tells us that <span class="process-math">\(C\)</span> is the <dfn class="terminology">dependent variable</dfn> and <span class="process-math">\(P\)</span> is the <dfn class="terminology">independent variable</dfn>. In general, the variable we really care about is the dependent variable, in this case <span class="process-math">\(C\text{,}\)</span> the total amount of money it costs us. The concept of dependence is so important that there’s yet another word for it. We say that <span class="process-math">\(C\)</span> is a <dfn class="terminology">function</dfn> of <span class="process-math">\(P\text{,}\)</span> as in “cost is a function of price.”<div class="autopermalink" data-description="Paragraph"><a href="#subsec-dependence-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-dependence-3">
 <div class="para">Knowing which variable is independent or dependent is helpful to us. To emphasize the dependence, we often make a notation next to the variable name.</div>
-<div class="displaymath process-math" id="sec-Variables_and_functions-2-10-1">
+<div class="displaymath process-math" id="subsec-dependence-3-1">
 \begin{align*}
 P \amp= \text{ price of gasoline (\$/gal) } \sim \text{ indep}\\
 C \amp= \text{ total cost (\$) } \sim \text{ dep}
 \end{align*}
 </div>
 <div class="para">This labeling is rarely used outside this textbook, so add it in for yourself if you need it. In some situations dependency can be viewed either way; there might not be one correct way to do it. Labeling the dependence is extra important then, so anyone reading your work knows which way you are thinking of it.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-2-10" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-dependence-3" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec-Variables_and_functions-2-11">Given a choice, we usually assign dependence such that given a value of the independent variable, it is easy to calculate the corresponding value for the dependent variable. In our example it’s easy to use the price per gallon, <span class="process-math">\(P\text{,}\)</span> to figure out the total cost, <span class="process-math">\(C\text{.}\)</span> We can work backwards - from <span class="process-math">\(C\)</span> to <span class="process-math">\(P\)</span> - but it’s not as easy.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-2-11" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-dependence-4">Given a choice, we usually assign dependence such that given a value of the independent variable, it is easy to calculate the corresponding value for the dependent variable. In our example it’s easy to use the price per gallon, <span class="process-math">\(P\text{,}\)</span> to figure out the total cost, <span class="process-math">\(C\text{.}\)</span> We can work backwards - from <span class="process-math">\(C\)</span> to <span class="process-math">\(P\)</span> - but it’s not as easy.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-dependence-4" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="sec-Variables_and_functions-2-12">
+<div class="para logical" id="subsec-dependence-5">
 <div class="para">For example, suppose we buy 10 gallons of gas and it costs $28.99. We can figure out that the price per gallon must be</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -491,13 +578,91 @@ P=\frac{\$28.99}{10 \text{ gallons}}= 28.99 \div 10 = \$2.899 \text{/gal}
 \end{equation*}
 </div>
 <div class="para">Notice that we use the fraction as part of the algebraic notation, but we use <span class="process-math">\(\div\)</span> to indicate division on the calculator. Your calculator key for division may be <span class="process-math">\(/\)</span> instead, which we reserve as a shorthand for “per.”</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-2-12" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-dependence-5" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec-Variables_and_functions-2-13">From our experience we have a sense of what gas might cost. In my lifetime, I’ve seen gas prices as low as 35.9¢/gallon in the 1960s to a high of $4.099/gallon recently. This range of values sounds too specific, so it would sound better to say something general like<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-2-13" title="Copy permalink for Paragraph">🔗</a></div>
+<article class="activity project-like" id="act-1-1-dependence"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="act-1-1-dependence-1-1">Here are the same stories again. Your job this time is to decide which variable is independent and which variable is dependent. Write one or two sentences explaining your choice.<div class="autopermalink" data-description="Paragraph"><a href="#act-1-1-dependence-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="act-1-1-dependence-1-2">
+<ol class="lower-alpha ol-marker-2" id="act-1-1-dependence-1-2-1">
+<li id="act-1-1-dependence-1-2-1-1">
+<div class="para" id="act-1-1-dependence-1-2-1-1-1">You’re filling up a rectangular fish tank that is 4 feet long by 2 feet wide by 3 feet high; as time goes on, the water level gets higher.<div class="autopermalink" data-description="Paragraph"><a href="#act-1-1-dependence-1-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec-Variables_and_functions-2-14">“Gas prices are (definitely) between $0/gal and $5/gal.”<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-2-14" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r0 l1 t1 lines">letter name</th>
+<th scope="col" class="c m b1 r0 l0 t1 lines">=</th>
+<th scope="col" class="c m b1 r0 l0 t1 lines">human words</th>
+<th scope="col" class="c m b1 r0 l0 t1 lines">(units)</th>
+<th scope="col" class="c m b1 r0 l0 t1 lines">~</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">dep or indep</th>
+</tr>
+<tr>
+<td class="c m b1 r0 l1 t0 lines"><span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span></td>
+<td class="c m b1 r0 l0 t0 lines">=</td>
+<td class="c m b1 r0 l0 t0 lines">time since I turned on the hose</td>
+<td class="c m b1 r0 l0 t0 lines">(minutes)</td>
+<td class="c m b1 r0 l0 t0 lines">~</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span></td>
+</tr>
+<tr>
+<td class="c m b1 r0 l1 t0 lines"><span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span></td>
+<td class="c m b1 r0 l0 t0 lines">=</td>
+<td class="c m b1 r0 l0 t0 lines">current water level</td>
+<td class="c m b1 r0 l0 t0 lines">(<span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span>)</td>
+<td class="c m b1 r0 l0 t0 lines">~</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span></td>
+</tr>
+</table></div>
+<div class="para" id="act-1-1-dependence-1-2-1-1-3">Explain why you chose dependent vs. independent the way you did.<div class="autopermalink" data-description="Paragraph"><a href="#act-1-1-dependence-1-2-1-1-3" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="sec-Variables_and_functions-2-15">
+<div class="autopermalink" data-description="Item a"><a href="#act-1-1-dependence-1-2-1-1" title="Copy permalink for Item a">🔗</a></div>
+</li>
+<li id="act-1-1-dependence-1-2-1-2">
+<div class="para" id="act-1-1-dependence-1-2-1-2-1">You’re putting a bunch of bricks in a wheelbarrow; the more bricks you add, the heavier the wheelbarrow is.<div class="autopermalink" data-description="Paragraph"><a href="#act-1-1-dependence-1-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r0 l1 t1 lines">letter name</th>
+<th scope="col" class="c m b1 r0 l0 t1 lines">=</th>
+<th scope="col" class="c m b1 r0 l0 t1 lines">human words</th>
+<th scope="col" class="c m b1 r0 l0 t1 lines">(units)</th>
+<th scope="col" class="c m b1 r0 l0 t1 lines">~</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">dep or indep</th>
+</tr>
+<tr>
+<td class="c m b1 r0 l1 t0 lines"><span class="process-math">\(B\)</span></td>
+<td class="c m b1 r0 l0 t0 lines">=</td>
+<td class="c m b1 r0 l0 t0 lines"><span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span></td>
+<td class="c m b1 r0 l0 t0 lines">(bricks)</td>
+<td class="c m b1 r0 l0 t0 lines">~</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span></td>
+</tr>
+<tr>
+<td class="c m b1 r0 l1 t0 lines"><span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span></td>
+<td class="c m b1 r0 l0 t0 lines">=</td>
+<td class="c m b1 r0 l0 t0 lines"><span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span></td>
+<td class="c m b1 r0 l0 t0 lines">(lbs)</td>
+<td class="c m b1 r0 l0 t0 lines">~</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span></td>
+</tr>
+</table></div>
+<div class="para" id="act-1-1-dependence-1-2-1-2-3">Explain why you chose dependent vs. independent the way you did.<div class="autopermalink" data-description="Paragraph"><a href="#act-1-1-dependence-1-2-1-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item b"><a href="#act-1-1-dependence-1-2-1-2" title="Copy permalink for Item b">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#act-1-1-dependence-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Activity 1.1.3"><a href="#act-1-1-dependence" title="Copy permalink for Activity 1.1.3">🔗</a></div></article><div class="autopermalink" data-description="Subsection: Independent and dependent variables"><a href="#subsec-dependence" title="Copy permalink for Subsection: Independent and dependent variables">🔗</a></div></section><section class="subsection" id="subsec-domain"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Domain</span>
+</h3>
+<div class="para" id="subsec-domain-2">From our experience we have a sense of what gas might cost. In my lifetime, I’ve seen gas prices as low as 35.9¢/gallon in the 1960s to a high of $4.099/gallon recently. This range of values sounds too specific, so it would sound better to say something general like<div class="autopermalink" data-description="Paragraph"><a href="#subsec-domain-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-domain-3">“Gas prices are (definitely) between $0/gal and $5/gal.”<div class="autopermalink" data-description="Paragraph"><a href="#subsec-domain-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-domain-4">
 <div class="para">The mathematical shorthand for this sentence is</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -505,13 +670,75 @@ P=\frac{\$28.99}{10 \text{ gallons}}= 28.99 \div 10 = \$2.899 \text{/gal}
 \end{equation*}
 </div>
 <div class="para">The inequality symbol <span class="process-math">\(\le\)</span> is pronounced “less than or equal to”. Formally, the range of realistic values of the independent variable is called the <dfn class="terminology">domain</dfn> of the function <span class="process-math">\(C\text{.}\)</span> In this text, we rarely write the domain because it’s usually clear from the story what realistic values would be. The exercises in this section ask you to do so for practice.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-2-15" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-domain-4" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec-Variables_and_functions-2-16">Be aware that there are often many different numbers in a story. Some numbers are examples of values the variables take on, such as $3.999/gal or $39.99 in our example. Other numbers are <dfn class="terminology">constants</dfn>; they do not change (at least not during the story). The one constant in our story is that we are always buying 10 gallons of gas. Occasionally there are other numbers in a story that turn out not to be relevant at all, so be on the lookout.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-2-16" title="Copy permalink for Paragraph">🔗</a></div>
+<article class="activity project-like" id="act-1-1-domain"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.4</span><span class="period">.</span>
+</h4>
+<div class="para" id="act-1-1-domain-1-1">Here are the same stories one more time. Decide a reasonable domain for each variable and explain why your values are reasonable.<div class="autopermalink" data-description="Paragraph"><a href="#act-1-1-domain-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="act-1-1-domain-1-2">
+<ol class="lower-alpha ol-marker-2" id="act-1-1-domain-1-2-1">
+<li id="act-1-1-domain-1-2-1-1">
+<div class="para" id="act-1-1-domain-1-2-1-1-1">You’re filling up a rectangular fish tank that is 4 feet long by 2 feet wide by 3 feet high; as time goes on, the water level gets higher.<div class="autopermalink" data-description="Paragraph"><a href="#act-1-1-domain-1-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec-Variables_and_functions-2-17">Back to our story. A report says that the average price of gasoline in Minnesota was $2.900/gal in 2010 and increased approximately 20% per year for the next several years. We would like to check what that says about the average price of gasoline in 2011 and 2012, say. (It is unlikely that the price increase continued much longer at that rate.)<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-2-17" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="act-1-1-domain-1-2-1-1-2">What do you think is a reasonable domain for the time since I turned on the hose? Why?<div class="autopermalink" data-description="Paragraph"><a href="#act-1-1-domain-1-2-1-1-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="sec-Variables_and_functions-2-18">
+<div class="para" id="act-1-1-domain-1-2-1-1-3">What do you think is a reasonable domain for the current water level? Why?<div class="autopermalink" data-description="Paragraph"><a href="#act-1-1-domain-1-2-1-1-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item a"><a href="#act-1-1-domain-1-2-1-1" title="Copy permalink for Item a">🔗</a></div>
+</li>
+<li id="act-1-1-domain-1-2-1-2">
+<div class="para" id="act-1-1-domain-1-2-1-2-1">You’re putting a bunch of bricks in a wheelbarrow; the more bricks you add, the heavier the wheelbarrow is.<div class="autopermalink" data-description="Paragraph"><a href="#act-1-1-domain-1-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="act-1-1-domain-1-2-1-2-2">What do you think is a reasonable domain for the weight of the wheelbarrow? Why?<div class="autopermalink" data-description="Paragraph"><a href="#act-1-1-domain-1-2-1-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="act-1-1-domain-1-2-1-2-3">What do you think is a reasonable domain for the number of bricks in the wheelbarrow? Why?<div class="autopermalink" data-description="Paragraph"><a href="#act-1-1-domain-1-2-1-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item b"><a href="#act-1-1-domain-1-2-1-2" title="Copy permalink for Item b">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#act-1-1-domain-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Activity 1.1.4"><a href="#act-1-1-domain" title="Copy permalink for Activity 1.1.4">🔗</a></div></article><div class="autopermalink" data-description="Subsection: Domain"><a href="#subsec-domain" title="Copy permalink for Subsection: Domain">🔗</a></div></section><section class="subsection" id="subsec-constants"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Constants</span>
+</h3>
+<div class="para" id="subsec-constants-2">Be aware that there are often many different numbers in a story. Some numbers are examples of values the variables take on, such as $3.999/gal or $39.99 in our example. Other numbers are values of quantities that are <dfn class="terminology">constants</dfn>; they do not change (at least not during the story). The one constant in our story is that we are always buying 10 gallons of gas. Occasionally there are other numbers in a story that turn out not to be relevant at all, so be on the lookout.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-constants-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<article class="activity project-like" id="act-1-1-constants"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="act-1-1-constants-1-1">Let’s take a real close look at the fish tank story and identify some constants. Reminder of the story: You’re filling up a rectangular fish tank that is 4 feet long by 2 feet wide by 3 feet high; as time goes on, the water level gets higher.<div class="autopermalink" data-description="Paragraph"><a href="#act-1-1-constants-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="act-1-1-constants-1-2">
+<ol class="lower-alpha ol-marker-2" id="act-1-1-constants-1-2-1">
+<li id="act-1-1-constants-1-2-1-1">
+<div class="para" id="act-1-1-constants-1-2-1-1-1">What does the number 4 mean in the story? Does it ever change?<div class="autopermalink" data-description="Paragraph"><a href="#act-1-1-constants-1-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item a"><a href="#act-1-1-constants-1-2-1-1" title="Copy permalink for Item a">🔗</a></div>
+</li>
+<li id="act-1-1-constants-1-2-1-2">
+<div class="para" id="act-1-1-constants-1-2-1-2-1">What does the number 2 mean in the story? Does it ever change?<div class="autopermalink" data-description="Paragraph"><a href="#act-1-1-constants-1-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item b"><a href="#act-1-1-constants-1-2-1-2" title="Copy permalink for Item b">🔗</a></div>
+</li>
+<li id="act-1-1-constants-1-2-1-3">
+<div class="para" id="act-1-1-constants-1-2-1-3-1">What does the number 3 mean in the story? Does it ever change?<div class="autopermalink" data-description="Paragraph"><a href="#act-1-1-constants-1-2-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item c"><a href="#act-1-1-constants-1-2-1-3" title="Copy permalink for Item c">🔗</a></div>
+</li>
+<li id="act-1-1-constants-1-2-1-4">
+<div class="para" id="act-1-1-constants-1-2-1-4-1">How is the number 3 in the story different from the <em class="emphasis">variable</em> that describes the current water level?<div class="autopermalink" data-description="Paragraph"><a href="#act-1-1-constants-1-2-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item d"><a href="#act-1-1-constants-1-2-1-4" title="Copy permalink for Item d">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#act-1-1-constants-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Activity 1.1.5"><a href="#act-1-1-constants" title="Copy permalink for Activity 1.1.5">🔗</a></div></article><div class="autopermalink" data-description="Subsection: Constants"><a href="#subsec-constants" title="Copy permalink for Subsection: Constants">🔗</a></div></section><section class="subsection" id="subsec-percents"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Percents</span>
+</h3>
+<div class="para" id="subsec-percents-2">Back to our story. A report says that the average price of gasoline in Minnesota was $2.900/gal in 2010 and increased approximately 20% per year for the next several years. We would like to check what that says about the average price of gasoline in 2011 and 2012, say. (It is unlikely that the price increase continued much longer at that rate.)<div class="autopermalink" data-description="Paragraph"><a href="#subsec-percents-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-percents-3">
 <div class="para">To understand what that report is saying, we need to remember how percents work. Luckily, the word “percent” is very descriptive. The “cent” part means “hundred,” like 100 cents in a dollar or 100 years in a century. And, as usual, “per” means “for each.” Together, <dfn class="terminology">percent</dfn> means “per hundred.” The number 20% means 20 for each hundred. Written as a fraction it is <span class="process-math">\(\frac{20}{100}\text{.}\)</span> Divide to get the decimal <span class="process-math">\(20 \div 100 = 0.20.\)</span>
 </div>
 <div class="displaymath process-math">
@@ -525,9 +752,9 @@ P=\frac{\$28.99}{10 \text{ gallons}}= 28.99 \div 10 = \$2.899 \text{/gal}
 20\% = \frac{20}{100} = 20 \div 100 = 0.20
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-2-18" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-percents-3" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="sec-Variables_and_functions-2-19">
+<div class="para logical" id="subsec-percents-4">
 <div class="para">To calculate the percent of a number we multiply by the decimal version. For example,</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -541,9 +768,9 @@ P=\frac{\$28.99}{10 \text{ gallons}}= 28.99 \div 10 = \$2.899 \text{/gal}
 \end{equation*}
 </div>
 <div class="para">Sounds about right. Expensive, to be sure, but fairly accurate.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-2-19" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-percents-4" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="sec-Variables_and_functions-2-20">
+<div class="para logical" id="subsec-percents-5">
 <div class="para">For 2012, the price increased by 20% again. That means 20% of what it was in 2011. We can’t just add $0.58 again. That was 20% of the 2010 value, and we want 20% <em class="emphasis">of the 2011 value</em>. Going to have to calculate that.</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -556,76 +783,82 @@ P=\frac{\$28.99}{10 \text{ gallons}}= 28.99 \div 10 = \$2.899 \text{/gal}
 \$3.48 + \$0.696= \$4.176\text{ per gallon}
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-2-20" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-percents-5" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec-Variables_and_functions-2-21">One last note. The number 20% in the report sounds like a rough approximation. The report probably means the increase was around 20%, maybe a little less, maybe a little more. So our answers of $3.48/gal and $4.176/gal could be a little less or a little more too. But they sound so perfectly correct. To be safe, we really ought to round off these answers, to something more general like around $3.50/gal in 2011 or approximately $4.20/gal in 2012. Using our “approximately equal to” symbol we write <span class="process-math">\(P \approx \$3.50\)</span>/gal in 2011 and <span class="process-math">\(P \approx \$4.20\)</span>/gal in 2012.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-2-21" title="Copy permalink for Paragraph">🔗</a></div>
-</div></section><section class="conclusion" id="sec-Variables_and_functions-3"><h3 class="heading">Do you know …<span></span>
+<div class="para" id="subsec-percents-6">One last note. The number 20% in the report sounds like a rough approximation. The report probably means the increase was around 20%, maybe a little less, maybe a little more. So our answers of $3.48/gal and $4.176/gal could be a little less or a little more too. But they sound so perfectly correct. To be safe, we really ought to round off these answers, to something more general like around $3.50/gal in 2011 or approximately $4.20/gal in 2012. Using our “approximately equal to” symbol we write <span class="process-math">\(P \approx \$3.50\)</span>/gal in 2011 and <span class="process-math">\(P \approx \$4.20\)</span>/gal in 2012.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-percents-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection: Percents"><a href="#subsec-percents" title="Copy permalink for Subsection: Percents">🔗</a></div></section><section class="conclusion" id="sec-Variables_and_functions-9"><h3 class="heading">Do you know …<span></span>
 </h3>
-<div class="para logical" id="sec-Variables_and_functions-3-2">
-<ol class="upper-alpha ol-marker-1" id="sec-Variables_and_functions-3-2-1">
-<li id="sec-Variables_and_functions-3-2-1-1">
-<div class="para" id="sec-Variables_and_functions-3-2-1-1-1">The difference between a variable and a constant?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-3-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para logical" id="sec-Variables_and_functions-9-2">
+<ol class="upper-alpha ol-marker-1" id="sec-Variables_and_functions-9-2-1">
+<li id="sec-Variables_and_functions-9-2-1-1">
+<div class="para" id="sec-Variables_and_functions-9-2-1-1-1">What a quantity is?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-9-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item A"><a href="#sec-Variables_and_functions-3-2-1-1" title="Copy permalink for Item A">🔗</a></div>
+<div class="autopermalink" data-description="Item A"><a href="#sec-Variables_and_functions-9-2-1-1" title="Copy permalink for Item A">🔗</a></div>
 </li>
-<li id="sec-Variables_and_functions-3-2-1-2">
-<div class="para" id="sec-Variables_and_functions-3-2-1-2-1">The information needed to “name” a variable?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-3-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+<li id="sec-Variables_and_functions-9-2-1-2">
+<div class="para" id="sec-Variables_and_functions-9-2-1-2-1">The difference between a variable and a constant?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-9-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item B"><a href="#sec-Variables_and_functions-3-2-1-2" title="Copy permalink for Item B">🔗</a></div>
+<div class="autopermalink" data-description="Item B"><a href="#sec-Variables_and_functions-9-2-1-2" title="Copy permalink for Item B">🔗</a></div>
 </li>
-<li id="sec-Variables_and_functions-3-2-1-3">
-<div class="para" id="sec-Variables_and_functions-3-2-1-3-1">Which variable is dependent and which variable is independent?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-3-2-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+<li id="sec-Variables_and_functions-9-2-1-3">
+<div class="para" id="sec-Variables_and_functions-9-2-1-3-1">The information needed to “name” a variable?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-9-2-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item C"><a href="#sec-Variables_and_functions-3-2-1-3" title="Copy permalink for Item C">🔗</a></div>
+<div class="autopermalink" data-description="Item C"><a href="#sec-Variables_and_functions-9-2-1-3" title="Copy permalink for Item C">🔗</a></div>
 </li>
-<li id="sec-Variables_and_functions-3-2-1-4">
-<div class="para" id="sec-Variables_and_functions-3-2-1-4-1">What “domain” means?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-3-2-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+<li id="sec-Variables_and_functions-9-2-1-4">
+<div class="para" id="sec-Variables_and_functions-9-2-1-4-1">How to decide which variable is dependent and which variable is independent?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-9-2-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item D"><a href="#sec-Variables_and_functions-3-2-1-4" title="Copy permalink for Item D">🔗</a></div>
+<div class="autopermalink" data-description="Item D"><a href="#sec-Variables_and_functions-9-2-1-4" title="Copy permalink for Item D">🔗</a></div>
 </li>
-<li id="sec-Variables_and_functions-3-2-1-5">
-<div class="para" id="sec-Variables_and_functions-3-2-1-5-1">How to calculate percent increase?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-3-2-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+<li id="sec-Variables_and_functions-9-2-1-5">
+<div class="para" id="sec-Variables_and_functions-9-2-1-5-1">What “domain” means?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-9-2-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item E"><a href="#sec-Variables_and_functions-3-2-1-5" title="Copy permalink for Item E">🔗</a></div>
+<div class="autopermalink" data-description="Item E"><a href="#sec-Variables_and_functions-9-2-1-5" title="Copy permalink for Item E">🔗</a></div>
 </li>
-<li id="sec-Variables_and_functions-3-2-1-6">
-<div class="para" id="sec-Variables_and_functions-3-2-1-6-1">
-<span class="process-math">\(\star\)</span> The symbol for “approximately equal to”?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-3-2-1-6-1" title="Copy permalink for Paragraph">🔗</a></div>
+<li id="sec-Variables_and_functions-9-2-1-6">
+<div class="para" id="sec-Variables_and_functions-9-2-1-6-1">How to calculate percent increase?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-9-2-1-6-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item F"><a href="#sec-Variables_and_functions-3-2-1-6" title="Copy permalink for Item F">🔗</a></div>
+<div class="autopermalink" data-description="Item F"><a href="#sec-Variables_and_functions-9-2-1-6" title="Copy permalink for Item F">🔗</a></div>
 </li>
-<li id="sec-Variables_and_functions-3-2-1-7">
-<div class="para" id="sec-Variables_and_functions-3-2-1-7-1">
-<span class="process-math">\(\star\)</span> Why an approximate answer is often as good as we can get?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-3-2-1-7-1" title="Copy permalink for Paragraph">🔗</a></div>
+<li id="sec-Variables_and_functions-9-2-1-7">
+<div class="para" id="sec-Variables_and_functions-9-2-1-7-1">
+<span class="process-math">\(\star\)</span> The symbol for “approximately equal to”?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-9-2-1-7-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item G"><a href="#sec-Variables_and_functions-3-2-1-7" title="Copy permalink for Item G">🔗</a></div>
+<div class="autopermalink" data-description="Item G"><a href="#sec-Variables_and_functions-9-2-1-7" title="Copy permalink for Item G">🔗</a></div>
 </li>
-<li id="sec-Variables_and_functions-3-2-1-8">
-<div class="para" id="sec-Variables_and_functions-3-2-1-8-1">
-<span class="process-math">\(\star\)</span> When to round your answer up or down instead of off?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-3-2-1-8-1" title="Copy permalink for Paragraph">🔗</a></div>
+<li id="sec-Variables_and_functions-9-2-1-8">
+<div class="para" id="sec-Variables_and_functions-9-2-1-8-1">
+<span class="process-math">\(\star\)</span> Why an approximate answer is often as good as we can get?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-9-2-1-8-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item H"><a href="#sec-Variables_and_functions-3-2-1-8" title="Copy permalink for Item H">🔗</a></div>
+<div class="autopermalink" data-description="Item H"><a href="#sec-Variables_and_functions-9-2-1-8" title="Copy permalink for Item H">🔗</a></div>
 </li>
-<li id="sec-Variables_and_functions-3-2-1-9">
-<div class="para" id="sec-Variables_and_functions-3-2-1-9-1">
-<span class="process-math">\(\star\)</span> What the term “precisely” refers to?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-3-2-1-9-1" title="Copy permalink for Paragraph">🔗</a></div>
+<li id="sec-Variables_and_functions-9-2-1-9">
+<div class="para" id="sec-Variables_and_functions-9-2-1-9-1">
+<span class="process-math">\(\star\)</span> When to round your answer up or down instead of off?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-9-2-1-9-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item I"><a href="#sec-Variables_and_functions-3-2-1-9" title="Copy permalink for Item I">🔗</a></div>
+<div class="autopermalink" data-description="Item I"><a href="#sec-Variables_and_functions-9-2-1-9" title="Copy permalink for Item I">🔗</a></div>
 </li>
-<li id="sec-Variables_and_functions-3-2-1-10">
-<div class="para" id="sec-Variables_and_functions-3-2-1-10-1">
-<span class="process-math">\(\star\)</span> How to decide how precisely to round your answer?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-3-2-1-10-1" title="Copy permalink for Paragraph">🔗</a></div>
+<li id="sec-Variables_and_functions-9-2-1-10">
+<div class="para" id="sec-Variables_and_functions-9-2-1-10-1">
+<span class="process-math">\(\star\)</span> What the term “precisely” refers to?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-9-2-1-10-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec-Variables_and_functions-3-2-1-10-2">
-<span class="process-math">\(\star\)</span> indicates question based on <em class="emphasis">Prelude: approximation</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-3-2-1-10-2" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Item J"><a href="#sec-Variables_and_functions-9-2-1-10" title="Copy permalink for Item J">🔗</a></div>
+</li>
+<li id="sec-Variables_and_functions-9-2-1-11">
+<div class="para" id="sec-Variables_and_functions-9-2-1-11-1">
+<span class="process-math">\(\star\)</span> How to decide how precisely to round your answer?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-9-2-1-11-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item J"><a href="#sec-Variables_and_functions-3-2-1-10" title="Copy permalink for Item J">🔗</a></div>
+<div class="para" id="sec-Variables_and_functions-9-2-1-11-2">
+<span class="process-math">\(\star\)</span> indicates question based on <em class="emphasis">Prelude: approximation</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-9-2-1-11-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item K"><a href="#sec-Variables_and_functions-9-2-1-11" title="Copy permalink for Item K">🔗</a></div>
 </li>
 </ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-3-2" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-9-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec-Variables_and_functions-3-3">
-<em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-3-3" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec-Variables_and_functions-9-3">
+<em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-Variables_and_functions-9-3" title="Copy permalink for Paragraph">🔗</a></div>
 </div></section><section class="exercises" id="exercises-variables-functions"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises</span>
 </h3>
@@ -636,28 +869,28 @@ P=\frac{\$28.99}{10 \text{ gallons}}= 28.99 \div 10 = \$2.899 \text{/gal}
 <article class="task exercise-like" id="dog-food-variables-functions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="dog-food-variables-functions-2-1-1">Identify and name the variables, including the units.<div class="autopermalink" data-description="Paragraph"><a href="#dog-food-variables-functions-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.1.a"><a href="#dog-food-variables-functions-2" title="Copy permalink for Task 1.1.1.a">🔗</a></div></article><article class="task exercise-like" id="dog-food-variables-functions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="autopermalink" data-description="Task 1.a"><a href="#dog-food-variables-functions-2" title="Copy permalink for Task 1.a">🔗</a></div></article><article class="task exercise-like" id="dog-food-variables-functions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="dog-food-variables-functions-3-1-1">Which variable is dependent and which is independent?<div class="autopermalink" data-description="Paragraph"><a href="#dog-food-variables-functions-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.1.b"><a href="#dog-food-variables-functions-3" title="Copy permalink for Task 1.1.1.b">🔗</a></div></article><article class="task exercise-like" id="dog-food-variables-functions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="autopermalink" data-description="Task 1.b"><a href="#dog-food-variables-functions-3" title="Copy permalink for Task 1.b">🔗</a></div></article><article class="task exercise-like" id="dog-food-variables-functions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="dog-food-variables-functions-4-1-1">What might a 16 pound bag of dog food cost? Explain the reasoning behind your guess.<div class="autopermalink" data-description="Paragraph"><a href="#dog-food-variables-functions-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.1.c"><a href="#dog-food-variables-functions-4" title="Copy permalink for Task 1.1.1.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.1.1"><a href="#dog-food-variables-functions" title="Copy permalink for Exercise 1.1.1">🔗</a></div></article><article class="exercise exercise-like" id="riverside-rent-variables-functions"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="autopermalink" data-description="Task 1.c"><a href="#dog-food-variables-functions-4" title="Copy permalink for Task 1.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1"><a href="#dog-food-variables-functions" title="Copy permalink for Exercise 1">🔗</a></div></article><article class="exercise exercise-like" id="riverside-rent-variables-functions"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
 <div class="introduction" id="riverside-rent-variables-functions-1"><div class="para" id="riverside-rent-variables-functions-1-1">Rent in the Riverside Neighborhood is expected to increase 7.2% each year. Average rent for an apartment is currently $830 per month. <em class="emphasis">(Story also appears in <a href="sec-Solving_exponential_equations.html#riverside-rent-solving-exponential" class="xref" data-knowl="./knowl/xref/riverside-rent-solving-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.4.3">3.4.3</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#riverside-rent-variables-functions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div></div>
 <article class="task exercise-like" id="riverside-rent-variables-functions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="riverside-rent-variables-functions-2-1-1">Identify and name the variables, including the units.<div class="autopermalink" data-description="Paragraph"><a href="#riverside-rent-variables-functions-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.2.a"><a href="#riverside-rent-variables-functions-2" title="Copy permalink for Task 1.1.2.a">🔗</a></div></article><article class="task exercise-like" id="riverside-rent-variables-functions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="autopermalink" data-description="Task 2.a"><a href="#riverside-rent-variables-functions-2" title="Copy permalink for Task 2.a">🔗</a></div></article><article class="task exercise-like" id="riverside-rent-variables-functions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="riverside-rent-variables-functions-3-1-1">Explain the dependence using a sentence of the form “<span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span> is a function of <span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span>”.<div class="autopermalink" data-description="Paragraph"><a href="#riverside-rent-variables-functions-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.2.b"><a href="#riverside-rent-variables-functions-3" title="Copy permalink for Task 1.1.2.b">🔗</a></div></article><article class="task exercise-like" id="riverside-rent-variables-functions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="autopermalink" data-description="Task 2.b"><a href="#riverside-rent-variables-functions-3" title="Copy permalink for Task 2.b">🔗</a></div></article><article class="task exercise-like" id="riverside-rent-variables-functions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="riverside-rent-variables-functions-4-1-1">Which number is a constant in this story: the percent increase (7.2) or the apartment rent (830)?<div class="autopermalink" data-description="Paragraph"><a href="#riverside-rent-variables-functions-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.2.c"><a href="#riverside-rent-variables-functions-4" title="Copy permalink for Task 1.1.2.c">🔗</a></div></article><article class="task exercise-like" id="riverside-rent-variables-functions-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="autopermalink" data-description="Task 2.c"><a href="#riverside-rent-variables-functions-4" title="Copy permalink for Task 2.c">🔗</a></div></article><article class="task exercise-like" id="riverside-rent-variables-functions-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
 <div class="para" id="riverside-rent-variables-functions-5-1-1">What is a realistic domain for this function? That means, for how many years might this sort of increase in rent continue? Express your answer as an inequality.<div class="autopermalink" data-description="Paragraph"><a href="#riverside-rent-variables-functions-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.2.d"><a href="#riverside-rent-variables-functions-5" title="Copy permalink for Task 1.1.2.d">🔗</a></div></article><article class="task exercise-like" id="riverside-rent-variables-functions-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="autopermalink" data-description="Task 2.d"><a href="#riverside-rent-variables-functions-5" title="Copy permalink for Task 2.d">🔗</a></div></article><article class="task exercise-like" id="riverside-rent-variables-functions-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
 <div class="para logical" id="riverside-rent-variables-functions-6-1-1">
 <div class="para">What is the average rent expected to be in 1 year? In 2 years? In 3 years? Note that</div>
 <div class="displaymath process-math">
@@ -668,7 +901,7 @@ P=\frac{\$28.99}{10 \text{ gallons}}= 28.99 \div 10 = \$2.899 \text{/gal}
 <div class="para">Try figuring it out.</div>
 <div class="autopermalink" data-description="Paragraph"><a href="#riverside-rent-variables-functions-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.2.e"><a href="#riverside-rent-variables-functions-6" title="Copy permalink for Task 1.1.2.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.1.2"><a href="#riverside-rent-variables-functions" title="Copy permalink for Exercise 1.1.2">🔗</a></div></article><article class="exercise exercise-like" id="rounding-variables-functions"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="autopermalink" data-description="Task 2.e"><a href="#riverside-rent-variables-functions-6" title="Copy permalink for Task 2.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2"><a href="#riverside-rent-variables-functions" title="Copy permalink for Exercise 2">🔗</a></div></article><article class="exercise exercise-like" id="rounding-variables-functions"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
 <div class="introduction" id="rounding-variables-functions-1">
 <div class="para" id="rounding-variables-functions-1-1">Round each number up, down, or off to the precision indicated.<div class="autopermalink" data-description="Paragraph"><a href="#rounding-variables-functions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
@@ -679,38 +912,38 @@ P=\frac{\$28.99}{10 \text{ gallons}}= 28.99 \div 10 = \$2.899 \text{/gal}
 <article class="task exercise-like" id="rounding-variables-functions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="rounding-variables-functions-2-1-1">My calculations show I need a cross brace around 9.388 feet long. I want the board to be long enough, so round up to the nearest foot.<div class="autopermalink" data-description="Paragraph"><a href="#rounding-variables-functions-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.3.a"><a href="#rounding-variables-functions-2" title="Copy permalink for Task 1.1.3.a">🔗</a></div></article><article class="task exercise-like" id="rounding-variables-functions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="autopermalink" data-description="Task 3.a"><a href="#rounding-variables-functions-2" title="Copy permalink for Task 3.a">🔗</a></div></article><article class="task exercise-like" id="rounding-variables-functions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="rounding-variables-functions-3-1-1">Gas mileage is usually rounded down to the nearest one decimal place. What is the gas mileage for a car measured as getting 42.812 miles per gallon? What about a car getting 23.09 miles per gallon?<div class="autopermalink" data-description="Paragraph"><a href="#rounding-variables-functions-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.3.b"><a href="#rounding-variables-functions-3" title="Copy permalink for Task 1.1.3.b">🔗</a></div></article><article class="task exercise-like" id="rounding-variables-functions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="autopermalink" data-description="Task 3.b"><a href="#rounding-variables-functions-3" title="Copy permalink for Task 3.b">🔗</a></div></article><article class="task exercise-like" id="rounding-variables-functions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="rounding-variables-functions-4-1-1">The original budget estimates for the new community center gym were rounded to the nearest hundred (that means ending in 00), so we want to round our bid of $148,214.79 to the nearest hundred.<div class="autopermalink" data-description="Paragraph"><a href="#rounding-variables-functions-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.3.c"><a href="#rounding-variables-functions-4" title="Copy permalink for Task 1.1.3.c">🔗</a></div></article><article class="task exercise-like" id="rounding-variables-functions-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="autopermalink" data-description="Task 3.c"><a href="#rounding-variables-functions-4" title="Copy permalink for Task 3.c">🔗</a></div></article><article class="task exercise-like" id="rounding-variables-functions-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
 <div class="para" id="rounding-variables-functions-5-1-1">The population estimate was 4.2 million people, but revised estimates suggest 4,908,229 people. Report the revised estimate rounded appropriately.<div class="autopermalink" data-description="Paragraph"><a href="#rounding-variables-functions-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.3.d"><a href="#rounding-variables-functions-5" title="Copy permalink for Task 1.1.3.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.1.3"><a href="#rounding-variables-functions" title="Copy permalink for Exercise 1.1.3">🔗</a></div></article><article class="exercise exercise-like" id="time-variables-functions"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
-<div class="introduction" id="time-variables-functions-1"><div class="para" id="time-variables-functions-1-1">It’s about time! In each story, time is one (or both) of the variables. Identify and name the variables, including units and dependence. <em class="emphasis">(Stories also appear in <a href="sec-Variables_and_functions.html#time-2-variables-functions" class="xref" data-knowl="./knowl/xref/time-2-variables-functions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.1.5">1.1.5</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#time-variables-functions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Task 3.d"><a href="#rounding-variables-functions-5" title="Copy permalink for Task 3.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 3"><a href="#rounding-variables-functions" title="Copy permalink for Exercise 3">🔗</a></div></article><article class="exercise exercise-like" id="time-variables-functions"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="time-variables-functions-1"><div class="para" id="time-variables-functions-1-1">It’s about time! In each story, time is one (or both) of the variables. Identify and name the variables, including units and dependence. <em class="emphasis">(Stories also appear in <a href="sec-Variables_and_functions.html#time-2-variables-functions" class="xref" data-knowl="./knowl/xref/time-2-variables-functions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 5">5</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#time-variables-functions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div></div>
 <article class="task exercise-like" id="time-variables-functions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="time-variables-functions-2-1-1">The Nussbaums planted a walnut tree years ago when they first bought their house. The tree was 5 feet tall then and has grown around 2 feet a year.<div class="autopermalink" data-description="Paragraph"><a href="#time-variables-functions-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div> <div class="para" id="time-variables-functions-2-1-2">
 <em class="emphasis">(Story also appears in <a href="sec-Arithmetic_operations.html#walnut-tree-arithmetic-operations" class="xref" data-knowl="./knowl/xref/walnut-tree-arithmetic-operations.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.2.7">0.2.7</a> and <a href="sec-Algebraic_notation.html#walnut-tree-algebraic-notation" class="xref" data-knowl="./knowl/xref/walnut-tree-algebraic-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.7.6">0.7.6</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#time-variables-functions-2-1-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.4.a"><a href="#time-variables-functions-2" title="Copy permalink for Task 1.1.4.a">🔗</a></div></article><article class="task exercise-like" id="bac-variables-functions"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="autopermalink" data-description="Task 4.a"><a href="#time-variables-functions-2" title="Copy permalink for Task 4.a">🔗</a></div></article><article class="task exercise-like" id="bac-variables-functions"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="bac-variables-functions-1-1">After his first beer, Stephen’s blood alcohol content (BAC) was already 0.04, and as he continued to drink, his BAC level rose 45% per hour. <em class="emphasis">(Story also appears in <a href="sec-Approx_solutions.html#bac-approx-solutions" class="xref" data-knowl="./knowl/xref/bac-approx-solutions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.4.9">2.4.9</a> and <a href="sec-Solving_exponential_equations.html#bac-solving-exponential" class="xref" data-knowl="./knowl/xref/bac-solving-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.4.1">3.4.1</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#bac-variables-functions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.4.b"><a href="#bac-variables-functions" title="Copy permalink for Task 1.1.4.b">🔗</a></div></article><article class="task exercise-like" id="time-variables-functions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="autopermalink" data-description="Task 4.b"><a href="#bac-variables-functions" title="Copy permalink for Task 4.b">🔗</a></div></article><article class="task exercise-like" id="time-variables-functions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="time-variables-functions-4-1-1">When McKenna drives 60 mph (miles per hour), it takes her 20 minutes on the highway to get between exits, but when traffic is bad, it can take her an hour.<div class="autopermalink" data-description="Paragraph"><a href="#time-variables-functions-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.4.c"><a href="#time-variables-functions-4" title="Copy permalink for Task 1.1.4.c">🔗</a></div></article><article class="task exercise-like" id="time-variables-functions-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="autopermalink" data-description="Task 4.c"><a href="#time-variables-functions-4" title="Copy permalink for Task 4.c">🔗</a></div></article><article class="task exercise-like" id="time-variables-functions-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
 <div class="para" id="time-variables-functions-5-1-1">The sun set at 6:00 p.m. today, and I heard on the radio that at this time of year, it sets about 2 minutes earlier each day. <em class="emphasis">(Hint: measure the sunset time in minutes after 6:00 p.m.)</em><div class="autopermalink" data-description="Paragraph"><a href="#time-variables-functions-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.4.d"><a href="#time-variables-functions-5" title="Copy permalink for Task 1.1.4.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.1.4"><a href="#time-variables-functions" title="Copy permalink for Exercise 1.1.4">🔗</a></div></article><article class="exercise exercise-like" id="time-2-variables-functions"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="autopermalink" data-description="Task 4.d"><a href="#time-variables-functions-5" title="Copy permalink for Task 4.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4"><a href="#time-variables-functions" title="Copy permalink for Exercise 4">🔗</a></div></article><article class="exercise exercise-like" id="time-2-variables-functions"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
 <div class="introduction" id="time-2-variables-functions-1">
 <div class="para" id="time-2-variables-functions-1-1">It’s about time! For each story, try to figure out the answer to the question(s).<div class="autopermalink" data-description="Paragraph"><a href="#time-2-variables-functions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="time-2-variables-functions-1-2">
-<em class="emphasis">(Stories also appear in <a href="sec-Variables_and_functions.html#time-variables-functions" class="xref" data-knowl="./knowl/xref/time-variables-functions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.1.4">1.1.4</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#time-2-variables-functions-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+<em class="emphasis">(Stories also appear in <a href="sec-Variables_and_functions.html#time-variables-functions" class="xref" data-knowl="./knowl/xref/time-variables-functions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 4">4</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#time-2-variables-functions-1-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
 </div>
 <article class="task exercise-like" id="time-2-variables-functions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
@@ -718,7 +951,7 @@ P=\frac{\$28.99}{10 \text{ gallons}}= 28.99 \div 10 = \$2.899 \text{/gal}
 </div> <div class="para" id="time-2-variables-functions-2-1-2">
 <em class="emphasis">(Story also appears in <a href="sec-Arithmetic_operations.html#walnut-tree-arithmetic-operations" class="xref" data-knowl="./knowl/xref/walnut-tree-arithmetic-operations.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.2.7">0.2.7</a> and <a href="sec-Algebraic_notation.html#walnut-tree-algebraic-notation" class="xref" data-knowl="./knowl/xref/walnut-tree-algebraic-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.7.6">0.7.6</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#time-2-variables-functions-2-1-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.5.a"><a href="#time-2-variables-functions-2" title="Copy permalink for Task 1.1.5.a">🔗</a></div></article><article class="task exercise-like" id="time-2-variables-functions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="autopermalink" data-description="Task 5.a"><a href="#time-2-variables-functions-2" title="Copy permalink for Task 5.a">🔗</a></div></article><article class="task exercise-like" id="time-2-variables-functions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para logical" id="time-2-variables-functions-3-1-1">
 <div class="para">After his first beer, Stephen’s blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour. Note that</div>
 <div class="displaymath process-math">
@@ -731,49 +964,49 @@ P=\frac{\$28.99}{10 \text{ gallons}}= 28.99 \div 10 = \$2.899 \text{/gal}
 </div> <div class="para" id="time-2-variables-functions-3-1-2">
 <em class="emphasis">(Story also appears in <a href="sec-Approx_solutions.html#bac-approx-solutions" class="xref" data-knowl="./knowl/xref/bac-approx-solutions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.4.9">2.4.9</a> and <a href="sec-Solving_exponential_equations.html#bac-solving-exponential" class="xref" data-knowl="./knowl/xref/bac-solving-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.4.1">3.4.1</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#time-2-variables-functions-3-1-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.5.b"><a href="#time-2-variables-functions-3" title="Copy permalink for Task 1.1.5.b">🔗</a></div></article><article class="task exercise-like" id="time-2-variables-functions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="autopermalink" data-description="Task 5.b"><a href="#time-2-variables-functions-3" title="Copy permalink for Task 5.b">🔗</a></div></article><article class="task exercise-like" id="time-2-variables-functions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="time-2-variables-functions-4-1-1">When McKenna drives 60 mph (miles per hour) it takes her 20 minutes on the highway to get between exits, but when traffic is bad it can take her an hour. How slow is McKenna driving when traffic is bad? <em class="emphasis">Hint: can you figure out the distance between exits?</em><div class="autopermalink" data-description="Paragraph"><a href="#time-2-variables-functions-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.5.c"><a href="#time-2-variables-functions-4" title="Copy permalink for Task 1.1.5.c">🔗</a></div></article><article class="task exercise-like" id="time-2-variables-functions-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="autopermalink" data-description="Task 5.c"><a href="#time-2-variables-functions-4" title="Copy permalink for Task 5.c">🔗</a></div></article><article class="task exercise-like" id="time-2-variables-functions-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
 <div class="para" id="time-2-variables-functions-5-1-1">The sun set at 6:00 p.m. today and I heard on the radio that it sets about 2 minutes earlier each day this time of year. In how many days will the sun set at 4:30 p.m.? <em class="emphasis">Bonus question: in what month is the story set?</em><div class="autopermalink" data-description="Paragraph"><a href="#time-2-variables-functions-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.5.d"><a href="#time-2-variables-functions-5" title="Copy permalink for Task 1.1.5.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.1.5"><a href="#time-2-variables-functions" title="Copy permalink for Exercise 1.1.5">🔗</a></div></article><article class="exercise exercise-like" id="temp-mpls-variables-functions"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="autopermalink" data-description="Task 5.d"><a href="#time-2-variables-functions-5" title="Copy permalink for Task 5.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 5"><a href="#time-2-variables-functions" title="Copy permalink for Exercise 5">🔗</a></div></article><article class="exercise exercise-like" id="temp-mpls-variables-functions"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
 <div class="introduction" id="temp-mpls-variables-functions-1"><div class="para" id="temp-mpls-variables-functions-1-1">The temperature was 40°F at noon yesterday downtown Minneapolis but it dropped 3°F an hour in the afternoon. <em class="emphasis">(Story also appears in <a href="sec-Tables_and_graphs.html#temp-mpls-tables-graphs" class="xref" data-knowl="./knowl/xref/temp-mpls-tables-graphs.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.2.7">1.2.7</a> and <a href="sec-Modeling_linear_equations.html#temp-mpls-modeling-linear" class="xref" data-knowl="./knowl/xref/temp-mpls-modeling-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 4.1.8">4.1.8</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#temp-mpls-variables-functions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div></div>
 <article class="task exercise-like" id="temp-mpls-variables-functions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="temp-mpls-variables-functions-2-1-1">Which number is a constant in this story: the temperature (40) or the rate at which the temperature dropped (3)?<div class="autopermalink" data-description="Paragraph"><a href="#temp-mpls-variables-functions-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.6.a"><a href="#temp-mpls-variables-functions-2" title="Copy permalink for Task 1.1.6.a">🔗</a></div></article><article class="task exercise-like" id="temp-mpls-variables-functions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="autopermalink" data-description="Task 6.a"><a href="#temp-mpls-variables-functions-2" title="Copy permalink for Task 6.a">🔗</a></div></article><article class="task exercise-like" id="temp-mpls-variables-functions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="temp-mpls-variables-functions-3-1-1">Name the variables, including units and dependence.<div class="autopermalink" data-description="Paragraph"><a href="#temp-mpls-variables-functions-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.6.b"><a href="#temp-mpls-variables-functions-3" title="Copy permalink for Task 1.1.6.b">🔗</a></div></article><article class="task exercise-like" id="temp-mpls-variables-functions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="autopermalink" data-description="Task 6.b"><a href="#temp-mpls-variables-functions-3" title="Copy permalink for Task 6.b">🔗</a></div></article><article class="task exercise-like" id="temp-mpls-variables-functions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="temp-mpls-variables-functions-4-1-1">When did the temperature drop below freezing (32°F)?<div class="autopermalink" data-description="Paragraph"><a href="#temp-mpls-variables-functions-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.6.c"><a href="#temp-mpls-variables-functions-4" title="Copy permalink for Task 1.1.6.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.1.6"><a href="#temp-mpls-variables-functions" title="Copy permalink for Exercise 1.1.6">🔗</a></div></article><article class="exercise exercise-like" id="social-security-variables-functions"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="autopermalink" data-description="Task 6.c"><a href="#temp-mpls-variables-functions-4" title="Copy permalink for Task 6.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 6"><a href="#temp-mpls-variables-functions" title="Copy permalink for Exercise 6">🔗</a></div></article><article class="exercise exercise-like" id="social-security-variables-functions"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
 <div class="introduction" id="social-security-variables-functions-1"><div class="para" id="social-security-variables-functions-1-1">Mrs. Nystrom’s Social Security benefit was $746.17/month when she retired from teaching in 2009. She had taught in elementary school since I was a girl. Benefits have increased by 4% per year. <em class="emphasis">(Story also appears in <a href="sec-Arithmetic_operations.html#social-security-arithmetic-operations" class="xref" data-knowl="./knowl/xref/social-security-arithmetic-operations.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.2.5">0.2.5</a>, <a href="sec-Tables_and_graphs.html#social-security-tables-graphs" class="xref" data-knowl="./knowl/xref/social-security-tables-graphs.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.2.8">1.2.8</a>, and <a href="sec-Modeling_exponential_equations.html#social-security-modeling-exponential" class="xref" data-knowl="./knowl/xref/social-security-modeling-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 5.1.6">5.1.6</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#social-security-variables-functions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div></div>
 <article class="task exercise-like" id="social-security-variables-functions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="social-security-variables-functions-2-1-1">Name the variables, including units and dependence.<div class="autopermalink" data-description="Paragraph"><a href="#social-security-variables-functions-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.7.a"><a href="#social-security-variables-functions-2" title="Copy permalink for Task 1.1.7.a">🔗</a></div></article><article class="task exercise-like" id="social-security-variables-functions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="autopermalink" data-description="Task 7.a"><a href="#social-security-variables-functions-2" title="Copy permalink for Task 7.a">🔗</a></div></article><article class="task exercise-like" id="social-security-variables-functions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="social-security-variables-functions-3-1-1">What was her benefit in 2012?<div class="autopermalink" data-description="Paragraph"><a href="#social-security-variables-functions-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.7.b"><a href="#social-security-variables-functions-3" title="Copy permalink for Task 1.1.7.b">🔗</a></div></article><article class="task exercise-like" id="social-security-variables-functions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="autopermalink" data-description="Task 7.b"><a href="#social-security-variables-functions-3" title="Copy permalink for Task 7.b">🔗</a></div></article><article class="task exercise-like" id="social-security-variables-functions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="social-security-variables-functions-4-1-1">When will her benefit pass $900/month? A reasonable guess is fine.<div class="autopermalink" data-description="Paragraph"><a href="#social-security-variables-functions-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.7.c"><a href="#social-security-variables-functions-4" title="Copy permalink for Task 1.1.7.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.1.7"><a href="#social-security-variables-functions" title="Copy permalink for Exercise 1.1.7">🔗</a></div></article><article class="exercise exercise-like" id="stamps-variables-functions"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="autopermalink" data-description="Task 7.c"><a href="#social-security-variables-functions-4" title="Copy permalink for Task 7.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 7"><a href="#social-security-variables-functions" title="Copy permalink for Exercise 7">🔗</a></div></article><article class="exercise exercise-like" id="stamps-variables-functions"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
 <div class="introduction" id="stamps-variables-functions-1"><div class="para" id="stamps-variables-functions-1-1">Between e-mail, automatic bill pay, and online banking, it seems like I hardly ever actually mail something. But for those times, I need postage stamps. The corner store sells as many (or few) stamps as I want for 44¢ each but they charge a 75¢ convenience fee for the whole purchase. (<em class="emphasis">Story also appears in <a href="sec-Solving_linear_equations.html#stamps-solving-linear" class="xref" data-knowl="./knowl/xref/stamps-solving-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.1.7">3.1.7</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#stamps-variables-functions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div></div>
 <article class="task exercise-like" id="stamps-variables-functions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="stamps-variables-functions-2-1-1">Identify and name the variables, including the units.<div class="autopermalink" data-description="Paragraph"><a href="#stamps-variables-functions-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.8.a"><a href="#stamps-variables-functions-2" title="Copy permalink for Task 1.1.8.a">🔗</a></div></article><article class="task exercise-like" id="stamps-variables-functions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="autopermalink" data-description="Task 8.a"><a href="#stamps-variables-functions-2" title="Copy permalink for Task 8.a">🔗</a></div></article><article class="task exercise-like" id="stamps-variables-functions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="stamps-variables-functions-3-1-1">Which variable is dependent and which is independent?<div class="autopermalink" data-description="Paragraph"><a href="#stamps-variables-functions-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.8.b"><a href="#stamps-variables-functions-3" title="Copy permalink for Task 1.1.8.b">🔗</a></div></article><article class="task exercise-like" id="stamps-variables-functions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="autopermalink" data-description="Task 8.b"><a href="#stamps-variables-functions-3" title="Copy permalink for Task 8.b">🔗</a></div></article><article class="task exercise-like" id="stamps-variables-functions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="stamps-variables-functions-4-1-1">How many stamps could I buy for $10? Try to figure it out from the story.<div class="autopermalink" data-description="Paragraph"><a href="#stamps-variables-functions-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.8.c"><a href="#stamps-variables-functions-4" title="Copy permalink for Task 1.1.8.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.1.8"><a href="#stamps-variables-functions" title="Copy permalink for Exercise 1.1.8">🔗</a></div></article><article class="exercise exercise-like" id="car-value-variables-functions"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="autopermalink" data-description="Task 8.c"><a href="#stamps-variables-functions-4" title="Copy permalink for Task 8.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 8"><a href="#stamps-variables-functions" title="Copy permalink for Exercise 8">🔗</a></div></article><article class="exercise exercise-like" id="car-value-variables-functions"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
 <div class="introduction" id="car-value-variables-functions-1">
 <div class="para" id="car-value-variables-functions-1-1">Sofía bought her car new for $22,500. Now the car is fairly old and just passed 109,000 miles. Sofía looked online and estimates the car is still worth $5,700.<div class="autopermalink" data-description="Paragraph"><a href="#car-value-variables-functions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
@@ -783,16 +1016,16 @@ P=\frac{\$28.99}{10 \text{ gallons}}= 28.99 \div 10 = \$2.899 \text{/gal}
 <article class="task exercise-like" id="car-value-variables-functions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="car-value-variables-functions-2-1-1">Identify and name the variables, including the units.<div class="autopermalink" data-description="Paragraph"><a href="#car-value-variables-functions-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.9.a"><a href="#car-value-variables-functions-2" title="Copy permalink for Task 1.1.9.a">🔗</a></div></article><article class="task exercise-like" id="car-value-variables-functions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="autopermalink" data-description="Task 9.a"><a href="#car-value-variables-functions-2" title="Copy permalink for Task 9.a">🔗</a></div></article><article class="task exercise-like" id="car-value-variables-functions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="car-value-variables-functions-3-1-1">Explain the dependence using a sentence of the form “<span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span> is a function of <span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span>”.<div class="autopermalink" data-description="Paragraph"><a href="#car-value-variables-functions-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.9.b"><a href="#car-value-variables-functions-3" title="Copy permalink for Task 1.1.9.b">🔗</a></div></article><article class="task exercise-like" id="car-value-variables-functions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="autopermalink" data-description="Task 9.b"><a href="#car-value-variables-functions-3" title="Copy permalink for Task 9.b">🔗</a></div></article><article class="task exercise-like" id="car-value-variables-functions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="car-value-variables-functions-4-1-1">What is a realistic number of miles for a car to drive? Express the domain as an inequality.<div class="autopermalink" data-description="Paragraph"><a href="#car-value-variables-functions-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.9.c"><a href="#car-value-variables-functions-4" title="Copy permalink for Task 1.1.9.c">🔗</a></div></article><article class="task exercise-like" id="car-value-variables-functions-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="autopermalink" data-description="Task 9.c"><a href="#car-value-variables-functions-4" title="Copy permalink for Task 9.c">🔗</a></div></article><article class="task exercise-like" id="car-value-variables-functions-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
 <div class="para" id="car-value-variables-functions-5-1-1">Sofía wonders when the car would be practically worthless, meaning under $500. Make a reasonable guess.<div class="autopermalink" data-description="Paragraph"><a href="#car-value-variables-functions-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.9.d"><a href="#car-value-variables-functions-5" title="Copy permalink for Task 1.1.9.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.1.9"><a href="#car-value-variables-functions" title="Copy permalink for Exercise 1.1.9">🔗</a></div></article><article class="exercise exercise-like" id="name-vars-variables-functions"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<div class="autopermalink" data-description="Task 9.d"><a href="#car-value-variables-functions-5" title="Copy permalink for Task 9.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 9"><a href="#car-value-variables-functions" title="Copy permalink for Exercise 9">🔗</a></div></article><article class="exercise exercise-like" id="name-vars-variables-functions"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
 <div class="introduction" id="name-vars-variables-functions-1"><div class="para" id="name-vars-variables-functions-1-1">For each story, name the variables including units and dependence.<div class="autopermalink" data-description="Paragraph"><a href="#name-vars-variables-functions-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div></div>
 <article class="task exercise-like" id="name-vars-variables-functions-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
@@ -800,15 +1033,15 @@ P=\frac{\$28.99}{10 \text{ gallons}}= 28.99 \div 10 = \$2.899 \text{/gal}
 </div> <div class="para" id="name-vars-variables-functions-2-1-2">
 <em class="emphasis">(Story also appears in <a href="sec-Using_equations.html#lamp-intensity-using-equations" class="xref" data-knowl="./knowl/xref/lamp-intensity-using-equations.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.3.6">2.3.6</a> and <a href="sec-Solving_power_equations.html#lamp-intensity-solving-power" class="xref" data-knowl="./knowl/xref/lamp-intensity-solving-power.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.3.7">3.3.7</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#name-vars-variables-functions-2-1-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.10.a"><a href="#name-vars-variables-functions-2" title="Copy permalink for Task 1.1.10.a">🔗</a></div></article><article class="task exercise-like" id="name-vars-variables-functions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="autopermalink" data-description="Task 10.a"><a href="#name-vars-variables-functions-2" title="Copy permalink for Task 10.a">🔗</a></div></article><article class="task exercise-like" id="name-vars-variables-functions-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="name-vars-variables-functions-3-1-1">The thicker the piece of fish, the longer it takes to grill it.<div class="autopermalink" data-description="Paragraph"><a href="#name-vars-variables-functions-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div> <div class="para" id="name-vars-variables-functions-3-1-2">
 <em class="emphasis">(Story also appears in <a href="sec-Using_equations.html#grilling-fish-using-equations" class="xref" data-knowl="./knowl/xref/grilling-fish-using-equations.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.3.9">2.3.9</a> and <a href="sec-Solving_quadratic_equations.html#grilling-fish-solving-quadratic" class="xref" data-knowl="./knowl/xref/grilling-fish-solving-quadratic.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.5.8">3.5.8</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#name-vars-variables-functions-3-1-2" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.10.b"><a href="#name-vars-variables-functions-3" title="Copy permalink for Task 1.1.10.b">🔗</a></div></article><article class="task exercise-like" id="name-vars-variables-functions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="autopermalink" data-description="Task 10.b"><a href="#name-vars-variables-functions-3" title="Copy permalink for Task 10.b">🔗</a></div></article><article class="task exercise-like" id="name-vars-variables-functions-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="name-vars-variables-functions-4-1-1">Wind turbines are used to generate electricity. The faster the wind, the more power they generate. <em class="emphasis">(Story also appears in <a href="sec-Rate_of_change.html#wind-turbine-rate-of-change" class="xref" data-knowl="./knowl/xref/wind-turbine-rate-of-change.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.3.7">1.3.7</a>, <a href="sec-Approx_solutions.html#wind-turbine-approx-solutions" class="xref" data-knowl="./knowl/xref/wind-turbine-approx-solutions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.4.8">2.4.8</a>, and <a href="sec-Solving_power_equations.html#wind-turbine-solving-power" class="xref" data-knowl="./knowl/xref/wind-turbine-solving-power.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.3.6">3.3.6</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#name-vars-variables-functions-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 1.1.10.c"><a href="#name-vars-variables-functions-4" title="Copy permalink for Task 1.1.10.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1.1.10"><a href="#name-vars-variables-functions" title="Copy permalink for Exercise 1.1.10">🔗</a></div></article><div class="autopermalink" data-description="Exercises 1.1"><a href="#exercises-variables-functions" title="Copy permalink for Exercises 1.1">🔗</a></div></section><div class="autopermalink" data-description="Section 1.1: Variables and functions"><a href="#sec-Variables_and_functions" title="Copy permalink for Section 1.1: Variables and functions">🔗</a></div></section></div>
+<div class="autopermalink" data-description="Task 10.c"><a href="#name-vars-variables-functions-4" title="Copy permalink for Task 10.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 10"><a href="#name-vars-variables-functions" title="Copy permalink for Exercise 10">🔗</a></div></article><div class="autopermalink" data-description="Exercises"><a href="#exercises-variables-functions" title="Copy permalink for Exercises">🔗</a></div></section><div class="autopermalink" data-description="Section 1.1: Variables and functions"><a href="#sec-Variables_and_functions" title="Copy permalink for Section 1.1: Variables and functions">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="ch-Variables.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-Tables_and_graphs.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
