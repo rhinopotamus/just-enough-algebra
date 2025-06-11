@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr" data-legacy-colorscheme="blue_red">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-legacy                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Prelude: Percentages</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;" rel="stylesheet">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Just Enough Algebra">
+<meta property="book:author" content="Dr. Suzanne Dorée">
+<meta property="book:author" content="Dr. Spencer Bagley">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.7.5';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.107bf2d9be20d9c4.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="justenoughalgebra" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""><img src="external/book-open-solid.png" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="just-enough-algebra.html"><span class="title">Just Enough Algebra</span></a></h1>
+<p class="byline">Dr. Suzanne Dorée, Dr. Spencer Bagley</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-Arithmetic_operations.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-Prelude.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-Order_of_operations.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-why-this-book-web.html" class="internal"><span class="title">Why <em class="emphasis">Just Enough Algebra</em>?</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-students-web.html" class="internal"><span class="title">Students! Read this!</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-instructors-web.html" class="internal"><span class="title">Instructors! Read this!</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-Prelude.html" class="internal"><span class="codenumber">0</span> <span class="title">Prelude</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approximation_and_rounding.html" class="internal"><span class="codenumber">0.1</span> <span class="title">Prelude: Approximation &amp; rounding</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approximation_and_rounding.html#ex-Approximation_and_rounding" class="internal"><span class="codenumber">0.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Arithmetic_operations.html" class="internal"><span class="codenumber">0.2</span> <span class="title">Prelude: Arithmetic operations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Arithmetic_operations.html#ex-Arithmetic_operations" class="internal"><span class="codenumber">0.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-Percentages.html" class="internal"><span class="codenumber">0.3</span> <span class="title">Prelude: Percentages</span></a></div>
+<ul class="structural toc-item-list active"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Percentages.html#ex-Percentages" class="internal"><span class="codenumber">0.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Order_of_operations.html" class="internal"><span class="codenumber">0.4</span> <span class="title">Prelude: Order of operations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Order_of_operations.html#ex-Order_of_operations" class="internal"><span class="codenumber">0.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fractions.html" class="internal"><span class="codenumber">0.5</span> <span class="title">Prelude: Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fractions.html#ex-Fractions" class="internal"><span class="codenumber">0.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Powers_and_roots.html" class="internal"><span class="codenumber">0.6</span> <span class="title">Prelude: Powers and roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Powers_and_roots.html#ex-Powers_and_roots" class="internal"><span class="codenumber">0.6</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Algebraic_notation.html" class="internal"><span class="codenumber">0.7</span> <span class="title">Prelude: Algebraic notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Algebraic_notation.html#ex-Algebraic-notation" class="internal"><span class="codenumber">0.7</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Scientific_notation.html" class="internal"><span class="codenumber">0.8</span> <span class="title">Prelude: Scientific notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Scientific_notation.html#ex-Scientific_notation" class="internal"><span class="codenumber">0.8</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logarithms.html" class="internal"><span class="codenumber">0.9</span> <span class="title">Prelude: Logarithms</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logarithms.html#ex-Logarithms" class="internal"><span class="codenumber">0.9</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Variables.html" class="internal"><span class="codenumber">1</span> <span class="title">Variables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Variables_and_functions.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Variables and functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Variables_and_functions.html#exercises-variables-functions" class="internal"><span class="codenumber">1.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Tables_and_graphs.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Tables and graphs</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Tables_and_graphs.html#ex-Tables_and_graphs" class="internal"><span class="codenumber">1.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Rate_of_change.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Rate of change</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Rate_of_change.html#ex-Rate_of_change" class="internal"><span class="codenumber">1.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Units.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Units</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Units.html#ex-Units" class="internal"><span class="codenumber">1.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Metric_system_and_scientific_notation.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Metric prefixes and scientific notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Metric_system_and_scientific_notation.html#ex-Metric_system_and_scientific_notation" class="internal"><span class="codenumber">1.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1A.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Practice Exam 1A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1A.html#ws-PE1A" class="internal"><span class="codenumber">1.6</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1B.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1B.html#ws-PE1B" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Equations.html" class="internal"><span class="codenumber">2</span> <span class="title">Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_linear.html#ex-First_look_linear" class="internal"><span class="codenumber">2.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_exponential.html#ex-First_look_exponentialEX" class="internal"><span class="codenumber">2.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Using_equations.html#ex-Using_equations" class="internal"><span class="codenumber">2.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approx_solutions.html#ex-Approx_solutions" class="internal"><span class="codenumber">2.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Finance.html#ex-Finance" class="internal"><span class="codenumber">2.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2A.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2A.html#ws-PE2A" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2B.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2B.html#ws-PE2B" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Solving_equations.html" class="internal"><span class="codenumber">3</span> <span class="title">Solving equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html#ex-Solving_linear_equations" class="internal"><span class="codenumber">3.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html#ex-Solving_linear_inequalitiesEX" class="internal"><span class="codenumber">3.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_power_equations.html#ex-Solving_power_equations" class="internal"><span class="codenumber">3.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html#ex-Solving_exponential_equations" class="internal"><span class="codenumber">3.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html#ex-Solving_quadratic_equations" class="internal"><span class="codenumber">3.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3A.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3A.html#ws-PE3A" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3B.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3B.html#ws-PE3B" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Closer_look_linear.html" class="internal"><span class="codenumber">4</span> <span class="title">A closer look at linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html#ex-Modeling_linear_equations" class="internal"><span class="codenumber">4.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html#ex-Systems_linear_equations" class="internal"><span class="codenumber">4.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Intercepts.html#ex-Intercepts" class="internal"><span class="codenumber">4.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Slopes.html#ex-Slopes" class="internal"><span class="codenumber">4.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html#ex-Fitting_lines_to_data" class="internal"><span class="codenumber">4.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4A.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4A.html#ws-PE4A" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4B.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4B.html#ws-PE4B" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Closer_look_exponential.html" class="internal"><span class="codenumber">5</span> <span class="title">A closer look at exponential equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html#ex-Modeling_exponential_equations" class="internal"><span class="codenumber">5.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html#ex-Exp_growth_decay" class="internal"><span class="codenumber">5.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Growth_factor.html#ex-Growth_factor" class="internal"><span class="codenumber">5.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html#ex-Linear_vs_exponential" class="internal"><span class="codenumber">5.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logistic_growth.html#ex-Logistic_growth" class="internal"><span class="codenumber">5.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5A.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE5A.html#ws-PE5A" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5B.html" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE5B.html#ws-PE5B" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="backmatter-2.html" class="internal"><span class="codenumber">A</span> <span class="title">Practice Final Exams</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pfe1.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Practice Final Exam 1</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-pfe1.html#ws-PE6A" class="internal"><span class="codenumber">A.1</span> <span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pfe2.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Practice Final Exam 2</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-pfe2.html#ws-PE6B" class="internal"><span class="codenumber">A.2</span> <span class="title"></span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="app-templates-formulas.html" class="internal"><span class="codenumber">B</span> <span class="title">Templates and Formulas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-templates.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Templates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-constants.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Formulas used to find constants</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-solve.html" class="internal"><span class="codenumber">B.3</span> <span class="title">Formulas used to solve specific types of equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-finance.html" class="internal"><span class="codenumber">B.4</span> <span class="title">Formulas from finance</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Percentages"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">0.3</span><span class="space"> </span><span class="title">Prelude: Percentages</span>
+</h2>
+<section class="introduction" id="sec-Percentages-2"><div class="para logical" id="sec-Percentages-2-1">
+<div class="para">In a recent basketball game against the Dallas Wings, Minnesota Lynx star Napheesa Collier took 16 free throws and made 11 of them. The fraction, or proportion, of free throws she made is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{11}{16} = 11 \div 16 = 0.6875
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Percentages-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Percentages-2-2">
+<div class="para">To calculate Collier’s free throw percentage, we need to remember how percents work. Luckily, the word “percent” is very descriptive. The “cent” part means “hundred,” like 100 cents in a dollar or 100 years in a century. And, as usual, “per” means “for each.” Together, <dfn class="terminology">percent</dfn> means “per hundred.” For example, the number 20% means 20 for each hundred. Written as a fraction it is <span class="process-math">\(\frac{20}{100}\text{.}\)</span> Divide to get the decimal <span class="process-math">\(20 \div 100 = 0.20.\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{Think money:  }20\%\text{ is like }20\text{¢ , and }0.20\text{ is like }\$0.20
+\end{equation*}
+</div>
+<div class="para">Bottom line: 20%, <span class="process-math">\(\frac{20}{100}\text{,}\)</span> and 0.20 mean exactly the same number.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+20\% = \frac{20}{100} = 20 \div 100 = 0.20
+\end{equation*}
+</div>
+<div class="para">Since we divided by 100 to go from percentage to decimal, we can reverse this process and go from decimal to percentage by multiplying by 100. Check it out:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+0.20 \times 100 = 20\%
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Percentages-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Percentages-2-3">
+<div class="para">Back to Collier. She made 11 out of 16 free throws, which was <span class="process-math">\(0.6875\)</span> of her free throws. Now we know</div>
+<div class="displaymath process-math">
+\begin{equation*}
+0.6875 \times 100 = 68.75 \approx 68.8\%
+\end{equation*}
+</div>
+<div class="para">Her free throw percentage that game was 68.8%. Collier’s free throw percentage for the season is actually much lower, at 48.1%. How many free throws out of 16 would we have expected she would make? We need to figure out what 48.1% of 16 is. First, we convert 48.1 to decimal by dividing by 100:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+48.1 \div 100 = 0.481
+\end{equation*}
+</div>
+<div class="para">Next, we multiply that proportion by 16:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+0.481 \times 16 = 7.696
+\end{equation*}
+</div>
+<div class="para">We can even do this calculation in just one step:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+48.1 \div 100 \times 16 = 7.696
+\end{equation*}
+</div>
+<div class="para">Either way, would have expected Collier to make 7 or 8 of her free throws. So, 11 was a really good night. Turns out she scored 29 points that game with 7 rebounds.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Percentages-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Percentages-2-4">Thang attended that Lynx-Wings game and ordered the hot chicken sandwich with pickles for $14.59. When she tapped her debit card to pay, the machine offered her three choices for tip: 10%, 15% or 20%. As you can check, the machine calculated that 10% tip would add $1.46, the 15% tip would add $2.19, and the 20% tip would add $2.92. Knowing that the concession staff that night was fundraising for a group she supports, Thang selected 20% and her total bill was <span class="process-math">\(14.59 + 2.92 = \$17.51\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-Percentages-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Percentages-2-5">
+<div class="para">Thang’s ticket was good for 10% off the purchase of Lynx merchandise from their website and there was free shipping, so she decided to buy a jersey normally priced at $99. Since 10% of $99 is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+0.10 \times 99 = 9.9
+\end{equation*}
+</div>
+<div class="para">she knows that her discount will be $9.90. (I added the extra 0 at the end because $9.9 looked strange.) The net price for the jersey will be</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\$99 - \$9.90 = 99 - 9.9 = 89.1 = \$89.10
+\end{equation*}
+</div>
+<div class="para">With the discount, Thang can buy the jersey for $89.10.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Percentages-2-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Percentages-2-6">In general, we can find the result of a <dfn class="terminology">percent increase</dfn>, like Thang’s sandwich plus tip, by calculating the percent and adding it to the original amount. And we can find the result of a <dfn class="terminology">percent decrease</dfn>, like Thang’s on-sale jersey, by calculating the percent and subtracting it from the original amount.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Percentages-2-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="conclusion" id="sec-Percentages-3"><h3 class="heading">Do you know …<span></span>
+</h3>
+<div class="para logical" id="sec-Percentages-3-2">
+<ol class="upper-alpha ol-marker-1" id="sec-Percentages-3-2-1">
+<li id="sec-Percentages-3-2-1-1">
+<div class="para" id="sec-Percentages-3-2-1-1-1">What the words “per” and “cent” mean in the word “percent?”<div class="autopermalink" data-description="Paragraph"><a href="#sec-Percentages-3-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item A"><a href="#sec-Percentages-3-2-1-1" title="Copy permalink for Item A">🔗</a></div>
+</li>
+<li id="sec-Percentages-3-2-1-2">
+<div class="para" id="sec-Percentages-3-2-1-2-1">How to convert a fraction or decimal to a percent?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Percentages-3-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item B"><a href="#sec-Percentages-3-2-1-2" title="Copy permalink for Item B">🔗</a></div>
+</li>
+<li id="sec-Percentages-3-2-1-3">
+<div class="para" id="sec-Percentages-3-2-1-3-1">How to convert a percent to a decimal?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Percentages-3-2-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item C"><a href="#sec-Percentages-3-2-1-3" title="Copy permalink for Item C">🔗</a></div>
+</li>
+<li id="sec-Percentages-3-2-1-4">
+<div class="para" id="sec-Percentages-3-2-1-4-1">How to calculate a percentage of a number?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Percentages-3-2-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item D"><a href="#sec-Percentages-3-2-1-4" title="Copy permalink for Item D">🔗</a></div>
+</li>
+<li id="sec-Percentages-3-2-1-5">
+<div class="para" id="sec-Percentages-3-2-1-5-1">How to calculate the result of a percent increase or a percent decrease?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Percentages-3-2-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item E"><a href="#sec-Percentages-3-2-1-5" title="Copy permalink for Item E">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Percentages-3-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Percentages-3-3">
+<em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-Percentages-3-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="exercises" id="ex-Percentages"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<section class="introduction" id="ex-Percentages-2"><div class="para" id="ex-Percentages-2-1">Exercises 1-4 are available in a separate workbook format.<div class="autopermalink" data-description="Paragraph"><a href="#ex-Percentages-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="introduction" id="ex-Percentages-3"><div class="para" id="ex-Percentages-3-1">On each problem, write down what you enter into your calculator and don’t forget to write the units on your final answer. You are welcome to calculate the answer step-by-step but challenge yourself to figure out the answer all at once, not hitting <span class="process-math">\(=\)</span> on your calculator until the very end.<div class="autopermalink" data-description="Paragraph"><a href="#ex-Percentages-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><article class="exercise exercise-like" id="world-population-percentages"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="introduction" id="world-population-percentages-1"><div class="para" id="world-population-percentages-1-1">As I write this problem, the population of the world is 8,056,959,718 people (just over 8 billion). It changes by the second, so let’s use the round figure of 8,100,000,000. <em class="emphasis">(Story also appears in <a href="sec-Percentages.html#world-population-percentages" class="xref" data-knowl="./knowl/xref/world-population-percentages.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.3.1">0.3.1</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#world-population-percentages-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="world-population-percentages-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="world-population-percentages-2-1-1">I read that the population of Brazil accounts for 2.69% of the world’s population. According to that report, what is the population of Brazil? Round your answer to the nearest million.<div class="autopermalink" data-description="Paragraph"><a href="#world-population-percentages-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.3.1.a"><a href="#world-population-percentages-2" title="Copy permalink for Task 0.3.1.a">🔗</a></div></article><article class="task exercise-like" id="world-population-percentages-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="world-population-percentages-3-1-1">If the population of the United States is currently around 334,000,000, what percentage of the world’s population is in the United States?<div class="autopermalink" data-description="Paragraph"><a href="#world-population-percentages-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.3.1.b"><a href="#world-population-percentages-3" title="Copy permalink for Task 0.3.1.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.3.1"><a href="#world-population-percentages" title="Copy permalink for Exercise 0.3.1">🔗</a></div></article> <article class="exercise exercise-like" id="astra-rent-percentages"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="introduction" id="astra-rent-percentages-1">
+<div class="para" id="astra-rent-percentages-1-1">In Minneapolis, apartment rent is expected to increase by 16% next year.<div class="autopermalink" data-description="Paragraph"><a href="#astra-rent-percentages-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="astra-rent-percentages-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Algebraic_notation.html#astra-rent-algebraic-notation" class="xref" data-knowl="./knowl/xref/astra-rent-algebraic-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.7.3">0.7.3</a> and <a href="sec-Logarithms.html#astra-rent-logarithms" class="xref" data-knowl="./knowl/xref/astra-rent-logarithms.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.9.4">0.9.4</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#astra-rent-percentages-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="astra-rent-percentages-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="astra-rent-percentages-2-1-1">Astra lives in a 1-bedroom apartment where they pay $825 per month in rent. If their rent increased by 16% what would their new rent be?<div class="autopermalink" data-description="Paragraph"><a href="#astra-rent-percentages-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.3.2.a"><a href="#astra-rent-percentages-2" title="Copy permalink for Task 0.3.2.a">🔗</a></div></article><article class="task exercise-like" id="astra-rent-percentages-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="astra-rent-percentages-3-1-1">Lucky for Astra, their building is subject to rent stabilization laws and so their rent cannot increase by more than 3%. What would their new rent be?<div class="autopermalink" data-description="Paragraph"><a href="#astra-rent-percentages-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.3.2.b"><a href="#astra-rent-percentages-3" title="Copy permalink for Task 0.3.2.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.3.2"><a href="#astra-rent-percentages" title="Copy permalink for Exercise 0.3.2">🔗</a></div></article><article class="exercise exercise-like" id="intersection-percentages"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="intersection-percentages-1"><div class="para" id="intersection-percentages-1-1">The intersection by my house is dangerous. One year there were 14 accidents there. The neighbors got together and petitioned to have 4-way stop signs installed.<div class="autopermalink" data-description="Paragraph"><a href="#intersection-percentages-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="intersection-percentages-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="intersection-percentages-2-1-1">The city estimated that the installed stop signs would reduce accidents at least 40%. If that happens, how many accidents would we expect the next year?<div class="autopermalink" data-description="Paragraph"><a href="#intersection-percentages-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.3.3.a"><a href="#intersection-percentages-2" title="Copy permalink for Task 0.3.3.a">🔗</a></div></article><article class="task exercise-like" id="intersection-percentages-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="intersection-percentages-3-1-1">The national average shows that the new signs could reduce accidents up to 62%. If that happens instead, how many accidents would we expect the next year?<div class="autopermalink" data-description="Paragraph"><a href="#intersection-percentages-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.3.3.b"><a href="#intersection-percentages-3" title="Copy permalink for Task 0.3.3.b">🔗</a></div></article><article class="task exercise-like" id="intersection-percentages-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="intersection-percentages-4-1-1">If there were 6 accidents the next year, is that in the range you figured out? What percent decrease does that correspond to?<div class="autopermalink" data-description="Paragraph"><a href="#intersection-percentages-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.3.3.c"><a href="#intersection-percentages-4" title="Copy permalink for Task 0.3.3.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.3.3"><a href="#intersection-percentages" title="Copy permalink for Exercise 0.3.3">🔗</a></div></article> <article class="exercise exercise-like" id="savings-interest-percentages"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="savings-interest-percentages-1"><div class="para" id="savings-interest-percentages-1-1">My savings account earns a modest amount of interest, the equivalent of 0.75% annually. I have $12,392.18 in the account now. <em class="emphasis">(Story also appears in <a href="sec-First_look_exponential.html#savings-interest-first-look-exponential" class="xref" data-knowl="./knowl/xref/savings-interest-first-look-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.2.4">2.2.4</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#savings-interest-percentages-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="savings-interest-percentages-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="savings-interest-percentages-2-1-1">How much interest will I earn this year?<div class="autopermalink" data-description="Paragraph"><a href="#savings-interest-percentages-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.3.4.a"><a href="#savings-interest-percentages-2" title="Copy permalink for Task 0.3.4.a">🔗</a></div></article><article class="task exercise-like" id="savings-interest-percentages-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="savings-interest-percentages-3-1-1">How much will my account balance be at the end of the year?<div class="autopermalink" data-description="Paragraph"><a href="#savings-interest-percentages-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.3.4.b"><a href="#savings-interest-percentages-3" title="Copy permalink for Task 0.3.4.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.3.4"><a href="#savings-interest-percentages" title="Copy permalink for Exercise 0.3.4">🔗</a></div></article><article class="exercise exercise-like" id="check-thang-percentages"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="check-thang-percentages-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="check-thang-percentages-1-1-1">Check for yourself that the tip of Thang’s $14.59 sandwich would be $1.46 if she had chosen 10%, $2.19 if she had chosen 15%, and $2.92 when she chose 20%.<div class="autopermalink" data-description="Paragraph"><a href="#check-thang-percentages-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.3.5.a"><a href="#check-thang-percentages-1" title="Copy permalink for Task 0.3.5.a">🔗</a></div></article><article class="task exercise-like" id="check-thang-percentages-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="check-thang-percentages-2-1-1">What would the net cost of Thang’s jersey be if she had a 20% discount (off the $99 price) instead?<div class="autopermalink" data-description="Paragraph"><a href="#check-thang-percentages-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.3.5.b"><a href="#check-thang-percentages-2" title="Copy permalink for Task 0.3.5.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.3.5"><a href="#check-thang-percentages" title="Copy permalink for Exercise 0.3.5">🔗</a></div></article><article class="exercise exercise-like" id="food-shelf-percentages"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="para" id="food-shelf-percentages-1-1">Donations to a local food shelf have increased 35% over last year. There were 3,400 pounds of food donated last year. How many pounds of food were donated this year?<div class="autopermalink" data-description="Paragraph"><a href="#food-shelf-percentages-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="food-shelf-percentages-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Growth_factor.html#find-growth-factor" class="xref" data-knowl="./knowl/xref/find-growth-factor.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 5.3.3">5.3.3</a> and <a href="sec-Exp_growth_decay.html#food-shelf-growth-decay" class="xref" data-knowl="./knowl/xref/food-shelf-growth-decay.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 5.2.10">5.2.10</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#food-shelf-percentages-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 0.3.6"><a href="#food-shelf-percentages" title="Copy permalink for Exercise 0.3.6">🔗</a></div></article><article class="exercise exercise-like" id="caffeine-percentages"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="para" id="caffeine-percentages-1-1">Ceyda starts the day by downing two cans of Red Bull, containing a total of 160 mg of caffeine. Her body eliminates the caffeine at the rate of 12% each hour. How much caffeine is left in her blood after 1 hour?<div class="autopermalink" data-description="Paragraph"><a href="#caffeine-percentages-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="caffeine-percentages-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Exp_growth_decay.html#caffeine-growth-decay" class="xref" data-knowl="./knowl/xref/caffeine-growth-decay.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 5.2.5">5.2.5</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#caffeine-percentages-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 0.3.7"><a href="#caffeine-percentages" title="Copy permalink for Exercise 0.3.7">🔗</a></div></article><article class="exercise exercise-like" id="salt-intake-percentages"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="introduction" id="salt-intake-percentages-1"><div class="para" id="salt-intake-percentages-1-1">Too much salt can be difficult for your body. The Centers for Disease Control and Prevention (CDC) suggest that adults limit their daily intake of Sodium to a maximum of 2,300 mg per day.<div class="autopermalink" data-description="Paragraph"><a href="#salt-intake-percentages-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="salt-intake-percentages-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="salt-intake-percentages-2-1-1">Omer ate a snack sized bag of chili-flavored corn chips containing 9% of the daily maximum allowance of Sodium. How many milligrams of Sodium did he eat?<div class="autopermalink" data-description="Paragraph"><a href="#salt-intake-percentages-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.3.8.a"><a href="#salt-intake-percentages-2" title="Copy permalink for Task 0.3.8.a">🔗</a></div></article><article class="task exercise-like" id="salt-intake-percentages-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="salt-intake-percentages-3-1-1">Selu ate the lightly salted corn chips instead containing 80 mg Sodium. What percentage of the daily maximum allowance of Sodium is in the lightly salted corn chips?<div class="autopermalink" data-description="Paragraph"><a href="#salt-intake-percentages-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.3.8.b"><a href="#salt-intake-percentages-3" title="Copy permalink for Task 0.3.8.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.3.8"><a href="#salt-intake-percentages" title="Copy permalink for Exercise 0.3.8">🔗</a></div></article><article class="exercise exercise-like" id="house-value-percentages"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="para" id="house-value-percentages-1-1">Tenzin bought a house for $291,900 but the housing market collapsed and his house value dropped 4.1% since he bought it. What is Tenzin’s house worth now?<div class="autopermalink" data-description="Paragraph"><a href="#house-value-percentages-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="house-value-percentages-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Exp_growth_decay.html#house-value-growth-decay" class="xref" data-knowl="./knowl/xref/house-value-growth-decay.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 5.2.7">5.2.7</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#house-value-percentages-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 0.3.9"><a href="#house-value-percentages" title="Copy permalink for Exercise 0.3.9">🔗</a></div></article><article class="exercise exercise-like" id="raises-percentages"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<div class="introduction" id="raises-percentages-1"><div class="para" id="raises-percentages-1-1">
+<em class="emphasis">Story also appears in <a href="sec-First_look_exponential.html#raises-first-look-exponential" class="xref" data-knowl="./knowl/xref/raises-first-look-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.2.5">2.2.5</a></em><div class="autopermalink" data-description="Paragraph"><a href="#raises-percentages-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="raises-percentages-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="raises-percentages-2-1-1">Mai’s salary was $78,000 before she got a 6% raise. What was her salary after the raise?<div class="autopermalink" data-description="Paragraph"><a href="#raises-percentages-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.3.10.a"><a href="#raises-percentages-2" title="Copy permalink for Task 0.3.10.a">🔗</a></div></article><article class="task exercise-like" id="raises-percentages-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="raises-percentages-3-1-1">The following year Mai only got a 1.5% raise. What was her salary after this second raise? Be careful to use your answer to part (a) to compute the 1.5% increase.<div class="autopermalink" data-description="Paragraph"><a href="#raises-percentages-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.3.10.b"><a href="#raises-percentages-3" title="Copy permalink for Task 0.3.10.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.3.10"><a href="#raises-percentages" title="Copy permalink for Exercise 0.3.10">🔗</a></div></article><div class="autopermalink" data-description="Exercises 0.3: Exercises"><a href="#ex-Percentages" title="Copy permalink for Exercises 0.3: Exercises">🔗</a></div></section><div class="autopermalink" data-description="Section 0.3: Prelude: Percentages"><a href="#sec-Percentages" title="Copy permalink for Section 0.3: Prelude: Percentages">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-Arithmetic_operations.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-Order_of_operations.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
