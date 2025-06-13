@@ -5,7 +5,6 @@
 <!-- Web target -->
         <target name="web"
                 format="html" 
-                deploy-dir="."
                 xsl="custom-web.xsl" 
                 publication="publication-web.ptx" />
 
