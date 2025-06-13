@@ -6,7 +6,7 @@
 
     <book xml:id="just-enough-algebra">
         <!-- This xml:id points to the table of contents. -->
-        <title>Just Enough Algebra</title>
+        <title>Just Enough Algebra(*)</title>
 
         <!-- Include frontmatter -->
         <xi:include href="./frontmatter.ptx" />
