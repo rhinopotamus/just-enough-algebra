@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr" data-legacy-colorscheme="blue_red">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-legacy                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Prelude: Arithmetic operations</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;" rel="stylesheet">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Just Enough Algebra(*)">
+<meta property="book:author" content="Dr. Suzanne Dorée">
+<meta property="book:author" content="Dr. Spencer Bagley">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.7.5';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.107bf2d9be20d9c4.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="justenoughalgebra" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""><img src="external/book-open-solid.png" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="just-enough-algebra.html"><span class="title">Just Enough Algebra(*)</span></a></h1>
+<p class="byline">Dr. Suzanne Dorée, Dr. Spencer Bagley</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-Approximation_and_rounding.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-Prelude.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-Percentages.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-why-this-book-web.html" class="internal"><span class="title">Why <em class="emphasis">Just Enough Algebra</em>?</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-students-web.html" class="internal"><span class="title">Students! Read this!</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-instructors-web.html" class="internal"><span class="title">Instructors! Read this!</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-Prelude.html" class="internal"><span class="codenumber">0</span> <span class="title">Prelude</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approximation_and_rounding.html" class="internal"><span class="codenumber">0.1</span> <span class="title">Prelude: Approximation &amp; rounding</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approximation_and_rounding.html#ex-Approximation_and_rounding" class="internal"><span class="codenumber">0.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-Arithmetic_operations.html" class="internal"><span class="codenumber">0.2</span> <span class="title">Prelude: Arithmetic operations</span></a></div>
+<ul class="structural toc-item-list active"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Arithmetic_operations.html#ex-Arithmetic_operations" class="internal"><span class="codenumber">0.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Percentages.html" class="internal"><span class="codenumber">0.3</span> <span class="title">Prelude: Percentages</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Percentages.html#ex-Percentages" class="internal"><span class="codenumber">0.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Order_of_operations.html" class="internal"><span class="codenumber">0.4</span> <span class="title">Prelude: Order of operations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Order_of_operations.html#ex-Order_of_operations" class="internal"><span class="codenumber">0.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fractions.html" class="internal"><span class="codenumber">0.5</span> <span class="title">Prelude: Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fractions.html#ex-Fractions" class="internal"><span class="codenumber">0.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Powers_and_roots.html" class="internal"><span class="codenumber">0.6</span> <span class="title">Prelude: Powers and roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Powers_and_roots.html#ex-Powers_and_roots" class="internal"><span class="codenumber">0.6</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Algebraic_notation.html" class="internal"><span class="codenumber">0.7</span> <span class="title">Prelude: Algebraic notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Algebraic_notation.html#ex-Algebraic-notation" class="internal"><span class="codenumber">0.7</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Scientific_notation.html" class="internal"><span class="codenumber">0.8</span> <span class="title">Prelude: Scientific notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Scientific_notation.html#ex-Scientific_notation" class="internal"><span class="codenumber">0.8</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logarithms.html" class="internal"><span class="codenumber">0.9</span> <span class="title">Prelude: Logarithms</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logarithms.html#ex-Logarithms" class="internal"><span class="codenumber">0.9</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Variables.html" class="internal"><span class="codenumber">1</span> <span class="title">Variables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Variables_and_functions.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Variables and functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Variables_and_functions.html#exercises-variables-functions" class="internal"><span class="codenumber">1.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Tables_and_graphs.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Tables and graphs</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Tables_and_graphs.html#ex-Tables_and_graphs" class="internal"><span class="codenumber">1.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Rate_of_change.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Rate of change</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Rate_of_change.html#ex-Rate_of_change" class="internal"><span class="codenumber">1.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Units.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Units</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Units.html#ex-Units" class="internal"><span class="codenumber">1.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Metric_system_and_scientific_notation.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Metric prefixes and scientific notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Metric_system_and_scientific_notation.html#ex-Metric_system_and_scientific_notation" class="internal"><span class="codenumber">1.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1A.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Practice Exam 1A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1A.html#ws-PE1A" class="internal"><span class="codenumber">1.6</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1B.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1B.html#ws-PE1B" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Equations.html" class="internal"><span class="codenumber">2</span> <span class="title">Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_linear.html#ex-First_look_linear" class="internal"><span class="codenumber">2.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_exponential.html#ex-First_look_exponentialEX" class="internal"><span class="codenumber">2.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Using_equations.html#ex-Using_equations" class="internal"><span class="codenumber">2.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approx_solutions.html#ex-Approx_solutions" class="internal"><span class="codenumber">2.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Finance.html#ex-Finance" class="internal"><span class="codenumber">2.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2A.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2A.html#ws-PE2A" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2B.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2B.html#ws-PE2B" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Solving_equations.html" class="internal"><span class="codenumber">3</span> <span class="title">Solving equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html#ex-Solving_linear_equations" class="internal"><span class="codenumber">3.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html#ex-Solving_linear_inequalitiesEX" class="internal"><span class="codenumber">3.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_power_equations.html#ex-Solving_power_equations" class="internal"><span class="codenumber">3.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html#ex-Solving_exponential_equations" class="internal"><span class="codenumber">3.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html#ex-Solving_quadratic_equations" class="internal"><span class="codenumber">3.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3A.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3A.html#ws-PE3A" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3B.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3B.html#ws-PE3B" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Closer_look_linear.html" class="internal"><span class="codenumber">4</span> <span class="title">A closer look at linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html#ex-Modeling_linear_equations" class="internal"><span class="codenumber">4.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html#ex-Systems_linear_equations" class="internal"><span class="codenumber">4.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Intercepts.html#ex-Intercepts" class="internal"><span class="codenumber">4.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Slopes.html#ex-Slopes" class="internal"><span class="codenumber">4.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html#ex-Fitting_lines_to_data" class="internal"><span class="codenumber">4.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4A.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4A.html#ws-PE4A" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4B.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4B.html#ws-PE4B" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Closer_look_exponential.html" class="internal"><span class="codenumber">5</span> <span class="title">A closer look at exponential equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html#ex-Modeling_exponential_equations" class="internal"><span class="codenumber">5.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html#ex-Exp_growth_decay" class="internal"><span class="codenumber">5.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Growth_factor.html#ex-Growth_factor" class="internal"><span class="codenumber">5.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html#ex-Linear_vs_exponential" class="internal"><span class="codenumber">5.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logistic_growth.html#ex-Logistic_growth" class="internal"><span class="codenumber">5.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5A.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE5A.html#ws-PE5A" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5B.html" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE5B.html#ws-PE5B" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="backmatter-2.html" class="internal"><span class="codenumber">A</span> <span class="title">Practice Final Exams</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pfe1.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Practice Final Exam 1</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-pfe1.html#ws-PE6A" class="internal"><span class="codenumber">A.1</span> <span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pfe2.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Practice Final Exam 2</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-pfe2.html#ws-PE6B" class="internal"><span class="codenumber">A.2</span> <span class="title"></span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="app-templates-formulas.html" class="internal"><span class="codenumber">B</span> <span class="title">Templates and Formulas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-templates.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Templates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-constants.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Formulas used to find constants</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-solve.html" class="internal"><span class="codenumber">B.3</span> <span class="title">Formulas used to solve specific types of equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-finance.html" class="internal"><span class="codenumber">B.4</span> <span class="title">Formulas from finance</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Arithmetic_operations"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">0.2</span><span class="space"> </span><span class="title">Prelude: Arithmetic operations</span>
+</h2>
+<section class="introduction" id="sec-Arithmetic_operations-2"><div class="para" id="sec-Arithmetic_operations-2-1">Numbers, numbers everywhere – how do we put them together to get a final answer?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Arithmetic_operations-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Arithmetic_operations-2-2">As a first example, Zahra needs to complete 200 hours of classroom observation before she is eligible to student teach. She logged 45 hours last spring, another 42 hours this past fall, and is on pace to finish 51 hours this spring. How many more hours will she need next fall to finish here 200 hours?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Arithmetic_operations-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Arithmetic_operations-2-3">
+<div class="para">Let’s begin by figuring out how many hours Zahra finished before this semester. She did 45 hours and then another 42 hours. We add to get the total number of hours.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+45 + 42 = 87 \text{ hours}
+\end{equation*}
+</div>
+<div class="para">If we add in the number of hours from this spring, her total will be</div>
+<div class="displaymath process-math">
+\begin{equation*}
+87 + 51 = 138 \text{ hours}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Arithmetic_operations-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Arithmetic_operations-2-4">
+<div class="para">We assume you are using a calculator to add these numbers. It is a good habit to write down the keystrokes you do. Perhaps you did this sequence of keystrokes.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+45 + 42 =
+\end{equation*}
+</div>
+<div class="para">and then</div>
+<div class="displaymath process-math">
+\begin{equation*}
+87 + 51 =
+\end{equation*}
+</div>
+<div class="para">That works, but it is not necessary to type the 87 in yourself. Instead try this sequence of keystrokes.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+45 + 42 = + ~51 =
+\end{equation*}
+</div>
+<div class="para">Did you get 138 again? When you typed that first equal sign the calculator should have displayed 87, and after the second equal sign, the final answer of 138. That works too, but the first equal sign is not needed. Try this shortest (best!) sequence of keystrokes.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+45 + 42 + 51 =
+\end{equation*}
+</div>
+<div class="para">Hopefully you got 138 again.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Arithmetic_operations-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Arithmetic_operations-2-5">
+<div class="para">How many more hours does Zahra need to reach the goal of 200 hours? We are looking for the number of hours where</div>
+<div class="displaymath process-math">
+\begin{equation*}
+138 + ~? = 200
+\end{equation*}
+</div>
+<div class="para">We find the missing time by subtracting</div>
+<div class="displaymath process-math">
+\begin{equation*}
+200 - 138 = 62 \text{ hours}
+\end{equation*}
+</div>
+<div class="para">You can check that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+138 + 62 = 200
+\end{equation*}
+</div>
+<div class="para">or, starting from the beginning</div>
+<div class="displaymath process-math">
+\begin{equation*}
+45 + 42 + 51+ 62 = 200
+\end{equation*}
+</div>
+<div class="para">Any way you calculate it, Zahra is going to have a busy fall.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Arithmetic_operations-2-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Arithmetic_operations-2-6">Here’s another example. Cole was shocked by his credit card bill. It shows a previous balance of $529.16, credit for a payment of $200, finance charge of $42.78, a late fee of $30 (ouch!), a credit for $17.43 for a return he made, and $618.25 in new charges.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Arithmetic_operations-2-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Arithmetic_operations-2-7">
+<div class="para">Cole would like to practice his math and check the balance on his bill. One way to calculate his balance is to add the charges while subtracting the credits. Cole calculates</div>
+<div class="displaymath process-math">
+\begin{equation*}
+529.16 - 200 + 42.78 + 30 - 17.43 + 618.25 = \$1002.76
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Arithmetic_operations-2-7" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Arithmetic_operations-2-8">
+<div class="para">Sometimes credits are represented by negative numbers. Another way Cole could calculate the answer is to add the mix of positive numbers (charges) and negative numbers (credits).</div>
+<div class="displaymath process-math">
+\begin{equation*}
+529.16 + \text{-}200 + 42.78 + 30 + \text{-}17.43 + 618.25 = \$1002.76
+\end{equation*}
+</div>
+<div class="para">You may notice that the sign − used for subtraction and - used for negation look very similar. On the calculator these are two different keys. The subtraction key reads just <kbd class="kbdkey">-</kbd>. The negation key often reads <kbd class="kbdkey">(-)</kbd> and is done before the number. This does not mean you type in parentheses, just hit the key that is labeled <kbd class="kbdkey">(-)</kbd> already. In this notation, we can write what Cole entered as</div>
+<div class="displaymath process-math">
+\begin{equation*}
+529.16 + \text{(-)}200 + 42.78 + 30 +  \text{(-)}17.43 + 618.25 =
+\end{equation*}
+</div>
+<div class="para">Try it.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Arithmetic_operations-2-8" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Arithmetic_operations-2-9">
+<div class="para">(If your calculator does not have a key labeled <kbd class="kbdkey">(-)</kbd>, look for a key labeled <kbd class="kbdkey">+/-</kbd> instead. That is not three keys, just one labeled <kbd class="kbdkey">+/-</kbd>. To emphasize that it is one key, we just write <kbd class="kbdkey">±</kbd>. Often that key needs to follow the number, so enter the following keystrokes.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+529.16 + 200 \pm + ~42.78 + 30 +  17.43 \pm + ~618.25 =
+\end{equation*}
+</div>
+<div class="para">You should get $1002.76 again.)</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Arithmetic_operations-2-9" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Arithmetic_operations-2-10">
+<div class="para">There are times when it is convenient to rewrite a sum in a different order. That can get tricky if there are both + and -. Rewriting each subtraction as addition of a negative keeps the minus signs where they belong. For example, Cole might have calculated</div>
+<div class="displaymath process-math">
+\begin{equation*}
+529.16 + 42.78 + 30 + 618.25 -200 - 17.43 =
+\end{equation*}
+</div>
+<div class="para">Notice how the subtractions stay with the payment of $200 and credit of $17.43.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Arithmetic_operations-2-10" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Arithmetic_operations-2-11">Another example. There was a lot of snow this winter and the rainiest May anyone can remember. So now the river has been rising rapidly, 10 inches a day some say, for the past 3 weeks. How much has the river risen in total?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Arithmetic_operations-2-11" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Arithmetic_operations-2-12">
+<div class="para">We need to deal with some units here. How many days is 3 weeks? There are 7 days in a week so in three weeks there are</div>
+<div class="displaymath process-math">
+\begin{equation*}
+7 + 7 + 7 = 21 \text{ days}
+\end{equation*}
+</div>
+<div class="para">Since multiplication is short for addition, we can calculate this number more quickly.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+3 \times 7 = 21
+\end{equation*}
+</div>
+<div class="para">(Most calculators have a <kbd class="kbdkey">×</kbd> key, but in some computer programs <kbd class="kbdkey">*</kbd> is used instead.)</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Arithmetic_operations-2-12" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Arithmetic_operations-2-13">
+<div class="para">At 10 inches per day, the river has risen</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\underbrace{10 + 10 + 10 + \ldots + 10}_\text{21 times} \text{ inches}
+\end{equation*}
+</div>
+<div class="para">which we calculate as</div>
+<div class="displaymath process-math">
+\begin{equation*}
+21 \times 10 = 210 \text{ inches}
+\end{equation*}
+</div>
+<div class="para">The river has risen 210 inches.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Arithmetic_operations-2-13" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Arithmetic_operations-2-14">
+<div class="para">The river has risen 210 inches, you say? Hmm. How many feet is that? There are 12 inches in a foot so we want</div>
+<div class="displaymath process-math">
+\begin{equation*}
+12 \times ~? = 210
+\end{equation*}
+</div>
+<div class="para">We find the missing rise by dividing</div>
+<div class="displaymath process-math">
+\begin{equation*}
+210 \div 12 = 17.5 \text{ feet}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Arithmetic_operations-2-14" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Arithmetic_operations-2-15">
+<div class="para">(Many calculators use a key labeled <kbd class="kbdkey">/</kbd> instead of the more old fashioned <kbd class="kbdkey">÷</kbd>. We use the notation <kbd class="kbdkey">÷</kbd> since the slash has so many different meanings and is easily misread. Just remember to do <kbd class="kbdkey">/</kbd> whenever you see <kbd class="kbdkey">÷</kbd> in this book. Try</div>
+<div class="displaymath process-math">
+\begin{equation*}
+210 / 12 =
+\end{equation*}
+</div>
+<div class="para">You should get 17.5 again.)</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Arithmetic_operations-2-15" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Arithmetic_operations-2-16">Any way you calculate it, the river has risen 17.5 feet, or nearly 18 feet. Sadly it turns out that is 6 feet above flood stage for this stretch of river, so the flooding is causing a lot of damage.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Arithmetic_operations-2-16" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Arithmetic_operations-2-17">
+<div class="para">Two more examples. There are two other situations in which we divide. The first is fractions. If we are given a fraction, like <span class="process-math">\(\frac{2}{3}\)</span> of residents have Internet access, we might want to have a decimal approximation to do further calculations. We find it by dividing</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{2}{3} = 2 \div 3 = 0.666666666\ldots \approx 0.67
+\end{equation*}
+</div>
+<div class="para">The bar in between the 2 and 3 in the fraction stands for division. It might help to remember this connection visually.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{~\bullet~}{\bullet}
+\end{equation*}
+</div>
+<div class="para">So if there are 14,573 residents, and <span class="process-math">\(\frac{2}{3}\)</span> have Internet access, then we can multiply to find the number of residents with Internet access.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+14573 \times 0.67 = 9763.91\approx 9764
+\end{equation*}
+</div>
+<div class="para">Since 0.67 only has two digits that matter (and we rounded up to get it), we would round our answer down to compensate and say there were around 9700.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Arithmetic_operations-2-17" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Arithmetic_operations-2-18">
+<div class="para">Can we say that there 9,764 residents with Internet access? If we had used 0.666666666 instead we would have calculated</div>
+<div class="displaymath process-math">
+\begin{equation*}
+14573 \times 0.666666666 = 9715.33332\ldots \approx 9715
+\end{equation*}
+</div>
+<div class="para">Sounds like we should play it safe and say over 9,700 residents have internet access. The most accurate calculation would be to do the multiplication and division all at once.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+14573 \times 2 \div 3 = 9715.33333\ldots \approx 9715
+\end{equation*}
+</div>
+<div class="para">It would be acceptable to estimate at 9,715 residents.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Arithmetic_operations-2-18" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Arithmetic_operations-2-19">
+<div class="para">Another cause for division is the word “per”. What is her pace, in minutes per mile, if Karleen runs 6.3 miles in 50 minutes?</div>
+<div class="displaymath process-math">
+\begin{equation*}
+50 \div 6.3 =  7.936507937\ldots \approx 7.9
+\end{equation*}
+</div>
+<div class="para">With the units we would write</div>
+<div class="displaymath process-math">
+\begin{equation*}
+50 \text{ minutes} \div 6.3 \text{ miles }  \approx 7.9 \text{ minutes per mile}
+\end{equation*}
+</div>
+<div class="para">Karleen runs just under 8 minutes per mile.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Arithmetic_operations-2-19" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="conclusion" id="sec-Arithmetic_operations-3"><h3 class="heading">Do you know …<span></span>
+</h3>
+<div class="para logical" id="sec-Arithmetic_operations-3-2">
+<ol class="upper-alpha ol-marker-1" id="sec-Arithmetic_operations-3-2-1">
+<li id="sec-Arithmetic_operations-3-2-1-1">
+<div class="para" id="sec-Arithmetic_operations-3-2-1-1-1">When to add, subtract, multiply, or divide numbers?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Arithmetic_operations-3-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item A"><a href="#sec-Arithmetic_operations-3-2-1-1" title="Copy permalink for Item A">🔗</a></div>
+</li>
+<li id="sec-Arithmetic_operations-3-2-1-2">
+<div class="para" id="sec-Arithmetic_operations-3-2-1-2-1">What is the difference between subtraction and negation?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Arithmetic_operations-3-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item B"><a href="#sec-Arithmetic_operations-3-2-1-2" title="Copy permalink for Item B">🔗</a></div>
+</li>
+<li id="sec-Arithmetic_operations-3-2-1-3">
+<div class="para" id="sec-Arithmetic_operations-3-2-1-3-1">How to add, subtract, negate, multiply, and divide on a calculator?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Arithmetic_operations-3-2-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item C"><a href="#sec-Arithmetic_operations-3-2-1-3" title="Copy permalink for Item C">🔗</a></div>
+</li>
+<li id="sec-Arithmetic_operations-3-2-1-4">
+<div class="para" id="sec-Arithmetic_operations-3-2-1-4-1">How multiplication is related to addition?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Arithmetic_operations-3-2-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item D"><a href="#sec-Arithmetic_operations-3-2-1-4" title="Copy permalink for Item D">🔗</a></div>
+</li>
+<li id="sec-Arithmetic_operations-3-2-1-5">
+<div class="para" id="sec-Arithmetic_operations-3-2-1-5-1">What the term “per” indicates?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Arithmetic_operations-3-2-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item E"><a href="#sec-Arithmetic_operations-3-2-1-5" title="Copy permalink for Item E">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Arithmetic_operations-3-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Arithmetic_operations-3-3">
+<em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-Arithmetic_operations-3-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="exercises" id="ex-Arithmetic_operations"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<section class="introduction" id="ex-Arithmetic_operations-2"><div class="para" id="ex-Arithmetic_operations-2-1">Exercises 1-4 are available in a separate workbook format.<div class="autopermalink" data-description="Paragraph"><a href="#ex-Arithmetic_operations-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="introduction" id="ex-Arithmetic_operations-3"><div class="para" id="ex-Arithmetic_operations-3-1">On each problem, write down what you enter into your calculator and don’t forget to write the units on your final answer. You are welcome to calculate the answer step-by-step but challenge yourself to figure out the answer all at once, not hitting <kbd class="kbdkey">=</kbd> on your calculator until the very end.<div class="autopermalink" data-description="Paragraph"><a href="#ex-Arithmetic_operations-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><article class="exercise exercise-like" id="cucumbers-arithmetic-operations"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="para" id="cucumbers-arithmetic-operations-1-1">Tensia loves to garden but can’t quite keep up with how many cucumbers are growing.<div class="autopermalink" data-description="Paragraph"><a href="#cucumbers-arithmetic-operations-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="cucumbers-arithmetic-operations-1-2">
+<ul class="disc" id="cucumbers-arithmetic-operations-1-2-1">
+<li id="cucumbers-arithmetic-operations-1-2-1-1">
+<div class="para" id="cucumbers-arithmetic-operations-1-2-1-1-1">At the start of the week she had 8 cucumbers in her refrigerator.<div class="autopermalink" data-description="Paragraph"><a href="#cucumbers-arithmetic-operations-1-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#cucumbers-arithmetic-operations-1-2-1-1" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="cucumbers-arithmetic-operations-1-2-1-2">
+<div class="para" id="cucumbers-arithmetic-operations-1-2-1-2-1">Her son, Néstor took 3 home with him after dinner on Monday.<div class="autopermalink" data-description="Paragraph"><a href="#cucumbers-arithmetic-operations-1-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#cucumbers-arithmetic-operations-1-2-1-2" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="cucumbers-arithmetic-operations-1-2-1-3">
+<div class="para" id="cucumbers-arithmetic-operations-1-2-1-3-1">Tensia harvested another 7 cucumbers on Wednesday.<div class="autopermalink" data-description="Paragraph"><a href="#cucumbers-arithmetic-operations-1-2-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#cucumbers-arithmetic-operations-1-2-1-3" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="cucumbers-arithmetic-operations-1-2-1-4">
+<div class="para" id="cucumbers-arithmetic-operations-1-2-1-4-1">Her neighbor Sarah graciously took 4 cucumbers to make pickles.<div class="autopermalink" data-description="Paragraph"><a href="#cucumbers-arithmetic-operations-1-2-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#cucumbers-arithmetic-operations-1-2-1-4" title="Copy permalink for Item">🔗</a></div>
+</li>
+<li id="cucumbers-arithmetic-operations-1-2-1-5">
+<div class="para" id="cucumbers-arithmetic-operations-1-2-1-5-1">Tensia herself ate 2 cucumbers during the week.<div class="autopermalink" data-description="Paragraph"><a href="#cucumbers-arithmetic-operations-1-2-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#cucumbers-arithmetic-operations-1-2-1-5" title="Copy permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#cucumbers-arithmetic-operations-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="cucumbers-arithmetic-operations-1-3">How many cucumbers does she have left over?<div class="autopermalink" data-description="Paragraph"><a href="#cucumbers-arithmetic-operations-1-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 0.2.1"><a href="#cucumbers-arithmetic-operations" title="Copy permalink for Exercise 0.2.1">🔗</a></div></article> <article class="exercise exercise-like" id="late-rent-arithmetic-operations"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="introduction" id="late-rent-arithmetic-operations-1"><div class="para" id="late-rent-arithmetic-operations-1-1">Brent’s landlord charges $15 per day for late rent.<div class="autopermalink" data-description="Paragraph"><a href="#late-rent-arithmetic-operations-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="late-rent-arithmetic-operations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="late-rent-arithmetic-operations-2-1-1">What will Brent’s late fee be if he is 6 days late paying his rent?<div class="autopermalink" data-description="Paragraph"><a href="#late-rent-arithmetic-operations-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.2.2.a"><a href="#late-rent-arithmetic-operations-2" title="Copy permalink for Task 0.2.2.a">🔗</a></div></article><article class="task exercise-like" id="late-rent-arithmetic-operations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="late-rent-arithmetic-operations-3-1-1">If Brent got a bill showing $195 in late fees, how many days late did he pay his rent?<div class="autopermalink" data-description="Paragraph"><a href="#late-rent-arithmetic-operations-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.2.2.b"><a href="#late-rent-arithmetic-operations-3" title="Copy permalink for Task 0.2.2.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.2.2"><a href="#late-rent-arithmetic-operations" title="Copy permalink for Exercise 0.2.2">🔗</a></div></article><article class="exercise exercise-like" id="students-arithmetic-operations"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="students-arithmetic-operations-1"><div class="para" id="students-arithmetic-operations-1-1">There are 2,624 students at a local university.<div class="autopermalink" data-description="Paragraph"><a href="#students-arithmetic-operations-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="students-arithmetic-operations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="students-arithmetic-operations-2-1-1">About <span class="process-math">\(\sfrac{3}{4}\)</span> of those students live on or within a mile of campus. How many students live on or within a mile of campus?<div class="autopermalink" data-description="Paragraph"><a href="#students-arithmetic-operations-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.2.3.a"><a href="#students-arithmetic-operations-2" title="Copy permalink for Task 0.2.3.a">🔗</a></div></article><article class="task exercise-like" id="students-arithmetic-operations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="students-arithmetic-operations-3-1-1">The university wants to support 40 hours a week of onsite tutoring (in mathematics, writing, etc.) for each the 32 weeks that classes are in session. It costs about $18/hour to pay the tutors and staff administrators. What is the total cost of tutoring?<div class="autopermalink" data-description="Paragraph"><a href="#students-arithmetic-operations-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.2.3.b"><a href="#students-arithmetic-operations-3" title="Copy permalink for Task 0.2.3.b">🔗</a></div></article><article class="task exercise-like" id="students-arithmetic-operations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="students-arithmetic-operations-4-1-1">The university is considering adding a tutoring fee to cover the cost of tutoring. If they wanted to cover the total cost of tutoring, what would the cost per student be?<div class="autopermalink" data-description="Paragraph"><a href="#students-arithmetic-operations-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.2.3.c"><a href="#students-arithmetic-operations-4" title="Copy permalink for Task 0.2.3.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.2.3"><a href="#students-arithmetic-operations" title="Copy permalink for Exercise 0.2.3">🔗</a></div></article> <article class="exercise exercise-like" id="truck-grass-arithmetic-operations"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="truck-grass-arithmetic-operations-1"><div class="para" id="truck-grass-arithmetic-operations-1-1">A truck hauling grass seed weighs 3,900 pounds when it is empty. Each bag of seed it carries weighs 4.2 pounds. The <dfn class="terminology">gross weight</dfn> of the truck is the total weight including the truck and the bags of seed. <em class="emphasis">(Story also appears in <a href="sec-First_look_linear.html#truck-grass-first-look-linear" class="xref" data-knowl="./knowl/xref/truck-grass-first-look-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.1.1">2.1.1</a>, <a href="sec-Solving_linear_equations.html#truck-grass-solving-linear" class="xref" data-knowl="./knowl/xref/truck-grass-solving-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.1.1">3.1.1</a>, and <a href="sec-Solving_linear_inequalities.html#truck-grass-linear-ineq" class="xref" data-knowl="./knowl/xref/truck-grass-linear-ineq.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3.2.1">3.2.1</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#truck-grass-arithmetic-operations-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="truck-grass-arithmetic-operations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="truck-grass-arithmetic-operations-2-1-1">How much does 1,300 bags of grass seed weigh?<div class="autopermalink" data-description="Paragraph"><a href="#truck-grass-arithmetic-operations-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.2.4.a"><a href="#truck-grass-arithmetic-operations-2" title="Copy permalink for Task 0.2.4.a">🔗</a></div></article><article class="task exercise-like" id="truck-grass-arithmetic-operations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="truck-grass-arithmetic-operations-3-1-1">What is the gross weight of the truck if it carries 1,300 bags of grass seed?<div class="autopermalink" data-description="Paragraph"><a href="#truck-grass-arithmetic-operations-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.2.4.b"><a href="#truck-grass-arithmetic-operations-3" title="Copy permalink for Task 0.2.4.b">🔗</a></div></article><article class="task exercise-like" id="truck-grass-arithmetic-operations-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="truck-grass-arithmetic-operations-4-1-1">You probably entered this calculation as <span class="process-math">\(1300 \times 4.2 = + 3900=\text{.}\)</span> What happens if you skip the middle = sign and enter <span class="process-math">\(1300 \times 4.2 + 3900\)</span> instead?<div class="autopermalink" data-description="Paragraph"><a href="#truck-grass-arithmetic-operations-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.2.4.c"><a href="#truck-grass-arithmetic-operations-4" title="Copy permalink for Task 0.2.4.c">🔗</a></div></article><article class="task exercise-like" id="truck-grass-arithmetic-operations-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="truck-grass-arithmetic-operations-5-1-1">What answer does your calculator give you if you enter <span class="process-math">\(3900 + 4.2 \times 1300\)</span> instead?<div class="autopermalink" data-description="Paragraph"><a href="#truck-grass-arithmetic-operations-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.2.4.d"><a href="#truck-grass-arithmetic-operations-5" title="Copy permalink for Task 0.2.4.d">🔗</a></div></article><article class="task exercise-like" id="truck-grass-arithmetic-operations-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="truck-grass-arithmetic-operations-6-1-1">What does part (d) tell you about which operation your calculator did first: the <span class="process-math">\(+\)</span> or the <span class="process-math">\(\times\text{?}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#truck-grass-arithmetic-operations-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.2.4.e"><a href="#truck-grass-arithmetic-operations-6" title="Copy permalink for Task 0.2.4.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.2.4"><a href="#truck-grass-arithmetic-operations" title="Copy permalink for Exercise 0.2.4">🔗</a></div></article><article class="exercise exercise-like" id="social-security-arithmetic-operations"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="para" id="social-security-arithmetic-operations-1-1">Mrs. Nystrom gets $1,453.46 per month in Social Security benefits and another $1,250 per month from a life annuity. She pays $540.60 per month in taxes and $1,749 each month for rent and utilities. How much does she have left each month for food, entertainment, and other expenses?<div class="autopermalink" data-description="Paragraph"><a href="#social-security-arithmetic-operations-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="social-security-arithmetic-operations-1-2">
+<em class="emphasis">Story also appears in <a href="sec-Variables_and_functions.html#social-security-variables-functions" class="xref" data-knowl="./knowl/xref/social-security-variables-functions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.1.7">1.1.7</a>, <a href="sec-Tables_and_graphs.html#social-security-tables-graphs" class="xref" data-knowl="./knowl/xref/social-security-tables-graphs.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.2.8">1.2.8</a>, and <a href="sec-Modeling_exponential_equations.html#social-security-modeling-exponential" class="xref" data-knowl="./knowl/xref/social-security-modeling-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 5.1.6">5.1.6</a></em><div class="autopermalink" data-description="Paragraph"><a href="#social-security-arithmetic-operations-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 0.2.5"><a href="#social-security-arithmetic-operations" title="Copy permalink for Exercise 0.2.5">🔗</a></div></article><article class="exercise exercise-like" id="driving-arithmetic-operations"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="driving-arithmetic-operations-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="driving-arithmetic-operations-1-1-1">McKenna drives 60 miles per hour on the highway. How far does she drive in two and a half hours (that’s 2.5 hours)? How far does she drive in 45 minutes (that’s <span class="process-math">\(\frac{3}{4}\)</span> of an hour)? <em class="emphasis">Story also appears in <a href="sec-Variables_and_functions.html#time-variables-functions" class="xref" data-knowl="./knowl/xref/time-variables-functions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.1.4">1.1.4</a></em><div class="autopermalink" data-description="Paragraph"><a href="#driving-arithmetic-operations-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.2.6.a"><a href="#driving-arithmetic-operations-1" title="Copy permalink for Task 0.2.6.a">🔗</a></div></article><article class="task exercise-like" id="driving-arithmetic-operations-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="driving-arithmetic-operations-2-1-1">Nhia drove to visit his cousin in Detroit, which is 690 miles from where he lives in Saint Paul. If he spent 10 and a half hours driving (that’s 10.5 hours), how fast was Nhia driving (on average)? Round your answer to the nearest whole number.<div class="autopermalink" data-description="Paragraph"><a href="#driving-arithmetic-operations-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.2.6.b"><a href="#driving-arithmetic-operations-2" title="Copy permalink for Task 0.2.6.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.2.6"><a href="#driving-arithmetic-operations" title="Copy permalink for Exercise 0.2.6">🔗</a></div></article><article class="exercise exercise-like" id="walnut-tree-arithmetic-operations"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="introduction" id="walnut-tree-arithmetic-operations-1">
+<div class="para" id="walnut-tree-arithmetic-operations-1-1">When the Nussbaums planted a walnut tree it was 5 feet tall. It has grown around 2 feet a year.<div class="autopermalink" data-description="Paragraph"><a href="#walnut-tree-arithmetic-operations-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="walnut-tree-arithmetic-operations-1-2">
+<em class="emphasis">(Story also appears in <a href="sec-Algebraic_notation.html#walnut-tree-algebraic-notation" class="xref" data-knowl="./knowl/xref/walnut-tree-algebraic-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.7.6">0.7.6</a> and <a href="sec-Variables_and_functions.html#time-variables-functions" class="xref" data-knowl="./knowl/xref/time-variables-functions.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.1.4">1.1.4</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#walnut-tree-arithmetic-operations-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="walnut-tree-arithmetic-operations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="walnut-tree-arithmetic-operations-2-1-1">How tall was the tree 1, 2, and 3 years after they planted it?<div class="autopermalink" data-description="Paragraph"><a href="#walnut-tree-arithmetic-operations-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.2.7.a"><a href="#walnut-tree-arithmetic-operations-2" title="Copy permalink for Task 0.2.7.a">🔗</a></div></article><article class="task exercise-like" id="walnut-tree-arithmetic-operations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="walnut-tree-arithmetic-operations-3-1-1">How tall is the tree now, 18 years after they planted it?<div class="autopermalink" data-description="Paragraph"><a href="#walnut-tree-arithmetic-operations-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.2.7.b"><a href="#walnut-tree-arithmetic-operations-3" title="Copy permalink for Task 0.2.7.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.2.7"><a href="#walnut-tree-arithmetic-operations" title="Copy permalink for Exercise 0.2.7">🔗</a></div></article><article class="exercise exercise-like" id="beach-erosion-arithmetic-operations"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="introduction" id="beach-erosion-arithmetic-operations-1"><div class="para" id="beach-erosion-arithmetic-operations-1-1">The public beach near Paloma’s house 60 years ago was 435 feet long and now is only 210 feet long due to erosion. The length of the beach is measured from the dunes to the high water mark. <em class="emphasis">Story also appears in <a href="sec-Rate_of_change.html#beach-erosion-rate-of-change" class="xref" data-knowl="./knowl/xref/beach-erosion-rate-of-change.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.3.10">1.3.10</a> and <a href="sec-Intercepts.html#beach-erosion-intercepts" class="xref" data-knowl="./knowl/xref/beach-erosion-intercepts.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 4.3.7">4.3.7</a></em><div class="autopermalink" data-description="Paragraph"><a href="#beach-erosion-arithmetic-operations-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="beach-erosion-arithmetic-operations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="beach-erosion-arithmetic-operations-2-1-1">How many feet shorter is the beach now, compared to 60 years ago?<div class="autopermalink" data-description="Paragraph"><a href="#beach-erosion-arithmetic-operations-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.2.8.a"><a href="#beach-erosion-arithmetic-operations-2" title="Copy permalink for Task 0.2.8.a">🔗</a></div></article><article class="task exercise-like" id="beach-erosion-arithmetic-operations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="beach-erosion-arithmetic-operations-3-1-1">Approximately how many feet per year is the beach eroding?<div class="autopermalink" data-description="Paragraph"><a href="#beach-erosion-arithmetic-operations-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.2.8.b"><a href="#beach-erosion-arithmetic-operations-3" title="Copy permalink for Task 0.2.8.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.2.8"><a href="#beach-erosion-arithmetic-operations" title="Copy permalink for Exercise 0.2.8">🔗</a></div></article><article class="exercise exercise-like" id="fabric-yards-arithmetic-operations"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="introduction" id="fabric-yards-arithmetic-operations-1"><div class="para" id="fabric-yards-arithmetic-operations-1-1">Each yard of fabric is 3 feet long.<div class="autopermalink" data-description="Paragraph"><a href="#fabric-yards-arithmetic-operations-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="fabric-yards-arithmetic-operations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="fabric-yards-arithmetic-operations-2-1-1">Virgil needs 4 yards of fabric to sew a prototype of a new suit. How many feet of fabric does Virgil need?<div class="autopermalink" data-description="Paragraph"><a href="#fabric-yards-arithmetic-operations-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.2.9.a"><a href="#fabric-yards-arithmetic-operations-2" title="Copy permalink for Task 0.2.9.a">🔗</a></div></article><article class="task exercise-like" id="fabric-yards-arithmetic-operations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="fabric-yards-arithmetic-operations-3-1-1">If there are 15 feet of fabric left on the bolt, how many yards of fabric is that?<div class="autopermalink" data-description="Paragraph"><a href="#fabric-yards-arithmetic-operations-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.2.9.b"><a href="#fabric-yards-arithmetic-operations-3" title="Copy permalink for Task 0.2.9.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.2.9"><a href="#fabric-yards-arithmetic-operations" title="Copy permalink for Exercise 0.2.9">🔗</a></div></article><article class="exercise exercise-like" id="minutes-arithmetic-operations"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<div class="introduction" id="minutes-arithmetic-operations-1"><div class="para" id="minutes-arithmetic-operations-1-1">There are 60 minutes in an hour. (I bet you knew that!)<div class="autopermalink" data-description="Paragraph"><a href="#minutes-arithmetic-operations-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="minutes-arithmetic-operations-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="minutes-arithmetic-operations-2-1-1">Nala has been helping her sister with her homework for 2 hours, 15 minutes (that’s 2.25 hours). How many minutes has Nala been helping her sister?<div class="autopermalink" data-description="Paragraph"><a href="#minutes-arithmetic-operations-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.2.10.a"><a href="#minutes-arithmetic-operations-2" title="Copy permalink for Task 0.2.10.a">🔗</a></div></article><article class="task exercise-like" id="minutes-arithmetic-operations-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="minutes-arithmetic-operations-3-1-1">Yesterday Nala helped her dad at the restaurant for 50 minutes, which is <span class="process-math">\(\frac{5}{6}\)</span> of an hour. If Nala hopes her dad will pay her $11 per hour, how much should she ask her dad for?<div class="autopermalink" data-description="Paragraph"><a href="#minutes-arithmetic-operations-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 0.2.10.b"><a href="#minutes-arithmetic-operations-3" title="Copy permalink for Task 0.2.10.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 0.2.10"><a href="#minutes-arithmetic-operations" title="Copy permalink for Exercise 0.2.10">🔗</a></div></article><div class="autopermalink" data-description="Exercises 0.2: Exercises"><a href="#ex-Arithmetic_operations" title="Copy permalink for Exercises 0.2: Exercises">🔗</a></div></section><div class="autopermalink" data-description="Section 0.2: Prelude: Arithmetic operations"><a href="#sec-Arithmetic_operations" title="Copy permalink for Section 0.2: Prelude: Arithmetic operations">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-Approximation_and_rounding.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-Percentages.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

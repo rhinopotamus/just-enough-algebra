@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr" data-legacy-colorscheme="blue_red">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-legacy                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Fitting lines to data</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;" rel="stylesheet">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Just Enough Algebra(*)">
+<meta property="book:author" content="Dr. Suzanne Dorée">
+<meta property="book:author" content="Dr. Spencer Bagley">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.7.5';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.107bf2d9be20d9c4.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="justenoughalgebra" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""><img src="external/book-open-solid.png" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="just-enough-algebra.html"><span class="title">Just Enough Algebra(*)</span></a></h1>
+<p class="byline">Dr. Suzanne Dorée, Dr. Spencer Bagley</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-Slopes.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-Closer_look_linear.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-PE4A.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-why-this-book-web.html" class="internal"><span class="title">Why <em class="emphasis">Just Enough Algebra</em>?</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-students-web.html" class="internal"><span class="title">Students! Read this!</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-instructors-web.html" class="internal"><span class="title">Instructors! Read this!</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Prelude.html" class="internal"><span class="codenumber">0</span> <span class="title">Prelude</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approximation_and_rounding.html" class="internal"><span class="codenumber">0.1</span> <span class="title">Prelude: Approximation &amp; rounding</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approximation_and_rounding.html#ex-Approximation_and_rounding" class="internal"><span class="codenumber">0.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Arithmetic_operations.html" class="internal"><span class="codenumber">0.2</span> <span class="title">Prelude: Arithmetic operations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Arithmetic_operations.html#ex-Arithmetic_operations" class="internal"><span class="codenumber">0.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Percentages.html" class="internal"><span class="codenumber">0.3</span> <span class="title">Prelude: Percentages</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Percentages.html#ex-Percentages" class="internal"><span class="codenumber">0.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Order_of_operations.html" class="internal"><span class="codenumber">0.4</span> <span class="title">Prelude: Order of operations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Order_of_operations.html#ex-Order_of_operations" class="internal"><span class="codenumber">0.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fractions.html" class="internal"><span class="codenumber">0.5</span> <span class="title">Prelude: Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fractions.html#ex-Fractions" class="internal"><span class="codenumber">0.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Powers_and_roots.html" class="internal"><span class="codenumber">0.6</span> <span class="title">Prelude: Powers and roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Powers_and_roots.html#ex-Powers_and_roots" class="internal"><span class="codenumber">0.6</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Algebraic_notation.html" class="internal"><span class="codenumber">0.7</span> <span class="title">Prelude: Algebraic notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Algebraic_notation.html#ex-Algebraic-notation" class="internal"><span class="codenumber">0.7</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Scientific_notation.html" class="internal"><span class="codenumber">0.8</span> <span class="title">Prelude: Scientific notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Scientific_notation.html#ex-Scientific_notation" class="internal"><span class="codenumber">0.8</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logarithms.html" class="internal"><span class="codenumber">0.9</span> <span class="title">Prelude: Logarithms</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logarithms.html#ex-Logarithms" class="internal"><span class="codenumber">0.9</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Variables.html" class="internal"><span class="codenumber">1</span> <span class="title">Variables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Variables_and_functions.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Variables and functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Variables_and_functions.html#exercises-variables-functions" class="internal"><span class="codenumber">1.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Tables_and_graphs.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Tables and graphs</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Tables_and_graphs.html#ex-Tables_and_graphs" class="internal"><span class="codenumber">1.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Rate_of_change.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Rate of change</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Rate_of_change.html#ex-Rate_of_change" class="internal"><span class="codenumber">1.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Units.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Units</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Units.html#ex-Units" class="internal"><span class="codenumber">1.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Metric_system_and_scientific_notation.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Metric prefixes and scientific notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Metric_system_and_scientific_notation.html#ex-Metric_system_and_scientific_notation" class="internal"><span class="codenumber">1.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1A.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Practice Exam 1A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1A.html#ws-PE1A" class="internal"><span class="codenumber">1.6</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1B.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1B.html#ws-PE1B" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Equations.html" class="internal"><span class="codenumber">2</span> <span class="title">Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_linear.html#ex-First_look_linear" class="internal"><span class="codenumber">2.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_exponential.html#ex-First_look_exponentialEX" class="internal"><span class="codenumber">2.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Using_equations.html#ex-Using_equations" class="internal"><span class="codenumber">2.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approx_solutions.html#ex-Approx_solutions" class="internal"><span class="codenumber">2.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Finance.html#ex-Finance" class="internal"><span class="codenumber">2.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2A.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2A.html#ws-PE2A" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2B.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2B.html#ws-PE2B" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Solving_equations.html" class="internal"><span class="codenumber">3</span> <span class="title">Solving equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html#ex-Solving_linear_equations" class="internal"><span class="codenumber">3.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html#ex-Solving_linear_inequalitiesEX" class="internal"><span class="codenumber">3.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_power_equations.html#ex-Solving_power_equations" class="internal"><span class="codenumber">3.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html#ex-Solving_exponential_equations" class="internal"><span class="codenumber">3.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html#ex-Solving_quadratic_equations" class="internal"><span class="codenumber">3.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3A.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3A.html#ws-PE3A" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3B.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3B.html#ws-PE3B" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-Closer_look_linear.html" class="internal"><span class="codenumber">4</span> <span class="title">A closer look at linear equations</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html#ex-Modeling_linear_equations" class="internal"><span class="codenumber">4.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html#ex-Systems_linear_equations" class="internal"><span class="codenumber">4.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Intercepts.html#ex-Intercepts" class="internal"><span class="codenumber">4.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Slopes.html#ex-Slopes" class="internal"><span class="codenumber">4.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div>
+<ul class="structural toc-item-list active"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html#ex-Fitting_lines_to_data" class="internal"><span class="codenumber">4.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4A.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4A.html#ws-PE4A" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4B.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4B.html#ws-PE4B" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Closer_look_exponential.html" class="internal"><span class="codenumber">5</span> <span class="title">A closer look at exponential equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html#ex-Modeling_exponential_equations" class="internal"><span class="codenumber">5.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html#ex-Exp_growth_decay" class="internal"><span class="codenumber">5.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Growth_factor.html#ex-Growth_factor" class="internal"><span class="codenumber">5.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html#ex-Linear_vs_exponential" class="internal"><span class="codenumber">5.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logistic_growth.html#ex-Logistic_growth" class="internal"><span class="codenumber">5.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5A.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE5A.html#ws-PE5A" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5B.html" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE5B.html#ws-PE5B" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="backmatter-2.html" class="internal"><span class="codenumber">A</span> <span class="title">Practice Final Exams</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pfe1.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Practice Final Exam 1</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-pfe1.html#ws-PE6A" class="internal"><span class="codenumber">A.1</span> <span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pfe2.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Practice Final Exam 2</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-pfe2.html#ws-PE6B" class="internal"><span class="codenumber">A.2</span> <span class="title"></span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="app-templates-formulas.html" class="internal"><span class="codenumber">B</span> <span class="title">Templates and Formulas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-templates.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Templates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-constants.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Formulas used to find constants</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-solve.html" class="internal"><span class="codenumber">B.3</span> <span class="title">Formulas used to solve specific types of equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-finance.html" class="internal"><span class="codenumber">B.4</span> <span class="title">Formulas from finance</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Fitting_lines_to_data"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">4.5</span><span class="space"> </span><span class="title">Fitting lines to data</span>
+</h2>
+<section class="introduction" id="sec-Fitting_lines_to_data-2"><div class="para" id="sec-Fitting_lines_to_data-2-1">Thanh has an internship studying road salt usage in a northern metropolitan area. Road salt is used to melt ice and snow on paved streets. Because it can damage vegetation and influence both surface water (lakes) and ground water, and because it costs money to run the trucks that apply the salt, people are interested in the amount of road salt used.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Fitting_lines_to_data-2-2">
+<div class="para">One data set compares road salt usage per county. Thanh learned from county officials that road salt use varies widely from county to county, but, not surprisingly, it depends heavily on the length of road in the county. So, the variables are</div>
+<div class="displaymath process-math" id="sec-Fitting_lines_to_data-2-2-1">
+\begin{align*}
+L \amp= \text{ road length (lane miles) } \sim \text{ dep} \\
+S \amp= \text{ road salt applied (tons per year) } \sim \text{ indep} 
+\end{align*}
+</div>
+<div class="para">A <dfn class="terminology">lane mile</dfn> is the area of road one mile long and one lane wide. Now you know.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Fitting_lines_to_data-2-3">Thanh also learned that while road salt use is a function of lane miles, it is not proportional as there are more complicated factors involved. Still, he would like to model road salt use as a function of road length. Here are the data for counties in the metro area.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">County</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">A</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">C</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">D</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">H</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">R</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">T</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">W</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(L\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">710</td>
+<td class="c m b1 r1 l0 t0 lines">420</td>
+<td class="c m b1 r1 l0 t0 lines">800</td>
+<td class="c m b1 r1 l0 t0 lines">1,420</td>
+<td class="c m b1 r1 l0 t0 lines">720</td>
+<td class="c m b1 r1 l0 t0 lines">510</td>
+<td class="c m b1 r1 l0 t0 lines">480</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(S\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">14,700</td>
+<td class="c m b1 r1 l0 t0 lines">3,900</td>
+<td class="c m b1 r1 l0 t0 lines">11,600</td>
+<td class="c m b1 r1 l0 t0 lines">15,500</td>
+<td class="c m b1 r1 l0 t0 lines">9,400</td>
+<td class="c m b1 r1 l0 t0 lines">5,000</td>
+<td class="c m b1 r1 l0 t0 lines">9,700</td>
+</tr>
+</table></div>
+<div class="para" id="sec-Fitting_lines_to_data-2-5">To develop his model Thanh imagined a new county, County X, that had 600 lane miles of road. In looking at the data, he finds two counties with close to 600 lane miles: County T and County A.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">County T</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">County X</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">County A</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(L\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">510</td>
+<td class="c m b1 r1 l0 t0 lines">600</td>
+<td class="c m b1 r1 l0 t0 lines">710</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(S\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">5,000</td>
+<td class="c m b1 r1 l0 t0 lines">?</td>
+<td class="c m b1 r1 l0 t0 lines">14,700</td>
+</tr>
+</table></div>
+<div class="para" id="sec-Fitting_lines_to_data-2-7">Based on this data, Thanh expects County X would use between 5,000 and 14,700 tons/year of road salt. Since 600 is closer to 510 than to 710, he starts with a guess of around 9,000 tons/year of road salt.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-7" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Fitting_lines_to_data-2-8">
+<div class="para">To improve this estimate, Thanh decides to use a linear model, hoping that will account for both road length influence and fixed factors. He begins by finding the slope.</div>
+<div class="displaymath process-math" id="sec-Fitting_lines_to_data-2-8-1">
+\begin{align*}
+\text{slope} \amp = \text{rate of change} = \frac{\text{change dep}}{\text{change indep}} = \frac{14{,}700\text{ tons/year}-5{,}000 \text{ tons/year}}{710\text{ lane miles}-510 \text{ lane miles}}\\
+\amp = (14{,}700-5{,}000)\div(710-510)= 48.5 \text{ tons/year per lane mile} 
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-8" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Fitting_lines_to_data-2-9">
+<div class="para">Next he calculates the intercept.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{intercept} = \text{dep} -\text{slope}\ast\text{indep}=  5{,}000 - 48.5\times 510= -19{,}735 \text{ tons/year}
+\end{equation*}
+</div>
+<div class="para">He was not expecting a negative value but decides to use it anyway. Using the template for a linear equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{dep} = \text{start} + \text{slope} * \text{indep}
+\end{equation*}
+</div>
+<div class="para">Thanh gets</div>
+<div class="displaymath process-math">
+\begin{equation*}
+S = -19{,}735 + 48.5L
+\end{equation*}
+</div>
+<div class="para">which he rewrites as</div>
+<div class="displaymath process-math">
+\begin{equation*}
+S = 48.5L-19{,}735
+\end{equation*}
+</div>
+<div class="para">As a check, for <span class="process-math">\(L=710\)</span> lane miles, he gets</div>
+<div class="displaymath process-math">
+\begin{equation*}
+S=48.5 \times \underline{710}-19{,}735=14{,}700 \text{ tons/year}\quad \checkmark
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-9" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Fitting_lines_to_data-2-10">
+<div class="para">More importantly, for 600 miles his equation gives the estimate of</div>
+<div class="displaymath process-math">
+\begin{equation*}
+S=48.5 \times \underline{600}-19{,}735=9{,}365\text{ tons/year}
+\end{equation*}
+</div>
+<div class="para">Thanh rounds this estimate to 9,400 tons/year of road salt for County X, which is close to his initial guess of 9,000 tons/year.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-10" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Fitting_lines_to_data-2-11">Next, Thanh imagines another new county, County Y, that has 500 lane miles of road. He looks to the data for counties with close to 500 lane miles.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-11" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">County W</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">County Y</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">County T</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(L\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">480</td>
+<td class="c m b1 r1 l0 t0 lines">500</td>
+<td class="c m b1 r1 l0 t0 lines">510</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(S\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">9,700</td>
+<td class="c m b1 r1 l0 t0 lines">?</td>
+<td class="c m b1 r1 l0 t0 lines">5,000</td>
+</tr>
+</table></div>
+<div class="para" id="sec-Fitting_lines_to_data-2-13">Wait a minute. The county with fewer roads used more salt? That doesn’t make sense.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-13" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Fitting_lines_to_data-2-14">Thanh decides to look at all the data at once in a scatter plot.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-14" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Fitting_lines_to_data-2-15">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/roadsaltSCATTER.png" class="contained"></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-15" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Fitting_lines_to_data-2-16">When Thanh was using the nearby points to estimate for Counties X and Y, it’s as if he were connecting the dots with line segments on the graph. Notice that the line that goes through 500 lane miles is decreasing, just like Thanh saw in his table.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-16" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Fitting_lines_to_data-2-17">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/roadsaltConnectDots.png" class="contained"></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-17" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Fitting_lines_to_data-2-18">Thanh suspects that this connect-the-dots model is too heavily influenced by individual county road-salting habits. He would like a way to get one line to use for everything, knowing full well that one line cannot possibly go through all of the data points.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-18" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Fitting_lines_to_data-2-19">
+<div class="para">Which line to use? One option would be to stick with the line he found through the points for Counties T and A:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\textbf{T-A line:} \quad S = 48.5L-19{,}735
+\end{equation*}
+</div>
+<div class="para">He redraws the scatter plot to show that line. Because the intercept is negative, it doesn’t show up on his graph. The line seems to be too low at first and too high later. The problem is that this line is too steep (has too large a slope).</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-19" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Fitting_lines_to_data-2-20">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/roadsaltTAline.png" class="contained"></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-20" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Fitting_lines_to_data-2-21">
+<div class="para">Thanh decides to try a line that is less steep. After drawing in a few lines, he decides to try the line between the points for Counties C and D instead, which has equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\textbf{C-D line:} \quad S = 20.26L-4{,}610
+\end{equation*}
+</div>
+<div class="para">Unfortunately this line seems too low. (Again the negative intercept isn’t visible.)</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-21" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Fitting_lines_to_data-2-22">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/roadsaltCDline.png" class="contained"></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-22" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Fitting_lines_to_data-2-23">
+<div class="para">Neither of these lines came close to the point for County H on the far right, so Thanh considers one more line, this time through County H and County R, which has equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\textbf{H-R line:} \quad S = 8.71L+3{,}130
+\end{equation*}
+</div>
+<div class="para">This line has a positive intercept just above 3,000 tons/year, as you can see on the graph.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-23" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Fitting_lines_to_data-2-24">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/roadsaltHRline.png" class="contained"></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-24" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Fitting_lines_to_data-2-25">
+<div class="para">Thanh thinks the H-R line is reasonable, but it makes him wonder how to decide if one line is better than another. Generally speaking the <dfn class="terminology">best fitting line</dfn> makes the space between the line and the data points as small as possible. (There is actually a much more official definition.) After using a little statistical software, Thanh determines that for this data set, the official best fitting line has equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\textbf{Best fitting line:} \quad S = 10.0L+2{,}741
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-25" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Fitting_lines_to_data-2-26">Thanh wants to add this line to his graph so first he calculates a few values. While it’s true that any two points would do, he played it safe and plotted three points, being sure to use 0 in order to find the intercept.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-26" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(L\)</span></td>
+<td class="c m b1 r1 l0 t1 lines">0</td>
+<td class="c m b1 r1 l0 t1 lines">600</td>
+<td class="c m b1 r1 l0 t1 lines">1,500</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(S\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">2,741</td>
+<td class="c m b1 r1 l0 t0 lines">8,741</td>
+<td class="c m b1 r1 l0 t0 lines">17,741</td>
+</tr>
+</table></div>
+<div class="para" id="sec-Fitting_lines_to_data-2-28">He graphs this line and notices it is very similar to the H-R line, just a tiny bit higher and a tiny bit steeper. The points from the table are highlighted on the graph just to help you see how we graphed the line. Remember, those aren’t actual data points.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-28" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Fitting_lines_to_data-2-29">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/roadsaltbestfit.png" class="contained"></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-29" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Fitting_lines_to_data-2-30">Thanh is bothered by the fact that County H seems to be off on its own. The largest city in this area is in County H. Between the budget crunch and the nature of the urban landscape, the city tends to use much less road salt than the surrounding areas. So County H really isn’t very typical at all. In statistics, this sort of value is known by the descriptive term <dfn class="terminology">outlier</dfn> (as in “it lies way out there.”)<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-30" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Fitting_lines_to_data-2-31">
+<div class="para">So Thanh decides to look at the statistically best-fitting line ignoring County H this time. Back to his software and he finds</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\textbf{Best fitting line (ignoring outlier):} \quad S = 19.7L-2{,}905
+\end{equation*}
+</div>
+<div class="para">This line is less steep than the T-A line and higher than the C-D line. Seems perfect.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-31" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Fitting_lines_to_data-2-32">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/roadsaltbestfitwoOutlier.png" class="contained"></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-2-32" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="conclusion" id="sec-Fitting_lines_to_data-3"><h3 class="heading">Do you know …<span></span>
+</h3>
+<div class="para logical" id="sec-Fitting_lines_to_data-3-2">
+<ol class="upper-alpha ol-marker-1" id="sec-Fitting_lines_to_data-3-2-1">
+<li id="sec-Fitting_lines_to_data-3-2-1-1">
+<div class="para" id="sec-Fitting_lines_to_data-3-2-1-1-1">What a scatter plot is?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-3-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item A"><a href="#sec-Fitting_lines_to_data-3-2-1-1" title="Copy permalink for Item A">🔗</a></div>
+</li>
+<li id="sec-Fitting_lines_to_data-3-2-1-2">
+<div class="para" id="sec-Fitting_lines_to_data-3-2-1-2-1">Why we might begin the scale for a scatter plot somewhere other than 0?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-3-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item B"><a href="#sec-Fitting_lines_to_data-3-2-1-2" title="Copy permalink for Item B">🔗</a></div>
+</li>
+<li id="sec-Fitting_lines_to_data-3-2-1-3">
+<div class="para" id="sec-Fitting_lines_to_data-3-2-1-3-1">Why we would approximate data with a linear function?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-3-2-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item C"><a href="#sec-Fitting_lines_to_data-3-2-1-3" title="Copy permalink for Item C">🔗</a></div>
+</li>
+<li id="sec-Fitting_lines_to_data-3-2-1-4">
+<div class="para" id="sec-Fitting_lines_to_data-3-2-1-4-1">How to decide visually whether a line is a reasonable approximation of the data?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-3-2-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item D"><a href="#sec-Fitting_lines_to_data-3-2-1-4" title="Copy permalink for Item D">🔗</a></div>
+</li>
+<li id="sec-Fitting_lines_to_data-3-2-1-5">
+<div class="para" id="sec-Fitting_lines_to_data-3-2-1-5-1">The name for a point that falls very far away from an approximating line?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-3-2-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item E"><a href="#sec-Fitting_lines_to_data-3-2-1-5" title="Copy permalink for Item E">🔗</a></div>
+</li>
+<li id="sec-Fitting_lines_to_data-3-2-1-6">
+<div class="para" id="sec-Fitting_lines_to_data-3-2-1-6-1">How to graph a line from its equation by creating a table first?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-3-2-1-6-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item F"><a href="#sec-Fitting_lines_to_data-3-2-1-6" title="Copy permalink for Item F">🔗</a></div>
+</li>
+<li id="sec-Fitting_lines_to_data-3-2-1-7">
+<div class="para" id="sec-Fitting_lines_to_data-3-2-1-7-1">Why even the best fitting line doesn’t go through most of the data points?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-3-2-1-7-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item G"><a href="#sec-Fitting_lines_to_data-3-2-1-7" title="Copy permalink for Item G">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-3-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Fitting_lines_to_data-3-3">
+<em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-Fitting_lines_to_data-3-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="exercises" id="ex-Fitting_lines_to_data"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<section class="introduction" id="ex-Fitting_lines_to_data-2"><div class="para" id="ex-Fitting_lines_to_data-2-1">Exercises 1-4 are available in a separate workbook format.<div class="autopermalink" data-description="Paragraph"><a href="#ex-Fitting_lines_to_data-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><article class="exercise exercise-like" id="wood-volume-fitting-lines"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="introduction" id="wood-volume-fitting-lines-1"><div class="para" id="wood-volume-fitting-lines-1-1">The scatter plot shows the total volume of wood, <span class="process-math">\(V\)</span> cubic feet, in managed forests of different ages, <span class="process-math">\(A\)</span> years.<div class="autopermalink" data-description="Paragraph"><a href="#wood-volume-fitting-lines-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="wood-volume-fitting-lines-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="wood-volume-fitting-lines-2-1-1">For each line, state some reason why the fit is not good. (We know the line will not go through all, or even most, of the points, so that is not the problem. Instead look at slope/steepness, intercept/height, etc.)<div class="autopermalink" data-description="Paragraph"><a href="#wood-volume-fitting-lines-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;">
+<div class="para" id="wood-volume-fitting-lines-2-1-2-1-1">Line A<div class="autopermalink" data-description="Paragraph"><a href="#wood-volume-fitting-lines-2-1-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<img src="external/woodforestA.png" class="contained">
+</div>
+<div class="sbspanel top" style="width:50%;">
+<div class="para" id="wood-volume-fitting-lines-2-1-2-2-1">Line B<div class="autopermalink" data-description="Paragraph"><a href="#wood-volume-fitting-lines-2-1-2-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<img src="external/woodforestC.png" class="contained">
+</div>
+</div></div> <div class="para" id="wood-volume-fitting-lines-2-1-3"> <div class="autopermalink" data-description="Paragraph"><a href="#wood-volume-fitting-lines-2-1-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="wood-volume-fitting-lines-2-1-4"> <div class="autopermalink" data-description="Paragraph"><a href="#wood-volume-fitting-lines-2-1-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="wood-volume-fitting-lines-2-1-5"> <div class="autopermalink" data-description="Paragraph"><a href="#wood-volume-fitting-lines-2-1-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="wood-volume-fitting-lines-2-1-6"> <div class="autopermalink" data-description="Paragraph"><a href="#wood-volume-fitting-lines-2-1-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;">
+<div class="para" id="wood-volume-fitting-lines-2-1-7-1-1">Line C<div class="autopermalink" data-description="Paragraph"><a href="#wood-volume-fitting-lines-2-1-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<img src="external/woodforestD.png" class="contained">
+</div>
+<div class="sbspanel top" style="width:50%;">
+<div class="para" id="wood-volume-fitting-lines-2-1-7-2-1">Line D<div class="autopermalink" data-description="Paragraph"><a href="#wood-volume-fitting-lines-2-1-7-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<img src="external/woodforestE.png" class="contained">
+</div>
+</div></div> <div class="para" id="wood-volume-fitting-lines-2-1-8"> <div class="autopermalink" data-description="Paragraph"><a href="#wood-volume-fitting-lines-2-1-8" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="wood-volume-fitting-lines-2-1-9"> <div class="autopermalink" data-description="Paragraph"><a href="#wood-volume-fitting-lines-2-1-9" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="wood-volume-fitting-lines-2-1-10"> <div class="autopermalink" data-description="Paragraph"><a href="#wood-volume-fitting-lines-2-1-10" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="wood-volume-fitting-lines-2-1-11"> <div class="autopermalink" data-description="Paragraph"><a href="#wood-volume-fitting-lines-2-1-11" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.1.a"><a href="#wood-volume-fitting-lines-2" title="Copy permalink for Task 4.5.1.a">🔗</a></div></article><article class="task exercise-like" id="wood-volume-fitting-lines-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="wood-volume-fitting-lines-3-1-1">Which of these four lines do you think fits best, and why?<div class="autopermalink" data-description="Paragraph"><a href="#wood-volume-fitting-lines-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.1.b"><a href="#wood-volume-fitting-lines-3" title="Copy permalink for Task 4.5.1.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.5.1"><a href="#wood-volume-fitting-lines" title="Copy permalink for Exercise 4.5.1">🔗</a></div></article><article class="exercise exercise-like" id="stock-price-fitting-lines"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="introduction" id="stock-price-fitting-lines-1">
+<div class="para" id="stock-price-fitting-lines-1-1">Noel is considering investing in a company’s stock so he looked up a few values.<div class="autopermalink" data-description="Paragraph"><a href="#stock-price-fitting-lines-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines">Day</td>
+<td class="c m b1 r1 l0 t1 lines">0</td>
+<td class="c m b1 r1 l0 t1 lines">300</td>
+<td class="c m b1 r1 l0 t1 lines">500</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Value ($)</td>
+<td class="c m b1 r1 l0 t0 lines">23.19</td>
+<td class="c m b1 r1 l0 t0 lines">37.00</td>
+<td class="c m b1 r1 l0 t0 lines">48.10</td>
+</tr>
+</table></div>
+</div>
+<article class="task exercise-like" id="stock-price-fitting-lines-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="stock-price-fitting-lines-2-1-1">Calculate the daily rate of change of the stock’s price during the first 300 days.<div class="autopermalink" data-description="Paragraph"><a href="#stock-price-fitting-lines-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.2.a"><a href="#stock-price-fitting-lines-2" title="Copy permalink for Task 4.5.2.a">🔗</a></div></article><article class="task exercise-like" id="stock-price-fitting-lines-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="stock-price-fitting-lines-3-1-1">Calculate the daily rate of change of the stock’s price from Day 300 to Day 500.<div class="autopermalink" data-description="Paragraph"><a href="#stock-price-fitting-lines-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.2.b"><a href="#stock-price-fitting-lines-3" title="Copy permalink for Task 4.5.2.b">🔗</a></div></article><article class="task exercise-like" id="stock-price-fitting-lines-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="stock-price-fitting-lines-4-1-1">Is this growth linear? How do you know?<div class="autopermalink" data-description="Paragraph"><a href="#stock-price-fitting-lines-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.2.c"><a href="#stock-price-fitting-lines-4" title="Copy permalink for Task 4.5.2.c">🔗</a></div></article><article class="task exercise-like" id="stock-price-fitting-lines-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="stock-price-fitting-lines-5-1-1">The scatter plot shows additional values of the stock Noel is considering buying.<div class="autopermalink" data-description="Paragraph"><a href="#stock-price-fitting-lines-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/stockprices.png" class="contained"></div> <div class="para" id="stock-price-fitting-lines-5-1-3">Draw in a line through the points for Day 300 and Day 500. Label this line #1. Explain why that line does not fit the data well.<div class="autopermalink" data-description="Paragraph"><a href="#stock-price-fitting-lines-5-1-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.2.d"><a href="#stock-price-fitting-lines-5" title="Copy permalink for Task 4.5.2.d">🔗</a></div></article><article class="task exercise-like" id="stock-price-fitting-lines-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="stock-price-fitting-lines-6-1-1">Draw in a line that fits the data better. It does not need to go through any of the points exactly. Label that line #2.<div class="autopermalink" data-description="Paragraph"><a href="#stock-price-fitting-lines-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.2.e"><a href="#stock-price-fitting-lines-6" title="Copy permalink for Task 4.5.2.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.5.2"><a href="#stock-price-fitting-lines" title="Copy permalink for Exercise 4.5.2">🔗</a></div></article><article class="exercise exercise-like" id="work-gpa-fitting-lines"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="work-gpa-fitting-lines-1">
+<div class="para" id="work-gpa-fitting-lines-1-1">Is it true that students who work part-time have lower grades? Do the number of hours matter? The table shows the grade point average (GPA) of ten students compared to the number of hours per week each student works at a part time job. The variables we used are <span class="process-math">\(T\text{,}\)</span> for the time worked at job (hours/week), and <span class="process-math">\(G\)</span> for the GPA, on the usual scale of 0.0 to 4.0.<div class="autopermalink" data-description="Paragraph"><a href="#work-gpa-fitting-lines-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(T\)</span></td>
+<td class="c m b1 r1 l0 t1 lines">0</td>
+<td class="c m b1 r1 l0 t1 lines">0</td>
+<td class="c m b1 r1 l0 t1 lines">10</td>
+<td class="c m b1 r1 l0 t1 lines">12</td>
+<td class="c m b1 r1 l0 t1 lines">14</td>
+<td class="c m b1 r1 l0 t1 lines">15</td>
+<td class="c m b1 r1 l0 t1 lines">16</td>
+<td class="c m b1 r1 l0 t1 lines">18</td>
+<td class="c m b1 r1 l0 t1 lines">20</td>
+<td class="c m b1 r1 l0 t1 lines">20</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(G\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">3.72</td>
+<td class="c m b1 r1 l0 t0 lines">3.91</td>
+<td class="c m b1 r1 l0 t0 lines">3.43</td>
+<td class="c m b1 r1 l0 t0 lines">2.79</td>
+<td class="c m b1 r1 l0 t0 lines">3.08</td>
+<td class="c m b1 r1 l0 t0 lines">2.62</td>
+<td class="c m b1 r1 l0 t0 lines">2.44</td>
+<td class="c m b1 r1 l0 t0 lines">3.17</td>
+<td class="c m b1 r1 l0 t0 lines">3.00</td>
+<td class="c m b1 r1 l0 t0 lines">2.55</td>
+</tr>
+</table></div>
+</div>
+<article class="task exercise-like" id="work-gpa-fitting-lines-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="work-gpa-fitting-lines-2-1-1">Make a scatter plot of the points. Start the <span class="process-math">\(G\)</span>-axis at 2.0.<div class="autopermalink" data-description="Paragraph"><a href="#work-gpa-fitting-lines-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.3.a"><a href="#work-gpa-fitting-lines-2" title="Copy permalink for Task 4.5.3.a">🔗</a></div></article><article class="task exercise-like" id="work-gpa-fitting-lines-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="work-gpa-fitting-lines-3-1-1">Find the equation of the line that goes through the first and last point listed.<div class="autopermalink" data-description="Paragraph"><a href="#work-gpa-fitting-lines-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="work-gpa-fitting-lines-3-1-2">
+<em class="emphasis">Hint: the first point tells you the intercept.</em><div class="autopermalink" data-description="Paragraph"><a href="#work-gpa-fitting-lines-3-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.3.b"><a href="#work-gpa-fitting-lines-3" title="Copy permalink for Task 4.5.3.b">🔗</a></div></article><article class="task exercise-like" id="work-gpa-fitting-lines-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="work-gpa-fitting-lines-4-1-1">Draw this line on your graph and label it line A.<div class="autopermalink" data-description="Paragraph"><a href="#work-gpa-fitting-lines-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.3.c"><a href="#work-gpa-fitting-lines-4" title="Copy permalink for Task 4.5.3.c">🔗</a></div></article><article class="task exercise-like" id="work-gpa-fitting-lines-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="work-gpa-fitting-lines-5-1-1">Use your equation for line A to figure out what you would expect for the GPA of a student working 30 hours per week.<div class="autopermalink" data-description="Paragraph"><a href="#work-gpa-fitting-lines-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.3.d"><a href="#work-gpa-fitting-lines-5" title="Copy permalink for Task 4.5.3.d">🔗</a></div></article><article class="task exercise-like" id="work-gpa-fitting-lines-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="work-gpa-fitting-lines-6-1-1">It turns out, the best fitting line has equation <span class="process-math">\(G=3.7597-0.0551T\text{.}\)</span> Make a table of values for this equation using <span class="process-math">\(T=0, 10, 20\)</span> hours.<div class="autopermalink" data-description="Paragraph"><a href="#work-gpa-fitting-lines-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.3.e"><a href="#work-gpa-fitting-lines-6" title="Copy permalink for Task 4.5.3.e">🔗</a></div></article><article class="task exercise-like" id="work-gpa-fitting-lines-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="work-gpa-fitting-lines-7-1-1">Use that table of values to graph this best fitting line on that same set of axes. Label it line B.<div class="autopermalink" data-description="Paragraph"><a href="#work-gpa-fitting-lines-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.3.f"><a href="#work-gpa-fitting-lines-7" title="Copy permalink for Task 4.5.3.f">🔗</a></div></article><article class="task exercise-like" id="work-gpa-fitting-lines-8"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<div class="para" id="work-gpa-fitting-lines-8-1-1">According to line B, what is the greatest number of hours a student should work if they want to maintain a 3.5 GPA? Solve an equation, then check on your graph.<div class="autopermalink" data-description="Paragraph"><a href="#work-gpa-fitting-lines-8-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.3.g"><a href="#work-gpa-fitting-lines-8" title="Copy permalink for Task 4.5.3.g">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.5.3"><a href="#work-gpa-fitting-lines" title="Copy permalink for Exercise 4.5.3">🔗</a></div></article><article class="exercise exercise-like" id="candy-shop-fitting-lines"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="candy-shop-fitting-lines-1">
+<div class="para" id="candy-shop-fitting-lines-1-1">Mia and Mandi and opened a candy shop this January. The table shows their monthly sales profit. Except for some seasonal fluctuation, Mia and Mandi generally expect your profits to rise steadily while their business is getting established.<div class="autopermalink" data-description="Paragraph"><a href="#candy-shop-fitting-lines-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">Month</td>
+<td class="c m b1 r1 l0 t1 lines">Jan</td>
+<td class="c m b1 r1 l0 t1 lines">Feb</td>
+<td class="c m b1 r1 l0 t1 lines">Mar</td>
+<td class="c m b1 r1 l0 t1 lines">Apr</td>
+<td class="c m b1 r1 l0 t1 lines">May</td>
+<td class="c m b1 r1 l0 t1 lines">Jun</td>
+<td class="c m b1 r1 l0 t1 lines">Jul</td>
+<td class="c m b1 r1 l0 t1 lines">Aug</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Sales Profit ($)</td>
+<td class="c m b1 r1 l0 t0 lines">3,394</td>
+<td class="c m b1 r1 l0 t0 lines">4,702</td>
+<td class="c m b1 r1 l0 t0 lines">3,683</td>
+<td class="c m b1 r1 l0 t0 lines">4,840</td>
+<td class="c m b1 r1 l0 t0 lines">5,632</td>
+<td class="c m b1 r1 l0 t0 lines">4,432</td>
+<td class="c m b1 r1 l0 t0 lines">4,649</td>
+<td class="c m b1 r1 l0 t0 lines">4,590</td>
+</tr>
+</table></div>
+</div>
+<article class="task exercise-like" id="candy-shop-fitting-lines-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="candy-shop-fitting-lines-2-1-1">Make a scatter plot. Begin the profit axis at $3,000.<div class="autopermalink" data-description="Paragraph"><a href="#candy-shop-fitting-lines-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.4.a"><a href="#candy-shop-fitting-lines-2" title="Copy permalink for Task 4.5.4.a">🔗</a></div></article><article class="task exercise-like" id="candy-shop-fitting-lines-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="candy-shop-fitting-lines-3-1-1">Name the variables and write an equation for the line through January and August. Add this line (#1) to your graph. This line is too low.<div class="autopermalink" data-description="Paragraph"><a href="#candy-shop-fitting-lines-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.4.b"><a href="#candy-shop-fitting-lines-3" title="Copy permalink for Task 4.5.4.b">🔗</a></div></article><article class="task exercise-like" id="candy-shop-fitting-lines-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="candy-shop-fitting-lines-4-1-1">Write an equation for the line through March and July. Notice that you need to find the intercept this time. Add this line (#2) to your graph. This line is too steep.<div class="autopermalink" data-description="Paragraph"><a href="#candy-shop-fitting-lines-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.4.c"><a href="#candy-shop-fitting-lines-4" title="Copy permalink for Task 4.5.4.c">🔗</a></div></article><article class="task exercise-like" id="candy-shop-fitting-lines-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="candy-shop-fitting-lines-5-1-1">Neither of these lines go anywhere near the data for February, April, and May, because those are outliers. Any idea why those months had much higher candy sales than the other months?<div class="autopermalink" data-description="Paragraph"><a href="#candy-shop-fitting-lines-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.4.d"><a href="#candy-shop-fitting-lines-5" title="Copy permalink for Task 4.5.4.d">🔗</a></div></article><article class="task exercise-like" id="candy-shop-fitting-lines-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="candy-shop-fitting-lines-6-1-1">What does each equation give as an estimate for September’s sales?<div class="autopermalink" data-description="Paragraph"><a href="#candy-shop-fitting-lines-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.4.e"><a href="#candy-shop-fitting-lines-6" title="Copy permalink for Task 4.5.4.e">🔗</a></div></article><article class="task exercise-like" id="candy-shop-fitting-lines-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="candy-shop-fitting-lines-7-1-1">Explain why Mia and Mandi should not use either of these lines to estimate October’s sales.<div class="autopermalink" data-description="Paragraph"><a href="#candy-shop-fitting-lines-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.4.f"><a href="#candy-shop-fitting-lines-7" title="Copy permalink for Task 4.5.4.f">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.5.4"><a href="#candy-shop-fitting-lines" title="Copy permalink for Exercise 4.5.4">🔗</a></div></article><article class="exercise exercise-like" id="salt-roads-fitting-lines"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="introduction" id="salt-roads-fitting-lines-1"><div class="para" id="salt-roads-fitting-lines-1-1">Look back at Thanh’s data in the section.<div class="autopermalink" data-description="Paragraph"><a href="#salt-roads-fitting-lines-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="salt-roads-fitting-lines-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="salt-roads-fitting-lines-2-1-1">Check that the C-D line has equation <span class="process-math">\(S=20.26L-4{,}610\)</span><div class="autopermalink" data-description="Paragraph"><a href="#salt-roads-fitting-lines-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.5.a"><a href="#salt-roads-fitting-lines-2" title="Copy permalink for Task 4.5.5.a">🔗</a></div></article><article class="task exercise-like" id="salt-roads-fitting-lines-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="salt-roads-fitting-lines-3-1-1">Check that the H-R line has equation <span class="process-math">\(S=8.71L+3{,}130\)</span><div class="autopermalink" data-description="Paragraph"><a href="#salt-roads-fitting-lines-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.5.b"><a href="#salt-roads-fitting-lines-3" title="Copy permalink for Task 4.5.5.b">🔗</a></div></article><article class="task exercise-like" id="salt-roads-fitting-lines-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="salt-roads-fitting-lines-4-1-1">The best-fitting line (ignoring the outlier) had equation <span class="process-math">\(S = 19.7L-2{,}905\text{.}\)</span> Make a table of values for <span class="process-math">\(L=600\)</span> and <span class="process-math">\(1{,}000\)</span> lane miles and use these values to check the graph Thanh drew. (They are highlighted on the graph.)<div class="autopermalink" data-description="Paragraph"><a href="#salt-roads-fitting-lines-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.5.c"><a href="#salt-roads-fitting-lines-4" title="Copy permalink for Task 4.5.5.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.5.5"><a href="#salt-roads-fitting-lines" title="Copy permalink for Exercise 4.5.5">🔗</a></div></article><article class="exercise exercise-like" id="wild-rice-fitting-lines"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="introduction" id="wild-rice-fitting-lines-1">
+<div class="para" id="wild-rice-fitting-lines-1-1">Wild rice is a native plant that grows in lakes in the upper Midwest. The table shows how the annual acreage of wild rice has varied with the average spring temperature in various years. The variables are <span class="process-math">\(T\)</span> for the temperature measured in °F and <span class="process-math">\(W\)</span> for the wild rice yield, measured in acres. In case you’re curious, the year is included as well, but it’s not one of the variables we’re interested in.<div class="autopermalink" data-description="Paragraph"><a href="#wild-rice-fitting-lines-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">year</td>
+<td class="c m b1 r1 l0 t1 lines">1985</td>
+<td class="c m b1 r1 l0 t1 lines">1989</td>
+<td class="c m b1 r1 l0 t1 lines">1993</td>
+<td class="c m b1 r1 l0 t1 lines">1997</td>
+<td class="c m b1 r1 l0 t1 lines">2001</td>
+<td class="c m b1 r1 l0 t1 lines">2005</td>
+<td class="c m b1 r1 l0 t1 lines">2009</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(T\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">39</td>
+<td class="c m b1 r1 l0 t0 lines">42</td>
+<td class="c m b1 r1 l0 t0 lines">41</td>
+<td class="c m b1 r1 l0 t0 lines">35</td>
+<td class="c m b1 r1 l0 t0 lines">47</td>
+<td class="c m b1 r1 l0 t0 lines">45</td>
+<td class="c m b1 r1 l0 t0 lines">42</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(W\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">2,300</td>
+<td class="c m b1 r1 l0 t0 lines">1,950</td>
+<td class="c m b1 r1 l0 t0 lines">1,425</td>
+<td class="c m b1 r1 l0 t0 lines">2,015</td>
+<td class="c m b1 r1 l0 t0 lines">1,233</td>
+<td class="c m b1 r1 l0 t0 lines">1,256</td>
+<td class="c m b1 r1 l0 t0 lines">1,345</td>
+</tr>
+</table></div>
+<div class="para" id="wild-rice-fitting-lines-1-3">
+<em class="emphasis">(Story also appears in <a href="sec-Modeling_linear_equations.html#check-linear-modeling-linear" class="xref" data-knowl="./knowl/xref/check-linear-modeling-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 4.1.7">4.1.7</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#wild-rice-fitting-lines-1-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="wild-rice-fitting-lines-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="wild-rice-fitting-lines-2-1-1">Make a scatter plot of the points. Make your graph as large as possible by starting your temperature axis at 35°F and your acreage axis at 1,000 acres.<div class="autopermalink" data-description="Paragraph"><a href="#wild-rice-fitting-lines-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.6.a"><a href="#wild-rice-fitting-lines-2" title="Copy permalink for Task 4.5.6.a">🔗</a></div></article><article class="task exercise-like" id="wild-rice-fitting-lines-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="wild-rice-fitting-lines-3-1-1">Find the equation of the line through the data from 1997 and 2001. Use <span class="process-math">\(T\)</span> for the average temperature (in °F) and <span class="process-math">\(W\)</span> for the acres of wild rice.<div class="autopermalink" data-description="Paragraph"><a href="#wild-rice-fitting-lines-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.6.b"><a href="#wild-rice-fitting-lines-3" title="Copy permalink for Task 4.5.6.b">🔗</a></div></article><article class="task exercise-like" id="wild-rice-fitting-lines-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="wild-rice-fitting-lines-4-1-1">Based on your line, what might you expect the acreage of wild rice to be in a year when the average temperature is 46°F? 40°F? Use your equation to answer the questions.<div class="autopermalink" data-description="Paragraph"><a href="#wild-rice-fitting-lines-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.6.c"><a href="#wild-rice-fitting-lines-4" title="Copy permalink for Task 4.5.6.c">🔗</a></div></article><article class="task exercise-like" id="wild-rice-fitting-lines-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="wild-rice-fitting-lines-5-1-1">Draw that line on your scatter plot. Comment.<div class="autopermalink" data-description="Paragraph"><a href="#wild-rice-fitting-lines-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.6.d"><a href="#wild-rice-fitting-lines-5" title="Copy permalink for Task 4.5.6.d">🔗</a></div></article><article class="task exercise-like" id="wild-rice-fitting-lines-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para logical" id="wild-rice-fitting-lines-6-1-1">
+<div class="para">The best fitting line has equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+W=5{,}072.2-82.41T
+\end{equation*}
+</div>
+<div class="para">Make a table of values and use it to graph that line as well.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#wild-rice-fitting-lines-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.6.e"><a href="#wild-rice-fitting-lines-6" title="Copy permalink for Task 4.5.6.e">🔗</a></div></article><article class="task exercise-like" id="wild-rice-fitting-lines-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="wild-rice-fitting-lines-7-1-1">If you use the best fitting line, how would that change your estimate for the acreage of wild rice in a year when the average temperature is 46°F? 40°F?<div class="autopermalink" data-description="Paragraph"><a href="#wild-rice-fitting-lines-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.6.f"><a href="#wild-rice-fitting-lines-7" title="Copy permalink for Task 4.5.6.f">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.5.6"><a href="#wild-rice-fitting-lines" title="Copy permalink for Exercise 4.5.6">🔗</a></div></article><article class="exercise exercise-like" id="garbage-fitting-lines"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="introduction" id="garbage-fitting-lines-1">
+<div class="para" id="garbage-fitting-lines-1-1">The amount of garbage generated in the United States has increased steadily, from 88.1 million tons in 1960 to 254.2 million tons in 2006. Earlier we did linear model. But, in fact, the amount of garbage has not increased exactly linearly. The table shows data for select years, where <span class="process-math">\(Y\)</span> measures years since 1960 and <span class="process-math">\(G\)</span> is the amount of garbage (in millions of tons).<div class="autopermalink" data-description="Paragraph"><a href="#garbage-fitting-lines-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">year</td>
+<td class="c m b1 r1 l0 t1 lines">1960</td>
+<td class="c m b1 r1 l0 t1 lines">1970</td>
+<td class="c m b1 r1 l0 t1 lines">1980</td>
+<td class="c m b1 r1 l0 t1 lines">1990</td>
+<td class="c m b1 r1 l0 t1 lines">2000</td>
+<td class="c m b1 r1 l0 t1 lines">2006</td>
+<td class="c m b1 r1 l0 t1 lines">2010</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(Y\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">0</td>
+<td class="c m b1 r1 l0 t0 lines">10</td>
+<td class="c m b1 r1 l0 t0 lines">20</td>
+<td class="c m b1 r1 l0 t0 lines">30</td>
+<td class="c m b1 r1 l0 t0 lines">40</td>
+<td class="c m b1 r1 l0 t0 lines">46</td>
+<td class="c m b1 r1 l0 t0 lines">50</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(G\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">88.1</td>
+<td class="c m b1 r1 l0 t0 lines">121.1</td>
+<td class="c m b1 r1 l0 t0 lines">151.6</td>
+<td class="c m b1 r1 l0 t0 lines">205.2</td>
+<td class="c m b1 r1 l0 t0 lines">239.1</td>
+<td class="c m b1 r1 l0 t0 lines">254.2</td>
+<td class="c m b1 r1 l0 t0 lines">249.0</td>
+</tr>
+</table></div>
+<aside class="aside aside-like" id="garbage-fitting-lines-1-3"><div class="para" id="garbage-fitting-lines-1-3-1">Source: Environmental Protection Agency<div class="autopermalink" data-description="Paragraph"><a href="#garbage-fitting-lines-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></aside><div class="para" id="garbage-fitting-lines-1-4">
+<em class="emphasis">(Story also appears in <a href="sec-Slopes.html#garbage-slopes" class="xref" data-knowl="./knowl/xref/garbage-slopes.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 4.4.6">4.4.6</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#garbage-fitting-lines-1-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="garbage-fitting-lines-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="garbage-fitting-lines-2-1-1">Make a large scatter plot of the points, beginning at the year 1960 and extending to at least 2030.<div class="autopermalink" data-description="Paragraph"><a href="#garbage-fitting-lines-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.7.a"><a href="#garbage-fitting-lines-2" title="Copy permalink for Task 4.5.7.a">🔗</a></div></article><article class="task exercise-like" id="garbage-fitting-lines-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="garbage-fitting-lines-3-1-1">Draw in the line through the points from 1960 and 2006. (We found that equation in 4.4 Exercises.)<div class="autopermalink" data-description="Paragraph"><a href="#garbage-fitting-lines-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.7.b"><a href="#garbage-fitting-lines-3" title="Copy permalink for Task 4.5.7.b">🔗</a></div></article><article class="task exercise-like" id="garbage-fitting-lines-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="garbage-fitting-lines-4-1-1">Draw in the line through the points from 2000 and 2006. Would this line predict that garbage will reach 300 million tons sooner or later than the previous prediction? Use the graph to explain.<div class="autopermalink" data-description="Paragraph"><a href="#garbage-fitting-lines-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.7.c"><a href="#garbage-fitting-lines-4" title="Copy permalink for Task 4.5.7.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.5.7"><a href="#garbage-fitting-lines" title="Copy permalink for Exercise 4.5.7">🔗</a></div></article><article class="exercise exercise-like" id="oil-changes-fitting-lines"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="introduction" id="oil-changes-fitting-lines-1">
+<div class="para" id="oil-changes-fitting-lines-1-1">My mechanic, Paye, believes that frequent oil changes reduce the amount of maintenance on a car. To prove his point, Paye showed me a table of customers with the number of yearly oil changes and the cost of their engine repairs.<div class="autopermalink" data-description="Paragraph"><a href="#oil-changes-fitting-lines-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(N\)</span></td>
+<td class="c m b1 r1 l0 t1 lines">1</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+<td class="c m b1 r1 l0 t1 lines">3</td>
+<td class="c m b1 r1 l0 t1 lines">4</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">6</td>
+<td class="c m b1 r1 l0 t1 lines">7</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(R\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">725</td>
+<td class="c m b1 r1 l0 t0 lines">500</td>
+<td class="c m b1 r1 l0 t0 lines">415</td>
+<td class="c m b1 r1 l0 t0 lines">300</td>
+<td class="c m b1 r1 l0 t0 lines">275</td>
+<td class="c m b1 r1 l0 t0 lines">100</td>
+<td class="c m b1 r1 l0 t0 lines">150</td>
+</tr>
+</table></div>
+<div class="para" id="oil-changes-fitting-lines-1-3">where <span class="process-math">\(N\)</span> is the number of oil changes per year and <span class="process-math">\(R\)</span> is the cost of repairs, in dollars.<div class="autopermalink" data-description="Paragraph"><a href="#oil-changes-fitting-lines-1-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="oil-changes-fitting-lines-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="oil-changes-fitting-lines-2-1-1">Make a large scatter plot of the points.<div class="autopermalink" data-description="Paragraph"><a href="#oil-changes-fitting-lines-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.8.a"><a href="#oil-changes-fitting-lines-2" title="Copy permalink for Task 4.5.8.a">🔗</a></div></article><article class="task exercise-like" id="oil-changes-fitting-lines-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="oil-changes-fitting-lines-3-1-1">Draw in the line through the points for 3 and 5 oil changes.<div class="autopermalink" data-description="Paragraph"><a href="#oil-changes-fitting-lines-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.8.b"><a href="#oil-changes-fitting-lines-3" title="Copy permalink for Task 4.5.8.b">🔗</a></div></article><article class="task exercise-like" id="oil-changes-fitting-lines-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="oil-changes-fitting-lines-4-1-1">Write the equation for that line. Use your equation to predict the cost of engine repairs for a customer who does no oil changes, and one who does 8 oil changes.<div class="autopermalink" data-description="Paragraph"><a href="#oil-changes-fitting-lines-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.8.c"><a href="#oil-changes-fitting-lines-4" title="Copy permalink for Task 4.5.8.c">🔗</a></div></article><article class="task exercise-like" id="oil-changes-fitting-lines-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para logical" id="oil-changes-fitting-lines-5-1-1">
+<div class="para">The best fitting line has equation approximately</div>
+<div class="displaymath process-math">
+\begin{equation*}
+R=732.86-95.179N
+\end{equation*}
+</div>
+<div class="para">Plot three points on that line and use them to draw it on your scatter plot.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#oil-changes-fitting-lines-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.8.d"><a href="#oil-changes-fitting-lines-5" title="Copy permalink for Task 4.5.8.d">🔗</a></div></article><article class="task exercise-like" id="oil-changes-fitting-lines-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="oil-changes-fitting-lines-6-1-1">What does the best fitting line predict the cost of engine repairs for a customer who does no oil changes, and one who does 8 oil changes?<div class="autopermalink" data-description="Paragraph"><a href="#oil-changes-fitting-lines-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.8.e"><a href="#oil-changes-fitting-lines-6" title="Copy permalink for Task 4.5.8.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.5.8"><a href="#oil-changes-fitting-lines" title="Copy permalink for Exercise 4.5.8">🔗</a></div></article><article class="exercise exercise-like" id="sports-movies-fitting-lines"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="introduction" id="sports-movies-fitting-lines-1">
+<div class="para" id="sports-movies-fitting-lines-1-1">The table and scatterplot shows the estimated costs and earnings for various sports-themed movies.<div class="autopermalink" data-description="Paragraph"><a href="#sports-movies-fitting-lines-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b1 r1 l1 t1 lines">Movie</th>
+<th scope="col" class="r m b1 r1 l0 t1 lines">Estimated cost</th>
+<th scope="col" class="r m b1 r1 l0 t1 lines">Estimated earnings</th>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">A League of Their Own</td>
+<td class="r m b1 r1 l0 t0 lines">$40 million</td>
+<td class="r m b1 r1 l0 t0 lines">$131 million</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Dodgeball</td>
+<td class="r m b1 r1 l0 t0 lines">$30 million</td>
+<td class="r m b1 r1 l0 t0 lines">$114 million</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Invictus</td>
+<td class="r m b1 r1 l0 t0 lines">$49 million</td>
+<td class="r m b1 r1 l0 t0 lines">$37 million</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Jerry Maguire</td>
+<td class="r m b1 r1 l0 t0 lines">$60 million</td>
+<td class="r m b1 r1 l0 t0 lines">$274 million</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Miracle</td>
+<td class="r m b1 r1 l0 t0 lines">$28 million</td>
+<td class="r m b1 r1 l0 t0 lines">$64 million</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Nacho Libre</td>
+<td class="r m b1 r1 l0 t0 lines">$32 million</td>
+<td class="r m b1 r1 l0 t0 lines">$80 million</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Remember the Titans</td>
+<td class="r m b1 r1 l0 t0 lines">$27 million</td>
+<td class="r m b1 r1 l0 t0 lines">$130 million</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Run Fatboy Run</td>
+<td class="r m b1 r1 l0 t0 lines">$10 million</td>
+<td class="r m b1 r1 l0 t0 lines">$6 million</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Secretariat</td>
+<td class="r m b1 r1 l0 t0 lines">$35 million</td>
+<td class="r m b1 r1 l0 t0 lines">$59 million</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">The Blind Side</td>
+<td class="r m b1 r1 l0 t0 lines">$35 million</td>
+<td class="r m b1 r1 l0 t0 lines">$255 million</td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">The Rookie</td>
+<td class="r m b1 r1 l0 t0 lines">$22 million</td>
+<td class="r m b1 r1 l0 t0 lines">$77 million</td>
+</tr>
+</table></div>
+<div class="para" id="sports-movies-fitting-lines-1-3">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/sportsmovies.png" class="contained"></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sports-movies-fitting-lines-1-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="sports-movies-fitting-lines-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="sports-movies-fitting-lines-2-1-1">Draw the line (A) that goes through the points for “Remember the Titans” and “A League of Their Own”. Explain why this line does not fit the data well.<div class="autopermalink" data-description="Paragraph"><a href="#sports-movies-fitting-lines-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.9.a"><a href="#sports-movies-fitting-lines-2" title="Copy permalink for Task 4.5.9.a">🔗</a></div></article><article class="task exercise-like" id="sports-movies-fitting-lines-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="sports-movies-fitting-lines-3-1-1">Draw the line (B) that goes through the points for “Run Fatboy Run” and “Jerry Maguire”. Explain why this line does not fit the data well.<div class="autopermalink" data-description="Paragraph"><a href="#sports-movies-fitting-lines-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.9.b"><a href="#sports-movies-fitting-lines-3" title="Copy permalink for Task 4.5.9.b">🔗</a></div></article><article class="task exercise-like" id="sports-movies-fitting-lines-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="sports-movies-fitting-lines-4-1-1">Draw the line (C) that goes through the points for “The Rookie” and “A League of Their Own”. This line fits the data pretty well I think.<div class="autopermalink" data-description="Paragraph"><a href="#sports-movies-fitting-lines-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.9.c"><a href="#sports-movies-fitting-lines-4" title="Copy permalink for Task 4.5.9.c">🔗</a></div></article><article class="task exercise-like" id="sports-movies-fitting-lines-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="sports-movies-fitting-lines-5-1-1">Why might you expect the slope of good fitting line to be positive?<div class="autopermalink" data-description="Paragraph"><a href="#sports-movies-fitting-lines-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.9.d"><a href="#sports-movies-fitting-lines-5" title="Copy permalink for Task 4.5.9.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.5.9"><a href="#sports-movies-fitting-lines" title="Copy permalink for Exercise 4.5.9">🔗</a></div></article><article class="exercise exercise-like" id="meat-fitting-lines"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<div class="introduction" id="meat-fitting-lines-1">
+<div class="para" id="meat-fitting-lines-1-1">The annual consumption of meat in millions of metric tons is given in the following table. Here <span class="process-math">\(C\)</span> is for chicken, <span class="process-math">\(B\)</span> is for beef, and <span class="process-math">\(Y\)</span> measures years since 1975.<div class="autopermalink" data-description="Paragraph"><a href="#meat-fitting-lines-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<aside class="aside aside-like" id="meat-fitting-lines-1-2"><div class="para" id="meat-fitting-lines-1-2-1">Source: U.S. Department of Agriculture<div class="autopermalink" data-description="Paragraph"><a href="#meat-fitting-lines-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></aside><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">year</td>
+<td class="c m b1 r1 l0 t1 lines">1975</td>
+<td class="c m b1 r1 l0 t1 lines">1985</td>
+<td class="c m b1 r1 l0 t1 lines">1990</td>
+<td class="c m b1 r1 l0 t1 lines">1995</td>
+<td class="c m b1 r1 l0 t1 lines">2000</td>
+<td class="c m b1 r1 l0 t1 lines">2005</td>
+<td class="c m b1 r1 l0 t1 lines">2009</td>
+<td class="c m b1 r1 l0 t1 lines">2012</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(Y\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">0</td>
+<td class="c m b1 r1 l0 t0 lines">10</td>
+<td class="c m b1 r1 l0 t0 lines">15</td>
+<td class="c m b1 r1 l0 t0 lines">20</td>
+<td class="c m b1 r1 l0 t0 lines">25</td>
+<td class="c m b1 r1 l0 t0 lines">30</td>
+<td class="c m b1 r1 l0 t0 lines">34</td>
+<td class="c m b1 r1 l0 t0 lines">37</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(C\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">3.6</td>
+<td class="c m b1 r1 l0 t0 lines">6.1</td>
+<td class="c m b1 r1 l0 t0 lines">7.7</td>
+<td class="c m b1 r1 l0 t0 lines">9.4</td>
+<td class="c m b1 r1 l0 t0 lines">11.5</td>
+<td class="c m b1 r1 l0 t0 lines">13.4</td>
+<td class="c m b1 r1 l0 t0 lines">12.9</td>
+<td class="c m b1 r1 l0 t0 lines">13.3</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(B\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">12.1</td>
+<td class="c m b1 r1 l0 t0 lines">11.8</td>
+<td class="c m b1 r1 l0 t0 lines">11.0</td>
+<td class="c m b1 r1 l0 t0 lines">11.7</td>
+<td class="c m b1 r1 l0 t0 lines">12.5</td>
+<td class="c m b1 r1 l0 t0 lines">12.7</td>
+<td class="c m b1 r1 l0 t0 lines">12.2</td>
+<td class="c m b1 r1 l0 t0 lines">11.4</td>
+</tr>
+</table></div>
+</div>
+<article class="task exercise-like" id="meat-fitting-lines-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="meat-fitting-lines-2-1-1">Make a scatter plot of the chicken consumption (use <span class="process-math">\(\ast\)</span> to label each point) and red meat consumption (use <span class="process-math">\(\circ\)</span> to label each point).<div class="autopermalink" data-description="Paragraph"><a href="#meat-fitting-lines-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.10.a"><a href="#meat-fitting-lines-2" title="Copy permalink for Task 4.5.10.a">🔗</a></div></article><article class="task exercise-like" id="meat-fitting-lines-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="meat-fitting-lines-3-1-1">Sketch a line through each data set that seems to reasonably approximate the dependence.<div class="autopermalink" data-description="Paragraph"><a href="#meat-fitting-lines-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.10.b"><a href="#meat-fitting-lines-3" title="Copy permalink for Task 4.5.10.b">🔗</a></div></article><article class="task exercise-like" id="meat-fitting-lines-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="meat-fitting-lines-4-1-1">When were chicken and red meat consumption equal?<div class="autopermalink" data-description="Paragraph"><a href="#meat-fitting-lines-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.10.c"><a href="#meat-fitting-lines-4" title="Copy permalink for Task 4.5.10.c">🔗</a></div></article><article class="task exercise-like" id="meat-fitting-lines-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para logical" id="meat-fitting-lines-5-1-1">
+<div class="para">The best fitting line for chicken is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+C =3.6375+0.2854Y
+\end{equation*}
+</div>
+<div class="para">and the best fitting line for beef is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+B=11.774+0.007Y
+\end{equation*}
+</div>
+<div class="para">Set up and solve a system of linear equations to find the year when chicken and red meat consumption will likely be equal. How does this answer compare to your estimate?</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#meat-fitting-lines-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.10.d"><a href="#meat-fitting-lines-5" title="Copy permalink for Task 4.5.10.d">🔗</a></div></article><article class="task exercise-like" id="meat-fitting-lines-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="meat-fitting-lines-6-1-1">The slope of the best fitting beef line is 0.007 million tons/year. What does that tell you about beef consumption over the past 40 years?<div class="autopermalink" data-description="Paragraph"><a href="#meat-fitting-lines-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.5.10.e"><a href="#meat-fitting-lines-6" title="Copy permalink for Task 4.5.10.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.5.10"><a href="#meat-fitting-lines" title="Copy permalink for Exercise 4.5.10">🔗</a></div></article><div class="autopermalink" data-description="Exercises 4.5: Exercises"><a href="#ex-Fitting_lines_to_data" title="Copy permalink for Exercises 4.5: Exercises">🔗</a></div></section><div class="autopermalink" data-description="Section 4.5: Fitting lines to data"><a href="#sec-Fitting_lines_to_data" title="Copy permalink for Section 4.5: Fitting lines to data">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-Slopes.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-PE4A.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr" data-legacy-colorscheme="blue_red">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-legacy                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Slopes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;" rel="stylesheet">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Just Enough Algebra(*)">
+<meta property="book:author" content="Dr. Suzanne Dorée">
+<meta property="book:author" content="Dr. Spencer Bagley">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.7.5';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.107bf2d9be20d9c4.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="justenoughalgebra" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""><img src="external/book-open-solid.png" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="just-enough-algebra.html"><span class="title">Just Enough Algebra(*)</span></a></h1>
+<p class="byline">Dr. Suzanne Dorée, Dr. Spencer Bagley</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-Intercepts.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-Closer_look_linear.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-Fitting_lines_to_data.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-why-this-book-web.html" class="internal"><span class="title">Why <em class="emphasis">Just Enough Algebra</em>?</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-students-web.html" class="internal"><span class="title">Students! Read this!</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-instructors-web.html" class="internal"><span class="title">Instructors! Read this!</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Prelude.html" class="internal"><span class="codenumber">0</span> <span class="title">Prelude</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approximation_and_rounding.html" class="internal"><span class="codenumber">0.1</span> <span class="title">Prelude: Approximation &amp; rounding</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approximation_and_rounding.html#ex-Approximation_and_rounding" class="internal"><span class="codenumber">0.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Arithmetic_operations.html" class="internal"><span class="codenumber">0.2</span> <span class="title">Prelude: Arithmetic operations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Arithmetic_operations.html#ex-Arithmetic_operations" class="internal"><span class="codenumber">0.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Percentages.html" class="internal"><span class="codenumber">0.3</span> <span class="title">Prelude: Percentages</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Percentages.html#ex-Percentages" class="internal"><span class="codenumber">0.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Order_of_operations.html" class="internal"><span class="codenumber">0.4</span> <span class="title">Prelude: Order of operations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Order_of_operations.html#ex-Order_of_operations" class="internal"><span class="codenumber">0.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fractions.html" class="internal"><span class="codenumber">0.5</span> <span class="title">Prelude: Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fractions.html#ex-Fractions" class="internal"><span class="codenumber">0.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Powers_and_roots.html" class="internal"><span class="codenumber">0.6</span> <span class="title">Prelude: Powers and roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Powers_and_roots.html#ex-Powers_and_roots" class="internal"><span class="codenumber">0.6</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Algebraic_notation.html" class="internal"><span class="codenumber">0.7</span> <span class="title">Prelude: Algebraic notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Algebraic_notation.html#ex-Algebraic-notation" class="internal"><span class="codenumber">0.7</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Scientific_notation.html" class="internal"><span class="codenumber">0.8</span> <span class="title">Prelude: Scientific notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Scientific_notation.html#ex-Scientific_notation" class="internal"><span class="codenumber">0.8</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logarithms.html" class="internal"><span class="codenumber">0.9</span> <span class="title">Prelude: Logarithms</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logarithms.html#ex-Logarithms" class="internal"><span class="codenumber">0.9</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Variables.html" class="internal"><span class="codenumber">1</span> <span class="title">Variables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Variables_and_functions.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Variables and functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Variables_and_functions.html#exercises-variables-functions" class="internal"><span class="codenumber">1.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Tables_and_graphs.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Tables and graphs</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Tables_and_graphs.html#ex-Tables_and_graphs" class="internal"><span class="codenumber">1.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Rate_of_change.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Rate of change</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Rate_of_change.html#ex-Rate_of_change" class="internal"><span class="codenumber">1.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Units.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Units</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Units.html#ex-Units" class="internal"><span class="codenumber">1.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Metric_system_and_scientific_notation.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Metric prefixes and scientific notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Metric_system_and_scientific_notation.html#ex-Metric_system_and_scientific_notation" class="internal"><span class="codenumber">1.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1A.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Practice Exam 1A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1A.html#ws-PE1A" class="internal"><span class="codenumber">1.6</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1B.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1B.html#ws-PE1B" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Equations.html" class="internal"><span class="codenumber">2</span> <span class="title">Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_linear.html#ex-First_look_linear" class="internal"><span class="codenumber">2.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-First_look_exponential.html#ex-First_look_exponentialEX" class="internal"><span class="codenumber">2.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Using_equations.html#ex-Using_equations" class="internal"><span class="codenumber">2.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Approx_solutions.html#ex-Approx_solutions" class="internal"><span class="codenumber">2.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Finance.html#ex-Finance" class="internal"><span class="codenumber">2.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2A.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2A.html#ws-PE2A" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2B.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2B.html#ws-PE2B" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Solving_equations.html" class="internal"><span class="codenumber">3</span> <span class="title">Solving equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_equations.html#ex-Solving_linear_equations" class="internal"><span class="codenumber">3.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_linear_inequalities.html#ex-Solving_linear_inequalitiesEX" class="internal"><span class="codenumber">3.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_power_equations.html#ex-Solving_power_equations" class="internal"><span class="codenumber">3.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_exponential_equations.html#ex-Solving_exponential_equations" class="internal"><span class="codenumber">3.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Solving_quadratic_equations.html#ex-Solving_quadratic_equations" class="internal"><span class="codenumber">3.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3A.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3A.html#ws-PE3A" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3B.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3B.html#ws-PE3B" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-Closer_look_linear.html" class="internal"><span class="codenumber">4</span> <span class="title">A closer look at linear equations</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_linear_equations.html#ex-Modeling_linear_equations" class="internal"><span class="codenumber">4.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Systems_linear_equations.html#ex-Systems_linear_equations" class="internal"><span class="codenumber">4.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Intercepts.html#ex-Intercepts" class="internal"><span class="codenumber">4.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div>
+<ul class="structural toc-item-list active"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Slopes.html#ex-Slopes" class="internal"><span class="codenumber">4.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Fitting_lines_to_data.html#ex-Fitting_lines_to_data" class="internal"><span class="codenumber">4.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4A.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4A.html#ws-PE4A" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4B.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4B.html#ws-PE4B" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Closer_look_exponential.html" class="internal"><span class="codenumber">5</span> <span class="title">A closer look at exponential equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Modeling_exponential_equations.html#ex-Modeling_exponential_equations" class="internal"><span class="codenumber">5.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Exp_growth_decay.html#ex-Exp_growth_decay" class="internal"><span class="codenumber">5.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Growth_factor.html#ex-Growth_factor" class="internal"><span class="codenumber">5.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Linear_vs_exponential.html#ex-Linear_vs_exponential" class="internal"><span class="codenumber">5.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Logistic_growth.html#ex-Logistic_growth" class="internal"><span class="codenumber">5.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5A.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE5A.html#ws-PE5A" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5B.html" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE5B.html#ws-PE5B" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="backmatter-2.html" class="internal"><span class="codenumber">A</span> <span class="title">Practice Final Exams</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pfe1.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Practice Final Exam 1</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-pfe1.html#ws-PE6A" class="internal"><span class="codenumber">A.1</span> <span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pfe2.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Practice Final Exam 2</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-pfe2.html#ws-PE6B" class="internal"><span class="codenumber">A.2</span> <span class="title"></span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="app-templates-formulas.html" class="internal"><span class="codenumber">B</span> <span class="title">Templates and Formulas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-templates.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Templates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-constants.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Formulas used to find constants</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-solve.html" class="internal"><span class="codenumber">B.3</span> <span class="title">Formulas used to solve specific types of equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-finance.html" class="internal"><span class="codenumber">B.4</span> <span class="title">Formulas from finance</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Slopes"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">4.4</span><span class="space"> </span><span class="title">Slopes</span>
+</h2>
+<section class="introduction" id="sec-Slopes-2"><div class="para" id="sec-Slopes-2-1">Last week our supplier delivered 13 cases of paper for the office and charged us $534.87. This week, they delivered 20 cases of paper for $814.80. We assume that their charge includes a fixed delivery fee and per case cost, so the dependence must be linear. We would like to understand their pricing scheme better by writing the equation.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Slopes-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Slopes-2-2">
+<div class="para">What to do? We can name the variables and put the information we are given into a table. That’s a start. The variables must be</div>
+<div class="displaymath process-math" id="sec-Slopes-2-2-1">
+\begin{align*}
+C \amp= \text{ total charge (\$) } \sim \text{ dep} \\
+N \amp= \text{ number of cases delivered (cases) } \sim \text{ indep} 
+\end{align*}
+</div>
+<div class="para">and we know</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Slopes-2-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(N\)</span></td>
+<td class="c m b1 r1 l0 t1 lines">13</td>
+<td class="c m b1 r1 l0 t1 lines">20</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(C\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">534.87</td>
+<td class="c m b1 r1 l0 t0 lines">814.80</td>
+</tr>
+</table></div>
+<div class="para" id="sec-Slopes-2-4">Let’s see. The fixed delivery fee that we don’t know is the intercept. The per case cost that we also don’t know is the slope. To write the linear equation we need to know both.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Slopes-2-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Slopes-2-5">
+<div class="para">The slope is just the rate of change, so we can figure out the slope just from the information in our table.</div>
+<div class="displaymath process-math" id="sec-Slopes-2-5-1">
+\begin{align*}
+\text{slope} \amp = \text{rate of change} = \frac{\text{change dep}}{\text{change indep}} = \frac{\$814.80-\$534.87}{20\text{ cases}-13 \text{ cases}} \\
+\amp = \frac{\$279.93}{7 \text{ cases}} = 279.93 \div 7 = \$39.99 \text{ per case}
+\end{align*}
+</div>
+<div class="para">or, all at once, as</div>
+<div class="displaymath process-math" id="sec-Slopes-2-5-2">
+\begin{align*}
+\text{slope} \amp = \text{rate of change} = \frac{\text{change dep}}{\text{change indep}} = \frac{\$814.80-\$534.87}{20\text{ cases}-13 \text{ cases}} \\
+\amp = (814.80-534.87)\div(20-13)= \$39.99 \text{ per case}
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Slopes-2-5" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Slopes-2-6">Either way, each case costs $39.99 and the slope is $39.99 per case.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Slopes-2-6" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Slopes-2-7">
+<div class="para">Now that we know the slope, we can find the intercept. At $39.99 per case we would expect 13 cases to cost</div>
+<div class="displaymath process-math">
+\begin{equation*}
+13 \text{ cases } \ast \frac{\$39.99}{\text{case}} = 13 \times 39.99 = \$519.87
+\end{equation*}
+</div>
+<div class="para">But the story tells us 13 cases cost $534.87. The difference <span class="process-math">\(\$534.87 - \$519.87 = \$15\)</span> must be the delivery fee which is the intercept. Remember</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{intercept} = \text{dep} -\text{slope}\ast\text{indep}= 534.87 - 39.99\times 13= \$15
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Slopes-2-7" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Slopes-2-8">
+<div class="para">Why did we use 13 cases instead of 20 cases? No particular reason. Look what happens if we use 20 cases at $814.80 instead.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{intercept} = \text{dep} -\text{slope}\ast\text{indep}= 814.80 - 39.99\times 20= \$15
+\end{equation*}
+</div>
+<div class="para">Yup. Still $15 delivery fee.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Slopes-2-8" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Slopes-2-9">
+<div class="para">The equation is linear so it fits our template</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{dep} = \text{start} + \text{slope} * \text{indep}
+\end{equation*}
+</div>
+<div class="para">and now that we know the slope and intercept, we can put those in to get our equation.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+C = 15 + 39.99N
+\end{equation*}
+</div>
+<div class="para">Let’s check. When <span class="process-math">\(N = 13\)</span> we get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+C=15 + 39.99 \ast 13 = 15 + 39.99 \times \underline{13} = \$534.87 \quad \checkmark
+\end{equation*}
+</div>
+<div class="para">and when <span class="process-math">\(N=20\)</span> we get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+C=15 + 39.99 \ast 20 = 15 + 39.99 \times \underline{20} = \$814.80 \quad \checkmark
+\end{equation*}
+</div>
+<div class="para">You can also check that the graph goes through the original two points we were given. The intercept is $15, but because of the scale it shows up as barely above $0 on our graph.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Slopes-2-9" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Slopes-2-10">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/casesofpaper.png" class="contained"></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Slopes-2-10" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Slopes-2-11">The supplier also picks up recyclable paper and boxes. They normally charge $18 per pickup but under a new reuse incentive program, they discount a little for each box that’s in good enough condition to use again. This week’s recycling charge was only $7.60 because we returned the previous 13 boxes all in good shape.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Slopes-2-11" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Slopes-2-12">
+<div class="para">Now we’re interested in how the recycling charge depends on the number of boxes in good condition that we return. The new variables are</div>
+<div class="displaymath process-math" id="sec-Slopes-2-12-1">
+\begin{align*}
+R \amp= \text{ recycling charge (\$) } \sim \text{ dep} \\
+B \amp= \text{ number of boxes returned (boxes) } \sim \text{ indep} 
+\end{align*}
+</div>
+<div class="para">and we know</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Slopes-2-12" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(B\)</span></td>
+<td class="c m b1 r1 l0 t1 lines">0</td>
+<td class="c m b1 r1 l0 t1 lines">13</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(R\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+<td class="c m b1 r1 l0 t0 lines">7.60</td>
+</tr>
+</table></div>
+<div class="para" id="sec-Slopes-2-14">See how we used <span class="process-math">\(B=0\)</span> for the situation where no boxes are returned? Clever.<div class="autopermalink" data-description="Paragraph"><a href="#sec-Slopes-2-14" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Slopes-2-15">We can draw the graph using just these two points. (But we’ll check later, once we have the equation, to be sure.)<div class="autopermalink" data-description="Paragraph"><a href="#sec-Slopes-2-15" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Slopes-2-16">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/recyclepaper.png" class="contained"></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Slopes-2-16" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Slopes-2-17">
+<div class="para">Since there is a fixed discount per box, we again have a linear function. We know the intercept is the normal recycling fee of $18. We need to find the slope.</div>
+<div class="displaymath process-math" id="sec-Slopes-2-17-1">
+\begin{align*}
+\text{slope} \amp = \text{rate of change} = \frac{\text{change dep}}{\text{change indep}} = \frac{\$7.60-\$18}{13\text{ boxes}-0 \text{ boxes}} \\
+\amp = (7.60-18)\div(13-0)= -\$0.80 \text{ per box}
+\end{align*}
+</div>
+<div class="para">It might look funny to get a negative, but it’s to be expected. They are subtracting for each good box returned. The discount is 80¢ per box and so the equation is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+R = 18 - 0.8B
+\end{equation*}
+</div>
+<div class="para">Check when <span class="process-math">\(B=13\)</span> we have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+R = 18 -0.8*13 = 18-0.8 \times \underline{13} = \$7.60 \quad \checkmark
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Slopes-2-17" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-Slopes-2-18">
+<div class="para">What’s the most boxes you could get credit for? Probably the most they discount is the full $18, which would mean that <span class="process-math">\(R=0\text{.}\)</span> That means we want to solve <span class="process-math">\(18 -0.8B = 0\text{.}\)</span> Check that we get <span class="process-math">\(B = 22.5 \text{ boxes}\text{,}\)</span> which means that 22 boxes would be almost $0 and for 23 boxes, they should pick up for free. We can check that 22 boxes gives</div>
+<div class="displaymath process-math">
+\begin{equation*}
+R = 18-0.8\ast22=18-0.8 \times \underline{22} = \$0.40
+\end{equation*}
+</div>
+<div class="para">and 23 boxes gives</div>
+<div class="displaymath process-math">
+\begin{equation*}
+R = 18-0.8\ast23=18-0.8 \times \underline{23} = -\$0.40 \implies \text{free}
+\end{equation*}
+</div>
+<div class="para">Well, unless they’re nice and give us cash back.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Slopes-2-18" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="conclusion" id="sec-Slopes-3"><h3 class="heading">Do you know …<span></span>
+</h3>
+<div class="para logical" id="sec-Slopes-3-2">
+<ol class="upper-alpha ol-marker-1" id="sec-Slopes-3-2-1">
+<li id="sec-Slopes-3-2-1-1">
+<div class="para" id="sec-Slopes-3-2-1-1-1">Which types of situations are linear?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Slopes-3-2-1-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item A"><a href="#sec-Slopes-3-2-1-1" title="Copy permalink for Item A">🔗</a></div>
+</li>
+<li id="sec-Slopes-3-2-1-2">
+<div class="para" id="sec-Slopes-3-2-1-2-1">What the slope of a linear function means in the story and what it tells us about the graph?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Slopes-3-2-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item B"><a href="#sec-Slopes-3-2-1-2" title="Copy permalink for Item B">🔗</a></div>
+</li>
+<li id="sec-Slopes-3-2-1-3">
+<div class="para" id="sec-Slopes-3-2-1-3-1">How to calculate the slope between two points?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Slopes-3-2-1-3-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item C"><a href="#sec-Slopes-3-2-1-3" title="Copy permalink for Item C">🔗</a></div>
+</li>
+<li id="sec-Slopes-3-2-1-4">
+<div class="para" id="sec-Slopes-3-2-1-4-1">What it means if the slope is negative?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Slopes-3-2-1-4-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item D"><a href="#sec-Slopes-3-2-1-4" title="Copy permalink for Item D">🔗</a></div>
+</li>
+<li id="sec-Slopes-3-2-1-5">
+<div class="para" id="sec-Slopes-3-2-1-5-1">How to find the equation of a line through two points?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Slopes-3-2-1-5-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item E"><a href="#sec-Slopes-3-2-1-5" title="Copy permalink for Item E">🔗</a></div>
+</li>
+<li id="sec-Slopes-3-2-1-6">
+<div class="para" id="sec-Slopes-3-2-1-6-1">How to find a linear function given two examples in a story?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Slopes-3-2-1-6-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item F"><a href="#sec-Slopes-3-2-1-6" title="Copy permalink for Item F">🔗</a></div>
+</li>
+<li id="sec-Slopes-3-2-1-7">
+<div class="para" id="sec-Slopes-3-2-1-7-1">If both the slope and intercept are unknown, which is easier to calculate first?<div class="autopermalink" data-description="Paragraph"><a href="#sec-Slopes-3-2-1-7-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item G"><a href="#sec-Slopes-3-2-1-7" title="Copy permalink for Item G">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-Slopes-3-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-Slopes-3-3">
+<em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-Slopes-3-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><section class="exercises" id="ex-Slopes"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<section class="introduction" id="ex-Slopes-2"><div class="para" id="ex-Slopes-2-1">Exercises 1-4 are available in a separate workbook format.<div class="autopermalink" data-description="Paragraph"><a href="#ex-Slopes-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></section><article class="exercise exercise-like" id="wings-delivery-slopes"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="introduction" id="wings-delivery-slopes-1"><div class="para" id="wings-delivery-slopes-1-1">For his Oscars party, Harland had 70 chicken wings delivered for $51.25. For his Super Bowl bash, Harland had 125 chicken wings delivered for $83.70. In each case, the total cost includes the cost per wing and the fixed delivery charge.<div class="autopermalink" data-description="Paragraph"><a href="#wings-delivery-slopes-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="wings-delivery-slopes-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="wings-delivery-slopes-2-1-1">Find the slope, including units, and explain what it means in the story.<div class="autopermalink" data-description="Paragraph"><a href="#wings-delivery-slopes-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.1.a"><a href="#wings-delivery-slopes-2" title="Copy permalink for Task 4.4.1.a">🔗</a></div></article><article class="task exercise-like" id="wings-delivery-slopes-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="wings-delivery-slopes-3-1-1">Find the intercept, including units, and explain what it means in the story.<div class="autopermalink" data-description="Paragraph"><a href="#wings-delivery-slopes-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.1.b"><a href="#wings-delivery-slopes-3" title="Copy permalink for Task 4.4.1.b">🔗</a></div></article><article class="task exercise-like" id="wings-delivery-slopes-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="wings-delivery-slopes-4-1-1">Name the variables and write an equation for the function.<div class="autopermalink" data-description="Paragraph"><a href="#wings-delivery-slopes-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.1.c"><a href="#wings-delivery-slopes-4" title="Copy permalink for Task 4.4.1.c">🔗</a></div></article><article class="task exercise-like" id="wings-delivery-slopes-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="wings-delivery-slopes-5-1-1">How many wings could Harland order for $100? Solve your equation.<div class="autopermalink" data-description="Paragraph"><a href="#wings-delivery-slopes-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.1.d"><a href="#wings-delivery-slopes-5" title="Copy permalink for Task 4.4.1.d">🔗</a></div></article><article class="task exercise-like" id="wings-delivery-slopes-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="wings-delivery-slopes-6-1-1">Graph and check.<div class="autopermalink" data-description="Paragraph"><a href="#wings-delivery-slopes-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.1.e"><a href="#wings-delivery-slopes-6" title="Copy permalink for Task 4.4.1.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.4.1"><a href="#wings-delivery-slopes" title="Copy permalink for Exercise 4.4.1">🔗</a></div></article><article class="exercise exercise-like" id="leather-belts-slopes"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="introduction" id="leather-belts-slopes-1">
+<div class="para" id="leather-belts-slopes-1-1">Jana is making belts out of leather strips and a metal clasp. A short belt (as shown) is 24.5 inches long and includes 7 leather strips. A long belt (not shown) is 37.3 inches long and includes 11 leather strips. Each belt includes one metal clasp that is part of the total length. All belts use the same length clasp.<div class="autopermalink" data-description="Paragraph"><a href="#leather-belts-slopes-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/leatherbelt.png" class="contained"></div>
+</div>
+<article class="task exercise-like" id="leather-belts-slopes-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="leather-belts-slopes-2-1-1">Name the variables, including units.<div class="autopermalink" data-description="Paragraph"><a href="#leather-belts-slopes-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.2.a"><a href="#leather-belts-slopes-2" title="Copy permalink for Task 4.4.2.a">🔗</a></div></article><article class="task exercise-like" id="leather-belts-slopes-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="leather-belts-slopes-3-1-1">How long is each leather strip?<div class="autopermalink" data-description="Paragraph"><a href="#leather-belts-slopes-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.2.b"><a href="#leather-belts-slopes-3" title="Copy permalink for Task 4.4.2.b">🔗</a></div></article><article class="task exercise-like" id="leather-belts-slopes-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="leather-belts-slopes-4-1-1">How long is the metal clasp?<div class="autopermalink" data-description="Paragraph"><a href="#leather-belts-slopes-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.2.c"><a href="#leather-belts-slopes-4" title="Copy permalink for Task 4.4.2.c">🔗</a></div></article><article class="task exercise-like" id="leather-belts-slopes-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="leather-belts-slopes-5-1-1">Write an equation relating the variables.<div class="autopermalink" data-description="Paragraph"><a href="#leather-belts-slopes-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.2.d"><a href="#leather-belts-slopes-5" title="Copy permalink for Task 4.4.2.d">🔗</a></div></article><article class="task exercise-like" id="leather-belts-slopes-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="leather-belts-slopes-6-1-1">Solve your equation to find the number of leather strips in an extra long belt that is 43.7 inches long.<div class="autopermalink" data-description="Paragraph"><a href="#leather-belts-slopes-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.2.e"><a href="#leather-belts-slopes-6" title="Copy permalink for Task 4.4.2.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.4.2"><a href="#leather-belts-slopes" title="Copy permalink for Exercise 4.4.2">🔗</a></div></article><article class="exercise exercise-like" id="ski-passes-slopes"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="ski-passes-slopes-1"><div class="para" id="ski-passes-slopes-1-1">The local ski resort is trying to set the price for season passes. They know from past experience that they will sell around 14,000 passes if the season ticket price is $380. If the price is $400, they will sell fewer, perhaps only 11,000 passes. You can assume this decrease in demand is linear.<div class="autopermalink" data-description="Paragraph"><a href="#ski-passes-slopes-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="ski-passes-slopes-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="ski-passes-slopes-2-1-1">Name the variables, including units and dependence.<div class="autopermalink" data-description="Paragraph"><a href="#ski-passes-slopes-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.3.a"><a href="#ski-passes-slopes-2" title="Copy permalink for Task 4.4.3.a">🔗</a></div></article><article class="task exercise-like" id="ski-passes-slopes-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="ski-passes-slopes-3-1-1">For every dollar increase in price, how many fewer people purchase season passes?<div class="autopermalink" data-description="Paragraph"><a href="#ski-passes-slopes-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.3.b"><a href="#ski-passes-slopes-3" title="Copy permalink for Task 4.4.3.b">🔗</a></div></article><article class="task exercise-like" id="ski-passes-slopes-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="ski-passes-slopes-4-1-1">Find the intercept. Explain why this number does not make sense in the problem.<div class="autopermalink" data-description="Paragraph"><a href="#ski-passes-slopes-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.3.c"><a href="#ski-passes-slopes-4" title="Copy permalink for Task 4.4.3.c">🔗</a></div></article><article class="task exercise-like" id="ski-passes-slopes-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="ski-passes-slopes-5-1-1">Write an equation for the function. <div class="autopermalink" data-description="Paragraph"><a href="#ski-passes-slopes-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.3.d"><a href="#ski-passes-slopes-5" title="Copy permalink for Task 4.4.3.d">🔗</a></div></article><article class="task exercise-like" id="ski-passes-slopes-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="ski-passes-slopes-6-1-1">How many season passes will they sell if the price is reduced to $355?<div class="autopermalink" data-description="Paragraph"><a href="#ski-passes-slopes-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.3.e"><a href="#ski-passes-slopes-6" title="Copy permalink for Task 4.4.3.e">🔗</a></div></article><article class="task exercise-like" id="ski-passes-slopes-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="ski-passes-slopes-7-1-1">The ski resort can compute the <dfn class="terminology">revenue</dfn> (total amount of money they take in) by multiplying the ticket price times the number of tickets sold. Calculate the revenue when ticket prices are $355, $380, and $400. <div class="autopermalink" data-description="Paragraph"><a href="#ski-passes-slopes-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.3.f"><a href="#ski-passes-slopes-7" title="Copy permalink for Task 4.4.3.f">🔗</a></div></article><article class="task exercise-like" id="ski-passes-slopes-8"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<div class="para" id="ski-passes-slopes-8-1-1">Of these three prices, which yields the most revenue?<div class="autopermalink" data-description="Paragraph"><a href="#ski-passes-slopes-8-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.3.g"><a href="#ski-passes-slopes-8" title="Copy permalink for Task 4.4.3.g">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.4.3"><a href="#ski-passes-slopes" title="Copy permalink for Exercise 4.4.3">🔗</a></div></article><article class="exercise exercise-like" id="press-weight-slopes"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="press-weight-slopes-1"><div class="para" id="press-weight-slopes-1-1">Boy, am I out of shape. Right now I can only press about 15 pounds. (<dfn class="terminology">Press</dfn> means lift weight off my chest. Literally.) My trainer says I should be able to press 50 pounds by the end of 10 weeks of serious lifting. I plan to increase the weight I press by a fixed amount each week.<div class="autopermalink" data-description="Paragraph"><a href="#press-weight-slopes-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="press-weight-slopes-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="press-weight-slopes-2-1-1">Name the variables and write an equation for my trainer’s projection. <em class="emphasis">Hint: You already know the intercept.</em><div class="autopermalink" data-description="Paragraph"><a href="#press-weight-slopes-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.4.a"><a href="#press-weight-slopes-2" title="Copy permalink for Task 4.4.4.a">🔗</a></div></article><article class="task exercise-like" id="press-weight-slopes-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="press-weight-slopes-3-1-1">Make a table showing my trainer’s projection for after 0, 5, 10, 15, and 20 weeks.<div class="autopermalink" data-description="Paragraph"><a href="#press-weight-slopes-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.4.b"><a href="#press-weight-slopes-3" title="Copy permalink for Task 4.4.4.b">🔗</a></div></article><article class="task exercise-like" id="press-weight-slopes-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="press-weight-slopes-4-1-1">Years ago I could press 90 pounds. At this rate, when will I be able to press at least 90 pounds again? Set up and solve an inequality.<div class="autopermalink" data-description="Paragraph"><a href="#press-weight-slopes-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.4.c"><a href="#press-weight-slopes-4" title="Copy permalink for Task 4.4.4.c">🔗</a></div></article><article class="task exercise-like" id="press-weight-slopes-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="press-weight-slopes-5-1-1">Draw a graph illustrating the function.<div class="autopermalink" data-description="Paragraph"><a href="#press-weight-slopes-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.4.d"><a href="#press-weight-slopes-5" title="Copy permalink for Task 4.4.4.d">🔗</a></div></article><article class="task exercise-like" id="press-weight-slopes-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="press-weight-slopes-6-1-1">I am skeptical. I do not think I will be able to press 50 pounds by the end of 10 weeks. If I revise my equation, would my new slope be larger or smaller?<div class="autopermalink" data-description="Paragraph"><a href="#press-weight-slopes-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="press-weight-slopes-6-1-2">
+<em class="emphasis">Hint: Try sketching in a possible revised line on your graph assuming that after 10 weeks I will press much less than 50 pounds.</em><div class="autopermalink" data-description="Paragraph"><a href="#press-weight-slopes-6-1-2" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.4.e"><a href="#press-weight-slopes-6" title="Copy permalink for Task 4.4.4.e">🔗</a></div></article><article class="task exercise-like" id="press-weight-slopes-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="press-weight-slopes-7-1-1">Will my revised projections mean I will reach that 90-pound goal sooner or later than my trainer thinks? Explain. <em class="emphasis">Hint: extend your graph.</em><div class="autopermalink" data-description="Paragraph"><a href="#press-weight-slopes-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.4.f"><a href="#press-weight-slopes-7" title="Copy permalink for Task 4.4.4.f">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.4.4"><a href="#press-weight-slopes" title="Copy permalink for Exercise 4.4.4">🔗</a></div></article><article class="exercise exercise-like" id="paper-slopes"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="introduction" id="paper-slopes-1"><div class="para" id="paper-slopes-1-1">I just saw an advertisement for the same paper we use at the office for only $4.25 per ream at a supply store. (Ream? Yes. That’s 500 sheets of paper, usually wrapped in paper.) Is that a good deal?<div class="autopermalink" data-description="Paragraph"><a href="#paper-slopes-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="paper-slopes-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="paper-slopes-2-1-1">There are 10 reams in a case. What is the advertised price come to per case?<div class="autopermalink" data-description="Paragraph"><a href="#paper-slopes-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.5.a"><a href="#paper-slopes-2" title="Copy permalink for Task 4.4.5.a">🔗</a></div></article><article class="task exercise-like" id="paper-slopes-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="paper-slopes-3-1-1">I’m not sure I want to go get a case of paper myself because a case of paper is pretty heavy to lift. Paper is sold by the weight. Thick, heavier paper is considered fancier than lighter paper. The office uses a multipurpose paper called “92” meaning it weighs 92 grams per square meter which comes out to around 5 grams per sheet. How much does a case weigh? Use <span class="process-math">\(1 \text{ kilogram} \approx 2.2 \text{ pounds}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#paper-slopes-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.5.b"><a href="#paper-slopes-3" title="Copy permalink for Task 4.4.5.b">🔗</a></div></article><article class="task exercise-like" id="paper-slopes-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="paper-slopes-4-1-1">But, at the office we pay a delivery charge. Compare the cost of having just one case delivered versus me buying one case at the store. Recall that the office pays $15 delivery fee and $39.99 per case.<div class="autopermalink" data-description="Paragraph"><a href="#paper-slopes-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.5.c"><a href="#paper-slopes-4" title="Copy permalink for Task 4.4.5.c">🔗</a></div></article><article class="task exercise-like" id="paper-slopes-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="paper-slopes-5-1-1">Write a new equation for paper cost assuming I pick it up at the store. Use <span class="process-math">\(N\)</span> for the number of cases of paper and <span class="process-math">\(C\)</span> is the total cost, in dollars. <em class="emphasis">Hint: this equation is a direct proportionality.</em><div class="autopermalink" data-description="Paragraph"><a href="#paper-slopes-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.5.d"><a href="#paper-slopes-5" title="Copy permalink for Task 4.4.5.d">🔗</a></div></article><article class="task exercise-like" id="paper-slopes-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="paper-slopes-6-1-1">Compare total cost if we get 4 cases either delivered or from the store. Repeat for 13 cases. Recall that the equation for delivered paper is <span class="process-math">\(C=15+39.99N\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#paper-slopes-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.5.e"><a href="#paper-slopes-6" title="Copy permalink for Task 4.4.5.e">🔗</a></div></article><article class="task exercise-like" id="paper-slopes-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="paper-slopes-7-1-1">Graph both functions together on the same axes.<div class="autopermalink" data-description="Paragraph"><a href="#paper-slopes-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.5.f"><a href="#paper-slopes-7" title="Copy permalink for Task 4.4.5.f">🔗</a></div></article><article class="task exercise-like" id="paper-slopes-8"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<div class="para" id="paper-slopes-8-1-1">Set up and solve an inequality for when delivered is cheaper.<div class="autopermalink" data-description="Paragraph"><a href="#paper-slopes-8-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.5.g"><a href="#paper-slopes-8" title="Copy permalink for Task 4.4.5.g">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.4.5"><a href="#paper-slopes" title="Copy permalink for Exercise 4.4.5">🔗</a></div></article><article class="exercise exercise-like" id="garbage-slopes"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="introduction" id="garbage-slopes-1">
+<div class="para" id="garbage-slopes-1-1">The amount of garbage generated in the United States has increased steadily, from 88.1 million tons in 1960 to 254.2 million tons in 2006.<div class="autopermalink" data-description="Paragraph"><a href="#garbage-slopes-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<aside class="aside aside-like" id="garbage-slopes-1-2"><div class="para" id="garbage-slopes-1-2-1">Source: Environmental Protection Agency<div class="autopermalink" data-description="Paragraph"><a href="#garbage-slopes-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></aside><div class="para" id="garbage-slopes-1-3">
+<em class="emphasis">(Story also appears in <a href="sec-Fitting_lines_to_data.html#garbage-fitting-lines" class="xref" data-knowl="./knowl/xref/garbage-fitting-lines.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 4.5.7">4.5.7</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#garbage-slopes-1-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="garbage-slopes-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="garbage-slopes-2-1-1">Assuming the amount of garbage increases linearly, by how much has garbage increased each year?<div class="autopermalink" data-description="Paragraph"><a href="#garbage-slopes-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.6.a"><a href="#garbage-slopes-2" title="Copy permalink for Task 4.4.6.a">🔗</a></div></article><article class="task exercise-like" id="garbage-slopes-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="garbage-slopes-3-1-1">Name the variables, including units, and write a linear equation relating them.<div class="autopermalink" data-description="Paragraph"><a href="#garbage-slopes-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.6.b"><a href="#garbage-slopes-3" title="Copy permalink for Task 4.4.6.b">🔗</a></div></article><article class="task exercise-like" id="garbage-slopes-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="garbage-slopes-4-1-1">According to your equation, how much garbage was projected for 2010? For 2020?<div class="autopermalink" data-description="Paragraph"><a href="#garbage-slopes-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.6.c"><a href="#garbage-slopes-4" title="Copy permalink for Task 4.4.6.c">🔗</a></div></article><article class="task exercise-like" id="garbage-slopes-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="garbage-slopes-5-1-1">If this trend continues, when will the amount of garbage generated exceed 300 million tons? Show how to set up and solve an inequality to find the answer. Be sure to state the actual year.<div class="autopermalink" data-description="Paragraph"><a href="#garbage-slopes-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.6.d"><a href="#garbage-slopes-5" title="Copy permalink for Task 4.4.6.d">🔗</a></div></article><article class="task exercise-like" id="garbage-slopes-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="garbage-slopes-6-1-1">A 2010 report listed the amount of garbage at 249 million tons. Compare this information to your previous answer. What are some possible explanations for why this amount was less than expected (and actually decreased from 2006)?<div class="autopermalink" data-description="Paragraph"><a href="#garbage-slopes-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.6.e"><a href="#garbage-slopes-6" title="Copy permalink for Task 4.4.6.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.4.6"><a href="#garbage-slopes" title="Copy permalink for Exercise 4.4.6">🔗</a></div></article><article class="exercise exercise-like" id="pension-slopes"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="introduction" id="pension-slopes-1"><div class="para" id="pension-slopes-1-1">Now that he is retired, Elmer gets a pension check from the Railroad Company each month. There’s a set amount he gets each month but the company deducts a fixed percentage of whatever outside income he earns. Elmer works part-time at the local hardware store. In February he earned $444.10 at the hardware store and his pension check that month was $886.23. In March he worked much less, earning only $179.30 at the hardware store; his pension check that month was $912.71.<div class="autopermalink" data-description="Paragraph"><a href="#pension-slopes-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="pension-slopes-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="pension-slopes-2-1-1">What percentage of his income from the hardware store is deducted from his pension check? <em class="emphasis">Calculate the fraction of a dollar deducted for each dollar earned. Convert your answer to percent.</em><div class="autopermalink" data-description="Paragraph"><a href="#pension-slopes-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.7.a"><a href="#pension-slopes-2" title="Copy permalink for Task 4.4.7.a">🔗</a></div></article><article class="task exercise-like" id="pension-slopes-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="pension-slopes-3-1-1">If Elmer doesn’t work in April, how much will his pension check be?<div class="autopermalink" data-description="Paragraph"><a href="#pension-slopes-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.7.b"><a href="#pension-slopes-3" title="Copy permalink for Task 4.4.7.b">🔗</a></div></article><article class="task exercise-like" id="pension-slopes-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="pension-slopes-4-1-1">Write an equation showing how Elmer’s pension check is affected by his income from the hardware store. Use <span class="process-math">\(H\)</span> for his income from the hardware store and <span class="process-math">\(P\)</span> for his pension check, both in dollars.<div class="autopermalink" data-description="Paragraph"><a href="#pension-slopes-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.7.c"><a href="#pension-slopes-4" title="Copy permalink for Task 4.4.7.c">🔗</a></div></article><article class="task exercise-like" id="pension-slopes-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="pension-slopes-5-1-1">Elmer would like to earn enough at the hardware store to make at least $1,200 total per month. Using <span class="process-math">\(T\)</span> for the total Elmer earns in a month (in dollars), write an equation for <span class="process-math">\(T\)</span> as a function of <span class="process-math">\(H\text{.}\)</span> <em class="emphasis">Hint: start with <span class="process-math">\(T=H+P\text{,}\)</span> then use your equation for <span class="process-math">\(P\)</span> from part (c) to write everything with <span class="process-math">\(H\)</span> instead.</em><div class="autopermalink" data-description="Paragraph"><a href="#pension-slopes-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.7.d"><a href="#pension-slopes-5" title="Copy permalink for Task 4.4.7.d">🔗</a></div></article><article class="task exercise-like" id="pension-slopes-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="pension-slopes-6-1-1">Now set up and solve an inequality to determine how much Elmer needs to earn at the hardware store to make at least $1,200 total per month.<div class="autopermalink" data-description="Paragraph"><a href="#pension-slopes-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.7.e"><a href="#pension-slopes-6" title="Copy permalink for Task 4.4.7.e">🔗</a></div></article><article class="task exercise-like" id="pension-slopes-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="pension-slopes-7-1-1">If Elmer earns $8.15 per hour, how many hours does he need to work at the hardware store to make at least $1,200 total per month, accounting for his income from the hardware store and his pension check?<div class="autopermalink" data-description="Paragraph"><a href="#pension-slopes-7-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.7.f"><a href="#pension-slopes-7" title="Copy permalink for Task 4.4.7.f">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.4.7"><a href="#pension-slopes" title="Copy permalink for Exercise 4.4.7">🔗</a></div></article><article class="exercise exercise-like" id="truck-rental-slopes"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="para" id="truck-rental-slopes-1-1">Your local truck rental agency lists what it costs to rent a truck (for one day) based on the number of miles you drive the truck. They use a linear pricing model.<div class="autopermalink" data-description="Paragraph"><a href="#truck-rental-slopes-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">distance driven (miles)</td>
+<td class="c m b1 r1 l0 t1 lines">50</td>
+<td class="c m b1 r1 l0 t1 lines">100</td>
+<td class="c m b1 r1 l0 t1 lines">150</td>
+<td class="c m b1 r1 l0 t1 lines">200</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">rental cost ($)</td>
+<td class="c m b1 r1 l0 t0 lines">37.50</td>
+<td class="c m b1 r1 l0 t0 lines">55.00</td>
+<td class="c m b1 r1 l0 t0 lines">72.50</td>
+<td class="c m b1 r1 l0 t0 lines">90.00</td>
+</tr>
+</table></div> <div class="para" id="truck-rental-slopes-1-3">If you rent a truck and drive it 10 miles, how much do you think it will cost? As part of your work, name the variables and write a linear equation relating them.<div class="autopermalink" data-description="Paragraph"><a href="#truck-rental-slopes-1-3" title="Copy permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="truck-rental-slopes-1-4">
+<em class="emphasis">(Story also appears in <a href="sec-Tables_and_graphs.html#truck-rental-tables-graphs" class="xref" data-knowl="./knowl/xref/truck-rental-tables-graphs.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.2.6">1.2.6</a> and <a href="sec-Rate_of_change.html#truck-rental-rate-of-change" class="xref" data-knowl="./knowl/xref/truck-rental-rate-of-change.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 1.3.6">1.3.6</a>)</em><div class="autopermalink" data-description="Paragraph"><a href="#truck-rental-slopes-1-4" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 4.4.8"><a href="#truck-rental-slopes" title="Copy permalink for Exercise 4.4.8">🔗</a></div></article><article class="exercise exercise-like" id="median-income-slopes"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="introduction" id="median-income-slopes-1">
+<div class="para" id="median-income-slopes-1-1">In 2008, the median household income was about $50,303. By 2010 it was down to about $49,445.<div class="autopermalink" data-description="Paragraph"><a href="#median-income-slopes-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<aside class="aside aside-like" id="median-income-slopes-1-2"><div class="para" id="median-income-slopes-1-2-1">Source: U.S. Census Bureau<div class="autopermalink" data-description="Paragraph"><a href="#median-income-slopes-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></aside>
+</div>
+<article class="task exercise-like" id="median-income-slopes-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="median-income-slopes-2-1-1">By how much has it decreased each year, on average? The phrase “on average” means that you should assume the decrease is linear.<div class="autopermalink" data-description="Paragraph"><a href="#median-income-slopes-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.9.a"><a href="#median-income-slopes-2" title="Copy permalink for Task 4.4.9.a">🔗</a></div></article><article class="task exercise-like" id="median-income-slopes-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="median-income-slopes-3-1-1">Name the variables and write a linear equation relating them.<div class="autopermalink" data-description="Paragraph"><a href="#median-income-slopes-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.9.b"><a href="#median-income-slopes-3" title="Copy permalink for Task 4.4.9.b">🔗</a></div></article><article class="task exercise-like" id="median-income-slopes-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="median-income-slopes-4-1-1">At this rate when will the median family fall below $48,000? Set up and solve an inequality.<div class="autopermalink" data-description="Paragraph"><a href="#median-income-slopes-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.9.c"><a href="#median-income-slopes-4" title="Copy permalink for Task 4.4.9.c">🔗</a></div></article><article class="task exercise-like" id="median-income-slopes-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="median-income-slopes-5-1-1">Graph and check.<div class="autopermalink" data-description="Paragraph"><a href="#median-income-slopes-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.9.d"><a href="#median-income-slopes-5" title="Copy permalink for Task 4.4.9.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.4.9"><a href="#median-income-slopes" title="Copy permalink for Exercise 4.4.9">🔗</a></div></article><article class="exercise exercise-like" id="sea-level-slopes"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<div class="introduction" id="sea-level-slopes-1">
+<div class="para" id="sea-level-slopes-1-1">Buoy instruments in the oceans report changes in the sea level. In 2005 the sea level (averaged across all the oceans) was 51.7 millimeters above the historical sea level. In 2012 the sea level was 73.4 millimeters above the historical sea level. You can assume the increase is linear.<div class="autopermalink" data-description="Paragraph"><a href="#sea-level-slopes-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<aside class="aside aside-like" id="sea-level-slopes-1-2"><div class="para" id="sea-level-slopes-1-2-1">Source: National Aeronautics and Space Administration<div class="autopermalink" data-description="Paragraph"><a href="#sea-level-slopes-1-2-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div></aside>
+</div>
+<article class="task exercise-like" id="sea-level-slopes-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="sea-level-slopes-2-1-1">Name the variables, including units.<div class="autopermalink" data-description="Paragraph"><a href="#sea-level-slopes-2-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.10.a"><a href="#sea-level-slopes-2" title="Copy permalink for Task 4.4.10.a">🔗</a></div></article><article class="task exercise-like" id="sea-level-slopes-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="sea-level-slopes-3-1-1">Display the information from the story in a table.<div class="autopermalink" data-description="Paragraph"><a href="#sea-level-slopes-3-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.10.b"><a href="#sea-level-slopes-3" title="Copy permalink for Task 4.4.10.b">🔗</a></div></article><article class="task exercise-like" id="sea-level-slopes-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="sea-level-slopes-4-1-1">What is the rate of increase for the sea level?<div class="autopermalink" data-description="Paragraph"><a href="#sea-level-slopes-4-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.10.c"><a href="#sea-level-slopes-4" title="Copy permalink for Task 4.4.10.c">🔗</a></div></article><article class="task exercise-like" id="sea-level-slopes-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="sea-level-slopes-5-1-1">Write an equation relating the variables.<div class="autopermalink" data-description="Paragraph"><a href="#sea-level-slopes-5-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.10.d"><a href="#sea-level-slopes-5" title="Copy permalink for Task 4.4.10.d">🔗</a></div></article><article class="task exercise-like" id="sea-level-slopes-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="sea-level-slopes-6-1-1">In what year will the sea level be 80 millimeters above the historical level?<div class="autopermalink" data-description="Paragraph"><a href="#sea-level-slopes-6-1-1" title="Copy permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.4.10.e"><a href="#sea-level-slopes-6" title="Copy permalink for Task 4.4.10.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4.4.10"><a href="#sea-level-slopes" title="Copy permalink for Exercise 4.4.10">🔗</a></div></article><div class="autopermalink" data-description="Exercises 4.4: Exercises"><a href="#ex-Slopes" title="Copy permalink for Exercises 4.4: Exercises">🔗</a></div></section><div class="autopermalink" data-description="Section 4.4: Slopes"><a href="#sec-Slopes" title="Copy permalink for Section 4.4: Slopes">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-Intercepts.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-Fitting_lines_to_data.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
