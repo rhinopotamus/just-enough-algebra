@@ -11,6 +11,7 @@ The section files do a bunch of `component=` versioning. There are four componen
 Here is how those components are used:
 - two versions of the `<title>` tag generate either the plain title (not-workbook) or the title decorated with "- Practice exercises" (workbook)
 - the text of the section is enclosed in an `<introduction component="not-workbook">`
+    - In this summer-2025 branch I am moving toward `<subsection component="not-workbook">`.
 - each of the "Do you know..." lists is in a separate document as an `<ol>` element
 - a `<conclusion component="workbook">` loads the "Do you know..." list in *after* the exercises in the workbook version
 - a `<conclusion component="not-workbook">` loads the "Do you know..." list in *before* the exercises in other versions
@@ -20,7 +21,7 @@ Here is how those components are used:
 Some other important versioning happens in the exercise files `ex-NAME.ptx`:
 - `ex-intro.ptx` is an `<introduction>` element that doesn't display in the workbook
 - exercises 1-4 are not componented, so they appear in all builds
-- if exercises 1-4 include xrefs to exercises 5-? in other sections, those "story also appears in" sentences are versioned in `<em component="...">` tags
+- if exercises 1-4 include xrefs to exercises 5-? in other sections, those "story also appears in" sentences are versioned in `<p component="...">` tags
     - I reference the containing section rather than the exercise directly in the workbook component tag
 - exercises 5-8 are written in `<exercise component="not-workbook">`
 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-5-2-signal-solve">
+    <statement>
+        <p>
+            A signal is sent down a fiber optic cable. Its strength decreases by 2% each mile it travels. (Say it was one unit strong to start.)
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    The signal will need a <term>booster</term> (something to make the signal stronger again) when it has fallen to under 0.75 units.
+                    Use successive approximation to find <em>approximately</em> how far along the cable the booster should be placed.
+                    <xi:include href="../successive-approx.ptx" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    Now set up and solve an equation to find <em>exactly</em> how far along the cable the booster should be placed.
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

@@ -96,14 +96,14 @@
 					Use the equation to complete the table.
 				</p>
 				<tabular bottom="minor" top="minor">
-					<row left="minor" class="odd">
+					<row left="minor">
 						<cell right="minor" halign="center"><m>g</m></cell>
 						<cell right="minor" halign="center">1.02</cell>
 						<cell right="minor" halign="center">1.03</cell>
 						<cell right="minor" halign="center">1.05</cell>
 						<cell right="minor" halign="center">1.10</cell>
 					</row>
-					<row left="minor" class="even">
+					<row left="minor">
 						<cell right="minor" halign="center"><m>A</m></cell>
 						<cell right="minor" halign="center">1,656.12</cell>
 						<cell right="minor" halign="center"><m><fillin fill="\begin{array}{c}XXXXX\\XXXXX\end{array}"/></m></cell>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-1-truck-solve-2">
+    <statement>
+        <p>
+            The equation for the total weight of the truck carrying bags of grass seed is
+            <me>
+                W = 3{,}900 + 4.2B
+            </me>
+            Let's find the number of bags for a different weight.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Very heavy things (like trucks) are often weighed in <term>tons</term> rather than pounds. Use the fact that 1 ton = 2,000 pounds to convert 8 tons to pounds.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Set up and solve an equation to find the number of bags of grass seed being carried by the truck if its total weight is 8 tons. Remember, <q>set up and solve an equation</q> means to use the <xref ref="assemblage-shoes-and-socks" text="title"/>.
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

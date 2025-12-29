@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-5-money-market">
+    <statement>
+        <p>
+            Kiran deposited $2,500 in a money market account that earned 7% interest compounded monthly. Let's use the <xref ref="compound-interest-formula" text="title"/> to calculate her account balance after 4 years.
+            
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    In the formula, what number should we use for <m>p</m>?
+                </p>
+            </li>
+            <li>
+                <p>
+                    In the formula, what number should we use for <m>r</m>?
+                </p>
+            </li>
+            <li>
+                <p>
+                    In the formula, what number should we use for <m>y</m>?
+                </p>
+            </li>
+            <li>
+                <p>
+                    Plug everything in and evaluate to find Kiran's account balance after 4 years.
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

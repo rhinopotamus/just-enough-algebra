@@ -1,0 +1,20 @@
+<diagram xmlns="https://prefigure.org"
+  dimensions="(400,200)" margins="(75,30,25,25)">
+  <definition>A(Y)=64100+7800*Y</definition>  
+  <definition>T(Y)=150000</definition>
+  <coordinates bbox="(0,0,20,250000)">
+    <grid-axes 
+      spacings="((0,1,20),(0,25000,250000))"
+      hticks= "(0,5,20)"
+      hlabels="(0,5,20)"
+      vticks= "(0,50000,250000)"
+      vlabels="(0,50000,250000)"
+      h-zero-label="yes"
+      v-zero-label="yes">
+        <xlabel><m>Y</m></xlabel>
+        <ylabel><m>A</m></ylabel>
+    </grid-axes>
+    <graph function="A"/>
+    <graph function="T" dash="3 3"/>
+  </coordinates>
+</diagram>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-2-chain-ineq">
+    <statement>
+        <p>
+            The grass seed shipping company doesn't like to send out their trucks with too few bags of grass, because that's inefficient.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Write an inequality saying that the weight of the truck should be at least 8,000 pounds.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Write an inequality about the weight limit: the weight of the truck should be below 18,000 pounds.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Combine these two inequalities into a chain of inequalities:
+                    <me>
+                        <fillin characters="2" /> \leq W \leq <fillin characters="2" />
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Use the equation <m>W = 3{,}900 + 4.2B</m> to replace <m>W</m> in the chain of inequalities.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Solve the chain of inequalities by doing the <xref ref="assemblage-shoes-and-socks" text="title"/> to all three sides.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Check your work by graphing the equation <m>W = 3{,}900 + 4.2B</m>:
+                </p>
+                <image>
+                    <shortdescription>Axes for graphing the equation W = 3900 + 4.2B</shortdescription>
+                    <prefigure xmlns="https://prefigure.org"
+                        label="prefigure-truck-chain-ineq">
+                        <xi:include href="../prefigure/3-2-truck-chain-ineq.xml" />
+                    </prefigure>
+                </image>
+            </li>
+        </ol>
+    </statement>
+</activity>

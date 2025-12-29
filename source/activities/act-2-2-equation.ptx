@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-2-equation">
+    <statement>
+        <p>
+            The comprehensive fee at a local private college is $64,000. The fee is projected to increase by 5.8% per year. Let's write an equation that describes this story.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    First, we have to name the variables.
+                </p>
+                <xi:include href="../name-variables.ptx" />
+            </li>
+            <li>
+                <p>
+                    Generalize your calculations from <xref ref="act-2-2-exponents" text="type-global"/> to write down an equation.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Summarize your calculations from <xref ref="act-2-2-exponents" text="type-global"/> in a table. Fill in your variable letter names.
+                </p>
+                <tabular bottom="minor" top="minor" halign="center" row-headers="yes">
+                    <row left="minor">
+                        <cell right="minor"><fillin characters="3" /> (indep)</cell>
+                        <cell right="minor">0</cell>
+                        <cell right="minor"></cell>
+                        <cell right="minor"></cell>
+                        <cell right="minor"></cell>
+                        <cell right="minor"></cell>
+                    </row>
+                    <row left="minor">
+                        <cell right="minor"><fillin characters="3" /> (dep)</cell>
+                        <cell right="minor">64,000</cell>
+                        <cell right="minor"><fillin characters="5" /></cell>
+                        <cell right="minor"><fillin characters="5" /></cell>
+                        <cell right="minor"><fillin characters="5" /></cell>
+                        <cell right="minor"><fillin characters="5" /></cell>
+                    </row>
+                </tabular>
+            </li>
+            <li>
+                <p>
+                    Draw a graph of these values, and connect them with a nice smooth curve.
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

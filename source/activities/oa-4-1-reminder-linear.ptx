@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="oa-4-1-reminder-linear">
+    <statement>
+        <p>
+            A good way to get things to stick in your brain is to try to remember them without looking them up. Even if you get them wrong at first, the effort of trying to recall them is helpful!
+        </p>
+        <p>
+            Test your memory by seeing if you can answer these questions without looking back at <xref ref="ch-2-Equations" text="type-global" />. 
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    What's an example of a story that would be a linear equation?
+                </p>
+            </li>
+            <li>
+                <p>
+                    What is the template for a linear equation?
+                </p>
+            </li>
+            <li>
+                <p>
+                    What shape is the graph of a linear equation?
+                </p>
+            </li>
+            <li>
+                <p>
+                    What are the constants that show up in a linear equation? What do they mean in a story?
+                </p>
+            </li>
+        </ol>
+    </statement>
+</exploration>

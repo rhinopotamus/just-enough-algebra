@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-1-5-faster-download">
+    <statement>
+        <p>
+            Tara's coworker Brandon has a much faster Internet connection on his computer at 1,500 kbps. 
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    How long would it take Brandon to download 700 MB?
+                </p>
+            </li>
+            <li>
+                <p>
+                    How much information could Brandon download in 8 hours?
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-4-2-just-think-locks">
+    <statement>
+        <p>
+            Before we do anything fancy with any of these numbers, let's pause for a second and just think about the situation. <em>Without doing any calculations,</em> write a sentence or two explaining your thinking about each of the questions below.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    If Quia Xun is only planning to make a <em>few</em> locks, which machine do you think is a better choice? Why?
+                </p>
+            </li>
+            <li>
+                <p>
+                    If Quia Xun is planning to make a <em>whole bunch</em> of locks, which machine do you think is a better choice? Why?                    
+                </p>
+            </li>
+        </ol>
+    </statement>
+</exploration>

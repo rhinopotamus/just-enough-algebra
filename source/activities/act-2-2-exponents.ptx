@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-2-exponents">
+    <statement>
+        <p>
+            The comprehensive fee at a local private college is $64,000. The fee is projected to increase by 5.8% per year. Let's use exponents to compute some projected future fees.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    What is the growth factor <m>g</m>? Give your answer in decimal form.
+                </p>
+            </li>
+            <li>
+                <p>
+                    What would <m>64{,}000 \ast 1.058^5</m> mean in this story?
+                </p>
+            </li>
+            <li>
+                <p>
+                    Use your calculator to figure out: 
+                    <ul>
+                        <li>
+                            <p>
+                                <m>64{,}000 \ast 1.058^{10}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>64{,}000 \ast 1.058^{20}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>64{,}000 \ast 1.058^{50}</m>
+                            </p>
+                        </li>
+                    </ul>
+                    What would each one of these numbers mean in this story?
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

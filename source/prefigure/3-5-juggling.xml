@@ -1,0 +1,18 @@
+<diagram xmlns="https://prefigure.org"
+  dimensions="(400,200)" margins="(50,30,25,25)">
+  <definition>H(T) = 3+15*T-16*T^2</definition>  
+  <coordinates bbox="(0,0,1.2,7)">
+    <grid-axes
+      spacings="((0,0.05,1.2),(0,0.5,7))"
+      hticks= "(0,0.1,1.2)"
+      hlabels="(0,0.1,1.2)"
+      vticks= "(0,1,7)"
+      vlabels="(0,1,7)"
+      h-zero-label="yes"
+      v-zero-label="yes">
+        <xlabel><m>T</m></xlabel>
+        <ylabel><m>H</m></ylabel>
+    </grid-axes>
+    <graph function="H"/>
+  </coordinates>
+</diagram>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-1-2-choose-scale">
+    <statement>
+        <p>
+            Here's a table of data about the comprehensive fee for the private college again. Fill in your own letter names for the variables.
+        </p>
+        <!-- f(t) = 64000 * 1.058^{t}, rounded to nearest hundred -->
+        <tabular bottom="minor" top="minor" halign="center" row-headers="yes">
+            <row left="minor">
+                <cell right="minor"><fillin characters="3"/> = time (years)</cell>
+                <cell right="minor">0</cell>
+                <cell right="minor">2</cell>
+                <cell right="minor">4</cell>
+                <cell right="minor">6</cell>
+                <cell right="minor">8</cell>
+                <cell right="minor">10</cell>
+            </row>
+            <row left="minor">
+                <cell right="minor"><fillin characters="3"/> = comprehensive fee ($)</cell>
+                <cell right="minor">64,000</cell>
+                <cell right="minor">71,600</cell>
+                <cell right="minor">80,200</cell>
+                <cell right="minor">89,700</cell>
+                <cell right="minor">100,500</cell>
+                <cell right="minor">112,500</cell>
+            </row>
+        </tabular>
+        <p>
+            In this activity we're going to choose a scale for each axis. Here is some sample graph paper:
+        </p>
+        <image source='GraphPaper.jpg' width="90%" />
+        <p>
+            <ol marker="(a)">
+                <li>
+                    <p>
+                        Let's start with the horizontal axis, where the independent variable (time) goes. What are the smallest and largest values of the independent variable?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        We want our data to all fit in our graph paper, but also to take up most of the space on our graph paper, so we have to choose the largest value on our horizontal axis carefully. Here are a few possible largest values. Which ones do you think are reasonably good, and why?
+                    </p>
+                    <ul cols="3">
+                        <li>
+                            <p>
+                                5 years
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                20 years
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                8 years
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                10 years
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                15 years
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                12 years
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>
+                        Here are some possible scales to try for the horizontal axis. Which ones work well, and which ones don't? What's wrong with the ones that don't work?
+                    </p>
+                    <ul cols="2">
+                        <li>
+                            <p>
+                                2 years every 1 gridline
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                1 year every 2 gridlines
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                2 years every 3 gridlines
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                3 years every 4 gridlines
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>
+                        Now let's move on to the vertical axis, where the dependent variable (comprehensive fee) goes. What are the smallest and largest values of the dependent variable?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Here are a few possible largest values for the vertical axis. Which ones do you think are reasonably good, and why?
+                    </p>
+                    <ul cols="3">
+                        <li>
+                            <p>
+                                $150,000
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                $125,000
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                $60,000
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                $200,000
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                $100,000
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                $112,500
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>
+                        Here are some possible scales to try for the vertical axis. Which ones work well, and which ones don't? What's wrong with the ones that don't work?
+                    </p>
+                    <ul cols="2">
+                        <li>
+                            <p>
+                                $10,000 every 2 gridlines
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                $20,000 every 2 gridlines
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                $50,000 every 4 gridlines
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                $15,000 every 2 gridlines
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </p>
+    </statement>
+</activity>
+
+
+        <!-- generated by f(x)=5.70148\cdot x^{0.627598} -->
+        <!-- <tabular bottom="minor" top="minor" halign="center">
+            <row left="minor"> 
+                <cell right="minor"><fillin characters="3"/> = time (minutes)</cell>
+                <cell right="minor">0</cell>
+                <cell right="minor">4</cell>
+                <cell right="minor">7</cell>
+                <cell right="minor">8</cell>
+                <cell right="minor">11</cell>
+                <cell right="minor">16</cell>
+            </row>
+            <row left="minor"> 
+                <cell right="minor"><fillin characters="3"/> = water level (inches)</cell>
+                <cell right="minor">0</cell>
+                <cell right="minor">14</cell>
+                <cell right="minor">19</cell>
+                <cell right="minor">21</cell>
+                <cell right="minor">26</cell>
+                <cell right="minor">32</cell>
+            </row>
+        </tabular> -->

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="oa-3-4-power-vs-exponential">
+    <introduction>
+        <p>
+            It's common to get mixed up between power equations and exponential equations, and thus to mix up the undoing operations. Let's practice identifying the differences between them.
+        </p>
+    </introduction>
+    <task xml:id="power-vs-exponential" label="power-vs-exponential">
+        <statement>
+            <p>
+                Which of these equations are power equations, and which are exponential equations?
+            </p>
+        </statement>
+        <cardsort>
+            <match>
+                <premise><m>C=100\ast 0.92^W</m></premise>
+                <premise><m>L=3.04 \ast 2^G</m></premise>
+                <premise><m>C=1{,}290\ast 1.03^Y</m></premise>
+                <premise><m>P=78\ast 1.016^T</m></premise>
+                <response>Exponential equations</response>
+            </match>
+            <match>
+                <premise><m>P = 10 \ast G^9</m></premise>
+                <premise><m>B = 0.04\, S^2</m></premise>
+                <premise><m>N=-0.0021\, T^3</m></premise>
+                <response>Power equations</response>
+            </match>
+        </cardsort>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Write a sentence in everyday language explaining to a friend how to tell the difference between power equations and exponential equations.
+            </p>
+        </statement>
+    </task>
+</exploration>

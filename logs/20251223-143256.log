@@ -1,0 +1,38 @@
+INFO    : Since no target was supplied, we will use "web-summer-2025".
+
+INFO    : Building target web-summer-2025
+INFO    : XSL conversion of /home/spencer/github/jea-summer-2025/source/main.ptx by /home/spencer/.ptx/2.33.2/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/spencer/.ptx/2.33.2/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : Generating any needed assets.
+INFO    : Finished generating assets.
+
+INFO    : Building with custom xsl /home/spencer/github/jea-summer-2025/xsl/custom-web.xsl
+INFO    : Preparing to build into /home/spencer/github/jea-summer-2025/output/web-summer-2025.
+INFO    : discovering source file's directory name: /home/spencer/github/jea-summer-2025/source
+INFO    : verifying and expanding input directory: /home/spencer/github/jea-summer-2025/source/../generated-assets
+INFO    : input directory expanded to absolute path: /home/spencer/github/jea-summer-2025/generated-assets
+INFO    : verifying and expanding input directory: /home/spencer/github/jea-summer-2025/source/../assets
+INFO    : input directory expanded to absolute path: /home/spencer/github/jea-summer-2025/assets
+INFO    : verifying and expanding input directory: /home/spencer/github/jea-summer-2025/source/data
+INFO    : input directory expanded to absolute path: /home/spencer/github/jea-summer-2025/source/data
+INFO    : XSL conversion of /home/spencer/github/jea-summer-2025/source/main.ptx by /home/spencer/.ptx/2.33.2/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : successful application of /home/spencer/.ptx/2.33.2/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : Downloading rs services file from https://runestone.academy/cdn/runestone/latest/webpack_static_imports.xml.
+INFO    : Runestone Services via online CDN query: version 7.11.4
+INFO    : Downloading Runestone Services, version 7.11.4
+INFO    : Extracting Runestone Services from archive file
+INFO    : Building custom css theme: theme-default-modern
+INFO    : converting /home/spencer/github/jea-summer-2025/source/main.ptx to HTML in /tmp/ptx-lggaasab
+INFO    : XSL conversion of /home/spencer/github/jea-summer-2025/source/main.ptx by /tmp/ptxcli_tpqwb4xe/cli_xsl/custom-web.xsl
+INFO    : messages from the log for XSL processing:
+INFO    : * PTX:INFO:   checking all deprecated elements.
+INFO    : successful application of /tmp/ptxcli_tpqwb4xe/cli_xsl/custom-web.xsl
+INFO    : Removing temporary directory /tmp/ptx-lggaasab
+INFO    : Removing temporary directory /tmp/ptx-3_ygvoe5
+INFO    : 
+Finished build for target web-summer-2025. Run `pretext view web-summer-2025` to see the results.
+
+INFO    : 
+Success!  Built requested target(s) without errors.
+
+INFO    : 

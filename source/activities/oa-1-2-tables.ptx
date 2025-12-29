@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="oa-1-2-tables">
+    <p>
+        In <xref ref="ss-1-1-percents" text="custom">Section 1.1</xref>, a report said that the average price of gasoline in Minnesota was $2.900/gal in 2010 and increased approximately 20% per year for the next several years. We calculated a few gas prices, which we'll now organize in a table.
+    </p>
+
+    <tabular bottom="minor" top="minor" row-headers="yes" halign="center">
+        <row left="minor">
+            <cell right="minor">Year</cell>
+            <cell right="minor">2010</cell>
+            <cell right="minor">2011</cell>
+            <cell right="minor">2012</cell>
+        </row>
+        <row left="minor">
+            <cell right="minor">Gas price</cell>
+            <cell right="minor">2.90</cell>
+            <cell right="minor">3.50</cell>
+            <cell right="minor">4.20</cell>
+        </row>
+    </tabular>
+
+    <p>
+        Just to make sure we're all on the same page, let's use this table to answer a few questions.
+    </p>
+
+    <p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    What does this table say the gas price was in 2011?
+                </p>
+            </li>
+            <li>
+                <p>
+                    Which year does this table say the gas price was $2.90/gal?
+                </p>
+            </li>
+            <li>
+                <p>
+                    Write a sentence in your own words about the remaining entry in the table.
+                </p>
+            </li>
+        </ol>
+    </p>
+</exploration>

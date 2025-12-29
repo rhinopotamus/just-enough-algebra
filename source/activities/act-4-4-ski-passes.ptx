@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-4-4-ski-passes">
+    <statement>
+        <p>
+            The local ski resort is trying to set the price for season passes. They know from past experience that they will sell around 14,000 passes if the season ticket price is $380. If the price is $400, they will sell fewer, perhaps only 11,000 passes. You can assume this decrease in demand is linear.
+        </p>
+        
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Name the variables in this situation.
+                    <xi:include href="../name-variables.ptx" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    Use the <xref ref="rate-of-change" text="title"/> to compute the slope. Include units!
+                </p>
+            </li>
+            <li>
+                <p>
+                    What does the slope mean in the story?
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

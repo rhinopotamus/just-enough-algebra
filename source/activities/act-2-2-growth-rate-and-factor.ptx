@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-2-growth-rate-and-factor">
+    <statement>
+        <p>
+            The comprehensive fee at a local private college is $64,000. The fee is projected to increase by 5.8% per year. Let's identify the growth rate and the growth factor.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    What is the growth rate <m>r</m>? Write down your answer in both percent format and decimal format.
+                </p>
+            </li>
+            <li>
+                <p>
+                    What is the growth factor <m>g</m>? Write down your answer in both percent format and decimal format.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Go back to your work in <xref ref="act-2-2-one-step" text="type-global"/>. Identify all the places you used the growth rate <m>r</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Now identify all the places you used the growth factor <m>g</m>.
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

@@ -69,7 +69,7 @@
 				</p>
 			</statement>
 		</task>
-		<task workspace="0.75in">
+		<task workspace="1.75in">
 			<statement>
 				<p>
 					Convert your answer into gallons. Use 1 gallon = 4 quarts and 1 quart = 2 pints. 
@@ -98,7 +98,7 @@
 </page>
 
 <page>
-	<exercise xml:id="t-shirt-printing-PE2B" workspace="1.5in">
+	<exercise xml:id="t-shirt-printing-PE2B" workspace="2in">
 		<introduction>
 			<p>
 				Skye and her sister Clover started a t-shirt printing company. To produce a particular t-shirt it costs $350 in materials and labor to set up a silkscreen and then $7.50 for each shirt made to cover materials and printing. The average cost per t-shirt $<m>C</m> is a function of <m>N</m>, the number of t-shirts printed. The equation for this function is <me>C = \frac{350+7.50N}{N}</me>
@@ -156,8 +156,7 @@
 </page>
 
 <page>
-	<!-- manual edit spacing -->
-	<exercise xml:id="kotoyo-finance-PE2B" workspace="1in">
+	<exercise xml:id="kotoyo-finance-PE2B" workspace="1.5in">
 		<task>
 			<statement>
 				<p>

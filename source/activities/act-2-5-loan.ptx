@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-5-loan">
+    <statement>
+        <p>
+            Kiran would really like to buy a new hybrid car that sells for $23,500. Sadly Kiran's credit rating is not very good, so the best the dealership offers is a loan at (you guessed it) 7% interest compouned monthly. Use the <xref ref="loan-payment-formula" text="title"/> to calculate her monthly car payments on a six year loan.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    In the formula, what number should we use for <m>a</m>?
+                </p>
+            </li>
+            <li>
+                <p>
+                    In the formula, what number should we use for <m>r</m>?
+                </p>
+            </li>
+            <li>
+                <p>
+                    In the formula, what number should we use for <m>y</m>?
+                </p>
+            </li>
+            <li>
+                <p>
+                    Plug everything in and evaluate to find Kiran's monthly payment.
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

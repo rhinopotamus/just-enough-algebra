@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-1-5-pop-billion-million">
+    <statement>
+        <p>
+            In 2011, the population of the United States was approximately 0.313 billion.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Use the fact that 1 billion = 1,000 million to write down two unit conversion fractions:
+                    <me>
+                        1 = \dfrac{<fillin fill="1.000" /> \text{ billion}}
+                                        {<fillin fill="1000" /> \text{ million}}
+                        \quad \text{and} \quad
+                        1 = \dfrac{<fillin fill="1000" /> \text{ million}}
+                                        {<fillin fill="1.000" /> \text{ billion}}
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Writing the population as 0.313 billion seems strange. A more natural unit would be millions. Use the correct unit conversion fraction from above to rewrite the population in millions of people.
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

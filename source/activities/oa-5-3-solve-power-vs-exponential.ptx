@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="oa-5-3-solve-power-vs-exponential">
+    <introduction>
+        <p>
+            Power equations and exponential equations look very similar, but they are solved differently.
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                When you are solving a <alert>power equation</alert>, do you use the <xref ref="root-formula" text="title"/> or the <xref ref="log-divides-formula" text="title"/>?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                When you are solving an <alert>exponential equation</alert>, do you use the <xref ref="root-formula" text="title"/> or the <xref ref="log-divides-formula" text="title"/>?
+            </p>
+        </statement>
+    </task>
+    <task xml:id="solve-power-vs-exponential" label="solve-power-vs-exponential">
+        <statement>
+            <p>
+                Which of these equations should be solved using the <xref ref="root-formula" text="title"/>, and which should be solved using the <xref ref="log-divides-formula" text="title"/>?
+            </p>
+        </statement>
+        <cardsort>
+            <match>
+                <premise><m>75=100\ast 0.92^W</m></premise>
+                <premise><m>12.3=3.04 \ast 2^G</m></premise>
+                <premise><m>1{,}500=1{,}290\ast 1.03^Y</m></premise>
+                <premise><m>85=78\ast 1.016^T</m></premise>
+                <response>Log-Divides Formula</response>
+            </match>
+            <match>
+                <premise><m>72 = 10 \ast G^9</m></premise>
+                <premise><m>136 = 0.04\, S^2</m></premise>
+                <premise><m>-2=-0.0021\, T^3</m></premise>
+                <response>Root Formula</response>
+            </match>
+        </cardsort>
+    </task>
+    
+</exploration>

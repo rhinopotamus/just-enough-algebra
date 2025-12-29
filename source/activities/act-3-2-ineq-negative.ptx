@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-2-ineq-negative">
+    <statement>
+        <p>
+            Why does multiplying or dividing by a negative number reverse the inequality sign? It's because of what <m>\lt</m> means on a number line: the sentence <q><m>2 \lt 3</m></q> is true because 3 is further to the right on a number line than 2.
+        </p>
+        <p>
+            Draw a number line from -5 to 5 and use it to help you fill in the blank in each of these sentences with the correct inequality symbol.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    We'll start with some comparisons between positive numbers:
+                </p>
+                <ul cols="2">
+                    <li>
+                        <p>
+                            <m>2\; <fillin characters="1" />\; 5</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>4\; <fillin characters="1" />\; 3</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>2\; <fillin characters="1" />\; 1</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>1\; <fillin characters="1" />\; 3</m>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    Now let's look at some comparisons between negative numbers:
+                </p>
+                <ul cols="2">
+                    <li>
+                        <p>
+                            <m>-2\; <fillin characters="1" />\; -5</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>-4\; <fillin characters="1" />\; -3</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>-2\; <fillin characters="1" />\; -1</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>-1\; <fillin characters="1" />\; -3</m>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    Fill in the blank: On the <em>positive</em> side of the number line, numbers that are further away from zero are further to the <fillin characters="5" /> (right / left).
+                </p>
+            </li>
+            <li>
+                <p>
+                    Fill in the blank: On the <em>negative</em> side of the number line, numbers that are further away from zero are further to the <fillin characters="5" /> (right / left).
+                </p>
+            </li>
+        </ol>
+        <p>
+            The moral of this activity: multiplying or dividing by a negative flips the inequality because positive numbers and negative numbers go the opposite direction on the number line.
+        </p>
+    </statement>
+</activity>

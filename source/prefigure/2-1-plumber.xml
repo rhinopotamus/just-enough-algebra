@@ -1,0 +1,18 @@
+<diagram xmlns="https://prefigure.org"
+  dimensions="(400,200)" margins="(50,30,25,25)">
+  <definition>P(t)=100+75*t</definition>  
+  <coordinates bbox="(0,0,3,350)">
+    <grid-axes 
+      spacings="((0,0.1,3),(0,25,350))"
+      hticks ="(0,0.5,3)"
+      hlabels="(0,0.5,3)"
+      vticks ="(0,50,350)"
+      vlabels="(0,50,350)"
+      h-zero-label="yes"
+      v-zero-label="yes">
+        <xlabel><m>T</m></xlabel>
+        <ylabel><m>P</m></ylabel>
+    </grid-axes>
+    <graph function="P"/>
+  </coordinates>
+</diagram>

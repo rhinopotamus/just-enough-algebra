@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-3-evaluate-rose-gold">
+    <statement>
+        <p>
+            Let's practice with another equation where the independent variable occurs twice. 
+        </p>
+        <p>
+            <q>Rose gold</q> is a mix of gold and copper. We start with 2 grams of an alloy that is equal parts gold and copper and add <m>A</m> grams of pure gold to lighten the color. The percentage of gold in the resulting rose gold alloy, <m>R</m> is given by <me>R = 100\left(\frac{1+A}{2+A}\right)</me> For example, if we add 0.8 grams of pure gold, then <m>A=0.8</m> and so the percentage is <me>R=100\left(\frac{1+0.8}{2+0.8}\right)= 100 \times (1 + \underline{0.8})\div(2+\underline{0.8})=64.28571428\ldots \approx 64.3\%</me>
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Name the variables <m>A</m> and <m>R</m>, including units and dependence.
+                    <xi:include href="../name-variables.ptx" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    Calculate the percentage of gold in the alloy if we add 1.2 grams of pure gold.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Evaluate at <m>A = 2</m>. What does your result mean in the story?
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

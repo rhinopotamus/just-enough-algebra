@@ -61,6 +61,7 @@
         <assemblage>
             <title>Intercept (of Linear) Formula</title>
             <p>
+                If we know a value of indep and the corresponding value of dep, then we can find the intercept:
                 <me>
                     \text{intercept} = \text{dep} - \text{slope}\ast\text{indep}
                 </me>

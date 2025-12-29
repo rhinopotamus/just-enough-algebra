@@ -1,0 +1,26 @@
+<diagram xmlns="https://prefigure.org"
+  dimensions="(400,200)" margins="(50,30,25,25)">
+  <definition>M(D)=7*D</definition>  
+  <definition>K(D)=6+8.5*D</definition>
+  <coordinates bbox="(0,0,6,60)">
+    <grid-axes 
+      spacings="((0,0.25,6),(0,5,60))"
+      hticks= "(0,1,6)"
+      hlabels="(0,1,6)"
+      vticks= "(0,10,60)"
+      vlabels="(0,10,60)"
+      h-zero-label="yes"
+      v-zero-label="yes">
+        <xlabel><m>D</m></xlabel>
+        <ylabel><m>T</m></ylabel>
+    </grid-axes>
+    <graph at="T1" function="K"/>
+    <graph at="T2" function="M" dash="3 3"/>
+    <legend anchor="(bbox[0], bbox[3])"
+	    alignment="se" opacity="0.9"
+	    scale="0.9" vertical-skip="10">
+      <item ref="T1">Kaleb</item>
+      <item ref="T2">Muna</item>
+    </legend>
+  </coordinates>
+</diagram>

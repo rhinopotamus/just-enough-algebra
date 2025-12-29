@@ -104,7 +104,7 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="1in">
+			<task>
 				<statement>
 					<p>
 						Draw a graph showing how the squirrel population grew.
@@ -188,14 +188,14 @@
 				</p>
 				<image source='ballinair.png'/>
 			</introduction>
-			<task workspace="1.75in">
+			<task workspace="2.5in">
 				<statement>
 					<p>
 						According to the equation, how high up was the ball to start, after 0.5 seconds, and after 1 second? <em>Use the equation to evaluate and check against the graph.</em>
 					</p>
 				</statement>
 			</task>
-			<task workspace="2in">
+			<task workspace="2.25in">
 				<statement>
 					<p>
 						Calculate the speed (rate of change) between 0.7 seconds and 0.8 seconds.
@@ -244,28 +244,28 @@
 					</me>
 				</p>
 			</introduction>
-			<task workspace="1in">
+			<task workspace="1.5in">
 				<statement>
 					<p>
-						If a player named <term>Redeisheimer</term> (12 letters) wants a jersey, which option costs least?
+						If a player named <term>Reidesheimer</term> (12 letters) wants a jersey, which option costs least?
 					</p>
 				</statement>
 			</task>
-			<task workspace="1in">
+			<task workspace="1.5in">
 				<statement>
 					<p>
 						Make a table showing the cost for players named: <term>Buls</term> (4 letters), <term>Schaaf</term> (6 letters), and <term>Johnston</term> (8 letters).
 					</p>
 				</statement>
 			</task>
-			<task workspace="3in">
+			<task workspace="2in">
 				<statement>
 					<p>
 						Set up and solve a system of equations to determine when the options cost the same.
 					</p>
 				</statement>
 			</task>
-			<task>
+			<task workspace="1in">
 				<statement>
 					<p>
 						Summarize your findings in words.
@@ -335,7 +335,7 @@
 	</page>
 
 	<page>
-		<exercise xml:id="light-rail-PE6B" workspace="2.25in">
+		<exercise xml:id="light-rail-PE6B" workspace="2.5in">
 			<introduction>
 				<p>
 					Light rail fares are currently $3.00 per ride during rush hour. Two different plans of increasing fares are being debated: 15¢ per year or 4.5% per year.
@@ -355,14 +355,14 @@
 					</p>
 				</statement>
 			</task>
-			<task workspace="2in">
+			<task>
 				<statement>
 					<p>
 						Write an equation describing light rail fares over the next few years, assuming they increase 4.5% per year. What is this type of function called?
 					</p>
 				</statement>
 			</task>
-			<task workspace="2.8in">
+			<task workspace="3in">
 				<statement>
 					<p component="workbook">
 						<em>The problem continues <ellipsis /></em>

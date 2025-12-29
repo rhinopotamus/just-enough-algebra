@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="oa-5-2-percent-decrease">
+    <statement>
+        <p>
+            Sales and discounts are an everyday example of percent decreases. For example, if you sign up for an online store's mailing list, you will receive a coupon for 15% <em>off</em> one item. 
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    If the item's original price was $21.95, how much is your discount?
+                </p>
+            </li>
+            <li>
+                <p>
+                    What is the final purchase price of the item? (Hint: subtract.)
+                </p>
+            </li>
+            <li>
+                <p>
+                    Can you think of a <xref ref="ss-2-2-one-step" text="custom">one-step process</xref> for finding the final purchase price of the item? Explain your thinking.
+                </p>
+            </li>
+        </ol>
+    </statement>
+</exploration>

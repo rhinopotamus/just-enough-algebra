@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="oa-2-2-percents">
+    <statement>
+        <p>
+            Percents are always <em>of</em> something <mdash/> they are a part of some <em>whole</em>. For example, in <xref ref="ss-1-1-percents" text="custom">a previous section</xref>, a report said that the average price of gasoline in Minnesota increased approximately 20% per year. If we were being very careful, we would say that this is 20% <em>of the current price</em> each year.
+        </p>
+        <p>
+            For each of the percentages listed below, write a few words describing what the whole whould be.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    In a recent game against the Golden State Valkyries, Minnesota Lynx star Napheesa Collier's field goal percentage was 72.7%. This means that she made 72.7% of <fillin characters="10" />.
+                </p>
+            </li>
+            <li>
+                <p>
+                    If you sign up for an online store's mailing list, you will receive a coupon for 15% off one item. This means that your discount amount is 15% of <fillin characters="10" />.
+                </p>
+            </li>
+            <li>
+                <p>
+                    In a particular math class, I observed that the number of students with brown hair was 65% of <fillin characters="10" />.
+                </p>
+            </li>
+        </ol>
+        <p>
+            The moral of this story: Any time you see some percentage, like 68%, you should ask, <q>68% <em>of what?</em></q>
+        </p>
+    </statement>
+</exploration>

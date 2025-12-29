@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-2-Equations" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Equations</title>
+
+    <introduction component="not-workbook">
+        <p>
+            For most of us the word <q>algebra</q> brings to mind equations, formulas, and all those symbols.  One chapter into a book on algebra and we haven't seen any equations.  What gives?
+        </p>
+        <p>
+            Remember, this course is all about using algebra to answer questions.  Equations are going to be a very important part of that work for at least three reasons.  First, equations provide a nice shorthand for describing a function.  It's much quicker to write down an equation than to make a table or graph.  Second, equations help us categorize problems which, in turn, helps us know what to expect in that type of situation.  Lastly, there are lots of powerful <q>symbolic</q> techniques we can use to solve problems when we have an equation.
+        </p>
+        <p>
+            So why haven't we used equations yet?  Why did the first chapter focus on describing functions using words (verbal), tables (numeric), and graphs (graphical)?  It turns out that there's one thing equations can't do: it's hard to tell from an equation whether an answer makes sense in the real world.  If we just worked with equations we might find an answer calling for us to produce a negative number of tables or wait 300 years for an investment to reach our payoff level, or similar nonsense.
+        </p>
+        <p>
+            Even as we add equations to our list of tools for describing and working with functions, we will rely on words, numbers, and graphs to help evaluate the reasonableness of our answer. Thus most problems will ask you to work with all of these modes.
+        </p>
+        <p>
+            In this chapter we introduce equations by taking a first look at the two most important types of equations -- linear and exponential.  Our emphasis will be on understanding where these equations arise and how to interpret them in context.  Next, we work with a variety of equations, learning how to use equations and discovering general methods for approximating solutions to equations.  In later chapters we will solve equations exactly (Chapter 3) and return to study linear and exponential equations each in greater depth (Chapters 4 and 5), so don't worry if we leave a few questions unresolved for now.
+        </p>
+
+    </introduction>
+
+    <xi:include href="./sec-2-1-First_look_linear.ptx" />
+    <xi:include href="./sec-2-2-First_look_exponential.ptx" />
+    <xi:include href="./sec-2-3-Using_equations.ptx" />
+    <xi:include href="./sec-2-4-Approx_solutions.ptx" />
+    <xi:include href="./sec-2-5-Finance.ptx" />
+
+    <!-- practice exams -->
+
+    <section xml:id="sec-PE2A">
+        <title>Practice Exam 2A</title>
+        <xi:include href="./practice-exams/ws-PE2A.ptx" />
+    </section>
+    <section xml:id="sec-PE2B">
+        <title>Practice Exam 2B</title>
+        <xi:include href="./practice-exams/ws-PE2B.ptx" />
+    </section>
+
+</chapter>

@@ -1,0 +1,24 @@
+<diagram xmlns="https://prefigure.org" 
+         dimensions="(500,300)" 
+         margins="(60,30,25,25)">
+  <read name="df" filename="1-2-cig-data.csv"/>
+  <definition>small_x=filter(df, 'Year', 'small', 'yes')</definition>
+  <definition>small_y=filter(df, 'Smoking rate', 'small', 'yes')</definition>
+  <definition>small=zip_lists(small_x, small_y)</definition>
+  <coordinates bbox="(0,-0.1,130,4500)">
+    <grid-axes
+      vticks="(0,500,4500)"
+      hticks="(0,10,130)"
+      hlabels="(0,10,130)"
+      vlabels="(0,500,4500)"
+      h-zero-label="yes"
+      v-zero-label="yes"
+      spacings="((0,10,130),(0,500,4500))">
+      <xlabel><m>Y</m></xlabel>
+      <ylabel><m>S</m></ylabel>
+  </grid-axes>
+    <spline points="small" stroke="red" bc-type="clamped" />
+    <scatter points="small" fill="blue" />
+
+  </coordinates>
+</diagram>

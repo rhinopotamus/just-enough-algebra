@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette: blues                        *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Logistic and other growth models</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Just Enough Algebra">
+<meta property="book:author" content="Suzanne Dorée">
+<meta property="book:author" content="Spencer Bagley">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.11.4';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.a3de768070907914.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.da61f94af95570ff.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f4ab138da65f4203.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="justenoughalgebra" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""><img src="external/book-open-solid.png" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="just-enough-algebra.html"><span class="title">Just Enough Algebra</span> <span class="subtitle">Summer 2025 edition</span></a></h1>
+<p class="byline">Suzanne Dorée, Spencer Bagley</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-5-4-Linear_vs_exponential.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-5-Closer_look_exponential.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-PE5A.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-why-this-book-web.html" class="internal"><span class="title">Why <em class="emphasis">Just Enough Algebra</em>?</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-students-web.html" class="internal"><span class="title">Students! Read this!</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-instructors-web.html" class="internal"><span class="title">Instructors! Read this!</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-0-Prelude.html" class="internal"><span class="codenumber">0</span> <span class="title">Prelude</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-1-Approximation_and_rounding.html" class="internal"><span class="codenumber">0.1</span> <span class="title">Prelude: Approximation &amp; rounding</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-1-Approximation_and_rounding.html#ex-0-1-Approximation_and_rounding" class="internal"><span class="codenumber">0.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-2-Arithmetic_operations.html" class="internal"><span class="codenumber">0.2</span> <span class="title">Prelude: Arithmetic operations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-2-Arithmetic_operations.html#ex-0-2-Arithmetic_operations" class="internal"><span class="codenumber">0.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-3-Percentages.html" class="internal"><span class="codenumber">0.3</span> <span class="title">Prelude: Percentages</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-3-Percentages.html#ex-0-3-Percentages" class="internal"><span class="codenumber">0.3</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-4-Order_of_operations.html" class="internal"><span class="codenumber">0.4</span> <span class="title">Prelude: Order of operations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-4-Order_of_operations.html#ex-0-4-Order_of_operations" class="internal"><span class="codenumber">0.4</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-5-Fractions.html" class="internal"><span class="codenumber">0.5</span> <span class="title">Prelude: Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-5-Fractions.html#ex-0-5-Fractions" class="internal"><span class="codenumber">0.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-6-Powers_and_roots.html" class="internal"><span class="codenumber">0.6</span> <span class="title">Prelude: Powers and roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-6-Powers_and_roots.html#ex-0-6-Powers_and_roots" class="internal"><span class="codenumber">0.6</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-7-Algebraic_notation.html" class="internal"><span class="codenumber">0.7</span> <span class="title">Prelude: Algebraic notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-7-Algebraic_notation.html#ex-0-7-Algebraic_notation" class="internal"><span class="codenumber">0.7</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-8-Scientific_notation.html" class="internal"><span class="codenumber">0.8</span> <span class="title">Prelude: Scientific notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-8-Scientific_notation.html#ex-0-8-Scientific_notation" class="internal"><span class="codenumber">0.8</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-0-9-Logarithms.html" class="internal"><span class="codenumber">0.9</span> <span class="title">Prelude: Logarithms</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-0-9-Logarithms.html#ex-0-9-Logarithms" class="internal"><span class="codenumber">0.9</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-1-Variables.html" class="internal"><span class="codenumber">1</span> <span class="title">Variables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Variables and functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ss-1-1-gasoline" class="internal"><span class="title">The changing cost of gasoline</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ss-1-1-variables" class="internal"><span class="title">Naming variables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ss-1-1-dependence" class="internal"><span class="title">Independent and dependent variables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ss-1-1-domain" class="internal"><span class="title">Domain</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ss-1-1-constants" class="internal"><span class="title">Constants</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ss-1-1-percents" class="internal"><span class="title">Percents</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-1-Variables_and_functions.html#ex-1-1-Variables_and_functions" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Tables and graphs</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html#ss-1-2-smoking-rates" class="internal"><span class="title">Smoking rates</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html#ss-1-2-labeling-variables" class="internal"><span class="title">Labeling variables in a table</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html#ss-1-2-graphs" class="internal"><span class="title">Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html#ss-1-2-scaling" class="internal"><span class="title">Scaling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html#ss-1-2-plotting-points" class="internal"><span class="title">Plotting points</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-2-Tables_and_graphs.html#ex-1-2-Tables_and_graphs" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Rate of change</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html#ss-1-3-diver" class="internal"><span class="title">The speed of a diver</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html#ss-1-3-different-speeds" class="internal"><span class="title">Different speeds at different times</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html#ss-1-3-even-more-diver" class="internal"><span class="title">Even more speeds for the diver</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html#ss-1-3-roc-graphs" class="internal"><span class="title">Rate of change on graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html#ss-1-3-inc-dec" class="internal"><span class="title">Increasing and decreasing</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-3-Rate_of_change.html#ex-1-3-Rate_of_change" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-4-Units.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Units</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-4-Units.html#ss-1-4-ucfs" class="internal"><span class="title">Unit conversion fractions</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-1-4-Units.html#ss-1-4-decimal-parts" class="internal"><span class="title">Converting decimal parts of quantities</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-4-Units.html#ss-1-4-units-rounding" class="internal"><span class="title">Aside: Rounding</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-4-Units.html#ss-1-4-compound-units" class="internal"><span class="title">Converting more complicated units</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-4-Units.html#ex-1-4-Units" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Metric prefixes and scientific notation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html#ss-1-5-tara-files" class="internal"><span class="title">Tara’s files</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html#ss-1-5-download-photos" class="internal"><span class="title">Downloading photos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html#ss-1-5-metric-system" class="internal"><span class="title">The metric system and powers of ten</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html#ss-1-5-tara-hair" class="internal"><span class="title">Very small things</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html#ss-1-5-small-numbers" class="internal"><span class="title">Very small numbers in scientific notation</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-5-Metric_system_and_scientific_notation.html#ex-1-5-Metric_system_and_scientific_notation" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1A.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Practice Exam 1A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1A.html#ws-PE1A" class="internal"><span class="codenumber">1.6</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE1B.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE1B.html#ws-PE1B" class="internal"><span class="codenumber">1.7</span> <span class="title">Practice Exam 1B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-2-Equations.html" class="internal"><span class="codenumber">2</span> <span class="title">Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-1-First_look_linear.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A first look at linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-1-First_look_linear.html#ss-2-1-calculating-costs" class="internal"><span class="title">Calculating what the plumber costs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-1-First_look_linear.html#ss-2-1-generalizing" class="internal"><span class="title">Making our calculations more general</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-1-First_look_linear.html#ss-2-1-graphing-linear" class="internal"><span class="title">Graphing linear functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-1-First_look_linear.html#ss-2-1-linear-eq-template" class="internal"><span class="title">A template for linear equations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-1-First_look_linear.html#ex-2-1-First_look_linear" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html" class="internal"><span class="codenumber">2.2</span> <span class="title">A first look at exponential equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ss-2-2-raises" class="internal"><span class="title">Percents of different wholes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ss-2-2-one-step" class="internal"><span class="title">A one-step process for finding percent change</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ss-2-2-growth-rate-and-factor" class="internal"><span class="title">Growth rate and growth factor</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ss-2-2-powers" class="internal"><span class="title">Using exponents to find multiple increases at once</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ss-2-2-equation" class="internal"><span class="title">Generalizing to an equation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ss-2-2-exp-eqn-template" class="internal"><span class="title">A template for exponential equations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-2-First_look_exponential.html#ex-2-2-First_look_exponentialEX" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-3-Using_equations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-3-Using_equations.html#ss-2-3-braking-distance" class="internal"><span class="title">Braking distance</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-3-Using_equations.html#ss-2-3-reaction-time" class="internal"><span class="title">Adding in reaction time</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-3-Using_equations.html#ss-2-3-power-eqns" class="internal"><span class="title">New kinds of equations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-3-Using_equations.html#ex-2-3-Using_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-4-Approx_solutions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Approximating solutions of equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-4-Approx_solutions.html#ss-2-4-india-1-6" class="internal"><span class="title">India at 1.6 billion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-4-Approx_solutions.html#ss-2-4-good-enough" class="internal"><span class="title">Good enough answers</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-4-Approx_solutions.html#ex-2-4-Approx_solutions" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-5-Finance.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Finance formulas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-5-Finance.html#ss-2-5-compound-interest" class="internal"><span class="title">Compound interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-5-Finance.html#ss-2-5-savings-accounts" class="internal"><span class="title">Savings accounts (or annuities)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-5-Finance.html#ss-2-5-loan-payment" class="internal"><span class="title">Loan payments</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-5-Finance.html#ex-2-5-Finance" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2A.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2A.html#ws-PE2A" class="internal"><span class="codenumber">2.6</span> <span class="title">Practice Exam 2A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE2B.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE2B.html#ws-PE2B" class="internal"><span class="codenumber">2.7</span> <span class="title">Practice Exam 2B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-3-Solving_equations.html" class="internal"><span class="codenumber">3</span> <span class="title">Solving equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-1-Solving_linear_equations.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Solving linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-1-Solving_linear_equations.html#ss-3-1-solving-plumber" class="internal"><span class="title">Figuring out the plumber’s time</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-1-Solving_linear_equations.html#ss-3-1-approx-soln" class="internal"><span class="title">Finding an approximate solution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-1-Solving_linear_equations.html#ss-3-1-symbolic-soln" class="internal"><span class="title">Solving symbolically</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-1-Solving_linear_equations.html#ss-3-1-another-plumber" class="internal"><span class="title">Another plumber cost</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-1-Solving_linear_equations.html#ex-3-1-Solving_linear_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving linear inequalities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#ss-3-2-setup" class="internal"><span class="title">Baking brownies (and setting up inequalities)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#ss-3-2-solving-ineq" class="internal"><span class="title">Solving inequalities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#ss-3-2-caution" class="internal"><span class="title">Things to be careful about</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#ss-3-2-between" class="internal"><span class="title">Chains of inequalities</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-2-Solving_linear_inequalities.html#ex-3-2-Solving_linear_inequalities" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Solving power equations (and roots)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html#ss-3-3-lemonade" class="internal"><span class="title">Lemonade</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html#ss-3-3-solving-power-symbolically" class="internal"><span class="title">Solving a power equation symbolically</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html#ss-3-3-lemon-zest" class="internal"><span class="title">Lemon zest (and another kind of root)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html#ss-3-3-roots" class="internal"><span class="title">Roots, officially</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-3-Solving_power_equations.html#ex-3-3-Solving_power_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-4-Solving_exponential_equations.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Solving exponential equations (and logs)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-4-Solving_exponential_equations.html#ss-3-4-healthcare" class="internal"><span class="title">Health care costs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-4-Solving_exponential_equations.html#ss-3-4-solving-exp-symbolically" class="internal"><span class="title">Solving an exponential equation symbolically</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-4-Solving_exponential_equations.html#ss-3-4-another-example" class="internal"><span class="title">Another example</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-4-Solving_exponential_equations.html#ss-3-4-logs" class="internal"><span class="title">Logarithms</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-4-Solving_exponential_equations.html#ex-3-4-Solving_exponential_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Solving quadratic equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html#ss-3-5-juggling" class="internal"><span class="title">Juggling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html#ss-3-5-solving-quadratic" class="internal"><span class="title">Solving exactly</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html#ss-3-5-quadratic-nonzero" class="internal"><span class="title">Things that don’t equal zero</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html#ss-3-5-vertex" class="internal"><span class="title">Highest point</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html#ss-3-5-parabola" class="internal"><span class="title">The graph of a quadratic function</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-5-Solving_quadratic_equations.html#ex-3-5-Solving_quadratic_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3A.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3A.html#ws-PE3A" class="internal"><span class="codenumber">3.6</span> <span class="title">Practice Exam 3A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE3B.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE3B.html#ws-PE3B" class="internal"><span class="codenumber">3.7</span> <span class="title">Practice Exam 3B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-4-Closer_look_linear.html" class="internal"><span class="codenumber">4</span> <span class="title">A closer look at linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-1-Modeling_linear_equations.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Modeling with linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-1-Modeling_linear_equations.html#sec-4-1-affordable-housing" class="internal"><span class="title">Affordable housing</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-1-Modeling_linear_equations.html#ex-4-1-Modeling_linear_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-2-Systems_linear_equations.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Systems of linear equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-2-Systems_linear_equations.html#sec-4-2-lock-machines" class="internal"><span class="title">Comparing two lock machines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-2-Systems_linear_equations.html#ss-4-2-finding-differences" class="internal"><span class="title">Figuring out the differences</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-2-Systems_linear_equations.html#ss-4-2-solving-system-symbolically" class="internal"><span class="title">Solving symbolically</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-2-Systems_linear_equations.html#ex-4-2-Systems_linear_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-3-Intercepts.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Intercepts and direct proportionality</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-3-Intercepts.html#ss-4-3-fixed" class="internal"><span class="title">Fixed amounts</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-3-Intercepts.html#ss-4-3-direct-prop" class="internal"><span class="title">Direct proportions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-3-Intercepts.html#ex-4-3-Intercepts" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-4-Slopes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Slopes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-4-Slopes.html#ss-4-4-paper" class="internal"><span class="title">Paper delivery prices</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-4-Slopes.html#ss-4-4-recycling-charge" class="internal"><span class="title">Recycling charge</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-4-Slopes.html#ex-4-4-Slopes" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Fitting lines to data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html#ss-4-5-road-salt-usage" class="internal"><span class="title">Road salt usage</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html#ss-4-5-connect-the-dots" class="internal"><span class="title">Connect-the-dots model?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html#ss-4-5-lines-through-pairs" class="internal"><span class="title">Lines through pairs of points?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html#ss-4-5-best-fit" class="internal"><span class="title">Best fitting line</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html#ss-4-5-outliers" class="internal"><span class="title">Outliers</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-5-Fitting_lines_to_data.html#ex-4-5-Fitting_lines_to_data" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4A.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4A.html#ws-PE4A" class="internal"><span class="codenumber">4.6</span> <span class="title">Practice Exam 4A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE4B.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE4B.html#ws-PE4B" class="internal"><span class="codenumber">4.7</span> <span class="title">Practice Exam 4B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-5-Closer_look_exponential.html" class="internal"><span class="codenumber">5</span> <span class="title">A closer look at exponential equations</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-1-Modeling_exponential_equations.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Modeling with exponential equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-1-Modeling_exponential_equations.html#sec-5-1-Modeling_exponential_equations-3" class="internal"><span class="title"></span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-5-1-Modeling_exponential_equations.html#ex-5-1-Modeling_exponential_equations" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-2-Exp_growth_decay.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exponential growth and decay</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-2-Exp_growth_decay.html#ss-5-2-caffeine" class="internal"><span class="title">Caffeine</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-2-Exp_growth_decay.html#ss-5-2-approximating-and-solving" class="internal"><span class="title">Solving (approximately and exactly)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-2-Exp_growth_decay.html#ss-5-2-rate-of-change" class="internal"><span class="title">Rate of change</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-2-Exp_growth_decay.html#ss-5-2-half-life" class="internal"><span class="title">Half-life (and doubling time)</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-5-2-Exp_growth_decay.html#ex-5-2-Exp_growth_decay" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-3-Growth_factor.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Growth factors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-3-Growth_factor.html#ss-5-3-obesity" class="internal"><span class="title">Childhood obesity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-3-Growth_factor.html#ss-5-3-growth-factor" class="internal"><span class="title">Finding the growth factor</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-3-Growth_factor.html#ss-5-3-checking-formula" class="internal"><span class="title">Checking our formula (and rounding)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-3-Growth_factor.html#ss-5-3-percent-change" class="internal"><span class="title">Finding percent change from growth factor</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-5-3-Growth_factor.html#ex-5-3-Growth_factor" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-4-Linear_vs_exponential.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Linear vs. exponential models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-4-Linear_vs_exponential.html#ss-5-4-car-depreciation" class="internal"><span class="title">Car value depreciation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-4-Linear_vs_exponential.html#ss-5-4-linear-model" class="internal"><span class="title">A linear model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-4-Linear_vs_exponential.html#ss-5-4-exponential-model" class="internal"><span class="title">An exponential model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-4-Linear_vs_exponential.html#ss-5-4-compare-models" class="internal"><span class="title">Comparing the linear model and the exponential model</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-5-4-Linear_vs_exponential.html#ex-5-4-Linear_vs_exponential" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Logistic and other growth models</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html#ss-5-5-flu-outbreak" class="internal"><span class="title">Flu outbreak in the dorms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html#ss-5-5-exponential" class="internal"><span class="title">Exponential model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html#ss-5-4-saturation" class="internal"><span class="title">Saturation model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html#ss-5-5-logistic" class="internal"><span class="title">Logistic model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html#ss-5-5-comparing" class="internal"><span class="title">Comparing models</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-5-5-Logistic_growth.html#ex-5-5-Logistic_growth" class="internal"><span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5A.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE5A.html#ws-PE5A" class="internal"><span class="codenumber">5.6</span> <span class="title">Practice Exam 5A</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-PE5B.html" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-PE5B.html#ws-PE5B" class="internal"><span class="codenumber">5.7</span> <span class="title">Practice Exam 5B</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="backmatter-2.html" class="internal"><span class="codenumber">A</span> <span class="title">Practice Final Exams</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pfe1.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Practice Final Exam 1</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-pfe1.html#ws-PE6A" class="internal"><span class="codenumber">A.1</span> <span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pfe2.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Practice Final Exam 2</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-pfe2.html#ws-PE6B" class="internal"><span class="codenumber">A.2</span> <span class="title"></span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="app-templates-formulas.html" class="internal"><span class="codenumber">B</span> <span class="title">Templates and Formulas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-templates.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Templates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-constants.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Formulas used to find constants</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-solve.html" class="internal"><span class="codenumber">B.3</span> <span class="title">Formulas used to solve specific types of equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-formula-finance.html" class="internal"><span class="codenumber">B.4</span> <span class="title">Formulas from finance</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-5-5-Logistic_growth"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Logistic and other growth models</span>
+</h2>
+<section class="introduction" id="sec-5-5-Logistic_growth-2"><div class="para" id="sec-5-5-Logistic_growth-2-1">Exponential models (and linear models) are very useful for making predictions in the real world. However, they’re a bit limited — there are only a few shapes they can take. Scientists and mathematicians have figured out lots of other kinds of models that have wigglier shapes and are better able to predict other kinds of situations. Without getting bogged down in the details, we’ll learn about two more of them in this chapter.<div class="autopermalink" data-description="Paragraph"><a href="#sec-5-5-Logistic_growth-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="subsection" id="ss-5-5-flu-outbreak"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Flu outbreak in the dorms</span>
+</h3>
+<div class="para" id="ss-5-5-flu-outbreak-2">A flu virus has been spreading through the college dormitories. Initially 8 students were diagnosed with the flu, but that number has been growing rapidly. After 2 weeks, there were 64 students with the flu. We are interested in predicting how many students will catch the flu over the next 6 weeks or so. To get a sense of scale, there are 1,094 students currently living in the dorms.<div class="autopermalink" data-description="Paragraph"><a href="#ss-5-5-flu-outbreak-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="ss-5-5-flu-outbreak-3">
+<div class="para">The variables are</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/flu-dorm-first-look-exponential.html ./knowl/xref/flu-dorm-modeling-exponential.html" id="ss-5-5-flu-outbreak-3-1">
+\begin{align*}
+F \amp= \text{ total number of students with the flu (students) } \sim \text{ dep} \\
+D \amp= \text{ time since first cases (days) } \sim \text{ indep} 
+\end{align*}
+</div>
+<div class="para">And here is the initial data: <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<th scope="row" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(D\)</span></th>
+<td class="c m b1 r1 l0 t1 lines">0</td>
+<td class="c m b1 r1 l0 t1 lines">14</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines"><span class="process-math">\(F\)</span></th>
+<td class="c m b1 r1 l0 t0 lines">8</td>
+<td class="c m b1 r1 l0 t0 lines">64</td>
+</tr>
+</table></div> (If this story sounds familiar, it’s because the story also appears in the practice exercises <a href="sec-2-2-First_look_exponential.html#flu-dorm-first-look-exponential" class="xref" data-knowl="./knowl/xref/flu-dorm-first-look-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 3">3</a> and <a href="sec-5-1-Modeling_exponential_equations.html#flu-dorm-modeling-exponential" class="xref" data-knowl="./knowl/xref/flu-dorm-modeling-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2">2</a>.)</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ss-5-5-flu-outbreak-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ss-5-5-flu-outbreak-4">We’ll explore and compare three different models: an <dfn class="terminology">exponential</dfn> model, a <dfn class="terminology">saturation</dfn> model, and a <dfn class="terminology">logistic</dfn> model.<div class="autopermalink" data-description="Paragraph"><a href="#ss-5-5-flu-outbreak-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection: Flu outbreak in the dorms"><a href="#ss-5-5-flu-outbreak" title="Copy heading and permalink for Subsection: Flu outbreak in the dorms" aria-label="Copy heading and permalink for Subsection: Flu outbreak in the dorms">🔗</a></div></section><section class="subsection" id="ss-5-5-exponential"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Exponential model</span>
+</h3>
+<div class="para logical" id="ss-5-5-exponential-2">
+<div class="para">We’ll start with an exponential model, since that’s the kind of equation that we’ve been learning about in this chapter. Using the methods from <a href="sec-5-3-Growth_factor.html" class="internal" title="Section 5.3: Growth factors">Section 5.3</a>, we can find that the growth factor <span class="process-math">\(g = 1.16\text{,}\)</span> or in other words, that the number of students diagnosed with the flu was growing 16% per day. The corresponding exponential equation is</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/sec-5-3-Growth_factor.html" id="ss-5-5-exponential-2-3">
+\begin{equation*}
+\textbf{exponential:} \quad F = 8 \ast 1.16^D\text{.}
+\end{equation*}
+</div>
+<div class="para">As a check, at 14 days there were</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/sec-5-3-Growth_factor.html" id="ss-5-5-exponential-2-4">
+\begin{equation*}
+F = 8 \ast 1.16^{14} = 8 \times 1.16 \wedge \underline{14} = 63.900143\ldots \approx 64 \text{ students}\text{.}
+\end{equation*}
+</div>
+<div class="para">We rounded the numbers in our table to the nearest person.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ss-5-5-exponential-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<th scope="row" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(D\)</span></th>
+<td class="c m b1 r1 l0 t1 lines">0</td>
+<td class="c m b1 r1 l0 t1 lines">7</td>
+<td class="c m b1 r1 l0 t1 lines">14</td>
+<td class="c m b1 r1 l0 t1 lines">21</td>
+<td class="c m b1 r1 l0 t1 lines">28</td>
+<td class="c m b1 r1 l0 t1 lines">35</td>
+<td class="c m b1 r1 l0 t1 lines">42</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">
+<span class="process-math">\(F\)</span> (<dfn class="terminology">exponential</dfn>)</th>
+<td class="c m b1 r1 l0 t0 lines">8</td>
+<td class="c m b1 r1 l0 t0 lines">23</td>
+<td class="c m b1 r1 l0 t0 lines">64</td>
+<td class="c m b1 r1 l0 t0 lines">181</td>
+<td class="c m b1 r1 l0 t0 lines">510</td>
+<td class="c m b1 r1 l0 t0 lines">1,442</td>
+<td class="c m b1 r1 l0 t0 lines">4,077</td>
+</tr>
+</table></div>
+<figure class="figure figure-like" id="fig-5-5-flu-exponential"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/prefigure/prefigure-flu-exponential.svg" role="img" class="contained" alt="Exponential model for number of flu cases as a function of days since outbreak started."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.5.1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Exponential model for <span class="process-math">\(F\)</span> = number of flu cases, as a function of <span class="process-math">\(D\)</span> = days since outbreak started.<div class="autopermalink" data-description="Figure 5.5.1"><a href="#fig-5-5-flu-exponential" title="Copy heading and permalink for Figure 5.5.1" aria-label="Copy heading and permalink for Figure 5.5.1">🔗</a></div></figcaption></figure><div class="para" id="ss-5-5-exponential-5">While at first the exponential model seems reasonable, it quickly gets too large to make sense. After all, there are only 1,094 students currently living in the dorms so the numbers we found at 5 and 6 weeks (also known as 35 and 42 days) are totally unrealistic. The exponential model is based on the assumption that the rate of change of the number of new cases is proportional to the number of <dfn class="terminology">infected</dfn> students: those who already have the flu.<div class="autopermalink" data-description="Paragraph"><a href="#ss-5-5-exponential-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ss-5-5-exponential-6">There are both advantages and disadvantages of the exponential model. To its credit, the exponential model captures the reality of the first few weeks, where the flu spreads very rapidly. But, the exponential model misses several basic facts. First, as more students catch the flu, the number of new cases decreases in part because sick people are already surrounded by sick people so there aren’t new people to get sick. Second, for whatever reasons, not everyone is going to catch the flu no matter how exposed they are. We would like to have an alternative model that keeps what works (rapid increase at first) but deals better with the long term (the growth slows down and not everyone catches the flu).<div class="autopermalink" data-description="Paragraph"><a href="#ss-5-5-exponential-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection: Exponential model"><a href="#ss-5-5-exponential" title="Copy heading and permalink for Subsection: Exponential model" aria-label="Copy heading and permalink for Subsection: Exponential model">🔗</a></div></section><section class="subsection" id="ss-5-4-saturation"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Saturation model</span>
+</h3>
+<div class="para" id="ss-5-4-saturation-2">The first example is a <dfn class="terminology">saturation</dfn> model. Basically it assumes that the rate of change of the number of new cases is proportional to the number of <dfn class="terminology">susceptible</dfn> students: those who are likely to catch the flu but haven’t already. Since at the beginning many susceptible students don’t have the flu, it spreads very quickly, even faster than the exponential does. But once most susceptible students have caught the flu, the number of new cases dwindles.<div class="autopermalink" data-description="Paragraph"><a href="#ss-5-4-saturation-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="ss-5-4-saturation-3">
+<div class="para">Leaving out the details of how we found it, a possible saturation equation for our example is</div>
+<div class="displaymath process-math" id="ss-5-4-saturation-3-1">
+\begin{equation*}
+\textbf{saturation:} \quad F=96-88\ast0.93^D\text{.}
+\end{equation*}
+</div>
+<div class="para">As a check, initially there were</div>
+<div class="displaymath process-math" id="ss-5-4-saturation-3-2">
+\begin{equation*}
+F = 96-88 \ast 0.93^0 = 96 - 88 \times 0.93 \wedge \underline{0} = 8 \text{ students} \quad \checkmark
+\end{equation*}
+</div>
+<div class="para">and at 14 days there were</div>
+<div class="displaymath process-math" id="ss-5-4-saturation-3-3">
+\begin{equation*}
+F = 96-88 \ast 0.93^{14} = 96 - 88 \times 0.93 \wedge \underline{14} =64.1401334\ldots \approx 64 \quad \checkmark
+\end{equation*}
+</div>
+<div class="para">We rounded the numbers in our table to the nearest person.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ss-5-4-saturation-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<th scope="row" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(D\)</span></th>
+<td class="c m b1 r1 l0 t1 lines">0</td>
+<td class="c m b1 r1 l0 t1 lines">7</td>
+<td class="c m b1 r1 l0 t1 lines">14</td>
+<td class="c m b1 r1 l0 t1 lines">21</td>
+<td class="c m b1 r1 l0 t1 lines">28</td>
+<td class="c m b1 r1 l0 t1 lines">35</td>
+<td class="c m b1 r1 l0 t1 lines">42</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">
+<span class="process-math">\(F\)</span> (<dfn class="terminology">saturation</dfn>)</th>
+<td class="c m b1 r1 l0 t0 lines">8</td>
+<td class="c m b1 r1 l0 t0 lines">43</td>
+<td class="c m b1 r1 l0 t0 lines">64</td>
+<td class="c m b1 r1 l0 t0 lines">77</td>
+<td class="c m b1 r1 l0 t0 lines">85</td>
+<td class="c m b1 r1 l0 t0 lines">89</td>
+<td class="c m b1 r1 l0 t0 lines">92</td>
+</tr>
+</table></div>
+<figure class="figure figure-like" id="fig-5-5-flu-saturation"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/prefigure/prefigure-flu-saturation.svg" role="img" class="contained" alt="Saturation model for number of flu cases as a function of days since outbreak started."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.5.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Saturation model for <span class="process-math">\(F\)</span> = number of flu cases, as a function of <span class="process-math">\(D\)</span> = days since outbreak started.<div class="autopermalink" data-description="Figure 5.5.2"><a href="#fig-5-5-flu-saturation" title="Copy heading and permalink for Figure 5.5.2" aria-label="Copy heading and permalink for Figure 5.5.2">🔗</a></div></figcaption></figure><div class="para" id="ss-5-4-saturation-6">The saturation model predicts that 92 students (total) will have (or have had) the flu over the next 6 weeks.<div class="autopermalink" data-description="Paragraph"><a href="#ss-5-4-saturation-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection: Saturation model"><a href="#ss-5-4-saturation" title="Copy heading and permalink for Subsection: Saturation model" aria-label="Copy heading and permalink for Subsection: Saturation model">🔗</a></div></section><section class="subsection" id="ss-5-5-logistic"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Logistic model</span>
+</h3>
+<div class="para" id="ss-5-5-logistic-2">The second example is a <dfn class="terminology">logistic</dfn> (or <dfn class="terminology">S-curve</dfn>) model. Basically it assumes that the rate of change of the number of new cases is jointly proportional to the number of infected students and the number of susceptible students. It acknowledges the heavy influence the number of infected students have initially on the growth, but balances it with the limiting influence of the diminishing number of susceptible students over time.<div class="autopermalink" data-description="Paragraph"><a href="#ss-5-5-logistic-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="ss-5-5-logistic-3">
+<div class="para">It turns out that a possible logistic equation for our example is</div>
+<div class="displaymath process-math" id="ss-5-5-logistic-3-1">
+\begin{equation*}
+\textbf{logistic:} \quad F=\frac{129}{1+15 \ast 0.825^D}\text{.}
+\end{equation*}
+</div>
+<div class="para">For example, initially there were</div>
+<div class="displaymath process-math" id="ss-5-5-logistic-3-2">
+\begin{align*}
+F \amp = \frac{129}{1+15\ast 0.825^0} = 
+129 \div ( 1 + 15 \times 0.825 \wedge \underline{0})\\
+\amp = 8.0625 \approx 8 \text{ students} \quad \checkmark 
+\end{align*}
+</div>
+<div class="para">and at 14 days there were</div>
+<div class="displaymath process-math" id="ss-5-5-logistic-3-3">
+\begin{align*}
+F \amp = \frac{129}{1+15\ast 0.825^{14}} = 
+129 \div ( 1 + 15 \times 0.825 \wedge \underline{14})\\
+\amp = 64.0212993\ldots \approx 64 \text{ students} \quad \checkmark
+\end{align*}
+</div>
+<div class="para">Notice how we need parentheses around the bottom of our fraction, as usual, to override the normal order of operations. We rounded the numbers in the table to the nearest person.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ss-5-5-logistic-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<th scope="row" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(D\)</span></th>
+<td class="c m b1 r1 l0 t1 lines">0</td>
+<td class="c m b1 r1 l0 t1 lines">7</td>
+<td class="c m b1 r1 l0 t1 lines">14</td>
+<td class="c m b1 r1 l0 t1 lines">21</td>
+<td class="c m b1 r1 l0 t1 lines">28</td>
+<td class="c m b1 r1 l0 t1 lines">35</td>
+<td class="c m b1 r1 l0 t1 lines">42</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">
+<span class="process-math">\(F\)</span> (<dfn class="terminology">logistic</dfn>)</th>
+<td class="c m b1 r1 l0 t0 lines">8</td>
+<td class="c m b1 r1 l0 t0 lines">26</td>
+<td class="c m b1 r1 l0 t0 lines">64</td>
+<td class="c m b1 r1 l0 t0 lines">102</td>
+<td class="c m b1 r1 l0 t0 lines">121</td>
+<td class="c m b1 r1 l0 t0 lines">127</td>
+<td class="c m b1 r1 l0 t0 lines">128</td>
+</tr>
+</table></div>
+<div class="para" id="ss-5-5-logistic-5">Here’s the graph. See why it’s called an <dfn class="terminology">S-curve</dfn> model?<div class="autopermalink" data-description="Paragraph"><a href="#ss-5-5-logistic-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="fig-5-5-flu-logistic"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/prefigure/prefigure-flu-logistic.svg" role="img" class="contained" alt="Logistic model for number of flu cases as a function of days since outbreak started."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.5.3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Logistic model for <span class="process-math">\(F\)</span> = number of flu cases, as a function of <span class="process-math">\(D\)</span> = days since outbreak started.<div class="autopermalink" data-description="Figure 5.5.3"><a href="#fig-5-5-flu-logistic" title="Copy heading and permalink for Figure 5.5.3" aria-label="Copy heading and permalink for Figure 5.5.3">🔗</a></div></figcaption></figure><div class="para" id="ss-5-5-logistic-7">The logistic model projects that 128 students (total) will have (or have had) the flu over the next 6 weeks, considerably more than projected by the saturation model.<div class="autopermalink" data-description="Paragraph"><a href="#ss-5-5-logistic-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection: Logistic model"><a href="#ss-5-5-logistic" title="Copy heading and permalink for Subsection: Logistic model" aria-label="Copy heading and permalink for Subsection: Logistic model">🔗</a></div></section><section class="subsection" id="ss-5-5-comparing"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Comparing models</span>
+</h3>
+<div class="para" id="ss-5-5-comparing-2">Here are all three models on the same graph.<div class="autopermalink" data-description="Paragraph"><a href="#ss-5-5-comparing-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="fig-5-5-flu-models"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/prefigure/prefigure-flu-models.svg" role="img" class="contained" alt="Exponential, saturation, and logistic models for number of flu cases as a function of days since outbreak started."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.5.4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Exponential, saturation, and logistic models for <span class="process-math">\(F\)</span> = number of flu cases, as a function of <span class="process-math">\(D\)</span> = days since outbreak started.<div class="autopermalink" data-description="Figure 5.5.4"><a href="#fig-5-5-flu-models" title="Copy heading and permalink for Figure 5.5.4" aria-label="Copy heading and permalink for Figure 5.5.4">🔗</a></div></figcaption></figure><div class="para" id="ss-5-5-comparing-4">As you can see from the graph, one key feature of both the saturation and logistic curves is that they <em class="emphasis">level off</em>. One way to estimate those <dfn class="terminology">limiting values</dfn> (or <dfn class="terminology">carrying capacity</dfn>) is to evaluate the functions at large values, say 60 days, 100 days, and (the unrealistic) 1,000 days.<div class="autopermalink" data-description="Paragraph"><a href="#ss-5-5-comparing-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<th scope="row" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(D\)</span></th>
+<td class="c m b1 r1 l0 t1 lines">60</td>
+<td class="c m b1 r1 l0 t1 lines">100</td>
+<td class="c m b1 r1 l0 t1 lines">1,000</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">
+<span class="process-math">\(F\)</span> (<dfn class="terminology">exponential</dfn>)</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\cancel{\approx 59{,}000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\cancel{\approx \text{22 million}}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\cancel{\approx 1.35 \times 10^{33}}\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">
+<span class="process-math">\(F\)</span> (<dfn class="terminology">saturation</dfn>)</th>
+<td class="c m b1 r1 l0 t0 lines">94.86</td>
+<td class="c m b1 r1 l0 t0 lines">95.94</td>
+<td class="c m b1 r1 l0 t0 lines">96.00</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">
+<span class="process-math">\(F\)</span> (<dfn class="terminology">logistic</dfn>)</th>
+<td class="c m b1 r1 l0 t0 lines">128.98</td>
+<td class="c m b1 r1 l0 t0 lines">128.99</td>
+<td class="c m b1 r1 l0 t0 lines">129.00</td>
+</tr>
+</table></div>
+<div class="para" id="ss-5-5-comparing-6">We crossed out the unrealistic values from the exponential equation. So, if the saturation model is accurate, then we should expect around 96 total cases. But, if the logistic model is accurate, then we should expect around 129 total cases instead.<div class="autopermalink" data-description="Paragraph"><a href="#ss-5-5-comparing-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="ss-5-5-comparing-7">
+<div class="para">Look back at the equations:</div>
+<div class="displaymath process-math" id="ss-5-5-comparing-7-1">
+\begin{equation*}
+\begin{array}{ll}
+\textbf{saturation:} \amp F=\fbox{96}-88\ast0.93^D \\
+\textbf{logistic:} \amp F=\dfrac{\fbox{129}}{1+15 \ast 0.825^D}
+\end{array}
+\end{equation*}
+</div>
+<div class="para">The limiting values were there all along!</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ss-5-5-comparing-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection: Comparing models"><a href="#ss-5-5-comparing" title="Copy heading and permalink for Subsection: Comparing models" aria-label="Copy heading and permalink for Subsection: Comparing models">🔗</a></div></section><section class="conclusion" id="sec-5-5-Logistic_growth-8"><h3 class="heading">Do you know …<span></span>
+</h3>
+<div class="para logical" id="sec-5-5-Logistic_growth-8-2">
+<ol class="upper-alpha ol-marker-1" id="sec-5-5-Logistic_growth-8-2-1">
+<li id="sec-5-5-Logistic_growth-8-2-1-1">
+<div class="para" id="sec-5-5-Logistic_growth-8-2-1-1-1">Why we might use a logistic or saturation model, instead of an exponential model?<div class="autopermalink" data-description="Paragraph"><a href="#sec-5-5-Logistic_growth-8-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item A"><a href="#sec-5-5-Logistic_growth-8-2-1-1" title="Copy heading and permalink for Item A" aria-label="Copy heading and permalink for Item A">🔗</a></div>
+</li>
+<li id="sec-5-5-Logistic_growth-8-2-1-2">
+<div class="para" id="sec-5-5-Logistic_growth-8-2-1-2-1">The difference between a logistic and saturation model?<div class="autopermalink" data-description="Paragraph"><a href="#sec-5-5-Logistic_growth-8-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item B"><a href="#sec-5-5-Logistic_growth-8-2-1-2" title="Copy heading and permalink for Item B" aria-label="Copy heading and permalink for Item B">🔗</a></div>
+</li>
+<li id="sec-5-5-Logistic_growth-8-2-1-3">
+<div class="para" id="sec-5-5-Logistic_growth-8-2-1-3-1">What the limiting value of a logistic function means in the story and what it tells us about the graph?<div class="autopermalink" data-description="Paragraph"><a href="#sec-5-5-Logistic_growth-8-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item C"><a href="#sec-5-5-Logistic_growth-8-2-1-3" title="Copy heading and permalink for Item C" aria-label="Copy heading and permalink for Item C">🔗</a></div>
+</li>
+<li id="sec-5-5-Logistic_growth-8-2-1-4">
+<div class="para" id="sec-5-5-Logistic_growth-8-2-1-4-1">How to find the limiting value of a logistic function?<div class="autopermalink" data-description="Paragraph"><a href="#sec-5-5-Logistic_growth-8-2-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item D"><a href="#sec-5-5-Logistic_growth-8-2-1-4" title="Copy heading and permalink for Item D" aria-label="Copy heading and permalink for Item D">🔗</a></div>
+</li>
+<li id="sec-5-5-Logistic_growth-8-2-1-5">
+<div class="para" id="sec-5-5-Logistic_growth-8-2-1-5-1">What the graph of a logistic function looks like?<div class="autopermalink" data-description="Paragraph"><a href="#sec-5-5-Logistic_growth-8-2-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item E"><a href="#sec-5-5-Logistic_growth-8-2-1-5" title="Copy heading and permalink for Item E" aria-label="Copy heading and permalink for Item E">🔗</a></div>
+</li>
+<li id="sec-5-5-Logistic_growth-8-2-1-6">
+<div class="para" id="sec-5-5-Logistic_growth-8-2-1-6-1">What the limiting value of a saturation function means in the story and what it tells us about the graph?<div class="autopermalink" data-description="Paragraph"><a href="#sec-5-5-Logistic_growth-8-2-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item F"><a href="#sec-5-5-Logistic_growth-8-2-1-6" title="Copy heading and permalink for Item F" aria-label="Copy heading and permalink for Item F">🔗</a></div>
+</li>
+<li id="sec-5-5-Logistic_growth-8-2-1-7">
+<div class="para" id="sec-5-5-Logistic_growth-8-2-1-7-1">How to find the limiting value of a saturation function?<div class="autopermalink" data-description="Paragraph"><a href="#sec-5-5-Logistic_growth-8-2-1-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item G"><a href="#sec-5-5-Logistic_growth-8-2-1-7" title="Copy heading and permalink for Item G" aria-label="Copy heading and permalink for Item G">🔗</a></div>
+</li>
+<li id="sec-5-5-Logistic_growth-8-2-1-8">
+<div class="para" id="sec-5-5-Logistic_growth-8-2-1-8-1">What the graph of a saturation function looks like?<div class="autopermalink" data-description="Paragraph"><a href="#sec-5-5-Logistic_growth-8-2-1-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item H"><a href="#sec-5-5-Logistic_growth-8-2-1-8" title="Copy heading and permalink for Item H" aria-label="Copy heading and permalink for Item H">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-5-5-Logistic_growth-8-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-5-5-Logistic_growth-8-3">
+<em class="alert">If you’re not sure, work the rest of exercises and then return to these questions. Or, ask your instructor or a classmate for help.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-5-5-Logistic_growth-8-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="exercises" id="ex-5-5-Logistic_growth"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Exercises</span>
+</h3>
+<section class="introduction" id="ex-5-5-Logistic_growth-2"><div class="para" id="ex-5-5-Logistic_growth-2-1">Exercises 1-4 are available in a separate workbook format.<div class="autopermalink" data-description="Paragraph"><a href="#ex-5-5-Logistic_growth-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><article class="exercise exercise-like" id="corn-growth-saturation-logistic"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="introduction" id="corn-growth-saturation-logistic-1"><div class="para logical" id="corn-growth-saturation-logistic-1-1">
+<div class="para">Corn farmers say that their crop is healthy if it is “knee high by the Fourth of July.” An equation modeling the height <span class="process-math">\(H\)</span> (in inches) of the corn crop <span class="process-math">\(T\)</span> days since May 1 is</div>
+<div class="displaymath process-math" id="corn-growth-saturation-logistic-1-1-4">
+\begin{equation*}
+H=106-100 \ast 0.989^{T}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#corn-growth-saturation-logistic-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="corn-growth-saturation-logistic-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="corn-growth-saturation-logistic-2-1-1">According to this equation, how high is corn projected to be on June 1 (day 31)?<div class="autopermalink" data-description="Paragraph"><a href="#corn-growth-saturation-logistic-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.a"><a href="#corn-growth-saturation-logistic-2" title="Copy heading and permalink for Task 1.a" aria-label="Copy heading and permalink for Task 1.a">🔗</a></div></article><article class="task exercise-like" id="corn-growth-saturation-logistic-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="corn-growth-saturation-logistic-3-1-1">According to this equation, how high is corn projected to be on the Fourth of July (day 64)? Is that “knee high” (18 inches tall)?<div class="autopermalink" data-description="Paragraph"><a href="#corn-growth-saturation-logistic-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.b"><a href="#corn-growth-saturation-logistic-3" title="Copy heading and permalink for Task 1.b" aria-label="Copy heading and permalink for Task 1.b">🔗</a></div></article><article class="task exercise-like" id="corn-growth-saturation-logistic-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="corn-growth-saturation-logistic-4-1-1">With stronger corn these days, the rule ought to be “chest high (52 inches) by the Fourth of July.” According to this equation, <em class="emphasis">approximately</em> when is the corn projected to be that tall? Use successive approximation to answer.<div class="autopermalink" data-description="Paragraph"><a href="#corn-growth-saturation-logistic-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="corn-growth-saturation-logistic-4-1-2">
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<th scope="row" class="c m b1 r1 l1 t1 lines">
+<span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span> (indep)</th>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">
+<span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span> (dep)</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">hi / lo</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#corn-growth-saturation-logistic-4-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.c"><a href="#corn-growth-saturation-logistic-4" title="Copy heading and permalink for Task 1.c" aria-label="Copy heading and permalink for Task 1.c">🔗</a></div></article><article class="task exercise-like" id="corn-growth-saturation-logistic-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="corn-growth-saturation-logistic-5-1-1">The corn matures in 110 days. How tall will it be then?<div class="autopermalink" data-description="Paragraph"><a href="#corn-growth-saturation-logistic-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.d"><a href="#corn-growth-saturation-logistic-5" title="Copy heading and permalink for Task 1.d" aria-label="Copy heading and permalink for Task 1.d">🔗</a></div></article><article class="task exercise-like" id="corn-growth-saturation-logistic-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="corn-growth-saturation-logistic-6-1-1">Draw a graph of the function. Include when <span class="process-math">\(T=0\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#corn-growth-saturation-logistic-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.e"><a href="#corn-growth-saturation-logistic-6" title="Copy heading and permalink for Task 1.e" aria-label="Copy heading and permalink for Task 1.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 1"><a href="#corn-growth-saturation-logistic" title="Copy heading and permalink for Exercise 1" aria-label="Copy heading and permalink for Exercise 1">🔗</a></div></article><article class="exercise exercise-like" id="corn-growth-logistic"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="introduction" id="corn-growth-logistic-1"><div class="para logical" id="corn-growth-logistic-1-1">
+<div class="para">An alternative equation for corn height is</div>
+<div class="displaymath process-math" id="corn-growth-logistic-1-1-1">
+\begin{equation*}
+H = \frac{200}{1+70\ast0.965^T}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#corn-growth-logistic-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="corn-growth-logistic-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="corn-growth-logistic-2-1-1">According to this new equation, how high is corn projected to be on June 1 (day 31)?<div class="autopermalink" data-description="Paragraph"><a href="#corn-growth-logistic-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.a"><a href="#corn-growth-logistic-2" title="Copy heading and permalink for Task 2.a" aria-label="Copy heading and permalink for Task 2.a">🔗</a></div></article><article class="task exercise-like" id="corn-growth-logistic-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="corn-growth-logistic-3-1-1">According to this new equation, how high is corn projected to be on the Fourth of July (day 64)? Is that “knee high” (18 inches tall)?<div class="autopermalink" data-description="Paragraph"><a href="#corn-growth-logistic-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.b"><a href="#corn-growth-logistic-3" title="Copy heading and permalink for Task 2.b" aria-label="Copy heading and permalink for Task 2.b">🔗</a></div></article><article class="task exercise-like" id="corn-growth-logistic-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="corn-growth-logistic-4-1-1">According to this new equation, on <em class="emphasis">approximately</em> what date is the corn projected to be “chest high” (52 inches tall)? Use successive approximation to answer.<div class="autopermalink" data-description="Paragraph"><a href="#corn-growth-logistic-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="corn-growth-logistic-4-1-2">
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<th scope="row" class="c m b1 r1 l1 t1 lines">
+<span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span> (indep)</th>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">
+<span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span> (dep)</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">hi / lo</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#corn-growth-logistic-4-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.c"><a href="#corn-growth-logistic-4" title="Copy heading and permalink for Task 2.c" aria-label="Copy heading and permalink for Task 2.c">🔗</a></div></article><article class="task exercise-like" id="corn-growth-logistic-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="corn-growth-logistic-5-1-1">The corn matures in 110 days. How tall will it be then, according to this new equation?<div class="autopermalink" data-description="Paragraph"><a href="#corn-growth-logistic-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.d"><a href="#corn-growth-logistic-5" title="Copy heading and permalink for Task 2.d" aria-label="Copy heading and permalink for Task 2.d">🔗</a></div></article><article class="task exercise-like" id="corn-growth-logistic-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="corn-growth-logistic-6-1-1">Add the graph of this function to your graph of the original equation on the previous problem. Again, include when <span class="process-math">\(T=0\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#corn-growth-logistic-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.e"><a href="#corn-growth-logistic-6" title="Copy heading and permalink for Task 2.e" aria-label="Copy heading and permalink for Task 2.e">🔗</a></div></article><div class="autopermalink" data-description="Exercise 2"><a href="#corn-growth-logistic" title="Copy heading and permalink for Exercise 2" aria-label="Copy heading and permalink for Exercise 2">🔗</a></div></article><article class="exercise exercise-like" id="fish-pond-logistic"><h4 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="introduction" id="fish-pond-logistic-1"><div class="para logical" id="fish-pond-logistic-1-1">
+<div class="para">Back in 1975 when my aunt and uncle bought their house in upstate New York, there was a small pond in the yard. They enlarged it and stocked it with 10 small fish. The number of fish <span class="process-math">\(F\)</span> increased over time, approximately according to the equation</div>
+<div class="displaymath process-math" id="fish-pond-logistic-1-1-2">
+\begin{equation*}
+F=\frac{1{,}000}{1+99 \ast 0.65^T}
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(T\)</span> is time measured in years since 1975.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#fish-pond-logistic-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="fish-pond-logistic-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="fish-pond-logistic-2-1-1">Make a table showing the fish population in 1975, 1990, 2000, and 2013.<div class="autopermalink" data-description="Paragraph"><a href="#fish-pond-logistic-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.a"><a href="#fish-pond-logistic-2" title="Copy heading and permalink for Task 3.a" aria-label="Copy heading and permalink for Task 3.a">🔗</a></div></article><article class="task exercise-like" id="fish-pond-logistic-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="fish-pond-logistic-3-1-1">By the time there were over 500 fish in the pond, you could catch them with your bare hands. In <em class="emphasis">approximately</em> what year did that happen? Use successive approximation.<div class="autopermalink" data-description="Paragraph"><a href="#fish-pond-logistic-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="fish-pond-logistic-3-1-2">
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<th scope="row" class="c m b1 r1 l1 t1 lines">
+<span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span> (indep)</th>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">
+<span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span> (dep)</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">hi / lo</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#fish-pond-logistic-3-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.b"><a href="#fish-pond-logistic-3" title="Copy heading and permalink for Task 3.b" aria-label="Copy heading and permalink for Task 3.b">🔗</a></div></article><article class="task exercise-like" id="fish-pond-logistic-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="fish-pond-logistic-4-1-1">In <em class="emphasis">approximately</em> what year did the fish population reach its capacity? Use successive approximation.<div class="autopermalink" data-description="Paragraph"><a href="#fish-pond-logistic-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="fish-pond-logistic-4-1-2">
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<th scope="row" class="c m b1 r1 l1 t1 lines">
+<span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span> (indep)</th>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+<td class="c m b1 r1 l0 t1 lines">           </td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">
+<span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span> (dep)</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r1 l1 t0 lines">hi / lo</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#fish-pond-logistic-4-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.c"><a href="#fish-pond-logistic-4" title="Copy heading and permalink for Task 3.c" aria-label="Copy heading and permalink for Task 3.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 3"><a href="#fish-pond-logistic" title="Copy heading and permalink for Exercise 3" aria-label="Copy heading and permalink for Exercise 3">🔗</a></div></article><article class="exercise exercise-like" id="halloween-costumes-logistic"><h4 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="introduction" id="halloween-costumes-logistic-1"><div class="para logical" id="halloween-costumes-logistic-1-1">
+<div class="para">Jason works at a costume shop selling Halloween costumes. The shop is busiest during the fall before Halloween. An equation that describes the number of daily visitors <span class="process-math">\(V\)</span> the shop receives <span class="process-math">\(T\)</span> days from August 31 is the following:</div>
+<div class="displaymath process-math" id="halloween-costumes-logistic-1-1-3">
+\begin{equation*}
+V=\frac{430}{1+701\ast 0.81^T}
+\end{equation*}
+</div>
+<div class="para">An alternative equation is</div>
+<div class="displaymath process-math" id="halloween-costumes-logistic-1-1-4">
+\begin{equation*}
+V = 700 - 690 \ast 0.985^T
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#halloween-costumes-logistic-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="halloween-costumes-logistic-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="halloween-costumes-logistic-2-1-1">
+<div class="para" id="halloween-costumes-logistic-2-1-1-1">Make a table showing what each equation predicts for August 31, September 15, September 30, October 15, October 25, October 28, and October 31.<div class="autopermalink" data-description="Paragraph"><a href="#halloween-costumes-logistic-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="halloween-costumes-logistic-2-1-1-2">
+<em class="emphasis">Hint: those days are numbered 0, 15, 30, 45, 55, 58, and 61.</em><div class="autopermalink" data-description="Paragraph"><a href="#halloween-costumes-logistic-2-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#halloween-costumes-logistic-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.a"><a href="#halloween-costumes-logistic-2" title="Copy heading and permalink for Task 4.a" aria-label="Copy heading and permalink for Task 4.a">🔗</a></div></article><article class="task exercise-like" id="halloween-costumes-logistic-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="halloween-costumes-logistic-3-1-1">Graph both functions on the same set of axes.<div class="autopermalink" data-description="Paragraph"><a href="#halloween-costumes-logistic-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.b"><a href="#halloween-costumes-logistic-3" title="Copy heading and permalink for Task 4.b" aria-label="Copy heading and permalink for Task 4.b">🔗</a></div></article><article class="task exercise-like" id="halloween-costumes-logistic-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="halloween-costumes-logistic-4-1-1">Which function is more consistent with a major advertising campaign during the second week of September? Explain.<div class="autopermalink" data-description="Paragraph"><a href="#halloween-costumes-logistic-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 4.c"><a href="#halloween-costumes-logistic-4" title="Copy heading and permalink for Task 4.c" aria-label="Copy heading and permalink for Task 4.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 4"><a href="#halloween-costumes-logistic" title="Copy heading and permalink for Exercise 4" aria-label="Copy heading and permalink for Exercise 4">🔗</a></div></article><article class="exercise exercise-like" id="check-values-logistic-growth"><h4 class="heading"><span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="check-values-logistic-growth-1-1">In our example in this section, we made several tables of values. Go back and check that they are correct.<div class="autopermalink" data-description="Paragraph"><a href="#check-values-logistic-growth-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 5"><a href="#check-values-logistic-growth" title="Copy heading and permalink for Exercise 5" aria-label="Copy heading and permalink for Exercise 5">🔗</a></div></article><article class="exercise exercise-like" id="bpa-calls-logistic-growth"><h4 class="heading"><span class="codenumber">6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="introduction" id="bpa-calls-logistic-growth-1"><div class="para logical" id="bpa-calls-logistic-growth-1-1">
+<div class="para">Mari volunteers answering calls for in the office of her local state government representative. The office has been receiving a lot of calls recently with about BPA, a chemical found in plastics. The callers want their representative to support a bill banning BPA. An equation that describes the number of total number of calls over time is the following:</div>
+<div class="displaymath process-math" id="bpa-calls-logistic-growth-1-1-1">
+\begin{equation*}
+C=\frac{837}{1+118\ast 0.8025^D}
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(D\)</span> is the time since January 1 (in days), and <span class="process-math">\(C\)</span> is the total number of calls.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#bpa-calls-logistic-growth-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="bpa-calls-logistic-growth-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="bpa-calls-logistic-growth-2-1-1">According to this equation, how many calls (total) will Mari’s office get by February 1 (day 31), March 1 (day 59), April 1 (day 90), May 1 (day 120), and Nov 8 (day 311)?<div class="autopermalink" data-description="Paragraph"><a href="#bpa-calls-logistic-growth-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 6.a"><a href="#bpa-calls-logistic-growth-2" title="Copy heading and permalink for Task 6.a" aria-label="Copy heading and permalink for Task 6.a">🔗</a></div></article><article class="task exercise-like" id="bpa-calls-logistic-growth-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="bpa-calls-logistic-growth-3-1-1">During which months did most of the calls come in?<div class="autopermalink" data-description="Paragraph"><a href="#bpa-calls-logistic-growth-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 6.b"><a href="#bpa-calls-logistic-growth-3" title="Copy heading and permalink for Task 6.b" aria-label="Copy heading and permalink for Task 6.b">🔗</a></div></article><article class="task exercise-like" id="bpa-calls-logistic-growth-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="bpa-calls-logistic-growth-4-1-1">Draw a graph illustrating the function.<div class="autopermalink" data-description="Paragraph"><a href="#bpa-calls-logistic-growth-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 6.c"><a href="#bpa-calls-logistic-growth-4" title="Copy heading and permalink for Task 6.c" aria-label="Copy heading and permalink for Task 6.c">🔗</a></div></article><article class="task exercise-like" id="bpa-calls-logistic-growth-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="bpa-calls-logistic-growth-5-1-1">Describe what happened over time.<div class="autopermalink" data-description="Paragraph"><a href="#bpa-calls-logistic-growth-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 6.d"><a href="#bpa-calls-logistic-growth-5" title="Copy heading and permalink for Task 6.d" aria-label="Copy heading and permalink for Task 6.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 6"><a href="#bpa-calls-logistic-growth" title="Copy heading and permalink for Exercise 6" aria-label="Copy heading and permalink for Exercise 6">🔗</a></div></article><article class="exercise exercise-like" id="bpa-calls-2-logistic-growth"><h4 class="heading"><span class="codenumber">7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="introduction" id="bpa-calls-2-logistic-growth-1"><div class="para logical" id="bpa-calls-2-logistic-growth-1-1">
+<div class="para">Even though all the callers support the bill, Mari isn’t sure whether the calls represent the local constituents. Perhaps only supporters are calling her office, for example. So, she asks her pollster, Paul, to add this question to the list for his daily survey. Based on that survey, Paul estimates the percentage <span class="process-math">\(P\)</span> of local constituents who support the bill on day <span class="process-math">\(D\)</span> by the equation</div>
+<div class="displaymath process-math" id="bpa-calls-2-logistic-growth-1-1-3">
+\begin{equation*}
+P =100 - 87.3 \ast 0.992^D
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#bpa-calls-2-logistic-growth-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="bpa-calls-2-logistic-growth-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="bpa-calls-2-logistic-growth-2-1-1">According to this equation, what percentage of callers supported the bill on January 1 (day 0), March 1 (day 59), Aug 1 (day 212), Oct 1 (day 273) and Nov 8 (day 311)?<div class="autopermalink" data-description="Paragraph"><a href="#bpa-calls-2-logistic-growth-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.a"><a href="#bpa-calls-2-logistic-growth-2" title="Copy heading and permalink for Task 7.a" aria-label="Copy heading and permalink for Task 7.a">🔗</a></div></article><article class="task exercise-like" id="bpa-calls-2-logistic-growth-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="bpa-calls-2-logistic-growth-3-1-1">What does your equation say the percentage would be on day 500 (which probably isn’t realistic in this problem)? How about day 1,000?<div class="autopermalink" data-description="Paragraph"><a href="#bpa-calls-2-logistic-growth-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.b"><a href="#bpa-calls-2-logistic-growth-3" title="Copy heading and permalink for Task 7.b" aria-label="Copy heading and permalink for Task 7.b">🔗</a></div></article><article class="task exercise-like" id="bpa-calls-2-logistic-growth-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="bpa-calls-2-logistic-growth-4-1-1">Use successive approximations to estimate when the percentage supporting the bill first reached majority (50%).<div class="autopermalink" data-description="Paragraph"><a href="#bpa-calls-2-logistic-growth-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.c"><a href="#bpa-calls-2-logistic-growth-4" title="Copy heading and permalink for Task 7.c" aria-label="Copy heading and permalink for Task 7.c">🔗</a></div></article><article class="task exercise-like" id="bpa-calls-2-logistic-growth-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="bpa-calls-2-logistic-growth-5-1-1">Set up and solve an equation to find when the percentage supporting the bill first reached majority (50%).<div class="autopermalink" data-description="Paragraph"><a href="#bpa-calls-2-logistic-growth-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.d"><a href="#bpa-calls-2-logistic-growth-5" title="Copy heading and permalink for Task 7.d" aria-label="Copy heading and permalink for Task 7.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 7"><a href="#bpa-calls-2-logistic-growth" title="Copy heading and permalink for Exercise 7" aria-label="Copy heading and permalink for Exercise 7">🔗</a></div></article><article class="exercise exercise-like" id="baby-weight-logistic-growth"><h4 class="heading"><span class="codenumber">8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="introduction" id="baby-weight-logistic-growth-1"><div class="para logical" id="baby-weight-logistic-growth-1-1">
+<div class="para">Infants are regularly checked to make sure they are growing accordingly. The World Health Organization publishes growth charts to evaluate infant weight <span class="process-math">\(W\)</span> in kilograms at a given age <span class="process-math">\(M\)</span> in months since birth. An equation that describes an average infant boy is the following:</div>
+<div class="displaymath process-math" id="baby-weight-logistic-growth-1-1-3">
+\begin{equation*}
+W=15-11.5\ast0.932^M
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#baby-weight-logistic-growth-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="baby-weight-logistic-growth-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="baby-weight-logistic-growth-2-1-1">According to this equation, what is the average infant boy weight at birth, 1 month, 4 months, and a year?<div class="autopermalink" data-description="Paragraph"><a href="#baby-weight-logistic-growth-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 8.a"><a href="#baby-weight-logistic-growth-2" title="Copy heading and permalink for Task 8.a" aria-label="Copy heading and permalink for Task 8.a">🔗</a></div></article><article class="task exercise-like" id="baby-weight-logistic-growth-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para logical" id="baby-weight-logistic-growth-3-1-1">
+<div class="para">Convert your answers to pounds and ounces using</div>
+<div class="displaymath process-math" id="baby-weight-logistic-growth-3-1-1-1">
+\begin{equation*}
+1 \text{ kilogram } \approx 2.2 \text{ pounds} \quad \text{ and } \quad 1 \text{ pound } = 16 \text{ ounces}
+\end{equation*}
+</div>
+<div class="para"><em class="emphasis">Hint: first convert to pounds. Then convert just the decimal part to ounces.</em></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#baby-weight-logistic-growth-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 8.b"><a href="#baby-weight-logistic-growth-3" title="Copy heading and permalink for Task 8.b" aria-label="Copy heading and permalink for Task 8.b">🔗</a></div></article><article class="task exercise-like" id="baby-weight-logistic-growth-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="baby-weight-logistic-growth-4-1-1">The equation is valid for <span class="process-math">\(0 \le M \le 36\text{,}\)</span> or up to three years old. Draw a graph that includes your points from earlier and the values at 3, 4, 5, and 6 years. Can you explain why the equation doesn’t make sense after around 3 years?<div class="autopermalink" data-description="Paragraph"><a href="#baby-weight-logistic-growth-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 8.c"><a href="#baby-weight-logistic-growth-4" title="Copy heading and permalink for Task 8.c" aria-label="Copy heading and permalink for Task 8.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 8"><a href="#baby-weight-logistic-growth" title="Copy heading and permalink for Exercise 8" aria-label="Copy heading and permalink for Exercise 8">🔗</a></div></article><article class="exercise exercise-like" id="bass-fishing-logistic-growth"><h4 class="heading"><span class="codenumber">9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="introduction" id="bass-fishing-logistic-growth-1"><div class="para logical" id="bass-fishing-logistic-growth-1-1">
+<div class="para">The lake by Rodney’s condo was stocked with bass (fish) 10 years ago. <details id="bass-fishing-logistic-growth-1-1-1" class="aside aside-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading"><span class="type">Aside</span></h5></summary><aside class="aside aside-like knowl__content"><div class="para" id="bass-fishing-logistic-growth-1-1-1-1">(Story also appears in <a href="sec-0-7-Algebraic_notation.html#bass-fishing-algebraic-notation" class="xref" data-knowl="./knowl/xref/bass-fishing-algebraic-notation.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 0.7.8">0.7.8</a> and <a href="sec-3-3-Solving_power_equations.html#bass-fishing-solving-power" class="xref" data-knowl="./knowl/xref/bass-fishing-solving-power.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 8">8</a>)<div class="autopermalink" data-description="Paragraph"><a href="#bass-fishing-logistic-growth-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></aside></details> There were initially 400 bass introduced. The carrying capacity of the lake is estimated at 4,000 bass. Two potential models for the number of bass (<span class="process-math">\(B\)</span>) over time, where <span class="process-math">\(Y\)</span> measures the years from when the lake was stocked 10 years ago are</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/bass-fishing-algebraic-notation.html ./knowl/xref/bass-fishing-solving-power.html" id="bass-fishing-logistic-growth-1-1-4">
+\begin{align*}
+\textbf{saturation:}\qquad B\amp=4{,}000-3{,}600\ast0.78^Y \\
+\textbf{logistic:}\qquad B\amp=\frac{4{,}000}{1+9 \ast 0.78^Y} 
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#bass-fishing-logistic-growth-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="bass-fishing-logistic-growth-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="bass-fishing-logistic-growth-2-1-1">Make a table showing the bass population projected by each model, including 10 years ago, now, in 10 more years, in 20 more years, and in 30 more years.<div class="autopermalink" data-description="Paragraph"><a href="#bass-fishing-logistic-growth-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 9.a"><a href="#bass-fishing-logistic-growth-2" title="Copy heading and permalink for Task 9.a" aria-label="Copy heading and permalink for Task 9.a">🔗</a></div></article><article class="task exercise-like" id="bass-fishing-logistic-growth-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="bass-fishing-logistic-growth-3-1-1">Draw a graph showing both curves.<div class="autopermalink" data-description="Paragraph"><a href="#bass-fishing-logistic-growth-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 9.b"><a href="#bass-fishing-logistic-growth-3" title="Copy heading and permalink for Task 9.b" aria-label="Copy heading and permalink for Task 9.b">🔗</a></div></article><article class="task exercise-like" id="bass-fishing-logistic-growth-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="bass-fishing-logistic-growth-4-1-1">Which model shows the lake reaching (near) capacity sooner: the saturation model or the logistic model?<div class="autopermalink" data-description="Paragraph"><a href="#bass-fishing-logistic-growth-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 9.c"><a href="#bass-fishing-logistic-growth-4" title="Copy heading and permalink for Task 9.c" aria-label="Copy heading and permalink for Task 9.c">🔗</a></div></article><article class="task exercise-like" id="bass-fishing-logistic-growth-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="bass-fishing-logistic-growth-5-1-1">If the current bass population in the lake by Rodney’s house is around 2,500 fish, which model is more realistic?<div class="autopermalink" data-description="Paragraph"><a href="#bass-fishing-logistic-growth-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 9.d"><a href="#bass-fishing-logistic-growth-5" title="Copy heading and permalink for Task 9.d" aria-label="Copy heading and permalink for Task 9.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise 9"><a href="#bass-fishing-logistic-growth" title="Copy heading and permalink for Exercise 9" aria-label="Copy heading and permalink for Exercise 9">🔗</a></div></article><div class="autopermalink" data-description="Exercises: Exercises"><a href="#ex-5-5-Logistic_growth" title="Copy heading and permalink for Exercises: Exercises" aria-label="Copy heading and permalink for Exercises: Exercises">🔗</a></div></section><div class="autopermalink" data-description="Section 5.5: Logistic and other growth models"><a href="#sec-5-5-Logistic_growth" title="Copy heading and permalink for Section 5.5: Logistic and other growth models" aria-label="Copy heading and permalink for Section 5.5: Logistic and other growth models">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-5-4-Linear_vs_exponential.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-PE5A.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

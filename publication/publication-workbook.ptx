@@ -75,7 +75,8 @@
             <geometry>
                 includehead,
                 marginparwidth=1.25in,
-                width=6in, right=1.5in
+                width=6in, right=1.5in,
+                top=10mm, bottom=15mm
             </geometry>
         </page>
         <!-- The asymptote/@links set to "yes" would produce  -->

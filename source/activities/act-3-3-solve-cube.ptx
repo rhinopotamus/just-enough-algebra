@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-3-solve-cube">
+    <statement>
+        <p>
+            The weight of a wood cube is a function of the length of the sides. A cube with sides each <m>E</m> inches long has weight <m>W</m> ounces according to the equation<me>W = 0.76\, E^3.</me>
+            Let's use the <xref ref="assemblage-shoes-and-socks" text="title"/> to solve this equation symbolically.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Fill in the evaluating steps and the solving steps for this equation.
+                    <sidebyside widths="50% 50%">
+                        <p>
+                            Evaluating steps:
+                            <ol marker="1.">
+                                <li>
+                                    <p>
+                                        <nbsp/>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <nbsp/>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                        <p>
+                            Solving steps:
+                            <ol marker="1.">
+                                <li>
+                                    <p>
+                                        <nbsp/>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <nbsp/>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </sidebyside>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Set up and solve an equation to figure out the edge length of a cube that weighs 8 ounces. (Is 8 a value of <m>W</m> or a value of <m>E</m>?)
+                </p>
+            </li>
+            <li>
+                <p>
+                    Draw a graph of the function to confirm your answer.
+                </p>
+            </li>
+        </ol>
+        
+    </statement>
+</activity>

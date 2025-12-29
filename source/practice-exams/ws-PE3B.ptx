@@ -24,7 +24,7 @@
 				Goldie the Goldfish, Pinches the Lobster, Quackers the Duck, Speedy the Turtle. These first generation Beanie Babies toys were anticipated to increase in value according to the equation <me>B = 6\ast 1.08^T</me> where <m>B</m> is the value of Beanie Babies (in $) and <m>T</m> is the time in years since 1994.
 			</p>
 		</introduction>
-		<task workspace="1.25in">
+		<task workspace="1in">
 			<statement>
 				<p>
 					Make a table showing the anticipated value in 1994, 2004, 2010, and 2025.
@@ -44,11 +44,8 @@
 		</task>
 		<task>
 			<statement>
-				<p component="workbook">
-					<em>The problem continues <ellipsis /></em>
-				</p>
 				<p>
-					Set up and solve an equation to determine when will Beanie Babies made in 1994 were anticipated to be worth over $40. Report the actual year.
+					Set up and solve an equation to determine when Beanie Babies made in 1994 were anticipated to be worth over $40. Report the actual year.
 				</p>
 			</statement>
 		</task>

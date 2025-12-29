@@ -34,5 +34,10 @@
   <!-- Specify the default type of cross reference: -->
   <cross-references text="global" />
 
+  <!-- Prefigure stuff -->
+  <directories data="data" />
+  <prefigure-preamble xmlns="https://prefigure.org">
+    <graph stroke="blue" />
+  </prefigure-preamble>
 
 </docinfo>

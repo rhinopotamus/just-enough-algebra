@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-2-setup-ineq">
+    <statement>
+        <p>
+            It's tricky, and requires a bit of practice, to set up inequalities with the inequality sign pointing the right direction. We'll use the familiar example of the truck hauling bags of grass seed. Remember, the truck weighs 3,900 pounds when it is empty. Each bag of grass seed it carries weighs 4.2 pounds. The equation for the total weight is
+            <me>
+                W = 3{,}900 + 4.2B
+            </me>
+            where
+            <md>
+				<mrow>W \amp= \text{ total weight of the loaded truck (pounds)} \sim \text{ dep} </mrow>
+				<mrow>B \amp= \text{ number of bags of grass seed (bags)} \sim \text{ indep} </mrow>
+			</md>
+            The state highways have a weight limit: any truck driving on the highway has to be below 18,000 pounds.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Is the number 18,000 in this story a value of <m>W</m> or a value of <m>B</m>? (Hint: think about the units.)
+                </p>
+            </li>
+            <li>
+                <p>
+                    Write an inequality (using <m>\le</m>, <m>\ge</m>, <m>\gt</m>, or <m>\lt</m>) relating <m>W</m> to 18,000.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Use the equation <m>W = 3{,}900 + 4.2B</m> to replace <m>W</m> in the inequality you wrote.
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

@@ -15,7 +15,7 @@
                         <row header="yes">
                             <cell>letter name</cell>
                             <cell>=</cell>
-                            <cell>human words</cell>
+                            <cell>everyday words</cell>
                             <cell right="minor" >(units)</cell>
                         </row>
                         <row>
@@ -40,7 +40,7 @@
                         <row header="yes">
                             <cell>letter name</cell>
                             <cell>=</cell>
-                            <cell>human words</cell>
+                            <cell>everyday words</cell>
                             <cell right="minor" >(units)</cell>
                         </row>
                         <row>

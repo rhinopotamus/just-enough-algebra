@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-1-4-ucfs">
+    <statement>
+        <p>
+            Let's compare centimeters (abbreviated cm) and inches, using the fact that <m>1 \text{ inch} \approx 2.54 \text{ cm}</m>.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Write a unit conversion fraction that has inches on the bottom.
+                    <me>
+                        1 \approx \dfrac{<fillin fill="2.54" /> \text{ cm}}
+                                        {<fillin fill="1.00" /> \text{ inch}}
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Write a unit conversion fraction that has centimeters on the bottom.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Convert 10 cm into inches. Which unit conversion fraction should you multiply 10 cm by?
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

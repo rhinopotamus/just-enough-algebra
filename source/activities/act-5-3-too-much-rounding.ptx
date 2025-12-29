@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-5-3-too-much-rounding">
+    <statement>
+        <p>
+            Let's explore a situation in which rounding too much really does cause problems. In one town, attendance at parent volunteer night in 2016 was 132, and in 2019 there were twice as many parent volunteers.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    How many volunteers were there in 2019?
+                </p>
+            </li>
+            <li>
+                <p>
+                    Use the <xref ref="growth-factor-formula" text="title"/> to find the value of <m>g</m> for this story.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Round the value of <m>g</m> to <em>two</em> decimal digits. How many volunteers does your equation predict for 2019?
+                </p>
+            </li>
+            <li>
+                <p>
+                    Now try rounding the value of <m>g</m> to <em>one</em> decimal digit. (This is too much rounding! Don't do this in real life!) Now how many volunteers does your equation predict for 2019? How far off is your equation from the real data?
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

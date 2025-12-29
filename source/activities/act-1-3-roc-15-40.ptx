@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-1-3-roc-15-40">
+    <statement>
+        <p>
+            Here are Sweet Rose Bakery's cake prices again.
+        </p>
+        <tabular bottom="minor" top="minor" row-headers="yes" halign="center">
+            <row left="minor">
+                <cell right="minor">Servings</cell>
+                <cell right="minor">8</cell>
+                <cell right="minor">15</cell>
+                <cell right="minor">40</cell>
+            </row>
+            <row left="minor">
+                <cell right="minor">Cost</cell>
+                <cell right="minor">$28.99</cell>
+                <cell right="minor">$43.99</cell>
+                <cell right="minor">$66.99</cell>
+            </row>
+        </tabular>
+        <p>
+            <ol marker="(a)">
+                <li>
+                    <p>
+                        You're thinking about buying an <em>even larger</em> cake so you can invite <em>even more</em> people to your party. How much more expensive is it to buy a cake for 40 people than it is to buy a cake for 15 people?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        How many more people can you serve cake to?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        How much more expensive is it <em>per person</em>? 
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+</activity>

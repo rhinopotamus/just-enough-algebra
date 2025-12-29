@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-5-apr">
+    <statement>
+        <p>
+            Remember that Kiran deposited $2,500 in a money market account that earned 7% interest compounded monthly. What is the equivalent APR on Kiran's money market account? Use the <xref ref="equivalent-apr-formula" text="title"/>.
+        </p>
+    </statement>
+</activity>

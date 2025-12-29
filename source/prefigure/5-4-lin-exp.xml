@@ -1,0 +1,25 @@
+<diagram xmlns="https://prefigure.org"
+  dimensions="(400,200)" margins="(75,30,25,25)">
+  <definition>L(M)=22500 - 154*M</definition>
+  <definition>E(M)=22500*0.9875^M</definition>
+  <coordinates bbox="(0,0,300,24000)">
+    <grid-axes 
+      spacings="((0,20,300),(0,2000,24000))"
+      hticks= "(0,100,300)"
+      hlabels="(0,100,300)"
+      vticks= "(0,4000,24000)"
+      vlabels="(0,4000,24000)"
+      h-zero-label="yes"
+      v-zero-label="yes">
+        <xlabel><m>M</m></xlabel>
+        <ylabel><m>C</m></ylabel>
+    </grid-axes>
+    <graph at="linear" function="L" dash="3 3"/>
+    <graph at="exp" function="E"/>
+    <legend anchor="(bbox[2], bbox[3])"
+            alignment="sw">
+      <item ref="linear">Linear</item>
+      <item ref="exp">Exponential</item>
+    </legend>
+  </coordinates>
+</diagram>

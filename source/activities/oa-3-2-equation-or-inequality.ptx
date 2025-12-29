@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="oa-3-2-equation-or-inequality">
+    <statement>
+        <p>
+            Let's practice writing equations and inequalities. For each of the stories below:
+            <ul>
+                <li>
+                    <p>
+                        choose a letter for the variable,
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        decide whether the story is describing an <alert>equation</alert> or an <alert>inequality</alert>, 
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        and write down a math sentence using the appropriate symbol (<m>\le</m>, <m>\ge</m>, <m>\gt</m>, <m>\lt</m>, or <m>=</m>).
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    The cost of a movie ticket is $12.36.
+                </p>
+            </li>
+            <li>
+                <p>
+                    In Finland in the winter, you can't legally drive faster than 100 km/hr.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Kamari needs a curtain rod that is at least 72 inches long.
+                </p>
+            </li>
+            <li>
+                <p>
+                    (Challenge!) Kamari needs a curtain rod that is <em>between</em> 72 inches and 92 inches long.
+                </p>
+            </li>
+        </ol>
+    </statement>
+</exploration>

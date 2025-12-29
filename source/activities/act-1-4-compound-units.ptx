@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-1-4-compound-units">
+    <statement>
+        <p>
+            Jenna is studying in Finland this term and rented an older car to drive. Her car gets 7.6 kilometers per liter; she'd like to convert that to miles per gallon (mpg).
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Use the fact that 1 mile <m>\approx</m> 1.609 km to write down two unit conversion fractions:
+                    <me>
+                        1 \approx \dfrac{<fillin fill="2.54" /> \text{ mile}}
+                                        {<fillin fill="1.00" /> \text{ km}}
+                        \quad \text{and} \quad
+                        1 \approx \dfrac{<fillin fill="2.54" /> \text{ km}}
+                                        {<fillin fill="1.00" /> \text{ mile}}
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Use the fact that 1 liter <m>\approx</m> 1.057 quarts to write down two unit conversion fractions:
+                    <me>
+                        1 \approx \dfrac{<fillin fill="2.54" /> \text{ liter}}
+                                        {<fillin fill="1.00" /> \text{ quarts}}
+                        \quad \text{and} \quad
+                        1 \approx \dfrac{<fillin fill="2.54" /> \text{ quarts}}
+                                        {<fillin fill="1.00" /> \text{ liter}}
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Use the fact that 1 gallon = 4 quarts,<aside><p>Incidentally, this is why they're called <q>quarts</q> -- they're a <q>quart</q>er of a gallon.</p></aside> together with your work from part (a) and part (b), to convert <m>\dfrac{7.6 \text{ km}}{1 \text{ liter}}</m> into miles per gallon.
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

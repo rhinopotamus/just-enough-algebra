@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-4-2-car-solve">
+    <statement>
+        <p>
+            Back to Madison's car shopping: Madison wants to buy a new car, either Car A: a hybrid priced at $26,100, or Car B: a high-efficiency gas car priced at $23,700. Annual fuel costs for Car A are currently $1,100 per year. For Car B annual fuel costs are currently $1,800 per year. The total cost of each car will depend on how many years she keeps it.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Madison wants to find the number of years where 
+                    <me>
+                        \text{total cost (for Car A)} = \text{total cost (for Car B)} 
+                    </me>
+                    Use your equations for the total cost for each car to turn this into an equation involving the number of years she keeps the car.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Follow the same steps Quia Xun did to determine the <term>payoff time</term>, or the number of years for which the total costs of each car are equal.
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

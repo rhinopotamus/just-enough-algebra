@@ -1,0 +1,26 @@
+<diagram xmlns="https://prefigure.org"
+  dimensions="(400,200)" margins="(50,30,25,25)">
+  <definition>F(C)=1.8*C+32</definition>
+  <definition>hi(C)=375</definition>
+  <definition>lo(C)=325</definition>
+  <coordinates bbox="(0,0,250,500)">
+    <grid-axes 
+      spacings="((0,10,250),(0,50,500))"
+      hticks="(0,50,250)"
+      hlabels="(0,50,250)"
+      vticks="(0,100,500)"
+      vlabels="(0,100,500)"
+      h-zero-label="yes"
+      v-zero-label="yes">
+        <xlabel><m>C</m></xlabel>
+        <ylabel><m>F</m></ylabel>
+    </grid-axes>
+    <!-- should probably be grouped for outlining: -->
+    <graph function="F"/>
+    <graph function="hi" dash="9 9"/>
+    <graph function="lo" dash="9 9"/>
+    <line endpoints="((163,325),(190,375))"
+          thickness="10" 
+          stroke="blue" />
+  </coordinates>
+</diagram>

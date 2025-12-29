@@ -119,20 +119,20 @@
 				Our investment club has been tracking the performance of a biofuel company's stock over the past year. Using an econometrics software package, we found the equation <me>V =0.00004T^3 + 0.01T^2 - 0.9T + 31</me> which describes the value of each share of stock $<m>V</m> as a function of time <m>T</m>, measured in weeks starting exactly one year ago.
 			</p>
 		</introduction>
-		<task workspace="1in">
+		<task workspace="1.5in">
 			<statement>
 				<p>
 					Name the variables <m>V</m> and <m>T</m>, including units and dependence.
 				</p>
 			</statement>
 		</task>
-		<task>
+		<task workspace="1in">
 			<statement>
 				<p>
 					Complete the following table of values.
 				</p>
 				<tabular bottom="minor" top="minor">
-					<row left="minor" class="odd">
+					<row left="minor">
 						<cell right="minor" halign="center"><m>T</m></cell>
 						<cell right="minor" halign="center">0</cell>
 						<cell right="minor" halign="center">13</cell>
@@ -140,7 +140,7 @@
 						<cell right="minor" halign="center">39</cell>
 						<cell right="minor" halign="center">52</cell>
 					</row>
-					<row left="minor" class="odd">
+					<row left="minor">
 						<cell right="minor" halign="center"><m>V</m></cell>
 						<cell right="minor" halign="center">31.00</cell>
 						<cell right="minor" halign="center">21.08</cell>
@@ -151,7 +151,7 @@
 				</tabular>
 			</statement>
 		</task>
-		<task workspace="1in">
+		<task workspace="0.5in">
 			<statement>
 				<p>
 					Draw a graph showing how the value changed during the past year.

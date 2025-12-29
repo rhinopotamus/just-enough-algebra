@@ -1,0 +1,18 @@
+<diagram xmlns="https://prefigure.org"
+  dimensions="(400,200)" margins="(50,30,25,25)">
+  <definition>S(D)=96-88*0.93^D</definition>
+  <coordinates bbox="(0,0,42,200)">
+    <grid-axes
+      spacings="((0,3.5,42),(0,20,200))"
+      hticks= "(0,7,42)"
+      hlabels="(0,7,42)"
+      vticks= "(0,20,200)"
+      vlabels="(0,20,200)"
+      h-zero-label="yes"
+      v-zero-label="yes">
+        <xlabel><m>D</m></xlabel>
+        <ylabel><m>F</m></ylabel>
+    </grid-axes>
+    <graph function="S" at="sat"/>
+  </coordinates>
+</diagram>

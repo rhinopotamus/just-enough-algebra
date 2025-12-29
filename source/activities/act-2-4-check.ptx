@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-4-check">
+    <statement>
+        <p>
+            It's good practice to check that when you evaluate, and then round appropriately, you get the same numbers we've written down in the textbook. Remember, our equation is 
+            <me>
+                P = 1.049 \ast 1.0072^Y
+            </me>
+            
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Evaluate at <m>Y = 20</m> and check that you get <m>P = 1.626</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Evaluate at <m>Y = 15</m> and check that you get <m>P = 1.569</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Evaluate at <m>Y = 18</m> and check that you get <m>P = 1.603</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Evaluate at <m>Y = 17</m> and check that you get <m>P = 1.591</m>.
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

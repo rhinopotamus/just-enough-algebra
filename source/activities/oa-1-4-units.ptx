@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="oa-1-4-units">
+    <p>
+        Let's think of some more examples of units, and then start thinking about how to convert between them.
+    </p>
+    <ol marker="(a)">
+        <li>
+            <p>
+                Write down a sentence or two in everyday language describing what units are.
+            </p>
+        </li>
+        <li>
+            <p>
+                Units for measuring time include minutes and years. What are some more examples of units for measuring time?
+            </p>
+        </li>
+        <li>
+            <p>
+                Why is it true that <m>1 \text{ hour} = 60 \text{ minutes}</m>?
+            </p>
+        </li>
+        <li>
+            <p>
+                Use your explanation in part (c) to explain why
+                <me>
+                    \dfrac{60 \text{ minutes}}{1 \text{ hour}} = 1.
+                </me>
+            </p>
+        </li>
+    </ol>
+
+</exploration>

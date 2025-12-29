@@ -1,0 +1,20 @@
+<diagram xmlns="https://prefigure.org"
+  dimensions="(400,200)" margins="(50,30,25,25)">
+  <definition>C(N)=15+39.99*N</definition>
+  <coordinates bbox="(0,0,20,900)">
+    <grid-axes 
+      spacings="((0,1,20),(0,100,900))"
+      hticks= "(0,5,20)"
+      hlabels="(0,5,20)"
+      vticks= "(0,100,900)"
+      vlabels="(0,100,900)"
+      h-zero-label="yes"
+      v-zero-label="yes">
+        <xlabel><m>N</m></xlabel>
+        <ylabel><m>C</m></ylabel>
+    </grid-axes>
+    <graph function="C"/>
+    <point p="(13,534.87)" />
+    <point p="(20,814.80)" />
+  </coordinates>
+</diagram>

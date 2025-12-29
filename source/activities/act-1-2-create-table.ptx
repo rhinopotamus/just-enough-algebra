@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-1-2-create-table">
+    <statement>
+        <p>
+            At a local private college, the comprehensive fee is currently $64,000. The fee is projected to increase each year for the next several years.
+        </p>
+        <p>
+            <ol marker="(a)">
+                <li>
+                    <p>
+                        Name the variables in this story:
+                    </p>
+                    <xi:include href="../name-variables.ptx" />
+                </li>
+                <li>
+                    <p>
+                        Here is an empty table. Remember that the first column holds the letter names for the two variables, and by convention, the independent variable comes first. Fill in your two letter names.
+                    </p>
+                    <tabular bottom="minor" top="minor">
+                        <row left="minor"> 
+                            <cell right="minor"><fillin characters="3"/></cell>
+                            <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                            <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                            <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                            <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                            <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                        </row>
+                        <row left="minor"> 
+                            <cell right="minor"><fillin characters="3"/></cell>
+                            <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                            <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                            <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                            <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                            <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                        </row>
+                    </tabular>
+                </li>
+                <li>
+                    <p>
+                        Here is a bunch of information about the comprehensive fee; your job is to organize it into a table like the one above.
+                    </p>
+                    <p>
+                        In 2 years, the fee is projected to be $71,600. In 4 years, the fee will be $80,200. The fee will reach $89,700 in 6 years, and $100,500 in 8 years. In 10 years, the fee will rise to $112,500.
+                    </p>
+                    <p>
+                        (Isn't it much nicer to organize this information in a table than it is to have it all in written words?)
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+</activity>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-2-one-step">
+    <statement>
+        <p>
+            The comprehensive fee at a local private college is $64,000. The fee is projected to increase by 5.8% per year. Let's test that the two-step method and the one-step method give the same result for the fee next year.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    First, let's try this calculation the two-step way.
+                    <ol marker="i.">
+                        <li>
+                            <p>
+                                Convert 5.8% into decimal form.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Find the amount of this year's increase by multiplying 5.8% in decimal by this year's fee.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Add the amount of increase to this year's fee to find next year's fee.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Now let's try it the one-step way.
+                    <ol marker="i.">
+                        <li>
+                            <p>
+                                Explain why the new fee should be 105.8% of the old fee.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Write 105.8% in decimal form.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Find the new fee by multiplying 105.8% in decimal by this year's fee.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Did you get the same answer both ways? If not, check your work.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Which way do you prefer? Why?
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

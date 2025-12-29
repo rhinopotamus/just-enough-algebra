@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="oa-2-1-plumber-quantities">
+    <introduction>
+        <p>
+            Plumbers usually charge a <em>trip charge</em> <mdash /> which is a set amount to cover their travel time and their professional expertise <mdash /> and then an <em>hourly rate</em> to cover the amount of time they spend working on your sink. The longer it takes them to repair your sink, the more your final bill will be.
+        </p>
+    </introduction>
+    <task xml:id="plumber-quantities-const-var" label="plumber-quantities-const-var">
+        <statement>
+            <p>
+                Say you have picked a specific plumber. Which of these quantities are constants, and which are variables?
+            </p>
+        </statement>
+        <cardsort>
+            <match>
+                <premise>Trip charge</premise>
+                <premise>Hourly rate</premise>
+                <response>Constant</response>
+            </match>
+            <match>
+                <premise>Final bill</premise>
+                <premise>Work time</premise>
+                <response>Variable</response>
+            </match>
+        </cardsort>
+    </task>
+    <task xml:id="plumber-quantities-units" label="plumber-quantities-units">
+        <statement>
+            <p>
+                Match each of these quantities with its units. Note: Some quantities in this story have the same units!
+            </p>
+        </statement>
+        <cardsort>
+            <match>
+                <premise>Trip charge</premise>
+                <premise>Final bill</premise>
+                <response>$</response>
+            </match>
+            <match>
+                <premise>Work time</premise>
+                <response>hours</response>
+            </match>
+            <match>
+                <premise>Hourly rate</premise>
+                <response><m>\dfrac{\text{\$}}{\text{hour}}</m></response>
+            </match>
+        </cardsort>
+    </task>
+
+</exploration>

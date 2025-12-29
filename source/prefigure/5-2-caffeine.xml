@@ -1,0 +1,18 @@
+<diagram xmlns="https://prefigure.org"
+  dimensions="(400,200)" margins="(75,30,25,25)">
+  <definition>J(H)=1000*0.87^H</definition>
+  <coordinates bbox="(0,0,15,1000)">
+    <grid-axes 
+      spacings="((0,1,15),(0,100,1000))"
+      hticks= "(0,5,25)"
+      hlabels="(0,5,25)"
+      vticks= "(0,200,1000)"
+      vlabels="(0,200,1000)"
+      h-zero-label="yes"
+      v-zero-label="yes">
+        <xlabel><m>H</m></xlabel>
+        <ylabel><m>J</m></ylabel>
+    </grid-axes>
+    <graph function="J"/>
+  </coordinates>
+</diagram>

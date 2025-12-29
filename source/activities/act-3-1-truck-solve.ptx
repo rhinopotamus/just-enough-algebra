@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-1-truck-solve">
+    <statement>
+        <p>
+            The equation for the total weight of the truck carrying bags of grass seed is
+            <me>
+                W = 3{,}900 + 4.2B
+            </me>
+            We are interested in finding how many bags the truck is carrying if its total weight is 14,500 pounds.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Is the number 14,500 a value of <m>B</m> or a value of <m>W</m>? (Hint: Think about the units.)
+                </p>
+            </li>
+            <li>
+                <p>
+                    Replace the correct letter in the equation <m>W = 3{,}900 + 4.2B</m> by 14,500.
+                </p>
+            </li>
+            <li>
+                <p>
+                    In previous activities in this chapter, you evaluated this equation at many different values of <m>B</m>. What steps do you do, in what order, to evaluate the equation?
+                </p>
+            </li>
+            <li>
+                <p>
+                    <xref ref="assemblage-shoes-and-socks" text="title"/>: Do the opposite steps in the opposite order to solve this equation.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Check: Is your answer for the number of bags close to the approximate answer you found in <xref ref="act-3-1-truck-approx" text="type-global"/>?
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

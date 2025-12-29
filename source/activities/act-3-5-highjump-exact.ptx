@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-5-highjump-exact">
+    <statement>
+        <p>
+            A high-jumper jumps so that the height, <m>H</m> feet, of the point on his back that must clear the bar after <m>T</m> seconds is given by the equation <me>H = 3.5 + 16T -16T^2</me>.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Rearrange the equation so that the <m>T^2</m> is first, the <m>T</m> is second, and the constant is last. 
+                </p>
+            </li>
+            <li>
+                <p>
+                    Use the <xref ref="quadratic-formula" text="title"/> to find <em>exactly</em> when the high-jumper would hit the ground.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Does your answer make sense according to your work in <xref ref="act-3-5-highjump-approx" text="type-global"/>? If not, check your work.
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

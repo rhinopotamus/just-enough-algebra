@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-1-graph-truck">
+    <statement>
+        <p>
+            Here is a table of values of the weight of the truck carrying grass seed. Fill in your variable names.
+            <tabular bottom="minor" top="minor" halign="center" row-headers="yes">
+                    <row left="minor">
+                        <cell right="minor"><fillin characters="3"/> (indep)</cell>
+                        <cell right="minor">0</cell>
+                        <cell right="minor">100</cell>
+                        <cell right="minor">500</cell>
+                        <cell right="minor">1,200</cell>
+                    </row>
+                    <row left="minor">
+                        <cell right="minor"><fillin characters="3"/> (dep)</cell>
+                        <cell right="minor">3,900</cell>
+                        <cell right="minor">4,320</cell>
+                        <cell right="minor">6,000</cell>
+                        <cell right="minor">8,940</cell>
+                    </row>
+                </tabular>
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Graph these points on the graph paper provided below.
+                </p>
+                <image source='GraphPaper.jpg' width="90%" />
+            </li>
+            <li>
+                <p>
+                    Connect the points in a nice smooth way. Do all the points lie on the same straight line?
+                </p>
+            </li>
+            <li>
+                <p>
+                    Choose any two points from the table of values above and calculate the rate of change between them; your answer should be 4.2. What are the units on your answer, and why does this number make sense in the story?
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

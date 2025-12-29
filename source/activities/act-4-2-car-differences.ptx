@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-4-2-car-differences">
+    <statement>
+        <p>
+            Madison wants to buy a new car, either Car A: a hybrid priced at $26,100, or Car B: a high-efficiency gas car priced at $23,700. Annual fuel costs for Car A are currently $1,100 per year. For Car B annual fuel costs are currently $1,800 per year. The total cost of each car will depend on how many years she keeps it.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Find the difference between the two purchase prices, including units. Write a sentence explaining what your calculation means about the two cars.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Find the difference between the two fuel costs, including units. (Don't forget <q>per year</q>!) Write a sentence explaining what your calculation means about the two cars.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Multiply by the number of years (which is a variable you named earlier!) to cancel out the <q>per year.</q> Write a sentence explaining what your calculation means about the two cars.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Would it make sense to compute <m>26{,}100 - 1{,}800</m>? Why or why not?
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

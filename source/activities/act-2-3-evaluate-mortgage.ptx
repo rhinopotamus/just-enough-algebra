@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-3-evaluate-mortgage">
+    <statement>
+        <p>
+            Dontrell and Kim borrowed money to buy a house on a 30-year mortgage. After <m>T</m> months of making payments, Dontrell and Kim will still owe $<m>D</m> where 
+            <me>D=236{,}000-56{,}000 \ast 1.004^T</me> 
+            <m>D</m> is also known as the <term>payoff</term> <mdash/> how much they would need to pay to settle the debt.
+        </p>
+        <p>
+            For example, if we evaluate at <m>T = 2</m>,
+            <me>
+                D = 236{,}000-56{,}000 \ast 1.004^2 \approx $179{,}550
+            </me>
+            This means that after 2 months of making payments, Dontrell and Kim still owe about $179,550. (Notice that's not how much they've paid so far!)
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Name the variables <m>T</m> and <m>D</m>, including units and dependence.
+                    <xi:include href="../name-variables.ptx" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    Evaluate the equation at <m>T = 12</m>. What does this number mean in terms of the story?
+                </p>
+            </li>
+            <li>
+                <p>
+                    What number would <m>T</m> be at the very beginning of the story?
+                </p>
+            </li>
+            <li>
+                <p>
+                    How much did Dontrell and Kim originally borrow to buy their house?
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-1-5-iv-drops">
+    <statement>
+        <p>
+            Souksavanh is setting up a patient's intravenous (IV) medication. She sets the drip at 42 drops/minute. The drip chamber size is 20 drops/mL. Recall
+            <md>
+                <mrow>
+                    \amp\textbf{milli} \amp
+                    \amp= \amp 
+                    \amp 1 \text{ in a thousand} \amp
+                    \amp =\amp
+                    0\amp.001\amp
+                </mrow>
+                <mrow>
+                    \amp\textbf{micro} \amp
+                    \amp= \amp 
+                    \amp 1 \text{ in a million} \amp
+                    \amp =\amp
+                    0\amp.000~001\amp
+                </mrow>
+            </md>
+            At what rate is the IV fluid being delivered to Souk's patient? Answer in mL/min (millileters per minute).
+        </p>
+    </statement>
+</activity>

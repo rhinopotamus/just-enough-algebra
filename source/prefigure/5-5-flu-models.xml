@@ -1,0 +1,28 @@
+<diagram xmlns="https://prefigure.org"
+  dimensions="(400,200)" margins="(50,30,25,25)">
+  <definition>E(D)=8*1.16^D</definition> 
+  <definition>S(D)=96-88*0.93^D</definition> 
+  <definition>L(D)=129/(1+15*0.825^D)</definition>
+  <coordinates bbox="(0,0,42,200)">
+    <grid-axes
+      spacings="((0,3.5,42),(0,20,200))"
+      hticks= "(0,7,42)"
+      hlabels="(0,7,42)"
+      vticks= "(0,20,200)"
+      vlabels="(0,20,200)"
+      h-zero-label="yes"
+      v-zero-label="yes">
+        <xlabel><m>D</m></xlabel>
+        <ylabel><m>F</m></ylabel>
+    </grid-axes>
+    <graph function="E" at="exp"/>
+    <graph function="S" at="sat" dash="2 2" stroke="red"/>
+    <graph function="L" at="log" dash="7 5" stroke="purple"/>
+    <legend anchor="(bbox[1], bbox[3])"
+            alignment="se">
+      <item ref="exp">Exponential model</item>
+      <item ref="sat">Saturation model</item>
+      <item ref="log">Logistic model</item>
+    </legend>
+  </coordinates>
+</diagram>

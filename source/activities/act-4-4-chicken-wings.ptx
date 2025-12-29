@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-4-3-chicken-wings">
+    <statement>
+        <p>
+            For his Oscars party, Harland had 70 chicken wings delivered for $51.25. For his Super Bowl bash, Harland had 125 chicken wings delivered for $83.70. In each case, the total cost includes the cost per wing and the fixed delivery charge.
+        </p>
+        
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Name the variables in this situation.
+                    <xi:include href="../name-variables.ptx" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    Use the <xref ref="rate-of-change" text="title"/> to compute the slope. Include units!
+                </p>
+            </li>
+            <li>
+                <p>
+                    What does the slope mean in the story?
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

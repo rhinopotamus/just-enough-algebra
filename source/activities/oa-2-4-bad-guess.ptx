@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="oa-2-4-bad-guess">
+    <statement>
+        <p>
+            Sometimes it's hard to get started with the method of successive approximation because you need to make an initial guess. One good way to produce an initial guess is to start with hilariously bad guesses.
+        </p>
+        <p>
+            In <xref ref="sec-2-3-Using_equations" text="type-global"/>, we looked at how many feet it takes for a Cadillac Escalade to stop when it is traveling at a certain speed. Suppose that it took the car 172 feet to stop. How fast was the car going? Let's make some bad guesses without even looking at the equation.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Come up with a hilariously <em>low</em> guess: a speed where the car definitely would have stopped way <em>under</em> 172 feet.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Now come up with a hilariously <em>high</em> guess: a speed where the car definitely would have gone way <em>over</em> 172 feet.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Now that we've made some hilariously bad guesses, we can use them to come up with a better guess. The real speed is somewhere in between your hilariously low guess and your hilariously high guess. What do you think is a more <em>reasonable</em> guess?
+                </p>
+            </li>
+        </ol>
+    </statement>
+</exploration>

@@ -1,0 +1,18 @@
+<diagram xmlns="https://prefigure.org"
+  dimensions="(400,200)" margins="(80,10,25,25)">
+  <definition>P(M)=-2*M^2+2000*M-80000</definition>  
+  <coordinates bbox="(0,-100000,1000,500000)">
+    <grid-axes 
+      spacings="((0,50,1000),(-100000,50000,500000))"
+      vticks= "(-100000,100000,500000)"
+      vlabels="(-100000,100000,500000)"
+      hticks= "(0,100,1000)"
+      hlabels="(0,100,1000)"
+      h-zero-label="yes"
+      v-zero-label="yes">
+        <xlabel><m>M</m></xlabel>
+        <ylabel><m>P</m></ylabel>
+    </grid-axes>
+    <graph function="P"/>
+  </coordinates>
+</diagram>

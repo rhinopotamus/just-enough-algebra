@@ -5,12 +5,12 @@
 
     <bibinfo>
         <author>
-            <personname>Dr. Suzanne Dorée</personname>
+            <personname>Suzanne Dorée</personname>
             <department>Professor of Mathematics</department>
             <institution>Augsburg University</institution>
         </author>
         <author>
-            <personname>Dr. Spencer Bagley</personname>
+            <personname>Spencer Bagley</personname>
             <department>Associate Professor of Mathematics</department>
             <institution>Westminster University</institution>
         </author>
@@ -18,7 +18,7 @@
             <today />
         </date>
         <copyright>
-            <year>2014<ndash />2024</year>
+            <year>2014<ndash />2025</year>
             <holder>Suzanne Dorée</holder>
             <shortlicense> 
                 This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0">CreativeCommons.org</url>

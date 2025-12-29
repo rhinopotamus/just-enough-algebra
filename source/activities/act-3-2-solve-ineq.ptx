@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-2-solve-ineq">
+    <statement>
+        <p>
+            In <xref ref="act-3-2-setup-ineq" text="type-global" />, we set up the inequality
+            <me>
+                3{,}900 + 4.2B \leq 18{,}000
+            </me>
+            to express the fact that a truck must obey the state highway weight limit of 18,000 pounds. 
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Solve this inequality by applying the <xref ref="assemblage-shoes-and-socks" text="title"/>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Another way we could have set up this inequality is 
+                    <me>18{,}000 \geq 3{,}900 + 4.2B</me>
+                    Explain why this inequality expresses the same fact about trucks obeying the weight limit.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Try solving this version of the inequality. Do you get the same result?
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

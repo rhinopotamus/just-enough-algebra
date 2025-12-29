@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-5-3-little-tables">
+    <statement>
+        <p>
+            Making a little table like the one in this section is a really helpful way to set up problems like this. Let's practice. In each story below, name the variables, and then summarize the given values in a table.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    In one town, people picking up food at the food shelf has increased exponentially, from 120 per week in 2005 to 630 per week in 2011.
+                </p>
+                <xi:include href="../name-variables.ptx" />
+                <tabular bottom="minor" top="minor" halign="center" row-headers="yes">
+                    <row left="minor">
+                        <cell right="minor"><fillin characters="3" /> (indep)</cell>
+                        <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                        <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                    </row>
+                    <row left="minor">
+                        <cell right="minor"><fillin characters="3" /> (dep)</cell>
+                        <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                        <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                    </row>
+                </tabular>
+            </li>
+            <li>
+                <p>
+                    In another town, attendance at parent volunteer night in 2016 was 132, and in 2019 there were twice as many parent volunteers.
+                </p>
+                <xi:include href="../name-variables.ptx" />
+                <tabular bottom="minor" top="minor" halign="center" row-headers="yes">
+                    <row left="minor">
+                        <cell right="minor"><fillin characters="3" /> (indep)</cell>
+                        <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                        <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                    </row>
+                    <row left="minor">
+                        <cell right="minor"><fillin characters="3" /> (dep)</cell>
+                        <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                        <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                    </row>
+                </tabular>
+            </li>
+            <li>
+                <p>
+                    In a third town, the number of high school students arrested for driving under the influence is half what it was 5 years ago. (Hint: how might you represent the unknown starting value?)
+                </p>
+                <xi:include href="../name-variables.ptx" />
+                <tabular bottom="minor" top="minor" halign="center" row-headers="yes">
+                    <row left="minor">
+                        <cell right="minor"><fillin characters="3" /> (indep)</cell>
+                        <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                        <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                    </row>
+                    <row left="minor">
+                        <cell right="minor"><fillin characters="3" /> (dep)</cell>
+                        <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                        <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                    </row>
+                </tabular>
+            </li>
+        </ol>
+    </statement>
+</activity>

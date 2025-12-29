@@ -22,19 +22,19 @@
 				</md>
 			</p>
 			<tabular bottom="minor" top="minor">
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="left"><m>T</m></cell>
 					<cell right="minor" halign="right">12</cell>
 					<cell right="minor" halign="right">36</cell>
 					<cell right="minor" halign="right">60</cell>
 				</row>
-				<row left="minor" class="odd">
+				<row left="minor">
 					<cell right="minor" halign="left"><term>First model:</term></cell>
 					<cell right="minor" halign="right">804.48</cell>
 					<cell right="minor" halign="right">1,123.44</cell>
 					<cell right="minor" halign="right">1,442.40</cell>
 				</row>
-				<row left="minor" class="even">
+				<row left="minor">
 					<cell right="minor" halign="left"><term>Second model:</term></cell>
 					<cell right="minor" halign="right">1,033.84</cell>
 					<cell right="minor" halign="right">1,221.52</cell>
@@ -50,7 +50,7 @@
 				<xi:include href="../GraphPaper.ptx" />
 			</statement>
 		</task>
-		<task workspace="1in">
+		<task workspace="2in">
 			<statement>
 				<p>
 					According to your graph, <em>approximately</em> what is the <term>payback time</term> (the number of months for which the total costs of each washing machine are equal)? Answer and indicate the point on the graph where you can check.

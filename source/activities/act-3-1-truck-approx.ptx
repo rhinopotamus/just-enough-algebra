@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-1-truck-approx">
+    <statement>
+        <p>
+            The equation for the total weight of the truck carrying bags of grass seed is
+            <me>
+                W = 3{,}900 + 4.2B
+            </me>
+            Use successive approximation to find approximately how many bags the truck is carrying if its total weight is 14,500 pounds. Give your answer correct to the nearest bag (there's no such thing as a decimal number of bags, anyway).
+            <xi:include href="../successive-approx.ptx" />
+        </p>
+    </statement>
+</activity>

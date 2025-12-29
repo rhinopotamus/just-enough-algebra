@@ -1,0 +1,25 @@
+<diagram xmlns="https://prefigure.org"
+  dimensions="(400,200)" margins="(50,30,25,25)">
+  <definition>B(s)=0.04*s^2</definition>
+  <definition>D(s)=0.04*s^2+1.47*s</definition>
+  <coordinates bbox="(0,0,110,700)">
+    <grid-axes
+      spacings="((0,5,110),(0,50,700))"
+      hticks="(0,10,110)"
+      hlabels="(0,10,110)"
+      vticks="(0,100,700)"
+      vlabels="(0,100,700)"
+      h-zero-label="yes"
+      v-zero-label="yes">
+        <xlabel><m>S</m></xlabel>
+    </grid-axes>
+    <!-- ylabel="distance" -->
+    <graph at="braking" function="B"/>
+    <graph at="stopping" function="D" dash="4 3"/>
+    <legend anchor="(bbox[1], bbox[3])"
+            alignment="se">
+      <item ref="stopping">D = stopping distance</item>
+      <item ref="braking">B = braking distance</item>
+    </legend>
+  </coordinates>
+</diagram>

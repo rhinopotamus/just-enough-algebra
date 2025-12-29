@@ -93,20 +93,20 @@
                 The creeping vine is taking over Fiona's front lawn. Write <m>V</m> for the area covered by the vine (in square feet) and <m>T</m> for time in years since she moved into her house.
             </p>
         </introduction>
-        <task workspace="1.5in">
+        <task workspace="2.25in">
             <statement>
                 <p>
                     When Fiona moved in, vine covered about 3 square feet. She believes it has doubled each year since. Write an exponential equation showing how the area covered by the vine is a function of time. <em>Stuck? Try making a table first.</em>
                 </p>
             </statement>
         </task>
-        <task workspace="2in">
+        <task workspace="2.5in">
             <statement>
                 <p>
                     At some point the vine will take over the entire lawn, so perhaps a saturation model would be better. That equation might be <me>\textbf{Saturation:} \quad V = 170 - 167 \ast 0.8^T</me> Another equation would be a logistic model. Perhaps <me>\textbf{Logistic:} \quad V = \frac{129}{1+ 42 \ast 0.34^T}</me> Fill in the corresponding rows of the table for each model.
                 </p>
                 <tabular bottom="minor" top="minor">
-                    <row left="minor" class="even">
+                    <row left="minor">
                         <cell right="minor" halign="center">years</cell>
                         <cell right="minor" halign="center">0 </cell>
                         <cell right="minor" halign="center">1 </cell>
@@ -116,7 +116,7 @@
                         <cell right="minor" halign="center">5 </cell>
                         <cell right="minor" halign="center">6 </cell>
                     </row>
-                    <row left="minor" class="odd">
+                    <row left="minor">
                         <cell right="minor" halign="center">area (exponential)</cell>
                         <cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int"/></m></cell>
                         <cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int"/></m></cell>
@@ -126,7 +126,7 @@
                         <cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int"/></m></cell>
                         <cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int"/></m></cell>
                     </row>
-                    <row left="minor" class="even">
+                    <row left="minor">
                         <cell right="minor" halign="center">area (saturation)</cell>
                         <cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int"/></m></cell>
                         <cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int"/></m></cell>
@@ -136,7 +136,7 @@
                         <cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int"/></m></cell>
                         <cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int"/></m></cell>
                     </row>
-                    <row left="minor" class="odd">
+                    <row left="minor">
                         <cell right="minor" halign="center">area (logistic)</cell>
                         <cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int"/></m></cell>
                         <cell right="minor" halign="center"><m><fillin fill="\displaystyle\int\int"/></m></cell>

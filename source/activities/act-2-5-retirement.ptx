@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-5-retirement">
+    <statement>
+        <p>
+            Kiran puts $400 a month in her retirement account that amazingly also earns 7% interest compounded monthly. Use the <xref ref="future-value-annuity-formula" text="title"/> to determine how much Kiran will have in her retirement account in 28 years.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    In the formula, what number should we use for <m>p</m>?
+                </p>
+            </li>
+            <li>
+                <p>
+                    In the formula, what number should we use for <m>r</m>?
+                </p>
+            </li>
+            <li>
+                <p>
+                    In the formula, what number should we use for <m>y</m>?
+                </p>
+            </li>
+            <li>
+                <p>
+                    Plug everything in and evaluate to find Kiran's retirement account balance after 28 years.
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

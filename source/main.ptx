@@ -7,19 +7,19 @@
     <book xml:id="just-enough-algebra">
         <!-- This xml:id points to the table of contents. -->
         <title>Just Enough Algebra</title>
-        <subtitle>- Summer 2025 edition</subtitle>
+        <subtitle>Summer 2025 edition</subtitle>
 
         <!-- Include frontmatter -->
         <xi:include href="./frontmatter.ptx" />
 
         <!-- Include chapters -->
 
-        <xi:include href="./ch-Prelude.ptx" />
-        <xi:include href="./ch-Variables.ptx" />
-        <xi:include href="./ch-Equations.ptx" />
-        <xi:include href="./ch-Solving_equations.ptx" />
-        <xi:include href="./ch-Closer_look_linear.ptx" />
-        <xi:include href="./ch-Closer_look_exponential.ptx" />
+        <xi:include href="./ch-0-Prelude.ptx" />
+        <xi:include href="./ch-1-Variables.ptx" />
+        <xi:include href="./ch-2-Equations.ptx" />
+        <xi:include href="./ch-3-Solving_equations.ptx" />
+        <xi:include href="./ch-4-Closer_look_linear.ptx" />
+        <xi:include href="./ch-5-Closer_look_exponential.ptx" />
 
         <!-- Backmatter -->
 

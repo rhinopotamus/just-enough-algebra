@@ -1,0 +1,53 @@
+INFO    : Building target workbook
+INFO    : XSL conversion of /home/spencer/github/jea-summer-2025/source/main.ptx by /home/spencer/.ptx/2.33.2/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/spencer/.ptx/2.33.2/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : Generating any needed assets.
+INFO    : Finished generating assets.
+
+INFO    : Building with custom xsl /home/spencer/github/jea-summer-2025/xsl/custom-latex-workbook.xsl
+INFO    : Preparing to build into /home/spencer/github/jea-summer-2025/output/workbook.
+INFO    : discovering source file's directory name: /home/spencer/github/jea-summer-2025/source
+INFO    : verifying and expanding input directory: /home/spencer/github/jea-summer-2025/source/../generated-assets
+INFO    : input directory expanded to absolute path: /home/spencer/github/jea-summer-2025/generated-assets
+INFO    : verifying and expanding input directory: /home/spencer/github/jea-summer-2025/source/../assets
+INFO    : input directory expanded to absolute path: /home/spencer/github/jea-summer-2025/assets
+INFO    : verifying and expanding input directory: /home/spencer/github/jea-summer-2025/source/data
+INFO    : input directory expanded to absolute path: /home/spencer/github/jea-summer-2025/source/data
+INFO    : XSL conversion of /home/spencer/github/jea-summer-2025/source/main.ptx by /home/spencer/.ptx/2.33.2/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : successful application of /home/spencer/.ptx/2.33.2/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : converting /home/spencer/github/jea-summer-2025/source/main.ptx to LaTeX as /tmp/ptx-5_emmbzh/main.tex
+INFO    : XSL conversion of /home/spencer/github/jea-summer-2025/source/main.ptx by /tmp/ptxcli_faukndei/cli_xsl/custom-latex-workbook.xsl
+INFO    : messages from the log for XSL processing:
+INFO    : * PTX:INFO:   checking all deprecated elements.
+ERROR   : * PTX:ERROR:   a cross-reference ("xref") uses references [flu-dorm-first-look-exponential] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    : *              located within: "flu-dorm-modeling-exponential" (xml:id)
+ERROR   : * PTX:ERROR:   a cross-reference ("xref") uses references [log-divides-formula] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+ERROR   : * PTX:ERROR:   a cross-reference ("xref") uses references [bunnies-prelude-scientific-notation] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    : *              located within: "bunnies-modeling-exponential" (xml:id)
+ERROR   : * PTX:ERROR:   a cross-reference ("xref") uses references [bunnies-first-look-exponential] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+ERROR   : * PTX:ERROR:   a cross-reference ("xref") uses references [log-divides-formula] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    : *              located within: "Do you know " (title)
+ERROR   : * PTX:ERROR:   a cross-reference ("xref") uses references [log-divides-formula] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+ERROR   : * PTX:ERROR:   a cross-reference ("xref") uses references [fiber-optic-prelude-scientific-notation] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    : *              located within: "fiber-optic-growth-decay" (xml:id)
+ERROR   : * PTX:ERROR:   a cross-reference ("xref") uses references [fiber-optic-powers-roots] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+ERROR   : * PTX:ERROR:   a cross-reference ("xref") uses references [sec-1-1-Variables_and_functions] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    : *              located within: "grandfather-bonds-growth-factor" (xml:id)
+ERROR   : * PTX:ERROR:   a cross-reference ("xref") uses references [chlorine-pool-solving-exponential] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    : *              located within: "chlorine-pool-growth-factor" (xml:id)
+INFO    : successful application of /tmp/ptxcli_faukndei/cli_xsl/custom-latex-workbook.xsl
+INFO    : Removing temporary directory /tmp/ptx-5_emmbzh
+INFO    : Removing temporary directory /tmp/ptx-e2cyr8jo
+INFO    : Removing temporary directory /tmp/ptx-u9rnxaej
+INFO    : 
+Finished build for target workbook. The output is in /home/spencer/github/jea-summer-2025/output/workbook.
+
+CRITICAL: There were errors during the build.  See above.
+INFO    : ------------------------
+CRITICAL: Failed to build without errors.  Exiting...
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------

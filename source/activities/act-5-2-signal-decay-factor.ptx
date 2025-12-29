@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-5-2-signal-decay-factor">
+    <statement>
+        <p>
+            A signal is sent down a fiber optic cable. Its strength decreases by 2% each mile it travels. (Say it was one unit strong to start.)
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    What is the decay rate <m>r</m>? (Hint: your answer should be negative.)
+                </p>
+            </li>
+            <li>
+                <p>
+                    What is the decay factor <m>g</m>? (Hint: your answer should be a little less than 100%, or a little less than 1 in decimal form.)
+                </p>
+            </li>
+            <li>
+                <p>
+                    Use the variable names you wrote in <xref ref="act-5-2-signal-step-by-step"/> to write an equation describing this story.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Make a table showing the strength of the signal over the first five miles.
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

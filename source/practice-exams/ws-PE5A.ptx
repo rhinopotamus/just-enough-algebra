@@ -98,7 +98,7 @@
                 The number of geese in the Twin Cities metropolitan area increased from 480 in 1968 to 25,000 in 1994. Although population is sometimes modeled with exponential models, there are many factors that might make an exponential model inappropriate, such as changes in migration, wetlands, and hunting.
             </p>
         </introduction>
-        <task workspace="1in">
+        <task workspace="1.5in">
             <statement>
                 <p>
                     Name the variables, including units and dependence.
@@ -112,7 +112,7 @@
                 </p>
             </statement>
         </task>
-        <task workspace="2.5in">
+        <task workspace="3in">
             <statement>
                 <p>
                     Now write an exponential equation modeling the goose population.

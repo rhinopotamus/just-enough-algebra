@@ -1,0 +1,25 @@
+INFO    : Staging deployment according to strategy pelican_default
+INFO    : Staging `web-summer-2025` at `/home/spencer/github/jea-summer-2025/output/stage/summer-2025`.
+WARNING : No build for `web` was found in the directory `/home/spencer/github/jea-summer-2025/output/web`.Try running `pretext build web` to build this component first.
+INFO    : Skipping this target for now.
+INFO    : Staging generated site at `/home/spencer/github/jea-summer-2025/output/stage`.
+INFO    : XSL conversion of /home/spencer/github/jea-summer-2025/source/main.ptx by /home/spencer/.ptx/2.33.2/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/spencer/.ptx/2.33.2/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : Deployment is now staged at `/home/spencer/github/jea-summer-2025/output/stage`.
+INFO    : Preparing to deploy from active `summer-2025` git branch.
+
+INFO    : Committing your latest build to the `gh-pages` branch.
+INFO    : 
+INFO    : Attempting to connect to remote repository at `https://github.com/rhinopotamus/jea-summer-2025.git`...
+INFO    : Latest build successfully pushed to GitHub!
+
+INFO    : To enable GitHub Pages, visit
+INFO    :     https://github.com/rhinopotamus/jea-summer-2025/settings/pages
+INFO    : selecting the `gh-pages` branch with the `/ (root)` folder.
+
+INFO    : Visit
+INFO    :     https://github.com/rhinopotamus/jea-summer-2025/actions/
+INFO    : to check on the status of your GitHub Pages deployment.
+
+INFO    : Your built project will soon be available to the public at:
+INFO    :     https://rhinopotamus.github.io/jea-summer-2025/

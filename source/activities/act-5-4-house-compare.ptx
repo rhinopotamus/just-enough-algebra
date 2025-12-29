@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-5-4-house-compare">
+    <statement>
+        <p>
+            My parents bought the house I grew up in for $35,000 and sold it 40 years later for $342,000. Let's compare the linear model and the exponential model we have found for the value of the house.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Draw a graph of the linear model you made in <xref ref="act-5-4-house-linear" text="type-global"/> and the exponential model you made in <xref ref="act-5-4-house-exp" text="type-global"/>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Using the variables you named in <xref ref="act-5-4-house-setup" text="type-global"/>, write an exponential equation showing how the value of the house increased.
+                </p>
+            </li>
+            <li>
+                <p>
+                    According to the <alert>linear</alert> model, when did the house reach a value of $200,000? Estimate from your graph, and then set up and solve an equation.
+                </p>
+            </li>
+            <li>
+                <p>
+                    According to the <alert>exponential</alert> model, when did the house reach a value of $200,000? Estimate from your graph, and then set up and solve an equation.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Which model do you think is more realistic, and why? (No wrong answers!)
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

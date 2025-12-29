@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-1-5-pop-gdp">
+    <statement>
+        <p>
+            In 2011, the GDP (gross domestic product) of the United States was approximately $15,596 billion, and the population of the United States was approximately 0.313 billion.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Rewrite the population as a number of people, both in normal decimal notation (that means with all the 0s) and in scientific notation.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Rewrite the GDP in dollars, both in normal decimal notation and in scientific notation.
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

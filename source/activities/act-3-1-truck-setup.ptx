@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-1-truck-setup">
+    <statement>
+        <p>
+            Let's revisit the truck hauling bags of grass seed. Remember, the truck weighs 3,900 pounds when it is empty. Each bag of grass seed it carries weighs 4.2 pounds. The equation for the total weight is
+            <me>
+                W = 3{,}900 + 4.2B
+            </me>
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Name the variables in this story, including units and dependence.
+                    <xi:include href="../name-variables.ptx" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    Choose a few reasonable values of <m>B</m> to evaluate this equation. Record your answers in the table below.
+                </p>
+                <tabular bottom="minor" top="minor" halign="center" row-headers="yes">
+                    <row left="minor">
+                        <cell right="minor"><m>B</m></cell>
+                        <cell right="minor">0</cell>
+                        <cell right="minor">
+                            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+                            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+                        </cell>
+                        <cell right="minor">
+                            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+                            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+                        </cell>
+                        <cell right="minor">
+                            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+                            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+                        </cell>
+                        <cell right="minor">
+                            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+                            <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+                        </cell>
+                    </row>
+                    <row left="minor">
+                        <cell right="minor"><m>W</m></cell>
+                        <cell right="minor">3,900</cell>
+                        <cell right="minor"></cell>
+                        <cell right="minor"></cell>
+                        <cell right="minor"></cell>
+                        <cell right="minor"></cell>
+                    </row>
+                </tabular>
+            </li>
+            <li>
+                <p>
+                    Use your table of values to estimate how many bags of grass seed the truck is carrying if its total weight is 14,500 pounds.
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

@@ -68,13 +68,13 @@
 			</p>
 	
 			<tabular bottom="minor" top="minor">
-			<row left="minor" class="even">
+			<row left="minor">
 				<cell right="minor" halign="left">Age (weeks)</cell>
 				<cell right="minor" halign="center">0</cell>
 				<cell right="minor" halign="center">12</cell>
 				<cell right="minor" halign="center">15</cell>
 			</row>
-			<row left="minor" class="odd">
+			<row left="minor">
 				<cell right="minor" halign="left">Weight (pounds)</cell>
 				<cell right="minor" halign="center">8</cell>
 				<cell right="minor" halign="center">14</cell>

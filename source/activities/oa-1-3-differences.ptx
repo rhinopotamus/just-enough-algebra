@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="oa-1-3-differences">
+    <p>
+        Here's the data about smoking rates from <xref ref="sec-1-2-Tables_and_graphs" text="type-global"/>:
+    </p>
+
+    <tabular bottom="minor" top="minor" halign="center" row-headers="yes">
+        <row left="minor">
+            <cell right="minor">Year</cell>
+            <cell right="minor">1900</cell>
+            <cell right="minor">1915</cell>
+            <cell right="minor">1930</cell>
+            <cell right="minor">1940</cell>
+            <cell right="minor">1950</cell>
+            <cell right="minor">1965</cell>
+            <cell right="minor">1975</cell>
+            <cell right="minor">1990</cell>
+            <cell right="minor">2000</cell>
+            <cell right="minor">2006</cell>
+        </row>
+        <row left="minor">
+            <cell right="minor">Smoking rate</cell>
+            <cell right="minor">54</cell>
+            <cell right="minor">285</cell>
+            <cell right="minor">1,485</cell>
+            <cell right="minor">1,976</cell>
+            <cell right="minor">3,552</cell>
+            <cell right="minor">4,258</cell>
+            <cell right="minor">4,122</cell>
+            <cell right="minor">2,834</cell>
+            <cell right="minor">2,049</cell>
+            <cell right="minor">1,619</cell>
+        </row>
+    </tabular>
+
+    <ol marker="(a)">
+        <li>
+            <p>
+                How much higher was the smoking rate in 1950 than it was in 1940?
+            </p>
+        </li>
+        <li>
+            <p>
+                How much lower was the smoking rate in 2000 than it was in 1975?
+            </p>
+        </li>
+    </ol>
+
+
+</exploration>

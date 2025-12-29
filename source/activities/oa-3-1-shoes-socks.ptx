@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="oa-3-1-shoes-socks">
+    <statement>
+        <p>
+            A very useful idea whenever we talk about solving is the <term>shoes and socks principle</term>, which we'll explore in this activity.
+        </p>
+        <p>
+            Bleepblorp the friendly alien has arrived on our planet, and is interested in human footwear.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Write Bleepblorp a set of careful, step-by-step instructions about how to put on shoes and socks.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Oh no! Bleepblorp absolutely hates wearing shoes and socks! Write Bleepblorp a set of careful, step-by-step instructions about how to <em>remove</em> the footwear.
+                </p>
+            </li>
+            <li>
+                <p>
+                    What do you notice about the steps in your putting-on instructions vs. the steps in your removing instructions?
+                </p>
+            </li>
+        </ol>
+    </statement>
+</exploration>

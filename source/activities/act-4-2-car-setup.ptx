@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-4-2-car-setup">
+    <statement>
+        <p>
+            Madison wants to buy a new car, either Car A: a hybrid priced at $26,100, or Car B: a high-efficiency gas car priced at $23,700. Annual fuel costs for Car A are currently $1,100 per year. For Car B annual fuel costs are currently $1,800 per year. The total cost of each car will depend on how many years she keeps it.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Name the variables, including units.
+                </p>
+                <xi:include href="../name-variables.ptx" />
+            </li>
+            <li>
+                <p>
+                    Write a linear equation for the total cost (including purchase price and fuel costs) of <term>Car A</term> as a function of how long she keeps it. Assume fuel costs are constant.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Write a linear equation for the total cost (including purchase price and fuel costs) of <term>Car B</term> as a function of how long she keeps it. Assume fuel costs are constant.
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-3-steps-pizza">
+    <statement>
+        <p>
+            A pizza of diameter <m>D</m> inches serves <m>P</m> people where 
+            <me>P = 0.015625\, D^2.</me>
+            Let's think about the evaluating steps in this equation.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    How many people does a 16-inch pizza serve? How about a 12-inch pizza?
+                </p>
+            </li>
+            <li>
+                <p>
+                    What are the evaluating steps in this equation?        
+                    <ol marker="1.">
+                        <li>
+                            <p>
+                                <nbsp/>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <nbsp/>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </li>
+        </ol>
+        
+    </statement>
+</activity>

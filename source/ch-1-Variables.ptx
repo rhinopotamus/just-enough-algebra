@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-1-Variables" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Variables</title>
+
+    <introduction component="not-workbook">
+        <p>
+            Believe it or not, algebra is useful.  Really useful. It's useful in later courses you might take in mathematics, statistics, science, social science, or business.  But it's also useful in real life.  A lot of what happens in the world around us is easier to understand using algebra.  That's what this course is all about:  using algebra to answer questions.
+        </p>
+
+        <p>
+            The philosophy of this course is captured in this quote by Ethan Bolker from his text <q>Using Algebra</q>:
+        </p>
+        
+        <blockquote>
+            <p>
+                With common sense and some algebra you can understand the world better than you can with common sense alone.
+            </p>
+        </blockquote>
+        <p>       
+            In this first chapter we introduce the key concepts of variable and function that help us translate between problems stated in words and the mathematics explaining a situation.  We explain the important tools of units, tables, and graphs.  We also describe how functions change using the fundamental concept of rate of change.  Throughout this chapter we keep a careful eye on evaluating the reasonableness of answers by connecting what we learn from algebra with our own life experience. After all, an answer to a real problem should make sense, right?
+        </p>
+
+        <p>
+            Some of our approach may feel strange to you.  It is possibly very different from what you've seen in mathematics classes before.   It might take you a little time to get used to, but it will be worth it.
+        </p>
+    </introduction>
+
+    <xi:include href="./sec-1-1-Variables_and_functions.ptx" />
+    <xi:include href="./sec-1-2-Tables_and_graphs.ptx" />
+    <xi:include href="./sec-1-3-Rate_of_change.ptx" />
+    <xi:include href="./sec-1-4-Units.ptx" />
+    <xi:include href="./sec-1-5-Metric_system_and_scientific_notation.ptx" />
+
+    <!-- practice exams -->
+
+    <section xml:id="sec-PE1A">
+        <title>Practice Exam 1A</title>
+        <xi:include href="./practice-exams/ws-PE1A.ptx" />
+        
+    </section>
+    <section xml:id="sec-PE1B">
+        <title>Practice Exam 1B</title>
+        <xi:include href="./practice-exams/ws-PE1B.ptx" />
+        
+    </section>
+    
+    
+
+    
+
+</chapter>

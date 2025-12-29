@@ -18,11 +18,11 @@
 			
 			<p>
 				<term>Caution:</term> These review exercises do not include every possible problem you might be asked on a final exam. For example, there are no problems here from Sections 
-				<xref ref="sec-Metric_system_and_scientific_notation" text="global"/>,
-				<xref ref="sec-Finance" text="global"/>,
-				<xref ref="sec-Solving_quadratic_equations" text="global"/>,
-				<xref ref="sec-Fitting_lines_to_data" text="global"/>, or
-				<xref ref="sec-Logistic_growth"/>,
+				<xref ref="sec-1-5-Metric_system_and_scientific_notation" text="global"/>,
+				<xref ref="sec-2-5-Finance" text="global"/>,
+				<xref ref="sec-3-5-Solving_quadratic_equations" text="global"/>,
+				<xref ref="sec-4-5-Fitting_lines_to_data" text="global"/>, or
+				<xref ref="sec-5-5-Logistic_growth"/>,
 				so be sure to ask your instructor which of those sections are going to be on your final exam.
 			</p>
 		</introduction>
@@ -36,7 +36,7 @@
 				</p>
 				<image source='CarProduction.png'/>
 			</introduction>
-			<task workspace="1.75in">
+			<task workspace="2.75in">
 				<statement>
 					<p>
 						Identify the variables, including units and dependence.
@@ -85,7 +85,7 @@
 	</page>
 
 	<page>
-		<exercise xml:id="stuffed-animals-PE6A" workspace="0.9in">
+		<exercise xml:id="stuffed-animals-PE6A" workspace="1.4in">
 			<introduction>
 				<p>
 					Sarah and Koal are bringing a large basket of stuffed animals to the crisis nursery as gifts for the children. They estimate it will cost $<m>T</m> for <m>S</m> stuffed animals where <me>T = 39.99 + 6.95S</me>
@@ -105,7 +105,7 @@
 					</p>
 				</statement>
 			</task>
-			<task>
+			<task workspace="1in">
 				<statement>
 					<p>
 						What does the 6.95 represent and what are its units?

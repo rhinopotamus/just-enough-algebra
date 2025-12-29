@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-4-3-direct-props">
+    <statement>
+        <p>
+            In some of these stories, the two variables are directly proportional (intercept = 0). In others, the variables are not directly proportional (intercept is not 0). Your job is to decide which is which.
+        </p>
+        <p>
+            For each problem, begin by naming the variables. Then think about the intercept.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Bob puts $20 worth of gas in his car and can drive 250 miles before filling up again.
+                    <xi:include href="../name-variables.ptx" />
+                    Is this situation directly proportional?
+                </p>
+            </li>
+            <li>
+                <p>
+                    An orchestra of 120 musicians takes 40 minutes to play Beethoven's 9th Symphony.
+                    <xi:include href="../name-variables.ptx" />
+                    Is this situation directly proportional?
+                </p>
+            </li>
+            <li>
+                <p>
+                    Clyde is loading bricks weighing 4.5 pounds each onto his wheelbarrow. The wheelbarrow weighs 89 pounds when it has 16 bricks in it. 
+                    <xi:include href="../name-variables.ptx" />
+                    Is this situation directly proportional?
+                </p>
+            </li>
+            <li>
+                <p>
+                    When Evelyn woke up, there was 5” of snow in her yard. One hour later, there was 14” of snow in her yard.
+                    <xi:include href="../name-variables.ptx" />
+                    Is this situation directly proportional?
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

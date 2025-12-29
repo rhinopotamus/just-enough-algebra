@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<p>
+<tabular 
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    component="not-workbook"
+    left="minor" 
+    bottom="minor" 
+    top="minor" 
+    halign="center" 
+    width="100%">
+    <row header="yes">
+        <cell>letter</cell>
+        <cell>=</cell>
+        <cell>everyday words</cell>
+        <cell>(units)</cell>
+        <cell>~</cell>
+        <cell right="minor">dep or indep</cell>
+    </row>
+    <row>
+        <cell></cell>
+        <cell>=</cell>
+        <cell><m>\qquad\qquad\qquad\qquad\qquad</m></cell>
+        <cell><m>\displaystyle\Big(\qquad\Big)</m></cell>
+        <cell>~</cell>
+        <cell right="minor"></cell>
+    </row>
+    <row>
+        <cell></cell>
+        <cell>=</cell>
+        <cell></cell>
+        <cell><m>\displaystyle\Big(\qquad\Big)</m></cell>
+        <cell>~</cell>
+        <cell right="minor"></cell>
+    </row>
+</tabular>
+
+<latex-image 
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    component="workbook">
+    \hspace{-2cm}
+\begin{tikzpicture}
+    \matrix (v) 
+        [matrix of nodes,
+        nodes={
+            align=center,
+            font=\bfseries
+        },
+        minimum height=3.5em,
+        minimum width=2em,
+        text depth=1ex,
+        text height=2ex,
+        nodes in empty cells,
+        row 1/.style={minimum height=1.5em},
+        column 3/.style={text width=0.6\linewidth},
+        column 6/.style={text width=5em}
+        ]
+    {
+        letter\amp =\amp everyday words\amp (units)\amp {\huge\textasciitilde} \amp 
+        |[text depth = 1.5em, anchor=center]| dep or indep\\
+        \phantom{letter}\amp=\amp\amp\Bigg(\phantom{units}\Bigg)\amp{\huge\textasciitilde}\amp\\
+        \phantom{letter}\amp=\amp\amp\Bigg(\phantom{units}\Bigg)\amp{\huge\textasciitilde}\amp\\
+    };
+    \draw[black] (v-1-1.north west) rectangle (v-1-6.south east);
+    \draw[black] (v-2-1.north west) rectangle (v-2-6.south east);
+    \draw[black] (v-3-1.north west) rectangle (v-3-6.south east);
+\end{tikzpicture}
+</latex-image>
+</p>

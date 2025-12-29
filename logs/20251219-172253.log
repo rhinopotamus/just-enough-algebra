@@ -1,0 +1,32 @@
+INFO    : Building target workbook
+INFO    : XSL conversion of /home/spencer/github/jea-summer-2025/source/main.ptx by /home/spencer/.ptx/2.33.2/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/spencer/.ptx/2.33.2/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : Generating any needed assets.
+INFO    : Finished generating assets.
+
+INFO    : Building with custom xsl /home/spencer/github/jea-summer-2025/xsl/custom-latex-workbook.xsl
+INFO    : Preparing to build into /home/spencer/github/jea-summer-2025/output/workbook.
+INFO    : discovering source file's directory name: /home/spencer/github/jea-summer-2025/source
+INFO    : verifying and expanding input directory: /home/spencer/github/jea-summer-2025/source/../generated-assets
+INFO    : input directory expanded to absolute path: /home/spencer/github/jea-summer-2025/generated-assets
+INFO    : verifying and expanding input directory: /home/spencer/github/jea-summer-2025/source/../assets
+INFO    : input directory expanded to absolute path: /home/spencer/github/jea-summer-2025/assets
+INFO    : verifying and expanding input directory: /home/spencer/github/jea-summer-2025/source/data
+INFO    : input directory expanded to absolute path: /home/spencer/github/jea-summer-2025/source/data
+INFO    : XSL conversion of /home/spencer/github/jea-summer-2025/source/main.ptx by /home/spencer/.ptx/2.33.2/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : successful application of /home/spencer/.ptx/2.33.2/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : converting /home/spencer/github/jea-summer-2025/source/main.ptx to LaTeX as /tmp/ptx-hw5d28vb/main.tex
+INFO    : XSL conversion of /home/spencer/github/jea-summer-2025/source/main.ptx by /tmp/ptxcli_fp72eqbv/cli_xsl/custom-latex-workbook.xsl
+INFO    : messages from the log for XSL processing:
+INFO    : * PTX:INFO:   checking all deprecated elements.
+INFO    : successful application of /tmp/ptxcli_fp72eqbv/cli_xsl/custom-latex-workbook.xsl
+INFO    : Removing temporary directory /tmp/ptx-hw5d28vb
+INFO    : Removing temporary directory /tmp/ptx-a9hjp55l
+INFO    : Removing temporary directory /tmp/ptx-_tqa_brs
+INFO    : 
+Finished build for target workbook. The output is in /home/spencer/github/jea-summer-2025/output/workbook.
+
+INFO    : 
+Success!  Built requested target(s) without errors.
+
+INFO    : 

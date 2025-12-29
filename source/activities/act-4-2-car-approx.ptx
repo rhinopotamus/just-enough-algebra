@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-4-2-car-approx">
+    <statement>
+        <p>
+            Madison wants to buy a new car, either Car A: a hybrid priced at $26,100, or Car B: a high-efficiency gas car priced at $23,700. Annual fuel costs for Car A are currently $1,100 per year. For Car B annual fuel costs are currently $1,800 per year. The total cost of each car will depend on how many years she keeps it.
+        </p>
+        <p>
+            Use successive approximation to approximate the <term>payoff time</term>, or the number of years for which the total costs of each car are equal. Figure out your answer accurate to the nearest half-year.
+        </p>
+        <tabular bottom="minor" top="minor" halign="center" row-headers="yes">
+            <row left="minor">
+                <cell right="minor"><fillin characters="3" /> (indep)</cell>
+                <cell right="minor">
+                    <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+                    <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+                </cell>
+                <cell right="minor">
+                    <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+                    <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+                </cell>
+                <cell right="minor">
+                    <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+                    <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+                </cell>
+                <cell right="minor">
+                    <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+                    <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+                </cell>
+                <cell right="minor">
+                    <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+                    <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+                </cell>
+                <cell right="minor">
+                    <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+                    <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+                </cell>
+                <cell right="minor">
+                    <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+                    <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+                </cell>
+                <cell right="minor">
+                    <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+                    <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+                </cell>
+                <cell right="minor">
+                    <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+                    <nbsp/><nbsp/><nbsp/><nbsp/><nbsp/>
+                </cell>
+            </row>
+            <row left="minor">
+                <cell right="minor"><fillin characters="3" /> (Car A)</cell>
+                <cell right="minor"></cell>
+                <cell right="minor"></cell>
+                <cell right="minor"></cell>
+                <cell right="minor"></cell>
+                <cell right="minor"></cell>
+                <cell right="minor"></cell>
+                <cell right="minor"></cell>
+                <cell right="minor"></cell>
+                <cell right="minor"></cell>
+            </row>
+            <row left="minor">
+                <cell right="minor"><fillin characters="3" /> (Car B)</cell>
+                <cell right="minor"></cell>
+                <cell right="minor"></cell>
+                <cell right="minor"></cell>
+                <cell right="minor"></cell>
+                <cell right="minor"></cell>
+                <cell right="minor"></cell>
+                <cell right="minor"></cell>
+                <cell right="minor"></cell>
+                <cell right="minor"></cell>
+            </row>
+            <row left="minor">
+                <cell right="minor">A / B cheaper?</cell>
+                <cell right="minor"></cell>
+                <cell right="minor"></cell>
+                <cell right="minor"></cell>
+                <cell right="minor"></cell>
+                <cell right="minor"></cell>
+                <cell right="minor"></cell>
+                <cell right="minor"></cell>
+                <cell right="minor"></cell>
+                <cell right="minor"></cell>
+            </row>
+        </tabular>
+    </statement>
+</activity>

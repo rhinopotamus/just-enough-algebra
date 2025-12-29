@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="oa-5-4-linear-vs-exponential">
+    <statement>
+        <p>
+            Let's think about some of the properties of linear models and exponential models.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    What are the constants in a <em>linear</em> model, and what do they mean in a story?
+                </p>
+            </li>
+            <li>
+                <p>
+                    What are the constants in an <em>exponential</em> model, and what do they mean in a story?
+                </p>
+            </li>
+            <li>
+                <p>
+                    How does the shape of the graph of a <em>linear</em> model compare to the shape of a graph of an <em>exponential</em> model?
+                </p>
+            </li>
+            <li>
+                <p>
+                    What other differences do you see between these two kinds of equations?
+                </p>
+            </li>
+        </ol>
+    </statement>
+</exploration>

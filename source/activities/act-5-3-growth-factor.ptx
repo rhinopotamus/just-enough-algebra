@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-5-3-growth-factor">
+    <statement>
+        <p>
+            Use the tables you created in <xref ref="act-5-3-little-tables" text="type-global"/>, together with the <xref ref="growth-factor-formula" text="title"/>, to figure out the growth factor <m>g</m> in each story below.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    In one town, people picking up food at the food shelf has increased exponentially, from 120 per week in 2005 to 630 per week in 2011.
+                </p>
+                <p>
+                    <m>g = </m>
+                </p>
+            </li>
+            <li>
+                <p>
+                    In another town, attendance at parent volunteer night in 2016 was 132, and in 2019 there were twice as many parent volunteers.
+                </p>
+                <p>
+                    <m>g = </m>
+                </p>
+            </li>
+            <li>
+                <p>
+                    In a third town, the number of high school students arrested for driving under the influence is half what it was 5 years ago. (Hint: Do you actually need to know the unknown starting value?)
+                </p>
+                <p>
+                    <m>g = </m>
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

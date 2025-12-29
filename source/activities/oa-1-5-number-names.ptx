@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="oa-1-5-number-names">
+    <p>
+        In everyday language, we use number names like <q>thousand,</q>, <q>million,</q> <q>billion,</q> and maybe even <q>trillion</q> to describe very large numbers:
+        <md>
+            <mrow>
+                \amp 1 \textbf{ thousand} \amp
+                \amp =\amp
+                1{,}000\amp
+            </mrow>
+            <mrow>
+                \amp 1 \textbf{ million} \amp
+                \amp =\amp
+                1{,}000{,}000\amp
+            </mrow>
+            <mrow>
+                \amp 1 \textbf{ billion} \amp
+                \amp=\amp
+                1{,}000{,}000{,}000\amp
+            </mrow>
+            <mrow>
+                \amp 1 \textbf{ trillion} \amp
+                \amp=\amp
+                1{,}000{,}000{,}000{,}000\amp
+            </mrow>
+        </md>
+
+        Let's spend some time thinking about how these numbers relate to each other. For instance, since
+        <me>
+            \dfrac{1 \textbf{ million}}{1 \textbf{ thousand}} = 
+            \dfrac{1{,}000{,}\cancel{000}}{1{,}\cancel{000}} =
+            1{,}000
+        </me>,
+        a million is a thousand thousands.
+    </p>
+    <ol marker="(a)">
+        <li>
+            <p>
+                How many millions is one billion?
+            </p>
+        </li>
+        <li>
+            <p>
+                How many billions is one trillion?
+            </p>
+        </li>
+        <li>
+            <p>
+                How many thousands is one million?
+            </p>
+        </li>
+    </ol>
+
+</exploration>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-1-equation-truck">
+    <statement>
+        <p>
+            Let's practice writing an equation for the weight of the truck hauling bags of grass seed. Remember, this particular truck weighs 3,900 pounds when it is empty, and each bag of grass seed weighs 4.2 pounds.            
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    In our example calculation, we figured out the weight of the truck when it is carrying 1,000 bags of grass seed:
+                    <me>
+                        3{,}900 \text{ pounds} + \frac{4.2 \text{ pounds}}{\text{bag}} \ast 1{,}000 \text{  bags} 
+                        = 8{,}100 \text{ pounds}
+                    </me>
+                    Which numbers in this calculation are constants, and which numbers are values of variables?
+                </p>
+            </li>
+            <li>
+                <p>
+                    We decided that the independent variable is the number of bags of grass seed the truck is carrying. What letter did you choose for this variable, and which number is that in the calculation above?
+                </p>
+            </li>
+            <li>
+                <p>
+                    We decided that the dependent variable is the total weight of the loaded truck. What letter did you choose for this variable, and which number is that in the calculation above?
+                </p>
+            </li>
+            <li>
+                <p>
+                    Write down an <term>equation</term> by replacing the numbers in the calculation above by the letters you chose. Remember that it is a convention to begin equations with the dependent variable.
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

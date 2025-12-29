@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-5-4-house-setup">
+    <statement>
+        <p>
+            My parents bought the house I grew up in for $35,000 and sold it 40 years later for $342,000. True story. (It was before the housing bubble burst.)
+        </p>
+        <p>
+            Name the variables in this story, and summarize the given information in a table.
+        </p>
+        <xi:include href="../name-variables.ptx" />
+        <tabular bottom="minor" top="minor" halign="center" row-headers="yes">
+            <row left="minor">
+                <cell right="minor"><fillin characters="3" /> (indep)</cell>
+                <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+            </row>
+            <row left="minor">
+                <cell right="minor"><fillin characters="3" /> (dep)</cell>
+                <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+                <cell right="minor"><m><fillin fill="\displaystyle\int\int"/></m></cell>
+            </row>
+        </tabular>
+    </statement>
+</activity>

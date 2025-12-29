@@ -1,0 +1,22 @@
+<diagram xmlns="https://prefigure.org"
+  dimensions="(400,200)" margins="(30,30,25,25)">
+  <definition>h(t)=3+5.4*t-4.88*t^2</definition>
+  <!-- lol don't ask me why gravity is slightly wrong -->
+  <coordinates bbox="(0,0,1.6,5)">
+    <grid-axes
+      vticks="(0,1,5)"
+      vlabels="(0,1,5)"
+      hticks="(0, 0.2, 1.6)"
+      hlabels="(0, 0.2, 1.6)"
+      spacings="((0,0.1,1.6),(0,0.5,5))"
+      h-zero-label="yes"
+      v-zero-label="yes">
+        <xlabel><m>T</m></xlabel>
+        <ylabel><m>H</m></ylabel>
+    </grid-axes>
+    <graph function="h"/>
+    <repeat parameter="k=0..7">
+      <point p="(0.2*k, h(0.2*k))"/>
+    </repeat>
+  </coordinates>
+</diagram>

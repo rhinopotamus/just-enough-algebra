@@ -1,0 +1,25 @@
+<diagram xmlns="https://prefigure.org" 
+         dimensions="(500,300)" 
+         margins="(60,30,25,25)">
+  <read name="df" filename="4-5-road-salt.csv"
+        string-columns="['County']"/>
+  <definition>S(L) = 20.26*L-4610</definition>
+  <coordinates bbox="(0,0,1600,18000)">
+    <grid-axes
+      hticks ="(0,200,1600)"
+      hlabels="(0,200,1600)"
+      vticks ="(0,2000,18000)"
+      vlabels="(0,2000,18000)"
+      h-zero-label="yes"
+      v-zero-label="yes"
+      spacings="((0,100,1600),(0,2000,18000))">
+        <xlabel><m>L</m></xlabel>
+        <ylabel><m>S</m></ylabel>
+    </grid-axes>
+    <graph function="S" />
+    <scatter fill="blue" 
+             data="df"
+             x="Length"
+             y="Salt"/>
+  </coordinates>
+</diagram>

@@ -1,0 +1,65 @@
+INFO    : Building target workbook
+INFO    : XSL conversion of /home/spencer/github/jea-summer-2025/source/main.ptx by /home/spencer/.ptx/2.33.2/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/spencer/.ptx/2.33.2/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : Generating any needed assets.
+INFO    : Finished generating assets.
+
+INFO    : Building with custom xsl /home/spencer/github/jea-summer-2025/xsl/custom-latex-workbook.xsl
+INFO    : Preparing to build into /home/spencer/github/jea-summer-2025/output/workbook.
+INFO    : discovering source file's directory name: /home/spencer/github/jea-summer-2025/source
+INFO    : verifying and expanding input directory: /home/spencer/github/jea-summer-2025/source/../generated-assets
+INFO    : input directory expanded to absolute path: /home/spencer/github/jea-summer-2025/generated-assets
+INFO    : verifying and expanding input directory: /home/spencer/github/jea-summer-2025/source/../assets
+INFO    : input directory expanded to absolute path: /home/spencer/github/jea-summer-2025/assets
+INFO    : verifying and expanding input directory: /home/spencer/github/jea-summer-2025/source/data
+INFO    : input directory expanded to absolute path: /home/spencer/github/jea-summer-2025/source/data
+INFO    : XSL conversion of /home/spencer/github/jea-summer-2025/source/main.ptx by /home/spencer/.ptx/2.33.2/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : successful application of /home/spencer/.ptx/2.33.2/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : converting /home/spencer/github/jea-summer-2025/source/main.ptx to LaTeX as /tmp/ptx-8yzychzf/main.tex
+INFO    : XSL conversion of /home/spencer/github/jea-summer-2025/source/main.ptx by /tmp/ptxcli_xql9xmq6/cli_xsl/custom-latex-workbook.xsl
+INFO    : messages from the log for XSL processing:
+INFO    : * PTX:INFO:   checking all deprecated elements.
+ERROR   : * PTX:ERROR:   a cross-reference ("xref") uses references [riverside-rent-solving-exponential] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    : *              located within: "riverside-rent-variables-functions" (xml:id)
+ERROR   : * PTX:ERROR:   a cross-reference ("xref") uses references [sec-0-1-Approximation_and_rounding] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    : *              located within: "rounding-variables-functions" (xml:id)
+ERROR   : * PTX:ERROR:   a cross-reference ("xref") uses references [sec-0-2-Arithmetic_operations] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    : *              located within: "time-variables-functions" (xml:id)
+ERROR   : * PTX:ERROR:   a cross-reference ("xref") uses references [sec-0-7-Algebraic_notation] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+ERROR   : * PTX:ERROR:   a cross-reference ("xref") uses references [sec-2-4-Approx_solutions] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    : *              located within: "bac-variables-functions" (xml:id)
+ERROR   : * PTX:ERROR:   a cross-reference ("xref") uses references [bac-solving-exponential] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+ERROR   : * PTX:ERROR:   a cross-reference ("xref") uses references [wind-chill-modeling-linear] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    : *              located within: "wind-chill-tables-graphs" (xml:id)
+ERROR   : * PTX:ERROR:   a cross-reference ("xref") uses references [wedding-rental-linear-ineq] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    : *              located within: "wedding-rental-tables-graphs" (xml:id)
+ERROR   : * PTX:ERROR:   a cross-reference ("xref") uses references [juan-coffee-order-operations] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    : *              located within: "juan-coffee-tables-graphs" (xml:id)
+ERROR   : * PTX:ERROR:   a cross-reference ("xref") uses references [juan-coffee-first-look-linear] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+ERROR   : * PTX:ERROR:   a cross-reference ("xref") uses references [juan-coffee-systems-linear] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+ERROR   : * PTX:ERROR:   a cross-reference ("xref") uses references [wedding-rental-linear-ineq] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    : *              located within: "wedding-rental-rate-of-change" (xml:id)
+ERROR   : * PTX:ERROR:   a cross-reference ("xref") uses references [gdp-prelude-scientific-notation] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    : *              located within: "gdp-scientific-notation" (xml:id)
+ERROR   : * PTX:ERROR:   a cross-reference ("xref") uses references [dust-particle-prelude-scientific-notation] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    : *              located within: "dust-particle-scientific-notation" (xml:id)
+ERROR   : * PTX:ERROR:   a cross-reference ("xref") uses references [earth-weight-prelude-scientific-notation] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    : *              located within: "planet-weight-scientific-notation" (xml:id)
+ERROR   : * PTX:ERROR:   a cross-reference ("xref") uses references [sec-0-1-Approximation_and_rounding] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    : *              located within: "iv-drip-scientific-notation" (xml:id)
+INFO    : successful application of /tmp/ptxcli_xql9xmq6/cli_xsl/custom-latex-workbook.xsl
+INFO    : Removing temporary directory /tmp/ptx-8yzychzf
+INFO    : Removing temporary directory /tmp/ptx-271ldvzs
+INFO    : Removing temporary directory /tmp/ptx-vbgqgiwy
+INFO    : 
+Finished build for target workbook. The output is in /home/spencer/github/jea-summer-2025/output/workbook.
+
+CRITICAL: There were errors during the build.  See above.
+INFO    : ------------------------
+CRITICAL: Failed to build without errors.  Exiting...
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-5-4-house-exp">
+    <statement>
+        <p>
+            My parents bought the house I grew up in for $35,000 and sold it 40 years later for $342,000. Let's find an <alert>exponential</alert> model for the value of the house.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Use the information in the table you made in <xref ref="act-5-4-house-setup" text="type-global"/> to calculate the <xref ref="growth-factor-formula" text="custom">annual growth factor</xref>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Using the variables you named in <xref ref="act-5-4-house-setup" text="type-global"/>, write an exponential equation showing how the value of the house increased.
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

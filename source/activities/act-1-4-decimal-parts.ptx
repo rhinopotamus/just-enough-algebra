@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-1-4-decimal-parts">
+    <statement>
+        <p>
+            Just like we often convert between inches and decimal feet, we often convert between minutes and decimal hours.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Use the fact that 1 hour = 60 minutes to write down two unit conversion fractions:
+                    <me>
+                        1 = \dfrac{<fillin fill="2.54" /> \text{ hour}}
+                                  {<fillin fill="1.00" /> \text{ minutes}}
+                        \quad \text{and} \quad
+                        1 = \dfrac{<fillin fill="2.54" /> \text{ minutes}}
+                                  {<fillin fill="1.00" /> \text{ hour}}
+                    </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Is 57 minutes closer to one hour or to half an hour? Explain your thinking.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Cameron studied for 7 hours and 57 minutes. Convert this time into decimal hours using one of your unit conversion fractions in part (a).
+                </p>
+            </li>
+            <li>
+                <p>
+                    Explain why 7 hours and 57 minutes is <em>not</em> the same as 7.57 hours.
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="oa-4-3-meaning-slope">
+    <statement>
+        <p>
+            Refresh your memory about identifying and explaining slopes by thinking about these stories. For each story below, say what number the slope is, identify the units of the slope (hint: it should involve <q>per</q>!), and explain what it means in the context of the story.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    One of Quia Xun's lock machine options has the equation
+                    <me>E = 5{,}400 + 0.80L</me>,
+                    where <m>E</m> is the total expenditure (in $) to produce <m>L</m> locks.
+                </p>
+            </li>
+            <li>
+                <p>
+                    The equation for the weight <m>W</m>, in pounds, of a truck carrying <m>B</m> bags of grass seed: 
+                    <me>W = 3{,}900 + 4.2 B</me>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    If Juan buys the discount card at his favorite local coffee shop, then his total cost <m>T</m>, in $, for buying <m>M</m> mugs of coffee is
+                    <me>T = 10.00 + 2.90 M</me>.
+                </p>
+            </li>
+        </ol>
+    </statement>
+</exploration>

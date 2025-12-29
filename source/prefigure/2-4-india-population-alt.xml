@@ -1,0 +1,21 @@
+<diagram dimensions="(400,200)" margins="(50,30,25,25)" 
+  xmlns="https://prefigure.org">
+  <definition>P(t)=1.409*1.0072^t</definition>  
+  <definition>target(t)=1.75</definition>
+  <coordinates bbox="(0,0,50,2.5)">
+    <grid-axes 
+      spacings="((0,2.5,50),(0,0.25,2.5))"
+      hticks="(0,2.5,50)"
+      hlabels="(0,5,50)"
+      vticks="(0,0.5,2.5)"
+      vlabels="(0,0.5,2.5)"
+      h-zero-label="yes"
+      v-zero-label="yes">
+        <xlabel><m>Y</m></xlabel>
+        <ylabel><m>P</m></ylabel>
+    </grid-axes>
+    <graph function="P"/>
+    <graph function="target"
+      dash="9 9"/>
+  </coordinates>
+</diagram>

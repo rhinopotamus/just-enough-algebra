@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-4-steps-bac">
+    <statement>
+        <p>
+            After his first beer, Stephen's blood alcohol content (BAC) was already 0.04 and as he continued to drink, his BAC level rose 45% per hour. The equation is 
+            <me>S = 0.04 \ast 1.45^T</me> 
+            where <m>S</m> is Stephen's BAC and <m>T</m> is the time, measured in hours.
+            Let's think about the evaluating steps in this equation.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    What is Stephen's BAC after 1 hour? After 2 hours?
+                </p>
+            </li>
+            <li>
+                <p>
+                    What are the evaluating steps in this equation?        
+                    <ol marker="1.">
+                        <li>
+                            <p>
+                                <nbsp/>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <nbsp/>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </li>
+        </ol>
+        
+    </statement>
+</activity>

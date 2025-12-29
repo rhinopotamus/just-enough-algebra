@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-3-steps-cube">
+    <statement>
+        <p>
+            The weight of a wood cube is a function of the length of the sides. A cube with sides each <m>E</m> inches long has weight <m>W</m> ounces according to the equation<me>W = 0.76\, E^3.</me>
+            Let's think about the evaluating steps in this equation.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    What is the weight of a cube with sides 2 inches long? 3 inches?
+                </p>
+            </li>
+            <li>
+                <p>
+                    What are the evaluating steps in this equation?        
+                    <ol marker="1.">
+                        <li>
+                            <p>
+                                <nbsp/>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <nbsp/>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </li>
+        </ol>
+        
+    </statement>
+</activity>

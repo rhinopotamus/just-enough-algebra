@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<diagram dimensions="(400,200)" margins="(70,30,25,25)"
+  xmlns="https://prefigure.org">
+  <definition>W(B)=3900+4.2*B</definition>
+  <definition>hi(B)=18000</definition>
+  <definition>lo(B)=8000</definition>  
+  <coordinates bbox="(0,0,4000,20000)">
+    <grid-axes 
+      xlabel="B"
+      ylabel="W" 
+      spacings="((0,250,4000),(0,2500,20000))"
+      hticks ="(0,500,4000)"
+      hlabels="(0,500,4000)"
+      vticks="(0,5000,20000)"
+      vlabels="(0,5000,20000)"
+      h-zero-label="yes"
+      v-zero-label="yes">
+        <xlabel><m>B</m></xlabel>
+        <ylabel><m>W</m></ylabel>
+    </grid-axes>
+    <graph function="hi" dash="9 9"/>
+    <graph function="lo" dash="9 9"/>
+  </coordinates>
+</diagram>

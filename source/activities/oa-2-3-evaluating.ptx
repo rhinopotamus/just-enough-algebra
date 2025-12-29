@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="oa-2-3-evaluating">
+    <statement>
+        <p>
+            In <xref ref="sec-2-2-First_look_exponential" text="type-global"/>, we looked at the equation
+            <me>
+                H = 2.26\ast 1.067^{Y}
+            </me>
+            that predicted health care costs, <m>H</m>, measured in trillions of dollars, as a function of <m>Y</m>, the number of years since 2007.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Evaluate this equation at <m>Y = 5</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Write a sentence explaining what your result means. To help you get started, here's a template: 
+                    <q>Our equation predicts that in <fillin characters="3" /> years after 2007, health care costs were $<fillin characters="3" /> trillion.</q>
+                </p>
+            </li>
+        </ol>
+    </statement>
+</exploration>

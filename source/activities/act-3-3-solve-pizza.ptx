@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-3-solve-pizza">
+    <statement>
+        <p>
+            A pizza of diameter <m>D</m> inches serves <m>P</m> people where 
+            <me>P = 0.015625\, D^2.</me>
+            Let's use the <xref ref="assemblage-shoes-and-socks" text="title"/> to solve this equation symbolically.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Fill in the evaluating steps and the solving steps for this equation.
+                    <sidebyside widths="50% 50%">
+                        <p>
+                            Evaluating steps:
+                            <ol marker="1.">
+                                <li>
+                                    <p>
+                                        <nbsp/>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <nbsp/>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                        <p>
+                            Solving steps:
+                            <ol marker="1.">
+                                <li>
+                                    <p>
+                                        <nbsp/>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <nbsp/>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </sidebyside>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Set up and solve an equation to figure out the diameter of a personal pizza (<m>P=1</m>).
+                </p>
+            </li>
+            <li>
+                <p>
+                    Draw a graph of the equation to confirm your answer.
+                </p>
+            </li>
+        </ol>
+        
+    </statement>
+</activity>

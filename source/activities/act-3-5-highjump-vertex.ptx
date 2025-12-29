@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-5-highjump-vertex">
+    <statement>
+        <p>
+            A high-jumper jumps so that the height, <m>H</m> feet, of the point on his back that must clear the bar after <m>T</m> seconds is given by the equation <me>H = 3.5 + 16T -16T^2</me>.
+        </p>
+        <figure xml:id="fig-3-5-act3-high-jumper">
+            <caption><m>H</m> = the height of the high jumper, as a function of <m>T</m>= time.</caption>
+                <image>
+                <shortdescription>Height of a high jumper vs. time</shortdescription>
+                <prefigure xmlns="https://prefigure.org"
+                    label="prefigure-act3-high-jumper">
+                    <xi:include href="../prefigure/3-5-high-jumper.xml" />
+                </prefigure>
+            </image>
+        </figure>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    How high a bar can the high-jumper clear? Use the graph above to <em>estimate</em> the height of the highest point on the graph.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Evaluate at <m>\displaystyle T=\frac{-b}{2a}</m> to find the highest point <em>exactly</em>.
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

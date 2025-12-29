@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="oa-3-5-reminder-quadratic">
+    <statement>
+        <p>
+            A good way to get things to stick in your brain is to try to remember them without looking them up. Even if you get them wrong at first, the effort of trying to recall them is helpful!
+        </p>
+        <p>
+            Test your memory by seeing if you can answer these questions without looking back at <xref ref="sec-2-3-Using_equations" text="type-global"/>.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    What is the general template for a quadratic equation?
+                </p>
+            </li>
+            <li>
+                <p>
+                    How many constants show up in a quadratic equation?
+                </p>
+            </li>
+            <li>
+                <p>
+                    How many times does the independent variable appear in a quadratic equation?
+                </p>
+            </li>
+        </ol>
+    </statement>
+</exploration>

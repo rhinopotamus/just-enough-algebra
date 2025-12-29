@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-5-highjump-approx">
+    <statement>
+        <p>
+            A high-jumper jumps so that the height, <m>H</m> feet, of the point on his back that must clear the bar after <m>T</m> seconds is given by the equation <me>H = 3.5 + 16T -16T^2</me>.
+        </p>
+
+        <figure xml:id="fig-3-5-act-high-jumper">
+            <caption><m>H</m> = the height of the high jumper, as a function of <m>T</m>= time.</caption>
+                <image>
+                <shortdescription>Height of a high jumper vs. time</shortdescription>
+                <prefigure xmlns="https://prefigure.org"
+                    label="prefigure-act-high-jumper">
+                    <xi:include href="../prefigure/3-5-high-jumper.xml" />
+                </prefigure>
+            </image>
+        </figure>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Use the graph above to find <em>approximately</em> when the high-jumper would hit the ground (if there were no pit).
+                </p>
+            </li>
+            <li>
+                <p>
+                    Use successive approximation to refine your guess.
+                </p>
+                <xi:include href="../successive-approx.ptx" />
+            </li>
+        </ol>
+    </statement>
+</activity>

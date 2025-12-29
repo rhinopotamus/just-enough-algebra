@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-1-compute-truck">
+    <statement>
+        <p>
+            A truck hauling bags of grass seed pulls into a weigh station along the highway. Trucks are weighed to determine the amount of highway tax. This particular truck weighs 3,900 pounds when it is empty. Each bag of grass seed it carries weighs 4.2 pounds. For example, a truck carrying 1,000 bags of grass seed weighs
+            <me>
+                3{,}900 \text{ pounds} + \frac{4.2 \text{ pounds}}{\text{bag}} \ast 1{,}000 \text{  bags} 
+                = 3{,}900 + 4.2\times 1{,}000
+                = 8{,}100 \text{ pounds}
+            </me>
+            
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Name the variables in this story.
+                    <xi:include href="../name-variables.ptx" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    How much does the truck weigh if it contains 2,000 bags of grass seed?
+                </p>
+            </li>
+            <li>
+                <p>
+                    What if the truck contains just 700 bags of grass seed?
+                </p>
+            </li>
+            <li>
+                <p>
+                    Organize your results in a table. Fill in your letter names, and remember that the independent variable comes first!
+                </p>
+                <tabular bottom="minor" top="minor" halign="center" row-headers="yes">
+                    <row left="minor">
+                        <cell right="minor"><fillin characters="3"/> (indep)</cell>
+                        <cell right="minor">1,000</cell>
+                        <cell right="minor"><fillin characters="5" /></cell>
+                        <cell right="minor"><fillin characters="5" /></cell>
+                    </row>
+                    <row left="minor">
+                        <cell right="minor"><fillin characters="3"/> (dep)</cell>
+                        <cell right="minor">8,100</cell>
+                        <cell right="minor"><fillin characters="5" /></cell>
+                        <cell right="minor"><fillin characters="5" /></cell>
+                    </row>
+                </tabular>
+            </li>
+            <li>
+                <p>
+                    How come the truck carrying 2,000 bags of grass seed isn't twice as heavy as the truck carrying 1,000 bags of grass seed?
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

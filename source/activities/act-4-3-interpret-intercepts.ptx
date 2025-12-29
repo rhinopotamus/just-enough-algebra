@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-4-3-interpret-intercepts">
+    <statement>
+        <p>
+            For each of the stories below, write a sentence explaining what the intercept would mean in the context of the story. (Note: there's not enough information here to determine what number the intercept is!)
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Maryn is very happy. After logging many billable hours, her interior design business is finally showing a profit. 
+                </p>
+            </li>
+            <li>
+                <p>
+                    Since she has been pregnant, Zoe has gained the recommended amount of weight each week.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Clyde is loading bricks into his wheelbarrow. Each brick makes the total weight go up a bit.
+                </p>
+            </li>
+            <li>
+                <p>
+                    To make several batches of cookies, it takes a few minutes to prepare the dough, and then each batch bakes in the oven for another few minutes.
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

@@ -15,7 +15,7 @@
                         <row header="yes">
                             <cell>letter name</cell>
                             <cell>=</cell>
-                            <cell>human words</cell>
+                            <cell>everyday words</cell>
                             <cell>(units)</cell>
                             <cell>~</cell>
                             <cell right="minor">dep or indep</cell>
@@ -49,7 +49,7 @@
                         <row header="yes">
                             <cell>letter name</cell>
                             <cell>=</cell>
-                            <cell>human words</cell>
+                            <cell>everyday words</cell>
                             <cell>(units)</cell>
                             <cell>~</cell>
                             <cell right="minor">dep or indep</cell>

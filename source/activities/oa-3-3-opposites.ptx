@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="oa-3-3-opposites">
+    <statement>
+        <p>
+            So far, we have learned to solve linear equations (and inequalities), which are the simplest kinds of equations because they only involve adding, subtracting, multiplying, and dividing. We know what the opposite is of each of those operations, so we can follow the <xref ref="order-operations" text="title"/> to unravel them.
+        </p>
+        <p>
+            For each equation below, list the steps that you would do when evaluating, and then list the opposite steps in the opposite order that you would do when solving.
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    The equation for the weight of the grass seed truck:
+                    <m>W = 3{,}900 + 4.2B</m>
+                </p>
+                <sidebyside widths="50% 50%">
+                    <p>
+                        Evaluating steps:
+                        <ol marker="1.">
+                            <li>
+                                <p>
+                                    <nbsp/>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <nbsp/>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <p>
+                        Solving steps:
+                        <ol marker="1.">
+                            <li>
+                                <p>
+                                    <nbsp/>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <nbsp/>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </sidebyside>
+            </li>
+            <li>
+                <p>
+                    The equation for the altitude of a descending airplane:
+                    <m>A = 32{,}000 - 1{,}200T</m>
+                </p>
+                <sidebyside widths="50% 50%">
+                    <p>
+                        Evaluating steps:
+                        <ol marker="1.">
+                            <li>
+                                <p>
+                                    <nbsp/>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <nbsp/>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <p>
+                        Solving steps:
+                        <ol marker="1.">
+                            <li>
+                                <p>
+                                    <nbsp/>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <nbsp/>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </sidebyside>
+            </li>
+            <li>
+                <p>
+                    The equation for the z-score of blueberry plants:
+                    <m>
+                        Z = \dfrac{B-130}{16.4}
+                    </m>
+                </p>
+                <sidebyside widths="50% 50%">
+                    <p>
+                        Evaluating steps:
+                        <ol marker="1.">
+                            <li>
+                                <p>
+                                    <nbsp/>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <nbsp/>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <p>
+                        Solving steps:
+                        <ol marker="1.">
+                            <li>
+                                <p>
+                                    <nbsp/>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <nbsp/>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </sidebyside>
+            </li>
+        </ol>
+    </statement>
+</exploration>

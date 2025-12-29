@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-5-2-signal-halflife">
+    <statement>
+        <p>
+            A signal is sent down a fiber optic cable. Its strength decreases by 2% each mile it travels. (Say it was one unit strong to start.)
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Set up and solve an equation to find the half-life (or should we say <q>half-distance</q>?) of the signal. That means, how far can the signal travel without dropping below a strength of 0.5? 
+                </p>
+            </li>
+            <li>
+                <p>
+                    Check your answer on the graph you drew in <xref ref="act-5-2-signal-roc-graph" text="type-global"/>.
+                </p>
+            </li>
+        </ol>
+        <p>
+            (By the way, this wouldn't actually happen, because we would boost the signal once it got below 0.75.)
+        </p>
+    </statement>
+</activity>

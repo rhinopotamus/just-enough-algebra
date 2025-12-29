@@ -1,0 +1,26 @@
+<diagram xmlns="https://prefigure.org"
+  dimensions="(400,200)" margins="(75,30,25,25)">
+  <definition>E(L)=3200+1.25*L</definition>  
+  <definition>F(L)=5400+0.8*L</definition>
+  <coordinates bbox="(0,0,10000,15000)">
+    <grid-axes 
+      spacings="((0,400,10000),(0,1000,15000))"
+      hticks= "(0,2000,10000)"
+      hlabels="(0,2000,10000)"
+      vticks= "(0,5000,15000)"
+      vlabels="(0,5000,15000)"
+      h-zero-label="yes"
+      v-zero-label="yes">
+        <xlabel><m>L</m></xlabel>
+        <ylabel><m>E</m></ylabel>
+    </grid-axes>
+    <graph at="E1" function="E"/>
+    <graph at="E2" function="F" dash="3 3"/>
+    <legend anchor="(bbox[0], bbox[3])"
+	    alignment="se" opacity="0.9"
+	    scale="0.9" vertical-skip="10">
+      <item ref="E1">Machine 1</item>
+      <item ref="E2">Machine 2</item>
+    </legend>
+  </coordinates>
+</diagram>

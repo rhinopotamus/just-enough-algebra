@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-5-2-signal-step-by-step">
+    <statement>
+        <p>
+            A signal is sent down a fiber optic cable. Its strength decreases by 2% each mile it travels. (Say it was one unit strong to start.)
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Name the variables in this story.
+                    <xi:include href="../name-variables.ptx" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    How strong is the signal after one mile?
+                </p>
+            </li>
+            <li>
+                <p>
+                    How strong is the signal after two miles? (Hint: the answer is not 0.96.)
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

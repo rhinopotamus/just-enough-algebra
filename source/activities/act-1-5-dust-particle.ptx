@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-1-5-dust-particle">
+    <statement>
+        <p>
+            After vacuuming his apartment, Edgar did a little research online and found out that the mass of a dust particle is <me>0.000~000~000~753\text{ kilograms.}</me>(The strange-looking spaces are to help you see that there are 9 zeros in the number.)
+        </p>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Write the mass of a dust particle in kilograms, using scientific notation.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Write the mass of a dust particle in grams, using scientific notation. (Remember that 1 kilogram = 1,000 grams.)
+                </p>
+            </li>
+        </ol>
+    </statement>
+</activity>

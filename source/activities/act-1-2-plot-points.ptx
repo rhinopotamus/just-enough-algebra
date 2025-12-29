@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-1-2-plot-points">
+    <statement>
+        <p>
+            Here's a table of data about the comprehensive fee for the private college again. Fill in your own letter names for the variables.
+        </p>
+        <!-- f(t) = 64000 * 1.058^{t}, rounded to nearest hundred -->
+        <tabular bottom="minor" top="minor" halign="center" row-headers="yes">
+            <row left="minor">
+                <cell right="minor"><fillin characters="3"/> = time (years)</cell>
+                <cell right="minor">0</cell>
+                <cell right="minor">2</cell>
+                <cell right="minor">4</cell>
+                <cell right="minor">6</cell>
+                <cell right="minor">8</cell>
+                <cell right="minor">10</cell>
+            </row>
+            <row left="minor">
+                <cell right="minor"><fillin characters="3"/> = comprehensive fee ($)</cell>
+                <cell right="minor">64,000</cell>
+                <cell right="minor">71,600</cell>
+                <cell right="minor">80,200</cell>
+                <cell right="minor">89,700</cell>
+                <cell right="minor">100,500</cell>
+                <cell right="minor">112,500</cell>
+            </row>
+        </tabular>
+        <p>
+            In <xref ref="act-1-2-choose-scale" text="type-global"/> we chose good scales for both axes; now we'll use the scales we chose to plot the points in the table. Here's the sample graph paper again:
+        </p>
+        <image source='GraphPaper.jpg' width="90%" />
+        <p>
+            <ol marker="(a)">
+                <li>
+                    <p>
+                        Let's start with the point where the time is 4 years and the comprehensive fee is $80,200. Find where 4 years is located on your horizontal axis, and find where $80,200 is located on your vertical axis. Draw a point where those two locations meet.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Draw all the rest of the points given in the table. Don't forget the one where the time is 0 years and the comprehensive fee is $64,000!
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Draw in a nice smooth curve connecting all the points.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Use the curve you drew to guess what the comprehensive fee will be in 7 years.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        What do you think the water level might be after 15 years?
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+</activity>
