@@ -8,3 +8,4 @@ Things I am not sure about:
   - Cloudflare's Worker tracks jea-summer-2025 currently, for instance.
   - Ah ha, it is in the ["2026" branch of jea-summer-2025](https://github.com/rhinopotamus/jea-summer-2025/tree/2026)
 - Didn't I make like a custom workflow yml?
+- Or was I just doing build-branch-build to set up the /stage folder correctly?
