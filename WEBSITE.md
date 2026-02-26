@@ -1,9 +1,7 @@
 Things I definitely remember:
 - the website is built by pelican
 - the main page in particular is html that I generated in some other way and then copy-pasted
-- I made some comments / prs / whatever in a discussion with Oscar
-    - Not sure which repo that was in
-    - But probably I have gmails about it
+- [Relevant discussion in pretext-cli](https://github.com/PreTeXtBook/pretext-cli/discussions/766#discussioncomment-15378863)
 
 Things I am not sure about:
 - Did I build this off just-enough-algebra or off jea-summer-2025?
